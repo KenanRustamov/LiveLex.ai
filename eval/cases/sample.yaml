@@ -1,0 +1,22 @@
+# Minimal example cases for evaluation (placeholders)
+# Each item can represent a scenario/question and an expected behavior.
+- id: object-labeling-001
+  description: "The user looks at a coffee mug and is quizzed about it."
+  input:
+    messages:
+      - role: user
+        content: "What is this? (image placeholder)"
+    observations:
+      - kind: image
+        payload:
+          note: "image bytes placeholder"
+  expected:
+    rubric: "Assistant should ask a simple question about the mug in the target language."
+- id: directions-quiz-002
+  description: "The user is at a crosswalk and the system asks for directions vocab."
+  input:
+    messages:
+      - role: user
+        content: "I'm at a crosswalk."
+  expected:
+    rubric: "Assistant should propose a short multiple-choice prompt about crosswalk-related verbs."

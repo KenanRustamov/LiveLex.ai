@@ -1,6 +1,4 @@
-# AI Glasses – Run the App
-
-A minimal full-stack starter for an AI-powered, live language learning app that mimics “smart-glasses” on the web.
+# LiveLex.ai – Run the App
 
 - **Frontend:** Next.js 14 + Tailwind (mobile-style shell)
 - **Backend:** FastAPI (REST + WebSocket stubs, CORS, env config)
@@ -21,7 +19,7 @@ A minimal full-stack starter for an AI-powered, live language learning app that 
 ## Monorepo Layout
 
 ```
-ai-glasses-starter/
+LiveLex/
   apps/
     frontend/             # Next.js + Tailwind shell
       app/                # App Router: layout + page
@@ -89,8 +87,6 @@ docker compose up --build
 - Frontend: http://localhost:3000  
 - Backend: http://localhost:8000  
 - `docker-compose.yml` uses `apps/backend/.env.example` for backend env defaults.
-
-> Tip: To pass real secrets in Docker, create and reference a proper `.env` file instead of the example.
 
 ---
 
@@ -181,12 +177,6 @@ Output is printed as JSON.
 
 - **Node/Python version issues:**  
   Use Node 18+ and Python 3.11+. Clear installs (`rm -rf node_modules && npm i`, recreate venv).
-
-- **501 Not Implemented:**  
-  This is by design. Implement your logic in:
-  - Frontend camera: `apps/frontend/components/CameraView.tsx`
-  - Backend chat: `apps/backend/app/routers/chat.py`
-  - Backend streaming: `apps/backend/app/routers/vision.py`
 
 ---
 
