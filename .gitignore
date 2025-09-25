@@ -1,0 +1,19 @@
+# Node/Next
+node_modules
+.next
+.turbo
+.vercel
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Env
+.env
+.env.*
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
