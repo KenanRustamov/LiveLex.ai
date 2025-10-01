@@ -5,12 +5,15 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 type VideoDevice = MediaDeviceInfo & { kind: 'videoinput' };
 
 const STREAM_TO_BACKEND = false; // set to true when your backend /v1/observe is ready
+const CAPTURE_PREVIEW_DURATION_MS = 3000;
 
 export default function CameraView() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const sampleTimerRef = useRef<number | null>(null);
+  const capturePreviewTimerRef = useRef<number | null>(null);
+  const capturePreviewUrlRef = useRef<string | null>(null);
 
   const [running, setRunning] = useState(false);
   const [devices, setDevices] = useState<VideoDevice[]>([]);
@@ -19,6 +22,7 @@ export default function CameraView() {
   const [error, setError] = useState<string | null>(null);
   const [torchAvailable, setTorchAvailable] = useState(false);
   const [torchOn, setTorchOn] = useState(false);
+  const [capturePreviewUrl, setCapturePreviewUrl] = useState<string | null>(null);
 
   const backendUrl = useMemo(
     () => process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000',
@@ -94,6 +98,15 @@ export default function CameraView() {
       window.clearInterval(sampleTimerRef.current);
       sampleTimerRef.current = null;
     }
+    if (capturePreviewTimerRef.current) {
+      window.clearTimeout(capturePreviewTimerRef.current);
+      capturePreviewTimerRef.current = null;
+    }
+    if (capturePreviewUrlRef.current) {
+      URL.revokeObjectURL(capturePreviewUrlRef.current);
+      capturePreviewUrlRef.current = null;
+    }
+    setCapturePreviewUrl(null);
     if (streamRef.current) {
       streamRef.current.getTracks().forEach(t => t.stop());
       streamRef.current = null;
@@ -150,9 +163,24 @@ export default function CameraView() {
     );
     if (!blob) return;
 
-    // For demo: open captured image in a new tab
+    if (capturePreviewUrlRef.current) {
+      URL.revokeObjectURL(capturePreviewUrlRef.current);
+      capturePreviewUrlRef.current = null;
+    }
     const url = URL.createObjectURL(blob);
-    window.open(url, '_blank');
+    capturePreviewUrlRef.current = url;
+    setCapturePreviewUrl(url);
+    if (capturePreviewTimerRef.current) {
+      window.clearTimeout(capturePreviewTimerRef.current);
+    }
+    capturePreviewTimerRef.current = window.setTimeout(() => {
+      if (capturePreviewUrlRef.current) {
+        URL.revokeObjectURL(capturePreviewUrlRef.current);
+        capturePreviewUrlRef.current = null;
+      }
+      setCapturePreviewUrl(null);
+      capturePreviewTimerRef.current = null;
+    }, CAPTURE_PREVIEW_DURATION_MS);
 
     // Optionally POST to backend
     if (STREAM_TO_BACKEND) {
@@ -231,6 +259,19 @@ export default function CameraView() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeDeviceId, facing]);
 
+  useEffect(() => {
+    return () => {
+      if (capturePreviewTimerRef.current) {
+        window.clearTimeout(capturePreviewTimerRef.current);
+        capturePreviewTimerRef.current = null;
+      }
+      if (capturePreviewUrlRef.current) {
+        URL.revokeObjectURL(capturePreviewUrlRef.current);
+        capturePreviewUrlRef.current = null;
+      }
+    };
+  }, []);
+
   return (
     <div className="rounded-2xl border p-4 space-y-4">
       <div className="flex items-center justify-between">
@@ -265,7 +306,7 @@ export default function CameraView() {
           autoPlay
         />
         {/* Controls overlay */}
-        <div className="absolute inset-x-0 bottom-0 p-3 flex items-center justify-between bg-black/30">
+        <div className="absolute inset-x-0 bottom-0 p-3 flex flex-wrap items-center justify-center gap-2 bg-black/30">
           <button
             onClick={toggleFacing}
             className="px-3 py-1.5 rounded-xl border border-white/60 text-white text-xs"
@@ -290,7 +331,40 @@ export default function CameraView() {
           >
             {torchOn ? 'Torch On' : 'Torch Off'}
           </button>
+          <button
+            onClick={() => {}}
+            className="px-3 py-1.5 rounded-xl border border-white/60 text-white text-xs disabled:opacity-40"
+            disabled={!running}
+            title="Record audio"
+          >
+            Record Audio
+          </button>
+          <button
+            onClick={() => {}}
+            className="px-3 py-1.5 rounded-xl border border-white/60 text-white text-xs disabled:opacity-40"
+            disabled={!running}
+            title="Send"
+          >
+            Send
+          </button>
         </div>
+        {capturePreviewUrl && (
+          <button
+            type="button"
+            onClick={() => {
+              if (!capturePreviewUrl) return;
+              window.open(capturePreviewUrl, '_blank');
+            }}
+            className="absolute bottom-4 left-4 flex h-20 w-20 items-center justify-center overflow-hidden rounded-lg border-2 border-white/80 bg-black/60 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/60"
+            title="View last capture"
+          >
+            <img
+              src={capturePreviewUrl}
+              alt="Capture preview"
+              className="h-full w-full object-cover"
+            />
+          </button>
+        )}
       </div>
 
       {/* Device picker (optional) */}
@@ -321,7 +395,6 @@ export default function CameraView() {
       {/* Hidden canvas for frame capture/sampling */}
       <canvas ref={canvasRef} className="hidden" />
       <p className="text-xs text-gray-500">
-        Tip: On iOS Safari, camera requires HTTPS or localhost, and must be started by a user action.
       </p>
     </div>
   );
