@@ -32,7 +32,7 @@ export default function MobileShell() {
       </header>
 
       <section className="flex-1">
-        <div className="mx-auto max-w-md w-full px-4 py-6 space-y-4">
+        <div className="mx-auto w-full px-4 py-6 space-y-4">
           {tab === 'home' && (
             <>
               <div className="rounded-2xl border p-4">

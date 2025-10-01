@@ -256,7 +256,7 @@ export default function CameraView() {
         <div className="text-sm text-red-600">{error}</div>
       )}
 
-      <div className="relative aspect-[3/4] w-full max-w-md mx-auto overflow-hidden rounded-xl bg-black">
+      <div className="relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]">
         <video
           ref={videoRef}
           className={`h-full w-full object-cover ${facing === 'user' ? 'scale-x-[-1]' : ''}`}
