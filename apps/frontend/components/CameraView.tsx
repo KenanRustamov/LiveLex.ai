@@ -24,6 +24,16 @@ export default function CameraView() {
   const [torchOn, setTorchOn] = useState(false);
   const [capturePreviewUrl, setCapturePreviewUrl] = useState<string | null>(null);
 
+  const mockTranscripts = useMemo(
+    () => [
+      { speaker: 'LLM', text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+      { speaker: 'User', text: 'Mauris non tempor quam, et lacinia sapien.' },
+      { speaker: 'LLM', text: 'Fusce vel dui. Vivamus aliquet elit ac nisl.' },
+      { speaker: 'User', text: 'Pellentesque dapibus hendrerit tortor.' },
+    ],
+    []
+  );
+
   const backendUrl = useMemo(
     () => process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000',
     []
@@ -365,6 +375,21 @@ export default function CameraView() {
             />
           </button>
         )}
+        <div className="pointer-events-none absolute right-4 top-4 flex max-w-xs flex-col gap-2 rounded-xl border border-white/30 bg-black/40 p-3 text-white backdrop-blur-sm">
+          <h3 className="text-xs font-semibold uppercase tracking-wide text-white/70">
+            Live Transcript
+          </h3>
+          <div className="space-y-2 text-xs leading-snug">
+            {mockTranscripts.map((entry, index) => (
+              <div key={index} className="flex flex-col">
+                <span className="text-[10px] uppercase tracking-wide text-white/60">
+                  {entry.speaker}
+                </span>
+                <span>{entry.text}</span>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
 
       {/* Device picker (optional) */}
