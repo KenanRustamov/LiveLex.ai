@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import useAudioRecorder from '../hooks/useAudioRecorder';
 
 type VideoDevice = MediaDeviceInfo & { kind: 'videoinput' };
 
@@ -23,6 +24,8 @@ export default function CameraView() {
   const [torchAvailable, setTorchAvailable] = useState(false);
   const [torchOn, setTorchOn] = useState(false);
   const [capturePreviewUrl, setCapturePreviewUrl] = useState<string | null>(null);
+
+  const { isRecording, start: startRecording, stop: stopRecording, error: audioError } = useAudioRecorder();
 
   const mockTranscripts = useMemo(
     () => [
@@ -104,6 +107,9 @@ export default function CameraView() {
   }, [activeDeviceId, facing, torchOn, refreshDevices]);
 
   const stopCamera = useCallback(() => {
+    if (isRecording) {
+      void stopRecording();
+    }
     if (sampleTimerRef.current) {
       window.clearInterval(sampleTimerRef.current);
       sampleTimerRef.current = null;
@@ -203,6 +209,15 @@ export default function CameraView() {
       }
     }
   }, [backendUrl, facing]);
+
+  const toggleRecording = useCallback(async () => {
+    if (!running) return;
+    if (isRecording) {
+      await stopRecording();
+    } else {
+      await startRecording();
+    }
+  }, [running, isRecording, startRecording, stopRecording]);
 
   // Sample frames at a given FPS and send to backend (disabled by default)
   const startSampling = useCallback((fps = 1) => {
@@ -306,6 +321,9 @@ export default function CameraView() {
       {error && (
         <div className="text-sm text-red-600">{error}</div>
       )}
+      {audioError && (
+        <div className="text-sm text-red-600">{audioError}</div>
+      )}
 
       <div className="relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]">
         <video
@@ -315,6 +333,21 @@ export default function CameraView() {
           muted
           autoPlay
         />
+        {isRecording && (
+          <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
+            <div className="flex items-center gap-3 rounded-full border border-white/40 bg-black/50 px-3 py-1.5 text-white backdrop-blur">
+              <span className="inline-block h-2 w-2 rounded-full bg-red-500 animate-pulse" />
+              <span className="text-xs">Recording…</span>
+              <div className="flex items-end gap-[2px]" style={{ height: '28px' }}>
+                <span className="eq-bar" style={{ ['--d' as any]: 0 }} />
+                <span className="eq-bar" style={{ ['--d' as any]: 1 }} />
+                <span className="eq-bar" style={{ ['--d' as any]: 2 }} />
+                <span className="eq-bar" style={{ ['--d' as any]: 3 }} />
+                <span className="eq-bar" style={{ ['--d' as any]: 4 }} />
+              </div>
+            </div>
+          </div>
+        )}
         {/* Controls overlay */}
         <div className="absolute inset-x-0 bottom-0 p-3 flex flex-wrap items-center justify-center gap-2 bg-black/30">
           <button
@@ -342,12 +375,14 @@ export default function CameraView() {
             {torchOn ? 'Torch On' : 'Torch Off'}
           </button>
           <button
-            onClick={() => {}}
-            className="px-3 py-1.5 rounded-xl border border-white/60 text-white text-xs disabled:opacity-40"
+            onClick={toggleRecording}
+            className={`px-3 py-1.5 rounded-xl border text-xs disabled:opacity-40 ${
+              isRecording ? 'border-red-500 bg-red-600 text-white' : 'border-white/60 text-white'
+            }`}
             disabled={!running}
-            title="Record audio"
+            title={isRecording ? 'Stop recording' : 'Record audio'}
           >
-            Record Audio
+            {isRecording ? 'Stop' : 'Record Audio'}
           </button>
           <button
             onClick={() => {}}
@@ -421,6 +456,23 @@ export default function CameraView() {
       <canvas ref={canvasRef} className="hidden" />
       <p className="text-xs text-gray-500">
       </p>
+      <style jsx>{`
+        .eq-bar {
+          display: inline-block;
+          width: 3px;
+          background: rgba(255,255,255,0.9);
+          border-radius: 2px;
+          height: 8px;
+          margin-top: auto;
+          transform-origin: bottom;
+          animation: eq-bounce 1s ease-in-out infinite;
+          animation-delay: calc(var(--d) * 0.12s);
+        }
+        @keyframes eq-bounce {
+          0%, 100% { transform: scaleY(0.35); }
+          50% { transform: scaleY(1); }
+        }
+      `}</style>
     </div>
   );
 }
