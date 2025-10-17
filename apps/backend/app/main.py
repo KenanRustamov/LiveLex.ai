@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
-from app.routers import chat, vision
+from app.routers import chat, vision, audio
 
 app = FastAPI(title="AI Glasses Backend", version="0.1.0")
 
@@ -19,3 +19,4 @@ async def health():
 
 app.include_router(chat.router, prefix="/v1")
 app.include_router(vision.router, prefix="/v1")
+app.include_router(audio.router, prefix="/v1")

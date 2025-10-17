@@ -26,6 +26,8 @@ export default function CameraView() {
   const [capturePreviewUrl, setCapturePreviewUrl] = useState<string | null>(null);
 
   const { isRecording, start: startRecording, stop: stopRecording, error: audioError } = useAudioRecorder();
+  const [transcripts, setTranscripts] = useState<{ speaker: string; text: string }[]>([]);
+  const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
 
   const mockTranscripts = useMemo(
     () => [
@@ -213,11 +215,27 @@ export default function CameraView() {
   const toggleRecording = useCallback(async () => {
     if (!running) return;
     if (isRecording) {
-      await stopRecording();
+      const blob = await stopRecording();
+      if (blob) setAudioBlob(blob);
     } else {
+      setAudioBlob(null);
       await startRecording();
     }
   }, [running, isRecording, startRecording, stopRecording]);
+
+  const sendAudio = useCallback(async () => {
+    if (!audioBlob) return;
+    try {
+      const form = new FormData();
+      form.append('file', audioBlob, 'audio.webm');
+      const res = await fetch(`${backendUrl}/v1/transcribe`, { method: 'POST', body: form });
+      if (res.ok) {
+        const { text } = await res.json();
+        setTranscripts(prev => [...prev, { speaker: 'User', text }]);
+        setAudioBlob(null);
+      }
+    } catch (_) {}
+  }, [audioBlob, backendUrl]);
 
   // Sample frames at a given FPS and send to backend (disabled by default)
   const startSampling = useCallback((fps = 1) => {
@@ -385,9 +403,9 @@ export default function CameraView() {
             {isRecording ? 'Stop' : 'Record Audio'}
           </button>
           <button
-            onClick={() => {}}
+            onClick={sendAudio}
             className="px-3 py-1.5 rounded-xl border border-white/60 text-white text-xs disabled:opacity-40"
-            disabled={!running}
+            disabled={!audioBlob}
             title="Send"
           >
             Send
@@ -415,7 +433,7 @@ export default function CameraView() {
             Live Transcript
           </h3>
           <div className="space-y-2 text-xs leading-snug">
-            {mockTranscripts.map((entry, index) => (
+            {transcripts.map((entry, index) => (
               <div key={index} className="flex flex-col">
                 <span className="text-[10px] uppercase tracking-wide text-white/60">
                   {entry.speaker}
