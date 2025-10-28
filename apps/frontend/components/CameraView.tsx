@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
+import useAudioRecorder from '../hooks/useAudioRecorder';
 import PlanChecklist from './PlanChecklist';
 import TranscriptOverlay from './TranscriptOverlay';
 import { DotsScaleIcon } from '@/components/ui/icons/svg-spinners-3-dots-scale';
@@ -22,6 +23,8 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
   const [capturePreviewUrl, setCapturePreviewUrl] = useState<string | null>(null);
 
   const [transcripts, setTranscripts] = useState<{ speaker: string; text: string }[]>([]);
+  const { isRecording, start: startRecording, stop: stopRecording, error: audioError } = useAudioRecorder();
+  const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const [llmStreaming, setLlmStreaming] = useState<string>("");
   const [planObjects, setPlanObjects] = useState<{ source_name: string; target_name: string; action: string }[] | null>(null);
   const [planMessage, setPlanMessage] = useState<string | null>(null);
@@ -273,6 +276,39 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
     });
   };
 
+  const toggleRecording = useCallback(async () => {
+    if (!running) return;
+    if (isRecording) {
+      const blob = await stopRecording();
+      if (blob) setAudioBlob(blob);
+    } else {
+      setAudioBlob(null);
+      await startRecording();
+    }
+  }, [running, isRecording, startRecording, stopRecording]);
+
+  const sendAudio = useCallback(async () => {
+    if (!audioBlob) return;
+    try {
+      if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
+        const buf = await audioBlob.arrayBuffer();
+        const b64 = btoa(String.fromCharCode(...new Uint8Array(buf)));
+        wsRef.current.send(JSON.stringify({ type: 'audio_chunk', payload: { data_b64: b64, mime: audioBlob.type || 'audio/webm' } }));
+        wsRef.current.send(JSON.stringify({ type: 'audio_end' }));
+        setAudioBlob(null);
+      } else {
+        const form = new FormData();
+        form.append('file', audioBlob, 'audio.webm');
+        const res = await fetch(`${backendUrl}/v1/transcribe`, { method: 'POST', body: form });
+        if (res.ok) {
+          const { text } = await res.json();
+          setTranscripts(prev => [...prev, { speaker: 'User', text }]);
+          setAudioBlob(null);
+        }
+      }
+    } catch (_) {}
+  }, [audioBlob, backendUrl]);
+
   return (
     <div className="rounded-2xl border p-4 space-y-4">
       <div className="flex items-center justify-between">
@@ -287,7 +323,9 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
       {error && (
         <div className="text-sm text-red-600">{error}</div>
       )}
-      
+      {audioError && (
+        <div className="text-sm text-red-600">{audioError}</div>
+      )}
 
       <div className="relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]">
         <video
@@ -304,7 +342,14 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
             </div>
           </div>
         )}
-        
+        {isRecording && (
+          <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
+            <div className="flex items-center gap-3 rounded-full border border-white/40 bg-black/50 px-3 py-1.5 text-white backdrop-blur">
+              <span className="inline-block h-2 w-2 rounded-full bg-red-500 animate-pulse" />
+              <span className="text-xs">Recording</span>
+            </div>
+          </div>
+        )}
         
         {/* Plan overlay left */}
         {planObjects && planObjects.length > 0 && (
@@ -322,6 +367,16 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
         {/* Controls overlay */}
         <div className="absolute inset-x-0 bottom-0 p-3 flex flex-wrap items-center justify-center gap-2">
           <Button onClick={captureFrame} variant="default" className="text-xs" disabled={!running} title="Capture">Capture</Button>
+          {planObjects && planObjects.length > 0 && (
+            <>
+              <Button onClick={toggleRecording} variant={isRecording ? 'destructive' : 'outline'} className="text-xs" disabled={!running} title={isRecording ? 'Stop recording' : 'Record audio'}>
+                {isRecording ? 'Stop' : 'Record'}
+              </Button>
+              <Button onClick={sendAudio} variant="outline" className="text-xs" disabled={!audioBlob} title="Send">
+                Send
+              </Button>
+            </>
+          )}
           {planObjects && (
             <Button onClick={() => { setPlanObjects(null); setPlanMessage(null); setShowCapturePrompt(true); }} variant="outline" className="text-xs" title="Retake">Retake</Button>
           )}
