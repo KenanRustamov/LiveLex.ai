@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import PlanChecklist from './PlanChecklist';
 import TranscriptOverlay from './TranscriptOverlay';
+import { DotsScaleIcon } from '@/components/ui/icons/svg-spinners-3-dots-scale';
 
 const CAPTURE_PREVIEW_DURATION_MS = 3000;
 
@@ -326,9 +327,10 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
           )}
         </div>
         {isPlanLoading && (
-          <div className="pointer-events-none absolute inset-x-0 bottom-16 p-3 flex items-center justify-center">
-            <div className="rounded-full border border-white/40 bg-black/50 px-3 py-1.5 text-white backdrop-blur text-xs">
-              Analyzing scene…
+          <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
+            <div className="flex items-center gap-2 rounded-full border border-white/40 bg-black/50 px-3 py-1.5 text-white backdrop-blur text-xs">
+              <DotsScaleIcon size={14} className="text-white" />
+              <span>Analyzing Scene</span>
             </div>
           </div>
         )}
@@ -349,7 +351,9 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
             />
           </button>
         )}
-        <TranscriptOverlay transcripts={transcripts} streamingText={llmStreaming} className="absolute right-4 top-4" />
+        {(transcripts.length > 0 || !!llmStreaming) && (
+          <TranscriptOverlay transcripts={transcripts} streamingText={llmStreaming} className="absolute right-4 top-4" />
+        )}
       </div>
 
       <canvas ref={canvasRef} className="hidden" />
