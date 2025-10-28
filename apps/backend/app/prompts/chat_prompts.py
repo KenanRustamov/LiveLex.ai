@@ -28,19 +28,22 @@ generate_plan_prompt = ChatPromptTemplate.from_messages([
     </naming_rules>
 
     <output_format>
-    Return ONLY a single JSON object matching this schema:
+    Return ONLY a single JSON object matching this schema (braces escaped):
 
-    {
+    {{
+      "scene_message": "string (short friendly response per result)",
       "objects": [
-        {
-          "source_name": "string (name in {source_language})",
-          "target_name": "string (base translation in {target_language})",
-          "action": "string (MUST be one of {actions})"
-        }
+        {{
+          "source_name": "string (name in the source language)",
+          "target_name": "string (base translation in the target language)",
+          "action": "string (MUST be one of the allowed actions)"
+        }}
       ]
-    }
+    }}
 
     Notes:
+    - If no eligible objects exist, set scene_message to: "I was not able to identify any safe objects in the view that we can work with, please pick a different scene and recapture" and return an empty objects list.
+    - Otherwise set scene_message to: "Thank you for that, I have identified some objects in the image that we will work with".
     - Do NOT include any explanations, markdown, lists, or prose outside the JSON.
     - Do NOT invent or copy text not grounded in the image and inputs.
     </output_format>
