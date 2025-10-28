@@ -1,7 +1,12 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import CameraView from './CameraView';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Label } from '@/components/ui/label';
+import { Input } from '@/components/ui/input';
+import { Select } from '@/components/ui/select';
+import { Button } from '@/components/ui/button';
 
 export default function MobileShell() {
   const backendUrl = useMemo(
@@ -10,70 +15,107 @@ export default function MobileShell() {
   );
   const [tab, setTab] = useState<'home' | 'camera' | 'profile'>('camera'); // default to camera
 
-  const tabBtn = (name: 'home' | 'camera' | 'profile', label: string) => (
-    <button
+  type UserSettings = {
+    sourceLanguage: string;
+    targetLanguage: string;
+    location: string;
+    actions: string[];
+  };
+
+  const DEFAULT_SETTINGS: UserSettings = {
+    sourceLanguage: 'English',
+    targetLanguage: 'Spanish',
+    location: 'Baltimore, Maryland',
+    actions: ['Pick up'],
+  };
+
+  const [settings, setSettings] = useState<UserSettings>(DEFAULT_SETTINGS);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('livelex_settings');
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === 'object') {
+          setSettings({ ...DEFAULT_SETTINGS, ...parsed });
+        }
+      }
+    } catch {}
+  }, []);
+
+  const saveSettings = (next: Partial<UserSettings>) => {
+    const merged = { ...settings, ...next };
+    setSettings(merged);
+    try { localStorage.setItem('livelex_settings', JSON.stringify(merged)); } catch {}
+  };
+
+  const tabBtn = (name: 'camera' | 'profile', label: string) => (
+    <Button
       onClick={() => setTab(name)}
-      className={`px-3 py-1.5 rounded-xl text-sm ${
-        tab === name ? 'font-semibold' : 'text-gray-500'
-      }`}
+      variant={tab === name ? 'default' : 'outline'}
+      className="px-3 py-1.5 text-sm"
       aria-current={tab === name ? 'page' : undefined}
     >
       {label}
-    </button>
+    </Button>
   );
 
   return (
     <main className="min-h-dvh flex flex-col">
-      <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b">
-        <div className="mx-auto max-w-md w-full px-4 py-3 flex items-center justify-between">
-          <h1 className="text-lg font-semibold">AI Glasses</h1>
-          <span className="text-xs text-gray-500">Starter</span>
-        </div>
-      </header>
-
       <section className="flex-1">
         <div className="mx-auto w-full px-4 py-6 space-y-4">
-          {tab === 'home' && (
-            <>
-              <div className="rounded-2xl border p-4">
-                <h2 className="font-medium mb-1">Welcome</h2>
-                <p className="text-sm text-gray-600">
-                  This is a mobile-style shell. Add your views/components here. Nothing is wired up yet.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border p-4 space-y-1">
-                <h3 className="font-medium">Backend endpoint</h3>
-                <code className="text-xs block text-gray-700 break-all">{backendUrl}</code>
-                <p className="text-xs text-gray-500">
-                  Set via <code>NEXT_PUBLIC_BACKEND_URL</code>.
-                </p>
-              </div>
-
-              <div className="rounded-2xl border p-4 space-y-2">
-                <h3 className="font-medium">Suggested next steps</h3>
-                <ol className="list-decimal list-inside text-sm text-gray-700 space-y-1">
-                  <li>Add a camera component to stream frames.</li>
-                  <li>Create a backend WebSocket route to handle live observations.</li>
-                  <li>Design a prompt orchestrator (e.g., LangChain) behind a stub API.</li>
-                </ol>
-              </div>
-            </>
-          )}
-
-          {tab === 'camera' && <CameraView />}
+          {tab === 'camera' && <CameraView settings={settings} />}
 
           {tab === 'profile' && (
-            <div className="rounded-2xl border p-4">
-              <p className="text-sm text-gray-600">Profile placeholder.</p>
-            </div>
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-base">Profile</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid grid-cols-1 gap-3">
+                  <div className="text-sm">
+                    <Label className="block mb-1">Source language</Label>
+                    <Input
+                      type="text"
+                      value={settings.sourceLanguage}
+                      onChange={(e) => saveSettings({ sourceLanguage: e.target.value })}
+                    />
+                  </div>
+                  <div className="text-sm">
+                    <Label className="block mb-1">Target language</Label>
+                    <Input
+                      type="text"
+                      value={settings.targetLanguage}
+                      onChange={(e) => saveSettings({ targetLanguage: e.target.value })}
+                    />
+                  </div>
+                  <div className="text-sm">
+                    <Label className="block mb-1">Location</Label>
+                    <Input
+                      type="text"
+                      value={settings.location}
+                      onChange={(e) => saveSettings({ location: e.target.value })}
+                    />
+                  </div>
+                  <div className="text-sm">
+                    <Label className="block mb-1">Actions</Label>
+                    <Select
+                      value={settings.actions[0]}
+                      onChange={(e) => saveSettings({ actions: [e.target.value] })}
+                    >
+                      <option value="Pick up">Pick up</option>
+                    </Select>
+                    <p className="text-xs text-muted-foreground mt-1">For now, only "Pick up" is supported.</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           )}
         </div>
       </section>
 
       <nav className="sticky bottom-0 bg-white/80 backdrop-blur border-t">
         <div className="mx-auto max-w-md w-full px-6 py-3 flex items-center justify-between">
-          {tabBtn('home', 'Home')}
           {tabBtn('camera', 'Camera')}
           {tabBtn('profile', 'Profile')}
         </div>
