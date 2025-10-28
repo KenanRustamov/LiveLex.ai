@@ -7,4 +7,5 @@ class Object(BaseModel):
     action: str
 
 class Plan(BaseModel):
+    scene_message: str
     objects: list[Object]
