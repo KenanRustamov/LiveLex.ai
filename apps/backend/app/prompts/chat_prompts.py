@@ -42,8 +42,8 @@ generate_plan_prompt = ChatPromptTemplate.from_messages([
     }}
 
     Notes:
-    - If no eligible objects exist, set scene_message to: "I was not able to identify any safe objects in the view that we can work with, please pick a different scene and recapture" and return an empty objects list.
-    - Otherwise set scene_message to: "Thank you for that, I have identified some objects in the image that we will work with".
+    - If no eligible objects exist, set scene_message to: "I was not able to identify any safe objects in the view that we can work with, please pick a different scene and recapture." and return an empty objects list.
+    - Otherwise set scene_message to: "Thank you for that, I have identified some objects in the image that we will work with.".
     - Do NOT include any explanations, markdown, lists, or prose outside the JSON.
     - Do NOT invent or copy text not grounded in the image and inputs.
     </output_format>
