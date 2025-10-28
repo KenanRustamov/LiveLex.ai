@@ -1,8 +1,5 @@
 # Evaluation Harness (Placeholder)
 
-Minimal runner that sends cases to the backend `/v1/chat` endpoint.
-The backend currently returns 501 (Not Implemented), which is expected for this starter.
-
 ## Dev
 
 ```bash

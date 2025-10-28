@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "AI Glasses Starter",
-  description: "Starter for an AI-powered, mobile-style web app with Next.js + Tailwind.",
+  title: "AI Glasses",
+  description: "AI Glasses - LiveLex",
   manifest: "/manifest.json",
 };
 
