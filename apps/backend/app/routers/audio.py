@@ -6,7 +6,6 @@ import io
 
 router = APIRouter(tags=["audio"])
 
-
 @router.post("/transcribe")
 async def transcribe(file: UploadFile = File(...), language: Optional[str] = None):
     if not settings.openai_api_key:
@@ -16,17 +15,17 @@ async def transcribe(file: UploadFile = File(...), language: Optional[str] = Non
 
     try:
         data = await file.read()
-        filename = file.filename or "audio.webm"
+        filename = file.filename
         # Use a file-like object so the SDK detects format by name
         buf = io.BytesIO(data)
         buf.name = filename
 
+        # Call for transcription
         resp = client.audio.transcriptions.create(
-            model="gpt-4o-mini-transcribe",
+            model=settings.transcription_model,
             file=buf,
             language=language,
         )
-        # openai>=1.0 returns an object with .text
         text = getattr(resp, "text", None)
         if not text:
             raise HTTPException(status_code=502, detail="Transcription failed")
