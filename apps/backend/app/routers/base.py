@@ -4,6 +4,7 @@ import json
 from typing import Any, AsyncGenerator, Optional
 
 from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
+from starlette.websockets import WebSocketState
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
@@ -189,6 +190,12 @@ async def ws_stream(ws: WebSocket):
         # client disconnected
         pass
     finally:
-        await ws.close()
+        # Close only if still connected to avoid double-close RuntimeError
+        try:
+            if getattr(ws, "client_state", None) not in (WebSocketState.DISCONNECTED, None):
+                await ws.close()
+        except Exception:
+            # Safely ignore any close errors
+            pass
 
 
