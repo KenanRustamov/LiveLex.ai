@@ -3,9 +3,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import useAudioRecorder from '../hooks/useAudioRecorder';
+import useVadPredefined from '../hooks/useVadPredefined';
 import PlanChecklist from './PlanChecklist';
 import TranscriptOverlay from './TranscriptOverlay';
 import { DotsScaleIcon } from '@/components/ui/icons/svg-spinners-3-dots-scale';
+import StatusBadge from '@/components/StatusBadge';
+import OverlayCard from '@/components/OverlayCard';
 
 const CAPTURE_PREVIEW_DURATION_MS = 3000;
 
@@ -30,6 +33,9 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
   const [planMessage, setPlanMessage] = useState<string | null>(null);
   const [isPlanLoading, setIsPlanLoading] = useState<boolean>(false);
   const [showCapturePrompt, setShowCapturePrompt] = useState<boolean>(true);
+  const [utteranceId, setUtteranceId] = useState<string | null>(null);
+  const [speechReal, setSpeechReal] = useState<boolean>(false);
+  const [planReceived, setPlanReceived] = useState<boolean>(false);
 
 
   const backendUrl = useMemo(
@@ -81,6 +87,7 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
               }
               setIsPlanLoading(false);
               setShowCapturePrompt(false);
+              setPlanReceived(true);
               break;
             }
             default:
@@ -309,6 +316,109 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
     } catch (_) {}
   }, [audioBlob, backendUrl]);
 
+  // VAD integration: enable after initial plan exists
+  const vadEnabled = running && planReceived;
+
+  const captureSceneDataUrl = useCallback((): string | null => {
+    const canvas = canvasRef.current;
+    const video = videoRef.current;
+    if (!canvas || !video) return null;
+    try {
+      const w = video.videoWidth || 1280;
+      const h = video.videoHeight || 720;
+      canvas.width = w;
+      canvas.height = h;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return null;
+      if (facing === 'user') {
+        ctx.save();
+        ctx.translate(w, 0);
+        ctx.scale(-1, 1);
+        ctx.drawImage(video, 0, 0, w, h);
+        ctx.restore();
+      } else {
+        ctx.drawImage(video, 0, 0, w, h);
+      }
+      return canvas.toDataURL('image/jpeg', 0.8);
+    } catch {
+      return null;
+    }
+  }, [facing]);
+
+  const sendAudioBlobWithOptionalImage = useCallback(async (blob: Blob) => {
+    const id = crypto?.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+    setUtteranceId(id);
+    if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
+      try {
+        const buf = await blob.arrayBuffer();
+        const b64 = btoa(String.fromCharCode(...new Uint8Array(buf)));
+        wsRef.current.send(JSON.stringify({ type: 'audio_chunk', payload: { data_b64: b64, mime: blob.type || 'audio/webm', utterance_id: id } }));
+        wsRef.current.send(JSON.stringify({ type: 'audio_end', payload: { utterance_id: id } }));
+        const dataUrl = captureSceneDataUrl();
+        if (dataUrl) {
+          wsRef.current.send(JSON.stringify({
+            type: 'image',
+            payload: {
+              data_url: dataUrl,
+              mime: 'image/jpeg',
+              target_language: settings.targetLanguage,
+              source_language: settings.sourceLanguage,
+              location: settings.location,
+              actions: settings.actions,
+              utterance_id: id,
+            }
+          }));
+        }
+      } catch {}
+    } else {
+      // HTTP fallback for audio only
+      try {
+        const form = new FormData();
+        form.append('file', blob, 'audio.webm');
+        const res = await fetch(`${backendUrl}/v1/transcribe`, { method: 'POST', body: form });
+        if (res.ok) {
+          const { text } = await res.json();
+          setTranscripts(prev => [...prev, { speaker: 'User', text }]);
+        }
+      } catch {}
+    }
+  }, [backendUrl, captureSceneDataUrl, settings.actions, settings.location, settings.sourceLanguage, settings.targetLanguage]);
+
+  const vad = useVadPredefined(
+    vadEnabled,
+    {
+      onSpeechStart: async () => {
+        try { console.log('[VAD] onSpeechStart, isRecording=', isRecording); } catch {}
+        if (!isRecording) await startRecording();
+        setSpeechReal(false);
+      },
+      onSpeechRealStart: async () => {
+        try { console.log('[VAD] onSpeechRealStart'); } catch {}
+        setSpeechReal(true);
+      },
+      onSpeechEnd: async () => {
+        try { console.log('[VAD] onSpeechEnd: stopping recording...'); } catch {}
+        const blob = await stopRecording();
+        try { console.log('[VAD] recording stopped, blob size=', blob ? blob.size : null); } catch {}
+        if (blob) await sendAudioBlobWithOptionalImage(blob);
+        setSpeechReal(false);
+      },
+    }
+  );
+
+  // Debounce display of Listening chip to reduce flashing
+  const [showListening, setShowListening] = useState<boolean>(false);
+  useEffect(() => {
+    let t: number | null = null;
+    const shouldShow = !isRecording && vadEnabled && !isPlanLoading;
+    if (shouldShow) {
+      t = window.setTimeout(() => setShowListening(true), 200);
+    } else {
+      setShowListening(false);
+    }
+    return () => { if (t) window.clearTimeout(t); };
+  }, [isRecording, vadEnabled, isPlanLoading]);
+
   return (
     <div className="rounded-2xl border p-4 space-y-4">
       <div className="flex items-center justify-between">
@@ -342,12 +452,19 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
             </div>
           </div>
         )}
-        {isRecording && (
+        {isRecording && !speechReal && (
           <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
-            <div className="flex items-center gap-3 rounded-full border border-white/40 bg-black/50 px-3 py-1.5 text-white backdrop-blur">
-              <span className="inline-block h-2 w-2 rounded-full bg-red-500 animate-pulse" />
-              <span className="text-xs">Recording</span>
-            </div>
+            <StatusBadge status="detecting" />
+          </div>
+        )}
+        {isRecording && speechReal && (
+          <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
+            <StatusBadge status="recording" />
+          </div>
+        )}
+        {showListening && (
+          <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
+            <StatusBadge status="listening" />
           </div>
         )}
         
@@ -367,26 +484,16 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
         {/* Controls overlay */}
         <div className="absolute inset-x-0 bottom-0 p-3 flex flex-wrap items-center justify-center gap-2">
           <Button onClick={captureFrame} variant="default" className="text-xs" disabled={!running} title="Capture">Capture</Button>
-          {planObjects && planObjects.length > 0 && (
-            <>
-              <Button onClick={toggleRecording} variant={isRecording ? 'destructive' : 'outline'} className="text-xs" disabled={!running} title={isRecording ? 'Stop recording' : 'Record audio'}>
-                {isRecording ? 'Stop' : 'Record'}
-              </Button>
-              <Button onClick={sendAudio} variant="outline" className="text-xs" disabled={!audioBlob} title="Send">
-                Send
-              </Button>
-            </>
-          )}
           {planObjects && (
             <Button onClick={() => { setPlanObjects(null); setPlanMessage(null); setShowCapturePrompt(true); }} variant="outline" className="text-xs" title="Retake">Retake</Button>
           )}
         </div>
         {isPlanLoading && (
           <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
-            <div className="flex items-center gap-2 rounded-full border border-white/40 bg-black/50 px-3 py-1.5 text-white backdrop-blur text-xs">
+            <OverlayCard className="flex items-center gap-2 px-3 py-1.5 text-xs">
               <DotsScaleIcon size={14} className="text-white" />
               <span>Analyzing Scene</span>
-            </div>
+            </OverlayCard>
           </div>
         )}
         {capturePreviewUrl && (

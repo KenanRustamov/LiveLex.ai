@@ -1,3 +1,4 @@
+import OverlayCard from '@/components/OverlayCard';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Label } from '@/components/ui/label';
@@ -20,7 +21,7 @@ export default function PlanChecklist({
 }) {
   if (variant === 'overlay') {
     return (
-      <div className="rounded-xl border border-white/30 backdrop-blur p-3 text-white">
+      <OverlayCard className="p-3 text-white">
         <div className="text-xs uppercase tracking-wide text-white/70 mb-2">Plan</div>
         {items.length === 0 ? (
           <div className="text-xs text-white/80">No objects identified yet.</div>
@@ -46,7 +47,7 @@ export default function PlanChecklist({
             })}
           </ul>
         )}
-      </div>
+      </OverlayCard>
     );
   }
 

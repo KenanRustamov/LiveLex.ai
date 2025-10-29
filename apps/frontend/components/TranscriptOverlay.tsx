@@ -1,4 +1,5 @@
 import { cn } from '@/lib/utils';
+import OverlayCard from '@/components/OverlayCard';
 
 type TranscriptEntry = { speaker: string; text: string };
 
@@ -12,10 +13,7 @@ export default function TranscriptOverlay({
   className?: string;
 }) {
   return (
-    <div className={cn(
-      'pointer-events-none flex max-w-xs flex-col gap-2 rounded-xl border border-white/30 p-3 text-white backdrop-blur-sm',
-      className
-    )}>
+    <OverlayCard className={cn('pointer-events-none flex max-w-xs flex-col gap-2 p-3', className)}>
       <h3 className="text-xs font-semibold uppercase tracking-wide text-white/70">Live Transcript</h3>
       <div className="space-y-2 text-xs leading-snug">
         {transcripts.map((entry, index) => (
@@ -28,7 +26,7 @@ export default function TranscriptOverlay({
           <div className="text-white/90 truncate">{streamingText}</div>
         ) : null}
       </div>
-    </div>
+    </OverlayCard>
   );
 }
 
