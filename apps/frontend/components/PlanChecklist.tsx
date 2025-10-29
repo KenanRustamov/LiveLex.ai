@@ -32,7 +32,7 @@ export default function PlanChecklist({
               return (
                 <li key={`${o.source_name}-${i}`} className="flex items-start gap-2">
                   <Checkbox
-                    checked={isDone}
+                    checked={!!isDone}
                     onChange={() => onToggle(i)}
                     aria-label={`Mark ${o.source_name} as done`}
                     className="mt-0.5"
@@ -66,7 +66,7 @@ export default function PlanChecklist({
               return (
                 <li key={`${o.source_name}-${i}`} className="flex items-start gap-2">
                   <Checkbox
-                    checked={isDone}
+                    checked={!!isDone}
                     onChange={() => onToggle(i)}
                     aria-label={`Mark ${o.source_name} as done`}
                     className="mt-0.5"
