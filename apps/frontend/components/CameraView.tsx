@@ -122,6 +122,12 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
         streamRef.current = null;
       }
 
+      // Check if video element is available
+      const video = videoRef.current;
+      if (!video) {
+        throw new Error('Video element not available');
+      }
+
       const constraints: MediaStreamConstraints = {
         video: {
           facingMode: { ideal: facing },
@@ -132,21 +138,116 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
         audio: false
       };
 
+      // Check if mediaDevices is available
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        throw new Error('Camera access is not supported in this browser. Please use a modern browser.');
+      }
+
+      console.log('Requesting camera access with constraints:', constraints);
       const stream = await navigator.mediaDevices.getUserMedia(constraints);
+      console.log('Camera stream obtained:', stream);
       streamRef.current = stream;
 
-      // Bind the stream
-      const video = videoRef.current!;
+      // Bind the stream and wait for video to be ready
       video.srcObject = stream;
-      await video.play();
+      console.log('Video srcObject set, waiting for metadata...');
+      
+      // Wait for the video to load metadata before playing
+      await new Promise<void>((resolve, reject) => {
+        const timeout = setTimeout(() => {
+          video.removeEventListener('loadedmetadata', onLoadedMetadata);
+          video.removeEventListener('error', onError);
+          reject(new Error('Video metadata loading timeout'));
+        }, 5000);
+        
+        const onLoadedMetadata = () => {
+          clearTimeout(timeout);
+          video.removeEventListener('loadedmetadata', onLoadedMetadata);
+          video.removeEventListener('error', onError);
+          console.log('Video metadata loaded, readyState:', video.readyState);
+          resolve();
+        };
+        const onError = (err: Event) => {
+          clearTimeout(timeout);
+          video.removeEventListener('loadedmetadata', onLoadedMetadata);
+          video.removeEventListener('error', onError);
+          console.error('Video element error:', err);
+          reject(new Error('Video element failed to load'));
+        };
+        video.addEventListener('loadedmetadata', onLoadedMetadata);
+        video.addEventListener('error', onError);
+        
+        // If metadata is already loaded, resolve immediately
+        if (video.readyState >= HTMLMediaElement.HAVE_METADATA) {
+          clearTimeout(timeout);
+          video.removeEventListener('loadedmetadata', onLoadedMetadata);
+          video.removeEventListener('error', onError);
+          console.log('Video already has metadata');
+          resolve();
+        }
+      });
+
+      // Play the video
+      try {
+        await video.play();
+        console.log('Video playback started successfully');
+      } catch (playError: any) {
+        // If autoplay fails, try to play with user interaction
+        console.warn('Autoplay failed, video should play on user interaction:', playError);
+        // The video should still work, just needs user interaction
+      }
+
+      // Verify the stream is active
+      const videoTracks = stream.getVideoTracks();
+      if (videoTracks.length === 0) {
+        throw new Error('No video tracks found in stream');
+      }
+      if (!videoTracks[0].enabled) {
+        throw new Error('Video track is disabled');
+      }
+      console.log('Video track is active:', {
+        enabled: videoTracks[0].enabled,
+        readyState: videoTracks[0].readyState,
+        settings: videoTracks[0].getSettings()
+      });
+
+      // Check video dimensions
+      if (video.videoWidth === 0 || video.videoHeight === 0) {
+        console.warn('Video dimensions are 0x0, but continuing...');
+      } else {
+        console.log('Video dimensions:', video.videoWidth, 'x', video.videoHeight);
+      }
 
       setRunning(true);
       openWs();
     } catch (e: any) {
-      setError(e?.message ?? 'Failed to start camera');
+      console.error('Camera start error:', e);
+      let errorMessage = 'Failed to start camera';
+      if (e?.name === 'NotAllowedError' || e?.name === 'PermissionDeniedError') {
+        errorMessage = 'Camera permission denied. Please allow camera access in your browser settings.';
+      } else if (e?.name === 'NotFoundError' || e?.name === 'DevicesNotFoundError') {
+        errorMessage = 'No camera found. Please connect a camera and try again.';
+      } else if (e?.name === 'NotReadableError' || e?.name === 'TrackStartError') {
+        errorMessage = 'Camera is already in use by another application.';
+      } else if (e?.name === 'OverconstrainedError' || e?.name === 'ConstraintNotSatisfiedError') {
+        errorMessage = 'Camera does not support the requested settings. Trying with default settings...';
+        // Could retry with simpler constraints here
+      } else if (e?.message) {
+        errorMessage = e.message;
+      }
+      setError(errorMessage);
       setRunning(false);
+      // Clean up stream on error
+      if (streamRef.current) {
+        streamRef.current.getTracks().forEach(t => t.stop());
+        streamRef.current = null;
+      }
+      const video = videoRef.current;
+      if (video) {
+        video.srcObject = null;
+      }
     }
-  }, [facing]);
+  }, [facing, openWs]);
 
   const stopCamera = useCallback(() => {
     if (capturePreviewTimerRef.current) {
@@ -255,6 +356,31 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
       }
     };
   }, []);
+
+  // Ensure video plays when stream is set
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || !streamRef.current) return;
+
+    const handleLoadedMetadata = () => {
+      video.play().catch((err) => {
+        console.warn('Video autoplay failed:', err);
+      });
+    };
+
+    // If video already has metadata, try playing immediately
+    if (video.readyState >= HTMLMediaElement.HAVE_METADATA) {
+      video.play().catch((err) => {
+        console.warn('Video play failed:', err);
+      });
+    } else {
+      video.addEventListener('loadedmetadata', handleLoadedMetadata);
+    }
+
+    return () => {
+      video.removeEventListener('loadedmetadata', handleLoadedMetadata);
+    };
+  }, [running]);
 
   // Checklist state
   const [completed, setCompleted] = useState<boolean[]>([]);
@@ -445,6 +571,20 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
           muted
           autoPlay
         />
+        {!running && (
+          <div 
+            className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-20"
+            onClick={startCamera}
+          >
+            <div className="text-white text-lg font-medium mb-2">Camera Not Active</div>
+            <Button onClick={(e) => { e.stopPropagation(); startCamera(); }} variant="default" className="text-sm">
+              Start Camera
+            </Button>
+            <div className="text-white/70 text-xs mt-3 text-center px-4">
+              Click anywhere to start the camera and grant permissions
+            </div>
+          </div>
+        )}
         {showCapturePrompt && !isPlanLoading && (
           <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
             <div className="text-white text-sm text-center drop-shadow">

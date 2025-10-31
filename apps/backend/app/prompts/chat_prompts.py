@@ -1,5 +1,11 @@
 from langchain_core.prompts import ChatPromptTemplate
 
+# TODO: add a prompt for object checks
+# is the object correct, 
+
+# TODO: add a prompt for questions
+
+# prompt for plan generation
 generate_plan_prompt = ChatPromptTemplate.from_messages([
     ("system", """
     <role>

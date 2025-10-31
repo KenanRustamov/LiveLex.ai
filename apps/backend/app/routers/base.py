@@ -171,6 +171,8 @@ async def ws_stream(ws: WebSocket):
                 location = payload.get("location", "US")
                 actions = payload.get("actions") or ["name", "describe", "compare"]
                 try:
+                    # TODO: generating a plan isn't the only thing to do here
+                    # want to handle object checks, 
                     plan = await generate_plan_from_data_url(
                         image_data_url=data_url,
                         target_language=target_language,
