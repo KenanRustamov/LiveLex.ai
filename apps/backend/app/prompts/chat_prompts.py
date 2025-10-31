@@ -1,9 +1,44 @@
 from langchain_core.prompts import ChatPromptTemplate
 
-# TODO: add a prompt for object checks
-# is the object correct, 
+# prompt for prompting user to interact with next object
+prompt_next_object = ChatPromptTemplate.from_messages([
+    ("system", """You are a friendly language tutor helping a student learn {target_language}.
+Your task is to prompt the student to interact with an object from their learning plan.
+Be encouraging and clear about what they should do."""),
+    ("user", """Please ask the student to hold up or point to the object "{source_name}" and say its name in {target_language} ("{target_name}").
+Make your prompt short, friendly, and encouraging.""")
+])
 
-# TODO: add a prompt for questions
+# prompt for evaluating user's response
+evaluate_response_prompt = ChatPromptTemplate.from_messages([
+    ("system", """You are a language tutor evaluating a student's pronunciation and word recognition.
+You will be given:
+1. An image showing what the student is holding/pointing at
+2. A transcription of what the student said
+3. The object from the learning plan that they should be saying
+4. The correct word in the target language
+
+Your task is to determine:
+1. Does the object in the image match the expected object from the plan?
+2. Did the student say the correct word (or a close variation/pronunciation) for that object in the target language?
+
+Be lenient with pronunciation variations and accept close matches. Accept sentences like "this is X" or "that's X" if they contain the correct word."""),
+    ("user", """Image: [provided as image_url]
+Expected object: {object_source_name} (should be said as "{object_target_name}" in {target_language})
+Student said: "{transcription}"
+
+Evaluate:
+1. Does the image show the expected object ({object_source_name})?
+2. Does the transcription contain the correct word "{object_target_name}" or a close pronunciation?
+
+Respond with a JSON object:
+{{
+  "correct": true/false,
+  "object_matches": true/false,
+  "word_correct": true/false,
+  "feedback_message": "brief encouraging message"
+}}""")
+])
 
 # prompt for plan generation
 generate_plan_prompt = ChatPromptTemplate.from_messages([

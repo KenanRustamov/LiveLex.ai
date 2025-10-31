@@ -6,6 +6,7 @@ import useAudioRecorder from '../hooks/useAudioRecorder';
 import useVadPredefined from '../hooks/useVadPredefined';
 import PlanChecklist from './PlanChecklist';
 import TranscriptOverlay from './TranscriptOverlay';
+import LessonSummary from './LessonSummary';
 import { DotsScaleIcon } from '@/components/ui/icons/svg-spinners-3-dots-scale';
 import StatusBadge from '@/components/StatusBadge';
 import OverlayCard from '@/components/OverlayCard';
@@ -36,6 +37,8 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
   const [utteranceId, setUtteranceId] = useState<string | null>(null);
   const [speechReal, setSpeechReal] = useState<boolean>(false);
   const [planReceived, setPlanReceived] = useState<boolean>(false);
+  const [evaluationResults, setEvaluationResults] = useState<Map<number, { correct: boolean; feedback: string; correct_word: string }>>(new Map());
+  const [lessonSummary, setLessonSummary] = useState<any>(null);
 
 
   const backendUrl = useMemo(
@@ -63,19 +66,39 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
               const text: string = msg.payload?.text ?? '';
               if (text) {
                 setTranscripts(prev => [...prev, { speaker: 'User', text }]);
-                ws.send(JSON.stringify({ type: 'text', payload: { text } }));
               }
               break;
             }
-            case 'llm_token': {
-              const token: string = msg.payload?.token ?? '';
-              if (token) setLlmStreaming(prev => prev + token);
+            case 'prompt_next': {
+              const text: string = msg.payload?.text ?? '';
+              if (text) {
+                setTranscripts(prev => [...prev, { speaker: 'LLM', text }]);
+              }
               break;
             }
-            case 'llm_final': {
-              const text: string = msg.payload?.text ?? '';
-              if (text) setTranscripts(prev => [...prev, { speaker: 'LLM', text }]);
-              setLlmStreaming("");
+            case 'evaluation_result': {
+              const correct: boolean = msg.payload?.correct ?? false;
+              const feedback: string = msg.payload?.feedback ?? '';
+              const objectIndex: number = msg.payload?.object_index ?? -1;
+              const correctWord: string = msg.payload?.correct_word ?? '';
+              
+              if (objectIndex >= 0) {
+                setEvaluationResults(prev => {
+                  const next = new Map(prev);
+                  next.set(objectIndex, { correct, feedback, correct_word: correctWord });
+                  return next;
+                });
+                if (feedback) {
+                  setTranscripts(prev => [...prev, { speaker: 'LLM', text: feedback }]);
+                }
+              }
+              break;
+            }
+            case 'lesson_complete': {
+              const summary = msg.payload;
+              if (summary) {
+                setLessonSummary(summary);
+              }
               break;
             }
             case 'plan': {
@@ -396,6 +419,21 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
     }
   }, [planObjects]);
 
+  // update completed state based on evaluation results
+  useEffect(() => {
+    if (planObjects && evaluationResults.size > 0) {
+      setCompleted(prev => {
+        const next = [...prev];
+        evaluationResults.forEach((result, idx) => {
+          if (idx < next.length) {
+            next[idx] = result.correct;
+          }
+        });
+        return next;
+      });
+    }
+  }, [evaluationResults, planObjects]);
+
   const toggleItem = (i: number) => {
     setCompleted(prev => {
       const next = [...prev];
@@ -563,7 +601,21 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
         <div className="text-sm text-red-600">{audioError}</div>
       )}
 
-      <div className="relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]">
+      {lessonSummary ? (
+        <LessonSummary
+          summary={lessonSummary}
+          onNewLesson={() => {
+            setLessonSummary(null);
+            setPlanObjects(null);
+            setPlanMessage(null);
+            setShowCapturePrompt(true);
+            setEvaluationResults(new Map());
+            setTranscripts([]);
+            setPlanReceived(false);
+          }}
+        />
+      ) : (
+        <div className="relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]">
         <video
           ref={videoRef}
           className={`h-full w-full object-cover ${facing === 'user' ? 'scale-x-[-1]' : ''}`}
@@ -656,12 +708,11 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
         {(transcripts.length > 0 || !!llmStreaming) && (
           <TranscriptOverlay transcripts={transcripts} streamingText={llmStreaming} className="absolute right-4 top-4" />
         )}
+          <canvas ref={canvasRef} className="hidden" />
+          <p className="text-xs text-gray-500">
+          </p>
       </div>
-
-      <canvas ref={canvasRef} className="hidden" />
-      <p className="text-xs text-gray-500">
-      </p>
-      
+      )}
     </div>
   );
 }
