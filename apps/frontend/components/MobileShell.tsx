@@ -15,6 +15,9 @@ export default function MobileShell() {
   );
   const [tab, setTab] = useState<'home' | 'camera' | 'profile'>('camera'); // default to camera
 
+  const [username, setUsername] = useState('User');
+  const [editingName, setEditingName] = useState('');
+
   type UserSettings = {
     sourceLanguage: string;
     targetLanguage: string;
@@ -33,12 +36,19 @@ export default function MobileShell() {
 
   useEffect(() => {
     try {
-      const raw = localStorage.getItem('livelex_settings');
-      if (raw) {
-        const parsed = JSON.parse(raw);
+      const rawSettings = localStorage.getItem('livelex_settings');
+      const rawProfile = localStorage.getItem('livelex_profile');
+
+      if (rawSettings) {
+        const parsed = JSON.parse(rawSettings);
         if (parsed && typeof parsed === 'object') {
           setSettings({ ...DEFAULT_SETTINGS, ...parsed });
         }
+      }
+
+      if (rawProfile) {
+        const parsedProfile = JSON.parse(rawProfile);
+        if (parsedProfile.username) setUsername(parsedProfile.username);
       }
     } catch {}
   }, []);
@@ -47,6 +57,13 @@ export default function MobileShell() {
     const merged = { ...settings, ...next };
     setSettings(merged);
     try { localStorage.setItem('livelex_settings', JSON.stringify(merged)); } catch {}
+  };
+
+  const saveUsername = (name: string) => {
+    setUsername(name);
+    try {
+      localStorage.setItem('livelex_profile', JSON.stringify({ username: name }));
+    } catch {}
   };
 
   const tabBtn = (name: 'camera' | 'profile', label: string) => (
@@ -64,7 +81,7 @@ export default function MobileShell() {
     <main className="min-h-dvh flex flex-col">
       <section className="flex-1">
         <div className="mx-auto w-full px-4 py-6 space-y-4">
-          {tab === 'camera' && <CameraView settings={settings} />}
+          {tab === 'camera' && <CameraView settings={settings} username={username}/>}
 
           {tab === 'profile' && (
             <Card>
@@ -73,6 +90,30 @@ export default function MobileShell() {
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 gap-3">
+                                    <div className="text-sm">
+                    <Label className="block mb-1">Username</Label>
+                    <div className="flex gap-2">
+                      <Input
+                        type="text"
+                        value={editingName || username}
+                        onChange={(e) => setEditingName(e.target.value)}
+                      />
+                      <Button
+                        variant="default"
+                        onClick={() => {
+                          if (editingName.trim()) {
+                            saveUsername(editingName.trim());
+                            setEditingName('');
+                          }
+                        }}
+                      >
+                        Save
+                      </Button>
+                    </div>
+                    <p className="text-xs text-muted-foreground mt-1">
+                      Your username is stored locally and can be changed anytime.
+                    </p>
+                  </div>
                   <div className="text-sm">
                     <Label className="block mb-1">Source language</Label>
                     <Input
