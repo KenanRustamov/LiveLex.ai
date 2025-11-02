@@ -17,6 +17,11 @@ from app.schemas.plan import Plan, Object
 from app.schemas.evaluation import EvaluationResult
 from app.utils.storage import append_dialogue_entry, save_session_data, load_session_data
 from app.routers.lesson_graph import create_lesson_graph
+from app.db.repository import (
+    save_user_lesson_db,
+    get_user_progress_db,
+    get_user_object_stats_db,
+)
 import uuid
 from datetime import datetime, timezone
 
@@ -148,10 +153,10 @@ async def process_audio_image_pair(
                 })
 
             if state.username:
-                save_user_lesson(
+                await save_user_lesson_db(
                     username=state.username,
                     session_id=state.session_id,
-                    summary=summary
+                    summary=summary,
                 )
             
             state.lesson_saved = True
@@ -618,14 +623,13 @@ async def ws_stream(ws: WebSocket):
 @router.get("/user/{username}/progress")
 async def get_user_progress_api(username: str):
     """Get progress data for a specific user."""
-    progress = get_user_progress(username)
-    return progress
+    return await get_user_progress_db(username)
 
 
 @router.get("/user/{username}/objects")
 async def get_user_objects_api(username: str):
     """Get all objects a user has attempted with stats."""
-    progress = get_user_progress(username)
+    progress = await get_user_progress_db(username)
     return {"username": username, "objects": progress.get("objects", {})}
 
 
@@ -635,7 +639,7 @@ async def get_user_sessions_api(
     limit: int = Query(default=10, ge=1, le=100)
 ):
     """Get recent sessions for a user."""
-    progress = get_user_progress(username)
+    progress = await get_user_progress_db(username)
     sessions = progress.get("sessions", [])
     # Return most recent sessions first
     return {
@@ -647,7 +651,7 @@ async def get_user_sessions_api(
 @router.get("/user/{username}/object/{object_name}")
 async def get_user_object_stats_api(username: str, object_name: str):
     """Get stats for a specific object for a user."""
-    stats = get_user_object_stats(username, object_name)
+    stats = await get_user_object_stats_db(username, object_name)
     if stats is None:
         raise HTTPException(status_code=404, detail=f"No data found for object '{object_name}'")
     return {"username": username, "object_name": object_name, "stats": stats}
