@@ -125,7 +125,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
       };
       wsRef.current = ws;
     } catch {}
-  }, [wsUrl]);
+  }, [wsUrl, username]);
 
   const closeWs = useCallback(() => {
     try {
