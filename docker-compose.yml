@@ -5,6 +5,12 @@ services:
       - "8000:8000"
     env_file:
       - ./apps/backend/.env.example
+    environment:
+      - MONGO_USER=${MONGO_USER}
+      - MONGO_PASS=${MONGO_PASS}
+      - MONGO_HOST=${MONGO_HOST}
+      - MONGO_DB=${MONGO_DB}
+      - MONGO_APP=${MONGO_APP}
     networks: [stack]
 
   frontend:
