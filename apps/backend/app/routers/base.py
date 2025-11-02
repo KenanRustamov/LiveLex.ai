@@ -462,6 +462,43 @@ async def ws_stream(ws: WebSocket):
                     if username:
                         state.username = username
                         await send_status(f"Username set to: {username}")
+                elif action == "end_session":
+                    # Gracefully finalize current session: build summary from current progress and dialogue
+                    if state.plan:
+                        dialogue_entries = []
+                        if state.session_id:
+                            session_data = load_session_data(state.session_id)
+                            if session_data:
+                                dialogue_entries = session_data.get("entries", [])
+
+                        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries)
+
+                        if state.session_id:
+                            save_session_data(state.session_id, {
+                                "summary": summary,
+                            })
+
+                        if state.username:
+                            await save_user_lesson_db(
+                                username=state.username,
+                                session_id=state.session_id or "",
+                                summary=summary,
+                            )
+
+                        state.lesson_saved = True
+
+                        await ws.send_json({
+                            "type": "lesson_complete",
+                            "payload": summary,
+                        })
+
+                    # Reset lesson state
+                    state.plan = None
+                    state.current_object_index = -1
+                    state.completed_objects = []
+                    state.pending_transcription = None
+                    state.pending_image = None
+                    await send_status("Session ended")
                 elif action == "reset_lesson":
                     # Reset lesson state but keep connection alive
                     state.plan = None

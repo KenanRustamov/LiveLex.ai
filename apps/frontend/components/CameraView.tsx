@@ -687,6 +687,21 @@ export default function CameraView({ settings, username }: { settings: { sourceL
           {planObjects && (
             <Button onClick={() => { setPlanObjects(null); setPlanMessage(null); setShowCapturePrompt(true); }} variant="outline" className="text-xs" title="Retake">Retake</Button>
           )}
+          <Button
+            onClick={() => {
+              try {
+                if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
+                  wsRef.current.send(JSON.stringify({ type: 'control', payload: { action: 'end_session' } }));
+                }
+              } catch {}
+            }}
+            variant="destructive"
+            className="text-xs"
+            disabled={!running}
+            title="End Session"
+          >
+            End Session
+          </Button>
         </div>
         {isPlanLoading && (
           <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
