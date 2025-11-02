@@ -7,6 +7,7 @@ import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Select } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
+import { ScrollArea } from '@/components/ui/scroll-area';
 
 export default function MobileShell() {
   const backendUrl = useMemo(
@@ -33,6 +34,8 @@ export default function MobileShell() {
   };
 
   const [settings, setSettings] = useState<UserSettings>(DEFAULT_SETTINGS);
+  const [objectsStats, setObjectsStats] = useState<Array<{ objectName: string; correct: number; incorrect: number; correctWord?: string; lastAttempted?: string }>>([]);
+  const [loadingStats, setLoadingStats] = useState<boolean>(false);
 
   useEffect(() => {
     try {
@@ -52,6 +55,37 @@ export default function MobileShell() {
       }
     } catch {}
   }, []);
+
+  useEffect(() => {
+    const loadObjects = async () => {
+      if (!username) return;
+      setLoadingStats(true);
+      try {
+        const res = await fetch(`${backendUrl}/v1/user/${encodeURIComponent(username)}/objects`);
+        if (res.ok) {
+          const data = await res.json();
+          const objMap = (data && data.objects) || {};
+          const arr = Object.entries(objMap).map(([name, v]: [string, any]) => ({
+            objectName: name,
+            correct: Number(v?.correct || 0),
+            incorrect: Number(v?.incorrect || 0),
+            correctWord: v?.correct_word,
+            lastAttempted: v?.last_attempted,
+          }));
+          // sort by lastAttempted desc if available, else by name
+          arr.sort((a, b) => {
+            const ta = a.lastAttempted ? Date.parse(a.lastAttempted) : 0;
+            const tb = b.lastAttempted ? Date.parse(b.lastAttempted) : 0;
+            if (tb !== ta) return tb - ta;
+            return a.objectName.localeCompare(b.objectName);
+          });
+          setObjectsStats(arr);
+        }
+      } catch {}
+      setLoadingStats(false);
+    };
+    loadObjects();
+  }, [backendUrl, username]);
 
   const saveSettings = (next: Partial<UserSettings>) => {
     const merged = { ...settings, ...next };
@@ -149,6 +183,43 @@ export default function MobileShell() {
                     <p className="text-xs text-muted-foreground mt-1">For now, only "Pick up" is supported.</p>
                   </div>
                 </div>
+              </CardContent>
+            </Card>
+          )}
+          {tab === 'profile' && (
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-base">Practice history</CardTitle>
+              </CardHeader>
+              <CardContent>
+                {loadingStats ? (
+                  <div className="text-sm text-muted-foreground">Loading...</div>
+                ) : objectsStats.length === 0 ? (
+                  <div className="text-sm text-muted-foreground">No words practiced yet.</div>
+                ) : (
+                  <ScrollArea className="max-h-64">
+                    <div className="text-sm">
+                      <div className="grid grid-cols-5 gap-2 font-medium mb-2">
+                        <div className="col-span-2">Word</div>
+                        <div>Correct</div>
+                        <div>Incorrect</div>
+                        <div>Last tried</div>
+                      </div>
+                      <div className="space-y-1">
+                        {objectsStats.map((o) => (
+                          <div key={o.objectName} className="grid grid-cols-5 gap-2 items-center">
+                            <div className="col-span-2 truncate" title={o.correctWord || o.objectName}>
+                              {o.correctWord || o.objectName}
+                            </div>
+                            <div>{o.correct}</div>
+                            <div>{o.incorrect}</div>
+                            <div className="truncate" title={o.lastAttempted || ''}>{o.lastAttempted ? new Date(o.lastAttempted).toLocaleString() : '-'}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </ScrollArea>
+                )}
               </CardContent>
             </Card>
           )}
