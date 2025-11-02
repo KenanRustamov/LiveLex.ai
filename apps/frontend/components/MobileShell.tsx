@@ -18,6 +18,7 @@ export default function MobileShell() {
 
   const [username, setUsername] = useState('User');
   const [editingName, setEditingName] = useState('');
+  const [profileReady, setProfileReady] = useState(false);
 
   type UserSettings = {
     sourceLanguage: string;
@@ -54,16 +55,22 @@ export default function MobileShell() {
         if (parsedProfile.username) setUsername(parsedProfile.username);
       }
     } catch {}
+    setProfileReady(true);
   }, []);
 
   useEffect(() => {
+    if (!profileReady) return;
+    if (!username || username === 'User') return;
+    const controller = new AbortController();
+    let cancelled = false;
+
     const loadObjects = async () => {
-      if (!username) return;
       setLoadingStats(true);
       try {
-        const res = await fetch(`${backendUrl}/v1/user/${encodeURIComponent(username)}/objects`);
+        const res = await fetch(`${backendUrl}/v1/user/${encodeURIComponent(username)}/objects`, { signal: controller.signal });
         if (res.ok) {
           const data = await res.json();
+          if (cancelled) return;
           const objMap = (data && data.objects) || {};
           const arr = Object.entries(objMap).map(([name, v]: [string, any]) => ({
             objectName: name,
@@ -72,7 +79,6 @@ export default function MobileShell() {
             correctWord: v?.correct_word,
             lastAttempted: v?.last_attempted,
           }));
-          // sort by lastAttempted desc if available, else by name
           arr.sort((a, b) => {
             const ta = a.lastAttempted ? Date.parse(a.lastAttempted) : 0;
             const tb = b.lastAttempted ? Date.parse(b.lastAttempted) : 0;
@@ -82,10 +88,14 @@ export default function MobileShell() {
           setObjectsStats(arr);
         }
       } catch {}
-      setLoadingStats(false);
+      if (!cancelled) setLoadingStats(false);
     };
     loadObjects();
-  }, [backendUrl, username]);
+    return () => {
+      cancelled = true;
+      controller.abort();
+    };
+  }, [backendUrl, username, profileReady]);
 
   const saveSettings = (next: Partial<UserSettings>) => {
     const merged = { ...settings, ...next };
