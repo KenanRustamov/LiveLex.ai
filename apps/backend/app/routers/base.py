@@ -43,12 +43,13 @@ def get_next_object_index(plan: Plan, completed_objects: list[tuple[int, bool]])
     return -1  # all objects tested
 
 
-async def generate_prompt_message(object: Object, target_language: str) -> str:
+async def generate_prompt_message(object: Object, target_language: str, proficiency_level: int) -> str:
     """Generate a prompt message asking user to interact with an object."""
     prompt_value = prompt_next_object.invoke({
         "source_name": object.source_name,
         "target_name": object.target_name,
         "target_language": target_language,
+        "proficiency_level": proficiency_level,
     })
     llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
     messages = prompt_value.to_messages()
@@ -128,7 +129,7 @@ async def process_audio_image_pair(
     if next_idx >= 0:
         # more objects to test -> prompt next
         state.current_object_index = next_idx
-        prompt_msg = await generate_prompt_message(state.plan.objects[next_idx], image_metadata["target_language"])
+        prompt_msg = await generate_prompt_message(state.plan.objects[next_idx], image_metadata["target_language"], image_metadata["proficiency_level"])
         await ws.send_json({"type": "prompt_next", "payload": {"text": prompt_msg, "object_index": next_idx}})
         
         if state.session_id:
@@ -578,12 +579,14 @@ async def ws_stream(ws: WebSocket):
                 source_language = payload.get("source_language", "English")
                 location = payload.get("location", "US")
                 actions = payload.get("actions") or ["name", "describe", "compare"]
+                proficiency_level = payload.get("proficiency_level", 1)
                 
                 image_metadata = {
                     "target_language": target_language,
                     "source_language": source_language,
                     "location": location,
                     "actions": actions,
+                    "proficiency_level": proficiency_level,
                 }
                 
                 # if this is initial plan (no utterance_id or no plan exists)
@@ -618,7 +621,7 @@ async def ws_stream(ws: WebSocket):
                         next_idx = get_next_object_index(plan, state.completed_objects)
                         if next_idx >= 0:
                             state.current_object_index = next_idx
-                            prompt_msg = await generate_prompt_message(plan.objects[next_idx], target_language)
+                            prompt_msg = await generate_prompt_message(plan.objects[next_idx], target_language, proficiency_level)
                             await ws.send_json({"type": "prompt_next", "payload": {"text": prompt_msg, "object_index": next_idx}})
                             
                             # save prompt to dialogue
