@@ -13,7 +13,7 @@ import OverlayCard from '@/components/OverlayCard';
 
 const CAPTURE_PREVIEW_DURATION_MS = 3000;
 
-export default function CameraView({ settings, username }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[] }, username: string }) {
+export default function CameraView({ settings, username }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[], proficiencyLevel: number;}, username: string }) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -357,7 +357,8 @@ export default function CameraView({ settings, username }: { settings: { sourceL
             target_language: settings.targetLanguage,
             source_language: settings.sourceLanguage,
             location: settings.location,
-            actions: settings.actions
+            actions: settings.actions,
+            proficiency_level: settings.proficiencyLevel,
           }
         }));
       }

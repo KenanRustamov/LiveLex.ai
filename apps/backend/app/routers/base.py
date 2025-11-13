@@ -71,7 +71,7 @@ async def process_audio_image_pair(
         return
     
     current_object = state.plan.objects[state.current_object_index]
-    
+
     # evaluate response
     try:
         eval_result = await evaluate_response(
@@ -81,11 +81,11 @@ async def process_audio_image_pair(
             current_object=current_object,
             target_language=image_metadata["target_language"],
             source_language=image_metadata["source_language"],
+            proficiency_level=image_metadata["proficiency_level"],
         )
     except Exception as e:
         await ws.send_json({"type": "status", "payload": {"code": "error", "message": f"Evaluation error: {e}"}})
         return
-    
     # mark object as completed
     state.completed_objects.append((state.current_object_index, eval_result.correct))
     
@@ -103,7 +103,7 @@ async def process_audio_image_pair(
                 "correct_word": eval_result.correct_word,
             },
         })
-    
+
     # send evaluation result
     await ws.send_json({
         "type": "evaluation_result",
@@ -127,6 +127,7 @@ async def process_audio_image_pair(
     next_idx = get_next_object_index(state.plan, state.completed_objects)
     
     if next_idx >= 0:
+        
         # more objects to test -> prompt next
         state.current_object_index = next_idx
         prompt_msg = await generate_prompt_message(state.plan.objects[next_idx], image_metadata["target_language"], image_metadata["proficiency_level"])
@@ -353,21 +354,23 @@ async def evaluate_response(
     current_object: Object,
     target_language: str,
     source_language: str,
+    proficiency_level: int
 ) -> EvaluationResult:
     """Evaluate if the user's transcription matches the expected object and word."""
     if not settings.openai_api_key:
         raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY")
-
+    
     prompt_value = evaluate_response_prompt.invoke({
         "object_source_name": current_object.source_name,
         "object_target_name": current_object.target_name,
         "transcription": transcription,
         "target_language": target_language,
         "source_language": source_language,
+        "proficiency_level": proficiency_level,
     })
     system_msg = prompt_value.to_messages()[0]
     user_msg = prompt_value.to_messages()[1]
-
+    
     # replace the placeholder in user message with actual image
     user_content = user_msg.content
     if isinstance(user_content, str):

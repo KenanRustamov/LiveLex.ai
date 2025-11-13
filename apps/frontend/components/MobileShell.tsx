@@ -127,7 +127,7 @@ export default function MobileShell() {
     <main className="min-h-dvh flex flex-col">
       <section className="flex-1">
         <div className="mx-auto w-full px-4 py-6 space-y-4">
-          {tab === 'camera' && <CameraView settings={settings} username={username}/>}
+          {tab === 'camera' && <CameraView key={JSON.stringify(settings)} settings={settings} username={username} />}
 
           {tab === 'profile' && (
             <Card>
