@@ -1,9 +1,11 @@
+from __future__ import annotations
 import base64
 import io
 import json
+import os
 from typing import Any, AsyncGenerator, Optional
 
-from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect, Query
 from starlette.websockets import WebSocketState
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
@@ -15,8 +17,13 @@ from app.schemas.plan import Plan, Object
 from app.schemas.evaluation import EvaluationResult
 from app.utils.storage import append_dialogue_entry, save_session_data, load_session_data
 from app.routers.lesson_graph import create_lesson_graph
+from app.db.repository import (
+    save_user_lesson_db,
+    get_user_progress_db,
+    get_user_object_stats_db,
+)
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 
 from pydantic import BaseModel
 
@@ -236,23 +243,33 @@ async def process_audio_image_pair(
             })
     else:
         # all objects tested -> generate summary
-        dialogue_entries = []
-        if state.session_id:
-            session_data = load_session_data(state.session_id)
-            if session_data:
-                dialogue_entries = session_data.get("entries", [])
+        if not state.lesson_saved:
+            dialogue_entries = []
+            if state.session_id:
+                session_data = load_session_data(state.session_id)
+                if session_data:
+                    dialogue_entries = session_data.get("entries", [])
+            
+            summary = generate_summary(state.plan, state.completed_objects, dialogue_entries)
+            
+            if state.session_id:
+                save_session_data(state.session_id, {
+                    "summary": summary,
+                })
+
+            if state.username:
+                await save_user_lesson_db(
+                    username=state.username,
+                    session_id=state.session_id,
+                    summary=summary,
+                )
+            
+            state.lesson_saved = True
         
-        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries)
-        
-        if state.session_id:
-            save_session_data(state.session_id, {
-                "summary": summary,
+            await ws.send_json({
+                "type": "lesson_complete",
+                "payload": summary,
             })
-        
-        await ws.send_json({
-            "type": "lesson_complete",
-            "payload": summary,
-        })
 
 
 def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dialogue_entries: list[dict]) -> dict:
@@ -288,6 +305,91 @@ def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dial
         "incorrect_count": sum(1 for _, correct in completed_objects if not correct),
     }
 
+def save_user_lesson(username: str, session_id: str, summary: dict, output_path: str = "data/user_data/user_lessons.json"):
+    """Update JSON file with per-user progress and append session summaries."""
+    
+    # Ensure directory exists
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    
+    # Load existing data
+    if os.path.exists(output_path):
+        with open(output_path, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+            except json.JSONDecodeError:
+                data = {}
+    else:
+        data = {}
+
+    # Ensure user entry exists
+    if username not in data:
+        data[username] = {"objects": {}, "sessions": []}
+
+    user_data = data[username]
+    objects = user_data["objects"]
+
+    # Process each item in the summary
+    for item in summary.get("items", []):
+        obj_name = item["object"]["source_name"]
+        correct_word = item["object"]["target_name"]
+        user_said = item.get("user_said") or ""
+        correct = item.get("correct", False)
+
+        # Initialize object if not exists
+        if obj_name not in objects:
+            objects[obj_name] = {
+                "correct": 0,
+                "incorrect": 0,
+                "last_correct": None,
+                "last_user_said": None,
+                "correct_word": correct_word,
+                "last_attempted": None,
+            }
+
+        obj = objects[obj_name]
+
+        # Increment counts
+        if correct:
+            obj["correct"] += 1
+        else:
+            obj["incorrect"] += 1
+
+        # Update last attempt details
+        obj["last_correct"] = correct
+        obj["last_user_said"] = user_said
+        obj["correct_word"] = correct_word
+        obj["last_attempted"] = datetime.now(timezone.utc).isoformat()
+
+    # Append session summary
+    user_data["sessions"].append({
+        "session_id": session_id,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "summary": summary
+    })
+
+    # Save back to file with proper formatting
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Saved lesson data for user '{username}' to {output_path}")
+
+def get_user_progress(username: str, output_path: str = "data/all_users/all_users.json") -> dict:
+    """Retrieve progress data for a specific user."""
+    if not os.path.exists(output_path):
+        return {"objects": {}, "sessions": []}
+    
+    try:
+        with open(output_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data.get(username, {"objects": {}, "sessions": []})
+    except (json.JSONDecodeError, IOError):
+        return {"objects": {}, "sessions": []}
+
+
+def get_user_object_stats(username: str, object_name: str, output_path: str = "data/all_users/all_users.json") -> dict | None:
+    """Retrieve stats for a specific object for a user."""
+    user_data = get_user_progress(username, output_path)
+    return user_data["objects"].get(object_name)
 
 class SessionState:
     """Per-connection state for streaming session."""
@@ -296,11 +398,13 @@ class SessionState:
         self.session_id: Optional[str] = None
         self.audio_chunks: list[bytes] = []
         self.audio_mime: Optional[str] = None
+        self.username: Optional[str] = None # Subject to change if creating user accounts later
         # lesson state
         self.plan: Optional[Plan] = None
         self.current_object_index: int = -1
         self.completed_objects: list[tuple[int, bool]] = []  # List of (index, correct) tuples
         self.dialogue_history: list[dict[str, Any]] = []
+        self.lesson_saved: bool = False
         # pending audio/image pairing
         self.pending_transcription: Optional[tuple[str, str]] = None  # (utterance_id, transcription)
         self.pending_image: Optional[tuple[str, str, dict]] = None  # (utterance_id, data_url, metadata)
@@ -457,7 +561,60 @@ async def ws_stream(ws: WebSocket):
 
             if msg_type == "control":
                 action = payload.get("action")
-                await send_status(f"control:{action or 'noop'}")
+                
+                if action == "set_username":
+                    username = payload.get("username")
+                    if username:
+                        state.username = username
+                        await send_status(f"Username set to: {username}")
+                elif action == "end_session":
+                    # Gracefully finalize current session: build summary from current progress and dialogue
+                    if state.plan:
+                        dialogue_entries = []
+                        if state.session_id:
+                            session_data = load_session_data(state.session_id)
+                            if session_data:
+                                dialogue_entries = session_data.get("entries", [])
+
+                        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries)
+
+                        if state.session_id:
+                            save_session_data(state.session_id, {
+                                "summary": summary,
+                            })
+
+                        if state.username:
+                            await save_user_lesson_db(
+                                username=state.username,
+                                session_id=state.session_id or "",
+                                summary=summary,
+                            )
+
+                        state.lesson_saved = True
+
+                        await ws.send_json({
+                            "type": "lesson_complete",
+                            "payload": summary,
+                        })
+
+                    # Reset lesson state
+                    state.plan = None
+                    state.current_object_index = -1
+                    state.completed_objects = []
+                    state.pending_transcription = None
+                    state.pending_image = None
+                    await send_status("Session ended")
+                elif action == "reset_lesson":
+                    # Reset lesson state but keep connection alive
+                    state.plan = None
+                    state.current_object_index = -1
+                    state.completed_objects = []
+                    state.pending_transcription = None
+                    state.pending_image = None
+                    state.lesson_saved = False
+                    await send_status("Lesson state reset, ready for new session")
+                else:
+                    await send_status(f"control:{action or 'noop'}")
 
             elif msg_type == "audio_chunk":
                 data_b64 = payload.get("data_b64")
@@ -657,4 +814,38 @@ async def ws_stream(ws: WebSocket):
             # Safely ignore any close errors
             pass
 
+@router.get("/user/{username}/progress")
+async def get_user_progress_api(username: str):
+    """Get progress data for a specific user."""
+    return await get_user_progress_db(username)
 
+
+@router.get("/user/{username}/objects")
+async def get_user_objects_api(username: str):
+    """Get all objects a user has attempted with stats."""
+    progress = await get_user_progress_db(username)
+    return {"username": username, "objects": progress.get("objects", {})}
+
+
+@router.get("/user/{username}/sessions")
+async def get_user_sessions_api(
+    username: str, 
+    limit: int = Query(default=10, ge=1, le=100)
+):
+    """Get recent sessions for a user."""
+    progress = await get_user_progress_db(username)
+    sessions = progress.get("sessions", [])
+    # Return most recent sessions first
+    return {
+        "username": username, 
+        "sessions": list(reversed(sessions[-limit:]))
+    }
+
+
+@router.get("/user/{username}/object/{object_name}")
+async def get_user_object_stats_api(username: str, object_name: str):
+    """Get stats for a specific object for a user."""
+    stats = await get_user_object_stats_db(username, object_name)
+    if stats is None:
+        raise HTTPException(status_code=404, detail=f"No data found for object '{object_name}'")
+    return {"username": username, "object_name": object_name, "stats": stats}
