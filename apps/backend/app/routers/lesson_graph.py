@@ -1,31 +1,108 @@
 """LangGraph state machine for lesson flow."""
-from typing import TypedDict, Literal
+from typing import TypedDict, Literal, Optional
+from fastapi import WebSocket
+from starlette.websockets import WebSocketState
 from langgraph.graph import StateGraph, END
 from app.schemas.plan import Plan, Object
+from app.schemas.evaluation import EvaluationResult
+import logging
 
 
-class LessonState(TypedDict):
+class LessonState(TypedDict, total=False):
     """State for the lesson graph."""
     plan: Plan | None
     current_object_index: int
     completed_objects: list[tuple[int, bool]]  # (index, correct)
-    lesson_state: Literal["INITIAL_PLAN", "PROMPT_USER", "AWAIT_RESPONSE", "EVALUATE", "FEEDBACK", "COMPLETE"]
+    lesson_state: Literal["PROMPT_USER", "AWAIT_RESPONSE", "EVALUATE", "FEEDBACK", "COMPLETE"]
     target_language: str
     source_language: str
     location: str
     actions: list[str]
+    # Additional fields for graph operations
+    session_id: str | None
+    username: str | None
+    image_metadata: dict | None  # target_language, source_language, location, actions
+    pending_transcription: tuple[str, str] | None  # (utterance_id, text)
+    pending_image: tuple[str, str, dict] | None  # (utterance_id, data_url, metadata)
+    evaluation_result: EvaluationResult | None
+    prompt_message: str | None
 
 
-def initial_plan_node(state: LessonState) -> LessonState:
-    """After plan is generated, move to prompt user."""
-    return {**state, "lesson_state": "PROMPT_USER"}
-
-
-def prompt_user_node(state: LessonState) -> LessonState:
+async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
     """Prompt user to interact with next object."""
-    # The prompting logic will be handled in the WebSocket handler
-    # This just marks the state transition
-    return {**state, "lesson_state": "AWAIT_RESPONSE"}
+    # TODO: Refactor circular dependencies to a utils file
+    from app.routers.base import generate_prompt_message, get_next_object_index
+    from app.utils.storage import append_dialogue_entry
+    
+    plan = state.get("plan")
+    if not plan:
+        # No plan available, can't prompt
+        logging.warning("prompt_user_node: No plan available")
+        return {**state, "lesson_state": "AWAIT_RESPONSE"}
+    
+    # Get next object index
+    completed_objects = state.get("completed_objects", [])
+    next_idx = get_next_object_index(plan, completed_objects)
+    
+    if next_idx < 0:
+        # No more objects, should have been handled in feedback node
+        logging.warning("prompt_user_node: No more objects to prompt")
+        return {**state, "lesson_state": "AWAIT_RESPONSE"}
+    
+    if next_idx >= len(plan.objects):
+        # Invalid object index
+        logging.error(f"prompt_user_node: Invalid object index {next_idx} for plan with {len(plan.objects)} objects")
+        return {**state, "lesson_state": "AWAIT_RESPONSE"}
+    
+    current_object = plan.objects[next_idx]
+    target_language = state.get("target_language", "Spanish")
+    
+    # Generate prompt message
+    try:
+        prompt_msg = await generate_prompt_message(current_object, target_language)
+        if not prompt_msg:
+            logging.warning("prompt_user_node: Generated empty prompt message")
+            prompt_msg = f"Please hold up or point to the {current_object.source_name} and say '{current_object.target_name}' in {target_language}."
+    except Exception as e:
+        # If prompt generation fails, create a fallback prompt
+        logging.error(f"prompt_user_node: Prompt generation failed: {e}", exc_info=True)
+        prompt_msg = f"Please hold up or point to the {current_object.source_name} and say '{current_object.target_name}' in {target_language}."
+    
+    # Send WebSocket message
+    try:
+        if ws and ws.client_state != WebSocketState.DISCONNECTED:
+            await ws.send_json({
+                "type": "prompt_next",
+                "payload": {
+                    "text": prompt_msg,
+                    "object_index": next_idx
+                }
+            })
+        else:
+            logging.warning("prompt_user_node: WebSocket disconnected, cannot send prompt")
+    except Exception as e:
+        # WebSocket send failed, but continue with state update
+        logging.error(f"prompt_user_node: WebSocket send failed: {e}", exc_info=True)
+    
+    # Save prompt to dialogue
+    session_id = state.get("session_id")
+    if session_id:
+        try:
+            append_dialogue_entry(session_id, {
+                "speaker": "system",
+                "text": prompt_msg,
+            })
+        except Exception as e:
+            # Dialogue save failed, but continue
+            logging.error(f"prompt_user_node: Dialogue save failed: {e}", exc_info=True)
+    
+    # Update state
+    return {
+        **state,
+        "current_object_index": next_idx,
+        "prompt_message": prompt_msg,
+        "lesson_state": "AWAIT_RESPONSE"
+    }
 
 
 def await_response_node(state: LessonState) -> LessonState:
@@ -33,55 +110,284 @@ def await_response_node(state: LessonState) -> LessonState:
     return state
 
 
-def evaluate_node(state: LessonState) -> LessonState:
-    """After evaluation, move to feedback."""
-    return {**state, "lesson_state": "FEEDBACK"}
-
-
-def feedback_node(state: LessonState) -> LessonState:
-    """After feedback, check if there are more objects or complete."""
-    plan = state["plan"]
-    completed_indices = {idx for idx, _ in state["completed_objects"]}
+async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
+    """Evaluate user's response and move to feedback."""
+    from app.routers.base import evaluate_response
+    from app.utils.storage import append_dialogue_entry
     
-    if plan and len(completed_indices) >= len(plan.objects):
-        # All objects tested
+    plan = state.get("plan")
+    pending_transcription = state.get("pending_transcription")
+    pending_image = state.get("pending_image")
+    current_object_index = state.get("current_object_index", -1)
+    
+    if not plan:
+        logging.warning("evaluate_node: No plan available")
+        return {**state, "lesson_state": "FEEDBACK"}
+    
+    if current_object_index < 0:
+        logging.warning("evaluate_node: Invalid current_object_index")
+        return {**state, "lesson_state": "FEEDBACK"}
+    
+    if not pending_transcription:
+        logging.warning("evaluate_node: No pending transcription")
+        return {**state, "lesson_state": "FEEDBACK"}
+    
+    if not pending_image:
+        logging.warning("evaluate_node: No pending image")
+        return {**state, "lesson_state": "FEEDBACK"}
+    
+    # Extract data
+    try:
+        utterance_id, transcription = pending_transcription
+    except (ValueError, TypeError) as e:
+        logging.error(f"evaluate_node: Invalid pending_transcription format: {e}")
+        return {**state, "lesson_state": "FEEDBACK"}
+    
+    try:
+        _, image_data_url, image_metadata = pending_image
+    except (ValueError, TypeError) as e:
+        logging.error(f"evaluate_node: Invalid pending_image format: {e}")
+        return {**state, "lesson_state": "FEEDBACK"}
+    
+    if current_object_index >= len(plan.objects):
+        # Invalid object index
+        logging.error(f"evaluate_node: Invalid object index {current_object_index} for plan with {len(plan.objects)} objects")
+        return {**state, "lesson_state": "FEEDBACK"}
+    
+    current_object = plan.objects[current_object_index]
+    target_language = image_metadata.get("target_language", state.get("target_language", "Spanish"))
+    source_language = image_metadata.get("source_language", state.get("source_language", "English"))
+    
+    # Evaluate response
+    try:
+        eval_result = await evaluate_response(
+            transcription=transcription,
+            image_data_url=image_data_url,
+            plan=plan,
+            current_object=current_object,
+            target_language=target_language,
+            source_language=source_language,
+        )
+    except Exception as e:
+        # Evaluation failed, create a default result
+        logging.error(f"evaluate_node: Evaluation failed: {e}", exc_info=True)
+        from app.schemas.evaluation import EvaluationResult
+        eval_result = EvaluationResult(
+            correct=False,
+            object_tested=current_object,
+            correct_word=current_object.target_name,
+            feedback_message=f"Sorry, I had trouble evaluating your response. Please try again.",
+            transcription=transcription,
+        )
+    
+    # Mark object as completed
+    completed_objects = state.get("completed_objects", [])
+    completed_objects.append((current_object_index, eval_result.correct))
+    
+    # Save user entry with image and evaluation
+    session_id = state.get("session_id")
+    if session_id:
+        try:
+            append_dialogue_entry(session_id, {
+                "speaker": "user",
+                "text": transcription,
+                "utterance_id": utterance_id,
+                "image_data_url": image_data_url,
+                "evaluation": {
+                    "correct": eval_result.correct,
+                    "object_tested": eval_result.object_tested.model_dump(),
+                    "correct_word": eval_result.correct_word,
+                },
+            })
+        except Exception:
+            # Dialogue save failed, but continue
+            pass
+    
+    # Send evaluation result via WebSocket
+    try:
+        if ws and ws.client_state != WebSocketState.DISCONNECTED:
+            await ws.send_json({
+                "type": "evaluation_result",
+                "payload": {
+                    "correct": eval_result.correct,
+                    "feedback": eval_result.feedback_message,
+                    "object_index": current_object_index,
+                    "object": current_object.model_dump(),
+                    "correct_word": eval_result.correct_word,
+                },
+            })
+        else:
+            logging.warning("evaluate_node: WebSocket disconnected, cannot send evaluation result")
+    except Exception as e:
+        # WebSocket send failed, but continue
+        logging.error(f"evaluate_node: WebSocket send failed: {e}", exc_info=True)
+    
+    # Save system feedback
+    if session_id:
+        try:
+            append_dialogue_entry(session_id, {
+                "speaker": "system",
+                "text": eval_result.feedback_message,
+            })
+        except Exception:
+            # Dialogue save failed, but continue
+            pass
+    
+    # Update state
+    return {
+        **state,
+        "completed_objects": completed_objects,
+        "evaluation_result": eval_result,
+        "lesson_state": "FEEDBACK",
+        # Clear pending data
+        "pending_transcription": None,
+        "pending_image": None,
+    }
+
+
+async def feedback_node(state: LessonState, ws: WebSocket) -> LessonState:
+    """After feedback, check if there are more objects or complete."""
+    from app.routers.base import get_next_object_index, generate_summary
+    from app.utils.storage import load_session_data, save_session_data
+    from app.db.repository import save_user_lesson_db
+    
+    plan = state.get("plan")
+    completed_objects = state.get("completed_objects", [])
+    
+    if not plan:
+        logging.warning("feedback_node: No plan available")
+        return {**state, "lesson_state": "COMPLETE"}
+    
+    completed_indices = {idx for idx, _ in completed_objects}
+    
+    # Check if more objects remain
+    next_idx = get_next_object_index(plan, completed_objects)
+    
+    if next_idx < 0 or len(completed_indices) >= len(plan.objects):
+        # All objects tested - generate summary and complete
+        session_id = state.get("session_id")
+        dialogue_entries = []
+        
+        if session_id:
+            try:
+                session_data = load_session_data(session_id)
+                if session_data:
+                    dialogue_entries = session_data.get("entries", [])
+            except Exception:
+                # Failed to load session data, continue with empty entries
+                pass
+        
+        # Generate summary
+        try:
+            summary = generate_summary(plan, completed_objects, dialogue_entries)
+        except Exception as e:
+            # Summary generation failed, create minimal summary
+            summary = {
+                "items": [],
+                "total": len(completed_objects),
+                "correct_count": sum(1 for _, correct in completed_objects if correct),
+                "incorrect_count": sum(1 for _, correct in completed_objects if not correct),
+            }
+        
+        # Save summary to session
+        if session_id:
+            try:
+                save_session_data(session_id, {
+                    "summary": summary,
+                })
+            except Exception:
+                # Save failed, but continue
+                pass
+        
+        # Save to database
+        username = state.get("username")
+        if username and session_id:
+            try:
+                await save_user_lesson_db(
+                    username=username,
+                    session_id=session_id,
+                    summary=summary,
+                )
+            except Exception:
+                # DB save failed, but continue
+                pass
+        
+        # Send completion message
+        try:
+            if ws and ws.client_state != WebSocketState.DISCONNECTED:
+                await ws.send_json({
+                    "type": "lesson_complete",
+                    "payload": summary,
+                })
+            else:
+                logging.warning("feedback_node: WebSocket disconnected, cannot send completion message")
+        except Exception as e:
+            # WebSocket send failed, but continue
+            logging.error(f"feedback_node: WebSocket send failed: {e}", exc_info=True)
+        
         return {**state, "lesson_state": "COMPLETE"}
     else:
         # Move to prompt next object
         return {**state, "lesson_state": "PROMPT_USER"}
 
 
-def create_lesson_graph() -> StateGraph:
-    """Create the lesson state graph."""
+def create_lesson_graph(ws: WebSocket | None = None) -> StateGraph:
+    """Create the lesson state graph with optional WebSocket binding.
+    
+    If ws is provided, nodes will be wrapped to receive WebSocket.
+    Otherwise, nodes expect WebSocket to be passed via state or context.
+    """
     graph = StateGraph(LessonState)
     
-    # Add nodes
-    graph.add_node("initial_plan", initial_plan_node)
-    graph.add_node("prompt_user", prompt_user_node)
+    # Create wrapper functions that bind WebSocket to async nodes
+    def create_node_wrapper(node_func, ws_param: WebSocket | None):
+        if ws_param is not None:
+            # Bind WebSocket to node function
+            async def wrapped_node(state: LessonState) -> LessonState:
+                return await node_func(state, ws_param)
+            return wrapped_node
+        else:
+            # Return node that expects ws in state or will be bound later
+            async def wrapped_node(state: LessonState) -> LessonState:
+                # Try to get ws from state (won't be there, but handle gracefully)
+                # In practice, ws will be bound when graph is invoked
+                ws_from_context = None  # Will be set via closure in invocation helper
+                return await node_func(state, ws_from_context or state.get("_ws"))
+            return wrapped_node
+    
+    # Add nodes - use wrappers if ws provided, otherwise create placeholders
+    graph.add_node("prompt_user", create_node_wrapper(prompt_user_node, ws))
     graph.add_node("await_response", await_response_node)
-    graph.add_node("evaluate", evaluate_node)
-    graph.add_node("feedback", feedback_node)
+    graph.add_node("evaluate", create_node_wrapper(evaluate_node, ws))
+    graph.add_node("feedback", create_node_wrapper(feedback_node, ws))
     
     # Add edges
-    graph.add_edge("initial_plan", "prompt_user")
     graph.add_edge("prompt_user", "await_response")
     graph.add_edge("evaluate", "feedback")
     
     # Conditional edge from feedback
-    def should_complete(state: LessonState) -> Literal["complete", "prompt_user"]:
-        plan = state["plan"]
-        completed_indices = {idx for idx, _ in state["completed_objects"]}
-        if plan and len(completed_indices) >= len(plan.objects):
+    def should_continue(state: LessonState) -> Literal["complete", "prompt_user"]:
+        lesson_state = state.get("lesson_state", "FEEDBACK")
+        if lesson_state == "COMPLETE":
+            return "complete"
+        
+        plan = state.get("plan")
+        completed_objects = state.get("completed_objects", [])
+        if not plan:
+            return "complete"
+        
+        completed_indices = {idx for idx, _ in completed_objects}
+        if len(completed_indices) >= len(plan.objects):
             return "complete"
         return "prompt_user"
     
-    graph.add_conditional_edges("feedback", should_complete, {
+    graph.add_conditional_edges("feedback", should_continue, {
         "complete": END,
         "prompt_user": "prompt_user",
     })
     
-    # Set entry point
-    graph.set_entry_point("initial_plan")
+    # Set entry point to prompt_user (plan generation happens before graph invocation)
+    graph.set_entry_point("prompt_user")
     
     return graph.compile()
 
