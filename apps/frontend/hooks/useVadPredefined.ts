@@ -32,10 +32,10 @@ export default function useVadPredefined(
           model: 'legacy',
           startOnLoad: true,
           // FrameProcessor tuning
-          preSpeechPadMs: 300,
-          redemptionMs: 400,
-          minSpeechMs: 120,
-          positiveSpeechThreshold: 0.6,
+          preSpeechPadMs: 450,
+          redemptionMs: 600,
+          minSpeechMs: 80,
+          positiveSpeechThreshold: 0.8,
           negativeSpeechThreshold: 0.35,
         });
         try {

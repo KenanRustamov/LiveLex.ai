@@ -13,7 +13,7 @@ import OverlayCard from '@/components/OverlayCard';
 
 const CAPTURE_PREVIEW_DURATION_MS = 3000;
 
-export default function CameraView({ settings }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[] } }) {
+export default function CameraView({ settings, username }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[] }, username: string }) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -52,6 +52,7 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
       if (wsRef.current && (wsRef.current.readyState === WebSocket.OPEN || wsRef.current.readyState === WebSocket.CONNECTING)) return;
       const ws = new WebSocket(`${wsUrl}/v1/ws`);
       ws.onopen = () => {
+        ws.send(JSON.stringify({ type: 'control', payload: { action: 'set_username', username }}));
         ws.send(JSON.stringify({ type: 'control', payload: { action: 'start' } }));
       };
       ws.onmessage = (evt) => {
@@ -124,7 +125,7 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
       };
       wsRef.current = ws;
     } catch {}
-  }, [wsUrl]);
+  }, [wsUrl, username]);
 
   const closeWs = useCallback(() => {
     try {
@@ -612,6 +613,13 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
             setEvaluationResults(new Map());
             setTranscripts([]);
             setPlanReceived(false);
+
+            if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
+              wsRef.current.send(JSON.stringify({ 
+                type: 'control', 
+                payload: { action: 'reset_lesson' } 
+              }));
+            }
           }}
         />
       ) : (
@@ -679,6 +687,21 @@ export default function CameraView({ settings }: { settings: { sourceLanguage: s
           {planObjects && (
             <Button onClick={() => { setPlanObjects(null); setPlanMessage(null); setShowCapturePrompt(true); }} variant="outline" className="text-xs" title="Retake">Retake</Button>
           )}
+          <Button
+            onClick={() => {
+              try {
+                if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
+                  wsRef.current.send(JSON.stringify({ type: 'control', payload: { action: 'end_session' } }));
+                }
+              } catch {}
+            }}
+            variant="destructive"
+            className="text-xs"
+            disabled={!running}
+            title="End Session"
+          >
+            End Session
+          </Button>
         </div>
         {isPlanLoading && (
           <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
