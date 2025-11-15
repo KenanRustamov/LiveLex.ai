@@ -10,6 +10,7 @@ from starlette.websockets import WebSocketState
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
+from pydub import AudioSegment
 
 from app.core.config import settings
 from app.prompts.chat_prompts import generate_plan_prompt, prompt_next_object, evaluate_response_prompt
@@ -437,17 +438,67 @@ def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str]) -> str:
         if candidate:
             ext = candidate
 
+    original_audio_bytes = audio_bytes
+    converted = False
+    is_webm = ext.lower() == "webm" or (mime and "webm" in mime.lower())
+
+    # Convert WebM to WAV (Firefox records in WebM, incompatible w/ OpenAI API)
+    if is_webm:
+        try:
+            # Validate WebM file is not empty
+            if len(audio_bytes) < 100:  # WebM files should be at least a few hundred bytes
+                raise HTTPException(
+                    status_code=400, 
+                    detail="Audio file appears to be empty or incomplete. Please ensure the recording was properly stopped."
+                )
+            
+            # Load WebM audio and convert to WAV
+            audio = AudioSegment.from_file(io.BytesIO(original_audio_bytes), format="webm")
+            # Export to WAV format in memory
+            wav_buffer = io.BytesIO()
+            audio.export(wav_buffer, format="wav")
+            wav_buffer.seek(0)
+            audio_bytes = wav_buffer.read()
+            ext = "wav"
+            converted = True
+        except HTTPException:
+            raise
+        except Exception as e:
+            # Check if error indicates corrupted/incomplete WebM
+            error_str = str(e).lower()
+            if any(keyword in error_str for keyword in ["ebml", "parsing failed", "invalid data", "corrupted", "incomplete"]):
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Audio file appears to be corrupted or incomplete. This can happen if the recording wasn't properly finalized. Error: {str(e)[:200]}"
+                )
+            # For other conversion errors, log and try original format (will likely fail)
+            logging.warning(f"Failed to convert WebM to WAV: {e}. Attempting with original format (may fail).")
+            
+
     buf = io.BytesIO(audio_bytes)
     buf.name = f"audio.{ext}"
 
-    resp = client.audio.transcriptions.create(
-        model=settings.transcription_model,
-        file=buf,
-    )
-    text = getattr(resp, "text", None)
-    if not text:
-        raise HTTPException(status_code=502, detail="Transcription failed")
-    return text
+    try:
+        resp = client.audio.transcriptions.create(
+            model=settings.transcription_model,
+            file=buf,
+        )
+        text = getattr(resp, "text", None)
+        if not text:
+            raise HTTPException(status_code=502, detail="Transcription failed")
+        return text
+    except Exception as e:
+        # If we tried original WebM and it failed
+        if is_webm and not converted:
+            raise HTTPException(
+                status_code=400,
+                detail=f"Failed to process WebM audio file. The file may be corrupted or incomplete. Please try recording again. Original error: {str(e)[:200]}"
+            )
+        # Re-raise other errors
+        if isinstance(e, HTTPException):
+            raise
+        logging.error(f"Transcription error: {e}")
+        raise HTTPException(status_code=500, detail=f"Transcription error: {e}")
 
 
 async def evaluate_response(
