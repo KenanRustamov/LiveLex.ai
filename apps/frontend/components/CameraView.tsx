@@ -34,6 +34,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
   const [planMessage, setPlanMessage] = useState<string | null>(null);
   const [isPlanLoading, setIsPlanLoading] = useState<boolean>(false);
   const [showCapturePrompt, setShowCapturePrompt] = useState<boolean>(true);
+  const [fullscreen, setFullscreen] = useState<boolean>(false);
   const [utteranceId, setUtteranceId] = useState<string | null>(null);
   const [speechReal, setSpeechReal] = useState<boolean>(false);
   const [planReceived, setPlanReceived] = useState<boolean>(false);
@@ -585,13 +586,16 @@ export default function CameraView({ settings, username }: { settings: { sourceL
   }, [isRecording, vadEnabled, isPlanLoading]);
 
   return (
-    <div className="rounded-2xl border p-4 space-y-4">
+    <div className="rounded-2xl border p-4">
       <div className="flex items-center justify-between">
         <h2 className="font-medium">Camera</h2>
         {!running ? (
           <Button onClick={startCamera} variant="outline" className="text-sm">Start</Button>
         ) : (
-          <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
+          <div className="flex items-center gap-2">
+            <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
+            <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
+          </div>
         )}
       </div>
 
@@ -623,7 +627,19 @@ export default function CameraView({ settings, username }: { settings: { sourceL
           }}
         />
       ) : (
-        <div className="relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]">
+        <div className={`${fullscreen ? 'fixed inset-0 z-50 bg-black overflow-hidden m-0' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]'}`}>
+        {fullscreen && (
+          <div className="absolute top-3 right-3 z-50">
+            <Button
+              onClick={() => setFullscreen(false)}
+              variant="secondary"
+              className="text-xs px-2 py-1"
+              title="Exit Fullscreen"
+            >
+              Exit
+            </Button>
+          </div>
+        )}
         <video
           ref={videoRef}
           className={`h-full w-full object-cover ${facing === 'user' ? 'scale-x-[-1]' : ''}`}
