@@ -251,13 +251,13 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
                 return (
                   <div
                     key={achievement.id}
-                    className={`relative p-3 rounded-lg border ${
+                    className={`relative p-3 rounded-lg border h-full flex flex-col ${
                       achievement.unlocked
                         ? 'bg-green-50 border-green-200'
                         : 'bg-gray-50 border-gray-200 opacity-75'
                     }`}
                   >
-                    <div className="flex flex-col items-center text-center space-y-2">
+                    <div className="flex flex-col items-center text-center h-full">
                       <div className="relative">
                         <img
                           src={achievement.imagePath}
@@ -277,32 +277,36 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
                           />
                         )}
                       </div>
-                      <div className="w-full">
-                        <div className={`font-semibold text-sm ${achievement.unlocked ? 'text-gray-900' : 'text-gray-600'}`}>
-                          {achievement.name}
-                        </div>
-                        <div className="text-xs text-muted-foreground mt-1">
-                          {achievement.description}
-                        </div>
-                        {!achievement.unlocked && achievement.progress && (
-                          <div className="mt-2 space-y-1">
-                            <div className="w-full bg-gray-200 rounded-full h-1.5">
-                              <div
-                                className="bg-blue-500 h-1.5 rounded-full transition-all"
-                                style={{ width: `${progressPercent}%` }}
-                              />
-                            </div>
-                            <div className="text-xs text-muted-foreground">
-                              {achievement.id === 'word-wanderer' || achievement.id === 'everyday-explorer' || achievement.id === 'label-legend'
-                                ? `${achievement.progress.current} / ${achievement.progress.target} words`
-                                : achievement.id === 'multispace-master'
-                                ? `${achievement.progress.current} / ${achievement.progress.target} sessions`
-                                : achievement.id === 'consistency-champion'
-                                ? `${achievement.progress.current} / ${achievement.progress.target} days`
-                                : `${achievement.progress.current} / ${achievement.progress.target}`}
-                            </div>
+                      <div className="w-full flex-1 flex flex-col justify-between mt-2">
+                        <div>
+                          <div className={`font-semibold text-sm ${achievement.unlocked ? 'text-gray-900' : 'text-gray-600'}`}>
+                            {achievement.name}
                           </div>
-                        )}
+                          <div className="text-xs text-muted-foreground mt-1">
+                            {achievement.description}
+                          </div>
+                        </div>
+                        <div className="mt-2 min-h-[2.5rem]">
+                          {!achievement.unlocked && achievement.progress ? (
+                            <div className="space-y-1">
+                              <div className="w-full bg-gray-200 rounded-full h-1.5">
+                                <div
+                                  className="bg-blue-500 h-1.5 rounded-full transition-all"
+                                  style={{ width: `${progressPercent}%` }}
+                                />
+                              </div>
+                              <div className="text-xs text-muted-foreground">
+                                {achievement.id === 'word-wanderer' || achievement.id === 'everyday-explorer' || achievement.id === 'label-legend'
+                                  ? `${achievement.progress.current} / ${achievement.progress.target} words`
+                                  : achievement.id === 'multispace-master'
+                                  ? `${achievement.progress.current} / ${achievement.progress.target} sessions`
+                                  : achievement.id === 'consistency-champion'
+                                  ? `${achievement.progress.current} / ${achievement.progress.target} days`
+                                  : `${achievement.progress.current} / ${achievement.progress.target}`}
+                              </div>
+                            </div>
+                          ) : null}
+                        </div>
                       </div>
                     </div>
                   </div>
