@@ -2,19 +2,19 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import CameraView from './CameraView';
+import AnalyticsView from './AnalyticsView';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import { Select } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
-import { ScrollArea } from '@/components/ui/scroll-area';
 
 export default function MobileShell() {
   const backendUrl = useMemo(
     () => process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000',
     []
   );
-  const [tab, setTab] = useState<'home' | 'camera' | 'profile'>('camera'); // default to camera
+  const [tab, setTab] = useState<'camera' | 'profile' | 'analytics'>('camera'); // default to camera
 
   const [username, setUsername] = useState('User');
   const [editingName, setEditingName] = useState('');
@@ -35,8 +35,6 @@ export default function MobileShell() {
   };
 
   const [settings, setSettings] = useState<UserSettings>(DEFAULT_SETTINGS);
-  const [objectsStats, setObjectsStats] = useState<Array<{ objectName: string; correct: number; incorrect: number; correctWord?: string; lastAttempted?: string }>>([]);
-  const [loadingStats, setLoadingStats] = useState<boolean>(false);
 
   useEffect(() => {
     try {
@@ -58,44 +56,6 @@ export default function MobileShell() {
     setProfileReady(true);
   }, []);
 
-  useEffect(() => {
-    if (!profileReady) return;
-    if (!username || username === 'User') return;
-    const controller = new AbortController();
-    let cancelled = false;
-
-    const loadObjects = async () => {
-      setLoadingStats(true);
-      try {
-        const res = await fetch(`${backendUrl}/v1/user/${encodeURIComponent(username)}/objects`, { signal: controller.signal });
-        if (res.ok) {
-          const data = await res.json();
-          if (cancelled) return;
-          const objMap = (data && data.objects) || {};
-          const arr = Object.entries(objMap).map(([name, v]: [string, any]) => ({
-            objectName: name,
-            correct: Number(v?.correct || 0),
-            incorrect: Number(v?.incorrect || 0),
-            correctWord: v?.correct_word,
-            lastAttempted: v?.last_attempted,
-          }));
-          arr.sort((a, b) => {
-            const ta = a.lastAttempted ? Date.parse(a.lastAttempted) : 0;
-            const tb = b.lastAttempted ? Date.parse(b.lastAttempted) : 0;
-            if (tb !== ta) return tb - ta;
-            return a.objectName.localeCompare(b.objectName);
-          });
-          setObjectsStats(arr);
-        }
-      } catch {}
-      if (!cancelled) setLoadingStats(false);
-    };
-    loadObjects();
-    return () => {
-      cancelled = true;
-      controller.abort();
-    };
-  }, [backendUrl, username, profileReady]);
 
   const saveSettings = (next: Partial<UserSettings>) => {
     const merged = { ...settings, ...next };
@@ -110,7 +70,7 @@ export default function MobileShell() {
     } catch {}
   };
 
-  const tabBtn = (name: 'camera' | 'profile', label: string) => (
+  const tabBtn = (name: 'camera' | 'profile' | 'analytics', label: string) => (
     <Button
       onClick={() => setTab(name)}
       variant={tab === name ? 'default' : 'outline'}
@@ -126,6 +86,8 @@ export default function MobileShell() {
       <section className="flex-1">
         <div className="mx-auto w-full px-4 py-6 space-y-4">
           {tab === 'camera' && <CameraView settings={settings} username={username}/>}
+
+          {tab === 'analytics' && <AnalyticsView username={username} backendUrl={backendUrl} />}
 
           {tab === 'profile' && (
             <Card>
@@ -196,50 +158,14 @@ export default function MobileShell() {
               </CardContent>
             </Card>
           )}
-          {tab === 'profile' && (
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-base">Practice history</CardTitle>
-              </CardHeader>
-              <CardContent>
-                {loadingStats ? (
-                  <div className="text-sm text-muted-foreground">Loading...</div>
-                ) : objectsStats.length === 0 ? (
-                  <div className="text-sm text-muted-foreground">No words practiced yet.</div>
-                ) : (
-                  <ScrollArea className="max-h-64">
-                    <div className="text-sm">
-                      <div className="grid grid-cols-5 gap-2 font-medium mb-2">
-                        <div className="col-span-2">Word</div>
-                        <div>Correct</div>
-                        <div>Incorrect</div>
-                        <div>Last tried</div>
-                      </div>
-                      <div className="space-y-1">
-                        {objectsStats.map((o) => (
-                          <div key={o.objectName} className="grid grid-cols-5 gap-2 items-center">
-                            <div className="col-span-2 truncate" title={o.correctWord || o.objectName}>
-                              {o.correctWord || o.objectName}
-                            </div>
-                            <div>{o.correct}</div>
-                            <div>{o.incorrect}</div>
-                            <div className="truncate" title={o.lastAttempted || ''}>{o.lastAttempted ? new Date(o.lastAttempted).toLocaleString() : '-'}</div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </ScrollArea>
-                )}
-              </CardContent>
-            </Card>
-          )}
         </div>
       </section>
 
       <nav className="sticky bottom-0 bg-white/80 backdrop-blur border-t">
-        <div className="mx-auto max-w-md w-full px-6 py-3 flex items-center justify-between">
+        <div className="mx-auto max-w-md w-full px-6 py-3 flex items-center justify-between gap-2">
           {tabBtn('camera', 'Camera')}
           {tabBtn('profile', 'Profile')}
+          {tabBtn('analytics', 'Analytics')}
         </div>
       </nav>
     </main>
