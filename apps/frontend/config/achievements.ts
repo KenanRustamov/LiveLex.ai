@@ -77,7 +77,7 @@ export const achievements: Achievement[] = [
     id: 'multispace-master',
     name: 'Multispace Master',
     description: 'Identify objects in 5 different locations',
-    imagePath: '/badges/Room Rookie.png', // Using placeholder - need badge image
+    imagePath: '/badges/Multispace Master.png',
     criteria: (stats) => {
       // Note: This requires location data in sessions which may not be available yet
       // For now, using session count as proxy (5+ sessions = likely different locations)
@@ -91,7 +91,7 @@ export const achievements: Achievement[] = [
     id: 'label-legend',
     name: 'Label Legend',
     description: 'Learn 100 real-world object names',
-    imagePath: '/badges/Word Wanderer.png', // Using placeholder - need badge image
+    imagePath: '/badges/Label Legend.png',
     criteria: (stats) => stats.totalWords >= 100,
     progress: (stats) => ({ current: stats.totalWords, target: 100 }),
   },
@@ -99,7 +99,7 @@ export const achievements: Achievement[] = [
     id: 'consistency-champion',
     name: 'Consistency Champion',
     description: 'Complete learning sessions 7 days in a row',
-    imagePath: '/badges/Room Rookie.png', // Using placeholder - need badge image
+    imagePath: '/badges/Consistency Champion.png',
     criteria: (stats) => {
       // Calculate 7-day streak from session timestamps
       if (stats.sessions.length < 7) return false;
@@ -174,7 +174,7 @@ export const achievements: Achievement[] = [
     id: 'the-minimalist',
     name: 'The Minimalist',
     description: 'Complete a scanning session with perfect accuracy and no mistakes',
-    imagePath: '/badges/Pronunciation Pioneer.png', // Using placeholder - need badge image
+    imagePath: '/badges/The Minimalist.png',
     criteria: (stats) => {
       // Check if any session has perfect accuracy (correct_count === total && incorrect_count === 0)
       return stats.sessions.some(
