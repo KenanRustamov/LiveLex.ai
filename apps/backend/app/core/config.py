@@ -12,6 +12,7 @@ class Settings(BaseModel):
     transcription_model: str = os.getenv("TRANSCRIPTION_MODEL", "gpt-4o-mini-transcribe")
     llm_model: str = os.getenv("LLM_MODEL", "gpt-4o-mini")
     speech_synthesis_model: str = os.getenv("SPEECH_SYNTHESIS_MODEL", "gpt-4o-mini-tts")
+    tts_voice: str = os.getenv("TTS_VOICE", "alloy")
 
     # MongoDB Atlas configuration
     mongodb_db: str = os.getenv("MONGO_DB", "livelex")

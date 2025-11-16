@@ -103,16 +103,25 @@ async def process_audio_image_pair(
             },
         })
     
+    # generate TTS audio for feedback
+    feedback_audio = None
+    if eval_result.feedback_message:
+        feedback_audio = await generate_tts_audio(eval_result.feedback_message)
+    
     # send evaluation result
+    payload = {
+        "correct": eval_result.correct,
+        "feedback": eval_result.feedback_message,
+        "object_index": state.current_object_index,
+        "object": current_object.model_dump(),
+        "correct_word": eval_result.correct_word,
+    }
+    if feedback_audio:
+        payload["audio"] = feedback_audio
+    
     await ws.send_json({
         "type": "evaluation_result",
-        "payload": {
-            "correct": eval_result.correct,
-            "feedback": eval_result.feedback_message,
-            "object_index": state.current_object_index,
-            "object": current_object.model_dump(),
-            "correct_word": eval_result.correct_word,
-        },
+        "payload": payload,
     })
     
     # save system feedback
@@ -129,7 +138,17 @@ async def process_audio_image_pair(
         # more objects to test -> prompt next
         state.current_object_index = next_idx
         prompt_msg = await generate_prompt_message(state.plan.objects[next_idx], image_metadata["target_language"])
-        await ws.send_json({"type": "prompt_next", "payload": {"text": prompt_msg, "object_index": next_idx}})
+        
+        # generate TTS audio for prompt
+        prompt_audio = None
+        if prompt_msg:
+            prompt_audio = await generate_tts_audio(prompt_msg)
+        
+        payload = {"text": prompt_msg, "object_index": next_idx}
+        if prompt_audio:
+            payload["audio"] = prompt_audio
+        
+        await ws.send_json({"type": "prompt_next", "payload": payload})
         
         if state.session_id:
             append_dialogue_entry(state.session_id, {
@@ -316,6 +335,36 @@ async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
         content = getattr(chunk, "content", None)
         if content:
             yield content
+
+
+async def generate_tts_audio(text: str, voice: str = None) -> Optional[str]:
+    """Generate TTS audio from text using OpenAI TTS API. Returns base64-encoded audio data."""
+    if not settings.openai_api_key:
+        return None
+    
+    if not text or not text.strip():
+        return None
+    
+    try:
+        client = OpenAI(api_key=settings.openai_api_key)
+        voice_to_use = voice or settings.tts_voice
+        
+        response = client.audio.speech.create(
+            model=settings.speech_synthesis_model,
+            voice=voice_to_use,
+            input=text,
+        )
+        
+        # Read audio bytes
+        audio_bytes = response.content
+        
+        # Encode to base64 for JSON transmission
+        audio_base64 = base64.b64encode(audio_bytes).decode('utf-8')
+        return audio_base64
+    except Exception as e:
+        # Log error but don't fail the request if TTS fails
+        print(f"TTS generation error: {e}")
+        return None
 
 
 def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str]) -> str:
@@ -619,7 +668,17 @@ async def ws_stream(ws: WebSocket):
                         if next_idx >= 0:
                             state.current_object_index = next_idx
                             prompt_msg = await generate_prompt_message(plan.objects[next_idx], target_language)
-                            await ws.send_json({"type": "prompt_next", "payload": {"text": prompt_msg, "object_index": next_idx}})
+                            
+                            # generate TTS audio for prompt
+                            prompt_audio = None
+                            if prompt_msg:
+                                prompt_audio = await generate_tts_audio(prompt_msg)
+                            
+                            payload = {"text": prompt_msg, "object_index": next_idx}
+                            if prompt_audio:
+                                payload["audio"] = prompt_audio
+                            
+                            await ws.send_json({"type": "prompt_next", "payload": payload})
                             
                             # save prompt to dialogue
                             if state.session_id:

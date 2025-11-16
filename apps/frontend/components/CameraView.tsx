@@ -20,6 +20,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
   const wsRef = useRef<WebSocket | null>(null);
   const capturePreviewTimerRef = useRef<number | null>(null);
   const capturePreviewUrlRef = useRef<string | null>(null);
+  const currentAudioRef = useRef<HTMLAudioElement | null>(null);
 
   const [running, setRunning] = useState(false);
   const [facing, setFacing] = useState<'environment' | 'user'>('environment');
@@ -47,6 +48,41 @@ export default function CameraView({ settings, username }: { settings: { sourceL
     []
   );
   const wsUrl = useMemo(() => backendUrl.replace(/^http/, 'ws'), [backendUrl]);
+
+  // Function to play audio from base64 data
+  const playAudioFromBase64 = useCallback((base64Audio: string) => {
+    try {
+      // Stop any currently playing audio
+      if (currentAudioRef.current) {
+        currentAudioRef.current.pause();
+        currentAudioRef.current = null;
+      }
+
+      // Create audio element from base64 data
+      const audio = new Audio(`data:audio/mpeg;base64,${base64Audio}`);
+      currentAudioRef.current = audio;
+
+      // Play audio
+      audio.play().catch((error) => {
+        console.error('Error playing audio:', error);
+        currentAudioRef.current = null;
+      });
+
+      // Clean up when audio finishes
+      audio.onended = () => {
+        currentAudioRef.current = null;
+      };
+
+      // Clean up on error
+      audio.onerror = () => {
+        console.error('Audio playback error');
+        currentAudioRef.current = null;
+      };
+    } catch (error) {
+      console.error('Error creating audio from base64:', error);
+      currentAudioRef.current = null;
+    }
+  }, []);
 
   const openWs = useCallback(() => {
     try {
@@ -76,6 +112,11 @@ export default function CameraView({ settings, username }: { settings: { sourceL
               if (text) {
                 setTranscripts(prev => [...prev, { speaker: 'LLM', text }]);
               }
+              // Play TTS audio if available
+              const audio: string | undefined = msg.payload?.audio;
+              if (audio) {
+                playAudioFromBase64(audio);
+              }
               break;
             }
             case 'evaluation_result': {
@@ -93,6 +134,11 @@ export default function CameraView({ settings, username }: { settings: { sourceL
                 if (feedback) {
                   setTranscripts(prev => [...prev, { speaker: 'LLM', text: feedback }]);
                 }
+              }
+              // Play TTS audio if available
+              const audio: string | undefined = msg.payload?.audio;
+              if (audio) {
+                playAudioFromBase64(audio);
               }
               break;
             }
@@ -126,7 +172,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
       };
       wsRef.current = ws;
     } catch {}
-  }, [wsUrl, username]);
+  }, [wsUrl, username, playAudioFromBase64]);
 
   const closeWs = useCallback(() => {
     try {
@@ -366,7 +412,14 @@ export default function CameraView({ settings, username }: { settings: { sourceL
   }, [backendUrl, facing]);
 
   useEffect(() => {
-    return () => stopCamera();
+    return () => {
+      stopCamera();
+      // Clean up audio on unmount
+      if (currentAudioRef.current) {
+        currentAudioRef.current.pause();
+        currentAudioRef.current = null;
+      }
+    };
   }, [stopCamera]);
 
   useEffect(() => {
