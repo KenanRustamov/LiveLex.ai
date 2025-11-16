@@ -4,7 +4,7 @@ import { useEffect, useState, useMemo } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, ChevronUp, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { achievements, type Achievement, type OverallStats } from '../config/achievements';
 
@@ -35,6 +35,7 @@ type ObjectStatItem = {
   objectName: string;
   correct: number;
   incorrect: number;
+  accuracy: number;
   correctWord?: string;
   lastAttempted?: string;
 };
@@ -43,11 +44,6 @@ type MasteryCategory = {
   name: string;
   value: number;
   color: string;
-};
-
-type NeedsPracticeWord = ObjectStatItem & {
-  accuracy: number;
-  totalAttempts: number;
 };
 
 type AchievementStatus = Omit<Achievement, 'progress'> & {
@@ -67,6 +63,10 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
   });
   const [profileReady, setProfileReady] = useState(false);
   const [showAllAchievements, setShowAllAchievements] = useState(false);
+  const [sortConfig, setSortConfig] = useState<{
+    field: 'word' | 'accuracy' | 'correct' | 'incorrect' | 'lastTried';
+    direction: 'asc' | 'desc';
+  }>({ field: 'lastTried', direction: 'desc' });
 
   useEffect(() => {
     setProfileReady(true);
@@ -90,18 +90,20 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
 
           // Process objects stats
           const objMap = data.objects || {};
-          const arr: ObjectStatItem[] = Object.entries(objMap).map(([name, v]) => ({
-            objectName: name,
-            correct: Number(v?.correct || 0),
-            incorrect: Number(v?.incorrect || 0),
-            correctWord: v?.correct_word,
-            lastAttempted: v?.last_attempted || undefined,
-          }));
-          arr.sort((a, b) => {
-            const ta = a.lastAttempted ? Date.parse(a.lastAttempted) : 0;
-            const tb = b.lastAttempted ? Date.parse(b.lastAttempted) : 0;
-            if (tb !== ta) return tb - ta;
-            return a.objectName.localeCompare(b.objectName);
+          const arr: ObjectStatItem[] = Object.entries(objMap).map(([name, v]) => {
+            const correct = Number(v?.correct || 0);
+            const incorrect = Number(v?.incorrect || 0);
+            const total = correct + incorrect;
+            const accuracy = total > 0 ? Math.round((correct / total) * 100 * 10) / 10 : 0;
+            
+            return {
+              objectName: name,
+              correct,
+              incorrect,
+              accuracy,
+              correctWord: v?.correct_word,
+              lastAttempted: v?.last_attempted || undefined,
+            };
           });
           setObjectsStats(arr);
 
@@ -181,35 +183,6 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
       }));
   }, [objectsStats]);
 
-  const needsPracticeWords = useMemo(() => {
-    if (objectsStats.length === 0) return [];
-
-    return objectsStats
-      .map((obj) => {
-        const total = obj.correct + obj.incorrect;
-        if (total === 0) return null; // Skip words with no attempts
-
-        const accuracy = (obj.correct / total) * 100;
-        return {
-          ...obj,
-          accuracy: Math.round(accuracy * 10) / 10, // Round to 1 decimal
-          totalAttempts: total,
-        };
-      })
-      .filter((obj): obj is NeedsPracticeWord => {
-        return obj !== null && obj.accuracy < 50;
-      })
-      .sort((a, b) => {
-        // Primary sort: accuracy ascending (lowest first)
-        if (a.accuracy !== b.accuracy) {
-          return a.accuracy - b.accuracy;
-        }
-        // Secondary sort: most recently attempted first
-        const ta = a.lastAttempted ? Date.parse(a.lastAttempted) : 0;
-        const tb = b.lastAttempted ? Date.parse(b.lastAttempted) : 0;
-        return tb - ta;
-      });
-  }, [objectsStats]);
 
   const achievementStatus: AchievementStatus[] = useMemo(() => {
     return achievements
@@ -229,6 +202,45 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
   }, [overallStats]);
 
   const displayedAchievements = showAllAchievements ? achievementStatus : achievementStatus.slice(0, 4);
+
+  const sortedObjectsStats = useMemo(() => {
+    const sorted = [...objectsStats];
+    sorted.sort((a, b) => {
+      let comparison = 0;
+      switch (sortConfig.field) {
+        case 'word':
+          comparison = (a.correctWord || a.objectName).localeCompare(b.correctWord || b.objectName);
+          break;
+        case 'accuracy':
+          comparison = a.accuracy - b.accuracy;
+          break;
+        case 'correct':
+          comparison = a.correct - b.correct;
+          break;
+        case 'incorrect':
+          comparison = a.incorrect - b.incorrect;
+          break;
+        case 'lastTried':
+          const ta = a.lastAttempted ? Date.parse(a.lastAttempted) : 0;
+          const tb = b.lastAttempted ? Date.parse(b.lastAttempted) : 0;
+          comparison = ta - tb;
+          break;
+      }
+      return sortConfig.direction === 'asc' ? comparison : -comparison;
+    });
+    return sorted;
+  }, [objectsStats, sortConfig]);
+
+  const handleSort = (field: 'word' | 'accuracy' | 'correct' | 'incorrect' | 'lastTried') => {
+    setSortConfig((prev) => {
+      if (prev.field === field) {
+        // Toggle direction if same field
+        return { field, direction: prev.direction === 'asc' ? 'desc' : 'asc' };
+      }
+      // Change field and default to ascending
+      return { field, direction: 'asc' };
+    });
+  };
 
   return (
     <div className="space-y-4">
@@ -384,47 +396,6 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
         </CardContent>
       </Card>
 
-      {/* Needs Practice List */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-base">Needs Practice</CardTitle>
-        </CardHeader>
-        <CardContent>
-          {loadingStats ? (
-            <div className="text-sm text-muted-foreground">Loading...</div>
-          ) : needsPracticeWords.length === 0 ? (
-            <div className="text-sm text-muted-foreground">Great job! All practiced words are above 50% accuracy.</div>
-          ) : (
-            <ScrollArea className="max-h-64">
-              <div className="text-sm">
-                <div className="grid grid-cols-5 gap-2 font-medium mb-2">
-                  <div className="col-span-2">Word</div>
-                  <div>Accuracy</div>
-                  <div>Correct</div>
-                  <div>Incorrect</div>
-                  <div>Last tried</div>
-                </div>
-                <div className="space-y-1">
-                  {needsPracticeWords.map((o) => (
-                    <div key={o.objectName} className="grid grid-cols-5 gap-2 items-center">
-                      <div className="col-span-2 truncate" title={o.correctWord || o.objectName}>
-                        {o.correctWord || o.objectName}
-                      </div>
-                      <div>{o.accuracy}%</div>
-                      <div>{o.correct}</div>
-                      <div>{o.incorrect}</div>
-                      <div className="truncate" title={o.lastAttempted || ''}>
-                        {o.lastAttempted ? new Date(o.lastAttempted).toLocaleString() : '-'}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </ScrollArea>
-          )}
-        </CardContent>
-      </Card>
-
       {/* Practice History Table */}
       <Card>
         <CardHeader>
@@ -433,23 +404,65 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
         <CardContent>
           {loadingStats ? (
             <div className="text-sm text-muted-foreground">Loading...</div>
-          ) : objectsStats.length === 0 ? (
+          ) : sortedObjectsStats.length === 0 ? (
             <div className="text-sm text-muted-foreground">No words practiced yet.</div>
           ) : (
             <ScrollArea className="max-h-64">
               <div className="text-sm">
-                <div className="grid grid-cols-5 gap-2 font-medium mb-2">
-                  <div className="col-span-2">Word</div>
-                  <div>Correct</div>
-                  <div>Incorrect</div>
-                  <div>Last tried</div>
+                <div className="grid grid-cols-6 gap-2 font-medium mb-2">
+                  <button
+                    onClick={() => handleSort('word')}
+                    className="col-span-2 text-left flex items-center gap-1 hover:text-foreground transition-colors cursor-pointer"
+                  >
+                    Word
+                    {sortConfig.field === 'word' && (
+                      sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
+                    )}
+                  </button>
+                  <button
+                    onClick={() => handleSort('accuracy')}
+                    className="text-left flex items-center gap-1 hover:text-foreground transition-colors cursor-pointer"
+                  >
+                    Accuracy
+                    {sortConfig.field === 'accuracy' && (
+                      sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
+                    )}
+                  </button>
+                  <button
+                    onClick={() => handleSort('correct')}
+                    className="text-left flex items-center gap-1 hover:text-foreground transition-colors cursor-pointer"
+                  >
+                    Correct
+                    {sortConfig.field === 'correct' && (
+                      sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
+                    )}
+                  </button>
+                  <button
+                    onClick={() => handleSort('incorrect')}
+                    className="text-left flex items-center gap-1 hover:text-foreground transition-colors cursor-pointer"
+                  >
+                    Incorrect
+                    {sortConfig.field === 'incorrect' && (
+                      sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
+                    )}
+                  </button>
+                  <button
+                    onClick={() => handleSort('lastTried')}
+                    className="text-left flex items-center gap-1 hover:text-foreground transition-colors cursor-pointer"
+                  >
+                    Last tried
+                    {sortConfig.field === 'lastTried' && (
+                      sortConfig.direction === 'asc' ? <ChevronUp size={14} /> : <ChevronDown size={14} />
+                    )}
+                  </button>
                 </div>
                 <div className="space-y-1">
-                  {objectsStats.map((o) => (
-                    <div key={o.objectName} className="grid grid-cols-5 gap-2 items-center">
+                  {sortedObjectsStats.map((o) => (
+                    <div key={o.objectName} className="grid grid-cols-6 gap-2 items-center">
                       <div className="col-span-2 truncate" title={o.correctWord || o.objectName}>
                         {o.correctWord || o.objectName}
                       </div>
+                      <div>{o.accuracy}%</div>
                       <div>{o.correct}</div>
                       <div>{o.incorrect}</div>
                       <div className="truncate" title={o.lastAttempted || ''}>
