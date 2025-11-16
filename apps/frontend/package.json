@@ -19,6 +19,7 @@
     "onnxruntime-web": "^1.23.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "recharts": "^3.4.1",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7"
   },

@@ -1,8 +1,9 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
 
 type ObjectStats = {
   correct: number;
@@ -40,6 +41,17 @@ type ObjectStatItem = {
   incorrect: number;
   correctWord?: string;
   lastAttempted?: string;
+};
+
+type MasteryCategory = {
+  name: string;
+  value: number;
+  color: string;
+};
+
+type NeedsPracticeWord = ObjectStatItem & {
+  accuracy: number;
+  totalAttempts: number;
 };
 
 export default function AnalyticsView({ username, backendUrl }: { username: string; backendUrl: string }) {
@@ -130,6 +142,71 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
     </Card>
   );
 
+  const masteryData: MasteryCategory[] = useMemo(() => {
+    if (objectsStats.length === 0) return [];
+
+    const categories = {
+      'Not Started': { count: 0, color: '#94a3b8' },
+      'Needs Practice': { count: 0, color: '#ef4444' },
+      'Learning': { count: 0, color: '#f59e0b' },
+      'Mastered': { count: 0, color: '#10b981' },
+    };
+
+    objectsStats.forEach((obj) => {
+      const total = obj.correct + obj.incorrect;
+      if (total === 0) {
+        categories['Not Started'].count++;
+      } else {
+        const accuracy = (obj.correct / total) * 100;
+        if (accuracy < 50) {
+          categories['Needs Practice'].count++;
+        } else if (accuracy < 80) {
+          categories['Learning'].count++;
+        } else {
+          categories['Mastered'].count++;
+        }
+      }
+    });
+
+    return Object.entries(categories)
+      .filter(([_, data]) => data.count > 0)
+      .map(([name, data]) => ({
+        name,
+        value: data.count,
+        color: data.color,
+      }));
+  }, [objectsStats]);
+
+  const needsPracticeWords = useMemo(() => {
+    if (objectsStats.length === 0) return [];
+
+    return objectsStats
+      .map((obj) => {
+        const total = obj.correct + obj.incorrect;
+        if (total === 0) return null; // Skip words with no attempts
+
+        const accuracy = (obj.correct / total) * 100;
+        return {
+          ...obj,
+          accuracy: Math.round(accuracy * 10) / 10, // Round to 1 decimal
+          totalAttempts: total,
+        };
+      })
+      .filter((obj): obj is NeedsPracticeWord => {
+        return obj !== null && obj.accuracy < 50;
+      })
+      .sort((a, b) => {
+        // Primary sort: accuracy ascending (lowest first)
+        if (a.accuracy !== b.accuracy) {
+          return a.accuracy - b.accuracy;
+        }
+        // Secondary sort: most recently attempted first
+        const ta = a.lastAttempted ? Date.parse(a.lastAttempted) : 0;
+        const tb = b.lastAttempted ? Date.parse(b.lastAttempted) : 0;
+        return tb - ta;
+      });
+  }, [objectsStats]);
+
   return (
     <div className="space-y-4">
       {/* Overall Stats Cards */}
@@ -142,6 +219,91 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
           <StatCard value={overallStats.totalAttempts} label="Total Attempts" />
         </div>
       </div>
+
+      {/* Mastery Distribution Pie Chart */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Mastery Distribution</CardTitle>
+        </CardHeader>
+        <CardContent>
+          {loadingStats ? (
+            <div className="text-sm text-muted-foreground">Loading...</div>
+          ) : masteryData.length === 0 ? (
+            <div className="text-sm text-muted-foreground">No words practiced yet.</div>
+          ) : (
+            <div className="w-full h-64">
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie
+                    data={masteryData}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    label={({ name, percent }) => `${name}: ${((percent || 0) * 100).toFixed(0)}%`}
+                    outerRadius={80}
+                    fill="#8884d8"
+                    dataKey="value"
+                  >
+                    {masteryData.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={entry.color} />
+                    ))}
+                  </Pie>
+                  <Tooltip
+                    formatter={(value: number) => [value, 'Words']}
+                    contentStyle={{
+                      backgroundColor: '#fff',
+                      border: '1px solid #e5e7eb',
+                      borderRadius: '6px',
+                    }}
+                  />
+                  <Legend />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* Needs Practice List */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Needs Practice</CardTitle>
+        </CardHeader>
+        <CardContent>
+          {loadingStats ? (
+            <div className="text-sm text-muted-foreground">Loading...</div>
+          ) : needsPracticeWords.length === 0 ? (
+            <div className="text-sm text-muted-foreground">Great job! All practiced words are above 50% accuracy.</div>
+          ) : (
+            <ScrollArea className="max-h-64">
+              <div className="text-sm">
+                <div className="grid grid-cols-5 gap-2 font-medium mb-2">
+                  <div className="col-span-2">Word</div>
+                  <div>Accuracy</div>
+                  <div>Correct</div>
+                  <div>Incorrect</div>
+                  <div>Last tried</div>
+                </div>
+                <div className="space-y-1">
+                  {needsPracticeWords.map((o) => (
+                    <div key={o.objectName} className="grid grid-cols-5 gap-2 items-center">
+                      <div className="col-span-2 truncate" title={o.correctWord || o.objectName}>
+                        {o.correctWord || o.objectName}
+                      </div>
+                      <div>{o.accuracy}%</div>
+                      <div>{o.correct}</div>
+                      <div>{o.incorrect}</div>
+                      <div className="truncate" title={o.lastAttempted || ''}>
+                        {o.lastAttempted ? new Date(o.lastAttempted).toLocaleString() : '-'}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </ScrollArea>
+          )}
+        </CardContent>
+      </Card>
 
       {/* Practice History Table */}
       <Card>
