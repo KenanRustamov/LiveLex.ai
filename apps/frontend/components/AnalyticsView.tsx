@@ -4,6 +4,9 @@ import { useEffect, useState, useMemo } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
+import { CheckCircle2 } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { achievements, type Achievement, type OverallStats } from '../config/achievements';
 
 type ObjectStats = {
   correct: number;
@@ -28,13 +31,6 @@ type ProgressData = {
   }>;
 };
 
-type OverallStats = {
-  totalWords: number;
-  totalSessions: number;
-  overallAccuracy: number;
-  totalAttempts: number;
-};
-
 type ObjectStatItem = {
   objectName: string;
   correct: number;
@@ -54,6 +50,11 @@ type NeedsPracticeWord = ObjectStatItem & {
   totalAttempts: number;
 };
 
+type AchievementStatus = Omit<Achievement, 'progress'> & {
+  unlocked: boolean;
+  progress?: { current: number; target: number };
+};
+
 export default function AnalyticsView({ username, backendUrl }: { username: string; backendUrl: string }) {
   const [loadingStats, setLoadingStats] = useState<boolean>(false);
   const [objectsStats, setObjectsStats] = useState<ObjectStatItem[]>([]);
@@ -62,8 +63,10 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
     totalSessions: 0,
     overallAccuracy: 0,
     totalAttempts: 0,
+    sessions: [],
   });
   const [profileReady, setProfileReady] = useState(false);
+  const [showAllAchievements, setShowAllAchievements] = useState(false);
 
   useEffect(() => {
     setProfileReady(true);
@@ -121,6 +124,7 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
             totalSessions,
             overallAccuracy: Math.round(overallAccuracy * 10) / 10, // Round to 1 decimal
             totalAttempts,
+            sessions: data.sessions || [],
           });
         }
       } catch {}
@@ -207,8 +211,120 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
       });
   }, [objectsStats]);
 
+  const achievementStatus: AchievementStatus[] = useMemo(() => {
+    return achievements
+      .map((achievement) => ({
+        ...achievement,
+        unlocked: achievement.criteria(overallStats),
+        progress: achievement.progress?.(overallStats),
+      }))
+      .sort((a, b) => {
+        // Sort by incomplete first (unlocked: false), then complete (unlocked: true)
+        if (a.unlocked !== b.unlocked) {
+          return a.unlocked ? 1 : -1;
+        }
+        // If both have same unlock status, maintain original order
+        return 0;
+      });
+  }, [overallStats]);
+
+  const displayedAchievements = showAllAchievements ? achievementStatus : achievementStatus.slice(0, 4);
+
   return (
     <div className="space-y-4">
+      {/* Achievements Section */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Achievements</CardTitle>
+        </CardHeader>
+        <CardContent>
+          {loadingStats ? (
+            <div className="text-sm text-muted-foreground">Loading...</div>
+          ) : (
+            <>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {displayedAchievements.map((achievement) => {
+                const progressPercent = achievement.progress
+                  ? Math.min((achievement.progress.current / achievement.progress.target) * 100, 100)
+                  : 0;
+
+                return (
+                  <div
+                    key={achievement.id}
+                    className={`relative p-3 rounded-lg border ${
+                      achievement.unlocked
+                        ? 'bg-green-50 border-green-200'
+                        : 'bg-gray-50 border-gray-200 opacity-75'
+                    }`}
+                  >
+                    <div className="flex flex-col items-center text-center space-y-2">
+                      <div className="relative">
+                        <img
+                          src={achievement.imagePath}
+                          alt={achievement.name}
+                          className={`w-16 h-16 object-contain ${
+                            achievement.unlocked ? '' : 'grayscale opacity-60'
+                          }`}
+                          onError={(e) => {
+                            // Fallback if image fails to load
+                            (e.target as HTMLImageElement).style.display = 'none';
+                          }}
+                        />
+                        {achievement.unlocked && (
+                          <CheckCircle2
+                            size={20}
+                            className="absolute -top-1 -right-1 text-green-600 bg-white rounded-full"
+                          />
+                        )}
+                      </div>
+                      <div className="w-full">
+                        <div className={`font-semibold text-sm ${achievement.unlocked ? 'text-gray-900' : 'text-gray-600'}`}>
+                          {achievement.name}
+                        </div>
+                        <div className="text-xs text-muted-foreground mt-1">
+                          {achievement.description}
+                        </div>
+                        {!achievement.unlocked && achievement.progress && (
+                          <div className="mt-2 space-y-1">
+                            <div className="w-full bg-gray-200 rounded-full h-1.5">
+                              <div
+                                className="bg-blue-500 h-1.5 rounded-full transition-all"
+                                style={{ width: `${progressPercent}%` }}
+                              />
+                            </div>
+                            <div className="text-xs text-muted-foreground">
+                              {achievement.id === 'word-wanderer' || achievement.id === 'everyday-explorer' || achievement.id === 'label-legend'
+                                ? `${achievement.progress.current} / ${achievement.progress.target} words`
+                                : achievement.id === 'multispace-master'
+                                ? `${achievement.progress.current} / ${achievement.progress.target} sessions`
+                                : achievement.id === 'consistency-champion'
+                                ? `${achievement.progress.current} / ${achievement.progress.target} days`
+                                : `${achievement.progress.current} / ${achievement.progress.target}`}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+              </div>
+              {achievementStatus.length > 4 && (
+                <div className="mt-4 flex justify-center">
+                  <Button
+                    variant="outline"
+                    onClick={() => setShowAllAchievements(!showAllAchievements)}
+                    className="text-sm"
+                  >
+                    {showAllAchievements ? 'Show Less' : `View All (${achievementStatus.length})`}
+                  </Button>
+                </div>
+              )}
+            </>
+          )}
+        </CardContent>
+      </Card>
+
       {/* Overall Stats Cards */}
       <div>
         <h2 className="text-lg font-semibold mb-3">Overall Statistics</h2>
