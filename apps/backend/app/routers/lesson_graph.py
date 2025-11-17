@@ -14,12 +14,15 @@ class LessonState(TypedDict, total=False):
     current_object_index: int
     completed_objects: list[tuple[int, bool]]  # (index, correct)
     item_attempts: dict[int, int]  # tracks attempts per item index
+    item_hints_used: dict[int, int]  # tracks hints used per item (max 2)
+    item_gave_up: dict[int, int]  # tracks "don't know" count per item (max 2)
+    waiting_for_repeat: bool  # flag when waiting for user to repeat after being given answer
     lesson_state: Literal["PROMPT_USER", "AWAIT_RESPONSE", "EVALUATE", "FEEDBACK", "COMPLETE"]
     target_language: str
     source_language: str
     location: str
     actions: list[str]
-    proficiency_level: int  # User's proficiency level
+    proficiency_level: int  # user's proficiency level
     # Additional fields for graph operations
     session_id: str | None
     username: str | None
@@ -146,15 +149,18 @@ def await_response_node(state: LessonState) -> LessonState:
 
 
 async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
-    """Evaluate user's response and move to feedback."""
-    from app.routers.base import evaluate_response, generate_tts_audio
-    from app.utils.storage import append_dialogue_entry
+    """Evaluate user's response, handle hints and 'don't know', then move to feedback."""
+    from app.routers.base import evaluate_response, generate_tts_audio, detect_user_intent, generate_hint, give_answer_with_memory_aid
+    from app.utils.storage import append_dialogue_entry, load_session_data
     
     plan = state.get("plan")
     pending_transcription = state.get("pending_transcription")
     pending_image = state.get("pending_image")
     current_object_index = state.get("current_object_index", -1)
     item_attempts = state.get("item_attempts", {})
+    item_hints_used = state.get("item_hints_used", {})
+    item_gave_up = state.get("item_gave_up", {})
+    waiting_for_repeat = state.get("waiting_for_repeat", False)
     
     if not plan:
         logging.warning("evaluate_node: No plan available")
@@ -202,6 +208,265 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     # Get current attempt number (default to 1 if not tracked yet)
     current_attempt = item_attempts.get(current_object_index, 0) + 1
     max_attempts = 3
+    
+    session_id = state.get("session_id")
+    
+    # Special case: waiting for repeat after being given the answer
+    if waiting_for_repeat:
+        # User is repeating after being given answer - just mark as completed (incorrect)
+        completed_objects = state.get("completed_objects", [])
+        completed_objects.append((current_object_index, False))
+        
+        # Save dialogue entry
+        if session_id:
+            try:
+                append_dialogue_entry(session_id, {
+                    "speaker": "user",
+                    "text": transcription,
+                    "utterance_id": utterance_id,
+                })
+            except Exception:
+                pass
+        
+        # Move on without feedback
+        return {
+            **state,
+            "completed_objects": completed_objects,
+            "waiting_for_repeat": False,
+            "lesson_state": "FEEDBACK",
+            "pending_transcription": None,
+            "pending_image": None,
+        }
+    
+    # Retrieve last system message from dialogue for context
+    last_system_message = None
+    if session_id:
+        try:
+            session_data = load_session_data(session_id)
+            if session_data and "entries" in session_data:
+                # Find the last system message before the current user response
+                for entry in reversed(session_data["entries"]):
+                    if entry.get("speaker") == "system" and entry.get("text"):
+                        last_system_message = entry["text"]
+                        break
+        except Exception as e:
+            logging.warning(f"evaluate_node: Failed to retrieve dialogue context: {e}")
+    
+    # Detect user intent (with context for LLM fallback)
+    intent = await detect_user_intent(transcription, context_message=last_system_message, state=None)
+    
+    # Handle hint request
+    if intent == "hint_request":
+        # Save user's hint request to dialogue (with image)
+        if session_id:
+            try:
+                _, image_data_url, _ = pending_image
+                append_dialogue_entry(session_id, {
+                    "speaker": "user",
+                    "text": transcription,
+                    "utterance_id": utterance_id,
+                    "image_data_url": image_data_url,
+                })
+            except Exception as e:
+                logging.warning(f"evaluate_node: Failed to save hint request to dialogue: {e}")
+        
+        hints_used = item_hints_used.get(current_object_index, 0)
+        
+        if hints_used >= 2:
+            # No more hints available
+            hint_msg = "You've already used your 2 hints for this word. Give it a try!"
+        else:
+            # Generate hint
+            hint_number = hints_used + 1
+            try:
+                hint_msg = await generate_hint(
+                    current_object,
+                    target_language,
+                    source_language,
+                    proficiency_level,
+                    hint_number,
+                    state=None
+                )
+                item_hints_used[current_object_index] = hint_number
+            except Exception as e:
+                logging.error(f"evaluate_node: Hint generation failed: {e}", exc_info=True)
+                hint_msg = f"Hint: The word starts with '{current_object.target_name[0]}'."
+                item_hints_used[current_object_index] = hint_number
+        
+        # Generate TTS for hint
+        hint_audio = None
+        try:
+            hint_audio = await generate_tts_audio(hint_msg, state=None)
+        except Exception as e:
+            logging.warning(f"evaluate_node: TTS generation failed for hint: {e}")
+        
+        # Send hint via WebSocket
+        try:
+            if ws and ws.client_state != WebSocketState.DISCONNECTED:
+                payload = {"text": hint_msg}
+                if hint_audio:
+                    payload["audio"] = hint_audio
+                await ws.send_json({
+                    "type": "hint",
+                    "payload": payload
+                })
+        except Exception as e:
+            logging.error(f"evaluate_node: WebSocket send failed: {e}", exc_info=True)
+        
+        # Save hint to dialogue
+        if session_id:
+            try:
+                append_dialogue_entry(session_id, {
+                    "speaker": "system",
+                    "text": hint_msg,
+                })
+            except Exception:
+                pass
+        
+        # Stay in AWAIT_RESPONSE state
+        return {
+            **state,
+            "item_hints_used": item_hints_used,
+            "lesson_state": "AWAIT_RESPONSE",
+            "pending_transcription": None,
+            "pending_image": None,
+        }
+    
+    # Handle "don't know" / give up
+    if intent == "dont_know":
+        # Save user's "don't know" statement to dialogue (with image)
+        if session_id:
+            try:
+                _, image_data_url, _ = pending_image
+                append_dialogue_entry(session_id, {
+                    "speaker": "user",
+                    "text": transcription,
+                    "utterance_id": utterance_id,
+                    "image_data_url": image_data_url,
+                })
+            except Exception as e:
+                logging.warning(f"evaluate_node: Failed to save 'don't know' to dialogue: {e}")
+        
+        gave_up_count = item_gave_up.get(current_object_index, 0)
+        hints_used = item_hints_used.get(current_object_index, 0)
+        
+        # Check if we should give answer (if hints used OR second don't know)
+        if hints_used > 0 or gave_up_count >= 1:
+            # Give answer with memory aid
+            try:
+                answer_msg = await give_answer_with_memory_aid(
+                    current_object,
+                    target_language,
+                    source_language,
+                    proficiency_level,
+                    state=None
+                )
+                item_gave_up[current_object_index] = gave_up_count + 1
+            except Exception as e:
+                logging.error(f"evaluate_node: Answer generation failed: {e}", exc_info=True)
+                answer_msg = f"The correct answer is '{current_object.target_name}'. Please repeat: {current_object.target_name}"
+                item_gave_up[current_object_index] = gave_up_count + 1
+            
+            # Generate TTS for answer
+            answer_audio = None
+            try:
+                answer_audio = await generate_tts_audio(answer_msg, state=None)
+            except Exception as e:
+                logging.warning(f"evaluate_node: TTS generation failed for answer: {e}")
+            
+            # Send answer via WebSocket
+            try:
+                if ws and ws.client_state != WebSocketState.DISCONNECTED:
+                    payload = {"text": answer_msg}
+                    if answer_audio:
+                        payload["audio"] = answer_audio
+                    await ws.send_json({
+                        "type": "answer_given",
+                        "payload": payload
+                    })
+            except Exception as e:
+                logging.error(f"evaluate_node: WebSocket send failed: {e}", exc_info=True)
+            
+            # Save answer to dialogue
+            if session_id:
+                try:
+                    append_dialogue_entry(session_id, {
+                        "speaker": "system",
+                        "text": answer_msg,
+                    })
+                except Exception:
+                    pass
+            
+            # Set waiting_for_repeat flag
+            return {
+                **state,
+                "item_gave_up": item_gave_up,
+                "waiting_for_repeat": True,
+                "lesson_state": "AWAIT_RESPONSE",
+                "pending_transcription": None,
+                "pending_image": None,
+            }
+        else:
+            # First don't know and no hints used - give a hint
+            try:
+                hint_msg = await generate_hint(
+                    current_object,
+                    target_language,
+                    source_language,
+                    proficiency_level,
+                    1,
+                    state=None
+                )
+                hint_msg += " If you still don't know, you can ask again and I'll tell you the answer."
+                item_gave_up[current_object_index] = 1
+                item_hints_used[current_object_index] = 1
+            except Exception as e:
+                logging.error(f"evaluate_node: Hint generation failed: {e}", exc_info=True)
+                hint_msg = f"Hint: The word starts with '{current_object.target_name[0]}'. If you still don't know, you can ask again and I'll tell you the answer."
+                item_gave_up[current_object_index] = 1
+                item_hints_used[current_object_index] = 1
+            
+            # Generate TTS for hint
+            hint_audio = None
+            try:
+                hint_audio = await generate_tts_audio(hint_msg, state=None)
+            except Exception as e:
+                logging.warning(f"evaluate_node: TTS generation failed for hint: {e}")
+            
+            # Send hint via WebSocket
+            try:
+                if ws and ws.client_state != WebSocketState.DISCONNECTED:
+                    payload = {"text": hint_msg}
+                    if hint_audio:
+                        payload["audio"] = hint_audio
+                    await ws.send_json({
+                        "type": "hint",
+                        "payload": payload
+                    })
+            except Exception as e:
+                logging.error(f"evaluate_node: WebSocket send failed: {e}", exc_info=True)
+            
+            # Save hint to dialogue
+            if session_id:
+                try:
+                    append_dialogue_entry(session_id, {
+                        "speaker": "system",
+                        "text": hint_msg,
+                    })
+                except Exception:
+                    pass
+            
+            # Stay in AWAIT_RESPONSE state
+            return {
+                **state,
+                "item_gave_up": item_gave_up,
+                "item_hints_used": item_hints_used,
+                "lesson_state": "AWAIT_RESPONSE",
+                "pending_transcription": None,
+                "pending_image": None,
+            }
+    
+    # Normal evaluation flow (answer_attempt intent)
 
     # Evaluate response with attempt context
     try:
@@ -317,6 +582,9 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             **state,
             "completed_objects": completed_objects,
             "item_attempts": item_attempts,
+            "item_hints_used": item_hints_used,
+            "item_gave_up": item_gave_up,
+            "waiting_for_repeat": False,
             "evaluation_result": eval_result,
             "lesson_state": "FEEDBACK",
             # Clear pending data
@@ -329,6 +597,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
         return {
             **state,
             "item_attempts": item_attempts,
+            "item_hints_used": item_hints_used,
+            "item_gave_up": item_gave_up,
             "evaluation_result": eval_result,
             "lesson_state": "AWAIT_RESPONSE",
             # Clear pending data so user can try again
@@ -373,7 +643,9 @@ async def feedback_node(state: LessonState, ws: WebSocket) -> LessonState:
         # Generate summary
         try:
             item_attempts = state.get("item_attempts", {})
-            summary = generate_summary(plan, completed_objects, dialogue_entries, item_attempts)
+            item_hints_used = state.get("item_hints_used", {})
+            item_gave_up = state.get("item_gave_up", {})
+            summary = generate_summary(plan, completed_objects, dialogue_entries, item_attempts, item_hints_used, item_gave_up)
         except Exception as e:
             # Summary generation failed, create minimal summary
             summary = {

@@ -43,9 +43,11 @@ Guidelines by level:
 IMPORTANT: 
 - Do NOT use phrases like "Great job!" or "Well done!" before the student has attempted the task.
 - For first attempts (attempt_number = 1), use simple, direct instructions without implying prior success.
-- For retry attempts (attempt_number > 1), clearly indicate this is a retry of the SAME word, using phrases like "Let's try again" or "Let's practice the word '{target_name}' once more."
-- Never imply you are moving to a new word when you are still working on the same word."""),
-    ("user", """Please ask the student to hold up or point to the object "{source_name}" and say "{target_name}" in {target_language}.
+- For retry attempts (attempt_number > 1), clearly indicate this is a retry of the SAME word, using phrases like "Let's try again" or "Let's practice the word once more."
+- Never imply you are moving to a new word when you are still working on the same word.
+- NEVER reveal the answer (target word) in your prompt - the student must recall it themselves!
+- Instead of saying the word, ask them to say "its name" or "what it's called" in the target language."""),
+    ("user", """Please ask the student to hold up or point to the object "{source_name}" and say its name in {target_language}.
 
 Context:
 - This is attempt number {attempt_number} for this object.
@@ -134,6 +136,94 @@ Respond with a JSON object:
   "error_category": "wrong_word_actual" | "wrong_word_nonsense" | "mispronunciation" | null,
   "feedback_message": "appropriate feedback based on error category and attempt number"
 }}""")
+])
+
+# prompt for hint generation
+generate_hint_prompt = ChatPromptTemplate.from_messages([
+    ("system", """You are a helpful language tutor providing hints to help a student remember a word in {target_language}.
+
+Your task is to generate a helpful hint for the word "{target_word}" ({source_name} in {source_language}).
+
+Guidelines for hints based on hint number:
+- **First hint (hint_number=1)**: Provide a subtle hint like:
+  * The starting letter or sound
+  * A related word or category
+  * Something that might remind them of the word
+  * Example: "It starts with 'b'" or "Pencil, another writing instrument, is called 'lapiz'"
+  
+- **Second hint (hint_number=2)**: Provide a more direct hint like:
+  * The first few letters or syllable
+  * A word that sounds similar
+  * More specific context
+  * Example: "It starts with 'bol-'" or "It sounds like 'bowling' + 'grafo'"
+
+Make your hints encouraging and appropriate for the student's proficiency level ({proficiency_level}, where 1=beginner, 5=fluent).
+DO NOT reveal the entire word - the goal is to help them remember, not give the answer."""),
+    ("user", """Please generate hint number {hint_number} for the word "{target_word}" ({source_name} in {source_language}).
+
+Target language: {target_language}
+Source language: {source_language}
+Student proficiency level: {proficiency_level}
+
+Generate an encouraging, helpful hint that guides them toward the answer without revealing it.""")
+])
+
+# prompt for giving answer with memory aid
+give_answer_with_memory_aid_prompt = ChatPromptTemplate.from_messages([
+    ("system", """You are a helpful language tutor providing the answer along with a memory aid to help the student remember the word for next time.
+
+Your task is to:
+1. Provide the correct word: "{target_word}"
+2. Give a helpful memory aid (mnemonic, pronunciation tip, or association)
+3. Ask them to repeat the word
+
+Memory aid examples:
+- Pronunciation tip: "bolígrafo sounds like 'bow-lee-GRAH-foh'"
+- Mnemonic: "Think of a 'bow' writing on a 'graph' - bolígrafo!"
+- Association: "The 'grafo' part is like 'graph' or 'write' in English"
+
+Make it encouraging and explain that it's okay not to know, learning takes practice."""),
+    ("user", """The correct answer is "{target_word}" ({source_name} in {source_language}).
+
+Target language: {target_language}
+Source language: {source_language}
+Student proficiency level: {proficiency_level}
+
+Please provide the answer with an encouraging message and a helpful memory aid, then ask them to repeat the word.""")
+])
+
+# prompt for intent detection with context
+detect_intent_prompt = ChatPromptTemplate.from_messages([
+    ("system", """You are analyzing a student's response during a language learning lesson to determine their intent.
+
+There are exactly THREE possible intents:
+
+1. **hint_request**: The student is asking for help, a hint, or assistance with the current word.
+   - Examples: "hint", "help", "can you help me", "give me a clue", "I need help", "ayuda", "pista"
+   
+2. **dont_know**: The student doesn't know the answer or wants to give up and be told the answer.
+   - Examples: "I don't know", "no sé", "tell me", "what is it", "I give up", "skip", "pass", "I can't"
+   
+3. **answer_attempt**: The student is attempting to answer (default for anything that doesn't clearly fit above).
+   - This includes actual word attempts, sentences, or unclear responses
+
+IMPORTANT: Use the context of what the system just asked to help determine intent. For example:
+- System: "Please say the word for pen" + User: "I can't" → "dont_know"
+- System: "Try again!" + User: "help" → "hint_request"  
+- System: "Say its name in Spanish" + User: "bolígrafo" → "answer_attempt"
+- System: "Here's a hint: it starts with 'b'" + User: "I still don't know" → "dont_know"
+
+When in doubt, default to "answer_attempt" to give the student credit for trying."""),
+    ("user", """Previous system message: "{context_message}"
+
+Student's response: "{transcription}"
+
+Based on the context and the student's response, what is their intent?
+
+Respond with ONLY one of these three values:
+- hint_request
+- dont_know
+- answer_attempt""")
 ])
 
 # prompt for plan generation

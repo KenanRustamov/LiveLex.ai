@@ -119,6 +119,28 @@ export default function CameraView({ settings, username }: { settings: { sourceL
               }
               break;
             }
+            case 'hint': {
+              const text: string = msg.payload?.text ?? '';
+              if (text) {
+                setTranscripts(prev => [...prev, { speaker: 'LLM', text }]);
+              }
+              const audio: string | undefined = msg.payload?.audio;
+              if (audio) {
+                playAudioFromBase64(audio);
+              }
+              break;
+            }
+            case 'answer_given': {
+              const text: string = msg.payload?.text ?? '';
+              if (text) {
+                setTranscripts(prev => [...prev, { speaker: 'LLM', text }]);
+              }
+              const audio: string | undefined = msg.payload?.audio;
+              if (audio) {
+                playAudioFromBase64(audio);
+              }
+              break;
+            }
             case 'evaluation_result': {
               const correct: boolean = msg.payload?.correct ?? false;
               const feedback: string = msg.payload?.feedback ?? '';

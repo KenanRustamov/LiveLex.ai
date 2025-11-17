@@ -18,7 +18,7 @@ from pydub import AudioSegment
 warnings.filterwarnings("ignore", category=RuntimeWarning, module="pydub")
 
 from app.core.config import settings
-from app.prompts.chat_prompts import generate_plan_prompt, prompt_next_object, evaluate_response_prompt
+from app.prompts.chat_prompts import generate_plan_prompt, prompt_next_object, evaluate_response_prompt, generate_hint_prompt, give_answer_with_memory_aid_prompt, detect_intent_prompt
 from app.schemas.plan import Plan, Object
 from app.schemas.evaluation import EvaluationResult
 from app.utils.storage import append_dialogue_entry, save_session_data, load_session_data
@@ -70,6 +70,9 @@ def session_state_to_lesson_state(
         "current_object_index": session_state.current_object_index,
         "completed_objects": session_state.completed_objects.copy() if session_state.completed_objects else [],
         "item_attempts": session_state.item_attempts.copy() if session_state.item_attempts else {},
+        "item_hints_used": session_state.item_hints_used.copy() if session_state.item_hints_used else {},
+        "item_gave_up": session_state.item_gave_up.copy() if session_state.item_gave_up else {},
+        "waiting_for_repeat": session_state.waiting_for_repeat,
         "lesson_state": "PROMPT_USER",  # Default starting state
         "target_language": target_language,
         "source_language": source_language,
@@ -97,8 +100,11 @@ def lesson_state_to_session_state(
     session_state.plan = lesson_state.get("plan")
     session_state.current_object_index = lesson_state.get("current_object_index", -1)
     session_state.completed_objects = lesson_state.get("completed_objects", []).copy()
-    # Persist attempt counts so retries are tracked across graph invocations
+    # Persist attempt counts and hint/gave_up tracking so retries are tracked across graph invocations
     session_state.item_attempts = lesson_state.get("item_attempts", {}).copy()
+    session_state.item_hints_used = lesson_state.get("item_hints_used", {}).copy()
+    session_state.item_gave_up = lesson_state.get("item_gave_up", {}).copy()
+    session_state.waiting_for_repeat = lesson_state.get("waiting_for_repeat", False)
     # Track whether the lesson has been completed by the graph
     session_state.lesson_saved = bool(lesson_state.get("lesson_completed", session_state.lesson_saved))
     session_state.pending_transcription = lesson_state.get("pending_transcription")
@@ -331,7 +337,7 @@ async def process_audio_image_pair(
                 if session_data:
                     dialogue_entries = session_data.get("entries", [])
             
-            summary = generate_summary(state.plan, state.completed_objects, dialogue_entries, state.item_attempts)
+            summary = generate_summary(state.plan, state.completed_objects, dialogue_entries, state.item_attempts, state.item_hints_used, state.item_gave_up)
             
             if state.session_id:
                 save_session_data(state.session_id, {
@@ -353,10 +359,21 @@ async def process_audio_image_pair(
             })
 
 
-def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dialogue_entries: list[dict], item_attempts: dict[int, int] = None) -> dict:
+def generate_summary(
+    plan: Plan, 
+    completed_objects: list[tuple[int, bool]], 
+    dialogue_entries: list[dict], 
+    item_attempts: dict[int, int] = None,
+    item_hints_used: dict[int, int] = None,
+    item_gave_up: dict[int, int] = None
+) -> dict:
     """Generate lesson summary from completed objects and dialogue history."""
     if item_attempts is None:
         item_attempts = {}
+    if item_hints_used is None:
+        item_hints_used = {}
+    if item_gave_up is None:
+        item_gave_up = {}
     
     summary_items = []
     for idx, correct in completed_objects:
@@ -377,7 +394,9 @@ def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dial
             user_text = attempts[-1]["text"] if attempts else ""
             
             # Get attempt count for this item (default to 1 if not tracked)
-            attempts = item_attempts.get(idx, 1)
+            attempt_count = item_attempts.get(idx, 1)
+            hints_used = item_hints_used.get(idx, 0)
+            gave_up = item_gave_up.get(idx, 0) > 0  # Convert to boolean
             
             summary_items.append({
                 "object": {
@@ -388,7 +407,9 @@ def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dial
                 "correct": correct,
                 "user_said": user_text,
                 "correct_word": obj.target_name,
-                "attempts": attempts,
+                "attempts": attempt_count,
+                "hints_used": hints_used,
+                "gave_up": gave_up,
             })
     
     return {
@@ -504,6 +525,9 @@ class SessionState:
         self.current_object_index: int = -1
         self.completed_objects: list[tuple[int, bool]] = []  # List of (index, correct) tuples
         self.item_attempts: dict[int, int] = {}  # tracks attempts per item index
+        self.item_hints_used: dict[int, int] = {}  # tracks hints used per item (max 2)
+        self.item_gave_up: dict[int, int] = {}  # tracks "don't know" count per item (max 2)
+        self.waiting_for_repeat: bool = False  # flag when waiting for user to repeat after being given answer
         self.dialogue_history: list[dict[str, Any]] = []
         self.lesson_saved: bool = False
         # pending audio/image pairing
@@ -656,6 +680,195 @@ async def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str], state:
                 raise
             logging.error(f"Transcription error: {e}")
             raise HTTPException(status_code=500, detail=f"Transcription error: {e}")
+
+
+async def detect_user_intent(
+    transcription: str,
+    context_message: Optional[str] = None,
+    state: Optional[SessionState] = None
+) -> str:
+    """Detect user intent from transcription.
+    
+    Returns:
+        "hint_request": User is asking for a hint
+        "dont_know": User doesn't know the answer or wants the answer
+        "answer_attempt": User is attempting to say the word
+    """
+    if not transcription:
+        return "answer_attempt"
+    
+    text_lower = transcription.lower().strip()
+    
+    # Check for hint requests
+    hint_keywords = [
+        "hint", "help", "clue", "give me a hint", "can you help", "i need help",
+        "what's a hint", "ayuda", "pista", "ayúdame"
+    ]
+
+    if any(keyword in text_lower for keyword in hint_keywords):
+        return "hint_request"
+    
+    # Check for "don't know" / give up
+    dont_know_keywords = [
+        "don't know", "dont know", "no se", "no sé", "i give up", "give up",
+        "tell me", "what is it", "what's the answer", "show me", "i can't",
+        "i dont know", "i don't know", "skip", "pass"
+    ]
+
+    if any(keyword in text_lower for keyword in dont_know_keywords):
+        return "dont_know"
+    
+    # LLM fallback
+    if context_message and settings.openai_api_key:
+        return await detect_user_intent_with_llm(transcription, context_message, state)
+    
+    # Default to answer attempt
+    return "answer_attempt"
+
+
+async def detect_user_intent_with_llm(
+    transcription: str,
+    context_message: str,
+    state: Optional[SessionState] = None
+) -> str:
+    """Detect user intent using LLM with conversation context.
+
+    Returns:
+        "hint_request", "dont_know", or "answer_attempt"
+    """
+    if not settings.openai_api_key:
+        logging.warning("OpenAI API key not available for LLM intent detection, defaulting to answer_attempt")
+        return "answer_attempt"
+    
+    try:
+        llm = ChatOpenAI(
+            model="gpt-4o-mini",
+            temperature=0.0,
+            api_key=settings.openai_api_key
+        )
+        
+        prompt = detect_intent_prompt.invoke({
+            "context_message": context_message or "No previous context",
+            "transcription": transcription
+        })
+        
+        # Track performance if state is available
+        if state and state.session_id:
+            with track_performance("detect_intent_llm", state.session_id):
+                response = await llm.ainvoke(prompt.messages)
+        else:
+            response = await llm.ainvoke(prompt.messages)
+        
+        intent = response.content.strip().lower()
+        
+        # Ensure it's one of the valid intents
+        if intent in ["hint_request", "dont_know", "answer_attempt"]:
+            return intent
+        else:
+            logging.warning(f"LLM returned invalid intent '{intent}', defaulting to answer_attempt")
+            return "answer_attempt"
+            
+    except Exception as e:
+        logging.error(f"Error in LLM intent detection: {e}")
+        # Fallback to answer_attempt on error
+        return "answer_attempt"
+
+
+async def generate_hint(
+    object: Object,
+    target_language: str,
+    source_language: str,
+    proficiency_level: int,
+    hint_number: int,
+    state: Optional[SessionState] = None
+) -> str:
+    """Generate a hint for a word using LLM."""
+    
+    if not settings.openai_api_key:
+        return f"Hint: The word starts with '{object.target_name[0]}'."
+    
+    session_id = state.session_id if state else None
+    username = state.username if state else None
+    
+    try:
+        async with track_performance(
+            operation_type="hint_generation",
+            operation_name="generate_hint",
+            session_id=session_id,
+            username=username,
+            metadata={"model": settings.llm_model, "hint_number": hint_number}
+        ):
+            prompt_value = generate_hint_prompt.invoke({
+                "target_word": object.target_name,
+                "source_name": object.source_name,
+                "target_language": target_language,
+                "source_language": source_language,
+                "proficiency_level": proficiency_level,
+                "hint_number": hint_number,
+            })
+            
+            llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
+            messages = prompt_value.to_messages()
+            response = llm.invoke(messages)
+            return response.content if hasattr(response, 'content') else str(response)
+    except Exception as e:
+        logging.error(f"Hint generation error: {e}", exc_info=True)
+        # Fallback hint
+        if hint_number == 1:
+            return f"Hint: The word starts with '{object.target_name[0]}'."
+        else:
+            return f"Hint: The word starts with '{object.target_name[:min(3, len(object.target_name))]}'..."
+
+
+async def give_answer_with_memory_aid(
+    object: Object,
+    target_language: str,
+    source_language: str,
+    proficiency_level: int,
+    state: Optional[SessionState] = None
+) -> str:
+    """Give the answer with a memory aid to help student remember.
+    
+    Args:
+        object: The object being tested
+        target_language: Target language
+        source_language: Source language
+        proficiency_level: User's proficiency level (1-5)
+        state: Optional session state for tracking
+        
+    Returns:
+        Message with answer and memory aid
+    """
+    if not settings.openai_api_key:
+        return f"The correct answer is '{object.target_name}'. Please repeat: {object.target_name}"
+    
+    session_id = state.session_id if state else None
+    username = state.username if state else None
+    
+    try:
+        async with track_performance(
+            operation_type="answer_with_memory_aid",
+            operation_name="give_answer_with_memory_aid",
+            session_id=session_id,
+            username=username,
+            metadata={"model": settings.llm_model}
+        ):
+            prompt_value = give_answer_with_memory_aid_prompt.invoke({
+                "target_word": object.target_name,
+                "source_name": object.source_name,
+                "target_language": target_language,
+                "source_language": source_language,
+                "proficiency_level": proficiency_level,
+            })
+            
+            llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
+            messages = prompt_value.to_messages()
+            response = llm.invoke(messages)
+            return response.content if hasattr(response, 'content') else str(response)
+    except Exception as e:
+        logging.error(f"Answer with memory aid generation error: {e}", exc_info=True)
+        # Fallback answer
+        return f"The correct answer is '{object.target_name}'. Please repeat: {object.target_name}"
 
 
 async def evaluate_response(
@@ -836,7 +1049,7 @@ async def ws_stream(ws: WebSocket):
                             if session_data:
                                 dialogue_entries = session_data.get("entries", [])
 
-                        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries, state.item_attempts)
+                        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries, state.item_attempts, state.item_hints_used, state.item_gave_up)
 
                         if state.session_id:
                             save_session_data(state.session_id, {
