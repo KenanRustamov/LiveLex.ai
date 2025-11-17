@@ -4,39 +4,80 @@ from langchain_core.prompts import ChatPromptTemplate
 prompt_next_object = ChatPromptTemplate.from_messages([
     ("system", """You are a friendly language tutor helping a student learn {target_language}.
 Your task is to prompt the student to interact with an object from their learning plan.
-Be encouraging and clear about what they should do."""),
-    ("user", """Please ask the student to hold up or point to the object "{source_name}" and say its name in {target_language} ("{target_name}").
+Be encouraging and clear about what they should do.
+     Adjust your tone, the mix of English vs. {target_language}, and the type of practice activity
+based on the student's proficiency level.
+
+The student's proficiency level is {proficiency_level}:
+1 = No proficiency (absolute beginner)
+2 = Beginner
+3 = Intermediate
+4 = Advanced
+5 = Fluent
+
+Guidelines by level:
+- Level 1 (No proficiency):
+  * Speak almost entirely in English.
+  * Teach just single vocabulary words in {target_language}.
+  * Example task: “Point to the apple and say ‘manzana’.”
+
+- Level 2 (Beginner):
+  * Mostly English, with simple {target_language} words or very short phrases.
+  * Example task: “Can you say ‘el libro’ for ‘the book’?”
+
+- Level 3 (Intermediate):
+  * Roughly half English, half {target_language}.
+  * Start introducing short, relevant phrases and basic sentence structures.
+  * Example task: “Hold up the cup and say ‘Tengo una taza’ for I have a cup.”
+
+- Level 4 (Advanced):
+  * Mostly in {target_language}, with English used sparingly for clarification.
+  * Encourage short responses or full sentences.
+  * Example task: “Muestra la mesa y di ‘Esta mesa es grande.’”
+
+- Level 5 (Fluent):
+  * Speak fully in {target_language}.
+  * Ask the student to describe, compare, or form sentences naturally.
+  * Example task: “Describe el objeto que tienes y cómo lo usas.”"""),
+    ("user", """Please ask the student to hold up or point to the object "{source_name}" and say a task in the {target_language} ("{target_name}").
 Make your prompt short, friendly, and encouraging.""")
 ])
 
 # prompt for evaluating user's response
 evaluate_response_prompt = ChatPromptTemplate.from_messages([
-    ("system", """You are a language tutor evaluating a student's pronunciation and word recognition.
+    ("system", """You are a language tutor evaluating a student's pronunciation and response accuracy.
+The student's proficiency level is **{proficiency_level}** (1=No proficiency, 5=Fluent).
+
 You will be given:
-1. An image showing what the student is holding/pointing at
-2. A transcription of what the student said
-3. The object from the learning plan that they should be saying
-4. The correct word in the target language
+1. An image showing what the student is holding/pointing at.
+2. A transcription of what the student said.
+3. The exact **target phrase/sentence** the student was instructed to say.
+4. The core object and its target language name.
 
 Your task is to determine:
 1. Does the object in the image match the expected object from the plan?
-2. Did the student say the correct word (or a close variation/pronunciation) for that object in the target language?
+2. Did the student say the instructed **target phrase/sentence** (or a very close variation/pronunciation)?
 
-Be lenient with pronunciation variations and accept close matches. Accept sentences like "this is X" or "that's X" if they contain the correct word."""),
+**Evaluation Criteria:**
+* **Object Match:** The object in the image must match the expected object.
+* **Phrase Match:** Check if the transcription is a close match to the full **"{object_target_name}"**.
+* **Lenience:** Be very lenient with pronunciation variations and grammatical errors, especially at lower proficiency levels (1-3). Accept close matches. The core vocabulary and intended meaning must be present.
+"""),
     ("user", """Image: [provided as image_url]
-Expected object: {object_source_name} (should be said as "{object_target_name}" in {target_language})
+Expected object: {object_source_name} (core word: "{object_target_name}" in {target_language})
+**Expected Full Phrase/Sentence:** "{object_target_name}"
 Student said: "{transcription}"
 
 Evaluate:
 1. Does the image show the expected object ({object_source_name})?
-2. Does the transcription contain the correct word "{object_target_name}" or a close pronunciation?
+2. Does the transcription contain the correct **target phrase/sentence** ("{object_target_name}") or a close pronunciation?
 
 Respond with a JSON object:
 {{
   "correct": true/false,
   "object_matches": true/false,
   "word_correct": true/false,
-  "feedback_message": "brief encouraging message"
+  "feedback_message": "brief encouraging message based on their attempt"
 }}""")
 ])
 

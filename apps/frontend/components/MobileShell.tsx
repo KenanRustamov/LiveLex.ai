@@ -25,6 +25,7 @@ export default function MobileShell() {
     targetLanguage: string;
     location: string;
     actions: string[];
+    proficiencyLevel: number;
   };
 
   const DEFAULT_SETTINGS: UserSettings = {
@@ -32,6 +33,7 @@ export default function MobileShell() {
     targetLanguage: 'Spanish',
     location: 'Baltimore, Maryland',
     actions: ['Pick up'],
+    proficiencyLevel: 1,
   };
 
   const [settings, setSettings] = useState<UserSettings>(DEFAULT_SETTINGS);
@@ -85,7 +87,7 @@ export default function MobileShell() {
     <main className="min-h-dvh flex flex-col">
       <section className="flex-1">
         <div className="mx-auto w-full px-4 py-6 space-y-4">
-          {tab === 'camera' && <CameraView settings={settings} username={username}/>}
+          {tab === 'camera' && <CameraView key={JSON.stringify(settings)} settings={settings} username={username} />}
 
           {tab === 'analytics' && <AnalyticsView username={username} backendUrl={backendUrl} />}
 
@@ -153,6 +155,23 @@ export default function MobileShell() {
                       <option value="Pick up">Pick up</option>
                     </Select>
                     <p className="text-xs text-muted-foreground mt-1">For now, only "Pick up" is supported.</p>
+                  </div>
+                  <div className="text-sm">
+                    <Label className="block mb-1">Proficiency level</Label>
+                    <Select
+                      className="border border-gray-300 rounded-md px-2 py-1 w-full"
+                      value={settings.proficiencyLevel}
+                      onChange={(e) => saveSettings({ proficiencyLevel: Number(e.target.value) })}
+                    >
+                      <option value={1}>1 - No Experience</option>
+                      <option value={2}>2 - Basic</option>
+                      <option value={3}>3 - Intermediate</option>
+                      <option value={4}>4 - Advanced</option>
+                      <option value={5}>5 - Fluent</option>
+                    </Select>
+                    <p className="text-xs text-muted-foreground mt-1">
+                      Adjusts how much {settings.targetLanguage} is used in conversation.
+                    </p>
                   </div>
                 </div>
               </CardContent>
