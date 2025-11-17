@@ -144,6 +144,8 @@ generate_hint_prompt = ChatPromptTemplate.from_messages([
 
 Your task is to generate a helpful hint for the word "{target_word}" ({source_name} in {source_language}).
 
+Hints must be written in the student's source language ({source_language}) so the guidance is clear, while still referring to the target word they are trying to recall.
+
 Guidelines for hints based on hint number:
 - **First hint (hint_number=1)**: Provide a subtle hint like:
   * The starting letter or sound

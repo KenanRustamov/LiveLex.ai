@@ -36,6 +36,49 @@ from pydantic import BaseModel
 
 import logging
 
+# Common language names we support -> BCP-47 codes
+LANGUAGE_NAME_TO_CODE = {
+    "english": "en",
+    "spanish": "es",
+    "french": "fr",
+    "german": "de",
+    "italian": "it",
+    "portuguese": "pt",
+    "brazilian portuguese": "pt-BR",
+    "mexican spanish": "es-MX",
+    "latin american spanish": "es-419",
+    "chinese": "zh",
+    "mandarin": "zh",
+    "japanese": "ja",
+    "korean": "ko",
+    "hindi": "hi",
+    "arabic": "ar",
+    "russian": "ru",
+}
+
+
+def normalize_language_code(language: Optional[str]) -> Optional[str]:
+    """Map a human-readable language name to a BCP-47 code when possible."""
+    if not language:
+        return None
+    normalized = language.strip()
+    if not normalized:
+        return None
+
+    normalized_lower = normalized.lower()
+    # Try exact mapping first
+    if normalized_lower in LANGUAGE_NAME_TO_CODE:
+        return LANGUAGE_NAME_TO_CODE[normalized_lower]
+
+    # Treat short alphabetic tokens (e.g., "en", "es-MX") as already-valid codes
+    if (
+        all(ch.isalpha() or ch == "-" for ch in normalized_lower)
+        and len(normalized_lower) <= 8
+    ):
+        return normalized_lower
+
+    return None
+
 
 router = APIRouter(tags=["base"])
 
@@ -53,17 +96,17 @@ def session_state_to_lesson_state(
     
     # Extract image metadata if provided, otherwise use defaults
     if image_metadata:
-        target_language = image_metadata.get("target_language", "Spanish")
-        source_language = image_metadata.get("source_language", "English")
-        location = image_metadata.get("location", "US")
-        actions = image_metadata.get("actions", ["name", "describe", "compare"])
-        proficiency_level = image_metadata.get("proficiency_level", 1)
+        target_language = image_metadata.get("target_language", session_state.target_language or "Spanish")
+        source_language = image_metadata.get("source_language", session_state.source_language or "English")
+        location = image_metadata.get("location", session_state.location or "US")
+        actions = image_metadata.get("actions", session_state.actions or ["name", "describe", "compare"])
+        proficiency_level = image_metadata.get("proficiency_level", session_state.proficiency_level or 1)
     else:
-        target_language = "Spanish"
-        source_language = "English"
-        location = "US"
-        actions = ["name", "describe", "compare"]
-        proficiency_level = 1
+        target_language = session_state.target_language or "Spanish"
+        source_language = session_state.source_language or "English"
+        location = session_state.location or "US"
+        actions = session_state.actions or ["name", "describe", "compare"]
+        proficiency_level = session_state.proficiency_level or 1
     
     lesson_state: dict = {
         "plan": session_state.plan,
@@ -533,6 +576,12 @@ class SessionState:
         # pending audio/image pairing
         self.pending_transcription: Optional[tuple[str, str]] = None  # (utterance_id, transcription)
         self.pending_image: Optional[tuple[str, str, dict]] = None  # (utterance_id, data_url, metadata)
+        # lesson language/context preferences
+        self.target_language: str = "Spanish"
+        self.source_language: str = "English"
+        self.location: str = "US"
+        self.actions: list[str] = ["name", "describe", "compare"]
+        self.proficiency_level: int = 1
 
 
 async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
@@ -595,6 +644,8 @@ async def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str], state:
 
     session_id = state.session_id if state else None
     username = state.username if state else None
+    target_language = getattr(state, "target_language", None) if state else None
+    target_language_code = normalize_language_code(target_language)
 
     # Heuristic: pick filename extension based on mime if provided, default to .webm
     ext = "webm"
@@ -659,10 +710,16 @@ async def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str], state:
         client = OpenAI(api_key=settings.openai_api_key)
         try:
             # Run synchronous OpenAI call in thread to avoid blocking
+            transcription_kwargs = {
+                "model": settings.transcription_model,
+                "file": buf,
+            }
+            if target_language_code:
+                transcription_kwargs["language"] = target_language_code
+
             resp = await asyncio.to_thread(
                 client.audio.transcriptions.create,
-                model=settings.transcription_model,
-                file=buf,
+                **transcription_kwargs,
             )
             text = getattr(resp, "text", None)
             if not text:
@@ -1186,6 +1243,13 @@ async def ws_stream(ws: WebSocket):
                 location = payload.get("location", "US")
                 actions = payload.get("actions") or ["name", "describe", "compare"]
                 proficiency_level = payload.get("proficiency_level", 1)
+
+                # Persist latest lesson preferences on the session
+                state.target_language = target_language
+                state.source_language = source_language
+                state.location = location
+                state.actions = actions
+                state.proficiency_level = proficiency_level
                 
                 image_metadata = {
                     "target_language": target_language,
