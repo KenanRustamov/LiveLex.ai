@@ -13,6 +13,13 @@ import OverlayCard from '@/components/OverlayCard';
 
 const CAPTURE_PREVIEW_DURATION_MS = 3000;
 
+const langMap: Record<string,string> = {
+  English: "en",
+  Spanish: "es",
+  French: "fr",
+  // Add more languages if needed
+};
+
 export default function CameraView({ settings, username }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[], proficiencyLevel: number;}, username: string }) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -514,12 +521,15 @@ export default function CameraView({ settings, username }: { settings: { sourceL
   const sendAudioBlobWithOptionalImage = useCallback(async (blob: Blob) => {
     const id = crypto?.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`;
     setUtteranceId(id);
+
+    const targetCode = langMap[settings.targetLanguage] ?? "en";
+
     if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
       try {
         const buf = await blob.arrayBuffer();
         const b64 = btoa(String.fromCharCode(...new Uint8Array(buf)));
         wsRef.current.send(JSON.stringify({ type: 'audio_chunk', payload: { data_b64: b64, mime: blob.type || 'audio/webm', utterance_id: id } }));
-        wsRef.current.send(JSON.stringify({ type: 'audio_end', payload: { utterance_id: id } }));
+        wsRef.current.send(JSON.stringify({ type: 'audio_end', payload: { utterance_id: id, target_language: targetCode} }));
         const dataUrl = captureSceneDataUrl();
         if (dataUrl) {
           wsRef.current.send(JSON.stringify({

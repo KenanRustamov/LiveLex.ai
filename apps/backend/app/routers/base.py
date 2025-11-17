@@ -320,7 +320,7 @@ async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
             yield content
 
 
-def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str]) -> str:
+def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str], target_language: Optional[str] = None) -> str:
     """Transcribe buffered audio bytes using OpenAI transcription API."""
     if not settings.openai_api_key:
         raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY")
@@ -340,6 +340,7 @@ def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str]) -> str:
     resp = client.audio.transcriptions.create(
         model=settings.transcription_model,
         file=buf,
+        language=target_language
     )
     text = getattr(resp, "text", None)
     if not text:
@@ -537,9 +538,10 @@ async def ws_stream(ws: WebSocket):
                 # reset buffer early to avoid growth
                 state.audio_chunks.clear()
                 utterance_id = payload.get("utterance_id") or str(uuid.uuid4())
-                
+                target_language = payload.get("target_language")
+
                 try:
-                    text = transcribe_audio_bytes(audio_bytes, state.audio_mime)
+                    text = transcribe_audio_bytes(audio_bytes, state.audio_mime, target_language=target_language)
                 except HTTPException as he:
                     await send_status(f"Transcription error: {he.detail}", code="error")
                     continue

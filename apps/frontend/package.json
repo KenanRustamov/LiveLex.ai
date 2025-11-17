@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@gooney-001/ten-vad-lib": "^1.0.2",
     "@ricky0123/vad-web": "^0.0.28",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
