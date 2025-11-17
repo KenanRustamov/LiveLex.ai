@@ -63,47 +63,65 @@ evaluate_response_prompt = ChatPromptTemplate.from_messages([
 The student's proficiency level is **{proficiency_level}** (1=No proficiency, 5=Fluent).
 
 You will be given:
-1. An image showing what the student is holding/pointing at.
-2. A transcription of what the student said.
-3. The exact **target phrase/sentence** the student was instructed to say.
-4. The core object and its target language name.
-5. The current attempt number and maximum attempts allowed.
+1. An image showing what the student is holding/pointing at
+2. A transcription of what the student said
+3. The object from the learning plan that they should be saying
+4. The correct word in the target language
+5. The attempt number (1 or 2)
 
 Your task is to determine:
 1. Does the object in the image match the expected object from the plan?
-2. Did the student say the instructed **target phrase/sentence** (or a very close variation/pronunciation)?
+2. Did the student say the correct word (or a valid synonym) with acceptable pronunciation in the target language?
 
-**Evaluation Criteria:**
-* **Object Match:** The object in the image must match the expected object.
-* **Phrase Match:** Check if the transcription is a close match to the full **"{object_target_name}"**.
-* **Lenience:** Be very lenient with pronunciation variations and grammatical errors, especially at lower proficiency levels (1-3). Accept close matches. The core vocabulary and intended meaning must be present.
+IMPORTANT EVALUATION CRITERIA:
+- Mark as CORRECT (correct=true, error_category=null) ONLY when ALL of the following are true:
+  * The object in the image matches the expected object
+  * The student said the correct word OR a valid synonym in the target language
+  * The pronunciation is very close to native pronunciation (minor accent variations are acceptable)
+- Mark as INCORRECT (correct=false) if ANY of the following apply:
+  * Wrong object in the image
+  * Wrong word (even if close)
+  * Noticeable pronunciation issues that would confuse native speakers
+- Be relatively strict with pronunciation - do not accept attempts that are significantly mispronounced
+- Accept valid synonyms in the target language as correct (e.g., "coche" or "carro" for car in Spanish)
+- Accept sentences like "this is X" or "that's X" if they contain the correct word with good pronunciation
 
-**Feedback Guidelines:**
-- If the answer is CORRECT: Use encouraging praise like "Great job!" or "Well done!"
-- If the answer is INCORRECT and attempt_number < max_attempts: 
-  * Clearly state the response wasn't correct
-  * Give gentle encouragement
-  * Explicitly tell the student to try saying the SAME word again (e.g., "That wasn't quite right. Let's try saying '{object_target_name}' again.")
-- If the answer is INCORRECT and attempt_number = max_attempts (final attempt):
-  * Give supportive closing feedback for this word
-  * Clearly mention that you will move on to the next object (e.g., "That wasn't quite right. We'll move on to the next word now, but keep practicing '{object_target_name}'!")
-"""),
+If the answer is incorrect, categorize the error:
+- "wrong_word_actual": Student said a different actual word in the target language
+- "wrong_word_nonsense": Student said something that doesn't correspond to an actual word in the target language
+- "mispronunciation": Student attempted the correct word but with pronunciation issues that would confuse native speakers
+
+Generate appropriate feedback based on the error category and attempt number:
+- For "wrong_word_actual" on first attempt: Provide translation of what was said and encourage to try again
+- For "wrong_word_nonsense" on first attempt: Give a helpful hint (starting letter, similar word example, etc.)
+- For "mispronunciation" on first attempt: Give slight correction and encourage to try again
+- For second attempts: Be encouraging but indicate this is the final attempt
+
+CRITICAL: If you set an error_category, you MUST set correct=false. These fields must be consistent."""),
     ("user", """Image: [provided as image_url]
 Expected object: {object_source_name} (core word: "{object_target_name}" in {target_language})
 **Expected Full Phrase/Sentence:** "{object_target_name}"
 Student said: "{transcription}"
-Current attempt: {attempt_number} of {max_attempts}
+Source language: {source_language}
+Attempt number: {attempt_number}
 
 Evaluate:
 1. Does the image show the expected object ({object_source_name})?
-2. Does the transcription contain the correct **target phrase/sentence** ("{object_target_name}") or a close pronunciation?
+2. Does the transcription contain the correct word "{object_target_name}" (or a valid synonym) with proper pronunciation?
+3. If incorrect, what type of error is it?
+4. Generate appropriate feedback based on the error type and attempt number.
+
+REMEMBER: 
+- If you identify ANY error (set error_category), you MUST set correct=false
+- Only set correct=true when object matches, word is correct/synonym, AND pronunciation is good
 
 Respond with a JSON object:
 {{
   "correct": true/false,
   "object_matches": true/false,
   "word_correct": true/false,
-  "feedback_message": "brief encouraging message based on their attempt, following the feedback guidelines above"
+  "error_category": "wrong_word_actual" | "wrong_word_nonsense" | "mispronunciation" | null,
+  "feedback_message": "appropriate feedback based on error category and attempt number"
 }}""")
 ])
 

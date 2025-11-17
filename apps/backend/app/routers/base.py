@@ -69,6 +69,7 @@ def session_state_to_lesson_state(
         "plan": session_state.plan,
         "current_object_index": session_state.current_object_index,
         "completed_objects": session_state.completed_objects.copy() if session_state.completed_objects else [],
+        "item_attempts": session_state.item_attempts.copy() if session_state.item_attempts else {},
         "lesson_state": "PROMPT_USER",  # Default starting state
         "target_language": target_language,
         "source_language": source_language,
@@ -76,7 +77,6 @@ def session_state_to_lesson_state(
         "actions": actions,
         "proficiency_level": proficiency_level,
         "lesson_completed": session_state.lesson_saved,
-        "attempt_counts": session_state.attempt_counts.copy() if getattr(session_state, "attempt_counts", None) else {},
         "session_id": session_state.session_id,
         "username": session_state.username,
         "image_metadata": image_metadata,
@@ -98,7 +98,7 @@ def lesson_state_to_session_state(
     session_state.current_object_index = lesson_state.get("current_object_index", -1)
     session_state.completed_objects = lesson_state.get("completed_objects", []).copy()
     # Persist attempt counts so retries are tracked across graph invocations
-    session_state.attempt_counts = lesson_state.get("attempt_counts", {}).copy()
+    session_state.item_attempts = lesson_state.get("item_attempts", {}).copy()
     # Track whether the lesson has been completed by the graph
     session_state.lesson_saved = bool(lesson_state.get("lesson_completed", session_state.lesson_saved))
     session_state.pending_transcription = lesson_state.get("pending_transcription")
@@ -331,7 +331,7 @@ async def process_audio_image_pair(
                 if session_data:
                     dialogue_entries = session_data.get("entries", [])
             
-            summary = generate_summary(state.plan, state.completed_objects, dialogue_entries)
+            summary = generate_summary(state.plan, state.completed_objects, dialogue_entries, state.item_attempts)
             
             if state.session_id:
                 save_session_data(state.session_id, {
@@ -353,8 +353,11 @@ async def process_audio_image_pair(
             })
 
 
-def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dialogue_entries: list[dict]) -> dict:
+def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dialogue_entries: list[dict], item_attempts: dict[int, int] = None) -> dict:
     """Generate lesson summary from completed objects and dialogue history."""
+    if item_attempts is None:
+        item_attempts = {}
+    
     summary_items = []
     for idx, correct in completed_objects:
         if idx < len(plan.objects):
@@ -372,6 +375,9 @@ def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dial
 
             # choose a representative "user_said" string for backwards compatibility
             user_text = attempts[-1]["text"] if attempts else ""
+            
+            # Get attempt count for this item (default to 1 if not tracked)
+            attempts = item_attempts.get(idx, 1)
             
             summary_items.append({
                 "object": {
@@ -421,16 +427,19 @@ def save_user_lesson(username: str, session_id: str, summary: dict, output_path:
         correct_word = item["object"]["target_name"]
         user_said = item.get("user_said") or ""
         correct = item.get("correct", False)
+        attempts = item.get("attempts", 1)
 
         # Initialize object if not exists
         if obj_name not in objects:
             objects[obj_name] = {
                 "correct": 0,
                 "incorrect": 0,
+                "total_attempts": 0,
                 "last_correct": None,
                 "last_user_said": None,
                 "correct_word": correct_word,
                 "last_attempted": None,
+                "last_attempts": None,
             }
 
         obj = objects[obj_name]
@@ -440,12 +449,16 @@ def save_user_lesson(username: str, session_id: str, summary: dict, output_path:
             obj["correct"] += 1
         else:
             obj["incorrect"] += 1
+        
+        # Track total attempts across all sessions
+        obj["total_attempts"] = obj.get("total_attempts", 0) + attempts
 
         # Update last attempt details
         obj["last_correct"] = correct
         obj["last_user_said"] = user_said
         obj["correct_word"] = correct_word
         obj["last_attempted"] = datetime.now(timezone.utc).isoformat()
+        obj["last_attempts"] = attempts
 
     # Append session summary
     user_data["sessions"].append({
@@ -490,8 +503,7 @@ class SessionState:
         self.plan: Optional[Plan] = None
         self.current_object_index: int = -1
         self.completed_objects: list[tuple[int, bool]] = []  # List of (index, correct) tuples
-        # Per-object attempt counts used by lesson graph (object_index -> attempts)
-        self.attempt_counts: dict[int, int] = {}
+        self.item_attempts: dict[int, int] = {}  # tracks attempts per item index
         self.dialogue_history: list[dict[str, Any]] = []
         self.lesson_saved: bool = False
         # pending audio/image pairing
@@ -718,23 +730,35 @@ async def evaluate_response(
         llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
         
         # use structured output for evaluation
-        
-        
         class EvaluationCheck(BaseModel):
             correct: bool
             object_matches: bool
             word_correct: bool
+            error_category: str | None = None
             feedback_message: str
         
         structured = llm.with_structured_output(EvaluationCheck)
         result = structured.invoke([system_msg, user_msg_final])
     
+    # If error_category is set, ensure correct is False (safeguard against inconsistent LLM responses)
+    correct_result = result.correct
+    if result.error_category is not None:
+        correct_result = False
+        if result.correct:
+            # Log inconsistency for debugging
+            logging.warning(
+                f"LLM returned inconsistent evaluation: correct=True but error_category='{result.error_category}'. "
+                f"Forcing correct=False. Transcription: '{transcription}', Expected: '{current_object.target_name}'"
+            )
+    
     return EvaluationResult(
-        correct=result.correct,
+        correct=correct_result,
         object_tested=current_object,
         correct_word=current_object.target_name,
         feedback_message=result.feedback_message,
         transcription=transcription,
+        error_category=result.error_category,
+        attempt_number=attempt_number,
     )
 
 
@@ -812,7 +836,7 @@ async def ws_stream(ws: WebSocket):
                             if session_data:
                                 dialogue_entries = session_data.get("entries", [])
 
-                        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries)
+                        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries, state.item_attempts)
 
                         if state.session_id:
                             save_session_data(state.session_id, {
