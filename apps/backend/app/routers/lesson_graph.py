@@ -302,8 +302,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     # Determine if we should mark as completed or allow retry
     completed_objects = state.get("completed_objects", [])
 
-    if eval_result.correct or current_attempt >= 2:
-        # Mark as completed if correct or if this was the second (last) attempt
+    if eval_result.correct or current_attempt >= max_attempts:
+        # Mark as completed if correct or if this was the last attempt
         # Remove any existing entry for this object so the latest result wins
         completed_objects = [
             (idx, was_correct)

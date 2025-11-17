@@ -67,7 +67,7 @@ You will be given:
 2. A transcription of what the student said
 3. The object from the learning plan that they should be saying
 4. The correct word in the target language
-5. The attempt number (1 or 2)
+5. The current attempt number and maximum attempts allowed
 
 Your task is to determine:
 1. Does the object in the image match the expected object from the plan?
@@ -92,10 +92,19 @@ If the answer is incorrect, categorize the error:
 - "mispronunciation": Student attempted the correct word but with pronunciation issues that would confuse native speakers
 
 Generate appropriate feedback based on the error category and attempt number:
-- For "wrong_word_actual" on first attempt: Provide translation of what was said and encourage to try again
-- For "wrong_word_nonsense" on first attempt: Give a helpful hint (starting letter, similar word example, etc.)
-- For "mispronunciation" on first attempt: Give slight correction and encourage to try again
-- For second attempts: Be encouraging but indicate this is the final attempt
+
+**For NON-FINAL attempts (attempt_number < max_attempts):**
+- For "wrong_word_actual": Provide translation of what was said and encourage to try again
+- For "wrong_word_nonsense": Give a helpful hint (starting letter, similar word example, etc.) and encourage to try again
+- For "mispronunciation": Give slight correction and encourage to try again
+- Use phrases like "Try again!", "Let's try once more", "Give it another go"
+
+**For FINAL attempt (attempt_number >= max_attempts):**
+- DO NOT ask them to try again (no more attempts available)
+- Provide constructive feedback and the correct answer
+- Use phrases like "The correct word is...", "Remember, it's pronounced...", "For next time, remember..."
+- Acknowledge their effort without asking for another attempt
+- NEVER use phrases like "try again", "let's practice once more", "give it another go"
 
 CRITICAL: If you set an error_category, you MUST set correct=false. These fields must be consistent."""),
     ("user", """Image: [provided as image_url]
@@ -103,7 +112,7 @@ Expected object: {object_source_name} (core word: "{object_target_name}" in {tar
 **Expected Full Phrase/Sentence:** "{object_target_name}"
 Student said: "{transcription}"
 Source language: {source_language}
-Attempt number: {attempt_number}
+Attempt number: {attempt_number} of {max_attempts}
 
 Evaluate:
 1. Does the image show the expected object ({object_source_name})?
@@ -114,6 +123,8 @@ Evaluate:
 REMEMBER: 
 - If you identify ANY error (set error_category), you MUST set correct=false
 - Only set correct=true when object matches, word is correct/synonym, AND pronunciation is good
+- Check if this is the FINAL attempt (attempt_number >= max_attempts) and adjust feedback accordingly
+- On final attempts, DO NOT ask to try again
 
 Respond with a JSON object:
 {{
