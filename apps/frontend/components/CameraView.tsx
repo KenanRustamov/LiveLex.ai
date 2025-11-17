@@ -13,6 +13,52 @@ import OverlayCard from '@/components/OverlayCard';
 
 const CAPTURE_PREVIEW_DURATION_MS = 3000;
 
+function float32ToWavBlob(audio: Float32Array, sampleRate = 16000): Blob {
+  const numSamples = audio.length;
+  const bytesPerSample = 2; // 16-bit PCM
+  const blockAlign = bytesPerSample;
+  const byteRate = sampleRate * blockAlign;
+  const dataSize = numSamples * bytesPerSample;
+  const buffer = new ArrayBuffer(44 + dataSize);
+  const view = new DataView(buffer);
+
+  // RIFF header
+  let offset = 0;
+  const writeString = (s: string) => {
+    for (let i = 0; i < s.length; i++) {
+      view.setUint8(offset++, s.charCodeAt(i));
+    }
+  };
+
+  writeString('RIFF');
+  view.setUint32(offset, 36 + dataSize, true); offset += 4;
+  writeString('WAVE');
+
+  // fmt chunk
+  writeString('fmt ');
+  view.setUint32(offset, 16, true); offset += 4;              // Subchunk1Size (16 for PCM)
+  view.setUint16(offset, 1, true); offset += 2;               // AudioFormat (1 = PCM)
+  view.setUint16(offset, 1, true); offset += 2;               // NumChannels (mono)
+  view.setUint32(offset, sampleRate, true); offset += 4;      // SampleRate
+  view.setUint32(offset, byteRate, true); offset += 4;        // ByteRate
+  view.setUint16(offset, blockAlign, true); offset += 2;      // BlockAlign
+  view.setUint16(offset, 8 * bytesPerSample, true); offset += 2; // BitsPerSample
+
+  // data chunk
+  writeString('data');
+  view.setUint32(offset, dataSize, true); offset += 4;
+
+  // PCM samples
+  for (let i = 0; i < numSamples; i++, offset += 2) {
+    let s = audio[i];
+    s = Math.max(-1, Math.min(1, s));
+    const val = s < 0 ? s * 0x8000 : s * 0x7fff;
+    view.setInt16(offset, val, true);
+  }
+
+  return new Blob([buffer], { type: 'audio/wav' });
+}
+
 export default function CameraView({ settings, username }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[], proficiencyLevel: number;}, username: string }) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -21,6 +67,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
   const capturePreviewTimerRef = useRef<number | null>(null);
   const capturePreviewUrlRef = useRef<string | null>(null);
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
+  const [isTtsPlaying, setIsTtsPlaying] = useState(false);
 
   const [running, setRunning] = useState(false);
   const [facing, setFacing] = useState<'environment' | 'user'>('environment');
@@ -62,25 +109,31 @@ export default function CameraView({ settings, username }: { settings: { sourceL
       const audio = new Audio(`data:audio/mpeg;base64,${base64Audio}`);
       currentAudioRef.current = audio;
 
+      setIsTtsPlaying(true);
+
       // Play audio
       audio.play().catch((error) => {
         console.error('Error playing audio:', error);
         currentAudioRef.current = null;
+        setIsTtsPlaying(false);
       });
 
       // Clean up when audio finishes
       audio.onended = () => {
         currentAudioRef.current = null;
+        setIsTtsPlaying(false);
       };
 
       // Clean up on error
       audio.onerror = () => {
         console.error('Audio playback error');
         currentAudioRef.current = null;
+        setIsTtsPlaying(false);
       };
     } catch (error) {
       console.error('Error creating audio from base64:', error);
       currentAudioRef.current = null;
+      setIsTtsPlaying(false);
     }
   }, []);
 
@@ -560,8 +613,9 @@ export default function CameraView({ settings, username }: { settings: { sourceL
     } catch (_) {}
   }, [audioBlob, backendUrl]);
 
-  // VAD integration: enable only while lesson is in progress (plan present and no summary yet)
-  const vadEnabled = running && planReceived && !lessonSummary;
+  // VAD integration: enable only while lesson is in progress (plan present and no summary yet),
+  // and NOT while TTS is playing to avoid the model hearing its own voice.
+  const vadEnabled = running && planReceived && !lessonSummary && !isTtsPlaying;
 
   const captureSceneDataUrl = useCallback((): string | null => {
     const canvas = canvasRef.current;
@@ -628,27 +682,29 @@ export default function CameraView({ settings, username }: { settings: { sourceL
     }
   }, [backendUrl, captureSceneDataUrl, settings.actions, settings.location, settings.sourceLanguage, settings.targetLanguage]);
 
-  const vad = useVadPredefined(
-    vadEnabled,
-    {
-      onSpeechStart: async () => {
-        try { console.log('[VAD] onSpeechStart, isRecording=', isRecording); } catch {}
-        if (!isRecording) await startRecording();
-        setSpeechReal(false);
-      },
-      onSpeechRealStart: async () => {
-        try { console.log('[VAD] onSpeechRealStart'); } catch {}
-        setSpeechReal(true);
-      },
-      onSpeechEnd: async () => {
-        try { console.log('[VAD] onSpeechEnd: stopping recording...'); } catch {}
-        const blob = await stopRecording();
-        try { console.log('[VAD] recording stopped, blob size=', blob ? blob.size : null); } catch {}
-        if (blob) await sendAudioBlobWithOptionalImage(blob);
-        setSpeechReal(false);
-      },
-    }
-  );
+  const vad = useVadPredefined(vadEnabled, {
+    onSpeechStart: () => {
+      if (isTtsPlaying) return; // extra guard
+      try { console.log('[VAD] onSpeechStart'); } catch {}
+      // We rely on MicVAD's internal preSpeechPadMs to include leading audio,
+      // so we don't need to manually start a separate MediaRecorder here.
+      setSpeechReal(false);
+    },
+    onSpeechRealStart: () => {
+      if (isTtsPlaying) return;
+      try { console.log('[VAD] onSpeechRealStart'); } catch {}
+      setSpeechReal(true);
+    },
+    onSpeechEnd: async (audio?: Float32Array) => {
+      if (isTtsPlaying) return;
+      try { console.log('[VAD] onSpeechEnd, audioLen=', audio?.length ?? null); } catch {}
+      if (audio && audio.length > 0) {
+        const blob = float32ToWavBlob(audio);
+        await sendAudioBlobWithOptionalImage(blob);
+      }
+      setSpeechReal(false);
+    },
+  });
 
   // Debounce display of Listening chip to reduce flashing
   const [showListening, setShowListening] = useState<boolean>(false);

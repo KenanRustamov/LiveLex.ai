@@ -3,7 +3,7 @@ import { MicVAD } from '@ricky0123/vad-web';
 
 export default function useVadPredefined(
   enabled: boolean,
-  handlers: { onSpeechStart?: () => void; onSpeechRealStart?: () => void; onSpeechEnd?: () => void }
+  handlers: { onSpeechStart?: () => void; onSpeechRealStart?: () => void; onSpeechEnd?: (audio?: Float32Array) => void }
 ) {
   // Keep handler refs stable to avoid recreating VAD on every render
   const handlersRef = useRef(handlers);
@@ -25,7 +25,7 @@ export default function useVadPredefined(
             if (!cancelled) handlersRef.current.onSpeechRealStart?.();
           },
           onSpeechEnd: (_audio?: Float32Array) => {
-            if (!cancelled) handlersRef.current.onSpeechEnd?.();
+            if (!cancelled) handlersRef.current.onSpeechEnd?.(_audio);
           },
           baseAssetPath: 'https://cdn.jsdelivr.net/npm/@ricky0123/vad-web/dist/',
           onnxWASMBasePath: 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.23.0/dist/',
