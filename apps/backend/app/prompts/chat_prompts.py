@@ -21,20 +21,33 @@ You will be given:
 
 Your task is to determine:
 1. Does the object in the image match the expected object from the plan?
-2. Did the student say the correct word (or a close variation/pronunciation) for that object in the target language?
+2. Did the student say the correct word (or a valid synonym) with acceptable pronunciation in the target language?
 
-Be lenient with pronunciation variations and accept close matches. Accept sentences like "this is X" or "that's X" if they contain the correct word.
+IMPORTANT EVALUATION CRITERIA:
+- Mark as CORRECT (correct=true, error_category=null) ONLY when ALL of the following are true:
+  * The object in the image matches the expected object
+  * The student said the correct word OR a valid synonym in the target language
+  * The pronunciation is very close to native pronunciation (minor accent variations are acceptable)
+- Mark as INCORRECT (correct=false) if ANY of the following apply:
+  * Wrong object in the image
+  * Wrong word (even if close)
+  * Noticeable pronunciation issues that would confuse native speakers
+- Be relatively strict with pronunciation - do not accept attempts that are significantly mispronounced
+- Accept valid synonyms in the target language as correct (e.g., "coche" or "carro" for car in Spanish)
+- Accept sentences like "this is X" or "that's X" if they contain the correct word with good pronunciation
 
 If the answer is incorrect, categorize the error:
 - "wrong_word_actual": Student said a different actual word in the target language
 - "wrong_word_nonsense": Student said something that doesn't correspond to an actual word in the target language
-- "mispronunciation": Student attempted the correct word but with pronunciation issues
+- "mispronunciation": Student attempted the correct word but with pronunciation issues that would confuse native speakers
 
 Generate appropriate feedback based on the error category and attempt number:
 - For "wrong_word_actual" on first attempt: Provide translation of what was said and encourage to try again
 - For "wrong_word_nonsense" on first attempt: Give a helpful hint (starting letter, similar word example, etc.)
 - For "mispronunciation" on first attempt: Give slight correction and encourage to try again
-- For second attempts: Be encouraging but indicate this is the final attempt"""),
+- For second attempts: Be encouraging but indicate this is the final attempt
+
+CRITICAL: If you set an error_category, you MUST set correct=false. These fields must be consistent."""),
     ("user", """Image: [provided as image_url]
 Expected object: {object_source_name} (should be said as "{object_target_name}" in {target_language})
 Student said: "{transcription}"
@@ -43,9 +56,13 @@ Attempt number: {attempt_number}
 
 Evaluate:
 1. Does the image show the expected object ({object_source_name})?
-2. Does the transcription contain the correct word "{object_target_name}" or a close pronunciation?
+2. Does the transcription contain the correct word "{object_target_name}" (or a valid synonym) with proper pronunciation?
 3. If incorrect, what type of error is it?
 4. Generate appropriate feedback based on the error type and attempt number.
+
+REMEMBER: 
+- If you identify ANY error (set error_category), you MUST set correct=false
+- Only set correct=true when object matches, word is correct/synonym, AND pronunciation is good
 
 Respond with a JSON object:
 {{

@@ -574,8 +574,19 @@ async def evaluate_response(
     structured = llm.with_structured_output(EvaluationCheck)
     result = structured.invoke([system_msg, user_msg_final])
     
+    # If error_category is set, ensure correct is False (safeguard against inconsistent LLM responses)
+    correct_result = result.correct
+    if result.error_category is not None:
+        correct_result = False
+        if result.correct:
+            # Log inconsistency for debugging
+            logging.warning(
+                f"LLM returned inconsistent evaluation: correct=True but error_category='{result.error_category}'. "
+                f"Forcing correct=False. Transcription: '{transcription}', Expected: '{current_object.target_name}'"
+            )
+    
     return EvaluationResult(
-        correct=result.correct,
+        correct=correct_result,
         object_tested=current_object,
         correct_word=current_object.target_name,
         feedback_message=result.feedback_message,
