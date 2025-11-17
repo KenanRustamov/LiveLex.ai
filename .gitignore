@@ -18,5 +18,6 @@ __pycache__/
 # Editor
 .idea/
 .vscode/
-apps/backend/data/dialogues/ea2b98fd-d203-457b-8b74-7d6204882ff8.json
-apps/backend/data/dialogues/c5e5f10c-3d7d-405b-a646-0f30fe2c0c42.json
+apps/backend/data/*
+
+package-lock.json
