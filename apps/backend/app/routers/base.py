@@ -75,6 +75,8 @@ def session_state_to_lesson_state(
         "location": location,
         "actions": actions,
         "proficiency_level": proficiency_level,
+        "lesson_completed": session_state.lesson_saved,
+        "attempt_counts": session_state.attempt_counts.copy() if getattr(session_state, "attempt_counts", None) else {},
         "session_id": session_state.session_id,
         "username": session_state.username,
         "image_metadata": image_metadata,
@@ -95,6 +97,10 @@ def lesson_state_to_session_state(
     session_state.plan = lesson_state.get("plan")
     session_state.current_object_index = lesson_state.get("current_object_index", -1)
     session_state.completed_objects = lesson_state.get("completed_objects", []).copy()
+    # Persist attempt counts so retries are tracked across graph invocations
+    session_state.attempt_counts = lesson_state.get("attempt_counts", {}).copy()
+    # Track whether the lesson has been completed by the graph
+    session_state.lesson_saved = bool(lesson_state.get("lesson_completed", session_state.lesson_saved))
     session_state.pending_transcription = lesson_state.get("pending_transcription")
     session_state.pending_image = lesson_state.get("pending_image")
     # Note: lesson_state, username, session_id are already in SessionState
@@ -155,23 +161,49 @@ def get_next_object_index(plan: Plan, completed_objects: list[tuple[int, bool]])
     return -1  # all objects tested
 
 
-async def generate_prompt_message(object: Object, target_language: str, proficiency_level: int, state: Optional[SessionState] = None) -> str:
-    """Generate a prompt message asking user to interact with an object."""
+async def generate_prompt_message(
+    object: Object, 
+    target_language: str, 
+    proficiency_level: int, 
+    attempt_number: int = 1,
+    max_attempts: int = 3,
+    state: Optional[SessionState] = None
+) -> str:
+    """Generate a prompt message asking user to interact with an object.
+    
+    Args:
+        object: The object to prompt for
+        target_language: Target language for learning
+        proficiency_level: User's proficiency level (1-5)
+        attempt_number: Current attempt number (1-based)
+        max_attempts: Maximum attempts allowed (default 3)
+        state: Optional session state for tracking
+    """
     session_id = state.session_id if state else None
     username = state.username if state else None
+    is_retry = attempt_number > 1
     
     async with track_performance(
         operation_type="prompt_generation",
         operation_name="generate_prompt_message",
         session_id=session_id,
         username=username,
-        metadata={"model": settings.llm_model, "target_language": target_language, "proficiency_level": proficiency_level}
+        metadata={
+            "model": settings.llm_model, 
+            "target_language": target_language, 
+            "proficiency_level": proficiency_level,
+            "attempt_number": attempt_number,
+            "max_attempts": max_attempts
+        }
     ):
         prompt_value = prompt_next_object.invoke({
             "source_name": object.source_name,
             "target_name": object.target_name,
             "target_language": target_language,
             "proficiency_level": proficiency_level,
+            "attempt_number": attempt_number,
+            "max_attempts": max_attempts,
+            "is_retry": is_retry,
         })
         llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
         messages = prompt_value.to_messages()
@@ -265,7 +297,14 @@ async def process_audio_image_pair(
         
         # more objects to test -> prompt next
         state.current_object_index = next_idx
-        prompt_msg = await generate_prompt_message(state.plan.objects[next_idx], image_metadata["target_language"], image_metadata["proficiency_level"], state=state)
+        prompt_msg = await generate_prompt_message(
+            state.plan.objects[next_idx], 
+            image_metadata["target_language"], 
+            image_metadata["proficiency_level"], 
+            attempt_number=1,
+            max_attempts=3,
+            state=state
+        )
         
         # generate TTS audio for prompt
         prompt_audio = None
@@ -320,14 +359,19 @@ def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dial
     for idx, correct in completed_objects:
         if idx < len(plan.objects):
             obj = plan.objects[idx]
-            # find the evaluation entry for this object
-            user_text = ""
+            # collect all attempts for this object
+            attempts: list[dict] = []
             for entry in dialogue_entries:
                 if entry.get("speaker") == "user" and entry.get("evaluation"):
                     eval_obj = entry.get("evaluation", {}).get("object_tested", {})
                     if isinstance(eval_obj, dict) and eval_obj.get("source_name") == obj.source_name:
-                        user_text = entry.get("text", "")
-                        break
+                        attempts.append({
+                            "text": entry.get("text", ""),
+                            "correct": bool(entry.get("evaluation", {}).get("correct", False)),
+                        })
+
+            # choose a representative "user_said" string for backwards compatibility
+            user_text = attempts[-1]["text"] if attempts else ""
             
             summary_items.append({
                 "object": {
@@ -338,6 +382,7 @@ def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dial
                 "correct": correct,
                 "user_said": user_text,
                 "correct_word": obj.target_name,
+                "attempts": attempts,
             })
     
     return {
@@ -445,6 +490,8 @@ class SessionState:
         self.plan: Optional[Plan] = None
         self.current_object_index: int = -1
         self.completed_objects: list[tuple[int, bool]] = []  # List of (index, correct) tuples
+        # Per-object attempt counts used by lesson graph (object_index -> attempts)
+        self.attempt_counts: dict[int, int] = {}
         self.dialogue_history: list[dict[str, Any]] = []
         self.lesson_saved: bool = False
         # pending audio/image pairing
@@ -607,9 +654,24 @@ async def evaluate_response(
     target_language: str,
     source_language: str,
     proficiency_level: int,
+    attempt_number: int = 1,
+    max_attempts: int = 3,
     state: Optional[SessionState] = None,
 ) -> EvaluationResult:
-    """Evaluate if the user's transcription matches the expected object and word."""
+    """Evaluate if the user's transcription matches the expected object and word.
+    
+    Args:
+        transcription: User's spoken response
+        image_data_url: Image showing what user is holding/pointing at
+        plan: Lesson plan
+        current_object: Object being tested
+        target_language: Target language
+        source_language: Source language
+        proficiency_level: User's proficiency level (1-5)
+        attempt_number: Current attempt number (1-based)
+        max_attempts: Maximum attempts allowed (default 3)
+        state: Optional session state for tracking
+    """
     if not settings.openai_api_key:
         raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY")
 
@@ -623,6 +685,8 @@ async def evaluate_response(
         "target_language": target_language,
         "source_language": source_language,
         "proficiency_level": proficiency_level,
+        "attempt_number": attempt_number,
+        "max_attempts": max_attempts,
     })
     system_msg = prompt_value.to_messages()[0]
     user_msg = prompt_value.to_messages()[1]
@@ -803,6 +867,12 @@ async def ws_stream(ws: WebSocket):
                 state.audio_mime = mime or state.audio_mime
 
             elif msg_type == "audio_end":
+                # If the lesson has already been completed, ignore further audio
+                if state.lesson_saved:
+                    await send_status("Lesson already complete. Please start a new lesson to continue practicing.", code="warn")
+                    # Clear any buffered audio just in case
+                    state.audio_chunks.clear()
+                    continue
                 if not state.audio_chunks:
                     await send_status("No audio buffered", code="warn")
                     continue
@@ -866,6 +936,11 @@ async def ws_stream(ws: WebSocket):
                 data_url = payload.get("data_url")
                 if not data_url:
                     await send_status("Missing data_url in image", code="error")
+                    continue
+                
+                # If the lesson has already been completed, ignore further images until reset
+                if state.lesson_saved:
+                    await send_status("Lesson already complete. Please start a new lesson before sending a new image.", code="warn")
                     continue
                 
                 utterance_id = payload.get("utterance_id")
@@ -936,7 +1011,14 @@ async def ws_stream(ws: WebSocket):
                             next_idx = get_next_object_index(plan, state.completed_objects)
                             if next_idx >= 0:
                                 state.current_object_index = next_idx
-                                prompt_msg = await generate_prompt_message(plan.objects[next_idx], target_language, proficiency_level, state=state)
+                                prompt_msg = await generate_prompt_message(
+                                    plan.objects[next_idx], 
+                                    target_language, 
+                                    proficiency_level, 
+                                    attempt_number=1,
+                                    max_attempts=3,
+                                    state=state
+                                )
                                 
                                 # generate TTS audio for prompt
                                 prompt_audio = None

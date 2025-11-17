@@ -2,6 +2,11 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { CheckCircle2, XCircle } from 'lucide-react';
 
+type SummaryAttempt = {
+  text: string;
+  correct: boolean;
+};
+
 type SummaryItem = {
   object: {
     source_name: string;
@@ -11,6 +16,7 @@ type SummaryItem = {
   correct: boolean;
   user_said: string;
   correct_word: string;
+  attempts?: SummaryAttempt[];
 };
 
 type LessonSummaryProps = {
@@ -57,10 +63,20 @@ export default function LessonSummary({ summary, onNewLesson }: LessonSummaryPro
                   </div>
                   <div className="text-sm space-y-1 ml-6">
                     <div>
-                      <span className="text-muted-foreground">You said: </span>
-                      <span className={item.correct ? 'text-green-700' : 'text-red-700'}>
-                        {item.user_said || '(no audio)'}
-                      </span>
+                      <span className="text-muted-foreground">You said:</span>
+                    </div>
+                    <div className="text-xs space-y-0.5">
+                      {(item.attempts && item.attempts.length > 0
+                        ? item.attempts
+                        : [{ text: item.user_said, correct: item.correct }]
+                      ).map((attempt, i) => (
+                        <div key={i}>
+                          <span className="text-muted-foreground">Attempt {i + 1}: </span>
+                          <span className={attempt.correct ? 'text-green-700' : 'text-red-700'}>
+                            {attempt.text || '(no audio)'}
+                          </span>
+                        </div>
+                      ))}
                     </div>
                     {!item.correct && (
                       <div>

@@ -13,6 +13,7 @@ class LessonState(TypedDict, total=False):
     plan: Plan | None
     current_object_index: int
     completed_objects: list[tuple[int, bool]]  # (index, correct)
+    attempt_counts: dict[int, int]  # number of attempts per object index
     lesson_state: Literal["PROMPT_USER", "AWAIT_RESPONSE", "EVALUATE", "FEEDBACK", "COMPLETE"]
     target_language: str
     source_language: str
@@ -67,9 +68,21 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
         else:
             proficiency_level = 1  # Default to 1 if not found
     
-    # Generate prompt message
+    # Get attempt count for this object
+    attempt_counts = state.get("attempt_counts", {}) or {}
+    current_attempt = attempt_counts.get(next_idx, 0) + 1  # This will be attempt number
+    max_attempts = 3
+    
+    # Generate prompt message with attempt context
     try:
-        prompt_msg = await generate_prompt_message(current_object, target_language, proficiency_level, state=None)
+        prompt_msg = await generate_prompt_message(
+            current_object, 
+            target_language, 
+            proficiency_level, 
+            attempt_number=current_attempt,
+            max_attempts=max_attempts,
+            state=None
+        )
         if not prompt_msg:
             logging.warning("prompt_user_node: Generated empty prompt message")
             prompt_msg = f"Please hold up or point to the {current_object.source_name} and say '{current_object.target_name}' in {target_language}."
@@ -185,7 +198,12 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     if proficiency_level is None:
         proficiency_level = state.get("proficiency_level", 1)  # Default to 1 if not found
     
-    # Evaluate response
+    # Get attempt count for this object (before incrementing)
+    attempt_counts = state.get("attempt_counts", {}) or {}
+    current_attempt = attempt_counts.get(current_object_index, 0) + 1
+    max_attempts = 3
+    
+    # Evaluate response with attempt context
     try:
         eval_result = await evaluate_response(
             transcription=transcription,
@@ -195,6 +213,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             target_language=target_language,
             source_language=source_language,
             proficiency_level=proficiency_level,
+            attempt_number=current_attempt,
+            max_attempts=max_attempts,
             state=None,
         )
     except Exception as e:
@@ -209,9 +229,23 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             transcription=transcription,
         )
     
-    # Mark object as completed
+    # Update attempt count for this object (increment after evaluation)
+    attempt_counts[current_object_index] = current_attempt
+
+    # Decide if this object should now be marked as "completed":
+    # - If the answer is correct, or
+    # - If the user has reached the max number of attempts (3)
     completed_objects = state.get("completed_objects", [])
-    completed_objects.append((current_object_index, eval_result.correct))
+    should_complete = eval_result.correct or current_attempt >= max_attempts
+
+    if should_complete:
+        # Remove any existing entry for this object so the latest result wins
+        completed_objects = [
+            (idx, was_correct)
+            for idx, was_correct in completed_objects
+            if idx != current_object_index
+        ]
+        completed_objects.append((current_object_index, eval_result.correct))
     
     # Save user entry with image and evaluation
     session_id = state.get("session_id")
@@ -279,6 +313,7 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     return {
         **state,
         "completed_objects": completed_objects,
+        "attempt_counts": attempt_counts,
         "evaluation_result": eval_result,
         "lesson_state": "FEEDBACK",
         # Clear pending data
@@ -305,6 +340,7 @@ async def feedback_node(state: LessonState, ws: WebSocket) -> LessonState:
     # Check if more objects remain
     next_idx = get_next_object_index(plan, completed_objects)
     
+    # If no next index or we've completed all objects, end the lesson
     if next_idx < 0 or len(completed_indices) >= len(plan.objects):
         # All objects tested - generate summary and complete
         session_id = state.get("session_id")
@@ -367,9 +403,16 @@ async def feedback_node(state: LessonState, ws: WebSocket) -> LessonState:
             # WebSocket send failed, but continue
             logging.error(f"feedback_node: WebSocket send failed: {e}", exc_info=True)
         
-        return {**state, "lesson_state": "COMPLETE"}
+        # Mark lesson as completed so the outer session can stop processing new attempts
+        return {**state, "lesson_state": "COMPLETE", "lesson_completed": True}
     else:
-        # Move to prompt next object
+        # If the current object is not yet in completed_objects, we are still retrying it.
+        # In that case, do NOT send a new prompt; just wait for the next response.
+        current_index = state.get("current_object_index", -1)
+        if current_index not in completed_indices:
+            # Stay on the same object and wait for another attempt
+            return {**state, "lesson_state": "AWAIT_RESPONSE"}
+        # Otherwise, we have completed the current object, so move on to prompt the next one.
         return {**state, "lesson_state": "PROMPT_USER"}
 
 
@@ -408,7 +451,7 @@ def create_lesson_graph(ws: WebSocket | None = None) -> StateGraph:
     graph.add_edge("evaluate", "feedback")
     
     # Conditional edge from feedback
-    def should_continue(state: LessonState) -> Literal["complete", "prompt_user"]:
+    def should_continue(state: LessonState) -> Literal["complete", "prompt_user", "retry"]:
         lesson_state = state.get("lesson_state", "FEEDBACK")
         if lesson_state == "COMPLETE":
             return "complete"
@@ -421,10 +464,17 @@ def create_lesson_graph(ws: WebSocket | None = None) -> StateGraph:
         completed_indices = {idx for idx, _ in completed_objects}
         if len(completed_indices) >= len(plan.objects):
             return "complete"
+        
+        current_index = state.get("current_object_index", -1)
+        # If the current object index is not yet completed, we are still retrying it.
+        if current_index not in completed_indices:
+            return "retry"
+        # Otherwise, move on to prompting the next object.
         return "prompt_user"
     
     graph.add_conditional_edges("feedback", should_continue, {
         "complete": END,
+        "retry": "await_response",
         "prompt_user": "prompt_user",
     })
     

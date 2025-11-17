@@ -19,28 +19,42 @@ Guidelines by level:
 - Level 1 (No proficiency):
   * Speak almost entirely in English.
   * Teach just single vocabulary words in {target_language}.
-  * Example task: “Point to the apple and say ‘manzana’.”
+  * Example task: "Point to the apple and say 'manzana'."
 
 - Level 2 (Beginner):
   * Mostly English, with simple {target_language} words or very short phrases.
-  * Example task: “Can you say ‘el libro’ for ‘the book’?”
+  * Example task: "Can you say 'el libro' for 'the book'?"
 
 - Level 3 (Intermediate):
   * Roughly half English, half {target_language}.
   * Start introducing short, relevant phrases and basic sentence structures.
-  * Example task: “Hold up the cup and say ‘Tengo una taza’ for I have a cup.”
+  * Example task: "Hold up the cup and say 'Tengo una taza' for I have a cup."
 
 - Level 4 (Advanced):
   * Mostly in {target_language}, with English used sparingly for clarification.
   * Encourage short responses or full sentences.
-  * Example task: “Muestra la mesa y di ‘Esta mesa es grande.’”
+  * Example task: "Muestra la mesa y di 'Esta mesa es grande.'"
 
 - Level 5 (Fluent):
   * Speak fully in {target_language}.
   * Ask the student to describe, compare, or form sentences naturally.
-  * Example task: “Describe el objeto que tienes y cómo lo usas.”"""),
-    ("user", """Please ask the student to hold up or point to the object "{source_name}" and say a task in the {target_language} ("{target_name}").
-Make your prompt short, friendly, and encouraging.""")
+  * Example task: "Describe el objeto que tienes y cómo lo usas."
+
+IMPORTANT: 
+- Do NOT use phrases like "Great job!" or "Well done!" before the student has attempted the task.
+- For first attempts (attempt_number = 1), use simple, direct instructions without implying prior success.
+- For retry attempts (attempt_number > 1), clearly indicate this is a retry of the SAME word, using phrases like "Let's try again" or "Let's practice the word '{target_name}' once more."
+- Never imply you are moving to a new word when you are still working on the same word."""),
+    ("user", """Please ask the student to hold up or point to the object "{source_name}" and say "{target_name}" in {target_language}.
+
+Context:
+- This is attempt number {attempt_number} for this object.
+- Maximum attempts allowed: {max_attempts}
+- Is this a retry? {is_retry}
+
+If this is the first attempt (attempt_number = 1), give a simple, direct instruction without praise.
+If this is a retry (attempt_number > 1), clearly indicate you are asking them to try the SAME word again.
+Make your prompt short, friendly, and encouraging, but appropriate for the attempt number.""")
 ])
 
 # prompt for evaluating user's response
@@ -53,6 +67,7 @@ You will be given:
 2. A transcription of what the student said.
 3. The exact **target phrase/sentence** the student was instructed to say.
 4. The core object and its target language name.
+5. The current attempt number and maximum attempts allowed.
 
 Your task is to determine:
 1. Does the object in the image match the expected object from the plan?
@@ -62,11 +77,22 @@ Your task is to determine:
 * **Object Match:** The object in the image must match the expected object.
 * **Phrase Match:** Check if the transcription is a close match to the full **"{object_target_name}"**.
 * **Lenience:** Be very lenient with pronunciation variations and grammatical errors, especially at lower proficiency levels (1-3). Accept close matches. The core vocabulary and intended meaning must be present.
+
+**Feedback Guidelines:**
+- If the answer is CORRECT: Use encouraging praise like "Great job!" or "Well done!"
+- If the answer is INCORRECT and attempt_number < max_attempts: 
+  * Clearly state the response wasn't correct
+  * Give gentle encouragement
+  * Explicitly tell the student to try saying the SAME word again (e.g., "That wasn't quite right. Let's try saying '{object_target_name}' again.")
+- If the answer is INCORRECT and attempt_number = max_attempts (final attempt):
+  * Give supportive closing feedback for this word
+  * Clearly mention that you will move on to the next object (e.g., "That wasn't quite right. We'll move on to the next word now, but keep practicing '{object_target_name}'!")
 """),
     ("user", """Image: [provided as image_url]
 Expected object: {object_source_name} (core word: "{object_target_name}" in {target_language})
 **Expected Full Phrase/Sentence:** "{object_target_name}"
 Student said: "{transcription}"
+Current attempt: {attempt_number} of {max_attempts}
 
 Evaluate:
 1. Does the image show the expected object ({object_source_name})?
@@ -77,7 +103,7 @@ Respond with a JSON object:
   "correct": true/false,
   "object_matches": true/false,
   "word_correct": true/false,
-  "feedback_message": "brief encouraging message based on their attempt"
+  "feedback_message": "brief encouraging message based on their attempt, following the feedback guidelines above"
 }}""")
 ])
 

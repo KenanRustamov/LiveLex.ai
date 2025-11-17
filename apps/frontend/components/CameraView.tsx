@@ -145,7 +145,9 @@ export default function CameraView({ settings, username }: { settings: { sourceL
             case 'lesson_complete': {
               const summary = msg.payload;
               if (summary) {
+                // Store summary and disable further VAD-driven attempts on the frontend
                 setLessonSummary(summary);
+                setPlanReceived(false);
               }
               break;
             }
@@ -536,8 +538,8 @@ export default function CameraView({ settings, username }: { settings: { sourceL
     } catch (_) {}
   }, [audioBlob, backendUrl]);
 
-  // VAD integration: enable after initial plan exists
-  const vadEnabled = running && planReceived;
+  // VAD integration: enable only while lesson is in progress (plan present and no summary yet)
+  const vadEnabled = running && planReceived && !lessonSummary;
 
   const captureSceneDataUrl = useCallback((): string | null => {
     const canvas = canvasRef.current;
@@ -665,6 +667,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
           summary={lessonSummary}
           onNewLesson={() => {
             setLessonSummary(null);
+            // Reset local lesson state
             setPlanObjects(null);
             setPlanMessage(null);
             setShowCapturePrompt(true);
@@ -677,6 +680,13 @@ export default function CameraView({ settings, username }: { settings: { sourceL
                 type: 'control', 
                 payload: { action: 'reset_lesson' } 
               }));
+            }
+
+            // Ensure camera + WebSocket are ready for a fresh lesson
+            if (!running) {
+              startCamera().catch(() => {
+                // ignore errors here; they will surface via existing error handling
+              });
             }
           }}
         />
