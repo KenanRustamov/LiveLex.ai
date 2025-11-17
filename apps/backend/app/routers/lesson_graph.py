@@ -18,10 +18,11 @@ class LessonState(TypedDict, total=False):
     source_language: str
     location: str
     actions: list[str]
+    proficiency_level: int  # User's proficiency level
     # Additional fields for graph operations
     session_id: str | None
     username: str | None
-    image_metadata: dict | None  # target_language, source_language, location, actions
+    image_metadata: dict | None  # target_language, source_language, location, actions, proficiency_level
     pending_transcription: tuple[str, str] | None  # (utterance_id, text)
     pending_image: tuple[str, str, dict] | None  # (utterance_id, data_url, metadata)
     evaluation_result: EvaluationResult | None
@@ -31,7 +32,7 @@ class LessonState(TypedDict, total=False):
 async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
     """Prompt user to interact with next object."""
     # TODO: Refactor circular dependencies to a utils file
-    from app.routers.base import generate_prompt_message, get_next_object_index
+    from app.routers.base import generate_prompt_message, get_next_object_index, generate_tts_audio
     from app.utils.storage import append_dialogue_entry
     
     plan = state.get("plan")
@@ -57,9 +58,18 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
     current_object = plan.objects[next_idx]
     target_language = state.get("target_language", "Spanish")
     
+    # Extract proficiency_level from state or image_metadata
+    proficiency_level = state.get("proficiency_level")
+    if proficiency_level is None:
+        image_metadata = state.get("image_metadata")
+        if image_metadata:
+            proficiency_level = image_metadata.get("proficiency_level", 1)
+        else:
+            proficiency_level = 1  # Default to 1 if not found
+    
     # Generate prompt message
     try:
-        prompt_msg = await generate_prompt_message(current_object, target_language)
+        prompt_msg = await generate_prompt_message(current_object, target_language, proficiency_level, state=None)
         if not prompt_msg:
             logging.warning("prompt_user_node: Generated empty prompt message")
             prompt_msg = f"Please hold up or point to the {current_object.source_name} and say '{current_object.target_name}' in {target_language}."
@@ -68,15 +78,27 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
         logging.error(f"prompt_user_node: Prompt generation failed: {e}", exc_info=True)
         prompt_msg = f"Please hold up or point to the {current_object.source_name} and say '{current_object.target_name}' in {target_language}."
     
+    # Generate TTS audio for prompt
+    prompt_audio = None
+    try:
+        prompt_audio = await generate_tts_audio(prompt_msg, state=None)
+    except Exception as e:
+        # TTS generation failed, but continue without audio
+        logging.warning(f"prompt_user_node: TTS generation failed: {e}")
+    
     # Send WebSocket message
     try:
         if ws and ws.client_state != WebSocketState.DISCONNECTED:
+            payload = {
+                "text": prompt_msg,
+                "object_index": next_idx
+            }
+            if prompt_audio:
+                payload["audio"] = prompt_audio
+            
             await ws.send_json({
                 "type": "prompt_next",
-                "payload": {
-                    "text": prompt_msg,
-                    "object_index": next_idx
-                }
+                "payload": payload
             })
         else:
             logging.warning("prompt_user_node: WebSocket disconnected, cannot send prompt")
@@ -112,7 +134,7 @@ def await_response_node(state: LessonState) -> LessonState:
 
 async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     """Evaluate user's response and move to feedback."""
-    from app.routers.base import evaluate_response
+    from app.routers.base import evaluate_response, generate_tts_audio
     from app.utils.storage import append_dialogue_entry
     
     plan = state.get("plan")
@@ -158,6 +180,11 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     target_language = image_metadata.get("target_language", state.get("target_language", "Spanish"))
     source_language = image_metadata.get("source_language", state.get("source_language", "English"))
     
+    # Extract proficiency_level from image_metadata or state
+    proficiency_level = image_metadata.get("proficiency_level")
+    if proficiency_level is None:
+        proficiency_level = state.get("proficiency_level", 1)  # Default to 1 if not found
+    
     # Evaluate response
     try:
         eval_result = await evaluate_response(
@@ -167,6 +194,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             current_object=current_object,
             target_language=target_language,
             source_language=source_language,
+            proficiency_level=proficiency_level,
+            state=None,
         )
     except Exception as e:
         # Evaluation failed, create a default result
@@ -203,18 +232,31 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             # Dialogue save failed, but continue
             pass
     
+    # Generate TTS audio for feedback
+    feedback_audio = None
+    if eval_result.feedback_message:
+        try:
+            feedback_audio = await generate_tts_audio(eval_result.feedback_message, state=None)
+        except Exception as e:
+            # TTS generation failed, but continue without audio
+            logging.warning(f"evaluate_node: TTS generation failed: {e}")
+    
     # Send evaluation result via WebSocket
     try:
         if ws and ws.client_state != WebSocketState.DISCONNECTED:
+            payload = {
+                "correct": eval_result.correct,
+                "feedback": eval_result.feedback_message,
+                "object_index": current_object_index,
+                "object": current_object.model_dump(),
+                "correct_word": eval_result.correct_word,
+            }
+            if feedback_audio:
+                payload["audio"] = feedback_audio
+            
             await ws.send_json({
                 "type": "evaluation_result",
-                "payload": {
-                    "correct": eval_result.correct,
-                    "feedback": eval_result.feedback_message,
-                    "object_index": current_object_index,
-                    "object": current_object.model_dump(),
-                    "correct_word": eval_result.correct_word,
-                },
+                "payload": payload,
             })
         else:
             logging.warning("evaluate_node: WebSocket disconnected, cannot send evaluation result")

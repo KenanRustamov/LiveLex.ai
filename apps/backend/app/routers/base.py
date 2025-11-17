@@ -4,6 +4,7 @@ import base64
 import io
 import json
 import os
+import warnings
 from typing import Any, AsyncGenerator, Optional
 
 from fastapi import APIRouter, HTTPException, WebSocket, WebSocketDisconnect, Query
@@ -12,6 +13,9 @@ from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
 from pydub import AudioSegment
+
+# Suppress pydub warnings about missing ffprobe (we handle this explicitly)
+warnings.filterwarnings("ignore", category=RuntimeWarning, module="pydub")
 
 from app.core.config import settings
 from app.prompts.chat_prompts import generate_plan_prompt, prompt_next_object, evaluate_response_prompt
@@ -53,11 +57,13 @@ def session_state_to_lesson_state(
         source_language = image_metadata.get("source_language", "English")
         location = image_metadata.get("location", "US")
         actions = image_metadata.get("actions", ["name", "describe", "compare"])
+        proficiency_level = image_metadata.get("proficiency_level", 1)
     else:
         target_language = "Spanish"
         source_language = "English"
         location = "US"
         actions = ["name", "describe", "compare"]
+        proficiency_level = 1
     
     lesson_state: dict = {
         "plan": session_state.plan,
@@ -68,6 +74,7 @@ def session_state_to_lesson_state(
         "source_language": source_language,
         "location": location,
         "actions": actions,
+        "proficiency_level": proficiency_level,
         "session_id": session_state.session_id,
         "username": session_state.username,
         "image_metadata": image_metadata,
@@ -539,8 +546,14 @@ async def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str], state:
         except HTTPException:
             raise
         except Exception as e:
-            # Check if error indicates corrupted/incomplete WebM
+            # Check if error is due to missing ffmpeg/ffprobe
             error_str = str(e).lower()
+            if any(keyword in error_str for keyword in ["ffprobe", "ffmpeg", "no such file or directory: 'ffprobe'", "no such file or directory: 'ffmpeg'"]):
+                raise HTTPException(
+                    status_code=500,
+                    detail="Audio conversion requires ffmpeg to be installed. Please install ffmpeg (e.g., 'brew install ffmpeg' on macOS, 'apt-get install ffmpeg' on Ubuntu) to convert WebM audio files."
+                )
+            # Check if error indicates corrupted/incomplete WebM
             if any(keyword in error_str for keyword in ["ebml", "parsing failed", "invalid data", "corrupted", "incomplete"]):
                 raise HTTPException(
                     status_code=400,

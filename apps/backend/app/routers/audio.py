@@ -4,7 +4,11 @@ from typing import Optional
 from openai import OpenAI
 import io
 import logging
+import warnings
 from pydub import AudioSegment
+
+# Suppress pydub warnings about missing ffprobe (we handle this explicitly)
+warnings.filterwarnings("ignore", category=RuntimeWarning, module="pydub")
 
 router = APIRouter(tags=["audio"])
 
@@ -54,8 +58,14 @@ async def transcribe(file: UploadFile = File(...), language: Optional[str] = Non
             except HTTPException:
                 raise
             except Exception as conv_e:
-                # Check if error indicates corrupted/incomplete WebM
+                # Check if error is due to missing ffmpeg/ffprobe
                 error_str = str(conv_e).lower()
+                if any(keyword in error_str for keyword in ["ffprobe", "ffmpeg", "no such file or directory: 'ffprobe'", "no such file or directory: 'ffmpeg'"]):
+                    raise HTTPException(
+                        status_code=500,
+                        detail="Audio conversion requires ffmpeg to be installed. Please install ffmpeg (e.g., 'brew install ffmpeg' on macOS, 'apt-get install ffmpeg' on Ubuntu) to convert WebM audio files."
+                    )
+                # Check if error indicates corrupted/incomplete WebM
                 if any(keyword in error_str for keyword in ["ebml", "parsing failed", "invalid data", "corrupted", "incomplete"]):
                     raise HTTPException(
                         status_code=400,
