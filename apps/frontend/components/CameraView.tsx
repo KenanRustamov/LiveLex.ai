@@ -67,6 +67,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
   const capturePreviewTimerRef = useRef<number | null>(null);
   const capturePreviewUrlRef = useRef<string | null>(null);
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
+  const audioCtxRef = useRef<AudioContext | null>(null);
   const [isTtsPlaying, setIsTtsPlaying] = useState(false);
 
   const [running, setRunning] = useState(false);
@@ -96,6 +97,30 @@ export default function CameraView({ settings, username }: { settings: { sourceL
   );
   const wsUrl = useMemo(() => backendUrl.replace(/^http/, 'ws'), [backendUrl]);
 
+  // iOS requires at least one user-gesture initiated audio action before
+  // programmatic playback is allowed. We "unlock" audio once when the user
+  // taps Start by playing a single silent sample via Web Audio.
+  const unlockAudio = useCallback(() => {
+    try {
+      if (audioCtxRef.current && audioCtxRef.current.state !== 'closed') {
+        // Ensure resumed if previously suspended
+        audioCtxRef.current.resume().catch(() => {});
+        return;
+      }
+      const AnyAudioCtx = (window as any).AudioContext || (window as any).webkitAudioContext;
+      if (!AnyAudioCtx) return;
+      const ctx: AudioContext = new AnyAudioCtx();
+      audioCtxRef.current = ctx;
+      const buffer = ctx.createBuffer(1, 1, 22050);
+      const source = ctx.createBufferSource();
+      source.buffer = buffer;
+      source.connect(ctx.destination);
+      source.start(0);
+    } catch (e) {
+      console.warn('Audio unlock failed', e);
+    }
+  }, []);
+
   // Function to play audio from base64 data
   const playAudioFromBase64 = useCallback((base64Audio: string) => {
     try {
@@ -105,26 +130,21 @@ export default function CameraView({ settings, username }: { settings: { sourceL
         currentAudioRef.current = null;
       }
 
-      // Create audio element from base64 data
       const audio = new Audio(`data:audio/mpeg;base64,${base64Audio}`);
       currentAudioRef.current = audio;
-
       setIsTtsPlaying(true);
 
-      // Play audio
       audio.play().catch((error) => {
         console.error('Error playing audio:', error);
         currentAudioRef.current = null;
         setIsTtsPlaying(false);
       });
 
-      // Clean up when audio finishes
       audio.onended = () => {
         currentAudioRef.current = null;
         setIsTtsPlaying(false);
       };
 
-      // Clean up on error
       audio.onerror = () => {
         console.error('Audio playback error');
         currentAudioRef.current = null;
@@ -724,7 +744,16 @@ export default function CameraView({ settings, username }: { settings: { sourceL
       <div className="flex items-center justify-between">
         <h2 className="font-medium">Camera</h2>
         {!running ? (
-          <Button onClick={startCamera} variant="outline" className="text-sm">Start</Button>
+          <Button
+            onClick={() => {
+              unlockAudio();
+              startCamera();
+            }}
+            variant="outline"
+            className="text-sm"
+          >
+            Start
+          </Button>
         ) : (
           <div className="flex items-center gap-2">
             <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
