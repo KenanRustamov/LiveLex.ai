@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { cn } from '@/lib/utils';
 import OverlayCard from '@/components/OverlayCard';
 
@@ -12,10 +13,22 @@ export default function TranscriptOverlay({
   streamingText?: string;
   className?: string;
 }) {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const container = scrollRef.current;
+    if (!container) return;
+    container.scrollTop = container.scrollHeight;
+  }, [transcripts, streamingText]);
+
   return (
     <OverlayCard className={cn('pointer-events-none flex max-w-xs flex-col gap-2 p-3', className)}>
       <h3 className="text-xs font-semibold uppercase tracking-wide text-white/70">Live Transcript</h3>
-      <div className="space-y-2 text-xs leading-snug">
+      <div
+        ref={scrollRef}
+        className="space-y-2 text-xs leading-snug max-h-56 overflow-y-auto pr-1 [&::-webkit-scrollbar]:hidden"
+        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+      >
         {transcripts.map((entry, index) => (
           <div key={index} className="flex flex-col">
             <span className="text-[10px] uppercase tracking-wide text-white/60">{entry.speaker}</span>
