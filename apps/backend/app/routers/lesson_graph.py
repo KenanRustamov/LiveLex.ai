@@ -13,6 +13,7 @@ class LessonState(TypedDict, total=False):
     plan: Plan | None
     current_object_index: int
     completed_objects: list[tuple[int, bool]]  # (index, correct)
+    item_attempts: dict[int, int]  # tracks attempts per item index
     lesson_state: Literal["PROMPT_USER", "AWAIT_RESPONSE", "EVALUATE", "FEEDBACK", "COMPLETE"]
     target_language: str
     source_language: str
@@ -111,7 +112,7 @@ def await_response_node(state: LessonState) -> LessonState:
 
 
 async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
-    """Evaluate user's response and move to feedback."""
+    """Evaluate user's response and handle retry logic."""
     from app.routers.base import evaluate_response
     from app.utils.storage import append_dialogue_entry
     
@@ -119,6 +120,7 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     pending_transcription = state.get("pending_transcription")
     pending_image = state.get("pending_image")
     current_object_index = state.get("current_object_index", -1)
+    item_attempts = state.get("item_attempts", {})
     
     if not plan:
         logging.warning("evaluate_node: No plan available")
@@ -158,6 +160,9 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     target_language = image_metadata.get("target_language", state.get("target_language", "Spanish"))
     source_language = image_metadata.get("source_language", state.get("source_language", "English"))
     
+    # Get current attempt number (default to 1 if not tracked yet)
+    current_attempt = item_attempts.get(current_object_index, 0) + 1
+    
     # Evaluate response
     try:
         eval_result = await evaluate_response(
@@ -167,6 +172,7 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             current_object=current_object,
             target_language=target_language,
             source_language=source_language,
+            attempt_number=current_attempt,
         )
     except Exception as e:
         # Evaluation failed, create a default result
@@ -178,11 +184,11 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             correct_word=current_object.target_name,
             feedback_message=f"Sorry, I had trouble evaluating your response. Please try again.",
             transcription=transcription,
+            attempt_number=current_attempt,
         )
     
-    # Mark object as completed
-    completed_objects = state.get("completed_objects", [])
-    completed_objects.append((current_object_index, eval_result.correct))
+    # Update attempt count
+    item_attempts[current_object_index] = current_attempt
     
     # Save user entry with image and evaluation
     session_id = state.get("session_id")
@@ -197,6 +203,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
                     "correct": eval_result.correct,
                     "object_tested": eval_result.object_tested.model_dump(),
                     "correct_word": eval_result.correct_word,
+                    "error_category": eval_result.error_category,
+                    "attempt_number": eval_result.attempt_number,
                 },
             })
         except Exception:
@@ -214,6 +222,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
                     "object_index": current_object_index,
                     "object": current_object.model_dump(),
                     "correct_word": eval_result.correct_word,
+                    "attempt_number": eval_result.attempt_number,
+                    "error_category": eval_result.error_category,
                 },
             })
         else:
@@ -233,16 +243,36 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             # Dialogue save failed, but continue
             pass
     
-    # Update state
-    return {
-        **state,
-        "completed_objects": completed_objects,
-        "evaluation_result": eval_result,
-        "lesson_state": "FEEDBACK",
-        # Clear pending data
-        "pending_transcription": None,
-        "pending_image": None,
-    }
+    # Determine if we should mark as completed or allow retry
+    completed_objects = state.get("completed_objects", [])
+    
+    if eval_result.correct or current_attempt >= 2:
+        # Mark as completed if correct or if this was the second (last) attempt
+        completed_objects.append((current_object_index, eval_result.correct))
+        
+        # Update state and move to feedback
+        return {
+            **state,
+            "completed_objects": completed_objects,
+            "item_attempts": item_attempts,
+            "evaluation_result": eval_result,
+            "lesson_state": "FEEDBACK",
+            # Clear pending data
+            "pending_transcription": None,
+            "pending_image": None,
+        }
+    else:
+        # First attempt and incorrect -> allow retry
+        # Return to AWAIT_RESPONSE state (don't mark as completed yet)
+        return {
+            **state,
+            "item_attempts": item_attempts,
+            "evaluation_result": eval_result,
+            "lesson_state": "AWAIT_RESPONSE",
+            # Clear pending data so user can try again
+            "pending_transcription": None,
+            "pending_image": None,
+        }
 
 
 async def feedback_node(state: LessonState, ws: WebSocket) -> LessonState:
@@ -279,7 +309,8 @@ async def feedback_node(state: LessonState, ws: WebSocket) -> LessonState:
         
         # Generate summary
         try:
-            summary = generate_summary(plan, completed_objects, dialogue_entries)
+            item_attempts = state.get("item_attempts", {})
+            summary = generate_summary(plan, completed_objects, dialogue_entries, item_attempts)
         except Exception as e:
             # Summary generation failed, create minimal summary
             summary = {

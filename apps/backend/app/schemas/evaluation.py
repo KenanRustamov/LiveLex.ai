@@ -10,4 +10,6 @@ class EvaluationResult(BaseModel):
     correct_word: str
     feedback_message: str
     transcription: str
+    error_category: str | None = None  # "wrong_word_actual", "wrong_word_nonsense", or "mispronunciation"
+    attempt_number: int = 1
 

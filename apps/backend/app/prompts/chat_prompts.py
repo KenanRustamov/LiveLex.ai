@@ -17,26 +17,43 @@ You will be given:
 2. A transcription of what the student said
 3. The object from the learning plan that they should be saying
 4. The correct word in the target language
+5. The attempt number (1 or 2)
 
 Your task is to determine:
 1. Does the object in the image match the expected object from the plan?
 2. Did the student say the correct word (or a close variation/pronunciation) for that object in the target language?
 
-Be lenient with pronunciation variations and accept close matches. Accept sentences like "this is X" or "that's X" if they contain the correct word."""),
+Be lenient with pronunciation variations and accept close matches. Accept sentences like "this is X" or "that's X" if they contain the correct word.
+
+If the answer is incorrect, categorize the error:
+- "wrong_word_actual": Student said a different actual word in the target language
+- "wrong_word_nonsense": Student said something that doesn't correspond to an actual word in the target language
+- "mispronunciation": Student attempted the correct word but with pronunciation issues
+
+Generate appropriate feedback based on the error category and attempt number:
+- For "wrong_word_actual" on first attempt: Provide translation of what was said and encourage to try again
+- For "wrong_word_nonsense" on first attempt: Give a helpful hint (starting letter, similar word example, etc.)
+- For "mispronunciation" on first attempt: Give slight correction and encourage to try again
+- For second attempts: Be encouraging but indicate this is the final attempt"""),
     ("user", """Image: [provided as image_url]
 Expected object: {object_source_name} (should be said as "{object_target_name}" in {target_language})
 Student said: "{transcription}"
+Source language: {source_language}
+Attempt number: {attempt_number}
 
 Evaluate:
 1. Does the image show the expected object ({object_source_name})?
 2. Does the transcription contain the correct word "{object_target_name}" or a close pronunciation?
+3. If incorrect, what type of error is it?
+4. Generate appropriate feedback based on the error type and attempt number.
 
 Respond with a JSON object:
 {{
   "correct": true/false,
   "object_matches": true/false,
   "word_correct": true/false,
-  "feedback_message": "brief encouraging message"
+  "error_category": "wrong_word_actual" | "wrong_word_nonsense" | "mispronunciation" | null,
+  "feedback_message": "appropriate feedback based on error category and attempt number"
 }}""")
 ])
 

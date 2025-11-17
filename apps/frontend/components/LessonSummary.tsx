@@ -11,6 +11,7 @@ type SummaryItem = {
   correct: boolean;
   user_said: string;
   correct_word: string;
+  attempts: number;
 };
 
 type LessonSummaryProps = {
@@ -54,6 +55,9 @@ export default function LessonSummary({ summary, onNewLesson }: LessonSummaryPro
                       {item.object.source_name} → {item.object.target_name}
                     </span>
                     <span className="text-xs text-muted-foreground">[{item.object.action}]</span>
+                    <span className="text-xs text-muted-foreground ml-auto">
+                      {item.attempts === 1 ? '1 attempt' : `${item.attempts} attempts`}
+                    </span>
                   </div>
                   <div className="text-sm space-y-1 ml-6">
                     <div>

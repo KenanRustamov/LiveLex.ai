@@ -61,6 +61,7 @@ def session_state_to_lesson_state(
         "plan": session_state.plan,
         "current_object_index": session_state.current_object_index,
         "completed_objects": session_state.completed_objects.copy() if session_state.completed_objects else [],
+        "item_attempts": session_state.item_attempts.copy() if session_state.item_attempts else {},
         "lesson_state": "PROMPT_USER",  # Default starting state
         "target_language": target_language,
         "source_language": source_language,
@@ -86,6 +87,7 @@ def lesson_state_to_session_state(
     session_state.plan = lesson_state.get("plan")
     session_state.current_object_index = lesson_state.get("current_object_index", -1)
     session_state.completed_objects = lesson_state.get("completed_objects", []).copy()
+    session_state.item_attempts = lesson_state.get("item_attempts", {}).copy()
     session_state.pending_transcription = lesson_state.get("pending_transcription")
     session_state.pending_image = lesson_state.get("pending_image")
     # Note: lesson_state, username, session_id are already in SessionState
@@ -251,7 +253,7 @@ async def process_audio_image_pair(
                 if session_data:
                     dialogue_entries = session_data.get("entries", [])
             
-            summary = generate_summary(state.plan, state.completed_objects, dialogue_entries)
+            summary = generate_summary(state.plan, state.completed_objects, dialogue_entries, state.item_attempts)
             
             if state.session_id:
                 save_session_data(state.session_id, {
@@ -273,8 +275,11 @@ async def process_audio_image_pair(
             })
 
 
-def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dialogue_entries: list[dict]) -> dict:
+def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dialogue_entries: list[dict], item_attempts: dict[int, int] = None) -> dict:
     """Generate lesson summary from completed objects and dialogue history."""
+    if item_attempts is None:
+        item_attempts = {}
+    
     summary_items = []
     for idx, correct in completed_objects:
         if idx < len(plan.objects):
@@ -288,6 +293,9 @@ def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dial
                         user_text = entry.get("text", "")
                         break
             
+            # Get attempt count for this item (default to 1 if not tracked)
+            attempts = item_attempts.get(idx, 1)
+            
             summary_items.append({
                 "object": {
                     "source_name": obj.source_name,
@@ -297,6 +305,7 @@ def generate_summary(plan: Plan, completed_objects: list[tuple[int, bool]], dial
                 "correct": correct,
                 "user_said": user_text,
                 "correct_word": obj.target_name,
+                "attempts": attempts,
             })
     
     return {
@@ -335,16 +344,19 @@ def save_user_lesson(username: str, session_id: str, summary: dict, output_path:
         correct_word = item["object"]["target_name"]
         user_said = item.get("user_said") or ""
         correct = item.get("correct", False)
+        attempts = item.get("attempts", 1)
 
         # Initialize object if not exists
         if obj_name not in objects:
             objects[obj_name] = {
                 "correct": 0,
                 "incorrect": 0,
+                "total_attempts": 0,
                 "last_correct": None,
                 "last_user_said": None,
                 "correct_word": correct_word,
                 "last_attempted": None,
+                "last_attempts": None,
             }
 
         obj = objects[obj_name]
@@ -354,12 +366,16 @@ def save_user_lesson(username: str, session_id: str, summary: dict, output_path:
             obj["correct"] += 1
         else:
             obj["incorrect"] += 1
+        
+        # Track total attempts across all sessions
+        obj["total_attempts"] = obj.get("total_attempts", 0) + attempts
 
         # Update last attempt details
         obj["last_correct"] = correct
         obj["last_user_said"] = user_said
         obj["correct_word"] = correct_word
         obj["last_attempted"] = datetime.now(timezone.utc).isoformat()
+        obj["last_attempts"] = attempts
 
     # Append session summary
     user_data["sessions"].append({
@@ -404,6 +420,7 @@ class SessionState:
         self.plan: Optional[Plan] = None
         self.current_object_index: int = -1
         self.completed_objects: list[tuple[int, bool]] = []  # List of (index, correct) tuples
+        self.item_attempts: dict[int, int] = {}  # tracks attempts per item index
         self.dialogue_history: list[dict[str, Any]] = []
         self.lesson_saved: bool = False
         # pending audio/image pairing
@@ -508,6 +525,7 @@ async def evaluate_response(
     current_object: Object,
     target_language: str,
     source_language: str,
+    attempt_number: int = 1,
 ) -> EvaluationResult:
     """Evaluate if the user's transcription matches the expected object and word."""
     if not settings.openai_api_key:
@@ -519,6 +537,7 @@ async def evaluate_response(
         "transcription": transcription,
         "target_language": target_language,
         "source_language": source_language,
+        "attempt_number": attempt_number,
     })
     system_msg = prompt_value.to_messages()[0]
     user_msg = prompt_value.to_messages()[1]
@@ -549,6 +568,7 @@ async def evaluate_response(
         correct: bool
         object_matches: bool
         word_correct: bool
+        error_category: str | None = None
         feedback_message: str
     
     structured = llm.with_structured_output(EvaluationCheck)
@@ -560,6 +580,8 @@ async def evaluate_response(
         correct_word=current_object.target_name,
         feedback_message=result.feedback_message,
         transcription=transcription,
+        error_category=result.error_category,
+        attempt_number=attempt_number,
     )
 
 
@@ -627,7 +649,7 @@ async def ws_stream(ws: WebSocket):
                             if session_data:
                                 dialogue_entries = session_data.get("entries", [])
 
-                        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries)
+                        summary = generate_summary(state.plan, state.completed_objects, dialogue_entries, state.item_attempts)
 
                         if state.session_id:
                             save_session_data(state.session_id, {
