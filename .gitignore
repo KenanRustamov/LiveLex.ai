@@ -19,5 +19,3 @@ __pycache__/
 .idea/
 .vscode/
 apps/backend/data/*
-
-package-lock.json
