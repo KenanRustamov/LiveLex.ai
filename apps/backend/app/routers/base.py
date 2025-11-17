@@ -11,6 +11,7 @@ from starlette.websockets import WebSocketState
 from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
+from pydub import AudioSegment
 
 from app.core.config import settings
 from app.prompts.chat_prompts import generate_plan_prompt, prompt_next_object, evaluate_response_prompt
@@ -29,11 +30,113 @@ from datetime import datetime, timezone
 
 from pydantic import BaseModel
 
+import logging
+
 
 router = APIRouter(tags=["base"])
 
-# create lesson graph instance
-lesson_graph = create_lesson_graph()
+# Lesson graph will be created per-request with WebSocket binding
+# See invoke_lesson_graph helper function
+
+
+def session_state_to_lesson_state(
+    session_state: SessionState,
+    ws: WebSocket,
+    image_metadata: dict | None = None
+) -> dict:
+    """Convert SessionState to LessonState for graph invocation."""
+    from app.routers.lesson_graph import LessonState
+    
+    # Extract image metadata if provided, otherwise use defaults
+    if image_metadata:
+        target_language = image_metadata.get("target_language", "Spanish")
+        source_language = image_metadata.get("source_language", "English")
+        location = image_metadata.get("location", "US")
+        actions = image_metadata.get("actions", ["name", "describe", "compare"])
+    else:
+        target_language = "Spanish"
+        source_language = "English"
+        location = "US"
+        actions = ["name", "describe", "compare"]
+    
+    lesson_state: dict = {
+        "plan": session_state.plan,
+        "current_object_index": session_state.current_object_index,
+        "completed_objects": session_state.completed_objects.copy() if session_state.completed_objects else [],
+        "lesson_state": "PROMPT_USER",  # Default starting state
+        "target_language": target_language,
+        "source_language": source_language,
+        "location": location,
+        "actions": actions,
+        "session_id": session_state.session_id,
+        "username": session_state.username,
+        "image_metadata": image_metadata,
+        "pending_transcription": session_state.pending_transcription,
+        "pending_image": session_state.pending_image,
+        "evaluation_result": None,
+        "prompt_message": None,
+    }
+    
+    return lesson_state
+
+
+def lesson_state_to_session_state(
+    lesson_state: dict,
+    session_state: SessionState
+) -> SessionState:
+    """Update SessionState with values from LessonState after graph execution."""
+    session_state.plan = lesson_state.get("plan")
+    session_state.current_object_index = lesson_state.get("current_object_index", -1)
+    session_state.completed_objects = lesson_state.get("completed_objects", []).copy()
+    session_state.pending_transcription = lesson_state.get("pending_transcription")
+    session_state.pending_image = lesson_state.get("pending_image")
+    # Note: lesson_state, username, session_id are already in SessionState
+    return session_state
+
+
+async def invoke_lesson_graph(
+    state: dict,
+    ws: WebSocket,
+    entry_node: str | None = None
+) -> dict:
+    """Invoke the lesson graph with current state and WebSocket context.
+    
+    Args:
+        state: LessonState dictionary
+        ws: WebSocket connection for sending messages
+        entry_node: Optional node to start from (defaults to graph entry point)
+        - "prompt_user": Start from prompt_user node (default entry point)
+        - "evaluate": Manually execute evaluate -> feedback -> (prompt_user or complete)
+    
+    Returns:
+        Updated LessonState dictionary
+    """
+    from app.routers.lesson_graph import create_lesson_graph, evaluate_node, feedback_node, prompt_user_node
+    
+    try:
+        if entry_node == "evaluate":
+            # For evaluate, manually execute the nodes
+            # (LangGraph doesn't support starting from arbitrary nodes)
+            # Execute: evaluate -> feedback -> (prompt_user if more objects, else done)
+            
+            state = await evaluate_node(state, ws)
+            
+            state = await feedback_node(state, ws)
+            
+            # If feedback node set lesson_state to PROMPT_USER, execute prompt_user
+            if state.get("lesson_state") == "PROMPT_USER":
+                state = await prompt_user_node(state, ws)
+            
+            return state
+        else:
+            # Default: use graph starting from entry point (prompt_user)
+            graph = create_lesson_graph(ws=ws)
+            result = await graph.ainvoke(state)
+            return result
+    except Exception as e:
+        # Log error and return state as-is w/ error indicator
+        logging.error(f"Graph invocation error: {e}", exc_info=True)
+        return {**state, "lesson_state": "FEEDBACK", "_error": str(e)}
 
 
 def get_next_object_index(plan: Plan, completed_objects: list[tuple[int, bool]]) -> int:
@@ -77,7 +180,10 @@ async def process_audio_image_pair(
     utterance_id: str,
     image_metadata: dict,
 ) -> None:
-    """Process paired audio transcription and image for evaluation."""
+    """
+    Process paired audio transcription and image for evaluation.
+    No longer used - logic integrated into LangGraph nodes (TODO: remove later)
+    """
     if not state.plan or state.current_object_index < 0:
         await ws.send_json({"type": "status", "payload": {"code": "error", "message": "No active lesson"}})
         return
@@ -407,6 +513,43 @@ async def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str], state:
         if candidate:
             ext = candidate
 
+    original_audio_bytes = audio_bytes
+    converted = False
+    is_webm = ext.lower() == "webm" or (mime and "webm" in mime.lower())
+
+    # Convert WebM to WAV (Firefox records in WebM, incompatible w/ OpenAI API)
+    if is_webm:
+        try:
+            # Validate WebM file is not empty
+            if len(audio_bytes) < 100:  # WebM files should be at least a few hundred bytes
+                raise HTTPException(
+                    status_code=400, 
+                    detail="Audio file appears to be empty or incomplete. Please ensure the recording was properly stopped."
+                )
+            
+            # Load WebM audio and convert to WAV
+            audio = AudioSegment.from_file(io.BytesIO(original_audio_bytes), format="webm")
+            # Export to WAV format in memory
+            wav_buffer = io.BytesIO()
+            audio.export(wav_buffer, format="wav")
+            wav_buffer.seek(0)
+            audio_bytes = wav_buffer.read()
+            ext = "wav"
+            converted = True
+        except HTTPException:
+            raise
+        except Exception as e:
+            # Check if error indicates corrupted/incomplete WebM
+            error_str = str(e).lower()
+            if any(keyword in error_str for keyword in ["ebml", "parsing failed", "invalid data", "corrupted", "incomplete"]):
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Audio file appears to be corrupted or incomplete. This can happen if the recording wasn't properly finalized. Error: {str(e)[:200]}"
+                )
+            # For other conversion errors, log and try original format (will likely fail)
+            logging.warning(f"Failed to convert WebM to WAV: {e}. Attempting with original format (may fail).")
+            
+
     buf = io.BytesIO(audio_bytes)
     buf.name = f"audio.{ext}"
 
@@ -418,16 +561,29 @@ async def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str], state:
         metadata={"audio_size_bytes": len(audio_bytes), "mime_type": mime, "model": settings.transcription_model}
     ):
         client = OpenAI(api_key=settings.openai_api_key)
-        # Run synchronous OpenAI call in thread to avoid blocking
-        resp = await asyncio.to_thread(
-            client.audio.transcriptions.create,
-            model=settings.transcription_model,
-            file=buf,
-        )
-        text = getattr(resp, "text", None)
-        if not text:
-            raise HTTPException(status_code=502, detail="Transcription failed")
-        return text
+        try:
+            # Run synchronous OpenAI call in thread to avoid blocking
+            resp = await asyncio.to_thread(
+                client.audio.transcriptions.create,
+                model=settings.transcription_model,
+                file=buf,
+            )
+            text = getattr(resp, "text", None)
+            if not text:
+                raise HTTPException(status_code=502, detail="Transcription failed")
+            return text
+        except Exception as e:
+            # If we tried original WebM and it failed
+            if is_webm and not converted:
+                raise HTTPException(
+                    status_code=400,
+                    detail=f"Failed to process WebM audio file. The file may be corrupted or incomplete. Please try recording again. Original error: {str(e)[:200]}"
+                )
+            # Re-raise other errors
+            if isinstance(e, HTTPException):
+                raise
+            logging.error(f"Transcription error: {e}")
+            raise HTTPException(status_code=500, detail=f"Transcription error: {e}")
 
 
 async def evaluate_response(
@@ -654,11 +810,29 @@ async def ws_stream(ws: WebSocket):
                 
                 # check if we have both transcription and image for this utterance_id
                 if state.pending_image and state.pending_image[0] == utterance_id:
-                    # process together
+                    # process together using graph
                     image_data_url, image_metadata = state.pending_image[1], state.pending_image[2]
-                    await process_audio_image_pair(ws, state, text, image_data_url, utterance_id, image_metadata)
-                    state.pending_transcription = None
-                    state.pending_image = None
+                    
+                    # Convert SessionState to LessonState and invoke graph at evaluate node
+                    lesson_state = session_state_to_lesson_state(state, ws, image_metadata)
+                    lesson_state["pending_transcription"] = (utterance_id, text)
+                    lesson_state["pending_image"] = state.pending_image
+                    lesson_state["lesson_state"] = "EVALUATE"
+                    
+                    # Invoke graph starting at evaluate node
+                    updated_lesson_state = await invoke_lesson_graph(lesson_state, ws, entry_node="evaluate")
+                    
+                    # Check for errors in the returned state
+                    if "_error" in updated_lesson_state:
+                        # Error already logged in invoke_lesson_graph
+                        await send_status(f"Graph error: {updated_lesson_state['_error']}", code="error")
+                        # State is already updated to FEEDBACK, continue with current state
+                    else:
+                        # Update SessionState from graph result
+                        lesson_state_to_session_state(updated_lesson_state, state)
+                        # Clear pending data (should be cleared by graph, but keep redundancy)
+                        state.pending_transcription = None
+                        state.pending_image = None
 
             elif msg_type == "text":
                 text = payload.get("text")
@@ -725,29 +899,48 @@ async def ws_stream(ws: WebSocket):
                         
                         await ws.send_json({"type": "plan", "payload": plan.model_dump()})
                         
-                        # move to prompt user for first object
-                        next_idx = get_next_object_index(plan, state.completed_objects)
-                        if next_idx >= 0:
-                            state.current_object_index = next_idx
-                            prompt_msg = await generate_prompt_message(plan.objects[next_idx], target_language, proficiency_level, state=state)
-                            
-                            # generate TTS audio for prompt
-                            prompt_audio = None
-                            if prompt_msg:
-                                prompt_audio = await generate_tts_audio(prompt_msg, state=state)
-                            
-                            payload = {"text": prompt_msg, "object_index": next_idx}
-                            if prompt_audio:
-                                payload["audio"] = prompt_audio
-                            
-                            await ws.send_json({"type": "prompt_next", "payload": payload})
-                            
-                            # save prompt to dialogue
-                            if state.session_id:
-                                append_dialogue_entry(state.session_id, {
-                                    "speaker": "system",
-                                    "text": prompt_msg,
-                                })
+                        # Convert SessionState to LessonState and invoke graph
+                        image_metadata = {
+                            "target_language": target_language,
+                            "source_language": source_language,
+                            "location": location,
+                            "actions": actions,
+                            "proficiency_level": proficiency_level,
+                        }
+                        lesson_state = session_state_to_lesson_state(state, ws, image_metadata)
+                        lesson_state["plan"] = plan
+                        lesson_state["lesson_state"] = "PROMPT_USER"
+                        
+                        # Invoke graph starting at prompt_user node
+                        try:
+                            updated_lesson_state = await invoke_lesson_graph(lesson_state, ws, entry_node="prompt_user")
+                            # Update SessionState from graph result
+                            lesson_state_to_session_state(updated_lesson_state, state)
+                        except Exception as e:
+                            # Graph invocation failed, fallback to manual flow
+                            await send_status(f"Graph error: {str(e)}", code="error")
+                            # Fallback: manually prompt first object
+                            next_idx = get_next_object_index(plan, state.completed_objects)
+                            if next_idx >= 0:
+                                state.current_object_index = next_idx
+                                prompt_msg = await generate_prompt_message(plan.objects[next_idx], target_language, proficiency_level, state=state)
+                                
+                                # generate TTS audio for prompt
+                                prompt_audio = None
+                                if prompt_msg:
+                                    prompt_audio = await generate_tts_audio(prompt_msg, state=state)
+                                
+                                payload = {"text": prompt_msg, "object_index": next_idx}
+                                if prompt_audio:
+                                    payload["audio"] = prompt_audio
+                                
+                                await ws.send_json({"type": "prompt_next", "payload": payload})
+                                
+                                if state.session_id:
+                                    append_dialogue_entry(state.session_id, {
+                                        "speaker": "system",
+                                        "text": prompt_msg,
+                                    })
                     except HTTPException as he:
                         await send_status(f"Plan generation error: {he.detail}", code="error")
                         continue
@@ -757,12 +950,29 @@ async def ws_stream(ws: WebSocket):
                     
                     # check if we have both transcription and image for this utterance_id
                     if state.pending_transcription and state.pending_transcription[0] == utterance_id:
-                        # process together
+                        # process together using graph
                         transcription = state.pending_transcription[1]
-                        await process_audio_image_pair(ws, state, transcription, data_url, utterance_id, image_metadata)
-                        state.pending_transcription = None
-                        state.pending_image = None
-
+                        
+                        # Convert SessionState to LessonState and invoke graph at evaluate node
+                        lesson_state = session_state_to_lesson_state(state, ws, image_metadata)
+                        lesson_state["pending_transcription"] = state.pending_transcription
+                        lesson_state["pending_image"] = (utterance_id, data_url, image_metadata)
+                        lesson_state["lesson_state"] = "EVALUATE"
+                        
+                        # Invoke graph starting at evaluate node
+                        updated_lesson_state = await invoke_lesson_graph(lesson_state, ws, entry_node="evaluate")
+                        
+                        # Check for errors in the returned state
+                        if "_error" in updated_lesson_state:
+                            # Error already logged in invoke_lesson_graph
+                            await send_status(f"Graph error: {updated_lesson_state['_error']}", code="error")
+                            # State is already updated to FEEDBACK, continue with current state
+                        else:
+                            # Update SessionState from graph result
+                            lesson_state_to_session_state(updated_lesson_state, state)
+                            # Clear pending data (should be cleared by graph, but ensure it)
+                            state.pending_transcription = None
+                            state.pending_image = None
             else:
                 await send_status(f"Unknown message type: {msg_type}", code="error")
 
