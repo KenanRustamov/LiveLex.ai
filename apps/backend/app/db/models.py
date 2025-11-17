@@ -29,3 +29,18 @@ class UserDataDoc(Document):
         indexes = ["username"]
 
 
+class PerformanceMetricDoc(Document):
+    """Store performance metrics for analysis and reporting."""
+    session_id: str
+    username: Optional[str] = None
+    operation_type: str  # e.g., "transcription", "evaluation", "tts", "plan_generation"
+    operation_name: str  # e.g., "transcribe_audio_bytes", "evaluate_response"
+    duration_ms: float
+    timestamp: datetime = Field(default_factory=datetime.utcnow)
+    metadata: dict[str, Any] = Field(default_factory=dict)  # Additional context
+
+    class Settings:
+        name = "performance_metrics"
+        indexes = ["session_id", "username", "operation_type", "timestamp"]
+
+

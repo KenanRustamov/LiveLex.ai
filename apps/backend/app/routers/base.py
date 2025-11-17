@@ -1,4 +1,5 @@
 from __future__ import annotations
+import asyncio
 import base64
 import io
 import json
@@ -16,6 +17,7 @@ from app.prompts.chat_prompts import generate_plan_prompt, prompt_next_object, e
 from app.schemas.plan import Plan, Object
 from app.schemas.evaluation import EvaluationResult
 from app.utils.storage import append_dialogue_entry, save_session_data, load_session_data
+from app.utils.performance import track_performance
 from app.routers.lesson_graph import create_lesson_graph
 from app.db.repository import (
     save_user_lesson_db,
@@ -43,17 +45,27 @@ def get_next_object_index(plan: Plan, completed_objects: list[tuple[int, bool]])
     return -1  # all objects tested
 
 
-async def generate_prompt_message(object: Object, target_language: str) -> str:
+async def generate_prompt_message(object: Object, target_language: str, state: Optional[SessionState] = None) -> str:
     """Generate a prompt message asking user to interact with an object."""
-    prompt_value = prompt_next_object.invoke({
-        "source_name": object.source_name,
-        "target_name": object.target_name,
-        "target_language": target_language,
-    })
-    llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
-    messages = prompt_value.to_messages()
-    response = llm.invoke(messages)
-    return response.content if hasattr(response, 'content') else str(response)
+    session_id = state.session_id if state else None
+    username = state.username if state else None
+    
+    async with track_performance(
+        operation_type="prompt_generation",
+        operation_name="generate_prompt_message",
+        session_id=session_id,
+        username=username,
+        metadata={"model": settings.llm_model, "target_language": target_language}
+    ):
+        prompt_value = prompt_next_object.invoke({
+            "source_name": object.source_name,
+            "target_name": object.target_name,
+            "target_language": target_language,
+        })
+        llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
+        messages = prompt_value.to_messages()
+        response = llm.invoke(messages)
+        return response.content if hasattr(response, 'content') else str(response)
 
 
 async def process_audio_image_pair(
@@ -80,6 +92,7 @@ async def process_audio_image_pair(
             current_object=current_object,
             target_language=image_metadata["target_language"],
             source_language=image_metadata["source_language"],
+            state=state,
         )
     except Exception as e:
         await ws.send_json({"type": "status", "payload": {"code": "error", "message": f"Evaluation error: {e}"}})
@@ -106,7 +119,7 @@ async def process_audio_image_pair(
     # generate TTS audio for feedback
     feedback_audio = None
     if eval_result.feedback_message:
-        feedback_audio = await generate_tts_audio(eval_result.feedback_message)
+        feedback_audio = await generate_tts_audio(eval_result.feedback_message, state=state)
     
     # send evaluation result
     payload = {
@@ -137,12 +150,12 @@ async def process_audio_image_pair(
     if next_idx >= 0:
         # more objects to test -> prompt next
         state.current_object_index = next_idx
-        prompt_msg = await generate_prompt_message(state.plan.objects[next_idx], image_metadata["target_language"])
+        prompt_msg = await generate_prompt_message(state.plan.objects[next_idx], image_metadata["target_language"], state=state)
         
         # generate TTS audio for prompt
         prompt_audio = None
         if prompt_msg:
-            prompt_audio = await generate_tts_audio(prompt_msg)
+            prompt_audio = await generate_tts_audio(prompt_msg, state=state)
         
         payload = {"text": prompt_msg, "object_index": next_idx}
         if prompt_audio:
@@ -337,7 +350,7 @@ async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
             yield content
 
 
-async def generate_tts_audio(text: str, voice: str = None) -> Optional[str]:
+async def generate_tts_audio(text: str, voice: str = None, state: Optional[SessionState] = None) -> Optional[str]:
     """Generate TTS audio from text using OpenAI TTS API. Returns base64-encoded audio data."""
     if not settings.openai_api_key:
         return None
@@ -345,34 +358,45 @@ async def generate_tts_audio(text: str, voice: str = None) -> Optional[str]:
     if not text or not text.strip():
         return None
     
+    session_id = state.session_id if state else None
+    username = state.username if state else None
+    
     try:
-        client = OpenAI(api_key=settings.openai_api_key)
-        voice_to_use = voice or settings.tts_voice
-        
-        response = client.audio.speech.create(
-            model=settings.speech_synthesis_model,
-            voice=voice_to_use,
-            input=text,
-        )
-        
-        # Read audio bytes
-        audio_bytes = response.content
-        
-        # Encode to base64 for JSON transmission
-        audio_base64 = base64.b64encode(audio_bytes).decode('utf-8')
-        return audio_base64
+        async with track_performance(
+            operation_type="tts",
+            operation_name="generate_tts_audio",
+            session_id=session_id,
+            username=username,
+            metadata={"text_length": len(text), "model": settings.speech_synthesis_model}
+        ):
+            client = OpenAI(api_key=settings.openai_api_key)
+            voice_to_use = voice or settings.tts_voice
+            
+            response = client.audio.speech.create(
+                model=settings.speech_synthesis_model,
+                voice=voice_to_use,
+                input=text,
+            )
+            
+            # Read audio bytes
+            audio_bytes = response.content
+            
+            # Encode to base64 for JSON transmission
+            audio_base64 = base64.b64encode(audio_bytes).decode('utf-8')
+            return audio_base64
     except Exception as e:
         # Log error but don't fail the request if TTS fails
         print(f"TTS generation error: {e}")
         return None
 
 
-def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str]) -> str:
+async def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str], state: Optional[SessionState] = None) -> str:
     """Transcribe buffered audio bytes using OpenAI transcription API."""
     if not settings.openai_api_key:
         raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY")
 
-    client = OpenAI(api_key=settings.openai_api_key)
+    session_id = state.session_id if state else None
+    username = state.username if state else None
 
     # Heuristic: pick filename extension based on mime if provided, default to .webm
     ext = "webm"
@@ -384,14 +408,24 @@ def transcribe_audio_bytes(audio_bytes: bytes, mime: Optional[str]) -> str:
     buf = io.BytesIO(audio_bytes)
     buf.name = f"audio.{ext}"
 
-    resp = client.audio.transcriptions.create(
-        model=settings.transcription_model,
-        file=buf,
-    )
-    text = getattr(resp, "text", None)
-    if not text:
-        raise HTTPException(status_code=502, detail="Transcription failed")
-    return text
+    async with track_performance(
+        operation_type="transcription",
+        operation_name="transcribe_audio_bytes",
+        session_id=session_id,
+        username=username,
+        metadata={"audio_size_bytes": len(audio_bytes), "mime_type": mime, "model": settings.transcription_model}
+    ):
+        client = OpenAI(api_key=settings.openai_api_key)
+        # Run synchronous OpenAI call in thread to avoid blocking
+        resp = await asyncio.to_thread(
+            client.audio.transcriptions.create,
+            model=settings.transcription_model,
+            file=buf,
+        )
+        text = getattr(resp, "text", None)
+        if not text:
+            raise HTTPException(status_code=502, detail="Transcription failed")
+        return text
 
 
 async def evaluate_response(
@@ -401,10 +435,14 @@ async def evaluate_response(
     current_object: Object,
     target_language: str,
     source_language: str,
+    state: Optional[SessionState] = None,
 ) -> EvaluationResult:
     """Evaluate if the user's transcription matches the expected object and word."""
     if not settings.openai_api_key:
         raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY")
+
+    session_id = state.session_id if state else None
+    username = state.username if state else None
 
     prompt_value = evaluate_response_prompt.invoke({
         "object_source_name": current_object.source_name,
@@ -433,19 +471,26 @@ async def evaluate_response(
 
     user_msg_final = HumanMessage(content=user_msg_content)
 
-    llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
-    
-    # use structured output for evaluation
-    
-    
-    class EvaluationCheck(BaseModel):
-        correct: bool
-        object_matches: bool
-        word_correct: bool
-        feedback_message: str
-    
-    structured = llm.with_structured_output(EvaluationCheck)
-    result = structured.invoke([system_msg, user_msg_final])
+    async with track_performance(
+        operation_type="evaluation",
+        operation_name="evaluate_response",
+        session_id=session_id,
+        username=username,
+        metadata={"model": settings.llm_model, "transcription_length": len(transcription)}
+    ):
+        llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
+        
+        # use structured output for evaluation
+        
+        
+        class EvaluationCheck(BaseModel):
+            correct: bool
+            object_matches: bool
+            word_correct: bool
+            feedback_message: str
+        
+        structured = llm.with_structured_output(EvaluationCheck)
+        result = structured.invoke([system_msg, user_msg_final])
     
     return EvaluationResult(
         correct=result.correct,
@@ -456,10 +501,13 @@ async def evaluate_response(
     )
 
 
-async def generate_plan_from_data_url(image_data_url: str, target_language: str, source_language: str, location: str, actions: list[str]) -> Plan:
+async def generate_plan_from_data_url(image_data_url: str, target_language: str, source_language: str, location: str, actions: list[str], state: Optional[SessionState] = None) -> Plan:
     """Invoke the structured Plan generator using the image data URL as a multimodal input."""
     if not settings.openai_api_key:
         raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY")
+
+    session_id = state.session_id if state else None
+    username = state.username if state else None
 
     prompt_value = generate_plan_prompt.invoke({
         "target_language": target_language,
@@ -474,9 +522,16 @@ async def generate_plan_from_data_url(image_data_url: str, target_language: str,
         {"type": "image_url", "image_url": {"url": image_data_url}},
     ])
 
-    llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
-    structured = llm.with_structured_output(Plan)
-    return structured.invoke([system_msg, user_msg])
+    async with track_performance(
+        operation_type="plan_generation",
+        operation_name="generate_plan_from_data_url",
+        session_id=session_id,
+        username=username,
+        metadata={"model": settings.llm_model, "target_language": target_language, "source_language": source_language}
+    ):
+        llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
+        structured = llm.with_structured_output(Plan)
+        return structured.invoke([system_msg, user_msg])
 
 
 @router.websocket("/ws")
@@ -584,7 +639,7 @@ async def ws_stream(ws: WebSocket):
                 utterance_id = payload.get("utterance_id") or str(uuid.uuid4())
                 
                 try:
-                    text = transcribe_audio_bytes(audio_bytes, state.audio_mime)
+                    text = await transcribe_audio_bytes(audio_bytes, state.audio_mime, state=state)
                 except HTTPException as he:
                     await send_status(f"Transcription error: {he.detail}", code="error")
                     continue
@@ -644,6 +699,7 @@ async def ws_stream(ws: WebSocket):
                             source_language=source_language,
                             location=location,
                             actions=actions,
+                            state=state,
                         )
                         state.plan = plan
                         state.current_object_index = -1
@@ -667,12 +723,12 @@ async def ws_stream(ws: WebSocket):
                         next_idx = get_next_object_index(plan, state.completed_objects)
                         if next_idx >= 0:
                             state.current_object_index = next_idx
-                            prompt_msg = await generate_prompt_message(plan.objects[next_idx], target_language)
+                            prompt_msg = await generate_prompt_message(plan.objects[next_idx], target_language, state=state)
                             
                             # generate TTS audio for prompt
                             prompt_audio = None
                             if prompt_msg:
-                                prompt_audio = await generate_tts_audio(prompt_msg)
+                                prompt_audio = await generate_tts_audio(prompt_msg, state=state)
                             
                             payload = {"text": prompt_msg, "object_index": next_idx}
                             if prompt_audio:

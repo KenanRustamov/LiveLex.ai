@@ -13,6 +13,7 @@ class Settings(BaseModel):
     llm_model: str = os.getenv("LLM_MODEL", "gpt-4o-mini")
     speech_synthesis_model: str = os.getenv("SPEECH_SYNTHESIS_MODEL", "gpt-4o-mini-tts")
     tts_voice: str = os.getenv("TTS_VOICE", "alloy")
+    enable_performance_tracking: bool = os.getenv("ENABLE_PERFORMANCE_TRACKING", "false").lower() == "true"
 
     # MongoDB Atlas configuration
     mongodb_db: str = os.getenv("MONGO_DB", "livelex")
