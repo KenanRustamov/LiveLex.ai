@@ -18,10 +18,10 @@ from pydub import AudioSegment
 warnings.filterwarnings("ignore", category=RuntimeWarning, module="pydub")
 
 from app.core.config import settings
-from app.prompts.chat_prompts import generate_plan_prompt, prompt_next_object, evaluate_response_prompt, generate_hint_prompt, give_answer_with_memory_aid_prompt, detect_intent_prompt
-from app.schemas.plan import Plan, Object
+from app.prompts.chat_prompts import generate_plan_prompt, prompt_next_object, evaluate_response_prompt, generate_hint_prompt, give_answer_with_memory_aid_prompt, detect_intent_prompt, generate_scene_vocab_prompt
+from app.schemas.plan import Plan, Object, SceneVocab, SceneObject
 from app.schemas.evaluation import EvaluationResult
-from app.utils.storage import append_dialogue_entry, save_session_data, load_session_data
+from app.utils.storage import append_dialogue_entry, save_session_data, load_session_data, list_scenes, save_scene_vocab, load_scene
 from app.utils.performance import track_performance
 from app.routers.lesson_graph import create_lesson_graph
 from app.db.repository import (
@@ -1065,6 +1065,58 @@ async def generate_plan_from_data_url(image_data_url: str, target_language: str,
         return structured.invoke([system_msg, user_msg])
 
 
+async def generate_scene_vocab_from_data_url(
+    image_data_url: str,
+    target_language: str,
+    source_language: str,
+    location: str,
+) -> SceneVocab:
+    """
+    Extract vocabulary objects from an image for scene capture mode.
+    """
+    if not settings.openai_api_key:
+        raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY")
+
+    prompt_value = generate_scene_vocab_prompt.invoke({
+        "target_language": target_language,
+        "source_language": source_language,
+        "location": location,
+    })
+    system_msg = prompt_value.to_messages()[0]
+
+    user_msg = HumanMessage(content=[
+        {"type": "text", "text": "Analyze this image and extract vocabulary objects."},
+        {"type": "image_url", "image_url": {"url": image_data_url}},
+    ])
+
+    async with track_performance(
+        operation_type="scene_vocab_extraction",
+        operation_name="generate_scene_vocab_from_data_url",
+        session_id=None,
+        username=None,
+        metadata={"model": settings.llm_model, "target_language": target_language, "source_language": source_language}
+    ):
+        llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
+        structured = llm.with_structured_output(SceneVocab)
+        return structured.invoke([system_msg, user_msg])
+
+
+@router.get("/v1/scenes")
+async def get_scenes():
+    """Return a list of all saved scene names."""
+    scenes = list_scenes()
+    return {"scenes": scenes}
+
+
+@router.get("/v1/scenes/{scene_name}")
+async def get_scene(scene_name: str):
+    """Return the vocabulary objects for a specific scene."""
+    scene_data = load_scene(scene_name)
+    if not scene_data:
+        raise HTTPException(status_code=404, detail="Scene not found")
+    return scene_data
+
+
 @router.websocket("/ws")
 async def ws_stream(ws: WebSocket):
     await ws.accept()
@@ -1383,6 +1435,143 @@ async def ws_stream(ws: WebSocket):
         except Exception:
             # Safely ignore any close errors
             pass
+
+
+@router.websocket("/ws/scene-capture")
+async def ws_scene_capture(ws: WebSocket):
+    """WebSocket endpoint for scene capture mode - extracts vocab from images."""
+    await ws.accept()
+    
+    # State for scene capture session
+    captured_objects: list[dict] = []  # List of {source_name, target_name}
+    scene_name: str = "default"
+    target_language: str = "Spanish"
+    source_language: str = "English"
+    location: str = "US"
+    
+    async def send_status(message: str, code: str = "ok") -> None:
+        await ws.send_json({"type": "status", "payload": {"code": code, "message": message}})
+    
+    try:
+        await send_status("Scene capture connected")
+        
+        while True:
+            raw = await ws.receive_text()
+            try:
+                msg: dict[str, Any] = json.loads(raw)
+            except json.JSONDecodeError:
+                await send_status("Invalid JSON", code="error")
+                continue
+            
+            msg_type = msg.get("type")
+            payload = msg.get("payload", {}) or {}
+            
+            if msg_type == "config":
+                # Configure scene capture settings
+                scene_name = payload.get("scene_name", scene_name)
+                target_language = payload.get("target_language", target_language)
+                source_language = payload.get("source_language", source_language)
+                location = payload.get("location", location)
+                await send_status(f"Scene configured: {scene_name}")
+            
+            elif msg_type == "image":
+                # Extract vocab from image
+                data_url = payload.get("data_url")
+                if not data_url:
+                    await send_status("Missing data_url in image", code="error")
+                    continue
+                
+                try:
+                    vocab_result = await generate_scene_vocab_from_data_url(
+                        image_data_url=data_url,
+                        target_language=target_language,
+                        source_language=source_language,
+                        location=location,
+                    )
+                    
+                    # Track which objects are new vs duplicates
+                    new_objects = []
+                    existing_set = {
+                        (obj.get("source_name", "").lower(), obj.get("target_name", "").lower())
+                        for obj in captured_objects
+                    }
+                    
+                    for obj in vocab_result.objects:
+                        obj_dict = {"source_name": obj.source_name, "target_name": obj.target_name}
+                        key = (obj.source_name.lower(), obj.target_name.lower())
+                        if key not in existing_set:
+                            captured_objects.append(obj_dict)
+                            new_objects.append(obj_dict)
+                            existing_set.add(key)
+                    
+                    # Send extracted vocab to client
+                    await ws.send_json({
+                        "type": "vocab_extracted",
+                        "payload": {
+                            "new_objects": new_objects,
+                            "all_objects": captured_objects,
+                            "total_count": len(captured_objects),
+                        }
+                    })
+                    
+                except HTTPException as he:
+                    await send_status(f"Vocab extraction error: {he.detail}", code="error")
+                except Exception as e:
+                    await send_status(f"Vocab extraction error: {str(e)}", code="error")
+            
+            elif msg_type == "control":
+                action = payload.get("action")
+                
+                if action == "end_session":
+                    # Save captured vocab to scene
+                    scene_name = payload.get("scene_name", scene_name)
+                    
+                    if captured_objects:
+                        scene_data = save_scene_vocab(scene_name, captured_objects)
+                        await ws.send_json({
+                            "type": "session_complete",
+                            "payload": {
+                                "scene": scene_name,
+                                "objects_saved": len(captured_objects),
+                                "total_in_scene": len(scene_data.get("objects", [])),
+                            }
+                        })
+                    else:
+                        await ws.send_json({
+                            "type": "session_complete",
+                            "payload": {
+                                "scene": scene_name,
+                                "objects_saved": 0,
+                                "message": "No objects captured in this session",
+                            }
+                        })
+                    
+                    # Reset for potential new session
+                    captured_objects = []
+                    await send_status("Session ended and saved")
+                
+                elif action == "reset":
+                    # Reset without saving
+                    captured_objects = []
+                    await send_status("Session reset")
+                
+                else:
+                    await send_status(f"Unknown control action: {action}", code="error")
+            
+            else:
+                await send_status(f"Unknown message type: {msg_type}", code="error")
+    
+    except WebSocketDisconnect:
+        # Client disconnected - optionally auto-save if objects were captured
+        if captured_objects:
+            save_scene_vocab(scene_name, captured_objects)
+    finally:
+        try:
+            if getattr(ws, "client_state", None) not in (WebSocketState.DISCONNECTED, None):
+                await ws.close()
+        except Exception:
+            pass
+
 
 @router.get("/user/{username}/progress")
 async def get_user_progress_api(username: str):

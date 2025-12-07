@@ -1,19 +1,25 @@
 import json
 import os
+import re
 import base64
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 
 # base directory for storing dialogue data
 DATA_DIR = Path("data")
 DIALOGUES_DIR = DATA_DIR / "dialogues"
+SCENES_DIR = DATA_DIR / "scenes"
 
 
 def ensure_directories():
     """Ensure data directories exist."""
     DIALOGUES_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def ensure_scenes_directory():
+    SCENES_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def get_session_images_dir(session_id: str) -> Path:
@@ -123,4 +129,97 @@ def append_dialogue_entry(session_id: str, entry: Dict[str, Any]) -> None:
     session_data["entries"].append(entry)
     
     save_session_data(session_id, session_data)
+
+
+# ===== Scene Storage Functions =====
+
+def sanitize_scene_name(scene_name: str) -> str:
+    safe_name = re.sub(r'[^\w\s-]', '', scene_name.strip())
+    safe_name = re.sub(r'[\s-]+', '_', safe_name)
+    return safe_name.lower() or "default"
+
+
+def get_scene_file(scene_name: str) -> Path:
+    safe_name = sanitize_scene_name(scene_name)
+    return SCENES_DIR / f"{safe_name}.json"
+
+
+def load_scene(scene_name: str) -> Optional[Dict[str, Any]]:
+    ensure_scenes_directory()
+    scene_file = get_scene_file(scene_name)
+    if scene_file.exists():
+        try:
+            with open(scene_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return None
+    return None
+
+
+def save_scene_vocab(scene_name: str, objects: List[Dict[str, str]]) -> Dict[str, Any]:
+    """
+    Save vocabulary objects to a scene, merging with existing and ensuring uniqueness.
+    Returns the updated scene data.
+    """
+    ensure_scenes_directory()
+    
+    # Load existing scene or create new
+    existing_scene = load_scene(scene_name)
+    
+    if existing_scene:
+        existing_objects = existing_scene.get("objects", [])
+    else:
+        existing_objects = []
+    
+    # Create a set of unique vocab tuples for uniqueness check
+    existing_set = {
+        (obj.get("source_name", "").lower(), obj.get("target_name", "").lower())
+        for obj in existing_objects
+    }
+    
+    # Add only unique new objects
+    for obj in objects:
+        key = (obj.get("source_name", "").lower(), obj.get("target_name", "").lower())
+        if key not in existing_set and key[0] and key[1]:
+            existing_objects.append({
+                "source_name": obj["source_name"],
+                "target_name": obj["target_name"]
+            })
+            existing_set.add(key)
+    
+    # Prepare scene data
+    scene_data = {
+        "scene": scene_name,
+        "objects": existing_objects,
+        "updated_at": datetime.now().isoformat()
+    }
+    
+    if not existing_scene:
+        scene_data["created_at"] = datetime.now().isoformat()
+    else:
+        scene_data["created_at"] = existing_scene.get("created_at", datetime.now().isoformat())
+    
+    # Save to file
+    scene_file = get_scene_file(scene_name)
+    with open(scene_file, "w", encoding="utf-8") as f:
+        json.dump(scene_data, f, indent=2, ensure_ascii=False)
+    
+    return scene_data
+
+
+def list_scenes() -> List[str]:
+    ensure_scenes_directory()
+    scenes = []
+    
+    for file_path in SCENES_DIR.glob("*.json"):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                scene_name = data.get("scene", file_path.stem)
+                scenes.append(scene_name)
+        except Exception:
+            # If we can't read the file, skip it
+            continue
+    
+    return sorted(scenes)
 

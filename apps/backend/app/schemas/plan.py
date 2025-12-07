@@ -9,3 +9,14 @@ class Object(BaseModel):
 class Plan(BaseModel):
     scene_message: str
     objects: list[Object]
+
+
+class SceneObject(BaseModel):
+    """Vocab object for scene capture"""
+    source_name: str
+    target_name: str
+
+
+class SceneVocab(BaseModel):
+    """List of scene vocabulary extraction results."""
+    objects: list[SceneObject]

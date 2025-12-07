@@ -284,3 +284,60 @@ generate_plan_prompt = ChatPromptTemplate.from_messages([
     </quality_bar>
     """)
 ])
+
+# prompt for scene vocabulary extraction
+generate_scene_vocab_prompt = ChatPromptTemplate.from_messages([
+    ("system", """
+    <role>
+    You are an expert language tutor helping a student learn {target_language}.
+    You will be given an image of the student's surroundings to extract vocabulary objects.
+    </role>
+
+    <task>
+    Identify every clearly-visible object in the image that would be useful vocabulary for a language learner.
+    Use the student's location {location} to choose region-appropriate names (e.g., "trash can" US vs "bin" UK).
+    The goal is to capture as many useful vocabulary words as possible from the scene.
+    If no identifiable objects exist, return an empty list.
+    </task>
+
+    <eligibility_rules>
+    - Include any clearly visible, identifiable object in the scene.
+    - Objects do NOT need to be easily handled or interacted with - the student is only viewing them, not touching.
+    - Include furniture, appliances, decorations, architectural elements, tools, etc.
+    - Do not guess object identities. If uncertain, skip it.
+    - Avoid including text, labels, or brand names as objects.
+    - Do not include people or pets, but their belongings/accessories are okay (e.g., "collar", "leash", "glasses").
+    </eligibility_rules>
+
+    <naming_rules>
+    - Provide the object name in {source_language}.
+    - Provide the translation in {target_language}.
+    - Prefer common, regionally accurate terms for {location}. If multiple are common, pick the most broadly understood one.
+    - Use singular forms for object names.
+    </naming_rules>
+
+    <output_format>
+    Return ONLY a single JSON object matching this schema:
+
+    {{
+      "objects": [
+        {{
+          "source_name": "string (name in the source language)",
+          "target_name": "string (base translation in the target language)"
+        }}
+      ]
+    }}
+
+    Notes:
+    - If no identifiable objects exist, return an empty objects list.
+    - Do NOT include any explanations, markdown, lists, or prose outside the JSON.
+    - Do NOT invent or copy text not grounded in the image and inputs.
+    </output_format>
+
+    <quality_bar>
+    - Ensure region-appropriate naming for {location}.
+    - Prefer concrete, high-confidence objects over ambiguous ones.
+    - Prioritize common, useful vocabulary words over obscure items.
+    </quality_bar>
+    """)
+])

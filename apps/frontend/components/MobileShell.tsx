@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useSession } from 'next-auth/react';
 import CameraView from './CameraView';
 import AnalyticsView from './AnalyticsView';
+import SceneCaptureView from './SceneCaptureView';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Label } from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
@@ -15,7 +16,7 @@ export default function MobileShell() {
     () => process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000',
     []
   );
-  const [tab, setTab] = useState<'camera' | 'profile' | 'analytics' | 'assignments'>('camera'); // default to camera
+  const [tab, setTab] = useState<'camera' | 'scene-capture' | 'profile' | 'analytics' | 'assignments'>('camera'); // default to camera
 
   const { data: session } = useSession();
   const [username, setUsername] = useState(session?.user?.name || session?.user?.email || 'User');
@@ -132,7 +133,7 @@ export default function MobileShell() {
     } catch { }
   };
 
-  const tabBtn = (name: 'camera' | 'profile' | 'analytics' | 'assignments', label: string) => (
+  const tabBtn = (name: 'camera' | 'scene-capture' | 'profile' | 'analytics' | 'assignments', label: string) => (
     <Button
       onClick={() => setTab(name)}
       variant={tab === name ? 'default' : 'outline'}
@@ -148,6 +149,8 @@ export default function MobileShell() {
       <section className="flex-1">
         <div className="mx-auto w-full px-4 py-6 space-y-4">
           {tab === 'camera' && <CameraView key={JSON.stringify(settings)} settings={settings} username={username} />}
+
+          {tab === 'scene-capture' && <SceneCaptureView key={JSON.stringify(settings)} settings={settings} />}
 
           {tab === 'analytics' && <AnalyticsView username={username} backendUrl={backendUrl} />}
 
@@ -310,6 +313,7 @@ export default function MobileShell() {
       <nav className="sticky bottom-0 bg-white/80 backdrop-blur border-t">
         <div className="mx-auto max-w-md w-full px-6 py-3 flex items-center justify-between gap-1 overflow-x-auto">
           {tabBtn('camera', 'Camera')}
+          {tabBtn('scene-capture', 'Scenes')}
           {tabBtn('assignments', 'Tasks')}
           {tabBtn('analytics', 'Stats')}
           {tabBtn('profile', 'Profile')}
