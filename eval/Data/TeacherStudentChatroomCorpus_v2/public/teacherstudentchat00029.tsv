@@ -1,0 +1,176 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-18 13:18:48	"teacher001"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-03-18 13:19:07	"student004"	"student"	2	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:19:28	"teacher001"	"teacher"	3	"How are you today? Still stuck inside :("	"How are you today? Still stuck inside :("	NA	"2.0"	"topic opening"	NA	NA	NA	8
+2020-03-18 13:19:32	"teacher001"	"teacher"	4	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 13:20:43	"student004"	"student"	5	"yes, here I am. I go to the shop everyday to buy something, today I've bought tomatoes..."	"yes, here I am. I go to the shop every day to buy something, today I've bought tomatoes..."	NA	NA	NA	NA	NA	NA	17
+2020-03-18 13:21:16	"student004"	"student"	6	"How about you? Any changes in the UK?"	"How about you? Any changes in the UK?"	NA	"2a"	"topic development"	NA	NA	NA	8
+2020-03-18 13:21:51	"teacher001"	"teacher"	7	"Um...not really anything specific....just more of the same and the sense of vague dread that everything slowly getting more serious..."	"Um...not really anything specific....just more of the same and the sense of vague dread that everything slowly getting more serious..."	NA	NA	NA	NA	NA	NA	20
+2020-03-18 13:22:16	"teacher001"	"teacher"	8	"my other half is now working from home though"	"my other half is now working from home though"	NA	NA	NA	NA	NA	NA	9
+2020-03-18 13:22:33	"student004"	"student"	9	"good, you all should do the same soon"	"good, you all should do the same soon"	NA	NA	NA	NA	NA	NA	8
+2020-03-18 13:22:57	"student004"	"student"	10	"My other half sounds very nice. Is it common to use it?"	"My other half' sounds very nice. Is it common to use it?"	NA	"3.0"	"enquiry"	"lexical resource"	NA	NA	12
+2020-03-18 13:23:09	"teacher001"	"teacher"	11	"yes, it's pretty common"	"yes, it's pretty common"	NA	NA	NA	NA	NA	NA	4
+2020-03-18 13:23:26	"teacher001"	"teacher"	12	"a bit informal...but normal"	"a bit informal...but normal"	NA	NA	"scaffolding"	"register"	NA	NA	4
+2020-03-18 13:23:55	"teacher001"	"teacher"	13	"I guess it's a way of avoiding the whole 'wife'/'girlfriend' dilemma"	"I guess it's a way of avoiding the whole 'wife'/'girlfriend' dilemma"	NA	NA	NA	NA	NA	NA	11
+2020-03-18 13:24:01	"student004"	"student"	14	"I understand. If I translate it, in Spanish it sounds very romantic"	"I understand. If I translate it, in Spanish it sounds very romantic"	NA	"3a"	NA	"lexical resource,meaning"	NA	NA	12
+2020-03-18 13:24:53	"student004"	"student"	15	"It's funny how things sound too romantic or posh (as I told you yesterday) or rude... depending on your own language"	"It's funny how things sound too romantic or posh (as I told you yesterday) or rude... depending on your own language"	NA	NA	NA	NA	NA	NA	21
+2020-03-18 13:25:00	"teacher001"	"teacher"	16	"oh that's good! Maybe in the UK it can be associated with a long marriage (but as in a long-suffering spouse)  but only as a joke , not necessarily"	"oh that's good! Maybe in the UK it can be associated with a long marriage (but as in a long-suffering spouse)  but only as a joke , not necessarily"	14	NA	"scaffolding"	"meaning"	NA	NA	30
+2020-03-18 13:25:31	"teacher001"	"teacher"	17	"does that make sense? often as part of sarcastic BRitish humour you know?"	"does that make sense? often as part of sarcastic BRitish humour you know?"	NA	NA	NA	NA	NA	NA	13
+2020-03-18 13:25:53	"student004"	"student"	18	"haha yes, it makes sense"	"haha yes, it makes sense"	NA	NA	NA	NA	NA	NA	5
+2020-03-18 13:26:23	"teacher001"	"teacher"	19	"I found a good card for her birthday the other day - 'It's good to have found that special person I want annoy for the rest of my life.' Very British!"	"I found a good card for her birthday the other day - 'It's good to have found that special person I want annoy for the rest of my life.' Very British!"	NA	"3b"	NA	NA	NA	NA	31
+2020-03-18 13:26:41	"student004"	"student"	20	"hahahah very funny"	"hahahah very funny"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:26:42	"teacher001"	"teacher"	21	"want TO annoy"	"want TO annoy"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-03-18 13:27:02	"student004"	"student"	22	"Did she like it?"	"Did she like it?"	20	NA	NA	NA	NA	NA	4
+2020-03-18 13:27:19	"teacher001"	"teacher"	23	"Yes of course - she has a good sense of humour!"	"Yes of course - she has a good sense of humour!"	NA	NA	NA	NA	NA	NA	11
+2020-03-18 13:27:25	"student004"	"student"	24	"Nice"	"Nice"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 13:27:53	"teacher001"	"teacher"	25	"A few little things you said yesterday <STUDENT> – just checking whether these minor things are ‘errors’ or ‘slips’ i.e. if you don’t know the problem or you just forgot if you see what I mean:  Most of parents……..  2 metres distance …….  There is police…….  I go back to your question"	"A few little things you said yesterday <STUDENT> – just checking whether these minor things are ‘errors’ or ‘slips’ i.e. if you don’t know the problem or you just forgot if you see what I mean:  Most of parents……..  2 metres distance …….  There is police…….  I go back to your question"	NA	"4.0"	"exercise"	"grammatical resource,lexical resource"	"chat"	NA	56
+2020-03-18 13:28:10	"teacher001"	"teacher"	26	"choose any one you want and respond if you like/can!"	"choose any one you want and respond if you like/can!"	NA	NA	NA	NA	NA	NA	10
+2020-03-18 13:28:41	"student004"	"student"	27	"Yes, please. All of them!"	"Yes, please. All of them!"	NA	NA	NA	NA	NA	NA	5
+2020-03-18 13:29:02	"student004"	"student"	28	"Most of parents.... I think it should be 'most parents'"	"Most of parents.... I think it should be 'most parents'"	NA	"4a"	NA	"grammatical resource"	NA	NA	10
+2020-03-18 13:29:15	"teacher001"	"teacher"	29	"yes great - can you ever say: 'most of'?"	"yes great - can you ever say: 'most of'?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2020-03-18 13:29:24	"student004"	"student"	30	"most of them??"	"most of them??"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:29:25	"teacher001"	"teacher"	31	"as in most of parents"	"as in most of parents"	29	NA	NA	NA	NA	NA	5
+2020-03-18 13:29:39	"teacher001"	"teacher"	32	"yes true that's possible"	"yes true that's possible"	30	NA	NA	NA	NA	NA	4
+2020-03-18 13:29:40	"student004"	"student"	33	"not sure"	"not sure"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:29:49	"teacher001"	"teacher"	34	"but NEVER most of parents"	"but NEVER most of parents"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-03-18 13:29:55	"student004"	"student"	35	"why??"	"why??"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	1
+2020-03-18 13:30:00	"teacher001"	"teacher"	36	"EITHER most parents OR most of the parents"	"EITHER most parents OR most of the parents"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-03-18 13:30:09	"student004"	"student"	37	"ahhh I see"	"ahhh I see"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:30:20	"teacher001"	"teacher"	38	"because of is only used to precede 'the' ...OK yes you've got it"	"because of is only used to precede 'the' ...OK yes you've got it"	NA	NA	NA	NA	NA	NA	13
+2020-03-18 13:30:32	"teacher001"	"teacher"	39	"a common mistake though"	"a common mistake though"	NA	NA	NA	NA	NA	NA	4
+2020-03-18 13:30:52	"student004"	"student"	40	"Now I understand, thank you!"	"Now I understand, thank you!"	NA	NA	NA	NA	NA	NA	5
+2020-03-18 13:31:03	"teacher001"	"teacher"	41	"and remember if we (English native speakers) CAN omit the article we usually do"	"and remember if we (English native speakers) CAN omit the article we usually do"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-03-18 13:31:25	"teacher001"	"teacher"	42	"in other words 'most parents' much much more common than most of the parents"	"in other words 'most parents' much much more common than most of the parents"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-03-18 13:31:36	"student004"	"student"	43	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 13:32:15	"student004"	"student"	44	"2 metre distance"	"2-metre distance"	NA	"5.0"	"exercise"	"grammatical resource"	"chat"	NA	3
+2020-03-18 13:32:43	"teacher001"	"teacher"	45	"ok yes good...with a hypher/dash t be correct correct i.e. a 2-metre distance"	"ok yes good...with a hypher/dash t be correct correct i.e. a 2-metre distance"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-03-18 13:33:00	"teacher001"	"teacher"	46	"or obvoiusly a distance of 2 metres"	"or obvoiusly a distance of 2 metres"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-03-18 13:33:48	"student004"	"student"	47	"I see... but I always doubt about it. I tend to say 2 (plural) something"	"I see... but I always have doubts about it. I tend to say 2 (plural) something"	NA	NA	NA	NA	NA	NA	15
+2020-03-18 13:34:05	"teacher001"	"teacher"	48	"yes a common thing but...don't!"	"yes a common thing but...don't!"	NA	NA	NA	NA	NA	NA	5
+2020-03-18 13:34:24	"teacher001"	"teacher"	49	"So for example - how far from your house to the beach - how long does it take to walk there?"	"So for example - how far from your house to the beach - how long does it take to walk there?"	NA	"5a"	"exercise"	"grammatical resource"	NA	NA	21
+2020-03-18 13:35:09	"student004"	"student"	50	"It takes 50 steps away"	"It is 50 steps away"	NA	NA	NA	NA	NA	NA	5
+2020-03-18 13:35:35	"teacher001"	"teacher"	51	"Ha! OK so....it's a 30-second walk or whatever right?"	"Ha! OK so....it's a 30-second walk or whatever right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-03-18 13:35:53	"student004"	"student"	52	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:35:59	"teacher001"	"teacher"	53	"How long to fly to the UK?"	"How long to fly to the UK?"	NA	NA	NA	NA	NA	NA	7
+2020-03-18 13:36:32	"student004"	"student"	54	"it's 4-hour flight"	"it's a 4-hour flight"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:36:42	"student004"	"student"	55	"it sounds wrong"	"it sounds wrong"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:36:58	"teacher001"	"teacher"	56	"OK great - sorry bad question at the moment ...."	"OK great - sorry bad question at the moment ...."	54	NA	NA	NA	NA	NA	10
+2020-03-18 13:37:04	"teacher001"	"teacher"	57	"sounds good to me though!"	"sounds good to me though!"	55	NA	NA	NA	NA	NA	5
+2020-03-18 13:37:15	"student004"	"student"	58	"ahhh great"	"ahhh great"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:37:42	"student004"	"student"	59	"could we practise this a bit more?"	"could we practise this a bit more?"	NA	"5b"	NA	NA	NA	NA	7
+2020-03-18 13:37:49	"teacher001"	"teacher"	60	"really common structure ...maybe a tiny bit more formal but really common as i say"	"really common structure ...maybe a tiny bit more formal but really common as i say"	58	NA	"scaffolding"	"grammatical resource,register"	NA	NA	15
+2020-03-18 13:37:56	"teacher001"	"teacher"	61	"yes of course hold on..."	"yes of course hold on..."	59	NA	NA	NA	NA	NA	5
+2020-03-18 13:38:04	"student004"	"student"	62	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 13:38:52	"teacher001"	"teacher"	63	"so: a film that lasts 120 minutes.......a conflict that goes on for 6 years (e.g. WW11) ......a break at work but only five minutes!"	"so: a film that lasts 120 minutes.......a conflict that goes on for 6 years (e.g. WW11) ......a break at work but only five minutes!"	NA	NA	NA	NA	NA	NA	24
+2020-03-18 13:39:05	"teacher001"	"teacher"	64	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 13:39:28	"teacher001"	"teacher"	65	"One more sorry....I was married for 5 years and it was a disaster"	"One more sorry....I was married for 5 years and it was a disaster"	NA	NA	NA	NA	NA	NA	13
+2020-03-18 13:39:34	"student004"	"student"	66	"About your question earlier, How far from your house to the beach?. Don't we need 'is' in that sentence??"	"About your question earlier, 'How far from your house to the beach?' Don't we need 'is' in that sentence??"	NA	"6.0"	"enquiry"	"grammatical resource"	NA	NA	19
+2020-03-18 13:40:00	"teacher001"	"teacher"	67	"Yes you're right - I'm being lazy and writing in short form - sorry I guess it's the danger with this format!"	"Yes you're right - I'm being lazy and writing in short form - sorry I guess it's the danger with this format!"	NA	NA	NA	NA	NA	NA	22
+2020-03-18 13:40:09	"student004"	"student"	68	"haha I see"	"haha I see"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:40:20	"teacher001"	"teacher"	69	"BUT having said that ....it IS used in speech too sometimes"	"BUT having said that ....it IS used in speech too sometimes"	NA	NA	NA	NA	NA	NA	11
+2020-03-18 13:40:25	"teacher001"	"teacher"	70	"in a lazy way!"	"in a lazy way!"	NA	NA	NA	NA	NA	NA	4
+2020-03-18 13:40:35	"teacher001"	"teacher"	71	"IT's called ellipsis you know?"	"IT's called ellipsis you know?"	NA	NA	"scaffolding"	"grammatical resource,meta knowledge"	NA	NA	5
+2020-03-18 13:40:58	"teacher001"	"teacher"	72	"Quite common to omit auxialiary verbs i.e. 'Been any where nice recently?'"	"Quite common to omit auxialiary verbs i.e. 'Been any where nice recently?'"	NA	NA	"scaffolding"	"grammatical resource,meta knowledge"	NA	NA	12
+2020-03-18 13:41:14	"student004"	"student"	73	"I understand but I'm not sure about how to add 'is' in that question."	"I understand but I'm not sure about how to add 'is' to that question."	NA	"6a"	"enquiry"	"grammatical resource"	NA	NA	14
+2020-03-18 13:41:34	"teacher001"	"teacher"	74	"Ah you mean this one? Have you been anywhere nice?"	"Ah you mean this one? Have you been anywhere nice?"	NA	NA	NA	NA	NA	NA	10
+2020-03-18 13:41:49	"student004"	"student"	75	"no, how far from your house to the beach?"	"no, how far from your house to the beach?"	NA	NA	NA	NA	NA	NA	9
+2020-03-18 13:41:59	"teacher001"	"teacher"	76	"Or: How far is it from your house to the beach....Ah ok"	"Or: How far is it from your house to the beach....Ah ok"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-03-18 13:42:16	"student004"	"student"	77	"ahhh I need 'is it'"	"ahhh I need 'is it'"	NA	NA	NA	NA	NA	NA	5
+2020-03-18 13:42:27	"teacher001"	"teacher"	78	"yes this is common so for example: How far is it from London to Brighton?"	"yes this is common so for example: How far is it from London to Brighton?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-03-18 13:42:48	"teacher001"	"teacher"	79	"maybe sounds clumsy to you but that's what we say!"	"maybe sounds clumsy to you but that's what we say!"	NA	NA	NA	NA	NA	NA	10
+2020-03-18 13:43:14	"teacher001"	"teacher"	80	"NOT so much: What is the distance between....this is much more formal"	"NOT so much: What is the distance between....this is much more formal"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-03-18 13:43:17	"student004"	"student"	81	"No, it sounds perfect but I was trying to do it with out it..."	"No, it sounds perfect but I was trying to do it without it..."	NA	NA	NA	NA	NA	NA	14
+2020-03-18 13:43:24	"teacher001"	"teacher"	82	"Yes I see!"	"Yes I see!"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:43:45	"student004"	"student"	83	"I was thinking about that formal way you just wrote"	"I was thinking about that formal way you just wrote about"	80	NA	NA	NA	NA	NA	10
+2020-03-18 13:43:55	"teacher001"	"teacher"	84	"yes I imagined....!"	"yes I imagined....!"	81	NA	NA	NA	NA	NA	3
+2020-03-18 13:44:05	"student004"	"student"	85	"I go back to what we were doing"	"I'll go back to what we were doing"	NA	"5c"	"exercise"	"grammatical resource"	NA	NA	8
+2020-03-18 13:44:14	"teacher001"	"teacher"	86	"not wrong but a bit weird in everyday speech"	"not wrong but a bit weird in everyday speech"	NA	NA	NA	NA	NA	NA	9
+2020-03-18 13:44:25	"teacher001"	"teacher"	87	"i.e. Spanish!"	"i.e. Spanish!"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:44:31	"student004"	"student"	88	"A 120-minutes film"	"A 120-minute film"	85	NA	NA	NA	NA	NA	3
+2020-03-18 13:44:39	"teacher001"	"teacher"	89	"with 's'?"	"with 's'?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	2
+2020-03-18 13:45:08	"student004"	"student"	90	"nooo sorry"	"nooo sorry"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:45:21	"student004"	"student"	91	"a 120-minute film"	"a 120-minute film"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:45:29	"teacher001"	"teacher"	92	"that's OK! so: a two-hour film = good"	"that's OK! so: a two-hour film = good"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-03-18 13:45:38	"teacher001"	"teacher"	93	"or 120-minute!"	"or 120-minute!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	2
+2020-03-18 13:45:58	"student004"	"student"	94	"a six-year conflict"	"a six-year conflict"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:46:02	"teacher001"	"teacher"	95	"yes good"	"yes good"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:46:45	"student004"	"student"	96	"it looks so wired to write and use dash..."	"it looks so weird to write and use dash..."	NA	NA	NA	NA	NA	NA	9
+2020-03-18 13:47:06	"teacher001"	"teacher"	97	"it's never too late....!"	"it's never too late....!"	NA	NA	NA	NA	NA	NA	4
+2020-03-18 13:47:31	"student004"	"student"	98	"a five-minute break"	"a five-minute break"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 13:48:11	"teacher001"	"teacher"	99	"yes good Hey <STUDENT> ...I realise now that yesterday you wanted to describe the situation as 'weird' but I accepted 'wired' cos it means like 'on edge' you know?"	"yes good Hey <STUDENT> ...I realise now that yesterday you wanted to describe the situation as 'weird' but I accepted 'wired' cos it means like 'on edge' you know?"	NA	"7.0"	"eliciting"	"lexical resource"	NA	NA	29
+2020-03-18 13:48:15	"student004"	"student"	100	"Then if I write a five minute break, would it be wrong?"	"Then if I write 'a five minute break', would it be wrong?"	NA	"5d"	"enquiry"	"grammatical resource"	NA	NA	12
+2020-03-18 13:48:38	"teacher001"	"teacher"	101	"Um well technically but in real life English people often leave it out"	"Um well technically but in real life English people often leave it out"	NA	NA	NA	NA	NA	NA	13
+2020-03-18 13:48:57	"teacher001"	"teacher"	102	"the important thing is that you don't say (or write) the 's'"	"the important thing is that you don't say (or write) the 's'"	NA	NA	NA	NA	NA	NA	12
+2020-03-18 13:49:20	"student004"	"student"	103	"Yes, sorry. I meant weird"	"Yes, sorry. I meant weird"	99	NA	NA	NA	NA	NA	5
+2020-03-18 13:49:28	"teacher001"	"teacher"	104	"yes i get it now!"	"yes i get it now!"	NA	NA	NA	NA	NA	NA	5
+2020-03-18 13:50:35	"student004"	"student"	105	"My 5-year marriage was a disaster"	"My 5-year marriage was a disaster"	102	NA	NA	NA	NA	NA	6
+2020-03-18 13:51:04	"teacher001"	"teacher"	106	"Yes great (or: my disastrous five-year marriage!)"	"Yes great (or: my disastrous five-year marriage!)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-03-18 13:51:49	"teacher001"	"teacher"	107	"What about e.g. a ring that costs $1,000?"	"What about e.g. a ring that costs $1,000?"	NA	NA	NA	NA	NA	NA	8
+2020-03-18 13:51:49	"student004"	"student"	108	"Good! Thank you"	"Good! Thank you"	106	NA	NA	NA	NA	NA	3
+2020-03-18 13:52:05	"student004"	"student"	109	"Shall we go back to yesterday mistakes?"	"Shall we go back to yesterday's mistakes?"	NA	"8.0"	"exercise"	"grammatical resource"	NA	NA	7
+2020-03-18 13:52:10	"teacher001"	"teacher"	110	"yes sure!"	"yes sure!"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:52:41	"student004"	"student"	111	"a one thousand-dollar ring"	"a one thousand-dollar ring"	107	NA	NA	NA	NA	NA	4
+2020-03-18 13:52:56	"teacher001"	"teacher"	112	"yes good"	"yes good"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:53:53	"student004"	"student"	113	"there is police"	"there is police"	NA	"8a"	NA	NA	NA	NA	3
+2020-03-18 13:54:22	"student004"	"student"	114	"Shall I say 'there are police everywhere'?"	"Shall I say 'there are police everywhere'?"	NA	NA	NA	NA	NA	NA	7
+2020-03-18 13:54:28	"teacher001"	"teacher"	115	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 13:54:44	"student004"	"student"	116	"why?? is it like people?"	"why?? is it like people?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	5
+2020-03-18 13:54:49	"teacher001"	"teacher"	117	"Hold on..."	"Hold on..."	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:55:07	"teacher001"	"teacher"	118	"So it's a bit difficult with groups/organisations sometimes..."	"So it's a bit difficult with groups/organisations sometimes..."	NA	NA	NA	NA	NA	NA	8
+2020-03-18 13:55:29	"teacher001"	"teacher"	119	"so for example some can be either e.g. a football team can be Manchester UNited is/are it depends"	"so for example some can be either e.g. a football team can be Manchester UNited is/are it depends"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2020-03-18 13:55:45	"teacher001"	"teacher"	120	"if you mean as a company then....?"	"if you mean as a company then....?"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	7
+2020-03-18 13:55:59	"teacher001"	"teacher"	121	"as opposssed to a group of players"	"as opposssed to a group of players"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	7
+2020-03-18 13:56:04	"teacher001"	"teacher"	122	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 13:56:46	"student004"	"student"	123	"I don't know... do you mean the MU as a company??"	"I don't know... do you mean MU as a company??"	NA	NA	"enquiry"	NA	NA	NA	11
+2020-03-18 13:56:55	"teacher001"	"teacher"	124	"Yes so much much more common to say (for e.g. sports teams) Manchester UNited are ...(doing well or whatever)"	"Yes so much much more common to say (for e.g. sports teams) Manchester UNited are ...(doing well or whatever)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-03-18 13:57:08	"student004"	"student"	125	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-03-18 13:57:08	"teacher001"	"teacher"	126	"Sorry unclear hold on!"	"Sorry unclear hold on!"	NA	NA	NA	NA	NA	NA	4
+2020-03-18 13:57:40	"teacher001"	"teacher"	127	"BAsically, in normal speaking we refer to lots of things in the plural which in Spanish I think you'd use the singular for!"	"BAsically, in normal speaking we refer to lots of things in the plural which in Spanish I think you'd use the singular for!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2020-03-18 13:57:56	"teacher001"	"teacher"	128	"E.g. teams/the government etc"	"E.g. teams/the government etc"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2020-03-18 13:58:13	"teacher001"	"teacher"	129	"More formally we can sometimes use the singular e.g. 'the government is'"	"More formally we can sometimes use the singular e.g. 'the government is'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-03-18 13:59:23	"student004"	"student"	130	"It's hard to understand... So, do you say 'The government are...??"	"It's hard to understand... So, do you say 'The government are...??"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	11
+2020-03-18 13:59:26	"teacher001"	"teacher"	131	"It's a bit random to be honest...if we add certain words then sometimes the singular becomes more likely e.g. the fire service is..."	"It's a bit random to be honest...if we add certain words then sometimes the singular becomes more likely e.g. the fire service is..."	129	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2020-03-18 13:59:41	"teacher001"	"teacher"	132	"Yes we often say the government are..."	"Yes we often say the government are..."	130	NA	NA	NA	NA	NA	7
+2020-03-18 14:00:02	"teacher001"	"teacher"	133	"a bit less formal but common yes...like we're thinking of them as a bunch of people"	"a bit less formal but common yes...like we're thinking of them as a bunch of people"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2020-03-18 14:00:03	"student004"	"student"	134	"ohh I didn't know that..."	"ohh I didn't know that..."	NA	NA	NA	NA	NA	NA	5
+2020-03-18 14:00:24	"student004"	"student"	135	"But I kind of get it haha"	"But I kind of get it haha"	NA	NA	NA	NA	NA	NA	7
+2020-03-18 14:00:32	"teacher001"	"teacher"	136	"No I can see it might seem a bit strange"	"No I can see it might seem a bit strange"	NA	NA	NA	NA	NA	NA	10
+2020-03-18 14:01:28	"teacher001"	"teacher"	137	"By the way I think the plural form is less common the USA"	"By the way I think the plural form is less common the USA"	NA	NA	"scaffolding"	"grammatical resource,world knowledge"	NA	NA	13
+2020-03-18 14:01:34	"teacher001"	"teacher"	138	"in the US"	"in the US"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-03-18 14:01:44	"teacher001"	"teacher"	139	"than in Britain"	"than in Britain"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 14:02:22	"student004"	"student"	140	"No idea, I'll be more careful from now on when I talk about groups"	"No idea, I'll be more careful from now on when I talk about groups"	NA	NA	NA	NA	NA	NA	14
+2020-03-18 14:02:38	"teacher001"	"teacher"	141	"OK!"	"OK!"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 14:02:44	"student004"	"student"	142	"Please, could you help me with a very simple sentence??"	"Please, could you help me with a very simple sentence??"	NA	"9.0"	"enquiry"	"grammatical resource"	NA	NA	10
+2020-03-18 14:03:08	"teacher001"	"teacher"	143	"yes of course..."	"yes of course..."	NA	NA	NA	NA	NA	NA	3
+2020-03-18 14:03:14	"student004"	"student"	144	"The first thing I do every morning is...."	"The first thing I do every morning is...."	NA	NA	NA	NA	NA	NA	8
+2020-03-18 14:03:46	"student004"	"student"	145	"to wash my face/ washing my face/ wash my face"	"to wash my face/ washing my face/ wash my face"	NA	NA	NA	NA	NA	NA	10
+2020-03-18 14:05:22	"teacher001"	"teacher"	146	"OK so....with or without 'to' doesn't matter - with 'to' = more formal"	"OK so....with or without 'to' doesn't matter - with 'to' = more formal"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-03-18 14:06:02	"teacher001"	"teacher"	147	"if the verb is common then we use the verb i.e. the middle one is strange because we prefer the verb form in this cae"	"if the verb is common then we use the verb i.e. the middle one is strange because we prefer the verb form in this cae"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	25
+2020-03-18 14:06:07	"teacher001"	"teacher"	148	"case"	"case"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-03-18 14:06:45	"student004"	"student"	149	"So we can say:"	"So we can say:"	NA	NA	NA	NA	NA	NA	4
+2020-03-18 14:07:03	"student004"	"student"	150	"is wash my face or is to wash my face??"	"is wash my face or is to wash my face??"	NA	NA	NA	NA	NA	NA	10
+2020-03-18 14:07:14	"teacher001"	"teacher"	151	"yes both are fine"	"yes both are fine"	NA	NA	NA	NA	NA	NA	4
+2020-03-18 14:07:40	"student004"	"student"	152	"Great, thank you!"	"Great, thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 14:07:44	"student004"	"student"	153	"And if I say"	"And if I say"	NA	"9a"	"enquiry"	"grammatical resource"	NA	NA	4
+2020-03-18 14:07:52	"student004"	"student"	154	"The plan is..."	"The plan is..."	NA	NA	NA	NA	NA	NA	3
+2020-03-18 14:08:10	"student004"	"student"	155	"to go to the park/go to the park"	"to go to the park/go to the park"	NA	NA	NA	NA	NA	NA	8
+2020-03-18 14:08:27	"student004"	"student"	156	"Again both are correct?? Is it the same structure??"	"Again both are correct?? Is it the same structure??"	NA	NA	NA	NA	NA	NA	9
+2020-03-18 14:09:18	"teacher001"	"teacher"	157	"Um..here it sounds strange without 'to' - I'm afriad this just depends on each word...so with 'plan' we say e.g. I plan to go TO the park AND the plan is TO go to the park etc"	"Um..here it sounds strange without 'to' - I'm afriad this just depends on each word...so with 'plan' we say e.g. I plan to go TO the park AND the plan is TO go to the park etc"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	37
+2020-03-18 14:09:33	"teacher001"	"teacher"	158	"Sorry I plan TO go to the park"	"Sorry I plan TO go to the park"	NA	NA	"repair"	"writing"	NA	NA	8
+2020-03-18 14:10:22	"student004"	"student"	159	"Sorry, I don't get it... You don't say 'the plan is??"	"Sorry, I don't get it... You don't say 'the plan is??"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	11
+2020-03-18 14:10:30	"teacher001"	"teacher"	160	"BUT in informal lazy speaking you might hear people say 'the plan is go to the park...' but this is like ellipsis that I mentioned before you know?"	"BUT in informal lazy speaking you might hear people say 'the plan is go to the park...' but this is like ellipsis that I mentioned before you know?"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	28
+2020-03-18 14:11:01	"student004"	"student"	161	"yess"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 14:11:14	"teacher001"	"teacher"	162	"Sorry...so in the vern and noun structure yes you need 'to' i.e. the plan is to go....AND we plan to go...."	"Sorry...so in the vern and noun structure yes you need 'to' i.e. the plan is to go....AND we plan to go...."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	21
+2020-03-18 14:11:29	"teacher001"	"teacher"	163	"you need 'is' I mean"	"you need 'is' I mean"	NA	NA	"repair"	"content"	NA	NA	5
+2020-03-18 14:11:55	"teacher001"	"teacher"	164	"Ah sorry trying to type too fast! but is that clear?"	"Ah sorry trying to type too fast! but is that clear?"	NA	NA	NA	NA	NA	NA	11
+2020-03-18 14:12:00	"student004"	"student"	165	"I undestand! thanks"	"I undestand! thanks"	NA	NA	NA	NA	NA	NA	3
+2020-03-18 14:12:24	"teacher001"	"teacher"	166	"OK...."	"OK...."	NA	NA	NA	NA	NA	NA	1
+2020-03-18 14:14:02	"student004"	"student"	167	"I guess we have finished!"	"I guess we have finished!"	NA	NA	NA	NA	NA	NA	5
+2020-03-18 14:14:04	"teacher001"	"teacher"	168	"One more quick one <STUDENT>.....the phrase: 'I have a doubt' or 'I doubt something' = much less common in Enlgish by the way ...MUch much more normal = I'm not sure about...."	"One more quick one <STUDENT>.....the phrase: 'I have a doubt' or 'I doubt something' = much less common in Enlgish by the way ...MUch much more normal = I'm not sure about...."	NA	"10.0"	"presentation"	"lexical resource"	NA	NA	32
+2020-03-18 14:14:11	"teacher001"	"teacher"	169	"OK?"	"OK?"	NA	NA	NA	NA	NA	NA	1
+2020-03-18 14:14:47	"student004"	"student"	170	"ahhhh I was translating from Spanish!!"	"ahhhh I was translating from Spanish!!"	NA	NA	NA	NA	NA	NA	6
+2020-03-18 14:15:14	"teacher001"	"teacher"	171	"THat's ok! All right great so I'll b ein touch very soon about more classes OK? thanks Bye"	"THat's ok! All right great so I'll b ein touch very soon about more classes OK? thanks Bye"	NA	"11.0"	"closing"	NA	NA	NA	18
+2020-03-18 14:15:37	"student004"	"student"	172	"Yes pleaseee, I have a lot of free time now..."	"Yes please, I have a lot of free time now..."	NA	NA	NA	NA	NA	NA	10
+2020-03-18 14:15:43	"student004"	"student"	173	"Thank you very much"	"Thank you very much"	NA	NA	NA	NA	NA	NA	4
+2020-03-18 14:15:51	"teacher001"	"teacher"	174	"yeah me too! see ya..."	"yeah me too! see ya..."	NA	NA	NA	NA	NA	NA	5
+2020-03-18 14:16:03	"student004"	"student"	175	"See you!!"	"See you!!"	NA	NA	NA	NA	NA	"C1"	2

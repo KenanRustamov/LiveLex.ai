@@ -1,0 +1,113 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-12 06:31:53	"student010"	"student"	1	"Hello"	"Hello"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-08-12 06:32:23	"teacher008"	"teacher"	2	"Hi <STUDENT>"	"Hi <STUDENT>"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 06:32:34	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-08-12 06:32:53	"student010"	"student"	4	"I'm fine and you?"	"I'm fine and you?"	NA	NA	NA	NA	NA	NA	4
+2020-08-12 06:33:04	"teacher008"	"teacher"	5	"Fine, thank you :)"	"Fine, thank you :)"	NA	NA	NA	NA	NA	NA	4
+2020-08-12 06:33:08	"teacher008"	"teacher"	6	"How's Kyiv?"	"How's Kyiv?"	NA	"2a"	"topic development"	NA	NA	NA	2
+2020-08-12 06:33:33	"student010"	"student"	7	"Good"	"Good"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 06:33:46	"teacher008"	"teacher"	8	"How long will you be there?"	"How long will you be there?"	NA	NA	NA	NA	NA	NA	6
+2020-08-12 06:34:12	"student010"	"student"	9	"For 3 days"	"For 3 days"	NA	NA	NA	NA	NA	NA	3
+2020-08-12 06:34:43	"teacher008"	"teacher"	10	"Do all your pets travel with you?"	"Do all your pets travel with you?"	NA	"2b"	"topic development"	NA	NA	NA	7
+2020-08-12 06:35:33	"student010"	"student"	11	"No, they don't :("	"No, they don't :("	NA	NA	NA	NA	NA	NA	4
+2020-08-12 06:36:08	"teacher008"	"teacher"	12	"Oh, where are they then?"	"Oh, where are they then?"	NA	NA	NA	NA	NA	NA	5
+2020-08-12 06:36:38	"student010"	"student"	13	"In the vilage"	"In the village"	NA	NA	NA	NA	NA	NA	3
+2020-08-12 06:36:59	"teacher008"	"teacher"	14	"Oh, I see. You must miss them!"	"Oh, I see. You must miss them!"	NA	NA	NA	NA	NA	NA	7
+2020-08-12 06:37:50	"student010"	"student"	15	"Of course"	"Of course"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 06:37:54	"teacher008"	"teacher"	16	"Are you planning anything exciting while you are in Kyiv?"	"Are you planning anything exciting while you are in Kyiv?"	NA	"2c"	"topic development"	NA	NA	NA	10
+2020-08-12 06:38:49	"student010"	"student"	17	"No, I don't"	"No, I'm not"	NA	NA	NA	NA	NA	NA	3
+2020-08-12 06:39:11	"teacher008"	"teacher"	18	"Fair enough"	"Fair enough"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 06:39:24	"teacher008"	"teacher"	19	"Are you looking forward to your next trip to the country?"	"Are you looking forward to your next trip to the country?"	NA	"2d"	"topic development"	NA	NA	NA	11
+2020-08-12 06:39:44	"teacher008"	"teacher"	20	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 06:39:50	"student010"	"student"	21	"I think I didn't mantion about Sause"	"I think I didn't mention Sause"	NA	"2e"	"topic development"	NA	NA	NA	7
+2020-08-12 06:40:08	"teacher008"	"teacher"	22	"Your calico cat? You did mention Sause"	"Your calico cat? You did mention Sause"	NA	NA	NA	NA	NA	NA	7
+2020-08-12 06:41:15	"student010"	"student"	23	"Ok so you know about my calico fat cat, don't you"	"Ok so you know about my fat calico cat, don't you"	NA	NA	NA	NA	NA	NA	11
+2020-08-12 06:41:18	"student010"	"student"	24	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 06:42:05	"teacher008"	"teacher"	25	"I do, I didn't know it it was fat :) Does your cat live in Kyiv?"	"I do, I didn't know it it was fat :) Does your cat live in Kyiv?"	NA	NA	NA	NA	NA	NA	16
+2020-08-12 06:42:28	"student010"	"student"	26	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 06:43:03	"teacher008"	"teacher"	27	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 06:43:30	"student010"	"student"	28	"Ok about vilage"	"Ok about the village"	19	NA	NA	NA	NA	NA	3
+2020-08-12 06:43:54	"teacher008"	"teacher"	29	"Go on"	"Go on"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 06:45:14	"student010"	"student"	30	"One of my hobies is to search for old things. And my dad is going to take a metal detector"	"One of my hobbies is to search for old things. And my dad is going to bring a metal detector"	NA	NA	NA	NA	NA	NA	20
+2020-08-12 06:45:37	"teacher008"	"teacher"	31	"Ooh, that's a very exciting hobby!"	"Ooh, that's a very exciting hobby!"	NA	NA	NA	NA	NA	NA	6
+2020-08-12 06:45:51	"teacher008"	"teacher"	32	"What have you found so far/"	"What have you found so far/"	NA	"2f"	"topic development"	NA	NA	NA	6
+2020-08-12 06:45:52	"teacher008"	"teacher"	33	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 06:47:01	"student010"	"student"	34	"I found all things in grandma's house"	"I found a few things in my grandma's house"	NA	NA	NA	NA	NA	NA	7
+2020-08-12 06:47:23	"student010"	"student"	35	"It was old projector with photos"	"It was an old projector with some photos"	NA	NA	NA	NA	NA	NA	6
+2020-08-12 06:51:33	"student010"	"student"	36	"Are you typing?"	"Are you typing?"	NA	"2g"	"disruption"	NA	NA	NA	3
+2020-08-12 06:51:38	"teacher008"	"teacher"	37	"Are you there, <STUDENT>?"	"Are you there, <STUDENT>?"	NA	NA	NA	NA	NA	NA	4
+2020-08-12 06:52:10	"student010"	"student"	41	"What happened?"	"What happened?"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 06:52:41	"teacher008"	"teacher"	42	"Looks like something's wrong with the programme, I can't type in"	"Looks like something's wrong with the programme, I can't type in"	NA	NA	NA	NA	NA	NA	11
+2020-08-12 06:53:24	"student010"	"student"	44	"I got disconnected and couldn't see your answers!"	"I got disconnected and couldn't see your answers!"	NA	NA	NA	NA	NA	NA	8
+2020-08-12 06:53:47	"teacher008"	"teacher"	45	"I'm back now!"	"I'm back now!"	NA	NA	NA	NA	NA	NA	3
+2020-08-12 06:53:53	"student010"	"student"	46	"What did you write?"	"What did you write?"	NA	NA	NA	NA	NA	NA	4
+2020-08-12 06:54:13	"teacher008"	"teacher"	47	"I think I know the kind of projector you mean, my parents used one of those when I was small"	"I think I know the kind of projector you mean, my parents used one of those when I was small"	35	NA	NA	NA	NA	NA	20
+2020-08-12 06:55:10	"student010"	"student"	48	"Ok so I've heard some stories from family about that place"	"Ok so I've heard some stories from my family about that place"	NA	"3.0"	"topic opening"	NA	NA	NA	11
+2020-08-12 06:55:29	"student010"	"student"	49	"My family"	"My family"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2020-08-12 06:55:33	"teacher008"	"teacher"	50	"There used to be a lot of dinosaurs where we live in East Anglia. We always hope to find a dinosaur fossil at the beach or something"	"There used to be a lot of dinosaurs where we live in East Anglia. We always hope to find a dinosaur fossil at the beach or something"	NA	"3a"	"topic development"	NA	NA	NA	27
+2020-08-12 06:55:50	"teacher008"	"teacher"	51	"My family - good correction!"	"My family - good correction!"	NA	NA	NA	NA	NA	NA	5
+2020-08-12 06:56:00	"teacher008"	"teacher"	52	"About your Grandma's house?"	"About your Grandma's house?"	48	NA	NA	NA	NA	NA	4
+2020-08-12 06:57:07	"student010"	"student"	53	"Ok I heard that my grandpa found German rifle"	"Ok I heard that my grandpa found a German rifle"	NA	NA	NA	NA	NA	NA	9
+2020-08-12 06:57:28	"teacher008"	"teacher"	54	"my grandpa found __ German rifle"	"my grandpa found __ German rifle"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-08-12 06:57:49	"student010"	"student"	55	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 06:58:00	"teacher008"	"teacher"	56	"yes, good! Left from the war?"	"yes, good! Left from the war?"	NA	NA	NA	NA	NA	NA	6
+2020-08-12 06:58:12	"student010"	"student"	57	"My grandma found a revolver"	"My grandma found a revolver"	NA	NA	NA	NA	NA	NA	5
+2020-08-12 06:58:16	"student010"	"student"	58	"Yes"	"Yes"	56	NA	NA	NA	NA	NA	1
+2020-08-12 06:58:39	"teacher008"	"teacher"	59	"Oh goodness! You mean in the ground? She dug it up?"	"Oh goodness! You mean in the ground? She dug it up?"	57	NA	NA	NA	NA	NA	11
+2020-08-12 06:58:47	"student010"	"student"	60	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 06:59:00	"teacher008"	"teacher"	61	"Wow"	"Wow"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 06:59:07	"student010"	"student"	62	"And funny story about revolver"	"And a funny story about the revolver"	NA	"3b"	"topic development"	NA	NA	NA	5
+2020-08-12 06:59:18	"teacher008"	"teacher"	63	"Go on"	"Go on"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 07:00:03	"student010"	"student"	64	"You know that boys love playing with toy weapons"	"You know that boys love playing with toy weapons"	NA	NA	NA	NA	NA	NA	9
+2020-08-12 07:00:32	"teacher008"	"teacher"	65	"I sure do"	"I sure do"	NA	NA	NA	NA	NA	NA	3
+2020-08-12 07:01:26	"student010"	"student"	66	"So my grandma's friend had toy weapons andmy grandma real weapon!"	"So my grandma's friend had toy weapons and my grandma a real weapon!"	NA	NA	NA	NA	NA	NA	11
+2020-08-12 07:01:55	"teacher008"	"teacher"	67	"Oh my! As long as it wasn't charged"	"Oh my! As long as it wasn't charged"	NA	NA	NA	NA	NA	NA	8
+2020-08-12 07:02:13	"teacher008"	"teacher"	68	"So girls love to play with toy weapons too? :)"	"So girls love to play with toy weapons too? :)"	NA	NA	NA	NA	NA	NA	10
+2020-08-12 07:02:58	"student010"	"student"	69	"Some girls play with boy's toys"	"Some girls play with boy's toys"	NA	NA	NA	NA	NA	NA	6
+2020-08-12 07:03:24	"teacher008"	"teacher"	70	"Who said they are boy's toys :) they are just toys!"	"Who said they are boy's toys :) they are just toys!"	NA	NA	NA	NA	NA	NA	11
+2020-08-12 07:03:43	"teacher008"	"teacher"	71	"Anyway, could you give me some articles? 'And funny story about revolver'"	"Anyway, could you give me some articles? 'And funny story about revolver'"	NA	"3c"	"eliciting,repair"	"grammatical resource"	NA	NA	12
+2020-08-12 07:03:52	"student010"	"student"	72	"The"	"The"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 07:04:09	"teacher008"	"teacher"	73	"Where? Could you rewrite it?"	"Where? Could you rewrite it?"	NA	NA	NA	NA	NA	NA	5
+2020-08-12 07:04:24	"student010"	"student"	74	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 07:04:54	"student010"	"student"	75	"And funny story about the revolver"	"And funny story about the revolver"	NA	NA	NA	NA	NA	NA	6
+2020-08-12 07:05:17	"teacher008"	"teacher"	76	"Ok, almost there - the revolver, the one you were telling me about"	"Ok, almost there - the revolver, the one you were telling me about"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-08-12 07:05:25	"teacher008"	"teacher"	77	"but also 'and __ funny story'"	"but also 'and __ funny story'"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-08-12 07:05:45	"student010"	"student"	78	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 07:05:53	"teacher008"	"teacher"	79	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 07:07:00	"teacher008"	"teacher"	80	"Ok, shall we practice our modals of deduction (past)? might / could/ can have V3 / must have V3 / can't have V3"	"Ok, shall we practice our modals of deduction (past)? might / could/ can have V3 / must have V3 / can't have V3"	NA	"4.0"	"exercise,free practice"	"grammatical resource"	NA	NA	23
+2020-08-12 07:07:36	"teacher008"	"teacher"	81	"Your Grandma found a revolver (when she was small?). How come the revolver was there in the ground?"	"Your Grandma found a revolver (when she was small?). How come the revolver was there in the ground?"	NA	NA	NA	NA	NA	NA	18
+2020-08-12 07:08:00	"teacher008"	"teacher"	82	"I think a soldier might have lost it. What do you think?"	"I think a soldier might have lost it. What do you think?"	NA	NA	NA	NA	NA	NA	12
+2020-08-12 07:08:37	"student010"	"student"	83	"I'm not sure if he had lost it"	"I'm not sure if he had lost it"	NA	NA	NA	NA	NA	NA	8
+2020-08-12 07:09:08	"teacher008"	"teacher"	84	"Aha, what do you think happened? What kind of a revolver was it, by the way?"	"Aha, what do you think happened? What kind of a revolver was it, by the way?"	NA	NA	NA	NA	NA	NA	16
+2020-08-12 07:09:43	"student010"	"student"	85	"What kind?"	"What kind?"	NA	NA	"enquiry"	NA	NA	NA	2
+2020-08-12 07:10:15	"teacher008"	"teacher"	86	"Yes. German, French, Russian? And how old was it?"	"Yes. German, French, Russian? And how old was it?"	NA	NA	"clarification"	NA	NA	NA	9
+2020-08-12 07:10:39	"student010"	"student"	87	"I don't know I didn't see it"	"I don't know I didn't see it"	NA	NA	NA	NA	NA	NA	7
+2020-08-12 07:11:17	"teacher008"	"teacher"	88	"Ah, I see. We can still try and guess."	"Ah, I see. We can still try and guess."	NA	NA	NA	NA	NA	NA	9
+2020-08-12 07:11:38	"teacher008"	"teacher"	89	"Maybe someone hid it. = Someone __ ___ ___ it (hide)"	"Maybe someone hid it. = Someone __ ___ ___ it (hide)"	NA	"4a"	"eliciting,exercise"	"grammatical resource"	NA	NA	11
+2020-08-12 07:12:19	"student010"	"student"	90	"Might have hid"	"Might have hidden"	NA	NA	NA	NA	NA	NA	3
+2020-08-12 07:12:30	"teacher008"	"teacher"	91	"might have hidden"	"might have hidden"	NA	NA	"repair"	"grammatical resource"	NA	NA	3
+2020-08-12 07:12:35	"teacher008"	"teacher"	92	"but yes, you get the idea"	"but yes, you get the idea"	NA	NA	NA	NA	NA	NA	6
+2020-08-12 07:12:41	"teacher008"	"teacher"	93	"What else might have happened?"	"What else might have happened?"	NA	"4b"	"eliciting,free practice"	"grammatical resource"	NA	NA	5
+2020-08-12 07:13:19	"student010"	"student"	94	"The soldier might have been killed"	"The soldier might have been killed"	NA	NA	NA	NA	NA	NA	6
+2020-08-12 07:14:22	"teacher008"	"teacher"	95	"Yes, true!"	"Yes, true!"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 07:14:38	"teacher008"	"teacher"	96	"The revolver could have been the murder weapon!"	"The revolver could have been the murder weapon!"	NA	NA	NA	NA	NA	NA	8
+2020-08-12 07:16:04	"student010"	"student"	97	"I disagree! It must have been a victim's weapon"	"I disagree! It must have been a victim's weapon"	NA	NA	NA	NA	NA	NA	9
+2020-08-12 07:16:54	"teacher008"	"teacher"	98	"Oh, I see! The victim must have dropped in. Or maybe the victim could have been buried and the revolver could have been lost..."	"Oh, I see! The victim must have dropped in. Or maybe the victim could have been buried and the revolver could have been lost..."	NA	NA	NA	NA	NA	NA	24
+2020-08-12 07:17:22	"teacher008"	"teacher"	99	"*dropped it"	"*dropped it"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-08-12 07:17:31	"student010"	"student"	100	"Maybe"	"Maybe"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 07:18:01	"student010"	"student"	101	"You might know that there is war in Ukraine"	"You might know that there is war in Ukraine"	NA	"4c"	NA	NA	NA	NA	9
+2020-08-12 07:18:11	"teacher008"	"teacher"	102	"Of course I know that :("	"Of course I know that :("	NA	NA	NA	NA	NA	NA	6
+2020-08-12 07:19:55	"teacher008"	"teacher"	103	"But isn't the revolver from a long time ago, when your Grandma was young? That was the impression I got"	"But isn't the revolver from a long time ago, when your Grandma was young? That was the impression I got"	NA	NA	NA	NA	NA	NA	20
+2020-08-12 07:20:17	"student010"	"student"	104	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 07:20:42	"teacher008"	"teacher"	105	"Yes, sure. What were you going to say?"	"Yes, sure. What were you going to say?"	NA	NA	NA	NA	NA	NA	8
+2020-08-12 07:20:57	"student010"	"student"	106	"When?"	"When?"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 07:22:10	"teacher008"	"teacher"	107	"Never mind :)"	"Never mind :)"	NA	NA	NA	NA	NA	NA	3
+2020-08-12 07:22:30	"teacher008"	"teacher"	108	"Did you manage to watch the video I sent you? Of the marshmallow test?"	"Did you manage to watch the video I sent you? Of the marshmallow test?"	NA	"5.0"	"topic opening"	"listening"	"Youtube video"	NA	14
+2020-08-12 07:22:39	"student010"	"student"	109	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-12 07:23:11	"teacher008"	"teacher"	110	"Ok, can you tell me in a couple of words what happened there?"	"Ok, can you tell me in a couple of words what happened there?"	NA	NA	NA	NA	NA	NA	13
+2020-08-12 07:26:48	"student010"	"student"	111	"A man gave his 2 girls 1 marshmallo and said that they could it it now or wait when he'll come back and they'll recieve second piece. Both of them waited but at the and one of them has eaten a marshmallo"	"A man gave his 2 girls 1 marshmallow and said that they could eat it now or wait until he comes back and they would recieve the second piece. Both of them waited but at the and one of them ate the marshmallow"	NA	NA	NA	NA	NA	NA	42
+2020-08-12 07:27:42	"student010"	"student"	112	"But I don't really understood what the test about"	"But I didn't really understand what the test was about"	NA	NA	NA	NA	NA	NA	9
+2020-08-12 07:29:25	"teacher008"	"teacher"	113	"Aha, yes. The test is supposed to test self-control in children. The first marshmallow test was done in the 1960s, and the researchers followed the lives of the children. They found that the children that didn't eat the marshmallows went on to do better at school, go to good univerisities and generally were more successful in life"	"Aha, yes. The test is supposed to test self-control in children. The first marshmallow test was done in the 1960s, and the researchers followed the lives of the children. They found that the children that didn't eat the marshmallows went on to do better at school, go to good univerisities and generally were more successful in life"	NA	NA	NA	NA	NA	NA	57
+2020-08-12 07:29:55	"teacher008"	"teacher"	114	"But it wasn't all that simple - we'll talk about it next time. Are we ok for Friday 9.30 am?"	"But it wasn't all that simple - we'll talk about it next time. Are we ok for Friday 9.30 am?"	NA	"6.0"	"closing"	NA	NA	NA	20
+2020-08-12 07:30:18	"student010"	"student"	115	"Yes bye!"	"Yes bye!"	NA	NA	NA	NA	NA	NA	2
+2020-08-12 07:30:29	"teacher008"	"teacher"	116	"Yes, talk to you on Friday!"	"Yes, talk to you on Friday!"	NA	NA	NA	NA	NA	"B2"	6

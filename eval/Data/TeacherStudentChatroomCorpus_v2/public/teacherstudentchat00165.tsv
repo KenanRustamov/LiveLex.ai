@@ -1,0 +1,144 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-11 13:38:32	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-12-11 13:38:52	"student009"	"student"	2	"sorryfor being late"	"sorry for being late"	NA	NA	NA	NA	NA	NA	3
+2020-12-11 13:39:09	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	1	NA	NA	NA	NA	NA	2
+2020-12-11 13:40:14	"teacher008"	"teacher"	4	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-12-11 13:40:39	"student009"	"student"	5	"fine"	"fine"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 13:41:06	"teacher008"	"teacher"	6	"How's your week been so far?"	"How's your week been so far?"	NA	NA	NA	NA	NA	NA	6
+2020-12-11 13:41:20	"student009"	"student"	7	"sad"	"sad"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 13:41:26	"student009"	"student"	8	"and boring"	"and boring"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 13:41:31	"student009"	"student"	9	"as always"	"as always"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 13:42:11	"teacher008"	"teacher"	10	"Oh no, that's so sad!"	"Oh no, that's so sad!"	NA	NA	NA	NA	NA	NA	5
+2020-12-11 13:42:30	"teacher008"	"teacher"	11	"Are you looking forward to the weekend?"	"Are you looking forward to the weekend?"	NA	"2a"	"topic development"	NA	NA	NA	7
+2020-12-11 13:42:35	"student009"	"student"	12	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 13:42:46	"student009"	"student"	13	"I have only one lesson"	"I have only one lesson"	NA	NA	NA	NA	NA	NA	5
+2020-12-11 13:42:56	"student009"	"student"	14	"not two(on Sunday )"	"not two (on Sunday )"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 13:43:07	"student009"	"student"	15	"so I want to see my friend"	"so I want to see my friend"	NA	NA	NA	NA	NA	NA	7
+2020-12-11 13:43:15	"teacher008"	"teacher"	16	"Sounds good! You'll have a bit more time on your hands"	"Sounds good! You'll have a bit more time on your hands"	NA	NA	NA	NA	NA	NA	11
+2020-12-11 13:44:24	"teacher008"	"teacher"	17	"I hear there are two Christamasses in Ukraine now :)"	"I hear there are two Christamasses in Ukraine now :)"	NA	"2b"	"topic development"	NA	NA	NA	10
+2020-12-11 13:44:43	"student009"	"student"	18	"what do you mean?"	"what do you mean?"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 13:45:35	"teacher008"	"teacher"	19	"The 25th of December and the 7th of January are both public holidays, is that right?"	"The 25th of December and the 7th of January are both public holidays, is that right?"	NA	NA	NA	NA	NA	NA	16
+2020-12-11 13:46:14	"student009"	"student"	20	"I don't celebrate on 25th December"	"I don't celebrate on 25th December"	NA	NA	NA	NA	NA	NA	6
+2020-12-11 13:46:28	"student009"	"student"	21	"even 7th of January isn't"	"even 7th of January isn't"	NA	NA	NA	NA	NA	NA	5
+2020-12-11 13:46:43	"student009"	"student"	22	"a celebration for me"	"a celebration for me"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 13:46:56	"student009"	"student"	23	"just some nice food"	"just some nice food"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 13:47:17	"teacher008"	"teacher"	24	"Fair enough!"	"Fair enough!"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 13:47:57	"teacher008"	"teacher"	25	"It's very similar in the UK. For some people, the religious meaning is of Christmas is important, but for most it's just an opportunity to exchange presents and eat nice food"	"It's very similar in the UK. For some people, the religious meaning is of Christmas is important, but for most it's just an opportunity to exchange presents and eat nice food"	NA	NA	NA	NA	NA	NA	31
+2020-12-11 13:48:24	"teacher008"	"teacher"	26	"*sorry, 'the religious meaning of Christmas"	"*sorry, 'the religious meaning of Christmas"	NA	NA	"repair"	"writing"	NA	NA	6
+2020-12-11 13:49:03	"teacher008"	"teacher"	28	"But New Year is much less of a celebration here than in Ukraine"	"But New Year is much less of a celebration here than in Ukraine"	NA	NA	NA	NA	NA	NA	13
+2020-12-11 13:49:27	"student009"	"student"	29	"I know"	"I know"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 13:49:30	"teacher008"	"teacher"	30	"Even though maybe this time will be different. A lot of people are fed up with 2020 and hope 2021 will be better"	"Even though maybe this time will be different. A lot of people are fed up with 2020 and hope 2021 will be better"	NA	NA	NA	NA	NA	NA	23
+2020-12-11 13:51:10	"teacher008"	"teacher"	31	"Ok, I've prepared a comic for you for today!"	"Ok, I've prepared a comic for you for today!"	NA	"3.0"	"topic opening"	"reading"	NA	NA	9
+2020-12-11 13:51:21	"teacher008"	"teacher"	32	"Do you like comics?"	"Do you like comics?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+2020-12-11 13:51:34	"student009"	"student"	33	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 13:52:25	"teacher008"	"teacher"	34	"Ok, what kind of comics do you usually read?"	"Ok, what kind of comics do you usually read?"	NA	NA	NA	NA	NA	NA	9
+2020-12-11 13:52:51	"student009"	"student"	35	"some short on Instagram"	"some short ones on Instagram"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 13:53:15	"student009"	"student"	36	"or sometimes I read long comics"	"or sometimes I read long comics"	NA	NA	NA	NA	NA	NA	6
+2020-12-11 13:53:15	"teacher008"	"teacher"	37	"Ok, sure, they are also called 'cartoons'. A short comic, basically"	"Ok, sure, they are also called 'cartoons'. A short comic, basically"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-12-11 13:54:27	"teacher008"	"teacher"	38	"Well, no, that's not a great explanation. A cartoon is usually a picture with some speech bubbles that tells a joke"	"Well, no, that's not a great explanation. A cartoon is usually a picture with some speech bubbles that tells a joke"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	21
+2020-12-11 13:55:01	"teacher008"	"teacher"	39	"But a comic is a story told in pictures, as you know"	"But a comic is a story told in pictures, as you know"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-12-11 13:55:50	"teacher008"	"teacher"	40	"Ok, well, this comic is a story of some young people and their relationships"	"Ok, well, this comic is a story of some young people and their relationships"	NA	"3a"	"topic development"	"reading"	"website"	NA	14
+2020-12-11 13:56:12	"teacher008"	"teacher"	41	"There are two boys, Sam and Fred. Sam sees Fred's girlfriend with another boy"	"There are two boys, Sam and Fred. Sam sees Fred's girlfriend with another boy"	NA	NA	NA	NA	NA	NA	14
+2020-12-11 13:56:39	"teacher008"	"teacher"	42	"And Sam tries to decide whether he should tell Fred"	"And Sam tries to decide whether he should tell Fred"	NA	NA	NA	NA	NA	NA	10
+2020-12-11 13:57:12	"teacher008"	"teacher"	43	"Do you think a friend should say what he saw in this situation?"	"Do you think a friend should say what he saw in this situation?"	NA	NA	"eliciting"	NA	NA	NA	13
+2020-12-11 13:57:56	"student009"	"student"	44	"maybe firstly he can talk about is with this girl"	"maybe first he can talk about it with this girl"	NA	NA	NA	NA	NA	NA	10
+2020-12-11 13:58:26	"teacher008"	"teacher"	45	"Good idea!"	"Good idea!"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 13:58:50	"teacher008"	"teacher"	46	"Because how might Fred react?"	"Because how might Fred react?"	NA	NA	"eliciting"	NA	NA	NA	5
+2020-12-11 13:59:26	"student009"	"student"	47	"he might say that his brother is lieing"	"he might say that his brother is lying"	NA	NA	NA	NA	NA	NA	8
+2020-12-11 13:59:53	"teacher008"	"teacher"	48	"Ok, sure!"	"Ok, sure!"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:00:19	"teacher008"	"teacher"	49	"Well, let's see what happened. I'm going to send you the link on Skype, can you watch the video, please?"	"Well, let's see what happened. I'm going to send you the link on Skype, can you watch the video, please?"	NA	"3b"	"topic development"	"reading"	NA	NA	20
+2020-12-11 14:04:00	"student009"	"student"	50	"I watched"	"I watched"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:04:30	"teacher008"	"teacher"	51	"Ok! So what happened?"	"Ok! So what happened?"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 14:04:43	"student009"	"student"	52	"Fred made a mistake"	"Fred made a mistake"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 14:04:52	"student009"	"student"	53	"Laura had a twin sister"	"Laura had a twin sister"	NA	NA	NA	NA	NA	NA	5
+2020-12-11 14:05:19	"teacher008"	"teacher"	54	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:05:28	"student009"	"student"	55	"and he thought is was Laura"	"and he thought is was Laura"	NA	NA	NA	NA	NA	NA	6
+2020-12-11 14:05:35	"teacher008"	"teacher"	56	"Well, Sam made a mistake, didn't he?"	"Well, Sam made a mistake, didn't he?"	52	NA	"repair"	"reading"	NA	NA	7
+2020-12-11 14:05:46	"student009"	"student"	57	"Sam?"	"Sam?"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:06:04	"student009"	"student"	58	"oh yes"	"oh yes"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:06:09	"teacher008"	"teacher"	59	"Sam saw Fred's girlfriend with another boy, right?"	"Sam saw Fred's girlfriend with another boy, right?"	NA	NA	NA	NA	NA	NA	8
+2020-12-11 14:06:10	"teacher008"	"teacher"	60	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:06:13	"student009"	"student"	61	"sam"	"Sam"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:06:27	"teacher008"	"teacher"	62	"Do you think it's too late for Fred to get his girlfriend back?"	"Do you think it's too late for Fred to get his girlfriend back?"	NA	"3c"	"topic development"	"reading"	NA	NA	13
+2020-12-11 14:06:38	"student009"	"student"	63	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:07:05	"teacher008"	"teacher"	64	"No?"	"No?"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:07:10	"student009"	"student"	65	"he can say sorry and explain the situation"	"he can say sorry and explain the situation"	NA	NA	NA	NA	NA	NA	8
+2020-12-11 14:07:15	"student009"	"student"	66	"not late"	"not late"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:07:42	"teacher008"	"teacher"	67	"Yes, I think so too!"	"Yes, I think so too!"	NA	NA	NA	NA	NA	NA	5
+2020-12-11 14:08:02	"teacher008"	"teacher"	68	"Even though for some people it's extremely hard to say sorry and admit a mistake"	"Even though for some people it's extremely hard to say sorry and admit a mistake"	NA	NA	NA	NA	NA	NA	15
+2020-12-11 14:08:09	"teacher008"	"teacher"	69	"So maybe not))"	"So maybe not))"	NA	NA	NA	NA	NA	NA	3
+2020-12-11 14:08:52	"teacher008"	"teacher"	70	"Ok, have you noticed lots of interesting phrasal verbs in this story?"	"Ok, have you noticed lots of interesting phrasal verbs in this story?"	NA	"4.0"	"presentation"	"lexical resource"	NA	NA	12
+2020-12-11 14:09:11	"student009"	"student"	71	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:10:20	"teacher008"	"teacher"	72	"bump into; cheat on; mess around with; hang out with; get on well with; get over something; go on; make it up; cheer someone up, split up with, break up with; sort something out"	"bump into; cheat on; mess around with; hang out with; get on well with; get over something; go on; make it up; cheer someone up, split up with, break up with; sort something out"	NA	NA	NA	NA	NA	NA	34
+2020-12-11 14:10:27	"teacher008"	"teacher"	73	"Do you know any of them?"	"Do you know any of them?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	6
+2020-12-11 14:10:43	"student009"	"student"	74	"maybe I know all of them..."	"maybe I know all of them..."	NA	NA	NA	NA	NA	NA	6
+2020-12-11 14:10:50	"student009"	"student"	75	"you can check me"	"you can check me"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 14:10:53	"teacher008"	"teacher"	76	"Oh cool!"	"Oh cool!"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:10:56	"teacher008"	"teacher"	77	"let's see"	"let's see"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:11:07	"teacher008"	"teacher"	78	"which one means 'spend time together with someone'"	"which one means 'spend time together with someone'"	NA	"4a"	"scaffolding,eliciting"	"lexical resource,meaning"	NA	NA	8
+2020-12-11 14:11:47	"teacher008"	"teacher"	79	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:11:57	"student009"	"student"	80	"hang out"	"hang out"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:12:03	"teacher008"	"teacher"	81	"Good!"	"Good!"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:12:17	"teacher008"	"teacher"	82	"make someone feel better?"	"make someone feel better?"	NA	"4b"	"scaffolding,eliciting"	"lexical resource,meaning"	NA	NA	4
+2020-12-11 14:13:13	"student009"	"student"	83	"cheer up"	"cheer up"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:13:22	"teacher008"	"teacher"	84	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:13:35	"teacher008"	"teacher"	85	"which two mean 'to end a relationship'?"	"which two mean 'to end a relationship'?"	NA	"4c"	"scaffolding,eliciting"	"lexical resource,meaning"	NA	NA	7
+2020-12-11 14:13:44	"student009"	"student"	86	"split up"	"split up"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:14:24	"teacher008"	"teacher"	87	"yes, and also?"	"yes, and also?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	3
+2020-12-11 14:14:46	"student009"	"student"	88	"get over?"	"get over?"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:15:11	"teacher008"	"teacher"	89	"no, break up"	"no, break up"	NA	NA	"repair"	"lexical resource"	NA	NA	3
+2020-12-11 14:15:24	"student009"	"student"	90	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:15:27	"student009"	"student"	91	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:15:35	"teacher008"	"teacher"	92	"well, they are the same in some way and different in another"	"well, they are the same in some way and different in another"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-12-11 14:15:44	"teacher008"	"teacher"	93	"We can say, Fred and Laura broke up"	"We can say, Fred and Laura broke up"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-12-11 14:15:51	"teacher008"	"teacher"	94	"or Fred and Laura split up"	"or Fred and Laura split up"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2020-12-11 14:15:54	"student009"	"student"	95	"i know it"	"I know it"	NA	NA	NA	NA	NA	NA	3
+2020-12-11 14:16:00	"teacher008"	"teacher"	96	"But: Fred broke up with Laura"	"But: Fred broke up with Laura"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-12-11 14:17:15	"teacher008"	"teacher"	97	"Ok, and 'get over' actually means to stop being upset about something'"	"Ok, and 'get over' actually means to stop being upset about something'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-12-11 14:17:23	"student009"	"student"	98	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:17:42	"teacher008"	"teacher"	99	"For example, I couldn't find the tree I needed for my garden, I was really disappointed, but then I got over it"	"For example, I couldn't find the tree I needed for my garden, I was really disappointed, but then I got over it"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	22
+2020-12-11 14:18:22	"teacher008"	"teacher"	100	"Ok, can you have a go at the second exercise under the comic? The one that says 'phrasal verbs: gap fill - in context'"	"Ok, can you have a go at the second exercise under the comic? The one that says 'phrasal verbs: gap fill - in context'"	NA	"5.0"	"exercise,exercise"	"lexical resource"	"website"	NA	24
+2020-12-11 14:22:37	"student009"	"student"	101	"44177.0"	"44177.0"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:22:52	"teacher008"	"teacher"	102	"Oh, well done!"	"Oh, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-12-11 14:22:55	"teacher008"	"teacher"	103	"wonderful"	"wonderful"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:23:26	"teacher008"	"teacher"	104	"So what would you in the same situation as Sam found himself in? Would you tell your friend?"	"So what would you in the same situation as Sam found himself in? Would you tell your friend?"	NA	"6.0"	"exercise,free practice"	"lexical resource"	NA	NA	18
+2020-12-11 14:24:40	"student009"	"student"	105	"I've told you what I would do"	"I've told you what I would do"	NA	NA	NA	NA	NA	NA	7
+2020-12-11 14:25:41	"student009"	"student"	106	"I would talk my friend's partner and maybe than I've told my friend about it"	"I would talk to my friend's partner and maybe then I would tell my friend about it"	NA	NA	NA	NA	NA	NA	15
+2020-12-11 14:26:29	"teacher008"	"teacher"	107	"Ok, why is that?"	"Ok, why is that?"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 14:26:51	"teacher008"	"teacher"	108	"The partner will just tell you it's none of your business :)"	"The partner will just tell you it's none of your business :)"	NA	NA	NA	NA	NA	NA	12
+2020-12-11 14:27:10	"student009"	"student"	109	"so then I will tell to my friend"	"so then I will tell my friend"	NA	NA	NA	NA	NA	NA	8
+2020-12-11 14:27:30	"teacher008"	"teacher"	110	"I see, logical!"	"I see, logical!"	NA	NA	NA	NA	NA	NA	3
+2020-12-11 14:27:39	"teacher008"	"teacher"	111	"I will tell my friend, without 'to'"	"I will tell my friend, without 'to'"	109	NA	"repair"	"lexical resource"	NA	NA	7
+2020-12-11 14:27:58	"teacher008"	"teacher"	112	"Are you going to play Minecraft tonight?"	"Are you going to play Minecraft tonight?"	NA	"7.0"	"topic opening"	NA	NA	NA	7
+2020-12-11 14:28:19	"student009"	"student"	113	"yesss"	"yesss"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:28:43	"teacher008"	"teacher"	114	"Haha, do you play the survival mode?"	"Haha, do you play the survival mode?"	NA	NA	NA	NA	NA	NA	7
+2020-12-11 14:28:48	"teacher008"	"teacher"	115	"or creative?"	"or creative?"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:28:59	"teacher008"	"teacher"	116	"*in the survival mode"	"*in the survival mode"	114	NA	"repair"	"writing"	NA	NA	4
+2020-12-11 14:29:17	"student009"	"student"	117	"we play on servers"	"we play on servers"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 14:29:30	"teacher008"	"teacher"	118	"Oh, with other people?"	"Oh, with other people?"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 14:29:33	"student009"	"student"	119	"with a lot of another people"	"with a lot of other people"	NA	NA	NA	NA	NA	NA	6
+2020-12-11 14:29:45	"teacher008"	"teacher"	120	"with a lot of other people"	"with a lot of other people"	NA	"7a"	"repair"	"lexical resource"	NA	NA	6
+2020-12-11 14:29:50	"teacher008"	"teacher"	121	"another = just 1"	"another = just 1"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-12-11 14:29:53	"teacher008"	"teacher"	122	"another friend"	"another friend"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-12-11 14:29:57	"teacher008"	"teacher"	123	"but other = many"	"but other = many"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-12-11 14:30:03	"student009"	"student"	124	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:30:18	"teacher008"	"teacher"	125	"Do you team up with your friend? Or is everyone playing by themselves?"	"Do you team up with your friend? Or is everyone playing by themselves?"	NA	"7b"	"topic development"	NA	NA	NA	13
+2020-12-11 14:30:29	"student009"	"student"	126	"we even have Internet friends"	"we even have Internet friends"	119	NA	NA	NA	NA	NA	5
+2020-12-11 14:30:45	"teacher008"	"teacher"	127	"Nice, where are they from?"	"Nice, where are they from?"	NA	NA	NA	NA	NA	NA	5
+2020-12-11 14:30:53	"student009"	"student"	128	"with my friend"	"with my friend"	125	NA	NA	NA	NA	NA	3
+2020-12-11 14:31:25	"student009"	"student"	129	"So, my like the closest friend is <STUDENT'S FRIEND>"	"So, my like the closest friend is <STUDENT'S FRIEND>"	127	NA	NA	NA	NA	NA	9
+2020-12-11 14:31:34	"student009"	"student"	130	"I don't know his real name"	"I don't know his real name"	NA	NA	NA	NA	NA	NA	6
+2020-12-11 14:31:43	"student009"	"student"	131	"I just call him like that"	"I just call him that"	NA	NA	NA	NA	NA	NA	6
+2020-12-11 14:31:48	"teacher008"	"teacher"	132	"Maybe it is his real name!"	"Maybe it is his real name!"	NA	NA	NA	NA	NA	NA	6
+2020-12-11 14:32:00	"student009"	"student"	133	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:32:09	"teacher008"	"teacher"	134	"My son has two boys with this name in his class"	"My son has two boys with this name in his class"	NA	NA	NA	NA	NA	NA	11
+2020-12-11 14:32:26	"student009"	"student"	135	"he is from Ukraine, and <STUDENT'S FRIEND> is a name of a character from one game"	"he is from Ukraine, and <STUDENT'S FRIEND> is a name of a character from one game"	NA	NA	NA	NA	NA	NA	16
+2020-12-11 14:32:36	"teacher008"	"teacher"	136	"Aah, I see!"	"Aah, I see!"	NA	NA	NA	NA	NA	NA	3
+2020-12-11 14:32:39	"teacher008"	"teacher"	137	"makes sense"	"makes sense"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:32:49	"teacher008"	"teacher"	138	"Ok, I'll let you go enjoy your game - and your weekend!"	"Ok, I'll let you go enjoy your game - and your weekend!"	NA	"8.0"	"closing"	NA	NA	NA	12
+2020-12-11 14:33:20	"student009"	"student"	139	"thank you !"	"thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-12-11 14:33:26	"student009"	"student"	140	"you too"	"you too"	NA	NA	NA	NA	NA	NA	2
+2020-12-11 14:33:32	"teacher008"	"teacher"	141	"Thanks :) bye!"	"Thanks :) bye!"	NA	NA	NA	NA	NA	NA	3
+2020-12-11 14:33:37	"student009"	"student"	142	"thank for the lesson"	"thank for the lesson"	NA	NA	NA	NA	NA	NA	4
+2020-12-11 14:33:39	"student009"	"student"	143	"bye"	"bye"	NA	NA	NA	NA	NA	NA	1
+2020-12-11 14:33:42	"teacher008"	"teacher"	144	"My pleasure)"	"My pleasure)"	142	NA	NA	NA	NA	"B2"	2

@@ -1,0 +1,145 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-03-01 13:07:09	"student012"	"student"	1	"Hello!"	"Hello!"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-03-01 13:07:35	"teacher008"	"teacher"	2	"Hiya!"	"Hiya!"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:07:49	"student012"	"student"	3	"How do you do?"	"How do you do?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-03-01 13:08:06	"teacher008"	"teacher"	4	"Good to have you here, and thanks again for agreeing to change the time!"	"Good to have you here, and thanks again for agreeing to change the time!"	2	NA	NA	NA	NA	NA	14
+2021-03-01 13:08:27	"student012"	"student"	5	"No problem"	"No problem"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:08:36	"student012"	"student"	6	"Nice to see you"	"Nice to see you"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:08:44	"teacher008"	"teacher"	7	"All good, thank you! It's the last week of the really strict lockdown, it's going to be *just* strict starting from the 8th"	"All good, thank you! It's the last week of the really strict lockdown, it's going to be *just* strict starting from the 8th"	3	NA	NA	NA	NA	NA	23
+2021-03-01 13:09:21	"student012"	"student"	8	"Quick question before I forget. What will be the English equivalent of 'Иди ко мне на руки'?"	"Quick question before I forget. What will be the English equivalent of 'Иди ко мне на руки'?"	NA	"3.0"	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	17
+2021-03-01 13:09:45	"teacher008"	"teacher"	9	"Let me think!"	"Let me think!"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 13:10:27	"student012"	"student"	10	"Good news! Are the schools going to work?"	"Good news! Are schools going to work?"	7	NA	NA	NA	NA	NA	8
+2021-03-01 13:11:33	"teacher008"	"teacher"	11	"I think it depends on whether we mean being on someone's lap or being in someone's arms, both of which are  'na ruki' in Russian, aren't they?"	"I think it depends on whether we mean being on someone's lap or being in someone's arms, both of which are  'na ruki' in Russian, aren't they?"	9	NA	"scaffolding,non-English"	"code switching,lexical resource,meaning"	NA	NA	28
+2021-03-01 13:12:11	"teacher008"	"teacher"	12	"So I would say 'Come sit on my lap' or 'Come, I'll pick you up / come have a cuddle'"	"So I would say 'Come sit on my lap' or 'Come, I'll pick you up / come have a cuddle'"	NA	NA	"scaffolding,non-English"	"lexical resource,meaning"	NA	NA	20
+2021-03-01 13:12:31	"teacher008"	"teacher"	13	"Yes, schools are re-opening!"	"Yes, schools are re-opening!"	10	NA	NA	NA	NA	NA	4
+2021-03-01 13:12:32	"student012"	"student"	14	"Right. I'll pick you up was what I meant in Russian"	"Right. I'll pick you up was what I meant in Russian"	12	NA	NA	NA	NA	NA	11
+2021-03-01 13:12:46	"student012"	"student"	15	"I knew the lap one"	"I knew the lap one"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 13:13:24	"student012"	"student"	16	"And what would you say 'на руках у папы' ?"	"And what would you say is 'на руках у папы' ?"	NA	"3a"	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	10
+2021-03-01 13:13:26	"teacher008"	"teacher"	17	"I suppose 'on the lap' is 'na kolenyakh'. Or do we say 'na ruki' too? I can't remember!!"	"I suppose 'on the lap' is 'na kolenyakh'. Or do we say 'na ruki' too? I can't remember!!"	15	NA	"eliciting,non-English"	"code switching,lexical resource"	NA	NA	18
+2021-03-01 13:14:08	"teacher008"	"teacher"	18	"I would say, her Dad's holding her"	"I would say, her Dad's holding her"	16	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-03-01 13:14:09	"student012"	"student"	19	"I think we say 'на руки' for on the lap"	"I think we say 'на руки' for on the lap"	17	NA	"non-English"	"code switching,lexical resource"	NA	NA	10
+2021-03-01 13:14:32	"teacher008"	"teacher"	20	"Yeah, we do, don't we? Weird..."	"Yeah, we do, don't we? Weird..."	NA	NA	NA	NA	NA	NA	6
+2021-03-01 13:15:23	"student012"	"student"	21	"I see. So there isn't really a word for upper на руках."	"I see. So there isn't really a word for upper на руках."	18	NA	"non-English"	"code switching,lexical resource"	NA	NA	12
+2021-03-01 13:15:52	"student012"	"student"	22	"We use it so very often I notice"	"We use it so very often I notice"	NA	NA	NA	NA	NA	NA	8
+2021-03-01 13:16:12	"teacher008"	"teacher"	23	"Haha, upper na rukakh :)) well, you can say 'in his arms', but it doesn't actually convey the idea of being held"	"Haha, upper na rukakh :)) well, you can say 'in his arms', but it doesn't actually convey the idea of being held"	21	NA	"non-English,scaffolding"	"code switching,lexical resource,meaning"	NA	NA	22
+2021-03-01 13:16:23	"teacher008"	"teacher"	24	"without feet touching the ground"	"without feet touching the ground"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2021-03-01 13:16:45	"student012"	"student"	25	"Right"	"Right"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:17:21	"student012"	"student"	26	"Сидеть на руках"	"Сидеть на руках"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+2021-03-01 13:17:32	"student012"	"student"	27	"A tough one"	"A tough one"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 13:17:50	"student012"	"student"	28	"You sit in my arms"	"You sit in my arms"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 13:18:57	"teacher008"	"teacher"	29	"Yes, it definitely is! Poor students of Russian! It makes very little sense"	"Yes, it definitely is! Poor students of Russian! It makes very little sense"	NA	NA	NA	NA	NA	NA	13
+2021-03-01 13:19:45	"teacher008"	"teacher"	32	"Oops, sorry, the chatroom crashed"	"Oops, sorry, the chatroom crashed"	NA	"4.0"	"disruption"	NA	NA	NA	5
+2021-03-01 13:19:49	"student012"	"student"	33	"The chat crashed"	"The chat crashed"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 13:19:53	"student012"	"student"	34	"yep"	"yep"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:19:54	"teacher008"	"teacher"	35	"yep"	"yep"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:19:56	"student012"	"student"	36	"That's fine"	"That's fine"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:20:02	"student012"	"student"	37	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:20:07	"teacher008"	"teacher"	38	"I know))"	"I know))"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:20:30	"student012"	"student"	39	"Half of what I type doesn't go through"	"Half of what I type doesn't go through"	NA	NA	NA	NA	NA	NA	8
+2021-03-01 13:20:38	"teacher008"	"teacher"	40	"So again, I think 'in someone's arms' is just this idea of an embrace"	"So again, I think 'in someone's arms' is just this idea of an embrace"	NA	"3b"	"redirection,scaffolding"	"lexical resource,meaning"	NA	NA	14
+2021-03-01 13:20:48	"teacher008"	"teacher"	41	"Oh really? Is it any better now?"	"Oh really? Is it any better now?"	39	NA	NA	NA	NA	NA	7
+2021-03-01 13:20:52	"student012"	"student"	42	"I see"	"I see"	40	NA	NA	NA	NA	NA	2
+2021-03-01 13:20:55	"student012"	"student"	43	"Better!"	"Better!"	41	NA	NA	NA	NA	NA	1
+2021-03-01 13:21:19	"teacher008"	"teacher"	44	"Like, when we dance, I hold you in my arms bla bla bla (as a song cliche)"	"Like, when we dance, I hold you in my arms bla bla bla (as a song cliche)"	42	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2021-03-01 13:22:27	"teacher008"	"teacher"	45	"So you can definitely hold a child in your arms, but, if I was describing a picture of a child who is 'na rukakh', I would say, the mother / father is holding them"	"So you can definitely hold a child in your arms, but, if I was describing a picture of a child who is 'na rukakh', I would say, the mother / father is holding them"	NA	NA	"scaffolding,non-English"	"lexical resource,meaning,code switching"	NA	NA	34
+2021-03-01 13:23:16	"student012"	"student"	46	"Right"	"Right"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:23:24	"student012"	"student"	47	"Thank you for clarifying"	"Thank you for clarifying"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:23:36	"teacher008"	"teacher"	48	"No worries at all"	"No worries at all"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:23:55	"teacher008"	"teacher"	49	"Good news! Are the schools going to work? - can you spot an extra word?"	"Good news! Are the schools going to work? - can you spot an extra word?"	NA	"5.0"	"topic opening,eliciting,repair"	"grammatical resource"	NA	NA	15
+2021-03-01 13:24:49	"student012"	"student"	50	"the?"	"the?"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:25:02	"teacher008"	"teacher"	51	"Yes! pesky articles"	"Yes! pesky articles"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 13:25:13	"teacher008"	"teacher"	52	"Because you mean schools in general, all schools, right?"	"Because you mean schools in general, all schools, right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2021-03-01 13:25:26	"student012"	"student"	53	"Right. A silly mistake)"	"Right. A silly mistake)"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:26:01	"teacher008"	"teacher"	54	"No, not silly, articles are a really difficult subject"	"No, not silly, articles are a really difficult subject"	NA	NA	NA	NA	NA	NA	9
+2021-03-01 13:26:58	"student012"	"student"	55	"Yes, too many rules and exceptions"	"Yes, too many rules and exceptions"	NA	NA	NA	NA	NA	NA	6
+2021-03-01 13:27:20	"teacher008"	"teacher"	56	"Speaking of which, I've got a choice for you today. Would you like to look at 'the or no article' in the 'orange' book or finish off the writing?"	"Speaking of which, I've got a choice for you today. Would you like to look at 'the or no article' in the 'orange' book or finish off the writing?"	NA	"5a"	NA	NA	NA	NA	29
+2021-03-01 13:27:34	"student012"	"student"	57	"The orange book please"	"The orange book please"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:27:45	"student012"	"student"	58	"I have it with me"	"I have it with me"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 13:27:51	"teacher008"	"teacher"	59	"Lovely! one sec"	"Lovely! one sec"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 13:28:40	"teacher008"	"teacher"	60	"p. 130. Could you read the first section and tell me if there's anything new / interesting there?"	"p. 130. Could you read the first section and tell me if there's anything new / interesting there?"	NA	"5b"	"scaffolding"	"grammatical resource"	"textbook"	NA	18
+2021-03-01 13:28:56	"student012"	"student"	61	"one sec"	"one sec"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:30:14	"student012"	"student"	62	"Logic is not always a reliable guide -- pretty much sums up the whole 'Articles' grammar section"	"Logic is not always a reliable guide -- pretty much sums up the whole 'Articles' grammar section"	NA	NA	NA	NA	NA	NA	17
+2021-03-01 13:31:30	"teacher008"	"teacher"	63	"I know, this is the best sentence :))"	"I know, this is the best sentence :))"	NA	NA	NA	NA	NA	NA	8
+2021-03-01 13:32:20	"teacher008"	"teacher"	64	"Still, the idea that helps me is to think of 'the' as a short form of this/that/these/those"	"Still, the idea that helps me is to think of 'the' as a short form of this/that/these/those"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	17
+2021-03-01 13:32:31	"student012"	"student"	65	"Ok. Read it, refreshed it in my memory"	"Ok. Read it, refreshed it in my memory"	63	NA	NA	NA	NA	NA	8
+2021-03-01 13:33:23	"teacher008"	"teacher"	66	"Basically, if you can replace an article with this / that / these / those, you probably need a 'the'. As opposed to 'any' (a / no article)"	"Basically, if you can replace an article with this / that / these / those, you probably need a 'the'. As opposed to 'any' (a / no article)"	64	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	28
+2021-03-01 13:33:54	"teacher008"	"teacher"	67	"Ok! Section 2?"	"Ok! Section 2?"	NA	"5c"	NA	NA	NA	NA	3
+2021-03-01 13:34:08	"student012"	"student"	68	"one sec"	"one sec"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:35:52	"student012"	"student"	69	"what is piety?"	"what is piety?"	NA	"5d"	"enquiry"	"lexical resource,meaning"	NA	NA	3
+2021-03-01 13:36:58	"teacher008"	"teacher"	70	"It's being very religious"	"It's being very religious"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+2021-03-01 13:37:10	"teacher008"	"teacher"	71	"strong belief in a religion that is shown in the way someone lives"	"strong belief in a religion that is shown in the way someone lives"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2021-03-01 13:37:19	"teacher008"	"teacher"	72	"says Cambridge English Dictionary"	"says Cambridge English Dictionary"	NA	NA	"reference"	NA	"dictionary"	NA	4
+2021-03-01 13:37:47	"teacher008"	"teacher"	73	"not just having faith, but having a lifestyle that demonstrates it"	"not just having faith, but having a lifestyle that demonstrates it"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-03-01 13:38:08	"teacher008"	"teacher"	74	"the adjective is pious"	"the adjective is pious"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2021-03-01 13:38:14	"student012"	"student"	75	"Does it come close to the Russian пиетет I wonder"	"Does it come close to the Russian пиетет I wonder"	NA	NA	"enquiry,non-English"	"code switching,lexical resource,meaning"	NA	NA	10
+2021-03-01 13:38:43	"teacher008"	"teacher"	76	"Yep, that's where пиетет comes from :) but itn"	"Yep, that's where пиетет comes from :) but itn"	NA	NA	"scaffolding,non-English"	"lexical resource,code switching"	NA	NA	9
+2021-03-01 13:39:03	"student012"	"student"	77	"Great. Thanks!"	"Great. Thanks!"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:39:13	"student012"	"student"	78	"Ok. I read Section 2"	"Ok. I read Section 2"	68	NA	NA	NA	NA	NA	5
+2021-03-01 13:39:27	"teacher008"	"teacher"	79	"in Russian it means respect / deference rather than being very religious I think"	"in Russian it means respect / deference rather than being very religious I think"	77	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+2021-03-01 13:39:58	"student012"	"student"	80	"Right. A little different in meaning"	"Right. A little different in meaning"	NA	NA	NA	NA	NA	NA	6
+2021-03-01 13:40:01	"teacher008"	"teacher"	81	"Ok, cool! Section 3 is very good, I love the examples"	"Ok, cool! Section 3 is very good, I love the examples"	78	NA	NA	NA	NA	NA	11
+2021-03-01 13:42:49	"student012"	"student"	82	"I like the one with 'on the brain;"	"I like the one with 'on the brain;"	NA	"5e"	"topic development"	"lexical resource,grammatical resource"	NA	NA	8
+2021-03-01 13:43:38	"teacher008"	"teacher"	83	"Hmm, maybe you've got different examples!"	"Hmm, maybe you've got different examples!"	NA	NA	NA	NA	NA	NA	6
+2021-03-01 13:43:45	"teacher008"	"teacher"	84	"Which one is it?"	"Which one is it?"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:43:59	"student012"	"student"	85	"<STUDENT'S CHILD> watches some crazy cartoons with very catchy tunes"	"<STUDENT'S CHILD> watches some crazy cartoons with very catchy tunes"	82	NA	NA	NA	NA	NA	10
+2021-03-01 13:44:49	"student012"	"student"	86	"I've got this annoying tune on the brain'"	"I've got this annoying tune on the brain'"	NA	NA	NA	NA	NA	NA	8
+2021-03-01 13:45:24	"teacher008"	"teacher"	87	"I haven't got this one :( that's a shame, it means our books are slightly different!"	"I haven't got this one :( that's a shame, it means our books are slightly different!"	NA	"5f"	"topic development"	NA	NA	NA	16
+2021-03-01 13:45:51	"student012"	"student"	88	"In the 'Parts of the Body' section"	"In the 'Parts of the Body' section"	NA	NA	NA	NA	NA	NA	7
+2021-03-01 13:46:17	"student012"	"student"	89	"That's fine. Actually, they only add a couple of examples and call it a new addition"	"That's fine. Actually, they only add a couple of examples and call it a new edition"	NA	NA	NA	NA	NA	NA	16
+2021-03-01 13:46:35	"teacher008"	"teacher"	90	"Wow! I haven't got this section!"	"Wow! I haven't got this section!"	NA	NA	NA	NA	NA	NA	6
+2021-03-01 13:46:49	"student012"	"student"	91	"Section 3?"	"Section 3?"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:47:06	"student012"	"student"	92	"Mine is 2008"	"Mine is 2008"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 13:47:15	"teacher008"	"teacher"	93	"My section 3 is just 'General or specific - adding the'"	"My section 3 is just 'General or specific - adding the'"	91	NA	NA	NA	NA	NA	11
+2021-03-01 13:47:22	"student012"	"student"	94	"What year is your copy?"	"What year is your copy?"	92	NA	NA	NA	NA	NA	5
+2021-03-01 13:47:50	"student012"	"student"	95	"I've got Section 3 -- Classifying"	"I've got Section 3 -- Classifying"	NA	NA	NA	NA	NA	NA	6
+2021-03-01 13:47:53	"teacher008"	"teacher"	96	"Ah, mine is 2000, that'll be it"	"Ah, mine is 2000, that'll be it"	94	NA	NA	NA	NA	NA	7
+2021-03-01 13:48:14	"teacher008"	"teacher"	97	"Ah, I see, I think there's a separate unit of classifying"	"Ah, I see, I think there's a separate unit of classifying"	95	NA	NA	NA	NA	NA	11
+2021-03-01 13:48:39	"teacher008"	"teacher"	98	"Are you still on page 130?"	"Are you still on page 130?"	NA	NA	NA	NA	NA	NA	6
+2021-03-01 13:48:41	"student012"	"student"	99	"Do you have Section 4?"	"Do you have Section 4?"	97	NA	NA	NA	NA	NA	5
+2021-03-01 13:48:49	"student012"	"student"	100	"p.134"	"p.134"	98	NA	NA	NA	NA	NA	1
+2021-03-01 13:49:08	"teacher008"	"teacher"	101	"nope, I've got a picture of a grown-up son who crashed dad's car"	"nope, I've got a picture of a grown-up son who crashed dad's car"	99	NA	NA	NA	NA	NA	13
+2021-03-01 13:49:17	"student012"	"student"	102	"Oh I have it too"	"Oh I have it too"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 13:49:27	"student012"	"student"	103	"It's in Section 1"	"It's in Section 1"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:50:24	"teacher008"	"teacher"	104	"Oh goodness, I know what happened! When I said 'section', I didn't actually mean the whole page, I meant one paragraph. Sorry, entirely my fault! I just made you read three pages of rules :((("	"Oh goodness, I know what happened! When I said 'section', I didn't actually mean the whole page, I meant one paragraph. Sorry, entirely my fault! I just made you read three pages of rules :((("	NA	NA	NA	NA	NA	NA	35
+2021-03-01 13:51:01	"student012"	"student"	105	"haha)) No worries. I enjoyed it!"	"haha)) No worries. I enjoyed it!"	NA	NA	NA	NA	NA	NA	6
+2021-03-01 13:51:15	"teacher008"	"teacher"	106	"Good! Sorry about that..."	"Good! Sorry about that..."	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:51:26	"teacher008"	"teacher"	107	"Let's go back to practice, page 131 please"	"Let's go back to practice, page 131 please"	NA	"6.0"	"exercise"	"grammatical resource"	"textbook"	NA	8
+2021-03-01 13:51:33	"student012"	"student"	108	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:51:38	"student012"	"student"	109	"Which task?"	"Which task?"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:51:41	"teacher008"	"teacher"	110	"I thought it was taking you a little longer than I expected to read a paragraph..."	"I thought it was taking you a little longer than I expected to read a paragraph..."	106	NA	NA	NA	NA	NA	16
+2021-03-01 13:51:53	"student012"	"student"	111	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:52:04	"teacher008"	"teacher"	112	"the killer exercise 1 please"	"the killer exercise 1 please"	109	NA	NA	NA	NA	NA	5
+2021-03-01 13:52:19	"student012"	"student"	113	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:52:46	"student012"	"student"	114	"10 fun"	"10 fun"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:52:50	"student012"	"student"	115	"1) fun"	"1) fun"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 13:53:10	"teacher008"	"teacher"	116	"wait a sec"	"wait a sec"	NA	"6a"	"clarification"	NA	NA	NA	3
+2021-03-01 13:53:56	"teacher008"	"teacher"	117	"Sorry, page 130! it's 131 in the pdf, but you have the hard copy of the book, don't you?"	"Sorry, page 130! it's 131 in the pdf, but you have the hard copy of the book, don't you?"	NA	NA	NA	NA	NA	NA	19
+2021-03-01 13:54:07	"student012"	"student"	118	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:54:07	"teacher008"	"teacher"	119	"Sorry, my bad again! page 130 ex. 1"	"Sorry, my bad again! page 130 ex. 1"	NA	NA	NA	NA	NA	NA	8
+2021-03-01 13:54:32	"student012"	"student"	120	"What's the task about?"	"What's the task about?"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:54:41	"teacher008"	"teacher"	121	"The one that starts with 'there are countless varieties...'"	"The one that starts with 'there are countless varieties...'"	NA	NA	NA	NA	NA	NA	9
+2021-03-01 13:55:04	"teacher008"	"teacher"	122	"Write in the where necessary'"	"Write in the where necessary'"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 13:56:05	"student012"	"student"	123	"Can't seem to find it"	"Can't seem to find it"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 13:56:29	"teacher008"	"teacher"	124	"Ok, sure, one sec"	"Ok, sure, one sec"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 13:56:51	"teacher008"	"teacher"	125	"There are countless varieties of English in use in English-speaking world."	"There are countless varieties of English in use in English-speaking world."	NA	"6b"	"exercise"	"grammatical resource"	"textbook"	NA	11
+2021-03-01 13:57:01	"teacher008"	"teacher"	126	"Is the missing anywhere in this sentence?"	"Is the missing anywhere in this sentence?"	NA	NA	NA	NA	NA	NA	7
+2021-03-01 13:57:31	"student012"	"student"	127	"the English-speaking world"	"the English-speaking world"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 13:57:37	"teacher008"	"teacher"	128	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 13:58:38	"teacher008"	"teacher"	129	"Concepts of language vary from country to country and from generation to generation; English you hear nowadays is no way recognisable as language spoken by last generation, let alone in time of Shakespear."	"Concepts of language vary from country to country and from generation to generation; English you hear nowadays is no way recognisable as language spoken by last generation, let alone in time of Shakespear."	NA	"6c"	"exercise"	"grammatical resource"	"textbook"	NA	33
+2021-03-01 13:59:08	"teacher008"	"teacher"	130	"*in no way recognisable"	"*in no way recognisable"	NA	NA	"repair"	"writing"	NA	NA	4
+2021-03-01 13:59:13	"student012"	"student"	131	"Only 1 the is missing?"	"Only 1 the is missing?"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 13:59:24	"teacher008"	"teacher"	132	"No, more than one!"	"No, more than one!"	NA	NA	NA	NA	NA	NA	4
+2021-03-01 14:00:30	"student012"	"student"	133	"The concepts, the English, the language spoken, the last generation"	"The concepts, the English, the language spoken, the last generation"	NA	NA	NA	NA	NA	NA	10
+2021-03-01 14:00:32	"student012"	"student"	134	"in the time"	"in the time"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 14:00:53	"teacher008"	"teacher"	135	"Yes, except for the concepts"	"Yes, except for the concepts"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 14:01:03	"student012"	"student"	136	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-01 14:01:12	"teacher008"	"teacher"	137	"I think 'of language' is not defining enough"	"I think 'of language' is not defining enough"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2021-03-01 14:01:22	"teacher008"	"teacher"	138	"because in the singular we could say 'a concept of language'"	"because in the singular we could say 'a concept of language'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2021-03-01 14:01:27	"teacher008"	"teacher"	139	"so no article in the plural"	"so no article in the plural"	NA	NA	NA	NA	NA	NA	6
+2021-03-01 14:02:04	"teacher008"	"teacher"	140	"Ok, I've got to let you go. Thanks for bearing with me through 3 pages of unintended grammar assault! :)"	"Ok, I've got to let you go. Thanks for bearing with me through 3 pages of unintended grammar assault! :)"	NA	"7.0"	"closing"	NA	NA	NA	20
+2021-03-01 14:02:33	"student012"	"student"	141	"It was quite a refresher"	"It was quite a refresher"	NA	NA	NA	NA	NA	NA	5
+2021-03-01 14:02:46	"student012"	"student"	142	"Thank you for explaining some grammar to me!"	"Thank you for explaining some grammar to me!"	NA	NA	NA	NA	NA	NA	8
+2021-03-01 14:02:58	"teacher008"	"teacher"	143	":) Ok, thanks, I'll message you later!"	":) Ok, thanks, I'll message you later!"	NA	NA	NA	NA	NA	NA	7
+2021-03-01 14:03:03	"teacher008"	"teacher"	144	"Take care!"	"Take care!"	NA	NA	NA	NA	NA	NA	2
+2021-03-01 14:03:06	"student012"	"student"	145	"Thank you! Bye!"	"Thank you! Bye!"	NA	NA	NA	NA	NA	NA	3
+2021-03-01 14:03:07	"student012"	"student"	146	"You too"	"You too"	NA	NA	NA	NA	NA	"C2"	2

@@ -1,0 +1,163 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-03-12 10:31:33	"student011"	"student"	1	"Hi, <TEACHER>"	"Hi, <TEACHER>"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-03-12 10:31:47	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 10:32:15	"student011"	"student"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-03-12 10:33:10	"teacher008"	"teacher"	5	"Good, thank you! But my laptop's being weird this morning, I'm restarting it and chatting on my phone at the moment, which is slower. Sorry about that!"	"Good, thank you! But my laptop's being weird this morning, I'm restarting it and chatting on my phone at the moment, which is slower. Sorry about that!"	NA	NA	NA	NA	NA	NA	27
+2021-03-12 10:33:17	"teacher008"	"teacher"	6	"How are you?"	"How are you?"	NA	"2a"	"topic development"	NA	NA	NA	3
+2021-03-12 10:33:40	"student011"	"student"	7	"It's ok, don't worry"	"It's ok, don't worry"	5	NA	NA	NA	NA	NA	4
+2021-03-12 10:34:12	"student011"	"student"	8	"I'm ok. I've had a yoga lesson"	"I'm ok. I've had a yoga lesson"	6	NA	NA	NA	NA	NA	7
+2021-03-12 10:34:32	"student011"	"student"	9	"It is snow again in Kyiv ("	"It is snowing again in Kyiv ("	NA	NA	NA	NA	NA	NA	7
+2021-03-12 10:34:34	"teacher008"	"teacher"	10	"Was it nice?"	"Was it nice?"	8	NA	NA	NA	NA	NA	3
+2021-03-12 10:34:39	"teacher008"	"teacher"	11	"Oh really?"	"Oh really?"	9	NA	NA	NA	NA	NA	2
+2021-03-12 10:35:03	"teacher008"	"teacher"	12	"Are getting a bit fed up with the winter?"	"Are getting a bit fed up with the winter?"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 10:35:29	"student011"	"student"	13	"It was nice, thank you. I feel more relaxed after it and at the same time I feel more strong )"	"It was nice, thank you. I feel more relaxed after it and at the same time I feel stronger )"	10	NA	NA	NA	NA	NA	21
+2021-03-12 10:35:33	"student011"	"student"	14	"ups"	"oops"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 10:35:36	"student011"	"student"	15	"stronger )"	"stronger )"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2021-03-12 10:36:42	"student011"	"student"	16	"I'm completely fed up with the winter! ))"	"I'm completely fed up with the winter! ))"	12	NA	NA	NA	NA	NA	8
+2021-03-12 10:36:52	"teacher008"	"teacher"	17	"Yaay, I'm on my laptop now!"	"Yaay, I'm on my laptop now!"	NA	"3.0"	"disruption"	NA	NA	NA	6
+2021-03-12 10:36:56	"student011"	"student"	18	"Hi ))"	"Hi ))"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 10:36:58	"teacher008"	"teacher"	19	"I can imagine!"	"I can imagine!"	16	NA	NA	NA	NA	NA	3
+2021-03-12 10:37:18	"teacher008"	"teacher"	20	"It's not nice here either. Cold and very windy!"	"It's not nice here either. Cold and very windy!"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 10:37:59	"teacher008"	"teacher"	21	"Sooo, how did you like the interview?"	"Sooo, how did you like the interview?"	NA	"4.0"	"topic opening"	"listening"	NA	NA	7
+2021-03-12 10:38:10	"student011"	"student"	22	"it's windy here too"	"it's windy here too"	20	NA	NA	NA	NA	NA	4
+2021-03-12 10:38:23	"student011"	"student"	23	"I really like it"	"I really liked it"	21	NA	NA	NA	NA	NA	4
+2021-03-12 10:38:42	"student011"	"student"	24	"I was confused about the house"	"I was confused about the house"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 10:39:22	"student011"	"student"	25	"Because I didn't want that sitcom about the prince )"	"Because I didn't know that sitcom about the prince )"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 10:39:29	"student011"	"student"	26	"But I googled it )"	"But I googled it )"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 10:39:33	"teacher008"	"teacher"	27	"Oh, from the Fresh Prince of Bel-Air?"	"Oh, from the Fresh Prince of Bel-Air?"	NA	NA	NA	NA	NA	NA	7
+2021-03-12 10:39:38	"student011"	"student"	28	"Yes )"	"Yes )"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 10:39:46	"teacher008"	"teacher"	29	"Yes, it's an old American sitcom, you're absolutely right!"	"Yes, it's an old American sitcom, you're absolutely right!"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 10:40:08	"teacher008"	"teacher"	30	"with Will Smith I think"	"with Will Smith I think"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 10:40:19	"student011"	"student"	31	"I wrote about on the Wikipedia"	"I read about it in Wikipedia"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 10:40:29	"student011"	"student"	32	"not THE Wiki?"	"not THE Wiki?"	NA	"4a"	"enquiry"	"grammatical resource"	NA	NA	3
+2021-03-12 10:40:51	"teacher008"	"teacher"	33	"Yes, the Wikipedia, that's right :)"	"Yes, the Wikipedia, that's right :)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-03-12 10:40:51	"student011"	"student"	34	"Yes, you are right. With All Smith"	"Yes, you are right. With Will Smith"	30	NA	NA	NA	NA	NA	7
+2021-03-12 10:41:16	"student011"	"student"	35	"The Wikipedia, but just Twitter or Facebook?"	"The Wikipedia, but just Twitter or Facebook?"	33	NA	"enquiry"	"grammatical resource"	NA	NA	7
+2021-03-12 10:41:43	"student011"	"student"	36	"Instagram, TikTok, Clubhouse? ))"	"Instagram, TikTok, Clubhouse? ))"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 10:41:51	"teacher008"	"teacher"	37	"Let me check, I've started to doubt it"	"Let me check, I've started to doubt it"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 10:42:39	"teacher008"	"teacher"	38	"Yes, I think it's just 'Wikipedia', sorry!"	"Yes, I think it's just 'Wikipedia', sorry!"	NA	NA	"repair,scaffolding"	"grammatical resource"	NA	NA	7
+2021-03-12 10:42:48	"teacher008"	"teacher"	39	"You know your social media better than I do!"	"You know your social media better than I do!"	36	NA	NA	NA	NA	NA	9
+2021-03-12 10:43:41	"student011"	"student"	40	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 10:43:58	"student011"	"student"	41	"But I felt like I need THE before Wikipedia too"	"But I felt like I need THE before Wikipedia too"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 10:44:40	"student011"	"student"	42	"Maybe it's false feeling )"	"Maybe it's a false feeling )"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 10:45:09	"teacher008"	"teacher"	43	"Yes, I know what you mean."	"Yes, I know what you mean."	NA	NA	NA	NA	NA	NA	6
+2021-03-12 10:45:19	"teacher008"	"teacher"	44	"like 'the Encyclopedia Britannica'"	"like 'the Encyclopedia Britannica'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2021-03-12 10:45:28	"teacher008"	"teacher"	45	"or 'the Big Soviet Encyclopedia'"	"or 'the Big Soviet Encyclopedia'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2021-03-12 10:46:28	"student011"	"student"	46	"Yes! Maybe it's because of 'pedia' )"	"Yes! Maybe it's because of 'pedia' )"	NA	NA	NA	NA	NA	NA	7
+2021-03-12 10:48:29	"teacher008"	"teacher"	48	"My favourite bit of the interview was when they were having a cup of tea on the bus :) and they spilled it (I now have <TEACHER'S CHILD>'s sense of humour)"	"My favourite bit of the interview was when they were having a cup of tea on the bus :) and they spilled it (I now have <TEACHER'S CHILD>'s sense of humour)"	NA	"4b"	"topic development"	NA	NA	NA	31
+2021-03-12 10:48:32	"student011"	"student"	51	"Are you here?"	"Are you here?"	NA	"5.0"	"disruption"	NA	NA	NA	3
+2021-03-12 10:49:19	"teacher008"	"teacher"	52	"hello"	"hello"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 10:52:52	"student011"	"student"	53	"Ah, ok"	"Ah, ok"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 10:53:16	"student011"	"student"	56	"It looks like he chat doesn't work well today"	"It looks like the chat isn't working well today"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 10:54:47	"student011"	"student"	58	"HI )"	"HI )"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 10:56:37	"teacher008"	"teacher"	59	"hello hello"	"hello hello"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 10:59:41	"teacher008"	"teacher"	63	"hi"	"hi"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 10:59:42	"student011"	"student"	65	"kuku"	"kuku"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 10:59:42	"teacher008"	"teacher"	66	"hello"	"hello"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:00:23	"teacher008"	"teacher"	67	"hi"	"hi"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:00:32	"teacher008"	"teacher"	68	"Oh my goodness, it's working!!!!"	"Oh my goodness, it's working!!!!"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:00:48	"teacher008"	"teacher"	69	"Fingers crossed!!"	"Fingers crossed!!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:01:36	"student011"	"student"	70	"Yes )"	"Yes )"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:01:59	"teacher008"	"teacher"	71	"We're on)) Let's just hope it keeps working"	"We're on)) Let's just hope it keeps working"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 11:02:06	"student011"	"student"	72	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:02:47	"teacher008"	"teacher"	73	"Ok, how about we look back at our words, and you can try to remember who said them in the interview and what it was about, ok?"	"Ok, how about we look back at our words, and you can try to remember who said them in the interview and what it was about, ok?"	NA	"6.0"	"exercise,revision"	"writing,lexical resource,listening"	NA	NA	27
+2021-03-12 11:03:01	"student011"	"student"	74	"Ok, Let's try )"	"Ok, Let's try )"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 11:03:12	"teacher008"	"teacher"	75	"We've got 'hidden gems' and 'a (bus) fare'"	"We've got 'hidden gems' and 'a (bus) fare'"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 11:03:34	"student011"	"student"	76	"Ok it was about LA"	"Ok it was about LA"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:04:48	"student011"	"student"	77	"James Corden was talking about it"	"James Corden was talking about it"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 11:04:50	"teacher008"	"teacher"	80	"Yes, James was going to show Harry the hidden gems of LA :)"	"Yes, James was going to show Harry the hidden gems of LA :)"	NA	NA	NA	NA	NA	NA	13
+2021-03-12 11:05:12	"student011"	"student"	82	"oh!"	"oh!"	NA	"7.0"	"disruption"	NA	NA	NA	1
+2021-03-12 11:05:17	"student011"	"student"	83	"I'm here now"	"I'm here now"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:05:23	"teacher008"	"teacher"	84	"oh yes, me too"	"oh yes, me too"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 11:05:34	"teacher008"	"teacher"	85	"So sorry about all this!"	"So sorry about all this!"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:05:52	"student011"	"student"	86	"Don't be sorry, it's not you fault"	"Don't be sorry, it's not you fault"	NA	NA	NA	NA	NA	NA	7
+2021-03-12 11:06:04	"teacher008"	"teacher"	87	"thank you) and thanks for your patience"	"thank you) and thanks for your patience"	NA	NA	NA	NA	NA	NA	7
+2021-03-12 11:06:47	"student011"	"student"	88	"no probs"	"no probs"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:07:33	"teacher008"	"teacher"	89	"Ok! What about 'the one' and 'hit it off'?"	"Ok! What about 'the one' and 'hit it off'?"	NA	"6a"	"exercise,revision"	"lexical resource,listening,writing"	NA	NA	9
+2021-03-12 11:07:33	"student011"	"student"	91	"Actually I like the interview but I think that Harry's behavior was sooo like has to be )"	"Actually I liked the interview but I think that Harry's behavior was sooo like it had to be )"	NA	"8.0"	"topic opening"	NA	NA	NA	18
+2021-03-12 11:07:50	"teacher008"	"teacher"	92	"What do you mean?"	"What do you mean?"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 11:08:31	"student011"	"student"	93	"It was Harry who said the expressions. When they were talking about their dates with Meghan"	"It was Harry who said the expressions. When they were talking about their dates with Meghan"	89	NA	NA	NA	NA	NA	16
+2021-03-12 11:09:11	"student011"	"student"	94	"I mean he knows that he is public person and he behave like that kind of person )"	"I mean he knows that he is public person and he behaves like that kind of person )"	92	NA	NA	NA	NA	NA	18
+2021-03-12 11:09:22	"teacher008"	"teacher"	95	"Yes! And he said dating someone from the royal family is 'back to front', didn't he? in the wrong order"	"Yes! And he said dating someone from the royal family is 'back to front', didn't he? in the wrong order"	93	NA	NA	NA	NA	NA	20
+2021-03-12 11:09:49	"teacher008"	"teacher"	96	"Ha, well, he has to now!"	"Ha, well, he has to now!"	94	NA	NA	NA	NA	NA	6
+2021-03-12 11:10:19	"student011"	"student"	97	"Yes. At first they just meet each other at home and then if everything ok they can go together to public places"	"Yes. At first they just meet each other at home and then if everything ok they can go together to public places"	95	NA	NA	NA	NA	NA	22
+2021-03-12 11:10:31	"teacher008"	"teacher"	98	"Yes, exactly"	"Yes, exactly"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:10:38	"student011"	"student"	99	"like the cinema or a restorant"	"like a cinema or a restaurant"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 11:10:51	"student011"	"student"	100	"restaurant\"	"restaurant"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-12 11:11:13	"teacher008"	"teacher"	101	"And they hit it off straightaway"	"And they hit it off straightaway"	97	NA	NA	NA	NA	NA	6
+2021-03-12 11:11:21	"teacher008"	"teacher"	102	"Yes, good correction!"	"Yes, good correction!"	100	NA	NA	NA	NA	NA	3
+2021-03-12 11:11:57	"teacher008"	"teacher"	103	"Ok, what about 'fiction' and something being 'loosely based on the truth'?"	"Ok, what about 'fiction' and something being 'loosely based on the truth'?"	NA	"6b"	"exercise,revision"	"lexical resource,writing,listening"	NA	NA	12
+2021-03-12 11:12:30	"student011"	"student"	104	"They were talking about the Crown and Harry used the phrases"	"They were talking about the Crown and Harry used the phrases"	NA	NA	NA	NA	NA	NA	11
+2021-03-12 11:12:41	"teacher008"	"teacher"	105	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:13:10	"student011"	"student"	106	"and she mixed up the names of actor, didn't he?"	"and he mixed up the names of actors, didn't he?"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 11:13:19	"student011"	"student"	107	"not she, but he )"	"not she, but he )"	NA	NA	"repair"	"writing"	NA	NA	5
+2021-03-12 11:13:48	"teacher008"	"teacher"	108	"Oh yes! James asked, who would he choose to play him"	"Oh yes! James asked, who would he choose to play him"	NA	NA	NA	NA	NA	NA	11
+2021-03-12 11:14:27	"teacher008"	"teacher"	109	"And he said 'Damian Lewis' (it must be because he is ginger too)"	"And he said 'Damian Lewis' (it must be because he is ginger too)"	NA	NA	NA	NA	NA	NA	13
+2021-03-12 11:14:39	"student011"	"student"	110	"yes. Actually the actors is not my straight side but I googled it ))"	"yes. Actually actors is not my strong point but I googled it ))"	NA	NA	NA	NA	NA	NA	14
+2021-03-12 11:15:04	"teacher008"	"teacher"	111	"Damian Lewis is much older than Prince Harry))"	"Damian Lewis is much older than Prince Harry))"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 11:15:28	"teacher008"	"teacher"	112	"Oh no, can you correct my grammar mistake? 'James asked who would he choose to play him'"	"Oh no, can you correct my grammar mistake? 'James asked who would he choose to play him'"	NA	"9.0"	"eliciting,repair"	"grammatical resource"	NA	NA	17
+2021-03-12 11:15:30	"student011"	"student"	113	"strong side?"	"strong side?"	110	"6c"	"enquiry"	"lexical resource"	NA	NA	2
+2021-03-12 11:15:39	"teacher008"	"teacher"	114	"strong side, yes!"	"strong side, yes!"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:16:21	"teacher008"	"teacher"	115	"You mean 'strong point' there, actually"	"You mean 'strong point' there, actually"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-03-12 11:16:24	"student011"	"student"	116	"James asked who would he choose to play him'"	"James asked who would he choose to play him'"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 11:16:42	"student011"	"student"	117	"Ok, would choosen?"	"Ok, would chosen?"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:16:48	"student011"	"student"	118	"I'm not sure"	"I'm not sure"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:16:54	"teacher008"	"teacher"	119	"Yes, I made a mistake in this sentence! Can you see it? The tense is right, but the word order is not"	"Yes, I made a mistake in this sentence! Can you see it? The tense is right, but the word order is not"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	22
+2021-03-12 11:17:01	"student011"	"student"	120	"Is it about unreal thing?"	"Is it about an unreal thing?"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:17:52	"teacher008"	"teacher"	121	"No, the forms of the verbs are correct!"	"No, the forms of the verbs are correct!"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 11:17:53	"student011"	"student"	123	"Ah! The order"	"Ah! The order"	119	NA	NA	NA	NA	NA	3
+2021-03-12 11:17:53	"student011"	"student"	124	"Ah! The orderLet me thin"	"Ah! The order. Let me think"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:18:31	"student011"	"student"	126	"him to play?"	"him to play?"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:19:04	"teacher008"	"teacher"	127	"James asked who he would choose to play him"	"James asked who he would choose to play him"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 11:19:09	"student011"	"student"	128	"I'm not sure really )"	"I'm not sure really )"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:19:19	"student011"	"student"	129	"who he?"	"who he?"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:19:21	"teacher008"	"teacher"	130	"we need the word order of an affirmative sentence after 'James asked'"	"we need the word order of an affirmative sentence after 'James asked'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2021-03-12 11:19:22	"student011"	"student"	131	"oho"	"oho"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:19:45	"student011"	"student"	132	"It looks strange )"	"It looks strange )"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 11:20:06	"teacher008"	"teacher"	133	"Yes, the direct question is 'Who would you choose...?'"	"Yes, the direct question is 'Who would you choose...?'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2021-03-12 11:20:26	"teacher008"	"teacher"	134	"but when we report it, it's 'James asked who he would choose...'"	"but when we report it, it's 'James asked who he would choose...'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2021-03-12 11:20:58	"teacher008"	"teacher"	135	"Yes, and James said he would play Prince William :)))"	"Yes, and James said he would play Prince William :)))"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 11:21:24	"teacher008"	"teacher"	136	"which is 'not great casting, but it is casting' :)"	"which is 'not great casting, but it is casting' :)"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 11:21:27	"student011"	"student"	137	"Yes, it was nice joke )"	"Yes, it was a nice joke )"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 11:21:35	"teacher008"	"teacher"	138	"Yes, I enjoyed that too!"	"Yes, I enjoyed that too!"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:21:40	"student011"	"student"	139	"yes, the Harry's answer )"	"yes, Harry's answer )"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:21:51	"teacher008"	"teacher"	140	"Yes))"	"Yes))"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:21:57	"teacher008"	"teacher"	141	"Ok, what about waffles?"	"Ok, what about waffles?"	NA	"6d"	"exercise,revision"	"lexical resource,writing,listening"	NA	NA	4
+2021-03-12 11:22:00	"student011"	"student"	142	"I like the dialog )"	"I like the dialogue )"	140	NA	NA	NA	NA	NA	5
+2021-03-12 11:22:29	"teacher008"	"teacher"	143	"Yes, so good!"	"Yes, so good!"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:22:43	"student011"	"student"	144	"ok, the Queen sent them a waffle machine for the Christmas"	"ok, the Queen sent them a waffle machine for Christmas"	141	NA	NA	NA	NA	NA	11
+2021-03-12 11:23:26	"teacher008"	"teacher"	145	"Yes! So cute)))"	"Yes! So cute)))"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:23:51	"student011"	"student"	146	"And they use it all the time because waffles is the favorite Archie's dish"	"And they use it all the time because waffles are Archie's favorite dish"	NA	NA	NA	NA	NA	NA	14
+2021-03-12 11:23:51	"teacher008"	"teacher"	147	"Even though we now know she is not just a sweet old lady :)"	"Even though we now know she is not just a sweet old lady :)"	NA	NA	NA	NA	NA	NA	14
+2021-03-12 11:24:02	"teacher008"	"teacher"	148	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:24:42	"student011"	"student"	149	"But maybe the Queen doesn't hate Meghan if she even sent them a waffle machine?"	"But maybe the Queen doesn't hate Meghan if she even sent them a waffle machine?"	NA	"10.0"	"topic opening"	NA	NA	NA	15
+2021-03-12 11:24:43	"student011"	"student"	150	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:25:11	"teacher008"	"teacher"	151	"Well, Harry says they have a good relationship with his grandmother!"	"Well, Harry says they have a good relationship with his grandmother!"	NA	NA	NA	NA	NA	NA	11
+2021-03-12 11:25:21	"teacher008"	"teacher"	152	"I think she doesn't"	"I think she doesn't"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 11:25:23	"student011"	"student"	153	"Oh, actually"	"Oh, actually"	NA	"10a"	"topic development"	NA	NA	NA	2
+2021-03-12 11:25:40	"student011"	"student"	154	"Doesn't it seem strange to you"	"Doesn't it seem strange to you"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 11:26:08	"student011"	"student"	155	"that they appeared ant the same time in two American shows?"	"that they appeared in two American shows at the same time?"	NA	NA	NA	NA	NA	NA	11
+2021-03-12 11:26:19	"student011"	"student"	156	"It looks like PR action )"	"It looks like a PR action )"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 11:26:49	"student011"	"student"	157	"I mean Harry and Meghan"	"I mean Harry and Meghan"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:26:59	"student011"	"student"	158	"It looks like they have a plan )"	"It looks like they have a plan )"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 11:27:00	"teacher008"	"teacher"	159	"Yes, of course. Harry said that the Palace cut them off financially, so they have to be earning money themselves now"	"Yes, of course. Harry said that the Palace cut them off financially, so they have to be earning money themselves now"	NA	NA	NA	NA	NA	NA	21
+2021-03-12 11:27:12	"student011"	"student"	160	"Ah, k )"	"Ah, ok )"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:27:14	"student011"	"student"	161	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:27:17	"student011"	"student"	162	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:28:06	"teacher008"	"teacher"	163	"And you know, they can't let people forget about them"	"And you know, they can't let people forget about them"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 11:28:19	"teacher008"	"teacher"	165	"Ok, finally! an obstacle course"	"Ok, finally! an obstacle course"	NA	"6e"	"exercise,revision"	"lexical resource,listening,writing"	NA	NA	5
+2021-03-12 11:28:46	"student011"	"student"	166	"it was about their last adventure"	"it was about their last adventure"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 11:28:56	"teacher008"	"teacher"	167	"Yes)"	"Yes)"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:28:59	"student011"	"student"	168	"This military thing"	"This military thing"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 11:29:47	"student011"	"student"	169	"It looks like James is sporty enough"	"It looks like James is sporty enough"	NA	NA	NA	NA	NA	NA	7
+2021-03-12 11:29:49	"student011"	"student"	170	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:30:07	"teacher008"	"teacher"	171	"Poor James was struggling a bit, wasn't he?"	"Poor James was struggling a bit, wasn't he?"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 11:30:17	"teacher008"	"teacher"	172	"But Harry's in a very good shape, actually"	"But Harry's in a very good shape, actually"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 11:30:25	"student011"	"student"	173	"Yes )"	"Yes )"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:31:26	"teacher008"	"teacher"	174	"But James Corden can sing very well :)"	"But James Corden can sing very well :)"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 11:31:50	"teacher008"	"teacher"	175	"Ok, thank you very much for sticking with it despite our technical difficulties today!"	"Ok, thank you very much for sticking with it despite our technical difficulties today!"	NA	"11.0"	"closing"	NA	NA	NA	14
+2021-03-12 11:31:57	"student011"	"student"	176	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 11:32:15	"teacher008"	"teacher"	177	"Have a lovely weekend!"	"Have a lovely weekend!"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 11:32:16	"student011"	"student"	178	"Have a good weekend XX"	"Have a good weekend XX"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 11:32:19	"student011"	"student"	179	"bye"	"bye"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 11:32:22	"teacher008"	"teacher"	180	"Bye xx"	"Bye xx"	NA	NA	NA	NA	NA	"B2"	2

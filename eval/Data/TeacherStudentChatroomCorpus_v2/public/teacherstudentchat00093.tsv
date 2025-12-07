@@ -1,0 +1,207 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-31 06:30:33	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-07-31 06:30:45	"student010"	"student"	2	"Hello <TEACHER>"	"Hello <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 06:30:52	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-07-31 06:31:03	"student010"	"student"	4	"I'm fine"	"I'm fine"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 06:31:23	"teacher008"	"teacher"	5	"Great. How's your lizard?"	"Great. How's your lizard?"	NA	"2a"	"topic development"	NA	NA	NA	4
+2020-07-31 06:31:55	"student010"	"student"	6	"It's on my t-shirt"	"It's on my t-shirt"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 06:32:19	"teacher008"	"teacher"	7	"Oh really? I thought it only lived in its tank."	"Oh really? I thought it only lived in its tank."	NA	NA	NA	NA	NA	NA	10
+2020-07-31 06:33:25	"student010"	"student"	8	"It lives there most of its life but it doesen't have poison"	"It lives there most of its life but it doesn't have any poison"	NA	NA	NA	NA	NA	NA	12
+2020-07-31 06:33:58	"student010"	"student"	9	"Sorry doesn't"	"Sorry doesn't"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-07-31 06:34:23	"teacher008"	"teacher"	10	"So you took it out for a cuddle? Does it make your cat and dog jealous?"	"So you took it out for a cuddle? Does it make your cat and dog jealous?"	NA	"2b"	"topic development"	NA	NA	NA	16
+2020-07-31 06:35:01	"student010"	"student"	11	"What does jealous mean?"	"What does jealous mean?"	NA	"2c"	"enquiry"	"lexical resource"	NA	NA	4
+2020-07-31 06:35:50	"teacher008"	"teacher"	12	"Oh, good question. If someone else is getting the love and attention that we think should be ours, it can make us feel jealous"	"Oh, good question. If someone else is getting the love and attention that we think should be ours, it can make us feel jealous"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	24
+2020-07-31 06:36:08	"student010"	"student"	13	"Understand"	"Understand"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:36:21	"teacher008"	"teacher"	14	"For example, my friend A doesn't like it when I spend time with my friend B. I think A is jealous of B"	"For example, my friend A doesn't like it when I spend time with my friend B. I think A is jealous of B"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	23
+2020-07-31 06:36:33	"teacher008"	"teacher"	15	"jealous OF"	"jealous OF"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 06:37:07	"teacher008"	"teacher"	16	"The noun is 'jealousy'"	"The noun is 'jealousy'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-07-31 06:37:20	"student010"	"student"	17	"So my cat is on my knees and I think it doesn't recognise a lizard as creature"	"So my cat is on my knees and I think it doesn't recognise the lizard as a creature"	10	NA	NA	NA	NA	NA	17
+2020-07-31 06:37:43	"teacher008"	"teacher"	18	"Ha, interesting! Is she ignoring the lizard?"	"Ha, interesting! Is she ignoring the lizard?"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 06:38:37	"student010"	"student"	19	"Lizad's tail is on cat's head :)"	"The lizard's tail is on the cat's head :)"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 06:38:56	"teacher008"	"teacher"	20	"Haha :))))"	"Haha :))))"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 06:39:20	"teacher008"	"teacher"	21	"my cat is on my knees' - very good use of 'my', well done!"	"my cat is on my knees' - very good use of 'my', well done!"	NA	"3.0"	"topic opening,scaffolding"	"grammatical resource"	NA	NA	14
+2020-07-31 06:39:41	"teacher008"	"teacher"	22	"it doesn't recognise a lizard as creature' - could you fix the articles, please?"	"it doesn't recognise a lizard as creature' - could you fix the articles, please?"	NA	"3a"	"eliciting,repair"	"grammatical resource"	"chat"	NA	14
+2020-07-31 06:39:46	"student010"	"student"	23	"The lizard doesn't move a lot"	"The lizard doesn't move a lot"	20	NA	NA	NA	NA	NA	6
+2020-07-31 06:40:17	"teacher008"	"teacher"	24	"aha, it makes sense. It probably likes sitting on you because you are warm!"	"aha, it makes sense. It probably likes sitting on you because you are warm!"	NA	NA	NA	NA	NA	NA	14
+2020-07-31 06:40:58	"student010"	"student"	25	"Maybe"	"Maybe"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:44:20	"teacher008"	"teacher"	26	"it doesn't recognise a lizard as creature' - could you fix the articles, please?"	"it doesn't recognise a lizard as creature' - could you fix the articles, please?"	22	NA	"eliciting,repair"	"grammatical resource"	"chat"	NA	14
+2020-07-31 06:44:33	"student010"	"student"	27	"The"	"The"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:45:03	"teacher008"	"teacher"	28	"Yes, because it's <LIZARD'S NAME> the lizard, not just any lizard, right?"	"Yes, because it's <LIZARD'S NAME> the lizard, not just any lizard, right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-07-31 06:45:09	"teacher008"	"teacher"	29	"as __ creature"	"as __ creature"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	3
+2020-07-31 06:45:14	"student010"	"student"	30	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:45:26	"teacher008"	"teacher"	31	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 06:45:44	"teacher008"	"teacher"	32	"How about 'Lizard's tail is on cat's head' in terms of the articles?"	"How about 'Lizard's tail is on cat's head' in terms of the articles?"	NA	"3b"	"eliciting,repair"	"grammatical resource"	"chat"	NA	13
+2020-07-31 06:46:22	"student010"	"student"	33	"The lizard's and on the cat's"	"The lizard's and on the cat's"	NA	NA	NA	NA	NA	NA	6
+2020-07-31 06:46:35	"teacher008"	"teacher"	34	"correct :)"	"correct :)"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 06:47:14	"teacher008"	"teacher"	35	"Did you manage to find that piece of English text where you could think about the articles?"	"Did you manage to find that piece of English text where you could think about the articles?"	NA	"3c"	"topic development"	"grammatical resource"	NA	NA	17
+2020-07-31 06:48:02	"student010"	"student"	36	"Sorry I forgot about that :("	"Sorry I forgot about that :("	NA	NA	NA	NA	NA	NA	6
+2020-07-31 06:48:19	"teacher008"	"teacher"	37	"Ok, no worries, maybe for the next time"	"Ok, no worries, maybe for the next time"	NA	NA	NA	NA	NA	NA	8
+2020-07-31 06:48:43	"teacher008"	"teacher"	38	"Ok, could you reconstruct the questions for me, please?"	"Ok, could you reconstruct the questions for me, please?"	NA	"4.0"	"exercise"	"grammatical resource"	NA	NA	9
+2020-07-31 06:48:50	"teacher008"	"teacher"	39	"I don't know where the lizard is"	"I don't know where the lizard is"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 06:49:05	"teacher008"	"teacher"	40	"I'm going to be using your lizard as an example again :)"	"I'm going to be using your lizard as an example again :)"	NA	NA	NA	NA	NA	NA	12
+2020-07-31 06:49:17	"student010"	"student"	41	"Where is the lizard"	"Where is the lizard"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 06:49:24	"teacher008"	"teacher"	42	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 06:49:47	"teacher008"	"teacher"	43	"I don't know where he goes swimming"	"I don't know where he goes swimming"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 06:49:53	"student010"	"student"	44	"It's on my neck"	"It's on my neck"	41	NA	NA	NA	NA	NA	4
+2020-07-31 06:50:52	"student010"	"student"	45	"Where does he go swimming"	"Where does he go swimming"	43	NA	NA	NA	NA	NA	5
+2020-07-31 06:51:13	"teacher008"	"teacher"	46	"Yes, good"	"Yes, good"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 06:51:19	"teacher008"	"teacher"	47	"I wonder if they are playing outside"	"I wonder if they are playing outside"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 06:51:54	"student010"	"student"	48	"Are they playing outside?"	"Are they playing outside?"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 06:51:58	"teacher008"	"teacher"	49	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:52:13	"teacher008"	"teacher"	50	"I wonder if anyone has seen my cat"	"I wonder if anyone has seen my cat"	NA	NA	NA	NA	NA	NA	8
+2020-07-31 06:52:49	"student010"	"student"	51	"Has anyone seen my cat?"	"Has anyone seen my cat?"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 06:52:56	"teacher008"	"teacher"	52	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 06:53:13	"teacher008"	"teacher"	53	"And the other way round. How old are you? I wonder ..."	"And the other way round. How old are you? I wonder ..."	NA	"4a"	"exercise"	"grammatical resource"	NA	NA	12
+2020-07-31 06:53:47	"student010"	"student"	54	"I wonder how old you are"	"I wonder how old you are"	NA	NA	NA	NA	NA	NA	6
+2020-07-31 06:53:52	"teacher008"	"teacher"	55	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:54:07	"teacher008"	"teacher"	56	"Have you ever been to Spain? I don't know..."	"Have you ever been to Spain? I don't know..."	NA	NA	NA	NA	NA	NA	9
+2020-07-31 06:54:48	"student010"	"student"	57	"The Iizard is on my hand and the cat on the phone"	"The Iizard is on my hand and the cat on the phone"	NA	"4b"	NA	NA	NA	NA	12
+2020-07-31 06:55:26	"teacher008"	"teacher"	58	"It doesn't sound very comfortable!"	"It doesn't sound very comfortable!"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 06:55:51	"student010"	"student"	59	"I don't know if you have been to Spain"	"I don't know if you have been to Spain"	56	NA	NA	NA	NA	NA	9
+2020-07-31 06:56:08	"teacher008"	"teacher"	60	"Good, well done!"	"Good, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 06:56:29	"teacher008"	"teacher"	61	"I don't know __ you have been to Spain. What's possible here apart from 'if'?"	"I don't know __ you have been to Spain. What's possible here apart from 'if'?"	NA	"4c"	"eliciting"	"grammatical resource"	NA	NA	15
+2020-07-31 06:57:31	"student010"	"student"	62	"Wether"	"Wether"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:57:44	"teacher008"	"teacher"	63	"Almost. Whether"	"Almost. Whether"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-07-31 06:57:59	"teacher008"	"teacher"	64	"WH - like when, where, what etc."	"WH - like when, where, what etc."	NA	NA	"scaffolding"	"writing"	NA	NA	7
+2020-07-31 06:58:11	"student010"	"student"	65	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:58:19	"teacher008"	"teacher"	66	"Ok, cool, you sound more confident with this material today, right?"	"Ok, cool, you sound more confident with this material today, right?"	NA	"4d"	"topic closure"	NA	NA	NA	11
+2020-07-31 06:58:58	"student010"	"student"	67	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 06:59:54	"teacher008"	"teacher"	68	"Cool. I've got something for today, some bits of it will probably be very familiar, but some maybe new"	"Cool. I've got something for today, some bits of it will probably be very familiar, but some maybe new"	NA	"5.0"	"topic opening"	"lexical resource"	NA	NA	19
+2020-07-31 07:00:33	"teacher008"	"teacher"	69	"My birthday is __ March. We talked __ Skype. She's always ___ her phone."	"My birthday is __ March. We talked __ Skype. She's always ___ her phone."	NA	NA	"eliciting"	"lexical resource"	NA	NA	14
+2020-07-31 07:00:48	"teacher008"	"teacher"	70	"Could you insert some prepositions please?"	"Could you insert some prepositions please?"	NA	NA	NA	NA	NA	NA	6
+2020-07-31 07:01:27	"student010"	"student"	71	"On march on Skype on her phone"	"On march on Skype on her phone"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 07:01:37	"teacher008"	"teacher"	72	"43892.0"	"43892.0"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:01:40	"teacher008"	"teacher"	73	"in March"	"in March"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-07-31 07:01:51	"teacher008"	"teacher"	74	"Which month is your birthday?"	"Which month is your birthday?"	NA	"5a"	"topic development"	NA	NA	NA	5
+2020-07-31 07:02:07	"student010"	"student"	75	"March"	"March"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:02:16	"teacher008"	"teacher"	76	"Oh really?"	"Oh really?"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:02:25	"teacher008"	"teacher"	77	"March too? Which date?"	"March too? Which date?"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 07:02:32	"student010"	"student"	78	"13th"	"13th"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:02:40	"teacher008"	"teacher"	79	"Ah, mine is the 22th"	"Ah, mine is the 22th"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:03:04	"teacher008"	"teacher"	80	"Ok, could you give me a full sentence, please. 'My birthday __ ___ March too'"	"Ok, could you give me a full sentence, please. 'My birthday __ ___ March too'"	NA	NA	"eliciting"	"lexical resource"	NA	NA	15
+2020-07-31 07:03:22	"student010"	"student"	81	"Is in March"	"Is in March"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:03:29	"teacher008"	"teacher"	82	"yes, cool"	"yes, cool"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:03:46	"teacher008"	"teacher"	83	"What about 'My birthday is ___ the 13th of March"	"What about 'My birthday is ___ the 13th of March"	NA	"5b"	"eliciting"	"lexical resource"	NA	NA	10
+2020-07-31 07:04:12	"student010"	"student"	84	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:04:32	"teacher008"	"teacher"	85	"Yes, correct. 'I usually eat cake __ my birthday'"	"Yes, correct. 'I usually eat cake __ my birthday'"	NA	NA	NA	NA	NA	NA	9
+2020-07-31 07:04:42	"student010"	"student"	86	"For"	"For"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:05:51	"teacher008"	"teacher"	87	"Mmm, we can say 'let's make a cake for his birthday', but we say we do things ON a birthday"	"Mmm, we can say 'let's make a cake for his birthday', but we say we do things ON a birthday"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-07-31 07:06:01	"teacher008"	"teacher"	88	"What about __ Monday?"	"What about __ Monday?"	NA	"5c"	"eliciting"	"lexical resource"	NA	NA	4
+2020-07-31 07:06:29	"student010"	"student"	89	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:06:37	"teacher008"	"teacher"	90	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:06:57	"teacher008"	"teacher"	91	"__ Christmas Day?"	"__ Christmas Day?"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:07:13	"student010"	"student"	92	"For"	"For"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:07:20	"teacher008"	"teacher"	93	"ON too!"	"ON too!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:07:35	"student010"	"student"	94	"Oh"	"Oh"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:07:53	"teacher008"	"teacher"	95	"There's logic to it, you'll see in a minute"	"There's logic to it, you'll see in a minute"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-31 07:08:09	"teacher008"	"teacher"	96	"___ Friday afternoon"	"___ Friday afternoon"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:08:22	"student010"	"student"	97	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:08:58	"teacher008"	"teacher"	98	"Yes, correct. Basically, when we have the word 'day' or when we mean a particular day, it's always ON"	"Yes, correct. Basically, when we have the word 'day' or when we mean a particular day, it's always ON"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	19
+2020-07-31 07:09:42	"teacher008"	"teacher"	99	"on MonDAY, on my birthDAY, on Christmas DAY, on March 13th"	"on MonDAY, on my birthDAY, on Christmas DAY, on March 13th"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-07-31 07:10:46	"student010"	"student"	100	"My 13th birsday was on Friday 13th :)"	"My 13th birthday was on Friday 13th :)"	NA	"5d"	NA	NA	NA	NA	8
+2020-07-31 07:11:30	"teacher008"	"teacher"	101	"Ooh, what did you do?"	"Ooh, what did you do?"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:12:08	"student010"	"student"	102	"We played paintball"	"We played paintball"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:12:32	"teacher008"	"teacher"	103	"Sounds cool!"	"Sounds cool!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:13:01	"teacher008"	"teacher"	104	"Also, ON Skype / Zoom, WhatsApp, Snapchat, Instagram etc."	"Also, ON Skype / Zoom, WhatsApp, Snapchat, Instagram etc."	NA	"5e"	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-31 07:13:23	"teacher008"	"teacher"	105	"But, for some reason, IN Messenger"	"But, for some reason, IN Messenger"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-07-31 07:13:32	"teacher008"	"teacher"	106	"I don't know why..."	"I don't know why..."	NA	NA	NA	NA	NA	NA	4
+2020-07-31 07:13:56	"student010"	"student"	107	"And in viber"	"And in viber"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:14:04	"teacher008"	"teacher"	108	"Yes, true!"	"Yes, true!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:14:55	"teacher008"	"teacher"	109	"Ok, next one! __ August"	"Ok, next one! __ August"	NA	"5f"	"eliciting"	"lexical resource"	NA	NA	5
+2020-07-31 07:15:10	"student010"	"student"	110	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:15:19	"teacher008"	"teacher"	111	"Ta-dam! In"	"Ta-dam! In"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:15:25	"teacher008"	"teacher"	112	"In + month"	"In + month"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-07-31 07:15:47	"teacher008"	"teacher"	113	"__ summer"	"__ summer"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-07-31 07:15:53	"student010"	"student"	114	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:15:56	"teacher008"	"teacher"	115	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:15:59	"teacher008"	"teacher"	116	"__ 2020"	"__ 2020"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-07-31 07:16:14	"student010"	"student"	117	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:16:19	"teacher008"	"teacher"	118	"yes, good"	"yes, good"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:16:26	"teacher008"	"teacher"	119	"__ the morning"	"__ the morning"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:16:34	"student010"	"student"	120	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:16:37	"teacher008"	"teacher"	121	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:16:48	"teacher008"	"teacher"	122	"__ the past / future"	"__ the past / future"	NA	NA	"eliciting"	"lexical resource"	NA	NA	5
+2020-07-31 07:16:52	"student010"	"student"	123	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:16:55	"teacher008"	"teacher"	124	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:16:59	"teacher008"	"teacher"	125	"__ the holidays"	"__ the holidays"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:17:04	"student010"	"student"	126	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:17:13	"teacher008"	"teacher"	127	"Nope! In the holidays"	"Nope! In the holidays"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-07-31 07:17:24	"teacher008"	"teacher"	128	"Unusual for speakers of Ukrainian / Russian but true"	"Unusual for speakers of Ukrainian / Russian but true"	NA	NA	NA	NA	NA	NA	9
+2020-07-31 07:17:39	"teacher008"	"teacher"	129	"What about ___ the photo?"	"What about ___ the photo?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	5
+2020-07-31 07:17:52	"student010"	"student"	130	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:18:07	"teacher008"	"teacher"	131	"Yes, good. In the photo and in the picture"	"Yes, good. In the photo and in the picture"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-31 07:18:52	"teacher008"	"teacher"	132	"If you ever decide to take Cambridge English First, there is a task where you describe pictures, and you have to say 'in the photo' a lot"	"If you ever decide to take Cambridge English First, there is a task where you describe pictures, and you have to say 'in the photo' a lot"	NA	NA	"scaffolding"	"lexical resource,exam prep"	NA	NA	27
+2020-07-31 07:19:31	"teacher008"	"teacher"	133	"Ok, moving on"	"Ok, moving on"	NA	"5g"	NA	NA	NA	NA	3
+2020-07-31 07:19:42	"teacher008"	"teacher"	134	"In the morning, in the afternoon, in the evening, ___ night"	"In the morning, in the afternoon, in the evening, ___ night"	NA	NA	"eliciting"	"lexical resource"	NA	NA	11
+2020-07-31 07:19:49	"student010"	"student"	135	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:19:59	"teacher008"	"teacher"	136	"Good! Didn't catch you there :)"	"Good! Didn't catch you there :)"	NA	NA	NA	NA	NA	NA	6
+2020-07-31 07:20:06	"teacher008"	"teacher"	137	"__ the weekend"	"__ the weekend"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:20:28	"student010"	"student"	138	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:20:49	"teacher008"	"teacher"	139	"Yes, in British English. Your American cousins probably say 'on the weekend'"	"Yes, in British English. Your American cousins probably say 'on the weekend'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-07-31 07:20:58	"teacher008"	"teacher"	140	"__ 9.30 am"	"__ 9.30 am"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:21:02	"student010"	"student"	141	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:21:22	"teacher008"	"teacher"	142	"Yes, as you've probably realized, we're doing phrases with 'at' :)"	"Yes, as you've probably realized, we're doing phrases with 'at' :)"	NA	NA	NA	NA	NA	NA	11
+2020-07-31 07:21:31	"teacher008"	"teacher"	143	"__ Christmas"	"__ Christmas"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-07-31 07:21:33	"student010"	"student"	144	"Aha"	"Aha"	142	NA	NA	NA	NA	NA	1
+2020-07-31 07:22:02	"student010"	"student"	145	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:22:14	"teacher008"	"teacher"	146	"Yes, at Christmas and at Easter"	"Yes, at Christmas and at Easter"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-07-31 07:22:22	"teacher008"	"teacher"	147	"__ Christmas Day?"	"__ Christmas Day?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:22:29	"student010"	"student"	148	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:22:36	"teacher008"	"teacher"	149	"Good :)"	"Good :)"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:22:45	"teacher008"	"teacher"	150	"He is ___ school"	"He is ___ school"	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+2020-07-31 07:23:02	"student010"	"student"	151	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:23:09	"teacher008"	"teacher"	152	"Yes, at school, at home"	"Yes, at school, at home"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:23:15	"teacher008"	"teacher"	153	"__ the park"	"__ the park"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:23:19	"student010"	"student"	154	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:23:24	"teacher008"	"teacher"	155	"at!"	"at!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:23:40	"teacher008"	"teacher"	156	"at the park/ at the theatre, at the cinema"	"at the park/ at the theatre, at the cinema"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-31 07:24:07	"teacher008"	"teacher"	157	"Ok, ready for me to mix them up?"	"Ok, ready for me to mix them up?"	NA	"6.0"	"exercise"	"lexical resource"	NA	NA	8
+2020-07-31 07:24:14	"teacher008"	"teacher"	158	"___ Sunday afternoon"	"___ Sunday afternoon"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:24:38	"student010"	"student"	159	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:24:52	"teacher008"	"teacher"	160	"Nope!  __ SunDAY afternoon"	"Nope!  __ SunDAY afternoon"	NA	NA	"eliciting"	"lexical resource"	NA	NA	5
+2020-07-31 07:24:57	"student010"	"student"	161	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:25:11	"teacher008"	"teacher"	162	"Yes. in the afternoon, but on Sunday afternoon"	"Yes. in the afternoon, but on Sunday afternoon"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-07-31 07:25:21	"teacher008"	"teacher"	163	"__ the past"	"__ the past"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:25:37	"student010"	"student"	164	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:25:42	"teacher008"	"teacher"	165	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:25:47	"teacher008"	"teacher"	166	"__ July"	"__ July"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-07-31 07:26:12	"student010"	"student"	167	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:26:18	"teacher008"	"teacher"	168	"Nooo!"	"Nooo!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:26:22	"teacher008"	"teacher"	169	"In with months"	"In with months"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-07-31 07:26:23	"student010"	"student"	170	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:26:33	"teacher008"	"teacher"	171	"like in Ukrainian and Russian"	"like in Ukrainian and Russian"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:26:44	"teacher008"	"teacher"	172	"___ 2019"	"___ 2019"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-07-31 07:26:49	"student010"	"student"	173	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:26:52	"teacher008"	"teacher"	174	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:26:55	"teacher008"	"teacher"	175	"__ the autumn"	"__ the autumn"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:27:01	"student010"	"student"	176	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:27:15	"teacher008"	"teacher"	177	"___ July 31st"	"___ July 31st"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:27:23	"student010"	"student"	178	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:27:34	"teacher008"	"teacher"	179	"no, it's a particular day"	"no, it's a particular day"	NA	NA	"eliciting"	"lexical resource"	NA	NA	5
+2020-07-31 07:27:41	"student010"	"student"	180	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:27:45	"teacher008"	"teacher"	181	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:27:50	"teacher008"	"teacher"	182	"__ Skype"	"__ Skype"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-07-31 07:27:54	"student010"	"student"	183	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:27:59	"teacher008"	"teacher"	184	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:28:06	"teacher008"	"teacher"	185	"__ the park"	"__ the park"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:28:19	"student010"	"student"	186	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:28:23	"teacher008"	"teacher"	187	"nope"	"nope"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:28:28	"student010"	"student"	188	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:28:31	"teacher008"	"teacher"	189	"yes :)"	"yes :)"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:28:39	"teacher008"	"teacher"	190	"__ the photo"	"__ the photo"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:28:43	"student010"	"student"	191	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:28:50	"teacher008"	"teacher"	192	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:28:58	"teacher008"	"teacher"	193	"__ your birthday"	"__ your birthday"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 07:29:17	"teacher008"	"teacher"	194	"Hi <ANOTHER STUDENT>, is it you?"	"Hi <ANOTHER STUDENT>, is it you?"	NA	"7.0"	"disruption"	NA	NA	NA	6
+2020-07-31 07:29:26	"student010"	"student"	195	"yes, hello"	"yes, hello"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:29:46	"student010"	"student"	196	"Hi  <ANOTHER STUDENT>!"	"Hi  <ANOTHER STUDENT>!"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 07:30:00	"teacher008"	"teacher"	197	"One second, I'm just finishing with <STUDENT>, then we will all have to leave the chatroom and come back again"	"One second, I'm just finishing with <STUDENT>, then we will all have to leave the chatroom and come back again"	NA	NA	NA	NA	NA	NA	20
+2020-07-31 07:30:11	"student010"	"student"	198	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:30:40	"teacher008"	"teacher"	199	"Ok, <STUDENT>, enjoy your weekend, well done today!"	"Ok, <STUDENT>, enjoy your weekend, well done today!"	NA	"8.0"	"closing"	NA	NA	NA	8
+2020-07-31 07:31:07	"teacher008"	"teacher"	200	"Talk to you ___ Wednesday __ 9.30"	"Talk to you ___ Wednesday __ 9.30"	NA	"8a"	"eliciting"	"lexical resource"	NA	NA	7
+2020-07-31 07:31:10	"student010"	"student"	201	"Do you have lesson with <ANOTHER STUDENT> today?"	"Do you have a lesson with <ANOTHER STUDENT> today?"	199	NA	"enquiry"	NA	NA	NA	8
+2020-07-31 07:31:18	"teacher008"	"teacher"	202	"Yes, right after you"	"Yes, right after you"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 07:31:22	"student010"	"student"	203	"On at"	"On at"	200	NA	NA	NA	NA	NA	2
+2020-07-31 07:31:30	"teacher008"	"teacher"	204	"well done :)"	"well done :)"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:31:41	"student010"	"student"	205	"Bye"	"Bye"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:31:48	"teacher008"	"teacher"	206	"Take care!"	"Take care!"	NA	NA	NA	NA	NA	"B2"	2

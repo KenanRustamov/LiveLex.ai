@@ -1,0 +1,213 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-03-26 10:32:45	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-03-26 10:32:49	"teacher008"	"teacher"	2	"Sorry, I'm here now"	"Sorry, I'm here now"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 10:32:50	"student011"	"student"	3	"Hi <TEACHER>! ."	"Hi <TEACHER>! ."	"1.0"	NA	NA	NA	NA	NA	3
+2021-03-26 10:32:57	"student011"	"student"	4	"No worries! ."	"No worries! ."	"2.0"	NA	NA	NA	NA	NA	3
+2021-03-26 10:33:02	"student011"	"student"	5	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-03-26 10:33:04	"teacher008"	"teacher"	6	"Thanks :."	"Thanks :."	"4.0"	NA	NA	NA	NA	NA	2
+2021-03-26 10:33:21	"teacher008"	"teacher"	7	"Good, thank you! I'm doing a bit of DIY before <TEACHER'S CHILD>'s holiday"	"Good, thank you! I'm doing a bit of DIY before <TEACHER'S CHILD>'s holiday"	"5.0"	NA	NA	NA	NA	NA	13
+2021-03-26 10:33:23	"student011"	"student"	8	"Actually how was your birthday? ."	"Actually how was your birthday? ."	NA	"2a"	"topic development"	NA	NA	NA	6
+2021-03-26 10:33:30	"student011"	"student"	9	"DIY"	"DIY"	"7.0"	"2b"	"enquiry"	"lexical resource"	NA	NA	1
+2021-03-26 10:33:31	"teacher008"	"teacher"	10	"Do you know 'DIY'?"	"Do you know 'DIY'?"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 10:33:34	"student011"	"student"	11	"Let me think ."	"Let me think ."	NA	NA	NA	NA	NA	NA	4
+2021-03-26 10:33:53	"student011"	"student"	12	"I saw it many times I think"	"I saw it many times I think"	NA	NA	NA	NA	NA	NA	7
+2021-03-26 10:34:00	"student011"	"student"	13	"But I don't remember ."	"But I don't remember ."	NA	NA	NA	NA	NA	NA	5
+2021-03-26 10:34:10	"teacher008"	"teacher"	14	"It stands for 'do it yourself'. Any kind of decorating / renovating/ building people do themselves, without paying anyone"	"It stands for 'do it yourself'. Any kind of decorating / renovating/ building people do themselves, without paying anyone"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2021-03-26 10:34:30	"teacher008"	"teacher"	15	"I'm painting the bathroom myself, unprofessionally :. for example"	"I'm painting the bathroom myself, unprofessionally :. for example"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-03-26 10:34:34	"student011"	"student"	16	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 10:34:44	"teacher008"	"teacher"	17	"I had a lovely day on my birthday, thank you!"	"I had a lovely day on my birthday, thank you!"	"8.0"	NA	NA	NA	NA	NA	10
+2021-03-26 10:34:51	"student011"	"student"	18	"Wow! You are so talented in that things"	"Wow! You are so talented at those things"	"16.0"	NA	NA	NA	NA	NA	8
+2021-03-26 10:35:05	"teacher008"	"teacher"	19	"We couldn't do very much because we're still locked down, but it was still lovely"	"We couldn't do very much because we're still locked down, but it was still lovely"	"17.0"	NA	NA	NA	NA	NA	15
+2021-03-26 10:35:20	"teacher008"	"teacher"	20	"Haha, no, I just try to do my best"	"Haha, no, I just try to do my best"	"18.0"	NA	NA	NA	NA	NA	9
+2021-03-26 10:35:23	"student011"	"student"	21	"Did you have a birthday cake? ."	"Did you have a birthday cake? ."	"19.0"	NA	NA	NA	NA	NA	7
+2021-03-26 10:36:08	"student011"	"student"	22	"An presents? .."	"And presents? .."	NA	NA	NA	NA	NA	NA	3
+2021-03-26 10:36:10	"student011"	"student"	23	"and"	"and"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 10:36:16	"teacher008"	"teacher"	24	"Yes! Chocolate layers with chocolate cream between them and chocolate icing on top :."	"Yes! Chocolate layers with chocolate cream between them and chocolate icing on top :."	"21.0"	NA	NA	NA	NA	NA	14
+2021-03-26 10:36:30	"teacher008"	"teacher"	25	"And some lovely presents, yes! Everyone"	"And some lovely presents, yes! Everyone"	"22.0"	NA	NA	NA	NA	NA	6
+2021-03-26 10:36:32	"teacher008"	"teacher"	26	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 10:36:41	"teacher008"	"teacher"	27	"Everyone's been giving me books :."	"Everyone's been giving me books :."	NA	NA	NA	NA	NA	NA	6
+2021-03-26 10:37:02	"student011"	"student"	28	"wow! If I am not mistaken it was a chocolate cake ..."	"wow! If I am not mistaken it was a chocolate cake ..."	"24.0"	NA	NA	NA	NA	NA	12
+2021-03-26 10:37:15	"teacher008"	"teacher"	29	"Definitely :...."	"Definitely :...."	NA	NA	NA	NA	NA	NA	2
+2021-03-26 10:37:25	"student011"	"student"	30	"haha! Book is the best present you know ..."	"haha! A book is the best present you know ..."	"27.0"	NA	NA	NA	NA	NA	9
+2021-03-26 10:37:32	"teacher008"	"teacher"	31	"Exactly!"	"Exactly!"	"r"	NA	NA	NA	NA	NA	1
+2021-03-26 10:37:52	"student011"	"student"	32	"And what kind of books was it?"	"And what kind of books were they?"	"30.0"	NA	NA	NA	NA	NA	7
+2021-03-26 10:37:55	"teacher008"	"teacher"	33	"And how are you? Are you having another busy Friday?"	"And how are you? Are you having another busy Friday?"	NA	"2c"	"topic development"	NA	NA	NA	10
+2021-03-26 10:38:11	"student011"	"student"	34	"Some professional books or just hm usual books? ."	"Some professional books or just usual books? ."	"32.0"	NA	NA	NA	NA	NA	9
+2021-03-26 10:38:28	"student011"	"student"	35	"hudozhestvennaya literatura ."	"hudozhestvennaya literatura ."	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+2021-03-26 10:38:49	"teacher008"	"teacher"	36	"<TEACHER'S HUSBAND> gave me a book called 'The Song of Achilles' by Madeline Miller"	"<TEACHER'S HUSBAND> gave me a book called 'The Song of Achilles' by Madeline Miller"	NA	NA	NA	NA	NA	NA	14
+2021-03-26 10:38:53	"teacher008"	"teacher"	37	"fiction!"	"fiction!"	"35.0"	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2021-03-26 10:39:08	"teacher008"	"teacher"	38	"hudozhestvennaya literatura is fiction :."	"hudozhestvennaya literatura is fiction :."	NA	NA	"scaffolding,non-English"	"lexical resource,code switching"	NA	NA	5
+2021-03-26 10:39:25	"teacher008"	"teacher"	39	"Novels, poetry - all kinds of made up stories"	"Novels, poetry - all kinds of made up stories"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-03-26 10:39:31	"student011"	"student"	40	"Oh! I had to have but when I started my yoga it seemed like we don't have a lesson today"	"Oh! I was meant to, but when I started my yoga it seemed like we didn't have a lesson today"	"33.0"	NA	NA	NA	NA	NA	20
+2021-03-26 10:40:11	"student011"	"student"	41	"My teacher sent me a message because she noticed that someone .me. used a program for the yoga lesson"	"My teacher sent me a message because she noticed that someone (me) used a program for the yoga lesson"	NA	NA	NA	NA	NA	NA	19
+2021-03-26 10:40:12	"teacher008"	"teacher"	42	"As opposed to 'non-fiction' .memoirs, history books, science books etc.."	"As opposed to 'non-fiction' .memoirs, history books, science books etc.."	"39.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+2021-03-26 10:40:33	"student011"	"student"	43	"She said that she warned us before but maybe I missed it ."	"She said that she warned us before but maybe I missed it ."	"41.0"	NA	NA	NA	NA	NA	13
+2021-03-26 10:40:55	"teacher008"	"teacher"	44	"Oh no, that must have been disappointing for you!"	"Oh no, that must have been disappointing for you!"	NA	NA	NA	NA	NA	NA	9
+2021-03-26 10:41:05	"teacher008"	"teacher"	45	"How's it going with your marketing campaign?"	"How's it going with your marketing campaign?"	NA	"3.0"	"topic opening"	NA	NA	NA	7
+2021-03-26 10:41:35	"student011"	"student"	46	"A bit. But you know everyone likes when the teacher cancels a lesson .."	"A bit. But you know everyone likes it when the teacher cancels a lesson .."	"44.0"	NA	NA	NA	NA	NA	14
+2021-03-26 10:42:07	"student011"	"student"	47	"We are working on it . And today I think we will launch our video on youtube"	"We are working on it . And today I think we will launch our video on youtube"	"45.0"	NA	NA	NA	NA	NA	17
+2021-03-26 10:42:13	"student011"	"student"	48	"We have a promo now"	"We have a promo now"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 10:42:23	"student011"	"student"	49	"And the first lesson"	"And the first lesson"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 10:42:57	"teacher008"	"teacher"	50	"Haha, yes, everyone's secretly pleased when a class gets cancelled"	"Haha, yes, everyone's secretly pleased when a class gets cancelled"	"46.0"	NA	NA	NA	NA	NA	10
+2021-03-26 10:43:04	"teacher008"	"teacher"	51	"Nice! Good luck with that!"	"Nice! Good luck with that!"	"49.0"	NA	NA	NA	NA	NA	5
+2021-03-26 10:43:15	"student011"	"student"	52	"then I'm going tossed a link to the telegram group where we are chatting with other students from our marketing course"	"then I'm going to post a link to the telegram group where we are chatting with other students from our marketing course"	"51.0"	NA	NA	NA	NA	NA	21
+2021-03-26 10:43:26	"student011"	"student"	53	"It's about 1500 members"	"There are about 1500 members"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 10:43:33	"teacher008"	"teacher"	54	"You're going to post?"	"You're going to post?"	"52.0"	NA	"eliciting,repair"	"writing,lexical resource"	NA	NA	4
+2021-03-26 10:43:45	"student011"	"student"	55	"I think it will be good if they will watch the video .."	"I think it will be good if they watch the video .."	"53.0"	NA	NA	NA	NA	NA	13
+2021-03-26 10:44:02	"teacher008"	"teacher"	56	"Ah, sure, you never know who might know someone who needs Russian classes :."	"Ah, sure, you never know who might know someone who needs Russian classes :."	NA	NA	NA	NA	NA	NA	14
+2021-03-26 10:44:12	"student011"	"student"	57	"to post, yes. No launch with this thing?"	"to post, yes. No launch with this thing?"	"55.0"	"3a"	"enquiry"	"lexical resource"	NA	NA	8
+2021-03-26 10:44:30	"student011"	"student"	58	"I mean now we need just promote the channel"	"I mean now we just need to promote the channel"	"56.0"	NA	NA	NA	NA	NA	9
+2021-03-26 10:44:41	"teacher008"	"teacher"	59	"Hmm, if you're posting a link to a group / social media, the verb is to 'post'"	"Hmm, if you're posting a link to a group / social media, the verb is to 'post'"	"57.0"	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2021-03-26 10:44:50	"student011"	"student"	60	"We don't need exactly expats"	"We don't need exactly expats"	"58.0"	NA	NA	NA	NA	NA	5
+2021-03-26 10:45:03	"teacher008"	"teacher"	61	"But you can 'launch a marketing campaign' for example, 'launch a new course' or something like that"	"But you can 'launch a marketing campaign' for example, 'launch a new course' or something like that"	"59.0"	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2021-03-26 10:45:11	"teacher008"	"teacher"	62	"launch a rocket into space :."	"launch a rocket into space :."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-03-26 10:45:31	"student011"	"student"	63	"And actually now We have several husbands of girls from the course as our potential students ."	"And actually now we have several husbands of girls from the course as our potential students ."	"60.0"	NA	NA	NA	NA	NA	17
+2021-03-26 10:45:45	"teacher008"	"teacher"	64	"Nice!!"	"Nice!!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 10:45:50	"student011"	"student"	65	"launch a rocket into space :.  - I see, thank you ."	"launch a rocket into space :.  - I see, thank you ."	NA	NA	NA	NA	NA	NA	13
+2021-03-26 10:46:06	"student011"	"student"	66	"And <TEACHER>"	"And <TEACHER>"	NA	"4.0"	"topic opening"	NA	NA	NA	2
+2021-03-26 10:46:13	"student011"	"student"	67	"About your present"	"About your present"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 10:46:25	"student011"	"student"	68	"I didn't hear about that book"	"I haven't heard about that book"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 10:46:36	"student011"	"student"	69	"Is it fiction? Or non-fiction?"	"Is it fiction? Or non-fiction?"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 10:47:13	"teacher008"	"teacher"	70	"Good question! It's fiction! It's the story from the Iliad, but re-written"	"Good question! It's fiction! It's the story from the Iliad, but re-written"	NA	NA	NA	NA	NA	NA	12
+2021-03-26 10:47:23	"teacher008"	"teacher"	71	"Do you prefer to read fiction or non-fiction?"	"Do you prefer to read fiction or non-fiction?"	NA	"4a"	"topic development"	"lexical resource"	NA	NA	8
+2021-03-26 10:48:15	"student011"	"student"	72	"Ah! Interesting. Did you ask <TEACHER'S HUSBAND> this book as a gift? ."	"Ah! Interesting. Did you ask <TEACHER'S HUSBAND> for this book as a gift? ."	"70.0"	NA	NA	NA	NA	NA	13
+2021-03-26 10:48:36	"teacher008"	"teacher"	74	"No, he just thought I might like it, and I think I will. I haven't started on it yet"	"No, he just thought I might like it, and I think I will. I haven't started on it yet"	NA	NA	NA	NA	NA	NA	19
+2021-03-26 10:49:00	"student011"	"student"	75	"I think I prefer non-fiction, but fiction is my kind of books too"	"I think I prefer non-fiction, but fiction is my kind of books too"	"71.0"	NA	NA	NA	NA	NA	13
+2021-03-26 10:49:16	"student011"	"student"	76	"Actually, I can't answer the question exactly ."	"Actually, I can't answer the question exactly ."	NA	NA	NA	NA	NA	NA	8
+2021-03-26 10:49:40	"teacher008"	"teacher"	77	"I know, it's a tricky question! Because they are so different, fiction and non-fiction"	"I know, it's a tricky question! Because they are so different, fiction and non-fiction"	NA	NA	NA	NA	NA	NA	14
+2021-03-26 10:49:44	"student011"	"student"	78	"I see ."	"I see ."	NA	NA	NA	NA	NA	NA	3
+2021-03-26 10:50:04	"teacher008"	"teacher"	79	"It's like asking whether you prefer cheese or tea"	"It's like asking whether you prefer cheese or tea"	NA	NA	NA	NA	NA	NA	9
+2021-03-26 10:50:44	"teacher008"	"teacher"	80	"Oh, speaking of marketing! A nice expression for you: 'word of mouth' Do you know this one? It's a powerful marketing tool"	"Oh, speaking of marketing! A nice expression for you: 'word of mouth' Do you know this one? It's a powerful marketing tool"	NA	"5.0"	"presentation"	"lexical resource"	NA	NA	22
+2021-03-26 10:51:23	"student011"	"student"	81	"I know"	"I know"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 10:52:03	"student011"	"student"	82	"Actually it's just the one time of advertising we have now ..."	"Actually it's the only type of advertising we have now ..."	NA	NA	NA	NA	NA	NA	12
+2021-03-26 10:52:17	"teacher008"	"teacher"	83	"Haha, it's the best one!"	"Haha, it's the best one!"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 10:52:23	"student011"	"student"	84	"Cheese or tea or mum or dad ."	"Cheese or tea or mum or dad ."	"79.0"	NA	"topic development"	NA	NA	NA	8
+2021-03-26 10:52:41	"student011"	"student"	85	"sarafannoe radio .."	"sarafannoe radio .."	"83.0"	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+2021-03-26 10:52:50	"teacher008"	"teacher"	86	"Yes! Do people still ask that in Ukraine? Who do you love more, your mummy or your daddy?"	"Yes! Do people still ask that in Ukraine? Who do you love more, your mummy or your daddy?"	"84.0"	NA	NA	NA	NA	NA	18
+2021-03-26 10:53:01	"teacher008"	"teacher"	87	"exactly"	"exactly"	"85.0"	NA	NA	NA	NA	NA	1
+2021-03-26 10:53:29	"student011"	"student"	88	"I think no . It's the worse question in the whole world I think ."	"I think no. It's the worst question in the whole world I think ."	"86.0"	NA	NA	NA	NA	NA	15
+2021-03-26 10:53:52	"student011"	"student"	89	"еру цщкые"	"еру цщкые"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 10:53:55	"student011"	"student"	90	"the worst ."	"the worst ."	NA	NA	"repair"	"writing"	NA	NA	3
+2021-03-26 10:54:00	"student011"	"student"	91	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 10:54:11	"teacher008"	"teacher"	92	"Definitely!"	"Definitely!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 10:54:19	"student011"	"student"	93	"Ah! I know another one"	"Ah! I know another one"	NA	"4b"	"topic development"	NA	NA	NA	5
+2021-03-26 10:54:36	"student011"	"student"	94	"When are you going to have a baby? ."	"When are you going to have a baby? ."	NA	NA	NA	NA	NA	NA	9
+2021-03-26 10:55:43	"teacher008"	"teacher"	95	"Yes! Well, it depends on your age. First people start with 'who do you love more?', then 'have you got anyone special?', then 'when are you getting married?', then baby, then another baby"	"Yes! Well, it depends on your age. First people start with 'who do you love more?', then 'have you got anyone special?', then 'when are you getting married?', then baby, then another baby"	NA	NA	NA	NA	NA	NA	33
+2021-03-26 10:56:06	"student011"	"student"	96	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 10:56:30	"student011"	"student"	97	"Thanks God I didn't hear these questions from my relatives"	"Thank God I didn't hear these questions from my relatives"	NA	NA	NA	NA	NA	NA	10
+2021-03-26 10:56:53	"teacher008"	"teacher"	98	"And then, is your child walking / talking / starting school / going to university yet :...."	"And then, is your child walking / talking / starting school / going to university yet :...."	NA	NA	NA	NA	NA	NA	17
+2021-03-26 10:57:00	"teacher008"	"teacher"	99	"It never stops!"	"It never stops!"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 10:57:28	"student011"	"student"	100	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 10:57:32	"student011"	"student"	101	"You are right ."	"You are right ."	NA	"6.0"	"scaffolding"	"listening,lexical resource"	NA	NA	4
+2021-03-26 10:59:01	"teacher008"	"teacher"	102	"Ok, shall we have a look at some of the words from Alexa's interview then?"	"Ok, shall we have a look at some of the words from Alexa's interview then?"	NA	NA	NA	NA	NA	NA	15
+2021-03-26 10:59:23	"student011"	"student"	103	"Yes, we shell ."	"Yes, we shall ."	NA	NA	NA	NA	NA	NA	4
+2021-03-26 10:59:30	"student011"	"student"	104	"shall"	"shall"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-26 10:59:46	"teacher008"	"teacher"	105	"Ok, cool!"	"Ok, cool!"	"103.0"	NA	NA	NA	NA	NA	2
+2021-03-26 10:59:47	"student011"	"student"	106	"we are not a shell ..."	"we are not a shell ..."	"104.0"	NA	NA	NA	NA	NA	6
+2021-03-26 11:00:43	"teacher008"	"teacher"	107	"Ok, one of the very interesting words on your list was 'commit' .a verb."	"Ok, one of the very interesting words on your list was 'commit' .a verb."	NA	"6a"	"scaffolding"	"lexical resource"	NA	NA	14
+2021-03-26 11:01:01	"teacher008"	"teacher"	108	"Alexa says she fully committed to setting up her own company"	"Alexa says she fully committed to setting up her own company"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-26 11:01:01	"student011"	"student"	109	"I know commit a crime"	"I know commit a crime"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 11:01:42	"teacher008"	"teacher"	110	"Yes, exactly! commit something illegal is the first meaning"	"Yes, exactly! commit something illegal is the first meaning"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-03-26 11:01:50	"teacher008"	"teacher"	111	"commit a crime / adultery / murder"	"commit a crime / adultery / murder"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2021-03-26 11:02:15	"student011"	"student"	112	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:02:30	"teacher008"	"teacher"	113	"But also, if you commit to someone / something, you decide / promise to give your time and energy to this .and be loyal to this person."	"But also, if you commit to someone / something, you decide / promise to give your time and energy to this .and be loyal to this person."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	27
+2021-03-26 11:03:05	"student011"	"student"	114	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:03:06	"teacher008"	"teacher"	115	"For example, both partners in a couple need to commit to the relationship"	"For example, both partners in a couple need to commit to the relationship"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2021-03-26 11:03:40	"student011"	"student"	116	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:03:45	"teacher008"	"teacher"	117	"the noun is 'commitment'"	"the noun is 'commitment'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2021-03-26 11:04:09	"teacher008"	"teacher"	118	"Some people .often men. are described as commitment-phobiacs"	"Some people .often men. are described as commitment-phobiacs"	NA	"6b"	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-26 11:04:14	"teacher008"	"teacher"	119	"Can you guess what it means?"	"Can you guess what it means?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	6
+2021-03-26 11:04:30	"student011"	"student"	120	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:04:45	"teacher008"	"teacher"	121	"phobia = a fear of something"	"phobia = a fear of something"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2021-03-26 11:05:46	"student011"	"student"	122	"щл"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:05:48	"student011"	"student"	123	"Ok"	"Ok"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-26 11:05:50	"student011"	"student"	124	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:06:04	"teacher008"	"teacher"	125	"Yes, they are afraid to commit to a relationship"	"Yes, they are afraid to commit to a relationship"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-03-26 11:06:07	"teacher008"	"teacher"	126	"commit TO"	"commit TO"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-03-26 11:06:10	"student011"	"student"	127	"I mean I have an idea"	"I mean I have an idea"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 11:06:41	"student011"	"student"	128	"But I didn't hear about this type of phobia in Russian ."	"But I didn't hear about this type of phobia in Russian ."	NA	NA	NA	NA	NA	NA	12
+2021-03-26 11:06:51	"student011"	"student"	129	"I've checked it now ."	"I've checked it now ."	NA	NA	NA	NA	NA	NA	5
+2021-03-26 11:07:02	"teacher008"	"teacher"	130	"Yeah, I don't think there is a Russian equivalent!"	"Yeah, I don't think there is a Russian equivalent!"	NA	NA	NA	NA	NA	NA	9
+2021-03-26 11:07:05	"student011"	"student"	131	"commit TO, ok ."	"commit TO, ok ."	"126.0"	NA	NA	NA	NA	NA	4
+2021-03-26 11:07:21	"teacher008"	"teacher"	132	"Ok, lovely"	"Ok, lovely"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:07:57	"teacher008"	"teacher"	133	"Oh, I was pleased when Alexa was talking about 'mixing the masculine and feminine vibes' because we talked about the words masculine and feminine before, didn't we?"	"Oh, I was pleased when Alexa was talking about 'mixing the masculine and feminine vibes' because we talked about the words masculine and feminine before, didn't we?"	NA	"6c"	"scaffolding"	"lexical resource"	NA	NA	27
+2021-03-26 11:08:27	"student011"	"student"	134	"Yes, we did"	"Yes, we did"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 11:09:04	"student011"	"student"	135	"I thought she was talking about fashion, wasn't she?"	"I thought she was talking about fashion, wasn't she?"	NA	NA	NA	NA	NA	NA	9
+2021-03-26 11:09:26	"student011"	"student"	136	"I mean about the style of her clothes"	"I mean about the style of her clothes"	NA	NA	NA	NA	NA	NA	8
+2021-03-26 11:09:33	"student011"	"student"	137	"Maybe I was wrong"	"Maybe I was wrong"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 11:09:36	"teacher008"	"teacher"	138	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:09:39	"teacher008"	"teacher"	139	"She was"	"She was"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:09:44	"student011"	"student"	140	"Ah, ok ."	"Ah, ok ."	NA	NA	NA	NA	NA	NA	3
+2021-03-26 11:10:12	"teacher008"	"teacher"	141	"I like this style, actually, because the 'masculine vibe' usually makes clothes more comfortable :."	"I like this style, actually, because the 'masculine vibe' usually makes clothes more comfortable :."	NA	NA	NA	NA	NA	NA	15
+2021-03-26 11:11:01	"student011"	"student"	142	"And I think women looks great in 'man's clothes'"	"And I think women look great in 'men's clothes'"	NA	NA	NA	NA	NA	NA	9
+2021-03-26 11:11:08	"student011"	"student"	143	"woman"	"woman"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-26 11:11:56	"teacher008"	"teacher"	144	"Yes, definitely! They have more structure, in a way"	"Yes, definitely! They have more structure, in a way"	"142.0"	NA	NA	NA	NA	NA	9
+2021-03-26 11:12:23	"teacher008"	"teacher"	145	"Ok, an interesting expression was 'an imposter syndrome'"	"Ok, an interesting expression was 'an imposter syndrome'"	NA	"6d"	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-26 11:12:31	"student011"	"student"	146	"Actually, I like trousers and blazers so much"	"Actually, I like trousers and blazers so much"	"144.0"	NA	NA	NA	NA	NA	8
+2021-03-26 11:12:43	"teacher008"	"teacher"	147	"I think everyone who starts doing something new feels a bit of an imposter syndrome"	"I think everyone who starts doing something new feels a bit of an imposter syndrome"	"145.0"	NA	NA	NA	NA	NA	15
+2021-03-26 11:12:48	"student011"	"student"	148	"Ok! This syndrome I know"	"Ok! I know this syndrome"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 11:12:50	"student011"	"student"	149	"..."	"..."	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:13:05	"student011"	"student"	150	"I mean the expression and the feelings ..."	"I mean the expression and the feelings ..."	NA	NA	NA	NA	NA	NA	8
+2021-03-26 11:13:20	"teacher008"	"teacher"	151	"Yes, me too! I think everyone does :."	"Yes, me too! I think everyone does :."	NA	NA	NA	NA	NA	NA	8
+2021-03-26 11:13:25	"student011"	"student"	152	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:14:03	"teacher008"	"teacher"	153	"Ok, and she kept repeating that a fashion business is not for the faint-hearted"	"Ok, and she kept repeating that a fashion business is not for the faint-hearted"	NA	"6e"	"scaffolding"	"lexical resource"	NA	NA	14
+2021-03-26 11:14:31	"teacher008"	"teacher"	154	"Do you know 'faint-hearted'?"	"Do you know 'faint-hearted'?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	4
+2021-03-26 11:14:39	"student011"	"student"	155	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:14:55	"teacher008"	"teacher"	156	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:15:13	"teacher008"	"teacher"	157	"faint = weak"	"faint = weak"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	3
+2021-03-26 11:15:45	"teacher008"	"teacher"	158	"and the expression is often 'not for the faint-hearted'"	"and the expression is often 'not for the faint-hearted'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-03-26 11:16:07	"teacher008"	"teacher"	159	"Travelling around the world is not for the faint-hearted"	"Travelling around the world is not for the faint-hearted"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-03-26 11:16:20	"teacher008"	"teacher"	160	"Running your own business is not for the faint-hearted"	"Running your own business is not for the faint-hearted"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-03-26 11:16:37	"student011"	"student"	161	"Aha, I see"	"Aha, I see"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 11:17:00	"teacher008"	"teacher"	162	"Yes, would you agree with that? About running your own business .fashion or not."	"Yes, would you agree with that? About running your own business .fashion or not."	NA	"6f"	"eliciting"	"lexical resource,writing"	NA	NA	14
+2021-03-26 11:17:13	"student011"	"student"	163	"I think yes"	"I think yes"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 11:18:09	"teacher008"	"teacher"	164	"Why? :."	"Why? :."	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:18:16	"student011"	"student"	165	"It looks like fun but you have to overcome lots of doubts and obstacles ."	"It looks like fun but you have to overcome lots of doubts and obstacles ."	NA	NA	NA	NA	NA	NA	15
+2021-03-26 11:18:56	"teacher008"	"teacher"	166	"Yes, I can imagine!"	"Yes, I can imagine!"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 11:19:00	"student011"	"student"	167	"And you have huge responsibility ."	"And you have a huge responsibility ."	NA	NA	NA	NA	NA	NA	6
+2021-03-26 11:19:05	"teacher008"	"teacher"	168	"a very good expression - 'overcome'"	"a very good expression - 'overcome'"	"165.0"	NA	NA	NA	NA	NA	6
+2021-03-26 11:19:17	"teacher008"	"teacher"	169	"Oh, when you hire people?"	"Oh, when you hire people?"	"167.0"	NA	NA	NA	NA	NA	5
+2021-03-26 11:19:23	"student011"	"student"	170	"Thank you I've google it . Sorry ."	"Thank you I've googled it . Sorry ."	"168.0"	NA	NA	NA	NA	NA	8
+2021-03-26 11:19:28	"student011"	"student"	171	"googled"	"googled"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-26 11:19:42	"teacher008"	"teacher"	172	"no problem!"	"no problem!"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:20:26	"student011"	"student"	173	"Yes, but not just. You have responsibilities to your clients to"	"Yes, but not just that. You have responsibilities to your clients too"	"169.0"	NA	NA	NA	NA	NA	11
+2021-03-26 11:20:30	"student011"	"student"	174	"too"	"too"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-26 11:20:47	"teacher008"	"teacher"	175	"Yes, sure! I've forgotten about that :..."	"Yes, sure! I've forgotten about that :..."	NA	NA	NA	NA	NA	NA	7
+2021-03-26 11:20:53	"student011"	"student"	176	"haha .."	"haha .."	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:21:11	"teacher008"	"teacher"	177	"clients, so easy to forget! :..."	"clients, so easy to forget! :..."	NA	NA	NA	NA	NA	NA	6
+2021-03-26 11:21:16	"student011"	"student"	178	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:21:28	"student011"	"student"	179	"You are right!"	"You are right!"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 11:21:34	"teacher008"	"teacher"	180	"Yes, it's definitely not for the faint-hearted, running a business!"	"Yes, it's definitely not for the faint-hearted, running a business!"	NA	NA	NA	NA	NA	NA	10
+2021-03-26 11:21:47	"student011"	"student"	181	"Sometimes I feel like the business forget about me as a client ."	"Sometimes I feel like a business forgets about me as a client ."	"179.0"	NA	NA	NA	NA	NA	13
+2021-03-26 11:21:52	"teacher008"	"teacher"	182	"Alexa was also talking a lot about the importance of delegating"	"Alexa was also talking a lot about the importance of delegating"	NA	"6g"	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-26 11:22:09	"student011"	"student"	183	"I like the statement"	"I like the statement"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 11:22:13	"teacher008"	"teacher"	184	"Yes, it"	"Yes, it"	"181.0"	NA	NA	NA	NA	NA	2
+2021-03-26 11:22:16	"teacher008"	"teacher"	185	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:22:22	"teacher008"	"teacher"	186	"it's a weird feeling"	"it's a weird feeling"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 11:22:34	"student011"	"student"	187	"It's one of the most important thing for the owner of the business"	"It's one of the most important things for an owner of a business"	"183.0"	NA	NA	NA	NA	NA	13
+2021-03-26 11:22:49	"teacher008"	"teacher"	188	"Ok, sure, you know all about it then!"	"Ok, sure, you know all about it then!"	NA	NA	NA	NA	NA	NA	8
+2021-03-26 11:23:08	"teacher008"	"teacher"	189	"the expressions she uses are 'delegating' vs. 'micro-managing'"	"the expressions she uses are 'delegating' vs. 'micro-managing'"	NA	"6h"	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-26 11:23:14	"student011"	"student"	190	"Because you feel like you have too do it yourself because you know the best way for dough it"	"Because you feel like you have to do it yourself because you know the best way to do it"	"188.0"	NA	NA	NA	NA	NA	19
+2021-03-26 11:23:16	"teacher008"	"teacher"	191	"Are they both familiar to you?"	"Are they both familiar to you?"	"189.0"	NA	"eliciting"	"lexical resource,meaning"	NA	NA	6
+2021-03-26 11:23:52	"student011"	"student"	192	"But then you can't concentrate on the thing that are like under the routine"	"But then you can't concentrate on the things that are like under the routine"	"190.0"	NA	NA	NA	NA	NA	14
+2021-03-26 11:24:24	"teacher008"	"teacher"	193	"Yes, on the big decisions you mean?"	"Yes, on the big decisions you mean?"	NA	NA	NA	NA	NA	NA	7
+2021-03-26 11:24:43	"student011"	"student"	194	"yes, actually micro-managing can be called like a routine"	"yes, actually micro-managing can be called like a routine"	"191.0"	NA	NA	NA	NA	NA	9
+2021-03-26 11:25:27	"teacher008"	"teacher"	195	"Hmm, usually 'micro-managing' means telling people what to do at every step, without leaving them any freedom"	"Hmm, usually 'micro-managing' means telling people what to do at every step, without leaving them any freedom"	NA	NA	"repair,scaffolding"	"lexical resource,meaning"	NA	NA	17
+2021-03-26 11:25:40	"student011"	"student"	196	"Yes, I mean some strategic things"	"Yes, I mean some strategic things"	"193.0"	NA	NA	NA	NA	NA	6
+2021-03-26 11:25:47	"teacher008"	"teacher"	197	"Yes, got that!"	"Yes, got that!"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 11:26:32	"teacher008"	"teacher"	198	"If a manager is micro-managing, they show that they don't trust employees to do things well in their own way and don't give them any autonomy"	"If a manager is micro-managing, they show that they don't trust employees to do things well in their own way and don't give them any autonomy"	"195.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	26
+2021-03-26 11:27:03	"teacher008"	"teacher"	199	"And it takes a lot of time and energy, of course"	"And it takes a lot of time and energy, of course"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-26 11:27:10	"student011"	"student"	200	"Ah!"	"Ah!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:27:24	"student011"	"student"	201	"Actually I forgot to mention it"	"Actually I forgot to mention it"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 11:28:21	"teacher008"	"teacher"	202	"Oops, I've just checked, and there is no hyphen, sorry! 'micromanage' as one word"	"Oops, I've just checked, and there is no hyphen, sorry! 'micromanage' as one word"	"198.0"	NA	"repair"	"lexical resource,writing"	NA	NA	14
+2021-03-26 11:28:42	"teacher008"	"teacher"	203	"The head teacher shouldn't try to micromanage what happens in every classroom"	"The head teacher shouldn't try to micromanage what happens in every classroom"	NA	NA	"scaffolding"	"lexical resource"	"dictionary"	NA	12
+2021-03-26 11:28:49	"teacher008"	"teacher"	204	"an example from the dictionary"	"an example from the dictionary"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 11:29:14	"student011"	"student"	205	"If you would like to delegate you have to be confident in your team"	"If you would like to delegate you have to be confident in your team"	"201.0"	NA	NA	NA	NA	NA	14
+2021-03-26 11:29:35	"student011"	"student"	206	"Aha, thank you!"	"Aha, thank you!"	"204.0"	NA	NA	NA	NA	NA	3
+2021-03-26 11:29:46	"teacher008"	"teacher"	207	"Yes, exactly!"	"Yes, exactly!"	"205.0"	NA	NA	NA	NA	NA	2
+2021-03-26 11:30:26	"teacher008"	"teacher"	208	"Ah, I've got to let you go! We can revise the words on Monday, and talk about hot cross buns! :."	"Ah, I've got to let you go! We can revise the words on Monday, and talk about hot cross buns! :."	NA	"7.0"	"closing"	NA	NA	NA	21
+2021-03-26 11:30:58	"student011"	"student"	209	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 11:31:03	"student011"	"student"	210	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 11:31:15	"teacher008"	"teacher"	211	"My pleasure :. Have a lovely weekend!"	"My pleasure :. Have a lovely weekend!"	NA	NA	NA	NA	NA	NA	7
+2021-03-26 11:32:13	"student011"	"student"	212	"You to! xx"	"You too! xx"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 11:32:43	"teacher008"	"teacher"	213	"Bye :."	"Bye :."	NA	NA	NA	NA	NA	"B2"	2

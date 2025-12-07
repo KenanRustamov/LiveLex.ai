@@ -1,0 +1,178 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-24 12:01:00	"student014"	"student"	1	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-24 12:01:24	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:01:30	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-24 12:01:36	"student014"	"student"	4	"Fine thank you! And you?"	"Fine thank you! And you?"	NA	NA	NA	NA	NA	NA	5
+2020-11-24 12:02:29	"teacher008"	"teacher"	5	"Good, thank you! Very excited about our new broadband that has just been put in, the fibre optic one. I hope the Internet will be faster and more reliable now!"	"Good, thank you! Very excited about our new broadband that has just been put in, the fibre optic one. I hope the Internet will be faster and more reliable now!"	NA	"2a"	"topic development"	NA	NA	NA	30
+2020-11-24 12:03:22	"student014"	"student"	6	"Haha..that's great news! Unfortunately I can't have fibre optic at home for now..no cable outside...and I like at 5km from the center of Graz!"	"Haha..that's great news! Unfortunately I can't have fibre optic at home for now..no cable outside...and I live 5km from the center of Graz!"	NA	NA	NA	NA	NA	NA	24
+2020-11-24 12:03:52	"student014"	"student"	7	"but at least it usually works fine...how was your weekend?"	"but at least it usually works fine...how was your weekend?"	NA	"2b"	"topic development"	NA	NA	NA	10
+2020-11-24 12:04:29	"teacher008"	"teacher"	8	"Nice and relaxing, thank you! How was yours?"	"Nice and relaxing, thank you! How was yours?"	NA	NA	NA	NA	NA	NA	8
+2020-11-24 12:04:57	"teacher008"	"teacher"	9	"The fibre optic has just reached our little town, and we jumped at the opportunity"	"The fibre optic has just reached our little town, and we jumped at the opportunity"	"6.0"	NA	NA	NA	NA	NA	15
+2020-11-24 12:05:03	"student014"	"student"	10	"It was nice...but not relaxing: the kids had too much energy so it was also a bit tiring."	"It was nice...but not relaxing: the kids had too much energy so it was also a bit tiring."	"8.0"	NA	NA	NA	NA	NA	18
+2020-11-24 12:05:27	"student014"	"student"	11	"I think you did the right thing: nowarays a reliable and fast internet is quite practical..."	"I think you did the right thing: nowadays a reliable and fast Internet is quite practical..."	"9.0"	NA	NA	NA	NA	NA	16
+2020-11-24 12:05:36	"teacher008"	"teacher"	12	"Yes, it's a full time job with young kids, I can imagine!"	"Yes, it's a full time job with young kids, I can imagine!"	"10.0"	NA	NA	NA	NA	NA	12
+2020-11-24 12:06:17	"teacher008"	"teacher"	13	"My husband and I both work from home, so it's a lifeline"	"My husband and I both work from home, so it's a lifeline"	"11.0"	NA	NA	NA	NA	NA	12
+2020-11-24 12:07:00	"student014"	"student"	14	"Haha...I agree..."	"Haha...I agree..."	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:07:04	"teacher008"	"teacher"	15	"They've only connected it 5 minutes ago, right before the class. I was worried I'd be late! But I think the Internet is already faster, yay!"	"They've only connected it 5 minutes ago, right before the class. I was worried I'd be late! But I think the Internet is already faster, yay!"	NA	NA	NA	NA	NA	NA	26
+2020-11-24 12:07:38	"teacher008"	"teacher"	16	"Well, my husband used to commute to Cambridge before the lockdown, but he hasn't for the last 8 months"	"Well, my husband used to commute to Cambridge before the lockdown, but he hasn't for the last 8 months"	NA	NA	NA	NA	NA	NA	19
+2020-11-24 12:08:48	"teacher008"	"teacher"	17	"How's your wife? Has she had any hunting for a job?"	"How's your wife? Has she had any hunting for a job?"	NA	"2c"	"topic development"	NA	NA	NA	11
+2020-11-24 12:08:58	"teacher008"	"teacher"	18	"*has she had any luck"	"*has she had any luck"	NA	NA	"repair"	"writing"	NA	NA	5
+2020-11-24 12:11:07	"student014"	"student"	19	"Sorry, I had to take care of the children one moment..."	"Sorry, I had to take care of the children, one moment..."	NA	"2d"	"disruption"	NA	NA	NA	11
+2020-11-24 12:11:17	"teacher008"	"teacher"	20	"No problem!"	"No problem!"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:11:57	"student014"	"student"	21	"she had two job interviews...she thinks they went okay, even though she still has some difficulties with German"	"she had two job interviews...she thinks they went okay, even though she still has some difficulties with German"	"17.0"	NA	NA	NA	NA	NA	18
+2020-11-24 12:12:04	"student014"	"student"	22	"but we are still waiting for some responses"	"but we are still waiting for some responses"	NA	NA	NA	NA	NA	NA	8
+2020-11-24 12:13:05	"student014"	"student"	23	"The problem is that many people here speak German dialects, so she will have to learn those too"	"The problem is that many people here speak German dialects, so she will have to learn those too"	NA	NA	NA	NA	NA	NA	18
+2020-11-24 12:13:34	"teacher008"	"teacher"	24	"There's such a shortage of nurses in the UK she could just walk into any hospital and be hired here I suspect"	"There's such a shortage of nurses in the UK she could just walk into any hospital and be hired here I suspect"	NA	NA	NA	NA	NA	NA	22
+2020-11-24 12:13:35	"student014"	"student"	25	"as a nurse you need to understand every patient :)"	"as a nurse you need to understand every patient :)"	"23.0"	NA	NA	NA	NA	NA	10
+2020-11-24 12:13:46	"teacher008"	"teacher"	26	"oh goodness, that's challenging!"	"oh goodness, that's challenging!"	"23.0"	NA	NA	NA	NA	NA	4
+2020-11-24 12:14:41	"student014"	"student"	27	"Here there is a shortage too, so I believe she will get at least one of the jobs...one is for a small clinic so it is a bit more difficult since they have only few workers."	"Here there is a shortage too, so I believe she will get at least one of the jobs...one is for a small clinic so it is a bit more difficult since they have only few workers."	"24.0"	NA	NA	NA	NA	NA	36
+2020-11-24 12:15:17	"teacher008"	"teacher"	28	"I see! Good luck with that, hope she will find what she wants!"	"I see! Good luck with that, hope she will find what she wants!"	NA	NA	NA	NA	NA	NA	13
+2020-11-24 12:15:50	"student014"	"student"	29	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:16:17	"teacher008"	"teacher"	30	"Ok, shall we delve back into writing and editing?"	"Ok, shall we delve back into writing and editing?"	NA	"3.0"	"topic opening"	"writing"	"student's writing"	NA	9
+2020-11-24 12:16:23	"student014"	"student"	31	"Yes :)"	"Yes :)"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:17:06	"teacher008"	"teacher"	32	"Great!"	"Great!"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:17:20	"teacher008"	"teacher"	33	"The next sentence"	"The next sentence"	NA	"3a"	"topic development"	"writing"	NA	NA	3
+2020-11-24 12:17:21	"teacher008"	"teacher"	34	"the copy I read came from the library and was printed in 1997: there have been many discoveries in these last 21 years and this would make space  for a new revised edition of the book"	"the copy I read came from the library and was printed in 1997: there have been many discoveries in these last 21 years and this would make space  for a new revised edition of the book"	NA	NA	NA	NA	"student's writing"	NA	37
+2020-11-24 12:17:54	"teacher008"	"teacher"	35	"I would just object to 'these' and use 'the' instead"	"I would just object to 'these' and use 'the' instead"	NA	NA	"repair"	"lexical resource"	NA	NA	10
+2020-11-24 12:18:08	"teacher008"	"teacher"	36	"the basically means 'these' here, but doesn't stand out as much"	"the basically means 'these' here, but doesn't stand out as much"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-11-24 12:19:42	"student014"	"student"	37	"hmm"	"hmm"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:19:42	"teacher008"	"teacher"	38	"Also, in the spirit of looking for a more precise expression, I would challenge 'make space for'. Can you think of anything else that could work here?"	"Also, in the spirit of looking for a more precise expression, I would challenge 'make space for'. Can you think of anything else that could work here?"	NA	"3b"	"eliciting"	"lexical resource"	NA	NA	27
+2020-11-24 12:20:23	"student014"	"student"	39	"I can't understand your first suggestion..."	"I can't understand your first suggestion..."	"37.0"	NA	NA	NA	NA	NA	6
+2020-11-24 12:20:45	"teacher008"	"teacher"	40	"About the article?"	"About the article?"	NA	NA	NA	NA	NA	NA	3
+2020-11-24 12:20:50	"student014"	"student"	41	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:21:13	"teacher008"	"teacher"	42	"there have been many discoveries in the last 21 years"	"there have been many discoveries in the last 21 years"	NA	NA	NA	NA	NA	NA	10
+2020-11-24 12:21:30	"teacher008"	"teacher"	43	"the last X years sounds better to me"	"the last X years sounds better to me"	NA	NA	NA	NA	NA	NA	8
+2020-11-24 12:21:32	"student014"	"student"	44	"oh I see now"	"oh I see now"	NA	NA	NA	NA	NA	NA	4
+2020-11-24 12:21:38	"student014"	"student"	45	"about the expressions...probably 'make room' is better than 'make space'..."	"about the expressions...probably 'make room' is better than 'make space'..."	"38.0"	NA	NA	NA	NA	NA	10
+2020-11-24 12:21:39	"teacher008"	"teacher"	46	"Sorry!"	"Sorry!"	"44.0"	NA	NA	NA	NA	NA	1
+2020-11-24 12:21:43	"student014"	"student"	47	"No problem..."	"No problem..."	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:22:12	"student014"	"student"	48	"But I am not sure that 'make room' would be the best expression here..."	"But I am not sure that 'make room' would be the best expression here..."	"45.0"	NA	NA	NA	NA	NA	14
+2020-11-24 12:22:27	"teacher008"	"teacher"	49	"Make space / room are both fine expressions, I'm just wondering if they are right for the situation"	"Make space / room are both fine expressions, I'm just wondering if they are right for the situation"	NA	NA	NA	NA	NA	NA	18
+2020-11-24 12:22:35	"teacher008"	"teacher"	50	"the new discoveries ____ a revised edition"	"the new discoveries ____ a revised edition"	NA	NA	"eliciting"	"lexical resource"	NA	NA	7
+2020-11-24 12:22:50	"teacher008"	"teacher"	51	"I would suggest 'call for'"	"I would suggest 'call for'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-11-24 12:22:55	"teacher008"	"teacher"	52	"or 'make a case for'"	"or 'make a case for'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-11-24 12:23:07	"student014"	"student"	53	"yes, I like 'call for'"	"yes, I like 'call for'"	NA	NA	NA	NA	NA	NA	5
+2020-11-24 12:23:17	"teacher008"	"teacher"	54	"because the meaning you're after is 'necessitate', not make room for"	"because the meaning you're after is 'necessitate', not make room for"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-11-24 12:23:26	"student014"	"student"	55	"or made a revised edition necessary"	"or made a revised edition necessary"	NA	NA	NA	NA	NA	NA	6
+2020-11-24 12:23:34	"teacher008"	"teacher"	56	"yes, good too"	"yes, good too"	NA	NA	NA	NA	NA	NA	3
+2020-11-24 12:25:19	"teacher008"	"teacher"	57	"to make it the sentence more concise, I would also maybe go for 'there have been many discoveries in the last 21 years which call for..."	"to make it the sentence more concise, I would also maybe go for 'there have been many discoveries in the last 21 years which call for..."	NA	NA	"scaffolding"	"writing,lexical resource"	NA	NA	26
+2020-11-24 12:26:09	"teacher008"	"teacher"	58	"Oh goodness, I've just remembered I've promised you some extra practice with reduced adverbial phrases!"	"Oh goodness, I've just remembered I've promised you some extra practice with reduced adverbial phrases!"	NA	"3c"	"topic development"	NA	NA	NA	15
+2020-11-24 12:26:23	"teacher008"	"teacher"	59	"I will make a note this time and prepare something for next week"	"I will make a note this time and prepare something for next week"	NA	NA	NA	NA	NA	NA	13
+2020-11-24 12:26:53	"student014"	"student"	60	"Okay, don't worry! Next week is fine"	"Okay, don't worry! Next week is fine"	NA	NA	NA	NA	NA	NA	7
+2020-11-24 12:27:36	"teacher008"	"teacher"	61	"Sure, thanks"	"Sure, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:27:51	"teacher008"	"teacher"	62	"Ok, the next sentence!"	"Ok, the next sentence!"	NA	"3d"	"topic development"	"writing"	NA	NA	4
+2020-11-24 12:27:52	"teacher008"	"teacher"	63	"It also delves into the problems regarding the idea of 'omnipotence' and, in practicse , it suggests atheism as the only 'reasonable' view."	"It also delves into the problems regarding the idea of 'omnipotence' and, in practicse , it suggests atheism as the only 'reasonable' view."	NA	NA	NA	NA	"student's writing"	NA	23
+2020-11-24 12:27:58	"teacher008"	"teacher"	64	"About the chapter on logic"	"About the chapter on logic"	NA	NA	NA	NA	NA	NA	5
+2020-11-24 12:28:17	"student014"	"student"	65	"I see a spelling mistake"	"I see a spelling mistake"	"63.0"	"3e"	"repair"	"writing"	NA	NA	5
+2020-11-24 12:28:26	"student014"	"student"	66	"and, in practise, .."	"and, in practise, .."	NA	NA	"repair"	"writing"	NA	NA	4
+2020-11-24 12:28:30	"teacher008"	"teacher"	67	"Yes, it's a spelling mistake and my correction over it))"	"Yes, it's a spelling mistake and my correction over it))"	NA	NA	NA	NA	NA	NA	10
+2020-11-24 12:28:41	"teacher008"	"teacher"	68	"Well, actually, it's 'in practice'"	"Well, actually, it's 'in practice'"	NA	NA	"scaffolding"	"writing"	NA	NA	5
+2020-11-24 12:28:57	"teacher008"	"teacher"	69	"practise is a verb, in Canadian and British English, but never a noun"	"practise is a verb, in Canadian and British English, but never a noun"	NA	NA	"scaffolding"	"writing,lexical resource"	NA	NA	13
+2020-11-24 12:29:03	"teacher008"	"teacher"	70	"practice is the noun"	"practice is the noun"	NA	NA	"scaffolding"	"writing,lexical resource"	NA	NA	4
+2020-11-24 12:29:13	"teacher008"	"teacher"	71	"practice can be a verb in US English too!"	"practice can be a verb in US English too!"	NA	NA	"scaffolding"	"writing,lexical resource"	NA	NA	9
+2020-11-24 12:29:44	"student014"	"student"	72	"Oh...wow, I didn't know this!"	"Oh...wow, I didn't know this!"	NA	NA	NA	NA	NA	NA	5
+2020-11-24 12:30:00	"teacher008"	"teacher"	73	"Yes, it's confusing))"	"Yes, it's confusing))"	NA	NA	NA	NA	NA	NA	3
+2020-11-24 12:30:20	"teacher008"	"teacher"	74	"I suppose the US way is the simplest, but there's a distinction in British English"	"I suppose the US way is the simplest, but there's a distinction in British English"	NA	NA	"scaffolding"	"writing"	NA	NA	15
+2020-11-24 12:30:25	"student014"	"student"	75	"Is the expression 'in practice' correct to mean 'to sum it up'"	"Is the expression 'in practice' correct to mean 'to sum it up'"	NA	"3f"	"enquiry"	"lexical resource,meaning"	NA	NA	12
+2020-11-24 12:30:43	"student014"	"student"	76	"maybe sum it up is not an equivalent expression..."	"maybe sum it up is not an equivalent expression..."	NA	NA	NA	NA	NA	NA	9
+2020-11-24 12:31:15	"student014"	"student"	77	"what I wanted to say is something like 'in few words' 'in the shortes way possible to say it'"	"what I wanted to say is something like 'in a few words' 'in the shortest way possible to say it'"	NA	NA	NA	NA	NA	NA	19
+2020-11-24 12:31:15	"teacher008"	"teacher"	78	"No, you can see it yourself I think, they are not the same and 'to sum it up' actually works better here"	"No, you can see it yourself I think, they are not the same and 'to sum it up' actually works better here"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+2020-11-24 12:31:23	"teacher008"	"teacher"	79	"you can also say 'essentially'"	"you can also say 'essentially'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-11-24 12:31:31	"student014"	"student"	80	"essentialy is definitely better"	"essentialy is definitely better"	NA	NA	NA	NA	NA	NA	4
+2020-11-24 12:31:49	"teacher008"	"teacher"	81	"If you distill the chapter to the essence, it argues in favour of atheism"	"If you distill the chapter to the essence, it argues in favour of atheism"	NA	NA	NA	NA	NA	NA	14
+2020-11-24 12:31:52	"student014"	"student"	82	"I see...in practice I had to use essentially...oh, I am pretty sure this is a very common mistake for me"	"I see...in practice I had to use essentially...oh, I am pretty sure this is a very common mistake for me"	NA	NA	NA	NA	NA	NA	20
+2020-11-24 12:31:53	"teacher008"	"teacher"	83	"#NAME?"	"#NAME?"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:32:42	"teacher008"	"teacher"	84	"Lots of modern gadgets claim to be intuitive, but in practice, they can take up to an hour to set up"	"Lots of modern gadgets claim to be intuitive, but in practice, they can take up to an hour to set up"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	21
+2020-11-24 12:32:47	"student014"	"student"	85	"It was a bit more radical than arguing in favour of atheism...it argued tha anything but atheism is essentially dumb"	"It was a bit more radical than arguing in favour of atheism...it argued that anything but atheism is essentially dumb"	"81.0"	NA	NA	NA	NA	NA	20
+2020-11-24 12:32:58	"teacher008"	"teacher"	86	"in practice = what happens in real life; practice vs. theory"	"in practice = what happens in real life; practice vs. theory"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-11-24 12:33:19	"teacher008"	"teacher"	87	"Ok, good use of 'essentially'!"	"Ok, good use of 'essentially'!"	"85.0"	NA	NA	NA	NA	NA	5
+2020-11-24 12:33:49	"teacher008"	"teacher"	88	"the problems regarding the idea of 'omnipotence'"	"the problems regarding the idea of 'omnipotence'"	NA	"3g"	"topic development"	"writing"	"student's writing"	NA	7
+2020-11-24 12:34:01	"student014"	"student"	89	"Oh that is definitely unclear...hmm.."	"Oh that is definitely unclear...hmm.."	NA	NA	NA	NA	NA	NA	5
+2020-11-24 12:34:05	"teacher008"	"teacher"	90	"Ok, for brevity, I would also simplify this structure"	"Ok, for brevity, I would also simplify this structure"	NA	NA	NA	NA	NA	NA	9
+2020-11-24 12:34:14	"teacher008"	"teacher"	91	"yes, you can see it"	"yes, you can see it"	"89.0"	NA	NA	NA	NA	NA	5
+2020-11-24 12:34:41	"teacher008"	"teacher"	92	"it explores the idea of omnipotence?"	"it explores the idea of omnipotence?"	"90.0"	NA	"scaffolding"	"lexical resource,writing"	NA	NA	6
+2020-11-24 12:35:08	"student014"	"student"	93	"No, not really...to be clear i don't think you can simplify but must explain..."	"No, not really...to be clear I don't think you can simplify but must explain..."	"90.0"	NA	NA	NA	NA	NA	14
+2020-11-24 12:35:44	"student014"	"student"	94	"it described the logical inconsistencies following from the definition of 'omnipotence'"	"it described the logical inconsistencies following from the definition of 'omnipotence'"	NA	NA	NA	NA	NA	NA	11
+2020-11-24 12:36:17	"teacher008"	"teacher"	95	"That's actually much clearer than the problems with the idea of..."	"That's actually much clearer than the problems with the idea of..."	NA	NA	NA	NA	NA	NA	11
+2020-11-24 12:36:50	"student014"	"student"	96	"I agree...I can understand its meaning only because I still remember some parts of the book..."	"I agree...I can understand its meaning only because I still remember some parts of the book..."	NA	NA	NA	NA	NA	NA	16
+2020-11-24 12:37:24	"teacher008"	"teacher"	97	"Yes, but now I can also see what the author was trying to do there"	"Yes, but now I can also see what the author was trying to do there"	NA	NA	NA	NA	NA	NA	15
+2020-11-24 12:37:48	"teacher008"	"teacher"	98	"I wonder now though whether you even need 'to sum up'"	"I wonder now though whether you even need 'to sum up'"	NA	"3h"	"topic development"	"writing,lexical resource"	NA	NA	11
+2020-11-24 12:38:12	"teacher008"	"teacher"	99	"because the argument for atheism is not a summary of the criticism for omnipotence even though they are logically connected"	"because the argument for atheism is not a summary of the criticism for omnipotence even though they are logically connected"	NA	NA	NA	NA	NA	NA	20
+2020-11-24 12:38:16	"teacher008"	"teacher"	100	"What do you think?"	"What do you think?"	NA	NA	NA	NA	NA	NA	4
+2020-11-24 12:38:48	"student014"	"student"	101	"it describes the logical inconsistencies following from the definition of 'omnipotence', and concluded suggesting that anything but atheism is essentially dumb"	"it describes the logical inconsistencies following from the definition of 'omnipotence', and concludes that anything but atheism is essentially dumb"	"97.0"	NA	NA	NA	NA	NA	21
+2020-11-24 12:39:19	"student014"	"student"	102	"maybe 'dumb' doesn't fit the style of the sentence, but I guess this would be a better rewriting of the sentence."	"maybe 'dumb' doesn't fit the style of the sentence, but I guess this would be a better rewriting of the sentence."	NA	"3i"	"topic development"	"writing,lexical resource"	NA	NA	21
+2020-11-24 12:39:30	"teacher008"	"teacher"	103	"I was just going to say that :)"	"I was just going to say that :)"	NA	NA	NA	NA	NA	NA	8
+2020-11-24 12:39:41	"teacher008"	"teacher"	104	"about 'dumb', completely different register"	"about 'dumb', completely different register"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	5
+2020-11-24 12:40:20	"student014"	"student"	105	"obtuse"	"obtuse"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:40:23	"teacher008"	"teacher"	106	"You also need to keep it in one tense (concludes not concluded?)"	"You also need to keep it in one tense (concludes not concluded?)"	"101.0"	"3j"	"repair"	"grammatical resource"	NA	NA	12
+2020-11-24 12:40:32	"student014"	"student"	107	"but I don't know if you can use it this way"	"but I don't know if you can use it this way"	"105.0"	NA	NA	NA	NA	NA	11
+2020-11-24 12:40:39	"student014"	"student"	108	"oh yes, you are right...concludes"	"oh yes, you are right...concludes"	"106.0"	NA	NA	NA	NA	NA	5
+2020-11-24 12:40:41	"teacher008"	"teacher"	109	"Haha, let me think"	"Haha, let me think"	"107.0"	NA	NA	NA	NA	NA	4
+2020-11-24 12:41:57	"teacher008"	"teacher"	110	"Obtuse can be used in this meaning and does sound more formal, but it's still a bit abrupt"	"Obtuse can be used in this meaning and does sound more formal, but it's still a bit abrupt"	NA	NA	"scaffolding"	"writing,lexical resource"	NA	NA	18
+2020-11-24 12:42:22	"teacher008"	"teacher"	111	"what are the euphemisms for stupid?"	"what are the euphemisms for stupid?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	6
+2020-11-24 12:42:26	"teacher008"	"teacher"	112	"ill-informed?"	"ill-informed?"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:43:04	"student014"	"student"	113	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:43:07	"teacher008"	"teacher"	114	"unfounded might be a good one, for a belief"	"unfounded might be a good one, for a belief"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-11-24 12:43:36	"student014"	"student"	115	"yes, maybe unfounded would be more appropriate"	"yes, maybe unfounded would be more appropriate"	NA	NA	NA	NA	NA	NA	7
+2020-11-24 12:43:53	"student014"	"student"	116	"or credulous... is this a word?"	"or credulous... is this a word?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	6
+2020-11-24 12:44:25	"student014"	"student"	117	"yes, it is...maybe it could be used in this context"	"yes, it is...maybe it could be used in this context"	NA	NA	NA	NA	NA	NA	10
+2020-11-24 12:44:31	"teacher008"	"teacher"	118	"yes, credulous means the same as gullible"	"yes, credulous means the same as gullible"	NA	NA	NA	NA	NA	NA	7
+2020-11-24 12:44:41	"teacher008"	"teacher"	119	"I can see that in this context, yes"	"I can see that in this context, yes"	"117.0"	NA	NA	NA	NA	NA	8
+2020-11-24 12:44:45	"teacher008"	"teacher"	120	"misguided maybe"	"misguided maybe"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-11-24 12:45:30	"teacher008"	"teacher"	121	"All good options, to keep it from sounding too blunt"	"All good options, to keep it from sounding too blunt"	NA	NA	NA	NA	NA	NA	10
+2020-11-24 12:45:54	"teacher008"	"teacher"	122	"Ok, moving on!"	"Ok, moving on!"	NA	"3k"	"topic development"	"writing"	NA	NA	3
+2020-11-24 12:45:56	"teacher008"	"teacher"	123	"I would be fine with this, if the problem of 'nature intelligibility' was treated better  and there weren't long sections about  'science fiction' (or better, theories which we shall never be able to prove)."	"I would be fine with this, if the problem of 'nature intelligibility' was treated better  and there weren't long sections about  'science fiction' (or better, theories which we shall never be able to prove)."	NA	NA	NA	NA	"student's writing"	NA	36
+2020-11-24 12:46:30	"student014"	"student"	124	"Okay for misguided...with this next sentence...hmmm"	"Okay for misguided...with this next sentence...hmmm"	"120, 123"	NA	NA	NA	NA	NA	6
+2020-11-24 12:46:34	"teacher008"	"teacher"	125	"an article / chapter / section ___ science fiction (what's the preposition?)"	"an article / chapter / section ___ science fiction (what's the preposition?)"	NA	NA	"eliciting,repair"	"lexical resource"	NA	NA	12
+2020-11-24 12:46:41	"student014"	"student"	126	"on"	"on"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:46:44	"teacher008"	"teacher"	127	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:47:17	"teacher008"	"teacher"	128	"Ok, as a reader, I'm not at all sure what you mean by 'treated better'"	"Ok, as a reader, I'm not at all sure what you mean by 'treated better'"	NA	NA	"eliciting"	"writing,lexical resource"	NA	NA	15
+2020-11-24 12:47:53	"student014"	"student"	129	"that's because of italian..."	"that's because of Italian..."	NA	NA	NA	NA	NA	NA	4
+2020-11-24 12:47:54	"teacher008"	"teacher"	130	"Could you decipher it for me, please?"	"Could you decipher it for me, please?"	NA	NA	"eliciting"	"writing,lexical resource"	NA	NA	7
+2020-11-24 12:47:56	"student014"	"student"	131	"explained better"	"explained better"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:48:28	"student014"	"student"	132	"even though I can't remember exactly what the book meant with the intelligibility of nature..."	"even though I can't remember exactly what the book meant with the intelligibility of nature..."	NA	NA	NA	NA	NA	NA	15
+2020-11-24 12:48:36	"teacher008"	"teacher"	133	"ok, or 'explored in more detail' maybe, as an option"	"ok, or 'explored in more detail' maybe, as an option"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-11-24 12:49:03	"student014"	"student"	134	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:49:53	"student014"	"student"	135	"Even though, looking at it now, it makes little sense for a review reader to read the name of a concept"	"Even though, looking at it now, it makes little sense for a review reader to read the name of a concept"	NA	"3l"	"topic development"	"writing"	NA	NA	21
+2020-11-24 12:50:07	"student014"	"student"	136	"which it is not known unless you read the book (or you already know about the topic)."	"which is not known unless you read the book (or you already know about the topic)."	NA	NA	NA	NA	NA	NA	17
+2020-11-24 12:50:17	"student014"	"student"	137	"So I would probably rewrite everything in a simpler way:"	"So I would probably rewrite everything in a simpler way:"	NA	NA	NA	NA	NA	NA	10
+2020-11-24 12:50:18	"teacher008"	"teacher"	138	"Ok, with the science fiction, I'm not sure whether this is the term the author uses or whether this is your critisicm of his ideas"	"Ok, with the science fiction, I'm not sure whether this is the term the author uses or whether this is your critisicm of his ideas"	"134.0"	NA	NA	NA	NA	NA	25
+2020-11-24 12:51:07	"student014"	"student"	139	"Yes, also that part is unclear..."	"Yes, also that part is unclear..."	NA	NA	NA	NA	NA	NA	6
+2020-11-24 12:51:20	"student014"	"student"	140	"Now I would re-write the sentence in a different way, for example:"	"Now I would re-write the sentence in a different way, for example:"	"137.0"	NA	NA	NA	NA	NA	12
+2020-11-24 12:51:31	"teacher008"	"teacher"	141	"Oh, it's a philosophical / theological concept, so I'm sure the term can remain"	"Oh, it's a philosophical / theological concept, so I'm sure the term can remain"	"135.0"	NA	NA	NA	NA	NA	14
+2020-11-24 12:53:21	"student014"	"student"	142	"I believe the problem of 'nature intelligibility' wasn't explored in enough detail. At the same time, I believe the book devoted too many pages so theories which, while interesting, can't be proved through experiments and are thus more keen to 'science fiction' than to 'science'."	"I believe the problem of 'nature intelligibility' wasn't explored in enough detail. At the same time, I believe the book devoted too many pages to theories which, while interesting, can't be proved through experiments and are thus more akin to 'science fiction' than to 'science'."	"140.0"	NA	NA	NA	NA	NA	45
+2020-11-24 12:53:48	"student014"	"student"	143	"Maybe I could avoid the repetition of 'believe', but writing good English is not an easy task."	"Maybe I could avoid the repetition of 'believe', but writing in good English is not an easy task."	NA	NA	NA	NA	NA	NA	17
+2020-11-24 12:54:12	"teacher008"	"teacher"	144	"No, it's not! This is a great improvement though!"	"No, it's not! This is a great improvement though!"	NA	NA	NA	NA	NA	NA	9
+2020-11-24 12:54:22	"teacher008"	"teacher"	145	"did you mean 'kin', not 'keen'?"	"did you mean 'kin', not 'keen'?"	NA	"3m"	"eliciting,repair"	"lexical resource"	NA	NA	6
+2020-11-24 12:54:26	"teacher008"	"teacher"	146	"or"	"or"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:54:29	"teacher008"	"teacher"	147	"akin"	"akin"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:54:30	"teacher008"	"teacher"	148	"akin to"	"akin to"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:55:06	"student014"	"student"	149	"akin to"	"akin to"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 12:55:23	"student014"	"student"	150	"it is an expression I don't use that often so I wasn't really sure about its spelling"	"it is an expression I don't use that often so I wasn't really sure about its spelling"	NA	NA	NA	NA	NA	NA	17
+2020-11-24 12:56:00	"teacher008"	"teacher"	151	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 12:56:07	"teacher008"	"teacher"	152	"now, akin to = similar to"	"now, akin to = similar to"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-24 12:56:22	"teacher008"	"teacher"	153	"are they similar to science fiction or are they actually science fiction?"	"are they similar to science fiction or are they actually science fiction?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	12
+2020-11-24 12:58:20	"student014"	"student"	154	"similar to...even though it wouldn't be the correct term..."	"similar to...even though it wouldn't be the correct term..."	NA	NA	NA	NA	NA	NA	9
+2020-11-24 12:58:53	"teacher008"	"teacher"	155	"No, that's the problem"	"No, that's the problem"	NA	NA	NA	NA	NA	NA	4
+2020-11-24 12:59:34	"teacher008"	"teacher"	156	"I believe the book devoted too many pages to theories which, while interesting, can't be proved through experiment and thus belong in the realm of science fiction, not science."	"I believe the book devoted too many pages to theories which, while interesting, can't be proved through experiment and thus belong in the realm of science fiction, not science."	NA	"3n"	"scaffolding"	"writing,lexical resource"	NA	NA	29
+2020-11-24 13:00:02	"teacher008"	"teacher"	157	"just an option, more of an idea of 'being classified as' or 'belonging' than similarity"	"just an option, more of an idea of 'being classified as' or 'belonging' than similarity"	NA	NA	"scaffolding"	"lexical resource,meaning,writing"	NA	NA	15
+2020-11-24 13:00:17	"student014"	"student"	158	"indeed"	"indeed"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 13:00:18	"student014"	"student"	159	"would"	"would"	NA	NA	NA	NA	NA	NA	1
+2020-11-24 13:00:35	"teacher008"	"teacher"	160	"I did like some of your sentences today! Complex but clear!"	"I did like some of your sentences today! Complex but clear!"	NA	NA	NA	NA	NA	NA	11
+2020-11-24 13:00:50	"student014"	"student"	161	"belong more to the realm of science fiction than to the one of science"	"belong more to the realm of science fiction than to the one of science"	"159.0"	NA	NA	NA	NA	NA	14
+2020-11-24 13:00:53	"student014"	"student"	162	"thank you!"	"thank you!"	"160.0"	NA	NA	NA	NA	NA	2
+2020-11-24 13:01:13	"teacher008"	"teacher"	163	"My pleasure"	"My pleasure"	NA	NA	NA	NA	NA	NA	2
+2020-11-24 13:01:24	"student014"	"student"	164	"what is the difference between 'belong to the realm' and 'belong in the realm of'?"	"what is the difference between 'belong to the realm' and 'belong in the realm of'?"	NA	"3o"	"enquiry"	"lexical resource"	NA	NA	15
+2020-11-24 13:01:31	"student014"	"student"	165	"are they both correct?"	"are they both correct?"	NA	NA	NA	NA	NA	NA	4
+2020-11-24 13:01:33	"teacher008"	"teacher"	166	"Have a lovely week, looking forward to speaking to you next Tuesday! (same time, right?)"	"Have a lovely week, looking forward to speaking to you next Tuesday! (same time, right?)"	NA	"4.0"	"closing"	NA	NA	NA	15
+2020-11-24 13:01:44	"teacher008"	"teacher"	167	"I think they're both good!"	"I think they're both good!"	"165.0"	NA	NA	NA	NA	NA	5
+2020-11-24 13:01:52	"teacher008"	"teacher"	168	"belong goes with to, as you know"	"belong goes with to, as you know"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-11-24 13:02:01	"teacher008"	"teacher"	169	"but also, belong (where)"	"but also, belong (where)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-11-24 13:02:11	"student014"	"student"	170	"I see..."	"I see..."	NA	NA	NA	NA	NA	NA	2
+2020-11-24 13:02:12	"teacher008"	"teacher"	171	"as in 'you don't belong here'"	"as in 'you don't belong here'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-24 13:03:02	"student014"	"student"	172	"Okay, perfect thank you!"	"Okay, perfect thank you!"	NA	NA	NA	NA	NA	NA	4
+2020-11-24 13:03:10	"student014"	"student"	173	"It's already 14:03"	"It's already 14:03"	NA	"4a"	NA	NA	NA	NA	3
+2020-11-24 13:03:25	"teacher008"	"teacher"	174	"Yes, I'll let you go! Speak to you next week"	"Yes, I'll let you go! Speak to you next week"	NA	NA	NA	NA	NA	NA	10
+2020-11-24 13:03:47	"student014"	"student"	175	"Great! Thank you for your help and have a nice week!!"	"Great! Thank you for your help and have a nice week!!"	NA	NA	NA	NA	NA	NA	11
+2020-11-24 13:03:57	"teacher008"	"teacher"	176	"You're very welcome, bye!"	"You're very welcome, bye!"	NA	NA	NA	NA	NA	NA	4
+2020-11-24 13:04:08	"student014"	"student"	177	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"C2"	1

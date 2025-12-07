@@ -1,0 +1,140 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-25 20:01:26	"teacher001"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-03-25 20:02:14	"student004"	"student"	2	"Hi <TEACHER>"	"Hi <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:03:12	"teacher001"	"teacher"	3	"HEy there - sorrry give me a minute - go to relight my fire..."	"HEy there - sorrry give me a minute - go to relight my fire..."	NA	"2.0"	"disruption"	NA	NA	NA	14
+2020-03-25 20:03:21	"student004"	"student"	4	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 20:04:16	"teacher001"	"teacher"	5	"OK  the kindling has caught this time..."	"OK  the kindling has caught this time..."	NA	NA	NA	NA	NA	NA	8
+2020-03-25 20:05:20	"teacher001"	"teacher"	6	"I sit warm where you are at the moment?"	"I sit warm where you are at the moment?"	NA	"3.0"	"topic opening"	NA	NA	NA	9
+2020-03-25 20:05:30	"teacher001"	"teacher"	7	"is it warm i mean!"	"is it warm i mean!"	NA	NA	"repair"	"writing"	NA	NA	5
+2020-03-25 20:05:35	"student004"	"student"	8	"Sorry, I don't understand... kindling??"	"Sorry, I don't understand... kindling??"	NA	"4.0"	"enquiry"	"lexical resource"	NA	NA	5
+2020-03-25 20:06:06	"teacher001"	"teacher"	9	"Ah yes sorry - it's the name for the little bits of wood or whatever you use to start the fire at the beginning"	"Ah yes sorry - it's the name for the little bits of wood or whatever you use to start the fire at the beginning"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	24
+2020-03-25 20:06:26	"student004"	"student"	10	"Here 18 degrees now, during the day it's very sunny"	"Here  it's 18 degrees now, during the day it's very sunny"	6	NA	NA	NA	NA	NA	10
+2020-03-25 20:07:06	"teacher001"	"teacher"	11	"NIce....yes it's actually really sunny this week here too - and maybe....13 degrees!"	"NIce....yes it's actually really sunny this week here too - and maybe....13 degrees!"	NA	NA	NA	NA	NA	NA	13
+2020-03-25 20:07:20	"student004"	"student"	12	"Not too bad 13!!"	"Not too bad 13!!"	NA	NA	NA	NA	NA	NA	4
+2020-03-25 20:07:53	"teacher001"	"teacher"	13	"yes! Actually my boat gets warm in the sun so it doesn't really matter about the outside temperatrue..."	"yes! Actually my boat gets warm in the sun so it doesn't really matter about the outside temperatrue..."	NA	"3a"	"topic development"	NA	NA	NA	18
+2020-03-25 20:08:43	"teacher001"	"teacher"	14	"Have you heard of the Amazon 'Kindle' the thing for reading ebooks"	"Have you heard of the Amazon 'Kindle' the thing for reading ebooks"	NA	"4a"	"scaffolding,eliciting"	"lexical resource,world knowledge"	NA	NA	12
+2020-03-25 20:08:44	"student004"	"student"	15	"That's good! I always imagined that boats were cold, so I was wrong"	"That's good! I always imagined that boats were cold, so I was wrong"	13	NA	NA	NA	NA	NA	13
+2020-03-25 20:09:46	"student004"	"student"	16	"Yes, I know what a Kindle is! I prefer books but I see how convenient a Kindle can be..."	"Yes, I know what a Kindle is! I prefer books but I see how convenient a Kindle can be..."	14	NA	NA	NA	NA	NA	19
+2020-03-25 20:09:55	"teacher001"	"teacher"	17	"Well they can be in a way - they're kind of a cross between a car and a house you know? As in they don't retain heat very well but hey warm up quickly"	"Well they can be in a way - they're kind of a cross between a car and a house you know? As in they don't retain heat very well but hey warm up quickly"	15	NA	NA	NA	NA	NA	34
+2020-03-25 20:10:53	"student004"	"student"	18	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:11:20	"teacher001"	"teacher"	19	"Yes I just mentioned it because it struck me that it's related to the idea of kindling you see? BEcause you kindle a flame - in this cae the flame of knowledge... you kindle a feeling"	"Yes I just mentioned it because it struck me that it's related to the idea of kindling you see? BEcause you kindle a flame - in this cae the flame of knowledge... you kindle a feeling"	16	NA	"scaffolding"	"lexical resource"	NA	NA	36
+2020-03-25 20:11:24	"teacher001"	"teacher"	20	"in this case"	"in this case"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 20:12:26	"student004"	"student"	21	"ahh interesting..."	"ahh interesting..."	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:12:34	"teacher001"	"teacher"	22	"it's related to 'candle' by the way as you can imagine"	"it's related to 'candle' by the way as you can imagine"	NA	NA	NA	NA	NA	NA	11
+2020-03-25 20:13:18	"teacher001"	"teacher"	23	"So <STUDENT>...inversion...."	"So <STUDENT>...inversion...."	NA	"5.0"	"presentation"	"grammatical resource"	NA	NA	2
+2020-03-25 20:13:28	"student004"	"student"	24	"now I know but before you explained I didn't! thanks"	"now I know but before you explained I didn't! thanks"	22	NA	NA	NA	NA	NA	10
+2020-03-25 20:13:36	"student004"	"student"	25	"yes, inversion!!"	"yes, inversion!!"	23	NA	NA	NA	NA	NA	2
+2020-03-25 20:14:25	"teacher001"	"teacher"	26	"OK....so we use it for with a limited number of phrases/words - basically negative adverbs - to make something limited or emphatic...."	"OK....so we use it for with a limited number of phrases/words - basically negative adverbs - to make something limited or emphatic...."	NA	NA	"presentation"	"grammatical resource"	NA	NA	22
+2020-03-25 20:14:52	"teacher001"	"teacher"	27	"for example....the word never (a limiting word let's say...) hold on"	"for example....the word never (a limiting word let's say...) hold on"	NA	NA	"presentation"	"grammatical resource"	NA	NA	11
+2020-03-25 20:15:20	"teacher001"	"teacher"	28	"I have never seen such a terrible sight = Never have i seen such a ...you see?"	"I have never seen such a terrible sight = Never have i seen such a ...you see?"	NA	NA	"presentation"	"grammatical resource"	NA	NA	17
+2020-03-25 20:15:33	"student004"	"student"	29	"I have a question about something you wrote yesterday. In the sentence 'Not only do I like chocolate I also like cake', do we need to write 'do'??"	"I have a question about something you wrote yesterday. In the sentence 'Not only do I like chocolate I also like cake', do we need to write 'do'??"	NA	"5a"	"enquiry"	"grammatical resource"	NA	NA	28
+2020-03-25 20:15:50	"teacher001"	"teacher"	30	"yes we do! Hold on...."	"yes we do! Hold on...."	NA	NA	NA	NA	NA	NA	5
+2020-03-25 20:16:27	"student004"	"student"	31	"I understand the example with never"	"I understand the example with never"	28	NA	NA	NA	NA	NA	6
+2020-03-25 20:16:45	"teacher001"	"teacher"	32	"OK that's good/..."	"OK that's good/..."	NA	NA	NA	NA	NA	NA	3
+2020-03-25 20:18:40	"teacher001"	"teacher"	33	"With the present simple v, and past simple verbs we need  auxiliary verb do/did"	"With the present simple v, and past simple verbs we need  auxiliary verb do/did"	30	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-03-25 20:19:11	"teacher001"	"teacher"	34	"and also make the main verb the infinitive ..."	"and also make the main verb the infinitive ..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-03-25 20:19:19	"teacher001"	"teacher"	35	"for example....hold on"	"for example....hold on"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 20:20:04	"teacher001"	"teacher"	36	"Not only does he love chocolate..."	"Not only does he love chocolate..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-03-25 20:20:22	"teacher001"	"teacher"	37	"i.e. he + love NOT loves"	"i.e. he + love NOT loves"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-03-25 20:20:40	"student004"	"student"	38	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 20:21:13	"student004"	"student"	39	"I didn't know we need auxiliary in affirmative sentences"	"I didn't know we needed an auxiliary verb in affirmative sentences"	NA	NA	NA	NA	NA	NA	9
+2020-03-25 20:21:27	"teacher001"	"teacher"	40	"One last example: He only realised later that ... = only later did her realise that..."	"One last example: He only realised later that ... = only later did her realise that..."	38	NA	NA	NA	NA	NA	16
+2020-03-25 20:21:44	"teacher001"	"teacher"	41	"Yes not normally - but inversion is a special case"	"Yes not normally - but inversion is a special case"	39	NA	NA	NA	NA	NA	10
+2020-03-25 20:21:55	"student004"	"student"	42	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:22:13	"teacher001"	"teacher"	43	"although <STUDENT> you know of course that we sometimes say e.g. I do like chocolate right?"	"although <STUDENT> you know of course that we sometimes say e.g. I do like chocolate right?"	NA	"6.0"	"scaffolding,eliciting"	"grammatical resource"	NA	NA	16
+2020-03-25 20:23:03	"student004"	"student"	44	"Yes, I know that... but it is different, isn't it??"	"Yes, I know that... but it is different, isn't it??"	NA	NA	NA	NA	NA	NA	10
+2020-03-25 20:23:21	"teacher001"	"teacher"	45	"in fact I Could have written: you know that we do sometimes say I do like..."	"in fact I Could have written: you know that we do sometimes say I do like..."	NA	NA	NA	NA	NA	NA	16
+2020-03-25 20:23:45	"student004"	"student"	46	"In I do like chocolate I can remove 'do' but in inversion we can't (if I understood well)"	"In I do like chocolate I can remove 'do' but in inversion we can't (if I understood well)"	NA	NA	NA	NA	NA	NA	18
+2020-03-25 20:23:56	"teacher001"	"teacher"	47	"Yes that's true of course.."	"Yes that's true of course.."	NA	NA	NA	NA	NA	NA	5
+2020-03-25 20:24:05	"student004"	"student"	48	"okk"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 20:24:24	"teacher001"	"teacher"	49	"I guess it's a bit similar in the sense that it's related to emphasis"	"I guess it's a bit similar in the sense that it's related to emphasis"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-03-25 20:24:53	"student004"	"student"	50	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:25:03	"teacher001"	"teacher"	51	"Sorry I can't resist: I Could have written e.g. You do know that we do sometimes say I do like chocolate?"	"Sorry I can't resist: I Could have written e.g. You do know that we do sometimes say I do like chocolate?"	NA	NA	NA	NA	NA	NA	21
+2020-03-25 20:25:21	"student004"	"student"	52	"do do do do do do haha"	"do do do do do do haha"	NA	NA	NA	NA	NA	NA	7
+2020-03-25 20:25:26	"teacher001"	"teacher"	53	"3 extra do's in one sentence"	"3 extra do's in one sentence"	NA	NA	NA	NA	NA	NA	6
+2020-03-25 20:26:01	"student004"	"student"	54	"From now I'll use 'do' all the time"	"From now on I'll use 'do' all the time"	NA	NA	NA	NA	NA	NA	8
+2020-03-25 20:26:05	"teacher001"	"teacher"	55	"yes - and actually not really exaggerated - we might really say that and it wouldn't sound strange"	"yes - and actually not really exaggerated - we might really say that and it wouldn't sound strange"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	18
+2020-03-25 20:26:27	"teacher001"	"teacher"	56	"Go for it! Seriously, it's much more common than we think..."	"Go for it! Seriously, it's much more common than we think..."	54	NA	NA	NA	NA	NA	11
+2020-03-25 20:26:51	"student004"	"student"	57	"same with did??"	"same with did??"	NA	"6a"	"enquiry"	"grammatical resource"	NA	NA	3
+2020-03-25 20:26:54	"teacher001"	"teacher"	58	"It's not always accompanied by a big dramatic tone/gesture/statment"	"It's not always accompanied by a big dramatic tone/gesture/statment"	56	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	9
+2020-03-25 20:27:02	"student004"	"student"	59	"I mean, is it also common??"	"I mean, is it also common??"	57	NA	NA	NA	NA	NA	6
+2020-03-25 20:27:07	"teacher001"	"teacher"	60	"yes the same in the past"	"yes the same in the past"	NA	NA	NA	NA	NA	NA	6
+2020-03-25 20:27:11	"teacher001"	"teacher"	61	"and common"	"and common"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:27:23	"student004"	"student"	62	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 20:27:30	"teacher001"	"teacher"	63	"For example we often just use it to draw attention to something"	"For example we often just use it to draw attention to something"	57	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	12
+2020-03-25 20:27:37	"teacher001"	"teacher"	64	"not in a big dramatic way"	"not in a big dramatic way"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	6
+2020-03-25 20:27:54	"teacher001"	"teacher"	65	"for example...I did want to go out later (actually)"	"for example...I did want to go out later (actually)"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	9
+2020-03-25 20:28:20	"student004"	"student"	66	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:28:36	"teacher001"	"teacher"	67	"just a gentle way of suggesting that even though maybe it's late/we're busy or whatever (not always stated) i still wan tto go out"	"just a gentle way of suggesting that even though maybe it's late/we're busy or whatever (not always stated) i still wan tto go out"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	24
+2020-03-25 20:29:39	"teacher001"	"teacher"	68	"Some of the phrases we invert by the way are pretty formal but not all"	"Some of the phrases we invert by the way are pretty formal but not all"	NA	"6b"	"scaffolding"	"grammatical resource,register"	NA	NA	15
+2020-03-25 20:30:21	"teacher001"	"teacher"	69	"Formal ones = for example: scarcely/seldom/little"	"Formal ones = for example: scarcely/seldom/little"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	6
+2020-03-25 20:30:56	"teacher001"	"teacher"	70	"more normal: not only/only then"	"more normal: not only/only then"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	5
+2020-03-25 20:31:01	"student004"	"student"	71	"Are these the adverbs that go at the beginning??"	"Are these the adverbs that go at the beginning??"	NA	NA	"enquiry"	"lexical resource"	NA	NA	9
+2020-03-25 20:31:25	"teacher001"	"teacher"	72	"yes exactly..so e.g. Seldom have I been so impressed by blah blah"	"yes exactly..so e.g. Seldom have I been so impressed by blah blah"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	12
+2020-03-25 20:32:11	"teacher001"	"teacher"	73	"e.g. Little did he think that he would meet him again"	"e.g. Little did he think that he would meet him again"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-03-25 20:34:01	"teacher001"	"teacher"	74	"I think <STUDENT> if you listen to more formal speaking (or read stuff like that) you'll notice it more know"	"I think <STUDENT> if you listen to more formal speaking (or read stuff like that) you'll notice it more know"	NA	"7.0"	"topic opening"	"grammatical resource,meta knowledge"	NA	NA	20
+2020-03-25 20:34:24	"student004"	"student"	75	"I'll pay more attention from now..."	"I'll pay more attention from now..."	NA	NA	NA	NA	NA	NA	6
+2020-03-25 20:34:31	"teacher001"	"teacher"	76	"notice it more now' I mean  - now that your attention has been drawn to it"	"notice it more now' I mean  - now that your attention has been drawn to it"	74	NA	"repair"	"writing"	NA	NA	17
+2020-03-25 20:35:11	"student004"	"student"	77	"yes, I knew what you meant"	"yes, I knew what you meant"	NA	NA	NA	NA	NA	NA	6
+2020-03-25 20:35:40	"teacher001"	"teacher"	78	"Yeah - it's interesting - because it's one of those 'grammar' things that doesn;t really change the meaning so you can basically not notice it and it doesn't really matter"	"Yeah - it's interesting - because it's one of those 'grammar' things that doesn;t really change the meaning so you can basically not notice it and it doesn't really matter"	NA	NA	NA	"grammatical resource,meaning,meta knowledge"	NA	NA	30
+2020-03-25 20:35:58	"teacher001"	"teacher"	79	"i.e. that's why people don't notice it"	"i.e. that's why people don't notice it"	NA	NA	NA	NA	NA	NA	7
+2020-03-25 20:36:40	"student004"	"student"	80	"I'm surprised but I don't remember studying that at all... maybe I did and I've forgotten about it"	"I'm surprised but I don't remember studying that at all... maybe I did and I've forgotten about it"	NA	"7a"	"topic development"	"meta knowledge"	NA	NA	18
+2020-03-25 20:37:17	"teacher001"	"teacher"	81	"Maybe you were away that lesson! It is something that's often covered quite quickly and in a self-contained kind of way"	"Maybe you were away that lesson! It is something that's often covered quite quickly and in a self-contained kind of way"	NA	NA	NA	NA	NA	NA	21
+2020-03-25 20:37:46	"student004"	"student"	82	"Maybe..."	"Maybe..."	NA	NA	NA	NA	NA	NA	1
+2020-03-25 20:38:01	"student004"	"student"	83	"Just to clarify..."	"Just to clarify..."	NA	"8.0"	"enquiry"	"grammatical resource"	NA	NA	3
+2020-03-25 20:38:10	"teacher001"	"teacher"	84	"Ah - did you see my auxiliary there? I did that one without thinking (e.g. It IS something that's covered...)"	"Ah - did you see my auxiliary there? I did that one without thinking (e.g. It IS something that's covered...)"	81	NA	"scaffolding"	"grammatical resource"	NA	NA	20
+2020-03-25 20:38:19	"teacher001"	"teacher"	85	"yes go ahead"	"yes go ahead"	83	NA	NA	NA	NA	NA	3
+2020-03-25 20:38:54	"teacher001"	"teacher"	86	"you'd hear the difference in speaking (i.e. emphatic) easily"	"you'd hear the difference in speaking (i.e. emphatic) easily"	84	NA	NA	NA	NA	NA	9
+2020-03-25 20:39:27	"student004"	"student"	87	"If the inverted sentence (do you call them like this) is in past simple we use DID and if it is in present simple we use DO"	"If the inverted sentence (do you call them like this) is in past simple we use DID and if it is in present simple we use DO"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	27
+2020-03-25 20:39:56	"teacher001"	"teacher"	88	"Yes and yes ('inverted' =correct and do/did for present/past respectively)"	"Yes and yes ('inverted' =correct and do/did for present/past respectively)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-03-25 20:40:16	"student004"	"student"	89	"And..."	"And..."	NA	NA	NA	NA	NA	NA	1
+2020-03-25 20:40:27	"teacher001"	"teacher"	90	"yep..."	"yep..."	NA	NA	NA	NA	NA	NA	1
+2020-03-25 20:40:56	"student004"	"student"	91	"if it's in present simple you don't use auxiliary but you invert the order (have he...)"	"if it's in present simple you don't use auxiliary but you invert the order (have he...)"	NA	NA	NA	NA	NA	NA	16
+2020-03-25 20:41:40	"student004"	"student"	92	"but for present or past simple you don't invert the order (did he think...)"	"but for present or past simple you don't invert the order (did he think...)"	NA	NA	NA	NA	NA	NA	14
+2020-03-25 20:42:24	"student004"	"student"	93	"sorry, I meant present perfect simple when I wrote the example (have he...)"	"sorry, I meant present perfect simple when I wrote the example (have he...)"	91	NA	"repair"	"content"	NA	NA	13
+2020-03-25 20:42:34	"teacher001"	"teacher"	94	"Ah right i see hold on..."	"Ah right i see hold on..."	NA	NA	NA	NA	NA	NA	6
+2020-03-25 20:42:58	"student004"	"student"	95	"Am I right?? I deduced that from your examples but no idea..."	"Am I right?? I deduced that from your examples but no idea..."	NA	NA	NA	NA	NA	NA	12
+2020-03-25 20:44:05	"teacher001"	"teacher"	96	"well, in the present perfect the auxiliary is 'have' right? so, e.g. Not only has he stolen from me, he has also lied blah blah SAME idea in the present = Not only does he steal from me he...OK?"	"well, in the present perfect the auxiliary is 'have' right? so, e.g. Not only has he stolen from me, he has also lied blah blah SAME idea in the present = Not only does he steal from me he...OK?"	NA	"8a"	"scaffolding"	"grammatical resource"	NA	NA	39
+2020-03-25 20:44:34	"teacher001"	"teacher"	97	"Nice verb 'deduced' by the way!"	"Nice verb 'deduced' by the way!"	NA	"8b"	"scaffolding"	"lexical resource"	NA	NA	6
+2020-03-25 20:45:10	"student004"	"student"	98	"I see!! have is the auxiliary..."	"I see!! have is the auxiliary..."	96	NA	NA	NA	NA	NA	6
+2020-03-25 20:45:23	"teacher001"	"teacher"	99	"yes  that's it"	"yes  that's it"	NA	NA	NA	NA	NA	NA	4
+2020-03-25 20:45:23	"student004"	"student"	100	"deduce: deducir en español ;)"	"deduce: deducir en español ;)"	97	NA	NA	NA	NA	NA	5
+2020-03-25 20:45:47	"teacher001"	"teacher"	101	"yeah i Guess that's an easy one then! IS it formal in Spanish?"	"yeah i Guess that's an easy one then! IS it formal in Spanish?"	NA	NA	"enquiry"	"world knowledge,register"	NA	NA	13
+2020-03-25 20:46:38	"student004"	"student"	102	"It's not really formal, we use it a lot..."	"It's not really formal, we use it a lot..."	NA	NA	NA	NA	NA	NA	9
+2020-03-25 20:46:49	"teacher001"	"teacher"	103	"Oh right - it's a bit formal in English"	"Oh right - it's a bit formal in English"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	9
+2020-03-25 20:47:04	"teacher001"	"teacher"	104	"educated' or whatever"	"educated' or whatever"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 20:47:11	"student004"	"student"	105	"and do you have an informal word for that?"	"and do you have an informal word for that?"	NA	"8c"	"enquiry"	"lexical resource"	NA	NA	9
+2020-03-25 20:47:21	"teacher001"	"teacher"	106	"some people might never say it I guess..."	"some people might never say it I guess..."	104	NA	NA	NA	NA	NA	8
+2020-03-25 20:47:22	"student004"	"student"	107	"maybe 'guess'?"	"maybe 'guess'?"	105	NA	NA	NA	NA	NA	2
+2020-03-25 20:47:46	"teacher001"	"teacher"	108	"um ..well i guess like lots of these things it would be replaced by a phrasal verb often - so e.g. work out"	"um ..well i guess like lots of these things it would be replaced by a phrasal verb often - so e.g. work out"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	23
+2020-03-25 20:47:56	"teacher001"	"teacher"	109	"or guess of vourse yes"	"or guess of vourse yes"	107	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-03-25 20:48:11	"teacher001"	"teacher"	110	"but 'work out' is maybe best here"	"but 'work out' is maybe best here"	108	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-03-25 20:48:19	"teacher001"	"teacher"	111	"i just mean more common"	"i just mean more common"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-03-25 20:48:28	"student004"	"student"	112	"ok, thanks"	"ok, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:48:48	"student004"	"student"	113	"Could we practise the inverted sentences a bit?"	"Could we practise the inverted sentences a bit?"	NA	"9.0"	"enquiry"	"grammatical resource"	NA	NA	8
+2020-03-25 20:48:49	"teacher001"	"teacher"	114	"because it's like a little process you know? 'Guess' i soften just a quick little or one-step  thing"	"because it's like a little process you know? 'Guess' i soften just a quick little or one-step  thing"	112	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2020-03-25 20:49:32	"teacher001"	"teacher"	115	"yes sure - i'll give you a prompt OK? UNless you have an idea of your own first?"	"yes sure - i'll give you a prompt OK? UNless you have an idea of your own first?"	113	NA	NA	NA	NA	NA	18
+2020-03-25 20:50:44	"student004"	"student"	116	"Sure, I see the difference between guess and work out. I sometimes struggle to use phrasal verbs because I don't know where to write the thing I worked out..."	"Sure, I see the difference between guess and work out. I sometimes struggle to use phrasal verbs because I don't know where to write the thing I worked out..."	114	NA	NA	NA	NA	NA	29
+2020-03-25 20:51:20	"student004"	"student"	117	"Maybe we could talk about that another day, sorry (mixing topics)"	"Maybe we could talk about that another day, sorry (mixing topics)"	NA	NA	NA	NA	NA	NA	11
+2020-03-25 20:51:31	"teacher001"	"teacher"	118	"yes! well most are 'separable' so e.g. work out something OR work something out = both correct"	"yes! well most are 'separable' so e.g. work out something OR work something out = both correct"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-03-25 20:51:33	"student004"	"student"	119	"About a prompt, yes please"	"About a prompt, yes please"	115	NA	NA	NA	NA	NA	5
+2020-03-25 20:52:01	"student004"	"student"	120	"Ahhh, I thought there was a rule about it!!"	"Ahhh, I thought there was a rule about it!!"	118	NA	NA	NA	NA	NA	9
+2020-03-25 20:52:26	"teacher001"	"teacher"	121	"ok so e.g.: I haven't had so much fun since I was in Spain."	"ok so e.g.: I haven't had so much fun since I was in Spain."	119	"9a"	"exercise"	"grammatical resource"	NA	NA	14
+2020-03-25 20:52:36	"teacher001"	"teacher"	122	"Can you invert that?"	"Can you invert that?"	NA	NA	NA	NA	NA	NA	4
+2020-03-25 20:53:44	"student004"	"student"	123	"Little fun have I had since I was in Spain??"	"Little fun have I had since I was in Spain??"	NA	NA	NA	NA	NA	NA	10
+2020-03-25 20:54:52	"teacher001"	"teacher"	124	"Yes I see your idea...Start with 'Not since...'"	"Yes I see your idea...Start with 'Not since...'"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	8
+2020-03-25 20:55:14	"student004"	"student"	125	"It's difficult!!!"	"It's difficult!!!"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:55:41	"teacher001"	"teacher"	126	"so it's the 3-word negative bit you've got to ivert"	"so it's the 3-word negative bit you've got to ivert"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-03-25 20:55:45	"teacher001"	"teacher"	127	"invert imean"	"invert imean"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-03-25 20:55:52	"teacher001"	"teacher"	128	"e.g. i haven;t had"	"e.g. i haven;t had"	NA	NA	NA	NA	NA	NA	4
+2020-03-25 20:56:08	"teacher001"	"teacher"	129	"Not since I was..."	"Not since I was..."	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	4
+2020-03-25 20:56:23	"student004"	"student"	130	"Not since I was in Spain haven't I had so much fun"	"Not since I was in Spain have I had so much fun"	NA	NA	NA	NA	NA	NA	12
+2020-03-25 20:56:35	"student004"	"student"	131	"Not sure!"	"Not sure!"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 20:57:20	"teacher001"	"teacher"	132	"yes good! You've already got the negative with 'not' at the beginning though so: 'haven't I had'?"	"yes good! You've already got the negative with 'not' at the beginning though so: 'haven't I had'?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	17
+2020-03-25 20:57:55	"student004"	"student"	133	"Not since I was in Spain have I had so much fun??"	"Not since I was in Spain have I had so much fun??"	NA	NA	NA	NA	NA	NA	12
+2020-03-25 20:58:20	"teacher001"	"teacher"	134	"yes exactly ...you made your first little baby inversion...."	"yes exactly ...you made your first little baby inversion...."	NA	NA	NA	NA	NA	NA	9
+2020-03-25 20:59:17	"student004"	"student"	135	"ufff very hard... I get very stressed when I see hard new things... OMG there are so many things to learn about a language..."	"ufff very hard... I get very stressed when I see hard new things... OMG there are so many things to learn about a language..."	NA	NA	"topic opening"	"meta knowledge"	NA	NA	24
+2020-03-25 20:59:48	"student004"	"student"	136	"Thank you very much for your time and your patience!"	"Thank you very much for your time and your patience!"	NA	NA	NA	NA	NA	NA	10
+2020-03-25 21:00:10	"teacher001"	"teacher"	137	"yes it's infinite that's true! keep calm and carry on - you know loads! OK thanks <STUDENT> I guess that's it for today - see you tomorrow bye"	"yes it's infinite that's true! keep calm and carry on - you know loads! OK thanks <STUDENT> I guess that's it for today - see you tomorrow bye"	NA	"10.0"	"closing"	NA	NA	NA	28
+2020-03-25 21:00:20	"teacher001"	"teacher"	138	"no problem cheers"	"no problem cheers"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 21:00:41	"student004"	"student"	139	"Yes, see you tomorrow! Bye"	"Yes, see you tomorrow! Bye"	NA	NA	NA	NA	NA	"C1"	5

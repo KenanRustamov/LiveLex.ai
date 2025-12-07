@@ -1,0 +1,103 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-06-10 12:08:25	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-06-10 12:08:59	"student012"	"student"	2	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:09:26	"student012"	"student"	4	"The internet is bad on my side"	"The internet is bad on my side"	NA	"2.0"	"topic opening"	NA	NA	NA	7
+2021-06-10 12:09:39	"student012"	"student"	5	"How are you?"	"How are you?"	NA	"3.0"	"topic opening"	NA	NA	NA	3
+2021-06-10 12:09:44	"teacher008"	"teacher"	6	"Hi, ooh I can see that, yes"	"Hi, ooh I can see that, yes"	4	NA	NA	NA	NA	NA	7
+2021-06-10 12:09:53	"teacher008"	"teacher"	7	"Fine, thank you!"	"Fine, thank you!"	5	NA	NA	NA	NA	NA	3
+2021-06-10 12:09:59	"teacher008"	"teacher"	8	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2021-06-10 12:10:06	"student012"	"student"	9	"Haha, it says there are three of us in the chat))"	"Haha, it says there are three of us in the chat))"	6	NA	NA	NA	NA	NA	11
+2021-06-10 12:10:17	"student012"	"student"	10	"I'm fine too! Thanks!"	"I'm fine too! Thanks!"	8	NA	NA	NA	NA	NA	4
+2021-06-10 12:10:25	"teacher008"	"teacher"	11	"Yes, no problem, you must have logged in twice"	"Yes, no problem, you must have logged in twice"	9	NA	NA	NA	NA	NA	9
+2021-06-10 12:10:41	"student012"	"student"	12	"How was holiday?"	"How was your holiday?"	NA	"3a"	"topic development"	NA	NA	NA	3
+2021-06-10 12:11:14	"teacher008"	"teacher"	13	"Lovely, thank you! We went to Ikea and also to the seaside, which sadly meant being stuck in a huge traffic jam"	"Lovely, thank you! We went to Ikea and also to the seaside, which sadly meant being stuck in a huge traffic jam"	NA	NA	NA	NA	NA	NA	22
+2021-06-10 12:11:26	"student012"	"student"	14	"Oh no"	"Oh no"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:11:34	"student012"	"student"	15	"How long did it take you?"	"How long did it take you?"	NA	NA	NA	NA	NA	NA	6
+2021-06-10 12:11:45	"teacher008"	"teacher"	16	"Lesson learned: don't go to the seaside on the first nice weekend of the summer, just after the lockdown :))"	"Lesson learned: don't go to the seaside on the first nice weekend of the summer, just after the lockdown :))"	14	NA	NA	NA	NA	NA	20
+2021-06-10 12:11:49	"student012"	"student"	17	"Ikea is always a good Idea)))"	"Ikea is always a good Idea)))"	13	NA	NA	NA	NA	NA	6
+2021-06-10 12:12:02	"teacher008"	"teacher"	18	"It took us 3 hours to get home, instead of just over an hour!"	"It took us 3 hours to get home, instead of just over an hour!"	15	NA	NA	NA	NA	NA	14
+2021-06-10 12:12:19	"student012"	"student"	19	"OMG. Terrible"	"OMG. Terrible"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:12:33	"student012"	"student"	20	"How did <TEACHER'S CHILD> take it?"	"How did <TEACHER'S CHILD> take it?"	NA	"3b"	"topic development"	NA	NA	NA	6
+2021-06-10 12:12:48	"teacher008"	"teacher"	21	"Yes, you must be used to traffic jams though, as a city-dweller?"	"Yes, you must be used to traffic jams though, as a city-dweller?"	19	NA	NA	NA	NA	NA	12
+2021-06-10 12:13:01	"student012"	"student"	22	"I remember when we got stuck in a traffic jam with <STUDENT'S CHILD>)"	"I remember when we got stuck in a traffic jam with <STUDENT'S CHILD>)"	20	NA	NA	NA	NA	NA	13
+2021-06-10 12:13:22	"student012"	"student"	23	"What a fantastic memory it is))))"	"What a fantastic memory it is))))"	NA	NA	NA	NA	NA	NA	6
+2021-06-10 12:13:38	"teacher008"	"teacher"	24	"In his stride, bless him! An audiobook helped, and a promise of KFC for dinner, lol"	"In his stride, bless him! An audiobook helped, and a promise of KFC for dinner, lol"	20	NA	NA	NA	NA	NA	16
+2021-06-10 12:13:42	"student012"	"student"	25	"Normally yes, I'm used to short jams"	"Normally yes, I'm used to short jams"	21	NA	NA	NA	NA	NA	7
+2021-06-10 12:13:50	"teacher008"	"teacher"	26	"Haha, oh goodness, I can imagine!"	"Haha, oh goodness, I can imagine!"	23	NA	NA	NA	NA	NA	6
+2021-06-10 12:14:11	"student012"	"student"	27	"Ahaha KFC for dinner -- anyone would behave"	"Ahaha KFC for dinner -- anyone would behave"	24	NA	NA	NA	NA	NA	8
+2021-06-10 12:14:24	"teacher008"	"teacher"	28	"Well, exactly! :)))"	"Well, exactly! :)))"	NA	NA	NA	NA	NA	NA	3
+2021-06-10 12:15:00	"student012"	"student"	29	"This, however, was an exception. Took us forever to get out"	"This, however, was an exception. Took us forever to get out"	25	NA	NA	NA	NA	NA	11
+2021-06-10 12:15:22	"student012"	"student"	30	"<STUDENT'S CHILD> was really irritated("	"<STUDENT'S CHILD> was really irritated("	NA	NA	NA	NA	NA	NA	5
+2021-06-10 12:15:23	"teacher008"	"teacher"	31	"How old was she then?"	"How old was she then?"	NA	NA	NA	NA	NA	NA	5
+2021-06-10 12:16:20	"student012"	"student"	32	"<STUDENT> got bored and left the room)))"	"<STUDENT> got bored and left the room)))"	NA	"4.0"	"disruption"	NA	NA	NA	7
+2021-06-10 12:16:27	"student012"	"student"	33	"She was around 1"	"She was around 1"	31	NA	NA	NA	NA	NA	4
+2021-06-10 12:16:47	"teacher008"	"teacher"	34	"Yes, I've noticed :)) Can't blame her, she never got to say anything"	"Yes, I've noticed :)) Can't blame her, she never got to say anything"	32	NA	NA	NA	NA	NA	13
+2021-06-10 12:17:24	"student012"	"student"	35	"A difficult age for this type of situations, I think"	"A difficult age for this type of situations, I think"	33	NA	NA	NA	NA	NA	10
+2021-06-10 12:17:24	"teacher008"	"teacher"	36	"Is she ok with car seats? Or does she fight for her freeeedom?"	"Is she ok with car seats? Or does she fight for her freeeedom?"	33	"3c"	"topic development"	NA	NA	NA	13
+2021-06-10 12:17:37	"teacher008"	"teacher"	37	"Oh absolutely!"	"Oh absolutely!"	35	NA	NA	NA	NA	NA	2
+2021-06-10 12:17:54	"student012"	"student"	38	"Actually, she enjoys cars and likes riding in them"	"Actually, she enjoys cars and likes riding in them"	36	NA	NA	NA	NA	NA	9
+2021-06-10 12:18:38	"student012"	"student"	39	"She can stare in the window for an hour"	"She can stare out of the window for an hour"	NA	NA	NA	NA	NA	NA	9
+2021-06-10 12:18:42	"teacher008"	"teacher"	40	"That's nice!"	"That's nice!"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:19:00	"teacher008"	"teacher"	41	"Oh yes, I remember! At passing cement mixers :)"	"Oh yes, I remember! At passing cement mixers :)"	NA	NA	NA	NA	NA	NA	9
+2021-06-10 12:19:13	"student012"	"student"	42	"The incident it was just too much. We were so slow"	"That incident was just too much. We were so slow"	NA	NA	NA	NA	NA	NA	11
+2021-06-10 12:19:30	"student012"	"student"	43	"That incident was *"	"That incident was *"	NA	NA	"repair"	"writing"	NA	NA	4
+2021-06-10 12:19:57	"student012"	"student"	44	"Haha! Oh yes. And ambulances, and tractors"	"Haha! Oh yes. And ambulances, and tractors"	41	NA	NA	NA	NA	NA	7
+2021-06-10 12:20:25	"student012"	"student"	45	"Can you make plural with 'ambulance' by the way?"	"Can you make plural with 'ambulance' by the way?"	NA	"3d"	"enquiry"	"lexical resource,grammatical resource"	NA	NA	9
+2021-06-10 12:20:36	"teacher008"	"teacher"	46	"Yes, of course! ambulances"	"Yes, of course! ambulances"	NA	NA	NA	NA	NA	NA	4
+2021-06-10 12:21:17	"student012"	"student"	47	"Thanks"	"Thanks"	NA	NA	NA	NA	NA	NA	1
+2021-06-10 12:22:20	"teacher008"	"teacher"	48	"No worries. So, where are we with the writing? Shall we go back to it?"	"No worries. So, where are we with the writing? Shall we go back to it?"	NA	"5.0"	"exercise"	"writing"	NA	NA	15
+2021-06-10 12:23:01	"student012"	"student"	49	"I forgot all about it ("	"I forgot all about it ("	NA	NA	NA	NA	NA	NA	6
+2021-06-10 12:23:14	"student012"	"student"	50	"Is today our last class?"	"Is today our last class?"	NA	NA	NA	NA	NA	NA	5
+2021-06-10 12:23:31	"teacher008"	"teacher"	51	"No problem )) Would you like to do it now? I've got your sentences. Or not? (either is fine by me!)"	"No problem )) Would you like to do it now? I've got your sentences. Or not? (either is fine by me!)"	49	NA	NA	NA	NA	NA	21
+2021-06-10 12:23:41	"teacher008"	"teacher"	52	"No, we've still got one class next week if it works for you!"	"No, we've still got one class next week if it works for you!"	50	NA	NA	NA	NA	NA	13
+2021-06-10 12:23:50	"student012"	"student"	53	"Yes, It does"	"Yes, It does"	NA	NA	NA	NA	NA	NA	3
+2021-06-10 12:23:58	"student012"	"student"	54	"Ok, let's try to finish the essay"	"Ok, let's try to finish the essay"	NA	NA	NA	NA	NA	NA	7
+2021-06-10 12:25:00	"teacher008"	"teacher"	55	"Ok, lovely! As you probably remember, it was all about 'digital advertising', but they just meant advertising on big screens in cities, like billboards etc."	"Ok, lovely! As you probably remember, it was all about 'digital advertising', but they just meant advertising on big screens in cities, like billboards etc."	NA	"5a"	"scaffolding"	"writing,content"	NA	NA	25
+2021-06-10 12:25:10	"student012"	"student"	56	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-06-10 12:25:30	"teacher008"	"teacher"	57	"We've got a plan!"	"We've got a plan!"	NA	"5b"	"scaffolding"	"writing,discourse management"	"student's writing"	NA	4
+2021-06-10 12:25:32	"teacher008"	"teacher"	58	"1) Some people think ads are fun and can brighten up both city and rural landscapes, can be informative and help  2) Others think their ubiquity is annoying even dangerous at times, especially towards vulnerable groups of people  3) I think ads are OK when there's an option to mute or cancel them. In real world it's almost impossible to achieve. Thus, I only support ads on the internet"	"1) Some people think ads are fun and can brighten up both city and rural landscapes, can be informative and help  2) Others think their ubiquity is annoying even dangerous at times, especially towards vulnerable groups of people  3) I think ads are OK when there's an option to mute or cancel them. In real world it's almost impossible to achieve. Thus, I only support ads on the internet"	NA	NA	NA	NA	NA	NA	71
+2021-06-10 12:25:44	"teacher008"	"teacher"	59	"And the first sentence of the introduction:"	"And the first sentence of the introduction:"	NA	NA	NA	NA	NA	NA	7
+2021-06-10 12:25:59	"teacher008"	"teacher"	60	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil."	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil."	NA	NA	NA	NA	NA	NA	20
+2021-06-10 12:26:40	"teacher008"	"teacher"	61	"And a sentence that, now that I'm looking at it, I think would work in part 3"	"And a sentence that, now that I'm looking at it, I think would work in part 3"	NA	"5c"	"scaffolding"	"writing,discourse management"	NA	NA	17
+2021-06-10 12:26:42	"teacher008"	"teacher"	62	"I'm positive that even the biggest and most loyal fans of the advertising world, who consider ads to be fun, informative and overall a charming addition to both city and rural landscapes, have an ad-blocker installed on their Pcs."	"I'm positive that even the biggest and most loyal fans of the advertising world, who consider ads to be fun, informative and overall a charming addition to both city and rural landscapes, have an ad-blocker installed on their Pcs."	NA	NA	NA	NA	NA	NA	39
+2021-06-10 12:26:56	"teacher008"	"teacher"	63	"(your opinion that is) What do you think?"	"(your opinion that is) What do you think?"	NA	NA	"eliciting"	"writing,discourse management"	NA	NA	8
+2021-06-10 12:28:13	"student012"	"student"	64	"Right. The structure is a mess))"	"Right. The structure is a mess))"	NA	NA	NA	NA	NA	NA	6
+2021-06-10 12:28:40	"teacher008"	"teacher"	65	"Is it? I thought it was a good plan! and sentence 2) is a great topic sentence"	"Is it? I thought it was a good plan! and sentence 2) is a great topic sentence"	NA	NA	NA	NA	NA	NA	17
+2021-06-10 12:29:33	"student012"	"student"	66	"But one sentence is clearly too early"	"But one sentence is clearly too early"	NA	NA	NA	NA	NA	NA	7
+2021-06-10 12:29:37	"student012"	"student"	67	"You are right"	"You are right"	NA	NA	NA	NA	NA	NA	3
+2021-06-10 12:30:15	"student012"	"student"	68	"Can you tell me approximately how many sentences do I need to add"	"Can you tell me approximately how many sentences I need to add"	NA	"5d"	"enquiry"	"writing"	NA	NA	13
+2021-06-10 12:30:26	"student012"	"student"	69	"*without do"	"*without do"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2021-06-10 12:30:40	"teacher008"	"teacher"	70	"Do you mean the sentence about the ad-blocker? Yes, I think it supports your argument for the last paragraph, doesn't it?"	"Do you mean the sentence about the ad-blocker? Yes, I think it supports your argument for the last paragraph, doesn't it?"	67	NA	NA	NA	NA	NA	21
+2021-06-10 12:31:21	"teacher008"	"teacher"	71	"Ooh, one second, I'll just check the word limit, I've started to doubt. How about you add one / two more sentences to the introduction while I do that?"	"Ooh, one second, I'll just check the word limit, I've started to doubt. How about you add one / two more sentences to the introduction while I do that?"	68	"5e"	"exercise"	"writing"	NA	NA	29
+2021-06-10 12:31:31	"teacher008"	"teacher"	72	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil."	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil."	NA	NA	NA	NA	NA	NA	20
+2021-06-10 12:31:50	"teacher008"	"teacher"	73	"something to go after this, keeping it general but focusing in on your topic)"	"something to go after this, keeping it general but focusing in on your topic)"	NA	NA	NA	NA	NA	NA	14
+2021-06-10 12:32:55	"student012"	"student"	74	"Ok. I'll take 10 minutes and come back to you, ok?"	"Ok. I'll take 10 minutes and come back to you, ok?"	NA	NA	NA	NA	NA	NA	11
+2021-06-10 12:33:14	"student012"	"student"	75	"I think it'll be easier if I write it in another editor alltogether"	"I think it'll be easier if I write it in another editor altogether"	NA	NA	NA	NA	NA	NA	13
+2021-06-10 12:33:41	"teacher008"	"teacher"	76	"Yes, sure!"	"Yes, sure!"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:34:17	"teacher008"	"teacher"	77	"The word limit is 280-320. To give you an idea, your first sentence is 20 words"	"The word limit is 280-320. To give you an idea, your first sentence is 20 words"	68	NA	"scaffolding"	"writing"	NA	NA	16
+2021-06-10 12:40:00	"student012"	"student"	78	"Got it!"	"Got it!"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:40:05	"student012"	"student"	79	"I'm on it"	"I'm on it"	76	NA	NA	NA	NA	NA	3
+2021-06-10 12:40:10	"teacher008"	"teacher"	80	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-06-10 12:49:29	"student012"	"student"	81	"So I started rerwriting it and it got me in a different structure other than what we originally discussed, but I like it better I guess."	"So I started rewriting it and it got me in a different structure other than what we originally discussed, but I like it better I guess."	NA	NA	NA	NA	NA	NA	26
+2021-06-10 12:49:43	"teacher008"	"teacher"	82	"Ok, I'm intrigued!"	"Ok, I'm intrigued!"	NA	NA	NA	NA	NA	NA	3
+2021-06-10 12:49:44	"student012"	"student"	83	"I'll send you the intro"	"I'll send you the intro"	NA	NA	NA	NA	NA	NA	5
+2021-06-10 12:49:48	"student012"	"student"	84	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil. Being subjected to the advertising frenzy on a daily basis, we, the city-dwellers, who are constantly bombarded with ads on the streets as much as online have no choice but to take a stand: adapt and survive or move to the countryside. The latter is no guarantee of a life completely void of advertising, however. There’s always the Internet, should you choose to be on it."	"Since the dawn of advertising people have been debating over whether ads are an abomination or a necessary evil. Being subjected to the advertising frenzy on a daily basis, we, the city-dwellers, who are constantly bombarded with ads on the streets as much as online have no choice but to take a stand: adapt and survive or move to the countryside. The latter is no guarantee of a life completely void of advertising, however. There’s always the Internet, should you choose to be on it."	NA	NA	NA	NA	NA	NA	86
+2021-06-10 12:50:59	"teacher008"	"teacher"	85	"Ok, sure! In which direction are you planning to proceed?"	"Ok, sure! In which direction are you planning to proceed?"	NA	"5f"	"eliciting"	"writing,content"	NA	NA	10
+2021-06-10 12:54:09	"student012"	"student"	86	"I'll probably talk more about how you can adapt to ads in the city - where you can't control what;s being adverstised. And I'll talk about  how you can adapt in the Internet where you have plenty of tools to manage ads."	"I'll probably talk more about how you can adapt to ads in the city - where you can't control what's being adverstised. And I'll talk about  how you can adapt on the Internet where you have plenty of tools to manage ads."	NA	NA	NA	NA	NA	NA	43
+2021-06-10 12:55:01	"student012"	"student"	87	"And I'd say something about the little percent of people who think ads are fun and can brighten up both city and rural landscapes, can be informative and help"	"And I'd say something about the little percent of people who think ads are fun and can brighten up both city and rural landscapes, can be informative and help"	NA	NA	NA	NA	NA	NA	29
+2021-06-10 12:55:36	"student012"	"student"	88	"That if you're not part of these few .2 percent)) here's what you can do."	"That if you're not part of these few .2 percent)) here's what you can do."	NA	NA	NA	NA	NA	NA	15
+2021-06-10 12:55:47	"teacher008"	"teacher"	89	"Haha, ok! You need to summarize both points of view though!"	"Haha, ok! You need to summarize both points of view though!"	NA	"5g"	"scaffolding"	"writing,content"	NA	NA	11
+2021-06-10 12:56:06	"student012"	"student"	90	"Both?"	"Both?"	NA	NA	"enquiry"	"writing,content"	NA	NA	1
+2021-06-10 12:57:10	"teacher008"	"teacher"	91	"Also, I would caution you against going too deep into discussing internet ads! Because this is not the topic they want you to write about. So I would keep it to one sentence where you compare outdoor advertising to the one on the Internet where you have more control. Otherwise you're risking not addressing the topic!"	"Also, I would caution you against going too deep into discussing internet ads! Because this is not the topic they want you to write about. So I would keep it to one sentence where you compare outdoor advertising to the one on the Internet where you have more control. Otherwise you're risking not addressing the topic!"	NA	NA	"scaffolding"	"writing,content"	NA	NA	56
+2021-06-10 12:57:24	"teacher008"	"teacher"	92	"Yes, summarize both points of view and give yours!"	"Yes, summarize both points of view and give yours!"	90	NA	NA	NA	NA	NA	9
+2021-06-10 12:57:32	"student012"	"student"	93	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:57:58	"student012"	"student"	94	"Ok. I'll think about it before next class"	"Ok. I'll think about it before next class"	NA	NA	NA	NA	NA	NA	8
+2021-06-10 12:58:05	"student012"	"student"	95	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:58:46	"student012"	"student"	96	"under both points you mean 'people who like street ads' and 'people who don't'"	"by both points you mean 'people who like street ads' and 'people who don't'"	NA	"5h"	"enquiry"	"writing,content"	NA	NA	14
+2021-06-10 12:58:55	"teacher008"	"teacher"	97	"Write an essay summarizing and evaluating the key points from both texts. Use your own words throughout as much as possible, and include your own ideas in your answer'"	"Write an essay summarizing and evaluating the key points from both texts. Use your own words throughout as much as possible, and include your own ideas in your answer'"	NA	NA	"scaffolding"	"writing,content"	NA	NA	29
+2021-06-10 12:59:11	"teacher008"	"teacher"	98	"Yes! the ideas from the two texts"	"Yes! the ideas from the two texts"	NA	NA	"scaffolding"	"writing,content"	NA	NA	7
+2021-06-10 12:59:18	"student012"	"student"	99	"Right. Ok"	"Right. Ok"	NA	NA	NA	NA	NA	NA	2
+2021-06-10 12:59:56	"student012"	"student"	100	"I have to go now. Thanks again <TEACHER>!"	"I have to go now. Thanks again <TEACHER>!"	NA	"6.0"	"closing"	NA	NA	NA	8
+2021-06-10 12:59:59	"teacher008"	"teacher"	101	"Yes, it's all about answering the exact question they are asking (the content mark)"	"Yes, it's all about answering the exact question they are asking (the content mark)"	99	NA	"scaffolding"	"writing,content"	NA	NA	14
+2021-06-10 13:00:06	"teacher008"	"teacher"	102	"Ok, sure! Talk to you next week!"	"Ok, sure! Talk to you next week!"	NA	NA	NA	NA	NA	NA	7
+2021-06-10 13:00:12	"student012"	"student"	103	"See you!!"	"See you!!"	NA	NA	NA	NA	NA	"C2"	2

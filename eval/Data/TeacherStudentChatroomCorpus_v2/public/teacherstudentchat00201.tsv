@@ -1,0 +1,152 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-11 13:33:42	"student015"	"student"	1	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-02-11 13:33:52	"student015"	"student"	2	"Sorry, I'm a little late."	"Sorry, I'm a little late."	NA	NA	NA	NA	NA	NA	5
+2021-02-11 13:33:55	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	1	NA	NA	NA	NA	NA	2
+2021-02-11 13:34:16	"teacher008"	"teacher"	4	"No worries, I appreciate you making time for this project during the festive period"	"No worries, I appreciate you making time for this project during the festive period"	2	NA	NA	NA	NA	NA	14
+2021-02-11 13:34:26	"teacher008"	"teacher"	5	"Has the holiday begun yet?"	"Has the holiday begun yet?"	NA	"2.0"	"topic opening"	NA	NA	NA	5
+2021-02-11 13:34:34	"student015"	"student"	6	"Yes.!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 13:34:49	"teacher008"	"teacher"	7	"Oh, Happy New Year then!"	"Oh, Happy New Year then!"	NA	NA	NA	NA	NA	NA	5
+2021-02-11 13:34:51	"student015"	"student"	8	"Tomorrow is Chinese New Year."	"Tomorrow is the Chinese New Year."	6	NA	NA	NA	NA	NA	5
+2021-02-11 13:35:01	"student015"	"student"	9	"Thanks!"	"Thanks!"	7	NA	NA	NA	NA	NA	1
+2021-02-11 13:35:23	"teacher008"	"teacher"	10	"At my son's school the topic this week has been Chinese New Year."	"At my son's school the topic this week has been Chinese New Year."	NA	"2a"	"topic development"	NA	NA	NA	13
+2021-02-11 13:36:12	"teacher008"	"teacher"	11	"Well, we're homeschooling because of the lockdown so it's not exactly at school, but school tells us every day what we should be working on with him"	"Well, we're homeschooling because of the lockdown so it's not exactly at school, but school tells us every day what we should be working on with him"	NA	NA	NA	NA	NA	NA	27
+2021-02-11 13:36:45	"student015"	"student"	12	"Wow! Chinese New Year is also popular in The UK."	"Wow! Chinese New Year is also popular in The UK."	NA	NA	NA	NA	NA	NA	10
+2021-02-11 13:37:35	"teacher008"	"teacher"	13	"Yes, of course! It's such a beautiful holiday, and there are many Chinese people living or studying here"	"Yes, of course! It's such a beautiful holiday, and there are many Chinese people living or studying here"	NA	NA	NA	NA	NA	NA	18
+2021-02-11 13:37:44	"teacher008"	"teacher"	14	"or living and studying :)"	"or living and studying :)"	NA	NA	NA	NA	NA	NA	5
+2021-02-11 13:38:21	"student015"	"student"	15	"Yes. The UK has the best colleget in the world."	"Yes. The UK has the best colleges in the world."	NA	NA	NA	NA	NA	NA	10
+2021-02-11 13:38:30	"student015"	"student"	16	"colleges"	"colleges"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-11 13:38:47	"teacher008"	"teacher"	17	"They are pretty good, yes!"	"They are pretty good, yes!"	NA	NA	NA	NA	NA	NA	5
+2021-02-11 13:39:14	"teacher008"	"teacher"	18	"Are you off work then? Are you enjoying having some time off?"	"Are you off work then? Are you enjoying having some time off?"	NA	"2b"	"topic development"	NA	NA	NA	12
+2021-02-11 13:39:57	"student015"	"student"	19	"Yes. I'm on holiday time."	"Yes. I'm on holiday."	NA	NA	NA	NA	NA	NA	5
+2021-02-11 13:40:34	"student015"	"student"	20	"Because this holiday is so important in China."	"Because this holiday is so important in China."	NA	NA	NA	NA	NA	NA	8
+2021-02-11 13:41:36	"teacher008"	"teacher"	21	"Yes, of course! Have you got any plans for your holiday? Or are you just taking it easy?"	"Yes, of course! Have you got any plans for your holiday? Or are you just taking it easy?"	NA	"2c"	"topic development"	NA	NA	NA	18
+2021-02-11 13:42:35	"student015"	"student"	22	"I didn’t have plans, but learning English is the most important work I need to do on my vacation."	"I don’t have any plans, but learning English is the most important work I need to do on my vacation."	NA	NA	NA	NA	NA	NA	19
+2021-02-11 13:43:15	"student015"	"student"	23	"I have English test for application the PHD project."	"I have to take an English test as part of an application for the PhD project."	NA	NA	NA	NA	NA	NA	9
+2021-02-11 13:43:45	"teacher008"	"teacher"	24	"Oh I see! Can I help in any way? What's the test like?"	"Oh I see! Can I help in any way? What's the test like?"	NA	NA	NA	NA	NA	NA	13
+2021-02-11 13:44:18	"student015"	"student"	25	"A little like the Chinse liu ji."	"A little like the Chinese liu ji."	NA	NA	"non-English"	"code switching"	NA	NA	7
+2021-02-11 13:45:03	"teacher008"	"teacher"	26	"I'm not familiar with that, sorry. Will you have to write an essay? or speak? or do a grammar test?"	"I'm not familiar with that, sorry. Will you have to write an essay? or speak? or do a grammar test?"	NA	NA	NA	NA	NA	NA	20
+2021-02-11 13:47:10	"student015"	"student"	27	"Yes. There are grammar test of choice questions,  an essay, Reading, Translation."	"Yes. There is a grammar test consisting of multiple choice questions, an essay, reading and translation."	NA	NA	NA	NA	NA	NA	13
+2021-02-11 13:48:12	"teacher008"	"teacher"	28	"Ooh, I see, sounds difficult! What would you like to do today? Any bit of grammar that I can help you with? or writing?"	"Ooh, I see, sounds difficult! What would you like to do today? Any bit of grammar that I can help you with? or writing?"	NA	NA	NA	NA	NA	NA	24
+2021-02-11 13:49:03	"student015"	"student"	29	"Can you teach me something about grammar?"	"Can you teach me something about grammar?"	NA	NA	NA	NA	NA	NA	7
+2021-02-11 13:49:47	"teacher008"	"teacher"	30	"Yes, sure! What kind of grammar do you need most for the test? Maybe tenses?"	"Yes, sure! What kind of grammar do you need most for the test? Maybe tenses?"	NA	NA	NA	NA	NA	NA	15
+2021-02-11 13:50:20	"student015"	"student"	31	"Sounds great."	"Sounds great."	NA	NA	NA	NA	NA	NA	2
+2021-02-11 13:50:52	"teacher008"	"teacher"	32	"Ok, great! Let's quickly revise what we've done before."	"Ok, great! Let's quickly revise what we've done before."	NA	"3.0"	"revision"	"grammatical resource"	NA	NA	9
+2021-02-11 13:51:01	"student015"	"student"	33	"OK!"	"OK!"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 13:51:10	"teacher008"	"teacher"	34	"We talked about Present Simple vs. Present Continuous"	"We talked about Present Simple vs. Present Continuous"	NA	NA	NA	NA	NA	NA	8
+2021-02-11 13:51:24	"student015"	"student"	35	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 13:51:46	"teacher008"	"teacher"	36	"I work for the University of Cambridge (present simple). I'm talking to my student <STUDENT> at the moment (present continuous)"	"I work for the University of Cambridge (present simple). I'm talking to my student <STUDENT> at the moment (present continuous)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	20
+2021-02-11 13:52:06	"teacher008"	"teacher"	37	"Present Simple = things that are generally true and things that we do regularly"	"Present Simple = things that are generally true and things that we do regularly"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2021-02-11 13:52:29	"teacher008"	"teacher"	38	"Present Continuous = things that are happening at the moment"	"Present Continuous = things that are happening at the moment"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2021-02-11 13:52:59	"student015"	"student"	39	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 13:53:22	"teacher008"	"teacher"	40	"Hold on, I'll find an exercise"	"Hold on, I'll find an exercise"	NA	"4.0"	"exercise"	"grammatical resource"	"website"	NA	6
+2021-02-11 13:55:17	"teacher008"	"teacher"	41	"Ok, could you fill in the gaps with a negative form of present continuous, please?"	"Ok, could you fill in the gaps with a negative form of present continuous, please?"	NA	NA	NA	NA	NA	NA	15
+2021-02-11 13:55:18	"teacher008"	"teacher"	42	"You don't understand because you     listening to me!"	"You don't understand because you     listening to me!"	NA	NA	NA	NA	NA	NA	12
+2021-02-11 13:55:23	"teacher008"	"teacher"	43	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 13:55:34	"teacher008"	"teacher"	44	"You don't understand because you _______ listening to me!"	"You don't understand because you _______ listening to me!"	NA	NA	NA	NA	NA	NA	9
+2021-02-11 13:56:56	"student015"	"student"	45	"sorry, what words do I need to fill in."	"sorry, what words do I need to fill in."	NA	"4a"	"enquiry"	NA	NA	NA	9
+2021-02-11 13:58:13	"teacher008"	"teacher"	46	"Oh, sorry. The negative form of present continuous. 'you aren't listening to me!'"	"Oh, sorry. The negative form of present continuous. 'you aren't listening to me!'"	NA	NA	"clarification"	NA	NA	NA	13
+2021-02-11 13:58:25	"teacher008"	"teacher"	47	"Does it make sense?"	"Does it make sense?"	NA	NA	NA	NA	NA	NA	4
+2021-02-11 13:58:34	"student015"	"student"	48	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 13:58:55	"teacher008"	"teacher"	49	"Richard and Cecile had a big argument and now they  ____   talking to each other."	"Richard and Cecile had a big argument and now they  ____   talking to each other."	NA	"4b"	"exercise"	"grammatical resource"	NA	NA	18
+2021-02-11 13:59:17	"student015"	"student"	50	"are"	"are"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 13:59:25	"teacher008"	"teacher"	51	"and the negative form?"	"and the negative form?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	4
+2021-02-11 13:59:45	"student015"	"student"	52	"are not"	"are not"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 13:59:49	"teacher008"	"teacher"	53	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:00:13	"teacher008"	"teacher"	54	"Ok, could you turn these sentences into negatives? Present simple this time"	"Ok, could you turn these sentences into negatives? Present simple this time"	NA	"4c"	"exercise"	"grammatical resource"	NA	NA	12
+2021-02-11 14:00:19	"teacher008"	"teacher"	55	"He works as a doctor"	"He works as a doctor"	NA	NA	NA	NA	NA	NA	5
+2021-02-11 14:00:23	"teacher008"	"teacher"	56	"No, he...."	"No, he...."	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:01:01	"student015"	"student"	57	"He doesn't work as a doctor."	"He doesn't work as a doctor."	NA	NA	NA	NA	NA	NA	6
+2021-02-11 14:01:09	"teacher008"	"teacher"	58	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:01:16	"teacher008"	"teacher"	59	"We like ice cream"	"We like ice cream"	NA	NA	NA	NA	NA	NA	4
+2021-02-11 14:01:40	"student015"	"student"	60	"We don't like icecream."	"We don't like ice cream."	NA	NA	NA	NA	NA	NA	4
+2021-02-11 14:02:14	"teacher008"	"teacher"	61	"Yes, sure! And now can you choose, present simple or present continuous?"	"Yes, sure! And now can you choose, present simple or present continuous?"	NA	"4d"	"exercise"	"grammatical resource"	NA	NA	12
+2021-02-11 14:02:24	"student015"	"student"	62	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:02:34	"teacher008"	"teacher"	63	"I ___ (work) at the moment."	"I ___ (work) at the moment."	NA	NA	NA	NA	NA	NA	6
+2021-02-11 14:02:53	"student015"	"student"	64	"am working"	"am working"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:03:01	"teacher008"	"teacher"	65	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:03:09	"teacher008"	"teacher"	66	"(he/come) to London often?"	"(he/come) to London often?"	NA	NA	NA	NA	NA	NA	4
+2021-02-11 14:03:28	"student015"	"student"	67	"He comes to London often."	"He comes to London often."	NA	NA	NA	NA	NA	NA	5
+2021-02-11 14:03:47	"teacher008"	"teacher"	68	"Ok, could you make a question, please?"	"Ok, could you make a question, please?"	NA	NA	NA	NA	NA	NA	7
+2021-02-11 14:04:09	"student015"	"student"	69	"Does he come to London often?"	"Does he come to London often?"	NA	NA	NA	NA	NA	NA	6
+2021-02-11 14:04:16	"teacher008"	"teacher"	70	"Yes, great"	"Yes, great"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:04:36	"teacher008"	"teacher"	71	"They  (not/come) to the party tomorrow."	"They  (not/come) to the party tomorrow."	NA	NA	NA	NA	NA	NA	7
+2021-02-11 14:04:49	"student015"	"student"	72	"will not come"	"will not come"	NA	NA	NA	NA	NA	NA	3
+2021-02-11 14:05:24	"teacher008"	"teacher"	73	"Aha, I see. Remember we talked about Present Continuous for future plans?"	"Aha, I see. Remember we talked about Present Continuous for future plans?"	NA	"4e"	"eliciting,repair"	"grammatical resource"	NA	NA	12
+2021-02-11 14:05:41	"teacher008"	"teacher"	74	"Present Continuous or 'be going to'"	"Present Continuous or 'be going to'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-02-11 14:05:46	"student015"	"student"	75	"YEs."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:05:59	"teacher008"	"teacher"	76	"They aren't coming to the party tomorrow (it's their plan)"	"They aren't coming to the party tomorrow (it's their plan)"	NA	NA	"repair"	"grammatical resource"	NA	NA	10
+2021-02-11 14:07:01	"student015"	"student"	77	"So come is same as go?"	"So come is the same as go?"	NA	"4f"	"enquiry"	"lexical resource"	NA	NA	6
+2021-02-11 14:07:06	"teacher008"	"teacher"	78	"For example, tomorrow I'm making dinner for my family and talking to my parents on Skype. What are your plans"	"For example, tomorrow I'm making dinner for my family and talking to my parents on Skype. What are your plans"	76	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	20
+2021-02-11 14:07:09	"teacher008"	"teacher"	79	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:07:44	"teacher008"	"teacher"	80	"Come and go are not exactly the same but very similar in this case"	"Come and go are not exactly the same but very similar in this case"	77	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2021-02-11 14:07:53	"student015"	"student"	81	"I'm going to make dinner for my family and talk to my parents on Skype tomorror."	"I'm going to make dinner for my family and talk to my parents on Skype tomorrow."	79	NA	NA	NA	NA	NA	16
+2021-02-11 14:08:11	"student015"	"student"	82	"tomorrow"	"tomorrow"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-11 14:08:42	"teacher008"	"teacher"	83	"Yes, you're right. We can use 'I'm making' (present continuous) or 'I'm going to make'"	"Yes, you're right. We can use 'I'm making' (present continuous) or 'I'm going to make'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2021-02-11 14:08:52	"teacher008"	"teacher"	84	"for plans"	"for plans"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	2
+2021-02-11 14:08:58	"student015"	"student"	85	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:09:48	"teacher008"	"teacher"	86	"For the future, we use Present Continuous and 'be going to' for plans and 'will' for something we've just decided to do"	"For the future, we use Present Continuous and 'be going to' for plans and 'will' for something we've just decided to do"	NA	"5.0"	"revision"	"grammatical resource"	NA	NA	22
+2021-02-11 14:10:22	"teacher008"	"teacher"	87	"For example, the sun is shining outside. I think, when I finish work, I'll go outside."	"For example, the sun is shining outside. I think, when I finish work, I'll go outside."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2021-02-11 14:10:38	"teacher008"	"teacher"	88	"I've just decided to do it, so I use 'will'"	"I've just decided to do it, so I use 'will'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2021-02-11 14:10:45	"student015"	"student"	89	"OK. I know this part."	"OK. I know this part."	NA	NA	NA	NA	NA	NA	5
+2021-02-11 14:11:09	"teacher008"	"teacher"	90	"Yes, great"	"Yes, great"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:11:42	"teacher008"	"teacher"	91	"As you can see, I'm not using a future form after 'when'"	"As you can see, I'm not using a future form after 'when'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2021-02-11 14:11:54	"teacher008"	"teacher"	92	"When I finish work, I'll do this and that..."	"When I finish work, I'll do this and that..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2021-02-11 14:12:04	"teacher008"	"teacher"	93	"when I finish work (Present Simple)"	"when I finish work (Present Simple)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-02-11 14:12:37	"teacher008"	"teacher"	94	"I'll ask my husband when he comes home. (He will come home in the future, but I still use Present Simple after 'when')"	"I'll ask my husband when he comes home. (He will come home in the future, but I still use Present Simple after 'when')"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2021-02-11 14:12:46	"teacher008"	"teacher"	95	"And the same with 'if'"	"And the same with 'if'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2021-02-11 14:12:56	"teacher008"	"teacher"	96	"If he asks, I'll tell him"	"If he asks, I'll tell him"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-02-11 14:13:08	"teacher008"	"teacher"	97	"If he works hard, he'll earn a bonus"	"If he works hard, he'll earn a bonus"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2021-02-11 14:13:19	"teacher008"	"teacher"	98	"things like that. Do you remember this rule?"	"things like that. Do you remember this rule?"	NA	NA	NA	NA	NA	NA	8
+2021-02-11 14:13:21	"student015"	"student"	99	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:13:28	"student015"	"student"	100	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:13:44	"teacher008"	"teacher"	101	"Ok, great!"	"Ok, great!"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:14:29	"teacher008"	"teacher"	102	"And another present tense is Present Perfect"	"And another present tense is Present Perfect"	NA	"6.0"	"revision"	"grammatical resource"	NA	NA	7
+2021-02-11 14:14:36	"teacher008"	"teacher"	103	"When do we use Present Perfect?"	"When do we use Present Perfect?"	NA	NA	"eliciting"	"grammatical resource,meaning"	NA	NA	6
+2021-02-11 14:15:35	"student015"	"student"	104	"When we say something has already being done?"	"When we say something has already been done?"	NA	NA	NA	NA	NA	NA	8
+2021-02-11 14:16:08	"teacher008"	"teacher"	105	"Yes, when we talk about something that has been done / something that has happened"	"Yes, when we talk about something that has been done / something that has happened"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	15
+2021-02-11 14:16:32	"teacher008"	"teacher"	106	"but we don't say exactly when, so it's not a past tense"	"but we don't say exactly when, so it's not a past tense"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	12
+2021-02-11 14:16:48	"teacher008"	"teacher"	107	"for example, I haven't finished work yet / I have already finished work"	"for example, I haven't finished work yet / I have already finished work"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	13
+2021-02-11 14:17:22	"teacher008"	"teacher"	108	"And also, when a situation started some time ago and still continues"	"And also, when a situation started some time ago and still continues"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	12
+2021-02-11 14:17:41	"teacher008"	"teacher"	109	"For example, I have loved reading since I was a little girl."	"For example, I have loved reading since I was a little girl."	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	12
+2021-02-11 14:17:54	"teacher008"	"teacher"	110	"I started loving reading when I was a little girl and I still love it now!"	"I started loving reading when I was a little girl and I still love it now!"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	16
+2021-02-11 14:18:16	"student015"	"student"	111	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:18:19	"teacher008"	"teacher"	112	"I haven't seen him for three weeks."	"I haven't seen him for three weeks."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2021-02-11 14:18:23	"teacher008"	"teacher"	113	"things like that"	"things like that"	NA	NA	NA	NA	NA	NA	3
+2021-02-11 14:18:40	"teacher008"	"teacher"	114	"Ok, I'm going to send you some sentences with gaps and you make present perfect, ok?"	"Ok, I'm going to send you some sentences with gaps and you make present perfect, ok?"	NA	"7.0"	"exercise"	"grammatical resource"	NA	NA	16
+2021-02-11 14:18:54	"student015"	"student"	115	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:19:04	"teacher008"	"teacher"	116	"Sophie and I (know)     each other since we were at school together."	"Sophie and I (know)     each other since we were at school together."	NA	NA	NA	NA	NA	NA	16
+2021-02-11 14:19:34	"student015"	"student"	117	"have known"	"have known"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:20:10	"teacher008"	"teacher"	118	"yes, lovely"	"yes, lovely"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:20:25	"teacher008"	"teacher"	119	"I (play)     tennis since I was eight years old."	"I (play)     tennis since I was eight years old."	NA	"7a"	NA	NA	NA	NA	13
+2021-02-11 14:21:22	"student015"	"student"	120	"have played ?"	"have played ?"	NA	NA	NA	NA	NA	NA	3
+2021-02-11 14:21:27	"teacher008"	"teacher"	121	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:21:30	"teacher008"	"teacher"	122	"Alain (be)     in hospital three times this year."	"Alain (be)     in hospital three times this year."	NA	"7b"	NA	NA	NA	NA	12
+2021-02-11 14:21:52	"student015"	"student"	123	"has been"	"has been"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:22:11	"teacher008"	"teacher"	124	"yes, good"	"yes, good"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:22:13	"teacher008"	"teacher"	125	"I (want)     to be an actor for as long as I can remember."	"I (want)     to be an actor for as long as I can remember."	NA	"7c"	NA	NA	NA	NA	17
+2021-02-11 14:23:20	"student015"	"student"	126	"have wanted"	"have wanted"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:23:24	"teacher008"	"teacher"	127	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:23:26	"teacher008"	"teacher"	128	"Since he finished university, my brother (work)     in five different countries."	"Since he finished university, my brother (work)     in five different countries."	NA	"7d"	NA	NA	NA	NA	15
+2021-02-11 14:24:09	"student015"	"student"	129	"has worked"	"has worked"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:24:16	"teacher008"	"teacher"	130	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:25:37	"teacher008"	"teacher"	131	"In the test, watch out for indications of time in a sentence. If it's a period that is not finished yet (today, this year, since I was young, for the past 8 years), it is probably present perfect! (or present perfect continuous)"	"In the test, watch out for indications of time in a sentence. If it's a period that is not finished yet (today, this year, since I was young, for the past 8 years), it is probably present perfect! (or present perfect continuous)"	NA	"8.0"	"scaffolding"	"grammatical resource"	NA	NA	42
+2021-02-11 14:26:05	"teacher008"	"teacher"	132	"What indications of time can you expect with present simple?"	"What indications of time can you expect with present simple?"	NA	"8a"	"eliciting"	"grammatical resource"	NA	NA	10
+2021-02-11 14:27:28	"student015"	"student"	133	"present simple maybe have no indications of time?"	"present simple maybe has no indications of time?"	NA	NA	NA	NA	NA	NA	8
+2021-02-11 14:28:11	"teacher008"	"teacher"	134	"Yes, there are some! For example, every day / week / year / month, usually, always, regularly, often, sometimes"	"Yes, there are some! For example, every day / week / year / month, usually, always, regularly, often, sometimes"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2021-02-11 14:28:57	"teacher008"	"teacher"	135	"I always brush my teeth before I go to bed. - things like that"	"I always brush my teeth before I go to bed. - things like that"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2021-02-11 14:29:12	"teacher008"	"teacher"	136	"What can you expect with present continuous?"	"What can you expect with present continuous?"	NA	"8b"	"eliciting"	"grammatical resource"	NA	NA	7
+2021-02-11 14:29:46	"student015"	"student"	137	"Now"	"Now"	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:30:07	"teacher008"	"teacher"	138	"Yes, absolutely. Now, at the moment etc."	"Yes, absolutely. Now, at the moment etc."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2021-02-11 14:30:12	"student015"	"student"	139	"or still doing something not finish"	"or still doing something that's not finished"	NA	NA	NA	NA	NA	NA	6
+2021-02-11 14:30:17	"teacher008"	"teacher"	140	"When is your PhD exam? Soon?"	"When is your PhD exam? Soon?"	NA	"9.0"	"topic opening"	NA	NA	NA	6
+2021-02-11 14:30:20	"teacher008"	"teacher"	141	"Yes, that's right!"	"Yes, that's right!"	139	NA	NA	NA	NA	NA	3
+2021-02-11 14:30:33	"student015"	"student"	142	"next month"	"next month"	140	NA	NA	NA	NA	NA	2
+2021-02-11 14:31:08	"teacher008"	"teacher"	143	"Ok! I'll prepare some more grammar material for you for the next time then and we can have a class at the same time next Thursday, ok?"	"Ok! I'll prepare some more grammar material for you for the next time then and we can have a class at the same time next Thursday, ok?"	NA	NA	NA	NA	NA	NA	27
+2021-02-11 14:31:18	"student015"	"student"	144	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:31:24	"student015"	"student"	145	"Thanks a lot."	"Thanks a lot."	NA	NA	NA	NA	NA	NA	3
+2021-02-11 14:31:33	"teacher008"	"teacher"	146	"My pleasure!"	"My pleasure!"	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:31:48	"teacher008"	"teacher"	147	"Ok, enjoy your holiday! Very happy New Year to you!"	"Ok, enjoy your holiday! Very happy New Year to you!"	NA	"10.0"	"closing"	NA	NA	NA	10
+2021-02-11 14:32:05	"student015"	"student"	148	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2021-02-11 14:32:14	"teacher008"	"teacher"	149	"Bye :("	"Bye :("	NA	NA	NA	NA	NA	NA	2
+2021-02-11 14:32:18	"teacher008"	"teacher"	150	"sorry, I meant :)"	"sorry, I meant :)"	NA	NA	"repair"	"writing"	NA	NA	4
+2021-02-11 14:32:19	"student015"	"student"	151	"Byebye"	"Bye bye"	NA	NA	NA	NA	NA	"B2"	1

@@ -1,0 +1,203 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-03 08:14:35	"student012"	"student"	1	"Hello"	"Hello"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-02-03 08:15:16	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:15:28	"student012"	"student"	4	"Sorry for being late... again"	"Sorry for being late... again"	NA	"1a"	NA	NA	NA	NA	5
+2021-02-03 08:15:52	"teacher008"	"teacher"	5	"Don't worry! Thanks for accommodating my constant tweaking of the timetable"	"Don't worry! Thanks for accommodating my constant tweaking of the timetable"	NA	NA	NA	NA	NA	NA	11
+2021-02-03 08:16:04	"student012"	"student"	6	"No problem at all"	"No problem at all"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:16:28	"student012"	"student"	7	"When will they lift the lockdown?"	"When will they lift the lockdown?"	NA	"2.0"	"topic opening"	NA	NA	NA	6
+2021-02-03 08:16:31	"teacher008"	"teacher"	8	"I hope we'll be ablet to stick to a more permanent time from the next week on"	"I hope we'll be ablet to stick to a more permanent time from the next week on"	6	NA	NA	NA	NA	NA	17
+2021-02-03 08:16:50	"teacher008"	"teacher"	9	"They are talking about March 8"	"They are talking about March 8"	9	NA	NA	NA	NA	NA	6
+2021-02-03 08:17:03	"student012"	"student"	10	"I'm fine with constant changes. I've been living like that for a loong t time haha"	"I'm fine with constant changes. I've been living like that for a loong t time haha"	8	NA	NA	NA	NA	NA	16
+2021-02-03 08:17:26	"student012"	"student"	11	"Oh no, so the whole February ("	"Oh no, so the whole of February ("	9	NA	NA	NA	NA	NA	7
+2021-02-03 08:17:40	"student012"	"student"	12	"Is it so bad with the Covid cases in there?"	"Is it so bad with the Covid cases in there?"	NA	"2a"	"topic development"	NA	NA	NA	10
+2021-02-03 08:17:47	"teacher008"	"teacher"	13	"Schools might start to return then. Fortunately, we're in the middle of nowhere here and the infection rate is a bit lower than in cities, so I really hope schools will open"	"Schools might start to return then. Fortunately, we're in the middle of nowhere here and the infection rate is a bit lower than in cities, so I really hope schools will open"	11	NA	NA	NA	NA	NA	32
+2021-02-03 08:18:16	"teacher008"	"teacher"	14	"Yes, the UK has been really badly hit, a very very high death toll :("	"Yes, the UK has been really badly hit, a very very high death toll :("	12	NA	NA	NA	NA	NA	15
+2021-02-03 08:18:23	"student012"	"student"	15	"I can only imagine what strain it is on working parents."	"I can only imagine what strain it is on working parents."	13	NA	NA	NA	NA	NA	11
+2021-02-03 08:18:48	"student012"	"student"	16	"So sad"	"So sad"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:19:08	"teacher008"	"teacher"	17	"Yes, indeed! Luckily, I only work part-time (flexibly, really), but I can't imagine how full-timers cope. And we're supposed to homeschool too!"	"Yes, indeed! Luckily, I only work part-time (flexibly, really), but I can't imagine how full-timers cope. And we're supposed to homeschool too!"	NA	NA	NA	NA	NA	NA	22
+2021-02-03 08:19:47	"student012"	"student"	18	"How do you like homeschooling? Do you share this chore with <TEACHER'S HUSBAND>?"	"How do you like homeschooling? Do you share this chore with <TEACHER'S HUSBAND>?"	NA	"2b"	"topic development"	NA	NA	NA	13
+2021-02-03 08:20:05	"teacher008"	"teacher"	19	"Yes, he does the math and I do the phonics"	"Yes, he does the math and I do the phonics"	NA	NA	NA	NA	NA	NA	10
+2021-02-03 08:20:20	"teacher008"	"teacher"	20	"Phonics are a slightly weird way to teach children to read"	"Phonics are a slightly weird way to teach children to read"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	11
+2021-02-03 08:20:36	"teacher008"	"teacher"	21	"You know, because English pronunciation is so irregular"	"You know, because English pronunciation is so irregular"	NA	NA	NA	NA	NA	NA	8
+2021-02-03 08:20:38	"student012"	"student"	22	"Never heard of it"	"Never heard of it"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:20:47	"student012"	"student"	23	"Oh yes. I know )))"	"Oh yes. I know )))"	21	NA	NA	NA	NA	NA	5
+2021-02-03 08:21:18	"teacher008"	"teacher"	24	"For example, children don't learn the alphabet, they learn the sounds /a/, /b/, /k/ etc."	"For example, children don't learn the alphabet, they learn the sounds /a/, /b/, /k/ etc."	NA	NA	"scaffolding"	"world knowledge"	NA	NA	15
+2021-02-03 08:21:23	"teacher008"	"teacher"	25	"Phonemes, basically"	"Phonemes, basically"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:21:31	"student012"	"student"	26	"Spanish is a breeze compared to English"	"Spanish is a breeze compared to English"	23	NA	NA	NA	NA	NA	7
+2021-02-03 08:21:42	"student012"	"student"	27	"In terms of pronunciation"	"In terms of pronunciation"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:21:50	"teacher008"	"teacher"	28	"And they also learn 'tricky words' that make no sense at all :)"	"And they also learn 'tricky words' that make no sense at all :)"	25	NA	"scaffolding"	"world knowledge"	NA	NA	13
+2021-02-03 08:22:15	"teacher008"	"teacher"	29	"Yes, so many languages are!"	"Yes, so many languages are!"	27	NA	NA	NA	NA	NA	5
+2021-02-03 08:22:16	"student012"	"student"	30	"That makes sense to me."	"That makes sense to me."	28	NA	NA	NA	NA	NA	5
+2021-02-03 08:23:06	"student012"	"student"	31	"Why don't they teach Phonics here in Ukraine I wonder"	"Why don't they teach Phonics here in Ukraine I wonder"	NA	NA	NA	NA	NA	NA	10
+2021-02-03 08:23:14	"teacher008"	"teacher"	32	"Again, we're lucky that <TEACHER'S CHILD>'s in the first year (it's called Reception as opposed to year 1, which is next year)"	"Again, we're lucky that <TEACHER'S CHILD>'s in the first year (it's called Reception as opposed to year 1, which is next year)"	NA	"2c"	"topic development"	NA	NA	NA	22
+2021-02-03 08:23:31	"teacher008"	"teacher"	33	"Older children are expected to do 3-5 hours of homeschooling. Crazy!!"	"Older children are expected to do 3-5 hours of homeschooling. Crazy!!"	NA	NA	NA	NA	NA	NA	11
+2021-02-03 08:23:33	"teacher008"	"teacher"	34	"a day"	"a day"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:23:39	"student012"	"student"	35	"Oh my"	"Oh my"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:23:54	"teacher008"	"teacher"	36	"Phonics would really work with Ukrainian, wouldn't they?"	"Phonics would really work with Ukrainian, wouldn't they?"	31	NA	NA	NA	NA	NA	8
+2021-02-03 08:23:55	"student012"	"student"	37	"My cousin's son is a 2d grader"	"My cousin's son is a 2d grader"	35	NA	NA	NA	NA	NA	7
+2021-02-03 08:24:09	"student012"	"student"	38	"They spend up to 4 hours a day"	"They spend up to 4 hours a day"	NA	NA	NA	NA	NA	NA	8
+2021-02-03 08:24:24	"student012"	"student"	39	"They used to, actually,"	"They used to, actually,"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:24:29	"teacher008"	"teacher"	40	"Goodness! Which country is it?"	"Goodness! Which country is it?"	NA	NA	NA	NA	NA	NA	5
+2021-02-03 08:24:44	"student012"	"student"	41	"Now that the lockdown has been lifted, they can go to school again"	"Now that the lockdown has been lifted, they can go to school again"	39	NA	NA	NA	NA	NA	13
+2021-02-03 08:24:50	"student012"	"student"	42	"Ukraine"	"Ukraine"	40	NA	NA	NA	NA	NA	1
+2021-02-03 08:25:06	"teacher008"	"teacher"	43	"Ah right"	"Ah right"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:25:20	"teacher008"	"teacher"	44	"Are there any restrictions still in place? What's the infection level like?"	"Are there any restrictions still in place? What's the infection level like?"	NA	"2d"	"topic development"	NA	NA	NA	12
+2021-02-03 08:25:49	"student012"	"student"	45	"The infection level is pretty low. Around 3k per day"	"The infection level is pretty low. Around 3k per day"	NA	NA	NA	NA	NA	NA	10
+2021-02-03 08:26:19	"teacher008"	"teacher"	46	"Is that in the whole country? Or in Kyiv?"	"Is that in the whole country? Or in Kyiv?"	NA	NA	NA	NA	NA	NA	9
+2021-02-03 08:26:28	"student012"	"student"	47	"The whole country"	"The whole country"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 08:26:36	"student012"	"student"	48	"Let me double check for you"	"Let me double check for you"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 08:27:10	"student012"	"student"	49	"So today it's 3285 cases"	"So today it's 3285 cases"	NA	NA	NA	NA	NA	NA	5
+2021-02-03 08:27:18	"teacher008"	"teacher"	50	"That's really good! Well done Ukraine!"	"That's really good! Well done Ukraine!"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 08:27:34	"student012"	"student"	51	"What are the numbers in Britain?"	"What are the numbers in Britain?"	NA	"2e"	"topic development"	NA	NA	NA	6
+2021-02-03 08:27:38	"teacher008"	"teacher"	52	"It's around 20 thousand in the UK, and that's much better than a few weeks ago!"	"It's around 20 thousand in the UK, and that's much better than a few weeks ago!"	NA	NA	NA	NA	NA	NA	16
+2021-02-03 08:28:02	"teacher008"	"teacher"	53	"It was over 40 thousand new cases every day at the beginning of the year!"	"It was over 40 thousand new cases every day at the beginning of the year!"	NA	NA	NA	NA	NA	NA	15
+2021-02-03 08:28:13	"student012"	"student"	54	"Same in Germany I was told"	"Same in Germany I was told"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 08:28:36	"student012"	"student"	55	"Is it appropriate to react 'Shame' in this case?"	"Is it appropriate to react 'Shame' in this case?"	NA	"3.0"	"enquiry"	"lexical resource,meaning"	NA	NA	9
+2021-02-03 08:28:46	"student012"	"student"	56	"Meaning жаль"	"Meaning жаль"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	2
+2021-02-03 08:28:48	"teacher008"	"teacher"	57	"Yes, of course. It is a shame!"	"Yes, of course. It is a shame!"	NA	NA	NA	NA	NA	NA	7
+2021-02-03 08:29:34	"student012"	"student"	58	"I know there's 'Pity' and there's 'Shame'"	"I know there's 'Pity' and there's 'Shame'"	NA	NA	NA	NA	NA	NA	7
+2021-02-03 08:29:52	"student012"	"student"	59	"not the words themselves but the reactions"	"not the words themselves but the reactions"	NA	NA	NA	NA	NA	NA	7
+2021-02-03 08:29:57	"teacher008"	"teacher"	60	"I don't think there's a difference between them, actually"	"I don't think there's a difference between them, actually"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-02-03 08:30:02	"student012"	"student"	61	"and I find it hard to place them in my head"	"and I find it hard to place them in my head"	NA	NA	NA	NA	NA	NA	11
+2021-02-03 08:30:19	"student012"	"student"	62	"Oh really?"	"Oh really?"	60	NA	NA	NA	NA	NA	2
+2021-02-03 08:30:36	"student012"	"student"	63	"So basically they are synonymical ?"	"So basically they are synonymous ?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	6
+2021-02-03 08:30:42	"teacher008"	"teacher"	64	"I don't think there is! Such a shame / what a pity!"	"I don't think there is! Such a shame / what a pity!"	62	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-02-03 08:30:51	"teacher008"	"teacher"	65	"Yes, I would say so"	"Yes, I would say so"	63	NA	NA	NA	NA	NA	5
+2021-02-03 08:31:14	"student012"	"student"	66	"Thank you! It has been bugging me for ages"	"Thank you! It has been bugging me for ages"	NA	NA	NA	NA	NA	NA	9
+2021-02-03 08:31:15	"student012"	"student"	67	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:31:31	"teacher008"	"teacher"	68	"Obviously, 'shame on' you is different. The favourite expression of my school English teacher..."	"Obviously, 'shame on' you is different. The favourite expression of my school English teacher..."	NA	"3a"	NA	NA	NA	NA	14
+2021-02-03 08:31:43	"student012"	"student"	69	"That's why! Yes"	"That's why! Yes"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 08:32:05	"student012"	"student"	70	"Shame on you! -- my school teacher used this one frequently too"	"Shame on you! -- my school teacher used this one frequently too"	NA	NA	NA	NA	NA	NA	12
+2021-02-03 08:32:32	"teacher008"	"teacher"	71	"Ahh, schools. Such a lovely environment, full of shaming and hate :))"	"Ahh, schools. Such a lovely environment, full of shaming and hate :))"	NA	NA	NA	NA	NA	NA	12
+2021-02-03 08:33:15	"student012"	"student"	72	"Overcome, adapt, survive"	"Overcome, adapt, survive"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 08:33:35	"teacher008"	"teacher"	73	"Is it in the Czech language (or Polish?) that 'pozor' also means 'what a pity'? It's always fascinated me, I don't know what the connection is"	"Is it in the Czech language (or Polish?) that 'pozor' also means 'what a pity'? It's always fascinated me, I don't know what the connection is"	NA	"3b"	"non-English"	"code switching,lexical resource,world knowledge"	NA	NA	26
+2021-02-03 08:33:35	"student012"	"student"	74	"The three words that should be written on all of their banners"	"The three words that should be written on all of their banners"	72	NA	NA	NA	NA	NA	12
+2021-02-03 08:33:48	"student012"	"student"	75	"Instead of Latin"	"Instead of Latin"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 08:33:50	"teacher008"	"teacher"	76	"Haha, yes!"	"Haha, yes!"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:34:25	"student012"	"student"	77	"I've never heard about pozor. What an insight"	"I've never heard about pozor. What an insight"	73	NA	NA	NA	NA	NA	8
+2021-02-03 08:35:00	"teacher008"	"teacher"	78	"I'll have to check later on which language it is. One of the western Slavic ones!"	"I'll have to check later on which language it is. One of the western Slavic ones!"	NA	NA	NA	NA	NA	NA	16
+2021-02-03 08:35:12	"teacher008"	"teacher"	79	"Ok, what shall we do today? Writing???"	"Ok, what shall we do today? Writing???"	NA	"4.0"	"topic opening"	NA	NA	NA	7
+2021-02-03 08:35:21	"student012"	"student"	80	"Did you know that sklep is a store in Polish?"	"Did you know that sklep is a store in Polish?"	NA	"3c"	NA	NA	NA	NA	10
+2021-02-03 08:35:32	"student012"	"student"	81	"Always made me laugh"	"Always made me laugh"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:35:36	"teacher008"	"teacher"	82	"Yes!! That's so weird"	"Yes!! That's so weird"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:36:43	"student012"	"student"	83	"My google says pozor is appearance in Polish"	"My google says pozor is appearance in Polish"	NA	NA	"non-English"	"code switching,lexical resource,world knowledge"	NA	NA	8
+2021-02-03 08:36:52	"student012"	"student"	84	"which is as funny)))"	"which is as funny)))"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:37:07	"teacher008"	"teacher"	85	"Appearance? Hmmm!"	"Appearance? Hmmm!"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:37:24	"student012"	"student"	86	"pozory mylą"	"pozory mylą"	NA	NA	"non-English"	"code switching,lexical resource,world knowledge"	NA	NA	2
+2021-02-03 08:37:30	"student012"	"student"	87	"looks can be deceiving"	"looks can be deceiving"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:37:41	"teacher008"	"teacher"	88	"Wow, interesting"	"Wow, interesting"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:38:24	"teacher008"	"teacher"	89	"Ah, I might have mislead you! I think it's Czech for 'watch out!'"	"Ah, I might have mislead you! I think it's Czech for 'watch out!'"	NA	NA	NA	NA	NA	NA	13
+2021-02-03 08:38:38	"teacher008"	"teacher"	90	"Like, pozor, you are going to step in a puddle!"	"Like, pozor, you are going to step in a puddle!"	NA	NA	"non-English"	"code switching,lexical resource,world knowledge"	NA	NA	10
+2021-02-03 08:38:50	"student012"	"student"	91	"ahahaha"	"ahahaha"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:38:56	"student012"	"student"	92	"still funny"	"still funny"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:39:17	"teacher008"	"teacher"	93	"It must be from 'zor' as in 'vision', right?"	"It must be from 'zor' as in 'vision', right?"	NA	NA	"non-English"	"code switching,lexical resource,world knowledge"	NA	NA	9
+2021-02-03 08:39:25	"student012"	"student"	94	"Right"	"Right"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:39:29	"teacher008"	"teacher"	95	"It is funny))"	"It is funny))"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 08:40:38	"teacher008"	"teacher"	96	"Pozor! I'm going to ask you about writing again)))"	"Pozor! I'm going to ask you about writing again)))"	NA	"4a"	"non-English,redirection"	"code switching"	NA	NA	9
+2021-02-03 08:40:51	"student012"	"student"	97	"You know. I started a little"	"You know. I started a little"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 08:41:19	"student012"	"student"	98	"and then I was interrupted. And then I decided to finish before the lesson"	"and then I was interrupted. And then I decided to finish before the lesson"	NA	NA	NA	NA	NA	NA	14
+2021-02-03 08:41:27	"student012"	"student"	99	"Never finished. Pozor!"	"Never finished. Pozor!"	NA	NA	"non-English"	"code switching"	NA	NA	3
+2021-02-03 08:41:48	"teacher008"	"teacher"	100	"Haha, what a familiar story!"	"Haha, what a familiar story!"	NA	NA	NA	NA	NA	NA	5
+2021-02-03 08:42:08	"student012"	"student"	101	"I decided to write a completely made-up story"	"I decided to write a completely made-up story"	NA	NA	NA	NA	NA	NA	8
+2021-02-03 08:42:19	"teacher008"	"teacher"	102	"You know what, let's work with what you have, and you can finish now 'in real time' and then it's done!"	"You know what, let's work with what you have, and you can finish now 'in real time' and then it's done!"	NA	NA	NA	NA	NA	NA	21
+2021-02-03 08:42:24	"student012"	"student"	103	"about me quitting smoking"	"about me quitting smoking"	101	NA	NA	NA	NA	NA	4
+2021-02-03 08:42:32	"teacher008"	"teacher"	104	"as is you sacred right!"	"as is you sacred right!"	101	NA	NA	NA	NA	NA	5
+2021-02-03 08:42:36	"teacher008"	"teacher"	105	"Perfect"	"Perfect"	103	NA	NA	NA	NA	NA	1
+2021-02-03 08:43:11	"student012"	"student"	106	"I'm afraid my notes are at home. Can I just finish it for next time?"	"I'm afraid my notes are at home. Can I just finish it for next time?"	102	NA	NA	NA	NA	NA	15
+2021-02-03 08:43:18	"teacher008"	"teacher"	107	"Have you got an outline? Introduction - paragraph 1 - paragraph 2 ... Or are you keeping it free flowing?"	"Have you got an outline? Introduction - paragraph 1 - paragraph 2 ... Or are you keeping it free flowing?"	NA	NA	NA	NA	NA	NA	20
+2021-02-03 08:43:25	"teacher008"	"teacher"	108	"Ah, I see, yes sure"	"Ah, I see, yes sure"	106	NA	NA	NA	NA	NA	5
+2021-02-03 08:43:35	"student012"	"student"	109	"I prefer handwritten compositions"	"I prefer handwritten compositions"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:43:43	"student012"	"student"	110	"Should I type it?"	"Should I type it?"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:44:05	"teacher008"	"teacher"	111	"Yes, please! Maybe you can email it to me before the next class?"	"Yes, please! Maybe you can email it to me before the next class?"	NA	NA	NA	NA	NA	NA	13
+2021-02-03 08:44:21	"student012"	"student"	112	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:44:26	"student012"	"student"	113	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:44:32	"teacher008"	"teacher"	114	"Also, it's good to practise for the type of exam you're going to sit (paper-based / computer-based)"	"Also, it's good to practise for the type of exam you're going to sit (paper-based / computer-based)"	NA	"4b"	"scaffolding"	"writing"	NA	NA	17
+2021-02-03 08:45:00	"student012"	"student"	115	"Right!"	"Right!"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:45:06	"teacher008"	"teacher"	116	"I've never done a computer-based exam but I suspect it's better for writing because people generally type faster than they write"	"I've never done a computer-based exam but I suspect it's better for writing because people generally type faster than they write"	NA	NA	NA	NA	NA	NA	21
+2021-02-03 08:45:38	"teacher008"	"teacher"	117	"And its's easier to go back and alter the text, without crossing things out"	"And its's easier to go back and alter the text, without crossing things out"	NA	NA	NA	NA	NA	NA	14
+2021-02-03 08:46:07	"teacher008"	"teacher"	118	"You know, another phobia from school You've crossed it out! Shame on you! :)))"	"You know, another phobia from school You've crossed it out! Shame on you! :)))"	NA	NA	NA	NA	NA	NA	14
+2021-02-03 08:47:00	"student012"	"student"	119	"Oh yes! )"	"Oh yes! )"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 08:47:08	"student012"	"student"	120	"A spellchecker would also help"	"A spellchecker would also help"	NA	NA	NA	NA	NA	NA	5
+2021-02-03 08:47:17	"student012"	"student"	121	"I'm sure it's not allowed though"	"I'm sure it's not allowed though"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 08:47:24	"teacher008"	"teacher"	122	"Nooo, there won't be a spellchecker))"	"Nooo, there won't be a spellchecker))"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 08:47:38	"student012"	"student"	123	"Tough luck haha"	"Tough luck haha"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 08:47:45	"teacher008"	"teacher"	124	"Yep"	"Yep"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:49:06	"teacher008"	"teacher"	125	"Ok, have you got the Cambridge Grammar and Vocabulary book handy at all?"	"Ok, have you got the Cambridge Grammar and Vocabulary book handy at all?"	NA	"5.0"	"enquiry"	NA	NA	NA	13
+2021-02-03 08:49:13	"student012"	"student"	126	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:49:29	"teacher008"	"teacher"	127	"Lovely! The hard copy?"	"Lovely! The hard copy?"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 08:49:35	"student012"	"student"	128	"Let me find the hard copy. It should be somewhere at school"	"Let me find the hard copy. It should be somewhere at school"	NA	NA	NA	NA	NA	NA	12
+2021-02-03 08:49:43	"teacher008"	"teacher"	129	"Yes, sure"	"Yes, sure"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:50:01	"student012"	"student"	130	"got it"	"got it"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 08:50:44	"teacher008"	"teacher"	131	"Great. Ok, I'm looking at a chapter about passives. I suggest skipping the theory, going straight to practice and troubleshooting as and when"	"Great. Ok, I'm looking at a chapter about passives. I suggest skipping the theory, going straight to practice and troubleshooting as and when"	NA	NA	NA	NA	NA	NA	23
+2021-02-03 08:50:55	"teacher008"	"teacher"	132	"I'll give you the page number in a sec"	"I'll give you the page number in a sec"	NA	NA	NA	NA	NA	NA	9
+2021-02-03 08:51:06	"student012"	"student"	133	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:51:31	"teacher008"	"teacher"	134	"The first exercise is interesting. It's newspaper headlines, or 'breaking news' format, which means they are not full sentences"	"The first exercise is interesting. It's newspaper headlines, or 'breaking news' format, which means they are not full sentences"	NA	"5a"	"exercise"	"grammatical resource"	"textbook"	NA	19
+2021-02-03 08:52:10	"student012"	"student"	135	"Just a sec, I'll erase some stuff"	"Just a sec, I'll erase some stuff"	NA	"6.0"	"disruption"	NA	NA	NA	7
+2021-02-03 08:52:29	"teacher008"	"teacher"	136	"For example, instead of 'Biden has been declared the President' it would be 'Biden declared President'"	"For example, instead of 'Biden has been declared the President' it would be 'Biden declared President'"	134	NA	NA	NA	NA	NA	16
+2021-02-03 08:52:32	"teacher008"	"teacher"	137	"Yes, sure"	"Yes, sure"	135	NA	NA	NA	NA	NA	2
+2021-02-03 08:52:35	"teacher008"	"teacher"	138	"p. 35"	"p. 35"	136	NA	NA	NA	NA	NA	2
+2021-02-03 08:53:47	"teacher008"	"teacher"	139	"Oh no, ignore me! They are full sentences, actually :)"	"Oh no, ignore me! They are full sentences, actually :)"	NA	NA	NA	NA	NA	NA	10
+2021-02-03 08:54:46	"student012"	"student"	140	"Can you believe it. No eraser in the whole school"	"Can you believe it. No eraser in the whole school"	137	NA	NA	NA	NA	NA	10
+2021-02-03 08:54:50	"student012"	"student"	141	"Arrrghhh"	"Arrrghhh"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:55:06	"teacher008"	"teacher"	142	"Have you got answers written there?"	"Have you got answers written there?"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 08:55:12	"student012"	"student"	143	"Yes(("	"Yes(("	NA	NA	NA	NA	NA	NA	1
+2021-02-03 08:55:26	"teacher008"	"teacher"	144	"Oh no! The pdf maybe?"	"Oh no! The pdf maybe?"	NA	NA	NA	NA	NA	NA	5
+2021-02-03 08:56:10	"student012"	"student"	145	"Ok I'll just ignore what's written"	"Ok I'll just ignore what's written"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 08:56:40	"student012"	"student"	146	"ex1 right??"	"ex1 right??"	138	NA	NA	NA	NA	NA	2
+2021-02-03 08:57:00	"teacher008"	"teacher"	147	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 08:57:51	"teacher008"	"teacher"	148	"If you just type the bits that you're putting in gaps here"	"If you just type the bits that you're putting in gaps here"	NA	NA	NA	NA	NA	NA	12
+2021-02-03 08:58:37	"student012"	"student"	149	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 09:00:02	"student012"	"student"	150	"were charged?"	"were charged?"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 09:00:56	"teacher008"	"teacher"	151	"No, the leg-irones are a device"	"No, the leg-irones are a device"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 09:01:44	"student012"	"student"	152	"could soon be fitted"	"could soon be fitted"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 09:01:49	"teacher008"	"teacher"	153	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 09:02:22	"student012"	"student"	154	"being considered"	"being considered"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 09:02:27	"teacher008"	"teacher"	155	"that's right)"	"that's right)"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 09:02:46	"student012"	"student"	156	"A very strange sentence actually"	"A very strange sentence actually"	NA	"5b"	"enquiry"	"grammatical resource"	NA	NA	5
+2021-02-03 09:03:03	"teacher008"	"teacher"	157	"The first one?"	"The first one?"	NA	NA	NA	NA	NA	NA	3
+2021-02-03 09:03:05	"student012"	"student"	158	"I can't see any connection between the 1st and the 2nd part"	"I can't see any connection between the 1st and the 2nd part"	156	NA	NA	NA	NA	NA	12
+2021-02-03 09:03:22	"student012"	"student"	159	"Yes. Number 1"	"Yes. Number 1"	157	NA	NA	NA	NA	NA	3
+2021-02-03 09:03:46	"teacher008"	"teacher"	160	"Ah ok. The police are considering plans to introduce leg-irons."	"Ah ok. The police are considering plans to introduce leg-irons."	NA	NA	NA	NA	NA	NA	10
+2021-02-03 09:03:49	"student012"	"student"	161	"2) being caused"	"2) being caused"	155	NA	NA	NA	NA	NA	3
+2021-02-03 09:04:07	"teacher008"	"teacher"	162	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 09:04:17	"student012"	"student"	163	"Yes. I got the meaning. I was puzzled with the grammar side of it."	"Yes. I got the meaning. I was puzzled by the grammar side of it."	160	NA	NA	NA	NA	NA	14
+2021-02-03 09:04:46	"teacher008"	"teacher"	164	"Yes, very interesting! Very news-report style, beloved by CPE"	"Yes, very interesting! Very news-report style, beloved by CPE"	NA	NA	NA	NA	NA	NA	9
+2021-02-03 09:04:47	"student012"	"student"	165	"*by the grammar side of it"	"*by the grammar side of it"	163	NA	NA	NA	NA	NA	6
+2021-02-03 09:04:58	"student012"	"student"	166	"Oh right. The news"	"Oh right. The news"	164	NA	NA	NA	NA	NA	4
+2021-02-03 09:05:21	"teacher008"	"teacher"	167	"Well, the topic here is passives. Police are considering plans = plans are being considered"	"Well, the topic here is passives. Police are considering plans = plans are being considered"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2021-02-03 09:05:32	"student012"	"student"	168	"3) were charged"	"3) were charged"	162	NA	NA	NA	NA	NA	3
+2021-02-03 09:05:39	"teacher008"	"teacher"	169	"They could fit leg-irons = leg irons could be fitted"	"They could fit leg-irons = leg irons could be fitted"	167	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2021-02-03 09:05:54	"teacher008"	"teacher"	170	"yes to 'were charged'!"	"yes to 'were charged'!"	168	NA	NA	NA	NA	NA	4
+2021-02-03 09:06:31	"student012"	"student"	171	", under plans being considered by chief constable"	", under plans being considered by chief constable"	169	NA	NA	NA	NA	NA	8
+2021-02-03 09:06:35	"student012"	"student"	172	"This part."	"This part."	NA	NA	NA	NA	NA	NA	2
+2021-02-03 09:06:48	"student012"	"student"	173	"Why 'under'?"	"Why 'under'?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	2
+2021-02-03 09:07:30	"teacher008"	"teacher"	174	"Oh I see! according to plans"	"Oh I see! according to plans"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2021-02-03 09:07:41	"teacher008"	"teacher"	175	"under plans = good expression"	"under plans = good expression"	NA	NA	NA	NA	NA	NA	5
+2021-02-03 09:07:47	"teacher008"	"teacher"	176	"like under the circumstances"	"like under the circumstances"	NA	NA	NA	NA	NA	NA	4
+2021-02-03 09:07:59	"student012"	"student"	177	"4) has finally been elected"	"4) has finally been elected"	170	NA	NA	NA	NA	NA	5
+2021-02-03 09:08:11	"teacher008"	"teacher"	178	"Yes, finally! Haven't we all been waiting for it?"	"Yes, finally! Haven't we all been waiting for it?"	NA	NA	NA	NA	NA	NA	9
+2021-02-03 09:08:36	"student012"	"student"	179	"Is it OK that they skipped the 'on'?"	"Is it OK that they skipped the 'of'?"	176	NA	"enquiry"	"grammatical resource"	NA	NA	8
+2021-02-03 09:08:46	"student012"	"student"	180	"Like in under plans of being"	"Like in under plans of being"	NA	NA	NA	NA	NA	NA	6
+2021-02-03 09:08:51	"student012"	"student"	181	"sorry 'of'"	"sorry 'of'"	179	NA	"repair"	"writing"	NA	NA	2
+2021-02-03 09:09:34	"teacher008"	"teacher"	182	"Aha, let's go back for a sec. Police are considering plans = plans are being considered"	"Aha, let's go back for a sec. Police are considering plans = plans are being considered"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2021-02-03 09:09:51	"student012"	"student"	183	"5) to be printed, is expected, is auditioned"	"5) to be printed, is expected, is auditioned"	178	NA	NA	NA	NA	NA	8
+2021-02-03 09:10:02	"teacher008"	"teacher"	184	"Now we get rid of the 'are', because we're using 'being considered' as a description"	"Now we get rid of the 'are', because we're using 'being considered' as a description"	182	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2021-02-03 09:10:18	"teacher008"	"teacher"	185	"under plans (which plans?) being considered..."	"under plans (which plans?) being considered..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-02-03 09:10:28	"teacher008"	"teacher"	186	"Yes, that's right!"	"Yes, that's right!"	183	NA	NA	NA	NA	NA	3
+2021-02-03 09:10:32	"student012"	"student"	187	"Finally got it"	"Finally got it"	185	NA	NA	NA	NA	NA	3
+2021-02-03 09:10:35	"student012"	"student"	188	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 09:11:03	"student012"	"student"	189	"6) has been held, is deemed"	"6) has been held, is deemed"	186	NA	NA	NA	NA	NA	6
+2021-02-03 09:12:02	"teacher008"	"teacher"	190	"Yes, that's right. 'is deemed' is a great expression for formal writing, earns you nice CPE brownie points"	"Yes, that's right. 'is deemed' is a great expression for formal writing, earns you nice CPE brownie points"	NA	NA	"scaffolding"	"lexical resource,writing"	NA	NA	18
+2021-02-03 09:13:21	"student012"	"student"	191	"Will try to use it in my composition haha"	"Will try to use it in my composition haha"	NA	NA	NA	NA	NA	NA	9
+2021-02-03 09:13:55	"teacher008"	"teacher"	192	"Ah, I've got to let you go! For the following weeks, do you prefer morning or lunchtime classes?"	"Ah, I've got to let you go! For the following weeks, do you prefer morning or lunchtime classes?"	NA	"7.0"	"closing"	NA	NA	NA	18
+2021-02-03 09:14:42	"student012"	"student"	193	"Lunchtime"	"Lunchtime"	NA	NA	NA	NA	NA	NA	1
+2021-02-03 09:15:07	"teacher008"	"teacher"	194	"I actually think an imaginary situation is a good choice for the writing because you don't get carried away by personal stuff and can invent as much or as little as you need for the word count :)"	"I actually think an imaginary situation is a good choice for the writing because you don't get carried away by personal stuff and can invent as much or as little as you need for the word count :)"	191	NA	NA	NA	NA	NA	38
+2021-02-03 09:15:19	"student012"	"student"	195	"Sorry again for being late. Let's hope with lunchtime I'll be more punctual"	"Sorry again for being late. Let's hope with lunchtime I'll be more punctual"	193	NA	NA	NA	NA	NA	13
+2021-02-03 09:15:30	"student012"	"student"	196	"I agree!"	"I agree!"	194	NA	NA	NA	NA	NA	2
+2021-02-03 09:15:38	"teacher008"	"teacher"	197	"Noted, I'll message you with some slots tomorrow! Don't worry, life has a way!"	"Noted, I'll message you with some slots tomorrow! Don't worry, life has a way!"	195	NA	NA	NA	NA	NA	14
+2021-02-03 09:15:41	"student012"	"student"	198	"You can think of anything in the world"	"You can think of anything in the world"	196	NA	NA	NA	NA	NA	8
+2021-02-03 09:15:54	"student012"	"student"	199	"Thank you very much for the lesson!"	"Thank you very much for the lesson!"	197	NA	NA	NA	NA	NA	7
+2021-02-03 09:16:05	"teacher008"	"teacher"	200	"Exactly! Mind you, for some this is precisely the problem))"	"Exactly! Mind you, for some this is precisely the problem))"	198	NA	NA	NA	NA	NA	10
+2021-02-03 09:16:14	"teacher008"	"teacher"	201	"It's my pleasure! Have a lovely day!"	"It's my pleasure! Have a lovely day!"	199	NA	NA	NA	NA	NA	7
+2021-02-03 09:16:20	"student012"	"student"	202	"You too!"	"You too!"	NA	NA	NA	NA	NA	NA	2
+2021-02-03 09:16:30	"teacher008"	"teacher"	203	"Bye! :)"	"Bye! :)"	NA	NA	NA	NA	NA	"C2"	2

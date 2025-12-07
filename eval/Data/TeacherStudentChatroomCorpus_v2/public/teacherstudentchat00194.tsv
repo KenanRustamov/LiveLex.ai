@@ -1,0 +1,140 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-04 13:29:25	"student015"	"student"	1	"Hello"	"Hello"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-02-04 13:29:50	"teacher008"	"teacher"	2	"Hello <STUDENT>!"	"Hello <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-02-04 13:29:54	"teacher008"	"teacher"	3	"Happy New Year!"	"Happy New Year!"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-02-04 13:30:02	"student015"	"student"	4	"Thanks!"	"Thanks!"	NA	NA	NA	NA	NA	NA	1
+2021-02-04 13:30:45	"teacher008"	"teacher"	5	"Are you having a nice holiday?"	"Are you having a nice holiday?"	NA	NA	NA	NA	NA	NA	6
+2021-02-04 13:30:50	"student015"	"student"	6	"In China, the New Year is the most important holiay."	"In China, the New Year is the most important holiday."	NA	NA	NA	NA	NA	NA	10
+2021-02-04 13:31:01	"teacher008"	"teacher"	7	"Yes, I know!"	"Yes, I know!"	NA	NA	NA	NA	NA	NA	3
+2021-02-04 13:32:01	"student015"	"student"	8	"There are still ten days before Chinese New Year."	"There are still ten days before the Chinese New Year."	NA	NA	NA	NA	NA	NA	9
+2021-02-04 13:32:17	"teacher008"	"teacher"	9	"Oh sorry! I thought it had already started!"	"Oh sorry! I thought it had already started!"	NA	NA	NA	NA	NA	NA	8
+2021-02-04 13:32:36	"student015"	"student"	10	"But I cann't go home."	"But I can't go home."	NA	NA	NA	NA	NA	NA	5
+2021-02-04 13:32:44	"teacher008"	"teacher"	11	"How are you going to celebrate in this case?"	"How are you going to celebrate in this case?"	9	NA	NA	NA	NA	NA	9
+2021-02-04 13:32:56	"teacher008"	"teacher"	12	"Oh really? Is your hometown still in lockdown?"	"Oh really? Is your hometown still in lockdown?"	10	NA	NA	NA	NA	NA	8
+2021-02-04 13:33:48	"student015"	"student"	13	"Not in lockdown, but in China, the pandemic control policy is strict."	"Not in lockdown, but in China, the pandemic control policy is strict."	NA	NA	NA	NA	NA	NA	12
+2021-02-04 13:34:17	"student015"	"student"	15	"If I go home, I must stay at home."	"If I go home, I must stay at home."	NA	NA	NA	NA	NA	NA	9
+2021-02-04 13:34:24	"teacher008"	"teacher"	16	"I remember you said there was an outbreak in your town"	"I remember you said there was an outbreak in your town"	NA	NA	NA	NA	NA	NA	11
+2021-02-04 13:34:33	"teacher008"	"teacher"	17	"Ah, I see now"	"Ah, I see now"	15	NA	NA	NA	NA	NA	4
+2021-02-04 13:35:15	"student015"	"student"	18	"Yes, a month ago it was serious in my hometown."	"Yes, a month ago it was serious in my hometown."	16	NA	NA	NA	NA	NA	10
+2021-02-04 13:36:07	"teacher008"	"teacher"	19	"Oh, I'm so sorry to hear you can't go and see your family!"	"Oh, I'm so sorry to hear you can't go and see your family!"	NA	NA	NA	NA	NA	NA	13
+2021-02-04 13:36:50	"student015"	"student"	20	"We have lost a lot of freedom during the pandemic time."	"We have lost a lot of freedom during the pandemic."	NA	NA	NA	NA	NA	NA	11
+2021-02-04 13:37:36	"student015"	"student"	21	"This is the first year that I'm not in hometown during the Chinese New Year."	"This is the first year that I'm not in my hometown during the Chinese New Year."	NA	NA	NA	NA	NA	NA	15
+2021-02-04 13:37:42	"student015"	"student"	22	"But it's OK."	"But it's OK."	NA	NA	NA	NA	NA	NA	3
+2021-02-04 13:37:53	"teacher008"	"teacher"	23	"Yes, it's a similar situation here. We are still in a strict nationwide lockdown. It might be lifting in March"	"Yes, it's a similar situation here. We are still in a strict nationwide lockdown. It might be lifting in March"	NA	NA	NA	NA	NA	NA	20
+2021-02-04 13:38:27	"teacher008"	"teacher"	24	"Yes, really sad and frustrating! What are you going to do instead? Are you planning to cook any festive food?"	"Yes, really sad and frustrating! What are you going to do instead? Are you planning to cook any festive food?"	NA	"2a"	"topic development"	NA	NA	NA	20
+2021-02-04 13:39:30	"student015"	"student"	25	"I don't cook well. So I think I will see my friends."	"I don't cook well. So I think I will see my friends."	NA	NA	NA	NA	NA	NA	12
+2021-02-04 13:39:47	"student015"	"student"	26	"We are free in Beijing."	"We are free in Beijing."	NA	NA	NA	NA	NA	NA	5
+2021-02-04 13:40:06	"teacher008"	"teacher"	27	"Sounds good! Do you normally exchange presents at New Year?"	"Sounds good! Do you normally exchange presents at New Year?"	NA	"2b"	"topic development"	NA	NA	NA	10
+2021-02-04 13:42:03	"student015"	"student"	28	"In China during the New Year, we only give gifts to elder, like uncle aunt."	"In China during the New Year, we only give gifts to older people, like uncles and aunts."	NA	NA	NA	NA	NA	NA	15
+2021-02-04 13:42:31	"student015"	"student"	29	"And the elder will give money to children."	"And the elder relatives will give money to children."	NA	NA	NA	NA	NA	NA	8
+2021-02-04 13:42:46	"teacher008"	"teacher"	30	"Oh interesting! So you would give presents to your parents, but they won't give any presents to you?"	"Oh interesting! So you would give presents to your parents, but they won't give any presents to you?"	28	NA	NA	NA	NA	NA	18
+2021-02-04 13:42:53	"teacher008"	"teacher"	31	"Oh yes, the red envelope, right?"	"Oh yes, the red envelope, right?"	29	NA	NA	NA	NA	NA	6
+2021-02-04 13:43:19	"student015"	"student"	32	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-02-04 13:43:25	"teacher008"	"teacher"	33	"Yes, I remember"	"Yes, I remember"	NA	NA	NA	NA	NA	NA	3
+2021-02-04 13:43:33	"student015"	"student"	34	"it's name ya sui qian"	"it's called ya sui qian"	NA	NA	"non-English"	"code switching,lexical resource,world knowledge"	NA	NA	5
+2021-02-04 13:44:16	"teacher008"	"teacher"	35	"Sure, yes"	"Sure, yes"	NA	NA	NA	NA	NA	NA	2
+2021-02-04 13:44:47	"student015"	"student"	36	"In china, they think the money can keep your age from older."	"In China, they think money can keep you from getting older."	NA	NA	NA	NA	NA	NA	12
+2021-02-04 13:45:04	"teacher008"	"teacher"	37	"Money can keep you from getting older?"	"Money can keep you from getting older?"	NA	NA	"repair"	"lexical resource"	NA	NA	7
+2021-02-04 13:45:41	"student015"	"student"	38	"Maybe means : press your age"	"Maybe it means: press your age"	NA	NA	NA	NA	NA	NA	6
+2021-02-04 13:45:59	"teacher008"	"teacher"	39	"Hmm, I don't understand, sorry"	"Hmm, I don't understand, sorry"	NA	NA	NA	NA	NA	NA	5
+2021-02-04 13:46:28	"student015"	"student"	40	"In Chinese old culture,haha"	"In the old Chinese culture, haha"	NA	NA	NA	NA	NA	NA	4
+2021-02-04 13:47:04	"teacher008"	"teacher"	41	"I see, interesting!"	"I see, interesting!"	NA	NA	NA	NA	NA	NA	3
+2021-02-04 13:47:36	"student015"	"student"	42	"Also the Chinese New Year came from a myth."	"Also the Chinese New Year came from a myth."	NA	NA	NA	NA	NA	NA	9
+2021-02-04 13:48:09	"student015"	"student"	43	"Year is an ancient monster."	"Year is an ancient monster."	NA	NA	NA	NA	NA	NA	5
+2021-02-04 13:50:49	"student015"	"student"	44	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	"3.0"	"disruption"	NA	NA	NA	2
+2021-02-04 13:51:02	"teacher008"	"teacher"	45	"I remember when we were in Shanghai, the city got almost empty during the Chinese New Year. I wonder if Beijing is going to be the same! Or maybe people are not allowed to leave this year"	"I remember when we were in Shanghai, the city got almost empty during the Chinese New Year. I wonder if Beijing is going to be the same! Or maybe people are not allowed to leave this year"	NA	"2c"	"topic development"	NA	NA	NA	37
+2021-02-04 13:51:06	"teacher008"	"teacher"	46	"Hello, I'm here"	"Hello, I'm here"	44	NA	NA	NA	NA	NA	3
+2021-02-04 13:51:34	"teacher008"	"teacher"	47	"Is everyone banned from travelling this year?"	"Is everyone banned from travelling this year?"	45	NA	NA	NA	NA	NA	7
+2021-02-04 13:51:41	"student015"	"student"	48	"Yes. Beijing is same."	"Yes. Beijing is the same."	NA	NA	NA	NA	NA	NA	4
+2021-02-04 13:52:17	"student015"	"student"	49	"Not everyone , but this year a lot of people will stay in Beijing."	"Not everyone , but this year a lot of people will stay in Beijing."	NA	NA	NA	NA	NA	NA	14
+2021-02-04 13:52:45	"teacher008"	"teacher"	50	"I see, yes. It was the same with London, people couldn't go see their families"	"I see, yes. It was the same with London, people couldn't go see their families"	NA	NA	NA	NA	NA	NA	15
+2021-02-04 13:53:34	"teacher008"	"teacher"	51	"We usually go see my in-laws for Christmas but we didn't last Christmas because we were not allowed to travel"	"We usually go see my in-laws for Christmas but we didn't last Christmas because we were not allowed to travel"	NA	NA	NA	NA	NA	NA	20
+2021-02-04 13:53:51	"teacher008"	"teacher"	52	"If we had been allowed to travel, we would have gone to see my parents-in-law."	"If we had been allowed to travel, we would have gone to see my parents-in-law."	NA	"4.0"	"topic opening,revision"	"grammatical resource"	NA	NA	15
+2021-02-04 13:54:08	"teacher008"	"teacher"	53	"Remember this structure? We talked about last time, third conditional"	"Remember this structure? We talked about last time, third conditional"	NA	NA	NA	NA	NA	NA	10
+2021-02-04 13:54:21	"student015"	"student"	54	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-02-04 13:55:41	"teacher008"	"teacher"	55	"If had V3, would have V3"	"If had V3, would have V3"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-02-04 13:56:11	"teacher008"	"teacher"	56	"Do you know what I mean by V3? The third form of the verb. Write-wrote-written (written is the third form)"	"Do you know what I mean by V3? The third form of the verb. Write-wrote-written (written is the third form)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	20
+2021-02-04 13:56:25	"student015"	"student"	57	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-02-04 13:56:56	"teacher008"	"teacher"	58	"Yes, and we use it to talk about things that we imagine could have gone differently in the past"	"Yes, and we use it to talk about things that we imagine could have gone differently in the past"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	19
+2021-02-04 13:57:20	"teacher008"	"teacher"	59	"like 'If I hadn't lived in China, I wouldn't have learned to use chopsticks'"	"like 'If I hadn't lived in China, I wouldn't have learned to use chopsticks'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2021-02-04 13:57:25	"teacher008"	"teacher"	60	"I think was the example"	"I think was the example"	NA	NA	NA	NA	NA	NA	5
+2021-02-04 13:58:29	"student015"	"student"	61	"If we had the vaccine for the pandemic, we would not been lockdown."	"If we had the vaccine for the pandemic, we would not be in lockdown."	NA	NA	NA	NA	NA	NA	13
+2021-02-04 13:59:02	"teacher008"	"teacher"	62	"If we had the vaccine for the pandemic, we would not be in lockdown, yes!"	"If we had the vaccine for the pandemic, we would not be in lockdown, yes!"	NA	"4a"	"repair"	"grammatical resource"	NA	NA	15
+2021-02-04 13:59:14	"teacher008"	"teacher"	63	"but this about the present, isn't it? So it's second conditional"	"but this about the present, isn't it? So it's second conditional"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2021-02-04 13:59:22	"teacher008"	"teacher"	64	"an unreal situation in the present"	"an unreal situation in the present"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	6
+2021-02-04 13:59:28	"student015"	"student"	65	"Yes, sorry."	"Yes, sorry."	NA	NA	NA	NA	NA	NA	2
+2021-02-04 13:59:33	"teacher008"	"teacher"	66	"And you were (mostly) right with the grammar"	"And you were (mostly) right with the grammar"	64	NA	NA	NA	NA	NA	8
+2021-02-04 13:59:41	"teacher008"	"teacher"	67	"No, don't apologize, this is very good"	"No, don't apologize, this is very good"	65	NA	NA	NA	NA	NA	7
+2021-02-04 13:59:55	"teacher008"	"teacher"	68	"(Hasn't China got the vaccine now though?)"	"(Hasn't China got the vaccine now though?)"	NA	NA	NA	NA	NA	NA	7
+2021-02-04 14:00:37	"teacher008"	"teacher"	69	"Ok, here's an example. Could you make a third conditional please?"	"Ok, here's an example. Could you make a third conditional please?"	NA	"5.0"	"exercise,exercise"	"grammatical resource"	NA	NA	11
+2021-02-04 14:00:41	"teacher008"	"teacher"	70	"If you  (not/be) late, we  (not/miss) the bus."	"If you  (not/be) late, we  (not/miss) the bus."	NA	NA	NA	NA	NA	NA	10
+2021-02-04 14:02:21	"student015"	"student"	71	"If you had not been late, we would have catched the bus."	"If you had not been late, we would have caught the bus."	NA	NA	NA	NA	NA	NA	12
+2021-02-04 14:02:41	"teacher008"	"teacher"	72	"Ah, nearly! catch-caught-caught"	"Ah, nearly! catch-caught-caught"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	3
+2021-02-04 14:02:45	"teacher008"	"teacher"	73	"we would have caught"	"we would have caught"	NA	NA	"repair"	NA	NA	NA	4
+2021-02-04 14:02:53	"teacher008"	"teacher"	74	"But you've got the right idea"	"But you've got the right idea"	NA	NA	NA	NA	NA	NA	6
+2021-02-04 14:02:54	"student015"	"student"	75	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-04 14:03:02	"teacher008"	"teacher"	76	"If she  (study) she  (pass) the exam."	"If she  (study) she  (pass) the exam."	NA	"5a"	"exercise,exercise"	"grammatical resource"	NA	NA	9
+2021-02-04 14:04:22	"student015"	"student"	77	"If she have study hard, she would have passed the exam."	"If she had studied hard, she would have passed the exam."	NA	NA	NA	NA	NA	NA	11
+2021-02-04 14:04:44	"teacher008"	"teacher"	78	"The second part is perfect, but the first... If she __ ___ hard"	"The second part is perfect, but the first... If she __ ___ hard"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	13
+2021-02-04 14:05:42	"student015"	"student"	79	"had study"	"had studied"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2021-02-04 14:06:01	"teacher008"	"teacher"	80	"had studied"	"had studied"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2021-02-04 14:06:14	"teacher008"	"teacher"	81	"Study is a regular verb, and the three forms are study-studied-studied"	"Study is a regular verb, and the three forms are study-studied-studied"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	11
+2021-02-04 14:06:41	"teacher008"	"teacher"	82	"Ok, one more!"	"Ok, one more!"	NA	"5b"	"exercise,exercise"	"grammatical resource"	NA	NA	3
+2021-02-04 14:06:58	"teacher008"	"teacher"	83	"We (see) John if we (arrive) earlier."	"We (see) John if we (arrive) earlier."	NA	NA	NA	NA	NA	NA	7
+2021-02-04 14:07:50	"student015"	"student"	84	"We would have seen John, if we had been arrived earlier."	"We would have seen John if we had arrived earlier."	NA	NA	NA	NA	NA	NA	11
+2021-02-04 14:08:09	"teacher008"	"teacher"	85	"Nearly! if we had arrived earlier"	"Nearly! if we had arrived earlier"	NA	NA	"repair"	"grammatical resource"	NA	NA	6
+2021-02-04 14:08:29	"teacher008"	"teacher"	86	"This sentence shows that the 'if...' part doesn't have to be at the beginning :)"	"This sentence shows that the 'if...' part doesn't have to be at the beginning :)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2021-02-04 14:08:38	"student015"	"student"	87	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-04 14:09:00	"teacher008"	"teacher"	88	"Ok, let's do another one"	"Ok, let's do another one"	NA	"5c"	"exercise,exercise"	"grammatical resource"	NA	NA	5
+2021-02-04 14:09:02	"teacher008"	"teacher"	89	"If they  (go) to bed early, they  (not/wake) up late."	"If they  (go) to bed early, they  (not/wake) up late."	NA	NA	NA	NA	NA	NA	12
+2021-02-04 14:10:11	"student015"	"student"	90	"If they had gone to bed early, they would have not woken up late."	"If they had gone to bed early, they would not have woken up late."	NA	NA	NA	NA	NA	NA	14
+2021-02-04 14:10:32	"teacher008"	"teacher"	91	"they wouldn't have woken up late, but yes!"	"they wouldn't have woken up late, but yes!"	NA	NA	"repair"	"grammatical resource"	NA	NA	8
+2021-02-04 14:10:43	"teacher008"	"teacher"	92	"You got all the verbs right :)"	"You got all the verbs right :)"	NA	NA	NA	NA	NA	NA	7
+2021-02-04 14:10:56	"teacher008"	"teacher"	93	"Did they wake up late or early then?"	"Did they wake up late or early then?"	NA	"5d"	"eliciting"	"grammatical resource,meaning"	NA	NA	8
+2021-02-04 14:11:24	"student015"	"student"	94	"Recently I always woke up early."	"Recently I always wake up early."	NA	NA	NA	NA	NA	NA	6
+2021-02-04 14:12:30	"teacher008"	"teacher"	95	"Yes, you work long hours, don't you? But in this sentence, do we know if they woke up later or early? 'If they had gone to bed early, they wouldn't have woken up late'"	"Yes, you work long hours, don't you? But in this sentence, do we know if they woke up later or early? 'If they had gone to bed early, they wouldn't have woken up late'"	NA	NA	NA	NA	NA	NA	34
+2021-02-04 14:14:04	"teacher008"	"teacher"	96	"Sorry, have I confused you?"	"Sorry, have I confused you?"	NA	NA	NA	NA	NA	NA	5
+2021-02-04 14:14:31	"student015"	"student"	97	"Sorry, so this sentence is not right?"	"Sorry, so this sentence is not right?"	NA	NA	NA	NA	NA	NA	7
+2021-02-04 14:14:55	"teacher008"	"teacher"	98	"No, no, it's correct!"	"No, no, it's correct!"	NA	NA	NA	NA	NA	NA	4
+2021-02-04 14:15:03	"teacher008"	"teacher"	99	"I'm just asking how you understand it"	"I'm just asking how you understand it"	NA	NA	NA	NA	NA	NA	7
+2021-02-04 14:15:15	"teacher008"	"teacher"	100	"They woke up late, didn't they?"	"They woke up late, didn't they?"	NA	NA	NA	NA	NA	NA	6
+2021-02-04 14:15:26	"student015"	"student"	101	"We don't know if they woke up late."	"We don't know if they woke up late."	NA	NA	NA	NA	NA	NA	8
+2021-02-04 14:16:05	"student015"	"student"	102	"In this sentence, I think I know they woke uo late."	"In this sentence, I think I know they woke up late."	NA	NA	NA	NA	NA	NA	11
+2021-02-04 14:16:22	"teacher008"	"teacher"	103	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2021-02-04 14:16:55	"teacher008"	"teacher"	104	"Because someone is probably unhappy about it and is saying, if they had gone to bed early, they wouldn't have woken up late!"	"Because someone is probably unhappy about it and is saying, if they had gone to bed early, they wouldn't have woken up late!"	NA	NA	NA	NA	NA	NA	23
+2021-02-04 14:16:55	"student015"	"student"	105	"Oh, I understand your mean."	"Oh, I understand what you mean."	NA	NA	NA	NA	NA	NA	5
+2021-02-04 14:17:20	"teacher008"	"teacher"	106	"Yes, good, we understand it in the same way then :)"	"Yes, good, we understand it in the same way then :)"	NA	NA	NA	NA	NA	NA	11
+2021-02-04 14:18:07	"teacher008"	"teacher"	107	"Lovely. I'm going to tell you a short story, and then ask a couple of questions about who caused the problem, and you can make nice third conditional sentences, ok?"	"Lovely. I'm going to tell you a short story, and then ask a couple of questions about who caused the problem, and you can make nice third conditional sentences, ok?"	NA	"6.0"	"exercise,free practice"	"grammatical resource"	NA	NA	30
+2021-02-04 14:18:22	"student015"	"student"	108	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-04 14:19:13	"teacher008"	"teacher"	109	"The story is about a musician called Antonio. He lives in a small fishing village. He wanted to marry his girlfriend Barbara and went to her father to ask him."	"The story is about a musician called Antonio. He lives in a small fishing village. He wanted to marry his girlfriend Barbara and went to her father to ask him."	NA	NA	NA	NA	NA	NA	30
+2021-02-04 14:20:05	"teacher008"	"teacher"	110	"But her father was a serious fisherman. He said that Antonio had to get a boat and then he could marry Barbara. No boat for fishing, no Barbara"	"But her father was a serious fisherman. He said that Antonio had to get a boat and then he could marry Barbara. No boat for fishing, no Barbara"	NA	NA	NA	NA	NA	NA	28
+2021-02-04 14:20:31	"teacher008"	"teacher"	111	"Antonio didn't have a boat and he didn't have much money. He went to his friend Chris and asked him to lend him his boat."	"Antonio didn't have a boat and he didn't have much money. He went to his friend Chris and asked him to lend him his boat."	NA	NA	NA	NA	NA	NA	25
+2021-02-04 14:20:52	"teacher008"	"teacher"	112	"But Chris said that he couldn't. Chris was a fisherman, he needed his boat for fishing every day."	"But Chris said that he couldn't. Chris was a fisherman, he needed his boat for fishing every day."	NA	NA	NA	NA	NA	NA	18
+2021-02-04 14:21:38	"teacher008"	"teacher"	113	"So Antonio and Barbara broke up. Then Antonio met this girl Elizabeth and asked her to marry him."	"So Antonio and Barbara broke up. Then Antonio met this girl Elizabeth and asked her to marry him."	NA	NA	NA	NA	NA	NA	18
+2021-02-04 14:21:50	"teacher008"	"teacher"	114	"But Elizabeth said he was still in love with Barbara and refused."	"But Elizabeth said he was still in love with Barbara and refused."	NA	NA	NA	NA	NA	NA	12
+2021-02-04 14:22:10	"teacher008"	"teacher"	115	"Antionio was unmarried and unhappy. Whose fault do you think it is?"	"Antionio was unmarried and unhappy. Whose fault do you think it is?"	NA	NA	NA	NA	NA	NA	12
+2021-02-04 14:22:56	"student015"	"student"	116	"If Antonio had a boat for fishing or had money to buy a boat, he would have married Barbara."	"If Antonio had had a boat for fishing or had had the money to buy a boat, he would have married Barbara."	NA	NA	NA	NA	NA	NA	19
+2021-02-04 14:23:38	"teacher008"	"teacher"	117	"Yes, nearly! The verb is 'have', so you need had + the third form of the verb"	"Yes, nearly! The verb is 'have', so you need had + the third form of the verb"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	17
+2021-02-04 14:23:50	"teacher008"	"teacher"	118	"If Antonio had had a boat..."	"If Antonio had had a boat..."	NA	NA	"repair"	"grammatical resource"	NA	NA	6
+2021-02-04 14:24:00	"student015"	"student"	119	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-04 14:24:20	"teacher008"	"teacher"	120	"Ok, cool! What about Barbara's father?"	"Ok, cool! What about Barbara's father?"	NA	"6a"	NA	NA	NA	NA	6
+2021-02-04 14:24:34	"teacher008"	"teacher"	121	"Do you think he did the right thing?"	"Do you think he did the right thing?"	NA	NA	NA	NA	NA	NA	8
+2021-02-04 14:26:29	"student015"	"student"	122	"If Barbara's father had not asked Antonio to have a boat, Antonio would have merried Barbara."	"If Barbara's father had not asked Antonio to have a boat, Antonio would have married Barbara."	NA	NA	NA	NA	NA	NA	16
+2021-02-04 14:26:58	"teacher008"	"teacher"	123	"Yes, perfect :)"	"Yes, perfect :)"	NA	NA	NA	NA	NA	NA	3
+2021-02-04 14:27:14	"teacher008"	"teacher"	124	"What about his friend Chris? Surely Christ should have helped him?"	"What about his friend Chris? Surely Christ should have helped him?"	NA	"6b"	NA	NA	NA	NA	11
+2021-02-04 14:27:29	"teacher008"	"teacher"	125	"sorry, Crhis"	"sorry, Crhis"	NA	NA	"repair"	"writing"	NA	NA	2
+2021-02-04 14:28:10	"teacher008"	"teacher"	126	"Chris!"	"Chris!"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-04 14:29:22	"student015"	"student"	127	"If Chirs had lent Antonio a boat, Barbara's father would have agreed Antonio merry his daughter."	"If Chris had lent Antonio a boat, Barbara's father would have agreed that Antonio could marry his daughter."	NA	NA	NA	NA	NA	NA	16
+2021-02-04 14:29:45	"teacher008"	"teacher"	128	"Ah, very nice third conditional, yes!"	"Ah, very nice third conditional, yes!"	NA	NA	NA	NA	NA	NA	6
+2021-02-04 14:29:58	"teacher008"	"teacher"	129	"What about Barbara?"	"What about Barbara?"	NA	"6c"	NA	NA	NA	NA	3
+2021-02-04 14:31:19	"student015"	"student"	130	"If Barbara had not broke up with Antonio, They would have merried."	"If Barbara had not broken up with Antonio, they would have got married."	NA	NA	NA	NA	NA	NA	12
+2021-02-04 14:31:23	"teacher008"	"teacher"	131	"Ah, it's time! If you'd like to practice some more, feel free to write more sentences, about Barbara and Elizabeth for example, and email them to me to check, ok?"	"Ah, it's time! If you'd like to practice some more, feel free to write more sentences, about Barbara and Elizabeth for example, and email them to me to check, ok?"	NA	"7.0"	"closing,homework"	NA	NA	NA	30
+2021-02-04 14:31:28	"teacher008"	"teacher"	132	"Yes, good one!"	"Yes, good one!"	NA	NA	NA	NA	NA	NA	3
+2021-02-04 14:31:39	"student015"	"student"	133	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2021-02-04 14:31:44	"teacher008"	"teacher"	134	"Would the same next week suit you? Also on Thursday"	"Would the same next week suit you? Also on Thursday"	NA	NA	NA	NA	NA	NA	10
+2021-02-04 14:31:52	"student015"	"student"	135	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-04 14:32:53	"teacher008"	"teacher"	136	"Lovely! When the lockdown is finished here, I'll be able to offer you 2 classes a week again, but it'll have to be just one for now"	"Lovely! When the lockdown is finished here, I'll be able to offer you 2 classes a week again, but it'll have to be just one for now"	NA	NA	NA	NA	NA	NA	27
+2021-02-04 14:33:05	"teacher008"	"teacher"	137	"Have a nice weekend, I'll speak to you next Thursday!"	"Have a nice weekend, I'll speak to you next Thursday!"	NA	NA	NA	NA	NA	NA	10
+2021-02-04 14:33:38	"student015"	"student"	138	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-02-04 14:33:44	"student015"	"student"	139	"Byebye"	"Bye bye"	NA	NA	NA	NA	NA	NA	1
+2021-02-04 14:33:49	"teacher008"	"teacher"	140	"Bye :)"	"Bye :)"	NA	NA	NA	NA	NA	"B2"	2

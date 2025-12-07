@@ -1,0 +1,108 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-26 17:15:28	"teacher001"	"teacher"	1	"Hi <STUDENT> welcome back"	"Hi <STUDENT> welcome back"	NA	"1.0"	"opening"	NA	NA	NA	4
+2020-03-26 17:15:31	"student007"	"student"	2	"hi, here is <STUDENT>"	"hi, here is <STUDENT>"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 17:16:12	"teacher001"	"teacher"	3	"OK so shall we leave the charts as we did yesterday and try some 'speaking' questions again?"	"OK so shall we leave the charts as we did yesterday and try some 'speaking' questions again?"	NA	"2.0"	"exercise"	"speaking"	NA	NA	17
+2020-03-26 17:16:33	"student007"	"student"	4	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:17:45	"teacher001"	"teacher"	5	"OK great so...I;m going to go with the topic of 'Society' for today so....First question: 'What social problems are there in your country?'"	"OK great so...I;m going to go with the topic of 'Society' for today so....First question: 'What social problems are there in your country?'"	NA	"2a"	NA	NA	NA	NA	23
+2020-03-26 17:20:52	"student007"	"student"	6	"I suppose the biggest social problem in my country is that most of young people want to become famous, not to become a teacher which are benefit on our society"	"I suppose the biggest social problem in my country is that most young people want to become famous, not to become teachers, which would benefit our society"	NA	NA	NA	NA	NA	NA	30
+2020-03-26 17:21:58	"teacher001"	"teacher"	7	"sorry <STUDENT> 1 minute!"	"sorry <STUDENT> 1 minute!"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 17:24:05	"teacher001"	"teacher"	8	"thanks a bit more?"	"thanks a bit more?"	NA	NA	"eliciting"	"task achievement"	NA	NA	4
+2020-03-26 17:24:42	"student007"	"student"	9	"for example, when people as teenagers about dream jobs in my country,  most of them willing to select singer, movie actore and stars.but those jobs are not always good for our society."	"for example, when teenagers talk about dream jobs in my country,  most of them are willing to select a singer, a movie actor or star. But those jobs are not always good for our society."	NA	NA	NA	NA	NA	NA	33
+2020-03-26 17:24:52	"student007"	"student"	10	"ask"	"ask"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:26:04	"teacher001"	"teacher"	11	"What can done to alleviate poverty?"	"What can done to alleviate poverty?"	NA	"2b"	NA	NA	NA	NA	6
+2020-03-26 17:26:18	"teacher001"	"teacher"	12	"can be done I mean"	"can be done I mean"	NA	NA	"repair"	"writing"	NA	NA	5
+2020-03-26 17:26:56	"teacher001"	"teacher"	13	"(alleviate means make less serious)"	"(alleviate means make less serious)"	"11.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-03-26 17:31:18	"teacher001"	"teacher"	14	"you ok <STUDENT>?!"	"you ok <STUDENT>?!"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 17:31:48	"student007"	"student"	15	"I think education can decline the income differences. because if we have more people who got high education our low salary career could be replaced.for example, cleaner on our street can be alter as robots, and some jobs which can not replace also got high salary."	"I think education can alleviate income differences because if we have more people who have higher education, our low salary jobs could be replaced. For example, cleaners on our streets can be replaced with robots, and some jobs which cannot be replaced will be well-paid."	NA	NA	NA	NA	NA	NA	46
+2020-03-26 17:32:15	"student007"	"student"	16	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:33:18	"teacher001"	"teacher"	17	"OK thanks <STUDENT> - a lot of language for me to think about for you = great! We'll come back to it soon...OK one more: Why do so many people move to live in cities?"	"OK thanks <STUDENT> - a lot of language for me to think about for you = great! We'll come back to it soon...OK one more: Why do so many people move to live in cities?"	NA	"2c"	NA	NA	NA	NA	35
+2020-03-26 17:39:30	"student007"	"student"	18	"I think there are multitude of benefits for people moving to a city.for starts, it is a great way for people have a convenient life, such as public transport. the other benefit of living in a city is that it allows people to see various kind of lifestyle, for example, different enternments."	"I think there is a multitude of benefits for people moving to a city. For a start, it is a great way for people to have a comfortable life, for example they can use public transport. Another benefit of living in a city is that it allows people to see various kinds of lifestyles, for example, different entertainments."	NA	NA	NA	NA	NA	NA	52
+2020-03-26 17:40:45	"teacher001"	"teacher"	19	"OK thanks a lot <STUDENT>..one final  question: 'Do you think all criminals should go to prison?'"	"OK thanks a lot <STUDENT>..one final  question: 'Do you think all criminals should go to prison?'"	NA	"2d"	NA	NA	NA	NA	17
+2020-03-26 17:44:33	"student007"	"student"	20	"yes, with not doubt, people who break the laws should be punished.sending them to prison is one of the best way that the law system can do.because it is really fair for everyone, no matter who is, if you break a low, you need to got a punishment.even you carry out some crimin."	"Yes, without a doubt, people who break the law should be punished. Sending them to prison is one of the best ways to do so. It is really fair to everyone, no matter who it is, if you break the law, you need to get a punishment. Even if you carry out some criminal act"	NA	NA	NA	NA	NA	NA	53
+2020-03-26 17:46:45	"teacher001"	"teacher"	21	"OK thanks <STUDENT> ..let me show these chunks (pieces) of language from you first answer...are they OK or not OK do you think? (Just say yes or no for all of them as a group!) : I suppose the biggest social problem in my country is that /  want to become famous / for example / those jobs are not always good for our society. So a one-word answer…OK? yes or no?"	"OK thanks <STUDENT> ..let me show these chunks (pieces) of language from you first answer...are they OK or not OK do you think? (Just say yes or no for all of them as a group!) : I suppose the biggest social problem in my country is that /  want to become famous / for example / those jobs are not always good for our society. So a one-word answer…OK? yes or no?"	NA	"3.0"	"scaffolding,eliciting"	"lexical resource,grammatical resource"	"chat"	NA	73
+2020-03-26 17:48:20	"student007"	"student"	22	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:48:20	"teacher001"	"teacher"	23	"Quick decide <STUDENT> ..yes or no?!"	"Quick decide <STUDENT> ..yes or no?!"	NA	NA	NA	NA	NA	NA	6
+2020-03-26 17:48:28	"student007"	"student"	24	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:48:49	"teacher001"	"teacher"	25	"Yes! THanks I agree - they are all good chunks of language well done"	"Yes! THanks I agree - they are all good chunks of language well done"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	14
+2020-03-26 17:49:01	"student007"	"student"	26	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:49:31	"teacher001"	"teacher"	27	"What about these chunks? most of young people / which are benefit on our society / most of them willing to"	"What about these chunks? most of young people / which are benefit on our society / most of them willing to"	NA	"4.0"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	21
+2020-03-26 17:49:42	"student007"	"student"	28	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:49:57	"teacher001"	"teacher"	29	"Sorry ...not exactly!"	"Sorry ...not exactly!"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 17:50:05	"student007"	"student"	30	"or have some grammar mistakes"	"or have some grammar mistakes"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 17:50:28	"teacher001"	"teacher"	31	"Yes that's right...What about the first chunk? What do you need to change?"	"Yes that's right...What about the first chunk? What do you need to change?"	NA	"4a"	"eliciting"	"grammatical resource"	NA	NA	13
+2020-03-26 17:50:40	"teacher001"	"teacher"	32	"most of young people?"	"most of young people?"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 17:50:52	"student007"	"student"	33	"most young people"	"most young people"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 17:51:05	"teacher001"	"teacher"	34	"Yes great wel ldone - like we said yesterday right?"	"Yes great wel ldone - like we said yesterday right?"	NA	NA	NA	NA	NA	NA	10
+2020-03-26 17:51:43	"teacher001"	"teacher"	35	"OK and the next chunk ....you need to change the noun 'benfit' to an adjective ..do you know it?"	"OK and the next chunk ....you need to change the noun 'benfit' to an adjective ..do you know it?"	NA	"4b"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	19
+2020-03-26 17:51:52	"teacher001"	"teacher"	36	"I mean the adjective form of benefit"	"I mean the adjective form of benefit"	NA	NA	"eliciting,scaffolding"	"lexical resource"	NA	NA	7
+2020-03-26 17:52:05	"teacher001"	"teacher"	37	"benef...?"	"benef...?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	1
+2020-03-26 17:52:18	"student007"	"student"	38	"beneficial"	"beneficial"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:52:35	"teacher001"	"teacher"	39	"Yes good so....can you change your chunk a bit?"	"Yes good so....can you change your chunk a bit?"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	9
+2020-03-26 17:52:53	"teacher001"	"teacher"	40	"change the preposition 'on' too!"	"change the preposition 'on' too!"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	5
+2020-03-26 17:53:43	"student007"	"student"	41	"I do not have ideas"	"I do not have any ideas"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 17:54:47	"teacher001"	"teacher"	42	"that's ok...which are beneficial to our society = good"	"that's ok...which are beneficial to our society = good"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	9
+2020-03-26 17:55:16	"student007"	"student"	43	"ok,i write it on my notebook."	"ok, I'll write it down in my notebook."	NA	NA	NA	NA	NA	NA	6
+2020-03-26 17:55:44	"teacher001"	"teacher"	44	"what about the last chunk: 'most of them willing'? Can i say for example: I willing to help you? is that correct or do you need to add something ?"	"what about the last chunk: 'most of them willing'? Can i say for example: I willing to help you? is that correct or do you need to add something ?"	NA	"4c"	"eliciting"	"grammatical resource"	NA	NA	30
+2020-03-26 17:55:49	"teacher001"	"teacher"	45	"one word!"	"one word!"	NA	NA	NA	NA	NA	NA	2
+2020-03-26 17:56:10	"student007"	"student"	46	"I am willing to help you"	"I am willing to help you"	NA	NA	NA	NA	NA	NA	6
+2020-03-26 17:56:16	"teacher001"	"teacher"	47	"is 'willing' a verb/noun or adejctive?"	"is 'willing' a verb/noun or adejctive?"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	6
+2020-03-26 17:56:30	"student007"	"student"	48	"I think is is a verb"	"I think is is a verb"	NA	NA	NA	NA	NA	NA	6
+2020-03-26 17:56:31	"teacher001"	"teacher"	49	"YEs sorry that's right good so your original chunk should be...?"	"YEs sorry that's right good so your original chunk should be...?"	"46.0"	NA	NA	NA	NA	NA	11
+2020-03-26 17:56:47	"student007"	"student"	50	"most of them are wiling"	"most of them are willing"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 17:57:10	"teacher001"	"teacher"	51	"well 'willing' is an adjective so you need the verb 'be' ...ah yes that's right good"	"well 'willing' is an adjective so you need the verb 'be' ...ah yes that's right good"	"48, 50"	NA	NA	NA	NA	NA	16
+2020-03-26 17:57:22	"student007"	"student"	52	"ok...thanks"	"ok...thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:58:04	"teacher001"	"teacher"	53	"OK no problem so ...your next answer...look at these chunks...good or bad? I think education / income differences / could be replaced / for example / cleaner on our street / robots"	"OK no problem so ...your next answer...look at these chunks...good or bad? I think education / income differences / could be replaced / for example / cleaner on our street / robots"	NA	"5.0"	"eliciting"	"grammatical resource"	NA	NA	32
+2020-03-26 17:58:20	"teacher001"	"teacher"	54	"As a group i mean"	"As a group i mean"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 17:58:49	"student007"	"student"	55	"I feel those are not good"	"I feel those are not good"	NA	NA	NA	NA	NA	NA	6
+2020-03-26 17:59:27	"teacher001"	"teacher"	56	"Well ...actually they are fine!!"	"Well ...actually they are fine!!"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 18:00:18	"teacher001"	"teacher"	57	"income differences = great phrase ....could be replace = good passive  good use of 'for example' as it encourages you to develop your point etc"	"income differences = great phrase ....could be replace = good passive  good use of 'for example' as it encourages you to develop your point etc"	NA	NA	"scaffolding"	"lexical resource,grammatical resource,task achievement"	NA	NA	26
+2020-03-26 18:00:19	"student007"	"student"	58	"really? those word are just come up in my mind, I am not sure they are correct or not."	"really? those word have just come up in my mind, I am not sure whether they are correct or not."	NA	NA	NA	NA	NA	NA	19
+2020-03-26 18:00:29	"teacher001"	"teacher"	59	"ah ok well keep using those!"	"ah ok well keep using those!"	NA	NA	NA	NA	NA	NA	6
+2020-03-26 18:00:45	"student007"	"student"	60	"ok,thanks"	"ok,thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:01:46	"teacher001"	"teacher"	61	"what about these (from the same answer)? : education can decline income differences / some jobs which can not replace are also..."	"what about these (from the same answer)? : education can decline income differences / some jobs which can not replace are also..."	NA	"6.0"	"eliciting"	"lexical resource"	NA	NA	22
+2020-03-26 18:02:16	"student007"	"student"	62	"good"	"good"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:02:17	"student007"	"student"	63	"good?"	"good?"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:02:30	"student007"	"student"	64	"I guess"	"I guess"	NA	NA	NA	NA	NA	NA	2
+2020-03-26 18:03:51	"student007"	"student"	65	"but I am not sure"	"but I am not sure"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 18:03:53	"teacher001"	"teacher"	66	"OK well ...something declines by itself do you see? But if something does it it's different so ...i.e. you can't say : the goverment has declined taxes..."	"OK well ...something declines by itself do you see? But if something does it it's different so ...i.e. you can't say : the goverment has declined taxes..."	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	27
+2020-03-26 18:04:11	"teacher001"	"teacher"	67	"what verb could you use here instead?"	"what verb could you use here instead?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	7
+2020-03-26 18:04:19	"student007"	"student"	68	"drop"	"drop"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:04:48	"student007"	"student"	69	"decrease"	"decrease"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:05:02	"teacher001"	"teacher"	70	"Again, this is a verb which (in this context) happens by itself e.g. Sales have dropped....=good ..try again!"	"Again, this is a verb which (in this context) happens by itself e.g. Sales have dropped....=good ..try again!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-03-26 18:05:18	"student007"	"student"	71	"go down"	"go down"	NA	NA	NA	NA	NA	NA	2
+2020-03-26 18:05:18	"teacher001"	"teacher"	72	"Ah same problem with 'decrease'!!"	"Ah same problem with 'decrease'!!"	"69.0"	NA	NA	NA	NA	NA	5
+2020-03-26 18:05:28	"teacher001"	"teacher"	73	"AND go down"	"AND go down"	"73.0"	NA	NA	NA	NA	NA	3
+2020-03-26 18:05:36	"teacher001"	"teacher"	74	"OK OK I'll save you!"	"OK OK I'll save you!"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 18:05:44	"student007"	"student"	75	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:07:20	"teacher001"	"teacher"	76	"Just to confirm <STUDENT>...So I can't say for example: I drop/decline/decrease my Alcohol consumption OK? But I could say I have reduced my consumption (it's a 'transitive' verb)"	"Just to confirm <STUDENT>...So I can't say for example: I drop/decline/decrease my Alcohol consumption OK? But I could say I have reduced my consumption (it's a 'transitive' verb)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	28
+2020-03-26 18:07:46	"teacher001"	"teacher"	77	"like the difference between rise and raise remember?"	"like the difference between rise and raise remember?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-03-26 18:07:52	"student007"	"student"	78	"yes, I forgot reduce"	"yes, I forgot reduce"	"76.0"	NA	NA	NA	NA	NA	4
+2020-03-26 18:08:47	"student007"	"student"	79	"yes, i remember rise and raise"	"yes, i remember rise and raise"	"77.0"	NA	NA	NA	NA	NA	6
+2020-03-26 18:08:48	"teacher001"	"teacher"	80	"OK and finally what about that second chunk? : 'some jobs which can not replace are also'..."	"OK and finally what about that second chunk? : 'some jobs which can not replace are also'..."	NA	"7.0"	"eliciting"	"grammatical resource"	NA	NA	17
+2020-03-26 18:09:12	"teacher001"	"teacher"	81	"OK good these are common in TAsk 1 so good to remember (you basically normally need rise!)"	"OK good these are common in TAsk 1 so good to remember (you basically normally need rise!)"	"79.0"	NA	"scaffolding"	"writing,lexical resource"	NA	NA	17
+2020-03-26 18:09:22	"teacher001"	"teacher"	82	"and not raise (for graphs etc)"	"and not raise (for graphs etc)"	NA	NA	NA	NA	NA	NA	6
+2020-03-26 18:09:36	"student007"	"student"	83	"some jobs which are con not replace also ...."	"some jobs which are can not replace also ...."	"80.0"	NA	NA	NA	NA	NA	9
+2020-03-26 18:10:06	"student007"	"student"	84	"ok, I got it"	"ok, I got it"	"82.0"	NA	NA	NA	NA	NA	4
+2020-03-26 18:10:10	"teacher001"	"teacher"	85	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:11:20	"teacher001"	"teacher"	86	"Oh sorry ..you're waiting for me ..hol don"	"Oh sorry ..you're waiting for me ..hol don"	"83.0"	NA	NA	NA	NA	NA	8
+2020-03-26 18:11:27	"teacher001"	"teacher"	87	"I was waiting for you!"	"I was waiting for you!"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 18:11:34	"teacher001"	"teacher"	88	"So...you need the passive here!"	"So...you need the passive here!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-03-26 18:11:40	"teacher001"	"teacher"	89	"You got it right before"	"You got it right before"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 18:12:01	"teacher001"	"teacher"	90	"e.g. Money can't replace love...OR Love.....?"	"e.g. Money can't replace love...OR Love.....?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+2020-03-26 18:12:35	"student007"	"student"	91	"so...."	"so...."	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:13:27	"student007"	"student"	92	"some job which are can not instead of"	"some job which are can not instead of"	NA	NA	NA	NA	NA	NA	8
+2020-03-26 18:13:41	"student007"	"student"	93	"without 'are"	"without 'are"	NA	NA	NA	NA	NA	NA	2
+2020-03-26 18:13:42	"student007"	"student"	94	"without 'are'?"	"without 'are'?"	NA	NA	NA	NA	NA	NA	2
+2020-03-26 18:13:53	"teacher001"	"teacher"	95	"OK <STUDENT> let me help you out here..."	"OK <STUDENT> let me help you out here..."	NA	"7a"	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-03-26 18:14:11	"student007"	"student"	96	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:14:54	"teacher001"	"teacher"	97	"So 'Love can't be replaced by money' = passive and you needed (like you said before in fact without thinking about it) some jobs which cannot be replaced by..you need the 'be' to make it passive"	"So 'Love can't be replaced by money' = passive and you needed (like you said before in fact without thinking about it) some jobs which cannot be replaced by..you need the 'be' to make it passive"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	36
+2020-03-26 18:14:54	"student007"	"student"	98	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 18:15:26	"teacher001"	"teacher"	99	"a small but important difference..it;s hard to understand otherwise you see - it;s confusing"	"a small but important difference..it;s hard to understand otherwise you see - it;s confusing"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-03-26 18:16:06	"student007"	"student"	100	"some jobs which are couldn't be replaced"	"some jobs which are couldn't be replaced"	NA	NA	NA	NA	NA	NA	7
+2020-03-26 18:16:09	"teacher001"	"teacher"	101	"Listen - I think we should practise the passive - we'll start more simply with it - it would be good if you could use it correctly!"	"Listen - I think we should practise the passive - we'll start more simply with it - it would be good if you could use it correctly!"	NA	"7b"	"scaffolding"	"grammatical resource,meta knowledge"	NA	NA	27
+2020-03-26 18:16:40	"student007"	"student"	102	"ok, I will do more passive practice after class."	"ok, I will do more passive practice after class."	NA	NA	NA	NA	NA	NA	9
+2020-03-26 18:17:06	"teacher001"	"teacher"	103	"I've copied and pasted your answers so we can continue tomorrow - I'll speak to you then OK? Yes do some more practise and I;ll ask you some (easy!) questions tomorrow ....bye!"	"I've copied and pasted your answers so we can continue tomorrow - I'll speak to you then OK? Yes do some more practise and I;ll ask you some (easy!) questions tomorrow ....bye!"	NA	"8.0"	"closing"	NA	NA	NA	32
+2020-03-26 18:17:17	"student007"	"student"	104	"thanks, I think so, it is necessary"	"thanks, I think so, it is necessary"	NA	NA	NA	NA	NA	NA	7
+2020-03-26 18:17:26	"teacher001"	"teacher"	105	"ok see you"	"ok see you"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 18:17:35	"student007"	"student"	106	"bey."	"bye"	NA	NA	NA	NA	NA	"B1"	1
+2020-03-26 18:17:45	"student007"	"student"	107	"the time is same?"	"is it the same time?"	NA	NA	NA	NA	NA	NA	4

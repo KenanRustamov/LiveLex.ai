@@ -1,0 +1,242 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-16 12:22:18	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-12-16 12:22:28	"teacher008"	"teacher"	2	"Hello-hello!"	"Hello-hello!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:22:31	"teacher008"	"teacher"	3	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:22:35	"teacher008"	"teacher"	4	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-12-16 12:22:55	"student011"	"student"	5	"Not for the first time, but I've managed to write my name )"	"Not at first, but I've managed to write my name )"	3	"1a"	NA	NA	NA	NA	13
+2020-12-16 12:23:09	"student011"	"student"	6	"I'm fine, thank you!"	"I'm fine, thank you!"	4	NA	NA	NA	NA	NA	4
+2020-12-16 12:23:15	"teacher008"	"teacher"	7	"Oh goodness, it took me a few tries too as you can see!"	"Oh goodness, it took me a few tries too as you can see!"	5	NA	NA	NA	NA	NA	13
+2020-12-16 12:24:14	"student011"	"student"	8	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:24:33	"teacher008"	"teacher"	9	"Have you done your yoga this morning?"	"Have you done your yoga this morning?"	6	"2a"	"topic development"	NA	NA	NA	7
+2020-12-16 12:24:39	"student011"	"student"	10	"Yes! )"	"Yes! )"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:24:54	"teacher008"	"teacher"	11	"Oh good! So have I!"	"Oh good! So have I!"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:24:56	"student011"	"student"	12	"Pilates!"	"Pilates!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:25:02	"teacher008"	"teacher"	13	"Ah, pilates, sure"	"Ah, pilates, sure"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:25:27	"student011"	"student"	14	"I like pilates more to be honest )"	"I like pilates more to be honest )"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 12:25:36	"teacher008"	"teacher"	15	"Yes, you mentioned that!"	"Yes, you mentioned that!"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 12:25:49	"student011"	"student"	16	"I don't like the time go breathing in yoga"	"I don't like the timed (?) breathing in yoga"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 12:25:58	"student011"	"student"	17	"And the speed"	"And the speed"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:26:08	"teacher008"	"teacher"	18	"Is yoga too slow for you?"	"Is yoga too slow for you?"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:26:29	"student011"	"student"	19	"Pilates is faster )"	"Pilates is faster )"	17	NA	NA	NA	NA	NA	4
+2020-12-16 12:26:57	"teacher008"	"teacher"	20	"Fair enough!"	"Fair enough!"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:27:05	"student011"	"student"	21	"Yes! Pilyes is not very fast too, but it's still faster than yoga"	"Yes! Pilates is not very fast either, but it's still faster than yoga"	18	NA	NA	NA	NA	NA	13
+2020-12-16 12:27:28	"teacher008"	"teacher"	22	"I see, sure!"	"I see, sure!"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:27:38	"student011"	"student"	23	"*pilates"	"*pilates"	21	NA	"repair"	"writing"	NA	NA	1
+2020-12-16 12:28:09	"teacher008"	"teacher"	24	"How are you students? I suppose many of them are going to be on holiday next week?"	"How are you students? I suppose many of them are going to be on holiday next week?"	NA	"2b"	"topic development"	NA	NA	NA	17
+2020-12-16 12:28:25	"student011"	"student"	25	"Actually I have a very important mission today )"	"Actually I have a very important mission today )"	NA	"2c"	"topic development"	NA	NA	NA	9
+2020-12-16 12:29:05	"student011"	"student"	26	"From 8 pm the Oysho shop has the Christmas sale"	"From 8 pm the Oysho shop has a Christmas sale"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 12:29:30	"student011"	"student"	27	"So I have to buy a pair of new leggings for pilates )))"	"So I have to buy a pair of new leggings for pilates )))"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 12:29:58	"student011"	"student"	28	"And one more t-shirt for my sport )"	"And one more t-shirt for my sport )"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 12:30:30	"teacher008"	"teacher"	29	"Ooh, it's 'ready steady go' at 8 pm!"	"Ooh, it's 'ready steady go' at 8 pm!"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 12:30:41	"student011"	"student"	30	"And as I have very popular small size I have to be fast )))))"	"And as I have a very popular small size I have to be fast )))))"	NA	NA	NA	NA	NA	NA	14
+2020-12-16 12:31:00	"student011"	"student"	31	"*a very popular size"	"*a very popular size"	NA	NA	"repair"	"grammatical resource"	NA	NA	4
+2020-12-16 12:31:11	"teacher008"	"teacher"	32	"I see! Wow, sounds like fun!"	"I see! Wow, sounds like fun!"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:31:16	"student011"	"student"	33	"hahaha )"	"hahaha )"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:31:45	"student011"	"student"	34	"<STUDENT'S HUSBAND> told me that it sounds weird )"	"<STUDENT'S HUSBAND> told me that it sounds weird )"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 12:32:00	"teacher008"	"teacher"	35	"I've got an important mission too! The local Tesco is supposed to release more Xmas food delivery slots, and I've got to book at least one!"	"I've got an important mission too! The local Tesco is supposed to release more Xmas food delivery slots, and I've got to book at least one!"	NA	"2d"	"topic development"	NA	NA	NA	26
+2020-12-16 12:32:26	"student011"	"student"	36	"Oh! What are you going to order?"	"Oh! What are you going to order?"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 12:32:56	"teacher008"	"teacher"	37	"Well, like yourself, we get our groceries delivered from a supermarket"	"Well, like yourself, we get our groceries delivered from a supermarket"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 12:33:39	"teacher008"	"teacher"	38	"But It's hard to book delivery slots over a festive period + coronavirus (everyone wants to shop online) + Brexit (people are worried about food supplies)"	"But It's hard to book delivery slots over a festive period + coronavirus (everyone wants to shop online) + Brexit (people are worried about food supplies)"	NA	NA	NA	NA	NA	NA	26
+2020-12-16 12:33:57	"teacher008"	"teacher"	39	"So delivery slots sell like hot cakes!"	"So delivery slots sell like hot cakes!"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 12:33:59	"student011"	"student"	40	"I mean are you going to order something special for the Christmas dinner?"	"I mean are you going to order something special for Christmas dinner?"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 12:34:13	"teacher008"	"teacher"	41	"Oh, yes, I'm going to tell you in  a moment"	"Oh, yes, I'm going to tell you in  a moment"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 12:34:35	"teacher008"	"teacher"	42	"to sell like hot cakes' is a good expression to say that something sells really fast"	"to sell like hot cakes' is a good expression to say that something sells really fast"	NA	"2e"	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2020-12-16 12:34:52	"teacher008"	"teacher"	43	"Sportswear in your size will sell like hot cakes tonight!"	"Sportswear in your size will sell like hot cakes tonight!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-12-16 12:35:15	"student011"	"student"	44	"I know you've had two beautiful shtollen already )"	"I know you've got two beautiful stollens already )"	41	NA	NA	NA	NA	NA	9
+2020-12-16 12:35:41	"student011"	"student"	45	"We have the same in Russian )"	"We have the same in Russian )"	43	NA	NA	NA	NA	NA	7
+2020-12-16 12:35:51	"student011"	"student"	46	"ak goryachie piroshki )"	"ak goryachie piroshki )"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	4
+2020-12-16 12:35:56	"student011"	"student"	47	"*kak"	"*kak"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-16 12:36:27	"teacher008"	"teacher"	48	"We are going to get some mince pies (we need to some for Santa). <TEACHER'S HUSBAND>'s making a beef pie called a cobbler, so we'll need the ingredients for that + Brussel sprouts, carrots (for the reindeer), nice vegetables"	"We are going to get some mince pies (we need to some for Santa). <TEACHER'S HUSBAND>'s making a beef pie called a cobbler, so we'll need the ingredients for that + Brussel sprouts, carrots (for the reindeer), nice vegetables"	41	NA	NA	NA	NA	NA	39
+2020-12-16 12:36:47	"teacher008"	"teacher"	49	"Aaah, I've forgotten about that expression! Yes, like hot cakes!"	"Aaah, I've forgotten about that expression! Yes, like hot cakes!"	46	NA	NA	NA	NA	NA	10
+2020-12-16 12:37:03	"teacher008"	"teacher"	50	"Yes, my stollens are ripening :) So we"	"Yes, my stollens are ripening :) So we"	44	NA	NA	NA	NA	NA	8
+2020-12-16 12:37:08	"teacher008"	"teacher"	51	"we're sorted for cake"	"we're sorted for cake"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 12:37:21	"student011"	"student"	52	"to be sorted"	"to be sorted"	NA	"2f"	"enquiry"	"lexical resource"	NA	NA	3
+2020-12-16 12:37:24	"student011"	"student"	53	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:37:31	"teacher008"	"teacher"	54	"*sorry, we need some for Santa"	"*sorry, we need some for Santa"	48	NA	"repair"	"writing"	NA	NA	6
+2020-12-16 12:37:35	"teacher008"	"teacher"	55	"Oh,"	"Oh,"	53	NA	NA	NA	NA	NA	1
+2020-12-16 12:37:42	"teacher008"	"teacher"	56	"sorry, trying to type fast!"	"sorry, trying to type fast!"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:37:58	"teacher008"	"teacher"	57	"sorted' means this is not a problem anymore"	"sorted' means this is not a problem anymore"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-12-16 12:38:03	"student011"	"student"	58	"No worries!"	"No worries!"	56	NA	NA	NA	NA	NA	2
+2020-12-16 12:38:16	"student011"	"student"	59	"Ah! Sure!"	"Ah! Sure!"	57	NA	NA	NA	NA	NA	2
+2020-12-16 12:38:19	"student011"	"student"	60	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:38:21	"student011"	"student"	61	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:38:34	"student011"	"student"	62	"I have one more question in the food area ))"	"I have one more question in the food area ))"	NA	"3.0"	"enquiry"	"world knowledge"	NA	NA	10
+2020-12-16 12:38:38	"teacher008"	"teacher"	63	"It comes from the phrase 'sort something out'"	"It comes from the phrase 'sort something out'"	61	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-12-16 12:38:41	"teacher008"	"teacher"	64	"Go on!"	"Go on!"	62	NA	NA	NA	NA	NA	2
+2020-12-16 12:40:25	"student011"	"student"	65	"Do you eat cereals for the breakfast usually?"	"Do you eat cereals for breakfast usually?"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 12:40:38	"student011"	"student"	66	"As her majesty does )"	"As her majesty does )"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:41:43	"student011"	"student"	67	"We don/t do usually, but I would like <STUDENT'S CHILD> tries it"	"We don't usually, but I would like <STUDENT'S CHILD> to try it"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 12:42:11	"student011"	"student"	68	"Because you know Peppa usually has some cereals for the breakfast )"	"Because you know Peppa usually has some cereals for breakfast )"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 12:42:28	"teacher008"	"teacher"	69	"Haha, good question! We are boring with our breakfasts, actually. We eat a bowl of porridge and a toast with some peanut butter on each 6 days a week, and I make pancakes or waffles once a week (sometimes with bacon and maple syrup)"	"Haha, good question! We are boring with our breakfasts, actually. We eat a bowl of porridge and a toast with some peanut butter on each 6 days a week, and I make pancakes or waffles once a week (sometimes with bacon and maple syrup)"	NA	NA	NA	NA	NA	NA	44
+2020-12-16 12:42:55	"teacher008"	"teacher"	70	"But I would say lots of people here eat cornflakes / muesli / granola for breakfast"	"But I would say lots of people here eat cornflakes / muesli / granola for breakfast"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	16
+2020-12-16 12:43:03	"teacher008"	"teacher"	71	"or rice crispies - things like that"	"or rice crispies - things like that"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	7
+2020-12-16 12:43:16	"teacher008"	"teacher"	72	"But the trouble with them is that they are full of sugar!"	"But the trouble with them is that they are full of sugar!"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 12:43:31	"teacher008"	"teacher"	73	"I like my sugar in a cake or chocolate, not for breakfast!"	"I like my sugar in a cake or chocolate, not for breakfast!"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 12:43:59	"student011"	"student"	74	"I would like to buy for her cornflakes/ I think it's the favorite Peppa's food for the breakfast )"	"I would like to buy cornflakes for her. I think it's Peppa's favourite food for breakfast )"	68	NA	NA	NA	NA	NA	19
+2020-12-16 12:44:15	"student011"	"student"	75	"Ah! Ok"	"Ah! Ok"	73	NA	NA	NA	NA	NA	2
+2020-12-16 12:44:25	"student011"	"student"	76	"I don't like extra sugar too"	"I don't like extra sugar either"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:45:03	"student011"	"student"	77	"Usually we eat porridge or eggs (<STUDENT'S CHILD> doesn't like eggs) or syrnitki )"	"Usually we eat porridge or eggs (<STUDENT'S CHILD> doesn't like eggs) or syrnitki )"	NA	"3a"	"topic development,non-English"	"code switching"	NA	NA	14
+2020-12-16 12:45:08	"teacher008"	"teacher"	78	"Here you can find some cornflakes without added sugar, but you've got to go to a posh supermarket like Waitrose :)"	"Here you can find some cornflakes without added sugar, but you've got to go to a posh supermarket like Waitrose :)"	76	NA	NA	NA	NA	NA	21
+2020-12-16 12:45:10	"student011"	"student"	79	"*syrniki )"	"*syrniki )"	77	NA	"repair,non-English"	"writing"	NA	NA	2
+2020-12-16 12:45:33	"teacher008"	"teacher"	80	"I tried to get <TEACHER'S CHILD> into syrniki! He liked them at first but then changed his mind :("	"I tried to get <TEACHER'S CHILD> into syrniki! He liked them at first but then changed his mind :("	77	NA	"non-English"	"code switching"	NA	NA	19
+2020-12-16 12:45:41	"student011"	"student"	81	"Ah/ Avocado and humus as well"	"Ah, avocado and hummus as well"	77	NA	NA	NA	NA	NA	6
+2020-12-16 12:45:42	"teacher008"	"teacher"	82	"And he doesn't like eggs either¬"	"And he doesn't like eggs either¬"	80	NA	NA	NA	NA	NA	6
+2020-12-16 12:45:50	"teacher008"	"teacher"	83	"Ooh, super nice!"	"Ooh, super nice!"	81	NA	NA	NA	NA	NA	3
+2020-12-16 12:45:55	"teacher008"	"teacher"	84	"And hipster :)))"	"And hipster :)))"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:46:01	"student011"	"student"	85	"ahaha"	"ahaha"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:46:20	"student011"	"student"	86	"I'm just bored about porridge"	"I'm just bored of porridge"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:46:32	"student011"	"student"	87	"I like it but not everyday"	"I like it but not every day"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:46:49	"teacher008"	"teacher"	88	"bored with / of"	"bored with / of"	NA	"3b"	"repair"	"lexical resource"	NA	NA	4
+2020-12-16 12:46:57	"teacher008"	"teacher"	89	"bored of porridge :)"	"bored of porridge :)"	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2020-12-16 12:47:04	"student011"	"student"	90	"Ok so I'm bored with porridge )"	"Ok so I'm bored with porridge )"	88	NA	NA	NA	NA	NA	7
+2020-12-16 12:47:16	"student011"	"student"	91	"not with? ("	"not with? ("	NA	NA	"enquiry"	"lexical resource"	NA	NA	3
+2020-12-16 12:47:51	"teacher008"	"teacher"	92	"Sure! I'm kind of bored of it too, but in the morning, when it's still dark and we're all sleepy, we just automatically put the porridge on, pop some bread into a toaster and make coffee"	"Sure! I'm kind of bored of it too, but in the morning, when it's still dark and we're all sleepy, we just automatically put the porridge on, pop some bread into a toaster and make coffee"	90	"3c"	"topic development"	NA	NA	NA	36
+2020-12-16 12:47:57	"teacher008"	"teacher"	93	"No decision-making :)"	"No decision-making :)"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:48:04	"teacher008"	"teacher"	94	"Like Obama and his suits)"	"Like Obama and his suits)"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:48:13	"teacher008"	"teacher"	95	"Bored with is fine!"	"Bored with is fine!"	91	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-12-16 12:48:25	"student011"	"student"	96	")))) I've never heart about it!"	")))) I've never heard about it!"	94	"3d"	"topic development"	NA	NA	NA	6
+2020-12-16 12:48:35	"teacher008"	"teacher"	97	"about Obama?"	"about Obama?"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:48:41	"student011"	"student"	98	"What's wrong with his suits?"	"What's wrong with his suits?"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:49:24	"teacher008"	"teacher"	99	"Oh, if I remember correctly, when he was the president, he used to have 7 identical suits for every day of the week"	"Oh, if I remember correctly, when he was the president, he used to have 7 identical suits for every day of the week"	NA	NA	NA	NA	NA	NA	23
+2020-12-16 12:49:41	"teacher008"	"teacher"	100	"Then they were all dry-cleaned, and he could start again on Monday :))"	"Then they were all dry-cleaned, and he could start again on Monday :))"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 12:49:53	"student011"	"student"	101	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:50:00	"teacher008"	"teacher"	102	"So that he didn't have to spend time and energy thinking what to wear"	"So that he didn't have to spend time and energy thinking what to wear"	NA	NA	NA	NA	NA	NA	14
+2020-12-16 12:50:13	"student011"	"student"	103	"It's a nice decision )"	"It's a nice decision )"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:50:51	"teacher008"	"teacher"	104	"Yes, definitely! I think it's what stylists are starting to recommend now, isn't it. The capsule wardrobe or something like that"	"Yes, definitely! I think it's what stylists are starting to recommend now, isn't it. The capsule wardrobe or something like that"	NA	NA	NA	NA	NA	NA	21
+2020-12-16 12:51:01	"teacher008"	"teacher"	105	"Do you know what I'm trying to say?"	"Do you know what I'm trying to say?"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 12:51:04	"student011"	"student"	106	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:51:08	"student011"	"student"	107	"I know"	"I know"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:51:34	"student011"	"student"	108	"all pieces of the wardrobe have to match each other"	"all pieces of the wardrobe have to match each other"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 12:51:50	"student011"	"student"	109	"So you don't need a lot"	"So you don't need a lot"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:51:52	"teacher008"	"teacher"	110	"Yes, or the capsule wardrobe of 2020. A nice top + pj bottoms"	"Yes, or the capsule wardrobe of 2020. A nice top + pj bottoms"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 12:52:00	"student011"	"student"	111	"sure )))))"	"sure )))))"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:52:06	"teacher008"	"teacher"	112	"Do you try to follow this principle?"	"Do you try to follow this principle?"	108	"3e"	"topic development"	NA	NA	NA	7
+2020-12-16 12:52:21	"student011"	"student"	113	"Or just underwear and a nice top )"	"Or just underwear and a nice top )"	111	NA	NA	NA	NA	NA	8
+2020-12-16 12:52:30	"teacher008"	"teacher"	114	"that's it :))"	"that's it :))"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:52:36	"teacher008"	"teacher"	115	"the Zoom mermaid )))"	"the Zoom mermaid )))"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 12:52:46	"student011"	"student"	116	"No. I like shopping and I like to be different )"	"No. I like shopping and I like to be different )"	112	NA	NA	NA	NA	NA	11
+2020-12-16 12:53:09	"student011"	"student"	117	"But what I do I try to buy less clothes"	"But what I do is I try to buy fewer clothes"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 12:53:39	"student011"	"student"	118	"And I try to buy something higher quality"	"And I try to buy something of higher quality"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 12:53:42	"teacher008"	"teacher"	119	"I like dresses because you don't have to think about matching the top and the bottom"	"I like dresses because you don't have to think about matching the top and the bottom"	NA	NA	NA	NA	NA	NA	16
+2020-12-16 12:53:50	"teacher008"	"teacher"	120	"Oh, I agree! So that it lasts"	"Oh, I agree! So that it lasts"	118	NA	NA	NA	NA	NA	7
+2020-12-16 12:54:25	"student011"	"student"	121	"I used to like dresses"	"I used to like dresses"	119	NA	NA	NA	NA	NA	5
+2020-12-16 12:54:37	"student011"	"student"	122	"But now because of a child"	"But now because of a child"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:54:40	"teacher008"	"teacher"	123	"If I ___ a busy office job (have), maybe I ___ ____ a capsule wardrobe (build)"	"If I ___ a busy office job (have), maybe I ___ ____ a capsule wardrobe (build)"	NA	"3f"	"eliciting,revision"	"grammatical resource"	NA	NA	16
+2020-12-16 12:54:59	"student011"	"student"	124	"I try to wear something more comfortable to move"	"I try to wear something more comfortable to move"	122	NA	NA	NA	NA	NA	9
+2020-12-16 12:55:28	"teacher008"	"teacher"	125	"Oh definitely, I know what you mean! I cycle a lot, so it needs to be good for cycling"	"Oh definitely, I know what you mean! I cycle a lot, so it needs to be good for cycling"	NA	NA	NA	NA	NA	NA	19
+2020-12-16 12:55:38	"teacher008"	"teacher"	126	"Could you fill in the gaps, please?"	"Could you fill in the gaps, please?"	123	NA	NA	NA	NA	NA	7
+2020-12-16 12:55:39	"student011"	"student"	127	"If I had a busy office job (have), maybe I would bought a capsule wardrobe"	"If I had a busy office job (have), maybe I would bought a capsule wardrobe"	NA	NA	NA	NA	NA	NA	15
+2020-12-16 12:55:44	"student011"	"student"	128	"Sorry"	"Sorry"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:55:51	"student011"	"student"	129	"I would buy"	"I would buy"	NA	NA	"repair"	"grammatical resource"	NA	NA	3
+2020-12-16 12:55:59	"student011"	"student"	130	"Or would built"	"Or would build"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:56:00	"teacher008"	"teacher"	131	"Yes! perfect :)"	"Yes! perfect :)"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:57:03	"teacher008"	"teacher"	132	"As I think you heard in the song I sang you, the if- part doesn't have to go at the beginning of course"	"As I think you heard in the song I sang you, the if- part doesn't have to go at the beginning of course"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2020-12-16 12:57:04	"student011"	"student"	133	"thanks )"	"thanks )"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:57:12	"teacher008"	"teacher"	134	"But I could if I wanted to :)"	"But I could if I wanted to :)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-12-16 12:57:24	"teacher008"	"teacher"	135	"Sorry, I sent you not I sang you!!!"	"Sorry, I sent you not I sang you!!!"	132	"3g"	"repair"	"writing"	NA	NA	8
+2020-12-16 12:57:37	"teacher008"	"teacher"	136	"Luckily for you, I didn't sing it to you!"	"Luckily for you, I didn't sing it to you!"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 12:58:28	"student011"	"student"	137	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:58:41	"teacher008"	"teacher"	138	"Ok, let's practise a bit with the 2nd conditional and imaginary situations!"	"Ok, let's practise a bit with the 2nd conditional and imaginary situations!"	NA	"4.0"	"exercise,free practice"	"grammatical resource"	NA	NA	12
+2020-12-16 12:58:42	"student011"	"student"	139	"Why luckily? )"	"Why luckily? )"	137	NA	NA	NA	NA	NA	3
+2020-12-16 12:59:09	"teacher008"	"teacher"	140	"Well, because I don't sing very well, and you wouldn't be very lucky if I sang for you :)"	"Well, because I don't sing very well, and you wouldn't be very lucky if I sang for you :)"	NA	NA	NA	NA	NA	NA	19
+2020-12-16 12:59:28	"student011"	"student"	141	"Don't be so shy )))"	"Don't be so shy )))"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:59:45	"teacher008"	"teacher"	142	"I'm not shy, I'm realistic :)))"	"I'm not shy, I'm realistic :)))"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:59:50	"teacher008"	"teacher"	143	"Ok, imaginary situations!"	"Ok, imaginary situations!"	138	NA	NA	NA	NA	NA	3
+2020-12-16 13:00:05	"student011"	"student"	144	"Ok, let's practice )"	"Ok, let's practise )"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 13:00:08	"student011"	"student"	145	"sorry"	"sorry"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-16 13:00:12	"student011"	"student"	146	"practise"	"practise"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-16 13:00:32	"teacher008"	"teacher"	147	"If money / work / visas / houses / family weren't a factor and you could live in any country in the world, where would you want to live?"	"If money / work / visas / houses / family weren't a factor and you could live in any country in the world, where would you want to live?"	NA	NA	NA	NA	NA	NA	29
+2020-12-16 13:00:57	"teacher008"	"teacher"	148	"I don't mean 'if you didn't have your family', just, if you could all move, I suppose :)"	"I don't mean 'if you didn't have your family', just, if you could all move, I suppose :)"	NA	NA	NA	NA	NA	NA	18
+2020-12-16 13:01:04	"student011"	"student"	149	"Oh"	"Oh"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:02:32	"student011"	"student"	150	"If money weren't a factor I would go to London )"	"If money weren't a factor I would go to London )"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 13:02:47	"student011"	"student"	151	"I like the city so much"	"I like the city so much"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 13:02:57	"student011"	"student"	152	"I mean the city center )"	"I mean the city center )"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 13:03:03	"teacher008"	"teacher"	153	"Oh really? Interesting! I thought you would say Italy!"	"Oh really? Interesting! I thought you would say Italy!"	150	NA	NA	NA	NA	NA	9
+2020-12-16 13:03:14	"student011"	"student"	154	"Hm"	"Hm"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:03:16	"teacher008"	"teacher"	155	"Yes, London is pretty amazing!"	"Yes, London is pretty amazing!"	151	NA	NA	NA	NA	NA	5
+2020-12-16 13:03:26	"student011"	"student"	156	"Italy"	"Italy"	154	NA	NA	NA	NA	NA	1
+2020-12-16 13:03:53	"student011"	"student"	157	"I think it's better to live in London ant to have holidays in Italy )"	"I think it's better to live in London and to have holidays in Italy )"	NA	NA	NA	NA	NA	NA	15
+2020-12-16 13:04:13	"teacher008"	"teacher"	158	"Makes sense! Many people would agree with you :)"	"Makes sense! Many people would agree with you :)"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 13:04:18	"student011"	"student"	159	"Italy it's more about holidays thought"	"Italy is more about holidays though"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 13:04:35	"teacher008"	"teacher"	160	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:05:01	"teacher008"	"teacher"	161	"Ok, what would you do if you won a lottery?"	"Ok, what would you do if you won a lottery?"	NA	"4a"	"exercise,free practice"	"grammatical resource"	NA	NA	10
+2020-12-16 13:05:19	"student011"	"student"	162	"Gelato italiano... mmm )"	"Gelato italiano... mmm )"	160	NA	NA	NA	NA	NA	4
+2020-12-16 13:05:42	"teacher008"	"teacher"	163	"Oh yes, so good! in Greece, too"	"Oh yes, so good! in Greece, too"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 13:05:57	"student011"	"student"	164	"Ok! If I won a lottery I would move to London )))"	"Ok! If I won a lottery I would move to London )))"	161	NA	NA	NA	NA	NA	12
+2020-12-16 13:06:03	"student011"	"student"	165	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:06:05	"student011"	"student"	166	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:06:30	"teacher008"	"teacher"	167	":)))) and what would you do?"	":)))) and what would you do?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+2020-12-16 13:06:33	"student011"	"student"	168	"If I won huge sum of money I would move to London and"	"If I won a huge sum of money, I would move to London and"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 13:07:14	"student011"	"student"	169	"I would buy some agribusiness for <STUDENT'S HUSBAND>"	"I would buy some agribusiness for <STUDENT'S HUSBAND>"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 13:07:35	"teacher008"	"teacher"	170	"agribusiness? like agricultural?"	"agribusiness? like agricultural?"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 13:07:38	"student011"	"student"	171	"An rest of money I would give to charity"	"And the rest of the money I would give to charity"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 13:07:47	"student011"	"student"	172	"Yes! Like that"	"Yes! Like that"	170	NA	NA	NA	NA	NA	3
+2020-12-16 13:07:50	"teacher008"	"teacher"	173	"I didn't know he was into agriculture!"	"I didn't know he was into agriculture!"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 13:07:58	"teacher008"	"teacher"	174	"Like a farm?"	"Like a farm?"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 13:07:58	"student011"	"student"	175	"He dreams about such a business"	"He dreams about such a business"	173	NA	NA	NA	NA	NA	6
+2020-12-16 13:08:09	"teacher008"	"teacher"	176	"Ooh, interesting!"	"Ooh, interesting!"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 13:08:15	"student011"	"student"	177	"more like fields"	"more like fields"	174	NA	NA	NA	NA	NA	3
+2020-12-16 13:08:34	"student011"	"student"	178	"With some agricultures"	"With some agriculture"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 13:09:07	"teacher008"	"teacher"	179	"Interesting!"	"Interesting!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:09:26	"teacher008"	"teacher"	180	"Well, it's a popular business in the UK, so you could!"	"Well, it's a popular business in the UK, so you could!"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 13:09:31	"student011"	"student"	181	"I think it's quite boring ) But he wants it )"	"I think it's quite boring ) But he wants it )"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 13:09:50	"teacher008"	"teacher"	182	"What would he do with it? If he had a business like this?"	"What would he do with it? If he had a business like this?"	NA	"4b"	"eliciting,revision"	"grammatical resource"	NA	NA	13
+2020-12-16 13:10:00	"student011"	"student"	183	"Oh no, we would buy it in Ukraine"	"Oh no, we would buy it in Ukraine"	180	NA	NA	NA	NA	NA	8
+2020-12-16 13:10:15	"teacher008"	"teacher"	184	"Fair enough! Ukraine is a good place for it!"	"Fair enough! Ukraine is a good place for it!"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 13:10:20	"student011"	"student"	185	")"	")"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:10:47	"student011"	"student"	186	"He didn't had a business like this"	"He didn't have a business like this"	182	NA	NA	NA	NA	NA	7
+2020-12-16 13:11:18	"student011"	"student"	187	"But he's worked as a lawyer in a such company"	"But he's worked as a lawyer in such a company"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 13:11:43	"student011"	"student"	188	"And he he's a friend which family does it"	"And he has a friend whose family does it"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 13:11:49	"student011"	"student"	189	"he has"	"he has"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-12-16 13:12:16	"student011"	"student"	190	"whos family?"	"whose family?"	NA	"4c"	"enquiry"	"grammatical resource"	NA	NA	2
+2020-12-16 13:12:27	"teacher008"	"teacher"	191	"Correct, whose family!"	"Correct, whose family!"	NA	NA	"scaffolding"	"grammatical resource,writing"	NA	NA	3
+2020-12-16 13:12:45	"student011"	"student"	192	"Ah! Sure!"	"Ah! Sure!"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 13:13:04	"student011"	"student"	193	"And he dreams about that car"	"And he dreams about that car"	188	NA	NA	NA	NA	NA	6
+2020-12-16 13:13:06	"student011"	"student"	194	"you know"	"you know"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 13:13:15	"teacher008"	"teacher"	195	"a tractor??"	"a tractor??"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 13:13:27	"student011"	"student"	196	"like I Texas people use ))"	"like the one people use in Texas ))"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 13:13:32	"student011"	"student"	197	"*in Texas"	"*in Texas"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-12-16 13:13:40	"teacher008"	"teacher"	198	"Hmm"	"Hmm"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:13:46	"teacher008"	"teacher"	199	"like a Range Rover here?"	"like a Range Rover here?"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 13:13:59	"teacher008"	"teacher"	200	"Or like a pick-up truck?"	"Or like a pick-up truck?"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 13:14:32	"student011"	"student"	201	"pickup truck"	"a pick-up truck"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 13:14:39	"teacher008"	"teacher"	202	"Got you :)"	"Got you :)"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 13:14:41	"student011"	"student"	203	"Yes!!!"	"Yes!!!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:15:00	"teacher008"	"teacher"	204	"Do you think you would ever enjoy life in the countryside if <STUDENT'S HUSBAND> bought a business like this?"	"Do you think you would ever enjoy life in the countryside if <STUDENT'S HUSBAND> bought a business like this?"	NA	"4d"	"exercise,free practice"	"grammatical resource"	NA	NA	19
+2020-12-16 13:15:18	"student011"	"student"	205	"I'm not sure I would like to be a Farmers wife ))))"	"I'm not sure I would like to be a farmer's wife ))))"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 13:15:36	"teacher008"	"teacher"	206	"No, I can't see you in this role, to be honest :))"	"No, I can't see you in this role, to be honest :))"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 13:15:42	"student011"	"student"	207	"me too"	"me neither"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 13:16:18	"teacher008"	"teacher"	208	"Ok, if you could have any job you wanted, what would you do?"	"Ok, if you could have any job you wanted, what would you do?"	NA	"4e"	"exercise,free practice"	"grammatical resource"	NA	NA	13
+2020-12-16 13:16:39	"student011"	"student"	209	"But people here in Ukraine still live in Kyiv for example and have some fields in other areas"	"But people here in Ukraine still live in Kyiv for example and have some fields in other areas"	207	NA	NA	NA	NA	NA	18
+2020-12-16 13:17:18	"student011"	"student"	210	"Ok. T be honest I'm thinking about it for a long time"	"Ok. To be honest I've been thinking about it for a long time"	208	NA	NA	NA	NA	NA	12
+2020-12-16 13:17:19	"teacher008"	"teacher"	211	"Oh interesting, I didn't know that! I think in the UK, if you own a farm, you live there and it's your lifestyle"	"Oh interesting, I didn't know that! I think in the UK, if you own a farm, you live there and it's your lifestyle"	209	NA	NA	NA	NA	NA	23
+2020-12-16 13:17:29	"student011"	"student"	212	"And I still don't have a question"	"And I still don't have an answer"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 13:17:31	"student011"	"student"	213	"Bu!"	"But"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:17:41	"student011"	"student"	214	"For my grammar.. ok!"	"For my grammar.. ok!"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 13:18:07	"teacher008"	"teacher"	215	"Yes, for grammar and for fun!"	"Yes, for grammar and for fun!"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 13:18:28	"student011"	"student"	216	"I I could have any job, I would be a charity someone )"	"If I could have any job, I would be a charity someone )"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 13:18:42	"teacher008"	"teacher"	217	"Oh, you would work for a charity?"	"Oh, you would work for a charity?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-12-16 13:19:02	"student011"	"student"	218	"yes, I would work for a charity"	"yes, I would work for a charity"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 13:19:16	"teacher008"	"teacher"	219	"Sure, sounds lovely!"	"Sure, sounds lovely!"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 13:19:31	"student011"	"student"	220	"But actually I'm not sure than I'm prepared mentally for it )"	"But actually I'm not sure that I'm prepared mentally for it )"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 13:19:37	"teacher008"	"teacher"	221	"I would be a neuroscientist or a therapist or a doctor"	"I would be a neuroscientist or a therapist or a doctor"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 13:19:54	"teacher008"	"teacher"	222	"But most probably a neuroscientist! It's such an exciting area of knowledge!"	"But most probably a neuroscientist! It's such an exciting area of knowledge!"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 13:20:14	"teacher008"	"teacher"	223	"I know what you mean! Especially in Ukraine, it's hard emotional work!"	"I know what you mean! Especially in Ukraine, it's hard emotional work!"	220	NA	NA	NA	NA	NA	12
+2020-12-16 13:20:56	"student011"	"student"	224	"neuroscientist! wow!"	"a neuroscientist! wow!"	222	NA	NA	NA	NA	NA	2
+2020-12-16 13:21:28	"student011"	"student"	225	"I wouldn't like to be a doctor"	"I wouldn't like to be a doctor"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 13:21:33	"teacher008"	"teacher"	226	"Yes, get inside people's brains :)"	"Yes, get inside people's brains :)"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 13:21:42	"student011"	"student"	227	"it's so hard"	"it's so hard"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 13:22:30	"teacher008"	"teacher"	228	"I completely agree! But it's fun to dream about what things would be if ...!"	"I completely agree! But it's fun to dream about what things would be if ...!"	NA	NA	NA	NA	NA	NA	15
+2020-12-16 13:22:34	"student011"	"student"	229	"I think I can't do not think about their pain"	"I think I wouldn't be able to think about their pain"	227	NA	NA	NA	NA	NA	10
+2020-12-16 13:22:48	"teacher008"	"teacher"	230	"Yes, especially this year!"	"Yes, especially this year!"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 13:23:11	"student011"	"student"	231	"But actually not just this )"	"But actually not just this )"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 13:23:21	"teacher008"	"teacher"	232	"But my grandmother was a doctor and my mum is a pharmacist, so it's kind of always been in the air, as an option"	"But my grandmother was a doctor and my mum is a pharmacist, so it's kind of always been in the air, as an option"	NA	NA	NA	NA	NA	NA	24
+2020-12-16 13:24:03	"student011"	"student"	233	"Oh! It's amazing! Your grandmother was a doctor!"	"Oh! It's amazing! Your grandmother was a doctor!"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 13:24:36	"teacher008"	"teacher"	234	"Yes! She was a very interesting person!"	"Yes! She was a very interesting person!"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 13:24:47	"student011"	"student"	235	"Nice!"	"Nice!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 13:25:04	"teacher008"	"teacher"	236	"Anyway, I've got to let you go! Thanks for today, speak to you on Friday!"	"Anyway, I've got to let you go! Thanks for today, speak to you on Friday!"	NA	"5.0"	"closing"	NA	NA	NA	15
+2020-12-16 13:25:40	"student011"	"student"	237	"Thank you!!!"	"Thank you!!!"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 13:25:48	"student011"	"student"	238	"Have a good afternoon"	"Have a good afternoon"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 13:25:52	"teacher008"	"teacher"	239	"My pleasure :)"	"My pleasure :)"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 13:25:54	"student011"	"student"	240	"See you!"	"See you!"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 13:26:09	"student011"	"student"	241	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

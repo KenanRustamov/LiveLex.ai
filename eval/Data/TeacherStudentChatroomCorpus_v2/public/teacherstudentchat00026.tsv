@@ -1,0 +1,108 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-11 15:34:24	"teacher001"	"teacher"	1	"Hello <STUDENT>, is that you?!"	"Hello <STUDENT>, is that you?!"	NA	"1.0"	"opening"	NA	NA	NA	5
+2020-03-11 15:34:58	"student006"	"student"	2	"Yes, I’m here :)"	"Yes, I’m here :)"	NA	NA	NA	NA	NA	NA	4
+2020-03-11 15:35:48	"teacher001"	"teacher"	3	"OK hi again! So <STUDENT> as we said I'm going to give you some Part 3 style speaking quesrtions..."	"OK hi again! So <STUDENT> as we said I'm going to give you some Part 3 style speaking quesrtions..."	NA	"2.0"	"topic opening"	"speaking"	NA	NA	19
+2020-03-11 15:36:04	"student006"	"student"	4	"Okey"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:36:22	"teacher001"	"teacher"	5	"Just try and answer as naturally as you can ... as if you were speaking i guess! OK....here goes...."	"Just try and answer as naturally as you can ... as if you were speaking i guess! OK....here goes...."	NA	NA	NA	NA	NA	NA	19
+2020-03-11 15:36:50	"student006"	"student"	6	"Okey"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:37:14	"teacher001"	"teacher"	7	"OK great so...the topic is 'Work' and here comes the first question..."	"OK great so...the topic is 'Work' and here comes the first question..."	NA	"2a"	NA	NA	NA	NA	12
+2020-03-11 15:37:47	"teacher001"	"teacher"	8	"Is job satisfaction more important than salary when choosing a job?"	"Is job satisfaction more important than salary when choosing a job?"	NA	NA	NA	NA	NA	NA	11
+2020-03-11 15:38:56	"student006"	"student"	9	"Personally,"	"Personally,"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:39:54	"student006"	"student"	13	"I think job satisfication isn’t more important than salary"	"I think job satisfication isn’t more important than salary"	NA	NA	NA	NA	NA	NA	9
+2020-03-11 15:40:36	"teacher001"	"teacher"	16	"OK...so you're going to give me some more right? Like a reason/example etc....?"	"OK...so you're going to give me some more right? Like a reason/example etc....?"	NA	"2b"	"eliciting"	"task achievement"	NA	NA	13
+2020-03-11 15:40:47	"student006"	"student"	17	"Yess"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:40:59	"student006"	"student"	18	"Forexample"	"For example"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:41:12	"teacher001"	"teacher"	19	"ok sorry I'll wait...!"	"ok sorry I'll wait...!"	NA	NA	NA	NA	NA	NA	4
+2020-03-11 15:42:12	"student006"	"student"	20	"If you’re really like your job, your colleage"	"If you really like your job, your colleages"	NA	NA	NA	NA	NA	NA	8
+2020-03-11 15:42:40	"student006"	"student"	26	"But your salary is lower than standand"	"But your salary is lower than standard"	NA	NA	NA	NA	NA	NA	7
+2020-03-11 15:43:34	"student006"	"student"	27	"And it’ll affect to your life"	"And it affects your life"	NA	NA	NA	NA	NA	NA	6
+2020-03-11 15:44:21	"student006"	"student"	29	"Such as you don’t have enough money for your children’s education"	"Such as you don’t have enough money for your children’s education"	NA	NA	NA	NA	NA	NA	11
+2020-03-11 15:44:25	"teacher001"	"teacher"	30	"OK <STUDENT> ...I'm not entirely clear on your idea here to be honest...do you mean that you need  a minimum salary to be able to support yourself/meet your basic needs"	"OK <STUDENT> ...I'm not entirely clear on your idea here to be honest...do you mean that you need  a minimum salary to be able to support yourself/meet your basic needs"	NA	NA	NA	NA	NA	NA	31
+2020-03-11 15:44:27	"teacher001"	"teacher"	31	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:44:46	"teacher001"	"teacher"	32	"Ah sorry yes....you've given a specific example ...that's good"	"Ah sorry yes....you've given a specific example ...that's good"	29	NA	NA	"task achievement"	NA	NA	9
+2020-03-11 15:45:02	"student006"	"student"	33	"So you have to balance between satification and salary"	"So you have to balance between satification and salary"	30	NA	NA	NA	NA	NA	9
+2020-03-11 15:46:13	"student006"	"student"	35	"Sorry <TEACHER>"	"Sorry <TEACHER>"	NA	"3.0"	"disruption"	NA	NA	NA	2
+2020-03-11 15:46:32	"student006"	"student"	36	"Now, my internet is not work"	"Now, my internet is not working"	NA	NA	NA	NA	NA	NA	6
+2020-03-11 15:46:53	"student006"	"student"	37	"So the message is delay"	"So the message is delayed"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 15:47:20	"teacher001"	"teacher"	38	"OK don't worry - I'm still getting it in the end! I'm happy to carry on if you are!"	"OK don't worry - I'm still getting it in the end! I'm happy to carry on if you are!"	NA	NA	NA	NA	NA	NA	19
+2020-03-11 15:48:03	"teacher001"	"teacher"	39	"OK?"	"OK?"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:48:41	"student006"	"student"	40	"Ok thank you"	"Ok thank you"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 15:49:12	"teacher001"	"teacher"	41	"OK no problem - so your example was OK in the end....maybe you get use the word 'might'...hold on a sec"	"OK no problem - so your example was OK in the end....maybe you get use the word 'might'...hold on a sec"	33	"2c"	"scaffolding"	"lexical resource"	NA	NA	21
+2020-03-11 15:49:25	"student006"	"student"	42	"Okey"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:50:00	"teacher001"	"teacher"	43	"So for example you could say: 'IF you don't earn enough to meet basic needs then job satisfaction might not be enough'"	"So for example you could say: 'IF you don't earn enough to meet basic needs then job satisfaction might not be enough'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+2020-03-11 15:50:37	"student006"	"student"	44	"Ah, I see"	"Ah, I see"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 15:51:03	"teacher001"	"teacher"	45	"Other similar words: may/could/can.....OK? THese can look good"	"Other similar words: may/could/can.....OK? THese can look good"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-03-11 15:51:10	"teacher001"	"teacher"	46	"in writing too in IELTS"	"in writing too in IELTS"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 15:51:27	"teacher001"	"teacher"	47	"because the points you're making may not always be true you see"	"because the points you're making may not always be true you see"	NA	NA	NA	NA	NA	NA	12
+2020-03-11 15:52:21	"teacher001"	"teacher"	48	"your use of the word 'balance' was good ...hold on...."	"your use of the word 'balance' was good ...hold on...."	NA	"2d"	"scaffolding"	"lexical resource"	NA	NA	10
+2020-03-11 15:53:30	"teacher001"	"teacher"	49	"you can say: have a balance between two things OR balance (as verb) + two things (without the word 'between' )"	"you can say: have a balance between two things OR balance (as verb) + two things (without the word 'between' )"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	21
+2020-03-11 15:54:52	"teacher001"	"teacher"	50	"average' would be a good word to use for your point as well"	"average' would be a good word to use for your point as well"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-03-11 15:55:00	"student006"	"student"	51	"Do you mean balance satification and salary,"	"Do you mean balance satisfaction and salary?"	49	NA	"enquiry"	NA	NA	NA	7
+2020-03-11 15:55:08	"student006"	"student"	52	"Ah I see"	"Ah I see"	50	NA	NA	NA	NA	NA	3
+2020-03-11 15:55:18	"teacher001"	"teacher"	53	"as in 'your salary is below average'"	"as in 'your salary is below average'"	NA	NA	NA	NA	NA	NA	7
+2020-03-11 15:55:55	"teacher001"	"teacher"	54	"Next question: 'What skills are needed to get a good job nowadays?'"	"Next question: 'What skills are needed to get a good job nowadays?'"	NA	"4.0"	"topic opening"	"speaking"	NA	NA	12
+2020-03-11 15:56:36	"student006"	"student"	55	"Nowadays I think"	"Nowadays I think"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 15:57:07	"student006"	"student"	56	"It’s need a lot of skiils"	"one needs a lot of skills"	NA	NA	NA	NA	NA	NA	6
+2020-03-11 15:57:28	"student006"	"student"	57	"Comunucation"	"Communication"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 15:57:38	"student006"	"student"	58	"It or computer skill"	"IT, or computer skills"	NA	NA	NA	NA	NA	NA	4
+2020-03-11 15:58:10	"student006"	"student"	59	"And language also"	"And also languages"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 15:58:24	"teacher001"	"teacher"	60	"THanks - good examples (communication,language and IT skills)"	"THanks - good examples (communication,language and IT skills)"	NA	NA	NA	NA	NA	NA	8
+2020-03-11 15:58:43	"teacher001"	"teacher"	61	"Say one more thing about any or all of those OK?"	"Say one more thing about any or all of those OK?"	NA	"4a"	"eliciting"	"task achievement"	NA	NA	11
+2020-03-11 15:59:02	"student006"	"student"	62	"And specific skill"	"And specific skills"	59	NA	NA	NA	NA	NA	3
+2020-03-11 15:59:07	"student006"	"student"	63	"Ok"	"Ok"	61	NA	NA	NA	NA	NA	1
+2020-03-11 15:59:28	"student006"	"student"	64	"Because nowadays"	"Because nowadays"	NA	NA	NA	NA	NA	NA	2
+2020-03-11 16:00:32	"student006"	"student"	65	"The world change"	"The world has changed"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 16:01:17	"student006"	"student"	66	"Everybody can contact another easily"	"Everybody can contact one another easily"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 16:01:46	"student006"	"student"	67	"But if you don’t have communicatuon skill"	"But if you don’t have communication skills"	NA	NA	NA	NA	NA	NA	7
+2020-03-11 16:02:23	"student006"	"student"	68	"You can’t understand each other"	"You can’t understand each other"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 16:02:54	"student006"	"student"	69	"You’ll make mistake for your work"	"You’ll make mistakes at work"	NA	NA	NA	NA	NA	NA	6
+2020-03-11 16:03:14	"student006"	"student"	70	"Forexample"	"For example"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 16:05:23	"student006"	"student"	71	"If your boss ask you to improve a sugar process but you don’t understand and you think your boss allow you to change the process as you like"	"If your boss asks you to improve sugar processing but you don’t understand and you think your boss is allowing you to change the process as you like"	NA	NA	NA	NA	NA	NA	28
+2020-03-11 16:07:14	"student006"	"student"	72	"So it lead to a big problem to your company"	"It can lead to a big problem in your company"	NA	NA	NA	NA	NA	NA	10
+2020-03-11 16:07:52	"teacher001"	"teacher"	73	"OK thanks <STUDENT> - you've developed your point there, which is the right thing to try to do - well done....hold on a sec..."	"OK thanks <STUDENT> - you've developed your point there, which is the right thing to try to do - well done....hold on a sec..."	NA	NA	"scaffolding"	"task achievement"	NA	NA	24
+2020-03-11 16:08:09	"student006"	"student"	74	"Okey"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 16:09:46	"teacher001"	"teacher"	75	"OK <STUDENT> so I'm just thinking about verbs now...have a look at the folllowing ecamples and choose one and write a change if you can OK?...You said: ‘The world change’ – can you think about the verb tense here and write it again? You said :’you’ll make a mistake’ – can you change the ‘will’?! Think about the verb tenses in your sentence beginning: For example, if your boss…’  And the verb tense in your final sentence… ? ‘So it …’"	"OK <STUDENT> so I'm just thinking about verbs now...have a look at the folllowing ecamples and choose one and write a change if you can OK?...You said: ‘The world change’ – can you think about the verb tense here and write it again? You said :’you’ll make a mistake’ – can you change the ‘will’?! Think about the verb tenses in your sentence beginning: For example, if your boss…’  And the verb tense in your final sentence… ? ‘So it …’"	NA	"4b"	"repair,eliciting"	"grammatical resource"	"chat"	NA	82
+2020-03-11 16:12:42	"student006"	"student"	76	"The world is change"	"The world is changing"	NA	NA	NA	NA	NA	NA	4
+2020-03-11 16:13:01	"student006"	"student"	77	"You would make mistake"	"You would make a mistake"	NA	NA	NA	NA	NA	NA	4
+2020-03-11 16:13:43	"student006"	"student"	78	"If your boss would ask you"	"If your boss asks you"	NA	NA	NA	NA	NA	NA	6
+2020-03-11 16:14:28	"teacher001"	"teacher"	79	"OK <STUDENT> so...maybe the chane happened in the past right? BUT you're talking about the present result so .you need...the present perfect! In other words: the world ______  changed?"	"OK <STUDENT> so...maybe the chane happened in the past right? BUT you're talking about the present result so .you need...the present perfect! In other words: the world ______  changed?"	76	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	30
+2020-03-11 16:14:59	"student006"	"student"	80	"The world has change"	"The world has changed"	NA	NA	NA	NA	NA	NA	4
+2020-03-11 16:15:15	"student006"	"student"	81	"Changed"	"Changed"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-03-11 16:15:43	"teacher001"	"teacher"	85	"Yes good ! IF your boss asks you is OK (but with the 's') ..what about 'allow'?"	"Yes good ! IF your boss asks you is OK (but with the 's') ..what about 'allow'?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	17
+2020-03-11 16:16:12	"student006"	"student"	86	"Allows"	"Allows"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 16:16:36	"teacher001"	"teacher"	87	"sorry I'll tell you this one: its 'allowing' : 'you think you're boss is allowing you to...'"	"sorry I'll tell you this one: its 'allowing' : 'you think you're boss is allowing you to...'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2020-03-11 16:17:03	"student006"	"student"	88	"Ah, i see"	"Ah, i see"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 16:17:37	"teacher001"	"teacher"	89	"And the 'will' example?"	"And the 'will' example?"	NA	NA	"eliciting"	"grammatical resource,lexical resource"	NA	NA	4
+2020-03-11 16:17:46	"teacher001"	"teacher"	90	"You will make a mistake...?"	"You will make a mistake...?"	NA	NA	"eliciting"	NA	NA	NA	5
+2020-03-11 16:18:03	"teacher001"	"teacher"	91	"What modal verb could you use instead?"	"What modal verb could you use instead?"	NA	NA	"eliciting"	"grammatical resource,lexical resource"	NA	NA	7
+2020-03-11 16:18:27	"student006"	"student"	92	"You would make a mistake?"	"You would make a mistake?"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 16:19:11	"student006"	"student"	93	"You could make a mistake?"	"You could make a mistake?"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 16:19:17	"teacher001"	"teacher"	94	"yes good!"	"yes good!"	NA	NA	NA	NA	NA	NA	2
+2020-03-11 16:19:29	"student006"	"student"	95	"😅"	"😅"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 16:19:33	"teacher001"	"teacher"	96	"Because if you don't understand you won't ALWAYS make a mistake"	"Because if you don't understand you won't ALWAYS make a mistake"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-03-11 16:19:54	"student006"	"student"	97	"Okey"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 16:20:03	"teacher001"	"teacher"	98	"but if you say 'will' it's like it always happens you know?"	"but if you say 'will' it's like it always happens you know?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-03-11 16:20:16	"student006"	"student"	99	"Ah I see"	"Ah I see"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 16:20:23	"teacher001"	"teacher"	100	"so 'might' or 'could' or 'may' (more formal) are all good here"	"so 'might' or 'could' or 'may' (more formal) are all good here"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-03-11 16:20:25	"student006"	"student"	101	"Ah I see"	"Ah I see"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 16:20:32	"teacher001"	"teacher"	103	"what about 'can'?"	"what about 'can'?"	NA	NA	"eliciting"	NA	NA	NA	3
+2020-03-11 16:20:41	"teacher001"	"teacher"	104	"you can make a mistake?"	"you can make a mistake?"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 16:22:09	"student006"	"student"	105	"You could make a mistake"	"You could make a mistake"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 16:22:46	"teacher001"	"teacher"	107	"yes exactly - so again: could/may/might all good BUT 'can' = not possible!"	"yes exactly - so again: could/may/might all good BUT 'can' = not possible!"	NA	NA	NA	NA	NA	NA	13
+2020-03-11 16:23:39	"teacher001"	"teacher"	108	"ONe final question <STUDENT>: What jobs are most valuable to society?"	"ONe final question <STUDENT>: What jobs are most valuable to society?"	NA	"5.0"	"topic opening"	"speaking"	NA	NA	11
+2020-03-11 16:24:38	"student006"	"student"	109	"I think the most valuable job to society is a teacher"	"I think the job that is most valuable to society is a teacher"	NA	NA	NA	NA	NA	NA	11
+2020-03-11 16:24:47	"teacher001"	"teacher"	110	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 16:26:44	"student006"	"student"	111	"Because the students who are the future of society ate taugh by teacher"	"Because the students who are the future of society are taught by teacher"	NA	NA	NA	NA	NA	NA	13
+2020-03-11 16:26:49	"student006"	"student"	112	"I mean"	"I mean"	NA	NA	NA	NA	NA	NA	2
+2020-03-11 16:27:26	"student006"	"student"	113	"If the teacher teach a good things to students"	"If a teacher teaches good things to students"	NA	NA	NA	NA	NA	NA	9
+2020-03-11 16:27:55	"student006"	"student"	115	"These student’ll be an effective person"	"These students will be effective people"	NA	NA	NA	NA	NA	NA	6
+2020-03-11 16:28:15	"teacher001"	"teacher"	116	"You said: ‘The world change’ – can you think about the verb tense here and write it again? You said :’you’ll make a mistake’ – can you change the ‘will’?! Think about the verb tenses in your sentence beginning: For example, if your boss…’  And the verb tense in your final sentence… ? ‘So it …’"	"You said: ‘The world change’ – can you think about the verb tense here and write it again? You said :’you’ll make a mistake’ – can you change the ‘will’?! Think about the verb tenses in your sentence beginning: For example, if your boss…’  And the verb tense in your final sentence… ? ‘So it …’"	NA	"6.0"	"disruption"	NA	NA	NA	57
+2020-03-11 16:28:22	"teacher001"	"teacher"	117	"Oh sorry...hold on!"	"Oh sorry...hold on!"	NA	NA	NA	NA	NA	NA	3
+2020-03-11 16:28:43	"teacher001"	"teacher"	118	"Just the following !! ...Thanks <STUDENT> – good point and good passive (‘are taught’) and good to use ‘effective’!"	"Just the following !! ...Thanks <STUDENT> – good point and good passive (‘are taught’) and good to use ‘effective’!"	115	NA	NA	NA	NA	NA	19
+2020-03-11 16:29:30	"teacher001"	"teacher"	119	"and good phrase:'the future of society''"	"and good phrase:'the future of society''"	NA	NA	NA	NA	NA	NA	6
+2020-03-11 16:29:47	"student006"	"student"	120	"Thank you;)"	"Thank you;)"	NA	NA	NA	NA	NA	NA	2
+2020-03-11 16:29:52	"student006"	"student"	121	"Okey"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-03-11 16:30:16	"teacher001"	"teacher"	122	"OK thanks we'll stop there - sorry if you had technical problems I hope it was still useful ...see you tomorrow"	"OK thanks we'll stop there - sorry if you had technical problems I hope it was still useful ...see you tomorrow"	NA	"7.0"	"closing"	NA	NA	NA	21
+2020-03-11 16:30:48	"student006"	"student"	123	"Thank you for today, <TEACHER>"	"Thank you for today, <TEACHER>"	NA	NA	NA	NA	NA	NA	5
+2020-03-11 16:30:53	"teacher001"	"teacher"	129	"OK bye!"	"OK bye!"	NA	NA	NA	NA	NA	NA	2
+2020-03-11 16:30:58	"student006"	"student"	130	"See you tmr"	"See you tmr"	NA	NA	NA	NA	NA	"B1"	3

@@ -1,0 +1,139 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2020-07-24T06:31:30+00:00+00:00"	"teacher008"	"teacher"	"1"	"Morning <STUDENT>!"	"Morning <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2020-07-24T06:31:45+00:00+00:00"	"student010"	"student"	"2"	"Good morning!"	"Good morning!"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T06:31:59+00:00+00:00"	"teacher008"	"teacher"	"3"	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+"2020-07-24T06:32:11+00:00+00:00"	"student010"	"student"	"4"	"I'm fine"	"I'm fine"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T06:32:27+00:00+00:00"	"teacher008"	"teacher"	"5"	"And what's the weather ___?"	"And what's the weather ___?"	NA	"2a"	"topic development,eliciting"	"grammatical resource"	NA	NA	5
+"2020-07-24T06:33:39+00:00+00:00"	"student010"	"student"	"6"	"Today?"	"Today?"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:34:01+00:00+00:00"	"teacher008"	"teacher"	"7"	"Mmm, not quite. What's the weather ___ today?"	"Mmm, not quite. What's the weather ___ today?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+"2020-07-24T06:34:27+00:00+00:00"	"student010"	"student"	"8"	"Like"	"Like"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:34:37+00:00+00:00"	"teacher008"	"teacher"	"9"	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T06:34:45+00:00+00:00"	"teacher008"	"teacher"	"10"	"So, what's the weather like? :)"	"So, what's the weather like? :)"	NA	NA	NA	NA	NA	NA	6
+"2020-07-24T06:35:00+00:00+00:00"	"student010"	"student"	"11"	"It's sunny!"	"It's sunny!"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T06:35:18+00:00+00:00"	"teacher008"	"teacher"	"12"	"Oh good! You're not cold then?"	"Oh good! You're not cold then?"	NA	NA	NA	NA	NA	NA	6
+"2020-07-24T06:35:31+00:00+00:00"	"student010"	"student"	"13"	"Yes!!!"	"Yes!!!"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:35:35+00:00+00:00"	"teacher008"	"teacher"	"14"	"It's sunny here too! Good for my tomatoes and courgettes"	"It's sunny here too! Good for my tomatoes and courgettes"	NA	NA	NA	NA	NA	NA	10
+"2020-07-24T06:35:45+00:00+00:00"	"teacher008"	"teacher"	"15"	"Do you know 'courgette'?"	"Do you know 'courgette'?"	NA	"2b"	"eliciting"	"lexical resource"	NA	NA	4
+"2020-07-24T06:35:51+00:00+00:00"	"student010"	"student"	"16"	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:35:58+00:00+00:00"	"teacher008"	"teacher"	"17"	"kabachok :)"	"kabachok :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+"2020-07-24T06:36:06+00:00+00:00"	"student010"	"student"	"18"	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:36:47+00:00+00:00"	"student010"	"student"	"19"	"Did you see a gameplay of Fortnite?"	"Did you see a Fortnite gameplay?"	NA	"3.0"	"topic opening"	NA	NA	NA	7
+"2020-07-24T06:36:57+00:00+00:00"	"teacher008"	"teacher"	"20"	"It's got this French pronunciation"	"It's got this French pronunciation"	"18.0"	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	5
+"2020-07-24T06:37:27+00:00+00:00"	"teacher008"	"teacher"	"21"	"Yes, I'll tell you all about it!"	"Yes, I'll tell you all about it!"	"19.0"	NA	NA	NA	NA	NA	7
+"2020-07-24T06:37:39+00:00+00:00"	"teacher008"	"teacher"	"23"	"check out this pronunciation, please"	"check out this pronunciation, please"	NA	NA	NA	NA	NA	NA	5
+"2020-07-24T06:38:08+00:00+00:00"	"student010"	"student"	"24"	"Pretty strange"	"Pretty strange"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T06:38:42+00:00+00:00"	"teacher008"	"teacher"	"25"	"Yes, it's French. It's weird that such a simple vegetable has this fancy name in English"	"Yes, it's French. It's weird that such a simple vegetable has this fancy name in English"	NA	NA	NA	NA	NA	NA	16
+"2020-07-24T06:38:51+00:00+00:00"	"teacher008"	"teacher"	"26"	"Americans call it zucchini"	"Americans call it zucchini"	NA	"2c"	"scaffolding"	"lexical resource"	NA	NA	4
+"2020-07-24T06:39:06+00:00+00:00"	"student010"	"student"	"27"	"I heard that"	"I heard that"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T06:39:40+00:00+00:00"	"teacher008"	"teacher"	"28"	"Yes, so when you hear zucchini or courgette, it's just good old kabachok :)"	"Yes, so when you hear zucchini or courgette, it's just good old kabachok :)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+"2020-07-24T06:39:58+00:00+00:00"	"student010"	"student"	"29"	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:40:07+00:00+00:00"	"teacher008"	"teacher"	"30"	"Anyway, Fortnite!"	"Anyway, Fortnite!"	"21.0"	"3a"	"topic development"	NA	NA	NA	2
+"2020-07-24T06:40:47+00:00+00:00"	"teacher008"	"teacher"	"31"	"I did watch it, and I thought the graphics were amazing, but also it's a bit intense for a 5-year-old, so my son will have to wait until he's a teen too!"	"I did watch it, and I thought the graphics were amazing, but also it's a bit intense for a 5-year-old, so my son will have to wait until he's a teen too!"	NA	NA	NA	NA	NA	NA	32
+"2020-07-24T06:41:54+00:00+00:00"	"student010"	"student"	"32"	"I bet he'll be very upset"	"I bet he'll be very upset"	NA	NA	NA	NA	NA	NA	6
+"2020-07-24T06:42:31+00:00+00:00"	"teacher008"	"teacher"	"33"	"He will be a bit upset! But he enjoys his Lego games, and also the actual Lego"	"He will be a bit upset! But he enjoys his Lego games, and also the actual Lego"	NA	NA	NA	NA	NA	NA	17
+"2020-07-24T06:42:36+00:00+00:00"	"teacher008"	"teacher"	"34"	"Do you like Lego?"	"Do you like Lego?"	NA	"3b"	"topic development"	NA	NA	NA	4
+"2020-07-24T06:44:02+00:00+00:00"	"student010"	"student"	"35"	"Yes I like lego and my cousin is 15 and I'm 13 and we still play lego games and Lego:)"	"Yes I like Lego and my cousin is 15 and I'm 13 and we still play Lego games and Lego:)"	NA	NA	NA	NA	NA	NA	20
+"2020-07-24T06:44:43+00:00+00:00"	"teacher008"	"teacher"	"36"	"Ah, they are so good! We have tons of Star Wars Lego that my husband used to collect"	"Ah, they are so good! We have tons of Star Wars Lego that my husband used to collect"	NA	NA	NA	NA	NA	NA	18
+"2020-07-24T06:45:52+00:00+00:00"	"student010"	"student"	"37"	"Old SW Lego is very good my cousin has lots of SW Lego too"	"Old SW Lego is very good my cousin has lots of SW Lego too"	NA	NA	NA	NA	NA	NA	14
+"2020-07-24T06:47:05+00:00+00:00"	"teacher008"	"teacher"	"38"	"One moment, I'm looking for a link to send to you"	"One moment, I'm looking for a link to send to you"	NA	"4.0"	"topic opening,exercise"	"grammatical resource"	NA	NA	11
+"2020-07-24T06:48:31+00:00+00:00"	"teacher008"	"teacher"	"39"	"Got it! Could you look at the picture and guess what it is a picture of? Don't look at the answer underneath :)"	"Got it! Could you look at the picture and guess what it is a picture of? Don't look at the answer underneath :)"	NA	NA	NA	NA	NA	NA	23
+"2020-07-24T06:48:32+00:00+00:00"	"teacher008"	"teacher"	"40"	"https://learnenglishteens.britishcouncil.org/study-break/what-it/what-it-054"	"https://learnenglishteens.britishcouncil.org/study-break/what-it/what-it-054"	NA	NA	NA	NA	"website"	NA	1
+"2020-07-24T06:48:48+00:00+00:00"	"teacher008"	"teacher"	"41"	"Is it a clickable link?"	"Is it a clickable link?"	NA	"4a"	"topic development"	NA	NA	NA	5
+"2020-07-24T06:49:05+00:00+00:00"	"student010"	"student"	"42"	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:50:32+00:00+00:00"	"teacher008"	"teacher"	"43"	"I just sent it to your email, could you check it?"	"I just sent it to your email, could you check it?"	NA	NA	NA	NA	NA	NA	11
+"2020-07-24T06:51:37+00:00+00:00"	"student010"	"student"	"44"	"Yes I've checkrd it"	"Yes I've checked it"	NA	NA	NA	NA	NA	NA	4
+"2020-07-24T06:51:45+00:00+00:00"	"teacher008"	"teacher"	"45"	"What do you think it is?"	"What do you think it is?"	NA	"4b"	"topic development"	NA	NA	NA	6
+"2020-07-24T06:52:39+00:00+00:00"	"student010"	"student"	"46"	"I saw strange photo and some answers"	"I saw a strange photo and some answers"	NA	NA	NA	NA	NA	NA	7
+"2020-07-24T06:53:24+00:00+00:00"	"teacher008"	"teacher"	"47"	"Don't look at the answers! What do you think is in the photo?"	"Don't look at the answers! What do you think is in the photo?"	NA	NA	NA	NA	NA	NA	13
+"2020-07-24T06:55:29+00:00+00:00"	"student010"	"student"	"48"	"There is no answers so I did see answer"	"There are no answers so I didn't see the answer"	NA	NA	NA	NA	NA	NA	9
+"2020-07-24T06:55:46+00:00+00:00"	"student010"	"student"	"49"	"But I don't now what is that"	"But I don't know what it is"	NA	NA	NA	NA	NA	NA	7
+"2020-07-24T06:56:12+00:00+00:00"	"teacher008"	"teacher"	"50"	"Ok, I'll give you a hint. It grows on trees"	"Ok, I'll give you a hint. It grows on trees"	NA	NA	NA	NA	NA	NA	10
+"2020-07-24T06:57:01+00:00+00:00"	"student010"	"student"	"51"	"Is it a nut?"	"Is it a nut?"	NA	NA	NA	NA	NA	NA	4
+"2020-07-24T06:58:08+00:00+00:00"	"student010"	"student"	"52"	"Sorry it was cat friend"	"Sorry, it was my cat friend"	NA	"4c"	"disruption"	NA	NA	NA	5
+"2020-07-24T06:58:11+00:00+00:00"	"teacher008"	"teacher"	"53"	"Yes, correct!"	"Yes, correct!"	"51.0"	NA	NA	NA	NA	NA	2
+"2020-07-24T06:58:16+00:00+00:00"	"teacher008"	"teacher"	"54"	"It's a walnut!"	"It's a walnut!"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T06:58:24+00:00+00:00"	"teacher008"	"teacher"	"55"	"It was __ cat friend"	"It was __ cat friend"	NA	"4d"	"eliciting,repair"	"grammatical resource"	NA	NA	5
+"2020-07-24T06:58:46+00:00+00:00"	"student010"	"student"	"56"	"My"	"My"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:58:55+00:00+00:00"	"teacher008"	"teacher"	"57"	"Yes, well done :)"	"Yes, well done :)"	NA	NA	NA	NA	NA	NA	4
+"2020-07-24T06:59:23+00:00+00:00"	"teacher008"	"teacher"	"58"	"So, if we are not sure what something is, we can say 'It ___ be a nut'"	"So, if we are not sure what something is, we can say 'It ___ be a nut'"	NA	"4e"	"eliciting"	"grammatical resource"	NA	NA	17
+"2020-07-24T06:59:36+00:00+00:00"	"student010"	"student"	"59"	"Might"	"Might"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T06:59:54+00:00+00:00"	"teacher008"	"teacher"	"60"	"Yes, or 'could'"	"Yes, or 'could'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+"2020-07-24T07:00:13+00:00+00:00"	"teacher008"	"teacher"	"61"	"Could it be made of Lego?"	"Could it be made of Lego?"	NA	NA	NA	NA	NA	NA	6
+"2020-07-24T07:00:25+00:00+00:00"	"student010"	"student"	"62"	"Anyway can we talk about Lego?"	"Anyway can we talk about Lego?"	NA	"5.0"	"topic opening"	NA	NA	NA	6
+"2020-07-24T07:00:36+00:00+00:00"	"teacher008"	"teacher"	"63"	"Go on :)"	"Go on :)"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:03:15+00:00+00:00"	"student010"	"student"	"64"	"When I was young I used to build something. And when I went to the USA me and my cousin were doing sort films called stop mothion"	"When I was young I used to build something. And when I went to the USA me and my cousin were doing a sort of films called stop motion"	NA	NA	NA	NA	NA	NA	27
+"2020-07-24T07:03:33+00:00+00:00"	"teacher008"	"teacher"	"65"	"stop motion?"	"stop motion?"	NA	"5a"	"enquiry"	NA	NA	NA	2
+"2020-07-24T07:03:39+00:00+00:00"	"teacher008"	"teacher"	"66"	"What are they?"	"What are they?"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:04:31+00:00+00:00"	"teacher008"	"teacher"	"67"	"Oh, I see, it's an animation technique"	"Oh, I see, it's an animation technique"	NA	NA	NA	NA	NA	NA	7
+"2020-07-24T07:04:37+00:00+00:00"	"teacher008"	"teacher"	"68"	"Did you do it with Lego?"	"Did you do it with Lego?"	NA	NA	NA	NA	NA	NA	6
+"2020-07-24T07:06:21+00:00+00:00"	"student010"	"student"	"69"	"Yes.It's film from many photos. For example you put Lego man and take photo of him. Then you move it a litle bit and than take photo again"	"Yes. It's a film made from many photos. For example you put a Lego man and take a photo of him. Then you move it a litle bit and then take a photo again"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	28
+"2020-07-24T07:07:25+00:00+00:00"	"teacher008"	"teacher"	"70"	"Aah, I see! Sounds fun! Did you shoot stories?"	"Aah, I see! Sounds fun! Did you shoot stories?"	NA	"5b"	"topic development"	NA	NA	NA	9
+"2020-07-24T07:07:44+00:00+00:00"	"student010"	"student"	"71"	"Our films were made from abot 1000 photos but they were only 1 minute"	"Our films were made from about 1000 photos but they were only 1-minute long"	NA	NA	NA	NA	NA	NA	14
+"2020-07-24T07:07:51+00:00+00:00"	"teacher008"	"teacher"	"72"	"You know 'shoot', like 'shoot a film'? Basically, record it on video"	"You know 'shoot', like 'shoot a film'? Basically, record it on video"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+"2020-07-24T07:08:00+00:00+00:00"	"teacher008"	"teacher"	"73"	"Oh wow, incredible!"	"Oh wow, incredible!"	"71.0"	NA	NA	NA	NA	NA	3
+"2020-07-24T07:08:23+00:00+00:00"	"student010"	"student"	"74"	"There is special programme"	"There is special programme"	NA	"5c"	NA	NA	NA	NA	4
+"2020-07-24T07:09:00+00:00+00:00"	"student010"	"student"	"75"	"Called stop mothion"	"Called stop motion"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:09:10+00:00+00:00"	"teacher008"	"teacher"	"76"	"Sounds like a lot of work, too, 1000 photos!"	"Sounds like a lot of work, too, 1000 photos!"	"73.0"	NA	NA	NA	NA	NA	9
+"2020-07-24T07:09:37+00:00+00:00"	"student010"	"student"	"77"	"It took us about  3 hours"	"It took us about  3 hours"	NA	NA	NA	NA	NA	NA	7
+"2020-07-24T07:09:50+00:00+00:00"	"teacher008"	"teacher"	"78"	"Very cool"	"Very cool"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T07:10:06+00:00+00:00"	"teacher008"	"teacher"	"79"	"<STUDENT>, could you go back to this bit and insert some articles? 'Thank you for taking part in this study. Please go ahead and chat here, and remember that all conversations are recorded."	"<STUDENT>, could you go back to this bit and insert some articles? 'Thank you for taking part in this study. Please go ahead and chat here, and remember that all conversations are recorded."	NA	"6.0"	"exercise"	"grammatical resource"	"chat"	NA	33
+"2020-07-24T07:10:18+00:00+00:00"	"teacher008"	"teacher"	"80"	"Oh no, what happened! Sorry"	"Oh no, what happened! Sorry"	NA	"6a"	"disruption"	NA	NA	NA	5
+"2020-07-24T07:10:55+00:00+00:00"	"teacher008"	"teacher"	"81"	"The programme went mad, please ignore it"	"The programme went mad, please ignore it"	NA	NA	NA	NA	NA	NA	7
+"2020-07-24T07:10:59+00:00+00:00"	"teacher008"	"teacher"	"82"	"are you there?"	"are you there?"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:11:03+00:00+00:00"	"student010"	"student"	"83"	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:11:07+00:00+00:00"	"teacher008"	"teacher"	"84"	"Good"	"Good"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:11:10+00:00+00:00"	"teacher008"	"teacher"	"85"	"It's film from many photos. For example you put Lego man and take photo of him."	"It's film from many photos. For example you put Lego man and take photo of him."	NA	"6b"	"exercise"	"grammatical resource"	NA	NA	16
+"2020-07-24T07:11:23+00:00+00:00"	"teacher008"	"teacher"	"86"	"This bit. Could you insert some articles, please?"	"This bit. Could you insert some articles, please?"	NA	NA	NA	NA	NA	NA	8
+"2020-07-24T07:11:47+00:00+00:00"	"student010"	"student"	"87"	"So if you want you can try it with your son"	"So if you want you can try it with your son"	"75.0"	NA	NA	NA	NA	NA	11
+"2020-07-24T07:12:11+00:00+00:00"	"teacher008"	"teacher"	"88"	"I'll see if I can download it on my phone, slow motion, thank you, cool idea!"	"I'll see if I can download it on my phone, slow motion, thank you, cool idea!"	NA	NA	NA	NA	NA	NA	16
+"2020-07-24T07:12:27+00:00+00:00"	"student010"	"student"	"89"	"Stop mothion"	"Stop mothion"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+"2020-07-24T07:12:33+00:00+00:00"	"teacher008"	"teacher"	"90"	"Sorry, yes!"	"Sorry, yes!"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T07:12:41+00:00+00:00"	"teacher008"	"teacher"	"91"	"Stop motion, without the h"	"Stop motion, without the h"	"89.0"	NA	"repair"	"writing"	NA	NA	5
+"2020-07-24T07:12:56+00:00+00:00"	"student010"	"student"	"92"	"Ok now articles?"	"Ok now articles?"	"86.0"	NA	NA	NA	NA	NA	3
+"2020-07-24T07:13:02+00:00+00:00"	"teacher008"	"teacher"	"93"	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:15:23+00:00+00:00"	"student010"	"student"	"94"	"Hey are you there?"	"Hey are you there?"	NA	"6c"	"disruption"	NA	NA	NA	4
+"2020-07-24T07:15:46+00:00+00:00"	"teacher008"	"teacher"	"100"	"Yes, I thought you were inserting the articles"	"Yes, I thought you were inserting the articles"	NA	NA	NA	NA	NA	NA	8
+"2020-07-24T07:16:01+00:00+00:00"	"teacher008"	"teacher"	"101"	"It's film from many photos. For example you put Lego man and take photo of him."	"It's film from many photos. For example you put Lego man and take photo of him."	NA	"6d"	"exercise"	"grammatical resource"	NA	NA	16
+"2020-07-24T07:16:15+00:00+00:00"	"teacher008"	"teacher"	"102"	"Could you re-write this with the articles?"	"Could you re-write this with the articles?"	NA	NA	NA	NA	NA	NA	7
+"2020-07-24T07:17:46+00:00+00:00"	"student010"	"student"	"103"	"It's a film from many photos. For example you put a Lego man and take photo of him."	"It's a film made from many photos. For example you put a Lego man and take a photo of him."	NA	NA	NA	NA	NA	NA	18
+"2020-07-24T07:18:00+00:00+00:00"	"teacher008"	"teacher"	"104"	"Almost! take __ photo of him"	"Almost! take __ photo of him"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+"2020-07-24T07:18:08+00:00+00:00"	"student010"	"student"	"105"	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:18:13+00:00+00:00"	"teacher008"	"teacher"	"106"	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:18:29+00:00+00:00"	"teacher008"	"teacher"	"107"	"There is ___ special programme"	"There is ___ special programme"	NA	"6e"	"exercise"	"grammatical resource"	NA	NA	5
+"2020-07-24T07:18:42+00:00+00:00"	"student010"	"student"	"108"	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:18:56+00:00+00:00"	"teacher008"	"teacher"	"109"	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T07:19:13+00:00+00:00"	"teacher008"	"teacher"	"110"	"I've just installed stop mo.... how do you spell it?"	"I've just installed stop mo.... how do you spell it?"	NA	"7.0"	"topic opening,eliciting"	"writing"	NA	NA	10
+"2020-07-24T07:19:30+00:00+00:00"	"student010"	"student"	"111"	"Motion"	"Motion"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:19:39+00:00+00:00"	"teacher008"	"teacher"	"112"	"Aha, perfect!"	"Aha, perfect!"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T07:20:04+00:00+00:00"	"teacher008"	"teacher"	"113"	"I've just installed stop motion on my phone while waiting for you to type :)"	"I've just installed stop motion on my phone while waiting for you to type :)"	NA	NA	NA	NA	NA	NA	15
+"2020-07-24T07:20:14+00:00+00:00"	"teacher008"	"teacher"	"114"	"It's a rainy day tomorrow, so we'll give it a go"	"It's a rainy day tomorrow, so we'll give it a go"	NA	NA	NA	NA	NA	NA	11
+"2020-07-24T07:20:39+00:00+00:00"	"teacher008"	"teacher"	"115"	"And in terms of spelling, you are now living in a vi...ge"	"And in terms of spelling, you are now living in a vi...ge"	NA	"7a"	"eliciting,revision"	"writing"	NA	NA	12
+"2020-07-24T07:20:53+00:00+00:00"	"student010"	"student"	"116"	"Is it pink and white camera?"	"Is it a pink and white camera?"	NA	"7b"	"topic development"	NA	NA	NA	6
+"2020-07-24T07:21:07+00:00+00:00"	"student010"	"student"	"117"	"Village"	"Village"	"115.0"	NA	NA	NA	NA	NA	1
+"2020-07-24T07:21:20+00:00+00:00"	"teacher008"	"teacher"	"118"	"Is it ___ pink and white camera?"	"Is it ___ pink and white camera?"	"116.0"	"7c"	"eliciting,repair"	"grammatical resource"	NA	NA	7
+"2020-07-24T07:21:30+00:00+00:00"	"student010"	"student"	"119"	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:21:58+00:00+00:00"	"teacher008"	"teacher"	"120"	"Correct! No, it's got a white camera against a blue background"	"Correct! No, it's got a white camera against a blue background"	"119, 116"	"7b (continued)"	NA	NA	NA	NA	11
+"2020-07-24T07:22:22+00:00+00:00"	"student010"	"student"	"121"	"Maybe I forgot"	"Maybe I forgot"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:22:43+00:00+00:00"	"student010"	"student"	"122"	"There is 2 versions"	"There are 2 versions"	NA	NA	NA	NA	NA	NA	4
+"2020-07-24T07:22:49+00:00+00:00"	"teacher008"	"teacher"	"123"	"It's just the programme that popped in the search first"	"It's just the programme that popped in the search first"	NA	NA	NA	NA	NA	NA	10
+"2020-07-24T07:22:53+00:00+00:00"	"teacher008"	"teacher"	"124"	"That must be it"	"That must be it"	NA	NA	NA	NA	NA	NA	4
+"2020-07-24T07:22:57+00:00+00:00"	"student010"	"student"	"125"	"One is free"	"One is free"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:23:05+00:00+00:00"	"teacher008"	"teacher"	"126"	"Mine is free!"	"Mine is free!"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:23:37+00:00+00:00"	"teacher008"	"teacher"	"127"	"Ok, one more spelling thing. You are in the village now, but u..ally you live in Kyiv"	"Ok, one more spelling thing. You are in the village now, but u..ally you live in Kyiv"	NA	"7d"	"eliciting,revision"	"writing"	NA	NA	17
+"2020-07-24T07:24:01+00:00+00:00"	"student010"	"student"	"128"	"Usually"	"Usually"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:24:08+00:00+00:00"	"teacher008"	"teacher"	"129"	"Yes, very good!"	"Yes, very good!"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:26:47+00:00+00:00"	"teacher008"	"teacher"	"130"	"Ok, <STUDENT>, a little bit of homework for you today. Could you find a bit of an English text, just a few sentences, and think about the articles in it? It could be anything, an advert, a description of a game, a song. And next time show it to me and say, for example, there is 'a' here because it means 'any', not this that we're thinking about"	"Ok, <STUDENT>, a little bit of homework for you today. Could you find a bit of an English text, just a few sentences, and think about the articles in it? It could be anything, an advert, a description of a game, a song. And next time show it to me and say, for example, there is 'a' here because it means 'any', not this that we're thinking about"	NA	"8.0"	"homework"	NA	NA	NA	68
+"2020-07-24T07:27:17+00:00+00:00"	"teacher008"	"teacher"	"131"	"For example"	"For example"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T07:27:24+00:00+00:00"	"teacher008"	"teacher"	"132"	"Stop motion is an animated filmmaking technique in which objects are physically manipulated...."	"Stop motion is an animated filmmaking technique in which objects are physically manipulated...."	NA	NA	NA	NA	NA	NA	13
+"2020-07-24T07:27:40+00:00+00:00"	"student010"	"student"	"133"	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:28:08+00:00+00:00"	"teacher008"	"teacher"	"134"	"An' animated filmmaking technique - because it's one of many techniques, and it's the first time we are talking aobut it"	"An' animated filmmaking technique - because it's one of many techniques, and it's the first time we are talking aobut it"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	21
+"2020-07-24T07:28:44+00:00+00:00"	"student010"	"student"	"135"	"Roger that!"	"Roger that!"	NA	NA	NA	NA	NA	NA	2
+"2020-07-24T07:28:54+00:00+00:00"	"teacher008"	"teacher"	"136"	"in which objects' - objects has no article because it's plural and we don't know which objects we are talking about"	"in which objects' - objects has no article because it's plural and we don't know which objects we are talking about"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	21
+"2020-07-24T07:28:59+00:00+00:00"	"teacher008"	"teacher"	"137"	"Haha, cool!"	"Haha, cool!"	"135.0"	NA	NA	NA	NA	NA	2
+"2020-07-24T07:29:28+00:00+00:00"	"teacher008"	"teacher"	"138"	"I'll email you about the time of the next lesson, ok? It might not be in the morning next week, I hope it's ok"	"I'll email you about the time of the next lesson, ok? It might not be in the morning next week, I hope it's ok"	NA	"9.0"	"topic opening"	NA	NA	NA	24
+"2020-07-24T07:29:51+00:00+00:00"	"student010"	"student"	"139"	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:30:10+00:00+00:00"	"teacher008"	"teacher"	"140"	"Obviously, if you can't explain some articles, that's fine, just mark them as questions and I'll help"	"Obviously, if you can't explain some articles, that's fine, just mark them as questions and I'll help"	"136.0"	NA	NA	NA	NA	NA	17
+"2020-07-24T07:30:21+00:00+00:00"	"student010"	"student"	"141"	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-07-24T07:30:27+00:00+00:00"	"teacher008"	"teacher"	"142"	"Have a lovely weekend! I'll be trying stop motion :)"	"Have a lovely weekend! I'll be trying stop motion :)"	NA	"10.0"	"closing"	NA	NA	NA	10
+"2020-07-24T07:30:30+00:00+00:00"	"teacher008"	"teacher"	"143"	"Over and out!"	"Over and out!"	NA	NA	NA	NA	NA	NA	3
+"2020-07-24T07:30:39+00:00+00:00"	"student010"	"student"	"144"	"Bye"	"Bye"	NA	NA	NA	NA	NA	"B2"	1

@@ -1,0 +1,226 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-06-30 06:58:18	"student009"	"student"	1	"Hello"	"Hello"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-06-30 06:59:07	"student009"	"student"	2	"<TEACHER>?"	"<TEACHER>?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 06:59:57	"student009"	"student"	3	"are you here?"	"are you here?"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:01:06	"student009"	"student"	4	"hello???"	"hello???"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:03:43	"student009"	"student"	5	"hi???"	"hi???"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:06:30	"teacher008"	"teacher"	6	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:06:38	"student009"	"student"	7	"hello"	"hello"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:06:43	"teacher008"	"teacher"	8	"Sorry, I got distracted for a second"	"Sorry, I got distracted for a second"	NA	NA	NA	NA	NA	NA	7
+2020-06-30 07:06:46	"teacher008"	"teacher"	9	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-06-30 07:06:50	"student009"	"student"	10	"fine"	"fine"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:06:54	"student009"	"student"	11	"and you?"	"and you?"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:07:03	"teacher008"	"teacher"	12	"Great, thank you!"	"Great, thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:07:16	"teacher008"	"teacher"	13	"Did you have a good weekend?"	"Did you have a good weekend?"	NA	"2a"	"topic development"	NA	NA	NA	6
+2020-06-30 07:07:24	"student009"	"student"	14	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:07:55	"teacher008"	"teacher"	15	"So, are you allowed to leave your house and go to shops / cinemas etc?"	"So, are you allowed to leave your house and go to shops / cinemas etc?"	NA	"3.0"	"topic opening"	NA	NA	NA	15
+2020-06-30 07:08:20	"student009"	"student"	16	"we can go shopping"	"we can go shopping"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:08:57	"teacher008"	"teacher"	17	"Only essential shopping or non-essential too?"	"Only essential shopping or non-essential too?"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:09:23	"student009"	"student"	18	"what does it mean 'essential'?"	"what does 'essential' mean?"	NA	"3a"	"enquiry"	"lexical resource,meaning"	NA	NA	5
+2020-06-30 07:09:47	"teacher008"	"teacher"	19	"Oh, 'essential' means necessary and important"	"Oh, 'essential' means necessary and important"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2020-06-30 07:10:12	"teacher008"	"teacher"	20	"Shopping for food, medicine and toiletries is considered essential shopping"	"Shopping for food, medicine and toiletries is considered essential shopping"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+2020-06-30 07:10:22	"student009"	"student"	21	"I think non-essential"	"I think non-essential"	17	NA	NA	NA	NA	NA	3
+2020-06-30 07:10:47	"student009"	"student"	22	"I bought some clothes"	"I bought some clothes"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:10:52	"teacher008"	"teacher"	23	"Aha, so you can shop for clothes, books etc?"	"Aha, so you can shop for clothes, books etc?"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:10:55	"teacher008"	"teacher"	24	"Yes, I see!"	"Yes, I see!"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:11:09	"student009"	"student"	25	"yes, we can"	"yes, we can"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:11:14	"teacher008"	"teacher"	26	"Non-essential shops were allowed to open here maybe last week"	"Non-essential shops were allowed to open here maybe last week"	NA	"3b"	"topic development"	NA	NA	NA	10
+2020-06-30 07:11:35	"student009"	"student"	27	"that's nice"	"that's nice"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:11:53	"teacher008"	"teacher"	28	"But I haven't been in any of them :)"	"But I haven't been in any of them :)"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:11:59	"student009"	"student"	29	"why?"	"why?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:12:10	"student009"	"student"	30	"you don't really need it?"	"you don't really need it?"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:12:37	"teacher008"	"teacher"	31	"It's not fun anymore! You have to queue outside while social distancing"	"It's not fun anymore! You have to queue outside while social distancing"	NA	NA	NA	NA	NA	NA	12
+2020-06-30 07:12:51	"teacher008"	"teacher"	32	"I buy things online"	"I buy things online"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:12:51	"student009"	"student"	33	"oh, I understand"	"oh, I understand"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:13:04	"student009"	"student"	34	"I don't like online shopping"	"I don't like online shopping"	NA	"3c"	"topic development"	NA	NA	NA	5
+2020-06-30 07:13:20	"teacher008"	"teacher"	35	"Oh really? why not?"	"Oh really? why not?"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:14:16	"student009"	"student"	36	"when you buy some food online, delivery can get you not the best and newest food"	"when you buy food online, the food that is delivered is not the freshest"	NA	NA	NA	NA	NA	NA	16
+2020-06-30 07:14:56	"teacher008"	"teacher"	37	"Oh I see, yes, I know in Kyiv supermarkets don't really do deliveries"	"Oh I see, yes, I know in Kyiv supermarkets don't really do deliveries"	NA	NA	NA	NA	NA	NA	13
+2020-06-30 07:15:39	"student009"	"student"	38	"when you buy clothes, it can suit you or not, maybe the size isn't correct"	"when you buy clothes, they can suit you or not, maybe the size isn't correct"	36	NA	NA	NA	NA	NA	15
+2020-06-30 07:15:56	"student009"	"student"	39	"and then you wait again for long"	"and then you wait again for a long time"	NA	NA	NA	NA	NA	NA	7
+2020-06-30 07:16:04	"student009"	"student"	40	"No, they do!"	"No, they do!"	37	NA	NA	NA	NA	NA	3
+2020-06-30 07:16:13	"student009"	"student"	41	"not all of them"	"not all of them"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:16:17	"teacher008"	"teacher"	42	"Food can be out of date / past it's best, or it can be - (the opposite)?"	"Food can be out of date / past it's best, or it can be - (the opposite)?"	NA	"4.0"	"eliciting,repair"	"lexical resource"	NA	NA	17
+2020-06-30 07:16:33	"teacher008"	"teacher"	43	"sorry, 'past its best'"	"sorry, 'past its best'"	NA	NA	"repair"	"writing"	NA	NA	4
+2020-06-30 07:16:49	"student009"	"student"	44	"worst"	"worst"	42	NA	NA	NA	NA	NA	1
+2020-06-30 07:17:09	"teacher008"	"teacher"	45	"If the food is really nice, just picked or cooked, it's ..."	"If the food is really nice, just picked or cooked, it's ..."	NA	NA	"eliciting"	"lexical resource"	NA	NA	12
+2020-06-30 07:17:25	"student009"	"student"	46	"fresh?"	"fresh?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:17:32	"teacher008"	"teacher"	47	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:17:38	"teacher008"	"teacher"	48	"not 'new', right? :)"	"not 'new', right? :)"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:17:47	"student009"	"student"	49	"yea"	"yea"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:18:20	"teacher008"	"teacher"	50	"And if the food from yesterday is still in the fridge, it's ____ food"	"And if the food from yesterday is still in the fridge, it's ____ food"	NA	"4a"	"eliciting,revision"	"lexical resource"	NA	NA	14
+2020-06-30 07:19:05	"student009"	"student"	51	"frized?"	"refrigerated?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:19:15	"teacher008"	"teacher"	52	"A word from last class!"	"A word from last class!"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:19:38	"student009"	"student"	53	"I don't understand..."	"I don't understand..."	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:20:06	"teacher008"	"teacher"	54	"Remember we learnt a word that describes the food saved from the previous day?"	"Remember we learnt a word that describes the food saved from the previous day?"	NA	NA	NA	NA	NA	NA	14
+2020-06-30 07:20:39	"teacher008"	"teacher"	55	"Left....?"	"Left....?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:20:49	"student009"	"student"	56	"yes,leftover food"	"yes,leftover food"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:20:58	"teacher008"	"teacher"	57	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:21:06	"teacher008"	"teacher"	58	"or leftovers"	"or leftovers"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:21:23	"teacher008"	"teacher"	59	"Another word from before: what's the sound that a mouse makes?"	"Another word from before: what's the sound that a mouse makes?"	NA	"4b"	"eliciting,revision"	"lexical resource"	NA	NA	11
+2020-06-30 07:21:37	"student009"	"student"	60	"squeak"	"squeak"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:21:57	"teacher008"	"teacher"	61	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:22:23	"teacher008"	"teacher"	62	"There's an expression in English, 'A squeaky wheel gets the grease'"	"There's an expression in English, 'A squeaky wheel gets the grease'"	NA	"4c"	"presentation"	"lexical resource"	NA	NA	11
+2020-06-30 07:22:27	"teacher008"	"teacher"	63	"What do you think it means?"	"What do you think it means?"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:22:49	"student009"	"student"	64	"what does it mean grease?"	"what does 'grease' mean?"	NA	"4d"	"enquiry"	"lexical resource,meaning"	NA	NA	5
+2020-06-30 07:23:23	"teacher008"	"teacher"	65	"It's the oil that we can use on a wheel to stop the squeak"	"It's the oil that we can use on a wheel to stop the squeak"	NA	NA	NA	NA	NA	NA	14
+2020-06-30 07:23:50	"student009"	"student"	66	"oh , okay"	"oh , okay"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:24:36	"student009"	"student"	67	"so I think it means that everyone who needs help will always get it?"	"so I think it means that everyone who needs help will always get it?"	63	NA	NA	NA	NA	NA	14
+2020-06-30 07:24:49	"teacher008"	"teacher"	68	"Ah, good idea! Close!"	"Ah, good idea! Close!"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:25:12	"teacher008"	"teacher"	69	"It means that people who talk about their problems will get the help"	"It means that people who talk about their problems will get the help"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2020-06-30 07:25:22	"teacher008"	"teacher"	70	"and people who are quiet will not"	"and people who are quiet will not"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-06-30 07:25:32	"student009"	"student"	71	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:25:48	"teacher008"	"teacher"	72	"it's a bit negative"	"it's a bit negative"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+2020-06-30 07:26:21	"student009"	"student"	73	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:26:31	"teacher008"	"teacher"	74	"e.g. My colleague got a new desk because he always complains about his back. Now, my back's hurting too but I never complain. I guess a squeaky wheel gets the grease!"	"e.g. My colleague got a new desk because he always complains about his back. Now, my back's hurting too but I never complain. I guess a squeaky wheel gets the grease!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	31
+2020-06-30 07:26:40	"teacher008"	"teacher"	75	"(imaginary situation)"	"(imaginary situation)"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:27:10	"teacher008"	"teacher"	76	"ok?"	"ok?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:27:10	"student009"	"student"	77	"yeAh, I understand"	"yeAh, I understand"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:27:24	"teacher008"	"teacher"	78	"Ok, next word!"	"Ok, next word!"	NA	"4e"	"eliciting"	"lexical resource"	NA	NA	3
+2020-06-30 07:28:14	"teacher008"	"teacher"	79	"There is a virus out there, and people have to stay at home and lots of places are closed. What's this situation called?"	"There is a virus out there, and people have to stay at home and lots of places are closed. What's this situation called?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	23
+2020-06-30 07:28:34	"student009"	"student"	80	"quarantine"	"quarantine"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:28:46	"teacher008"	"teacher"	81	"Yes, correct spelling, thank you!"	"Yes, correct spelling, thank you!"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:29:07	"teacher008"	"teacher"	82	"When everything was stopped in the UK, it was called a lockdown"	"When everything was stopped in the UK, it was called a lockdown"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-06-30 07:29:18	"teacher008"	"teacher"	83	"only essential shopping, no going out etc."	"only essential shopping, no going out etc."	NA	NA	NA	NA	NA	NA	7
+2020-06-30 07:29:38	"teacher008"	"teacher"	84	"Great, and one last word from the previous class."	"Great, and one last word from the previous class."	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:30:11	"teacher008"	"teacher"	85	"Control over our actions that we use to keep doing something hard"	"Control over our actions that we use to keep doing something hard"	NA	"4f"	"eliciting,revision"	"lexical resource"	NA	NA	12
+2020-06-30 07:30:31	"student009"	"student"	86	"willpower?"	"willpower?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:30:36	"teacher008"	"teacher"	87	"yes, well done!"	"yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:30:47	"teacher008"	"teacher"	88	"Do you think willpower is important?"	"Do you think willpower is important?"	NA	"5.0"	"topic opening"	"lexical resource"	NA	NA	6
+2020-06-30 07:31:12	"student009"	"student"	89	"of course it is"	"of course it is"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:31:34	"teacher008"	"teacher"	90	"Do you think you have a lot of it?"	"Do you think you have a lot of it?"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:32:25	"student009"	"student"	91	"I think 60/40"	"I think 60/40"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:32:42	"teacher008"	"teacher"	92	"How do you know?"	"How do you know?"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:33:48	"student009"	"student"	93	"who was that?"	"who was that?"	NA	"6.0"	"disruption"	NA	NA	NA	3
+2020-06-30 07:33:53	"teacher008"	"teacher"	94	"I wonder that"	"I wonder that"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:34:22	"teacher008"	"teacher"	95	"It could have been <STUDENT> from your class. He's having a class tomorrow, so he might have tried the chatroom"	"It could have been <STUDENT> from your class. He's having a class tomorrow, so he might have tried the chatroom"	NA	NA	NA	NA	NA	NA	20
+2020-06-30 07:34:30	"teacher008"	"teacher"	96	"Anyway, they left now"	"Anyway, they left now"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:35:10	"student009"	"student"	97	"<STUDENT> told me there aren't any places anymore"	"<STUDENT> told me there aren't any places anymore"	NA	NA	NA	NA	NA	NA	8
+2020-06-30 07:35:53	"teacher008"	"teacher"	98	"Yes, I told him we stopped recruiting while we were waiting for the form to be approved, but then I wrote back to him and invited him"	"Yes, I told him we stopped recruiting while we were waiting for the form to be approved, but then I wrote back to him and invited him"	NA	NA	NA	NA	NA	NA	27
+2020-06-30 07:36:17	"teacher008"	"teacher"	99	"Are you thinking about willpower? Or waiting for me to say something?"	"Are you thinking about willpower? Or waiting for me to say something?"	NA	"5a"	NA	NA	NA	NA	12
+2020-06-30 07:36:36	"teacher008"	"teacher"	100	"It's a bit hard to tell because I can't see whether you're typing"	"It's a bit hard to tell because I can't see whether you're typing"	NA	NA	NA	NA	NA	NA	13
+2020-06-30 07:37:08	"student009"	"student"	101	"I was waiting while you ate saying something about it"	"I was waiting while you were saying something about it"	NA	NA	NA	NA	NA	NA	10
+2020-06-30 07:37:14	"student009"	"student"	102	"so willpower"	"so willpower"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:37:18	"teacher008"	"teacher"	103	"Ah, no worries"	"Ah, no worries"	101	NA	NA	NA	NA	NA	3
+2020-06-30 07:37:20	"teacher008"	"teacher"	104	"Go on"	"Go on"	102	NA	NA	NA	NA	NA	2
+2020-06-30 07:37:36	"student009"	"student"	105	"I am sometimes to lazy to do something"	"I am sometimes too lazy to do something"	NA	NA	NA	NA	NA	NA	8
+2020-06-30 07:38:04	"teacher008"	"teacher"	106	"Some psychologists today believe it's not a thing!"	"Some psychologists today believe it's not a thing!"	NA	"5b"	"topic development"	NA	NA	NA	8
+2020-06-30 07:38:29	"teacher008"	"teacher"	107	"Willpower is a made-up construct."	"Willpower is a made-up construct."	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:39:07	"student009"	"student"	108	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:39:33	"teacher008"	"teacher"	109	"For example, the reason I don't have a packet of crisps for lunch is not my amazing willpower but my concern over my health"	"For example, the reason I don't have a packet of crisps for lunch is not my amazing willpower but my concern over my health"	NA	NA	NA	NA	NA	NA	24
+2020-06-30 07:40:06	"student009"	"student"	110	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:40:39	"teacher008"	"teacher"	111	"The reason a person might study hard is because they want to learn something / want to achieve the social status that studying hard can give them"	"The reason a person might study hard is because they want to learn something / want to achieve the social status that studying hard can give them"	NA	NA	NA	NA	NA	NA	27
+2020-06-30 07:40:41	"teacher008"	"teacher"	112	"etc."	"etc."	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:41:15	"student009"	"student"	113	"that's my reasons"	"these are my reasons"	111	NA	NA	NA	NA	NA	3
+2020-06-30 07:41:22	"teacher008"	"teacher"	114	"And the reason many diets don't work is becausea no one has enought willpower. Because it's not a thing!"	"And the reason many diets don't work is becausea no one has enought willpower. Because it's not a thing!"	NA	NA	NA	NA	NA	NA	19
+2020-06-30 07:41:56	"teacher008"	"teacher"	115	"What do you think?"	"What do you think?"	NA	"5c"	"topic development"	NA	NA	NA	4
+2020-06-30 07:42:16	"student009"	"student"	116	"I don't know what to say"	"I don't know what to say"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:42:19	"student009"	"student"	117	"..."	"..."	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:42:34	"teacher008"	"teacher"	118	"Ok, no worries. Just something to think about"	"Ok, no worries. Just something to think about"	NA	NA	NA	NA	NA	NA	8
+2020-06-30 07:42:50	"teacher008"	"teacher"	119	"Shall we go back to your quiz?"	"Shall we go back to your quiz?"	NA	"7.0"	"topic opening"	NA	NA	NA	7
+2020-06-30 07:42:59	"teacher008"	"teacher"	120	"The white dog!"	"The white dog!"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:43:02	"student009"	"student"	121	"yessss!!!!"	"yessss!!!!"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:43:13	"teacher008"	"teacher"	122	"I have an idea, actually. Is it a movie?"	"I have an idea, actually. Is it a movie?"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:43:42	"student009"	"student"	123	"1.Summer 2.White dog 4.TOP"	"1.Summer 2.White dog 4.TOP"	NA	"7a"	"topic development"	NA	NA	NA	4
+2020-06-30 07:43:53	"teacher008"	"teacher"	124	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:43:54	"student009"	"student"	125	"3 was Crisps"	"3 was Crisps"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:44:03	"teacher008"	"teacher"	126	"I remember :)"	"I remember :)"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:44:13	"student009"	"student"	127	"we talked about it and you gave it up)"	"we talked about it and you gave it up)"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:44:16	"teacher008"	"teacher"	128	"So, is it the White Dog, the movie?"	"So, is it the White Dog, the movie?"	122	NA	NA	NA	NA	NA	8
+2020-06-30 07:44:22	"student009"	"student"	129	"nope"	"nope"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:44:29	"teacher008"	"teacher"	130	"oh no"	"oh no"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:44:48	"teacher008"	"teacher"	131	"is it an actual white dog? or the name of a band / shop etc.?"	"is it an actual white dog? or the name of a band / shop etc.?"	NA	NA	NA	NA	NA	NA	15
+2020-06-30 07:44:51	"student009"	"student"	132	"but close"	"but close"	130	NA	NA	NA	NA	NA	2
+2020-06-30 07:45:05	"student009"	"student"	133	"close to movie"	"close to movie"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:45:07	"teacher008"	"teacher"	134	"ah, getting closer!"	"ah, getting closer!"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:45:17	"teacher008"	"teacher"	135	"a animation?"	"a animation?"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:45:22	"teacher008"	"teacher"	136	"an animation, sorry"	"an animation, sorry"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-06-30 07:45:26	"student009"	"student"	137	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:45:38	"teacher008"	"teacher"	138	"an album?"	"an album?"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:45:42	"student009"	"student"	139	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:45:47	"teacher008"	"teacher"	140	"a video clip?"	"a video clip?"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:45:47	"student009"	"student"	141	"it is a book"	"it is a book"	NA	"7b"	"topic development"	NA	NA	NA	4
+2020-06-30 07:45:57	"teacher008"	"teacher"	142	"Ah, ok!"	"Ah, ok!"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:46:09	"teacher008"	"teacher"	143	"Is it the book you've read recently?"	"Is it the book you've read recently?"	NA	NA	NA	NA	NA	NA	7
+2020-06-30 07:46:16	"student009"	"student"	144	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:46:27	"teacher008"	"teacher"	145	"Ok! what is it about?"	"Ok! what is it about?"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:46:29	"student009"	"student"	146	"I am still reading it"	"I am still reading it"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:46:50	"student009"	"student"	147	"it is about that dog, and this book is very sad"	"it is about that dog, and this book is very sad"	NA	NA	NA	NA	NA	NA	11
+2020-06-30 07:47:03	"teacher008"	"teacher"	148	"Oh really? what happens?"	"Oh really? what happens?"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:47:20	"student009"	"student"	149	"maybe you read it when you were a girl like me"	"maybe you read it when you were a girl like me"	NA	NA	NA	NA	NA	NA	11
+2020-06-30 07:47:46	"teacher008"	"teacher"	150	"please, remind me"	"please, remind me"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:47:49	"student009"	"student"	151	"his paw and ear are black:)"	"his paw and ear are black:)"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:48:15	"teacher008"	"teacher"	152	"hmm, I can't remember now"	"hmm, I can't remember now"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:48:23	"student009"	"student"	153	"his name was Bim"	"his name was Bim"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:48:23	"teacher008"	"teacher"	154	"why is it sad?"	"why is it sad?"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:48:35	"teacher008"	"teacher"	155	"Ah, now I'm with you, yes!"	"Ah, now I'm with you, yes!"	153	NA	NA	NA	NA	NA	6
+2020-06-30 07:48:39	"student009"	"student"	156	"White Bim black ear"	"White Bim black ear"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:48:42	"teacher008"	"teacher"	157	"He was abandoned, right?"	"He was abandoned, right?"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:48:54	"student009"	"student"	158	"what does it mean ?"	"what does it mean ?"	NA	"7c"	"enquiry"	"lexical resource,meaning"	NA	NA	5
+2020-06-30 07:49:08	"teacher008"	"teacher"	159	"to abandon someone = to leave someone"	"to abandon someone = to leave someone"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-06-30 07:49:33	"student009"	"student"	160	"he wasn't really left"	"he wasn't really left"	157	NA	NA	NA	NA	NA	4
+2020-06-30 07:50:02	"student009"	"student"	161	"his owner Ivan Ivanovich was ill"	"his owner Ivan Ivanovich was ill"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:50:18	"teacher008"	"teacher"	162	"Oh, right, yes, it's coming back to me. Very sad!"	"Oh, right, yes, it's coming back to me. Very sad!"	NA	NA	NA	NA	NA	NA	10
+2020-06-30 07:50:42	"teacher008"	"teacher"	163	"Well, only 2 left now."	"Well, only 2 left now."	NA	"8.0"	"topic development"	NA	NA	NA	5
+2020-06-30 07:50:50	"teacher008"	"teacher"	164	"Is summer your favourite season?"	"Is summer your favourite season?"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:51:09	"student009"	"student"	165	"summer and winter are"	"summer and winter are"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:51:20	"student009"	"student"	166	"but there is some reasons)"	"but there are some reasons)"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:51:28	"teacher008"	"teacher"	167	"holidays?"	"holidays?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:51:32	"student009"	"student"	168	"*are"	"*are"	166	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-06-30 07:51:40	"student009"	"student"	169	"one of them"	"one of them"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:51:46	"teacher008"	"teacher"	170	"Is your birthday in the summer?"	"Is your birthday in the summer?"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:52:01	"student009"	"student"	171	"no, it is in winter"	"no, it is in winter"	NA	NA	NA	NA	NA	NA	5
+2020-06-30 07:52:15	"teacher008"	"teacher"	172	"is it because you usually travel in the summer?"	"is it because you usually travel in the summer?"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:52:21	"student009"	"student"	173	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:52:39	"student009"	"student"	174	"and I can meet my family"	"and I can see my family"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:52:39	"teacher008"	"teacher"	175	"Yes, you told me :) cool!"	"Yes, you told me :) cool!"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:53:05	"teacher008"	"teacher"	176	"you can see them, right? you've already met them"	"you can see them, right? you've already met them"	174	"8a"	"repair"	"lexical resource"	NA	NA	9
+2020-06-30 07:53:14	"student009"	"student"	177	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:53:27	"teacher008"	"teacher"	178	"We say 'meet' if  we actually meet someone for the first time. After that, we see them"	"We say 'meet' if  we actually meet someone for the first time. After that, we see them"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-06-30 07:53:35	"student009"	"student"	179	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:53:42	"teacher008"	"teacher"	180	"I know there's no difference in Ukrainian / Russian"	"I know there's no difference in Ukrainian / Russian"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:53:57	"student009"	"student"	181	"yea"	"yea"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:54:13	"teacher008"	"teacher"	182	"Ok, TOP!"	"Ok, TOP!"	NA	"9.0"	"topic opening"	NA	NA	NA	2
+2020-06-30 07:54:18	"teacher008"	"teacher"	183	"Is it an abbreviation?"	"Is it an abbreviation?"	NA	NA	NA	NA	NA	NA	4
+2020-06-30 07:54:25	"student009"	"student"	184	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:54:33	"teacher008"	"teacher"	185	"ooh, tough!"	"ooh, tough!"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:54:40	"teacher008"	"teacher"	186	"is the name of a band?"	"is the name of a band?"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:54:50	"student009"	"student"	187	"it is connected to my nickname:)"	"it is connected to my nickname:)"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:54:57	"student009"	"student"	188	"yes!!!"	"yes!!!"	186	NA	NA	NA	NA	NA	1
+2020-06-30 07:55:28	"teacher008"	"teacher"	189	"Aha, got it! Is it your favourite band?"	"Aha, got it! Is it your favourite band?"	NA	NA	NA	NA	NA	NA	8
+2020-06-30 07:55:45	"student009"	"student"	190	"yeap:)"	"yep:)"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:55:52	"teacher008"	"teacher"	191	"oh wonderful!"	"oh wonderful!"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 07:56:00	"teacher008"	"teacher"	192	"And what does your nickname mean? a song?"	"And what does your nickname mean? a song?"	NA	NA	NA	NA	NA	NA	8
+2020-06-30 07:56:20	"student009"	"student"	193	"it is close to name of the band"	"it is close to name of the band"	NA	NA	NA	NA	NA	NA	8
+2020-06-30 07:56:37	"student009"	"student"	194	"pilots"	"pilots"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 07:57:07	"teacher008"	"teacher"	195	"ok, lovely, thanks for the quiz, it was fun :)"	"ok, lovely, thanks for the quiz, it was fun :)"	NA	NA	NA	NA	NA	NA	10
+2020-06-30 07:57:16	"student009"	"student"	196	"wait"	"wait"	NA	"9a"	"topic development"	NA	NA	NA	1
+2020-06-30 07:57:23	"student009"	"student"	197	"it isn't all"	"it isn't all"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:57:42	"student009"	"student"	198	"the name of the band is Twenty One Pilots"	"the name of the band is Twenty One Pilots"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:57:57	"teacher008"	"teacher"	199	"Oh, I see!"	"Oh, I see!"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 07:58:04	"student009"	"student"	200	"but there are only two people in their band"	"but there are only two people in their band"	NA	NA	NA	NA	NA	NA	9
+2020-06-30 07:58:19	"teacher008"	"teacher"	201	"and none of them are pilots?"	"and none of them are pilots?"	NA	NA	NA	NA	NA	NA	6
+2020-06-30 07:58:33	"student009"	"student"	202	"so somebody asked them 'where are another nineteen pilots?'"	"so somebody asked them 'where are the other nineteen pilots?'"	200	NA	NA	NA	NA	NA	9
+2020-06-30 07:58:40	"student009"	"student"	203	"none of them"	"none of them"	201	NA	NA	NA	NA	NA	3
+2020-06-30 07:59:04	"teacher008"	"teacher"	204	":))) I see"	":))) I see"	202	NA	NA	NA	NA	NA	3
+2020-06-30 07:59:25	"teacher008"	"teacher"	205	"can you give me one minute, I thought of an interesting homework for you, just need to find a link"	"can you give me one minute, I thought of an interesting homework for you, just need to find a link"	NA	"10.0"	"admin"	NA	NA	NA	20
+2020-06-30 07:59:33	"student009"	"student"	206	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 08:01:06	"teacher008"	"teacher"	207	"You know what, I'll send the link to you on Skype. I'd like you to watch a short video of the so-called 'marshmallow test'. Do you know what it is?"	"You know what, I'll send the link to you on Skype. I'd like you to watch a short video of the so-called 'marshmallow test'. Do you know what it is?"	NA	NA	"homework,eliciting"	"lexical resource,world knowledge"	NA	NA	30
+2020-06-30 08:01:31	"student009"	"student"	208	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 08:01:45	"teacher008"	"teacher"	209	"Do you know 'marshmallow'?"	"Do you know 'marshmallow'?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+2020-06-30 08:02:08	"student009"	"student"	210	"DJ?"	"DJ?"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 08:02:16	"teacher008"	"teacher"	211	"Probably :)"	"Probably :)"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 08:02:22	"student009"	"student"	212	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-06-30 08:02:35	"teacher008"	"teacher"	213	"But originally it's a yummy dessert, similar to Ukrainian 'zefir'"	"But originally it's a yummy dessert, similar to Ukrainian 'zefir'"	NA	NA	"scaffolding,non-English"	"lexical resource,meaning,code switching"	NA	NA	10
+2020-06-30 08:02:46	"student009"	"student"	214	"I know"	"I know"	NA	NA	NA	NA	NA	NA	2
+2020-06-30 08:02:53	"student009"	"student"	215	"it is tasty"	"it is tasty"	NA	NA	NA	NA	NA	NA	3
+2020-06-30 08:02:57	"teacher008"	"teacher"	216	"You will see the rest in the video! It's to do with the idea of willpower!"	"You will see the rest in the video! It's to do with the idea of willpower!"	NA	NA	NA	NA	NA	NA	16
+2020-06-30 08:03:11	"student009"	"student"	217	"but they are not similar!"	"but they are not similar!"	215	NA	NA	NA	NA	NA	5
+2020-06-30 08:03:15	"teacher008"	"teacher"	218	"Ok, now, would Thursday 10 am suit you?"	"Ok, now, would Thursday 10 am suit you?"	NA	"11.0"	"admin"	NA	NA	NA	8
+2020-06-30 08:03:23	"teacher008"	"teacher"	219	"No, zefir is better!"	"No, zefir is better!"	217	NA	"non-English"	"code switching,lexical resource"	NA	NA	4
+2020-06-30 08:03:28	"student009"	"student"	220	"I think yes"	"I think yes"	218	NA	NA	NA	NA	NA	3
+2020-06-30 08:03:41	"student009"	"student"	221	"marshmallows are better:)"	"marshmallows are better:)"	219	NA	NA	NA	NA	NA	3
+2020-06-30 08:03:44	"teacher008"	"teacher"	222	"Great, I'll send you the link then, have a lovely day!"	"Great, I'll send you the link then, have a lovely day!"	220	"12.0"	"closing"	NA	NA	NA	11
+2020-06-30 08:03:52	"teacher008"	"teacher"	223	"Nooo, zefir is better :)"	"Nooo, zefir is better :)"	221	NA	"non-English"	"code switching,lexical resource"	NA	NA	5
+2020-06-30 08:04:00	"student009"	"student"	224	"thank you , bye!!!"	"thank you , bye!!!"	222	NA	NA	NA	NA	NA	4
+2020-06-30 08:04:07	"teacher008"	"teacher"	225	"Bye <STUDENT> :)"	"Bye <STUDENT> :)"	NA	NA	NA	NA	NA	"B2"	3

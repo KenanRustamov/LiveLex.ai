@@ -1,0 +1,146 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-01-26 13:29:37	"student009"	"student"	1	"hi!How are you?"	"Hi! How are you?"	NA	"1.0"	"opening"	NA	NA	NA	3
+2021-01-26 13:29:48	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-01-26 13:29:54	"teacher008"	"teacher"	3	"All good, how are you?"	"All good, how are you?"	1	NA	NA	NA	NA	NA	5
+2021-01-26 13:30:10	"student009"	"student"	4	"me too"	"me too"	NA	NA	NA	NA	NA	NA	2
+2021-01-26 13:30:22	"teacher008"	"teacher"	5	"How was your birthday??"	"How was your birthday??"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-01-26 13:30:29	"student009"	"student"	6	"fine"	"fine"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:30:49	"student009"	"student"	7	"we had some fun on Saturday"	"we had some fun on Saturday"	NA	NA	NA	NA	NA	NA	6
+2021-01-26 13:30:57	"teacher008"	"teacher"	8	"Were you able to see your friends? Did you have any nice presents?"	"Were you able to see your friends? Did you have any nice presents?"	NA	"2a"	"topic development"	NA	NA	NA	13
+2021-01-26 13:31:24	"student009"	"student"	9	"I celebrated with my friends"	"I celebrated with my friends"	NA	NA	NA	NA	NA	NA	5
+2021-01-26 13:31:39	"teacher008"	"teacher"	10	"Nice!"	"Nice!"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:32:12	"student009"	"student"	11	"and I have enough money to buy smth"	"and I have enough money to buy smth"	NA	NA	NA	NA	NA	NA	8
+2021-01-26 13:32:26	"teacher008"	"teacher"	12	"Ooh, nice! What might you buy?"	"Ooh, nice! What might you buy?"	NA	"2b"	"topic development"	NA	NA	NA	6
+2021-01-26 13:32:46	"student009"	"student"	13	"what is better- ipad or iphone?"	"what is better- an iPad or an iPhone?"	NA	NA	NA	NA	NA	NA	6
+2021-01-26 13:33:44	"teacher008"	"teacher"	14	"Hmm, to be honest I have none! My phone is an android and I've never had a tablet, just a laptop"	"Hmm, to be honest I have none! My phone is an android and I've never had a tablet, just a laptop"	NA	NA	NA	NA	NA	NA	21
+2021-01-26 13:34:05	"student009"	"student"	15	"I want to buy a tablet for school"	"I want to buy a tablet for school"	NA	NA	NA	NA	NA	NA	8
+2021-01-26 13:34:09	"teacher008"	"teacher"	16	"What are the pros and cons of each in your opinion?"	"What are the pros and cons of each in your opinion?"	NA	"2c"	"topic development"	NA	NA	NA	11
+2021-01-26 13:34:47	"student009"	"student"	17	"there are to much books and sometimes my back hurts"	"there are too many books and sometimes my back hurts"	15	NA	NA	NA	NA	NA	10
+2021-01-26 13:35:15	"teacher008"	"teacher"	18	"too ___ books"	"too ___ books"	NA	"2d"	"eliciting,repair"	"grammatical resource"	NA	NA	3
+2021-01-26 13:35:37	"student009"	"student"	19	"so I have started searching a nice ipad"	"so I have started searching for a nice ipad"	17	NA	NA	NA	NA	NA	8
+2021-01-26 13:35:41	"student009"	"student"	20	"many"	"many"	18	NA	NA	NA	NA	NA	1
+2021-01-26 13:35:42	"teacher008"	"teacher"	21	"Oh yes, I remember that problem from school. My deskmate and I used to divide the books between us"	"Oh yes, I remember that problem from school. My deskmate and I used to divide the books between us"	19	NA	NA	NA	NA	NA	19
+2021-01-26 13:35:55	"teacher008"	"teacher"	22	"yes, many, books are countable!"	"yes, many, books are countable!"	20	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2021-01-26 13:36:15	"student009"	"student"	23	"my deskmate is awful"	"my deskmate is awful"	21	NA	NA	NA	NA	NA	4
+2021-01-26 13:36:25	"teacher008"	"teacher"	24	"Have you got all your books in e-format?"	"Have you got all your books in e-format?"	NA	NA	NA	NA	NA	NA	8
+2021-01-26 13:36:32	"teacher008"	"teacher"	25	"Oh no, that's a shame!"	"Oh no, that's a shame!"	23	NA	NA	NA	NA	NA	5
+2021-01-26 13:37:03	"student009"	"student"	26	"like we just find the copy of the book in the internet"	"like we just find the copy of the book in the internet"	24	NA	NA	NA	NA	NA	12
+2021-01-26 13:37:09	"student009"	"student"	27	"and upload it"	"and upload it"	NA	NA	NA	NA	NA	NA	3
+2021-01-26 13:37:38	"teacher008"	"teacher"	28	"I see, that's so convenient!"	"I see, that's so convenient!"	NA	NA	NA	NA	NA	NA	5
+2021-01-26 13:38:48	"teacher008"	"teacher"	29	"It's definitely a strong argument for an ipad, right?"	"It's definitely a strong argument for an ipad, right?"	NA	NA	NA	NA	NA	NA	9
+2021-01-26 13:39:20	"student009"	"student"	30	"I had a folder for my notebooks, and because of the books it"	"I had a folder for my notebooks, and because of the books it"	28	NA	NA	NA	NA	NA	13
+2021-01-26 13:39:25	"student009"	"student"	31	"broke"	"broke"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:39:31	"student009"	"student"	32	"yes it is"	"yes it is"	29	NA	NA	NA	NA	NA	3
+2021-01-26 13:40:14	"teacher008"	"teacher"	33	"Are there any cons?"	"Are there any cons?"	NA	"2e"	"topic development"	NA	NA	NA	4
+2021-01-26 13:40:26	"student009"	"student"	34	"hmm"	"hmm"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:40:40	"student009"	"student"	35	"not all teachers supirt such books)"	"not all teachers support such books)"	NA	NA	NA	NA	NA	NA	6
+2021-01-26 13:40:46	"student009"	"student"	36	"support"	"support"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-01-26 13:41:25	"teacher008"	"teacher"	37	"Oh yes, I can see that. Even with one book for both of us, my deskmate and I were told off for not having a book each!"	"Oh yes, I can see that. Even with one book for both of us, my deskmate and I were told off for not having a book each!"	NA	NA	NA	NA	NA	NA	27
+2021-01-26 13:41:28	"student009"	"student"	38	"one year ago I had an Ipad, but it is very old, so we don't use it now"	"one year ago I had an iPad, but it is very old, so we don't use it now"	NA	NA	NA	NA	NA	NA	18
+2021-01-26 13:41:35	"student009"	"student"	39	"why?"	"why?"	37	NA	NA	NA	NA	NA	1
+2021-01-26 13:42:20	"teacher008"	"teacher"	40	"They used to say we needed a book each! But that would mean each of us would have to lug around 6 books + all notebooks every day"	"They used to say we needed a book each! But that would mean each of us would have to lug around 6 books + all notebooks every day"	NA	NA	NA	NA	NA	NA	28
+2021-01-26 13:43:01	"student009"	"student"	41	"awful"	"awful"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:43:12	"teacher008"	"teacher"	42	"Yes, it's a real problem!"	"Yes, it's a real problem!"	NA	NA	NA	NA	NA	NA	5
+2021-01-26 13:43:22	"teacher008"	"teacher"	43	"So what are the pros and cons of an iphone?"	"So what are the pros and cons of an iphone?"	NA	"2f"	"topic development"	NA	NA	NA	10
+2021-01-26 13:44:25	"student009"	"student"	44	"my phone will go to my mom:)"	"my phone will go to my mom:)"	NA	NA	NA	NA	NA	NA	7
+2021-01-26 13:44:48	"teacher008"	"teacher"	45	"Haha, ok :) the one you have now you mean?"	"Haha, ok :) the one you have now you mean?"	NA	NA	NA	NA	NA	NA	10
+2021-01-26 13:45:00	"student009"	"student"	46	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:46:32	"teacher008"	"teacher"	47	"But you won't be able to have all your books in it and read comfortably?"	"But you won't be able to have all your books in it and read comfortably?"	NA	NA	NA	NA	NA	NA	15
+2021-01-26 13:46:52	"student009"	"student"	48	"i don't like my deskmate because our class teacher made us to sit like that"	"I don't like my deskmate because our class teacher made us sit like that"	NA	"2g"	"topic development"	NA	NA	NA	15
+2021-01-26 13:46:55	"student009"	"student"	49	"yes"	"yes"	47	NA	NA	NA	NA	NA	1
+2021-01-26 13:47:06	"teacher008"	"teacher"	50	"I see, it wasn't your choice?"	"I see, it wasn't your choice?"	48	NA	NA	NA	NA	NA	6
+2021-01-26 13:47:17	"student009"	"student"	51	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:47:44	"teacher008"	"teacher"	52	"That's a shame! I'm still friends with my former deskmate"	"That's a shame! I'm still friends with my former deskmate"	NA	NA	NA	NA	NA	NA	10
+2021-01-26 13:49:24	"teacher008"	"teacher"	53	"We're also thinking about a big purchase. A car!"	"We're also thinking about a big purchase. A car!"	NA	"3.0"	"topic opening"	NA	NA	NA	9
+2021-01-26 13:49:44	"student009"	"student"	54	"cool!"	"cool!"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:49:46	"teacher008"	"teacher"	55	"I think we will buy one when this lockdown finishes, whenever it is (probably in the spring)"	"I think we will buy one when this lockdown finishes, whenever it is (probably in the spring)"	NA	NA	NA	NA	NA	NA	17
+2021-01-26 13:50:05	"teacher008"	"teacher"	56	"We'd like a hybrid one. Do you know what I mean by a hybrid car?"	"We'd like a hybrid one. Do you know what I mean by a hybrid car?"	NA	NA	NA	NA	NA	NA	15
+2021-01-26 13:50:11	"student009"	"student"	57	"which one do you want to buy?"	"which one do you want to buy?"	55	NA	NA	NA	NA	NA	7
+2021-01-26 13:50:14	"student009"	"student"	58	"no"	"no"	56	NA	NA	NA	NA	NA	1
+2021-01-26 13:51:04	"teacher008"	"teacher"	59	"It runs off petrol and electricity. While it runs off petrol, the electric battery gets charged and it can continue on electricity. And when it runs out of electricity, it switches back to petrol"	"It runs off petrol and electricity. While it runs off petrol, the electric battery gets charged and it can continue on electricity. And when it runs out of electricity, it switches back to petrol"	NA	NA	NA	NA	NA	NA	34
+2021-01-26 13:51:20	"teacher008"	"teacher"	60	"A bit greener and more economical than just a petrol one"	"A bit greener and more economical than just a petrol one"	NA	NA	NA	NA	NA	NA	11
+2021-01-26 13:51:54	"student009"	"student"	61	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:52:35	"student009"	"student"	62	"of course only electricity would be better, but it costd a lot"	"of course only electricity would be better, but it costs a lot"	NA	NA	NA	NA	NA	NA	12
+2021-01-26 13:52:35	"teacher008"	"teacher"	63	"Yes, it's so tempting to buy a car because we have gone completely stir crazy in this lockdown"	"Yes, it's so tempting to buy a car because we have gone completely stir crazy in this lockdown"	61	NA	NA	NA	NA	NA	18
+2021-01-26 13:53:30	"teacher008"	"teacher"	64	"Do you know 'stir-crazy'? It means annoyed and upset because you have to stay inside all the time"	"Do you know 'stir-crazy'? It means annoyed and upset because you have to stay inside all the time"	NA	"3a"	"scaffolding"	"lexical resource"	NA	NA	18
+2021-01-26 13:53:50	"student009"	"student"	65	"i didn't knoe"	"I didn't know"	NA	NA	NA	NA	NA	NA	3
+2021-01-26 13:54:06	"teacher008"	"teacher"	66	"It's a good authentic expression, you should try it on <ANOTHER TEACHER>:)"	"It's a good authentic expression, you should try it on <ANOTHER TEACHER> :)"	NA	NA	NA	NA	NA	NA	12
+2021-01-26 13:54:38	"teacher008"	"teacher"	67	"But of course, at the moment we aren't allowed to go anywhere anyway"	"But of course, at the moment we aren't allowed to go anywhere anyway"	63	NA	NA	NA	NA	NA	13
+2021-01-26 13:54:57	"student009"	"student"	68	"My grammat is better after our lessons, so sometimes it helps)"	"My grammar is better after our lessons, so sometimes it helps)"	NA	"3b"	"topic development"	NA	NA	NA	11
+2021-01-26 13:55:19	"student009"	"student"	69	"our lockdown finished 2 days ago("	"our lockdown finished 2 days ago("	NA	"3c"	"topic development"	NA	NA	NA	6
+2021-01-26 13:55:23	"teacher008"	"teacher"	70	"Oh I'm glad you're feeling the effect!"	"Oh I'm glad you're feeling the effect!"	68	NA	NA	NA	NA	NA	7
+2021-01-26 13:55:40	"teacher008"	"teacher"	71	"Oh really, I didn't realize! Are you back at school then?"	"Oh really, I didn't realize! Are you back at school then?"	69	NA	NA	NA	NA	NA	11
+2021-01-26 13:55:48	"student009"	"student"	72	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:55:55	"student009"	"student"	73	"that's sad"	"that's sad"	NA	NA	NA	NA	NA	NA	2
+2021-01-26 13:56:08	"teacher008"	"teacher"	74	"Sorry to hear that!"	"Sorry to hear that!"	NA	NA	NA	NA	NA	NA	4
+2021-01-26 13:56:29	"teacher008"	"teacher"	75	"My son is also prefers the lockdown to school"	"My son is also prefers the lockdown to school"	NA	NA	NA	NA	NA	NA	9
+2021-01-26 13:56:45	"student009"	"student"	76	"our government knows that coronavirud spread is very big now in Ukraine, but they don't to anything!"	"our government knows that the coronavirus spread is very fast now in Ukraine, but they aren't doing anything!"	NA	NA	NA	NA	NA	NA	17
+2021-01-26 13:56:48	"teacher008"	"teacher"	77	"*oops! Which word do I not need in this sentence?"	"*oops! Which word do I not need in this sentence?"	75	"3d"	"eliciting,repair"	"grammatical resource"	NA	NA	10
+2021-01-26 13:57:24	"student009"	"student"	78	"is"	"is"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:57:35	"teacher008"	"teacher"	79	"That's right :)"	"That's right :)"	NA	NA	NA	NA	NA	NA	3
+2021-01-26 13:57:43	"teacher008"	"teacher"	80	"Really? This is so frustrating!!"	"Really? This is so frustrating!!"	76	NA	NA	NA	NA	NA	5
+2021-01-26 13:58:49	"student009"	"student"	81	"even with schools! a lot of our teachers were ill, and our principal didn't want to close the school because we are gYmNaSiUm"	"even with schools! a lot of our teachers were ill, and our principal didn't want to close the school because we are a gymnasium"	NA	NA	NA	NA	NA	NA	23
+2021-01-26 13:59:27	"teacher008"	"teacher"	82	"Ha, it doesn't make you immune to the virus, does it?"	"Ha, it doesn't make you immune to the virus, does it?"	NA	NA	NA	NA	NA	NA	11
+2021-01-26 13:59:41	"student009"	"student"	83	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 13:59:55	"teacher008"	"teacher"	84	"It's such a tricky thing with the word 'gymnasium' in English. Do you know what it means?"	"It's such a tricky thing with the word 'gymnasium' in English. Do you know what it means?"	NA	"4.0"	"topic opening,eliciting"	"lexical resource,meaning"	NA	NA	17
+2021-01-26 14:00:29	"student009"	"student"	85	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:00:59	"teacher008"	"teacher"	86	"It means 'a gym'. A place where people go to do sports!"	"It means 'a gym'. A place where people go to do sports!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-01-26 14:01:07	"student009"	"student"	87	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:01:24	"student009"	"student"	88	"i know gym"	"I know 'gym'"	NA	NA	NA	NA	NA	NA	3
+2021-01-26 14:01:32	"teacher008"	"teacher"	89	"And a school which offer more advanced teaching is a grammar school or an academy"	"And a school which offer more advanced teaching is a grammar school or an academy"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2021-01-26 14:01:43	"teacher008"	"teacher"	90	"Yes, of course, you do. It's a short for gymnasium!"	"Yes, of course, you do. It's a short for gymnasium!"	88	NA	NA	NA	NA	NA	10
+2021-01-26 14:01:51	"teacher008"	"teacher"	91	"*sorry, which offerS"	"*sorry, which offerS"	89	NA	"repair"	"writing"	NA	NA	3
+2021-01-26 14:02:14	"student009"	"student"	92	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:02:26	"teacher008"	"teacher"	93	"Do you remember what we call words that sound similar in different languages but mean different things?"	"Do you remember what we call words that sound similar in different languages but mean different things?"	NA	"4a"	"eliciting,revision"	"lexical resource,meta knowledge"	NA	NA	17
+2021-01-26 14:03:13	"student009"	"student"	94	"forgot"	"forgot"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:03:19	"teacher008"	"teacher"	95	"false friends, right?"	"false friends, right?"	NA	NA	"scaffolding,revision"	"lexical resource,meta knowledge"	NA	NA	3
+2021-01-26 14:03:20	"student009"	"student"	96	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:03:23	"student009"	"student"	97	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:03:29	"teacher008"	"teacher"	98	"no worries"	"no worries"	NA	NA	NA	NA	NA	NA	2
+2021-01-26 14:04:14	"teacher008"	"teacher"	99	"I also studied at a gymnasium, but it's best not to say it to English speakers :) They will think you went to a gym instead of a school!"	"I also studied at a gymnasium, but it's best not to say it to English speakers :) They will think you went to a gym instead of a school!"	NA	NA	NA	NA	NA	NA	29
+2021-01-26 14:04:22	"student009"	"student"	100	"heh"	"heh"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:05:45	"teacher008"	"teacher"	101	"Ok, let's have a look back at our text about the brain!"	"Ok, let's have a look back at our text about the brain!"	NA	"5.0"	"exercise,revision"	"lexical resource,meaning"	NA	NA	12
+2021-01-26 14:06:12	"teacher008"	"teacher"	102	"I'll give you a word from the previous class and you try to remember what it means, ok?"	"I'll give you a word from the previous class and you try to remember what it means, ok?"	NA	NA	NA	NA	NA	NA	18
+2021-01-26 14:06:16	"teacher008"	"teacher"	103	"neuroscience"	"neuroscience"	NA	NA	"eliciting,revision"	"lexical resource,meaning"	NA	NA	1
+2021-01-26 14:07:17	"student009"	"student"	104	"science about neurons"	"the science of neurons"	NA	NA	NA	NA	NA	NA	3
+2021-01-26 14:07:37	"student009"	"student"	105	"about our brains"	"of our brains"	NA	NA	NA	NA	NA	NA	3
+2021-01-26 14:08:28	"teacher008"	"teacher"	106	"yes, about the nervous system (which a brain is a part of)"	"yes, about the nervous system (which a brain is a part of)"	NA	NA	NA	NA	NA	NA	12
+2021-01-26 14:08:34	"teacher008"	"teacher"	107	"a hemisphere"	"a hemisphere"	NA	"5a"	"eliciting,revision"	"lexical resource,meaning"	NA	NA	2
+2021-01-26 14:10:29	"teacher008"	"teacher"	108	"If you don't remember, just say so, ok?"	"If you don't remember, just say so, ok?"	NA	NA	NA	NA	NA	NA	8
+2021-01-26 14:11:18	"student009"	"student"	109	"oy wait"	"oy wait"	NA	NA	NA	NA	NA	NA	2
+2021-01-26 14:11:24	"teacher008"	"teacher"	110	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:11:29	"student009"	"student"	111	"i didn't see it"	"I didn't see it"	NA	NA	NA	NA	NA	NA	4
+2021-01-26 14:11:44	"teacher008"	"teacher"	112	"no worries"	"no worries"	NA	NA	NA	NA	NA	NA	2
+2021-01-26 14:11:52	"student009"	"student"	113	"a half of our brain"	"a half of our brain"	NA	NA	NA	NA	NA	NA	5
+2021-01-26 14:13:00	"teacher008"	"teacher"	114	"Yes, exactly. The left and the right hemisphere. It comes from the Greek language where 'hemi' is 'half' and 'sphere' is, well you can guess it :)"	"Yes, exactly. The left and the right hemisphere. It comes from the Greek language where 'hemi' is 'half' and 'sphere' is, well you can guess it :)"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	27
+2021-01-26 14:13:32	"teacher008"	"teacher"	115	"a round object"	"a round object"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	3
+2021-01-26 14:13:45	"teacher008"	"teacher"	116	"Ok, next one! Do you remember 'a lobe'?"	"Ok, next one! Do you remember 'a lobe'?"	NA	"5b"	"eliciting,revision"	"lexical resource,meaning"	NA	NA	8
+2021-01-26 14:15:10	"student009"	"student"	117	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:15:13	"student009"	"student"	118	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:15:35	"teacher008"	"teacher"	119	"it's a part of an organ, for example a part of the brain"	"it's a part of an organ, for example a part of the brain"	NA	NA	"scaffolding,revision"	"lexical resource,meaning"	NA	NA	13
+2021-01-26 14:16:06	"teacher008"	"teacher"	120	"And one last! Scientists believe that humans _____ from primates. (the verb for changing over a long period of time)"	"And one last! Scientists believe that humans _____ from primates. (the verb for changing over a long period of time)"	NA	"5c"	"eliciting,revision"	"lexical resource"	NA	NA	20
+2021-01-26 14:17:12	"student009"	"student"	121	"evolve"	"evolve"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:17:25	"teacher008"	"teacher"	122	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2021-01-26 14:17:56	"teacher008"	"teacher"	123	"Ok, could you go back to the text (the link is in your Skype), read it again and decide whether these sentences are true or false"	"Ok, could you go back to the text (the link is in your Skype), read it again and decide whether these sentences are true or false"	NA	"6.0"	"exercise"	"reading"	NA	NA	26
+2021-01-26 14:18:10	"teacher008"	"teacher"	124	"1. A person’s brain is fully formed when they are 20 years old. 2. An amygdala is involved in thinking and calculating. 3. Neurotransmitters are chemical messengers in our bodies. 4. The effect of dopamine on behaviour is negative. 5. A teenage brain is not as good at judgement and impulse control as an adult brain."	"1. A person’s brain is fully formed when they are 20 years old. 2. An amygdala is involved in thinking and calculating. 3. Neurotransmitters are chemical messengers in our bodies. 4. The effect of dopamine on behaviour is negative. 5. A teenage brain is not as good at judgement and impulse control as an adult brain."	NA	NA	NA	NA	NA	NA	56
+2021-01-26 14:21:38	"student009"	"student"	125	"1. false 2. false 3.true 4. false 5.false"	"1. false 2. false 3. true 4. false 5. false"	NA	NA	NA	NA	NA	NA	8
+2021-01-26 14:21:50	"teacher008"	"teacher"	126	"Ok, why is (1) false?"	"Ok, why is (1) false?"	NA	"6a"	"eliciting"	"reading"	NA	NA	5
+2021-01-26 14:23:27	"student009"	"student"	127	"it is fully formed at 25"	"it is fully formed at 25"	NA	NA	NA	NA	NA	NA	6
+2021-01-26 14:24:26	"teacher008"	"teacher"	128	"it's still forming 'well into your early twenties', right? Maybe there is no clear limit, it doesn't say it's formed at 25"	"it's still forming 'well into your early twenties', right? Maybe there is no clear limit, it doesn't say it's formed at 25"	NA	NA	NA	NA	NA	NA	22
+2021-01-26 14:24:36	"teacher008"	"teacher"	129	"But the statement was false :)"	"But the statement was false :)"	NA	NA	NA	NA	NA	NA	6
+2021-01-26 14:24:40	"teacher008"	"teacher"	130	"What about the second one?"	"What about the second one?"	NA	"6b"	"eliciting"	"reading"	NA	NA	5
+2021-01-26 14:25:05	"student009"	"student"	131	"amygdalae are involved in experiencing emotions"	"amygdalae are involved in experiencing emotions"	NA	NA	NA	NA	NA	NA	6
+2021-01-26 14:25:20	"teacher008"	"teacher"	132	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2021-01-26 14:25:37	"teacher008"	"teacher"	133	"The third one is indeed true. What about dopamine, number 4?"	"The third one is indeed true. What about dopamine, number 4?"	NA	"6c"	"eliciting"	"reading"	NA	NA	11
+2021-01-26 14:26:39	"student009"	"student"	134	"Dopamine motivates us to do things, to feel interested in life, to seek out new experiences."	"Dopamine motivates us to do things, to feel interested in life, to seek out new experiences."	NA	NA	NA	NA	NA	NA	16
+2021-01-26 14:26:55	"teacher008"	"teacher"	135	"Ah, so not all negative, right?"	"Ah, so not all negative, right?"	NA	NA	NA	NA	NA	NA	6
+2021-01-26 14:27:13	"teacher008"	"teacher"	136	"and number 5? why is it false?"	"and number 5? why is it false?"	NA	"6d"	"eliciting"	"reading"	NA	NA	7
+2021-01-26 14:28:37	"student009"	"student"	137	"oy it is true"	"oy it is true"	NA	NA	NA	NA	NA	NA	4
+2021-01-26 14:28:49	"teacher008"	"teacher"	138	"Haha, yes, it is! well done!"	"Haha, yes, it is! well done!"	NA	NA	NA	NA	NA	NA	6
+2021-01-26 14:29:03	"student009"	"student"	139	"Back to the lobes, in the teenage brain, the frontal lobe, which is responsible for problem solving, judgement and impulse control, isn't fully developed, so because you're dealing with heightened emotions before you've developed ways of putting the brakes on, you may sometimes be feeling a little out of control…"	"Back to the lobes, in the teenage brain, the frontal lobe, which is responsible for problem solving, judgement and impulse control, isn't fully developed, so because you're dealing with heightened emotions before you've developed ways of putting the brakes on, you may sometimes be feeling a little out of control…"	NA	NA	NA	NA	NA	NA	50
+2021-01-26 14:29:12	"teacher008"	"teacher"	140	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2021-01-26 14:29:50	"teacher008"	"teacher"	141	"Ok, thank you very much, I've got let you go. Shall we say same time next week? next Tuesday 3.30 pm?"	"Ok, thank you very much, I've got let you go. Shall we say same time next week? next Tuesday 3.30 pm?"	NA	"7.0"	"closing"	NA	NA	NA	21
+2021-01-26 14:30:20	"student009"	"student"	142	"thank you for tge lesson! what about Friday?"	"Thank you for the lesson! what about Friday?"	NA	NA	"enquiry"	NA	NA	NA	8
+2021-01-26 14:30:55	"teacher008"	"teacher"	143	"Oh, I can't do Friday this week, sorry! because of the lockdown. I hope in a couple of weeks we will be able to do two lessons a week again!"	"Oh, I can't do Friday this week, sorry! because of the lockdown. I hope in a couple of weeks we will be able to do two lessons a week again!"	NA	NA	NA	NA	NA	NA	30
+2021-01-26 14:31:10	"student009"	"student"	144	"okay, bye!"	"okay, bye!"	NA	NA	NA	NA	NA	NA	2
+2021-01-26 14:31:21	"teacher008"	"teacher"	145	"Ok, take care!"	"Ok, take care!"	NA	NA	NA	NA	NA	"B2"	3

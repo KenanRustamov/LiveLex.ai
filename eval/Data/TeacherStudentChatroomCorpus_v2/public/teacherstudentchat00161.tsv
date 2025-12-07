@@ -1,0 +1,182 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-08 13:31:27	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-12-08 13:31:36	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 13:31:45	"teacher008"	"teacher"	3	"Your username looks mysterious today!"	"Your username looks mysterious today!"	NA	"2.0"	"topic opening"	NA	NA	NA	5
+2020-12-08 13:31:50	"student009"	"student"	4	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:32:07	"student009"	"student"	5	"if you turn ypur head"	"if you turn your head"	NA	NA	NA	NA	NA	NA	5
+2020-12-08 13:32:13	"student009"	"student"	6	"upside down"	"upside down"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 13:32:31	"student009"	"student"	7	"ypu will be able to read my nickname"	"you will be able to read my nickname"	NA	NA	NA	NA	NA	NA	8
+2020-12-08 13:32:54	"teacher008"	"teacher"	8	"Hmmm, I've turned my laptop upside down, but it hasn't helped"	"Hmmm, I've turned my laptop upside down, but it hasn't helped"	NA	NA	NA	NA	NA	NA	11
+2020-12-08 13:33:12	"teacher008"	"teacher"	9	"Oh, got it! It says"	"Oh, got it! It says"	NA	NA	NA	NA	NA	NA	5
+2020-12-08 13:33:16	"teacher008"	"teacher"	10	"I love you!"	"I love you!"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 13:33:19	"student009"	"student"	11	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:33:20	"teacher008"	"teacher"	12	"That's clever))"	"That's clever))"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 13:33:25	"student009"	"student"	13	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:33:39	"teacher008"	"teacher"	14	"How are you?"	"How are you?"	NA	"3.0"	"topic opening"	NA	NA	NA	3
+2020-12-08 13:33:44	"student009"	"student"	15	"fine"	"fine"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:33:50	"student009"	"student"	16	"and you ?"	"and you ?"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 13:34:00	"teacher008"	"teacher"	17	"All good, thank you!"	"All good, thank you!"	NA	NA	NA	NA	NA	NA	4
+2020-12-08 13:34:20	"teacher008"	"teacher"	18	"It was snowing last Friday! It was wonderful and unexpected"	"It was snowing last Friday! It was wonderful and unexpected"	NA	"3a"	"topic development"	NA	NA	NA	10
+2020-12-08 13:34:47	"student009"	"student"	19	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:34:53	"student009"	"student"	20	"congratulations"	"congratulations"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:35:00	"teacher008"	"teacher"	21	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 13:35:06	"teacher008"	"teacher"	22	"What's the weather like in Kyiv?"	"What's the weather like in Kyiv?"	NA	"3b"	"topic development"	NA	NA	NA	6
+2020-12-08 13:35:52	"student009"	"student"	23	"a bit snow today"	"a bit of snow today"	NA	NA	NA	NA	NA	NA	4
+2020-12-08 13:36:02	"student009"	"student"	24	"and very cold"	"and very cold"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 13:36:08	"teacher008"	"teacher"	25	"ok, can you make a full sentence, please?"	"ok, can you make a full sentence, please?"	NA	NA	"eliciting"	"discourse management"	NA	NA	8
+2020-12-08 13:37:05	"student009"	"student"	26	"it was a bit snowy and really cold today"	"it was a bit snowy and really cold today"	NA	NA	NA	NA	NA	NA	9
+2020-12-08 13:37:57	"teacher008"	"teacher"	27	"Ok, that's better, thank you :)"	"Ok, that's better, thank you :)"	NA	NA	NA	NA	NA	NA	6
+2020-12-08 13:38:23	"teacher008"	"teacher"	28	"If it's 'today' though, it's not Past Simple, is it? Could you try Present Perfect instead?"	"If it's 'today' though, it's not Past Simple, is it? Could you try Present Perfect instead?"	NA	"3c"	"eliciting,repair"	"grammatical resource"	NA	NA	16
+2020-12-08 13:39:12	"student009"	"student"	29	"but it is not snowing anymore"	"but it is not snowing anymore"	NA	NA	NA	NA	NA	NA	6
+2020-12-08 13:39:52	"teacher008"	"teacher"	30	"I see, yes. But it's still today. Even if the action finished, the time hasn't"	"I see, yes. But it's still today. Even if the action finished, the time hasn't"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-12-08 13:40:07	"teacher008"	"teacher"	31	"You can say 'It was snowing this morning' because it's not morning anymore"	"You can say 'It was snowing this morning' because it's not morning anymore"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-12-08 13:40:18	"teacher008"	"teacher"	32	"but 'It __ ___ snowing today'"	"but 'It __ ___ snowing today'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+2020-12-08 13:40:33	"teacher008"	"teacher"	33	"because today is still on"	"because today is still on"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-12-08 13:40:40	"student009"	"student"	34	"It was snowing in the morning and it has been cold"	"It was snowing in the morning and it has been cold"	NA	NA	NA	NA	NA	NA	11
+2020-12-08 13:40:52	"teacher008"	"teacher"	35	"Ok, that's good :)"	"Ok, that's good :)"	NA	NA	NA	NA	NA	NA	4
+2020-12-08 13:41:09	"teacher008"	"teacher"	36	"It's ok to say 'It has been snowing today!'"	"It's ok to say 'It has been snowing today!'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-12-08 13:42:06	"teacher008"	"teacher"	38	"One second, I'll find an exercise for this"	"One second, I'll find an exercise for this"	NA	NA	NA	NA	NA	NA	8
+2020-12-08 13:42:30	"teacher008"	"teacher"	39	"But a lot of the time, we look not at the action, whether it's finished or not, but at the time word"	"But a lot of the time, we look not at the action, whether it's finished or not, but at the time word"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	22
+2020-12-08 13:42:39	"teacher008"	"teacher"	40	"to decide which tense to use"	"to decide which tense to use"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-12-08 13:43:44	"teacher008"	"teacher"	41	"For example, 'My friend hasn't come to school today'"	"For example, 'My friend hasn't come to school today'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-12-08 13:44:19	"teacher008"	"teacher"	42	"You could argue that the action is in the past. It's already happened. But the time is still today"	"You could argue that the action is in the past. It's already happened. But the time is still today"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-12-08 13:44:25	"teacher008"	"teacher"	43	"and we're using a present tense"	"and we're using a present tense"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-12-08 13:44:31	"teacher008"	"teacher"	44	"Does it make sense to you?"	"Does it make sense to you?"	NA	NA	NA	NA	NA	NA	6
+2020-12-08 13:45:12	"student009"	"student"	45	"i think yed"	"I think yes"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 13:45:48	"teacher008"	"teacher"	46	"I'll find an exercise for you in a minute, I had it somewhere"	"I'll find an exercise for you in a minute, I had it somewhere"	NA	NA	NA	NA	NA	NA	13
+2020-12-08 13:45:59	"teacher008"	"teacher"	47	"How did the party go on Friday?"	"How did the party go on Friday?"	NA	"3d"	"topic development"	NA	NA	NA	7
+2020-12-08 13:46:25	"student009"	"student"	48	"it was okay"	"it was okay"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 13:46:47	"student009"	"student"	49	"there were some nice food and we played mafia"	"there was some nice food and we played mafia"	NA	NA	NA	NA	NA	NA	9
+2020-12-08 13:47:39	"teacher008"	"teacher"	50	"Ooh, mafia, I remember that!"	"Ooh, mafia, I remember that!"	NA	NA	NA	NA	NA	NA	5
+2020-12-08 13:48:07	"teacher008"	"teacher"	51	"Are you planning to have a party for your birthday?"	"Are you planning to have a party for your birthday?"	NA	"3e"	"topic development"	NA	NA	NA	10
+2020-12-08 13:49:06	"student009"	"student"	52	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:49:50	"teacher008"	"teacher"	53	"What would you like your party to be like?"	"What would you like your party to be like?"	NA	NA	NA	NA	NA	NA	9
+2020-12-08 13:50:48	"student009"	"student"	54	"I didn't really think abput it"	"I haven't really thought about it"	NA	NA	NA	NA	NA	NA	6
+2020-12-08 13:51:00	"student009"	"student"	55	"I will think about it in January"	"I will think about it in January"	NA	NA	NA	NA	NA	NA	7
+2020-12-08 13:51:07	"teacher008"	"teacher"	56	"You haven't thought about it?"	"You haven't thought about it?"	54	NA	"repair"	"grammatical resource"	NA	NA	5
+2020-12-08 13:51:10	"teacher008"	"teacher"	57	"Sure :)"	"Sure :)"	55	NA	NA	NA	NA	NA	2
+2020-12-08 13:52:11	"teacher008"	"teacher"	58	"See, this is a Present Perfect situation. You're telling me now about it, the result is important now"	"See, this is a Present Perfect situation. You're telling me now about it, the result is important now"	56	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2020-12-08 13:52:20	"teacher008"	"teacher"	59	"so 'you haven't thought about it'"	"so 'you haven't thought about it'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-12-08 13:54:22	"teacher008"	"teacher"	60	"Ok, I'm going to give you a few sentences. Can you look at the time adverbial, please (the phrase that states the time) and let me know if it's a finished past time or a an unfinished time that is still continuing"	"Ok, I'm going to give you a few sentences. Can you look at the time adverbial, please (the phrase that states the time) and let me know if it's a finished past time or a an unfinished time that is still continuing"	NA	"4.0"	"exercise"	"grammatical resource"	"website"	NA	42
+2020-12-08 13:54:38	"teacher008"	"teacher"	61	"My grandparents moved to the United States IN 1968."	"My grandparents moved to the United States IN 1968."	NA	NA	NA	NA	NA	NA	9
+2020-12-08 13:54:47	"teacher008"	"teacher"	62	"finished past or not finished?"	"finished past or not finished?"	NA	NA	NA	NA	NA	NA	5
+2020-12-08 13:55:19	"student009"	"student"	63	"finished"	"finished"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:55:29	"teacher008"	"teacher"	64	"yes, correct! 1968 is long over"	"yes, correct! 1968 is long over"	NA	NA	NA	NA	NA	NA	6
+2020-12-08 13:55:34	"teacher008"	"teacher"	65	"next one"	"next one"	NA	"4a"	NA	NA	NA	NA	2
+2020-12-08 13:55:38	"teacher008"	"teacher"	66	"They're still in the US, so they've lived there FOR MORE THAN 50 YEARS."	"They're still in the US, so they've lived there FOR MORE THAN 50 YEARS."	NA	NA	NA	NA	NA	NA	14
+2020-12-08 13:56:57	"student009"	"student"	67	"not finished"	"not finished"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 13:57:15	"teacher008"	"teacher"	68	"correct!"	"correct!"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:57:17	"teacher008"	"teacher"	69	"My grandparents came to visit us LAST WEEK"	"My grandparents came to visit us LAST WEEK"	NA	"4b"	NA	NA	NA	NA	8
+2020-12-08 13:58:51	"student009"	"student"	70	"finished"	"finished"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 13:59:04	"teacher008"	"teacher"	71	"They've visited us every summer SINCE I WAS BORN."	"They've visited us every summer SINCE I WAS BORN."	NA	"4c"	NA	NA	NA	NA	9
+2020-12-08 13:59:24	"student009"	"student"	72	"not finished"	"not finished"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 13:59:38	"teacher008"	"teacher"	73	"Sorry, Greg hasn't come to work TODAY. Can I take a message?"	"Sorry, Greg hasn't come to work TODAY. Can I take a message?"	NA	"4d"	NA	NA	NA	NA	12
+2020-12-08 13:59:49	"student009"	"student"	74	"not finished"	"not finished"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 13:59:57	"teacher008"	"teacher"	75	"Sorry, Greg went out FIVE MINUTES AGO. Can I take a message?"	"Sorry, Greg went out FIVE MINUTES AGO. Can I take a message?"	NA	"4e"	NA	NA	NA	NA	12
+2020-12-08 14:00:04	"student009"	"student"	76	"finished"	"finished"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:00:12	"teacher008"	"teacher"	77	"I've received 25 emails THIS MORNING, most of them spam!"	"I've received 25 emails THIS MORNING, most of them spam!"	NA	"4f"	NA	NA	NA	NA	10
+2020-12-08 14:00:21	"student009"	"student"	78	"finished"	"finished"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:00:38	"teacher008"	"teacher"	79	"uh-uh!"	"uh-uh!"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:00:50	"teacher008"	"teacher"	80	"this morning sounds unfinished to me)"	"this morning sounds unfinished to me)"	NA	NA	"repair"	"grammatical resource"	NA	NA	6
+2020-12-08 14:01:02	"student009"	"student"	81	"it is finished"	"it is finished"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 14:01:05	"student009"	"student"	82	"to me"	"to me"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:01:32	"teacher008"	"teacher"	83	"Oh, I see what you mean. Like with the snow example? It's finished to us now because it's the afternoon"	"Oh, I see what you mean. Like with the snow example? It's finished to us now because it's the afternoon"	NA	NA	NA	NA	NA	NA	20
+2020-12-08 14:01:44	"student009"	"student"	84	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:02:25	"teacher008"	"teacher"	85	"But from this sentence (from the exercise), it sounds like it's still the morning."	"But from this sentence (from the exercise), it sounds like it's still the morning."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-12-08 14:02:31	"teacher008"	"teacher"	86	"Actually, look at the next sentence"	"Actually, look at the next sentence"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-12-08 14:02:33	"teacher008"	"teacher"	87	"I received 25 emails THIS MORNING, most of them spam!"	"I received 25 emails THIS MORNING, most of them spam!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-12-08 14:02:46	"teacher008"	"teacher"	88	"What's the difference between the sentences?"	"What's the difference between the sentences?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+2020-12-08 14:02:58	"student009"	"student"	89	"perfect and past"	"perfect and past"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 14:03:20	"teacher008"	"teacher"	90	"Yes, the only difference is the tense"	"Yes, the only difference is the tense"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-12-08 14:03:28	"student009"	"student"	91	"not finished anf finished"	"not finished anf finished"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2020-12-08 14:03:29	"teacher008"	"teacher"	92	"Present Perfect + this morning = unfinished"	"Present Perfect + this morning = unfinished"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-12-08 14:03:41	"teacher008"	"teacher"	93	"past simple + this morning = finished (like the snow)"	"past simple + this morning = finished (like the snow)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-12-08 14:04:55	"teacher008"	"teacher"	94	"Ok, let's test your memory!"	"Ok, let's test your memory!"	NA	"5.0"	"exercise,exercise"	"grammatical resource"	"website"	NA	5
+2020-12-08 14:05:08	"teacher008"	"teacher"	95	"Could you insert the verb in the correct form?"	"Could you insert the verb in the correct form?"	NA	NA	NA	NA	NA	NA	9
+2020-12-08 14:05:12	"teacher008"	"teacher"	96	"My grandparents (move)     to the United States in 1968."	"My grandparents (move)     to the United States in 1968."	NA	NA	NA	NA	NA	NA	13
+2020-12-08 14:05:41	"student009"	"student"	97	"moved"	"moved"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:06:14	"teacher008"	"teacher"	98	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:06:16	"teacher008"	"teacher"	99	"They're still in the US, so they (live)     there for more than 50 years."	"They're still in the US, so they (live)     there for more than 50 years."	NA	"5a"	NA	NA	NA	NA	18
+2020-12-08 14:07:02	"student009"	"student"	100	"they have lived"	"they have lived"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 14:07:14	"teacher008"	"teacher"	101	"yes, good!"	"yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:07:16	"teacher008"	"teacher"	102	"My grandparents (come)     to visit us last week."	"My grandparents (come)     to visit us last week."	NA	"5b"	NA	NA	NA	NA	12
+2020-12-08 14:07:29	"student009"	"student"	103	"came"	"came"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:07:33	"teacher008"	"teacher"	104	"They (visit)     us every summer since I was born."	"They (visit)     us every summer since I was born."	NA	"5c"	NA	NA	NA	NA	13
+2020-12-08 14:07:49	"student009"	"student"	105	"have visited"	"have visited"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:08:10	"teacher008"	"teacher"	106	"Sorry, Greg (come)     to work today. Can I take a message?"	"Sorry, Greg (come)     to work today. Can I take a message?"	NA	"5d"	NA	NA	NA	NA	15
+2020-12-08 14:08:56	"student009"	"student"	107	"hasn't come"	"hasn't come"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:09:04	"teacher008"	"teacher"	108	"yes, good!"	"yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:09:06	"teacher008"	"teacher"	109	"Sorry, Greg (go out)     five minutes ago. Can I take a message?"	"Sorry, Greg (go out)     five minutes ago. Can I take a message?"	NA	"5e"	NA	NA	NA	NA	16
+2020-12-08 14:09:15	"student009"	"student"	110	"went out"	"went out"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:09:19	"teacher008"	"teacher"	111	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:09:21	"teacher008"	"teacher"	112	"It's 11 a.m. – I     25 emails this morning, most of them spam!"	"It's 11 a.m. – I     25 emails this morning, most of them spam!"	NA	"5f"	NA	NA	NA	NA	17
+2020-12-08 14:09:39	"student009"	"student"	113	"have received"	"have received"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:09:59	"teacher008"	"teacher"	114	"yes, we get some help here with '11 a.m.' :)"	"yes, we get some help here with '11 a.m.' :)"	NA	NA	NA	NA	NA	NA	10
+2020-12-08 14:10:00	"teacher008"	"teacher"	115	"It's 6 p.m. – I     25 emails this morning, most of them spam!"	"It's 6 p.m. – I     25 emails this morning, most of them spam!"	NA	"5g"	NA	NA	NA	NA	17
+2020-12-08 14:10:04	"student009"	"student"	116	"received"	"received"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:10:08	"teacher008"	"teacher"	117	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 14:10:49	"teacher008"	"teacher"	118	"Present Perfect is quite unusual for speaker of Russian / Ukrainian, but it's a very common tense in English"	"Present Perfect is quite unusual for speaker of Russian / Ukrainian, but it's a very common tense in English"	NA	"6.0"	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-12-08 14:11:13	"teacher008"	"teacher"	119	"I'll tell you about some of the things I have done today."	"I'll tell you about some of the things I have done today."	NA	NA	NA	NA	NA	NA	12
+2020-12-08 14:11:46	"teacher008"	"teacher"	120	"I've taken my son to school, I've baked a bread, I've spoken to my boss, I've taught a class and now I'm talking to you"	"I've taken my son to school, I've baked a bread, I've spoken to my boss, I've taught a class and now I'm talking to you"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	25
+2020-12-08 14:11:58	"teacher008"	"teacher"	121	"They are all finished actions but they all happened 'today'"	"They are all finished actions but they all happened 'today'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-12-08 14:12:28	"teacher008"	"teacher"	122	"Now, I could have said, 'I took my son to school at 8.30 am and I spoke to my boss at 11 am'"	"Now, I could have said, 'I took my son to school at 8.30 am and I spoke to my boss at 11 am'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2020-12-08 14:12:48	"teacher008"	"teacher"	123	"I would put those actions in the past"	"I would put those actions in the past"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-12-08 14:12:59	"teacher008"	"teacher"	124	"But with 'today' Present Perfect is fine!"	"But with 'today' Present Perfect is fine!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-12-08 14:13:06	"teacher008"	"teacher"	125	"What have you done today so far?"	"What have you done today so far?"	NA	"6a"	"eliciting"	"grammatical resource"	NA	NA	7
+2020-12-08 14:13:29	"student009"	"student"	126	"I have been to school"	"I have been to school"	NA	NA	NA	NA	NA	NA	5
+2020-12-08 14:14:24	"teacher008"	"teacher"	127	"Ok, cool. Can you give me two more examples, please?"	"Ok, cool. Can you give me two more examples, please?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	10
+2020-12-08 14:14:45	"student009"	"student"	128	"I have eaten my breakfast"	"I have eaten my breakfast"	NA	NA	NA	NA	NA	NA	5
+2020-12-08 14:15:19	"student009"	"student"	129	"I have forgot my trainers for the PE"	"I have forgotten my trainers for PE"	NA	NA	NA	NA	NA	NA	8
+2020-12-08 14:15:29	"student009"	"student"	130	"forgotten"	"forgotten"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-12-08 14:15:31	"teacher008"	"teacher"	131	"Oh no!"	"Oh no!"	129	NA	NA	NA	NA	NA	2
+2020-12-08 14:15:36	"teacher008"	"teacher"	132	"good correction :)"	"good correction :)"	130	NA	NA	NA	NA	NA	3
+2020-12-08 14:16:09	"teacher008"	"teacher"	133	"Good! What have you done this week?"	"Good! What have you done this week?"	NA	"6b"	"eliciting"	"grammatical resource"	NA	NA	7
+2020-12-08 14:16:53	"student009"	"student"	134	"I have dony my homework"	"I have done my homework"	NA	NA	NA	NA	NA	NA	5
+2020-12-08 14:16:57	"student009"	"student"	135	"done"	"done"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-08 14:17:20	"teacher008"	"teacher"	136	"Cool! Have you watched / played / read anything exciting?"	"Cool! Have you watched / played / read anything exciting?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	10
+2020-12-08 14:17:31	"student009"	"student"	137	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:17:47	"teacher008"	"teacher"	138	"Have you learned anything exciting at school? :)"	"Have you learned anything exciting at school? :)"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+2020-12-08 14:17:58	"student009"	"student"	139	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:18:37	"teacher008"	"teacher"	140	"Ok, can you make three sentences about boring unexciting things that have happened this week?"	"Ok, can you make three sentences about boring unexciting things that have happened this week?"	NA	"6c"	"eliciting"	"grammatical resource"	NA	NA	15
+2020-12-08 14:19:15	"student009"	"student"	141	"Our teacher have said that we are really bad students"	"Our teacher has said that we are really bad students"	NA	NA	NA	NA	NA	NA	10
+2020-12-08 14:19:37	"student009"	"student"	142	"we have started new theme on physics"	"we have started a new topic in physics"	NA	NA	NA	NA	NA	NA	7
+2020-12-08 14:19:39	"teacher008"	"teacher"	143	"Oh no, sounds harsh!"	"Oh no, sounds harsh!"	141	NA	NA	NA	NA	NA	4
+2020-12-08 14:20:47	"student009"	"student"	144	"and our biology teacher have came back after her 2weeks lockdown"	"and our biology teacher has come back after her 2-week self-isolation"	142	NA	NA	NA	NA	NA	11
+2020-12-08 14:21:31	"teacher008"	"teacher"	145	"Oh did she have to self-isolate for two weeks? Did she have covid?"	"Oh did she have to self-isolate for two weeks? Did she have covid?"	NA	NA	NA	NA	NA	NA	13
+2020-12-08 14:21:44	"student009"	"student"	146	"i don't know"	"I don't know"	NA	NA	NA	NA	NA	NA	3
+2020-12-08 14:21:47	"teacher008"	"teacher"	147	"Our biology teacher __ ___ back"	"Our biology teacher __ ___ back"	144	"6d"	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-12-08 14:21:55	"student009"	"student"	148	"has"	"has"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:22:04	"teacher008"	"teacher"	149	"and the second gap?"	"and the second gap?"	NA	NA	NA	NA	NA	NA	4
+2020-12-08 14:22:12	"student009"	"student"	150	"come"	"come"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:22:18	"teacher008"	"teacher"	151	"Yes, well done :)"	"Yes, well done :)"	NA	NA	NA	NA	NA	NA	4
+2020-12-08 14:22:40	"teacher008"	"teacher"	152	"This week, I've started to bake a German Christams cake called 'stollen'"	"This week, I've started to bake a German Christams cake called 'stollen'"	NA	"7.0"	"topic opening"	"grammatical resource"	NA	NA	12
+2020-12-08 14:22:48	"teacher008"	"teacher"	153	"Have you heard of this one?"	"Have you heard of this one?"	NA	NA	NA	NA	NA	NA	6
+2020-12-08 14:22:59	"student009"	"student"	154	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:23:12	"teacher008"	"teacher"	155	"It takes a few days to make it, and then about two weeks for it to ripen"	"It takes a few days to make it, and then about two weeks for it to ripen"	NA	NA	NA	NA	NA	NA	17
+2020-12-08 14:23:27	"teacher008"	"teacher"	156	"So I had to start early"	"So I had to start early"	NA	NA	NA	NA	NA	NA	6
+2020-12-08 14:24:09	"teacher008"	"teacher"	157	"It's got lots of raisins and citrus peel in it, as well as nuts"	"It's got lots of raisins and citrus peel in it, as well as nuts"	NA	NA	NA	NA	NA	NA	14
+2020-12-08 14:24:18	"teacher008"	"teacher"	158	"I'm excited about it!"	"I'm excited about it!"	NA	NA	NA	NA	NA	NA	4
+2020-12-08 14:26:08	"teacher008"	"teacher"	159	"Did you find it upsetting that your teacher said you were all bad students?"	"Did you find it upsetting that your teacher said you were all bad students?"	NA	"8.0"	"topic opening"	NA	NA	NA	14
+2020-12-08 14:26:15	"student009"	"student"	160	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:26:29	"teacher008"	"teacher"	161	"Oh no! Is it a teacher that you like?"	"Oh no! Is it a teacher that you like?"	NA	NA	NA	NA	NA	NA	9
+2020-12-08 14:26:40	"student009"	"student"	162	"she shoutes a lot"	"she shouts a lot"	NA	NA	NA	NA	NA	NA	4
+2020-12-08 14:26:42	"student009"	"student"	163	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:26:53	"teacher008"	"teacher"	164	"I'm sure it was an exaggeration!"	"I'm sure it was an exaggeration!"	NA	NA	NA	NA	NA	NA	6
+2020-12-08 14:27:03	"teacher008"	"teacher"	165	"do you know 'exaggeration'?"	"do you know 'exaggeration'?"	NA	"8a"	"eliciting"	"lexical resource,meaning"	NA	NA	4
+2020-12-08 14:27:07	"student009"	"student"	166	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:27:30	"teacher008"	"teacher"	167	"when we say that something is much bigger / worse / better / more important than it actually is"	"when we say that something is much bigger / worse / better / more important than it actually is"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2020-12-08 14:27:58	"teacher008"	"teacher"	168	"for example, it's a cold day in England today, but I could say, 'It's absolutely Arctic'"	"for example, it's a cold day in England today, but I could say, 'It's absolutely Arctic'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2020-12-08 14:28:18	"teacher008"	"teacher"	169	"Well, of course it's not! It's probably -30 degrees in the Arctic"	"Well, of course it's not! It's probably -30 degrees in the Arctic"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-12-08 14:28:24	"teacher008"	"teacher"	170	"and it's only +1 here"	"and it's only +1 here"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-12-08 14:28:31	"teacher008"	"teacher"	171	"so this is an exaggeration"	"so this is an exaggeration"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-12-08 14:28:46	"teacher008"	"teacher"	172	"As I'm sure what your teacher said was :)"	"As I'm sure what your teacher said was :)"	NA	NA	NA	NA	NA	NA	9
+2020-12-08 14:30:03	"student009"	"student"	173	"she was angry just because one boy was smiling"	"she was angry just because one boy was smiling"	NA	NA	NA	NA	NA	NA	9
+2020-12-08 14:30:24	"teacher008"	"teacher"	174	"Haha, well, definitely an exaggeration then, right?"	"Haha, well, definitely an exaggeration then, right?"	NA	NA	NA	NA	NA	NA	7
+2020-12-08 14:31:35	"teacher008"	"teacher"	175	"Ok, <STUDENT>, I'll let you go. Is it another Minecraft night tonight?"	"Ok, <STUDENT>, I'll let you go. Is it another Minecraft night tonight?"	NA	"9.0"	"closing"	NA	NA	NA	12
+2020-12-08 14:31:51	"student009"	"student"	176	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:32:02	"student009"	"student"	177	"only Fridays"	"only Fridays"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:32:37	"teacher008"	"teacher"	178	"Oh goodness, can you believe I thought it was Friday?!"	"Oh goodness, can you believe I thought it was Friday?!"	NA	NA	NA	NA	NA	NA	10
+2020-12-08 14:32:47	"teacher008"	"teacher"	179	"Uh-uh, back to reality! :))"	"Uh-uh, back to reality! :))"	NA	NA	NA	NA	NA	NA	5
+2020-12-08 14:32:53	"student009"	"student"	180	"hehe)"	"hehe)"	NA	NA	NA	NA	NA	NA	1
+2020-12-08 14:32:59	"student009"	"student"	181	"goodbye !"	"goodbye !"	NA	NA	NA	NA	NA	NA	2
+2020-12-08 14:33:01	"teacher008"	"teacher"	182	"I'll let you go anyway :) bye!"	"I'll let you go anyway :) bye!"	NA	NA	NA	NA	NA	"B2"	7

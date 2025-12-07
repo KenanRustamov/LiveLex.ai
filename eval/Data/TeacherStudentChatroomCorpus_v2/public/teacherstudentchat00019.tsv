@@ -1,0 +1,134 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-02-02 11:03:05	"teacher001"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-02-02 11:03:18	"student005"	"student"	2	"hi!"	"hi!"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:04:05	"teacher001"	"teacher"	3	"Listen I'm on my phone today so apologies in advance for spelling and taking a ling time to type!"	"Listen I'm on my phone today so apologies in advance for spelling and taking a ling time to type!"	NA	"2.0"	"topic opening"	NA	NA	NA	19
+2020-02-02 11:04:21	"student005"	"student"	4	"no problem"	"no problem"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:04:24	"teacher001"	"teacher"	5	"I mean long - you see!"	"I mean long - you see!"	"3.0"	NA	"repair"	"writing"	NA	NA	6
+2020-02-02 11:04:39	"student005"	"student"	6	"don't worry"	"don't worry"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:04:43	"teacher001"	"teacher"	7	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:04:48	"teacher001"	"teacher"	8	"Thanks"	"Thanks"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:05:19	"teacher001"	"teacher"	9	"So....would you like to start with more on the pie charts?"	"So....would you like to start with more on the pie charts?"	NA	"3.0"	"exercise"	"writing"	NA	NA	11
+2020-02-02 11:05:36	"student005"	"student"	10	"it's ok for me"	"it's ok with me"	NA	NA	NA	NA	NA	NA	4
+2020-02-02 11:06:11	"teacher001"	"teacher"	11	"Ok great- so can you tell me about oil in austr0alia in 1980 please"	"Ok great- so can you tell me about oil in austr0alia in 1980 please"	NA	NA	NA	NA	NA	NA	14
+2020-02-02 11:07:31	"student005"	"student"	12	"Australia used oil to produce 10% of electricity"	"Australia used oil to produce 10% of electricity"	NA	NA	NA	NA	NA	NA	8
+2020-02-02 11:08:05	"student005"	"student"	13	"or"	"or"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:08:14	"teacher001"	"teacher"	14	"Ok very good - and beginning with 'oil'?"	"Ok very good - and beginning with 'oil'?"	NA	"3a"	"eliciting"	"writing,grammatical resource"	NA	NA	8
+2020-02-02 11:08:50	"student005"	"student"	15	"oil accounted for 10% of electricity production in 1980"	"oil accounted for 10% of electricity production in 1980"	NA	NA	NA	NA	NA	NA	9
+2020-02-02 11:10:18	"teacher001"	"teacher"	16	"Ok that's great <STUDENT> - ok next step: can you describe the change in Australia in e.g. natural gas in the two charts?"	"Ok that's great <STUDENT> - ok next step: can you describe the change in Australia in e.g. natural gas in the two charts?"	NA	"3b"	"exercise"	"writing"	NA	NA	23
+2020-02-02 11:14:41	"teacher001"	"teacher"	17	"All ok?! Do want me to give you a bit of help? Try something if you can though!"	"All ok?! Do want me to give you a bit of help? Try something if you can though!"	NA	NA	NA	NA	NA	NA	18
+2020-02-02 11:15:08	"student005"	"student"	18	"there was a drop in the percentage of natural gas used in Australia between 1980 and 2000"	"there was a drop in the percentage of natural gas used in Australia between 1980 and 2000"	NA	NA	NA	NA	NA	NA	17
+2020-02-02 11:15:50	"teacher001"	"teacher"	19	"Sorry i was being pessimistic! Ok that's pretty good!"	"Sorry i was being pessimistic! Ok that's pretty good!"	NA	NA	NA	NA	NA	NA	9
+2020-02-02 11:15:58	"student005"	"student"	20	"I couldn't find natural gas in the second chart"	"I couldn't find natural gas in the second chart"	NA	NA	NA	NA	NA	NA	9
+2020-02-02 11:16:04	"student005"	"student"	21	"0.02"	"0.02"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:16:42	"teacher001"	"teacher"	22	"Ah yes i see what you mean!"	"Ah yes i see what you mean!"	NA	NA	NA	NA	NA	NA	7
+2020-02-02 11:17:06	"student005"	"student"	23	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:17:12	"teacher001"	"teacher"	24	"Be careful though...hold on..."	"Be careful though...hold on..."	NA	"3c"	"scaffolding"	"task achievement"	NA	NA	4
+2020-02-02 11:17:12	"student005"	"student"	25	"sorry"	"sorry"	"23.0"	NA	NA	NA	NA	NA	1
+2020-02-02 11:17:22	"teacher001"	"teacher"	26	"No problem!"	"No problem!"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:17:48	"student005"	"student"	27	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:17:54	"teacher001"	"teacher"	28	"So...saying percentage of gas used is a bit strange..."	"So...saying percentage of gas used is a bit strange..."	"24.0"	NA	NA	NA	NA	NA	9
+2020-02-02 11:18:22	"student005"	"student"	29	"how can I say?"	"how can I say it?"	NA	NA	"enquiry"	NA	NA	NA	4
+2020-02-02 11:18:26	"teacher001"	"teacher"	30	"Because it's the percentage of electricity produced from gas - do you see?"	"Because it's the percentage of electricity produced from gas - do you see?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	13
+2020-02-02 11:19:01	"teacher001"	"teacher"	31	"A simimar problem as tbe other day"	"A simimar problem as tbe other day"	NA	NA	"scaffolding"	"task achievement"	NA	NA	7
+2020-02-02 11:19:47	"teacher001"	"teacher"	32	"So...you can sat e.g. there was a drop inthr percentage of ....?"	"So...you can sat e.g. there was a drop inthr percentage of ....?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	12
+2020-02-02 11:19:56	"teacher001"	"teacher"	33	"In the"	"In the"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-02-02 11:20:31	"student005"	"student"	34	"the percentage of electricity produced from natural gas"	"the percentage of electricity produced from natural gas"	NA	NA	NA	NA	NA	NA	8
+2020-02-02 11:20:39	"student005"	"student"	35	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:20:44	"teacher001"	"teacher"	36	"Yes good!"	"Yes good!"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:20:49	"teacher001"	"teacher"	37	"Much better"	"Much better"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:21:09	"teacher001"	"teacher"	38	"Would need the figures in your real answer?"	"Would need the figures in your real answer?"	NA	"4.0"	"eliciting"	"task achievement"	NA	NA	8
+2020-02-02 11:21:50	"teacher001"	"teacher"	39	"The numbers i mean - you know the word figures right?"	"The numbers i mean - you know the word figures right?"	NA	"4a"	"eliciting"	"lexical resource,meaning"	NA	NA	11
+2020-02-02 11:22:12	"student005"	"student"	40	"which word?"	"which word?"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:22:33	"teacher001"	"teacher"	41	"Figures' - it means numbers"	"Figures' - it means numbers"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-02-02 11:22:43	"student005"	"student"	42	"ahhh"	"ahhh"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:22:58	"teacher001"	"teacher"	43	"What is in Italian?!"	"What is in Italian?!"	NA	NA	NA	NA	NA	NA	4
+2020-02-02 11:23:20	"student005"	"student"	44	"numeri"	"numeri"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:23:26	"student005"	"student"	45	"almost the same ahah"	"almost the same ahah"	NA	NA	NA	NA	NA	NA	4
+2020-02-02 11:24:19	"teacher001"	"teacher"	46	"Can you say cifra too?"	"Can you say cifra too?"	NA	NA	NA	NA	NA	NA	5
+2020-02-02 11:24:33	"student005"	"student"	47	"in Italian?"	"in Italian?"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:24:40	"teacher001"	"teacher"	48	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:24:40	"student005"	"student"	49	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:24:48	"teacher001"	"teacher"	50	"Ok right"	"Ok right"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:24:57	"student005"	"student"	51	"well done"	"well done"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:25:03	"teacher001"	"teacher"	52	"Haha"	"Haha"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:25:30	"teacher001"	"teacher"	53	"So...the question before: do you need to include le cifre!"	"So...the question before: do you need to include le cifre!"	"39.0"	NA	NA	NA	NA	NA	10
+2020-02-02 11:25:39	"teacher001"	"teacher"	54	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:26:17	"student005"	"student"	55	"I don't think so"	"I don't think so"	NA	NA	NA	NA	NA	NA	4
+2020-02-02 11:26:19	"teacher001"	"teacher"	56	"Or is just the words enough?"	"Or is just the words enough?"	NA	NA	NA	NA	NA	NA	6
+2020-02-02 11:26:26	"student005"	"student"	57	"but I'm not sure"	"but I'm not sure"	NA	NA	NA	NA	NA	NA	4
+2020-02-02 11:26:35	"teacher001"	"teacher"	58	"No you definitely need the numbers!"	"No you definitely need the numbers!"	NA	NA	"scaffolding"	"task achievement"	NA	NA	6
+2020-02-02 11:27:16	"teacher001"	"teacher"	59	"Remember: your job is to describe the charts so i dont ned to see them do you see?"	"Remember: your job is to describe the charts so i dont ned to see them do you see?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	18
+2020-02-02 11:27:42	"student005"	"student"	60	"yes I understand"	"yes I understand"	NA	NA	NA	NA	NA	NA	3
+2020-02-02 11:27:43	"teacher001"	"teacher"	61	"I.e. i can more or less draw them from your answer!"	"I.e. i can more or less draw them from your answer!"	NA	NA	NA	NA	NA	NA	11
+2020-02-02 11:28:22	"teacher001"	"teacher"	62	"<STUDENT> let me give you an examole sentence hold on...."	"<STUDENT> let me give you an examole sentence hold on...."	NA	"4b"	"scaffolding"	"writing"	NA	NA	10
+2020-02-02 11:28:34	"student005"	"student"	63	"can I include numbers in another santence ?"	"can I include numbers in another sentence ?"	NA	"4c"	"enquiry"	"writing"	NA	NA	8
+2020-02-02 11:28:43	"student005"	"student"	64	"or the same?"	"or the same?"	NA	NA	NA	NA	NA	NA	3
+2020-02-02 11:29:14	"teacher001"	"teacher"	65	"How do you mean? Give me an example if you can"	"How do you mean? Give me an example if you can"	NA	NA	NA	NA	NA	NA	11
+2020-02-02 11:31:06	"teacher001"	"teacher"	66	"Sorry mg example from before: while natural gas accounted for 10% of electricity in 1980 in 2000 it was an insignificant source, contributing only 2%"	"Sorry mg example from before: while natural gas accounted for 10% of electricity in 1980 in 2000 it was an insignificant source, contributing only 2%"	"62.0"	NA	NA	NA	NA	NA	25
+2020-02-02 11:31:40	"student005"	"student"	67	"there was a drop in the percentage of electricity produced from natural gas used in Australia between 1980 and 2000"	"there was a drop in the percentage of electricity produced from natural gas used in Australia between 1980 and 2000"	"65.0"	NA	NA	NA	NA	NA	20
+2020-02-02 11:32:03	"student005"	"student"	68	"and after that can I wrote your sentence?"	"and after that can I write your sentence?"	"65, 66"	NA	NA	NA	NA	NA	8
+2020-02-02 11:32:17	"student005"	"student"	69	"or I need only one?"	"or do I need only one?"	NA	"4c (continued)"	NA	NA	NA	NA	5
+2020-02-02 11:32:38	"teacher001"	"teacher"	70	"Oh i see - no one is enough and you can just inckude the numbers..."	"Oh i see - no one is enough and you can just inckude the numbers..."	NA	NA	NA	NA	NA	NA	15
+2020-02-02 11:32:51	"student005"	"student"	71	"ah okok"	"ah ok ok"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:32:56	"teacher001"	"teacher"	72	"Try to be concise"	"Try to be concise"	NA	NA	NA	NA	NA	NA	4
+2020-02-02 11:33:30	"teacher001"	"teacher"	73	"Have you put numbers in bracjets with your ielts teachers"	"Have you put numbers in bracjets with your ielts teachers"	NA	"4d"	"enquiry"	"writing"	NA	NA	10
+2020-02-02 11:33:34	"teacher001"	"teacher"	74	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:33:51	"teacher001"	"teacher"	75	"Brackets i mean - you understand?"	"Brackets i mean - you understand?"	NA	NA	"repair"	"writing"	NA	NA	6
+2020-02-02 11:34:19	"student005"	"student"	76	"yes I understand"	"yes I understand"	NA	NA	NA	NA	NA	NA	3
+2020-02-02 11:34:34	"student005"	"student"	77	"but no, we haven't"	"but no, we haven't"	NA	NA	NA	NA	NA	NA	4
+2020-02-02 11:34:42	"teacher001"	"teacher"	78	"Ok so this is a quick and easy wat!"	"Ok so this is a quick and easy wat!"	NA	NA	NA	NA	NA	NA	9
+2020-02-02 11:34:45	"teacher001"	"teacher"	79	"Way"	"Way"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-02 11:35:04	"student005"	"student"	80	"ok thanks"	"ok thanks"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:36:08	"teacher001"	"teacher"	81	"<STUDENT>: small change in focus here- can i ask you to say what information your conclusion/overview woukd include for these charts?"	"<STUDENT>: small change in focus here- can i ask you to say what information your conclusion/overview woukd include for these charts?"	NA	"5.0"	"eliciting"	"writing,task achievement"	NA	NA	21
+2020-02-02 11:36:53	"teacher001"	"teacher"	82	"You can just answer in basic keywords if you like - dont worry about being pretty!"	"You can just answer in basic keywords if you like - dont worry about being pretty!"	NA	NA	NA	NA	NA	NA	16
+2020-02-02 11:37:17	"student005"	"student"	83	"i have always the same problem with the conclusion"	"I always have the same problem the with conclusion"	"81.0"	NA	NA	NA	NA	NA	9
+2020-02-02 11:37:45	"teacher001"	"teacher"	84	"Ok well...usualyy it's  only 2 or 3 main points right?"	"Ok well...usualyy it's  only 2 or 3 main points right?"	NA	NA	NA	NA	NA	NA	11
+2020-02-02 11:37:49	"student005"	"student"	85	"because I have to wrote a short conclusion"	"because I have to write a short conclusion"	"83.0"	NA	NA	NA	NA	NA	8
+2020-02-02 11:38:26	"teacher001"	"teacher"	86	"If it helps imagine a newspaper article- what big thing would tbese charts illustrate in the story"	"If it helps imagine a newspaper article- what big thing would tbese charts illustrate in the story"	"84.0"	NA	NA	NA	NA	NA	17
+2020-02-02 11:38:32	"student005"	"student"	87	"but for example in the case, there are a lot of things to say"	"but for example in this case there are a lot of things to say"	"85.0"	NA	NA	NA	NA	NA	14
+2020-02-02 11:38:56	"teacher001"	"teacher"	88	"No!!!! Only the main things 2 or 3 !"	"No!!!! Only the main things 2 or 3 !"	NA	NA	NA	NA	NA	NA	9
+2020-02-02 11:39:33	"student005"	"student"	89	"because there aren't an definitely upward or downward"	"because there aren't any definite upward or downward trends"	"87.0"	NA	NA	NA	NA	NA	8
+2020-02-02 11:39:56	"student005"	"student"	90	"definite"	"definite"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-02 11:40:08	"teacher001"	"teacher"	91	"Ok but e.g. Australia - whats one big thing?"	"Ok but e.g. Australia - whats one big thing?"	NA	"5a"	"eliciting"	"writing,task achievement"	NA	NA	9
+2020-02-02 11:40:20	"teacher001"	"teacher"	92	"Or the biggest thing let's say"	"Or the biggest thing let's say"	NA	NA	NA	NA	NA	NA	6
+2020-02-02 11:40:47	"student005"	"student"	93	"coal"	"coal"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:41:56	"teacher001"	"teacher"	94	"Ok great i agree so you just need to say that coal was quite importand and then the most important by far right?"	"Ok great i agree so you just need to say that coal was quite importand and then the most important by far right?"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	23
+2020-02-02 11:42:09	"teacher001"	"teacher"	95	"And france?"	"And france?"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	2
+2020-02-02 11:42:32	"student005"	"student"	96	"nuclear power"	"nuclear power"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:43:04	"teacher001"	"teacher"	97	"Ok fine - so in 2000 both countries....?"	"Ok fine - so in 2000 both countries....?"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	8
+2020-02-02 11:46:09	"student005"	"student"	98	"soared"	"soared"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:46:19	"teacher001"	"teacher"	99	"Sorry I'm back"	"Sorry I'm back"	NA	"6.0"	"disruption"	NA	NA	NA	3
+2020-02-02 11:46:34	"teacher001"	"teacher"	100	"Hold on hold on!"	"Hold on hold on!"	"98.0"	NA	NA	NA	NA	NA	4
+2020-02-02 11:46:36	"student005"	"student"	101	"no problem"	"no problem"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 11:48:29	"teacher001"	"teacher"	102	"So wait a minute: e.g in 2000 both countries relied on ine main source of fuel to generate electricity; australia relied on coal while France used nuclear power"	"So wait a minute: e.g in 2000 both countries relied on ine main source of fuel to generate electricity; australia relied on coal while France used nuclear power"	NA	NA	"scaffolding"	"writing"	NA	NA	28
+2020-02-02 11:48:39	"teacher001"	"teacher"	103	"One main source"	"One main source"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-02-02 11:49:42	"teacher001"	"teacher"	104	"One more little thing: the amount of electricity itself - do you need to mention this?"	"One more little thing: the amount of electricity itself - do you need to mention this?"	NA	"7.0"	"eliciting"	"task achievement"	NA	NA	16
+2020-02-02 11:49:57	"student005"	"student"	105	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:50:02	"teacher001"	"teacher"	106	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:50:23	"teacher001"	"teacher"	107	"Why not?! It's  important no?!"	"Why not?! It's  important no?!"	NA	NA	NA	NA	NA	NA	6
+2020-02-02 11:50:55	"student005"	"student"	108	"ah no I was thinking about the amount of electricity in total"	"ah no, I was thinking about the amount of electricity in total"	NA	NA	NA	NA	NA	NA	12
+2020-02-02 11:51:08	"student005"	"student"	109	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2020-02-02 11:51:57	"teacher001"	"teacher"	110	"Thats ok! So you need tosay that there was a significant increase in the amount of electricity generated by both countries"	"Thats ok! So you need tosay that there was a significant increase in the amount of electricity generated by both countries"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	21
+2020-02-02 11:52:20	"teacher001"	"teacher"	111	"And give the numbers = one short sentence"	"And give the numbers = one short sentence"	NA	NA	NA	NA	NA	NA	8
+2020-02-02 11:52:55	"teacher001"	"teacher"	112	"Do you need the numbers fir the main points e.g. cosl and nuclear in the conclusion?"	"Do you need the numbers fir the main points e.g. cosl and nuclear in the conclusion?"	NA	"7a"	"eliciting"	NA	NA	NA	16
+2020-02-02 11:53:23	"student005"	"student"	113	"so can I choose the main important features and put these in my conclusion?"	"so can I choose the most important features and put these in my conclusion?"	NA	"8.0"	"enquiry"	"writing,task achievement"	NA	NA	14
+2020-02-02 11:53:52	"teacher001"	"teacher"	114	"Yes exactly- that's what it's for!"	"Yes exactly- that's what it's for!"	NA	NA	NA	NA	NA	NA	6
+2020-02-02 11:54:48	"teacher001"	"teacher"	115	"But without the numbers normally because you will have explthese in your main paragraphs you see"	"But without the numbers normally because you will have explthese in your main paragraphs you see"	"112, 113"	NA	"scaffolding"	"writing,task achievement"	NA	NA	16
+2020-02-02 11:54:58	"teacher001"	"teacher"	116	"Explained these"	"Explained these"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-02-02 11:55:12	"student005"	"student"	117	"so I don't have to summarize everything in a few lines?"	"so I don't have to summarize everything in a few lines?"	NA	NA	NA	NA	NA	NA	11
+2020-02-02 11:55:43	"teacher001"	"teacher"	118	"When you say everything you mean e.g every fuel?"	"When you say everything you mean e.g every fuel?"	NA	NA	NA	NA	NA	NA	9
+2020-02-02 11:56:01	"student005"	"student"	119	"yes, in general"	"yes, in general"	NA	NA	NA	NA	NA	NA	3
+2020-02-02 11:56:27	"teacher001"	"teacher"	120	"No because that wouldn't be a summary just a list of the data you see"	"No because that wouldn't be a summary just a list of the data you see"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	15
+2020-02-02 11:57:04	"teacher001"	"teacher"	121	"They want to see that you've understood whatsoever the most important"	"They want to see that you've understood whatsoever the most important"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	11
+2020-02-02 11:57:17	"student005"	"student"	122	"yes infact in my latest essay I didn't put the conclusion"	"yes, in fact, in my latest essay I didn't write the conclusion"	NA	"7b"	NA	NA	NA	NA	11
+2020-02-02 11:58:21	"teacher001"	"teacher"	123	"<STUDENT> - ill give you an example answer for these charts ok and you'll see how to do it more easily"	"<STUDENT> - ill give you an example answer for these charts ok and you'll see how to do it more easily"	NA	"8.0"	"closing,homework"	"writing,task achievement"	NA	NA	21
+2020-02-02 11:58:26	"student005"	"student"	124	"we don't need one, isn't it?"	"we don't need one, do we?"	"122.0"	NA	NA	NA	NA	NA	6
+2020-02-02 11:58:58	"student005"	"student"	125	"ok thamks"	"ok thanks"	"123.0"	NA	NA	NA	NA	NA	2
+2020-02-02 11:59:03	"student005"	"student"	126	"thanks"	"thanks"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-02 11:59:31	"teacher001"	"teacher"	127	"Hold on - yes, you do need some kind of summary/overview/conclusion paragraph but just one ok?"	"Hold on - yes, you do need some kind of summary/overview/conclusion paragraph but just one ok?"	"124.0"	NA	NA	NA	NA	NA	16
+2020-02-02 11:59:53	"student005"	"student"	128	"ok i understood"	"ok I understood"	NA	NA	NA	NA	NA	NA	3
+2020-02-02 11:59:57	"teacher001"	"teacher"	129	"Maybe at the beginning or end fir the graohs etc and just at the end fir the essay"	"Maybe at the beginning or end fir the graohs etc and just at the end fir the essay"	NA	NA	NA	NA	NA	NA	18
+2020-02-02 11:59:59	"student005"	"student"	130	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 12:00:46	"teacher001"	"teacher"	131	"Ok cool- ill find you tomorrow and give you the answer - thanks a lot bye!"	"Ok cool- ill find you tomorrow and give you the answer - thanks a lot bye!"	"126.0"	NA	NA	NA	NA	NA	16
+2020-02-02 12:01:16	"student005"	"student"	132	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-02-02 12:01:19	"student005"	"student"	133	"byee"	"bye"	NA	NA	NA	NA	NA	"B2"	1

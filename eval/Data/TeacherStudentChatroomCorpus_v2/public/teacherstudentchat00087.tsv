@@ -1,0 +1,118 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-10 06:30:44	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-07-10 06:30:59	"student010"	"student"	2	"Hello!"	"Hello!"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 06:31:18	"teacher008"	"teacher"	3	"How are you this morning? Out of the cold and rain?"	"How are you this morning? Out of the cold and rain?"	NA	"2.0"	"topic opening"	NA	NA	NA	11
+2020-07-10 06:31:55	"student010"	"student"	4	"Today weather is good:)"	"Today the weather is good:)"	NA	NA	NA	NA	NA	NA	4
+2020-07-10 06:32:10	"teacher008"	"teacher"	5	"Are you still in the porch though?"	"Are you still in the porch though?"	NA	NA	NA	NA	NA	NA	7
+2020-07-10 06:32:33	"student010"	"student"	6	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 06:32:50	"teacher008"	"teacher"	7	"Ok! Well, hope you are comfortable"	"Ok! Well, hope you are comfortable"	NA	NA	NA	NA	NA	NA	6
+2020-07-10 06:33:06	"teacher008"	"teacher"	8	"Have you got any plans for the weekend?"	"Have you got any plans for the weekend?"	NA	"3.0"	"topic opening"	NA	NA	NA	8
+2020-07-10 06:33:47	"student010"	"student"	9	"No, I don't have any plans"	"No, I don't have any plans"	NA	NA	NA	NA	NA	NA	6
+2020-07-10 06:34:26	"teacher008"	"teacher"	10	"And you are on holiday anyway, right? :)"	"And you are on holiday anyway, right? :)"	NA	NA	NA	NA	NA	NA	8
+2020-07-10 06:35:26	"teacher008"	"teacher"	11	"Before we start, I've got to say that I'll be on holiday next week, so we won't have any classes until the week after. Would 9.30 on Wednesday July 22 suit you?"	"Before we start, I've got to say that I'll be on holiday next week, so we won't have any classes until the week after. Would 9.30 on Wednesday July 22 suit you?"	NA	"4.0"	"topic opening"	NA	NA	NA	32
+2020-07-10 06:35:53	"student010"	"student"	12	"I think yes"	"I think yes"	NA	NA	NA	NA	NA	NA	3
+2020-07-10 06:36:23	"teacher008"	"teacher"	13	"Cool, I'll make a note in my diary. I'll send you an email to remind you, too!"	"Cool, I'll make a note in my diary. I'll send you an email to remind you, too!"	NA	NA	NA	NA	NA	NA	17
+2020-07-10 06:36:31	"teacher008"	"teacher"	14	"You might be in Kyiv then, right?"	"You might be in Kyiv then, right?"	NA	NA	NA	NA	NA	NA	7
+2020-07-10 06:36:41	"student010"	"student"	15	"Ok thank you!"	"Ok thank you!"	13	NA	NA	NA	NA	NA	3
+2020-07-10 06:37:56	"student010"	"student"	16	"I'm not sure we might go to another vilage"	"I'm not sure, we might go to another vilage"	14	NA	NA	NA	NA	NA	9
+2020-07-10 06:38:04	"teacher008"	"teacher"	17	"We're going to do the whole 'staycation' thing. Remember we talked about 'staycation'?"	"We're going to do the whole 'staycation' thing. Remember we talked about 'staycation'?"	NA	"5.0"	"topic opening"	NA	NA	NA	13
+2020-07-10 06:38:28	"student010"	"student"	18	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 06:38:54	"teacher008"	"teacher"	19	"Yes, probably going to the seaside, some gardens and a dinosaur adventure park..."	"Yes, probably going to the seaside, some gardens and a dinosaur adventure park..."	NA	NA	NA	NA	NA	NA	13
+2020-07-10 06:40:04	"teacher008"	"teacher"	20	"Oh yes, I remember, you did mention you might go to another village"	"Oh yes, I remember, you did mention you might go to another village"	16	NA	NA	NA	NA	NA	13
+2020-07-10 06:41:45	"teacher008"	"teacher"	21	"We were talking about articles last time, right? And we said an easy way to get out of using articles is to use my/ your / his / her / their / our"	"We were talking about articles last time, right? And we said an easy way to get out of using articles is to use my/ your / his / her / their / our"	NA	"6.0"	"topic opening"	"grammatical resource"	NA	NA	33
+2020-07-10 06:41:58	"teacher008"	"teacher"	22	"possessive pronouns'"	"possessive pronouns'"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 06:43:10	"teacher008"	"teacher"	23	"are you there, <STUDENT>?"	"are you there, <STUDENT>?"	NA	"7.0"	"disruption"	NA	NA	NA	4
+2020-07-10 06:43:44	"student010"	"student"	24	"Yes the cat tried to fight with my phone:)"	"Yes the cat tried to fight with my phone:)"	NA	NA	NA	NA	NA	NA	9
+2020-07-10 06:43:58	"teacher008"	"teacher"	25	"haha :))"	"haha :))"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 06:44:38	"teacher008"	"teacher"	26	"Does the cat want to sit in your lap instead?"	"Does the cat want to sit in your lap instead?"	NA	NA	NA	NA	NA	NA	10
+2020-07-10 06:45:37	"student010"	"student"	27	"Do you want a story about my cat in Kyiv?"	"Do you want a story about my cat in Kyiv?"	NA	"8.0"	"topic opening"	NA	NA	NA	10
+2020-07-10 06:45:43	"teacher008"	"teacher"	28	"Yes please!"	"Yes please!"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 06:46:20	"student010"	"student"	29	"My cat called <CAT'S NAME>"	"My cat is called <CAT'S NAME>"	NA	NA	NA	NA	NA	NA	5
+2020-07-10 06:46:31	"teacher008"	"teacher"	30	"nice name :)"	"nice name :)"	NA	NA	NA	NA	NA	NA	3
+2020-07-10 06:50:35	"student010"	"student"	31	"Once my dad left his laptop on the bed. My family were in the kitchen. We were talking and then we heard loud music. When we came to my mum's and dad's room we saw our cat on dad's laptop. Her eyes were very big. I'm sure that she didn't understand what happened! It was pretty fun"	"Once my dad left his laptop on his bed. My family were in the kitchen. We were talking and then we heard loud music. When we came to my mum and dad's room, we saw our cat on my dad's laptop. Her eyes were very big. I'm sure that she didn't understand what happened! It was pretty fun"	NA	NA	NA	NA	NA	NA	57
+2020-07-10 06:52:02	"teacher008"	"teacher"	32	"Haha, she played the music? Poor cat, she must have been shocked :))"	"Haha, she played the music? Poor cat, she must have been shocked :))"	NA	NA	NA	NA	NA	NA	13
+2020-07-10 06:52:59	"student010"	"student"	33	"She just turned the player on the laptop on"	"She just turned the player on the laptop on"	NA	NA	NA	NA	NA	NA	9
+2020-07-10 06:53:16	"teacher008"	"teacher"	34	"Haha, well done <CAT'S NAME>!"	"Haha, well done <CAT'S NAME>!"	NA	NA	NA	NA	NA	NA	5
+2020-07-10 06:54:06	"teacher008"	"teacher"	35	"Are the cats in your village outdoors cats?"	"Are the cats in your village outdoors cats?"	NA	"8a"	"topic development"	NA	NA	NA	8
+2020-07-10 06:54:14	"student010"	"student"	36	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 06:54:27	"student010"	"student"	37	"About <CAT'S NAME>"	"About <CAT'S NAME>"	NA	"8b"	"topic development"	NA	NA	NA	3
+2020-07-10 06:54:50	"teacher008"	"teacher"	38	"I live in a very small town, it's very rural, and cats around here are just wild predators!"	"I live in a very small town, it's very rural, and cats around here are just wild predators!"	36	NA	NA	NA	NA	NA	18
+2020-07-10 06:54:53	"teacher008"	"teacher"	39	"Yes, go on!"	"Yes, go on!"	37	NA	NA	NA	NA	NA	3
+2020-07-10 06:55:48	"student010"	"student"	40	"You're the first who didn't ask why cat is girl and she called <CAT'S NAME>"	"You're the first who didn't ask why my cat is a girl and she is called <CAT'S NAME>"	NA	NA	NA	NA	NA	NA	15
+2020-07-10 06:56:21	"teacher008"	"teacher"	41	"Do you mean <CAT'S NAME> like a type of food?"	"Do you mean <CAT'S NAME> like a type of food?"	NA	NA	NA	NA	NA	NA	10
+2020-07-10 06:57:20	"student010"	"student"	42	"Anyway all people think that <CAT'S NAME> it's he"	"Anyway all people think that <CAT'S NAME>  is a he"	NA	NA	NA	NA	NA	NA	9
+2020-07-10 06:57:38	"teacher008"	"teacher"	43	"So what's the story behind the name?"	"So what's the story behind the name?"	NA	"8c"	"topic development"	NA	NA	NA	7
+2020-07-10 06:59:32	"student010"	"student"	44	"She has 3 names: the first <CAT'S NAME1>Sonya, the second <CAT'S NAME2> and third <CAT'S NAME>"	"She has 3 names: the first is <CAT'S NAME1>, the second is <CAT'S NAME2> and the third is <CAT'S NAME>"	NA	NA	NA	NA	NA	NA	16
+2020-07-10 06:59:45	"student010"	"student"	45	"Now reasons"	"Now the reasons"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 07:00:33	"teacher008"	"teacher"	46	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:00:58	"teacher008"	"teacher"	47	"Is <CAT'S NAME1> because she sleeps a lot?"	"Is <CAT'S NAME1> because she sleeps a lot?"	NA	NA	NA	NA	NA	NA	8
+2020-07-10 07:01:49	"student010"	"student"	48	"1: she loves slepping 2: my mum said that it's cool name 3: because she's 3 colour cat and I called it <CAT'S NAME>"	"1: she loves sleeping 2: my mum said that it's a cool name 3: because she's a three-coloured cat and I called her <CAT'S NAME>"	NA	NA	NA	NA	NA	NA	24
+2020-07-10 07:02:13	"student010"	"student"	49	"About <CAT'S NAME1> you're right"	"You're right about <CAT'S NAME1>"	47	NA	NA	NA	NA	NA	5
+2020-07-10 07:02:24	"teacher008"	"teacher"	50	"haha, I guessed the first one!"	"haha, I guessed the first one!"	NA	NA	NA	NA	NA	NA	6
+2020-07-10 07:02:40	"student010"	"student"	51	"First was easy"	"The first one was easy"	NA	NA	NA	NA	NA	NA	3
+2020-07-10 07:03:11	"teacher008"	"teacher"	52	"I love three-coloured cats. I think they are called 'calico' cats"	"I love three-coloured cats. I think they are called 'calico' cats"	NA	"8d"	"topic development"	NA	NA	NA	11
+2020-07-10 07:04:13	"student010"	"student"	53	"Did you know that 'calico' boy cats are very rare"	"Did you know that male 'calico' cats are very rare"	NA	NA	NA	NA	NA	NA	10
+2020-07-10 07:04:29	"student010"	"student"	54	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:04:35	"teacher008"	"teacher"	55	"No! Is that so?"	"No! Is that so?"	NA	NA	NA	NA	NA	NA	4
+2020-07-10 07:05:45	"student010"	"student"	56	"Yes I have 3 'calico' cats in this vilage they're girls and <CAT'S NAME> in Kyiv"	"Yes I have 3 'calico' cats in this vilage they're girls and <CAT'S NAME> in Kyiv"	NA	NA	NA	NA	NA	NA	16
+2020-07-10 07:06:07	"teacher008"	"teacher"	57	"Oh wow! Are they sisters / mothers and daughters?"	"Oh wow! Are they sisters / mothers and daughters?"	NA	NA	NA	NA	NA	NA	9
+2020-07-10 07:06:49	"student010"	"student"	58	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:07:24	"teacher008"	"teacher"	59	"Nice! A gang of calico cats!"	"Nice! A gang of calico cats!"	NA	NA	NA	NA	NA	NA	6
+2020-07-10 07:07:36	"student010"	"student"	60	"My family loves 'calico' cats"	"My family loves 'calico' cats"	NA	NA	NA	NA	NA	NA	5
+2020-07-10 07:08:06	"teacher008"	"teacher"	61	"I can see why! They are beautiful!"	"I can see why! They are beautiful!"	NA	NA	NA	NA	NA	NA	7
+2020-07-10 07:08:31	"teacher008"	"teacher"	62	"<STUDENT>, is it you?"	"<STUDENT>, is it you?"	NA	"9.0"	"disruption"	NA	NA	NA	4
+2020-07-10 07:08:37	"student010"	"student"	63	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:08:46	"teacher008"	"teacher"	64	"Ok :)"	"Ok :)"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 07:08:51	"teacher008"	"teacher"	65	"Just checking"	"Just checking"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 07:09:09	"teacher008"	"teacher"	66	"Ok, quick look at the articles!"	"Ok, quick look at the articles!"	NA	"10.0"	"topic opening"	"grammatical resource"	NA	NA	6
+2020-07-10 07:09:09	"student010"	"student"	67	"It's kitty it's very playful"	"It's the kitty, it's very playful"	65	NA	NA	NA	NA	NA	5
+2020-07-10 07:09:19	"teacher008"	"teacher"	68	"Haha, she wants to participate!"	"Haha, she wants to participate!"	NA	NA	NA	NA	NA	NA	5
+2020-07-10 07:09:46	"student010"	"student"	69	"She closed the programme"	"She closed the programme"	NA	NA	NA	NA	NA	NA	4
+2020-07-10 07:09:57	"teacher008"	"teacher"	70	"I was thinking how to help you with the articles without learning dozens of rules"	"I was thinking how to help you with the articles without learning dozens of rules"	66	NA	NA	NA	NA	NA	15
+2020-07-10 07:10:53	"student010"	"student"	71	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:10:56	"teacher008"	"teacher"	72	"And I think the best thing we can do to understand them is to think about 'a/an' as 'any'."	"And I think the best thing we can do to understand them is to think about 'a/an' as 'any'."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-07-10 07:11:17	"teacher008"	"teacher"	73	"For example, there is A tree in front of my house. Any tree, one of many trees!"	"For example, there is A tree in front of my house. Any tree, one of many trees!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2020-07-10 07:12:15	"teacher008"	"teacher"	74	"But if we use 'the', we both know what we are talking about. In a way, we can often use 'this / that / these /those' instead of 'the'"	"But if we use 'the', we both know what we are talking about. In a way, we can often use 'this / that / these /those' instead of 'the'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	29
+2020-07-10 07:12:27	"teacher008"	"teacher"	75	"And that's the main difference"	"And that's the main difference"	NA	NA	NA	NA	NA	NA	5
+2020-07-10 07:12:31	"student010"	"student"	76	"Can I ask a question?"	"Can I ask a question?"	NA	"11.0"	"topic opening"	NA	NA	NA	5
+2020-07-10 07:12:47	"teacher008"	"teacher"	77	"Yes, sure!"	"Yes, sure!"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 07:12:59	"student010"	"student"	78	"About your son"	"About your son"	NA	NA	NA	NA	NA	NA	3
+2020-07-10 07:13:15	"teacher008"	"teacher"	79	"Go on"	"Go on"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 07:13:43	"student010"	"student"	80	"Does he have something like 2 names?"	"Does he have something like 2 names?"	NA	NA	NA	NA	NA	NA	7
+2020-07-10 07:14:00	"teacher008"	"teacher"	81	"Oh, do you mean forename and middle name?"	"Oh, do you mean forename and middle name?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-07-10 07:14:15	"teacher008"	"teacher"	82	"He does, actually. He is called <TEACHER'S SON'S FULL NAME>, but we call him <TEACHER'S SON'S SHORT NAME>"	"He does, actually. He is called <TEACHER'S SON'S FULL NAME>, but we call him <TEACHER'S SON'S SHORT NAME>"	NA	NA	NA	NA	NA	NA	18
+2020-07-10 07:14:25	"student010"	"student"	83	"Oh ok"	"Oh ok"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 07:14:52	"student010"	"student"	84	"Because I have cousins in The USA"	"Because I have cousins in the USA"	NA	NA	NA	NA	NA	NA	7
+2020-07-10 07:15:06	"teacher008"	"teacher"	85	"His Dad's name is <TEACHER'S SON'S MIDDLE NAME>, so his middle name is a bit like a patronymic in Ukrainian"	"His Dad's name is <TEACHER'S SON'S MIDDLE NAME>, so his middle name is a bit like a patronymic in Ukrainian"	82	NA	NA	NA	NA	NA	20
+2020-07-10 07:15:23	"teacher008"	"teacher"	86	"But it doesn't have to be, a middle name can be anything!"	"But it doesn't have to be, a middle name can be anything!"	NA	NA	NA	NA	NA	NA	12
+2020-07-10 07:16:17	"student010"	"student"	87	"Yes because my oldest cousin called <STUDENT'S COUSIN'S FULL NAME>"	"Yes because my oldest cousin is called <STUDENT'S COUSIN'S FULL NAME>"	NA	NA	NA	NA	NA	NA	10
+2020-07-10 07:16:52	"student010"	"student"	88	"His friends call him <STUDENT'S COUSIN'S SHORT NAME1> or <STUDENT'S COUSIN'S SHORT NAME2>"	"His friends call him <STUDENT'S COUSIN'S SHORT NAME1> or <STUDENT'S COUSIN'S SHORT NAME2>"	NA	NA	NA	NA	NA	NA	13
+2020-07-10 07:17:33	"teacher008"	"teacher"	89	"Ah yes, <STUDENT'S COUSIN'S SHORT NAME2> sounds very American"	"Ah yes, <STUDENT'S COUSIN'S SHORT NAME2> sounds very American"	NA	NA	NA	NA	NA	NA	9
+2020-07-10 07:17:38	"student010"	"student"	90	"I call him <STUDENT'S COUSIN'S SHORT NAME3>"	"I call him <STUDENT'S COUSIN'S SHORT NAME3>"	NA	NA	NA	NA	NA	NA	7
+2020-07-10 07:18:07	"teacher008"	"teacher"	91	"Middle names are hardly ever used in the UK. They are mostly for documents, of if people don't like their first names"	"Middle names are hardly ever used in the UK. They are mostly for documents, of if people don't like their first names"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	22
+2020-07-10 07:19:08	"teacher008"	"teacher"	92	"<STUDENT>, does what I said about articles make sense to you?"	"<STUDENT>, does what I said about articles make sense to you?"	NA	"12.0"	"topic opening"	"grammatical resource"	NA	NA	11
+2020-07-10 07:19:16	"student010"	"student"	93	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:19:28	"teacher008"	"teacher"	94	"a = any, the = this / that / these /those"	"a = any, the = this / that / these /those"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-07-10 07:19:35	"teacher008"	"teacher"	95	"not quite, but just something to keep in mind"	"not quite, but just something to keep in mind"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-07-10 07:20:02	"teacher008"	"teacher"	96	"For example, you said earlier 'the cat is fighting with my phone'"	"For example, you said earlier 'the cat is fighting with my phone'"	NA	"12a"	"topic development"	"grammatical resource"	NA	NA	12
+2020-07-10 07:20:35	"teacher008"	"teacher"	97	"The cat - absolutely correct, because we both know which cat you mean! Your uncle's cat who in the porch with you, right?"	"The cat - absolutely correct, because we both know which cat you mean! Your uncle's cat who in the porch with you, right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2020-07-10 07:20:51	"student010"	"student"	98	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:22:48	"teacher008"	"teacher"	99	"And when you asked, 'Do you want A story about her name?' - also correct, because you know that there is a story and I don't"	"And when you asked, 'Do you want A story about her name?' - also correct, because you know that there is a story and I don't"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	26
+2020-07-10 07:23:49	"teacher008"	"teacher"	100	"In some cases, we just have to remember it. Like 'the weather' is always 'the weather'"	"In some cases, we just have to remember it. Like 'the weather' is always 'the weather'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2020-07-10 07:24:22	"teacher008"	"teacher"	101	"How would you ask me about the weather where I am?"	"How would you ask me about the weather where I am?"	NA	"12b"	"eliciting"	"grammatical resource"	NA	NA	11
+2020-07-10 07:25:02	"student010"	"student"	102	"What is the weather in your country?"	"What is the weather like in your country?"	NA	NA	NA	NA	NA	NA	7
+2020-07-10 07:25:25	"teacher008"	"teacher"	103	"What's the weather ___ in your country?"	"What's the weather ___ in your country?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2020-07-10 07:25:38	"teacher008"	"teacher"	104	"a short word is missing!"	"a short word is missing!"	NA	NA	NA	NA	NA	NA	5
+2020-07-10 07:25:46	"student010"	"student"	105	"Is in"	"Is in"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 07:26:06	"teacher008"	"teacher"	106	"nope, you have 'is' already"	"nope, you have 'is' already"	NA	NA	NA	NA	NA	NA	5
+2020-07-10 07:26:24	"student010"	"student"	107	"Now?"	"Now?"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:26:28	"teacher008"	"teacher"	108	"like!"	"like!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	1
+2020-07-10 07:26:36	"teacher008"	"teacher"	109	"What's the weather like?"	"What's the weather like?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2020-07-10 07:26:48	"student010"	"student"	110	"Oh ok"	"Oh ok"	NA	NA	NA	NA	NA	NA	2
+2020-07-10 07:26:53	"teacher008"	"teacher"	111	"It's been raining since Tuesday!"	"It's been raining since Tuesday!"	NA	NA	NA	NA	NA	NA	5
+2020-07-10 07:27:10	"teacher008"	"teacher"	112	"What's life like in your village?"	"What's life like in your village?"	NA	"12c"	NA	NA	NA	NA	6
+2020-07-10 07:28:01	"student010"	"student"	113	"It's hard and interesting"	"It's hard and interesting"	NA	NA	NA	NA	NA	NA	4
+2020-07-10 07:28:48	"teacher008"	"teacher"	114	"Good answer! I kind of want to know more, but it's time to let you go!"	"Good answer! I kind of want to know more, but it's time to let you go!"	NA	NA	NA	NA	NA	NA	16
+2020-07-10 07:29:26	"teacher008"	"teacher"	115	"Enjoy a break, and I'll talk to you again on Wednesday 22 July, and I'll email you to remind :)"	"Enjoy a break, and I'll talk to you again on Wednesday 22 July, and I'll email you to remind :)"	NA	"13.0"	"closing"	NA	NA	NA	20
+2020-07-10 07:29:39	"student010"	"student"	116	"Bye"	"Bye"	NA	NA	NA	NA	NA	NA	1
+2020-07-10 07:29:44	"teacher008"	"teacher"	117	"Take care"	"Take care"	NA	NA	NA	NA	NA	"B2"	2

@@ -1,0 +1,140 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-02-16 10:33:17	"teacher001"	"teacher"	1	"Hello <STUDENT>, how's it going?"	"Hello <STUDENT>, how's it going?"	NA	"1.0"	"opening"	NA	NA	NA	5
+2020-02-16 10:33:26	"student005"	"student"	2	"Well thanks"	"Well, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 10:34:06	"teacher001"	"teacher"	3	"Ok so you managed to open the document I sent right?"	"Ok so you managed to open the document I sent right?"	NA	"2.0"	"admin"	NA	NA	NA	11
+2020-02-16 10:34:20	"student005"	"student"	4	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 10:34:51	"teacher001"	"teacher"	5	"OK ...can I ask you to have a go then at writing the following sentnce...hold on a sec"	"OK ...can I ask you to have a go then at writing the following sentnce...hold on a sec"	NA	"2a"	"exercise"	"writing"	NA	NA	18
+2020-02-16 10:35:31	"student005"	"student"	6	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 10:36:16	"teacher001"	"teacher"	7	"referring to the first chart: the 'satisfied' category! Not an intro or nay comparison ...just the basic fact about that category for the first chart...thanks!"	"referring to the first chart: the 'satisfied' category! Not an intro or nay comparison ...just the basic fact about that category for the first chart...thanks!"	NA	NA	NA	NA	NA	NA	25
+2020-02-16 10:37:10	"student005"	"student"	8	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 10:39:13	"student005"	"student"	9	"The satisfied people during the year before refurbishment, accounted for 30%"	"The satisfied people during the year before the refurbishment accounted for 30%"	NA	NA	NA	NA	NA	NA	11
+2020-02-16 10:40:36	"teacher001"	"teacher"	10	"Thanks <STUDENT> - good to see you trying to use 'account for' again! hold on..."	"Thanks <STUDENT> - good to see you trying to use 'account for' again! hold on..."	NA	NA	NA	NA	NA	NA	15
+2020-02-16 10:41:40	"teacher001"	"teacher"	11	"so remember we can use a variety of grammar and vocabulary to get a higher score ...and some of this obviously depends on the nature of the information...."	"so remember we can use a variety of grammar and vocabulary to get a higher score ...and some of this obviously depends on the nature of the information...."	NA	"2b"	"scaffolding"	"task achievement"	NA	NA	28
+2020-02-16 10:41:55	"student005"	"student"	12	"I like using ‘accounted for’ ahah"	"I like using ‘accounted for’ ahah"	10	NA	NA	NA	NA	NA	6
+2020-02-16 10:41:55	"teacher001"	"teacher"	13	"so this example is the results of a survey..."	"so this example is the results of a survey..."	11	NA	NA	NA	NA	NA	9
+2020-02-16 10:42:25	"teacher001"	"teacher"	14	"try beginning with '30%' and write another example ok?"	"try beginning with '30%' and write another example ok?"	NA	"2c"	"eliciting"	"task achievement,lexical resource"	NA	NA	9
+2020-02-16 10:42:57	"teacher001"	"teacher"	15	"i.e. '30% of ..........'"	"i.e. '30% of ..........'"	NA	NA	"clarification"	NA	NA	NA	4
+2020-02-16 10:44:44	"student005"	"student"	16	"30% of people were satisfied in the year before refurbishment"	"30% of people were satisfied in the year before the refurbishment"	NA	NA	NA	NA	NA	NA	10
+2020-02-16 10:45:08	"student005"	"student"	17	"But how can I change the word refurbishment?"	"But how can I change the word refurbishment?"	NA	"2d"	"enquiry"	"lexical resource"	NA	NA	8
+2020-02-16 10:45:33	"teacher001"	"teacher"	18	"Thanks <STUDENT> - yes this is good!  hold on..."	"Thanks <STUDENT> - yes this is good!  hold on..."	16	NA	NA	NA	NA	NA	10
+2020-02-16 10:46:27	"teacher001"	"teacher"	19	"can you add a couple of words in the gaps: 30% 0f people were satisfied _____ _____ _____ in the year before refurbishment.'"	"can you add a couple of words in the gaps: 30% 0f people were satisfied _____ _____ _____ in the year before refurbishment.'"	NA	"2e"	"scaffolding"	"lexical resource"	NA	NA	23
+2020-02-16 10:47:11	"teacher001"	"teacher"	20	"renovation' = possible synonym for 'refurbishment'"	"renovation' = possible synonym for 'refurbishment'"	17	NA	NA	NA	NA	NA	6
+2020-02-16 10:48:49	"teacher001"	"teacher"	21	"e.g. satisfied with/of/from' ?"	"e.g. satisfied with/of/from' ?"	19	NA	NA	NA	NA	NA	4
+2020-02-16 10:48:59	"student005"	"student"	22	"By the museum"	"with the museum"	NA	NA	NA	NA	NA	NA	3
+2020-02-16 10:49:17	"teacher001"	"teacher"	23	"choose one of the three preposition above!"	"choose one of the three preposition above!"	21	NA	NA	NA	NA	NA	7
+2020-02-16 10:49:53	"student005"	"student"	24	"But “...the museum” is right ?"	"But “...the museum” is right ?"	NA	"2f"	"enquiry"	"lexical resource"	NA	NA	6
+2020-02-16 10:49:59	"teacher001"	"teacher"	25	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 10:50:08	"student005"	"student"	26	"From the museum?"	"with the museum?"	23	NA	NA	NA	NA	NA	3
+2020-02-16 10:50:19	"teacher001"	"teacher"	27	"or: 'their._________?"	"or: 'their._________?"	25	NA	NA	NA	NA	NA	2
+2020-02-16 10:50:36	"teacher001"	"teacher"	28	"instead of 'the museum' I mean"	"instead of 'the museum' I mean"	NA	NA	NA	NA	NA	NA	6
+2020-02-16 10:51:04	"student005"	"student"	29	"From their services?"	"with their services?"	NA	NA	NA	NA	NA	NA	3
+2020-02-16 10:51:55	"teacher001"	"teacher"	30	"OK so bringing these two things together...e.g. '30% of people were satisified with their visit' = good"	"OK so bringing these two things together...e.g. '30% of people were satisified with their visit' = good"	NA	"2g"	"scaffolding"	"lexical resource"	NA	NA	17
+2020-02-16 10:52:00	"teacher001"	"teacher"	31	"satisfied"	"satisfied"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-16 10:52:29	"student005"	"student"	32	"Ok understood"	"Ok understood"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 10:53:02	"teacher001"	"teacher"	33	"ok great so..using that example sentence as a model can you replace the word 'visit' with a different word?"	"ok great so..using that example sentence as a model can you replace the word 'visit' with a different word?"	NA	"2h"	"eliciting"	"lexical resource"	NA	NA	19
+2020-02-16 10:54:13	"teacher001"	"teacher"	34	"exp....'?!"	"exp....'?!"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 10:54:26	"student005"	"student"	35	"Experience?"	"Experience?"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 10:54:44	"teacher001"	"teacher"	36	"yes good! that's a good option in this context"	"yes good! that's a good option in this context"	NA	NA	NA	NA	NA	NA	9
+2020-02-16 10:55:02	"teacher001"	"teacher"	37	"and can you replace 'people' ? Who are the peopel in this context?"	"and can you replace 'people' ? Who are the peopel in this context?"	NA	"2i"	"eliciting"	"lexical resource"	NA	NA	13
+2020-02-16 10:55:52	"teacher001"	"teacher"	38	"not a trick question - the answer is in the words in the charts"	"not a trick question - the answer is in the words in the charts"	NA	NA	NA	NA	NA	NA	14
+2020-02-16 10:56:02	"student005"	"student"	39	"Turists"	"Tourists"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 10:56:47	"teacher001"	"teacher"	40	"ah! not a bad idea ....but a bit of a jump because I guess for example the _________ might just live next door you know?!"	"ah! not a bad idea ....but a bit of a jump because I guess for example the _________ might just live next door you know?!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	25
+2020-02-16 10:57:19	"teacher001"	"teacher"	41	"visitors!!"	"visitors!!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-02-16 10:57:41	"student005"	"student"	42	"It’s the same meaning, isn’t it?"	"It has the same meaning, doesn't it?"	NA	"2j"	"enquiry"	"lexical resource,meaning"	NA	NA	6
+2020-02-16 10:58:08	"student005"	"student"	43	"Between visitors and turists"	"Visitors and tourists"	NA	NA	NA	NA	NA	NA	4
+2020-02-16 10:59:07	"teacher001"	"teacher"	44	"um..well it can be but a tourist suggest for example that they are on holiday/travelling and probably doing other things you see whereas a visitor might just go specifically for the museum you see"	"um..well it can be but a tourist suggest for example that they are on holiday/travelling and probably doing other things you see whereas a visitor might just go specifically for the museum you see"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	34
+2020-02-16 11:00:09	"teacher001"	"teacher"	45	"For example, I can have visitors in my house - just people who've come to see me to talk about something but they're not tourists!"	"For example, I can have visitors in my house - just people who've come to see me to talk about something but they're not tourists!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	25
+2020-02-16 11:00:10	"student005"	"student"	46	"Ahhh but can it be a way to use a different word in the essay?"	"Ahhh but can it be a way to use a different word in the essay?"	NA	NA	"enquiry"	"lexical resource,task achievement"	NA	NA	15
+2020-02-16 11:00:54	"student005"	"student"	47	"For example, if I use visitors because it’s better, can I change this word ?"	"For example, if I use visitors because it’s better, can I change this word ?"	NA	NA	NA	NA	NA	NA	15
+2020-02-16 11:01:17	"teacher001"	"teacher"	48	"It's not quite right I'd say BUT it's OK BUT there are other ways you can change other parts of your answer more accurately do you see?"	"It's not quite right I'd say BUT it's OK BUT there are other ways you can change other parts of your answer more accurately do you see?"	NA	NA	"scaffolding"	"lexical resource,task achievement"	NA	NA	27
+2020-02-16 11:01:31	"teacher001"	"teacher"	49	"so hold on...."	"so hold on...."	NA	NA	NA	NA	NA	NA	3
+2020-02-16 11:01:43	"student005"	"student"	50	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:02:36	"teacher001"	"teacher"	51	"we've got now: '30% of people were satisfied with their experience' ...can we change 30%?"	"we've got now: '30% of people were satisfied with their experience' ...can we change 30%?"	NA	"3.0"	"eliciting"	"lexical resource"	NA	NA	15
+2020-02-16 11:02:57	"teacher001"	"teacher"	52	"sorry: 30% of visitors were satisfied with their experience"	"sorry: 30% of visitors were satisfied with their experience"	NA	NA	"clarification"	NA	NA	NA	9
+2020-02-16 11:03:38	"student005"	"student"	53	"30/100 ahaha"	"30/100 ahaha"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:03:54	"teacher001"	"teacher"	54	"technically correct:)"	"technically correct:)"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:04:01	"teacher001"	"teacher"	55	"how about a fraction?"	"how about a fraction?"	NA	NA	NA	NA	NA	NA	4
+2020-02-16 11:04:05	"student005"	"student"	56	"But not for ielts"	"But not for ielts"	54	NA	NA	NA	NA	NA	4
+2020-02-16 11:04:15	"student005"	"student"	57	"44107.0"	"44107.0"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:04:16	"teacher001"	"teacher"	58	"nooo.."	"nooo.."	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:04:26	"teacher001"	"teacher"	59	"can you write it in words"	"can you write it in words"	NA	NA	"eliciting"	"lexical resource"	NA	NA	6
+2020-02-16 11:05:23	"student005"	"student"	60	"Third of ten"	"three out of ten"	NA	NA	NA	NA	NA	NA	3
+2020-02-16 11:05:34	"student005"	"student"	61	"Or three tenth"	"Or three tenth"	NA	NA	NA	NA	NA	NA	3
+2020-02-16 11:07:17	"teacher001"	"teacher"	62	"ok so best for Ielts to use fairly basic fractions e.g. half/quarter/third./fifth......and then add little phrases to make it more specific e.g. 52% = _______  ________ half?"	"ok so best for Ielts to use fairly basic fractions e.g. half/quarter/third./fifth......and then add little phrases to make it more specific e.g. 52% = _______  ________ half?"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	28
+2020-02-16 11:07:40	"teacher001"	"teacher"	63	"three tenths = good by the way ...we'l lcome back to that one in a sec OK?"	"three tenths = good by the way ...we'l lcome back to that one in a sec OK?"	61	NA	NA	NA	NA	NA	17
+2020-02-16 11:07:55	"student005"	"student"	64	"Just over half?"	"Just over half?"	62	NA	NA	NA	NA	NA	3
+2020-02-16 11:08:05	"student005"	"student"	65	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:08:19	"teacher001"	"teacher"	66	"yes perfect! hold on.."	"yes perfect! hold on.."	NA	NA	NA	NA	NA	NA	4
+2020-02-16 11:08:39	"teacher001"	"teacher"	67	"so e.g. just over/under or slightly more than etc = good"	"so e.g. just over/under or slightly more than etc = good"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-02-16 11:08:51	"teacher001"	"teacher"	68	"so therefore 30% could be ...?"	"so therefore 30% could be ...?"	NA	"3a"	"eliciting"	NA	NA	NA	6
+2020-02-16 11:10:48	"student005"	"student"	69	"Mhh"	"Mmm"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:10:56	"teacher001"	"teacher"	70	"e.g. just __________  _________ _________?"	"e.g. just __________  _________ _________?"	NA	NA	NA	NA	NA	NA	6
+2020-02-16 11:11:06	"teacher001"	"teacher"	71	"use the word 'third'!"	"use the word 'third'!"	NA	NA	NA	NA	NA	NA	4
+2020-02-16 11:12:09	"teacher001"	"teacher"	72	"30% = just under or just over?"	"30% = just under or just over?"	NA	NA	NA	NA	NA	NA	7
+2020-02-16 11:12:33	"student005"	"student"	73	"Just Under"	"Just under"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:12:49	"teacher001"	"teacher"	74	"OK so we could have now:"	"OK so we could have now:"	NA	NA	NA	NA	NA	NA	6
+2020-02-16 11:13:13	"teacher001"	"teacher"	75	"Just under a third of visitors were satisfied with their experience"	"Just under a third of visitors were satisfied with their experience"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-02-16 11:13:42	"teacher001"	"teacher"	76	"one last step ..."	"one last step ..."	NA	NA	NA	NA	NA	NA	4
+2020-02-16 11:13:56	"student005"	"student"	77	"Hold a sec"	"Hold on a sec"	NA	"3b"	NA	NA	NA	NA	3
+2020-02-16 11:14:02	"teacher001"	"teacher"	78	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:14:12	"student005"	"student"	79	"Third means 1/3?"	"A third means 1/3?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	3
+2020-02-16 11:14:15	"teacher001"	"teacher"	80	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:14:32	"teacher001"	"teacher"	81	"and you need to say 'a third' by the way"	"and you need to say 'a third' by the way"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-02-16 11:14:57	"teacher001"	"teacher"	82	"or 'one third'"	"or 'one third'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-02-16 11:15:12	"teacher001"	"teacher"	83	"so e.g. just under a/one third of visitors"	"so e.g. just under a/one third of visitors"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-02-16 11:15:25	"student005"	"student"	84	"Yes but can I say between 40% and 5O%?"	"Yes but can I say between 40% and 5O%?"	NA	"3c"	"enquiry"	"lexical resource,task achievement"	NA	NA	9
+2020-02-16 11:15:34	"student005"	"student"	85	"Or far under 50%?"	"Or far under 50%?"	NA	NA	"enquiry"	"lexical resource,task achievement"	NA	NA	4
+2020-02-16 11:15:57	"student005"	"student"	86	"Or is it not clear?"	"Or is it not clear?"	NA	NA	"enquiry"	"lexical resource,task achievement"	NA	NA	5
+2020-02-16 11:15:58	"teacher001"	"teacher"	87	"same with quarters/fifths (a/one is needed) but with half you don't need to say a/one (but you can if you want)"	"same with quarters/fifths (a/one is needed) but with half you don't need to say a/one (but you can if you want)"	83	NA	"scaffolding"	"lexical resource"	NA	NA	21
+2020-02-16 11:16:18	"teacher001"	"teacher"	88	"do you mean for the 30% figure?"	"do you mean for the 30% figure?"	86	NA	NA	NA	NA	NA	7
+2020-02-16 11:16:23	"student005"	"student"	89	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:16:43	"teacher001"	"teacher"	90	"Well you can't say between 40% and 50% right?"	"Well you can't say between 40% and 50% right?"	NA	NA	NA	NA	NA	NA	9
+2020-02-16 11:17:02	"teacher001"	"teacher"	91	"because it's less than 40% (?)"	"because it's less than 40% (?)"	NA	NA	NA	NA	NA	NA	6
+2020-02-16 11:17:03	"student005"	"student"	92	"May I?"	"May I?"	89	NA	NA	NA	NA	NA	2
+2020-02-16 11:17:18	"teacher001"	"teacher"	93	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:17:27	"student005"	"student"	94	"Yes sorry, I mean 20% and 40%"	"Yes sorry, I mean 20% and 40%"	NA	NA	NA	NA	NA	NA	7
+2020-02-16 11:17:37	"teacher001"	"teacher"	95	"ah sorry:)"	"ah sorry:)"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:17:42	"student005"	"student"	96	"Or 25 and 35"	"Or 25 and 35"	NA	NA	NA	NA	NA	NA	4
+2020-02-16 11:17:51	"teacher001"	"teacher"	97	"no this is unnecessarily vague"	"no this is unnecessarily vague"	NA	NA	"scaffolding"	"task achievement"	NA	NA	5
+2020-02-16 11:17:51	"student005"	"student"	98	"Sorry"	"Sorry"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:18:16	"teacher001"	"teacher"	99	"if you have various figures in that range then maybe"	"if you have various figures in that range then maybe"	NA	NA	"scaffolding"	"task achievement"	NA	NA	10
+2020-02-16 11:18:38	"teacher001"	"teacher"	100	"otherwise e.g. just under a third = much better"	"otherwise e.g. just under a third = much better"	NA	NA	"scaffolding"	"task achievement,lexical resource"	NA	NA	9
+2020-02-16 11:18:41	"student005"	"student"	101	"So is it possible?"	"So is it possible?"	NA	"3d"	"enquiry"	"task achievement,lexical resource"	NA	NA	4
+2020-02-16 11:18:46	"student005"	"student"	102	"s it not bad?"	"Is it not bad?"	NA	NA	NA	NA	NA	NA	4
+2020-02-16 11:18:56	"teacher001"	"teacher"	103	"it's not wrong but it's not very good!"	"it's not wrong but it's not very good!"	NA	NA	"scaffolding"	"task achievement"	NA	NA	8
+2020-02-16 11:19:10	"teacher001"	"teacher"	104	"just under a third = much much much better!"	"just under a third = much much much better!"	NA	NA	"scaffolding"	"task achievement,lexical resource"	NA	NA	9
+2020-02-16 11:19:21	"teacher001"	"teacher"	105	"or just 30%!!"	"or just 30%!!"	NA	NA	NA	NA	NA	NA	3
+2020-02-16 11:19:41	"teacher001"	"teacher"	106	"as in Jesusust  the number itself: 30%"	"as in Jesusust  the number itself: 30%"	NA	NA	NA	NA	NA	NA	8
+2020-02-16 11:19:48	"teacher001"	"teacher"	107	"sorry just not Jesus!"	"sorry just not Jesus!"	NA	NA	"repair"	"writing"	NA	NA	4
+2020-02-16 11:19:59	"student005"	"student"	108	"Ahahaha"	"Ahahaha"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:20:06	"teacher001"	"teacher"	109	"ready for last step?"	"ready for last step?"	NA	"4.0"	"presentation"	"lexical resource,writing"	NA	NA	4
+2020-02-16 11:20:21	"student005"	"student"	110	"Born ready"	"Born ready"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:20:29	"teacher001"	"teacher"	111	"good answer"	"good answer"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:20:35	"student005"	"student"	112	"Ahahaha"	"Ahahaha"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:21:13	"teacher001"	"teacher"	113	"so ....because this is a survey there are various verbs etc we can use to report the results"	"so ....because this is a survey there are various verbs etc we can use to report the results"	NA	NA	"presentation"	"lexical resource,writing"	NA	NA	18
+2020-02-16 11:21:36	"teacher001"	"teacher"	114	"apart from just saying e.g. people were satisfied....for example?"	"apart from just saying e.g. people were satisfied....for example?"	NA	NA	"presentation"	"lexical resource"	NA	NA	9
+2020-02-16 11:21:57	"teacher001"	"teacher"	115	"e.g. in a survey you ask people questions right and they...?"	"e.g. in a survey you ask people questions right and they...?"	NA	"4a"	"eliciting"	"lexical resource"	NA	NA	11
+2020-02-16 11:22:15	"student005"	"student"	116	"Answer"	"Answer"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:23:04	"teacher001"	"teacher"	117	"yes you're completely right but sorry ...bad question...better verbs = e.g. said / reported / indicated OK?"	"yes you're completely right but sorry ...bad question...better verbs = e.g. said / reported / indicated OK?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-02-16 11:23:59	"student005"	"student"	118	"Ok I misunderstood"	"Ok I misunderstood"	NA	NA	NA	NA	NA	NA	3
+2020-02-16 11:24:25	"teacher001"	"teacher"	119	"no sorry my fault...So to summarise: we have a range of language we can use to explain the data ...hold on"	"no sorry my fault...So to summarise: we have a range of language we can use to explain the data ...hold on"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	21
+2020-02-16 11:24:26	"student005"	"student"	120	"Claim"	"Claim"	NA	"4b"	NA	NA	NA	NA	1
+2020-02-16 11:24:33	"teacher001"	"teacher"	121	"yes claim = great!"	"yes claim = great!"	NA	NA	NA	NA	NA	NA	4
+2020-02-16 11:24:35	"student005"	"student"	122	"May I use that?"	"May I use that?"	NA	NA	NA	NA	NA	NA	4
+2020-02-16 11:24:41	"teacher001"	"teacher"	123	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:24:42	"student005"	"student"	124	"Ok perfect"	"Ok perfect"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:25:13	"teacher001"	"teacher"	125	"so e.g. different language to describe the percentages e.g. changing them into fractions"	"so e.g. different language to describe the percentages e.g. changing them into fractions"	NA	"4c"	"recap"	"writing,lexical resource"	NA	NA	13
+2020-02-16 11:25:37	"teacher001"	"teacher"	126	"different words to descrive survey results e.g. report/claim/say"	"different words to descrive survey results e.g. report/claim/say"	NA	NA	NA	NA	NA	NA	8
+2020-02-16 11:26:01	"teacher001"	"teacher"	127	"different words for the exact topic e.g. visit/experience/"	"different words for the exact topic e.g. visit/experience/"	NA	NA	NA	NA	NA	NA	8
+2020-02-16 11:26:12	"teacher001"	"teacher"	128	"renovation"	"renovation"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:26:50	"teacher001"	"teacher"	129	"all you have to do is mix all these up in grammatically accurate sentences and you'll get a great score !!"	"all you have to do is mix all these up in grammatically accurate sentences and you'll get a great score !!"	NA	NA	NA	NA	NA	NA	21
+2020-02-16 11:26:54	"teacher001"	"teacher"	130	"easy right?"	"easy right?"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:26:57	"student005"	"student"	131	"Just under a one third of people claim that they were satisfied"	"Just under one third of people claim that they were satisfied"	NA	"4d"	"exercise"	"writing"	NA	NA	12
+2020-02-16 11:27:09	"teacher001"	"teacher"	132	"yes very good - but use the past simple"	"yes very good - but use the past simple"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	9
+2020-02-16 11:27:18	"student005"	"student"	133	"Claimed?"	"Claimed?"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:27:24	"teacher001"	"teacher"	134	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-16 11:27:37	"student005"	"student"	135	"Ok yes"	"Ok yes"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:28:07	"teacher001"	"teacher"	136	"Next time <STUDENT> we'll practice this language a bit more and I'll ask you to decide on the main points/how to connect stuff together OK?"	"Next time <STUDENT> we'll practice this language a bit more and I'll ask you to decide on the main points/how to connect stuff together OK?"	NA	"5.0"	"closing"	NA	NA	NA	25
+2020-02-16 11:28:27	"student005"	"student"	137	"Perfect, thanks"	"Perfect, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-02-16 11:28:49	"teacher001"	"teacher"	138	"OK I'll catch up with you in the week - thanks a lot bye"	"OK I'll catch up with you in the week - thanks a lot bye"	NA	NA	NA	NA	NA	NA	14
+2020-02-16 11:29:07	"student005"	"student"	139	"thanks to you, bye!"	"thank you, bye!"	NA	NA	NA	NA	NA	"B2"	4

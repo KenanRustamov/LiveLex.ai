@@ -1,0 +1,150 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-04-07 11:32:07	"teacher001"	"teacher"	1	"Afternoon <STUDENT>...."	"Afternoon <STUDENT>...."	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-04-07 11:32:29	"student004"	"student"	2	"Hello <TEACHER>"	"Hello <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-04-07 11:32:49	"teacher001"	"teacher"	3	"How's it going? Still stuck indoors I guess?"	"How's it going? Still stuck indoors I guess?"	NA	"2.0"	"topic opening"	NA	NA	NA	8
+2020-04-07 11:33:09	"student004"	"student"	4	"I'm well, yes still at home"	"I'm well, yes, still at home"	NA	NA	NA	NA	NA	NA	6
+2020-04-07 11:33:43	"student004"	"student"	5	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2020-04-07 11:34:28	"teacher001"	"teacher"	6	"Yeah me too - well not great really ...ironically I would be indoors anyway cos of my dodgy leg...but today I am going a bit potty to be honest .....can't wait to get better!"	"Yeah me too - well not great really ...ironically I would be indoors anyway cos of my dodgy leg...but today I am going a bit potty to be honest .....can't wait to get better!"	NA	NA	NA	NA	NA	NA	34
+2020-04-07 11:34:52	"student004"	"student"	7	"ohh sorry to hear that"	"ohh sorry to hear that"	NA	NA	NA	NA	NA	NA	5
+2020-04-07 11:35:15	"student004"	"student"	8	"what does potty mean??"	"what does potty mean??"	NA	"2a"	"enquiry"	"lexical resource,meaning"	NA	NA	4
+2020-04-07 11:35:41	"teacher001"	"teacher"	9	"It means....doolally!"	"It means....doolally!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-04-07 11:35:49	"teacher001"	"teacher"	10	"bonkers?"	"bonkers?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-04-07 11:36:01	"teacher001"	"teacher"	11	"mad!"	"mad!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-04-07 11:36:12	"student004"	"student"	12	"Ha mad, I know mad!!"	"Ha mad, I know mad!!"	NA	NA	NA	NA	NA	NA	5
+2020-04-07 11:36:30	"teacher001"	"teacher"	13	"Lots of synonyms! The same in Spanish I guess!"	"Lots of synonyms! The same in Spanish I guess!"	NA	NA	NA	NA	NA	NA	9
+2020-04-07 11:36:46	"teacher001"	"teacher"	14	"I think potty and doolally are British only by the way"	"I think potty and doolally are British only by the way"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	11
+2020-04-07 11:37:03	"teacher001"	"teacher"	15	"As in not used in the US I think"	"As in not used in the US I think"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	9
+2020-04-07 11:37:34	"student004"	"student"	16	"Yes, a lot of synonyms in Spanish too for mad"	"Yes, a lot of synonyms in Spanish too for mad"	13	NA	NA	NA	NA	NA	10
+2020-04-07 11:38:20	"teacher001"	"teacher"	17	"Just to be clear - you can probably guess but they are kind of light-hearted/humorous words - not like psycho etc which often implies a real problem/violence etc"	"Just to be clear - you can probably guess but they are kind of light-hearted/humorous words - not like psycho etc which often implies a real problem/violence etc"	NA	"2b"	"scaffolding"	"lexical resource,register"	NA	NA	28
+2020-04-07 11:38:56	"teacher001"	"teacher"	18	"Although 'psycho' = noun for a person of course"	"Although 'psycho' = noun for a person of course"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2020-04-07 11:39:29	"teacher001"	"teacher"	19	"So no, I'm not a psycho - just going a bit potty!"	"So no, I'm not a psycho - just going a bit potty!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-04-07 11:40:04	"student004"	"student"	20	"haha Ok, good to know"	"haha Ok, good to know"	NA	NA	NA	NA	NA	NA	5
+2020-04-07 11:40:46	"teacher001"	"teacher"	21	"OK....how about....not being able to do exercise is 'doing my head in'?"	"OK....how about....not being able to do exercise is 'doing my head in'?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	12
+2020-04-07 11:40:55	"teacher001"	"teacher"	22	"Familiar?"	"Familiar?"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 11:40:57	"student004"	"student"	23	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 11:41:14	"teacher001"	"teacher"	24	"Ah ok...this one really is common (informal but common)"	"Ah ok...this one really is common (informal but common)"	NA	NA	NA	NA	NA	NA	9
+2020-04-07 11:41:21	"student004"	"student"	25	"making me crazy'??"	"making me crazy'??"	NA	NA	NA	NA	NA	NA	3
+2020-04-07 11:41:45	"teacher001"	"teacher"	26	"Yes exactly (driving me crazy = more common by the way)"	"Yes exactly (driving me crazy = more common by the way)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-04-07 11:42:05	"student004"	"student"	27	"okk"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 11:42:17	"teacher001"	"teacher"	28	"Also - driving me nuts/mad/crazy = very common"	"Also - driving me nuts/mad/crazy = very common"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-04-07 11:42:29	"student004"	"student"	29	"Why nuts??"	"Why nuts??"	NA	"2c"	"enquiry"	"lexical resource"	NA	NA	2
+2020-04-07 11:43:10	"teacher001"	"teacher"	30	"Ah I don't know...again, British only I think..but common synonym for mad ....your nut can be your head ...which is probably the origin"	"Ah I don't know...again, British only I think..but common synonym for mad ....your nut can be your head ...which is probably the origin"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	23
+2020-04-07 11:43:41	"teacher001"	"teacher"	31	"but nuts as adjective (in phrase drive me nuts)  is much more normal that using nut as noun for head"	"but nuts as adjective (in phrase drive me nuts)  is much more normal that using nut as noun for head"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	21
+2020-04-07 11:43:58	"student004"	"student"	32	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-04-07 11:44:16	"teacher001"	"teacher"	33	"Or just 'he's nuts' /'it was nuts' or whatever"	"Or just 'he's nuts' /'it was nuts' or whatever"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-04-07 11:44:33	"student004"	"student"	34	"It sound very funny to me because I think of nuts as walnuts, and almonds..."	"It sounds very funny to me because I think of nuts as walnuts and almonds..."	NA	NA	NA	NA	NA	NA	15
+2020-04-07 11:45:01	"teacher001"	"teacher"	35	"yes I see! I guess that connection doesn't occur to us really  of course"	"yes I see! I guess that connection doesn't occur to us really  of course"	NA	NA	NA	NA	NA	NA	15
+2020-04-07 11:45:17	"teacher001"	"teacher"	36	"Hey <STUDENT>...what does your head in?"	"Hey <STUDENT>...what does your head in?"	NA	"3.0"	"topic opening,exercise"	"lexical resource"	NA	NA	6
+2020-04-07 11:45:21	"student004"	"student"	37	"No, of corse no"	"No, of course not"	35	NA	NA	NA	NA	NA	4
+2020-04-07 11:45:50	"teacher001"	"teacher"	38	"Random examples for me: tailgaters (you know?)"	"Random examples for me: tailgaters (you know?)"	36	NA	NA	NA	NA	NA	7
+2020-04-07 11:46:12	"student004"	"student"	39	"My neighbours talking on the phone very loudly on their balcony (happening right now and very often these days)"	"My neighbours talking on the phone very loudly on their balcony (happening right now and very often these days)"	NA	NA	NA	NA	NA	NA	19
+2020-04-07 11:46:42	"teacher001"	"teacher"	40	"My wife calls them 'haemorrhoids' (on the road)"	"My wife calls them 'haemorrhoids' (on the road)"	38	NA	NA	NA	NA	NA	8
+2020-04-07 11:46:45	"student004"	"student"	41	"tailaters?"	"tailgaters?"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 11:47:23	"student004"	"student"	42	"I know, I just checked!"	"I know, I just checked!"	NA	NA	NA	NA	NA	NA	5
+2020-04-07 11:47:34	"teacher001"	"teacher"	43	"yes I've always though of this as American English but it just means 'people who drive right up behind you' - hence the haemorrrhoids' idea (as joke obviously)"	"yes I've always though of this as American English but it just means 'people who drive right up behind you' - hence the haemorrrhoids' idea (as joke obviously)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	28
+2020-04-07 11:48:12	"teacher001"	"teacher"	44	"Ah you know that the phrase 'right up my arse' is common right? Vulgar (sorry) but common informally"	"Ah you know that the phrase 'right up my arse' is common right? Vulgar (sorry) but common informally"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-04-07 11:48:26	"teacher001"	"teacher"	45	"As in 'right behind me'"	"As in 'right behind me'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-04-07 11:48:29	"student004"	"student"	46	"haha funny name your wife gives them"	"haha funny name your wife gives them"	43	NA	NA	NA	NA	NA	7
+2020-04-07 11:48:56	"teacher001"	"teacher"	47	"Yes...she'll just say now : 'I've got one!' if it happens"	"Yes...she'll just say now : 'I've got one!' if it happens"	NA	NA	NA	NA	NA	NA	11
+2020-04-07 11:49:34	"teacher001"	"teacher"	48	"Yes I get the thing about talking loudly on the phone - common in Spain I imagine!"	"Yes I get the thing about talking loudly on the phone - common in Spain I imagine!"	39	NA	NA	NA	NA	NA	17
+2020-04-07 11:49:50	"student004"	"student"	49	"I don't really get my head in when driving (I know it's wrong but I don't know how to...)"	"it doesn't do my head in when driving (I know it's wrong but I don't know how to...)"	NA	"3a"	"topic development"	NA	NA	NA	19
+2020-04-07 11:50:21	"teacher001"	"teacher"	50	"Um..how do you mean? YOu mean the tailgaters?"	"Um..how do you mean? YOu mean the tailgaters?"	NA	NA	NA	NA	NA	NA	8
+2020-04-07 11:50:46	"teacher001"	"teacher"	51	"E.g. 'It doesn't do my head in when people drive right behind me.'?"	"E.g. 'It doesn't do my head in when people drive right behind me.'?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-04-07 11:50:51	"student004"	"student"	52	"yes, but my question is about 'get my head in' is it right??"	"yes, but my question is about 'get my head in' is it right??"	NA	"3b"	"enquiry"	"lexical resource"	NA	NA	13
+2020-04-07 11:51:17	"teacher001"	"teacher"	53	"No...."	"No...."	NA	NA	NA	NA	NA	NA	1
+2020-04-07 11:51:26	"teacher001"	"teacher"	54	"get'?"	"get'?"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 11:51:31	"student004"	"student"	55	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 11:51:52	"teacher001"	"teacher"	56	"No you can't say 'get my head in' but hold on...what do you want to say?"	"No you can't say 'get my head in' but hold on...what do you want to say?"	NA	NA	NA	NA	NA	NA	16
+2020-04-07 11:53:46	"student004"	"student"	57	"I'm speaking in general... there are people who easily get nervous with other drivers for many reasons (for example tailgaters). What I was trying to say is that I'm generally very calm when I drive maybe because our roads are different"	"I'm speaking in general... there are people who easily get annoyed with other drivers for many reasons (for example tailgaters). What I was trying to say is that I'm generally very calm when I drive maybe because our roads are different"	NA	NA	NA	NA	NA	NA	41
+2020-04-07 11:55:50	"teacher001"	"teacher"	58	"OK right...so you mean stay calm...um yeah I guess the phrases with 'head' aren't really possible here then...let me think of one  (but continue if you like...!)"	"OK right...so you mean stay calm...um yeah I guess the phrases with 'head' aren't really possible here then...let me think of one  (but continue if you like...!)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	28
+2020-04-07 11:56:34	"teacher001"	"teacher"	59	"By the way..'get my head together' - do you know that one?"	"By the way..'get my head together' - do you know that one?"	NA	"4.0"	"eliciting"	"lexical resource,meaning"	NA	NA	12
+2020-04-07 11:56:59	"student004"	"student"	60	"Not sure"	"Not sure"	NA	NA	NA	NA	NA	NA	2
+2020-04-07 11:57:19	"student004"	"student"	61	"I've heard it but not sure about the exact meaning"	"I've heard it but not sure about the exact meaning"	NA	NA	NA	NA	NA	NA	10
+2020-04-07 11:57:46	"teacher001"	"teacher"	62	"As in...'I'm all over the place/I can't concentrate/ or more generally in my life I feel out of control etc we can say e.g. I need to 'get it together' or I need to get my head together ' etc"	"As in...'I'm all over the place/I can't concentrate/ or more generally in my life I feel out of control etc we can say e.g. I need to 'get it together' or I need to get my head together ' etc"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	40
+2020-04-07 11:58:18	"teacher001"	"teacher"	63	"The negative adjective is 'untogether'"	"The negative adjective is 'untogether'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-04-07 11:58:40	"student004"	"student"	64	"I've hear very often something similar with a bad word"	"I've heard something similar with a bad word very often"	NA	"4a"	NA	NA	NA	NA	10
+2020-04-07 11:58:45	"teacher001"	"teacher"	65	"Very common actually..as in 'he's really untogether' = disorganised etc (more formal though!)"	"Very common actually..as in 'he's really untogether' = disorganised etc (more formal though!)"	63	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-04-07 11:58:55	"student004"	"student"	66	"put you s*** together"	"put you s*** together"	64	NA	NA	NA	NA	NA	4
+2020-04-07 11:59:10	"student004"	"student"	67	"or get??"	"or get??"	NA	NA	"enquiry"	"lexical resource"	NA	NA	2
+2020-04-07 11:59:19	"teacher001"	"teacher"	68	"Oh right yes I see! 'get your ___ together' (yes you've got it)"	"Oh right yes I see! 'get your ___ together' (yes you've got it)"	NA	NA	NA	NA	NA	NA	13
+2020-04-07 11:59:30	"student004"	"student"	69	"yess"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 11:59:56	"student004"	"student"	70	"so for that sentence, we use get but not put??"	"so for that sentence, we use get but not put??"	NA	NA	NA	NA	NA	NA	10
+2020-04-07 11:59:57	"teacher001"	"teacher"	71	"More common in US that one with that extra word for some reason - but possible in UK too"	"More common in US that one with that extra word for some reason - but possible in UK too"	69	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	19
+2020-04-07 12:00:12	"teacher001"	"teacher"	72	"Yes only 'get'"	"Yes only 'get'"	70	NA	NA	NA	NA	NA	3
+2020-04-07 12:00:34	"teacher001"	"teacher"	73	"Same with get it together - only get"	"Same with get it together - only get"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-04-07 12:00:42	"student004"	"student"	74	"ahh"	"ahh"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:01:17	"teacher001"	"teacher"	75	"But i see the idea of 'put' like the parts of a machine - as in 'assemble' - Ha that's funny when I think of it like that"	"But i see the idea of 'put' like the parts of a machine - as in 'assemble' - Ha that's funny when I think of it like that"	NA	"4b"	NA	NA	NA	NA	28
+2020-04-07 12:01:31	"teacher001"	"teacher"	76	"Logical"	"Logical"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:01:36	"teacher001"	"teacher"	77	"though"	"though"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:01:50	"student004"	"student"	78	"yes, the verb to get is to abstract to me"	"yes, the verb to get is too abstract for me"	NA	NA	NA	NA	NA	NA	10
+2020-04-07 12:02:27	"student004"	"student"	79	"Also in Spain we use 'put' much more than you do"	"Also in Spain we use 'put' much more than you do"	NA	NA	NA	NA	NA	NA	11
+2020-04-07 12:02:31	"teacher001"	"teacher"	80	"yes I know what you mean .... tough aspect of English - have/get/ etc meaningless half the time !"	"yes I know what you mean .... tough aspect of English - have/get/ etc meaningless half the time !"	78	NA	NA	NA	NA	NA	19
+2020-04-07 12:02:52	"teacher001"	"teacher"	81	"You use 'put ' more yeah? For example?"	"You use 'put ' more yeah? For example?"	79	NA	NA	NA	NA	NA	8
+2020-04-07 12:03:01	"student004"	"student"	82	"we put the washing machine, we put the table, we put food on the table, ..."	"we put the washing machine, we put the table, we put food on the table, ..."	NA	NA	NA	NA	NA	NA	16
+2020-04-07 12:03:27	"teacher001"	"teacher"	83	"Yes i see! (last one ok though in English!)"	"Yes i see! (last one ok though in English!)"	NA	NA	NA	NA	NA	NA	9
+2020-04-07 12:03:32	"student004"	"student"	84	"and more that I don't remember now"	"and more that I don't remember now"	NA	NA	NA	NA	NA	NA	7
+2020-04-07 12:03:38	"teacher001"	"teacher"	85	"Yes sure"	"Yes sure"	NA	NA	NA	NA	NA	NA	2
+2020-04-07 12:04:05	"teacher001"	"teacher"	86	"Put common in English for....phrasal verbs....aaahhhh"	"Put common in English for....phrasal verbs....aaahhhh"	NA	"5.0"	"presentation"	"lexical resource"	NA	NA	6
+2020-04-07 12:04:41	"student004"	"student"	87	"I think I only know put on and off"	"I think I only know put on and off"	NA	NA	NA	NA	NA	NA	9
+2020-04-07 12:05:24	"teacher001"	"teacher"	88	"Well these are good ones to know! Hold on a sec....(but you can continue if you like!)"	"Well these are good ones to know! Hold on a sec....(but you can continue if you like!)"	NA	NA	NA	NA	NA	NA	17
+2020-04-07 12:07:41	"teacher001"	"teacher"	89	"tolerate/insult or kill!/delay/ suggest/install"	"tolerate/insult or kill!/delay/ suggest/install"	NA	"5a"	"eliciting"	"lexical resource"	NA	NA	4
+2020-04-07 12:08:16	"teacher001"	"teacher"	90	"can you think of a phrsal verb with put for these meanings?!  (you can use the 'logic' of the preposition as a rough guide(!)"	"can you think of a phrsal verb with put for these meanings?!  (you can use the 'logic' of the preposition as a rough guide(!)"	NA	NA	"eliciting"	"lexical resource"	NA	NA	25
+2020-04-07 12:09:03	"student004"	"student"	91	"No idea but I'll try"	"No idea but I'll try"	NA	NA	NA	NA	NA	NA	5
+2020-04-07 12:09:12	"teacher001"	"teacher"	92	"You know the 'tolerate' one right? I can't put ___ with it any more!'"	"You know the 'tolerate' one right? I can't put ___ with it any more!'"	NA	"5b"	"scaffolding,eliciting"	"lexical resource"	NA	NA	14
+2020-04-07 12:09:15	"student004"	"student"	93	"Put away=delay"	"Put away=delay"	NA	NA	NA	NA	NA	NA	2
+2020-04-07 12:09:35	"student004"	"student"	94	"Put up=tolerate"	"Put up=tolerate"	NA	NA	NA	NA	NA	NA	2
+2020-04-07 12:09:46	"teacher001"	"teacher"	95	"Yes - put up with = good"	"Yes - put up with = good"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-04-07 12:09:57	"teacher001"	"teacher"	96	"always the 3 words"	"always the 3 words"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-04-07 12:10:16	"teacher001"	"teacher"	97	"delay = put back or put forward?"	"delay = put back or put forward?"	NA	"5c"	"scaffolding,eliciting"	"lexical resource"	NA	NA	7
+2020-04-07 12:10:20	"student004"	"student"	98	"okk"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:10:30	"student004"	"student"	99	"put back I think"	"put back I think"	NA	NA	NA	NA	NA	NA	4
+2020-04-07 12:11:11	"teacher001"	"teacher"	100	"Yes e.g. a meeting/also the clocks in autumn!"	"Yes e.g. a meeting/also the clocks in autumn!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-04-07 12:11:25	"student004"	"student"	101	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-04-07 12:11:55	"teacher001"	"teacher"	102	"the opposite = bring forward by the way"	"the opposite = bring forward by the way"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-04-07 12:12:41	"student004"	"student"	103	"Interesting! thanks"	"Interesting! thanks"	NA	NA	NA	NA	NA	NA	2
+2020-04-07 12:12:45	"teacher001"	"teacher"	104	"insult = put up or put down?"	"insult = put up or put down?"	NA	"5d"	"scaffolding,eliciting"	"lexical resource"	NA	NA	7
+2020-04-07 12:12:52	"student004"	"student"	105	"so we bring forward the clock??"	"so we bring forward the clock??"	103	NA	"enquiry"	"lexical resource"	NA	NA	6
+2020-04-07 12:13:34	"teacher001"	"teacher"	106	"Ah yes good question...for the clocks we do say 'put forward' actually (nightmare sorry)"	"Ah yes good question...for the clocks we do say 'put forward' actually (nightmare sorry)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-04-07 12:13:34	"student004"	"student"	107	"I guess put down for insult... is put up the opposit??"	"I guess put down for insult... is put up the opposite??"	104	NA	"enquiry"	"lexical resource"	NA	NA	11
+2020-04-07 12:14:04	"student004"	"student"	108	"hahah English language is a great long nightmare!"	"hahah English language is a great long nightmare!"	106	NA	NA	NA	NA	NA	8
+2020-04-07 12:14:14	"teacher001"	"teacher"	109	"Although we often say the clocks 'go forward' (by themselves as it were) but yes: put them forward = possible/correct"	"Although we often say the clocks 'go forward' (by themselves as it were) but yes: put them forward = possible/correct"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-04-07 12:15:13	"teacher001"	"teacher"	110	"Yes! so put down for insult .... for the opposite (as in 'praise/'compliment' etc) no! put up not possible!"	"Yes! so put down for insult .... for the opposite (as in 'praise/'compliment' etc) no! put up not possible!"	107	NA	"scaffolding"	"lexical resource"	NA	NA	19
+2020-04-07 12:15:57	"student004"	"student"	111	"okk"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:15:59	"teacher001"	"teacher"	112	"Also put down - 'kill' an animal (especially a pet) because of illness etc"	"Also put down - 'kill' an animal (especially a pet) because of illness etc"	NA	"5e"	"scaffolding"	"lexical resource"	NA	NA	14
+2020-04-07 12:16:17	"teacher001"	"teacher"	113	"YOu can't say: 'Please kill my cat!'"	"YOu can't say: 'Please kill my cat!'"	NA	NA	NA	NA	NA	NA	7
+2020-04-07 12:16:25	"teacher001"	"teacher"	114	"Well you could I guess"	"Well you could I guess"	NA	NA	NA	NA	NA	NA	5
+2020-04-07 12:16:39	"student004"	"student"	115	"ahh also put him or her to sleep, right? I've never understood why"	"ahh also put him or her to sleep, right? I've never understood why"	NA	NA	NA	NA	NA	NA	13
+2020-04-07 12:16:39	"teacher001"	"teacher"	116	"And install = put ____ ?"	"And install = put ____ ?"	NA	"5f"	"eliciting"	"lexical resource"	NA	NA	6
+2020-04-07 12:16:53	"teacher001"	"teacher"	117	"Ah yes you're right - good point..."	"Ah yes you're right - good point..."	115	NA	NA	NA	NA	NA	7
+2020-04-07 12:17:02	"student004"	"student"	118	"haha it sounds terrible, kill my cat!"	"haha it sounds terrible, kill my cat!"	113	NA	NA	NA	NA	NA	7
+2020-04-07 12:17:05	"teacher001"	"teacher"	119	"Put to sleep = common"	"Put to sleep = common"	117	NA	NA	NA	NA	NA	5
+2020-04-07 12:17:37	"teacher001"	"teacher"	120	"Yes ...I think a non-native student up to around upper intermediate might have to say that?!"	"Yes ...I think a non-native student up to around upper intermediate might have to say that?!"	118	NA	NA	NA	NA	NA	16
+2020-04-07 12:18:38	"student004"	"student"	121	"what do you mean with your last sentence?? sorry"	"what do you mean with your last sentence?? sorry"	NA	"5g"	"enquiry"	"meaning"	NA	NA	9
+2020-04-07 12:19:34	"teacher001"	"teacher"	122	"Sorry I meant if they went to the vet they might have to say 'please kill my cat'"	"Sorry I meant if they went to the vet they might have to say 'please kill my cat'"	NA	NA	"clarification"	NA	NA	NA	18
+2020-04-07 12:19:46	"teacher001"	"teacher"	123	"Because they wouldn't know any other possiblity"	"Because they wouldn't know any other possiblity"	NA	NA	NA	NA	NA	NA	7
+2020-04-07 12:20:04	"student004"	"student"	124	"I understand now thanks"	"I understand now thanks"	NA	NA	NA	NA	NA	NA	4
+2020-04-07 12:20:36	"student004"	"student"	125	"In Spanish we say 'sacrifice an animal'"	"In Spanish we say 'sacrifice an animal'"	NA	"5h"	NA	"lexical resource,world knowledge"	NA	NA	7
+2020-04-07 12:21:23	"student004"	"student"	126	"Does it work in English? We say 'we had to sacrificed our dog because of his terrible ilness when he was 12'"	"Does it work in English? We say 'we had to sacrifice our dog because of his terrible illness when he was 12'"	NA	NA	"enquiry"	"lexical resource"	NA	NA	22
+2020-04-07 12:21:32	"student004"	"student"	127	"illness"	"illness"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-04-07 12:21:55	"teacher001"	"teacher"	128	"Oh my god - I didn't know that..no, that sounds worse then kill!"	"Oh my god - I didn't know that..no, that sounds worse then kill!"	126	NA	NA	NA	NA	NA	13
+2020-04-07 12:22:20	"student004"	"student"	129	"hahah"	"hahah"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:22:28	"student004"	"student"	130	"it's horrible I know"	"it's horrible I know"	NA	NA	NA	NA	NA	NA	4
+2020-04-07 12:22:43	"teacher001"	"teacher"	131	"I must ask a vet in a multicultural area about their experience of people asking about this!"	"I must ask a vet in a multicultural area about their experience of people asking about this!"	NA	NA	NA	NA	NA	NA	17
+2020-04-07 12:23:15	"teacher001"	"teacher"	132	"I would never have thought of that (sacrifice!)"	"I would never have thought of that (sacrifice!)"	NA	NA	NA	NA	NA	NA	8
+2020-04-07 12:24:03	"student004"	"student"	133	"now that I think about it, it doesn't make sense..."	"now that I think about it, it doesn't make sense..."	NA	NA	NA	NA	NA	NA	10
+2020-04-07 12:24:24	"teacher001"	"teacher"	134	"<STUDENT> ..have we finished the 5 verbs with 'put' ? The ones left (I think) are suggest/install"	"<STUDENT> ..have we finished the 5 verbs with 'put' ? The ones left (I think) are suggest/install"	NA	"6.0"	"eliciting"	"lexical resource"	NA	NA	17
+2020-04-07 12:24:35	"teacher001"	"teacher"	135	"No ..I don't see the logic!"	"No ..I don't see the logic!"	133	NA	NA	NA	NA	NA	6
+2020-04-07 12:25:30	"student004"	"student"	136	"no idea about suggest and install!!"	"no idea about suggest and install!!"	134	NA	NA	NA	NA	NA	6
+2020-04-07 12:25:50	"student004"	"student"	137	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:26:47	"teacher001"	"teacher"	138	"No that's ok! As in: ' Put ______ an idea/suggestion' (put in or put forward..what do you think?) and Put ____ a new alarm system (or whatever) (put in or put on..what do you think? )"	"No that's ok! As in: ' Put ______ an idea/suggestion' (put in or put forward..what do you think?) and Put ____ a new alarm system (or whatever) (put in or put on..what do you think? )"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	36
+2020-04-07 12:28:13	"student004"	"student"	139	"I'll try but not sure at all... Put in an idea"	"I'll try but not sure at all... Put forward an idea"	NA	NA	NA	NA	NA	NA	11
+2020-04-07 12:28:31	"student004"	"student"	140	"put on a new alarm"	"put in a new alarm"	NA	NA	NA	NA	NA	NA	5
+2020-04-07 12:29:09	"teacher001"	"teacher"	141	"Thanks <STUDENT>, well....choose the other option for each answer and you'll be correct!"	"Thanks <STUDENT>, well....choose the other option for each answer and you'll be correct!"	NA	NA	NA	NA	NA	NA	13
+2020-04-07 12:29:32	"student004"	"student"	142	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:29:37	"student004"	"student"	143	"great I will"	"great I will"	NA	NA	NA	NA	NA	NA	3
+2020-04-07 12:29:50	"student004"	"student"	144	"Thank you very much!"	"Thank you very much!"	NA	NA	NA	NA	NA	NA	4
+2020-04-07 12:29:50	"teacher001"	"teacher"	145	"As in put forward an idea and put in an alarm system = correct! I've got a quick test for you - i'll leave it for tomorrow OK?!"	"As in put forward an idea and put in an alarm system = correct! I've got a quick test for you - i'll leave it for tomorrow OK?!"	NA	"7.0"	"scaffolding,closing"	"lexical resource"	NA	NA	28
+2020-04-07 12:30:56	"student004"	"student"	146	"Yes!!"	"Yes!!"	NA	NA	NA	NA	NA	NA	1
+2020-04-07 12:31:06	"student004"	"student"	147	"I'll study all night ;)"	"I'll study all night ;)"	NA	NA	NA	NA	NA	NA	5
+2020-04-07 12:31:15	"student004"	"student"	148	"See you tomorrow! thanks"	"See you tomorrow! thanks"	NA	NA	NA	NA	NA	NA	4
+2020-04-07 12:31:22	"teacher001"	"teacher"	149	"OK cool - bye for now then...yes all night good!"	"OK cool - bye for now then...yes all night good!"	NA	NA	NA	NA	NA	"C1"	10

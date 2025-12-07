@@ -1,0 +1,196 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-24 08:01:34	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-02-24 08:01:44	"teacher008"	"teacher"	2	"Morning!"	"Morning!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:01:48	"teacher008"	"teacher"	3	"How are you doing?"	"How are you doing?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-02-24 08:01:58	"student011"	"student"	4	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:02:35	"student011"	"student"	5	"The weather is awful. It's about +1 on day and - 1 on night"	"The weather is awful. It's about +1 in the day and - 1 at night"	NA	NA	NA	NA	NA	NA	14
+2021-02-24 08:03:04	"student011"	"student"	6	"Lot's of water on the street because the snow is melting"	"Lots of water on the street because the snow is melting"	NA	NA	NA	NA	NA	NA	11
+2021-02-24 08:03:24	"teacher008"	"teacher"	7	"Oh yes, another student from Kyiv told me that all snow is turning into slush and it's very wet"	"Oh yes, another student from Kyiv told me that all snow is turning into slush and it's very wet"	NA	NA	NA	NA	NA	NA	19
+2021-02-24 08:03:32	"student011"	"student"	8	"how are you?"	"how are you?"	NA	"2a"	"topic development"	NA	NA	NA	3
+2021-02-24 08:03:52	"student011"	"student"	9	"slush? )"	"slush? )"	NA	"2b"	"enquiry"	"lexical resource"	NA	NA	2
+2021-02-24 08:03:59	"teacher008"	"teacher"	10	"Ok, thank you! Boris gave us 'a roadmap out of lockdown'"	"Ok, thank you! Boris gave us 'a roadmap out of lockdown'"	8	NA	NA	NA	NA	NA	11
+2021-02-24 08:04:14	"teacher008"	"teacher"	11	"Yes, it's melting snow mixed with mud and water"	"Yes, it's melting snow mixed with mud and water"	9	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-02-24 08:04:25	"teacher008"	"teacher"	12	"Like a drink"	"Like a drink"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-02-24 08:04:32	"student011"	"student"	13	"do you have another student from Kyiv? I thought I'm only one )))"	"do you have another student from Kyiv? I thought I'm the only one )))"	7	NA	NA	NA	NA	NA	13
+2021-02-24 08:04:37	"student011"	"student"	14	"It's a joke"	"It's a joke"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:04:37	"student011"	"student"	15	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:05:09	"teacher008"	"teacher"	16	"I have three altogether!"	"I have three altogether!"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:05:10	"student011"	"student"	17	"a roadmap out of lockdown'?"	"a roadmap out of lockdown'?"	10	"2c"	"enquiry"	"lexical resource"	NA	NA	5
+2021-02-24 08:05:27	"teacher008"	"teacher"	18	"Yes, a plan of how restrictions are going to be lifted, one by one"	"Yes, a plan of how restrictions are going to be lifted, one by one"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2021-02-24 08:05:33	"student011"	"student"	19	"alas! I don't know the expression ))"	"alas! I don't know the expression ))"	17	NA	NA	NA	NA	NA	7
+2021-02-24 08:05:44	"teacher008"	"teacher"	20	"The first one is happening on March 8, schools are re-opening"	"The first one is happening on March 8, schools are re-opening"	18	"2d"	"topic development"	NA	NA	NA	11
+2021-02-24 08:05:49	"teacher008"	"teacher"	21	"Haha, yes, alas))"	"Haha, yes, alas))"	19	NA	NA	NA	NA	NA	3
+2021-02-24 08:05:50	"student011"	"student"	22	"aha"	"aha"	20	NA	NA	NA	NA	NA	1
+2021-02-24 08:05:53	"student011"	"student"	23	"fine!"	"fine!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:05:57	"student011"	"student"	24	"and then?"	"and then?"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 08:06:26	"teacher008"	"teacher"	25	"Then March 29, we will be allowed to travel out of local areas (but it's better not to they say, haha)"	"Then March 29, we will be allowed to travel out of local areas (but it's better not to they say, haha)"	NA	NA	NA	NA	NA	NA	21
+2021-02-24 08:06:47	"teacher008"	"teacher"	26	"Then mid-April, non-essential shops and hairdressers open"	"Then mid-April, non-essential shops and hairdressers open"	NA	NA	NA	NA	NA	NA	7
+2021-02-24 08:07:15	"student011"	"student"	27	"<TEACHER> : Then March 29, we will be allowed to travel out of local areas (but it's better not to they say, haha)"	"<TEACHER> : Then March 29, we will be allowed to travel out of local areas (but it's better not to they say, haha)"	NA	"2e"	"topic development"	NA	NA	NA	23
+2021-02-24 08:07:15	"teacher008"	"teacher"	28	"Then mid-May, you can go somewhere and stay overnight, for example at a hotel or with family"	"Then mid-May, you can go somewhere and stay overnight, for example at a hotel or with family"	26	NA	NA	NA	NA	NA	17
+2021-02-24 08:07:35	"student011"	"student"	29	"sorry, why it's better not to they say?"	"sorry, why is it better not to they say?"	27	NA	NA	NA	NA	NA	8
+2021-02-24 08:07:38	"teacher008"	"teacher"	30	"Before mid-May, people from different households are not allowed to mix indoors"	"Before mid-May, people from different households are not allowed to mix indoors"	28	NA	NA	NA	NA	NA	12
+2021-02-24 08:08:03	"teacher008"	"teacher"	31	"Well, you're allowed to travel, but better stay at home..."	"Well, you're allowed to travel, but better stay at home..."	29	NA	NA	NA	NA	NA	10
+2021-02-24 08:08:33	"teacher008"	"teacher"	32	"Finally, if everything goes well, on June 21 all the remaining restrictions will be lifted!"	"Finally, if everything goes well, on June 21 all the remaining restrictions will be lifted!"	30	NA	NA	NA	NA	NA	15
+2021-02-24 08:08:41	"student011"	"student"	33	"Ah! I see"	"Ah! I see"	31	NA	NA	NA	NA	NA	3
+2021-02-24 08:09:17	"student011"	"student"	34	"You mean that lots of people will start traveling even if it's not nesessery?"	"You mean that lots of people will start travelling even if it's not necessary?"	NA	NA	NA	NA	NA	NA	14
+2021-02-24 08:09:21	"teacher008"	"teacher"	35	"It's a long journey, but there is light at the end of the tunnel!"	"It's a long journey, but there is light at the end of the tunnel!"	32	NA	NA	NA	NA	NA	14
+2021-02-24 08:09:31	"student011"	"student"	36	"necessary"	"necessary"	34	NA	"repair"	"writing"	NA	NA	1
+2021-02-24 08:09:56	"teacher008"	"teacher"	37	"Hmm, as I understand, police won't stop people if they go somewhere, but people are still encouraged to be cautious"	"Hmm, as I understand, police won't stop people if they go somewhere, but people are still encouraged to be cautious"	34	NA	NA	NA	NA	NA	20
+2021-02-24 08:10:39	"student011"	"student"	38	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 08:10:55	"student011"	"student"	39	"Sorry"	"Sorry"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:10:57	"teacher008"	"teacher"	40	"But even after June there are still going to be restrictions on international travel and there will be social distancing"	"But even after June there are still going to be restrictions on international travel and there will be social distancing"	35	NA	NA	NA	NA	NA	20
+2021-02-24 08:11:10	"teacher008"	"teacher"	41	"What's it like in Kyiv at the moment? In terms of infections?"	"What's it like in Kyiv at the moment? In terms of infections?"	NA	"3.0"	"topic opening"	NA	NA	NA	12
+2021-02-24 08:11:21	"student011"	"student"	42	"I forgot to wear my contact lense"	"I forgot to wear my contact lens"	NA	"4.0"	"disruption"	NA	NA	NA	7
+2021-02-24 08:11:24	"student011"	"student"	43	"One moment"	"One moment"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 08:11:25	"student011"	"student"	44	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:11:29	"teacher008"	"teacher"	45	"Ok, no prob!"	"Ok, no prob!"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:13:40	"student011"	"student"	46	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:13:44	"student011"	"student"	47	"here I am )"	"here I am )"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:13:50	"teacher008"	"teacher"	48	"Ok, great!"	"Ok, great!"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 08:14:15	"student011"	"student"	49	"with the lense and the glasses )"	"with the lens and the glasses )"	NA	NA	NA	NA	NA	NA	7
+2021-02-24 08:14:21	"student011"	"student"	50	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:14:25	"teacher008"	"teacher"	51	"So what's it like in Ukraine? Is vaccination taking place at all?"	"So what's it like in Ukraine? Is vaccination taking place at all?"	41	NA	NA	NA	NA	NA	12
+2021-02-24 08:14:26	"student011"	"student"	52	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:14:30	"teacher008"	"teacher"	53	"no worries!"	"no worries!"	50	NA	NA	NA	NA	NA	2
+2021-02-24 08:15:20	"student011"	"student"	54	"I think now we have the stable situation here in Kyiv"	"I think now we have a stable situation here in Kyiv"	51	NA	NA	NA	NA	NA	11
+2021-02-24 08:16:12	"teacher008"	"teacher"	55	"Ok, sounds good!"	"Ok, sounds good!"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:16:20	"student011"	"student"	56	"I mean some number of people have Covis, but the number is ok"	"I mean some number of people have Covid, but the number is ok"	NA	NA	NA	NA	NA	NA	13
+2021-02-24 08:16:53	"teacher008"	"teacher"	57	"It seems like lots of your friends and some family have had it"	"It seems like lots of your friends and some family have had it"	NA	NA	NA	NA	NA	NA	13
+2021-02-24 08:17:11	"student011"	"student"	58	"I know that usually my friends are afraid about their parents"	"I know that usually my friends are afraid for their parents"	NA	NA	NA	NA	NA	NA	11
+2021-02-24 08:17:46	"student011"	"student"	59	"But young people usually are not afraid ti catch the disease"	"But young people usually are not afraid to catch the disease"	NA	NA	NA	NA	NA	NA	11
+2021-02-24 08:18:21	"student011"	"student"	60	"Ok! I would say 50/50"	"Ok! I would say 50/50"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 08:18:57	"teacher008"	"teacher"	61	"Right, which probably means they are not very careful with social distancing and rules, right?"	"Right, which probably means they are not very careful with social distancing and rules, right?"	NA	NA	NA	NA	NA	NA	15
+2021-02-24 08:19:30	"student011"	"student"	62	"And it's interesting because the half who hasn't had it has a very intense lifestyle"	"And it's interesting because the half who hasn't had it has a very intense lifestyle"	NA	NA	NA	NA	NA	NA	15
+2021-02-24 08:20:29	"student011"	"student"	63	"<TEACHER> : Right, which probably means they are not very careful with social distancing and rules, right?  - I don't think so"	"<TEACHER> : Right, which probably means they are not very careful with social distancing and rules, right?  - I don't think so"	61	NA	NA	NA	NA	NA	23
+2021-02-24 08:21:07	"student011"	"student"	64	"Even the opposite"	"Even the opposite"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:21:21	"teacher008"	"teacher"	65	"Oh, I just meant, if people are not worried about covid, they are less likely to social distance. I wasn't trying to say that your friends were careless!"	"Oh, I just meant, if people are not worried about covid, they are less likely to social distance. I wasn't trying to say that your friends were careless!"	NA	NA	NA	NA	NA	NA	28
+2021-02-24 08:23:39	"student011"	"student"	66	"Aha! I mean that for me there isn't logic. Some of my friend have to work at the office and they meet lots of people because of their work, but they still didn't have Covid"	"Aha! I mean that for me there isn't logic. Some of my friends have to work at the office and they meet lots of people because of their work, but they still haven't had Covid"	NA	NA	NA	NA	NA	NA	35
+2021-02-24 08:24:25	"student011"	"student"	67	"But there are others who works from home and have minimum contacts and they have had Covid"	"But there are others who work from home and have minimal contacts and they have had Covid"	NA	NA	NA	NA	NA	NA	17
+2021-02-24 08:25:08	"teacher008"	"teacher"	68	"I see! The irony! I guess just one contact may be enough, if it's with an infected person"	"I see! The irony! I guess just one contact may be enough, if it's with an infected person"	NA	NA	NA	NA	NA	NA	18
+2021-02-24 08:25:20	"student011"	"student"	69	"Нуы!"	"Нуы!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:25:22	"student011"	"student"	70	"Yes!"	"Yes!"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-24 08:26:05	"student011"	"student"	71	"And what did you think about the opinion that children can't infect anyone?"	"And what do you think about the opinion that children can't infect anyone?"	NA	"3a"	"topic development"	NA	NA	NA	13
+2021-02-24 08:26:49	"teacher008"	"teacher"	72	"They say primary school children (under 11) are less likely to spread the disease than older children and adults"	"They say primary school children (under 11) are less likely to spread the disease than older children and adults"	NA	NA	NA	NA	NA	NA	19
+2021-02-24 08:27:25	"student011"	"student"	73	"My mother-in-lae told me"	"My mother-in-law told me"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:27:30	"teacher008"	"teacher"	74	"I mean, they've done studies on this now because it's so important to know, here in the UK"	"I mean, they've done studies on this now because it's so important to know, here in the UK"	72	NA	NA	NA	NA	NA	18
+2021-02-24 08:27:52	"student011"	"student"	75	"*mother-in-law"	"*mother-in-law"	73	NA	"repair"	"writing"	NA	NA	1
+2021-02-24 08:28:12	"teacher008"	"teacher"	76	"Yes, scientists here are of the same opinion it seems"	"Yes, scientists here are of the same opinion it seems"	73	NA	NA	NA	NA	NA	10
+2021-02-24 08:29:17	"student011"	"student"	77	"But I have a friend from Switzerland, she is a therapist and she work in the nursery"	"But I have a friend from Switzerland, she is a therapist and she works at a nursery"	NA	NA	NA	NA	NA	NA	17
+2021-02-24 08:29:36	"teacher008"	"teacher"	78	"That's why we're not too worried about <TEACHER'S CHILD> going back to school. I ____ be more worried if <TEACHER'S HUSBAND> _____ back to work (but he isn't going back yet)."	"That's why we're not too worried about <TEACHER'S CHILD> going back to school. I ____ be more worried if <TEACHER'S HUSBAND> _____ back to work (but he isn't going back yet)."	76	"3b"	"eliciting,revision"	"grammatical resource"	NA	NA	31
+2021-02-24 08:29:40	"teacher008"	"teacher"	79	"What goes in the gaps?"	"What goes in the gaps?"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 08:30:13	"student011"	"student"	80	"Ans she thinks that kids just don't have symptoms, bud they can spread the disease to adults"	"And she thinks that kids just don't have symptoms, but they can spread the disease to adults"	77	NA	NA	NA	NA	NA	17
+2021-02-24 08:31:01	"student011"	"student"	81	"That's why we're not too worried about <TEACHER'S CHILD> going back to school. I would be more worried if <TEACHER'S HUSBAND> has had back to work (but he isn't going back yet)."	"That's why we're not too worried about <TEACHER'S CHILD> going back to school. I would be more worried if <TEACHER'S HUSBAND> went back to work (but he isn't going back yet)."	78	NA	NA	NA	NA	NA	32
+2021-02-24 08:31:15	"student011"	"student"	82	"I didn't check the rule )"	"I didn't check the rule )"	NA	NA	NA	NA	NA	NA	6
+2021-02-24 08:31:25	"teacher008"	"teacher"	83	"I would be more worried = yes"	"I would be more worried = yes"	NA	NA	NA	NA	NA	NA	7
+2021-02-24 08:31:34	"teacher008"	"teacher"	84	"if <TEACHER'S HUSBAND> ______ (past simple)"	"if <TEACHER'S HUSBAND> ______ (past simple)"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2021-02-24 08:31:35	"student011"	"student"	85	"It's a second conditional"	"It's a second conditional"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:31:41	"teacher008"	"teacher"	86	"Yes, it is!"	"Yes, it is!"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:32:07	"student011"	"student"	87	"if <TEACHER'S HUSBAND> had (past simple)"	"if <TEACHER'S HUSBAND> went (past simple)"	NA	NA	NA	NA	NA	NA	6
+2021-02-24 08:32:25	"student011"	"student"	88	"went back?"	"went back?"	NA	NA	"repair,enquiry"	"grammatical resource"	NA	NA	2
+2021-02-24 08:32:34	"teacher008"	"teacher"	89	"Yes, went back! Well done:)"	"Yes, went back! Well done:)"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 08:33:06	"student011"	"student"	90	"have back to work' doesn't make sense?"	"have back to work' doesn't make sense?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	7
+2021-02-24 08:33:24	"teacher008"	"teacher"	91	"No, it doesn't really"	"No, it doesn't really"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2021-02-24 08:33:30	"teacher008"	"teacher"	92	"go back to work"	"go back to work"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2021-02-24 08:33:45	"teacher008"	"teacher"	93	"Oh, is your friend from Switzerland a therapist or a doctor?"	"Oh, is your friend from Switzerland a therapist or a doctor?"	NA	"5.0"	"eliciting"	"lexical resource"	NA	NA	11
+2021-02-24 08:34:00	"teacher008"	"teacher"	94	"You know how in English a therapist is a psychotherapist?"	"You know how in English a therapist is a psychotherapist?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-02-24 08:34:53	"student011"	"student"	95	"Yes! She is a therapist"	"Yes! She is a therapist"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 08:34:59	"student011"	"student"	96	"Not a doctor )"	"Not a doctor )"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:35:15	"teacher008"	"teacher"	97	"Ah, ok! sure! I just didn't expect there to be a therapist at a nursery!"	"Ah, ok! sure! I just didn't expect there to be a therapist at a nursery!"	NA	NA	NA	NA	NA	NA	15
+2021-02-24 08:36:12	"student011"	"student"	98	"Ok! I mean she is adult therapist and she work at the nursery for consulting parents"	"Ok! I mean she is an adult therapist and she works at the nursery consulting parents"	NA	NA	NA	NA	NA	NA	16
+2021-02-24 08:36:43	"teacher008"	"teacher"	99	"Nice that they have such a service, sounds really good!"	"Nice that they have such a service, sounds really good!"	NA	NA	NA	NA	NA	NA	10
+2021-02-24 08:37:19	"student011"	"student"	100	"It looks like she observe kids and then she consult their parents"	"It looks like she observes the kids and then she consults their parents"	NA	NA	NA	NA	NA	NA	12
+2021-02-24 08:37:29	"student011"	"student"	101	"Something like this"	"Something like this"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:38:18	"teacher008"	"teacher"	102	"Do you know the word for a 'general' doctor? Who doesn't specialise in one particular area and who people go to see first, before a specialist?"	"Do you know the word for a 'general' doctor? Who doesn't specialise in one particular area and who people go to see first, before a specialist?"	NA	"5a"	"eliciting"	"lexical resource"	NA	NA	26
+2021-02-24 08:38:32	"student011"	"student"	103	"She has education in different ares of therapy I think."	"She has qualifications in different areas of therapy I think."	101	NA	NA	NA	NA	NA	10
+2021-02-24 08:38:48	"student011"	"student"	104	"family doctor"	"family doctor"	102	NA	NA	NA	NA	NA	2
+2021-02-24 08:38:51	"student011"	"student"	105	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:39:10	"teacher008"	"teacher"	106	"Nice, makes sense. It's just a 'false friend' for many speakers of Russian, that's why I decided to make sure ))"	"Nice, makes sense. It's just a 'false friend' for many speakers of Russian, that's why I decided to make sure ))"	103	NA	NA	NA	NA	NA	21
+2021-02-24 08:39:27	"teacher008"	"teacher"	107	"Ah, yes, it's called a family doctor in Ukraine now, isn't it? It actually depends on a country"	"Ah, yes, it's called a family doctor in Ukraine now, isn't it? It actually depends on a country"	105	NA	NA	NA	NA	NA	18
+2021-02-24 08:39:28	"student011"	"student"	108	"and a physician?"	"and a physician?"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:39:39	"teacher008"	"teacher"	109	"Yes, a physician in the US!"	"Yes, a physician in the US!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-02-24 08:39:44	"teacher008"	"teacher"	110	"And a GP in the UK"	"And a GP in the UK"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-02-24 08:40:00	"student011"	"student"	111	"Yes! In Ukraine we have family doctors now"	"Yes! In Ukraine we have family doctors now"	107	NA	NA	NA	NA	NA	8
+2021-02-24 08:40:02	"teacher008"	"teacher"	112	"GP = general practitioner"	"GP = general practitioner"	110	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2021-02-24 08:40:14	"student011"	"student"	113	"Ah! I see! Yes"	"Ah! I see! Yes"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:40:22	"student011"	"student"	114	"I remember now"	"I remember now"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:40:29	"teacher008"	"teacher"	115	"Yes, of course, I've heard! And it's one doctor for children and adults, isn't it?"	"Yes, of course, I've heard! And it's one doctor for children and adults, isn't it?"	111	NA	NA	NA	NA	NA	15
+2021-02-24 08:40:30	"student011"	"student"	116	"<STUDENT'S FRIEND> told be"	"<STUDENT'S FRIEND> told me"	114	NA	NA	NA	NA	NA	4
+2021-02-24 08:40:35	"student011"	"student"	117	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:40:53	"teacher008"	"teacher"	118	"Yes, and a place where you can find them is called 'a GP surgery'"	"Yes, and a place where you can find them is called 'a GP surgery'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2021-02-24 08:40:57	"student011"	"student"	119	"Ok, I'm not sure"	"Ok, I'm not sure"	115	NA	NA	NA	NA	NA	4
+2021-02-24 08:41:14	"teacher008"	"teacher"	120	"Even though it's got nothing to do with a surgery. To have a surgery, people would go to a hospital"	"Even though it's got nothing to do with a surgery. To have a surgery, people would go to a hospital"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2021-02-24 08:42:19	"student011"	"student"	121	"You see, we have had a contract with a private clinic since <STUDENT'S CHILD> was born"	"You see, we have had a contract with a private clinic since <STUDENT'S CHILD> was born"	119	NA	NA	NA	NA	NA	16
+2021-02-24 08:42:45	"student011"	"student"	122	"And they have the staff just for kids"	"And they have the staff just for kids"	NA	NA	NA	NA	NA	NA	8
+2021-02-24 08:42:46	"teacher008"	"teacher"	123	"(good present perfect :)"	"(good present perfect :)"	121	NA	NA	NA	NA	NA	4
+2021-02-24 08:42:55	"student011"	"student"	124	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:43:07	"teacher008"	"teacher"	125	"Ok, pediatricians?"	"Ok, pediatricians?"	122	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-02-24 08:43:21	"student011"	"student"	126	"Yes, pediatricians!"	"Yes, pediatricians!"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 08:43:57	"student011"	"student"	127	"As for us usually if we need a general advice we ask my mother-in-law"	"As for us usually if we need a general advice we ask my mother-in-law"	NA	NA	NA	NA	NA	NA	14
+2021-02-24 08:44:13	"teacher008"	"teacher"	128	"Haha, yes, of course!"	"Haha, yes, of course!"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:45:07	"teacher008"	"teacher"	129	"Yes, I'm thinking now, it must have been hard to switch to family doctors in Ukraine, since all doctors are either pediatricians or adult doctors"	"Yes, I'm thinking now, it must have been hard to switch to family doctors in Ukraine, since all doctors are either pediatricians or adult doctors"	NA	NA	NA	NA	NA	NA	25
+2021-02-24 08:45:17	"student011"	"student"	130	"And if we need some special examination we go to special clinics or doctors"	"And if we need some special examination we go to special clinics or doctors"	NA	NA	NA	NA	NA	NA	14
+2021-02-24 08:45:38	"student011"	"student"	131	"Usually by the recommendation from our friend or family"	"Usually on recommendation from a friend or family"	NA	NA	NA	NA	NA	NA	9
+2021-02-24 08:45:40	"teacher008"	"teacher"	132	"Here, a GP is expected to know about babies, children and adults. And if there is something they don't know, they can refer to a pediatrician, for example"	"Here, a GP is expected to know about babies, children and adults. And if there is something they don't know, they can refer to a pediatrician, for example"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	28
+2021-02-24 08:46:20	"student011"	"student"	133	"Aha, I see"	"Aha, I see"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:46:39	"teacher008"	"teacher"	134	"Yes, if a GP can't help, they refer a patient to a specialist"	"Yes, if a GP can't help, they refer a patient to a specialist"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2021-02-24 08:47:00	"teacher008"	"teacher"	135	"The verb is 'to refer someone to someone' (to refer a child to a pediatrician)"	"The verb is 'to refer someone to someone' (to refer a child to a pediatrician)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2021-02-24 08:47:04	"teacher008"	"teacher"	136	"And the noun is"	"And the noun is"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:47:05	"student011"	"student"	137	"Unfortunately, I have very poor knowledge about our system of family doctors"	"Unfortunately, I have a very poor knowledge of our system of family doctors"	131	NA	NA	NA	NA	NA	12
+2021-02-24 08:47:08	"teacher008"	"teacher"	138	"a referral"	"a referral"	136	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-02-24 08:47:20	"teacher008"	"teacher"	139	"Yes, it's so new, this system, isn't it?"	"Yes, it's so new, this system, isn't it?"	137	NA	NA	NA	NA	NA	8
+2021-02-24 08:47:50	"student011"	"student"	140	"I think we have it about several years"	"I think we've had it for several years"	NA	NA	NA	NA	NA	NA	8
+2021-02-24 08:48:15	"teacher008"	"teacher"	141	"Ooh, give me a present perfect, please :)"	"Ooh, give me a present perfect, please :)"	NA	"5b"	"eliciting,repair"	"grammatical resource"	NA	NA	8
+2021-02-24 08:48:33	"student011"	"student"	142	"цу рфму рфв )"	"цу рфму рфв )"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 08:48:39	"student011"	"student"	143	"we have had )"	"we have had )"	NA	NA	"repair"	"writing"	NA	NA	4
+2021-02-24 08:48:43	"teacher008"	"teacher"	144	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:49:26	"student011"	"student"	145	"But lots of people still don't have a contract with the family doctor like me or <STUDENT'S HUSBAND> for example"	"But lots of people still don't have a contract with a family doctor like me or <STUDENT'S HUSBAND> for example"	140	NA	NA	NA	NA	NA	20
+2021-02-24 08:50:11	"teacher008"	"teacher"	146	"I see! Yes, I wonder if it's not enough time to re-train doctors from specialising in children / adults to a more general approach"	"I see! Yes, I wonder if it's not enough time to re-train doctors from specialising in children / adults to a more general approach"	NA	NA	NA	NA	NA	NA	24
+2021-02-24 08:50:55	"student011"	"student"	147	"I think it's because in Ukraine people don't trust the state medical system"	"I think it's because in Ukraine people don't trust the state medical system"	NA	NA	NA	NA	NA	NA	13
+2021-02-24 08:51:09	"teacher008"	"teacher"	148	"Yes, unfortunately"	"Yes, unfortunately"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 08:51:32	"teacher008"	"teacher"	149	"Ok, a quick grammar moment!"	"Ok, a quick grammar moment!"	NA	"6.0"	"topic opening"	"grammatical resource"	NA	NA	5
+2021-02-24 08:51:40	"student011"	"student"	150	"It's a huge problem here"	"It's a huge problem here"	148	NA	NA	NA	NA	NA	5
+2021-02-24 08:51:46	"teacher008"	"teacher"	151	"I wonder if it's not enough time to re-train doctors."	"I wonder if it's not enough time to re-train doctors."	149	NA	NA	NA	NA	NA	10
+2021-02-24 08:52:15	"student011"	"student"	152	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:52:19	"teacher008"	"teacher"	153	"If we remove 'I wonder' and make a question, what would the question be? ___ ____ ____ _____ time to re-train doctors?"	"If we remove 'I wonder' and make a question, what would the question be? ___ ____ ____ _____ time to re-train doctors?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	22
+2021-02-24 08:53:28	"student011"	"student"	154	"Is it not enough time to re-train doctors?"	"Is it not enough time to re-train doctors?"	NA	NA	NA	NA	NA	NA	8
+2021-02-24 08:54:04	"teacher008"	"teacher"	155	"Yes! well-done!"	"Yes! well-done!"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 08:54:15	"teacher008"	"teacher"	156	"I don't know what the situation is like."	"I don't know what the situation is like."	NA	"6a"	"eliciting"	"grammatical resource"	NA	NA	8
+2021-02-24 08:54:26	"teacher008"	"teacher"	157	"If we lose 'I don't know', what will the question be?"	"If we lose 'I don't know', what will the question be?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2021-02-24 08:54:48	"student011"	"student"	158	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:54:56	"student011"	"student"	159	"one more question"	"one more question"	NA	"6b"	"enquiry"	"grammatical resource"	NA	NA	3
+2021-02-24 08:55:01	"teacher008"	"teacher"	160	"go ahead!"	"go ahead!"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 08:55:07	"student011"	"student"	161	"do I need if after I wonder?"	"do I need if after I wonder?"	NA	NA	NA	NA	NA	NA	7
+2021-02-24 08:55:31	"teacher008"	"teacher"	162	"Ah, we'll go back to it in a second, ok?"	"Ah, we'll go back to it in a second, ok?"	NA	NA	NA	NA	NA	NA	10
+2021-02-24 08:56:03	"student011"	"student"	163	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:56:09	"student011"	"student"	164	"ok"	"ok"	157	NA	NA	NA	NA	NA	1
+2021-02-24 08:56:14	"student011"	"student"	165	"the question is"	"the question is"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:56:46	"student011"	"student"	166	"what the situation is like?"	"what is the situation like?"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 08:57:02	"teacher008"	"teacher"	167	"Nearly! What ___ the situation like?"	"Nearly! What ___ the situation like?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+2021-02-24 08:58:10	"student011"	"student"	168	"What is the situation like?"	"What is the situation like?"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 08:58:15	"teacher008"	"teacher"	169	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:58:20	"teacher008"	"teacher"	170	"One more"	"One more"	NA	"6c"	"eliciting"	"grammatical resource"	NA	NA	2
+2021-02-24 08:58:42	"teacher008"	"teacher"	171	"I don't know when he will be home. Again, lose 'I don't know'"	"I don't know when he will be home. Again, lose 'I don't know'"	NA	NA	NA	NA	NA	NA	13
+2021-02-24 08:59:21	"student011"	"student"	172	"When will he be home?"	"When will he be home?"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 08:59:23	"student011"	"student"	173	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 08:59:27	"student011"	"student"	174	"I'm not sure"	"I'm not sure"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 08:59:35	"teacher008"	"teacher"	175	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 09:00:02	"teacher008"	"teacher"	176	"I don't know if he will like this movie"	"I don't know if he will like this movie"	NA	"6d"	"eliciting"	"grammatical resource"	NA	NA	9
+2021-02-24 09:00:06	"teacher008"	"teacher"	177	"same idea)"	"same idea)"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 09:00:26	"student011"	"student"	178	"Will he like the movie?"	"Will he like the movie?"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 09:00:32	"teacher008"	"teacher"	179	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 09:00:42	"teacher008"	"teacher"	180	"So when do we use 'if'?"	"So when do we use 'if'?"	NA	"6e"	"enquiry"	"grammatical resource"	NA	NA	6
+2021-02-24 09:01:09	"teacher008"	"teacher"	181	"Will he like the movie? vs. When will he be home?"	"Will he like the movie? vs. When will he be home?"	NA	NA	NA	NA	NA	NA	11
+2021-02-24 09:02:05	"student011"	"student"	182	"with the movie )"	"with the movie )"	NA	NA	NA	NA	NA	NA	4
+2021-02-24 09:02:27	"student011"	"student"	183	"when we don't have a special question word?"	"when we don't have a special question word?"	NA	NA	NA	NA	NA	NA	8
+2021-02-24 09:02:35	"teacher008"	"teacher"	184	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 09:02:45	"student011"	"student"	185	"I see )"	"I see )"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 09:02:49	"student011"	"student"	186	"now )"	"now )"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 09:02:51	"teacher008"	"teacher"	187	"You know what, we'll have a proper look at it on Friday, ok?"	"You know what, we'll have a proper look at it on Friday, ok?"	NA	"7.0"	"closing"	NA	NA	NA	13
+2021-02-24 09:03:10	"student011"	"student"	188	"It's a good idea )"	"It's a good idea )"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 09:03:26	"teacher008"	"teacher"	189	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2021-02-24 09:03:41	"student011"	"student"	190	"So see you on Friday )"	"So see you on Friday )"	NA	NA	NA	NA	NA	NA	6
+2021-02-24 09:03:44	"teacher008"	"teacher"	191	"I'll speak to you then, have a good day! :)"	"I'll speak to you then, have a good day! :)"	NA	NA	NA	NA	NA	NA	10
+2021-02-24 09:03:48	"student011"	"student"	192	"Have a good day )"	"Have a good day )"	NA	NA	NA	NA	NA	NA	5
+2021-02-24 09:03:52	"student011"	"student"	193	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-02-24 09:03:56	"teacher008"	"teacher"	194	"Thank you, bye!))"	"Thank you, bye!))"	NA	NA	NA	NA	NA	NA	3
+2021-02-24 09:03:58	"student011"	"student"	195	"bye xx"	"bye xx"	NA	NA	NA	NA	NA	"B2"	2

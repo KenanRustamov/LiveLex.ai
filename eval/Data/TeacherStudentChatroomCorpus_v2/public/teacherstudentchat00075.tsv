@@ -1,0 +1,112 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-04-15 10:00:39	"teacher001"	"teacher"	1	"Hi there <STUDENT>..."	"Hi there <STUDENT>..."	NA	"1.0"	"opening"	NA	NA	NA	3
+2020-04-15 10:00:42	"student007"	"student"	2	"Good afternoon <TEACHER>."	"Good afternoon <TEACHER>."	NA	NA	NA	NA	NA	NA	3
+2020-04-15 10:01:04	"teacher001"	"teacher"	5	"OK? Did you a whole IELTS test today?"	"OK? Did you a whole IELTS test today?"	NA	"2.0"	"topic opening"	NA	NA	NA	8
+2020-04-15 10:01:57	"student007"	"student"	6	"I just do Listening , Reading and Writing Task 1."	"I've just done Listening, Reading and Writing Task 1."	NA	NA	NA	NA	NA	NA	10
+2020-04-15 10:02:00	"student007"	"student"	7	"did"	"did"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-04-15 10:02:32	"teacher001"	"teacher"	8	"OK well that's a lot....how did it go?"	"OK well that's a lot....how did it go?"	NA	"2a"	"topic development"	NA	NA	NA	8
+2020-04-15 10:03:35	"student007"	"student"	9	"I got 6.5 both on listening and reading."	"I got 6.5 on both listening and reading."	NA	NA	NA	NA	NA	NA	8
+2020-04-15 10:03:52	"teacher001"	"teacher"	10	"OK well done! That's your target"	"OK well done! That's your target"	NA	NA	NA	NA	NA	NA	6
+2020-04-15 10:04:13	"teacher001"	"teacher"	11	"Did you check the answers you got wrong and understand why?"	"Did you check the answers you got wrong and understand why?"	NA	"2b"	"topic development"	NA	NA	NA	11
+2020-04-15 10:04:18	"student007"	"student"	12	"I think it is my best score I done before."	"I think it is the best score I've ever got."	10	NA	NA	NA	NA	NA	10
+2020-04-15 10:05:37	"teacher001"	"teacher"	13	"OK great! (try that sentence again <STUDENT> - think about the grammar...)"	"OK great! (try that sentence again <STUDENT> - think about the grammar...)"	NA	"2c"	"eliciting,repair"	"grammatical resource"	NA	NA	12
+2020-04-15 10:06:19	"student007"	"student"	14	"yes.. I think on listening I always lack of spelling and I can't catch the answers when it was so fast."	"yes.. I think on listening I always have a problem with spelling and I can't catch the answers when it is so fast."	11	NA	NA	NA	NA	NA	21
+2020-04-15 10:06:39	"student007"	"student"	15	"I think it was my best score I done before."	"I think it is the best score I've ever got."	13	NA	NA	NA	NA	NA	10
+2020-04-15 10:07:38	"teacher001"	"teacher"	16	"Yes I understand about the spelling....and the speed (just keep listening as much as you can to a variety of stuff to get better with that)"	"Yes I understand about the spelling....and the speed (just keep listening as much as you can to a variety of stuff to get better with that)"	14	NA	"scaffolding"	"listening"	NA	NA	26
+2020-04-15 10:07:49	"student007"	"student"	17	"for reading, I think I still need to practise skills what you were teaching me."	"for reading, I think I still need to practise the skills that you were teaching me."	NA	"2d"	"topic development"	NA	NA	NA	15
+2020-04-15 10:08:13	"teacher001"	"teacher"	18	"OK...you mean e.g. for paragraph headings and true/false questions etc"	"OK...you mean e.g. for paragraph headings and true/false questions etc"	NA	NA	NA	NA	NA	NA	10
+2020-04-15 10:09:34	"student007"	"student"	19	"I try to listen BBC learning English every day and I write which I was listened as much as possible. I hope it can help me."	"I try to listen to BBC learning English every day and I write down what I heard as much as possible. I hope it can help me."	16	NA	NA	NA	NA	NA	26
+2020-04-15 10:10:44	"teacher001"	"teacher"	20	"Yes that's good - it will help you (but it takes time!) ...."	"Yes that's good - it will help you (but it takes time!) ...."	NA	NA	NA	NA	NA	NA	13
+2020-04-15 10:11:08	"student007"	"student"	21	"yes!! the principles of English essay, they are best skills which I learned."	"yes!! the principles of an English essay, they are the best skills which I have learned."	18	NA	NA	NA	NA	NA	13
+2020-04-15 10:11:39	"teacher001"	"teacher"	22	"OK good...<STUDENT> look at this :   Yesterday I ran 5k in 16:40. Today I ran 5k in 16:20 and now i can say: My time was _________ than yesterday.'?"	"OK good...<STUDENT> look at this :   Yesterday I ran 5k in 16:40. Today I ran 5k in 16:20 and now i can say: My time was _________ than yesterday.'?"	NA	"3.0"	"eliciting"	"grammatical resource"	NA	NA	31
+2020-04-15 10:11:56	"teacher001"	"teacher"	23	"What's the missing word?"	"What's the missing word?"	NA	NA	NA	NA	NA	NA	4
+2020-04-15 10:12:47	"student007"	"student"	24	"early"	"early"	NA	NA	NA	NA	NA	NA	1
+2020-04-15 10:13:20	"teacher001"	"teacher"	25	"So Usain Bolt is a _____ runner?"	"So Usain Bolt is a _____ runner?"	NA	"3a"	"eliciting"	"lexical resource"	NA	NA	7
+2020-04-15 10:13:40	"teacher001"	"teacher"	26	"possible word in the gap here?"	"possible word in the gap here?"	NA	NA	NA	NA	NA	NA	6
+2020-04-15 10:13:42	"student007"	"student"	27	"fastes"	"fastest"	NA	NA	NA	NA	NA	NA	1
+2020-04-15 10:13:56	"student007"	"student"	28	"fastest"	"fastest"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-04-15 10:14:13	"teacher001"	"teacher"	29	"OK he's a fast runner. = correct   'HE is _____ than me.'"	"OK he's a fast runner. = correct   'HE is _____ than me.'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	14
+2020-04-15 10:14:22	"teacher001"	"teacher"	30	"answer?"	"answer?"	NA	NA	NA	NA	NA	NA	1
+2020-04-15 10:14:44	"student007"	"student"	31	"he is faster than me"	"he is faster than me"	NA	NA	NA	NA	NA	NA	5
+2020-04-15 10:15:13	"teacher001"	"teacher"	32	"OK good thanks....Usain Bolt is the __________ runner in the world?"	"OK good thanks....Usain Bolt is the __________ runner in the world?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2020-04-15 10:15:29	"student007"	"student"	33	"fastest"	"fastest"	NA	NA	NA	NA	NA	NA	1
+2020-04-15 10:16:16	"teacher001"	"teacher"	34	"OK good thanks...so do this one again: Th Yesterday I ran 5k in 16:40. Today I ran 5k in 16:20 and now i can say: My time was _________ than yesterday.'? <STUDENT> : What's the missing word?"	"OK good thanks...so do this one again: Th Yesterday I ran 5k in 16:40. Today I ran 5k in 16:20 and now i can say: My time was _________ than yesterday.'? <STUDENT> : What's the missing word?"	NA	"3b"	"eliciting"	"grammatical resource"	NA	NA	37
+2020-04-15 10:16:44	"student007"	"student"	35	"so... they are the best skills which I learned."	"so... they are the best skills which I have learned."	NA	"3c"	NA	NA	NA	NA	9
+2020-04-15 10:17:09	"student007"	"student"	38	"earlier"	"earlier"	34	NA	NA	NA	NA	NA	1
+2020-04-15 10:17:19	"teacher001"	"teacher"	39	"OK yes good ...correct with 'the' first (before best)"	"OK yes good ...correct with 'the' first (before best)"	35	NA	NA	NA	NA	NA	9
+2020-04-15 10:17:43	"teacher001"	"teacher"	40	"So the adjective you can use with time (for running for example) is good/fast ok?"	"So the adjective you can use with time (for running for example) is good/fast ok?"	38	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-04-15 10:17:55	"teacher001"	"teacher"	41	"Oh sorry ...hold on"	"Oh sorry ...hold on"	NA	"3d"	"clarification"	NA	NA	NA	4
+2020-04-15 10:18:16	"teacher001"	"teacher"	42	"so 16:40 = 16 minutes 40 seconds NOT 4 o'clock in the afternoon!"	"so 16:40 = 16 minutes 40 seconds NOT 4 o'clock in the afternoon!"	NA	NA	"clarification"	NA	NA	NA	13
+2020-04-15 10:18:21	"teacher001"	"teacher"	43	"OK?!"	"OK?!"	NA	NA	NA	NA	NA	NA	1
+2020-04-15 10:19:09	"teacher001"	"teacher"	44	"So: Yesterday I ran 5k in 16:40. Today I ran 5k in 16:20 and now i can say: My time was _________ than yesterday.'?"	"So: Yesterday I ran 5k in 16:40. Today I ran 5k in 16:20 and now i can say: My time was _________ than yesterday.'?"	NA	"3e"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	24
+2020-04-15 10:19:44	"student007"	"student"	45	"my time was shorter than yesterday."	"my time was shorter than yesterday."	NA	NA	NA	NA	NA	NA	6
+2020-04-15 10:20:17	"teacher001"	"teacher"	46	"So the adjective you can use with time (for running for example) is good/fast ok?"	"So the adjective you can use with time (for running for example) is good/fast ok?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-04-15 10:20:59	"student007"	"student"	47	"yes... so my time was faster than yesterday."	"yes... so my time was faster than yesterday."	NA	NA	NA	NA	NA	NA	8
+2020-04-15 10:21:44	"teacher001"	"teacher"	48	"OK great! my time was faster/quicker/better than yesterday! good"	"OK great! my time was faster/quicker/better than yesterday! good"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	9
+2020-04-15 10:22:39	"teacher001"	"teacher"	49	"OK so one more: My personal best for 5k is 15:03 (along time ago) ..... So 15:03 is the _____  I _______  ______ the 5k.??"	"OK so one more: My personal best for 5k is 15:03 (along time ago) ..... So 15:03 is the _____  I _______  ______ the 5k.??"	NA	"3f"	"eliciting"	"grammatical resource"	NA	NA	27
+2020-04-15 10:24:27	"student007"	"student"	50	"15:03 is the fastest/ quickest/ best I running on 5K."	"15:03 is the fastest I have run the 5k."	NA	NA	NA	NA	NA	NA	10
+2020-04-15 10:25:51	"teacher001"	"teacher"	51	"OK thanks so.... '15:03 is the fastest I _____  _____ the 5k.'  What tense do you need for the verb <STUDENT>? Past simple/present continuous/present perfect?"	"OK thanks so.... '15:03 is the fastest I _____  _____ the 5k.'  What tense do you need for the verb <STUDENT>? Past simple/present continuous/present perfect?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	27
+2020-04-15 10:26:57	"student007"	"student"	52	"past perfect, because the result is important now."	"past perfect, because the result is important now."	NA	NA	NA	NA	NA	NA	8
+2020-04-15 10:27:07	"student007"	"student"	53	"persent perfect"	"present perfect"	NA	NA	"repair"	"content"	NA	NA	2
+2020-04-15 10:27:55	"teacher001"	"teacher"	54	"Yes great! Because the time is unfinished --- it inludes up to now (i am not dead/i still run) graet"	"Yes great! Because the time is unfinished --- it inludes up to now (i am not dead/i still run) graet"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	20
+2020-04-15 10:28:13	"teacher001"	"teacher"	55	"So therefore: '15:03 is the fastest I _____ _____ the 5k.'"	"So therefore: '15:03 is the fastest I _____ _____ the 5k.'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2020-04-15 10:28:41	"student007"	"student"	56	"15:03 is the fastest I have ran the 5k"	"15:03 is the fastest I have run the 5k"	NA	NA	NA	NA	NA	NA	9
+2020-04-15 10:29:57	"teacher001"	"teacher"	57	"yes ok good ('run' is irregular so the past participle is 'run' confusingly! but don't worry i can see you've got the right idea) )"	"yes ok good ('run' is irregular so the past participle is 'run' confusingly! but don't worry i can see you've got the right idea) )"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	25
+2020-04-15 10:30:32	"student007"	"student"	58	"ok.. thanks"	"ok.. thanks"	NA	NA	NA	NA	NA	NA	2
+2020-04-15 10:30:42	"teacher001"	"teacher"	59	"OK <STUDENT> so....i asked you these questions because of what you write earlier  - hold on ...i'll copy it and ask you to change it ok?..."	"OK <STUDENT> so....i asked you these questions because of what you write earlier  - hold on ...i'll copy it and ask you to change it ok?..."	NA	"3g"	NA	NA	NA	NA	27
+2020-04-15 10:30:52	"teacher001"	"teacher"	60	"what you wrote earlier"	"what you wrote earlier"	NA	NA	"repair"	"writing"	NA	NA	4
+2020-04-15 10:31:18	"student007"	"student"	61	"ok, thanks"	"ok, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-04-15 10:31:52	"teacher001"	"teacher"	62	"Ok so you said: 'I think it is my best score I done before.' Can you think about how you could try that again?!"	"Ok so you said: 'I think it is my best score I done before.' Can you think about how you could try that again?!"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	24
+2020-04-15 10:32:44	"student007"	"student"	63	"I think it was my best score I have done before."	"I think it is the best score I have ever got."	NA	NA	NA	NA	NA	NA	11
+2020-04-15 10:33:16	"teacher001"	"teacher"	64	"OK good much better!"	"OK good much better!"	NA	NA	NA	NA	NA	NA	4
+2020-04-15 10:33:49	"student007"	"student"	65	"I think it is my best score I have done."	"I think it is the best score I have got."	NA	NA	NA	NA	NA	NA	10
+2020-04-15 10:34:25	"teacher001"	"teacher"	66	"I think it is the best score I have (ever) got. ' = good (we usually use the verb 'get' for 'score'  (e.g. 'get 6.5' = correct)"	"I think it is the best score I have (ever) got. ' = good (we usually use the verb 'get' for 'score'  (e.g. 'get 6.5' = correct)"	64	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	28
+2020-04-15 10:34:42	"teacher001"	"teacher"	67	"Yes better good"	"Yes better good"	65	NA	NA	NA	NA	NA	3
+2020-04-15 10:35:40	"teacher001"	"teacher"	68	"So <STUDENT> do you remember the space question?"	"So <STUDENT> do you remember the space question?"	NA	"4.0"	"topic opening"	"writing"	NA	NA	8
+2020-04-15 10:35:55	"student007"	"student"	69	"okey, think for helping me to modify basic grammar mistakes."	"ok, thanks for helping me to correct some basic grammar mistakes."	67	NA	NA	NA	NA	NA	10
+2020-04-15 10:36:22	"student007"	"student"	70	"yes, I still remembering."	"yes, I still remember."	68	NA	NA	NA	NA	NA	4
+2020-04-15 10:36:22	"teacher001"	"teacher"	71	"That's ok!"	"That's ok!"	69	NA	NA	NA	NA	NA	2
+2020-04-15 10:37:09	"teacher001"	"teacher"	72	"so one idea about why space exploration was that it would be good to find life on other planets right?"	"so one idea about why space exploration was that it would be good to find life on other planets right?"	70	NA	NA	NA	NA	NA	20
+2020-04-15 10:38:23	"student007"	"student"	73	"international corporation"	"international cooperation"	NA	NA	NA	NA	NA	NA	2
+2020-04-15 10:38:43	"teacher001"	"teacher"	74	"Oh ok good yes we talked about that one too of course! Yes ok fine"	"Oh ok good yes we talked about that one too of course! Yes ok fine"	NA	NA	NA	NA	NA	NA	15
+2020-04-15 10:39:02	"teacher001"	"teacher"	75	"I know it can be difficult to think of ideas sometimes..."	"I know it can be difficult to think of ideas sometimes..."	NA	"4a"	"scaffolding"	"writing,task achievement"	NA	NA	11
+2020-04-15 10:39:27	"teacher001"	"teacher"	76	"One way to make it easier is to think of 'categories' you know?"	"One way to make it easier is to think of 'categories' you know?"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	13
+2020-04-15 10:40:07	"teacher001"	"teacher"	77	"So there are diffferent topics of course BUT you can use similar categories to talk about them..."	"So there are diffferent topics of course BUT you can use similar categories to talk about them..."	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	17
+2020-04-15 10:40:08	"student007"	"student"	78	"and another one I think is that also can improve our knowledge."	"and another one I think is that it can also improve our knowledge."	NA	"4b"	NA	NA	NA	NA	12
+2020-04-15 10:40:28	"teacher001"	"teacher"	79	"For example: 'political/economic/moral' OK??"	"For example: 'political/economic/moral' OK??"	77	NA	NA	NA	NA	NA	4
+2020-04-15 10:41:18	"teacher001"	"teacher"	80	"Yes OK good idea - can you give me an example?"	"Yes OK good idea - can you give me an example?"	78	NA	NA	NA	NA	NA	11
+2020-04-15 10:43:32	"student007"	"student"	82	"for instance, we may explain the nature regulations."	"for instance, we may explain the laws of nature"	NA	NA	NA	NA	NA	NA	8
+2020-04-15 10:44:05	"teacher001"	"teacher"	83	"You mean laws of nature I think right?"	"You mean laws of nature I think right?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-04-15 10:44:26	"teacher001"	"teacher"	84	"like gravity for example or other types of physics"	"like gravity for example or other types of physics"	NA	NA	NA	NA	NA	NA	9
+2020-04-15 10:45:02	"student007"	"student"	85	"like why is 365days a year but sometime is 365 days。"	"like why there are 365 days in a year but sometimes there are 366 days。"	NA	NA	NA	NA	NA	NA	11
+2020-04-15 10:45:24	"teacher001"	"teacher"	86	"So OK <STUDENT> yes - this is a good idea and the CATEGORY here is 'scientific' right?"	"So OK <STUDENT> yes - this is a good idea and the CATEGORY here is 'scientific' right?"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	17
+2020-04-15 10:45:50	"teacher001"	"teacher"	87	"As in increasing fundamental  scientific knowledge..."	"As in increasing fundamental  scientific knowledge..."	NA	NA	NA	NA	NA	NA	7
+2020-04-15 10:46:05	"student007"	"student"	88	"366.0"	"366.0"	85	NA	"repair"	NA	NA	NA	1
+2020-04-15 10:46:05	"student007"	"student"	90	"like why is 365days a year but sometime is 366 days."	"like why there are 365 days in a year but sometimes there are 366 days."	NA	NA	"repair"	NA	NA	NA	11
+2020-04-15 10:46:13	"teacher001"	"teacher"	91	"Yes understood!"	"Yes understood!"	NA	NA	NA	NA	NA	NA	2
+2020-04-15 10:46:55	"student007"	"student"	92	"yes!! basic knowledge"	"yes!! basic knowledge"	NA	NA	NA	NA	NA	NA	3
+2020-04-15 10:47:39	"teacher001"	"teacher"	93	"So the international co-operation idea was a POLITICAL category you caould say....Can i ask you to think about the ECONOMIC categeory in relation to this space question...do you think there are economic benefits to space exploration?"	"So the international co-operation idea was a POLITICAL category you caould say....Can i ask you to think about the ECONOMIC categeory in relation to this space question...do you think there are economic benefits to space exploration?"	NA	"4c"	"scaffolding,eliciting"	"writing,task achievement"	NA	NA	36
+2020-04-15 10:48:17	"teacher001"	"teacher"	94	"Maybe? Does anything occur to you quickly? Don;t worry if you can't think of anything ...just tell me!"	"Maybe? Does anything occur to you quickly? Don;t worry if you can't think of anything ...just tell me!"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	18
+2020-04-15 10:49:01	"student007"	"student"	95	"yes... there are massive natural recourses."	"yes... there are massive natural recourses."	NA	NA	NA	NA	NA	NA	6
+2020-04-15 10:49:38	"teacher001"	"teacher"	96	"ok cool - good idea!"	"ok cool - good idea!"	NA	NA	NA	NA	NA	NA	5
+2020-04-15 10:49:47	"teacher001"	"teacher"	97	"Where are they for example?"	"Where are they for example?"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	5
+2020-04-15 10:49:56	"teacher001"	"teacher"	98	"And what for example?"	"And what for example?"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	4
+2020-04-15 10:51:35	"student007"	"student"	99	"on other plants or stones in the space."	"on other planets or stones in space."	NA	NA	NA	NA	NA	NA	8
+2020-04-15 10:52:40	"teacher001"	"teacher"	102	"yes ok .... big stones = rocks ...and big rocks in space = e.g. asteroids (difficult word i know!)"	"yes ok .... big stones = rocks ...and big rocks in space = e.g. asteroids (difficult word i know!)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	19
+2020-04-15 10:53:07	"teacher001"	"teacher"	103	"and i guess on other planets too right?"	"and i guess on other planets too right?"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	8
+2020-04-15 10:53:21	"teacher001"	"teacher"	104	"And an example of the resources you might find?"	"And an example of the resources you might find?"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	9
+2020-04-15 10:53:44	"student007"	"student"	105	"yes, maybe on moon or mars"	"yes, maybe on the Moon or Mars"	103	NA	NA	NA	NA	NA	6
+2020-04-15 10:54:06	"student007"	"student"	106	"lunar"	"lunar"	NA	NA	NA	NA	NA	NA	1
+2020-04-15 10:54:22	"teacher001"	"teacher"	107	"yes good idea! so on THE moon or on Mars (planets in our solar system)"	"yes good idea! so on THE moon or on Mars (planets in our solar system)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-04-15 10:54:40	"teacher001"	"teacher"	108	"and what kind of resources?"	"and what kind of resources?"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	5
+2020-04-15 10:55:56	"student007"	"student"	109	"we may can find diamonds or other crystals"	"we can find diamonds or other crystals"	NA	NA	NA	NA	NA	NA	8
+2020-04-15 10:56:40	"student007"	"student"	110	"or... oxygen and water"	"or... oxygen and water"	NA	NA	NA	NA	NA	NA	4
+2020-04-15 10:56:43	"teacher001"	"teacher"	111	"ok fine yes so...maybe a good word might be precious metals ok?"	"ok fine yes so...maybe a good word might be precious metals ok?"	109	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-04-15 10:57:08	"student007"	"student"	112	"yes ..ok"	"yes ..ok"	NA	NA	NA	NA	NA	NA	2
+2020-04-15 10:57:09	"teacher001"	"teacher"	113	"yes and e.g. oxygen/helium etc are 'elements' right?"	"yes and e.g. oxygen/helium etc are 'elements' right?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-04-15 10:57:23	"student007"	"student"	114	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-15 10:58:03	"teacher001"	"teacher"	115	"OK great <STUDENT> so after the break I'll work with you to create a paragraph on this main idea ok?"	"OK great <STUDENT> so after the break I'll work with you to create a paragraph on this main idea ok?"	NA	"5.0"	"closing"	NA	NA	NA	20
+2020-04-15 10:58:18	"teacher001"	"teacher"	116	"It's a good onefor this essay i think - nice and clear"	"It's a good onefor this essay i think - nice and clear"	NA	NA	NA	NA	NA	NA	12
+2020-04-15 11:00:17	"student007"	"student"	117	"yes, I will finish it and hand in you after beak."	"yes, I will finish it and hand it in to you after the break."	NA	NA	NA	NA	NA	NA	11
+2020-04-15 11:00:38	"teacher001"	"teacher"	118	"ok great...bye for now!"	"ok great...bye for now!"	NA	NA	NA	NA	NA	NA	4
+2020-04-15 11:00:44	"student007"	"student"	119	"see you"	"see you"	NA	NA	NA	NA	NA	"B1"	2

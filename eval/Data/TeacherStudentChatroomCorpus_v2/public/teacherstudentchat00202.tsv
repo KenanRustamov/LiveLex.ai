@@ -1,0 +1,136 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-16 13:34:08	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-02-16 13:34:20	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 13:34:26	"teacher008"	"teacher"	3	"Or not <STUDENT>??"	"Or not <STUDENT>??"	NA	"1a"	NA	NA	NA	NA	3
+2021-02-16 13:34:39	"student009"	"student"	4	"not)"	"not)"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:35:22	"teacher008"	"teacher"	5	"Ok, who am I talking to in this case, please?"	"Ok, who am I talking to in this case, please?"	NA	NA	NA	NA	NA	NA	10
+2021-02-16 13:35:39	"student009"	"student"	6	"not<STUDENT>)"	"not<STUDENT>)"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:35:48	"student009"	"student"	7	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:35:58	"teacher008"	"teacher"	8	"<STUDENT>, are you messing with me? :))"	"<STUDENT>, are you messing with me? :))"	NA	NA	NA	NA	NA	NA	7
+2021-02-16 13:36:19	"student009"	"student"	9	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:36:58	"teacher008"	"teacher"	10	"I thought so :)"	"I thought so :)"	NA	NA	NA	NA	NA	NA	4
+2021-02-16 13:37:27	"teacher008"	"teacher"	11	"How are you? Did your school because of the weather last week?"	"How are you? Did your school because of the weather last week?"	NA	"2.0"	"topic opening"	NA	NA	NA	12
+2021-02-16 13:37:38	"teacher008"	"teacher"	12	"*sorry, did your school close...?"	"*sorry, did your school close...?"	NA	NA	"repair"	"writing"	NA	NA	5
+2021-02-16 13:38:24	"student009"	"student"	13	"only for 2 days"	"only for 2 days"	NA	NA	NA	NA	NA	NA	4
+2021-02-16 13:39:08	"teacher008"	"teacher"	14	"I see, you must have been pleased!"	"I see, you must have been pleased!"	NA	NA	NA	NA	NA	NA	7
+2021-02-16 13:39:59	"student009"	"student"	15	"could be longer, weather is still not good"	"could be longer, the weather is still not good"	NA	NA	NA	NA	NA	NA	8
+2021-02-16 13:40:40	"teacher008"	"teacher"	16	"What's it like? Is the temperature still pretty extreme?"	"What's it like? Is the temperature still pretty extreme?"	NA	NA	NA	NA	NA	NA	9
+2021-02-16 13:40:50	"student009"	"student"	17	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:41:00	"student009"	"student"	18	"and also a lot of snow"	"and also there is a lot of snow"	NA	NA	NA	NA	NA	NA	6
+2021-02-16 13:41:37	"student009"	"student"	19	"for example yesterday after <LANGUAGE SCHOOL> we were driving home for 1 hour"	"for example yesterday after <LANGUAGE SCHOOL> it took us 1 hour to drive home"	NA	NA	NA	NA	NA	NA	13
+2021-02-16 13:42:08	"teacher008"	"teacher"	20	"Oh wow! The traffic is awful then"	"Oh wow! The traffic is awful then"	NA	NA	NA	NA	NA	NA	7
+2021-02-16 13:43:45	"teacher008"	"teacher"	21	"It's my son's favourite day today, Shrove Tuesday, aka pancake day"	"It's my son's favourite day today, Shrove Tuesday, aka pancake day"	NA	"3.0"	"topic opening"	"world knowledge"	NA	NA	11
+2021-02-16 13:43:58	"student009"	"student"	22	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:44:02	"student009"	"student"	23	"wait"	"wait"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:44:16	"student009"	"student"	24	"it is only in Britain&amp;"	"Is it only in Britain?"	NA	"3a"	"enquiry"	"world knowledge"	NA	NA	5
+2021-02-16 13:44:28	"student009"	"student"	25	"or it is Maslyanica"	"or is it Maslyanica?"	NA	NA	"enquiry,non-English"	"code switching,world knowledge,lexical resource"	NA	NA	4
+2021-02-16 13:44:56	"teacher008"	"teacher"	26	"Yes, it's exactly like Maslyanitsa, but only for one day"	"Yes, it's exactly like Maslyanitsa, but only for one day"	NA	NA	"scaffolding,non-English"	"world knowledge,code switching,lexical resource"	NA	NA	10
+2021-02-16 13:45:27	"student009"	"student"	27	"when is Maslyanica"	"when is Maslyanica?"	NA	"3b"	"enquiry"	NA	NA	NA	3
+2021-02-16 13:45:31	"student009"	"student"	28	"I forgot"	"I forgot"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 13:46:01	"teacher008"	"teacher"	29	"Next week, Lent starts for Christians. The time when people are restricted in what they should eat. And after the Lent, it's Easter"	"Next week, Lent starts for Christians. The time when people are restricted in what they should eat. And after the Lent, it's Easter"	26	NA	"scaffolding"	"world knowledge,lexical resource"	NA	NA	23
+2021-02-16 13:46:30	"teacher008"	"teacher"	30	"I don't know when Maslyanitsa is in Ukraine this year! It's a slightly different calendar, isn't it?"	"I don't know when Maslyanitsa is in Ukraine this year! It's a slightly different calendar, isn't it?"	28	NA	NA	NA	NA	NA	17
+2021-02-16 13:46:52	"teacher008"	"teacher"	31	"So tonights I'm making some crêpes, I'm looking forward to it"	"So tonights I'm making some crêpes, I'm looking forward to it"	NA	"3c"	"topic development"	NA	NA	NA	11
+2021-02-16 13:47:03	"teacher008"	"teacher"	32	"*tonight"	"*tonight"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-16 13:48:34	"student009"	"student"	33	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:48:57	"teacher008"	"teacher"	34	"Do you know a 'crêpe'?"	"Do you know a 'crêpe'?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	5
+2021-02-16 13:49:59	"student009"	"student"	35	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:50:40	"teacher008"	"teacher"	36	"It's a big thin pancake which you can fill with something yummy"	"It's a big thin pancake which you can fill with something yummy"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-02-16 13:51:08	"teacher008"	"teacher"	37	"Usually pancakes are small and thick, but crêpes are big and thin"	"Usually pancakes are small and thick, but crêpes are big and thin"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-02-16 13:51:11	"student009"	"student"	38	"I want pancakes now("	"I want pancakes now("	NA	NA	NA	NA	NA	NA	4
+2021-02-16 13:51:22	"teacher008"	"teacher"	39	"Sorry, that's my fault!"	"Sorry, that's my fault!"	NA	NA	NA	NA	NA	NA	4
+2021-02-16 13:51:26	"student009"	"student"	40	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:51:31	"student009"	"student"	41	"nevermind"	"never mind"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:51:42	"teacher008"	"teacher"	42	"Can you guess which language the word 'crêpe' comes from?"	"Can you guess which language the word 'crêpe' comes from?"	NA	"3d"	"eliciting"	"lexical resource,world knowledge"	NA	NA	10
+2021-02-16 13:51:57	"student009"	"student"	43	"crepe is like blinchik?"	"Is crepe like blinchik?"	NA	"3e"	"enquiry,non-English"	"lexical resource,code switching,meaning"	NA	NA	4
+2021-02-16 13:52:06	"student009"	"student"	44	"french?"	"French?"	42	NA	NA	NA	NA	NA	1
+2021-02-16 13:52:16	"teacher008"	"teacher"	45	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2021-02-16 13:52:25	"teacher008"	"teacher"	46	"Yes, like blinchik)"	"Yes, like blinchik)"	43	NA	"scaffolding,non-English"	"lexical resource,code switching"	NA	NA	3
+2021-02-16 13:53:12	"teacher008"	"teacher"	47	"Ok, let's go back to the video from the last time! Do you remember what it was about?"	"Ok, let's go back to the video from the last time! Do you remember what it was about?"	NA	"4.0"	"topic opening,revision"	"lexical resource,listening"	"website"	NA	18
+2021-02-16 13:53:27	"teacher008"	"teacher"	48	"Hint: a bookshop"	"Hint: a bookshop"	NA	NA	NA	NA	NA	NA	3
+2021-02-16 13:54:11	"student009"	"student"	49	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:54:22	"teacher008"	"teacher"	50	"What happened?"	"What happened?"	NA	NA	"eliciting"	NA	NA	NA	2
+2021-02-16 13:54:27	"student009"	"student"	51	"nobode came there one day"	"nobody came there one day"	NA	NA	NA	NA	NA	NA	5
+2021-02-16 13:54:35	"teacher008"	"teacher"	52	"Yes, that's right"	"Yes, that's right"	NA	NA	NA	NA	NA	NA	3
+2021-02-16 13:54:39	"student009"	"student"	53	"they made a post in twitr"	"they posted on Twitter"	NA	NA	NA	NA	NA	NA	6
+2021-02-16 13:54:47	"student009"	"student"	54	"twitter"	"Twitter"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-16 13:54:52	"teacher008"	"teacher"	55	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:55:15	"student009"	"student"	56	"and it became popular and the next day a lot of people came there again"	"and it became popular and the next day a lot of people came there again"	NA	NA	NA	NA	NA	NA	15
+2021-02-16 13:55:52	"teacher008"	"teacher"	57	"Yes, because it was shared by the writer Neil Gaiman"	"Yes, because it was shared by the writer Neil Gaiman"	NA	NA	NA	NA	NA	NA	10
+2021-02-16 13:56:15	"teacher008"	"teacher"	58	"Ok, can you remember the two words from the video that both mean 'weird'? They both start with 'qu'"	"Ok, can you remember the two words from the video that both mean 'weird'? They both start with 'qu'"	NA	"4a"	"eliciting,revision"	"lexical resource"	NA	NA	19
+2021-02-16 13:56:54	"student009"	"student"	59	"quaint"	"quaint"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:56:58	"teacher008"	"teacher"	60	"Good!"	"Good!"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:57:05	"student009"	"student"	61	"quirky"	"quirky"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 13:57:11	"teacher008"	"teacher"	62	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 13:57:36	"teacher008"	"teacher"	63	"Quaint means 'strange and old-fashioned' and quirky means 'strange and nice'"	"Quaint means 'strange and old-fashioned' and quirky means 'strange and nice'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-02-16 13:58:11	"teacher008"	"teacher"	64	"Could you go back to the video (link in Skype), watch it and tell me whether you spotted anything quirky about the bookshop?"	"Could you go back to the video (link in Skype), watch it and tell me whether you spotted anything quirky about the bookshop?"	NA	"5.0"	"exercise"	"listening,lexical resource"	"website"	NA	23
+2021-02-16 14:01:33	"student009"	"student"	65	"it is second-hand"	"it is second-hand"	NA	NA	NA	NA	NA	NA	3
+2021-02-16 14:01:56	"teacher008"	"teacher"	66	"Ok, sure"	"Ok, sure"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:02:15	"teacher008"	"teacher"	67	"Is it unusual?"	"Is it unusual?"	NA	NA	NA	NA	NA	NA	3
+2021-02-16 14:02:46	"student009"	"student"	68	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:03:10	"student009"	"student"	69	"I've never seen a second-hand bookshop"	"I've never seen a second-hand bookshop"	NA	NA	NA	NA	NA	NA	6
+2021-02-16 14:03:52	"teacher008"	"teacher"	70	"I suppose they are quite rare in Kyiv, yes! And they are becoming quite rare in the UK too because so much business is happening online"	"I suppose they are quite rare in Kyiv, yes! And they are becoming quite rare in the UK too because so much business is happening online"	NA	NA	NA	NA	NA	NA	26
+2021-02-16 14:04:49	"teacher008"	"teacher"	71	"Anything else?"	"Anything else?"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:05:10	"student009"	"student"	72	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:06:16	"teacher008"	"teacher"	73	"Ok! Do you remember our business words? If a company covers the consts and makes some extra money, they make a ____"	"Ok! Do you remember our business words? If a company covers the consts and makes some extra money, they make a ____"	NA	"6.0"	"revision,eliciting"	"lexical resource"	NA	NA	22
+2021-02-16 14:07:14	"student009"	"student"	74	"profit"	"profit"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:07:49	"teacher008"	"teacher"	75	"Yes! And if the company doesn't cover the costs, they make a ____"	"Yes! And if the company doesn't cover the costs, they make a ____"	NA	"6a"	"eliciting,revision"	"lexical resource"	NA	NA	13
+2021-02-16 14:08:22	"student009"	"student"	76	"uh"	"uh"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:08:36	"teacher008"	"teacher"	77	"make a loss, right?"	"make a loss, right?"	NA	NA	"scaffolding,revision"	"lexical resource"	NA	NA	4
+2021-02-16 14:08:51	"teacher008"	"teacher"	78	"And if they only cover the costs but don't make a profit, they break ____"	"And if they only cover the costs but don't make a profit, they break ____"	NA	"6b"	"eliciting,revision"	"lexical resource"	NA	NA	15
+2021-02-16 14:09:02	"student009"	"student"	79	"through"	"through"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:09:10	"teacher008"	"teacher"	80	"even!"	"even!"	NA	NA	"repair"	"lexical resource"	NA	NA	1
+2021-02-16 14:09:23	"teacher008"	"teacher"	81	"to break even = to cover the costs but not earn any extra money"	"to break even = to cover the costs but not earn any extra money"	NA	NA	"scaffolding,revision"	"lexical resource,meaning"	NA	NA	14
+2021-02-16 14:09:31	"teacher008"	"teacher"	82	"How's your business, by the way"	"How's your business, by the way"	NA	"7.0"	"topic opening"	"lexical resource"	NA	NA	6
+2021-02-16 14:09:33	"teacher008"	"teacher"	83	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:10:09	"student009"	"student"	84	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:10:38	"teacher008"	"teacher"	85	"still running?"	"still running?"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:10:55	"student009"	"student"	86	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:11:26	"teacher008"	"teacher"	87	"Good! Are you selling your bead jewellery at school?"	"Good! Are you selling your bead jewellery at school?"	NA	NA	NA	NA	NA	NA	9
+2021-02-16 14:11:39	"student009"	"student"	88	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:11:48	"student009"	"student"	89	"also I have a new classmate"	"also I have a new classmate"	NA	"7a"	"topic development"	NA	NA	NA	6
+2021-02-16 14:12:47	"teacher008"	"teacher"	90	"Exciting! What are they like"	"Exciting! What are they like"	NA	NA	NA	NA	NA	NA	5
+2021-02-16 14:12:48	"teacher008"	"teacher"	91	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:13:36	"student009"	"student"	92	"her name i <STUDENT'S CLASSMATE> and she also sells earrings"	"her name is <STUDENT'S CLASSMATE> and she also sells earrings"	NA	NA	NA	NA	NA	NA	10
+2021-02-16 14:14:06	"teacher008"	"teacher"	93	"Ooh, you've got competition!"	"Ooh, you've got competition!"	NA	NA	NA	NA	NA	NA	4
+2021-02-16 14:14:43	"student009"	"student"	94	"i bought one pair"	"I bought one pair"	NA	NA	NA	NA	NA	NA	4
+2021-02-16 14:15:11	"teacher008"	"teacher"	95	"Are they nice?"	"Are they nice?"	NA	NA	NA	NA	NA	NA	3
+2021-02-16 14:15:15	"teacher008"	"teacher"	96	"the earrings"	"the earrings"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:15:44	"student009"	"student"	97	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:16:45	"teacher008"	"teacher"	98	"Cool! Do you know what 'competition' means in business?"	"Cool! Do you know what 'competition' means in business?"	NA	"7b"	"eliciting"	"lexical resource,meaning"	NA	NA	9
+2021-02-16 14:17:31	"student009"	"student"	99	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:18:02	"teacher008"	"teacher"	100	"Ok, do you think a bookshop like the one in the video has to deal with some competition?"	"Ok, do you think a bookshop like the one in the video has to deal with some competition?"	NA	"7c"	"topic development,eliciting"	"writing"	NA	NA	18
+2021-02-16 14:18:31	"student009"	"student"	101	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:18:37	"student009"	"student"	102	"internet shops"	"Internet shops"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:19:06	"teacher008"	"teacher"	103	"Yes, absolutely, very serious competition!"	"Yes, absolutely, very serious competition!"	NA	NA	NA	NA	NA	NA	5
+2021-02-16 14:19:31	"teacher008"	"teacher"	104	"What would you do if you were the owner of an independed bookshop like this? And you weren't making any profit?"	"What would you do if you were the owner of an independed bookshop like this? And you weren't making any profit?"	NA	"7d"	"topic development,eliciting"	"writing"	NA	NA	21
+2021-02-16 14:20:45	"student009"	"student"	105	"I think I would make it a bit more creative and also I could make it as a internet shop"	"I think I would make it a bit more creative and also I could create an online shop"	NA	NA	NA	NA	NA	NA	20
+2021-02-16 14:21:14	"teacher008"	"teacher"	106	"Ok, interesting! In what way would you make it more creative?"	"Ok, interesting! In what way would you make it more creative?"	NA	NA	"eliciting"	"writing"	NA	NA	11
+2021-02-16 14:23:07	"student009"	"student"	107	"the atmosphere would be very comfortable, maybe I could make some different events"	"the atmosphere would be very cosy, maybe I could hold different events"	NA	NA	NA	NA	NA	NA	13
+2021-02-16 14:23:22	"student009"	"student"	108	"maybe some not loud and nice music"	"maybe some not loud and nice music"	NA	NA	NA	NA	NA	NA	7
+2021-02-16 14:23:30	"teacher008"	"teacher"	109	"Ah, yes, good idea!"	"Ah, yes, good idea!"	NA	NA	NA	NA	NA	NA	4
+2021-02-16 14:24:21	"teacher008"	"teacher"	110	"How do you promote your business? Through Instagram?"	"How do you promote your business? Through Instagram?"	NA	"7e"	"topic development,eliciting"	"writing"	NA	NA	8
+2021-02-16 14:25:29	"student009"	"student"	111	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:26:10	"teacher008"	"teacher"	112	"Oh, what was the word in the video, for a post on Twitter?"	"Oh, what was the word in the video, for a post on Twitter?"	NA	"7f"	"eliciting,revision"	"lexical resource"	NA	NA	13
+2021-02-16 14:26:21	"teacher008"	"teacher"	113	"a tw..t"	"a tw..t"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	2
+2021-02-16 14:26:27	"student009"	"student"	114	"tweet"	"tweet"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:27:15	"teacher008"	"teacher"	115	"Yes! Twitter but a tweet"	"Yes! Twitter but a tweet"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-02-16 14:27:21	"teacher008"	"teacher"	116	"And the verb is to tweet"	"And the verb is to tweet"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-02-16 14:27:24	"teacher008"	"teacher"	117	"like a bird"	"like a bird"	NA	NA	NA	NA	NA	NA	3
+2021-02-16 14:28:11	"teacher008"	"teacher"	118	"Ok, a quick look back. You said earlier that you drove home from <LANGUAGE SCHOOL> for 1 hour. A better way to say it would be 'It ____ us 1 hour to drive home (from <LANGUAGE SCHOOL>)'"	"Ok, a quick look back. You said earlier that you drove home from <LANGUAGE SCHOOL> for 1 hour. A better way to say it would be 'It ____ us 1 hour to drive home (from <LANGUAGE SCHOOL>)'"	NA	"8.0"	"eliciting,repair"	"lexical resource,grammatical resource"	"chat"	NA	37
+2021-02-16 14:28:16	"teacher008"	"teacher"	119	"what's the verb?"	"what's the verb?"	NA	NA	NA	NA	NA	NA	3
+2021-02-16 14:28:40	"student009"	"student"	120	"took"	"took"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:28:55	"teacher008"	"teacher"	121	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:29:02	"teacher008"	"teacher"	122	"How long does it usually take you?"	"How long does it usually take you?"	NA	"8a"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	7
+2021-02-16 14:29:13	"teacher008"	"teacher"	123	"(full sentence, please, just to practise this)"	"(full sentence, please, just to practise this)"	NA	NA	NA	NA	NA	NA	7
+2021-02-16 14:29:19	"student009"	"student"	124	"15-20 minutes"	"15-20 minutes"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:30:11	"teacher008"	"teacher"	125	"It usually ___ ___ 15-20 minutes to ___"	"It usually ___ ___ 15-20 minutes to ___"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	8
+2021-02-16 14:30:30	"student009"	"student"	126	"takes us, drive home"	"takes us, drive home"	NA	NA	NA	NA	NA	NA	4
+2021-02-16 14:30:38	"teacher008"	"teacher"	127	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-16 14:30:48	"teacher008"	"teacher"	128	"How does it usually take you to do your homework?"	"How does it usually take you to do your homework?"	NA	"8b"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	10
+2021-02-16 14:31:38	"teacher008"	"teacher"	129	"sorry! How long"	"sorry! How long"	NA	NA	"repair"	"writing"	NA	NA	3
+2021-02-16 14:31:53	"student009"	"student"	130	"It usually takes 3+ hours"	"It usually takes 3+ hours"	NA	NA	NA	NA	NA	NA	5
+2021-02-16 14:32:36	"teacher008"	"teacher"	131	"Yes, I remember it used to take me about the same. Ok, I'll let you get on with it then!"	"Yes, I remember it used to take me about the same. Ok, I'll let you get on with it then!"	NA	"9.0"	"closing"	NA	NA	NA	20
+2021-02-16 14:32:50	"teacher008"	"teacher"	132	"Thanks and have a lovely week! Speak to you next Tuesday :)"	"Thanks and have a lovely week! Speak to you next Tuesday :)"	NA	NA	NA	NA	NA	NA	12
+2021-02-16 14:33:01	"student009"	"student"	133	"thanks! bye!"	"thanks! bye!"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:33:08	"student009"	"student"	134	"you too!"	"you too!"	NA	NA	NA	NA	NA	NA	2
+2021-02-16 14:33:18	"teacher008"	"teacher"	135	"Bye :)"	"Bye :)"	NA	NA	NA	NA	NA	"B2"	2

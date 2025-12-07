@@ -1,0 +1,102 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-23 13:36:29	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-02-23 13:36:37	"student009"	"student"	2	"sorry for being late"	"sorry for being late"	NA	NA	NA	NA	NA	NA	4
+2021-02-23 13:37:55	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	1	NA	NA	NA	NA	NA	2
+2021-02-23 13:38:04	"teacher008"	"teacher"	4	"No worries, all ok with you?"	"No worries, all ok with you?"	2	NA	NA	NA	NA	NA	6
+2021-02-23 13:38:15	"student009"	"student"	5	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 13:38:32	"teacher008"	"teacher"	6	"Good! How are you? Is spring coming to Kyiv yet?"	"Good! How are you? Is spring coming to Kyiv yet?"	NA	"2.0"	"topic opening"	NA	NA	NA	10
+2021-02-23 13:39:12	"student009"	"student"	7	"I am fine, and yes spring is coming"	"I am fine, and yes spring is coming"	NA	NA	NA	NA	NA	NA	8
+2021-02-23 13:39:32	"student009"	"student"	8	"quite warmer now"	"a bit warmer now"	NA	NA	NA	NA	NA	NA	3
+2021-02-23 13:39:56	"teacher008"	"teacher"	9	"Nice, isn't it? It's warmer here too, and birds are singing!"	"Nice, isn't it? It's warmer here too, and birds are singing!"	NA	NA	NA	NA	NA	NA	11
+2021-02-23 13:40:11	"student009"	"student"	10	"and snow is turning in water"	"and snow is turning into water"	NA	NA	NA	NA	NA	NA	6
+2021-02-23 13:40:22	"student009"	"student"	11	"yes, they are!"	"yes, they are!"	9	NA	NA	NA	NA	NA	3
+2021-02-23 13:40:54	"teacher008"	"teacher"	12	"Ha, yes, water and slush"	"Ha, yes, water and slush"	NA	NA	NA	NA	NA	NA	5
+2021-02-23 13:41:23	"teacher008"	"teacher"	13	"The snow that's started to melt is called slush, like a drink"	"The snow that's started to melt is called slush, like a drink"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2021-02-23 13:41:34	"student009"	"student"	14	"my boots were wet yesterdau"	"my boots were wet yesterday"	10	NA	NA	NA	NA	NA	5
+2021-02-23 13:42:03	"teacher008"	"teacher"	15	"Yes, Kyiv winters are hard on footwear, I remember that!"	"Yes, Kyiv winters are hard on footwear, I remember that!"	NA	NA	NA	NA	NA	NA	10
+2021-02-23 13:43:58	"teacher008"	"teacher"	16	"Are you about to have a school holiday soon? Or have you just had one? There is a holiday in February, right?"	"Are you about to have a school holiday soon? Or have you just had one? There is a holiday in February, right?"	NA	"2a"	"topic development"	NA	NA	NA	22
+2021-02-23 13:58:50	"student009"	"student"	17	"hi again"	"hi again"	NA	"3.0"	"disruption"	NA	NA	NA	2
+2021-02-23 13:58:55	"teacher008"	"teacher"	18	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-02-23 13:59:23	"student009"	"student"	19	"I am so sorry that I left, I was on my way home and my phone charge said goodbye"	"I am so sorry that I left, I was on my way home and my phone battery said goodbye"	NA	NA	NA	NA	NA	NA	19
+2021-02-23 13:59:32	"student009"	"student"	20	"now I am okay"	"now I am okay"	NA	NA	NA	NA	NA	NA	4
+2021-02-23 13:59:46	"teacher008"	"teacher"	21	"Oh no! Are you home now?"	"Oh no! Are you home now?"	NA	NA	NA	NA	NA	NA	6
+2021-02-23 13:59:58	"student009"	"student"	22	"and next holidays will be in the end of March"	"and the next holiday will be at the end of March"	16	NA	NA	NA	NA	NA	10
+2021-02-23 14:00:03	"student009"	"student"	23	"yeah I am home"	"yeah I am home"	21	NA	NA	NA	NA	NA	4
+2021-02-23 14:00:54	"teacher008"	"teacher"	24	"Ok, let's say for the future, if you're not home yet, just text me on Skype to say that you'll be late, ok? It doesn't sound safe to me to be chatting on the go / on public transport"	"Ok, let's say for the future, if you're not home yet, just text me on Skype to say that you'll be late, ok? It doesn't sound safe to me to be chatting on the go / on public transport"	NA	NA	NA	NA	NA	NA	39
+2021-02-23 14:01:35	"student009"	"student"	25	"I am okay, no problems"	"I am okay, no problem"	NA	NA	NA	NA	NA	NA	5
+2021-02-23 14:01:50	"student009"	"student"	26	"if something happens I will tell yo"	"if something happens I will tell you"	NA	NA	NA	NA	NA	NA	7
+2021-02-23 14:02:13	"teacher008"	"teacher"	27	"I know, but still, no chatting on the go, ok?"	"I know, but still, no chatting on the go, ok?"	NA	NA	NA	NA	NA	NA	10
+2021-02-23 14:02:41	"student009"	"student"	28	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:02:55	"teacher008"	"teacher"	29	"Cool!"	"Cool!"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:03:13	"teacher008"	"teacher"	30	"Do you remember the word from earlier? When snow melts it turns into...."	"Do you remember the word from earlier? When snow melts it turns into...."	NA	"4.0"	"eliciting"	"lexical resource"	NA	NA	13
+2021-02-23 14:03:18	"teacher008"	"teacher"	31	"before it becomes water"	"before it becomes water"	NA	NA	NA	NA	NA	NA	4
+2021-02-23 14:03:41	"student009"	"student"	32	"slush"	"slush"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:03:47	"teacher008"	"teacher"	33	"Yes, well done :)"	"Yes, well done :)"	NA	NA	NA	NA	NA	NA	4
+2021-02-23 14:03:53	"teacher008"	"teacher"	34	"I don't like slush"	"I don't like slush"	NA	NA	NA	NA	NA	NA	4
+2021-02-23 14:04:43	"student009"	"student"	35	"my footwear is wet again"	"my footwear is wet again"	NA	NA	NA	NA	NA	NA	5
+2021-02-23 14:05:02	"student009"	"student"	36	"it is wet only because of the one same place"	"it is wet only because of the one same place"	NA	NA	NA	NA	NA	NA	10
+2021-02-23 14:05:13	"teacher008"	"teacher"	37	"Oh no! You probably don't like this weather either?"	"Oh no! You probably don't like this weather either?"	NA	NA	NA	NA	NA	NA	9
+2021-02-23 14:05:19	"student009"	"student"	38	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:05:42	"teacher008"	"teacher"	39	"I want to talk today about ways to agree"	"I want to talk today about ways to agree"	NA	"5.0"	"presentation"	"grammatical resource"	NA	NA	9
+2021-02-23 14:06:15	"student009"	"student"	40	"but I don't really hate it because it is an atmosphere of spring"	"but I don't really hate it because it is an atmosphere of spring"	38	NA	NA	NA	NA	NA	13
+2021-02-23 14:06:18	"student009"	"student"	41	"okay"	"okay"	39	NA	NA	NA	NA	NA	1
+2021-02-23 14:06:21	"teacher008"	"teacher"	42	"In English, there are different ways to agree depending on whether the statement is affirmative (+) or negative (-)"	"In English, there are different ways to agree depending on whether the statement is affirmative (+) or negative (-)"	NA	NA	"presentation"	"grammatical resource"	NA	NA	19
+2021-02-23 14:06:32	"teacher008"	"teacher"	43	"Ah, yes, I know what you mean!"	"Ah, yes, I know what you mean!"	NA	NA	NA	NA	NA	NA	7
+2021-02-23 14:06:51	"teacher008"	"teacher"	44	"For example, A says,"	"For example, A says,"	NA	NA	"presentation"	"grammatical resource"	NA	NA	4
+2021-02-23 14:07:31	"teacher008"	"teacher"	45	"I love spring!' And B agrees, 'So do I!' or 'Me too'"	"I love spring!' And B agrees, 'So do I!' or 'Me too'"	NA	NA	"presentation"	"grammatical resource"	NA	NA	12
+2021-02-23 14:07:41	"teacher008"	"teacher"	46	"You probably know 'me too', don't you?"	"You probably know 'me too', don't you?"	NA	NA	NA	NA	NA	NA	7
+2021-02-23 14:08:00	"student009"	"student"	47	"i do"	"I do"	NA	NA	NA	NA	NA	NA	2
+2021-02-23 14:08:24	"teacher008"	"teacher"	48	"I love spring' is an affirmative statement (it hasn't got 'don't' in it)"	"I love spring' is an affirmative statement (it hasn't got 'don't' in it)"	NA	NA	"presentation"	"grammatical resource"	NA	NA	13
+2021-02-23 14:09:44	"teacher008"	"teacher"	49	"But if A says, 'I don't like slush', B agrees, 'Neither do I!' or 'Me neither!'"	"But if A says, 'I don't like slush', B agrees, 'Neither do I!' or 'Me neither!'"	NA	NA	"presentation"	"grammatical resource"	NA	NA	16
+2021-02-23 14:10:02	"teacher008"	"teacher"	50	"we can't use 'me too' to agree with a negative statement"	"we can't use 'me too' to agree with a negative statement"	NA	NA	"presentation"	"grammatical resource"	NA	NA	11
+2021-02-23 14:10:27	"teacher008"	"teacher"	51	"Have you heard 'me neither' before?"	"Have you heard 'me neither' before?"	NA	NA	NA	NA	NA	NA	6
+2021-02-23 14:11:11	"student009"	"student"	52	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:11:21	"teacher008"	"teacher"	53	"Ok, cool, it's familiar then!"	"Ok, cool, it's familiar then!"	NA	NA	NA	NA	NA	NA	5
+2021-02-23 14:11:58	"teacher008"	"teacher"	54	"As you've probably noticed, with 'So do I' and 'Neither do I' we use 'do', the auxiliary verb that works in the original sentence"	"As you've probably noticed, with 'So do I' and 'Neither do I' we use 'do', the auxiliary verb that works in the original sentence"	NA	NA	"presentation"	"grammatical resource"	NA	NA	24
+2021-02-23 14:12:16	"teacher008"	"teacher"	55	"And it changes depending on a sentence!"	"And it changes depending on a sentence!"	NA	NA	"presentation"	"grammatical resource"	NA	NA	7
+2021-02-23 14:12:43	"teacher008"	"teacher"	56	"I used to like lollipops.  -So did I!"	"I used to like lollipops.  -So did I!"	NA	NA	"presentation"	"grammatical resource"	NA	NA	9
+2021-02-23 14:13:11	"teacher008"	"teacher"	57	"I didn't go to this party. - Neither did I"	"I didn't go to this party. - Neither did I"	NA	NA	"presentation"	"grammatical resource"	NA	NA	10
+2021-02-23 14:13:19	"teacher008"	"teacher"	58	"See what happens with the verb?"	"See what happens with the verb?"	NA	NA	NA	NA	NA	NA	6
+2021-02-23 14:13:37	"student009"	"student"	59	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:13:52	"teacher008"	"teacher"	60	"Ok, can you guess the verb please?"	"Ok, can you guess the verb please?"	NA	"6.0"	"exercise"	"grammatical resource"	NA	NA	7
+2021-02-23 14:14:20	"teacher008"	"teacher"	61	"I am at home right now. - So ___ I"	"I am at home right now. - So ___ I"	NA	NA	NA	NA	NA	NA	10
+2021-02-23 14:14:42	"student009"	"student"	62	"am"	"am"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:14:47	"teacher008"	"teacher"	63	"Yes)"	"Yes)"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:15:01	"teacher008"	"teacher"	64	"Fred is very funny. - So __ George"	"Fred is very funny. - So __ George"	NA	"6a"	NA	NA	NA	NA	8
+2021-02-23 14:16:00	"student009"	"student"	65	"is?"	"is?"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:16:16	"teacher008"	"teacher"	66	"Yes :) It's not only about 'I'"	"Yes :) It's not only about 'I'"	NA	NA	NA	NA	NA	NA	7
+2021-02-23 14:16:46	"teacher008"	"teacher"	67	"I have never been to South America. - Neither ____ I"	"I have never been to South America. - Neither ____ I"	NA	"6b"	NA	NA	NA	NA	11
+2021-02-23 14:17:32	"student009"	"student"	68	"have"	"have"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:18:01	"teacher008"	"teacher"	69	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+2021-02-23 14:18:56	"teacher008"	"teacher"	70	"I'd love to go somewhere I've never been before!   - So ___ I"	"I'd love to go somewhere I've never been before!   - So ___ I"	NA	"6c"	NA	NA	NA	NA	15
+2021-02-23 14:20:00	"student009"	"student"	71	"do"	"do"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:20:35	"teacher008"	"teacher"	72	"Hmm, have another think. What's the auxiliary verb in 'I'd love to'?"	"Hmm, have another think. What's the auxiliary verb in 'I'd love to'?"	NA	NA	NA	NA	NA	NA	12
+2021-02-23 14:20:56	"student009"	"student"	73	"would?"	"would?"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:21:03	"student009"	"student"	74	"will"	"will"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:21:08	"teacher008"	"teacher"	75	"Yes, well done! So would I"	"Yes, well done! So would I"	73	NA	NA	NA	NA	NA	6
+2021-02-23 14:21:15	"student009"	"student"	76	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:21:18	"student009"	"student"	77	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:21:18	"teacher008"	"teacher"	78	"I'd love to = I would love to"	"I'd love to = I would love to"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2021-02-23 14:21:27	"student009"	"student"	79	"makes sense"	"makes sense"	NA	NA	NA	NA	NA	NA	2
+2021-02-23 14:21:53	"teacher008"	"teacher"	80	"Now, obviously, 'me too' and 'me neither' is a simpler option because you don't have to use the auxiliary at all"	"Now, obviously, 'me too' and 'me neither' is a simpler option because you don't have to use the auxiliary at all"	NA	"7.0"	"exercise"	"grammatical resource"	NA	NA	21
+2021-02-23 14:22:40	"teacher008"	"teacher"	81	"Let's practise both options! I'm going to give you some statements that I think you might agree with and you agree (but you can always disagree if they are not true for you!)"	"Let's practise both options! I'm going to give you some statements that I think you might agree with and you agree (but you can always disagree if they are not true for you!)"	NA	NA	NA	NA	NA	NA	33
+2021-02-23 14:23:00	"teacher008"	"teacher"	82	"I feel more hopeful when spring is in the air!"	"I feel more hopeful when spring is in the air!"	NA	NA	NA	NA	NA	NA	10
+2021-02-23 14:23:18	"student009"	"student"	83	"so do I"	"so do I"	NA	NA	NA	NA	NA	NA	3
+2021-02-23 14:24:11	"teacher008"	"teacher"	84	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:24:40	"teacher008"	"teacher"	85	"I don't like horror films!"	"I don't like horror films!"	NA	"7a"	NA	NA	NA	NA	5
+2021-02-23 14:26:03	"student009"	"student"	86	"I am not pretty sure about it hehe"	"I am not so sure about it hehe"	NA	NA	NA	NA	NA	NA	8
+2021-02-23 14:26:31	"teacher008"	"teacher"	87	"Do you mean you're not sure about the grammar or you don't agree with me completely?"	"Do you mean you're not sure about the grammar or you don't agree with me completely?"	NA	NA	NA	NA	NA	NA	16
+2021-02-23 14:27:55	"student009"	"student"	88	"agree"	"agree"	NA	NA	NA	NA	NA	NA	1
+2021-02-23 14:28:06	"teacher008"	"teacher"	89	"Got you, let's try another one"	"Got you, let's try another one"	NA	"7b"	NA	NA	NA	NA	6
+2021-02-23 14:28:17	"student009"	"student"	90	"like I watched some horror films but I am not sure"	"like I watched some horror films but I am not sure"	88	NA	NA	NA	NA	NA	11
+2021-02-23 14:28:18	"teacher008"	"teacher"	91	"I don't think HP films are as good as the books."	"I don't think HP films are as good as the books."	89	NA	NA	NA	NA	NA	11
+2021-02-23 14:28:25	"teacher008"	"teacher"	92	"Fair enough!"	"Fair enough!"	90	NA	NA	NA	NA	NA	2
+2021-02-23 14:28:31	"student009"	"student"	93	"Neither do i"	"Neither do I"	91	NA	NA	NA	NA	NA	3
+2021-02-23 14:29:16	"teacher008"	"teacher"	94	"Yaay, good!"	"Yaay, good!"	NA	NA	NA	NA	NA	NA	2
+2021-02-23 14:29:31	"teacher008"	"teacher"	95	"And what's the simple option?"	"And what's the simple option?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	5
+2021-02-23 14:29:38	"teacher008"	"teacher"	96	"Neither do I = ?"	"Neither do I = ?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	5
+2021-02-23 14:30:12	"student009"	"student"	97	"me neither"	"me neither"	NA	NA	NA	NA	NA	NA	2
+2021-02-23 14:30:22	"teacher008"	"teacher"	98	"Well done, <STUDENT> :)"	"Well done, <STUDENT> :)"	NA	NA	NA	NA	NA	NA	4
+2021-02-23 14:30:46	"teacher008"	"teacher"	99	"Ok, I'll let you go, we can practise a bit more next week! Have a lovely week, speak to you next Tuesday!"	"Ok, I'll let you go, we can practise a bit more next week! Have a lovely week, speak to you next Tuesday!"	NA	"8.0"	"closing"	NA	NA	NA	22
+2021-02-23 14:31:20	"student009"	"student"	100	"okay, bye bye!"	"okay, bye bye!"	NA	NA	NA	NA	NA	NA	3
+2021-02-23 14:31:25	"teacher008"	"teacher"	101	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

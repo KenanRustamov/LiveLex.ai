@@ -1,0 +1,127 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-31 06:59:27	"teacher008"	"teacher"	1	"Morning <STUDENT>!"	"Morning <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-08-31 07:00:12	"student010"	"student"	2	"Good morning!"	"Good morning!"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:00:22	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-08-31 07:00:28	"student010"	"student"	4	"Fine"	"Fine"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:00:55	"teacher008"	"teacher"	5	"Still at your grandparents'?"	"Still at your grandparents'?"	NA	NA	NA	NA	NA	NA	4
+2020-08-31 07:01:21	"student010"	"student"	6	"Luckily not now"	"Luckily not now"	NA	NA	NA	NA	NA	NA	3
+2020-08-31 07:01:36	"teacher008"	"teacher"	7	"Ok :) back to Kyiv?"	"Ok :) back to Kyiv?"	NA	NA	NA	NA	NA	NA	5
+2020-08-31 07:01:47	"student010"	"student"	8	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:01:54	"teacher008"	"teacher"	9	"Cool :)"	"Cool :)"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:02:22	"teacher008"	"teacher"	10	"Ok, let's get our teeth into some Star Wars stuff and articles!"	"Ok, let's get our teeth into some Star Wars stuff and articles!"	NA	"3.0"	"exercise,exercise"	"grammatical resource"	"movie"	NA	12
+2020-08-31 07:03:33	"teacher008"	"teacher"	11	"Can you fill in an article (a / the / zero article) and tell me why (it's not always easy to explain, but we can try)"	"Can you fill in an article (a / the / zero article) and tell me why (it's not always easy to explain, but we can try)"	NA	NA	NA	NA	NA	NA	26
+2020-08-31 07:03:48	"student010"	"student"	12	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:04:03	"teacher008"	"teacher"	13	"Something from the old films: 'These aren't ___ droids you're looking for'"	"Something from the old films: 'These aren't ___ droids you're looking for'"	NA	NA	NA	NA	NA	NA	12
+2020-08-31 07:04:43	"student010"	"student"	14	"No article"	"No article"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:05:09	"teacher008"	"teacher"	15	"Ok, why?"	"Ok, why?"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:07:21	"teacher008"	"teacher"	16	"Check this out, the Jedi mind trick"	"Check this out, the Jedi mind trick"	NA	"3a"	"exercise"	"listening,grammatical resource"	"movie"	NA	7
+2020-08-31 07:07:53	"teacher008"	"teacher"	18	"it's about 50 seconds in"	"it's about 50 seconds in"	NA	NA	NA	NA	NA	NA	5
+2020-08-31 07:08:07	"student010"	"student"	19	"It isn't a because it isn't one droid and not the because we don't talk about specific droid"	"It isn't 'a' because it isn't one droid and not 'the' because we aren't talking about specific droids"	"15.0"	NA	NA	NA	NA	NA	18
+2020-08-31 07:08:32	"teacher008"	"teacher"	20	"Aha, thanks for that. Have a look at the clip, please. What's the article?"	"Aha, thanks for that. Have a look at the clip, please. What's the article?"	"19, 18"	"3a (continued)"	NA	NA	NA	NA	14
+2020-08-31 07:09:00	"teacher008"	"teacher"	21	"Is it a clickable link?"	"Is it a clickable link?"	NA	NA	NA	NA	NA	NA	5
+2020-08-31 07:10:20	"student010"	"student"	22	"The"	"The"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:11:13	"teacher008"	"teacher"	23	"Yep. Because the stormtroopers are looking for some specific droids, right? But these aren't them"	"Yep. Because the stormtroopers are looking for some specific droids, right? But these aren't them"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-08-31 07:11:21	"teacher008"	"teacher"	24	"Well, they are really :)"	"Well, they are really :)"	NA	NA	NA	NA	NA	NA	5
+2020-08-31 07:11:58	"student010"	"student"	25	"Do you know how this droids called"	"Do you know what these droids are called"	NA	"3b"	NA	NA	NA	NA	7
+2020-08-31 07:12:00	"student010"	"student"	26	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:12:27	"teacher008"	"teacher"	27	"R2D2 and C3PO?"	"R2D2 and C3PO?"	NA	NA	NA	NA	NA	NA	3
+2020-08-31 07:12:39	"student010"	"student"	28	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:13:35	"teacher008"	"teacher"	29	"Now, this is a very Russian / Ukrainian speaker mistake and a bit hard to unlearn, but 'What the droids are called' not how"	"Now, this is a very Russian / Ukrainian speaker mistake and a bit hard to unlearn, but 'What the droids are called' not how"	"25.0"	"3c"	"repair"	"lexical resource,grammatical resource"	NA	NA	24
+2020-08-31 07:13:44	"teacher008"	"teacher"	30	"What is it called?'"	"What is it called?'"	NA	NA	NA	NA	NA	NA	4
+2020-08-31 07:14:49	"student010"	"student"	31	"Who?"	"Who?"	NA	NA	"enquiry"	NA	NA	NA	1
+2020-08-31 07:15:18	"teacher008"	"teacher"	32	"It's not a real question, I'm just saying that the question is 'what is something called?' not 'how'"	"It's not a real question, I'm just saying that the question is 'what is something called?' not 'how'"	NA	NA	"clarification"	NA	NA	NA	18
+2020-08-31 07:15:30	"student010"	"student"	33	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:15:56	"teacher008"	"teacher"	34	"The next quote. Luke vs. the Emperor"	"The next quote. Luke vs. the Emperor"	NA	"3d"	"exercise,exercise"	"grammatical resource"	NA	NA	7
+2020-08-31 07:16:24	"teacher008"	"teacher"	35	"I’ll never turn to ___ dark side. You’ve failed, your highness. I am ___ Jedi, like my father before me."	"I’ll never turn to ___ dark side. You’ve failed, your highness. I am ___ Jedi, like my father before me."	NA	NA	NA	NA	NA	NA	20
+2020-08-31 07:17:08	"student010"	"student"	36	"The, a"	"The, a"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:17:36	"teacher008"	"teacher"	37	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:17:42	"teacher008"	"teacher"	38	"Why 'the dark side'?"	"Why 'the dark side'?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	4
+2020-08-31 07:21:36	"teacher008"	"teacher"	39	"Because it's the one and only, the one we know about, right?"	"Because it's the one and only, the one we know about, right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-08-31 07:21:52	"student010"	"student"	40	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:22:27	"teacher008"	"teacher"	41	"Yes. But 'I am a Jedi' - one of many, not the one and only"	"Yes. But 'I am a Jedi' - one of many, not the one and only"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-08-31 07:23:09	"teacher008"	"teacher"	42	"Ok, the next one. 'Aren’t you a little short for ___ stormtrooper?'"	"Ok, the next one. 'Aren’t you a little short for ___ stormtrooper?'"	NA	"3e"	"exercise,exercise"	"grammatical resource"	NA	NA	12
+2020-08-31 07:23:35	"student010"	"student"	43	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:24:31	"teacher008"	"teacher"	44	"Yes, why?"	"Yes, why?"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:24:59	"student010"	"student"	45	"Because one of many"	"Because one of many"	NA	NA	NA	NA	NA	NA	4
+2020-08-31 07:25:19	"teacher008"	"teacher"	46	"That's right, any stormtrooper"	"That's right, any stormtrooper"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2020-08-31 07:25:39	"teacher008"	"teacher"	47	"As you can see, I like the oldest films best :)"	"As you can see, I like the oldest films best :)"	NA	NA	NA	NA	NA	NA	11
+2020-08-31 07:26:13	"teacher008"	"teacher"	48	"Ok, now the next phrase is from just about any film"	"Ok, now the next phrase is from just about any film"	NA	"3f"	"exercise,exercise"	"grammatical resource"	NA	NA	11
+2020-08-31 07:26:24	"teacher008"	"teacher"	49	"I’ve got ____ bad feeling about this.'"	"I’ve got ____ bad feeling about this.'"	NA	NA	NA	NA	NA	NA	7
+2020-08-31 07:26:48	"student010"	"student"	50	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:27:11	"teacher008"	"teacher"	51	"yes, sure"	"yes, sure"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:27:33	"teacher008"	"teacher"	52	"Next one, from Obi-Wan"	"Next one, from Obi-Wan"	NA	"3g"	"exercise,exercise"	"grammatical resource"	NA	NA	4
+2020-08-31 07:27:47	"teacher008"	"teacher"	53	"In my experience there is no such thing as ___ luck."	"In my experience there is no such thing as ___ luck."	NA	NA	NA	NA	NA	NA	11
+2020-08-31 07:28:25	"student010"	"student"	54	"No article"	"No article"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:28:34	"teacher008"	"teacher"	55	"Good <STUDENT>! Why?"	"Good <STUDENT>! Why?"	NA	NA	NA	NA	NA	NA	3
+2020-08-31 07:30:28	"student010"	"student"	56	"It isn't only one luck and not specific luck"	"It isn't only one luck and not specific luck"	NA	NA	NA	NA	NA	NA	9
+2020-08-31 07:30:56	"teacher008"	"teacher"	57	"Yes, true. And 'luck' is uncountable"	"Yes, true. And 'luck' is uncountable"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-08-31 07:31:18	"teacher008"	"teacher"	58	"Would you agree with this? There is no such thing as luck and everything happens for a reason?"	"Would you agree with this? There is no such thing as luck and everything happens for a reason?"	NA	"4.0"	"topic opening"	NA	NA	NA	18
+2020-08-31 07:32:18	"student010"	"student"	59	"Sometimes yes"	"Sometimes yes"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:32:45	"teacher008"	"teacher"	60	"Sometimes?"	"Sometimes?"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:35:15	"teacher008"	"teacher"	61	"Are you typing or waiting for me to say something?"	"Are you typing or waiting for me to say something?"	NA	NA	NA	NA	NA	NA	10
+2020-08-31 07:35:25	"student010"	"student"	62	"Waiting"	"Waiting"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:35:47	"teacher008"	"teacher"	63	"Ah, sorry!"	"Ah, sorry!"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:36:02	"student010"	"student"	64	"Should I write something?"	"Should I write something?"	NA	NA	NA	NA	NA	NA	4
+2020-08-31 07:36:23	"teacher008"	"teacher"	65	"Just your thoughts of luck and its role in our lives, if you want to"	"Just your thoughts of luck and its role in our lives, if you want to"	NA	NA	NA	NA	NA	NA	15
+2020-08-31 07:37:00	"teacher008"	"teacher"	66	"*thoughts on luck"	"*thoughts on luck"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-08-31 07:37:05	"student010"	"student"	67	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:39:20	"teacher008"	"teacher"	68	"I must admit I don't agree with Obi-Wan. To a large extent, we create our own life, but luck and bad fortune do play a very big role!"	"I must admit I don't agree with Obi-Wan. To a large extent, we create our own life, but luck and bad fortune do play a very big role!"	NA	NA	NA	NA	NA	NA	28
+2020-08-31 07:39:55	"student010"	"student"	69	"So our math teacher gives us very stupid tasks so when she is ill there is a another teacher and we ussualy don't working so there isn't any reason just luck"	"So our math teacher gives us very stupid tasks, so when she is ill there is another teacher and we usually don't work, so there isn't any reason just luck"	NA	NA	NA	NA	NA	NA	31
+2020-08-31 07:40:44	"teacher008"	"teacher"	70	"Haha, well exactly!"	"Haha, well exactly!"	NA	NA	NA	NA	NA	NA	3
+2020-08-31 07:41:29	"teacher008"	"teacher"	71	"We u.ua..y don't work'"	"We u.ua..y don't work'"	NA	"4a"	"eliciting,repair"	"writing"	NA	NA	4
+2020-08-31 07:42:08	"student010"	"student"	72	"Usually don't like this word"	"Usually, don't like this word"	NA	NA	NA	NA	NA	NA	5
+2020-08-31 07:42:28	"teacher008"	"teacher"	73	"Yes :) it's not your friend, is it? :)"	"Yes :) it's not your friend, is it? :)"	NA	NA	NA	NA	NA	NA	9
+2020-08-31 07:42:40	"student010"	"student"	74	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:43:05	"teacher008"	"teacher"	75	"The adjective 'usual' - no double letters. So when you turn it into an adverb, you add -ly"	"The adjective 'usual' - no double letters. So when you turn it into an adverb, you add -ly"	NA	NA	"scaffolding"	"lexical resource,writing"	NA	NA	18
+2020-08-31 07:43:15	"teacher008"	"teacher"	76	"usual + ly   double ll"	"usual + ly   double ll"	NA	NA	"scaffolding"	"writing"	NA	NA	7
+2020-08-31 07:44:00	"teacher008"	"teacher"	77	"But it is true that what we believe and what we do shapes our world, so not only blind luck!"	"But it is true that what we believe and what we do shapes our world, so not only blind luck!"	"70.0"	NA	NA	NA	NA	NA	20
+2020-08-31 07:44:08	"teacher008"	"teacher"	78	"It's both"	"It's both"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 07:44:50	"teacher008"	"teacher"	79	"We had an argument with <ANOTHER STUDENT> in our last class. About Professor Snape from Harry Potter. Do you remember Snape?"	"We had an argument with <ANOTHER STUDENT> in our last class. About Professor Snape from Harry Potter. Do you remember Snape?"	NA	"4b"	"topic development"	NA	NA	NA	21
+2020-08-31 07:45:00	"student010"	"student"	80	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:45:08	"teacher008"	"teacher"	81	"Do you like him?"	"Do you like him?"	NA	NA	NA	NA	NA	NA	4
+2020-08-31 07:45:39	"student010"	"student"	82	"Not really. He's pretty strange"	"Not really. He's pretty strange"	NA	NA	NA	NA	NA	NA	5
+2020-08-31 07:46:28	"teacher008"	"teacher"	83	"Definitely strange. <ANOTHER STUDENT> didn't like that I called him a bully because he is a hero. But I thought he was both a bully and a hero"	"Definitely strange. <ANOTHER STUDENT> didn't like that I called him a bully because he is a hero. But I thought he was both a bully and a hero"	NA	NA	NA	NA	NA	NA	28
+2020-08-31 07:47:47	"teacher008"	"teacher"	84	"Are you and <ANOTHER STUDENT> both in a specialised math class at school?"	"Are you and <ANOTHER STUDENT> both in a specialised math class at school?"	NA	"4c"	"topic development"	NA	NA	NA	13
+2020-08-31 07:48:29	"student010"	"student"	85	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:49:13	"teacher008"	"teacher"	86	"What's your favourite school subject?"	"What's your favourite school subject?"	NA	NA	NA	NA	NA	NA	5
+2020-08-31 07:49:32	"student010"	"student"	87	"Biology"	"Biology"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:49:46	"teacher008"	"teacher"	88	"Ooh, I loved biology too!"	"Ooh, I loved biology too!"	NA	NA	NA	NA	NA	NA	5
+2020-08-31 07:50:23	"teacher008"	"teacher"	89	"Well done with the articles, by the way! Are you feeling that you understand them a bit better?"	"Well done with the articles, by the way! Are you feeling that you understand them a bit better?"	NA	"5.0"	"topic opening"	"grammatical resource"	NA	NA	18
+2020-08-31 07:51:04	"student010"	"student"	90	"What's your unfavourite subject?"	"What's your least favourite subject?"	NA	"4d"	"topic development"	NA	NA	NA	4
+2020-08-31 07:51:13	"student010"	"student"	91	"Yes"	"Yes"	"89.0"	NA	NA	NA	NA	NA	1
+2020-08-31 07:51:51	"teacher008"	"teacher"	92	"My least favourite subject? Let  me remember..."	"My least favourite subject? Let  me remember..."	"90.0"	NA	"repair"	"lexical resource"	NA	NA	8
+2020-08-31 07:53:18	"teacher008"	"teacher"	93	"Maybe physics because I didn't understand it very well. Also, we first had this really cool physics teacher who showed us lots of experiments and then he left and the next teacher was boring and we just did things by the book"	"Maybe physics because I didn't understand it very well. Also, we first had this really cool physics teacher who showed us lots of experiments and then he left and the next teacher was boring and we just did things by the book"	NA	NA	NA	NA	NA	NA	42
+2020-08-31 07:53:29	"teacher008"	"teacher"	94	"So luck again! Or more like bad luck"	"So luck again! Or more like bad luck"	NA	NA	NA	NA	NA	NA	8
+2020-08-31 07:53:44	"teacher008"	"teacher"	95	"What's your least favourite subject?"	"What's your least favourite subject?"	NA	"4e"	"topic development"	NA	NA	NA	5
+2020-08-31 07:54:28	"student010"	"student"	96	"Geography"	"Geography"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:54:35	"teacher008"	"teacher"	97	"Oh, and then another least favourite was something like 'home education' where we had to sew and knit and embroider and do stupid girly stuff!"	"Oh, and then another least favourite was something like 'home education' where we had to sew and knit and embroider and do stupid girly stuff!"	NA	"4f"	"topic development"	NA	NA	NA	25
+2020-08-31 07:54:44	"teacher008"	"teacher"	98	"Geography? Why?"	"Geography? Why?"	"96.0"	NA	NA	NA	NA	NA	2
+2020-08-31 07:56:13	"student010"	"student"	99	"First can you explain me what do sew, knit and embroider mean?"	"First can you explain to me what do sew, knit and embroider mean?"	NA	"4g"	"enquiry"	"lexical resource,meaning"	NA	NA	12
+2020-08-31 07:56:44	"student010"	"student"	100	"Because we have boring teacher"	"Because we have a boring teacher"	"98.0"	NA	NA	NA	NA	NA	5
+2020-08-31 07:57:10	"teacher008"	"teacher"	101	"Oh, sorry! We sew pieces of fabric together to make clothes. We knit wool usually to make wooly jumpers or socks for example"	"Oh, sorry! We sew pieces of fabric together to make clothes. We knit wool usually to make wooly jumpers or socks for example"	"99.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	23
+2020-08-31 07:57:52	"teacher008"	"teacher"	102	"And embroidery is making colourful patterns on some fabric with different threads and needles"	"And embroidery is making colourful patterns on some fabric with different threads and needles"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+2020-08-31 07:58:03	"teacher008"	"teacher"	103	"You know like vyshyvanka?"	"You know like vyshyvanka?"	NA	NA	"scaffolding,non-English"	"code switching,lexical resource"	NA	NA	4
+2020-08-31 07:58:06	"student010"	"student"	104	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:58:11	"teacher008"	"teacher"	105	"Vyshyvanka is embroidered"	"Vyshyvanka is embroidered"	NA	NA	"scaffolding,non-English"	"code switching,lexical resource,meaning"	NA	NA	3
+2020-08-31 07:58:37	"student010"	"student"	106	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 07:58:40	"teacher008"	"teacher"	107	"But I liked books, English and literature and biology. And learning about how a human brain works!"	"But I liked books, English and literature and biology. And learning about how a human brain works!"	"97.0"	NA	NA	NA	NA	NA	17
+2020-08-31 07:58:49	"teacher008"	"teacher"	108	"Not silly embroidery :)"	"Not silly embroidery :)"	NA	NA	NA	NA	NA	NA	4
+2020-08-31 07:59:12	"teacher008"	"teacher"	109	"Because we have ___ boring teacher"	"Because we have ___ boring teacher"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-08-31 07:59:38	"student010"	"student"	110	"Yes we had tryd  and we did a lot of girl stuff"	"Yes we had tryd  and we did a lot of girl stuff"	"108.0"	NA	"non-English"	"code switching,lexical resource"	NA	NA	13
+2020-08-31 07:59:43	"student010"	"student"	111	"A"	"A"	"109.0"	NA	NA	NA	NA	NA	1
+2020-08-31 08:00:05	"teacher008"	"teacher"	112	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-08-31 08:01:00	"teacher008"	"teacher"	113	"Ah, I've got to let you go! Thanks so much for participating in this research project! Now all the chats will be anonymised (all names removed) and will become the material for an aritficial intelligence to learn to teach English"	"Ah, I've got to let you go! Thanks so much for participating in this research project! Now all the chats will be anonymised (all names removed) and will become the material for an aritficial intelligence to learn to teach English"	NA	"6.0"	"closing"	NA	NA	NA	40
+2020-08-31 08:01:10	"teacher008"	"teacher"	114	"So you helped science this summer!"	"So you helped science this summer!"	NA	NA	NA	NA	NA	NA	6
+2020-08-31 08:01:23	"teacher008"	"teacher"	115	"It was also a great pleasure to work with you :)"	"It was also a great pleasure to work with you :)"	NA	NA	NA	NA	NA	NA	11
+2020-08-31 08:01:40	"teacher008"	"teacher"	116	"If you would like to continue and have some time during the academic year, do let me know"	"If you would like to continue and have some time during the academic year, do let me know"	NA	NA	NA	NA	NA	NA	18
+2020-08-31 08:01:46	"student010"	"student"	117	"Me too"	"Me too"	"115.0"	NA	NA	NA	NA	NA	2
+2020-08-31 08:01:59	"teacher008"	"teacher"	118	"All the best to you, <STUDENT>!"	"All the best to you, <STUDENT>!"	NA	NA	NA	NA	NA	NA	6
+2020-08-31 08:02:18	"student010"	"student"	119	"Ok so may be we could countinue on holidays"	"Ok so may be we could countinue on holidays"	"116.0"	NA	NA	NA	NA	NA	9
+2020-08-31 08:02:22	"student010"	"student"	120	"Bye"	"Bye"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 08:02:36	"teacher008"	"teacher"	121	"Yes, you can always email me!"	"Yes, you can always email me!"	"119.0"	NA	NA	NA	NA	NA	6
+2020-08-31 08:02:42	"teacher008"	"teacher"	122	"Bye <STUDENT> :)"	"Bye <STUDENT> :)"	"120.0"	NA	NA	NA	NA	NA	3
+2020-08-31 08:02:55	"student010"	"student"	123	"Will we countinue in this programme"	"Will we countinue in this programme"	"121.0"	NA	NA	NA	NA	NA	6
+2020-08-31 08:03:21	"teacher008"	"teacher"	124	"Probably. Do you mean your autumn holidays, for example?"	"Probably. Do you mean your autumn holidays, for example?"	NA	NA	NA	NA	NA	NA	9
+2020-08-31 08:03:27	"student010"	"student"	125	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-31 08:03:38	"student010"	"student"	126	"Bye :("	"Bye :("	"122.0"	NA	NA	NA	NA	NA	2
+2020-08-31 08:03:52	"teacher008"	"teacher"	127	"Yes, let me know when they are. Bye!"	"Yes, let me know when they are. Bye!"	"124.0"	NA	NA	NA	NA	"B2"	8

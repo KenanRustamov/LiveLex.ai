@@ -1,0 +1,149 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-21 07:02:02	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-07-21 07:02:10	"student009"	"student"	2	"hello"	"hello"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:02:23	"teacher008"	"teacher"	3	"Sorry to hear you want to sleep!"	"Sorry to hear you want to sleep!"	NA	NA	NA	NA	NA	NA	7
+2020-07-21 07:02:36	"student009"	"student"	4	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:03:02	"teacher008"	"teacher"	5	"How's life? Are you still in Vinnytsa?"	"How's life? Are you still in Vinnytsa?"	NA	"2.0"	"topic opening"	NA	NA	NA	7
+2020-07-21 07:03:15	"student009"	"student"	6	"everything is okay"	"everything is okay"	NA	NA	NA	NA	NA	NA	3
+2020-07-21 07:03:26	"student009"	"student"	7	"I am in Kovel now"	"I am in Kovel now"	5	NA	NA	NA	NA	NA	5
+2020-07-21 07:03:50	"teacher008"	"teacher"	8	"Nice! Visiting family again?"	"Nice! Visiting family again?"	NA	"2a"	"topic development"	NA	NA	NA	4
+2020-07-21 07:04:25	"student009"	"student"	9	"no, just visiting friends"	"no, just visiting friends"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 07:05:12	"teacher008"	"teacher"	10	"Sounds good. I've never been to Kovel - is it nice?"	"Sounds good. I've never been to Kovel - is it nice?"	NA	"2b"	"topic development"	NA	NA	NA	11
+2020-07-21 07:05:36	"student009"	"student"	11	"Yes, but is little"	"Yes, but it's little"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 07:06:15	"teacher008"	"teacher"	12	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:06:23	"student009"	"student"	13	"the highest house here is with 9 levels"	"the tallest building here is 9 floors"	NA	NA	NA	NA	NA	NA	8
+2020-07-21 07:07:03	"teacher008"	"teacher"	14	"ah, the tallest building"	"ah, the tallest building"	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2020-07-21 07:07:17	"student009"	"student"	15	"and there are not a lot good shops to by clothes"	"and there aren't many good shops to buy clothes"	NA	NA	NA	NA	NA	NA	11
+2020-07-21 07:07:44	"teacher008"	"teacher"	16	"There are no tall buildings in my town at all! Maybe three floors maximum"	"There are no tall buildings in my town at all! Maybe three floors maximum"	NA	"2c"	"topic development"	NA	NA	NA	14
+2020-07-21 07:07:58	"student009"	"student"	17	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:08:37	"student009"	"student"	18	"I am living on the 20th floor (in Kyiv)"	"I am living on the 20th floor (in Kyiv)"	NA	NA	NA	NA	NA	NA	9
+2020-07-21 07:08:54	"teacher008"	"teacher"	19	"Oh wow!"	"Oh wow!"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:09:35	"teacher008"	"teacher"	20	"But most of England is very low rise, and most houses are two floors, including ours."	"But most of England is very low rise, and most houses are two floors, including ours."	NA	NA	"scaffolding"	"world knowledge"	NA	NA	16
+2020-07-21 07:11:22	"teacher008"	"teacher"	21	"In a house, both floors belong to the same owner, so you have a downstairs (usually living room, dining room and kitchen) and an upstairs area (usually bedrooms)"	"In a house, both floors belong to the same owner, so you have a downstairs (usually living room, dining room and kitchen) and an upstairs area (usually bedrooms)"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	28
+2020-07-21 07:12:09	"student009"	"student"	22	"Yeah, I understand"	"Yeah, I understand"	NA	NA	NA	NA	NA	NA	3
+2020-07-21 07:12:28	"teacher008"	"teacher"	23	"Some people live in flats, especially in big cities, and flats are usually on one level. Which is probably why they are called 'flats', now that I'm thinking about it"	"Some people live in flats, especially in big cities, and flats are usually on one level. Which is probably why they are called 'flats', now that I'm thinking about it"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	30
+2020-07-21 07:12:51	"student009"	"student"	24	"I think it is better to live in a house"	"I think it is better to live in a house"	NA	"2d"	"topic development"	NA	NA	NA	10
+2020-07-21 07:13:07	"teacher008"	"teacher"	25	"And what do you call a house that has only got the ground floor?"	"And what do you call a house that has only got the ground floor?"	NA	"2e"	"eliciting"	"lexical resource"	NA	NA	14
+2020-07-21 07:13:57	"student009"	"student"	26	"what do you mean?"	"what do you mean?"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 07:14:39	"teacher008"	"teacher"	27	"Do you know the word for a house that hasn't got an upstairs?"	"Do you know the word for a house that hasn't got an upstairs?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	13
+2020-07-21 07:14:48	"student009"	"student"	28	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:15:04	"teacher008"	"teacher"	29	"a bungalow"	"a bungalow"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-07-21 07:15:10	"student009"	"student"	30	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:15:16	"teacher008"	"teacher"	31	"the stress is on the first syllable"	"the stress is on the first syllable"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	7
+2020-07-21 07:15:41	"student009"	"student"	32	"I didn't now it, but I know it is the same on Russian"	"I didn't know it, but I know it is the same in Russian"	NA	NA	NA	NA	NA	NA	13
+2020-07-21 07:16:06	"teacher008"	"teacher"	33	"Old people sometimes move to bungalows because of mobility problems. But it's not just for older people, obviously"	"Old people sometimes move to bungalows because of mobility problems. But it's not just for older people, obviously"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	18
+2020-07-21 07:16:16	"teacher008"	"teacher"	34	"it's the same ___ Russian"	"it's the same ___ Russian"	32	"2f"	"eliciting,repair"	"lexical resource"	NA	NA	5
+2020-07-21 07:16:25	"student009"	"student"	35	"in"	"in"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:16:28	"teacher008"	"teacher"	36	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:17:04	"teacher008"	"teacher"	37	"I've got a nice mystery picture for you today, I couldn't guess what it was! I'll send you the link on Skype"	"I've got a nice mystery picture for you today, I couldn't guess what it was! I'll send you the link on Skype"	NA	"3.0"	"exercise"	"grammatical resource"	"website"	NA	22
+2020-07-21 07:17:27	"teacher008"	"teacher"	38	"What do you think it could be?"	"What do you think it could be?"	NA	NA	NA	NA	NA	NA	7
+2020-07-21 07:18:59	"student009"	"student"	39	"it might be a tree?"	"it might be a tree?"	NA	NA	NA	NA	NA	NA	5
+2020-07-21 07:19:21	"teacher008"	"teacher"	40	"Good idea, but no!"	"Good idea, but no!"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 07:19:28	"teacher008"	"teacher"	41	"and a good modal verb :)"	"and a good modal verb :)"	NA	NA	NA	NA	NA	NA	6
+2020-07-21 07:20:11	"student009"	"student"	42	"it might be an animal?"	"it might be an animal?"	NA	NA	NA	NA	NA	NA	5
+2020-07-21 07:20:30	"teacher008"	"teacher"	43	"yes, closer!"	"yes, closer!"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:20:37	"teacher008"	"teacher"	44	"What kind of animal?"	"What kind of animal?"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 07:20:42	"student009"	"student"	45	"a fish?"	"a fish?"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:20:50	"teacher008"	"teacher"	46	"nope!"	"nope!"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:20:51	"student009"	"student"	47	"a bug?"	"a bug?"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:21:09	"teacher008"	"teacher"	48	"warmer, warmer"	"warmer, warmer"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:21:33	"student009"	"student"	49	"a butterfly?"	"a butterfly?"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:21:44	"teacher008"	"teacher"	50	"yes, you got it!! well done!"	"yes, you got it!! well done!"	NA	NA	NA	NA	NA	NA	6
+2020-07-21 07:21:50	"student009"	"student"	51	"yay"	"yay"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:22:26	"teacher008"	"teacher"	52	"the image is ____ (made much to look much bigger, so that you can see it in detail)"	"the image is ____ (made much to look much bigger, so that you can see it in detail)"	NA	"3a"	"eliciting,revision"	"lexical resource"	NA	NA	18
+2020-07-21 07:23:02	"teacher008"	"teacher"	53	"sorry, 'made to look much bigger'"	"sorry, 'made to look much bigger'"	NA	NA	"repair"	"writing"	NA	NA	6
+2020-07-21 07:23:31	"teacher008"	"teacher"	54	"do you remember the word? m------ed"	"do you remember the word? m------ed"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	6
+2020-07-21 07:24:08	"student009"	"student"	55	"mo------ed"	"mo------ed"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:24:22	"teacher008"	"teacher"	56	"no! magni----"	"no! magni----"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	2
+2020-07-21 07:24:34	"student009"	"student"	57	"magnified!"	"magnified!"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:25:09	"teacher008"	"teacher"	58	"yes! and what do we call a device that allows us to see objects as if they were bigger?"	"yes! and what do we call a device that allows us to see objects as if they were bigger?"	NA	"3b"	"eliciting,revision"	"lexical resource"	NA	NA	19
+2020-07-21 07:25:45	"student009"	"student"	59	"magnifier"	"magnifier"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:26:33	"teacher008"	"teacher"	60	"yes, or magnifying glass"	"yes, or magnifying glass"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-07-21 07:27:36	"teacher008"	"teacher"	61	"Ok, let's quickly go through our modals of deduction. If you think it's possible that something happened, you can say 'It ___ ____ happened'"	"Ok, let's quickly go through our modals of deduction. If you think it's possible that something happened, you can say 'It ___ ____ happened'"	NA	"4.0"	"eliciting,revision"	"grammatical resource"	NA	NA	24
+2020-07-21 07:27:55	"student009"	"student"	62	"might have"	"might have"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:27:59	"teacher008"	"teacher"	63	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:28:10	"teacher008"	"teacher"	64	"If you are sure that this is what happened?"	"If you are sure that this is what happened?"	NA	NA	"eliciting,revision"	"grammatical resource"	NA	NA	9
+2020-07-21 07:28:19	"student009"	"student"	65	"must have"	"must have"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:28:32	"teacher008"	"teacher"	66	"yes, and if you are sure it didn't happen?"	"yes, and if you are sure it didn't happen?"	NA	NA	"eliciting,revision"	"grammatical resource"	NA	NA	9
+2020-07-21 07:28:47	"student009"	"student"	67	"can't have"	"can't have"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:28:53	"teacher008"	"teacher"	68	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:29:42	"teacher008"	"teacher"	69	"Ok, I just got back from a week of holiday, could you use modals of deduction to make sentences about what I did / where I went etc.? Just to practise those"	"Ok, I just got back from a week of holiday, could you use modals of deduction to make sentences about what I did / where I went etc.? Just to practise those"	NA	"4a"	"exercise"	"grammatical resource"	NA	NA	32
+2020-07-21 07:30:27	"student009"	"student"	70	"what do you mean?"	"what do you mean?"	NA	NA	"enquiry"	NA	NA	NA	4
+2020-07-21 07:31:35	"teacher008"	"teacher"	71	"for example, you could say, <TEACHER>, you can't have been abroad because of the quarantine."	"for example, you could say, <TEACHER>, you can't have been abroad because of the quarantine."	NA	NA	"clarification,scaffolding"	"grammatical resource"	NA	NA	15
+2020-07-21 07:32:07	"teacher008"	"teacher"	72	"You could have gone to the countryside, or something like that"	"You could have gone to the countryside, or something like that"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-07-21 07:34:31	"teacher008"	"teacher"	73	"Are you still feeling confused?"	"Are you still feeling confused?"	NA	NA	NA	NA	NA	NA	5
+2020-07-21 07:34:43	"student009"	"student"	74	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:35:27	"student009"	"student"	75	"what did you mean by what you did/where you went?"	"what did you mean by what you did/where you went?"	NA	"4b"	"enquiry"	NA	NA	NA	10
+2020-07-21 07:36:14	"teacher008"	"teacher"	76	"Well, you don't know what I did and where I went on holiday, right? But you might have some ideas, and that's where the modals of deduction come in."	"Well, you don't know what I did and where I went on holiday, right? But you might have some ideas, and that's where the modals of deduction come in."	NA	NA	"clarification"	NA	NA	NA	29
+2020-07-21 07:36:30	"student009"	"student"	77	"like You must have been at home or You can't have been to Italy"	"like You must have been at home or You can't have been to Italy"	NA	NA	NA	NA	NA	NA	14
+2020-07-21 07:36:37	"teacher008"	"teacher"	78	"For example, I'll try to make sentences about your trip to Vinnytsa"	"For example, I'll try to make sentences about your trip to Vinnytsa"	NA	"4c"	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-07-21 07:36:41	"teacher008"	"teacher"	79	"Yes, all good"	"Yes, all good"	77	NA	NA	NA	NA	NA	3
+2020-07-21 07:37:10	"teacher008"	"teacher"	80	"You must have enjoyed Vinnytsa because it's quieter than Kyiv"	"You must have enjoyed Vinnytsa because it's quieter than Kyiv"	78	NA	NA	NA	NA	NA	10
+2020-07-21 07:37:30	"teacher008"	"teacher"	81	"You might have been a bit bored because there might have been fewer things to do than at home"	"You might have been a bit bored because there might have been fewer things to do than at home"	NA	NA	NA	NA	NA	NA	19
+2020-07-21 07:37:53	"teacher008"	"teacher"	82	"You can't have missed the famous Vinnytsa fountains"	"You can't have missed the famous Vinnytsa fountains"	NA	NA	NA	NA	NA	NA	8
+2020-07-21 07:37:57	"teacher008"	"teacher"	83	"Things like this"	"Things like this"	NA	NA	NA	NA	NA	NA	3
+2020-07-21 07:39:24	"student009"	"student"	84	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:40:58	"student009"	"student"	85	"do you want me to tell you a funny story?"	"do you want me to tell you a funny story?"	NA	"5.0"	"topic opening"	NA	NA	NA	10
+2020-07-21 07:41:06	"teacher008"	"teacher"	86	"Please!"	"Please!"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:41:35	"student009"	"student"	87	"do you know smeshariki?"	"do you know Smeshariki?"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 07:41:45	"teacher008"	"teacher"	88	"The cartoon?"	"The cartoon?"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:41:50	"student009"	"student"	89	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:41:55	"teacher008"	"teacher"	90	"I do"	"I do"	87	NA	NA	NA	NA	NA	2
+2020-07-21 07:42:23	"student009"	"student"	91	"so yesterday I was on a beach"	"so yesterday I was on a beach"	NA	NA	NA	NA	NA	NA	7
+2020-07-21 07:42:32	"teacher008"	"teacher"	92	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:43:01	"student009"	"student"	93	"and my face was very red yesterday"	"and my face was very red yesterday"	NA	NA	NA	NA	NA	NA	7
+2020-07-21 07:43:12	"teacher008"	"teacher"	94	"Did you catch the sun?"	"Did you catch the sun?"	NA	NA	NA	NA	NA	NA	5
+2020-07-21 07:43:21	"student009"	"student"	95	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:43:32	"teacher008"	"teacher"	96	"Oh no!"	"Oh no!"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:44:32	"student009"	"student"	97	"and my friend made me funny 'things' on my head"	"and my friend made funny 'things' on my head"	NA	NA	NA	NA	NA	NA	10
+2020-07-21 07:45:24	"student009"	"student"	98	"so the looked like a needles so I thought I looked like Yozhik from smeshariki!"	"so it looked like needles, so I thought I looked like Yozhik from Smeshariki!"	NA	NA	NA	NA	NA	NA	15
+2020-07-21 07:46:00	"student009"	"student"	99	"( I will have curly hair after it)"	"(I will have curly hair after it)"	NA	NA	NA	NA	NA	NA	8
+2020-07-21 07:46:04	"teacher008"	"teacher"	100	"Haha, oh no!"	"Haha, oh no!"	NA	NA	NA	NA	NA	NA	3
+2020-07-21 07:46:29	"teacher008"	"teacher"	101	"Oh I see, did your friend curl your hair?"	"Oh I see, did your friend curl your hair?"	99	NA	NA	NA	NA	NA	9
+2020-07-21 07:46:35	"student009"	"student"	102	"If you want to, I can send you how do I look like now"	"If you want to, I can send you a picture of what I look like now"	NA	"5a"	"topic development"	NA	NA	NA	14
+2020-07-21 07:46:49	"teacher008"	"teacher"	103	"Ok, on Skype, right"	"Ok, on Skype, right"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 07:47:00	"student009"	"student"	104	"it is now easy to explain"	"it is not easy to explain"	NA	NA	NA	NA	NA	NA	6
+2020-07-21 07:48:42	"teacher008"	"teacher"	105	"Oh, they are almost like dreadlocks, very cool!"	"Oh, they are almost like dreadlocks, very cool!"	NA	NA	NA	NA	NA	NA	8
+2020-07-21 07:49:30	"student009"	"student"	106	"after that they must be very curly"	"after that it must be very curly"	NA	NA	NA	NA	NA	NA	7
+2020-07-21 07:49:56	"teacher008"	"teacher"	107	"after that ___ must be very curly"	"after that ___ must be very curly"	NA	"5b"	"eliciting,repair"	NA	NA	NA	7
+2020-07-21 07:50:02	"teacher008"	"teacher"	108	"(hair)"	"(hair)"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:50:07	"student009"	"student"	109	"it?"	"it?"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:50:17	"teacher008"	"teacher"	110	"Yes! Like in Ukrainian, right?"	"Yes! Like in Ukrainian, right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-07-21 07:50:24	"teacher008"	"teacher"	111	"but not like in Russian"	"but not like in Russian"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-07-21 07:50:33	"student009"	"student"	112	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:52:30	"teacher008"	"teacher"	113	"Ok, <STUDENT>, something I wanted to ask you. What would you like to learn about in the rest of our classes? Some topics that you find interesting or anything? Because, unlike at school, we don't have to follow the book"	"Ok, <STUDENT>, something I wanted to ask you. What would you like to learn about in the rest of our classes? Some topics that you find interesting or anything? Because, unlike at school, we don't have to follow the book"	NA	"6.0"	"topic opening"	NA	NA	NA	40
+2020-07-21 07:53:06	"student009"	"student"	114	"some topics I find interesting"	"some topics I find interesting"	NA	NA	NA	NA	NA	NA	5
+2020-07-21 07:53:33	"student009"	"student"	115	"everything I wrote in the form"	"everything I wrote in the form"	NA	NA	NA	NA	NA	NA	6
+2020-07-21 07:54:11	"teacher008"	"teacher"	116	"What topics for example? I remember you are into chess and coding, is that right?"	"What topics for example? I remember you are into chess and coding, is that right?"	NA	NA	NA	NA	NA	NA	15
+2020-07-21 07:54:49	"student009"	"student"	117	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:55:16	"student009"	"student"	118	"and math"	"and math"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:55:25	"teacher008"	"teacher"	119	"Are you a competitive chess player or do you play for fun?"	"Are you a competitive chess player or do you play for fun?"	NA	"6a"	"topic development"	NA	NA	NA	12
+2020-07-21 07:55:28	"teacher008"	"teacher"	120	"And math, yes!"	"And math, yes!"	118	NA	NA	NA	NA	NA	3
+2020-07-21 07:55:38	"student009"	"student"	121	"for fun"	"for fun"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 07:56:03	"teacher008"	"teacher"	122	"cool! do you enjoy any other board games?"	"cool! do you enjoy any other board games?"	NA	NA	NA	NA	NA	NA	8
+2020-07-21 07:56:14	"student009"	"student"	123	"monopoly"	"Monopoly"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 07:56:47	"teacher008"	"teacher"	124	"Ok, and can you tell me a bit about your coding hobby?"	"Ok, and can you tell me a bit about your coding hobby?"	NA	"6b"	"topic development"	NA	NA	NA	12
+2020-07-21 07:57:16	"student009"	"student"	125	"I don't really what to say"	"I don't really know what to say"	NA	NA	NA	NA	NA	NA	6
+2020-07-21 07:57:32	"student009"	"student"	126	"like when is it or where?"	"like when is it or where?"	NA	NA	NA	NA	NA	NA	6
+2020-07-21 07:58:16	"teacher008"	"teacher"	127	"Well, what language you use, what programmes you write"	"Well, what language you use, what programmes you write"	NA	NA	NA	NA	NA	NA	9
+2020-07-21 07:58:32	"student009"	"student"	128	"we use C++"	"we use C++"	NA	NA	NA	NA	NA	NA	3
+2020-07-21 07:58:49	"student009"	"student"	129	"on usual lessons we used Unity"	"in usual lessons we used Unity"	NA	NA	NA	NA	NA	NA	6
+2020-07-21 07:59:09	"teacher008"	"teacher"	130	"Did you learn any of these at school?"	"Did you learn any of these at school?"	NA	"6c"	"topic development"	NA	NA	NA	8
+2020-07-21 07:59:45	"student009"	"student"	131	"but on quarantine we just used a site to train, because not all the computers can have Unity"	"but during the quarantine we just used a website to train, because not all the computers can have Unity"	129	NA	NA	NA	NA	NA	18
+2020-07-21 08:00:01	"student009"	"student"	132	"in school I learn Python"	"at school I learn Python"	130	NA	NA	NA	NA	NA	5
+2020-07-21 08:00:24	"student009"	"student"	133	"it is absolutely different"	"it is absolutely different"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 08:00:24	"teacher008"	"teacher"	134	"Oh wow, I'm impressed that Python is now taught at schools!"	"Oh wow, I'm impressed that Python is now taught at schools!"	NA	"6d"	"topic development"	NA	NA	NA	11
+2020-07-21 08:00:48	"student009"	"student"	135	"it is only in our school I think:("	"it is only in our school I think:("	NA	NA	NA	NA	NA	NA	8
+2020-07-21 08:01:00	"teacher008"	"teacher"	136	"Ah, I see! Makes sense"	"Ah, I see! Makes sense"	NA	NA	NA	NA	NA	NA	5
+2020-07-21 08:01:06	"student009"	"student"	137	"and you must be in a C class"	"and you must be in a C class"	NA	NA	NA	NA	NA	NA	8
+2020-07-21 08:01:15	"teacher008"	"teacher"	138	"What's a C class?"	"What's a C class?"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 08:01:20	"student009"	"student"	139	"and special ITC group"	"and special ITC group"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 08:01:29	"student009"	"student"	140	"ABCD classes"	"ABCD classes"	138	NA	NA	NA	NA	NA	2
+2020-07-21 08:01:48	"student009"	"student"	141	"like 6-B"	"like 6-B"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 08:01:54	"teacher008"	"teacher"	142	"Ah, got you"	"Ah, got you"	NA	NA	NA	NA	NA	NA	3
+2020-07-21 08:02:11	"student009"	"student"	143	"you see"	"you see"	NA	NA	NA	NA	NA	NA	2
+2020-07-21 08:02:18	"teacher008"	"teacher"	144	"Ok, <STUDENT>, I'll let you go enjoy your day, thank you, and see on Thursday same time?"	"Ok, <STUDENT>, I'll let you go enjoy your day, thank you, and see on Thursday same time?"	NA	"7.0"	"closing"	NA	NA	NA	17
+2020-07-21 08:02:28	"student009"	"student"	145	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 08:02:33	"student009"	"student"	146	"goodbye"	"goodbye"	NA	NA	NA	NA	NA	NA	1
+2020-07-21 08:02:44	"student009"	"student"	147	"have a nice day!"	"have a nice day!"	NA	NA	NA	NA	NA	NA	4
+2020-07-21 08:02:54	"teacher008"	"teacher"	148	"Thanks, you too!"	"Thanks, you too!"	NA	NA	NA	NA	NA	"B2"	3

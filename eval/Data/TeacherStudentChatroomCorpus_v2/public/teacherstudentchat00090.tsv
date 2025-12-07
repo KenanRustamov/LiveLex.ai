@@ -1,0 +1,136 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-23 07:02:26	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-07-23 07:02:36	"teacher008"	"teacher"	2	"Hi <STUDENT>, how are you?"	"Hi <STUDENT>, how are you?"	NA	NA	NA	NA	NA	NA	5
+2020-07-23 07:03:00	"student009"	"student"	3	"fine, and you?"	"fine, and you?"	NA	NA	NA	NA	NA	NA	3
+2020-07-23 07:03:22	"teacher008"	"teacher"	4	"I'm good, thank you"	"I'm good, thank you"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 07:03:38	"teacher008"	"teacher"	5	"Are you hungry and thinking about ramen? :)"	"Are you hungry and thinking about ramen? :)"	NA	"2.0"	"topic opening"	NA	NA	NA	8
+2020-07-23 07:04:11	"student009"	"student"	6	"not really"	"not really"	NA	NA	NA	NA	NA	NA	2
+2020-07-23 07:04:30	"student009"	"student"	7	"just the first food that came on my mind"	"just the first food that came to my mind"	NA	NA	NA	NA	NA	NA	9
+2020-07-23 07:04:50	"teacher008"	"teacher"	8	"I see :) The first food that came ___ my mind"	"I see :) The first food that came ___ my mind"	NA	"2a"	"eliciting,repair"	"lexical resource"	NA	NA	11
+2020-07-23 07:05:02	"student009"	"student"	9	"in"	"in"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:05:06	"teacher008"	"teacher"	10	"to!"	"to!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-07-23 07:05:46	"teacher008"	"teacher"	11	"it's a good expression though"	"it's a good expression though"	NA	NA	NA	NA	NA	NA	5
+2020-07-23 07:06:26	"teacher008"	"teacher"	12	"Are you still in Kovel? Is it still sunny and summery?"	"Are you still in Kovel? Is it still sunny and summery?"	NA	"3.0"	"topic opening"	NA	NA	NA	11
+2020-07-23 07:07:04	"student009"	"student"	13	"it is sunny, but a bit coldy"	"it is sunny, but a bit cold"	NA	NA	NA	NA	NA	NA	7
+2020-07-23 07:07:37	"teacher008"	"teacher"	14	"Oh that's a shame"	"Oh that's a shame"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 07:08:24	"teacher008"	"teacher"	15	"Ok <STUDENT>, quick memory test. Could you give me an adjective with the opposite meaning?"	"Ok <STUDENT>, quick memory test. Could you give me an adjective with the opposite meaning?"	NA	"4.0"	"exercise,revision"	"lexical resource"	NA	NA	15
+2020-07-23 07:08:29	"teacher008"	"teacher"	16	"possible - ?"	"possible - ?"	NA	NA	NA	NA	NA	NA	3
+2020-07-23 07:08:36	"student009"	"student"	17	"impossible"	"impossible"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:08:38	"teacher008"	"teacher"	18	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:08:41	"teacher008"	"teacher"	19	"logical"	"logical"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:08:48	"student009"	"student"	20	"illogical"	"illogical"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:09:10	"teacher008"	"teacher"	21	"legal"	"legal"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:09:24	"student009"	"student"	22	"illegal"	"illegal"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:09:27	"teacher008"	"teacher"	23	"polite"	"polite"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:09:38	"student009"	"student"	24	"impolite"	"impolite"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:09:42	"teacher008"	"teacher"	25	"expensive"	"expensive"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:10:19	"student009"	"student"	26	"inexpensive"	"inexpensive"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:10:25	"teacher008"	"teacher"	27	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-07-23 07:10:29	"teacher008"	"teacher"	28	"regular"	"regular"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:10:33	"student009"	"student"	29	"irregular"	"irregular"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:10:38	"teacher008"	"teacher"	30	"mature"	"mature"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:10:42	"student009"	"student"	31	"immature"	"immature"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:10:47	"teacher008"	"teacher"	32	"correct - ?"	"correct - ?"	NA	NA	NA	NA	NA	NA	3
+2020-07-23 07:10:54	"student009"	"student"	33	"incorrect"	"incorrect"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:11:01	"teacher008"	"teacher"	34	"rational"	"rational"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:11:06	"student009"	"student"	35	"irrational"	"irrational"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:11:10	"teacher008"	"teacher"	36	"sane"	"sane"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:11:18	"student009"	"student"	37	"insane"	"insane"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:11:22	"teacher008"	"teacher"	38	"convenient"	"convenient"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:11:32	"student009"	"student"	39	"inconvenient"	"inconvenient"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:11:43	"teacher008"	"teacher"	40	"comfortable"	"comfortable"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:11:50	"student009"	"student"	41	"uncomfortable"	"uncomfortable"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:12:30	"teacher008"	"teacher"	42	"yes, very well done! :)"	"yes, very well done! :)"	NA	NA	NA	NA	NA	NA	5
+2020-07-23 07:12:43	"teacher008"	"teacher"	43	"What does 'convenient' mean?"	"What does 'convenient' mean?"	NA	"4a"	"eliciting"	"lexical resource,meaning"	NA	NA	4
+2020-07-23 07:13:22	"student009"	"student"	44	"like comfortable"	"like comfortable"	NA	NA	NA	NA	NA	NA	2
+2020-07-23 07:14:35	"teacher008"	"teacher"	45	"Mmm, it is the same word in Russian, yes. But in English, a sofa is comfortable but a bus that takes you where you want to go fast is convenient"	"Mmm, it is the same word in Russian, yes. But in English, a sofa is comfortable but a bus that takes you where you want to go fast is convenient"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	30
+2020-07-23 07:14:49	"teacher008"	"teacher"	46	"Convenient is about saving you time and effort"	"Convenient is about saving you time and effort"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-07-23 07:14:52	"student009"	"student"	47	"oops"	"oops"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:15:17	"teacher008"	"teacher"	48	"And comfortable is about making your body feel relaxed, like comfortable jeans"	"And comfortable is about making your body feel relaxed, like comfortable jeans"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-07-23 07:15:30	"teacher008"	"teacher"	49	"No worries, this is a very common mistake"	"No worries, this is a very common mistake"	9	NA	NA	NA	NA	NA	8
+2020-07-23 07:16:37	"teacher008"	"teacher"	50	"For example, my house is very close to the railway station, which makes it convenient for commuting"	"For example, my house is very close to the railway station, which makes it convenient for commuting"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-07-23 07:17:21	"student009"	"student"	51	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:19:08	"teacher008"	"teacher"	52	"And if I say, <STUDENT>, can you go to Obolon to pick up a book, then to Darnitsa, then to Holosievka, you'll be like, sorry <TEACHER>, this is a bit _convenient for me as they are so far away from each other"	"And if I say, <STUDENT>, can you go to Obolon to pick up a book, then to Darnitsa, then to Holosievka, you'll be like, sorry <TEACHER>, this is a bit _convenient for me as they are so far away from each other"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	42
+2020-07-23 07:19:36	"student009"	"student"	53	"in"	"in"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:19:44	"teacher008"	"teacher"	54	"Yes, that's right :)"	"Yes, that's right :)"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 07:20:30	"teacher008"	"teacher"	55	"Ok, <STUDENT>, how do you feel about phrasal verbs in English?"	"Ok, <STUDENT>, how do you feel about phrasal verbs in English?"	NA	"5.0"	"topic opening"	"lexical resource"	NA	NA	11
+2020-07-23 07:21:18	"student009"	"student"	56	"like"	"like"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:23:08	"teacher008"	"teacher"	57	"Oh good! They do make English sound very natural when we use them. I prepared some for today, all to do with one of the most important thing in our lives that we spend hours every day on"	"Oh good! They do make English sound very natural when we use them. I prepared some for today, all to do with one of the most important thing in our lives that we spend hours every day on"	NA	NA	NA	NA	NA	NA	38
+2020-07-23 07:23:18	"teacher008"	"teacher"	58	"Can you guess what it is?"	"Can you guess what it is?"	NA	NA	NA	NA	NA	NA	6
+2020-07-23 07:23:42	"teacher008"	"teacher"	59	"*one of the most important thingS"	"*one of the most important thingS"	57	NA	"repair"	"writing"	NA	NA	6
+2020-07-23 07:24:28	"student009"	"student"	60	"like dress up?"	"like dress up?"	NA	"5a"	"enquiry"	"lexical resource"	NA	NA	3
+2020-07-23 07:25:11	"teacher008"	"teacher"	61	"Yes, that's right, a verb + preposition that work together and mean something different from just the verb"	"Yes, that's right, a verb + preposition that work together and mean something different from just the verb"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-07-23 07:25:35	"student009"	"student"	62	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:26:17	"teacher008"	"teacher"	63	"Ok, all today's phrasal verbs have something to do with mobile phones! I bet you know a lot of them, let's see"	"Ok, all today's phrasal verbs have something to do with mobile phones! I bet you know a lot of them, let's see"	NA	"5b"	"presentation"	"lexical resource"	NA	NA	22
+2020-07-23 07:26:43	"teacher008"	"teacher"	64	"We press the power button, to ___ the phone on / off"	"We press the power button, to ___ the phone on / off"	NA	NA	"eliciting"	"lexical resource"	NA	NA	12
+2020-07-23 07:27:00	"student009"	"student"	65	"put"	"put"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:27:32	"teacher008"	"teacher"	66	"no, we switch the phone on / off"	"no, we switch the phone on / off"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-07-23 07:27:52	"teacher008"	"teacher"	67	"For example, when we get on a plane, we have to ___ ___ our phones"	"For example, when we get on a plane, we have to ___ ___ our phones"	NA	"5c"	"eliciting,scaffolding"	"lexical resource"	NA	NA	15
+2020-07-23 07:28:06	"student009"	"student"	68	"switch off"	"switch off"	NA	NA	NA	NA	NA	NA	2
+2020-07-23 07:28:19	"teacher008"	"teacher"	69	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2020-07-23 07:28:44	"teacher008"	"teacher"	70	"Are you allowed to use your phone at school or do you have to switch it off?"	"Are you allowed to use your phone at school or do you have to switch it off?"	NA	"5d"	"eliciting"	"lexical resource"	NA	NA	17
+2020-07-23 07:30:49	"student009"	"student"	71	"we are allowed to use them, but our teacher and the most of parents don't allow our class to use them"	"we are allowed to use them, but our teacher and most parents don't allow our class to use them"	NA	NA	NA	NA	NA	NA	21
+2020-07-23 07:31:33	"teacher008"	"teacher"	72	"Oh I see, so do you have it on you, but switched off?"	"Oh I see, so do you have it on you, but switched off?"	NA	NA	NA	NA	NA	NA	13
+2020-07-23 07:31:39	"student009"	"student"	73	"but does it disturb anybody?:)"	"but does it disturb anybody?:)"	NA	NA	NA	NA	NA	NA	5
+2020-07-23 07:32:00	"student009"	"student"	74	"we only can call somebody if we need to"	"we can only call somebody if we need to"	NA	NA	NA	NA	NA	NA	9
+2020-07-23 07:32:33	"teacher008"	"teacher"	75	"I see, if you are unwell and want your parents to pick you up for example?"	"I see, if you are unwell and want your parents to pick you up for example?"	NA	NA	NA	NA	NA	NA	16
+2020-07-23 07:32:57	"student009"	"student"	76	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:33:07	"teacher008"	"teacher"	77	"sure, that makes sense"	"sure, that makes sense"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 07:33:14	"student009"	"student"	78	"or just to tell something to your parents"	"or just to tell your parents something"	NA	NA	NA	NA	NA	NA	8
+2020-07-23 07:33:24	"teacher008"	"teacher"	79	"Right, I see"	"Right, I see"	NA	NA	NA	NA	NA	NA	3
+2020-07-23 07:34:06	"teacher008"	"teacher"	80	"Ok, if I call you and want to talk, but it's a bad time for you, for example you are having dinner, you can tell me, sorry <TEACHER>, can I ___ you back in 10 minutes?"	"Ok, if I call you and want to talk, but it's a bad time for you, for example you are having dinner, you can tell me, sorry <TEACHER>, can I ___ you back in 10 minutes?"	NA	"5e"	"eliciting"	"lexical resource"	NA	NA	36
+2020-07-23 07:34:47	"student009"	"student"	81	"call"	"call"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:35:10	"teacher008"	"teacher"	82	"Yes, well done! Call someone back = return a call at a later time"	"Yes, well done! Call someone back = return a call at a later time"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-07-23 07:35:29	"teacher008"	"teacher"	83	"Ok, if your phone battery is low, you need to ___ it up"	"Ok, if your phone battery is low, you need to ___ it up"	NA	"5f"	"eliciting"	"lexical resource"	NA	NA	13
+2020-07-23 07:35:42	"student009"	"student"	84	"charge"	"charge"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:35:46	"teacher008"	"teacher"	85	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-07-23 07:36:02	"teacher008"	"teacher"	86	"And to charge it up, we need to use a cable to ___ it in"	"And to charge it up, we need to use a cable to ___ it in"	NA	"5g"	"eliciting"	"lexical resource"	NA	NA	15
+2020-07-23 07:36:23	"student009"	"student"	87	"no idea"	"no idea"	NA	NA	NA	NA	NA	NA	2
+2020-07-23 07:36:30	"teacher008"	"teacher"	88	"plug it in"	"plug it in"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-07-23 07:36:38	"teacher008"	"teacher"	89	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:37:09	"teacher008"	"teacher"	90	"When it's all charged up, we unplug it again"	"When it's all charged up, we unplug it again"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-23 07:37:38	"teacher008"	"teacher"	91	"plug something in' is the opposite of 'unplug something'"	"plug something in' is the opposite of 'unplug something'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-23 07:37:50	"student009"	"student"	92	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:38:01	"teacher008"	"teacher"	93	"Ok, two more"	"Ok, two more"	NA	"5h"	NA	NA	NA	NA	3
+2020-07-23 07:38:32	"teacher008"	"teacher"	94	"When we are talking to someone, and suddenly there is no signal, we are ___ off"	"When we are talking to someone, and suddenly there is no signal, we are ___ off"	NA	NA	"eliciting"	"lexical resource"	NA	NA	16
+2020-07-23 07:38:49	"student009"	"student"	95	":("	":("	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:38:55	"teacher008"	"teacher"	96	"cut off"	"cut off"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-07-23 07:39:22	"teacher008"	"teacher"	97	"Same on Zoom or Skype, if suddenly there is no Internet, we get cut off"	"Same on Zoom or Skype, if suddenly there is no Internet, we get cut off"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-07-23 07:40:13	"teacher008"	"teacher"	98	"And one last! If we are calling someone, but they won't pick up, or the line is busy, we say, I can't __ through"	"And one last! If we are calling someone, but they won't pick up, or the line is busy, we say, I can't __ through"	NA	"5i"	"eliciting"	"lexical resource"	NA	NA	24
+2020-07-23 07:40:50	"student009"	"student"	99	"go"	"go"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:40:56	"teacher008"	"teacher"	100	"get through"	"get through"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-07-23 07:41:17	"teacher008"	"teacher"	101	"For example, I was trying to call the school to tell them I'm sick, but I can't get through to them"	"For example, I was trying to call the school to tell them I'm sick, but I can't get through to them"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	21
+2020-07-23 07:41:56	"teacher008"	"teacher"	102	"Ok, don't worry if you can't remember them all right now, I'm going to show you a cartoon, and they will all be there"	"Ok, don't worry if you can't remember them all right now, I'm going to show you a cartoon, and they will all be there"	NA	"6.0"	"exercise"	"reading,lexical resource"	"website"	NA	24
+2020-07-23 07:42:28	"student009"	"student"	103	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:42:54	"teacher008"	"teacher"	104	"It's about a group of friends. They are supporting their friend who is taking part in a talent show. They have to call the show and vote for her"	"It's about a group of friends. They are supporting their friend who is taking part in a talent show. They have to call the show and vote for her"	NA	NA	NA	NA	NA	NA	29
+2020-07-23 07:43:23	"teacher008"	"teacher"	105	"Can you please watch (link in Skype) and tell me whether their friend wins the show"	"Can you please watch (link in Skype) and tell me whether their friend wins the show"	NA	NA	NA	NA	NA	NA	16
+2020-07-23 07:47:50	"student009"	"student"	106	"no she didn't win"	"no she didn't win"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 07:48:14	"teacher008"	"teacher"	107	"Aha, how do you know?"	"Aha, how do you know?"	NA	NA	NA	NA	NA	NA	5
+2020-07-23 07:48:42	"student009"	"student"	108	"I watched a cartoon"	"I watched the cartoon"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 07:49:37	"teacher008"	"teacher"	109	"I know, I mean what happened in the cartoon - how do you know she didn't win?"	"I know, I mean what happened in the cartoon - how do you know she didn't win?"	NA	NA	NA	NA	NA	NA	17
+2020-07-23 07:50:08	"student009"	"student"	110	"her real name was Annabelle"	"her real name was Annabelle"	NA	NA	NA	NA	NA	NA	5
+2020-07-23 07:50:16	"teacher008"	"teacher"	111	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:50:36	"teacher008"	"teacher"	112	"but how many Annabelles were on the show?"	"but how many Annabelles were on the show?"	NA	NA	NA	NA	NA	NA	8
+2020-07-23 07:51:03	"student009"	"student"	113	"but her pseudonym was Belle E"	"but her pseudonym was Belle E"	NA	NA	NA	NA	NA	NA	6
+2020-07-23 07:51:17	"teacher008"	"teacher"	114	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2020-07-23 07:51:23	"student009"	"student"	115	"and there was another Annabelle"	"and there was another Annabelle"	NA	NA	NA	NA	NA	NA	5
+2020-07-23 07:51:34	"teacher008"	"teacher"	116	"Have you ever been on a talent show? or any of your friends?"	"Have you ever been on a talent show? or any of your friends?"	NA	"6a"	"topic development"	NA	NA	NA	13
+2020-07-23 07:51:53	"student009"	"student"	117	"they thought it is girl from theor school"	"they thought it was the girl from their school"	115	NA	NA	NA	NA	NA	8
+2020-07-23 07:52:04	"teacher008"	"teacher"	118	"Yes, that's right"	"Yes, that's right"	NA	NA	NA	NA	NA	NA	3
+2020-07-23 07:52:12	"student009"	"student"	119	"no i haven't"	"no I haven't"	116	NA	NA	NA	NA	NA	3
+2020-07-23 07:52:38	"teacher008"	"teacher"	120	"Neither have I :)"	"Neither have I :)"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 07:52:52	"teacher008"	"teacher"	121	"pseudonym' - very good word!"	"pseudonym' - very good word!"	NA	"6b"	NA	NA	NA	NA	5
+2020-07-23 07:53:03	"teacher008"	"teacher"	122	"She ___ on a stage name / pseudonym"	"She ___ on a stage name / pseudonym"	NA	NA	"eliciting"	"lexical resource"	NA	NA	8
+2020-07-23 07:53:19	"student009"	"student"	123	"get?"	"get?"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 07:53:26	"teacher008"	"teacher"	124	"take"	"take"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-07-23 07:53:33	"teacher008"	"teacher"	125	"She took on a stage name"	"She took on a stage name"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-07-23 07:54:31	"teacher008"	"teacher"	126	"Ok, could you go to the second exercise under the cartoon - the gap fill"	"Ok, could you go to the second exercise under the cartoon - the gap fill"	NA	"7.0"	"exercise"	"lexical resource"	"website"	NA	15
+2020-07-23 07:54:43	"teacher008"	"teacher"	127	"Could you have a quick go at it?"	"Could you have a quick go at it?"	NA	NA	NA	NA	NA	NA	8
+2020-07-23 07:59:34	"student009"	"student"	128	"10 out of 12"	"10 out of 12"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 08:00:00	"student009"	"student"	129	"0.83"	"0.83"	NA	NA	NA	NA	NA	NA	1
+2020-07-23 08:00:21	"teacher008"	"teacher"	130	"A very good result, well done <STUDENT>!"	"A very good result, well done <STUDENT>!"	NA	NA	NA	NA	NA	NA	7
+2020-07-23 08:00:28	"student009"	"student"	131	"take on and taken up"	"take on and taken up"	NA	NA	NA	NA	NA	NA	5
+2020-07-23 08:01:04	"teacher008"	"teacher"	132	"Ok, we've run out of time for today, have a lovely weekend, and we can continue with the phrasal verbs on Tuesday at 10 am (is this convenient?)"	"Ok, we've run out of time for today, have a lovely weekend, and we can continue with the phrasal verbs on Tuesday at 10 am (is this convenient?)"	NA	"8.0"	"closing"	NA	NA	NA	28
+2020-07-23 08:01:18	"student009"	"student"	133	"yes, it is fine"	"yes, it is fine"	NA	NA	NA	NA	NA	NA	4
+2020-07-23 08:01:23	"student009"	"student"	134	"Goodbye !"	"Goodbye !"	NA	NA	NA	NA	NA	NA	2
+2020-07-23 08:01:31	"teacher008"	"teacher"	135	"Take care!"	"Take care!"	NA	NA	NA	NA	NA	"B2"	2

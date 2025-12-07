@@ -1,0 +1,129 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-17 09:52:54	"student012"	"student"	1	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-02-17 09:53:00	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 09:53:03	"student012"	"student"	3	"sorry for being late"	"sorry for being late"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-02-17 09:53:40	"teacher008"	"teacher"	4	"That's ok, I'm just trying to decide what we have time for today"	"That's ok, I'm just trying to decide what we have time for today"	NA	NA	NA	NA	NA	NA	13
+2021-02-17 09:53:48	"teacher008"	"teacher"	5	"Another stressful morning?"	"Another stressful morning?"	NA	"2a"	"topic development"	NA	NA	NA	3
+2021-02-17 09:54:28	"student012"	"student"	6	"Yes. Starting from 5 am"	"Yes. Starting from 5 am"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 09:54:37	"student012"	"student"	7	"<STUDENT'S CHILD> didn't sleep well"	"<STUDENT'S CHILD> didn't sleep well"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 09:54:43	"teacher008"	"teacher"	8	"Oh goodness! That's extreme!"	"Oh goodness! That's extreme!"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 09:54:45	"student012"	"student"	9	"I've got a question for you"	"I've got a question for you"	NA	"2b"	"topic development"	NA	NA	NA	6
+2021-02-17 09:54:52	"teacher008"	"teacher"	10	"Yes, go ahead"	"Yes, go ahead"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 09:55:02	"student012"	"student"	11	"Did you breastfeed <TEACHER'S CHILD>?"	"Did you breastfeed <TEACHER'S CHILD>?"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 09:55:19	"teacher008"	"teacher"	12	"Yes, until he was 2,5"	"Yes, until he was 2,5"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 09:55:50	"student012"	"student"	13	"If so, could you share your experience of weaning him."	"If so, could you share your experience of weaning him."	"11.0"	NA	NA	NA	NA	NA	10
+2021-02-17 09:56:06	"student012"	"student"	14	"I hope I'm not prying"	"I hope I'm not prying"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 09:56:44	"teacher008"	"teacher"	15	"No, not at all! Well, the most important thing we did when he was about 18 months old was we weaned him at night"	"No, not at all! Well, the most important thing we did when he was about 18 months old was we weaned him at night"	"13, 14"	NA	NA	NA	NA	NA	24
+2021-02-17 09:57:13	"teacher008"	"teacher"	16	"Because I was exhausted from night feeds, probably like you are!"	"Because I was exhausted from night feeds, probably like you are!"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 09:57:20	"student012"	"student"	17	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 09:57:29	"student012"	"student"	18	"Sometimes I'm just loosing it"	"Sometimes I'm just losing it"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 09:57:34	"teacher008"	"teacher"	19	"We were dead against the 'crying it out' method though."	"We were dead against the 'crying it out' method though."	NA	NA	NA	NA	NA	NA	10
+2021-02-17 09:57:42	"student012"	"student"	20	"Me too"	"Me too"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 09:57:44	"teacher008"	"teacher"	21	"Yes, I don't blame you. The hardest thing!"	"Yes, I don't blame you. The hardest thing!"	"18.0"	NA	NA	NA	NA	NA	8
+2021-02-17 09:58:12	"student012"	"student"	22	"How did you do it?"	"How did you do it?"	"19.0"	NA	NA	NA	NA	NA	5
+2021-02-17 09:58:44	"teacher008"	"teacher"	23	"What we did was, instead of me, <TEACHER'S HUSBAND> would sleep with him. The first time <TEACHER'S CHILD> woke up at night, <TEACHER'S HUSBAND> would cuddle him and offer a drink of water and let him cry. He still cried, but he wasn't on his own!"	"What we did was, instead of me, <TEACHER'S HUSBAND> would sleep with him. The first time <TEACHER'S CHILD> woke up at night, <TEACHER'S HUSBAND> would cuddle him and offer a drink of water and let him cry. He still cried, but he wasn't on his own!"	NA	NA	NA	NA	NA	NA	46
+2021-02-17 09:59:15	"teacher008"	"teacher"	24	"Same for the secon waking if <TEACHER'S HUSBAND> could manage it"	"Same for the secon waking if <TEACHER'S HUSBAND> could manage it"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 09:59:36	"student012"	"student"	25	"Were you in a different room?"	"Were you in a different room?"	"23.0"	NA	NA	NA	NA	NA	6
+2021-02-17 09:59:38	"teacher008"	"teacher"	26	"And then we would swap. Very soon, he stopped waking up so much"	"And then we would swap. Very soon, he stopped waking up so much"	"24.0"	NA	NA	NA	NA	NA	13
+2021-02-17 09:59:41	"teacher008"	"teacher"	27	"Yes!"	"Yes!"	"25.0"	NA	NA	NA	NA	NA	1
+2021-02-17 09:59:48	"teacher008"	"teacher"	28	"We had two bedrooms"	"We had two bedrooms"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 09:59:51	"student012"	"student"	29	"Did he call you?"	"Did he call you?"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 10:00:15	"teacher008"	"teacher"	30	"Yes :( It's hard, but you've got to trust that the Dad will comfort them."	"Yes :( It's hard, but you've got to trust that the Dad will comfort them."	NA	NA	NA	NA	NA	NA	15
+2021-02-17 10:00:47	"student012"	"student"	31	"And where did <TEACHER'S CHILD> sleep? In his cot?"	"And where did <TEACHER'S CHILD> sleep? In his cot?"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 10:01:10	"teacher008"	"teacher"	32	"If you guys decide to do it, it might be worth for <STUDENT'S HUSBAND> to take some time off, because, if he's not used to being the nighttime parent, he will be tired!"	"If you guys decide to do it, it might be worth for <STUDENT'S HUSBAND> to take some time off, because, if he's not used to being the nighttime parent, he will be tired!"	NA	NA	NA	NA	NA	NA	33
+2021-02-17 10:01:22	"student012"	"student"	33	"I mean he didn't have a chance to climb down and come to your room"	"I mean he didn't have a chance to climb down and come to your room"	"31.0"	NA	NA	NA	NA	NA	15
+2021-02-17 10:01:46	"teacher008"	"teacher"	34	"We had two big beds, in each bedroom. He would be on the big bed with his Dad"	"We had two big beds, in each bedroom. He would be on the big bed with his Dad"	NA	NA	NA	NA	NA	NA	18
+2021-02-17 10:01:47	"student012"	"student"	35	"I think I'll discuss it with <STUDENT'S HUSBAND>"	"I think I'll discuss it with <STUDENT'S HUSBAND>"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:01:56	"teacher008"	"teacher"	36	"Hmm, he never did!"	"Hmm, he never did!"	"33.0"	NA	NA	NA	NA	NA	4
+2021-02-17 10:02:22	"student012"	"student"	37	"It's just that I'm pretty sure that's what <STUDENT'S CHILD> is going to do"	"It's just that I'm pretty sure that's what <STUDENT'S CHILD> is going to do"	NA	NA	NA	NA	NA	NA	14
+2021-02-17 10:02:58	"student012"	"student"	38	"She sleeps in her cot but one side of it is attached to our bed and there's no barrier"	"She sleeps in her cot but one side of it is attached to our bed and there's no barrier"	NA	NA	NA	NA	NA	NA	19
+2021-02-17 10:03:09	"student012"	"student"	39	"She sometimes rolls on our bed"	"She sometimes rolls on our bed"	NA	NA	NA	NA	NA	NA	6
+2021-02-17 10:03:10	"teacher008"	"teacher"	40	"It calls for a lot of love and patience from the Dad, but they can do it!"	"It calls for a lot of love and patience from the Dad, but they can do it!"	NA	NA	NA	NA	NA	NA	17
+2021-02-17 10:03:32	"teacher008"	"teacher"	41	"Ah, yes, I know what you mean. Is there anywhere you could go? to sleep separately?"	"Ah, yes, I know what you mean. Is there anywhere you could go? to sleep separately?"	"39.0"	NA	NA	NA	NA	NA	16
+2021-02-17 10:04:14	"student012"	"student"	42	"Yes, in the living room. The door is no good however between the living room and the bedroom"	"Yes, in the living room. The door is no good however between the living room and the bedroom"	NA	NA	NA	NA	NA	NA	18
+2021-02-17 10:04:33	"student012"	"student"	43	"Maybe if we fix the door and use it"	"Maybe if we fix the door and use it"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 10:05:06	"student012"	"student"	44	"Do you think it might be better to install the fourth wall into the cot?"	"Do you think it might be better to install the fourth wall into the cot?"	NA	NA	NA	NA	NA	NA	15
+2021-02-17 10:05:31	"student012"	"student"	45	"And comfort her there"	"And comfort her there"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 10:06:15	"teacher008"	"teacher"	46	"Hmm, I don't know! The purpose for us was not for <TEACHER'S CHILD> to stay in the cot (he didn't even have a cot) but not to nurse at night, so he just cuddled up to <TEACHER'S HUSBAND> on the big bed"	"Hmm, I don't know! The purpose for us was not for <TEACHER'S CHILD> to stay in the cot (he didn't even have a cot) but not to nurse at night, so he just cuddled up to <TEACHER'S HUSBAND> on the big bed"	NA	NA	NA	NA	NA	NA	42
+2021-02-17 10:07:26	"student012"	"student"	47	"Hmm. I guess we could try it. Although I think she will just walk out of the room crying and looking for me"	"Hmm. I guess we could try it. Although I think she will just walk out of the room crying and looking for me"	NA	NA	NA	NA	NA	NA	23
+2021-02-17 10:08:21	"student012"	"student"	48	"And how long did it take you?"	"And how long did it take you?"	NA	NA	NA	NA	NA	NA	7
+2021-02-17 10:08:36	"teacher008"	"teacher"	49	"Not necessarily! It's worth a try"	"Not necessarily! It's worth a try"	"47.0"	NA	NA	NA	NA	NA	6
+2021-02-17 10:08:39	"student012"	"student"	50	"The whole weaning at nighttime process"	"The whole weaning at nighttime process"	"48.0"	NA	NA	NA	NA	NA	6
+2021-02-17 10:08:44	"teacher008"	"teacher"	51	"Not long, maybe a few nights or so"	"Not long, maybe a few nights or so"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:09:29	"student012"	"student"	52	"Thank you for sharing!"	"Thank you for sharing!"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 10:09:45	"student012"	"student"	53	"I'll definitely discuss it with <STUDENT'S HUSBAND>"	"I'll definitely discuss it with <STUDENT'S HUSBAND>"	NA	NA	NA	NA	NA	NA	7
+2021-02-17 10:10:00	"student012"	"student"	54	"I also believe that fathers can work miracles"	"I also believe that fathers can work miracles"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:10:04	"teacher008"	"teacher"	55	"That's ok. To be honest, <TEACHER'S CHILD> has slept with <TEACHER'S HUSBAND> ever since :) And I have some peace!"	"That's ok. To be honest, <TEACHER'S CHILD> has slept with <TEACHER'S HUSBAND> ever since :) And I have some peace!"	NA	"2c"	NA	NA	NA	NA	20
+2021-02-17 10:10:15	"teacher008"	"teacher"	56	"Yes, time for <STUDENT'S HUSBAND> to be a hero, as they say in cartoons"	"Yes, time for <STUDENT'S HUSBAND> to be a hero, as they say in cartoons"	"54.0"	NA	NA	NA	NA	NA	14
+2021-02-17 10:10:20	"student012"	"student"	57	"OMG the perfect scenario"	"OMG the perfect scenario"	"55.0"	NA	NA	NA	NA	NA	4
+2021-02-17 10:10:24	"student012"	"student"	58	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 10:10:36	"teacher008"	"teacher"	59	"but I totally understand your desperation. Feel free to text me in Messenger!"	"but I totally understand your desperation. Feel free to text me in Messenger!"	"56.0"	NA	NA	NA	NA	NA	13
+2021-02-17 10:10:49	"student012"	"student"	60	"Thank you! I might!"	"Thank you! I might!"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 10:11:38	"teacher008"	"teacher"	61	"Haha, yes, we get an occasional raised eyebrow when we tell people this is the case, but it's worked for us. And there have never been any 'monsters under the bed' because Daddy's protecting him"	"Haha, yes, we get an occasional raised eyebrow when we tell people this is the case, but it's worked for us. And there have never been any 'monsters under the bed' because Daddy's protecting him"	"58.0"	NA	NA	NA	NA	NA	35
+2021-02-17 10:12:08	"student012"	"student"	62	"Raised eyebrow why? Sound very sound to mee"	"Raised eyebrow why? Sounds very sound to me"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:12:18	"student012"	"student"	63	"Sounds*"	"Sounds*"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-17 10:12:43	"teacher008"	"teacher"	64	"Well, you know, people like to have ideas about what other families should and shouldn't do)))"	"Well, you know, people like to have ideas about what other families should and shouldn't do)))"	"62.0"	NA	NA	NA	NA	NA	16
+2021-02-17 10:14:10	"teacher008"	"teacher"	65	"I'm just thinking what we'll have time for today."	"I'm just thinking what we'll have time for today."	NA	"3.0"	"topic opening"	"exam prep"	NA	NA	9
+2021-02-17 10:14:15	"student012"	"student"	66	"Oh yes!"	"Oh yes!"	"64.0"	NA	NA	NA	NA	NA	2
+2021-02-17 10:14:40	"teacher008"	"teacher"	67	"You know what, let's practise some speaking questions! Same idea, pack them with some cool language"	"You know what, let's practise some speaking questions! Same idea, pack them with some cool language"	NA	NA	NA	NA	NA	NA	16
+2021-02-17 10:14:56	"teacher008"	"teacher"	68	"Wait a sec, I'll retrieve my sample speaking paper"	"Wait a sec, I'll retrieve my sample speaking paper"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 10:15:16	"student012"	"student"	69	"Once you have a baby everyone wants to give? their teo cents"	"Once you have a baby everyone wants to give? their two cents"	"66.0"	"2d"	"enquiry"	"lexical resource"	NA	NA	12
+2021-02-17 10:15:21	"student012"	"student"	70	"*two"	"*two"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-17 10:15:49	"student012"	"student"	71	"OK. Or we can always do the tests.. grammar and vocabulary"	"OK. Or we can always do the tests.. grammar and vocabulary"	"68.0"	NA	NA	NA	NA	NA	11
+2021-02-17 10:16:04	"teacher008"	"teacher"	72	"Haha, yes, we say two pennies here, naturally))"	"Haha, yes, we say two pennies here, naturally))"	"69.0"	NA	NA	NA	NA	NA	8
+2021-02-17 10:16:45	"teacher008"	"teacher"	73	"Ok! I thought you might be too tired for grammar))"	"Ok! I thought you might be too tired for grammar))"	"71.0"	NA	NA	NA	NA	NA	10
+2021-02-17 10:16:47	"teacher008"	"teacher"	74	"One sec"	"One sec"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 10:16:55	"teacher008"	"teacher"	75	"key word transformation in this case"	"key word transformation in this case"	NA	"4.0"	"exercise"	"grammatical resource"	NA	NA	6
+2021-02-17 10:17:01	"teacher008"	"teacher"	76	"key word: cut"	"key word: cut"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 10:17:11	"teacher008"	"teacher"	77	"You are not a bad lawyer Martin, but I don't think it is a very suitable job for you."	"You are not a bad lawyer Martin, but I don't think it is a very suitable job for you."	NA	NA	NA	NA	NA	NA	19
+2021-02-17 10:17:22	"teacher008"	"teacher"	78	"I just don't think you _____________ a lawyer."	"I just don't think you _____________ a lawyer."	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:17:58	"teacher008"	"teacher"	79	"Use 3-8 words, contractions such as you're count as 2 words"	"Use 3-8 words, contractions such as you're count as 2 words"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 10:20:12	"teacher008"	"teacher"	80	"Oh sorry, I never answered that! The idiom is 'to put in your two pennies (worth)'"	"Oh sorry, I never answered that! The idiom is 'to put in your two pennies (worth)'"	"69.0"	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2021-02-17 10:20:52	"student012"	"student"	81	"Oh thanks"	"Oh thanks"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 10:21:19	"student012"	"student"	82	"I knew it was something to do with money haha"	"I knew it was something to do with money haha"	NA	NA	NA	NA	NA	NA	10
+2021-02-17 10:21:30	"teacher008"	"teacher"	83	"I'm sure it's two cents in the US!"	"I'm sure it's two cents in the US!"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:21:54	"student012"	"student"	84	"I just don't think you are cut to be a lawyer"	"I just don't think you are cut out to be a lawyer"	"79.0"	NA	NA	NA	NA	NA	11
+2021-02-17 10:22:10	"student012"	"student"	85	"or maybe some kind of a phrasal verb with cut"	"or maybe some kind of a phrasal verb with cut"	NA	NA	NA	NA	NA	NA	10
+2021-02-17 10:22:16	"student012"	"student"	86	"cut down?"	"cut down?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	2
+2021-02-17 10:22:22	"teacher008"	"teacher"	87	"Nearly! cut out to be"	"Nearly! cut out to be"	NA	NA	"repair,scaffolding"	"lexical resource"	NA	NA	5
+2021-02-17 10:22:42	"teacher008"	"teacher"	88	"Poor Martin"	"Poor Martin"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 10:22:45	"student012"	"student"	89	"I see. Noted"	"I see. Noted"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 10:22:52	"teacher008"	"teacher"	91	"this sentence cracks me up for some reason"	"this sentence cracks me up for some reason"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:22:52	"student012"	"student"	92	"Poor fellow"	"Poor fellow"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 10:23:04	"student012"	"student"	93	"It's the name I guess"	"It's the name I guess"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 10:23:34	"teacher008"	"teacher"	94	"And the situation!"	"And the situation!"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 10:23:40	"student012"	"student"	95	"Matrin is always  an underdog"	"Matrin is always  an underdog"	NA	NA	NA	NA	NA	NA	6
+2021-02-17 10:24:08	"student012"	"student"	96	"Indeed"	"Indeed"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 10:24:10	"teacher008"	"teacher"	97	"Kind of! Martin's cut out to be an underdog))"	"Kind of! Martin's cut out to be an underdog))"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 10:24:22	"student012"	"student"	98	"))))) Lol"	"))))) Lol"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 10:24:35	"teacher008"	"teacher"	99	")))) ok, next one!"	")))) ok, next one!"	NA	"4a"	NA	NA	NA	NA	4
+2021-02-17 10:24:37	"teacher008"	"teacher"	100	"I don't have the foggiest idea whether he will be coming or not."	"I don't have the foggiest idea whether he will be coming or not."	NA	NA	NA	NA	NA	NA	13
+2021-02-17 10:24:42	"teacher008"	"teacher"	101	"key word: whatsoever"	"key word: whatsoever"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 10:24:52	"teacher008"	"teacher"	102	"I have _____________ he will be coming or not."	"I have _____________ he will be coming or not."	NA	NA	NA	NA	NA	NA	9
+2021-02-17 10:25:16	"student012"	"student"	103	"I have no idea whatsoever whether he will...."	"I have no idea whatsoever whether he will...."	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:26:04	"teacher008"	"teacher"	104	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 10:26:09	"student012"	"student"	105	"yay!"	"yay!"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 10:26:18	"teacher008"	"teacher"	106	"He failed the exam as he didn't work as fast as the rest of the class."	"He failed the exam as he didn't work as fast as the rest of the class."	NA	"4b"	NA	NA	NA	NA	16
+2021-02-17 10:26:33	"teacher008"	"teacher"	107	"His failure was blamed on his inability _____________ rest of the class."	"His failure was blamed on his inability _____________ rest of the class."	NA	NA	NA	NA	NA	NA	12
+2021-02-17 10:26:37	"teacher008"	"teacher"	108	"key word: pace"	"key word: pace"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 10:27:43	"student012"	"student"	109	"on his inability to keep up the pace with the..."	"on his inability to keep up the pace with the..."	NA	NA	NA	NA	NA	NA	10
+2021-02-17 10:28:30	"teacher008"	"teacher"	110	"Yes, very good! or 'to work at the same pace as'"	"Yes, very good! or 'to work at the same pace as'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-02-17 10:28:37	"student012"	"student"	111	"or just keep pace with?"	"or just keep pace with?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	5
+2021-02-17 10:28:48	"student012"	"student"	112	"Oh, right"	"Oh, right"	"110.0"	NA	NA	NA	NA	NA	2
+2021-02-17 10:29:24	"teacher008"	"teacher"	113	"Oh yes, that's a possibility too, sure!"	"Oh yes, that's a possibility too, sure!"	"111.0"	NA	NA	NA	NA	NA	7
+2021-02-17 10:29:27	"teacher008"	"teacher"	114	"Everyone is criticising the government for its poor unemployment record"	"Everyone is criticising the government for its poor unemployment record"	NA	"4c"	NA	NA	NA	NA	10
+2021-02-17 10:29:39	"teacher008"	"teacher"	115	"The government _____________ over its unemployment record."	"The government _____________ over its unemployment record."	NA	NA	NA	NA	NA	NA	7
+2021-02-17 10:29:44	"teacher008"	"teacher"	116	"key word: come"	"key word: come"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 10:30:08	"student012"	"student"	117	"hmm"	"hmm"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 10:30:36	"student012"	"student"	118	"The government has come to be criticized ?"	"The government has come to be criticized ?"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:30:59	"teacher008"	"teacher"	119	"the expression is 'to come under (a lot of) criticism'!"	"the expression is 'to come under (a lot of) criticism'!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-02-17 10:31:33	"student012"	"student"	120	"I know this expression. Why didn't I think of it.."	"I know this expression. Why didn't I think of it.."	NA	NA	NA	NA	NA	NA	10
+2021-02-17 10:31:51	"teacher008"	"teacher"	121	"Because you got up at 5 am!"	"Because you got up at 5 am!"	NA	NA	NA	NA	NA	NA	7
+2021-02-17 10:32:02	"student012"	"student"	122	"That's why! Right"	"That's why! Right"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 10:32:05	"student012"	"student"	123	")))))"	")))))"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 10:32:09	"teacher008"	"teacher"	124	"Right, I've got to let you go, my coach is turning into a pumpkin"	"Right, I've got to let you go, my coach is turning into a pumpkin"	NA	"5.0"	"closing"	NA	NA	NA	14
+2021-02-17 10:32:25	"student012"	"student"	125	"Thank you for the lesson and the conversation!"	"Thank you for the lesson and the conversation!"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 10:32:31	"student012"	"student"	126	"See you next week!"	"See you next week!"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 10:32:44	"teacher008"	"teacher"	127	"You're very welcome, my pleasure! I'll send you some slots for next week"	"You're very welcome, my pleasure! I'll send you some slots for next week"	NA	NA	NA	NA	NA	NA	13
+2021-02-17 10:33:06	"student012"	"student"	128	"Thanks! Bye!"	"Thanks! Bye!"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 10:33:10	"teacher008"	"teacher"	129	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"C2"	1

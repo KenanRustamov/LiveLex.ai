@@ -1,0 +1,174 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-03-25 12:06:13	"student012"	"student"	1	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-03-25 12:06:39	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 12:06:45	"teacher008"	"teacher"	3	"How's it going?"	"How's it going?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-03-25 12:07:22	"student012"	"student"	4	"It's going well. Thanks. How are things with you?"	"It's going well. Thanks. How are things with you?"	NA	"2a"	"topic development"	NA	NA	NA	9
+2021-03-25 12:07:58	"teacher008"	"teacher"	5	"I'm good, thank you :."	"I'm good, thank you :."	NA	NA	NA	NA	NA	NA	5
+2021-03-25 12:08:23	"student012"	"student"	6	"Still going through the tough lockdown?"	"Still going through the tough lockdown?"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:08:38	"student012"	"student"	7	"It's has arrived in Kyiv now"	"It has arrived in Kyiv now"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:09:17	"teacher008"	"teacher"	8	"<TEACHER'S CHILD> will be on holiday for the next two weeks, so I'll have to postpone classes until April 12"	"<TEACHER'S CHILD> will be on holiday for the next two weeks, so I'll have to postpone classes until April 12"	NA	"2b"	"topic development"	NA	NA	NA	20
+2021-03-25 12:09:32	"teacher008"	"teacher"	9	"It's nearly Easter here!"	"It's nearly Easter here!"	NA	NA	NA	NA	NA	NA	4
+2021-03-25 12:09:58	"student012"	"student"	10	"Right. The Catholic Easter is earlier, isn't it?"	"Right. The Catholic Easter is earlier, isn't it?"	NA	NA	NA	NA	NA	NA	8
+2021-03-25 12:10:10	"teacher008"	"teacher"	11	"Yes, I've heard about another lockdown in Kyiv, I'm sorry to hear about that! Is it affecting your life very much at all?"	"Yes, I've heard about another lockdown in Kyiv, I'm sorry to hear about that! Is it affecting your life very much at all?"	"7.0"	NA	NA	NA	NA	NA	23
+2021-03-25 12:10:36	"student012"	"student"	12	"No problem with postponing the classes whatsoever. I have had so much on my plate recently."	"No problem with postponing the classes whatsoever. I have had so much on my plate recently."	"8.0"	NA	NA	NA	NA	NA	16
+2021-03-25 12:11:23	"student012"	"student"	13	"You know, it isn't really. Nothing changed much for my family. But we take extra precautions now."	"You know, it isn't really. Nothing changed much for my family. But we take extra precautions now."	"11.0"	NA	NA	NA	NA	NA	17
+2021-03-25 12:11:25	"teacher008"	"teacher"	14	"We're in the second stage of the lockdown, moving on to the third one on Monday. We will soon be allowed trips out .as in to forests / parks / the seaside., but we still can't stay over anywhere .for example, we can't visit <TEACHER'S HUSBAND>'s parents. and non-essential shops are still closed"	"We're in the second stage of the lockdown, moving on to the third one on Monday. We will soon be allowed trips out .as in to forests / parks / the seaside., but we still can't stay over anywhere .for example, we can't visit <TEACHER'S HUSBAND>'s parents. and non-essential shops are still closed"	NA	NA	NA	NA	NA	NA	53
+2021-03-25 12:12:01	"student012"	"student"	15	"OMG. It must be so exhausting."	"OMG. It must be so exhausting."	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:12:07	"teacher008"	"teacher"	16	"Yes, sure! You both have been working online, haven't you?"	"Yes, sure! You both have been working online, haven't you?"	"13.0"	NA	NA	NA	NA	NA	10
+2021-03-25 12:12:22	"teacher008"	"teacher"	17	"It's been a very long winter, yes! But what can we do"	"It's been a very long winter, yes! But what can we do"	"15.0"	NA	NA	NA	NA	NA	12
+2021-03-25 12:12:28	"teacher008"	"teacher"	18	"Yes, Easter is on April 4 here"	"Yes, Easter is on April 4 here"	"10.0"	NA	NA	NA	NA	NA	7
+2021-03-25 12:12:53	"student012"	"student"	19	"I work online and offline at ALMA and it didn't affect the offline part"	"I work online and offline at ALMA and it didn't affect the offline part"	"16.0"	NA	NA	NA	NA	NA	14
+2021-03-25 12:13:16	"student012"	"student"	20	"Do you have some quests prepared for <TEACHER'S CHILD>?"	"Do you have some quests prepared for <TEACHER'S CHILD>?"	NA	"2c"	"topic development"	NA	NA	NA	9
+2021-03-25 12:13:53	"student012"	"student"	21	"sorry 5 sec"	"sorry 5 sec"	NA	"3.0"	"disruption"	NA	NA	NA	3
+2021-03-25 12:14:12	"teacher008"	"teacher"	22	"Yes, sure! Well, there's going to be an egg hunt in the garden as usual :."	"Yes, sure! Well, there's going to be an egg hunt in the garden as usual :."	"21, 20"	"2c (continued)"	NA	NA	NA	NA	16
+2021-03-25 12:23:09	"student012"	"student"	23	"I'm sorry"	"I'm sorry"	"21.0"	NA	NA	NA	NA	NA	2
+2021-03-25 12:23:17	"student012"	"student"	24	"It was the delivery man"	"It was a delivery man"	NA	NA	NA	NA	NA	NA	5
+2021-03-25 12:23:31	"student012"	"student"	25	"The payment couldn't go through"	"The payment couldn't go through"	NA	NA	NA	NA	NA	NA	5
+2021-03-25 12:23:40	"student012"	"student"	26	"I had to change 4 cards"	"I had to change 4 cards"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:23:56	"teacher008"	"teacher"	27	"No worries!"	"No worries!"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 12:24:11	"student012"	"student"	28	"Should I say 'a delivery man' or 'the delivery man'?"	"Should I say 'a delivery man' or 'the delivery man'?"	NA	"4.0"	"enquiry"	"grammatical resource"	NA	NA	10
+2021-03-25 12:24:27	"teacher008"	"teacher"	29	"Answering the door to delivery men is my part-time job :.."	"Answering the door to delivery men is my part-time job :.."	"27.0"	NA	NA	NA	NA	NA	11
+2021-03-25 12:24:57	"student012"	"student"	30	"An egg hunt! Cool! I want to prepare something like that for <STUDENT'S CHILD>. Are those real eggs that people use in an egg hunt?"	"An egg hunt! Cool! I want to prepare something like that for <STUDENT'S CHILD>. Are those real eggs that people use in an egg hunt?"	"22.0"	"2d"	"topic development"	NA	NA	NA	25
+2021-03-25 12:25:16	"student012"	"student"	31	"Oh... Same here"	"Oh... Same here"	"29.0"	NA	NA	NA	NA	NA	3
+2021-03-25 12:25:26	"teacher008"	"teacher"	32	"Hmm, I would say, if I had known you'd been expecting a delivery, it would 'the delivery man'"	"Hmm, I would say, if I had known you'd been expecting a delivery, it would 'the delivery man'"	"28.0"	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2021-03-25 12:25:43	"student012"	"student"	33	"Sometimes I feel like I work at a call center"	"Sometimes I feel like I work at a call center"	"31.0"	NA	NA	NA	NA	NA	10
+2021-03-25 12:26:00	"teacher008"	"teacher"	34	"But for me, it was 'a delivery man', because it was the first time you mentioned him!"	"But for me, it was 'a delivery man', because it was the first time you mentioned him!"	"32.0"	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2021-03-25 12:26:24	"student012"	"student"	35	"Right. That was what I thought AFTER I had sent you the message"	"Right. That was what I thought AFTER I had sent you the message"	NA	NA	NA	NA	NA	NA	13
+2021-03-25 12:26:48	"teacher008"	"teacher"	36	"Haha, they all call in Ukraine, don't they? Thank God, they don't here, but, on the downside, we take parcels for neighbours too"	"Haha, they all call in Ukraine, don't they? Thank God, they don't here, but, on the downside, we take parcels for neighbours too"	"33.0"	NA	NA	NA	NA	NA	23
+2021-03-25 12:26:58	"teacher008"	"teacher"	37	"Yes, you agree then?"	"Yes, you agree then?"	"35.0"	NA	NA	NA	NA	NA	4
+2021-03-25 12:27:05	"student012"	"student"	38	"Oh yes they still call!!!"	"Oh yes they still call!!!"	"36.0"	NA	NA	NA	NA	NA	5
+2021-03-25 12:27:11	"student012"	"student"	39	"And I'm a fan of chats"	"And I'm a fan of chats"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:27:22	"student012"	"student"	40	"I agree 100 percent"	"I agree 100 percent"	"37.0"	NA	NA	NA	NA	NA	4
+2021-03-25 12:27:59	"teacher008"	"teacher"	41	"Cool!"	"Cool!"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:29:10	"teacher008"	"teacher"	42	"Re: egg hunt :. I use a mixture of real painted Easter eggs and chocolate eggs, but I think a lot of the time people just use chocolate eggs. But the amount of chocolate consumed at Easter horrifies me!"	"Re: egg hunt :. I use a mixture of real painted Easter eggs and chocolate eggs, but I think a lot of the time people just use chocolate eggs. But the amount of chocolate consumed at Easter horrifies me!"	"30.0"	NA	NA	NA	NA	NA	39
+2021-03-25 12:29:32	"teacher008"	"teacher"	43	"But there's always a big chocolate Easter egg at the end of the hunt :."	"But there's always a big chocolate Easter egg at the end of the hunt :."	NA	NA	NA	NA	NA	NA	15
+2021-03-25 12:30:03	"student012"	"student"	44	"I see. And how do you organise it? Is there a system?"	"I see. And how do you organise it? Is there a system?"	NA	NA	NA	NA	NA	NA	12
+2021-03-25 12:30:25	"student012"	"student"	45	"I'll probably colour the quail eggs for <STUDENT'S CHILD>"	"I'll probably colour the quail eggs for <STUDENT'S CHILD>"	NA	NA	NA	NA	NA	NA	9
+2021-03-25 12:30:42	"student012"	"student"	46	"She can't have chocolate. Not yet.."	"She can't have chocolate. Not yet.."	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:30:54	"teacher008"	"teacher"	47	"I just hide eggs around the garden! You can also buy an egg hunt kit, with clues and arrows"	"I just hide eggs around the garden! You can also buy an egg hunt kit, with clues and arrows"	"44.0"	NA	NA	NA	NA	NA	19
+2021-03-25 12:30:58	"student012"	"student"	48	"Although she's keen on tasting it"	"Although she's keen on tasting it"	"46.0"	NA	NA	NA	NA	NA	6
+2021-03-25 12:31:31	"teacher008"	"teacher"	49	"Haha, yes, hold that fort while you can! :."	"Haha, yes, hold that fort while you can! :."	NA	NA	NA	NA	NA	NA	9
+2021-03-25 12:32:03	"student012"	"student"	50	"I try! And it's hard because I love chocolate so very much..."	"I try! And it's hard because I love chocolate so very much..."	NA	NA	NA	NA	NA	NA	12
+2021-03-25 12:32:30	"student012"	"student"	51	"And eat it often... hiding in the dark corners of our 45 square m apartment"	"And eat it often... hiding in the dark corners of our 45 square m apartment"	NA	NA	NA	NA	NA	NA	15
+2021-03-25 12:32:31	"student012"	"student"	52	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:32:43	"teacher008"	"teacher"	53	"What's your favourite type?"	"What's your favourite type?"	"50.0"	NA	NA	NA	NA	NA	4
+2021-03-25 12:32:49	"teacher008"	"teacher"	54	"Haha, sneaky :...."	"Haha, sneaky :...."	"51.0"	NA	NA	NA	NA	NA	3
+2021-03-25 12:33:07	"student012"	"student"	55	"Ritter Sport 55% cocoa"	"Ritter Sport 55% cocoa"	NA	NA	NA	NA	NA	NA	4
+2021-03-25 12:33:18	"teacher008"	"teacher"	56	"You're spoilt with the choice of chocolate and sweets in Ukraine, though. I miss them so!"	"You're spoilt with the choice of chocolate and sweets in Ukraine, though. I miss them so!"	NA	NA	NA	NA	NA	NA	16
+2021-03-25 12:33:40	"student012"	"student"	57	"Isn't it even better in England?"	"Isn't it even better in England?"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:33:43	"teacher008"	"teacher"	58	"Ooh, yes, Ritter is excellent! And such clever marketing to call it 'sport' when it's got nothing to do with sport...."	"Ooh, yes, Ritter is excellent! And such clever marketing to call it 'sport' when it's got nothing to do with sport...."	"55.0"	NA	NA	NA	NA	NA	21
+2021-03-25 12:34:19	"teacher008"	"teacher"	59	"Nooo! I don't think so! Well, unless you like licorice and hariboes"	"Nooo! I don't think so! Well, unless you like licorice and hariboes"	"57.0"	NA	NA	NA	NA	NA	12
+2021-03-25 12:34:23	"teacher008"	"teacher"	60	"and jelly beans"	"and jelly beans"	NA	NA	NA	NA	NA	NA	3
+2021-03-25 12:34:54	"student012"	"student"	61	"Clever people indeed. That 55-one had only 4 ingredients but the taste it like no other. For me at least"	"Clever people indeed. That 55-one had only 4 ingredients but the taste is like no other. For me at least"	"58.0"	NA	NA	NA	NA	NA	20
+2021-03-25 12:34:55	"teacher008"	"teacher"	62	"Lots of sweets are kind of Haribo-type. As opposed to magnificent Ukrainian sweets, including zefir and pastila :..."	"Lots of sweets are kind of Haribo-type. As opposed to magnificent Ukrainian sweets, including zefir and pastila :..."	"60.0"	NA	NA	NA	NA	NA	18
+2021-03-25 12:35:08	"student012"	"student"	63	"Neither of the three"	"Neither of the three"	NA	NA	NA	NA	NA	NA	4
+2021-03-25 12:35:21	"teacher008"	"teacher"	64	"I've got to try that one! I always go for the one with hazelnuts"	"I've got to try that one! I always go for the one with hazelnuts"	NA	NA	NA	NA	NA	NA	14
+2021-03-25 12:36:24	"student012"	"student"	65	"You should. It's ideal for sweet teeth .?. like me. I don't like dark chocolate and milk chocolate is too sweet"	"You should. It's ideal for sweet teeth .?. like me. I don't like dark chocolate and milk chocolate is too sweet"	NA	"2e"	"enquiry"	"lexical resource"	NA	NA	21
+2021-03-25 12:36:35	"student012"	"student"	66	"This Ritter strikes a perfect balance"	"This Ritter strikes a perfect balance"	NA	"2d (continued)"	NA	NA	NA	NA	6
+2021-03-25 12:36:37	"teacher008"	"teacher"	67	"But then, I think a lot of it is nostalgia. English people love their sweets because it's the taste of childhood, the same way we love zefir and 'marmelad', which is nothing like English marmelade, which is a type of jam :."	"But then, I think a lot of it is nostalgia. English people love their sweets because it's the taste of childhood, the same way we love zefir and 'marmelad', which is nothing like English marmelade, which is a type of jam :."	NA	NA	NA	NA	NA	NA	42
+2021-03-25 12:37:12	"teacher008"	"teacher"	68	"I see! I'm not sure 'sweet tooth' can be used in the plural, but it makes sense!"	"I see! I'm not sure 'sweet tooth' can be used in the plural, but it makes sense!"	"65.0"	"2e (continued)"	"scaffolding"	"lexical resource"	NA	NA	17
+2021-03-25 12:37:17	"student012"	"student"	69	"I agree. It's all about nostalgia"	"I agree. It's all about nostalgia"	"67.0"	NA	NA	NA	NA	NA	6
+2021-03-25 12:37:35	"student012"	"student"	70	"sweet tooths then?"	"sweet tooths then?"	"68.0"	NA	NA	NA	NA	NA	3
+2021-03-25 12:37:52	"teacher008"	"teacher"	71	"I don't know.... it's got to be sweet teeth, right?"	"I don't know.... it's got to be sweet teeth, right?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-03-25 12:37:55	"student012"	"student"	72	"or no plural at all graphically?"	"or no plural at all graphically?"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:38:06	"teacher008"	"teacher"	73	"we can just go for 'a sweet tooth like I am'"	"we can just go for 'a sweet tooth like I am'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-25 12:38:08	"student012"	"student"	74	"We just imply it then... Maybe"	"We just imply it then... Maybe"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:38:35	"student012"	"student"	75	"Is 'like me' incorrect by the way?"	"Is 'like me' incorrect by the way?"	NA	"2f"	"enquiry"	"grammatical resource"	NA	NA	7
+2021-03-25 12:39:23	"teacher008"	"teacher"	76	"No, it's absolutely fine!"	"No, it's absolutely fine!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2021-03-25 12:40:14	"student012"	"student"	77	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 12:40:33	"teacher008"	"teacher"	78	"Ok, I've got more 'Tom said' jokes for you! a bit of fun before the holiday"	"Ok, I've got more 'Tom said' jokes for you! a bit of fun before the holiday"	NA	"5.0"	"exercise"	"lexical resource"	NA	NA	16
+2021-03-25 12:40:41	"student012"	"student"	79	"Yes please"	"Yes please"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 12:41:17	"teacher008"	"teacher"	80	"But please let me know if we did any of them last time. I've been doing them with my other C2 student and stupidly forgot to mark which of you has seen which jokes"	"But please let me know if we did any of them last time. I've been doing them with my other C2 student and stupidly forgot to mark which of you has seen which jokes"	NA	NA	NA	NA	NA	NA	34
+2021-03-25 12:41:26	"teacher008"	"teacher"	81	"and now I can't remember!"	"and now I can't remember!"	NA	NA	NA	NA	NA	NA	5
+2021-03-25 12:41:29	"student012"	"student"	82	"No problem"	"No problem"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 12:41:48	"student012"	"student"	83	"For me it will probably be like the first time haha"	"For me it will probably be like the first time haha"	NA	NA	NA	NA	NA	NA	11
+2021-03-25 12:42:12	"teacher008"	"teacher"	84	"Ha, for me as well, that's the problem :."	"Ha, for me as well, that's the problem :."	NA	NA	NA	NA	NA	NA	9
+2021-03-25 12:42:15	"student012"	"student"	85	"I remember 'listless'!"	"I remember 'listless'!"	NA	NA	NA	NA	NA	NA	3
+2021-03-25 12:42:36	"teacher008"	"teacher"	86	"Ah, I know, we've done 'crabbily', 'with wanton disregard', 'listless' and 'with relish'"	"Ah, I know, we've done 'crabbily', 'with wanton disregard', 'listless' and 'with relish'"	NA	NA	NA	NA	NA	NA	13
+2021-03-25 12:43:03	"student012"	"student"	87	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:43:08	"teacher008"	"teacher"	88	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:43:11	"teacher008"	"teacher"	89	"• “There’s no more room in the hay barn,” said Tom balefully."	"• “There’s no more room in the hay barn,” said Tom balefully."	NA	"5a"	"exercise"	"lexical resource"	NA	NA	12
+2021-03-25 12:43:13	"student012"	"student"	90	"See how good your memory is"	"See how good your memory is"	"88.0"	NA	NA	NA	NA	NA	6
+2021-03-25 12:43:31	"teacher008"	"teacher"	91	"I've probably missed some :."	"I've probably missed some :."	NA	NA	NA	NA	NA	NA	5
+2021-03-25 12:43:44	"student012"	"student"	92	"Balefully -- dunno"	"Balefully -- dunno"	"89.0"	NA	"enquiry"	"lexical resource"	NA	NA	3
+2021-03-25 12:44:14	"teacher008"	"teacher"	93	"Well, it's to do with 'a hay bale'"	"Well, it's to do with 'a hay bale'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-25 12:44:31	"teacher008"	"teacher"	94	"You know, when combine harvesters stack hay in bales? Cubes or cylinders"	"You know, when combine harvesters stack hay in bales? Cubes or cylinders"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2021-03-25 12:44:55	"student012"	"student"	95	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:45:08	"teacher008"	"teacher"	96	"but also, baleful = threatening to do something bad or to hurt someone"	"but also, baleful = threatening to do something bad or to hurt someone"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2021-03-25 12:45:15	"teacher008"	"teacher"	97	"He gave me a baleful look"	"He gave me a baleful look"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-03-25 12:45:23	"student012"	"student"	98	"You might not believe it but it'a a new word for me"	"You might not believe it but it's a new word for me"	NA	NA	NA	NA	NA	NA	12
+2021-03-25 12:45:37	"teacher008"	"teacher"	99	"baleful = menacing"	"baleful = menacing"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-03-25 12:45:44	"student012"	"student"	100	"Now Christian Bale's name will never be the same"	"Now Christian Bale's name will never be the same"	NA	NA	NA	NA	NA	NA	9
+2021-03-25 12:45:53	"teacher008"	"teacher"	101	"It's not a terribly high frequency word!"	"It's not a terribly high frequency word!"	"98.0"	NA	NA	NA	NA	NA	7
+2021-03-25 12:46:08	"teacher008"	"teacher"	102	"Haha, it makes sense though, if you imagine his Batman voice :...."	"Haha, it makes sense though, if you imagine his Batman voice :...."	"100.0"	NA	NA	NA	NA	NA	12
+2021-03-25 12:46:16	"student012"	"student"	103	"ahaha"	"ahaha"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:46:49	"student012"	"student"	104	"A good one"	"A good one"	NA	NA	NA	NA	NA	NA	3
+2021-03-25 12:47:05	"teacher008"	"teacher"	105	"There's a joke somewhere here... 'You won't like this', Christian said balefully"	"There's a joke somewhere here... 'You won't like this', Christian said balefully"	NA	NA	NA	NA	NA	NA	12
+2021-03-25 12:47:37	"teacher008"	"teacher"	106	"Ok, now here's a silly one!"	"Ok, now here's a silly one!"	NA	"5b"	"exercise"	"lexical resource"	NA	NA	6
+2021-03-25 12:47:38	"teacher008"	"teacher"	107	"• 'Baa,' said Tom sheepishly."	"• 'Baa,' said Tom sheepishly."	NA	NA	NA	NA	NA	NA	5
+2021-03-25 12:47:41	"student012"	"student"	108	"ahaha"	"ahaha"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:48:37	"student012"	"student"	109	"OK. So sheepishly as sheep and the other one - foolishly ?"	"OK. So sheepishly as sheep and the other one - foolishly ?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	12
+2021-03-25 12:48:58	"teacher008"	"teacher"	110	"sheepish = embarrassed because you know that you have done something wrong or silly"	"sheepish = embarrassed because you know that you have done something wrong or silly"	NA	NA	"scaffolding"	"lexical resource,meaning"	"dictionary"	NA	14
+2021-03-25 12:49:10	"teacher008"	"teacher"	111	"from Cambridge English Dictionary"	"from Cambridge English Dictionary"	NA	NA	"reference"	NA	NA	NA	4
+2021-03-25 12:49:11	"student012"	"student"	112	"Got it"	"Got it"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 12:49:19	"teacher008"	"teacher"	113	"She gave him a sheepish look and apologized"	"She gave him a sheepish look and apologized"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-25 12:50:07	"teacher008"	"teacher"	114	"But, you know when in Russian we say 'I'm like a monkey' when we do something exactly like another person"	"But, you know when in Russian we say 'I'm like a monkey' when we do something exactly like another person"	NA	"5c"	"presentation"	"lexical resource"	NA	NA	20
+2021-03-25 12:50:34	"teacher008"	"teacher"	115	"For example, you go to a shop and buy Ritter Sport, and I see you do it and copy you"	"For example, you go to a shop and buy Ritter Sport, and I see you do it and copy you"	NA	NA	"presentation"	"lexical resource"	NA	NA	20
+2021-03-25 12:50:41	"teacher008"	"teacher"	116	"We say, like a monkey, don't we?"	"We say, like a monkey, don't we?"	NA	NA	NA	NA	NA	NA	7
+2021-03-25 12:50:50	"teacher008"	"teacher"	117	"I'm starting to doubt that..."	"I'm starting to doubt that..."	NA	NA	NA	NA	NA	NA	5
+2021-03-25 12:51:51	"student012"	"student"	118	"So they think more about the sheep in that context?"	"So they think more about the sheep in that context?"	NA	NA	NA	NA	NA	NA	10
+2021-03-25 12:52:08	"student012"	"student"	119	"More like a parrot maybe?"	"More like a parrot maybe?"	"117.0"	NA	NA	NA	NA	NA	5
+2021-03-25 12:52:10	"teacher008"	"teacher"	120	"Yes, they say, I'm being a sheep"	"Yes, they say, I'm being a sheep"	"118.0"	NA	"presentation"	"lexical resource"	NA	NA	7
+2021-03-25 12:52:42	"teacher008"	"teacher"	121	"For example, if <TEACHER'S HUSBAND> orders something at a restaurant, I can say, 'Oh, I'll just be a sheep' and order exactly the same thing"	"For example, if <TEACHER'S HUSBAND> orders something at a restaurant, I can say, 'Oh, I'll just be a sheep' and order exactly the same thing"	NA	NA	"presentation"	"lexical resource"	NA	NA	25
+2021-03-25 12:52:55	"teacher008"	"teacher"	122	"Because sheep are easily led apparently.."	"Because sheep are easily led apparently.."	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	6
+2021-03-25 12:53:12	"student012"	"student"	123	"Cool"	"Cool"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:53:21	"student012"	"student"	124	"I'm going to use this one"	"I'm going to use this one"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 12:53:33	"teacher008"	"teacher"	125	"Yes, it's a good one!"	"Yes, it's a good one!"	NA	NA	NA	NA	NA	NA	5
+2021-03-25 12:53:35	"student012"	"student"	126	"from now on"	"from now on"	"124.0"	NA	NA	NA	NA	NA	3
+2021-03-25 12:53:40	"student012"	"student"	127	"Yes. I like it"	"Yes. I like it"	"125.0"	NA	NA	NA	NA	NA	4
+2021-03-25 12:53:44	"teacher008"	"teacher"	128	"Ok! • 'I have no flowers,' Tom said lackadaisically."	"Ok! • 'I have no flowers,' Tom said lackadaisically."	NA	"5d"	"exercise"	"lexical resource"	NA	NA	9
+2021-03-25 12:55:02	"student012"	"student"	129	"OK. I only get the first part .as I usually do.. The lack of something indicating scarcity"	"OK. I only get the first part .as I usually do.. The lack of something indicating scarcity"	NA	NA	NA	NA	NA	NA	17
+2021-03-25 12:55:24	"teacher008"	"teacher"	130	"Oh, it's so silly. it's a lack of daisies in this case :."	"Oh, it's so silly. it's a lack of daisies in this case :."	NA	NA	NA	NA	NA	NA	13
+2021-03-25 12:55:59	"teacher008"	"teacher"	131	"But 'lackadaisical' really means lazy and slow"	"But 'lackadaisical' really means lazy and slow"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2021-03-25 12:56:16	"teacher008"	"teacher"	132	"The food was nice enough but the service was somewhat lackadaisical."	"The food was nice enough but the service was somewhat lackadaisical."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-25 12:56:53	"student012"	"student"	133	"Wow"	"Wow"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:56:55	"teacher008"	"teacher"	134	"/ˌlæk.əˈdeɪ.zɪ.kəl/'"	"/ˌlæk.əˈdeɪ.zɪ.kəl/'"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-03-25 12:57:00	"teacher008"	"teacher"	135	"Yes, it's quite a word!"	"Yes, it's quite a word!"	"133.0"	NA	NA	NA	NA	NA	5
+2021-03-25 12:57:02	"student012"	"student"	136	"Who came up with this word I wonder"	"Who came up with this word I wonder"	NA	NA	NA	NA	NA	NA	8
+2021-03-25 12:57:24	"student012"	"student"	137	"Someone in an enormous need of daises I suppose..."	"Someone in an enormous need of daises I suppose..."	NA	NA	NA	NA	NA	NA	9
+2021-03-25 12:57:38	"teacher008"	"teacher"	138	"I know! :.."	"I know! :.."	NA	NA	NA	NA	NA	NA	3
+2021-03-25 12:57:59	"teacher008"	"teacher"	139	"lackadaisical = half-hearted"	"lackadaisical = half-hearted"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-03-25 12:58:15	"teacher008"	"teacher"	140	"a good one to describe the service in many food places!"	"a good one to describe the service in many food places!"	NA	NA	NA	NA	NA	NA	11
+2021-03-25 12:58:48	"student012"	"student"	141	"Oh yes. I know just the place"	"Oh yes. I know just the place"	NA	NA	NA	NA	NA	NA	7
+2021-03-25 12:58:54	"student012"	"student"	142	"And not one"	"And not one"	NA	NA	NA	NA	NA	NA	3
+2021-03-25 12:59:03	"teacher008"	"teacher"	143	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-25 12:59:13	"teacher008"	"teacher"	144	"Ok, one last!"	"Ok, one last!"	NA	"5e"	"exercise"	"lexical resource"	NA	NA	3
+2021-03-25 12:59:17	"teacher008"	"teacher"	145	"• 'I'm wearing a ribbon around my arm,' said Tom with abandon."	"• 'I'm wearing a ribbon around my arm,' said Tom with abandon."	NA	NA	NA	NA	NA	NA	12
+2021-03-25 12:59:53	"student012"	"student"	146	"No clue"	"No clue"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 13:00:21	"teacher008"	"teacher"	147	"It's just a play on words. with a band on"	"It's just a play on words. with a band on"	NA	NA	NA	NA	NA	NA	10
+2021-03-25 13:00:34	"teacher008"	"teacher"	148	"as in with a ribbon around his arm..."	"as in with a ribbon around his arm..."	NA	NA	NA	NA	NA	NA	8
+2021-03-25 13:00:42	"student012"	"student"	149	"Oh.. Right!"	"Oh.. Right!"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 13:01:11	"teacher008"	"teacher"	150	"But you know 'with abandon' as in 'in an uncontrolled way'?"	"But you know 'with abandon' as in 'in an uncontrolled way'?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-25 13:01:23	"teacher008"	"teacher"	151	"We danced / sang / partied with abandon"	"We danced / sang / partied with abandon"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-25 13:01:36	"teacher008"	"teacher"	152	"abandoning all caution, so to say"	"abandoning all caution, so to say"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-03-25 13:02:19	"student012"	"student"	153	"Where does the stress fall?"	"Where does the stress fall?"	NA	NA	"enquiry"	"lexical resource,speaking"	NA	NA	5
+2021-03-25 13:02:23	"student012"	"student"	154	"In abandon"	"In abandon"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 13:02:45	"teacher008"	"teacher"	155	"abAndon"	"abAndon"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-03-25 13:02:51	"teacher008"	"teacher"	156	"on the second syllable"	"on the second syllable"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	4
+2021-03-25 13:02:57	"student012"	"student"	157	"Got it"	"Got it"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 13:02:59	"student012"	"student"	158	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 13:03:20	"student012"	"student"	159	"aBAAAAndon -- I'm being a sheep"	"aBAAAAndon -- I'm being a sheep"	NA	NA	NA	NA	NA	NA	6
+2021-03-25 13:03:32	"teacher008"	"teacher"	160	"Ok, so we've got 'baleful' .thanks for the image of Christian Bale, I'll never forget., sheepish, lackadaisical and with abandon"	"Ok, so we've got 'baleful' .thanks for the image of Christian Bale, I'll never forget., sheepish, lackadaisical and with abandon"	NA	"5f"	"recap"	"lexical resource"	NA	NA	20
+2021-03-25 13:03:39	"teacher008"	"teacher"	161	"Haha, yes!"	"Haha, yes!"	"159.0"	NA	NA	NA	NA	NA	2
+2021-03-25 13:03:43	"teacher008"	"teacher"	162	"she said sheepishly"	"she said sheepishly"	NA	NA	NA	NA	NA	NA	3
+2021-03-25 13:03:56	"teacher008"	"teacher"	163	"Ok, I'll speak to you on Monday 12 April, ok?"	"Ok, I'll speak to you on Monday 12 April, ok?"	"161.0"	NA	NA	NA	NA	NA	10
+2021-03-25 13:04:05	"teacher008"	"teacher"	164	"I'll send you a reminder though :."	"I'll send you a reminder though :."	NA	NA	NA	NA	NA	NA	7
+2021-03-25 13:04:17	"student012"	"student"	165	"Let's maybe discuss closer to the date"	"Let's maybe discuss closer to the date"	NA	NA	NA	NA	NA	NA	7
+2021-03-25 13:04:27	"student012"	"student"	166	"Thank you very much for the lesson"	"Thank you very much for the lesson"	NA	NA	NA	NA	NA	NA	7
+2021-03-25 13:04:40	"student012"	"student"	167	"Have a great Easter!"	"Have a great Easter!"	NA	NA	NA	NA	NA	NA	4
+2021-03-25 13:04:52	"teacher008"	"teacher"	168	"It's a pleasure! Yes, definitely, we'll discuss!"	"It's a pleasure! Yes, definitely, we'll discuss!"	"166.0"	NA	NA	NA	NA	NA	7
+2021-03-25 13:05:05	"teacher008"	"teacher"	169	"Thanks! I would say 'you too' but yours isn't until May!"	"Thanks! I would say 'you too' but yours isn't until May!"	"167.0"	NA	NA	NA	NA	NA	11
+2021-03-25 13:05:17	"student012"	"student"	170	"Right. We'll wait.."	"Right. We'll wait.."	NA	NA	NA	NA	NA	NA	3
+2021-03-25 13:05:19	"teacher008"	"teacher"	171	"Take care, bye :."	"Take care, bye :."	NA	NA	NA	NA	NA	NA	4
+2021-03-25 13:05:22	"student012"	"student"	172	"See you!"	"See you!"	NA	NA	NA	NA	NA	NA	2
+2021-03-25 13:05:23	"student012"	"student"	173	"Bye"	"Bye"	NA	NA	NA	NA	NA	"C2"	1

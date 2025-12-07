@@ -1,0 +1,147 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-01-30 16:22:49	"teacher001"	"teacher"	1	"Hi <STUDENT>, are you there?!"	"Hi <STUDENT>, are you there?!"	NA	"1.0"	"opening"	NA	NA	NA	5
+2020-01-30 16:23:11	"student005"	"student"	2	"yess"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:23:42	"teacher001"	"teacher"	3	"OK great! Hello....so, just for a bit of background...are you planning to do the IELTS excam soon?"	"OK great! Hello....so, just for a bit of background...are you planning to do the IELTS excam soon?"	NA	"2.0"	"topic opening"	NA	NA	NA	17
+2020-01-30 16:23:57	"teacher001"	"teacher"	4	"exam i mean"	"exam i mean"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-01-30 16:24:19	"student005"	"student"	5	"i have to do IELTS exam in april"	"I have to do an IELTS exam in April"	NA	NA	NA	NA	NA	NA	8
+2020-01-30 16:24:37	"teacher001"	"teacher"	6	"OK right - are you planning to go to univeristy in the UK?"	"OK right - are you planning to go to univeristy in the UK?"	NA	"2a"	"topic development"	NA	NA	NA	13
+2020-01-30 16:25:23	"student005"	"student"	7	"not in the UK, but it'll be in English lenguage"	"not in the UK, but it'll be in the English language"	NA	NA	NA	NA	NA	NA	10
+2020-01-30 16:25:56	"teacher001"	"teacher"	8	"Right I see - so, in ITaly (?) but a course in English - is that a first degree or a master's? And what subject by the way?"	"Right I see - so, in ITaly (?) but a course in English - is that a first degree or a master's? And what subject by the way?"	NA	"2b"	"topic development"	NA	NA	NA	28
+2020-01-30 16:26:30	"student005"	"student"	9	"perhaps in Italy,but in English"	"perhaps in Italy,but in English"	NA	NA	NA	NA	NA	NA	5
+2020-01-30 16:26:37	"teacher001"	"teacher"	10	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:26:42	"student005"	"student"	11	"first degree"	"first degree"	8	NA	NA	NA	NA	NA	2
+2020-01-30 16:27:33	"student005"	"student"	12	"medicine, but in Italy the entrance text is impossible to pass, so maybe I'll study genomics"	"medicine, but in Italy the entrance test is impossible to pass, so maybe I'll study genomics"	8	NA	NA	NA	NA	NA	16
+2020-01-30 16:28:20	"teacher001"	"teacher"	13	"Oh right - there's lots of work in that area here in CAmbridge you know that right?!"	"Oh right - there's lots of work in that area here in CAmbridge you know that right?!"	NA	NA	NA	NA	NA	NA	17
+2020-01-30 16:30:07	"student005"	"student"	14	"I know that in Cambridge you must have taken the highest mark in the maturity exam"	"I know that in Cambridge you must have the highest mark in the maturity exam"	NA	"2c"	"topic development"	NA	NA	NA	16
+2020-01-30 16:30:15	"student005"	"student"	15	"is it right?"	"is it right?"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 16:30:30	"teacher001"	"teacher"	16	"do you mean it's hard to get into Cambridge University?"	"do you mean it's hard to get into Cambridge University?"	NA	NA	NA	NA	NA	NA	10
+2020-01-30 16:31:11	"teacher001"	"teacher"	17	"And do you mean the exams you do at the end of secondary school?"	"And do you mean the exams you do at the end of secondary school?"	14	NA	NA	NA	NA	NA	14
+2020-01-30 16:32:09	"student005"	"student"	18	"no, I mean in Italy when you finish the high school, you have to do an important exam, and I know that to get into Cambridge university you had to take 100\100"	"no, I mean in Italy when you finish high school, you have to do an important exam, and I know that to get into Cambridge University you have to get 100\100"	NA	NA	NA	NA	NA	NA	32
+2020-01-30 16:32:18	"student005"	"student"	19	"if you want to study medicine"	"if you want to study medicine"	NA	NA	NA	NA	NA	NA	6
+2020-01-30 16:32:28	"teacher001"	"teacher"	20	"OK I see...wait a sec"	"OK I see...wait a sec"	NA	NA	NA	NA	NA	NA	5
+2020-01-30 16:33:17	"teacher001"	"teacher"	21	"Well in the UK you know that when you're 16 you have to choose 'A' level sybjects (usually 3) and the results for these determine your chances of getting into a particular university"	"Well in the UK you know that when you're 16 you have to choose 'A' level sybjects (usually 3) and the results for these determine your chances of getting into a particular university"	NA	NA	NA	NA	NA	NA	33
+2020-01-30 16:33:48	"teacher001"	"teacher"	22	"so if you get an 'a' grade it's like 10 points etc and for e.g. Cambridge you basically need an A in all of your 'A' levels"	"so if you get an 'a' grade it's like 10 points etc and for e.g. Cambridge you basically need an A in all of your 'A' levels"	NA	NA	NA	NA	NA	NA	27
+2020-01-30 16:34:15	"teacher001"	"teacher"	23	"So I imagine that you need top marks in the equivalent Italian qualification"	"So I imagine that you need top marks in the equivalent Italian qualification"	NA	NA	NA	NA	NA	NA	13
+2020-01-30 16:34:25	"student005"	"student"	24	"also if I'm not English person?"	"also if I'm not an English person?"	NA	NA	NA	NA	NA	NA	6
+2020-01-30 16:34:58	"teacher001"	"teacher"	25	"if you did 'A' levels yes but the equivalent if not"	"if you did 'A' levels yes but the equivalent if not"	NA	NA	NA	NA	NA	NA	11
+2020-01-30 16:35:29	"teacher001"	"teacher"	26	"by the way can you change the verb to something else in the phrase 'take high marks'?"	"by the way can you change the verb to something else in the phrase 'take high marks'?"	NA	"3.0"	"eliciting,repair"	"lexical resource"	NA	NA	17
+2020-01-30 16:35:39	"student005"	"student"	27	"ah ok I've understood"	"ah ok I've understood"	25	NA	NA	NA	NA	NA	4
+2020-01-30 16:36:28	"student005"	"student"	28	"maybe have high marks"	"maybe have high marks"	26	NA	NA	NA	NA	NA	4
+2020-01-30 16:36:48	"teacher001"	"teacher"	29	"yes possible, good! (NOT 'take'!) 'get' is the most common verb"	"yes possible, good! (NOT 'take'!) 'get' is the most common verb"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-01-30 16:37:08	"teacher001"	"teacher"	30	"and therefore e.g. 'get' 10 out of 10/get a B etc"	"and therefore e.g. 'get' 10 out of 10/get a B etc"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-01-30 16:37:11	"student005"	"student"	31	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:37:20	"teacher001"	"teacher"	32	"get a high score etc etc"	"get a high score etc etc"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-01-30 16:37:45	"teacher001"	"teacher"	33	"OK <STUDENT> so if you don't mind I'll start asking you questions based on the pie charts OK?"	"OK <STUDENT> so if you don't mind I'll start asking you questions based on the pie charts OK?"	NA	"4.0"	"exercise"	"writing"	NA	NA	18
+2020-01-30 16:37:56	"student005"	"student"	34	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:38:47	"teacher001"	"teacher"	35	"OK great so....can you write s sentence describing ONLY the following: Australia 1980 coal"	"OK great so....can you write s sentence describing ONLY the following: Australia 1980 coal"	NA	NA	NA	NA	NA	NA	14
+2020-01-30 16:39:16	"teacher001"	"teacher"	36	"As in NOT about change over time or France or any other fuel JUST those items OK?"	"As in NOT about change over time or France or any other fuel JUST those items OK?"	NA	NA	"clarification"	NA	NA	NA	17
+2020-01-30 16:39:30	"teacher001"	"teacher"	37	"one short sentence"	"one short sentence"	NA	NA	"clarification"	NA	NA	NA	3
+2020-01-30 16:39:35	"student005"	"student"	38	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:39:38	"teacher001"	"teacher"	39	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:39:55	"teacher001"	"teacher"	40	"Take a minute if you need it!"	"Take a minute if you need it!"	NA	NA	NA	NA	NA	NA	7
+2020-01-30 16:40:19	"teacher001"	"teacher"	41	"Think about the subject of the charts overall"	"Think about the subject of the charts overall"	NA	NA	NA	NA	NA	NA	8
+2020-01-30 16:42:30	"student005"	"student"	42	"the coal production was 50% in Australia in 1980"	"the coal production was 50% in Australia in 1980"	NA	NA	NA	NA	NA	NA	9
+2020-01-30 16:42:41	"student005"	"student"	43	"too simple sentence?"	"too simple a sentence?"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 16:42:47	"teacher001"	"teacher"	44	"OK thanks a lot <STUDENT>...wait a sec"	"OK thanks a lot <STUDENT>...wait a sec"	NA	NA	NA	NA	NA	NA	7
+2020-01-30 16:42:57	"teacher001"	"teacher"	45	"so no, not too simple"	"so no, not too simple"	NA	NA	NA	NA	NA	NA	5
+2020-01-30 16:43:10	"teacher001"	"teacher"	46	"you've got past simple verb = good"	"you've got past simple verb = good"	NA	NA	NA	NA	NA	NA	7
+2020-01-30 16:43:14	"student005"	"student"	47	"one question"	"one question"	NA	"4a"	"enquiry"	"lexical resource"	NA	NA	2
+2020-01-30 16:43:21	"teacher001"	"teacher"	48	"go"	"go"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:43:42	"teacher001"	"teacher"	49	"one question: are the charts about coal production????"	"one question: are the charts about coal production????"	NA	"4b"	"eliciting"	"task achievement"	NA	NA	8
+2020-01-30 16:43:45	"student005"	"student"	50	"in this case, I can't use the verb halve?"	"in this case, I can't use the verb halve?"	48	NA	NA	NA	NA	NA	9
+2020-01-30 16:43:59	"teacher001"	"teacher"	51	"ah! Can you ask my question first??"	"ah! Can you ask my question first??"	49	NA	NA	NA	NA	NA	7
+2020-01-30 16:44:02	"student005"	"student"	52	"electricity production"	"electricity production"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 16:44:10	"teacher001"	"teacher"	53	"Yes! exactly good!"	"Yes! exactly good!"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 16:44:20	"teacher001"	"teacher"	54	"So...'coal production'??"	"So...'coal production'??"	NA	NA	"eliciting"	"task achievement"	NA	NA	2
+2020-01-30 16:45:05	"student005"	"student"	55	"coal of electricity?"	"coal of electricity?"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 16:45:24	"student005"	"student"	56	"I don't know"	"I don't know"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 16:45:34	"teacher001"	"teacher"	57	"OK no problem hold on a sec"	"OK no problem hold on a sec"	NA	NA	NA	NA	NA	NA	7
+2020-01-30 16:45:43	"student005"	"student"	58	"I ask me the same question when I wrote the sentence"	"I asked myself the same question when I was writing the sentence"	NA	NA	NA	NA	NA	NA	11
+2020-01-30 16:46:07	"teacher001"	"teacher"	59	"well...If you begin with e.g. Australia....can you continue from here?"	"well...If you begin with e.g. Australia....can you continue from here?"	NA	"4c"	"scaffolding,eliciting"	"task achievement"	NA	NA	10
+2020-01-30 16:46:24	"teacher001"	"teacher"	60	"you need a verb next obviously so 'Australia....'?"	"you need a verb next obviously so 'Australia....'?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	8
+2020-01-30 16:47:22	"student005"	"student"	61	"Australia use 50% of electricity...."	"Australia used 50% of electricity...."	NA	NA	NA	NA	NA	NA	5
+2020-01-30 16:48:07	"teacher001"	"teacher"	62	"OK nearly...! Did Australia 'use' electricity? well obviously yes but what about coal?"	"OK nearly...! Did Australia 'use' electricity? well obviously yes but what about coal?"	NA	NA	"scaffolding,eliciting"	"task achievement"	NA	NA	13
+2020-01-30 16:48:29	"teacher001"	"teacher"	63	"so ...'Australia used _____ to _______?"	"so ...'Australia used _____ to _______?"	NA	NA	"scaffolding,eliciting"	"task achievement"	NA	NA	6
+2020-01-30 16:48:42	"student005"	"student"	64	"australia use 50% of coal electricity ?"	"australia used 50% of coal electricity ?"	NA	NA	NA	NA	NA	NA	7
+2020-01-30 16:48:48	"student005"	"student"	65	"ah one moment"	"ah one moment"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 16:48:51	"teacher001"	"teacher"	66	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:49:18	"student005"	"student"	67	"Australia used 50% to coal"	"Australia used 50% to coal"	NA	NA	NA	NA	NA	NA	5
+2020-01-30 16:49:45	"teacher001"	"teacher"	68	"OK thanks <STUDENT> - let's try it together a bit more....hold on"	"OK thanks <STUDENT> - let's try it together a bit more....hold on"	NA	"4d"	"exercise"	"writing"	NA	NA	12
+2020-01-30 16:49:54	"student005"	"student"	69	"yes thanks"	"yes thanks"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 16:50:16	"teacher001"	"teacher"	70	"the '50%' refers to electricity right?"	"the '50%' refers to electricity right?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	6
+2020-01-30 16:50:29	"teacher001"	"teacher"	71	"so....Australia used coal to produce....?"	"so....Australia used coal to produce....?"	NA	NA	"eliciting"	"task achievement"	NA	NA	5
+2020-01-30 16:50:43	"student005"	"student"	72	"50% of electricity"	"50% of electricity"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 16:50:48	"teacher001"	"teacher"	73	"Yes good!"	"Yes good!"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 16:51:15	"teacher001"	"teacher"	74	"So it's not a percentage of coal you see?"	"So it's not a percentage of coal you see?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	9
+2020-01-30 16:51:36	"teacher001"	"teacher"	75	"it's a percentage of ELECTRICITY from different fuels"	"it's a percentage of ELECTRICITY from different fuels"	NA	NA	"scaffolding"	"task achievement"	NA	NA	8
+2020-01-30 16:51:55	"student005"	"student"	76	"yes now I have understood"	"yes now I have understood"	NA	NA	NA	NA	NA	NA	5
+2020-01-30 16:52:40	"teacher001"	"teacher"	77	"OK great! Can you try a different way of giving the same information e.g. Australia coal 1980 but this time starting with the number e.g. 50 units..."	"OK great! Can you try a different way of giving the same information e.g. Australia coal 1980 but this time starting with the number e.g. 50 units..."	NA	"5.0"	"scaffolding,eliciting"	"task achievement"	NA	NA	27
+2020-01-30 16:53:02	"teacher001"	"teacher"	78	"so 'Fifty units of...'"	"so 'Fifty units of...'"	NA	NA	"scaffolding,eliciting"	"task achievement"	NA	NA	4
+2020-01-30 16:55:08	"student005"	"student"	79	"50 units of electricity are produced by Australians from the use of coal"	"50 units of electricity are produced by Australians from the use of coal"	NA	NA	NA	NA	NA	NA	13
+2020-01-30 16:55:19	"teacher001"	"teacher"	80	"Yes good well done! hold on"	"Yes good well done! hold on"	NA	NA	NA	NA	NA	NA	6
+2020-01-30 16:55:51	"teacher001"	"teacher"	81	"so passive great yes but let's keep it in the past simple so...'were produced from'"	"so passive great yes but let's keep it in the past simple so...'were produced from'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-01-30 16:55:59	"student005"	"student"	82	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 16:56:34	"teacher001"	"teacher"	83	"what about beginning with the word 'coal'?!"	"what about beginning with the word 'coal'?!"	NA	"5a"	"scaffolding,eliciting"	"grammatical resource,task achievement"	NA	NA	7
+2020-01-30 16:56:49	"teacher001"	"teacher"	84	"so same information but different first word!"	"so same information but different first word!"	NA	NA	NA	NA	NA	NA	7
+2020-01-30 16:57:40	"student005"	"student"	85	"coal was used by Australian people to produce 50% of electricity"	"coal was used by Australian people to produce 50% of electricity"	NA	NA	NA	NA	NA	NA	11
+2020-01-30 16:58:09	"teacher001"	"teacher"	86	"yes that's very good <STUDENT>! hold on"	"yes that's very good <STUDENT>! hold on"	NA	NA	NA	NA	NA	NA	7
+2020-01-30 16:58:26	"student005"	"student"	87	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 16:58:42	"teacher001"	"teacher"	88	"so I don't know if you've  done this before...do you know the verb 'account for'?"	"so I don't know if you've  done this before...do you know the verb 'account for'?"	NA	"5b"	"presentation"	"lexical resource"	NA	NA	16
+2020-01-30 16:59:33	"student005"	"student"	89	"on account of"	"on account of"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 16:59:38	"student005"	"student"	90	"it is the same?"	"is it the same?"	NA	NA	NA	NA	NA	NA	4
+2020-01-30 17:00:38	"teacher001"	"teacher"	91	"ah! no, it's not the same... Ok well, when we have a proportion of a total (i.e. with pie charts) we can use it so....e.g. 'Coal accounted for...'"	"ah! no, it's not the same... Ok well, when we have a proportion of a total (i.e. with pie charts) we can use it so....e.g. 'Coal accounted for...'"	NA	NA	"presentation"	"lexical resource,grammatical resource"	NA	NA	28
+2020-01-30 17:00:48	"student005"	"student"	92	"is it the same?*"	"is it the same?*"	90	NA	"repair"	"grammatical resource"	NA	NA	4
+2020-01-30 17:00:50	"teacher001"	"teacher"	93	"Can you continue?"	"Can you continue?"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	3
+2020-01-30 17:01:51	"student005"	"student"	94	"accounted for electricity?"	"accounted for electricity?"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 17:02:03	"teacher001"	"teacher"	95	"Yes - what proportion?"	"Yes - what proportion?"	NA	NA	NA	NA	NA	NA	4
+2020-01-30 17:02:59	"teacher001"	"teacher"	96	"or percentage - same thing basically"	"or percentage - same thing basically"	NA	NA	NA	NA	NA	NA	6
+2020-01-30 17:03:17	"teacher001"	"teacher"	97	"not a trick question!"	"not a trick question!"	NA	NA	NA	NA	NA	NA	4
+2020-01-30 17:03:39	"student005"	"student"	98	"I can't explain the meaning but in Italian it is a very similar word so I know the meaning ahah"	"I can't explain the meaning but in Italian it is a very similar word so I know the meaning ahah"	91	NA	NA	NA	NA	NA	20
+2020-01-30 17:04:00	"student005"	"student"	99	"trust me"	"trust me"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 17:04:00	"teacher001"	"teacher"	100	"So...'Coal accounted for 50% of electricity production in Australia in 1980.'"	"So...'Coal accounted for 50% of electricity production in Australia in 1980.'"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	11
+2020-01-30 17:04:14	"teacher001"	"teacher"	101	"yes I  know what you mean about the Italian!"	"yes I  know what you mean about the Italian!"	99	NA	NA	NA	NA	NA	10
+2020-01-30 17:04:47	"teacher001"	"teacher"	102	"You can also the verb 'make up'  - hold on"	"You can also the verb 'make up'  - hold on"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-01-30 17:05:04	"teacher001"	"teacher"	103	"in your morning class how many students are there more or less?"	"in your morning class how many students are there more or less?"	NA	"5c"	"exercise"	"writing"	NA	NA	12
+2020-01-30 17:05:38	"student005"	"student"	104	"7 maybe"	"7 maybe"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 17:05:50	"teacher001"	"teacher"	105	"ok and how many male students?"	"ok and how many male students?"	NA	NA	NA	NA	NA	NA	6
+2020-01-30 17:06:35	"student005"	"student"	106	"5.0"	"5.0"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:07:06	"teacher001"	"teacher"	107	"OK so can you tell me that with the verb  'account for' and the word 'majority' for the proportion??"	"OK so can you tell me that with the verb  'account for' and the word 'majority' for the proportion??"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	20
+2020-01-30 17:08:47	"teacher001"	"teacher"	108	"you OK? Begin with the word 'males' - does that help?"	"you OK? Begin with the word 'males' - does that help?"	NA	NA	NA	NA	NA	NA	11
+2020-01-30 17:09:18	"student005"	"student"	109	"male students account for the majority of my morning class"	"male students account for the majority of my morning class"	NA	NA	NA	NA	NA	NA	10
+2020-01-30 17:09:24	"teacher001"	"teacher"	110	"Yes very good!"	"Yes very good!"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 17:10:27	"teacher001"	"teacher"	111	"So the total/title/subject  in a pie chart would be e.g. 'Students' so...the small category first e.g. Males followed by the account for followed by the total - OK?"	"So the total/title/subject  in a pie chart would be e.g. 'Students' so...the small category first e.g. Males followed by the account for followed by the total - OK?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	29
+2020-01-30 17:11:18	"teacher001"	"teacher"	112	"One last test: use the same structure to tell me about France Oil 1980 OK? A full sentence!"	"One last test: use the same structure to tell me about France Oil 1980 OK? A full sentence!"	NA	"5d"	"exercise"	"writing"	NA	NA	18
+2020-01-30 17:12:26	"student005"	"student"	113	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:12:30	"teacher001"	"teacher"	114	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:13:29	"student005"	"student"	115	"oil accounted for 20% of electricity production in France in 1980"	"oil accounted for 20% of electricity production in France in 1980"	NA	NA	NA	NA	NA	NA	11
+2020-01-30 17:13:40	"teacher001"	"teacher"	116	"Fanatastic!"	"Fanatastic!"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:13:55	"teacher001"	"teacher"	117	"You'd get a good score with that language"	"You'd get a good score with that language"	NA	NA	NA	NA	NA	NA	8
+2020-01-30 17:14:22	"student005"	"student"	118	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 17:14:29	"teacher001"	"teacher"	119	"One last thing before we finish..."	"One last thing before we finish..."	NA	"6.0"	"presentation"	"task achievement"	NA	NA	6
+2020-01-30 17:14:43	"student005"	"student"	120	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:15:33	"teacher001"	"teacher"	121	"So yuo can give the percentage = good but it's also good if you use other words to EXPLAIN what it means so e.g. can you say 'In 1980 coal was big in Australia'? is big the right word?"	"So yuo can give the percentage = good but it's also good if you use other words to EXPLAIN what it means so e.g. can you say 'In 1980 coal was big in Australia'? is big the right word?"	NA	NA	"presentation,eliciting"	"lexical resource,task achievement"	NA	NA	39
+2020-01-30 17:16:10	"student005"	"student"	122	"the majority"	"the majority"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 17:16:30	"teacher001"	"teacher"	123	"OK thanks good idea - but is it??"	"OK thanks good idea - but is it??"	NA	NA	NA	NA	NA	NA	8
+2020-01-30 17:16:38	"teacher001"	"teacher"	124	"50 out of 100?"	"50 out of 100?"	NA	NA	NA	NA	NA	NA	4
+2020-01-30 17:16:44	"student005"	"student"	125	"half"	"half"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:16:44	"teacher001"	"teacher"	126	"is that a mpjority?"	"is that a mpjority?"	124	NA	NA	NA	NA	NA	4
+2020-01-30 17:17:06	"teacher001"	"teacher"	127	"OK yes good half - that's good if you use fractions too and not just percentages"	"OK yes good half - that's good if you use fractions too and not just percentages"	125	NA	NA	NA	NA	NA	16
+2020-01-30 17:17:32	"teacher001"	"teacher"	128	"But also other adjectives....so can you change 'big' to another adjective?"	"But also other adjectives....so can you change 'big' to another adjective?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	11
+2020-01-30 17:17:33	"student005"	"student"	129	"yes thanks"	"yes thanks"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 17:18:21	"student005"	"student"	130	"you mean a synonym"	"you mean a synonym"	NA	NA	NA	NA	NA	NA	4
+2020-01-30 17:18:26	"student005"	"student"	131	"right?"	"right?"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:18:26	"teacher001"	"teacher"	132	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:18:29	"student005"	"student"	133	"huge"	"huge"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:18:32	"teacher001"	"teacher"	134	"in this context anyway"	"in this context anyway"	NA	NA	NA	NA	NA	NA	4
+2020-01-30 17:18:44	"student005"	"student"	135	"high"	"high"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:19:18	"teacher001"	"teacher"	136	"so huge is a good idea (bit 'emotional' for IELTS!) 'a high proportion' is a good phrase .."	"so huge is a good idea (bit 'emotional' for IELTS!) 'a high proportion' is a good phrase .."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-01-30 17:19:33	"teacher001"	"teacher"	137	"how about 'important/significant'?!"	"how about 'important/significant'?!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-01-30 17:19:42	"teacher001"	"teacher"	138	"sound good?"	"sound good?"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 17:20:15	"student005"	"student"	139	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-01-30 17:20:57	"teacher001"	"teacher"	140	"Yes I agree! So e.g. 'Coal was the most significant fuel in 1980 in Australia, producing 50% of electricity = very good OK?"	"Yes I agree! So e.g. 'Coal was the most significant fuel in 1980 in Australia, producing 50% of electricity = very good OK?"	NA	NA	"scaffolding"	"lexical resource,task achievement"	NA	NA	23
+2020-01-30 17:21:51	"student005"	"student"	141	"yes crystal clear"	"yes crystal clear"	NA	NA	NA	NA	NA	NA	3
+2020-01-30 17:22:12	"teacher001"	"teacher"	142	"OK nice phrase! thanks a lot <STUDENT> - I'll speak to you tomorrow about more lessons OK?"	"OK nice phrase! thanks a lot <STUDENT> - I'll speak to you tomorrow about more lessons OK?"	NA	"7.0"	"closing"	NA	NA	NA	17
+2020-01-30 17:22:52	"student005"	"student"	143	"yes, sure"	"yes, sure"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 17:22:59	"teacher001"	"teacher"	144	"bye bye"	"bye bye"	NA	NA	NA	NA	NA	NA	2
+2020-01-30 17:23:01	"student005"	"student"	145	"thank you very much"	"thank you very much"	NA	NA	NA	NA	NA	NA	4
+2020-01-30 17:23:07	"student005"	"student"	146	"byeee"	"bye"	NA	NA	NA	NA	NA	"B2"	1
