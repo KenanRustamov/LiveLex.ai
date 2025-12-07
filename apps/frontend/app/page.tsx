@@ -3,7 +3,6 @@
 import { useSession } from "next-auth/react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import MobileShell from "@/components/MobileShell";
 import LandingPage from "@/components/LandingPage";
 import { Loader2 } from "lucide-react";
 
@@ -29,7 +28,7 @@ export default function HomePage() {
               router.replace('/teacher');
             } else {
               // Student
-              setRoleChecked(true);
+              router.replace('/student');
             }
           } else if (res.status === 404) {
             // User authenticated in frontend but missing in backend.
@@ -64,13 +63,13 @@ export default function HomePage() {
     checkRole();
   }, [status, session, router]);
 
-  if (status === "loading" || (status === "authenticated" && !roleChecked && !isTeacher)) {
+  if (status === "loading" || (status === "authenticated" && !roleChecked)) {
     return <div className="min-h-screen flex items-center justify-center"><Loader2 className="animate-spin w-8 h-8 text-primary" /></div>;
   }
 
-  if (status === "authenticated" && roleChecked && !isTeacher) {
-    return <MobileShell />;
-  }
+  // If we are here and authenticated + roleChecked, we should have redirected already. 
+  // We return null to avoid flash before redirect completes.
+  if (status === "authenticated") return null;
 
   // If teacher, we redirect, but return null/loader briefly to prevent flash
   if (isTeacher) return null;
