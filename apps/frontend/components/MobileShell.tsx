@@ -15,7 +15,7 @@ export default function MobileShell() {
     () => process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000',
     []
   );
-  const [tab, setTab] = useState<'camera' | 'profile' | 'analytics' | 'assignments'>('camera'); // default to camera
+  const [tab, setTab] = useState<'camera' | 'profile' | 'analytics' | 'assignments'>('analytics'); // default to analytics (now stats)
 
   const { data: session } = useSession();
   const [username, setUsername] = useState(session?.user?.name || session?.user?.email || 'User');
@@ -149,7 +149,7 @@ export default function MobileShell() {
         <div className="mx-auto w-full px-4 py-6 space-y-4">
           {tab === 'camera' && <CameraView key={JSON.stringify(settings)} settings={settings} username={username} />}
 
-          {tab === 'analytics' && <AnalyticsView username={username} backendUrl={backendUrl} />}
+          {tab === 'analytics' && <AnalyticsView username={username} backendUrl={backendUrl} onNavigate={(nextView) => setTab(nextView as 'camera' | 'profile' | 'analytics' | 'assignments')}/>}
 
           {tab === 'assignments' && (
             <Card>
@@ -309,9 +309,8 @@ export default function MobileShell() {
 
       <nav className="sticky bottom-0 bg-white/80 backdrop-blur border-t">
         <div className="mx-auto max-w-md w-full px-6 py-3 flex items-center justify-between gap-1 overflow-x-auto">
-          {tabBtn('camera', 'Camera')}
           {tabBtn('assignments', 'Tasks')}
-          {tabBtn('analytics', 'Stats')}
+          {tabBtn('analytics', 'Dashboard')}
           {tabBtn('profile', 'Profile')}
         </div>
       </nav>
