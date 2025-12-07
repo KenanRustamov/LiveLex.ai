@@ -10,10 +10,12 @@ export default function LandingPage() {
         <div className="min-h-screen bg-gradient-to-b from-background to-muted flex flex-col">
             <header className="px-6 py-4 flex justify-between items-center">
                 <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">
-                        L
-                    </div>
-                    <span className="font-bold text-xl tracking-tight">LiveLex.ai</span>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                        src="/logo.png"
+                        alt="LiveLex Logo"
+                        className="h-10 w-auto rounded-md object-contain"
+                    />
                 </div>
                 <Button variant="ghost" size="sm" onClick={() => signIn('google')}>
                     Sign in

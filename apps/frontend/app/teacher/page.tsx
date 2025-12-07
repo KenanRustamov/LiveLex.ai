@@ -24,9 +24,10 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Loader2, Plus } from 'lucide-react';
+import { Loader2, Plus, Trophy, Activity, AlertCircle, CheckCircle } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import AnalyticsView from '@/components/AnalyticsView';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 export default function TeacherDashboard() {
     const { data: session } = useSession();
@@ -57,7 +58,7 @@ export default function TeacherDashboard() {
                         setTeacherCode(data.teacher_code);
                     }
 
-                    // Fetch students
+                    // Fetch students (now includes stats)
                     const resStudents = await fetch(`${backendUrl}/v1/auth/teacher/students?email=${session.user.email}`);
                     if (resStudents.ok) {
                         const studentsData = await resStudents.json();
@@ -130,149 +131,214 @@ export default function TeacherDashboard() {
     };
 
     if (loading) {
-        return <div className="min-h-screen flex items-center justify-center"><Loader2 className="animate-spin" /></div>;
+        return <div className="min-h-screen flex items-center justify-center"><Loader2 className="animate-spin text-primary" /></div>;
     }
 
     return (
-        <div className="min-h-screen bg-background p-8">
-            <div className="max-w-4xl mx-auto space-y-6">
-                <header className="flex justify-between items-center mb-8">
-                    <div>
-                        <h1 className="text-3xl font-bold text-foreground">Teacher Dashboard</h1>
-                        <p className="text-muted-foreground">Manage your classroom and students.</p>
-                    </div>
-                    <DropdownMenu>
-                        <DropdownMenuTrigger asChild>
-                            <div className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
-                                <Avatar className="w-10 h-10 border border-border">
-                                    <AvatarImage src={session?.user?.image || ''} alt={session?.user?.name || ''} />
-                                    <AvatarFallback className="bg-primary/10 text-primary font-bold">
-                                        {session?.user?.name?.[0] || 'T'}
-                                    </AvatarFallback>
-                                </Avatar>
-                                <div className="text-sm">
-                                    <p className="font-medium">{session?.user?.name}</p>
-                                    <p className="text-xs text-muted-foreground">Teacher</p>
-                                </div>
-                            </div>
-                        </DropdownMenuTrigger>
-                        <DropdownMenuContent align="end">
-                            <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                            <DropdownMenuSeparator />
-                            <DropdownMenuItem onClick={() => signOut({ callbackUrl: '/' })}>
-                                Log out
-                            </DropdownMenuItem>
-                        </DropdownMenuContent>
-                    </DropdownMenu>
-                </header>
-
-                <Card>
-                    <CardHeader>
-                        <CardTitle>Class Information</CardTitle>
-                        <CardDescription>Share this code with your students to have them join your class.</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                        <div className="p-6 bg-primary/5 border rounded-lg flex flex-col items-center justify-center text-center">
-                            <p className="text-sm font-medium text-muted-foreground uppercase tracking-wide mb-2">Your Class Code</p>
-                            <div className="text-4xl font-mono font-bold text-primary tracking-widest">
-                                {teacherCode || "Loading..."}
-                            </div>
+        <div className="min-h-screen bg-secondary/30 p-8 font-sans">
+            <div className="max-w-6xl mx-auto">
+                <Tabs defaultValue="dashboard" className="space-y-8">
+                    {/* Header with Logo, Navigation, Facepile, Profile */}
+                    <header className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
+                        <div className="flex items-center gap-6">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                            <img
+                                src="/logo.png"
+                                alt="LiveLex"
+                                className="h-10 w-auto object-contain"
+                            />
+                            <nav className="hidden md:flex items-center bg-white rounded-full px-1 py-1 shadow-sm">
+                                <TabsList className="bg-transparent">
+                                    <TabsTrigger value="dashboard" className="rounded-full data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">Dashboard</TabsTrigger>
+                                    <TabsTrigger value="assignments" className="rounded-full data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">Assignments</TabsTrigger>
+                                </TabsList>
+                            </nav>
                         </div>
-                    </CardContent>
-                </Card>
 
-                <Card className="mb-6">
-                    <CardHeader>
-                        <CardTitle>Class Analytics</CardTitle>
-                        <CardDescription>Aggregate performance across all students.</CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                        {!classAnalytics ? (
-                            <div className="text-sm text-muted-foreground">Loading analytics...</div>
-                        ) : (
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                <div className="text-center p-4 bg-muted/30 rounded-lg">
-                                    <div className="text-2xl font-bold">{classAnalytics.overall_accuracy}%</div>
-                                    <div className="text-xs text-muted-foreground uppercase tracking-wide mt-1">Class Accuracy</div>
-                                </div>
-                                <div className="text-center p-4 bg-muted/30 rounded-lg">
-                                    <div className="text-2xl font-bold">{classAnalytics.total_words_practiced}</div>
-                                    <div className="text-xs text-muted-foreground uppercase tracking-wide mt-1">Words Practiced</div>
-                                </div>
-                                <div className="col-span-1 md:col-span-1">
-                                    <h4 className="font-semibold text-sm mb-2">Struggling Words</h4>
-                                    {classAnalytics.struggling_words.length === 0 ? (
-                                        <p className="text-xs text-muted-foreground">No words below 100% yet!</p>
-                                    ) : (
-                                        <div className="space-y-1">
-                                            {classAnalytics.struggling_words.map((w: any) => (
-                                                <div key={w.word} className="flex justify-between text-sm">
-                                                    <span className="font-medium">{w.word}</span>
-                                                    <span className="text-red-500">{w.accuracy}%</span>
-                                                </div>
-                                            ))}
+                        <div className="flex items-center gap-4">
+                            {/* Class Info / Facepile */}
+                            <div className="hidden md:flex items-center gap-3 bg-white px-4 py-2 rounded-full shadow-sm">
+                                <span className="text-sm font-semibold text-muted-foreground mr-2">Class {teacherCode}</span>
+                                <div className="flex -space-x-2">
+                                    {students.slice(0, 5).map((s, i) => (
+                                        <Avatar key={i} className="border-2 border-white w-8 h-8">
+                                            <AvatarImage src={s.profile_image} />
+                                            <AvatarFallback className="text-[10px]">{s.name?.[0]}</AvatarFallback>
+                                        </Avatar>
+                                    ))}
+                                    {students.length > 5 && (
+                                        <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center text-[10px] font-medium border-2 border-white">
+                                            +{students.length - 5}
                                         </div>
                                     )}
                                 </div>
                             </div>
-                        )}
-                    </CardContent>
-                </Card>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <Card>
-                        <CardHeader>
-                            <CardTitle>Students</CardTitle>
-                            <CardDescription>Overview of enrolled students.</CardDescription>
-                        </CardHeader>
-                        <CardContent className="min-h-[160px]">
-                            {students.length === 0 ? (
-                                <div className="h-full flex items-center justify-center text-muted-foreground text-sm">
-                                    No students enrolled yet.
-                                </div>
-                            ) : (
-                                <div className="space-y-4">
-                                    {students.map((student, idx) => (
-                                        <div
-                                            key={idx}
-                                            className="flex items-center gap-3 p-2 hover:bg-muted/50 rounded-lg cursor-pointer transition-colors"
-                                            onClick={() => setSelectedStudent(student)}
-                                        >
-                                            <Avatar className="w-8 h-8">
-                                                <AvatarImage src={student.profile_image} />
-                                                <AvatarFallback>{student.name?.[0]}</AvatarFallback>
-                                            </Avatar>
-                                            <div>
-                                                <p className="text-sm font-medium">{student.name}</p>
-                                                <p className="text-xs text-muted-foreground">{student.email}</p>
-                                            </div>
+                            {/* User Menu */}
+                            <DropdownMenu>
+                                <DropdownMenuTrigger asChild>
+                                    <Avatar className="w-10 h-10 border border-border cursor-pointer">
+                                        <AvatarImage src={session?.user?.image || ''} />
+                                        <AvatarFallback>{session?.user?.name?.[0]}</AvatarFallback>
+                                    </Avatar>
+                                </DropdownMenuTrigger>
+                                <DropdownMenuContent align="end">
+                                    <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                                    <DropdownMenuSeparator />
+                                    <DropdownMenuItem onClick={() => signOut({ callbackUrl: '/' })}>
+                                        Log out
+                                    </DropdownMenuItem>
+                                </DropdownMenuContent>
+                            </DropdownMenu>
+                        </div>
+                    </header>
+
+                    {/* Mobile Tabs (visible only on small screens) */}
+                    <div className="md:hidden">
+                        <TabsList className="grid w-full grid-cols-2">
+                            <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
+                            <TabsTrigger value="assignments">Assignments</TabsTrigger>
+                        </TabsList>
+                    </div>
+
+                    <TabsContent value="dashboard" className="space-y-8 animate-in fade-in-50 duration-500">
+                        {/* Metrics Row */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {/* Overall Class Score */}
+                            <Card className="col-span-1 rounded-[2rem] border-none shadow-sm overflow-hidden relative">
+                                <CardContent className="p-8 flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-muted-foreground font-medium mb-1">Overall Class Score</h3>
+                                        <div className="text-5xl font-bold text-foreground">
+                                            {classAnalytics?.overall_accuracy ?? 0}%
                                         </div>
-                                    ))}
-                                </div>
-                            )}
-                        </CardContent>
-                    </Card>
-                    <Card>
-                        <CardHeader className="flex flex-row items-center justify-between pb-2">
-                            <div className="space-y-1">
-                                <CardTitle>Assignments</CardTitle>
-                                <CardDescription>Manage vocabulary lists.</CardDescription>
+                                        <p className="text-sm text-muted-foreground mt-2">Grade average {classAnalytics?.overall_accuracy ?? 0}%</p>
+                                    </div>
+                                    <div className="h-24 w-24 bg-green-100 rounded-full flex items-center justify-center text-green-600">
+                                        <Trophy size={48} />
+                                    </div>
+                                </CardContent>
+                            </Card>
+
+                            {/* Work Assigned / Words Practiced */}
+                            <Card className="col-span-1 rounded-[2rem] border-none shadow-sm">
+                                <CardContent className="p-8 flex items-center justify-between">
+                                    <div>
+                                        <h3 className="text-muted-foreground font-medium mb-1">Work Assigned</h3>
+                                        <div className="text-5xl font-bold text-foreground">
+                                            {assignments.length}
+                                        </div>
+                                        <p className="text-sm text-muted-foreground mt-2">{classAnalytics?.total_words_practiced ?? 0} words practiced</p>
+                                    </div>
+                                    <div className="h-24 w-24 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600">
+                                        <Activity size={48} />
+                                    </div>
+                                </CardContent>
+                            </Card>
+
+                            {/* Struggling Insight */}
+                            <Card className="col-span-1 border-none shadow-sm rounded-[2rem] bg-orange-50">
+                                <CardHeader className="pb-2">
+                                    <CardTitle className="text-orange-900 text-lg">Needs Attention</CardTitle>
+                                </CardHeader>
+                                <CardContent>
+                                    {classAnalytics?.struggling_words?.length > 0 ? (
+                                        <div className="space-y-3">
+                                            {classAnalytics.struggling_words.slice(0, 3).map((w: any, i: number) => (
+                                                <div key={i} className="flex justify-between items-center bg-white p-2 rounded-xl">
+                                                    <span className="font-medium text-orange-900 px-2">{w.word}</span>
+                                                    <span className="font-bold text-orange-600 px-2">{w.accuracy}%</span>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    ) : (
+                                        <div className="flex flex-col items-center justify-center h-24 text-orange-400">
+                                            <CheckCircle className="mb-2" />
+                                            <span className="text-sm">Class is doing great!</span>
+                                        </div>
+                                    )}
+                                </CardContent>
+                            </Card>
+                        </div>
+
+                        {/* Students Proficiency Table */}
+                        <div>
+                            <div className="flex justify-between items-center mb-4 px-2">
+                                <h2 className="text-xl font-bold text-foreground">Students Proficiency</h2>
+                                <span className="text-sm text-muted-foreground">All Strands</span>
                             </div>
-                            <Dialog open={isDetailsOpen} onOpenChange={setIsDetailsOpen}>
-                                <DialogTrigger asChild>
-                                    <Button size="sm" className="h-8 w-8 p-0">
-                                        <Plus className="h-4 w-4" />
-                                        <span className="sr-only">Create Assignment</span>
-                                    </Button>
-                                </DialogTrigger>
-                                <DialogContent>
-                                    <DialogHeader>
-                                        <DialogTitle>Create New Assignment</DialogTitle>
-                                        <DialogDescription>
-                                            Create a vocabulary list for your students to practice.
-                                        </DialogDescription>
-                                    </DialogHeader>
-                                    <div className="space-y-4 py-4">
+
+                            <div className="bg-white rounded-[2rem] shadow-sm overflow-hidden p-6">
+                                <table className="w-full">
+                                    <thead>
+                                        <tr className="text-left text-sm text-muted-foreground border-b border-gray-100">
+                                            <th className="pb-4 font-medium pl-4">Full Name</th>
+                                            <th className="pb-4 font-medium">Work Completed</th>
+                                            <th className="pb-4 font-medium">Average Score</th>
+                                            <th className="pb-4 font-medium">Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody className="divide-y divide-gray-50">
+                                        {students.length === 0 ? (
+                                            <tr>
+                                                <td colSpan={4} className="py-8 text-center text-muted-foreground">No students found.</td>
+                                            </tr>
+                                        ) : (
+                                            students.map((student, i) => {
+                                                const score = student.average_score || 0;
+                                                const statusColor = score >= 80 ? 'text-green-600 bg-green-50' : score >= 50 ? 'text-yellow-600 bg-yellow-50' : 'text-red-600 bg-red-50';
+                                                const statusText = score >= 80 ? 'Mastered' : score >= 50 ? 'Working Towards' : 'Needing Attention';
+
+                                                return (
+                                                    <tr
+                                                        key={i}
+                                                        className="group hover:bg-gray-50 transition-colors cursor-pointer"
+                                                        onClick={() => setSelectedStudent(student)}
+                                                    >
+                                                        <td className="py-4 pl-4">
+                                                            <div className="flex items-center gap-3">
+                                                                <Avatar className="h-10 w-10 border border-gray-100">
+                                                                    <AvatarImage src={student.profile_image} />
+                                                                    <AvatarFallback>{student.name?.[0]}</AvatarFallback>
+                                                                </Avatar>
+                                                                <span className="font-semibold text-gray-700 group-hover:text-primary transition-colors">{student.name}</span>
+                                                            </div>
+                                                        </td>
+                                                        <td className="py-4 text-gray-600 font-medium">
+                                                            {student.words_practiced} / {classAnalytics?.total_words_practiced || '?'} words
+                                                        </td>
+                                                        <td className="py-4">
+                                                            <div className="flex items-center gap-2">
+                                                                <div className="w-16 bg-gray-100 rounded-full h-2 overflow-hidden">
+                                                                    <div className={`h-full ${score >= 80 ? 'bg-green-500' : score >= 50 ? 'bg-yellow-500' : 'bg-red-500'}`} style={{ width: `${score}%` }}></div>
+                                                                </div>
+                                                                <span className="font-bold text-gray-700">{score}%</span>
+                                                            </div>
+                                                        </td>
+                                                        <td className="py-4">
+                                                            <span className={`px-3 py-1 rounded-full text-xs font-bold ${statusColor}`}>
+                                                                {statusText}
+                                                            </span>
+                                                        </td>
+                                                    </tr>
+                                                );
+                                            })
+                                        )}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </TabsContent>
+
+                    <TabsContent value="assignments" className="animate-in fade-in-50 duration-500">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <Card className="rounded-[2rem] border-none shadow-sm">
+                                <CardHeader>
+                                    <CardTitle>Create Assignment</CardTitle>
+                                    <CardDescription>Create a new vocabulary list.</CardDescription>
+                                </CardHeader>
+                                <CardContent>
+                                    <div className="space-y-4">
                                         <div className="space-y-2">
                                             <Label htmlFor="title">Title</Label>
                                             <Input
@@ -280,52 +346,68 @@ export default function TeacherDashboard() {
                                                 placeholder="e.g., Week 1 Vocabulary"
                                                 value={newAssignmentTitle}
                                                 onChange={(e) => setNewAssignmentTitle(e.target.value)}
+                                                className="rounded-xl"
                                             />
                                         </div>
                                         <div className="space-y-2">
-                                            <Label htmlFor="words">Words/Phrases (one per line)</Label>
+                                            <Label htmlFor="words">Words (one per line)</Label>
                                             <Textarea
                                                 id="words"
-                                                placeholder="Hola&#10;Gracias&#10;Buenos dias"
+                                                placeholder="Hola&#10;Gracias"
                                                 value={newAssignmentWords}
                                                 onChange={(e) => setNewAssignmentWords(e.target.value)}
-                                                className="min-h-[100px]"
+                                                className="min-h-[150px] rounded-xl"
                                             />
                                         </div>
-                                    </div>
-                                    <DialogFooter>
-                                        <Button onClick={handleCreateAssignment} disabled={creating}>
-                                            {creating ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : null}
-                                            Create
+                                        <Button
+                                            onClick={handleCreateAssignment}
+                                            disabled={creating}
+                                            className="w-full rounded-xl h-12 text-md"
+                                        >
+                                            {creating ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : <Plus className="mr-2 h-4 w-4" />}
+                                            Create Assignment
                                         </Button>
-                                    </DialogFooter>
-                                </DialogContent>
-                            </Dialog>
-                        </CardHeader>
-                        <CardContent className="min-h-[160px]">
-                            {assignments.length === 0 ? (
-                                <div className="h-full flex items-center justify-center text-muted-foreground text-sm">
-                                    No active assignments.
-                                </div>
-                            ) : (
-                                <div className="space-y-3">
-                                    {assignments.map((assignment: any) => (
-                                        <div key={assignment.id} className="p-3 border rounded-lg bg-muted/40">
-                                            <div className="flex justify-between items-start">
-                                                <div>
-                                                    <h3 className="font-medium text-sm">{assignment.title}</h3>
-                                                    <p className="text-xs text-muted-foreground mt-1">
-                                                        {assignment.words.length} words • {new Date(assignment.created_at).toLocaleDateString()}
-                                                    </p>
-                                                </div>
-                                            </div>
+                                    </div>
+                                </CardContent>
+                            </Card>
+
+                            <Card className="rounded-[2rem] border-none shadow-sm">
+                                <CardHeader>
+                                    <CardTitle>Active Assignments</CardTitle>
+                                    <CardDescription>Manage your class lists.</CardDescription>
+                                </CardHeader>
+                                <CardContent>
+                                    {assignments.length === 0 ? (
+                                        <div className="h-40 flex items-center justify-center text-muted-foreground text-sm border-2 border-dashed rounded-xl">
+                                            No active assignments.
                                         </div>
-                                    ))}
-                                </div>
-                            )}
-                        </CardContent>
-                    </Card>
-                </div>
+                                    ) : (
+                                        <div className="space-y-3">
+                                            {assignments.map((assignment: any) => (
+                                                <div key={assignment.id} className="p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow">
+                                                    <div className="flex justify-between items-start">
+                                                        <div>
+                                                            <h3 className="font-bold text-gray-800">{assignment.title}</h3>
+                                                            <p className="text-sm text-muted-foreground mt-1">
+                                                                {assignment.words.length} words • {new Date(assignment.created_at).toLocaleDateString()}
+                                                            </p>
+                                                            <div className="flex gap-1 mt-2 flex-wrap">
+                                                                {assignment.words.slice(0, 5).map((w: string, i: number) => (
+                                                                    <span key={i} className="text-xs bg-secondary px-2 py-1 rounded-full text-secondary-foreground">{w}</span>
+                                                                ))}
+                                                                {assignment.words.length > 5 && <span className="text-xs text-muted-foreground pl-1">+{assignment.words.length - 5} more</span>}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </TabsContent>
+                </Tabs>
             </div>
 
             {/* Student Analytics Modal */}
@@ -347,3 +429,4 @@ export default function TeacherDashboard() {
         </div>
     );
 }
+

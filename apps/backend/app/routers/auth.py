@@ -151,15 +151,34 @@ async def get_teacher_students(email: str):
     # Find students linked to this teacher
     students = await UserDataDoc.find(UserDataDoc.teacher_id == str(teacher.id)).to_list()
     
-    return [
-        {
+    response = []
+    for s in students:
+        # Calculate stats
+        objects = s.objects or {}
+        total_correct = 0
+        total_incorrect = 0
+        words_practiced = len(objects)
+        
+        for stats in objects.values():
+            total_correct += int(stats.get("correct", 0))
+            total_incorrect += int(stats.get("incorrect", 0))
+            
+        total_attempts = total_correct + total_incorrect
+        accuracy = 0
+        if total_attempts > 0:
+            accuracy = round((total_correct / total_attempts) * 100, 1)
+            
+        response.append({
             "name": s.name,
             "username": s.username,
             "email": s.email,
-            "profile_image": s.profile_image
-        }
-        for s in students
-    ]
+            "profile_image": s.profile_image,
+            "average_score": accuracy,
+            "words_practiced": words_practiced,
+            "total_attempts": total_attempts
+        })
+    
+    return response
 
 @router.get("/auth/teacher/analytics")
 async def get_class_analytics(email: str):
