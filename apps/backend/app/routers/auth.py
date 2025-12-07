@@ -151,11 +151,96 @@ async def get_teacher_students(email: str):
     # Find students linked to this teacher
     students = await UserDataDoc.find(UserDataDoc.teacher_id == str(teacher.id)).to_list()
     
-    return [
-        {
+    response = []
+    for s in students:
+        # Calculate stats
+        objects = s.objects or {}
+        total_correct = 0
+        total_incorrect = 0
+        words_practiced = len(objects)
+        
+        for stats in objects.values():
+            total_correct += int(stats.get("correct", 0))
+            total_incorrect += int(stats.get("incorrect", 0))
+            
+        total_attempts = total_correct + total_incorrect
+        accuracy = 0
+        if total_attempts > 0:
+            accuracy = round((total_correct / total_attempts) * 100, 1)
+            
+        response.append({
             "name": s.name,
+            "username": s.username,
             "email": s.email,
-            "profile_image": s.profile_image
-        }
-        for s in students
-    ]
+            "profile_image": s.profile_image,
+            "average_score": accuracy,
+            "words_practiced": words_practiced,
+            "total_attempts": total_attempts
+        })
+    
+    return response
+
+@router.get("/auth/teacher/analytics")
+async def get_class_analytics(email: str):
+    """Get aggregate analytics for the teacher's class."""
+    if not email:
+        raise HTTPException(status_code=400, detail="Email is required")
+        
+    teacher = await UserDataDoc.find_one(UserDataDoc.email == email)
+    if not teacher:
+        raise HTTPException(status_code=404, detail="Teacher not found")
+        
+    # Get all students
+    students = await UserDataDoc.find(UserDataDoc.teacher_id == str(teacher.id)).to_list()
+    
+    total_correct = 0
+    total_incorrect = 0
+    word_stats = {}  # {word: {correct: 0, incorrect: 0}}
+    
+    for student in students:
+        objects = student.objects or {}
+        for obj_name, stats in objects.items():
+            correct = int(stats.get("correct", 0))
+            incorrect = int(stats.get("incorrect", 0))
+            
+            # Global totals
+            total_correct += correct
+            total_incorrect += incorrect
+            
+            # Word stats
+            correct_word = stats.get("correct_word", obj_name)
+            if correct_word not in word_stats:
+                word_stats[correct_word] = {"correct": 0, "incorrect": 0}
+            word_stats[correct_word]["correct"] += correct
+            word_stats[correct_word]["incorrect"] += incorrect
+            
+    # Calculate overall accuracy
+    total_attempts = total_correct + total_incorrect
+    overall_accuracy = 0
+    if total_attempts > 0:
+        overall_accuracy = round((total_correct / total_attempts) * 100, 1)
+        
+    # Find difficult words (min 3 attempts to be significant)
+    words_list = []
+    for word, stats in word_stats.items():
+        w_correct = stats["correct"]
+        w_incorrect = stats["incorrect"]
+        w_total = w_correct + w_incorrect
+        
+        if w_total >= 3:
+            w_accuracy = (w_correct / w_total) * 100
+            words_list.append({
+                "word": word,
+                "accuracy": round(w_accuracy, 1),
+                "attempts": w_total
+            })
+            
+    # Sort by accuracy ascending (lowest first)
+    words_list.sort(key=lambda x: x["accuracy"])
+    
+    return {
+        "overall_accuracy": overall_accuracy,
+        "total_words_practiced": len(word_stats),
+        "total_attempts": total_attempts,
+        "struggling_words": words_list[:5]  # Top 5 hardest
+    }

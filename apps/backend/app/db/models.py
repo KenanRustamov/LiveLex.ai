@@ -1,9 +1,8 @@
-from __future__ import annotations
-from typing import Optional, Any
 from datetime import datetime
 from pydantic import Field
 from beanie import Document
 from app.schemas.plan import Plan
+from typing import Optional, Any, List, Dict
 
 
 class SessionDoc(Document):
@@ -24,15 +23,48 @@ class UserDataDoc(Document):
     email: Optional[str] = None
     name: Optional[str] = None
     profile_image: Optional[str] = None
-    role: Optional[str] = None  # "teacher" or "student"
-    teacher_code: Optional[str] = None
-    enrolled_class_code: Optional[str] = None
-    teacher_id: Optional[str] = None # ID of the teacher if student
-    objects: dict[str, dict[str, Any]] = Field(default_factory=dict)
-    sessions: list[dict[str, Any]] = Field(default_factory=list)
+    role: Optional[str] = None    # Teacher/Class fields
+    teacher_id: Optional[str] = None  # Reference to the teacher's UserDataDoc.id
+    class_code: Optional[str] = None  # For students: the code they joined
+    teacher_code: Optional[str] = None # For teachers: the code they own
+    
+    # Scene Progress: { "scene_id": ["apple", "spoon"] }
+    # Words discovered by the student in a specific scene (unique to them)
+    discovered_scene_words: Dict[str, List[str]] = {}
 
     class Settings:
         name = "user_data"
+
+
+class SceneDoc(Document):
+    name: str
+    description: str
+    teacher_id: str
+    image_url: Optional[str] = None
+    
+    # Words added by the teacher (Target Vocabulary)
+    # These might or might not exist in the student's vicinity.
+    teacher_words: List[str] = []
+    
+    class Settings:
+        name = "scenes"
+
+
+class AssignmentDoc(Document):
+    email: str # Teacher's email
+    title: str
+    words: List[str]
+    created_at: str
+    
+    # Optional link to a scene
+    scene_id: Optional[str] = None
+    
+    # Dynamic Content
+    # "Practice these words + 3 of your own discoveries"
+    include_discovered_count: int = 0
+    
+    class Settings:
+        name = "assignments"
         indexes = ["username"]
 
 
@@ -51,14 +83,6 @@ class PerformanceMetricDoc(Document):
         indexes = ["session_id", "username", "operation_type", "timestamp"]
 
 
-class AssignmentDoc(Document):
-    title: str
-    words: list[str] = Field(default_factory=list)
-    teacher_id: str
-    created_at: datetime = Field(default_factory=datetime.utcnow)
 
-    class Settings:
-        name = "assignments"
-        indexes = ["teacher_id"]
 
 

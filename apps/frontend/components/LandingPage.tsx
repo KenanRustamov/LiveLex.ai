@@ -7,13 +7,15 @@ import { Chrome } from 'lucide-react';
 
 export default function LandingPage() {
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex flex-col">
+        <div className="min-h-screen bg-gradient-to-b from-background to-muted flex flex-col">
             <header className="px-6 py-4 flex justify-between items-center">
                 <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">
-                        L
-                    </div>
-                    <span className="font-bold text-xl tracking-tight">LiveLex.ai</span>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                        src="/logo.png"
+                        alt="LiveLex Logo"
+                        className="h-10 w-auto rounded-md object-contain"
+                    />
                 </div>
                 <Button variant="ghost" size="sm" onClick={() => signIn('google')}>
                     Sign in
@@ -22,7 +24,7 @@ export default function LandingPage() {
 
             <main className="flex-1 flex flex-col items-center justify-center p-4 text-center space-y-8 animate-in fade-in zoom-in duration-500">
                 <div className="max-w-2xl space-y-4">
-                    <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100">
+                    <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-foreground">
                         Learn languages naturally with <span className="text-primary">AI</span>
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-lg mx-auto">
