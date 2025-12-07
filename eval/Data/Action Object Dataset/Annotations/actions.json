@@ -1,0 +1,560 @@
+[
+  {
+    "example_id": "scene_001_thermometer_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/thermometer_1.png",
+    "target_object_id": "scene_001_thermometer",
+    "prompt_en": "Pick up the thermometer.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_keyboard_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/keyboard_1.png",
+    "target_object_id": "scene_001_keyboard",
+    "prompt_en": "Pick up the keyboard.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_mouse_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/mouse_1.png",
+    "target_object_id": "scene_001_mouse",
+    "prompt_en": "Pick up the mouse.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_chips_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/chips_1.png",
+    "target_object_id": "scene_001_chips",
+    "prompt_en": "Pick up the chips.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_fruitcup_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/fruitcup_1.png",
+    "target_object_id": "scene_001_fruit_cup",
+    "prompt_en": "Pick up the fruit cup.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_tape_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/tape_1.png",
+    "target_object_id": "scene_001_tape",
+    "prompt_en": "Pick up the tape.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_watch_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/watch_1.png",
+    "target_object_id": "scene_001_watch",
+    "prompt_en": "Pick up the watch.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_headphones_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/headphones_1.png",
+    "target_object_id": "scene_001_headphones",
+    "prompt_en": "Pick up the headphones.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_lock_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/lock_1.png",
+    "target_object_id": "scene_001_lock",
+    "prompt_en": "Pick up the lock.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_bracelet_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/bracelet_1.png",
+    "target_object_id": "scene_001_bracelet",
+    "prompt_en": "Pick up the bracelet.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_laptop_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/laptop_1.png",
+    "target_object_id": "scene_001_laptop",
+    "prompt_en": "Pick up the laptop.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_001_wallet_pickup",
+    "scene_id": "scene_001",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/wallet_1.png",
+    "target_object_id": "scene_001_wallet",
+    "prompt_en": "Pick up the wallet.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_002_pasta_pickup",
+    "scene_id": "scene_002",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_2_cooking.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/pasta_2.png",
+    "target_object_id": "scene_002_pasta",
+    "prompt_en": "Pick up the pasta box.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_002_lemonjuice_pickup",
+    "scene_id": "scene_002",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_2_cooking.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/lemonjuice_2.png",
+    "target_object_id": "scene_002_lemon_juice",
+    "prompt_en": "Pick up the lemon juice.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_002_alfredo_pickup",
+    "scene_id": "scene_002",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_2_cooking.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/alfredo_2.png",
+    "target_object_id": "scene_002_alfredo",
+    "prompt_en": "Pick up the alfredo sauce.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_002_peanutbutter_pickup",
+    "scene_id": "scene_002",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_2_cooking.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/peanutbutter_2.png",
+    "target_object_id": "scene_002_peanut_butter",
+    "prompt_en": "Pick up the peanut butter.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_002_tomatosauce_pickup",
+    "scene_id": "scene_002",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_2_cooking.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/tomatosauce_2.png",
+    "target_object_id": "scene_002_tomato_sauce",
+    "prompt_en": "Pick up the tomato sauce.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_002_honey_pickup",
+    "scene_id": "scene_002",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_2_cooking.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/honey_2.png",
+    "target_object_id": "scene_002_honey",
+    "prompt_en": "Pick up the honey.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_003_salt_pickup",
+    "scene_id": "scene_003",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_3_condiments.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/salt_3.png",
+    "target_object_id": "scene_003_salt",
+    "prompt_en": "Pick up the salt.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_003_oliveoil_pickup",
+    "scene_id": "scene_003",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_3_condiments.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/oliveoil_3.png",
+    "target_object_id": "scene_003_olive_oil",
+    "prompt_en": "Pick up the olive oil.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_003_sugar_pickup",
+    "scene_id": "scene_003",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_3_condiments.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/sugar_3.png",
+    "target_object_id": "scene_003_sugar",
+    "prompt_en": "Pick up the sugar.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_003_blackpepper_pickup",
+    "scene_id": "scene_003",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_3_condiments.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/blackpepper_3.png",
+    "target_object_id": "scene_003_black_pepper",
+    "prompt_en": "Pick up the black pepper.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_003_canopener_pickup",
+    "scene_id": "scene_003",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_3_condiments.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/canopener_3.png",
+    "target_object_id": "scene_003_can_opener",
+    "prompt_en": "Pick up the can opener.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_soap_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/dishsoap_4.png",
+    "target_object_id": "scene_004_soap",
+    "prompt_en": "Pick up the soap.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_bowl1_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/bluebowl_4.png",
+    "target_object_id": "scene_004_bowl_1",
+    "prompt_en": "Pick up the bowl.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_scissors_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/greenscissors_4.png",
+    "target_object_id": "scene_004_scissors",
+    "prompt_en": "Pick up the scissors.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_bowl2_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/greenbowl_4.png",
+    "target_object_id": "scene_004_bowl_2",
+    "prompt_en": "Pick up the bowl.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_fork_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/plasticfork_4.png",
+    "target_object_id": "scene_004_fork",
+    "prompt_en": "Pick up the fork.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_spoon_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/whitespoon_4.png",
+    "target_object_id": "scene_004_spoon",
+    "prompt_en": "Pick up the spoon.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_metalspatula_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/metalspatula_4.png",
+    "target_object_id": "scene_004_metal_spatula",
+    "prompt_en": "Pick up the metal spatula.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_rubberspatula_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/rubberspatula_4.png",
+    "target_object_id": "scene_004_rubber_spatula",
+    "prompt_en": "Pick up the rubber spatula.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_plate_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/plate_4.png",
+    "target_object_id": "scene_004_plate",
+    "prompt_en": "Pick up the plate.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_cuttingboard_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/cuttingboard_4.png",
+    "target_object_id": "scene_004_cutting_board",
+    "prompt_en": "Pick up the cutting board.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_004_aluminumfoil_pickup",
+    "scene_id": "scene_004",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/aluminumfoil_4.png",
+    "target_object_id": "scene_004_aluminum_foil",
+    "prompt_en": "Pick up the aluminum foil.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_soap_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/soap_5.png",
+    "target_object_id": "scene_005_soap",
+    "prompt_en": "Pick up the soap.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_reddrink_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/reddrink_5.png",
+    "target_object_id": "scene_005_red_drink",
+    "prompt_en": "Pick up the red sports drink.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_bluedrink_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/bluedrink_5.png",
+    "target_object_id": "scene_005_blue_drink",
+    "prompt_en": "Pick up the blue sports drink.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_napkin_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/napkin_5.png",
+    "target_object_id": "scene_005_napkin",
+    "prompt_en": "Pick up the napkin.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_metalfork_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/metalfork_5.png",
+    "target_object_id": "scene_005_metal_fork",
+    "prompt_en": "Pick up the fork.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_metalspoon_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/metalspoon_5.png",
+    "target_object_id": "scene_005_metal_spoon",
+    "prompt_en": "Pick up the spoon.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_keys_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/keys_5.png",
+    "target_object_id": "scene_005_keys",
+    "prompt_en": "Pick up the keys.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_waterbottle_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/plasticbottle_5.png",
+    "target_object_id": "scene_005_water_bottle",
+    "prompt_en": "Pick up the water bottle.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_metalbottle_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/metalbottle_5.png",
+    "target_object_id": "scene_005_metal_bottle",
+    "prompt_en": "Pick up the metal bottle.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_tissue_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/tissues_5.png",
+    "target_object_id": "scene_005_tissue",
+    "prompt_en": "Pick up the tissue.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_005_umbrella_pickup",
+    "scene_id": "scene_005",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/umbrella_5.png",
+    "target_object_id": "scene_005_umbrella",
+    "prompt_en": "Pick up the umbrella.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_006_book_pickup",
+    "scene_id": "scene_006",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/book_6.png",
+    "target_object_id": "scene_006_book",
+    "prompt_en": "Pick up the book.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_006_cube_pickup",
+    "scene_id": "scene_006",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/rubikscube_6.png",
+    "target_object_id": "scene_006_cube",
+    "prompt_en": "Pick up the rubik's cube.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_006_brush_pickup",
+    "scene_id": "scene_006",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/hairbrush_6.png",
+    "target_object_id": "scene_006_brush",
+    "prompt_en": "Pick up the hair brush.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_006_marker_pickup",
+    "scene_id": "scene_006",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/marker_6.png",
+    "target_object_id": "scene_006_marker",
+    "prompt_en": "Pick up the marker.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_006_pen_pickup",
+    "scene_id": "scene_006",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/pen_6.png",
+    "target_object_id": "scene_006_pen",
+    "prompt_en": "Pick up the pen.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_006_pencil_pickup",
+    "scene_id": "scene_006",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/pencil_6.png",
+    "target_object_id": "scene_006_pencil",
+    "prompt_en": "Pick up the pencil.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_006_toothbrush_pickup",
+    "scene_id": "scene_006",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/toothbrush_6.png",
+    "target_object_id": "scene_006_toothbrush",
+    "prompt_en": "Pick up the toothbrush.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_006_cup_pickup",
+    "scene_id": "scene_006",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/cup_6.png",
+    "target_object_id": "scene_006_cup",
+    "prompt_en": "Pick up the cup.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_glasses_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/glasses_7.png",
+    "target_object_id": "scene_007_glasses",
+    "prompt_en": "Pick up the glasses.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_phone_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/phone_7.png",
+    "target_object_id": "scene_007_phone",
+    "prompt_en": "Pick up the phone.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_stapler_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/stapler_7.png",
+    "target_object_id": "scene_007_stapler",
+    "prompt_en": "Pick up the stapler.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_eraser_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/eraser_7.png",
+    "target_object_id": "scene_007_eraser",
+    "prompt_en": "Pick up the eraser.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_sunglasses_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/sunglasses_7.png",
+    "target_object_id": "scene_007_sunglasses",
+    "prompt_en": "Pick up the sunglasses.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_gluestick_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/gluestick_7.png",
+    "target_object_id": "scene_007_glue_stick",
+    "prompt_en": "Pick up the gluestick.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_scissors_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/pinkscissors_7.png",
+    "target_object_id": "scene_007_scissors",
+    "prompt_en": "Pick up the scissors.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_laptop_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/laptop_7.png",
+    "target_object_id": "scene_007_laptop",
+    "prompt_en": "Pick up the laptop.",
+    "correct": true
+  },
+  {
+    "example_id": "scene_007_controller_pickup",
+    "scene_id": "scene_007",
+    "scene_image": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "action_image": "Data/Action Object Dataset/Images/Actions/controller_7.png",
+    "target_object_id": "scene_007_controller",
+    "prompt_en": "Pick up the controller.",
+    "correct": true
+  }
+]

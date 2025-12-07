@@ -1,0 +1,174 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-23 13:29:54	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-23 13:30:11	"student015"	"student"	2	"Hello, <TEACHER>"	"Hello, <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-11-23 13:30:37	"teacher008"	"teacher"	3	"How are you today? Did you have a good weekend?"	"How are you today? Did you have a good weekend?"	NA	"2.0"	"topic opening"	NA	NA	NA	10
+2020-11-23 13:31:01	"student015"	"student"	4	"Yes. This weekend I had a good rest."	"Yes. This weekend I had a good rest."	NA	NA	NA	NA	NA	NA	8
+2020-11-23 13:31:29	"teacher008"	"teacher"	5	"Wonderful! How do you like to spend your weekends?"	"Wonderful! How do you like to spend your weekends?"	NA	"2a"	"topic development"	NA	NA	NA	9
+2020-11-23 13:33:13	"student015"	"student"	6	"Well, I often watch some movie and footboll games."	"Well, I often watch some movies and football games."	NA	NA	NA	NA	NA	NA	9
+2020-11-23 13:33:49	"teacher008"	"teacher"	7	"Sounds nice! I also like to watch a movie and read a book at the weekend"	"Sounds nice! I also like to watch a movie and read a book at the weekend"	NA	NA	NA	NA	NA	NA	16
+2020-11-23 13:34:00	"student015"	"student"	8	"And now because I need to prepare my exam, so I always spend some time to learn."	"And now I need to prepare for my exam, so I always spend some time learning."	NA	NA	NA	NA	NA	NA	17
+2020-11-23 13:34:33	"teacher008"	"teacher"	9	"Do you mean B2? or are you planning to take other exams as well?"	"Do you mean B2? or are you planning to take other exams as well?"	NA	NA	NA	NA	NA	NA	14
+2020-11-23 13:34:43	"teacher008"	"teacher"	10	"prepare __ my exam (what goes in the gap?)"	"prepare __ my exam (what goes in the gap?)"	8	"2b"	"eliciting,repair"	"lexical resource"	NA	NA	9
+2020-11-23 13:35:13	"student015"	"student"	11	"prepare for my PHD exam"	"prepare for my PhD exam"	NA	NA	NA	NA	NA	NA	5
+2020-11-23 13:36:00	"teacher008"	"teacher"	12	"Oh I see! When is your exam?"	"Oh I see! When is your exam?"	NA	NA	NA	NA	NA	NA	7
+2020-11-23 13:36:07	"teacher008"	"teacher"	13	"Yes, that's right, prepare FOR"	"Yes, that's right, prepare FOR"	11	NA	NA	NA	NA	NA	5
+2020-11-23 13:36:54	"student015"	"student"	14	"It's no clear time, but I think maybe at April 2021."	"There is no clear time, but I think maybe in April 2021."	12	NA	NA	NA	NA	NA	11
+2020-11-23 13:37:43	"teacher008"	"teacher"	15	"I see! You've still got plenty of time, yes"	"I see! You've still got plenty of time, yes"	NA	NA	NA	NA	NA	NA	9
+2020-11-23 13:38:02	"teacher008"	"teacher"	16	"___ ___ no clear time"	"___ ___ no clear time"	14	"2c"	"eliciting,repair"	"grammatical resource"	NA	NA	5
+2020-11-23 13:38:09	"teacher008"	"teacher"	17	"a useful structure here would be 'there is'"	"a useful structure here would be 'there is'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-11-23 13:38:12	"student015"	"student"	18	"There is"	"There is"	16	NA	NA	NA	NA	NA	2
+2020-11-23 13:38:15	"student015"	"student"	19	"Yes."	"Yes."	17	NA	NA	NA	NA	NA	1
+2020-11-23 13:38:38	"student015"	"student"	20	"It;s not clear; or there is no clear time"	"It's not clear; or there is no clear time"	NA	NA	NA	NA	NA	NA	9
+2020-11-23 13:38:52	"teacher008"	"teacher"	21	"Absolutely, yes! very good options"	"Absolutely, yes! very good options"	NA	NA	NA	NA	NA	NA	5
+2020-11-23 13:39:23	"teacher008"	"teacher"	22	"I like to be outdoors at the weekend, and I especially like to garden now that we can't go out because of the lockdown"	"I like to be outdoors at the weekend, and I especially like to garden now that we can't go out because of the lockdown"	NA	"2d"	"topic development"	NA	NA	NA	24
+2020-11-23 13:39:47	"student015"	"student"	23	"Sorry for that."	"Sorry about that."	NA	NA	NA	NA	NA	NA	3
+2020-11-23 13:40:36	"student015"	"student"	24	"This season is so great when you are outdoors."	"This season is so great when you are outdoors."	NA	NA	NA	NA	NA	NA	9
+2020-11-23 13:40:43	"teacher008"	"teacher"	25	"Thank you. It's what we have to do, so I'm ok with that :)"	"Thank you. It's what we have to do, so I'm ok with that :)"	22	NA	NA	NA	NA	NA	14
+2020-11-23 13:41:11	"teacher008"	"teacher"	26	"Yes, apparently, the winter is going to be quite cold!"	"Yes, apparently, the winter is going to be quite cold!"	24	NA	NA	NA	NA	NA	10
+2020-11-23 13:41:50	"teacher008"	"teacher"	27	"Do you like winter?"	"Do you like winter?"	NA	"2e"	"topic development"	NA	NA	NA	4
+2020-11-23 13:41:54	"student015"	"student"	28	"In Beijing, we have icy day now."	"In Beijing, we're having an icy day today."	26	NA	NA	NA	NA	NA	7
+2020-11-23 13:42:21	"student015"	"student"	29	"Yes. I like winter especially in Northeast of China."	"Yes. I like winter especially in the north-east of China."	27	NA	NA	NA	NA	NA	9
+2020-11-23 13:42:39	"teacher008"	"teacher"	30	"Cool! What do you like about it?"	"Cool! What do you like about it?"	NA	NA	NA	NA	NA	NA	7
+2020-11-23 13:43:43	"student015"	"student"	31	"The essentail reason may be the snow."	"The essential reason may be the snow."	NA	NA	NA	NA	NA	NA	7
+2020-11-23 13:44:29	"student015"	"student"	32	"essential"	"essential"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-23 13:44:36	"teacher008"	"teacher"	33	"Ah! Snow! We don't get much snow in my part of England"	"Ah! Snow! We don't get much snow in my part of England"	31	NA	NA	NA	NA	NA	12
+2020-11-23 13:44:42	"teacher008"	"teacher"	34	"Do you do any winter sports?"	"Do you do any winter sports?"	NA	"2f"	"topic development"	NA	NA	NA	6
+2020-11-23 13:45:30	"student015"	"student"	35	"Yes. I like skating on the ice."	"Yes. I like ice skating."	NA	NA	NA	NA	NA	NA	7
+2020-11-23 13:45:51	"teacher008"	"teacher"	36	"Nice! ice-skating"	"Nice! ice-skating"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+2020-11-23 13:46:20	"teacher008"	"teacher"	37	"People used to go ice-skating here, but now there is no ice because of the climate change"	"People used to go ice-skating here, but now there is no ice because of the climate change"	NA	NA	NA	NA	NA	NA	17
+2020-11-23 13:47:16	"student015"	"student"	38	"So it's warm in your place."	"So it's warm in your place."	NA	NA	NA	NA	NA	NA	6
+2020-11-23 13:48:08	"teacher008"	"teacher"	39	"Well, winters tend to be mild and wet. It can be maybe -2 or -3 at night, but the temperature is usually above zero in the daytime"	"Well, winters tend to be mild and wet. It can be maybe -2 or -3 at night, but the temperature is usually above zero in the daytime"	NA	NA	NA	NA	NA	NA	27
+2020-11-23 13:48:50	"teacher008"	"teacher"	40	"But I live in the east of England. It's colder in the north and definitely much colder in Scotland"	"But I live in the east of England. It's colder in the north and definitely much colder in Scotland"	NA	NA	NA	NA	NA	NA	19
+2020-11-23 13:49:04	"student015"	"student"	41	"OK. it's just like now in Beijing."	"OK. it's just like now in Beijing."	NA	NA	NA	NA	NA	NA	7
+2020-11-23 13:49:42	"teacher008"	"teacher"	42	"I think it was similar in Shanghai. I only remember a couple of days when temperature fell below 0"	"I think it was similar in Shanghai. I only remember a couple of days when temperature fell below 0"	NA	NA	NA	NA	NA	NA	19
+2020-11-23 13:50:08	"student015"	"student"	43	"I know."	"I know."	NA	NA	NA	NA	NA	NA	2
+2020-11-23 13:50:12	"teacher008"	"teacher"	44	"What's your favourite season then?"	"What's your favourite season then?"	NA	"2g"	"topic development"	NA	NA	NA	5
+2020-11-23 13:50:33	"student015"	"student"	45	"I like winter and spring."	"I like winter and spring."	NA	NA	NA	NA	NA	NA	5
+2020-11-23 13:50:43	"teacher008"	"teacher"	46	"Ok, why?"	"Ok, why?"	NA	NA	NA	NA	NA	NA	2
+2020-11-23 13:50:56	"teacher008"	"teacher"	47	"It's a common B2 question :)"	"It's a common B2 question :)"	NA	NA	"scaffolding"	"speaking"	NA	NA	6
+2020-11-23 13:51:48	"student015"	"student"	48	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 13:53:57	"teacher008"	"teacher"	49	"Are you typing an answer or waiting for me? It's hard to tell in this programme!"	"Are you typing an answer or waiting for me? It's hard to tell in this programme!"	NA	NA	NA	NA	NA	NA	16
+2020-11-23 13:54:12	"student015"	"student"	50	"First of all, I do not like hot weather, well cold is Ok. Secondly, I like the vitality of spring."	"First of all, I do not like hot weather, while cold is Ok. Secondly, I like the vitality of spring."	NA	NA	NA	NA	NA	NA	20
+2020-11-23 13:54:23	"student015"	"student"	51	"I try to typing these things."	"I'm trying to type these things."	49	NA	NA	NA	NA	NA	6
+2020-11-23 13:54:33	"teacher008"	"teacher"	52	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-11-23 13:55:06	"student015"	"student"	53	"But if it's a question, I think I must pick one season."	"But if it's a question, I think I must pick one season."	NA	NA	NA	NA	NA	NA	12
+2020-11-23 13:55:10	"teacher008"	"teacher"	54	"I see :) I'm the opposite, I love the warmth!"	"I see :) I'm the opposite, I love the warmth!"	50	NA	NA	NA	NA	NA	10
+2020-11-23 13:55:23	"teacher008"	"teacher"	55	"No, you don't have to! two seasons are fine :)"	"No, you don't have to! two seasons are fine :)"	53	NA	NA	NA	NA	NA	10
+2020-11-23 13:55:37	"student015"	"student"	56	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 13:55:55	"teacher008"	"teacher"	57	"A depressing thing about winter is that days are so short. I love long summer days!"	"A depressing thing about winter is that days are so short. I love long summer days!"	NA	NA	NA	NA	NA	NA	16
+2020-11-23 13:56:19	"teacher008"	"teacher"	58	"Thank you for the homework you sent me! Very well done!"	"Thank you for the homework you sent me! Very well done!"	NA	"3.0"	"topic opening"	"writing"	"student's writing"	NA	11
+2020-11-23 13:56:28	"teacher008"	"teacher"	59	"Let's have a good look at it, shall we?"	"Let's have a good look at it, shall we?"	NA	NA	NA	NA	NA	NA	9
+2020-11-23 13:56:34	"student015"	"student"	60	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 13:57:04	"teacher008"	"teacher"	61	"Yes, I think the problems with pollution and damage to the environment can be solved.   Firstly the excessive cars that generate more gas can cause air pollution. So we need to call on people travelling by bus or subway. If you really need to drive a car, you can try an electric car. Secondly, there are a lot of plastic rubbish in the rivers and seas that can cause a large amount of fish to die. So we should avoid using plastic bags and do well in recycling. The plastic bags will still be there for a long period,  so we must collect them nowadays. By the way, we also need to create new types of bags which can not cause pollution. Thirdly, in my opinion, We can do two more essential measures to solve these pollution problems. One is trying to do rubbish classification, and the other is to learn environmental knowledge.   With these measures, I think our environmental problems will be getting better and better."	"Yes, I think the problems with pollution and damage to the environment can be solved.   Firstly the excessive cars that generate more gas can cause air pollution. So we need to call on people travelling by bus or subway. If you really need to drive a car, you can try an electric car. Secondly, there are a lot of plastic rubbish in the rivers and seas that can cause a large amount of fish to die. So we should avoid using plastic bags and do well in recycling. The plastic bags will still be there for a long period,  so we must collect them nowadays. By the way, we also need to create new types of bags which can not cause pollution. Thirdly, in my opinion, We can do two more essential measures to solve these pollution problems. One is trying to do rubbish classification, and the other is to learn environmental knowledge.   With these measures, I think our environmental problems will be getting better and better."	NA	NA	NA	NA	NA	NA	172
+2020-11-23 13:57:49	"teacher008"	"teacher"	62	"I like the first sentence! Nice clear introduction, and it answers the question too. I would drop 'yes', so that it's more like the beginning of an essay"	"I like the first sentence! Nice clear introduction, and it answers the question too. I would drop 'yes', so that it's more like the beginning of an essay"	NA	NA	NA	NA	NA	NA	28
+2020-11-23 13:58:07	"teacher008"	"teacher"	63	"Just 'I think the problems with pollution and damage to the environment can be solved'"	"Just 'I think the problems with pollution and damage to the environment can be solved'"	NA	NA	"scaffolding"	"writing"	NA	NA	15
+2020-11-23 13:58:14	"student015"	"student"	64	"The first time, I spent 30 min, but I just wrote 110 words, then I add something, so I spent more time like 45 min."	"At first I spent 30 min, but I just wrote 110 words, then I added something, so I spent more time, like 45 min."	NA	"3a"	"topic development"	"writing"	NA	NA	25
+2020-11-23 13:58:54	"teacher008"	"teacher"	66	"Ok, good that timed yourself! It's important! It's only the first attempt, and your time is not that far off, it will get better!"	"Ok, good that timed yourself! It's important! It's only the first attempt, and your time is not that far off, it will get better!"	NA	NA	NA	NA	NA	NA	24
+2020-11-23 13:59:26	"teacher008"	"teacher"	69	"Is your Internet connection ok?"	"Is your Internet connection ok?"	NA	"3b"	"disruption"	NA	NA	NA	5
+2020-11-23 13:59:58	"student015"	"student"	70	"My network is not good, I can not send anything"	"My network is not good, I can not send anything"	NA	NA	NA	NA	NA	NA	10
+2020-11-23 14:00:09	"student015"	"student"	71	"Now it's OK I think."	"Now it's OK I think."	NA	NA	NA	NA	NA	NA	5
+2020-11-23 14:00:16	"teacher008"	"teacher"	72	"Ok, yes, no problem"	"Ok, yes, no problem"	NA	NA	NA	NA	NA	NA	4
+2020-11-23 14:00:27	"student015"	"student"	73	"Let me see the first sentence."	"Let me see the first sentence."	NA	"3c"	"topic development"	"writing"	NA	NA	6
+2020-11-23 14:00:30	"teacher008"	"teacher"	74	"Ok, good that you timed yourself! It's important! It's only the first attempt, and your time is not that far off, it will get better!"	"Ok, good that you timed yourself! It's important! It's only the first attempt, and your time is not that far off, it will get better!"	NA	NA	NA	NA	NA	NA	25
+2020-11-23 14:00:47	"student015"	"student"	75	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:01:15	"teacher008"	"teacher"	76	"Ok, the next sentence"	"Ok, the next sentence"	NA	"3d"	"topic development"	"writing"	NA	NA	4
+2020-11-23 14:01:17	"teacher008"	"teacher"	77	"Firstly the excessive cars that generate more gas can cause air pollution."	"Firstly the excessive cars that generate more gas can cause air pollution."	NA	NA	NA	NA	NA	NA	12
+2020-11-23 14:01:41	"teacher008"	"teacher"	78	"the word for what cars generate is 'exhaust'"	"the word for what cars generate is 'exhaust'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-11-23 14:01:57	"teacher008"	"teacher"	79	"excessive cars that generate exhaust"	"excessive cars that generate exhaust"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-11-23 14:02:18	"teacher008"	"teacher"	80	"or you can just you the word we learned last time, what's the word for CO2?"	"or you can just you the word we learned last time, what's the word for CO2?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	16
+2020-11-23 14:02:46	"student015"	"student"	81	"carbom dioxide"	"carbon dioxide"	NA	NA	NA	NA	NA	NA	2
+2020-11-23 14:02:51	"student015"	"student"	82	"carbon"	"carbon"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-23 14:03:07	"teacher008"	"teacher"	83	"yes, that's right!"	"yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2020-11-23 14:03:28	"teacher008"	"teacher"	84	"I know the exhaust generated by cars is not all carbon dioxide, but it will work in the essay too"	"I know the exhaust generated by cars is not all carbon dioxide, but it will work in the essay too"	NA	NA	NA	NA	NA	NA	20
+2020-11-23 14:03:52	"teacher008"	"teacher"	85	"So we need to call on people travelling by bus or subway."	"So we need to call on people travelling by bus or subway."	NA	"3e"	"topic development"	"writing"	NA	NA	12
+2020-11-23 14:03:56	"student015"	"student"	86	"THe exhaust is a noun word?"	"The exhaust is a noun?"	NA	"3f"	"enquiry"	"lexical resource"	NA	NA	6
+2020-11-23 14:04:05	"teacher008"	"teacher"	87	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2020-11-23 14:04:22	"student015"	"student"	88	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:04:28	"teacher008"	"teacher"	89	"It can be a verb or a noun. And you know the adjective 'exhausted', right? meaning 'very tired'"	"It can be a verb or a noun. And you know the adjective 'exhausted', right? meaning 'very tired'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-11-23 14:04:44	"teacher008"	"teacher"	90	"If you exhaust your resources, you have nothing left"	"If you exhaust your resources, you have nothing left"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-11-23 14:05:09	"student015"	"student"	91	"Yes, I know the verb type"	"Yes, I know the verb"	NA	NA	NA	NA	NA	NA	6
+2020-11-23 14:05:17	"teacher008"	"teacher"	92	"and the noun 'exhaust' is the waste product of a car"	"and the noun 'exhaust' is the waste product of a car"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-11-23 14:05:27	"teacher008"	"teacher"	93	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-23 14:05:32	"teacher008"	"teacher"	94	"Ok, the next one!"	"Ok, the next one!"	NA	"3g"	"topic development"	"writing"	NA	NA	4
+2020-11-23 14:05:34	"teacher008"	"teacher"	95	"So we need to call on people travelling by bus or subway."	"So we need to call on people travelling by bus or subway."	NA	NA	NA	NA	NA	NA	12
+2020-11-23 14:05:57	"teacher008"	"teacher"	96	"Good sentence, the only problem is 'call on people to do something'"	"Good sentence, the only problem is 'call on people to do something'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-11-23 14:06:10	"teacher008"	"teacher"	97	"We need to call on people to travel by bus or subway"	"We need to call on people to travel by bus or subway"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-11-23 14:07:22	"student015"	"student"	98	"OK. I though 'to do' stress travel, 'doing' stress by bus..."	"OK. I thought 'to do' stressed travel, 'doing' stressed by bus..."	NA	NA	NA	NA	NA	NA	11
+2020-11-23 14:08:22	"teacher008"	"teacher"	99	"Hmm, no, sorry. It's about the verb 'call on'. Call on someone to do something"	"Hmm, no, sorry. It's about the verb 'call on'. Call on someone to do something"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-11-23 14:08:30	"student015"	"student"	100	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:08:44	"teacher008"	"teacher"	101	"For example, the government has called on people to wear face masks and stop socializing"	"For example, the government has called on people to wear face masks and stop socializing"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-11-23 14:09:53	"teacher008"	"teacher"	102	"Are you ok with that?"	"Are you ok with that?"	NA	NA	NA	NA	NA	NA	5
+2020-11-23 14:09:58	"student015"	"student"	103	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:10:12	"teacher008"	"teacher"	104	"Your next sentence is really good!"	"Your next sentence is really good!"	NA	"3h"	"topic development"	"writing"	NA	NA	6
+2020-11-23 14:10:14	"teacher008"	"teacher"	105	"If you really need to drive a car, you can try an electric car."	"If you really need to drive a car, you can try an electric car."	NA	NA	NA	NA	NA	NA	14
+2020-11-23 14:10:19	"teacher008"	"teacher"	106	"No problems with this one"	"No problems with this one"	NA	NA	NA	NA	NA	NA	5
+2020-11-23 14:10:28	"student015"	"student"	107	"Thanks"	"Thanks"	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:10:41	"teacher008"	"teacher"	108	"Next one! Only one problem"	"Next one! Only one problem"	NA	"3i"	"topic development"	"writing"	NA	NA	5
+2020-11-23 14:10:43	"teacher008"	"teacher"	109	"Secondly, there are a lot of plastic rubbish in the rivers and seas that can cause a large amount of fish to die."	"Secondly, there are a lot of plastic rubbish in the rivers and seas that can cause a large amount of fish to die."	NA	NA	NA	NA	NA	NA	23
+2020-11-23 14:11:12	"teacher008"	"teacher"	110	"How would you correct it if you know that 'rubbish' is a singular uncountable noun"	"How would you correct it if you know that 'rubbish' is a singular uncountable noun"	NA	NA	"eliciting,scaffolding"	"lexical resource"	NA	NA	15
+2020-11-23 14:11:30	"student015"	"student"	111	"there is"	"there is"	NA	NA	NA	NA	NA	NA	2
+2020-11-23 14:11:59	"teacher008"	"teacher"	112	"Yes! Well done!!"	"Yes! Well done!!"	NA	NA	NA	NA	NA	NA	3
+2020-11-23 14:12:16	"teacher008"	"teacher"	113	"So we should avoid using plastic bags and do well in recycling."	"So we should avoid using plastic bags and do well in recycling."	NA	"3j"	"topic development"	"writing"	NA	NA	12
+2020-11-23 14:13:03	"teacher008"	"teacher"	114	"do well in recycling' sounds a bit weird, you can just say, 'recycle the waste'"	"do well in recycling' sounds a bit weird, you can just say, 'recycle the waste'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-11-23 14:13:21	"student015"	"student"	115	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:13:27	"teacher008"	"teacher"	116	"or maybe, 'recycle more' or 'improve recycling'"	"or maybe, 'recycle more' or 'improve recycling'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-11-23 14:13:47	"teacher008"	"teacher"	117	"The plastic bags will still be there for a long period,  so we must collect them nowadays."	"The plastic bags will still be there for a long period,  so we must collect them nowadays."	NA	"3k"	"topic development"	"writing"	NA	NA	18
+2020-11-23 14:13:54	"teacher008"	"teacher"	118	"Good sentence, the grammar is good!"	"Good sentence, the grammar is good!"	NA	NA	NA	NA	NA	NA	6
+2020-11-23 14:14:09	"teacher008"	"teacher"	119	"By the way, we also need to create new types of bags which can not cause pollution."	"By the way, we also need to create new types of bags which can not cause pollution."	NA	"3l"	"topic development"	"writing"	NA	NA	17
+2020-11-23 14:14:15	"teacher008"	"teacher"	120	"Same thing! Good sentence :)"	"Same thing! Good sentence :)"	NA	NA	NA	NA	NA	NA	5
+2020-11-23 14:14:38	"teacher008"	"teacher"	121	"Thirdly, in my opinion, We can do two more essential measures to solve these pollution problems."	"Thirdly, in my opinion, We can do two more essential measures to solve these pollution problems."	NA	"3m"	"topic development"	"writing"	NA	NA	16
+2020-11-23 14:14:49	"teacher008"	"teacher"	122	"the expression is 'to take measures'"	"the expression is 'to take measures'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-23 14:15:07	"teacher008"	"teacher"	123	"so 'we can take two more essential measures'"	"so 'we can take two more essential measures'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-11-23 14:15:13	"student015"	"student"	124	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:15:28	"teacher008"	"teacher"	125	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:15:31	"teacher008"	"teacher"	126	"One is trying to do rubbish classification, and the other is to learn environmental knowledge."	"One is trying to do rubbish classification, and the other is to learn environmental knowledge."	NA	"3n"	"topic development"	"writing"	NA	NA	15
+2020-11-23 14:15:49	"teacher008"	"teacher"	127	"I think what you mean with the first measure is 'sorting waste'"	"I think what you mean with the first measure is 'sorting waste'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-11-23 14:16:10	"teacher008"	"teacher"	128	"We sort waste to be able to recycle, right?"	"We sort waste to be able to recycle, right?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-11-23 14:16:43	"teacher008"	"teacher"	129	"And strangely, 'learn' doesn't work with 'knowledge'"	"And strangely, 'learn' doesn't work with 'knowledge'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-11-23 14:16:55	"teacher008"	"teacher"	130	"we can 'acquire / gain / have' knowledge"	"we can 'acquire / gain / have' knowledge"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-11-23 14:17:13	"teacher008"	"teacher"	131	"for example, to gain deeper knowledge of the environment"	"for example, to gain deeper knowledge of the environment"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-11-23 14:17:26	"teacher008"	"teacher"	132	"Could you re-write this sentence, please?"	"Could you re-write this sentence, please?"	NA	NA	"eliciting"	"writing,lexical resource"	NA	NA	6
+2020-11-23 14:18:06	"student015"	"student"	133	"One is trying to sort waste, and the other is to have environmental knowledge."	"One is trying to sort waste, and the other is to have environmental knowledge."	NA	NA	NA	NA	NA	NA	14
+2020-11-23 14:18:43	"teacher008"	"teacher"	134	"Ok, this is better, but you mean to learn, right? so maybe to 'gain more environmental knowledge'"	"Ok, this is better, but you mean to learn, right? so maybe to 'gain more environmental knowledge'"	NA	NA	"scaffolding"	"writing,lexical resource"	NA	NA	17
+2020-11-23 14:18:56	"teacher008"	"teacher"	135	"or to 'learn to understand the environment better'?"	"or to 'learn to understand the environment better'?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-11-23 14:19:21	"student015"	"student"	136	"One is trying to sort waste, and the other is to gain deeper knowledge of the environment."	"One is trying to sort waste, and the other is to gain deeper knowledge of the environment."	NA	NA	NA	NA	NA	NA	17
+2020-11-23 14:19:36	"teacher008"	"teacher"	139	"Ooh, very good, yes!"	"Ooh, very good, yes!"	NA	NA	NA	NA	NA	NA	4
+2020-11-23 14:19:51	"teacher008"	"teacher"	140	"With these measures, I think our environmental problems will be getting better and better."	"With these measures, I think our environmental problems will be getting better and better."	NA	"3o"	"topic development"	"writing"	NA	NA	14
+2020-11-23 14:19:55	"teacher008"	"teacher"	141	"Another good sentence!"	"Another good sentence!"	NA	NA	NA	NA	NA	NA	3
+2020-11-23 14:19:59	"student015"	"student"	142	"The network is not good in my place."	"The network is not good at my place."	NA	"4.0"	"disruption"	NA	NA	NA	8
+2020-11-23 14:20:07	"teacher008"	"teacher"	143	"Well done with your writing!"	"Well done with your writing!"	141	NA	NA	NA	NA	NA	5
+2020-11-23 14:20:11	"student015"	"student"	144	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:20:57	"teacher008"	"teacher"	145	"Some new expressions for today: sort waste, exhaust (from cars), take measure, call on people to do something, gain / acquire / have knowledge"	"Some new expressions for today: sort waste, exhaust (from cars), take measure, call on people to do something, gain / acquire / have knowledge"	NA	"5.0"	"recap"	"lexical resource"	NA	NA	24
+2020-11-23 14:21:12	"student015"	"student"	146	"It's a little like writing in the gaokao exam."	"It's a little like writing in the gaokao exam."	145	NA	NA	NA	NA	NA	9
+2020-11-23 14:21:36	"teacher008"	"teacher"	148	"Oh really? That's good, it's familiar for you then!"	"Oh really? That's good, it's familiar for you then!"	NA	NA	NA	NA	NA	NA	9
+2020-11-23 14:21:39	"student015"	"student"	149	"OK. I have notes for this."	"OK. I have notes for this."	146	NA	NA	NA	NA	NA	6
+2020-11-23 14:21:44	"teacher008"	"teacher"	150	"Lovely"	"Lovely"	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:22:07	"teacher008"	"teacher"	151	"So you're optimistic about the environmental problems we are facing?"	"So you're optimistic about the environmental problems we are facing?"	NA	"6.0"	"topic opening"	NA	NA	NA	10
+2020-11-23 14:22:35	"student015"	"student"	152	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:23:15	"teacher008"	"teacher"	153	"That's good! I've read on the news that China plans to be carbon neutral in a few years!"	"That's good! I've read on the news that China plans to be carbon neutral in a few years!"	NA	NA	NA	NA	NA	NA	18
+2020-11-23 14:23:41	"teacher008"	"teacher"	154	"Do you feel a lot is being done about the environment in China?"	"Do you feel a lot is being done about the environment in China?"	NA	NA	NA	NA	NA	NA	13
+2020-11-23 14:23:58	"student015"	"student"	155	"The Chinese government indeed have some rules to save environment."	"The Chinese government indeed have some rules to save the environment."	NA	NA	NA	NA	NA	NA	10
+2020-11-23 14:24:10	"teacher008"	"teacher"	156	"The UK is trying to switch to clean energy, but it feels like a slow process"	"The UK is trying to switch to clean energy, but it feels like a slow process"	153	NA	NA	NA	NA	NA	16
+2020-11-23 14:24:20	"teacher008"	"teacher"	157	"That's good!"	"That's good!"	155	NA	NA	NA	NA	NA	2
+2020-11-23 14:24:52	"student015"	"student"	158	"Near my hometown some industry have already shut down."	"Near my hometown some industries have already shut down."	NA	NA	NA	NA	NA	NA	9
+2020-11-23 14:25:08	"student015"	"student"	159	"industries"	"industries"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-11-23 14:25:50	"teacher008"	"teacher"	160	"Ok, because they were too polluting?"	"Ok, because they were too polluting?"	158	NA	NA	NA	NA	NA	6
+2020-11-23 14:26:21	"student015"	"student"	161	"And in China ,the petrol is so expensive."	"And in China, petrol is so expensive."	NA	NA	NA	NA	NA	NA	8
+2020-11-23 14:26:44	"teacher008"	"teacher"	162	"Interesting!"	"Interesting!"	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:26:54	"teacher008"	"teacher"	163	"I bet that motivates people to drive less!"	"I bet that motivates people to drive less!"	NA	NA	NA	NA	NA	NA	8
+2020-11-23 14:27:06	"student015"	"student"	164	"Yes. They have waste water which can pollute the underground water."	"Yes. They have waste water which can pollute underground water."	160	NA	NA	NA	NA	NA	11
+2020-11-23 14:27:39	"teacher008"	"teacher"	165	"I see! It's good to hear the government is taking tough action!"	"I see! It's good to hear the government is taking tough action!"	NA	NA	NA	NA	NA	NA	12
+2020-11-23 14:27:48	"student015"	"student"	166	"Yes. People often said that you can buy a car, but you can not afford driving it."	"Yes. People often say that you can buy a car, but you cannot afford to drive it."	163	NA	NA	NA	NA	NA	17
+2020-11-23 14:28:01	"teacher008"	"teacher"	167	"Oh, very interesting!"	"Oh, very interesting!"	NA	NA	NA	NA	NA	NA	3
+2020-11-23 14:28:21	"teacher008"	"teacher"	168	"Most people in the UK have one or two or even three cars per family. It's crazy!"	"Most people in the UK have one or two or even three cars per family. It's crazy!"	NA	NA	NA	NA	NA	NA	17
+2020-11-23 14:28:35	"teacher008"	"teacher"	169	"We don't have a car because we've always used the train and we cycle around our town"	"We don't have a car because we've always used the train and we cycle around our town"	NA	NA	NA	NA	NA	NA	17
+2020-11-23 14:28:46	"teacher008"	"teacher"	170	"But our town is tiny by Chinese standards"	"But our town is tiny by Chinese standards"	NA	NA	NA	NA	NA	NA	8
+2020-11-23 14:29:11	"student015"	"student"	171	"Like a college?"	"Like a college?"	NA	NA	NA	NA	NA	NA	3
+2020-11-23 14:29:33	"teacher008"	"teacher"	172	"Our town has the population of about 22 thousand people"	"Our town has the population of about 22 thousand people"	NA	NA	NA	NA	NA	NA	10
+2020-11-23 14:29:51	"student015"	"student"	173	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-23 14:30:14	"student015"	"student"	174	"Less than my college."	"Smaller than my college."	NA	NA	NA	NA	NA	NA	4
+2020-11-23 14:30:24	"teacher008"	"teacher"	175	"Anyway, thank for today, great work! I'll speak to you on Thursday!"	"Anyway, thank for today, great work! I'll speak to you on Thursday!"	NA	"7.0"	"closing"	NA	NA	NA	12
+2020-11-23 14:30:32	"teacher008"	"teacher"	176	"Haha, yes, I bet it's smaller than your college!"	"Haha, yes, I bet it's smaller than your college!"	174	NA	NA	NA	NA	NA	9
+2020-11-23 14:30:45	"student015"	"student"	177	"Thanks for your help."	"Thanks for your help."	175	NA	NA	NA	NA	NA	4
+2020-11-23 14:31:03	"teacher008"	"teacher"	178	"It's my pleasure. Take care!"	"It's my pleasure. Take care!"	NA	NA	NA	NA	NA	NA	5
+2020-11-23 14:31:17	"student015"	"student"	179	"Take care, thanks, bye"	"Take care, thanks, bye"	NA	NA	NA	NA	NA	"B2"	4

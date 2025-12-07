@@ -1,0 +1,245 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2021-02-10T08:08:44+00:00+00:00+00:00"	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2021-02-10T08:08:54+00:00+00:00+00:00"	"student011"	"student"	2	"I'm sorry for being late"	"I'm sorry for being late"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:09:09+00:00+00:00+00:00"	"teacher008"	"teacher"	3	"Morning!"	"Morning!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:09:12+00:00+00:00+00:00"	"teacher008"	"teacher"	4	"No worries"	"No worries"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:09:15+00:00+00:00+00:00"	"teacher008"	"teacher"	5	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+"2021-02-10T08:09:38+00:00+00:00+00:00"	"student011"	"student"	6	"Actually is it right expression in that case?"	"Actually is it the right expression in that case?"	NA	"1a"	"enquiry"	"lexical resource"	NA	NA	8
+"2021-02-10T08:09:42+00:00+00:00+00:00"	"student011"	"student"	7	"I'm fine"	"I'm fine"	5	NA	NA	NA	NA	NA	2
+"2021-02-10T08:09:48+00:00+00:00+00:00"	"student011"	"student"	8	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:10:16+00:00+00:00+00:00"	"teacher008"	"teacher"	9	"Good, thank you! It's still snowing!"	"Good, thank you! It's still snowing!"	NA	"2a"	"topic development"	NA	NA	NA	6
+"2021-02-10T08:10:21+00:00+00:00+00:00"	"student011"	"student"	10	"how is you Walentine's Day preparation? )"	"how are you Valentine's Day preparations? )"	NA	"2b"	"topic development"	NA	NA	NA	7
+"2021-02-10T08:10:27+00:00+00:00+00:00"	"teacher008"	"teacher"	11	"I mean, it's snowing again this morning"	"I mean, it's snowing again this morning"	9	NA	NA	NA	NA	NA	7
+"2021-02-10T08:10:27+00:00+00:00+00:00"	"student011"	"student"	12	"Valentine's"	"Valentine's"	10	NA	"repair"	"writing"	NA	NA	1
+"2021-02-10T08:10:57+00:00+00:00+00:00"	"teacher008"	"teacher"	13	"Well, I've ordered everything for a chocolate cake that <TEACHER'S CHILD> is going to decorate with some hearts"	"Well, I've ordered everything for a chocolate cake that <TEACHER'S CHILD> is going to decorate with some hearts"	10	NA	NA	NA	NA	NA	18
+"2021-02-10T08:11:08+00:00+00:00+00:00"	"student011"	"student"	14	"Wow. I was snowing all last night in Kyiv"	"Wow. It was snowing all last night in Kyiv"	11	NA	NA	NA	NA	NA	9
+"2021-02-10T08:11:12+00:00+00:00+00:00"	"student011"	"student"	15	"It was"	"It was"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:11:31+00:00+00:00+00:00"	"student011"	"student"	16	"I think today wi will have even more snow than yestarday"	"I think today we will have even more snow than yesterday"	NA	NA	"repair"	"writing"	NA	NA	11
+"2021-02-10T08:11:55+00:00+00:00+00:00"	"teacher008"	"teacher"	17	"Oh wow! Did you have to dig out your car?"	"Oh wow! Did you have to dig out your car?"	NA	NA	NA	NA	NA	NA	10
+"2021-02-10T08:12:11+00:00+00:00+00:00"	"student011"	"student"	18	"Do you have some special decorations for the care? How are you going to do the hearts? )"	"Do you have any special decorations for the cake? How are you going to do the hearts? )"	13	NA	NA	NA	NA	NA	18
+"2021-02-10T08:12:28+00:00+00:00+00:00"	"teacher008"	"teacher"	19	"Oh, we've got some chocolate heats for cakes"	"Oh, we've got some chocolate hearts for cakes"	NA	NA	NA	NA	NA	NA	8
+"2021-02-10T08:12:30+00:00+00:00+00:00"	"student011"	"student"	20	"Dig out? Otcopat? )"	"Dig out? Otcopat? )"	NA	"2c"	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	4
+"2021-02-10T08:12:38+00:00+00:00+00:00"	"teacher008"	"teacher"	21	"That's right!"	"That's right!"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:12:53+00:00+00:00+00:00"	"teacher008"	"teacher"	22	"Oh no, because you've got __-___ parking!"	"Oh no, because you've got __-___ parking!"	NA	"2f"	"eliciting,revision"	"lexical resource"	NA	NA	7
+"2021-02-10T08:13:07+00:00+00:00+00:00"	"student011"	"student"	23	"off-street )"	"off-street )"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:13:14+00:00+00:00+00:00"	"teacher008"	"teacher"	24	"That's right))"	"That's right))"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:13:22+00:00+00:00+00:00"	"student011"	"student"	25	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:13:26+00:00+00:00+00:00"	"student011"	"student"	26	"so.."	"so.."	21	NA	NA	NA	NA	NA	1
+"2021-02-10T08:13:28+00:00+00:00+00:00"	"teacher008"	"teacher"	27	"underground, right?"	"underground, right?"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:13:39+00:00+00:00+00:00"	"student011"	"student"	28	"Dig out"	"Dig out"	26	NA	"enquiry"	"lexical resource"	NA	NA	2
+"2021-02-10T08:13:59+00:00+00:00+00:00"	"teacher008"	"teacher"	29	"Yes, the verb is dig (dug-dug)"	"Yes, the verb is dig (dug-dug)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2021-02-10T08:14:33+00:00+00:00+00:00"	"student011"	"student"	30	"so like to clean from snow?"	"so like to clean from snow?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	6
+"2021-02-10T08:15:12+00:00+00:00+00:00"	"teacher008"	"teacher"	31	"No, you can dig soil, not just snow"	"No, you can dig soil, not just snow"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+"2021-02-10T08:15:33+00:00+00:00+00:00"	"teacher008"	"teacher"	32	"dig with a spade, for example. Like <STUDENT'S CHILD>'s green spade in the picture you sent me yesterday"	"dig with a spade, for example. Like <STUDENT'S CHILD>'s green spade in the picture you sent me yesterday"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+"2021-02-10T08:15:46+00:00+00:00+00:00"	"teacher008"	"teacher"	33	"When people garden, they often dig"	"When people garden, they often dig"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2021-02-10T08:15:57+00:00+00:00+00:00"	"teacher008"	"teacher"	34	"Also, we can dig to find treasure"	"Also, we can dig to find treasure"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+"2021-02-10T08:16:45+00:00+00:00+00:00"	"student011"	"student"	35	"It was difficult for <STUDENT'S HUSBAND> yesterday evening to vyekhat from the on-street parking near his office"	"It was difficult for <STUDENT'S HUSBAND> yesterday evening to vyekhat from the on-street parking near his office"	NA	"2g"	"topic development,non-English"	"code switching,lexical resource"	NA	NA	17
+"2021-02-10T08:17:12+00:00+00:00+00:00"	"teacher008"	"teacher"	36	"to leave? drive off"	"to leave? drive off"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+"2021-02-10T08:17:40+00:00+00:00+00:00"	"student011"	"student"	37	"To leave the on-street parking"	"To leave the on-street parking"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:18:23+00:00+00:00+00:00"	"student011"	"student"	38	"He eve had to ask his colleagues to help him"	"He even had to ask his colleagues to help him"	NA	NA	NA	NA	NA	NA	10
+"2021-02-10T08:18:46+00:00+00:00+00:00"	"student011"	"student"	39	"To psh the cat I mean"	"To push the car I mean"	NA	NA	NA	NA	NA	NA	6
+"2021-02-10T08:18:51+00:00+00:00+00:00"	"student011"	"student"	40	"*push"	"*push"	NA	NA	"repair"	"writing"	NA	NA	1
+"2021-02-10T08:19:01+00:00+00:00+00:00"	"teacher008"	"teacher"	41	"Oh wow, it's really snowing at the moment! This is so weird and beautiful!"	"Oh wow, it's really snowing at the moment! This is so weird and beautiful!"	NA	"2h"	"topic development"	NA	NA	NA	14
+"2021-02-10T08:19:15+00:00+00:00+00:00"	"teacher008"	"teacher"	42	"I can imagine!"	"I can imagine!"	39	NA	NA	NA	NA	NA	3
+"2021-02-10T08:19:25+00:00+00:00+00:00"	"student011"	"student"	43	"he has a spade"	"he has a spade"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:19:32+00:00+00:00+00:00"	"teacher008"	"teacher"	44	"Very useful!"	"Very useful!"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:19:33+00:00+00:00+00:00"	"student011"	"student"	45	"But it didn't help him"	"But it didn't help him"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:19:50+00:00+00:00+00:00"	"student011"	"student"	46	"so it's hard to move in Kyiv now"	"so it's hard to move in Kyiv now"	NA	NA	NA	NA	NA	NA	8
+"2021-02-10T08:20:05+00:00+00:00+00:00"	"teacher008"	"teacher"	47	"Also, a special wide spade for moving snow is called a shovel"	"Also, a special wide spade for moving snow is called a shovel"	NA	"2i"	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+"2021-02-10T08:20:25+00:00+00:00+00:00"	"teacher008"	"teacher"	48	"It can also be a verb, people shovel snow (to clean their driveway, for example)"	"It can also be a verb, people shovel snow (to clean their driveway, for example)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+"2021-02-10T08:21:13+00:00+00:00+00:00"	"student011"	"student"	49	"ok! I see"	"ok! I see"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:21:49+00:00+00:00+00:00"	"student011"	"student"	50	"I've google a spade and a shovel and it's the same images )))"	"I've googled a spade and a shovel and it's the same images )))"	NA	NA	NA	NA	NA	NA	13
+"2021-02-10T08:22:23+00:00+00:00+00:00"	"teacher008"	"teacher"	51	"Haha, well, I think a shovel is a type of spade"	"Haha, well, I think a shovel is a type of spade"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+"2021-02-10T08:22:31+00:00+00:00+00:00"	"teacher008"	"teacher"	52	"During"	"During"	NA	"3.0"	"topic opening"	"lexical resource,world knowledge"	NA	NA	1
+"2021-02-10T08:22:34+00:00+00:00+00:00"	"teacher008"	"teacher"	53	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:22:53+00:00+00:00+00:00"	"teacher008"	"teacher"	54	"During World War 2, there was a campaign in Britain called Dig for Victory"	"During World War 2, there was a campaign in Britain called Dig for Victory"	NA	NA	NA	NA	NA	NA	14
+"2021-02-10T08:23:26+00:00+00:00+00:00"	"teacher008"	"teacher"	55	"Have you heard about it? People were encouraged to grow food in their gardens, to save the country from starvation"	"Have you heard about it? People were encouraged to grow food in their gardens, to save the country from starvation"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	20
+"2021-02-10T08:23:54+00:00+00:00+00:00"	"student011"	"student"	56	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:24:01+00:00+00:00+00:00"	"teacher008"	"teacher"	57	"You know Green Park in London? Not far from Buckingham Palace. If I remember correctly, it became a vegetable garden during the war"	"You know Green Park in London? Not far from Buckingham Palace. If I remember correctly, it became a vegetable garden during the war"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	23
+"2021-02-10T08:24:20+00:00+00:00+00:00"	"student011"	"student"	58	"I think I should hear about it but I don't know a lot unfortunately"	"I think I should have heard about it but I don't know a lot unfortunately"	56	NA	NA	NA	NA	NA	14
+"2021-02-10T08:25:01+00:00+00:00+00:00"	"student011"	"student"	59	"Really? Green Park! I know it. It's quite huge!"	"Really? Green Park! I know it. It's quite huge!"	57	NA	NA	NA	NA	NA	9
+"2021-02-10T08:25:18+00:00+00:00+00:00"	"teacher008"	"teacher"	60	"Yes! I think I remember correctly, I'll check it later on"	"Yes! I think I remember correctly, I'll check it later on"	NA	NA	NA	NA	NA	NA	11
+"2021-02-10T08:25:50+00:00+00:00+00:00"	"teacher008"	"teacher"	61	"But also, most people had a garden, and they were asked to grow potatoes and carrots and turnips instead of flowers"	"But also, most people had a garden, and they were asked to grow potatoes and carrots and turnips instead of flowers"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	21
+"2021-02-10T08:26:05+00:00+00:00+00:00"	"student011"	"student"	62	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:26:16+00:00+00:00+00:00"	"student011"	"student"	63	"turnips?"	"turnips?"	NA	"3a"	"enquiry"	"lexical resource"	NA	NA	1
+"2021-02-10T08:26:18+00:00+00:00+00:00"	"teacher008"	"teacher"	64	"You can still get 'Dig for Victory' mugs"	"You can still get 'Dig for Victory' mugs"	62	NA	NA	NA	NA	NA	8
+"2021-02-10T08:26:39+00:00+00:00+00:00"	"teacher008"	"teacher"	65	"Yes, it's a root vegetable."	"Yes, it's a root vegetable."	63	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+"2021-02-10T08:27:00+00:00+00:00+00:00"	"teacher008"	"teacher"	66	"I think the best thing would be to google a picture of it!"	"I think the best thing would be to google a picture of it!"	NA	NA	"scaffolding"	NA	"website"	NA	13
+"2021-02-10T08:27:43+00:00+00:00+00:00"	"teacher008"	"teacher"	67	"It's not the most exciting vegetable, but it was an important part of meals back in the day (not so much now)"	"It's not the most exciting vegetable, but it was an important part of meals back in the day (not so much now)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+"2021-02-10T08:27:49+00:00+00:00+00:00"	"student011"	"student"	68	"I've seen"	"I've seen"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:28:06+00:00+00:00+00:00"	"student011"	"student"	69	"It's repa maybe?"	"It's repa maybe?"	NA	NA	"non-English,enquiry"	"code switching,lexical resource"	NA	NA	3
+"2021-02-10T08:28:09+00:00+00:00+00:00"	"teacher008"	"teacher"	70	"It's either repa or red'ka or something like that"	"It's either repa or red'ka or something like that"	67	NA	"non-English,scaffolding"	"lexical resource,code switching"	NA	NA	9
+"2021-02-10T08:28:13+00:00+00:00+00:00"	"teacher008"	"teacher"	71	"Yes, probably!"	"Yes, probably!"	69	NA	NA	NA	NA	NA	2
+"2021-02-10T08:28:29+00:00+00:00+00:00"	"student011"	"student"	72	"Actually"	"Actually"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:28:55+00:00+00:00+00:00"	"teacher008"	"teacher"	73	"Actually, the tale we all know, about an old man who grew a vegetable so big he needed help pulling it out, is called An Enormous Turnip in this country"	"Actually, the tale we all know, about an old man who grew a vegetable so big he needed help pulling it out, is called An Enormous Turnip in this country"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	30
+"2021-02-10T08:29:05+00:00+00:00+00:00"	"student011"	"student"	74	"I like it when it's salad turpins"	"I like it when it's salad turnips"	NA	NA	NA	NA	NA	NA	7
+"2021-02-10T08:29:13+00:00+00:00+00:00"	"student011"	"student"	75	"You have to try it )"	"You have to try it )"	NA	NA	NA	NA	NA	NA	6
+"2021-02-10T08:29:25+00:00+00:00+00:00"	"student011"	"student"	76	"It's red inside )"	"It's red inside )"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:29:29+00:00+00:00+00:00"	"teacher008"	"teacher"	77	"Salad turnips? Maybe I do!"	"Salad turnips? Maybe I do!"	74	NA	"repair"	"writing"	NA	NA	5
+"2021-02-10T08:29:47+00:00+00:00+00:00"	"student011"	"student"	78	"But outside it could be green or white"	"But outside it could be green or white"	NA	NA	NA	NA	NA	NA	8
+"2021-02-10T08:30:20+00:00+00:00+00:00"	"teacher008"	"teacher"	79	"Interesting!"	"Interesting!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:31:00+00:00+00:00+00:00"	"student011"	"student"	80	"salatnaya redka in Russian"	"salatnaya redka in Russian"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	4
+"2021-02-10T08:31:07+00:00+00:00+00:00"	"student011"	"student"	81	"Just google it"	"Just google it"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:31:10+00:00+00:00+00:00"	"teacher008"	"teacher"	82	"So yes, that's the verb dig (dug-dug) for you!"	"So yes, that's the verb dig (dug-dug) for you!"	62	NA	NA	NA	NA	NA	9
+"2021-02-10T08:31:16+00:00+00:00+00:00"	"student011"	"student"	83	"Ok! )"	"Ok! )"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:31:19+00:00+00:00+00:00"	"teacher008"	"teacher"	84	"I will!"	"I will!"	81	NA	NA	NA	NA	NA	2
+"2021-02-10T08:31:36+00:00+00:00+00:00"	"student011"	"student"	85	"it has a very good taste"	"it has a very good taste"	81	NA	NA	NA	NA	NA	6
+"2021-02-10T08:31:51+00:00+00:00+00:00"	"student011"	"student"	86	"it's not like usual turpin"	"it's not like a usual turnip"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:32:00+00:00+00:00+00:00"	"teacher008"	"teacher"	87	"turNIP"	"turNIP"	NA	NA	"repair"	"writing"	NA	NA	1
+"2021-02-10T08:32:11+00:00+00:00+00:00"	"teacher008"	"teacher"	88	"I think usual turnips are quite bland"	"I think usual turnips are quite bland"	86	NA	NA	NA	NA	NA	7
+"2021-02-10T08:33:07+00:00+00:00+00:00"	"student011"	"student"	89	"turnip!"	"turnip!"	87	NA	NA	NA	NA	NA	1
+"2021-02-10T08:33:24+00:00+00:00+00:00"	"teacher008"	"teacher"	90	"Ok, I've got some words for you from the previous class. Could you tell me, please, which parts of speech they are (noun, verb, adjective etc.). Some of them can be more than one part of speech!"	"Ok, I've got some words for you from the previous class. Could you tell me, please, which parts of speech they are (noun, verb, adjective etc.). Some of them can be more than one part of speech!"	NA	"4.0"	"exercise,revision"	"lexical resource"	NA	NA	37
+"2021-02-10T08:33:37+00:00+00:00+00:00"	"student011"	"student"	91	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:33:42+00:00+00:00+00:00"	"teacher008"	"teacher"	92	"Rebel, rebellion, quirky, forlorn, rollout, alignment, browse,  tweet"	"Rebel, rebellion, quirky, forlorn, rollout, alignment, browse,  tweet"	NA	NA	NA	NA	NA	NA	9
+"2021-02-10T08:34:16+00:00+00:00+00:00"	"student011"	"student"	93	"rebel could be a noun or a verb"	"rebel could be a noun or a verb"	NA	"4a"	NA	NA	NA	NA	8
+"2021-02-10T08:34:40+00:00+00:00+00:00"	"student011"	"student"	94	"and they have different stresses"	"and they have different stresses"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:34:53+00:00+00:00+00:00"	"student011"	"student"	95	"rEbel is a noun"	"rEbel is a noun"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:34:59+00:00+00:00+00:00"	"student011"	"student"	96	"rebEl is a verb"	"rebEl is a verb"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:35:29+00:00+00:00+00:00"	"teacher008"	"teacher"	97	"Very good :)"	"Very good :)"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:35:37+00:00+00:00+00:00"	"student011"	"student"	98	"rebellion is a noun, it's a process )"	"rebellion is a noun, it's a process )"	NA	"4b"	NA	NA	NA	NA	8
+"2021-02-10T08:36:29+00:00+00:00+00:00"	"teacher008"	"teacher"	99	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:36:55+00:00+00:00+00:00"	"student011"	"student"	100	"quirky its like quaint but different )))))"	"quirky is like quaint but different )))))"	NA	"4c"	NA	NA	NA	NA	7
+"2021-02-10T08:37:06+00:00+00:00+00:00"	"student011"	"student"	101	"it's an adjective"	"it's an adjective"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:37:12+00:00+00:00+00:00"	"teacher008"	"teacher"	102	"Haha, yes"	"Haha, yes"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:37:20+00:00+00:00+00:00"	"student011"	"student"	103	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:37:24+00:00+00:00+00:00"	"teacher008"	"teacher"	104	"quaint is unusual and maybe old-fashioned"	"quaint is unusual and maybe old-fashioned"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+"2021-02-10T08:37:36+00:00+00:00+00:00"	"student011"	"student"	105	"forlorn it's an adjective too"	"forlorn is an adjective too"	NA	"4d"	NA	NA	NA	NA	5
+"2021-02-10T08:37:37+00:00+00:00+00:00"	"student011"	"student"	106	"lone"	"lonely"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:37:40+00:00+00:00+00:00"	"student011"	"student"	107	"alone"	"alone"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:38:15+00:00+00:00+00:00"	"student011"	"student"	108	"rollout"	"rollout"	NA	"4e"	NA	NA	NA	NA	1
+"2021-02-10T08:38:19+00:00+00:00+00:00"	"teacher008"	"teacher"	109	"yes, sad and lonely"	"yes, sad and lonely"	107	NA	"scaffolding,repair"	"lexical resource,meaning"	NA	NA	4
+"2021-02-10T08:38:30+00:00+00:00+00:00"	"student011"	"student"	110	"hm"	"hm"	108	NA	NA	NA	NA	NA	1
+"2021-02-10T08:38:35+00:00+00:00+00:00"	"student011"	"student"	111	"let me think"	"let me think"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:38:42+00:00+00:00+00:00"	"student011"	"student"	112	"or google ))"	"or google ))"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:39:10+00:00+00:00+00:00"	"student011"	"student"	113	"I remember we was talking about"	"I remember we were talking about it"	NA	NA	NA	NA	NA	NA	6
+"2021-02-10T08:39:13+00:00+00:00+00:00"	"student011"	"student"	114	"we were"	"we were"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+"2021-02-10T08:39:20+00:00+00:00+00:00"	"student011"	"student"	115	"but the meaning"	"but the meaning"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:39:32+00:00+00:00+00:00"	"teacher008"	"teacher"	116	"Oh, it's the introduction of a new product or service"	"Oh, it's the introduction of a new product or service"	NA	NA	"scaffolding,revision"	"lexical resource,meaning"	NA	NA	10
+"2021-02-10T08:39:37+00:00+00:00+00:00"	"teacher008"	"teacher"	117	"the rollout of vaccines"	"the rollout of vaccines"	NA	NA	"scaffolding,revision"	"lexical resource"	NA	NA	4
+"2021-02-10T08:39:40+00:00+00:00+00:00"	"teacher008"	"teacher"	118	"was the example"	"was the example"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:39:43+00:00+00:00+00:00"	"student011"	"student"	119	"ah!"	"ah!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:39:52+00:00+00:00+00:00"	"student011"	"student"	120	"I saw!"	"I saw!"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:39:56+00:00+00:00+00:00"	"student011"	"student"	121	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:40:03+00:00+00:00+00:00"	"teacher008"	"teacher"	122	"And you said the word had been borrowed in Russian"	"And you said the word had been borrowed in Russian"	NA	NA	NA	NA	NA	NA	10
+"2021-02-10T08:40:10+00:00+00:00+00:00"	"student011"	"student"	123	"so it's a noun"	"so it's a noun"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:40:21+00:00+00:00+00:00"	"teacher008"	"teacher"	124	"yes)"	"yes)"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:40:28+00:00+00:00+00:00"	"teacher008"	"teacher"	125	"alignment, browse, tweet"	"alignment, browse, tweet"	NA	"4f"	NA	NA	NA	NA	3
+"2021-02-10T08:40:35+00:00+00:00+00:00"	"teacher008"	"teacher"	126	"so that you don't have to scroll up and down"	"so that you don't have to scroll up and down"	NA	NA	NA	NA	NA	NA	10
+"2021-02-10T08:40:46+00:00+00:00+00:00"	"student011"	"student"	127	"lets start from the end )"	"let's start from the end )"	NA	"4g"	NA	NA	NA	NA	6
+"2021-02-10T08:40:50+00:00+00:00+00:00"	"teacher008"	"teacher"	128	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:41:12+00:00+00:00+00:00"	"student011"	"student"	129	"tweet it's a noun or a verb"	"tweet is a noun or a verb"	NA	NA	NA	NA	NA	NA	7
+"2021-02-10T08:41:17+00:00+00:00+00:00"	"student011"	"student"	130	"But Twitter"	"But Twitter"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:41:30+00:00+00:00+00:00"	"student011"	"student"	131	"Browse it's a verb"	"Browse is a verb"	NA	"4h"	NA	NA	NA	NA	4
+"2021-02-10T08:41:30+00:00+00:00+00:00"	"teacher008"	"teacher"	132	"yes!"	"yes!"	130	NA	NA	NA	NA	NA	1
+"2021-02-10T08:41:33+00:00+00:00+00:00"	"teacher008"	"teacher"	133	"yes"	"yes"	131	NA	NA	NA	NA	NA	1
+"2021-02-10T08:41:57+00:00+00:00+00:00"	"student011"	"student"	134	"you can browse at the shop or through a book"	"you can browse at the shop or through a book"	NA	NA	NA	NA	NA	NA	10
+"2021-02-10T08:42:14+00:00+00:00+00:00"	"teacher008"	"teacher"	135	"perfect))"	"perfect))"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:42:14+00:00+00:00+00:00"	"student011"	"student"	136	"aaand"	"aaand"	NA	"4i"	NA	NA	NA	NA	1
+"2021-02-10T08:42:27+00:00+00:00+00:00"	"student011"	"student"	137	"alignment"	"alignment"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:42:45+00:00+00:00+00:00"	"teacher008"	"teacher"	138	"Even if you don't remember the meaning, you can tell which part of speech alignment is, can't you?"	"Even if you don't remember the meaning, you can tell which part of speech alignment is, can't you?"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	18
+"2021-02-10T08:42:47+00:00+00:00+00:00"	"student011"	"student"	139	"I need your help or google help )"	"I need your help or the help of google )"	137	NA	NA	NA	NA	NA	8
+"2021-02-10T08:43:01+00:00+00:00+00:00"	"student011"	"student"	140	"alignment is a noun"	"alignment is a noun"	138	NA	NA	NA	NA	NA	4
+"2021-02-10T08:43:41+00:00+00:00+00:00"	"student011"	"student"	141	"or the Cambridge Dictionary help ))"	"or the help of Cambridge Dictionary ))"	139	NA	NA	NA	NA	NA	6
+"2021-02-10T08:43:46+00:00+00:00+00:00"	"teacher008"	"teacher"	142	"Yes, sure! It's a position of two or more things when they are in a straight line or parallel to each other"	"Yes, sure! It's a position of two or more things when they are in a straight line or parallel to each other"	NA	NA	"scaffolding,revision"	"lexical resource,meaning"	NA	NA	22
+"2021-02-10T08:43:52+00:00+00:00+00:00"	"student011"	"student"	143	"at first! ))"	"at first! ))"	141	NA	NA	NA	NA	NA	3
+"2021-02-10T08:44:02+00:00+00:00+00:00"	"student011"	"student"	144	"Ah! Yes!"	"Ah! Yes!"	142	NA	NA	NA	NA	NA	2
+"2021-02-10T08:44:04+00:00+00:00+00:00"	"teacher008"	"teacher"	145	"Or, it can mean 'an agreement'"	"Or, it can mean 'an agreement'"	NA	NA	"scaffolding,revision"	"lexical resource,meaning"	NA	NA	6
+"2021-02-10T08:44:21+00:00+00:00+00:00"	"teacher008"	"teacher"	146	"Their political views are in alignment"	"Their political views are in alignment"	NA	NA	"scaffolding,revision"	"lexical resource,meaning"	NA	NA	6
+"2021-02-10T08:44:26+00:00+00:00+00:00"	"teacher008"	"teacher"	147	"or something like that"	"or something like that"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:44:31+00:00+00:00+00:00"	"student011"	"student"	148	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:44:48+00:00+00:00+00:00"	"teacher008"	"teacher"	149	"Ok, cool! I'm going to give you some sentences with gaps, could you put the words in the gaps, please?"	"Ok, cool! I'm going to give you some sentences with gaps, could you put the words in the gaps, please?"	NA	"5.0"	"exercise,revision"	"lexical resource"	NA	NA	20
+"2021-02-10T08:45:00+00:00+00:00+00:00"	"teacher008"	"teacher"	150	"Rebel (v.), rebellion, quirky, forlorn, rollout, alignment, browse,  tweet"	"Rebel (v.), rebellion, quirky, forlorn, rollout, alignment, browse,  tweet"	NA	NA	NA	NA	NA	NA	10
+"2021-02-10T08:45:12+00:00+00:00+00:00"	"teacher008"	"teacher"	151	"1. If you’re a social media influencer, you have to ______ every day. 2. The company started a big advertising campaign, to help with the rollout of its new product. 3. I was browsing through some magazines while waiting for my appointment. 4. Their houses are completely different. Hers is quite minimalistic, but his is really quirky, filled with plants, pictures and souvenirs. 5. During her teenage _____, she dyed her hair a new colour every three months. 6. She looked a ____ figure standing at a bus stop. 7. We would be able to control the virus better if people didn’t ____ against lockdown rules. 8. You hear that noise because the wheels are out of __________."	"1. If you’re a social media influencer, you have to ______ every day. 2. The company started a big advertising campaign, to help with the rollout of its new product. 3. I was browsing through some magazines while waiting for my appointment. 4. Their houses are completely different. Hers is quite minimalistic, but his is really quirky, filled with plants, pictures and souvenirs. 5. During her teenage _____, she dyed her hair a new colour every three months. 6. She looked a ____ figure standing at a bus stop. 7. We would be able to control the virus better if people didn’t ____ against lockdown rules. 8. You hear that noise because the wheels are out of __________."	NA	NA	NA	NA	NA	NA	118
+"2021-02-10T08:45:30+00:00+00:00+00:00"	"teacher008"	"teacher"	152	"Oh nooo!!!! Don't look"	"Oh nooo!!!! Don't look"	NA	"5a"	"repair"	"content"	NA	NA	4
+"2021-02-10T08:45:36+00:00+00:00+00:00"	"teacher008"	"teacher"	153	"I forgot to remove some words"	"I forgot to remove some words"	NA	NA	NA	NA	NA	NA	6
+"2021-02-10T08:45:52+00:00+00:00+00:00"	"student011"	"student"	154	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:46:09+00:00+00:00+00:00"	"student011"	"student"	155	"I've closed my eyes )"	"I've closed my eyes )"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:46:24+00:00+00:00+00:00"	"teacher008"	"teacher"	156	"Silly me! one second"	"Silly me! one second"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:46:40+00:00+00:00+00:00"	"teacher008"	"teacher"	157	"Ok, you might have to change the form of the words, like add -ing or -ed"	"Ok, you might have to change the form of the words, like add -ing or -ed"	NA	NA	NA	NA	NA	NA	16
+"2021-02-10T08:46:43+00:00+00:00+00:00"	"teacher008"	"teacher"	158	"1. If you’re a social media influencer, you have to ______ every day. 2. The company started a big advertising campaign, to help with the ____ of its new product. 3. I was _____ through some magazines while waiting for my appointment. 4. Their houses are completely different. Hers is quite minimalistic, but his is really ____, filled with plants, pictures and souvenirs. 5. During her teenage _____, she dyed her hair a new colour every three months. 6. She looked a ____ figure standing at a bus stop. 7. We would be able to control the virus better if people didn’t ____ against lockdown rules. 8. You hear that noise because the wheels are out of __________."	"1. If you’re a social media influencer, you have to ______ every day. 2. The company started a big advertising campaign, to help with the ____ of its new product. 3. I was _____ through some magazines while waiting for my appointment. 4. Their houses are completely different. Hers is quite minimalistic, but his is really ____, filled with plants, pictures and souvenirs. 5. During her teenage _____, she dyed her hair a new colour every three months. 6. She looked a ____ figure standing at a bus stop. 7. We would be able to control the virus better if people didn’t ____ against lockdown rules. 8. You hear that noise because the wheels are out of __________."	NA	NA	"repair"	"content"	NA	NA	118
+"2021-02-10T08:46:46+00:00+00:00+00:00"	"teacher008"	"teacher"	159	"ready!"	"ready!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:46:53+00:00+00:00+00:00"	"student011"	"student"	160	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:47:08+00:00+00:00+00:00"	"student011"	"student"	161	"1. If you’re a social media influencer, you have to rebel every day."	"1. If you’re a social media influencer, you have to rebel every day."	NA	"5b"	NA	NA	NA	NA	13
+"2021-02-10T08:47:14+00:00+00:00+00:00"	"student011"	"student"	162	"haha it's a joke"	"haha it's a joke"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:47:15+00:00+00:00+00:00"	"student011"	"student"	163	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:47:23+00:00+00:00+00:00"	"student011"	"student"	164	"Let's start"	"Let's start"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:47:32+00:00+00:00+00:00"	"teacher008"	"teacher"	165	"haha))) I would rebel every day if I had to be a social media influencer"	"haha))) I would rebel every day if I had to be a social media influencer"	NA	NA	NA	NA	NA	NA	15
+"2021-02-10T08:47:44+00:00+00:00+00:00"	"student011"	"student"	166	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:48:12+00:00+00:00+00:00"	"student011"	"student"	167	"1. If you’re a social media influencer, you have to browse every day."	"1. If you’re a social media influencer, you have to browse every day."	NA	NA	NA	NA	NA	NA	13
+"2021-02-10T08:48:53+00:00+00:00+00:00"	"teacher008"	"teacher"	168	"Hmm, that's also true!"	"Hmm, that's also true!"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:48:56+00:00+00:00+00:00"	"student011"	"student"	169	"The company started a big advertising campaign, to help with the rollout of its new product."	"The company started a big advertising campaign, to help with the rollout of its new product."	NA	"5c"	NA	NA	NA	NA	16
+"2021-02-10T08:49:07+00:00+00:00+00:00"	"teacher008"	"teacher"	170	"My idea was you have to .... post on Twitter every day..."	"My idea was you have to .... post on Twitter every day..."	168	NA	"eliciting"	"lexical resource"	NA	NA	12
+"2021-02-10T08:49:13+00:00+00:00+00:00"	"teacher008"	"teacher"	171	"yes to 2!"	"yes to 2!"	169	NA	NA	NA	NA	NA	3
+"2021-02-10T08:49:17+00:00+00:00+00:00"	"student011"	"student"	172	"so first is different?"	"so first is different?"	170	NA	NA	NA	NA	NA	4
+"2021-02-10T08:49:28+00:00+00:00+00:00"	"student011"	"student"	173	"tweet"	"tweet"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:49:29+00:00+00:00+00:00"	"student011"	"student"	174	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:49:34+00:00+00:00+00:00"	"teacher008"	"teacher"	175	"That's right!"	"That's right!"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:50:00+00:00+00:00+00:00"	"student011"	"student"	176	"3. I was browsing through some magazines while waiting for my appointment."	"3. I was browsing through some magazines while waiting for my appointment."	NA	"5d"	NA	NA	NA	NA	12
+"2021-02-10T08:50:23+00:00+00:00+00:00"	"teacher008"	"teacher"	177	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:50:24+00:00+00:00+00:00"	"student011"	"student"	178	"so browse is here )"	"so browse is here )"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:51:05+00:00+00:00+00:00"	"teacher008"	"teacher"	179	"yep"	"yep"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:51:11+00:00+00:00+00:00"	"student011"	"student"	180	"4. Their houses are completely different. Hers is quite minimalistic, but his is really quirky, filled with plants, pictures and souvenirs."	"4. Their houses are completely different. Hers is quite minimalistic, but his is really quirky, filled with plants, pictures and souvenirs."	NA	"5e"	NA	NA	NA	NA	21
+"2021-02-10T08:51:17+00:00+00:00+00:00"	"teacher008"	"teacher"	181	"yes)"	"yes)"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:51:59+00:00+00:00+00:00"	"student011"	"student"	182	"like quaint but different )"	"like quaint but different )"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:52:24+00:00+00:00+00:00"	"teacher008"	"teacher"	183	"yes! I think 'quirky' is really positive"	"yes! I think 'quirky' is really positive"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+"2021-02-10T08:52:33+00:00+00:00+00:00"	"teacher008"	"teacher"	184	"what we call in Russian 'original'"	"what we call in Russian 'original'"	NA	NA	"scaffolding,non-English"	"lexical resource,code switching"	NA	NA	6
+"2021-02-10T08:53:34+00:00+00:00+00:00"	"student011"	"student"	185	"5. During her teenage rebellion, she dyed her hair a new colour every three months."	"5. During her teenage rebellion, she dyed her hair a new colour every three months."	NA	"5f"	NA	NA	NA	NA	15
+"2021-02-10T08:53:40+00:00+00:00+00:00"	"teacher008"	"teacher"	186	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:53:58+00:00+00:00+00:00"	"student011"	"student"	187	"I know a woman who do it during her adult age ))"	"I know a woman who does it as an adult ))"	NA	NA	NA	NA	NA	NA	12
+"2021-02-10T08:54:30+00:00+00:00+00:00"	"teacher008"	"teacher"	188	"Quirky!"	"Quirky!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:54:42+00:00+00:00+00:00"	"student011"	"student"	189	"6. She looked a ____ figure standing at a bus stop."	"6. She looked a ____ figure standing at a bus stop."	NA	"5g"	NA	NA	NA	NA	11
+"2021-02-10T08:54:43+00:00+00:00+00:00"	"student011"	"student"	190	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:54:50+00:00+00:00+00:00"	"student011"	"student"	191	"ah!"	"ah!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:55:10+00:00+00:00+00:00"	"student011"	"student"	192	"forlorn"	"forlorn"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:55:13+00:00+00:00+00:00"	"teacher008"	"teacher"	193	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:55:39+00:00+00:00+00:00"	"student011"	"student"	194	"7. We would be able to control the virus better if people didn’t rebel against lockdown rules."	"7. We would be able to control the virus better if people didn’t rebel against lockdown rules."	NA	"5h"	NA	NA	NA	NA	17
+"2021-02-10T08:55:45+00:00+00:00+00:00"	"teacher008"	"teacher"	195	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:55:57+00:00+00:00+00:00"	"student011"	"student"	196	"and!"	"and!"	NA	"5i"	NA	NA	NA	NA	1
+"2021-02-10T08:56:49+00:00+00:00+00:00"	"student011"	"student"	198	"8. You hear that noise because the wheels are out of alignment."	"8. You hear that noise because the wheels are out of alignment."	NA	NA	NA	NA	NA	NA	12
+"2021-02-10T08:56:55+00:00+00:00+00:00"	"teacher008"	"teacher"	199	"Yaay!"	"Yaay!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T08:56:58+00:00+00:00+00:00"	"teacher008"	"teacher"	200	"that's right))"	"that's right))"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:57:09+00:00+00:00+00:00"	"teacher008"	"teacher"	201	"Were you a rebellious teenager?"	"Were you a rebellious teenager?"	NA	"6.0"	"exercise"	"writing,lexical resource"	NA	NA	5
+"2021-02-10T08:57:15+00:00+00:00+00:00"	"student011"	"student"	202	"no )"	"no )"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T08:57:27+00:00+00:00+00:00"	"teacher008"	"teacher"	203	"Neither was I"	"Neither was I"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T08:57:34+00:00+00:00+00:00"	"student011"	"student"	204	"I mean yes but if to compare with others - no )"	"I mean yes but if compared with others - no )"	NA	NA	NA	NA	NA	NA	12
+"2021-02-10T08:58:05+00:00+00:00+00:00"	"student011"	"student"	205	"Oh! My favorite neither )"	"Oh! My favorite neither )"	203	NA	NA	NA	NA	NA	5
+"2021-02-10T08:58:10+00:00+00:00+00:00"	"teacher008"	"teacher"	206	"I think I should have rebelled more, it would have been good for me"	"I think I should have rebelled more, it would have been good for me"	204	NA	NA	NA	NA	NA	14
+"2021-02-10T08:58:13+00:00+00:00+00:00"	"teacher008"	"teacher"	207	"That's right)"	"That's right)"	205	NA	NA	NA	NA	NA	2
+"2021-02-10T08:58:41+00:00+00:00+00:00"	"student011"	"student"	208	"<TEACHER> : I think I should have rebelled more, it would have been good for me"	"<TEACHER> : I think I should have rebelled more, it would have been good for me"	NA	NA	NA	NA	NA	NA	16
+"2021-02-10T08:58:50+00:00+00:00+00:00"	"student011"	"student"	209	"maybe yes and maybe no"	"maybe yes and maybe no"	NA	NA	NA	NA	NA	NA	5
+"2021-02-10T08:59:08+00:00+00:00+00:00"	"teacher008"	"teacher"	210	"Well, yes, you're right"	"Well, yes, you're right"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T08:59:28+00:00+00:00+00:00"	"student011"	"student"	211	"We don't know how could be change our life ur us if we did something different way )"	"We don't know how we could have changed our life if we had done something in a different way )"	NA	NA	NA	NA	NA	NA	18
+"2021-02-10T08:59:46+00:00+00:00+00:00"	"student011"	"student"	212	"changed"	"changed"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+"2021-02-10T08:59:57+00:00+00:00+00:00"	"teacher008"	"teacher"	213	"Yes! let's make a nice third conditional out of it))"	"Yes! let's make a nice third conditional out of it))"	NA	"6a"	"eliciting,repair"	"grammatical resource"	NA	NA	10
+"2021-02-10T08:59:59+00:00+00:00+00:00"	"student011"	"student"	214	"or"	"or"	212	NA	NA	NA	NA	NA	1
+"2021-02-10T09:00:08+00:00+00:00+00:00"	"student011"	"student"	215	"oh!"	"oh!"	213	NA	NA	NA	NA	NA	1
+"2021-02-10T09:00:11+00:00+00:00+00:00"	"student011"	"student"	216	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T09:00:38+00:00+00:00+00:00"	"student011"	"student"	217	"I don't remember )"	"I don't remember )"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T09:01:07+00:00+00:00+00:00"	"teacher008"	"teacher"	218	"would have V 3, if had V3"	"would have V 3, if had V3"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+"2021-02-10T09:02:13+00:00+00:00+00:00"	"teacher008"	"teacher"	219	"Our lives ___ ____ been different if we ___ ____ something in a different way"	"Our lives ___ ____ been different if we ___ ____ something in a different way"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	15
+"2021-02-10T09:02:15+00:00+00:00+00:00"	"student011"	"student"	220	"We don't know how would have changed our life or us, if we had done something different way"	"We don't know how we would have changed our life or ourselves, if we had done something in a different way"	NA	NA	NA	NA	NA	NA	18
+"2021-02-10T09:02:37+00:00+00:00+00:00"	"teacher008"	"teacher"	221	"Yes, good! but missing a subject in the first part"	"Yes, good! but missing a subject in the first part"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	10
+"2021-02-10T09:02:46+00:00+00:00+00:00"	"teacher008"	"teacher"	222	"We don't know how ___ would have changed"	"We don't know how ___ would have changed"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+"2021-02-10T09:02:46+00:00+00:00+00:00"	"student011"	"student"	223	"Our lives would have been different if we had done something in a different way"	"Our lives would have been different if we had done something in a different way"	219	NA	NA	NA	NA	NA	15
+"2021-02-10T09:02:53+00:00+00:00+00:00"	"teacher008"	"teacher"	224	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T09:03:08+00:00+00:00+00:00"	"student011"	"student"	225	"ok )"	"ok )"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T09:03:20+00:00+00:00+00:00"	"teacher008"	"teacher"	226	"Ok, lovely"	"Ok, lovely"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T09:03:29+00:00+00:00+00:00"	"student011"	"student"	227	"thank you )"	"thank you )"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T09:04:02+00:00+00:00+00:00"	"teacher008"	"teacher"	228	"A very quick thing before we finish. I found some nice 'dig for Victory' photos. Can you please have a look at picture 3? Do you recognize the place?"	"A very quick thing before we finish. I found some nice 'dig for Victory' photos. Can you please have a look at picture 3? Do you recognize the place?"	NA	"7.0"	"topic opening"	NA	"website"	NA	29
+"2021-02-10T09:05:18+00:00+00:00+00:00"	"student011"	"student"	230	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T09:05:24+00:00+00:00+00:00"	"student011"	"student"	231	"let me see"	"let me see"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T09:05:50+00:00+00:00+00:00"	"student011"	"student"	232	"Kensington Gardens!"	"Kensington Gardens!"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T09:06:05+00:00+00:00+00:00"	"teacher008"	"teacher"	233	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T09:06:05+00:00+00:00+00:00"	"student011"	"student"	234	"actually I didn't recognize"	"actually I didn't recognize"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T09:06:08+00:00+00:00+00:00"	"student011"	"student"	235	")"	")"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T09:06:17+00:00+00:00+00:00"	"teacher008"	"teacher"	236	"It says underneath))"	"It says underneath))"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T09:06:29+00:00+00:00+00:00"	"student011"	"student"	237	"yes )"	"yes )"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T09:06:38+00:00+00:00+00:00"	"student011"	"student"	238	"it's so interesting"	"it's so interesting"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T09:06:53+00:00+00:00+00:00"	"teacher008"	"teacher"	240	"As you can see, it's not just vegetables, but chickens and geese etc."	"As you can see, it's not just vegetables, but chickens and geese etc."	NA	NA	NA	NA	NA	NA	13
+"2021-02-10T09:07:04+00:00+00:00+00:00"	"student011"	"student"	241	"aha!"	"aha!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-10T09:07:20+00:00+00:00+00:00"	"teacher008"	"teacher"	242	"If you are curious, google some Dig for Victory posters, they are really interesting."	"If you are curious, google some Dig for Victory posters, they are really interesting."	NA	NA	NA	NA	NA	NA	14
+"2021-02-10T09:07:49+00:00+00:00+00:00"	"teacher008"	"teacher"	243	"Ok, I've got to let you go! Have a lovely day! I'll send you the slots for next week later on, ok?"	"Ok, I've got to let you go! Have a lovely day! I'll send you the slots for next week later on, ok?"	NA	"8.0"	"closing"	NA	NA	NA	22
+"2021-02-10T09:07:59+00:00+00:00+00:00"	"student011"	"student"	244	"ok! Thank you"	"ok! Thank you"	NA	NA	NA	NA	NA	NA	3
+"2021-02-10T09:08:05+00:00+00:00+00:00"	"student011"	"student"	245	"have a good day!"	"have a good day!"	NA	NA	NA	NA	NA	NA	4
+"2021-02-10T09:08:09+00:00+00:00+00:00"	"student011"	"student"	246	"bye xx"	"bye xx"	NA	NA	NA	NA	NA	NA	2
+"2021-02-10T09:08:24+00:00+00:00+00:00"	"teacher008"	"teacher"	247	"Bye, take care :)"	"Bye, take care :)"	NA	NA	NA	NA	NA	"B2"	4

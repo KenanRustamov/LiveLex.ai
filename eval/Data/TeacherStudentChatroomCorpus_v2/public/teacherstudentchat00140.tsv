@@ -1,0 +1,141 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-16 13:34:03	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-16 13:34:14	"teacher008"	"teacher"	2	"I'm so sorry, my laptop's being rubbish today!"	"I'm so sorry, my laptop's being rubbish today!"	NA	"1a"	NA	NA	NA	NA	8
+2020-11-16 13:34:22	"teacher008"	"teacher"	3	"or maybe my Internet connection"	"or maybe my Internet connection"	NA	NA	NA	NA	NA	NA	5
+2020-11-16 13:34:25	"student015"	"student"	4	"Hello, nice to meet you again!"	"Hello, nice to speak to you again!"	NA	NA	NA	NA	NA	NA	6
+2020-11-16 13:34:28	"teacher008"	"teacher"	5	"It took me a while to log on"	"It took me a while to log on"	3	NA	NA	NA	NA	NA	8
+2020-11-16 13:34:31	"student015"	"student"	6	"It's OK."	"It's OK."	NA	NA	NA	NA	NA	NA	2
+2020-11-16 13:34:35	"teacher008"	"teacher"	7	"Nice to talk to you again, yes"	"Nice to talk to you again, yes"	4	NA	"repair"	"lexical resource"	NA	NA	7
+2020-11-16 13:34:37	"teacher008"	"teacher"	8	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-16 13:35:51	"student015"	"student"	9	"I'm fine. My application for research assistent still stack at the college progress."	"I'm fine. My application for a research assistant is still being processed."	NA	NA	NA	NA	NA	NA	13
+2020-11-16 13:36:19	"teacher008"	"teacher"	10	"Oh, is it still being processed? That must be very stressful for you!"	"Oh, is it still being processed? That must be very stressful for you!"	NA	NA	"repair"	"lexical resource"	NA	NA	13
+2020-11-16 13:37:29	"student015"	"student"	11	"Yes. My professor help me contact to the manager who is in charge of this things."	"Yes. My professor helped me contact the manager who is in charge of these things."	NA	NA	NA	NA	NA	NA	16
+2020-11-16 13:37:55	"teacher008"	"teacher"	12	"Oh, that's good! Hopefully, it'll help"	"Oh, that's good! Hopefully, it'll help"	NA	NA	NA	NA	NA	NA	6
+2020-11-16 13:38:42	"student015"	"student"	13	"Thanks, I also think it should be work. Or maybe I can get a result bad or good."	"Thanks, I also think it should work. Or maybe I can get a result, whether bad or good."	NA	NA	NA	NA	NA	NA	18
+2020-11-16 13:38:50	"teacher008"	"teacher"	14	"Is your contract in Beijing running out? Or can you stay for as long as you want?"	"Is your contract in Beijing running out? Or can you stay for as long as you want?"	NA	"2a"	"topic development"	NA	NA	NA	17
+2020-11-16 13:39:10	"teacher008"	"teacher"	15	"Yes, uncertaintly is the worst. You need to know either way"	"Yes, uncertaintly is the worst. You need to know either way"	13	NA	NA	NA	NA	NA	11
+2020-11-16 13:40:00	"student015"	"student"	16	"I can stay in Beijing as long as I want."	"I can stay in Beijing as long as I want."	14	NA	NA	NA	NA	NA	10
+2020-11-16 13:40:26	"teacher008"	"teacher"	17	"I see, at least that's good!"	"I see, at least that's good!"	NA	NA	NA	NA	NA	NA	6
+2020-11-16 13:40:35	"teacher008"	"teacher"	18	"Are you from Beijing?"	"Are you from Beijing?"	NA	"2b"	"topic development"	NA	NA	NA	4
+2020-11-16 13:40:51	"student015"	"student"	19	"My hometown is near Beijing."	"My hometown is near Beijing."	NA	NA	NA	NA	NA	NA	5
+2020-11-16 13:41:50	"teacher008"	"teacher"	20	"Ok, I see!"	"Ok, I see!"	NA	NA	NA	NA	NA	NA	3
+2020-11-16 13:42:07	"teacher008"	"teacher"	21	"Do you like living in Beijing?"	"Do you like living in Beijing?"	NA	"2c"	"topic development"	NA	NA	NA	6
+2020-11-16 13:42:22	"student015"	"student"	22	"Not so much, haha"	"Not so much, haha"	NA	NA	NA	NA	NA	NA	4
+2020-11-16 13:42:29	"teacher008"	"teacher"	23	"No? Why not?"	"No? Why not?"	NA	NA	NA	NA	NA	NA	3
+2020-11-16 13:43:58	"student015"	"student"	24	"Beijing is not a good city to live, because the price of houses is too high."	"Beijing is not a good city to live in, because the price of houses is too high."	NA	NA	NA	NA	NA	NA	16
+2020-11-16 13:44:45	"teacher008"	"teacher"	25	"Oh I see! I can imagine! It's the same in Shanghai, unfortunately. The rent is very expensive"	"Oh I see! I can imagine! It's the same in Shanghai, unfortunately. The rent is very expensive"	NA	NA	NA	NA	NA	NA	17
+2020-11-16 13:45:16	"teacher008"	"teacher"	26	"It's a very common B2 speaking question, by the way. What do you like / dislike about the place where you live"	"It's a very common B2 speaking question, by the way. What do you like / dislike about the place where you live"	NA	NA	"scaffolding"	"speaking"	NA	NA	22
+2020-11-16 13:45:43	"student015"	"student"	27	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-16 13:45:57	"teacher008"	"teacher"	28	"Is there anything you like about Beijing?"	"Is there anything you like about Beijing?"	NA	"2d"	"eliciting"	"speaking"	NA	NA	7
+2020-11-16 13:47:11	"student015"	"student"	29	"Yes. Since Beijing is the capical of China, it has lots of cultural resource."	"Yes. Since Beijing is the capital of China, it has lots of cultural resource."	NA	NA	NA	NA	NA	NA	14
+2020-11-16 13:47:30	"teacher008"	"teacher"	30	"Ok, like what for example?"	"Ok, like what for example?"	NA	NA	"eliciting"	"speaking"	NA	NA	5
+2020-11-16 13:48:49	"student015"	"student"	31	"There are a lot of live-house show in Beijing, like singing show, talking show etc."	"There are a lot of live shows in Beijing, like singing shows, talk shows etc."	NA	NA	NA	NA	NA	NA	15
+2020-11-16 13:49:56	"student015"	"student"	32	"A lot of famous artists also have some exhibitions."	"A lot of famous artists also have exhibitions."	NA	NA	NA	NA	NA	NA	9
+2020-11-16 13:50:12	"teacher008"	"teacher"	33	"Ah, there are live shows"	"Ah, there are live shows"	31	NA	"repair"	"lexical resource"	NA	NA	5
+2020-11-16 13:50:38	"teacher008"	"teacher"	34	"Just 'live', you don't need house"	"Just 'live', you don't need house"	NA	NA	"repair"	"lexical resource"	NA	NA	6
+2020-11-16 13:50:55	"teacher008"	"teacher"	35	"Yes, I bet it's a very interesting place to live!"	"Yes, I bet it's a very interesting place to live!"	NA	NA	NA	NA	NA	NA	10
+2020-11-16 13:51:41	"teacher008"	"teacher"	36	"Do you think Shanghai will be different?"	"Do you think Shanghai will be different?"	NA	"2e"	"topic development"	NA	NA	NA	7
+2020-11-16 13:51:47	"student015"	"student"	37	"OK. In China people always say live house, I don't know why."	"OK. In China people always say live house, I don't know why."	34	NA	NA	NA	NA	NA	12
+2020-11-16 13:52:34	"student015"	"student"	38	"Yes. I think Shanghai is not the same."	"Yes. I think Shanghai is not the same."	36	NA	NA	NA	NA	NA	8
+2020-11-16 13:53:31	"teacher008"	"teacher"	39	"Hmm, 'watch something live on Broadway' or 'my favourite singer is performing live'"	"Hmm, 'watch something live on Broadway' or 'my favourite singer is performing live'"	37	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-11-16 13:53:49	"teacher008"	"teacher"	40	"In what way is Shanghai different?"	"In what way is Shanghai different?"	38	NA	"eliciting"	"writing"	NA	NA	6
+2020-11-16 13:54:16	"student015"	"student"	41	"Shanghai is more international than Beijing."	"Shanghai is more international than Beijing."	NA	NA	NA	NA	NA	NA	6
+2020-11-16 13:54:50	"teacher008"	"teacher"	42	"Ok, interesting!"	"Ok, interesting!"	NA	NA	NA	NA	NA	NA	2
+2020-11-16 13:54:54	"teacher008"	"teacher"	43	"Anything else?"	"Anything else?"	NA	NA	NA	NA	NA	NA	2
+2020-11-16 13:55:47	"student015"	"student"	44	"The environment in Shanghai is better."	"The climate in Shanghai is better."	NA	NA	NA	NA	NA	NA	6
+2020-11-16 13:56:16	"teacher008"	"teacher"	45	"Ok, in what way?"	"Ok, in what way?"	NA	NA	"eliciting"	"writing"	NA	NA	4
+2020-11-16 13:56:24	"student015"	"student"	46	"I mean the temperature and humidity"	"I mean the temperature and humidity"	NA	NA	NA	NA	NA	NA	6
+2020-11-16 13:56:55	"teacher008"	"teacher"	47	"Oh, you mean the climate?"	"Oh, you mean the climate?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-11-16 13:57:09	"teacher008"	"teacher"	48	"Yes, Beijing is much colder, isn't it?"	"Yes, Beijing is much colder, isn't it?"	NA	NA	NA	NA	NA	NA	7
+2020-11-16 13:57:22	"student015"	"student"	50	"Shanghai is warmer than beijing in winter."	"Shanghai is warmer than Beijing in winter."	NA	NA	NA	NA	NA	NA	7
+2020-11-16 13:57:23	"teacher008"	"teacher"	51	"But Shanghai has a very long rain season"	"But Shanghai has a very long rain season"	NA	NA	NA	NA	NA	NA	8
+2020-11-16 13:57:55	"student015"	"student"	52	"Yes. But I think better than long dry season in Beijing."	"Yes. But I think it's better than the long dry season in Beijing."	NA	NA	NA	NA	NA	NA	11
+2020-11-16 13:58:12	"teacher008"	"teacher"	53	"You're probably right!"	"You're probably right!"	NA	NA	NA	NA	NA	NA	3
+2020-11-16 13:58:26	"teacher008"	"teacher"	54	"Let's have a look at your writing from the last time, ok?"	"Let's have a look at your writing from the last time, ok?"	NA	"3.0"	"exercise"	"writing,grammatical resource,lexical resource"	"student's writing"	NA	12
+2020-11-16 13:58:58	"student015"	"student"	55	"But I know in Shanghai, the bugs are more than Beijing. Haha"	"But I know in Shanghai, there are more bugs than in Beijing. Haha"	53	NA	NA	NA	NA	NA	12
+2020-11-16 13:59:23	"teacher008"	"teacher"	56	"Yes, because it's so tropical! Huge flying monsters!!"	"Yes, because it's so tropical! Huge flying monsters!!"	NA	NA	NA	NA	NA	NA	8
+2020-11-16 13:59:55	"teacher008"	"teacher"	57	"I  must admit I did not enjoy that aspect of Shanghai"	"I  must admit I did not enjoy that aspect of Shanghai"	NA	NA	NA	NA	NA	NA	12
+2020-11-16 14:00:17	"teacher008"	"teacher"	58	"In China peple works in the public sector or private soctor have a lot difference. Firstly, when people work in private sector, they have a long working hours. And also they will get good paid. But people who work in public sector will have a relative normal working hours, and also get paid not so much. Secondly, people works in the public sector or private secoter may have inverse treatment in pension. So it;s a question the select company in China."	"In China peple works in the public sector or private soctor have a lot difference. Firstly, when people work in private sector, they have a long working hours. And also they will get good paid. But people who work in public sector will have a relative normal working hours, and also get paid not so much. Secondly, people works in the public sector or private secoter may have inverse treatment in pension. So it;s a question the select company in China."	54	NA	NA	NA	NA	NA	81
+2020-11-16 14:00:42	"teacher008"	"teacher"	59	"In China people works in the public sector or private soctor have a lot difference."	"In China people works in the public sector or private soctor have a lot difference."	NA	"3a"	"exercise"	"writing,grammatical resource,lexical resource"	"student's writing"	NA	15
+2020-11-16 14:00:48	"teacher008"	"teacher"	60	"Ok, first sentence"	"Ok, first sentence"	NA	NA	NA	NA	NA	NA	3
+2020-11-16 14:01:33	"teacher008"	"teacher"	61	"Are you happy with this sentence? Maybe you can see something that needs fixing?"	"Are you happy with this sentence? Maybe you can see something that needs fixing?"	NA	NA	"eliciting,repair"	NA	NA	NA	14
+2020-11-16 14:03:46	"student015"	"student"	62	"In China people are different when they works in different kind of sectors."	"In China there is a lot of difference between working in the public and private sector."	NA	NA	NA	NA	NA	NA	13
+2020-11-16 14:04:07	"student015"	"student"	63	"Sorry, this is also not good."	"Sorry, this is also not good."	NA	NA	NA	NA	NA	NA	6
+2020-11-16 14:04:51	"teacher008"	"teacher"	64	"Aha, interesting! I think you realized that you need to split this sentence into two clauses. A clause = a part of a sentence with its own subject and verb"	"Aha, interesting! I think you realized that you need to split this sentence into two clauses. A clause = a part of a sentence with its own subject and verb"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	30
+2020-11-16 14:05:27	"teacher008"	"teacher"	65	"I would suggest, 'In China people who work in the public and private sector..."	"I would suggest, 'In China people who work in the public and private sector..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-11-16 14:05:27	"student015"	"student"	66	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-16 14:05:46	"student015"	"student"	67	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-16 14:05:47	"teacher008"	"teacher"	68	"who work in the public and private sector is a clause inside a bigger sentence"	"who work in the public and private sector is a clause inside a bigger sentence"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-11-16 14:06:01	"teacher008"	"teacher"	69	"have a lot of difference = not really a phrase"	"have a lot of difference = not really a phrase"	NA	NA	NA	NA	NA	NA	10
+2020-11-16 14:06:12	"teacher008"	"teacher"	70	"We say 'there is a lot of difference'"	"We say 'there is a lot of difference'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-11-16 14:06:32	"teacher008"	"teacher"	71	"Could you change the sentence starting with 'In China there is a lot of difference between..."	"Could you change the sentence starting with 'In China there is a lot of difference between..."	NA	NA	"eliciting"	"grammatical resource,lexical resource"	NA	NA	16
+2020-11-16 14:07:38	"student015"	"student"	72	"In China there is a lot of difference between people who work in the public and private sectors."	"In China there is a lot of difference between people who work in the public and private sectors."	NA	NA	NA	NA	NA	NA	18
+2020-11-16 14:08:04	"teacher008"	"teacher"	73	"Yes! Well done!!"	"Yes! Well done!!"	NA	NA	NA	NA	NA	NA	3
+2020-11-16 14:08:29	"teacher008"	"teacher"	74	"next sentence"	"next sentence"	NA	"3b"	"exercise"	"writing,lexical resource,grammatical resource"	"student's writing"	NA	2
+2020-11-16 14:08:32	"teacher008"	"teacher"	75	"Firstly, when people work in private sector, they have a long working hours"	"Firstly, when people work in private sector, they have a long working hours"	NA	NA	NA	NA	NA	NA	13
+2020-11-16 14:08:34	"student015"	"student"	76	"Teacher in china always told us don't always use 'there be' structure."	"My teacher in China always told us not to use 'there be' structure all the time."	NA	"3c"	"enquiry"	"grammatical resource"	NA	NA	12
+2020-11-16 14:09:06	"teacher008"	"teacher"	78	"Well, don't use it all the time, but it's a very useful structure to say that some things exist"	"Well, don't use it all the time, but it's a very useful structure to say that some things exist"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-11-16 14:09:22	"teacher008"	"teacher"	79	"There are many big cities in China"	"There are many big cities in China"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-11-16 14:09:25	"student015"	"student"	80	"OK. I know now."	"OK. I know now."	NA	NA	NA	NA	NA	NA	4
+2020-11-16 14:09:34	"teacher008"	"teacher"	81	"There is a lot of difference between..."	"There is a lot of difference between..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-11-16 14:09:49	"teacher008"	"teacher"	82	"So maybe not always, but it's a very good structure :)"	"So maybe not always, but it's a very good structure :)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-16 14:09:58	"teacher008"	"teacher"	83	"Firstly, when people work in private sector, they have a long working hours"	"Firstly, when people work in private sector, they have a long working hours"	75	NA	NA	NA	NA	NA	13
+2020-11-16 14:10:13	"teacher008"	"teacher"	84	"This is a very good sentence! But there's a bit of a problem with articles"	"This is a very good sentence! But there's a bit of a problem with articles"	NA	NA	NA	NA	NA	NA	15
+2020-11-16 14:10:32	"teacher008"	"teacher"	85	"Firstly, when people work in __ private sector, they have __ long working hours"	"Firstly, when people work in __ private sector, they have __ long working hours"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	14
+2020-11-16 14:10:53	"teacher008"	"teacher"	86	"sector = singular noun (1 sector), so you need an article"	"sector = singular noun (1 sector), so you need an article"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-16 14:11:19	"teacher008"	"teacher"	87	"hours = plural noun, you can't use 'a' in the plural"	"hours = plural noun, you can't use 'a' in the plural"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-16 14:11:38	"student015"	"student"	88	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-16 14:12:07	"teacher008"	"teacher"	89	"Ok, what goes in the gaps then? in __ private sector"	"Ok, what goes in the gaps then? in __ private sector"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2020-11-16 14:12:18	"student015"	"student"	90	"a"	"a"	NA	NA	NA	NA	NA	NA	1
+2020-11-16 14:12:42	"student015"	"student"	91	"in a private sector"	"in a private sector"	NA	NA	NA	NA	NA	NA	4
+2020-11-16 14:12:47	"teacher008"	"teacher"	92	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-16 14:12:55	"teacher008"	"teacher"	93	"they have __ long working hours"	"they have __ long working hours"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+2020-11-16 14:13:13	"teacher008"	"teacher"	94	"No article at all here, ok?"	"No article at all here, ok?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-11-16 14:13:26	"student015"	"student"	95	"yes. Have long working hours"	"yes. Have long working hours"	NA	NA	NA	NA	NA	NA	5
+2020-11-16 14:14:11	"teacher008"	"teacher"	96	"Yes, sure. Next one!"	"Yes, sure. Next one!"	NA	"3d"	"exercise"	"writing,lexical resource,grammatical resource"	"student's writing"	NA	4
+2020-11-16 14:14:14	"teacher008"	"teacher"	97	"And also they will get good paid"	"And also they will get good paid"	NA	NA	NA	NA	NA	NA	7
+2020-11-16 14:14:46	"teacher008"	"teacher"	98	"The expression is 'get paid well'"	"The expression is 'get paid well'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-16 14:14:57	"teacher008"	"teacher"	99	"or 'they are well-paid"	"or 'they are well-paid"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-11-16 14:15:19	"student015"	"student"	100	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-16 14:15:20	"teacher008"	"teacher"	101	"good = adjective, it works with a noun. I'm having a good day. A good dog etc."	"good = adjective, it works with a noun. I'm having a good day. A good dog etc."	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	17
+2020-11-16 14:15:39	"teacher008"	"teacher"	102	"well = adverb, it works with a verb. pay = verb, so you need"	"well = adverb, it works with a verb. pay = verb, so you need"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	14
+2020-11-16 14:15:42	"teacher008"	"teacher"	103	"well"	"well"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-11-16 14:15:45	"teacher008"	"teacher"	104	"not good"	"not good"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-11-16 14:16:28	"teacher008"	"teacher"	105	"Adverbs also work with adjectives"	"Adverbs also work with adjectives"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	5
+2020-11-16 14:16:37	"student015"	"student"	106	"OK. I can understand the difference of adj and adv. Thanks."	"OK. I can understand the difference between adj and adv. Thanks."	NA	NA	NA	NA	NA	NA	11
+2020-11-16 14:16:50	"teacher008"	"teacher"	107	"For example, in the next sentence you say, 'relative normal working hours'"	"For example, in the next sentence you say, 'relative normal working hours'"	NA	"3e"	NA	NA	NA	NA	12
+2020-11-16 14:16:51	"student015"	"student"	108	"difference between"	"difference between"	106	NA	"repair"	"lexical resource"	NA	NA	2
+2020-11-16 14:16:55	"teacher008"	"teacher"	109	"normal = adjective"	"normal = adjective"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	3
+2020-11-16 14:17:03	"teacher008"	"teacher"	110	"so you need an adverb to work with it"	"so you need an adverb to work with it"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	9
+2020-11-16 14:17:10	"teacher008"	"teacher"	111	"could you change 'relative' into an adverb?"	"could you change 'relative' into an adverb?"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	7
+2020-11-16 14:18:11	"student015"	"student"	112	"relatively?"	"relatively?"	NA	NA	NA	NA	NA	NA	1
+2020-11-16 14:18:17	"teacher008"	"teacher"	113	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2020-11-16 14:18:32	"teacher008"	"teacher"	114	"relatively normal working hours = very good expression, well done!"	"relatively normal working hours = very good expression, well done!"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	10
+2020-11-16 14:18:42	"teacher008"	"teacher"	115	"people works in the public sector or private secter may have inverse treatment in pension"	"people works in the public sector or private secter may have inverse treatment in pension"	NA	"3f"	"exercise"	"lexical resource,grammatical resource,writing"	"student's writing"	NA	15
+2020-11-16 14:19:01	"teacher008"	"teacher"	116	"Ok, could you change this sentence the way we did the first sentence?"	"Ok, could you change this sentence the way we did the first sentence?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	13
+2020-11-16 14:22:09	"student015"	"student"	117	"There will be inverse treatment in pension for people who work in the pulich and private secters."	"There will be an inverse treatment in pension for people who work in the public and private sectors."	NA	NA	NA	NA	NA	NA	17
+2020-11-16 14:22:29	"teacher008"	"teacher"	118	"Well done!! This is much better, thank you!"	"Well done!! This is much better, thank you!"	NA	NA	NA	NA	NA	NA	8
+2020-11-16 14:22:36	"teacher008"	"teacher"	119	"There will be, or just there is"	"There will be, or just there is"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-11-16 14:23:04	"teacher008"	"teacher"	120	"Finally, the last sentence"	"Finally, the last sentence"	NA	NA	NA	NA	NA	NA	4
+2020-11-16 14:23:06	"teacher008"	"teacher"	121	"So it;s a question the select company in China."	"So it;s a question the select company in China."	NA	"3g"	"exercise"	"writing,lexical resource,grammatical resource"	"student's writing"	NA	9
+2020-11-16 14:23:29	"teacher008"	"teacher"	122	"I would say, 'it's a challenge to select a company in China'"	"I would say, 'it's a challenge to select a company in China'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-11-16 14:23:36	"teacher008"	"teacher"	123	"as in, it's difficult"	"as in, it's difficult"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+2020-11-16 14:23:45	"teacher008"	"teacher"	124	"or just 'it's difficult to select...'"	"or just 'it's difficult to select...'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-16 14:24:07	"teacher008"	"teacher"	125	"It doesn't really work with 'question', I'm afraid"	"It doesn't really work with 'question', I'm afraid"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-11-16 14:24:25	"student015"	"student"	126	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-16 14:24:28	"teacher008"	"teacher"	127	"or 'it's important to think about these factors when you select a company in China'"	"or 'it's important to think about these factors when you select a company in China'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-11-16 14:24:42	"teacher008"	"teacher"	128	"a company' = noun, singular, a"	"a company' = noun, singular, a"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-11-16 14:25:39	"student015"	"student"	129	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-16 14:25:42	"teacher008"	"teacher"	130	"Ok, a quick question: when do you think you would like to take the B2 exam? If it's ok for me to ask"	"Ok, a quick question: when do you think you would like to take the B2 exam? If it's ok for me to ask"	NA	"4.0"	"topic opening"	"exam prep"	NA	NA	23
+2020-11-16 14:27:16	"student015"	"student"	131	"I don't know the schedule of B2 exam. But if it's ok, I think I need to prepare three months."	"I don't know the schedule of the B2 exam. But if it's ok, I think I need three months to prepare."	NA	NA	NA	NA	NA	NA	20
+2020-11-16 14:28:17	"student015"	"student"	132	"Is it OK?"	"Is it OK?"	NA	NA	NA	NA	NA	NA	3
+2020-11-16 14:29:28	"teacher008"	"teacher"	133	"Ok, thank you. I think, depending on your reading and use of English results, you would need a good 6-12 months to get your writing to the right level. It's clear from your writing what you want to say, but there are quite a few mistakes for now and a lot of things to work on."	"Ok, thank you. I think, depending on your reading and use of English results, you would need a good 6-12 months to get your writing to the right level. It's clear from your writing what you want to say, but there are quite a few mistakes for now and a lot of things to work on."	NA	NA	NA	NA	NA	NA	56
+2020-11-16 14:29:53	"teacher008"	"teacher"	134	"And it would be nice to learn and start to use more words and expressions"	"And it would be nice to learn and start to use more words and expressions"	NA	NA	NA	NA	NA	NA	15
+2020-11-16 14:30:30	"student015"	"student"	135	"OK. Thank you for you advice."	"OK. Thank you for you advice."	NA	NA	NA	NA	NA	NA	6
+2020-11-16 14:31:09	"teacher008"	"teacher"	136	"I hope this is not discouraging. I think you're working hard, and it will definitely pay off! Just keep at it for now :)"	"I hope this is not discouraging. I think you're working hard, and it will definitely pay off! Just keep at it for now :)"	NA	NA	NA	NA	NA	NA	24
+2020-11-16 14:31:23	"teacher008"	"teacher"	137	"I emailed you a bit of extra homework."	"I emailed you a bit of extra homework."	NA	"5.0"	"homework"	NA	NA	NA	8
+2020-11-16 14:31:47	"teacher008"	"teacher"	138	"Anyway, I've got to let you go. Speak to you on Thursday, all the best!"	"Anyway, I've got to let you go. Speak to you on Thursday, all the best!"	NA	"6.0"	"closing"	NA	NA	NA	15
+2020-11-16 14:32:01	"student015"	"student"	139	"I think you advice is great, I like peole who also correct my mistakes."	"I think you advice is great, I like peole who also correct my mistakes."	136	NA	NA	NA	NA	NA	14
+2020-11-16 14:32:15	"student015"	"student"	140	"Bye. Thanks again."	"Bye. Thanks again."	138	NA	NA	NA	NA	NA	3
+2020-11-16 14:32:22	"teacher008"	"teacher"	141	"Bye :)"	"Bye :)"	NA	NA	NA	NA	NA	NA	2
+2020-11-16 14:32:37	"teacher008"	"teacher"	142	"good use of 'who...'! :)"	"good use of 'who...'! :)"	139	NA	NA	NA	NA	"B2"	5

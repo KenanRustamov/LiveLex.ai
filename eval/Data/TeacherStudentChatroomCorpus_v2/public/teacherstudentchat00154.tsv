@@ -1,0 +1,125 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-30 13:30:50	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-30 13:30:53	"student015"	"student"	2	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	NA	NA	NA	NA	NA	2
+2020-11-30 13:31:06	"student015"	"student"	3	"Nice to meet you!"	"Nice to meet you!"	NA	NA	NA	NA	NA	NA	4
+2020-11-30 13:31:37	"teacher008"	"teacher"	4	"Hi, nice to speak to you again :)"	"Hi, nice to speak to you again :)"	NA	NA	NA	NA	NA	NA	8
+2020-11-30 13:32:25	"teacher008"	"teacher"	5	"We only really say 'nice to meet you' the first time we meet a person. After that, it's 'nice to see you' or 'nice to speak to you' (over the phone / chat, if you don't really see the person)"	"We only really say 'nice to meet you' the first time we meet a person. After that, it's 'nice to see you' or 'nice to speak to you' (over the phone / chat, if you don't really see the person)"	3	NA	"repair,scaffolding"	"lexical resource"	NA	NA	40
+2020-11-30 13:32:40	"teacher008"	"teacher"	6	"Did you have a good weekend? Was there a good game on?"	"Did you have a good weekend? Was there a good game on?"	NA	"2.0"	"topic opening"	NA	NA	NA	12
+2020-11-30 13:32:54	"student015"	"student"	7	"OK. Nice to speak to you too."	"OK. Nice to speak to you too."	5	NA	NA	NA	NA	NA	7
+2020-11-30 13:33:32	"teacher008"	"teacher"	8	"lovely, nice to speak to you too :)"	"lovely, nice to speak to you too :)"	NA	NA	NA	NA	NA	NA	8
+2020-11-30 13:35:43	"student015"	"student"	9	"Yes. Saturday had a game, but I had some work to do, so I didn't watch the live game."	"Yes. There was a game on Saturday, but I had some work to do, so I didn't watch the live game."	6	NA	NA	NA	NA	NA	19
+2020-11-30 13:35:56	"teacher008"	"teacher"	10	"Oh, that's a shame!"	"Oh, that's a shame!"	NA	NA	NA	NA	NA	NA	4
+2020-11-30 13:36:14	"teacher008"	"teacher"	11	"There ___ a game ___ Saturday"	"There ___ a game ___ Saturday"	NA	"2a"	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-11-30 13:36:22	"teacher008"	"teacher"	12	"What goes in the gaps?"	"What goes in the gaps?"	NA	NA	NA	NA	NA	NA	5
+2020-11-30 13:36:34	"student015"	"student"	13	"There was a game on Saturday."	"There was a game on Saturday."	NA	NA	NA	NA	NA	NA	6
+2020-11-30 13:36:56	"teacher008"	"teacher"	14	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-11-30 13:37:14	"teacher008"	"teacher"	15	"And did you find anything interesting in the bookshop?"	"And did you find anything interesting in the bookshop?"	NA	"2b"	"topic development"	NA	NA	NA	9
+2020-11-30 13:38:47	"student015"	"student"	16	"I took my own books to the bookshop."	"I took my own books to the bookshop."	NA	NA	NA	NA	NA	NA	8
+2020-11-30 13:39:03	"teacher008"	"teacher"	17	"Oh really? Why?"	"Oh really? Why?"	NA	NA	NA	NA	NA	NA	3
+2020-11-30 13:39:53	"student015"	"student"	18	"There is a coffee house. I often go to the coffee house to read books."	"There is a coffee house. I often go to the coffee house to read books."	NA	NA	NA	NA	NA	NA	15
+2020-11-30 13:40:11	"teacher008"	"teacher"	19	"Oh, sounds really nice!"	"Oh, sounds really nice!"	NA	NA	NA	NA	NA	NA	4
+2020-11-30 13:40:28	"teacher008"	"teacher"	20	"What are you reading at the moment?"	"What are you reading at the moment?"	NA	NA	NA	NA	NA	NA	7
+2020-11-30 13:40:30	"student015"	"student"	21	"People can read their own books, also can read the books in the bookshop."	"People can read their own books, and they can also read the books in the bookshop."	19	NA	NA	NA	NA	NA	14
+2020-11-30 13:40:55	"teacher008"	"teacher"	22	"Your bookshop sounds like a lovely place"	"Your bookshop sounds like a lovely place"	NA	NA	NA	NA	NA	NA	7
+2020-11-30 13:41:54	"student015"	"student"	23	"I'm reading a mathmathic book about machine learning."	"I'm reading a mathemathical  book about machine learning."	20	NA	NA	NA	NA	NA	8
+2020-11-30 13:42:42	"teacher008"	"teacher"	24	"Ok! I wouldn't be able to read a book like this :)"	"Ok! I wouldn't be able to read a book like this :)"	NA	NA	NA	NA	NA	NA	12
+2020-11-30 13:42:54	"student015"	"student"	25	"In China, bookshops always have a coffee house to let peple have good reading time."	"In China, bookshops always have a coffee house to let people have a good time reading."	22	NA	NA	NA	NA	NA	15
+2020-11-30 13:43:18	"teacher008"	"teacher"	26	"I had a nice weekend. My son and I decorated a Christmas tree and watched a Christmas movie and my husband made some lovely food"	"I had a nice weekend. My son and I decorated a Christmas tree and watched a Christmas movie and my husband made some lovely food"	NA	"2c"	"topic development"	NA	NA	NA	25
+2020-11-30 13:44:01	"teacher008"	"teacher"	27	"What a good idea! I've realized I probably never went to a proper bookshop like this when we lived in Shanghai, because I don't speak Chinese"	"What a good idea! I've realized I probably never went to a proper bookshop like this when we lived in Shanghai, because I don't speak Chinese"	25	NA	NA	NA	NA	NA	26
+2020-11-30 13:44:02	"student015"	"student"	28	"Sounds great!"	"Sounds great!"	26	NA	NA	NA	NA	NA	2
+2020-11-30 13:44:13	"teacher008"	"teacher"	29	"But we enjoyed a local DVD shop there :)"	"But we enjoyed a local DVD shop there :)"	27	NA	NA	NA	NA	NA	9
+2020-11-30 13:45:29	"teacher008"	"teacher"	30	"Ok, <STUDENT>, shall we have a look at B2 Writing part 2?"	"Ok, <STUDENT>, shall we have a look at B2 Writing part 2?"	NA	"3.0"	"topic opening"	"writing,writing"	NA	NA	12
+2020-11-30 13:45:47	"student015"	"student"	31	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 13:46:45	"teacher008"	"teacher"	32	"The word count for Part 2 is the same as for Part 1 (140-190 words), but you can choose your task out of 3 options"	"The word count for Part 2 is the same as for Part 1 (140-190 words), but you can choose your task out of 3 options"	NA	NA	"scaffolding"	"writing"	NA	NA	25
+2020-11-30 13:47:42	"teacher008"	"teacher"	33	"All tasks in part 2 are imaginary / pretend situations. For example, write an article for an English magazine or write to your English-speaking friend"	"All tasks in part 2 are imaginary / pretend situations. For example, write an article for an English magazine or write to your English-speaking friend"	NA	NA	"scaffolding"	"writing"	NA	NA	25
+2020-11-30 13:47:56	"teacher008"	"teacher"	34	"not a real magazine and not a real friend, just an imaginary situation"	"not a real magazine and not a real friend, just an imaginary situation"	NA	NA	"scaffolding"	"writing"	NA	NA	13
+2020-11-30 13:48:02	"student015"	"student"	35	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 13:48:56	"teacher008"	"teacher"	36	"But, depending on the situation, your writing has to be a bit different. For example, if it's an email to a friend, you probably want to start with 'Hi &lt;Friend's name&gt;.'"	"But, depending on the situation, your writing has to be a bit different. For example, if it's an email to a friend, you probably want to start with 'Hi &lt;Friend's name&gt;.'"	NA	NA	"scaffolding"	"writing"	NA	NA	31
+2020-11-30 13:49:08	"teacher008"	"teacher"	37	"And end with 'Best wishes, <STUDENT>'"	"And end with 'Best wishes, <STUDENT>'"	NA	NA	"scaffolding"	"writing"	NA	NA	6
+2020-11-30 13:49:13	"teacher008"	"teacher"	38	"or something like that"	"or something like that"	NA	NA	NA	NA	NA	NA	4
+2020-11-30 13:49:32	"teacher008"	"teacher"	39	"And if it's an article, you don't have to do any of these, you basically write an essay"	"And if it's an article, you don't have to do any of these, you basically write an essay"	NA	NA	"scaffolding"	"writing"	NA	NA	18
+2020-11-30 13:50:06	"teacher008"	"teacher"	40	"Just like in Part 1, it's important to answer all the questions that the task gives you"	"Just like in Part 1, it's important to answer all the questions that the task gives you"	NA	NA	"scaffolding"	"writing"	NA	NA	17
+2020-11-30 13:50:22	"student015"	"student"	41	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 13:50:33	"teacher008"	"teacher"	42	"Have you got that pdf with writing tasks that I sent you earlier?"	"Have you got that pdf with writing tasks that I sent you earlier?"	NA	"3a"	"exercise"	"writing"	"textbook"	NA	13
+2020-11-30 13:50:52	"student015"	"student"	43	"Yes. I'm reading the questions."	"Yes. I'm reading the questions."	NA	NA	NA	NA	NA	NA	5
+2020-11-30 13:52:10	"teacher008"	"teacher"	44	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2020-11-30 13:52:51	"teacher008"	"teacher"	45	"As you can see, the choice is a book review, an article and an informal email (to a friend)"	"As you can see, the choice is a book review, an article and an informal email (to a friend)"	NA	NA	NA	NA	NA	NA	19
+2020-11-30 13:53:27	"student015"	"student"	46	"Yes. So which one is better for me."	"Yes. So which one is better for me?"	NA	NA	NA	NA	NA	NA	8
+2020-11-30 13:54:19	"teacher008"	"teacher"	47	"Which one do you like best? I know you love books, but one thing to make sure of with a book review is being able to remember the name of the book, the characters and the author in English"	"Which one do you like best? I know you love books, but one thing to make sure of with a book review is being able to remember the name of the book, the characters and the author in English"	NA	NA	"scaffolding"	"writing"	NA	NA	39
+2020-11-30 13:54:48	"teacher008"	"teacher"	48	"I think we might practise all of them, one at a time, if you'd like"	"I think we might practise all of them, one at a time, if you'd like"	NA	NA	NA	NA	NA	NA	15
+2020-11-30 13:54:52	"teacher008"	"teacher"	49	"They are all very useful"	"They are all very useful"	NA	NA	NA	NA	NA	NA	5
+2020-11-30 13:54:59	"student015"	"student"	50	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 13:56:09	"student015"	"student"	51	"I think I need some time to remember the names in the book. So the first time I think I will not choose the book review."	"I think I need some time to remember the names in the book. So the first time I think I will not choose the book review."	NA	NA	NA	NA	NA	NA	26
+2020-11-30 13:56:21	"teacher008"	"teacher"	52	"Ok, very wise I think!"	"Ok, very wise I think!"	NA	NA	NA	NA	NA	NA	5
+2020-11-30 13:56:30	"teacher008"	"teacher"	53	"An article or an email then?"	"An article or an email then?"	NA	NA	NA	NA	NA	NA	6
+2020-11-30 13:56:44	"student015"	"student"	54	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 13:56:51	"student015"	"student"	55	"An article."	"An article."	NA	NA	NA	NA	NA	NA	2
+2020-11-30 13:57:37	"teacher008"	"teacher"	56	"Ok, the most useful thing you have ever learned!"	"Ok, the most useful thing you have ever learned!"	NA	NA	NA	NA	NA	NA	9
+2020-11-30 13:57:48	"teacher008"	"teacher"	57	"What do you think this thing can be?"	"What do you think this thing can be?"	NA	"3b"	"eliciting"	"task achievement,writing"	NA	NA	8
+2020-11-30 13:59:24	"student015"	"student"	58	"Sorry. I don’t have a clear idea about this topic."	"Sorry. I don’t have a clear idea about this topic."	NA	NA	NA	NA	NA	NA	10
+2020-11-30 14:00:22	"student015"	"student"	59	"Some characters? like honest, brave?"	"Some qualities? like honest, brave?"	NA	NA	"enquiry"	"writing"	NA	NA	5
+2020-11-30 14:00:28	"teacher008"	"teacher"	60	"No worries, let me give you an example."	"No worries, let me give you an example."	58	NA	NA	NA	NA	NA	8
+2020-11-30 14:00:43	"teacher008"	"teacher"	61	"No, just a useful skill you learned"	"No, just a useful skill you learned"	59	NA	NA	NA	NA	NA	7
+2020-11-30 14:01:23	"teacher008"	"teacher"	62	"For example, when I was at school, I learned to touch type (type without looking). This is one of the most useful skills that I've learned, it has saved me so much time because I can type very fast"	"For example, when I was at school, I learned to touch type (type without looking). This is one of the most useful skills that I've learned, it has saved me so much time because I can type very fast"	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	39
+2020-11-30 14:02:02	"student015"	"student"	63	"OK, I know."	"OK, I know."	NA	NA	NA	NA	NA	NA	3
+2020-11-30 14:02:31	"teacher008"	"teacher"	64	"Or, when I was 4 years old, I learned to swim. It's one of the most useful things I've learned because when I fell in a pool I could swim out. Also, it means I enjoy seaside holidays"	"Or, when I was 4 years old, I learned to swim. It's one of the most useful things I've learned because when I fell in a pool I could swim out. Also, it means I enjoy seaside holidays"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	38
+2020-11-30 14:03:23	"teacher008"	"teacher"	65	"cooking, starting a campfire, riding a bike - all useful skills"	"cooking, starting a campfire, riding a bike - all useful skills"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	11
+2020-11-30 14:03:33	"teacher008"	"teacher"	66	"Ok? What do you think?"	"Ok? What do you think?"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	5
+2020-11-30 14:03:49	"teacher008"	"teacher"	67	"playing a musical instrument"	"playing a musical instrument"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	4
+2020-11-30 14:04:53	"student015"	"student"	68	"When I was at high school, I learned computer programming. This is one of the most useful skills that i've learned."	"When I was at high school, I learned computer programming. This is one of the most useful skills that I've learned."	NA	NA	NA	NA	NA	NA	21
+2020-11-30 14:05:41	"teacher008"	"teacher"	69	"Wonderful example, yes!"	"Wonderful example, yes!"	NA	NA	NA	NA	NA	NA	3
+2020-11-30 14:06:16	"teacher008"	"teacher"	70	"You will need to explain why it's been so useful to you"	"You will need to explain why it's been so useful to you"	NA	"3c"	"eliciting"	"writing,task achievement"	NA	NA	12
+2020-11-30 14:06:33	"student015"	"student"	71	"It helped me go deep in computer world, and changed my life. Now I'm an engineer in a company."	"It helped me go deep in the computer world, and changed my life. Now I'm an engineer in a company."	NA	NA	NA	NA	NA	NA	19
+2020-11-30 14:06:58	"teacher008"	"teacher"	72	"And then, in the next paragraph, answer the question, who you learned it from"	"And then, in the next paragraph, answer the question, who you learned it from"	NA	NA	"scaffolding"	"writing,discourse management,task achievement"	NA	NA	14
+2020-11-30 14:07:06	"teacher008"	"teacher"	73	"Yes, good!"	"Yes, good!"	71	NA	NA	NA	NA	NA	2
+2020-11-30 14:07:52	"student015"	"student"	74	"This place 'who' is a real person or something like a website?"	"Is 'who' a real person or something like a website?"	72	"3d"	"enquiry"	"lexical resource,task achievement"	NA	NA	12
+2020-11-30 14:08:18	"teacher008"	"teacher"	75	"a real person!"	"a real person!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-11-30 14:08:39	"teacher008"	"teacher"	76	"if it was a website or school, it would be 'where did you learn it from'"	"if it was a website or school, it would be 'where did you learn it from'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-11-30 14:09:00	"teacher008"	"teacher"	77	"but if there was no real person, you can just describe how you learned it"	"but if there was no real person, you can just describe how you learned it"	NA	NA	"scaffolding"	"task achievement"	NA	NA	15
+2020-11-30 14:09:55	"student015"	"student"	78	"I learnt it from my old borther who was a video game developer."	"I learnt it from my elder borther who is a video game developer."	NA	NA	NA	NA	NA	NA	13
+2020-11-30 14:10:55	"teacher008"	"teacher"	79	"Ok, lovely. We say 'elder brother'"	"Ok, lovely. We say 'elder brother'"	NA	"3e"	"repair"	"lexical resource"	NA	NA	6
+2020-11-30 14:11:04	"student015"	"student"	80	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:11:18	"teacher008"	"teacher"	81	"because what's important here is not that he might be old, but that he is older than you"	"because what's important here is not that he might be old, but that he is older than you"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-11-30 14:11:36	"teacher008"	"teacher"	82	"and with brothers/sisters, we use 'elder' instead of 'older'"	"and with brothers/sisters, we use 'elder' instead of 'older'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-11-30 14:12:09	"student015"	"student"	83	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:12:58	"teacher008"	"teacher"	84	"cool, is your brother still a video game developer?"	"cool, is your brother still a video game developer?"	78	"3f"	"eliciting,repair"	"grammatical resource"	NA	NA	9
+2020-11-30 14:13:04	"teacher008"	"teacher"	85	"You can use the present tense if he is"	"You can use the present tense if he is"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-11-30 14:13:06	"student015"	"student"	86	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:13:28	"teacher008"	"teacher"	87	"I learnt it from my elder brother, who is a video game developer."	"I learnt it from my elder brother, who is a video game developer."	NA	NA	NA	NA	NA	NA	13
+2020-11-30 14:13:55	"teacher008"	"teacher"	88	"Lovely, could you say a bit about why it is a useful skill?"	"Lovely, could you say a bit about why it is a useful skill?"	NA	"3g"	"eliciting"	"task achievement,writing"	NA	NA	13
+2020-11-30 14:17:09	"student015"	"student"	89	"During the progress, it showed me how to use computer codes to build a virual world. And the most important thing is that learning to coding helps me get a good job."	"During the process, he showed me how to use computer codes to build a virtual world. And the most important thing is that learning to code helped me get a good job."	NA	NA	NA	NA	NA	NA	32
+2020-11-30 14:17:58	"teacher008"	"teacher"	90	"Ok, nice long sentences, a couple of problems here"	"Ok, nice long sentences, a couple of problems here"	NA	"3h"	"repair"	NA	NA	NA	9
+2020-11-30 14:18:12	"teacher008"	"teacher"	91	"it showed me how...' What's 'it' in this sentence?"	"it showed me how...' What's 'it' in this sentence?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	9
+2020-11-30 14:18:20	"teacher008"	"teacher"	92	"Maybe, my brother showed me...?"	"Maybe, my brother showed me...?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-11-30 14:19:06	"student015"	"student"	93	"Yes. my brother showed me ..."	"Yes. my brother showed me ..."	NA	NA	NA	NA	NA	NA	6
+2020-11-30 14:19:17	"teacher008"	"teacher"	94	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-30 14:19:47	"teacher008"	"teacher"	95	"Ok, and could you put the second sentence in the past tense? What do you need to change?"	"Ok, and could you put the second sentence in the past tense? What do you need to change?"	NA	"3i"	"eliciting,repair"	"grammatical resource"	NA	NA	18
+2020-11-30 14:21:21	"student015"	"student"	96	"helps --&gt; helped"	"helps --&gt; helped"	NA	NA	NA	NA	NA	NA	3
+2020-11-30 14:21:28	"teacher008"	"teacher"	97	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-11-30 14:21:36	"student015"	"student"	98	"get --&gt; got?"	"get --&gt; got?"	NA	NA	NA	NA	NA	NA	3
+2020-11-30 14:21:48	"teacher008"	"teacher"	99	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-11-30 14:22:12	"teacher008"	"teacher"	100	"And also, learning to code, you need the infinitive 'to code'"	"And also, learning to code, you need the infinitive 'to code'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-30 14:22:34	"student015"	"student"	101	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:23:16	"teacher008"	"teacher"	102	"Some other things that might be good to write about are, how old you were when you learned to code, whether it was hard to learn, whether you liked or not"	"Some other things that might be good to write about are, how old you were when you learned to code, whether it was hard to learn, whether you liked or not"	NA	"3j"	"scaffolding"	"task achievement,writing"	NA	NA	31
+2020-11-30 14:23:24	"teacher008"	"teacher"	103	"things like that"	"things like that"	NA	NA	NA	NA	NA	NA	3
+2020-11-30 14:23:34	"teacher008"	"teacher"	104	"because you need a nice 140-190-word article :)"	"because you need a nice 140-190-word article :)"	NA	NA	NA	NA	NA	NA	8
+2020-11-30 14:24:07	"student015"	"student"	105	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:24:28	"teacher008"	"teacher"	106	"Would you like to try one more sentence?"	"Would you like to try one more sentence?"	NA	NA	"eliciting"	"task achievement,writing"	NA	NA	8
+2020-11-30 14:24:35	"student015"	"student"	107	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:28:36	"student015"	"student"	108	"I learnt to code when I was at high school. It was hard to start, because you need to let yourself think like a computer. But when my elder brother taught me how to use computer language to build a tiny game, I thought I really like these things, and i would be a coder in the future."	"I learnt to code when I was at high school. It was hard to start, because you need to let yourself think like a computer. But when my elder brother taught me how to use a computer language to build a tiny game, I thought I really liked these things, and I would be a coder in the future."	NA	NA	NA	NA	NA	NA	58
+2020-11-30 14:29:34	"teacher008"	"teacher"	109	"This is excellent work, <STUDENT>!"	"This is excellent work, <STUDENT>!"	NA	NA	NA	NA	NA	NA	5
+2020-11-30 14:29:54	"student015"	"student"	110	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:30:15	"teacher008"	"teacher"	111	"One small thing: I thought I really liked those things and I would be a coder in the future"	"One small thing: I thought I really liked those things and I would be a coder in the future"	NA	"3k"	"repair"	"grammatical resource"	NA	NA	19
+2020-11-30 14:30:22	"teacher008"	"teacher"	112	"You need everything in the past"	"You need everything in the past"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-11-30 14:30:32	"student015"	"student"	113	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:30:56	"teacher008"	"teacher"	114	"and maybe 'I really liked doing it' would be clearer than 'these things'"	"and maybe 'I really liked doing it' would be clearer than 'these things'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-11-30 14:31:21	"student015"	"student"	115	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:31:56	"teacher008"	"teacher"	116	"Ok, lovely. As you can guess, the homework will be to write the whole article if you have the time. Feel free to use the sentences you wrote today!"	"Ok, lovely. As you can guess, the homework will be to write the whole article if you have the time. Feel free to use the sentences you wrote today!"	NA	"4.0"	"homework"	NA	NA	NA	29
+2020-11-30 14:32:07	"student015"	"student"	117	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-30 14:32:23	"teacher008"	"teacher"	118	"Great! Have a nice week, I'll speak to you on Thursday!"	"Great! Have a nice week, I'll speak to you on Thursday!"	NA	"4a"	"closing"	NA	NA	NA	11
+2020-11-30 14:32:27	"student015"	"student"	119	"Thanks, I will do it tomorrow."	"Thanks, I will do it tomorrow."	117	NA	NA	NA	NA	NA	6
+2020-11-30 14:32:41	"student015"	"student"	120	"OK. See you next time."	"OK. See you next time."	118	NA	NA	NA	NA	NA	5
+2020-11-30 14:32:41	"teacher008"	"teacher"	121	"Lovely, you can email it to me then."	"Lovely, you can email it to me then."	119	NA	NA	NA	NA	NA	8
+2020-11-30 14:32:44	"teacher008"	"teacher"	122	"Bye!"	"Bye!"	120	NA	NA	NA	NA	NA	1
+2020-11-30 14:32:49	"student015"	"student"	123	"OK."	"OK."	121	NA	NA	NA	NA	NA	1
+2020-11-30 14:32:51	"student015"	"student"	124	"Bye!"	"Bye!"	122	NA	NA	NA	NA	"B2"	1

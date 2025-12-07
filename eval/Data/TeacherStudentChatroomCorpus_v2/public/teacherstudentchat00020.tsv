@@ -1,0 +1,133 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-02-09 10:03:38	"teacher001"	"teacher"	1	"Hi <STUDENT> are you there?"	"Hi <STUDENT> are you there?"	NA	"1.0"	"opening"	NA	NA	NA	5
+2020-02-09 10:04:20	"student006"	"student"	2	"Hi <TEACHER>, I’m here"	"Hi <TEACHER>, I’m here"	NA	NA	NA	NA	NA	NA	4
+2020-02-09 10:04:52	"teacher001"	"teacher"	3	"Ok great sorry i missed your email but you found the site!"	"Ok great sorry i missed your email but you found the site!"	NA	"2.0"	"topic opening"	NA	NA	NA	12
+2020-02-09 10:05:58	"teacher001"	"teacher"	4	"<STUDENT> do you have the pie chart sheet with you?"	"<STUDENT> do you have the pie chart sheet with you?"	NA	"3.0"	"topic opening"	NA	NA	NA	10
+2020-02-09 10:05:59	"student006"	"student"	5	"That’s ok, I asked <ANOTHER STUDENT> 😂"	"That’s ok, I asked <ANOTHER STUDENT> 😂"	"3.0"	NA	NA	NA	NA	NA	7
+2020-02-09 10:06:09	"teacher001"	"teacher"	6	"Ok well xone!"	"Ok well xone!"	NA	NA	NA	NA	NA	NA	3
+2020-02-09 10:06:10	"student006"	"student"	7	"Yes,I do"	"Yes, I do"	"4.0"	NA	NA	NA	NA	NA	2
+2020-02-09 10:06:41	"teacher001"	"teacher"	8	"Ok by the way did  i not send you the link and the link to the consent form??"	"Ok by the way did  i not send you the link and the link to the consent form??"	"6.0"	"2a"	"topic development"	NA	NA	NA	19
+2020-02-09 10:07:35	"teacher001"	"teacher"	9	"I mean the link to the site ...i  was sure i did..."	"I mean the link to the site ...i  was sure i did..."	NA	NA	NA	NA	NA	NA	13
+2020-02-09 10:07:56	"student006"	"student"	10	"No, you sent the link to me already but I miss that mail"	"Yes, you sent me the link, but I missed that email"	NA	NA	NA	NA	NA	NA	13
+2020-02-09 10:08:51	"teacher001"	"teacher"	11	"Ok no problem - i will resend the original email agter this lesson so you can complete tbe form too - thanks"	"Ok no problem - i will resend the original email agter this lesson so you can complete tbe form too - thanks"	NA	NA	NA	NA	NA	NA	22
+2020-02-09 10:09:02	"student006"	"student"	12	"And <ANOTHER STUDENT> told me to look your mail again"	"And <ANOTHER STUDENT> told me to check your email again"	"10.0"	NA	NA	NA	NA	NA	10
+2020-02-09 10:09:02	"teacher001"	"teacher"	13	"After this lesson"	"After this lesson"	"11.0"	NA	NA	NA	NA	NA	3
+2020-02-09 10:09:13	"teacher001"	"teacher"	14	"Ah! Ok i see"	"Ah! Ok i see"	"12.0"	NA	NA	NA	NA	NA	4
+2020-02-09 10:09:26	"student006"	"student"	15	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:09:35	"teacher001"	"teacher"	16	"Well do i need to resend it then? I guess not!"	"Well do i need to resend it then? I guess not!"	NA	NA	NA	NA	NA	NA	11
+2020-02-09 10:09:57	"teacher001"	"teacher"	17	"Just use the one you have later ok?"	"Just use the one you have later ok?"	NA	NA	NA	NA	NA	NA	8
+2020-02-09 10:10:24	"student006"	"student"	18	"Ok, thank you"	"Ok, thank you"	NA	NA	NA	NA	NA	NA	3
+2020-02-09 10:11:33	"teacher001"	"teacher"	19	"Ok do ...<STUDENT> let's go with the charts! Could you write a short sentence with the following information please: Australia coal  1980"	"Ok do ...<STUDENT> let's go with the charts! Could you write a short sentence with the following information please: Australia coal  1980"	NA	"3a"	"exercise"	"writing"	NA	NA	23
+2020-02-09 10:12:12	"teacher001"	"teacher"	20	"Don't compare with anything else i.e. gas or another time or e.g. france Ok?"	"Don't compare with anything else i.e. gas or another time or e.g. france Ok?"	NA	NA	NA	NA	NA	NA	14
+2020-02-09 10:12:28	"student006"	"student"	21	"Ah I see"	"Ah I see"	NA	NA	NA	NA	NA	NA	3
+2020-02-09 10:12:42	"teacher001"	"teacher"	22	"Ok I'll wait take your time...."	"Ok I'll wait take your time...."	NA	NA	NA	NA	NA	NA	6
+2020-02-09 10:14:40	"student006"	"student"	23	"In 1980, Australia had produced electricity by coal source 50 units"	"In 1980, Australia produced 50 units of electricity from coal"	NA	NA	NA	NA	NA	NA	11
+2020-02-09 10:15:03	"teacher001"	"teacher"	24	"Ok thanks <STUDENT> wait a sec..."	"Ok thanks <STUDENT> wait a sec..."	NA	NA	NA	NA	NA	NA	6
+2020-02-09 10:16:22	"teacher001"	"teacher"	25	"Pretty good actually - well done ....so... let's just make a few changes to make it better but a good start i can see you understand the information"	"Pretty good actually - well done ....so... let's just make a few changes to make it better but a good start i can see you understand the information"	NA	NA	NA	NA	NA	NA	28
+2020-02-09 10:16:31	"student006"	"student"	26	"by natuaral gas 20 units and also the same units by hydro power source"	"20 units from natural gas and also the same number of units from hydro power"	NA	NA	NA	NA	NA	NA	14
+2020-02-09 10:17:01	"teacher001"	"teacher"	27	"Si number one : do you need the past perfect? No! What tense?"	"Si number one : do you need the past perfect? No! What tense?"	NA	"3b"	"eliciting"	"grammatical resource"	NA	NA	13
+2020-02-09 10:17:13	"teacher001"	"teacher"	28	"Ok ok slow down!"	"Ok ok slow down!"	"26.0"	NA	NA	NA	NA	NA	4
+2020-02-09 10:17:16	"student006"	"student"	29	"Ohh sl"	"Oh sorry"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:17:27	"student006"	"student"	30	"ohh sorry555"	"oh sorry"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:17:35	"teacher001"	"teacher"	31	"Thats ok!"	"Thats ok!"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:17:38	"student006"	"student"	32	"Past Sim"	"Past Simple"	"27.0"	NA	NA	NA	NA	NA	2
+2020-02-09 10:18:02	"teacher001"	"teacher"	33	"Yes good ! So tell me the one-word verb in past"	"Yes good ! So tell me the one-word verb in past"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2020-02-09 10:18:34	"student006"	"student"	34	"Produced"	"Produced"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:18:57	"teacher001"	"teacher"	35	"Ok great! Is 'was producing' ok?"	"Ok great! Is 'was producing' ok?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+2020-02-09 10:19:22	"student006"	"student"	36	"Ah I see"	"Ah I see"	"34.0"	NA	NA	NA	NA	NA	3
+2020-02-09 10:19:25	"teacher001"	"teacher"	37	"......no!"	"......no!"	"35.0"	NA	NA	NA	NA	NA	1
+2020-02-09 10:19:49	"student006"	"student"	38	"Ohhh 😅"	"Ohhh 😅"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:19:57	"teacher001"	"teacher"	39	"Usually you'll just beed past simple = one word ok?!"	"Usually you'll just beed past simple = one word ok?!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-02-09 10:20:01	"teacher001"	"teacher"	40	"Need"	"Need"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-09 10:20:32	"teacher001"	"teacher"	41	"Maybe past perfect but ONLY in certain circumstances..."	"Maybe past perfect but ONLY in certain circumstances..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-02-09 10:21:07	"student006"	"student"	42	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:21:31	"teacher001"	"teacher"	43	"So the 50 units refers to electricity...so where does this number phrase go? Far away from the noun electricity?"	"So the 50 units refers to electricity...so where does this number phrase go? Far away from the noun electricity?"	NA	"3c"	"eliciting,repair"	"grammatical resource"	NA	NA	19
+2020-02-09 10:22:39	"student006"	"student"	44	"Coal?"	"Coal?"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:23:33	"student006"	"student"	45	"Sorry, what did you mean"	"Sorry, what did you mean?"	NA	NA	"enquiry"	NA	NA	NA	5
+2020-02-09 10:24:04	"teacher001"	"teacher"	46	"Thats ok...so you need to say 50 units of...?"	"Thats ok...so you need to say 50 units of...?"	NA	NA	NA	NA	NA	NA	9
+2020-02-09 10:24:44	"teacher001"	"teacher"	47	"Units of what?"	"Units of what?"	NA	NA	NA	NA	NA	NA	3
+2020-02-09 10:25:05	"student006"	"student"	48	"electicity"	"electricity"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:25:30	"student006"	"student"	49	"😅"	"😅"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:25:53	"teacher001"	"teacher"	50	"Yes good! So ...' Australia....' try the original sentence  again if you can...."	"Yes good! So ...' Australia....' try the original sentence  again if you can...."	NA	"3d"	"eliciting,repair"	"grammatical resource"	NA	NA	14
+2020-02-09 10:26:49	"student006"	"student"	51	"Australia produced 50 units of electricity by coal source in 1980."	"Australia produced 50 units of electricity from coal in 1980."	NA	NA	NA	NA	NA	NA	11
+2020-02-09 10:27:08	"teacher001"	"teacher"	52	"Ok that's great! One more thing ...hold on..."	"Ok that's great! One more thing ...hold on..."	NA	"3e"	"eliciting,repair"	"lexical resource"	NA	NA	8
+2020-02-09 10:28:18	"teacher001"	"teacher"	53	"When you say what something is made of/from or where it cones from do you normally say 'from' or 'by'?"	"When you say what something is made of/from or where it cones from do you normally say 'from' or 'by'?"	NA	NA	NA	NA	NA	NA	20
+2020-02-09 10:29:27	"student006"	"student"	54	"From"	"From"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:30:20	"teacher001"	"teacher"	55	"Yes good...so '50 units of electricity from coal' is enough/perfect!"	"Yes good...so '50 units of electricity from coal' is enough/perfect!"	NA	NA	NA	NA	NA	NA	10
+2020-02-09 10:30:30	"teacher001"	"teacher"	56	"Ok?"	"Ok?"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:30:35	"student006"	"student"	57	"Ohh ok"	"Ohh ok"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:31:16	"student006"	"student"	58	"But why in the pepper they say by fuel source?"	"But why do they say \"by fuel source\" in the paper?"	NA	"3f"	"enquiry"	"lexical resource"	NA	NA	10
+2020-02-09 10:31:31	"student006"	"student"	59	"Paper"	"Paper"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-09 10:32:00	"teacher001"	"teacher"	60	"That's just to explain that these materials are sources of fuel but you dont need to repeat that"	"That's just to explain that these materials are sources of fuel but you dont need to repeat that"	NA	NA	"scaffolding"	"lexical resource,task achievement"	NA	NA	18
+2020-02-09 10:32:15	"teacher001"	"teacher"	61	"Like a title fir the charts you know"	"Like a title fir the charts you know"	NA	NA	NA	NA	NA	NA	8
+2020-02-09 10:32:20	"teacher001"	"teacher"	62	"For"	"For"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-09 10:32:59	"student006"	"student"	63	"Oh I see"	"Oh I see"	NA	NA	NA	NA	NA	NA	3
+2020-02-09 10:33:10	"teacher001"	"teacher"	64	"BUT ok ...lets try a sentence with the word 'source' ...hold on"	"BUT ok ...lets try a sentence with the word 'source' ...hold on"	NA	"4.0"	"exercise"	"writing"	NA	NA	12
+2020-02-09 10:33:58	"teacher001"	"teacher"	65	"So can you explain exactly tbe same information but this time beginning with the word coal?'"	"So can you explain exactly tbe same information but this time beginning with the word coal?'"	NA	NA	NA	NA	NA	NA	16
+2020-02-09 10:34:31	"teacher001"	"teacher"	66	"Take a minute if you need it!"	"Take a minute if you need it!"	NA	NA	NA	NA	NA	NA	7
+2020-02-09 10:34:36	"student006"	"student"	67	"Let me think"	"Let me think"	NA	NA	NA	NA	NA	NA	3
+2020-02-09 10:34:46	"student006"	"student"	68	"5555ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:34:59	"teacher001"	"teacher"	69	"No rush...."	"No rush...."	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:36:55	"student006"	"student"	70	"Coal was produced to electricity 50 units in Australia in1980 ."	"Coal was used to produce 50 units of electricity in Australia in 1980 ."	NA	NA	NA	NA	NA	NA	11
+2020-02-09 10:37:30	"teacher001"	"teacher"	71	"Ok <STUDENT> thanks...hold on..."	"Ok <STUDENT> thanks...hold on..."	NA	NA	NA	NA	NA	NA	4
+2020-02-09 10:39:44	"teacher001"	"teacher"	72	"Ok so you've got the passive in there...let's tame a step back ....so the first we finished:'Australia produced 50 units of electricity from coal'...can you change that into the pasdive?"	"Ok so you've got the passive in there...let's tame a step back ....so the first we finished:'Australia produced 50 units of electricity from coal'...can you change that into the pasdive?"	NA	"4a"	"eliciting"	"grammatical resource"	NA	NA	30
+2020-02-09 10:40:14	"teacher001"	"teacher"	73	"So you need to switch round the subject and object ok?"	"So you need to switch round the subject and object ok?"	NA	NA	"eliciting"	NA	NA	NA	11
+2020-02-09 10:40:30	"teacher001"	"teacher"	74	"So...begin with the word...?"	"So...begin with the word...?"	NA	NA	"eliciting"	NA	NA	NA	4
+2020-02-09 10:40:55	"teacher001"	"teacher"	75	"Not Australia but...?"	"Not Australia but...?"	NA	NA	"eliciting"	NA	NA	NA	3
+2020-02-09 10:40:56	"student006"	"student"	76	"Ah"	"Ah"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:41:24	"student006"	"student"	77	"Electricity"	"Electricity"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:41:42	"student006"	"student"	78	"Was produced"	"Was produced"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:41:43	"teacher001"	"teacher"	79	"Yes good...basically! But how much?"	"Yes good...basically! But how much?"	NA	NA	NA	NA	NA	NA	5
+2020-02-09 10:42:01	"student006"	"student"	80	"Ahh"	"Ahh"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:42:30	"student006"	"student"	81	"50 units of electricity was produced from coal"	"50 units of electricity were produced from coal"	NA	NA	NA	NA	NA	NA	8
+2020-02-09 10:42:43	"teacher001"	"teacher"	82	"Yes great well done!"	"Yes great well done!"	NA	NA	NA	NA	NA	NA	4
+2020-02-09 10:43:01	"student006"	"student"	83	"Yeh😂"	"Yeah😂"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:43:59	"teacher001"	"teacher"	84	"So to get a good score you include different  grammar like you've  just done and maybe change the...?"	"So to get a good score you include different  grammar like you've  just done and maybe change the...?"	NA	"5.0"	"presentation,eliciting"	"task achievement,meta knowledge"	NA	NA	20
+2020-02-09 10:45:26	"teacher001"	"teacher"	85	"One word answer?"	"One word answer?"	NA	NA	"eliciting"	NA	NA	NA	3
+2020-02-09 10:45:39	"teacher001"	"teacher"	86	"Beginning with letter v!"	"Beginning with letter v!"	NA	NA	"eliciting"	NA	NA	NA	4
+2020-02-09 10:45:46	"teacher001"	"teacher"	87	"The letter"	"The letter"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2020-02-09 10:45:59	"student006"	"student"	88	"V what"	"V what"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:46:04	"student006"	"student"	89	"Value?"	"Value?"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:46:09	"teacher001"	"teacher"	90	"Vocabulary!"	"Vocabulary!"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:46:23	"student006"	"student"	91	"Ah5555 ok"	"Ah ok"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:46:26	"student006"	"student"	92	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:47:13	"teacher001"	"teacher"	93	"For example the verbs e.g. in this chart you can use 'produce' electronic...can you think of another possinverb"	"For example the verbs e.g. in this chart you can use 'produce' electronic...can you think of another possinverb"	NA	"5a"	"scaffolding,eliciting"	"lexical resource"	NA	NA	18
+2020-02-09 10:47:32	"teacher001"	"teacher"	94	"Sorry...possible verb beginning with g?"	"Sorry...possible verb beginning with g?"	NA	NA	NA	NA	NA	NA	5
+2020-02-09 10:47:36	"student006"	"student"	95	"I though, you want me to change the sentence again555"	"I thought you wanted me to change the sentence again"	NA	NA	NA	NA	NA	NA	10
+2020-02-09 10:48:08	"student006"	"student"	96	"Pls let me think about that"	"Please let me think about that"	NA	NA	NA	NA	NA	NA	6
+2020-02-09 10:48:14	"teacher001"	"teacher"	97	"Ah i see sorry"	"Ah i see sorry"	"95.0"	NA	NA	NA	NA	NA	4
+2020-02-09 10:48:24	"teacher001"	"teacher"	98	"Yes no problem"	"Yes no problem"	"96.0"	NA	NA	NA	NA	NA	3
+2020-02-09 10:49:35	"student006"	"student"	99	"Sorry, did you mean change produce to another word?"	"Sorry, did you mean change 'produce' to another word?"	NA	NA	NA	NA	NA	NA	9
+2020-02-09 10:49:55	"student006"	"student"	100	"Give?"	"Give?"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:50:15	"teacher001"	"teacher"	101	"Yes ....dont worry...so make electricity is possible but generate is a good one!"	"Yes ....dont worry...so make electricity is possible but generate is a good one!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-02-09 10:51:02	"student006"	"student"	102	"Ah... I forgot this word, thank you"	"Ah... I forgot this word, thank you"	NA	NA	NA	NA	NA	NA	7
+2020-02-09 10:51:14	"teacher001"	"teacher"	103	"Sometimes if you cant think of another word its ok just repeat one you're co fident with ....your original produce was fine"	"Sometimes if you cant think of another word its ok just repeat one you're co fident with ....your original produce was fine"	NA	NA	"scaffolding"	"task achievement"	NA	NA	22
+2020-02-09 10:51:23	"teacher001"	"teacher"	104	"Confident"	"Confident"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-09 10:51:55	"student006"	"student"	105	"Ah I see"	"Ah I see"	NA	NA	NA	NA	NA	NA	3
+2020-02-09 10:52:07	"teacher001"	"teacher"	106	"Ok so another we can change is the number i.e. we can use fractions...so 50 units in this case is...?"	"Ok so another we can change is the number i.e. we can use fractions...so 50 units in this case is...?"	NA	"5b"	"scaffolding,eliciting"	"lexical resource"	NA	NA	20
+2020-02-09 10:53:02	"student006"	"student"	107	"50 percents"	"50 per cent"	NA	NA	NA	NA	NA	NA	2
+2020-02-09 10:53:07	"student006"	"student"	108	"43862.0"	"43862.0"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:53:31	"teacher001"	"teacher"	109	"Yes either is fine ...but percent without s at the end!"	"Yes either is fine ...but percent without s at the end!"	"107, 108"	NA	"repair"	"writing"	NA	NA	11
+2020-02-09 10:53:56	"teacher001"	"teacher"	110	"One final thing <STUDENT> hold on...."	"One final thing <STUDENT> hold on...."	NA	"6.0"	"presentation"	"task achievement"	NA	NA	6
+2020-02-09 10:53:58	"student006"	"student"	111	"5555 ok 👌"	"ok 👌"	NA	NA	NA	NA	NA	NA	3
+2020-02-09 10:55:11	"teacher001"	"teacher"	112	"Si another giid thing in ielts is to use words ti describe the meaning of the numbers not just a list of the numbers themselves you see so...hold on..."	"Si another giid thing in ielts is to use words ti describe the meaning of the numbers not just a list of the numbers themselves you see so...hold on..."	NA	NA	NA	NA	NA	NA	29
+2020-02-09 10:55:18	"teacher001"	"teacher"	113	"Good thing"	"Good thing"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-02-09 10:55:50	"student006"	"student"	114	"Ah"	"Ah"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:56:12	"teacher001"	"teacher"	115	"E.g. ok fine we can say 50 units from coal but what does that mean in the context of the whole chart?"	"E.g. ok fine we can say 50 units from coal but what does that mean in the context of the whole chart?"	NA	NA	"eliciting"	"task achievement"	NA	NA	22
+2020-02-09 10:56:26	"teacher001"	"teacher"	116	"It means that 'coal was the...?"	"It means that 'coal was the...?"	NA	NA	"eliciting"	"task achievement"	NA	NA	6
+2020-02-09 10:56:43	"student006"	"student"	117	"Wood?"	"Wood?"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:56:44	"teacher001"	"teacher"	118	"Most...?"	"Most...?"	NA	NA	"eliciting"	NA	NA	NA	1
+2020-02-09 10:57:18	"student006"	"student"	119	"Plant"	"Plant"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:57:23	"student006"	"student"	120	"Log"	"Log"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:57:24	"teacher001"	"teacher"	121	"No hold on...as a source of electricity coal was the most...."	"No hold on...as a source of electricity coal was the most...."	NA	NA	"eliciting"	"task achievement"	NA	NA	11
+2020-02-09 10:57:33	"student006"	"student"	122	"Oh"	"Oh"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:58:41	"student006"	"student"	123	"Production"	"Production"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:59:06	"teacher001"	"teacher"	124	"Ok we're running out of time so...'coal was the most significant source of electricity in Australia in 1980, generating 50 units out of 100 units' = a good sentence!"	"Ok we're running out of time so...'coal was the most significant source of electricity in Australia in 1980, generating 50 units out of 100 units' = a good sentence!"	NA	NA	"scaffolding"	"task achievement"	NA	NA	29
+2020-02-09 10:59:16	"teacher001"	"teacher"	125	"Ok?"	"Ok?"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:59:40	"student006"	"student"	126	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 10:59:58	"teacher001"	"teacher"	127	"Your noun 'production' is a good word - we'll come back to that next tkme ok?"	"Your noun 'production' is a good word - we'll come back to that next tkme ok?"	"123.0"	NA	NA	NA	NA	NA	16
+2020-02-09 11:00:02	"teacher001"	"teacher"	128	"Time"	"Time"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-09 11:00:25	"student006"	"student"	129	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-09 11:00:37	"student006"	"student"	130	"Thank you so muck, <TEACHER>"	"Thank you so muck, <TEACHER>"	NA	"7.0"	"closing"	NA	NA	NA	5
+2020-02-09 11:01:04	"teacher001"	"teacher"	131	"Thanks a lot <STUDENT> - some good work today i think I'll  speak to you tomorrow ok thanks bye"	"Thanks a lot <STUDENT> - some good work today i think I'll  speak to you tomorrow ok thanks bye"	NA	NA	NA	NA	NA	NA	20
+2020-02-09 11:01:38	"student006"	"student"	132	"Bye, see you"	"Bye, see you"	NA	NA	NA	NA	NA	"B1"	3

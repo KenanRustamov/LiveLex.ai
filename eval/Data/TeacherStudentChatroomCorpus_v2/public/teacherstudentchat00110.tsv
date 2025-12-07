@@ -1,0 +1,199 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-09-23 11:30:56	"teacher008"	"teacher"	1	"Hi <STUDENT>! :)"	"Hi <STUDENT>! :)"	NA	"1.0"	"opening"	NA	NA	NA	3
+2020-09-23 11:33:42	"student011"	"student"	2	"Hi, <TEACHER>! )"	"Hi, <TEACHER>! )"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 11:34:08	"teacher008"	"teacher"	3	"Hi, how are you? Is the chatroom easy enough to use?"	"Hi, how are you? Is the chatroom easy enough to use?"	NA	"2.0"	"topic opening"	NA	NA	NA	11
+2020-09-23 11:34:35	"student011"	"student"	4	"Yes, everything is ok ) Thank you )"	"Yes, everything is ok ) Thank you )"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 11:34:46	"student011"	"student"	5	"How are you? )"	"How are you? )"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 11:34:48	"teacher008"	"teacher"	6	"Great to have you here! :)"	"Great to have you here! :)"	4	NA	NA	NA	NA	NA	6
+2020-09-23 11:35:11	"teacher008"	"teacher"	7	"Fine, thank you! The weather's changed and it's a bit rubbish outside, but not too bad!"	"Fine, thank you! The weather's changed and it's a bit rubbish outside, but not too bad!"	5	"2a"	"topic development"	NA	NA	NA	16
+2020-09-23 11:35:27	"teacher008"	"teacher"	8	"And how are you?"	"And how are you?"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 11:35:38	"student011"	"student"	9	"In Kyiv it's nice today."	"In Kyiv it's nice today."	NA	NA	NA	NA	NA	NA	5
+2020-09-23 11:35:54	"teacher008"	"teacher"	10	"Oh, I miss Kyiv!"	"Oh, I miss Kyiv!"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 11:35:56	"student011"	"student"	11	"Sunny and not too hot as in summer"	"Sunny and not too hot like in the summer"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 11:36:11	"teacher008"	"teacher"	12	"Sounds so good!"	"Sounds so good!"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 11:36:22	"student011"	"student"	13	"I hope you can visit us later"	"I hope you can visit us later"	NA	NA	NA	NA	NA	NA	7
+2020-09-23 11:36:44	"teacher008"	"teacher"	14	"I really hope so! We were supposed to visit last spring as you know"	"I really hope so! We were supposed to visit last spring as you know"	NA	NA	NA	NA	NA	NA	14
+2020-09-23 11:36:47	"student011"	"student"	15	"But now it seems like a dream )"	"But now it seems like a dream )"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 11:36:57	"teacher008"	"teacher"	16	"Exactly"	"Exactly"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 11:37:28	"teacher008"	"teacher"	17	"It's getting worse again in the UK. There are more cases of covid and the number is rising"	"It's getting worse again in the UK. There are more cases of covid and the number is rising"	NA	"2b"	"topic development"	NA	NA	NA	18
+2020-09-23 11:37:53	"student011"	"student"	18	"In Ukraine we have the same situation unfortunately"	"In Ukraine we have the same situation unfortunately"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 11:38:30	"teacher008"	"teacher"	19	"Oh really? What's it like? Are shops / restaurants / schools open?"	"Oh really? What's it like? Are shops / restaurants / schools open?"	NA	NA	NA	NA	NA	NA	12
+2020-09-23 11:39:09	"student011"	"student"	20	"Yes, everything and everybody work"	"Yes, everything and everybody works"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 11:39:55	"teacher008"	"teacher"	21	"What's the government planning to do about it all? Here, Boris addressed the nation last night again"	"What's the government planning to do about it all? Here, Boris addressed the nation last night again"	NA	NA	NA	NA	NA	NA	17
+2020-09-23 11:39:55	"student011"	"student"	22	"I think it's because the government can't do lockdown one more time because of econimical reasons"	"I think it's because the government can't do a lockdown one more time for economic reasons"	20	NA	NA	NA	NA	NA	16
+2020-09-23 11:40:08	"teacher008"	"teacher"	23	"Yes, exactly the same situation here"	"Yes, exactly the same situation here"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 11:40:21	"student011"	"student"	24	"I red some post on instagram about the UK"	"I read a post on Instagram about the UK"	NA	"2c"	"topic development"	NA	NA	NA	9
+2020-09-23 11:40:40	"teacher008"	"teacher"	25	"He said pubs and restaurants should close at 10 pm and the fine for not wearing a mask is now 200 pounds"	"He said pubs and restaurants should close at 10 pm and the fine for not wearing a mask is now 200 pounds"	21	NA	NA	NA	NA	NA	22
+2020-09-23 11:40:58	"student011"	"student"	26	"Maybe you know a Russian businessmen Chichvarkin?"	"Maybe you know a Russian businessman Chichvarkin?"	24	NA	NA	NA	NA	NA	7
+2020-09-23 11:41:06	"teacher008"	"teacher"	27	"And people should work from home if they can"	"And people should work from home if they can"	25	NA	NA	NA	NA	NA	9
+2020-09-23 11:41:15	"teacher008"	"teacher"	28	"No, I don't"	"No, I don't"	26	NA	NA	NA	NA	NA	3
+2020-09-23 11:41:52	"student011"	"student"	29	"This man lives in London about 10 years I think"	"This man has lived in London for about 10 years I think"	NA	NA	NA	NA	NA	NA	10
+2020-09-23 11:42:03	"teacher008"	"teacher"	30	"As many of them do!"	"As many of them do!"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 11:42:36	"student011"	"student"	31	"He had a huge business in Russia and then he had some problems with Russian president"	"He had a huge business in Russia and then he had some problems with the Russian president"	NA	NA	NA	NA	NA	NA	16
+2020-09-23 11:42:42	"student011"	"student"	32	"so"	"so"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 11:43:21	"student011"	"student"	33	"Now he is living in London and has huge shop of vines there"	"Now he is living in London and has a huge wine shop there"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 11:43:35	"teacher008"	"teacher"	34	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 11:43:36	"student011"	"student"	35	"and Hide restaurant"	"and The Hide restaurant"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 11:44:05	"teacher008"	"teacher"	36	"ah, I've just googled the restaurant"	"ah, I've just googled the restaurant"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 11:44:34	"student011"	"student"	37	"so ) Yesterday he wrote something like if the government does a new lockdown I will protest etc"	"so ) Yesterday he wrote something like if the government does a new lockdown I will protest etc"	NA	NA	NA	NA	NA	NA	18
+2020-09-23 11:45:07	"teacher008"	"teacher"	38	"Oh bless, my heart bleeds"	"Oh bless, my heart bleeds"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 11:45:14	"student011"	"student"	39	"Because he wants to work and earn money"	"Because he wants to work and earn money"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 11:45:31	"teacher008"	"teacher"	40	"Do you know the expression 'my heart bleeds for someone'?"	"Do you know the expression 'my heart bleeds for someone'?"	NA	"2d"	"eliciting"	"lexical resource"	NA	NA	10
+2020-09-23 11:45:47	"student011"	"student"	41	"Oh bless, my heart bleeds  - sorry, I don't know this frase"	"Oh bless, my heart bleeds  - sorry, I don't know this phrase"	NA	NA	"enquiry"	"lexical resource"	NA	NA	13
+2020-09-23 11:46:00	"student011"	"student"	42	"what does it mean? )"	"what does it mean? )"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 11:46:52	"teacher008"	"teacher"	43	"If you say 'my heart bleeds' it means you are sorry for someone (your heart bleeds for them), but it's mostly used sarcastically. I definitely used it sarcastically as I'm not really feeling sorry for him!"	"If you say 'my heart bleeds' it means you are sorry for someone (your heart bleeds for them), but it's mostly used sarcastically. I definitely used it sarcastically as I'm not really feeling sorry for him!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	36
+2020-09-23 11:47:17	"student011"	"student"	44	"Ah!"	"Ah!"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 11:47:31	"student011"	"student"	45	"It's clear now, thank you )"	"It's clear now, thank you )"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 11:47:57	"teacher008"	"teacher"	46	"I'm going to be throwing in some words and phrases that might be interesting to you, so yes, just ask questions, well done :)"	"I'm going to be throwing in some words and phrases that might be interesting to you, so yes, just ask questions, well done :)"	NA	"3.0"	"topic opening"	NA	NA	NA	24
+2020-09-23 11:48:07	"student011"	"student"	47	"Actually, I have a question now about this conversation )"	"Actually, I have a question now about this conversation )"	NA	"3a"	"enquiry"	NA	NA	NA	10
+2020-09-23 11:48:16	"teacher008"	"teacher"	48	"Yes, of course!"	"Yes, of course!"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 11:49:19	"student011"	"student"	49	"Maybe you know.Will be this conversation saved after its finishing?"	"Maybe you know.Will this conversation be saved after it's finished?"	NA	NA	NA	NA	NA	NA	10
+2020-09-23 11:50:06	"student011"	"student"	50	"Can I check it later for some words or expressions?"	"Can I check it later for some words or expressions?"	NA	NA	NA	NA	NA	NA	10
+2020-09-23 11:50:21	"student011"	"student"	51	"Or should I notice them now?"	"Or should I notice them now?"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 11:51:02	"student011"	"student"	52	"And I have one more )"	"And I have one more )"	NA	"3b"	NA	NA	NA	NA	6
+2020-09-23 11:51:04	"teacher008"	"teacher"	53	"Yes, the text is saved but you won't have access to it, sorry about that! I'll be making a list of new words every time, so don't worry, we'll go back to them. You can always copy and paste things or write them down!"	"Yes, the text is saved but you won't have access to it, sorry about that! I'll be making a list of new words every time, so don't worry, we'll go back to them. You can always copy and paste things or write them down!"	51	NA	NA	NA	NA	NA	44
+2020-09-23 11:51:17	"teacher008"	"teacher"	54	"Yes, sure"	"Yes, sure"	52	NA	NA	NA	NA	NA	2
+2020-09-23 11:52:12	"student011"	"student"	55	"Actually it's not a question. More like my advise for people who made this software"	"Actually it's not a question. More like my advice for the people who made this software"	NA	NA	NA	NA	NA	NA	15
+2020-09-23 11:52:19	"teacher008"	"teacher"	56	"Are you on your phone or laptop, by the way?"	"Are you on your phone or laptop, by the way?"	NA	"3c"	"enquiry"	NA	NA	NA	10
+2020-09-23 11:52:24	"teacher008"	"teacher"	57	"Yes, please!"	"Yes, please!"	55	NA	NA	NA	NA	NA	2
+2020-09-23 11:53:22	"student011"	"student"	58	"It would be more convenient to have option like 'to answer a question'"	"It would be more convenient to have an option like 'answer a question'"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 11:53:39	"student011"	"student"	59	"I don't know exactly how to cal it better"	"I don't know exactly what to call it better"	NA	NA	NA	NA	NA	NA	9
+2020-09-23 11:53:43	"teacher008"	"teacher"	60	"Oh, I see, like a reply button?"	"Oh, I see, like a reply button?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-09-23 11:53:57	"teacher008"	"teacher"	61	"Yes, I'm with you!"	"Yes, I'm with you!"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 11:54:05	"student011"	"student"	62	"Oh, sure! Reply"	"Oh, sure! Reply"	60	NA	NA	NA	NA	NA	3
+2020-09-23 11:54:29	"student011"	"student"	63	"Sorry, I forgot the word ))"	"Sorry, I forgot the word ))"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 11:54:47	"teacher008"	"teacher"	64	"Yes, this is useful feedback, thank you! And it would also be useful to be able to see when the other person is typing"	"Yes, this is useful feedback, thank you! And it would also be useful to be able to see when the other person is typing"	NA	NA	NA	NA	NA	NA	24
+2020-09-23 11:55:01	"student011"	"student"	65	"agree!"	"agree!"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 11:55:17	"student011"	"student"	66	"I'm on my laptop now"	"I'm on my laptop now"	56	NA	NA	NA	NA	NA	5
+2020-09-23 11:55:32	"teacher008"	"teacher"	67	"I think they kept this chatroom deliberately very basic. It's not like Messenger but it serves the purpose!"	"I think they kept this chatroom deliberately very basic. It's not like Messenger but it serves the purpose!"	65	NA	NA	NA	NA	NA	18
+2020-09-23 11:56:00	"student011"	"student"	68	"deliberately? )"	"deliberately? )"	NA	"3d"	"enquiry"	"lexical resource,meaning"	NA	NA	2
+2020-09-23 11:56:33	"teacher008"	"teacher"	69	"When you do something deliberately, you do it and you know you want to do it! An antonym of accidentally"	"When you do something deliberately, you do it and you know you want to do it! An antonym of accidentally"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+2020-09-23 11:56:57	"student011"	"student"	70	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2020-09-23 11:57:02	"teacher008"	"teacher"	71	"So the people who created this chatroom wanted it to be very basic, and that's what it is!"	"So the people who created this chatroom wanted it to be very basic, and that's what it is!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2020-09-23 11:57:15	"student011"	"student"	72	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2020-09-23 11:57:32	"student011"	"student"	73	"And <TEACHER>"	"And <TEACHER>"	NA	"4.0"	"topic opening"	NA	NA	NA	2
+2020-09-23 11:57:40	"student011"	"student"	74	"I'm very very sorry"	"I'm very very sorry"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 11:57:46	"teacher008"	"teacher"	75	"For example, I was a bit hurt by what my friend said, but I don't think she said it deliberately to upset me"	"For example, I was a bit hurt by what my friend said, but I don't think she said it deliberately to upset me"	72	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	23
+2020-09-23 11:57:50	"teacher008"	"teacher"	76	"Yes, go on!"	"Yes, go on!"	74	NA	NA	NA	NA	NA	3
+2020-09-23 11:58:18	"student011"	"student"	77	"I know that yesterday was a big day for you )"	"I know that yesterday was a big day for you )"	NA	NA	NA	NA	NA	NA	11
+2020-09-23 11:58:34	"teacher008"	"teacher"	78	"Ah yes, thank you! :)"	"Ah yes, thank you! :)"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 11:58:38	"student011"	"student"	79	"It was <TEACHER'S CHILD>'s Birthday"	"It was <TEACHER'S CHILD>'s birthday"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 11:58:53	"student011"	"student"	80	"Sorry I missed it!"	"Sorry I missed it!"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 11:58:54	"teacher008"	"teacher"	81	"<TEACHER'S CHILD>'s <AGE>! He says he's grown bigger :)"	"<TEACHER'S CHILD>'s <AGE>! He says he's grown bigger :)"	NA	NA	NA	NA	NA	NA	9
+2020-09-23 11:59:04	"teacher008"	"teacher"	82	"No worries, you even sent him a present!"	"No worries, you even sent him a present!"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 11:59:13	"student011"	"student"	83	"Congratulations!"	"Congratulations!"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 11:59:50	"student011"	"student"	84	"He is a big boy, He is at school now"	"He is a big boy, He is at school now"	NA	NA	NA	NA	NA	NA	10
+2020-09-23 12:00:02	"student011"	"student"	85	"Can't believe!"	"Can't believe!"	NA	NA	NA	NA	NA	NA	2
+2020-09-23 12:00:03	"teacher008"	"teacher"	86	"Thank you! It was really weird that he was at school all day. We used to always be able to take a day off for his birthday (and every birthday in the family), but we don't have this freedom anymore!"	"Thank you! It was really weird that he was at school all day. We used to always be able to take a day off for his birthday (and every birthday in the family), but we don't have this freedom anymore!"	NA	"4a"	"topic development"	NA	NA	NA	40
+2020-09-23 12:01:02	"student011"	"student"	87	"No party yesterday??"	"No party yesterday??"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:01:23	"teacher008"	"teacher"	88	"I know! He's lucky because he's one of the oldest kids in his class. In the UK, children start school in September after their 4th birthday, and there are some kids with August birthdays in his class. They are still babies, 11 months younger than <TEACHER'S CHILD>!"	"I know! He's lucky because he's one of the oldest kids in his class. In the UK, children start school in September after their 4th birthday, and there are some kids with August birthdays in his class. They are still babies, 11 months younger than <TEACHER'S CHILD>!"	NA	NA	NA	NA	NA	NA	47
+2020-09-23 12:02:04	"teacher008"	"teacher"	89	"We wanted to take him out to eat at his favourite cafe, but he was so tired he wanted to go home! So we ended up ordering a pizza."	"We wanted to take him out to eat at his favourite cafe, but he was so tired he wanted to go home! So we ended up ordering a pizza."	NA	NA	NA	NA	NA	NA	29
+2020-09-23 12:02:38	"student011"	"student"	90	"Pizza is always a good idea )"	"Pizza is always a good idea )"	NA	NA	NA	NA	NA	NA	7
+2020-09-23 12:02:57	"student011"	"student"	91	"<STUDENT'S CHILD> likes it so much"	"<STUDENT'S CHILD> likes it so much"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 12:03:07	"teacher008"	"teacher"	92	"Well, he did play with his friend next door on Saturday, and <TEACHER'S HUSBAND>'s parents are coming this weekend. We couldn't have a party this year because you can't have more than 6 people together socializing"	"Well, he did play with his friend next door on Saturday, and <TEACHER'S HUSBAND>'s parents are coming this weekend. We couldn't have a party this year because you can't have more than 6 people together socializing"	NA	NA	NA	NA	NA	NA	36
+2020-09-23 12:04:16	"student011"	"student"	93	"It seems like ideal Birthday for five years boy"	"It seems like an ideal birthday for a five-year-old boy"	NA	NA	NA	NA	NA	NA	9
+2020-09-23 12:04:28	"teacher008"	"teacher"	94	"We gave him a game table where you can play table football, air hockey, ping pong and snooker"	"We gave him a game table where you can play table football, air hockey, ping pong and snooker"	NA	NA	NA	NA	NA	NA	18
+2020-09-23 12:04:39	"teacher008"	"teacher"	95	"So we ended up playing that, it was great fun!"	"So we ended up playing that, it was great fun!"	NA	NA	NA	NA	NA	NA	10
+2020-09-23 12:04:59	"teacher008"	"teacher"	96	"That's it, I don't miss throwing a big party. I find it a bit stressful!"	"That's it, I don't miss throwing a big party. I find it a bit stressful!"	93	NA	NA	NA	NA	NA	15
+2020-09-23 12:05:14	"student011"	"student"	97	"Agree"	"Agree"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 12:05:27	"teacher008"	"teacher"	98	"And by 'a bit' I mean 'very' :)"	"And by 'a bit' I mean 'very' :)"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 12:05:33	"student011"	"student"	99	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 12:05:50	"teacher008"	"teacher"	100	"I did make a cake! a black forest gateau"	"I did make a cake! a black forest gateau"	NA	"4b"	"topic development"	NA	NA	NA	9
+2020-09-23 12:05:54	"teacher008"	"teacher"	101	"Do you this one?"	"Do you this one?"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:06:04	"student011"	"student"	102	"no!"	"no!"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 12:06:20	"teacher008"	"teacher"	103	"Sorry, it's a Black Forest gateau, I should have capitalized it"	"Sorry, it's a Black Forest gateau, I should have capitalized it"	100	NA	"repair"	"writing"	NA	NA	11
+2020-09-23 12:06:31	"student011"	"student"	104	"The name is very interesting"	"The name is very interesting"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:06:31	"teacher008"	"teacher"	105	"Schwarzwalden cake"	"Schwarzwalden cake"	NA	NA	"non-English,scaffolding"	"code switching,lexical resource"	NA	NA	2
+2020-09-23 12:06:40	"teacher008"	"teacher"	106	"The chocolate one with cherries and cream"	"The chocolate one with cherries and cream"	NA	NA	NA	NA	NA	NA	7
+2020-09-23 12:06:45	"teacher008"	"teacher"	107	"I'm sure you know it!"	"I'm sure you know it!"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:06:51	"student011"	"student"	108	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 12:07:02	"student011"	"student"	109	"I have to google )"	"I have to google )"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:07:34	"teacher008"	"teacher"	110	"My Mum always used to make a version of this cake for me!"	"My Mum always used to make a version of this cake for me!"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 12:07:37	"student011"	"student"	111	"I've checked ) I know it )"	"I've checked ) I know it )"	NA	NA	NA	NA	NA	NA	7
+2020-09-23 12:07:48	"teacher008"	"teacher"	112	"Yes sure :)"	"Yes sure :)"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:07:53	"student011"	"student"	113	"yummy ))"	"yummy ))"	NA	NA	NA	NA	NA	NA	2
+2020-09-23 12:08:14	"teacher008"	"teacher"	114	"But I prefer it with Ukrainian sour cherries, not the sweet cherries that we have here"	"But I prefer it with Ukrainian sour cherries, not the sweet cherries that we have here"	NA	NA	NA	NA	NA	NA	16
+2020-09-23 12:08:27	"student011"	"student"	115	"Did you make it yourself?"	"Did you make it yourself?"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:08:30	"teacher008"	"teacher"	116	"You love baking, don't you?"	"You love baking, don't you?"	NA	"4c"	"topic development"	NA	NA	NA	5
+2020-09-23 12:08:37	"teacher008"	"teacher"	117	"I did! And it worked!"	"I did! And it worked!"	115	NA	NA	NA	NA	NA	5
+2020-09-23 12:08:42	"student011"	"student"	118	"It's difficult to make it?"	"Is it difficult to make it?"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:09:03	"teacher008"	"teacher"	119	"Mmm, it takes a bit of time but I wouldn't say it's difficult"	"Mmm, it takes a bit of time but I wouldn't say it's difficult"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 12:09:08	"teacher008"	"teacher"	120	"time-consuming"	"time-consuming"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 12:09:26	"student011"	"student"	121	"Don't you have 'usual'cherries there?"	"Don't you have any 'usual' cherries there?"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:09:52	"teacher008"	"teacher"	122	"Well, that's the trouble. 'Usual' cherries in this country are sweet!"	"Well, that's the trouble. 'Usual' cherries in this country are sweet!"	NA	NA	NA	NA	NA	NA	11
+2020-09-23 12:10:14	"teacher008"	"teacher"	123	"Sour cherries are called Morello cherries and are quite hard to get. Sometimes you can buy them frozen from a supermarket"	"Sour cherries are called Morello cherries and are quite hard to get. Sometimes you can buy them frozen from a supermarket"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	21
+2020-09-23 12:10:41	"teacher008"	"teacher"	124	"But! I'm planting a Morello cherry tree in my garden this spring! So I'll have a good supply in a few years"	"But! I'm planting a Morello cherry tree in my garden this spring! So I'll have a good supply in a few years"	NA	NA	NA	NA	NA	NA	22
+2020-09-23 12:11:10	"student011"	"student"	125	"You can grow them in your garden )"	"You can grow them in your garden )"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 12:11:15	"teacher008"	"teacher"	126	"I have to!"	"I have to!"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:11:23	"student011"	"student"	127	"haha! I knew )"	"haha! I knew )"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:11:37	"teacher008"	"teacher"	128	"poor me :)"	"poor me :)"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:11:48	"teacher008"	"teacher"	129	"Anyway, I know you love baking, tell me about it, please!"	"Anyway, I know you love baking, tell me about it, please!"	116	NA	NA	NA	NA	NA	11
+2020-09-23 12:12:20	"student011"	"student"	130	"I love baking but not time-consuming things ))"	"I love baking but not time-consuming things ))"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 12:12:48	"student011"	"student"	131	"I like ti make something fast and have a good result )"	"I like to make something fast and have a good result )"	NA	NA	NA	NA	NA	NA	12
+2020-09-23 12:13:08	"teacher008"	"teacher"	132	"Oh, I completely agree! I just made a special effort for <TEACHER'S CHILD>'s birthday!"	"Oh, I completely agree! I just made a special effort for <TEACHER'S CHILD>'s birthday!"	NA	NA	NA	NA	NA	NA	14
+2020-09-23 12:13:20	"teacher008"	"teacher"	133	"You bake a lot of bread, don't you?"	"You bake a lot of bread, don't you?"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 12:13:28	"student011"	"student"	134	"Like 'my' baguette )"	"Like 'my' baguette )"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:13:40	"student011"	"student"	135	"Jus baguette )"	"Just a baguette )"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:13:57	"student011"	"student"	136	"I baked one sweet bread"	"I baked one sweet bread"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:14:07	"student011"	"student"	137	"It's German thing"	"It's a German thing"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:14:16	"teacher008"	"teacher"	138	"Interesting!"	"Interesting!"	NA	NA	NA	NA	NA	NA	1
+2020-09-23 12:14:26	"student011"	"student"	139	"Let me think"	"Let me think"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:15:23	"student011"	"student"	140	"Unfortunatelly I don't remember the name"	"Unfortunatelly I don't remember the name"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 12:15:36	"teacher008"	"teacher"	141	"I have no idea either!"	"I have no idea either!"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:15:40	"student011"	"student"	142	"They Bake it for Easter"	"They bake it for Easter"	NA	NA	NA	NA	NA	NA	5
+2020-09-23 12:16:08	"teacher008"	"teacher"	143	"Ah, an Easter bread! I want to make Ukrainian Easter cakes this Easter"	"Ah, an Easter bread! I want to make Ukrainian Easter cakes this Easter"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 12:16:30	"teacher008"	"teacher"	144	"Oh, you know what I really want to learn to bake? Donetska zdoba"	"Oh, you know what I really want to learn to bake? Donetska zdoba"	NA	"4d"	"topic development,non-English"	"code switching"	NA	NA	13
+2020-09-23 12:16:33	"student011"	"student"	145	"I think it's too difficult for me )"	"I think it's too difficult for me )"	143	NA	NA	NA	NA	NA	8
+2020-09-23 12:16:36	"teacher008"	"teacher"	146	"I really miss those buns!"	"I really miss those buns!"	144	NA	NA	NA	NA	NA	5
+2020-09-23 12:16:56	"student011"	"student"	147	"Donetska zdoba ? I don't know!"	"Donetska zdoba ? I don't know!"	NA	NA	"non-English"	"code switching"	NA	NA	6
+2020-09-23 12:17:06	"student011"	"student"	148	"Is it a cake?"	"Is it a cake?"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:17:09	"teacher008"	"teacher"	149	"You do! You have them in every bakery!"	"You do! You have them in every bakery!"	NA	NA	NA	NA	NA	NA	8
+2020-09-23 12:17:20	"teacher008"	"teacher"	150	"Donetskaya sdoba?"	"Donetskaya sdoba?"	NA	NA	"non-English"	"code switching"	NA	NA	2
+2020-09-23 12:17:25	"teacher008"	"teacher"	151	"The little Ukrainian buns"	"The little Ukrainian buns"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:17:48	"student011"	"student"	152	"I've google it"	"I've googled it"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:18:07	"teacher008"	"teacher"	153	"Do you know what I mean?"	"Do you know what I mean?"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 12:18:11	"student011"	"student"	154	"It's funny, but I don't know these buns )))"	"It's funny, but I don't know these buns )))"	NA	NA	NA	NA	NA	NA	9
+2020-09-23 12:18:24	"teacher008"	"teacher"	155	"No way!!"	"No way!!"	NA	NA	NA	NA	NA	NA	2
+2020-09-23 12:18:38	"teacher008"	"teacher"	156	"They are the absolute best! When fresh and with a bit of butter"	"They are the absolute best! When fresh and with a bit of butter"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 12:19:06	"student011"	"student"	157	"actually now I prefer not to buy bread in the supermarket"	"actually now I prefer not to buy bread at the supermarket"	NA	"4e"	"topic development"	NA	NA	NA	11
+2020-09-23 12:19:20	"teacher008"	"teacher"	158	"Do you just make your own?"	"Do you just make your own?"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 12:19:44	"student011"	"student"	159	"I try to make it myself or just don't eat the bread )"	"I try to make it myself or just don't eat bread )"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 12:20:06	"teacher008"	"teacher"	160	"Have you got a breadmaker or do you bake it in the oven?"	"Have you got a breadmaker or do you bake it in the oven?"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 12:20:53	"student011"	"student"	161	"I have to send you a recepi of buns which I have from my mum"	"I have to send you a recipe for the buns which I have from my mum"	NA	"4f"	"topic development"	NA	NA	NA	15
+2020-09-23 12:21:09	"student011"	"student"	162	"in the oven"	"in the oven"	160	NA	NA	NA	NA	NA	3
+2020-09-23 12:21:15	"teacher008"	"teacher"	163	"yes, please, send me a recipe!"	"yes, please, send me a recipe!"	161	NA	NA	NA	NA	NA	6
+2020-09-23 12:21:52	"student011"	"student"	164	"But we use for them sour cream"	"But we use sour cream for them"	NA	NA	NA	NA	NA	NA	7
+2020-09-23 12:22:01	"teacher008"	"teacher"	165	"I've prepared lots of material related to food, but I think it'll have to wait until Friday"	"I've prepared lots of material related to food, but I think it'll have to wait until Friday"	NA	"4g"	"topic development"	NA	NA	NA	17
+2020-09-23 12:22:12	"student011"	"student"	166	"I'm not sure if you have it there"	"I'm not sure if you have it there"	164	NA	NA	NA	NA	NA	8
+2020-09-23 12:22:16	"teacher008"	"teacher"	167	"I can get sour cream here. It's not the same but close enough"	"I can get sour cream here. It's not the same but close enough"	NA	NA	NA	NA	NA	NA	13
+2020-09-23 12:23:09	"student011"	"student"	168	"Oh! Super! So you can try the recipe! It's easy and tasty!"	"Oh! Super! So you can try the recipe! It's easy and tasty!"	NA	NA	NA	NA	NA	NA	12
+2020-09-23 12:23:17	"teacher008"	"teacher"	169	"Yes please!"	"Yes please!"	NA	NA	NA	NA	NA	NA	2
+2020-09-23 12:23:54	"teacher008"	"teacher"	170	"A couple of things from today. 'This man ___ ____ in London for about 10 years (live)'"	"A couple of things from today. 'This man ___ ____ in London for about 10 years (live)'"	NA	"5.0"	"eliciting"	"grammatical resource"	NA	NA	17
+2020-09-23 12:23:56	"student011"	"student"	171	"And my mom made 'Sayka' buns"	"And my mom made 'Sayka' buns"	169	NA	"non-English"	"code switching"	NA	NA	6
+2020-09-23 12:24:18	"student011"	"student"	172	"is living?"	"has lived?"	170	NA	NA	NA	NA	NA	2
+2020-09-23 12:24:27	"teacher008"	"teacher"	173	"Oh, I know, heart-shaped?"	"Oh, I know, heart-shaped?"	171	NA	NA	NA	NA	NA	4
+2020-09-23 12:24:40	"teacher008"	"teacher"	174	"This man has lived in London..."	"This man has lived in London..."	172	NA	"repair"	"grammatical resource"	NA	NA	6
+2020-09-23 12:24:58	"teacher008"	"teacher"	175	"No worries, I'm just noting some things we can look into later"	"No worries, I'm just noting some things we can look into later"	NA	NA	NA	NA	NA	NA	12
+2020-09-23 12:25:03	"student011"	"student"	176	"sure, sorry"	"sure, sorry"	NA	NA	NA	NA	NA	NA	2
+2020-09-23 12:25:36	"student011"	"student"	177	"Not  heart-shaped, but you can do them like that"	"Not  heart-shaped, but you can make them like that"	173	NA	NA	NA	NA	NA	10
+2020-09-23 12:25:45	"teacher008"	"teacher"	178	"No, not sorry, you've done really well with all the chatting in English! I just need to see what could be useful for you and what material I should prepare"	"No, not sorry, you've done really well with all the chatting in English! I just need to see what could be useful for you and what material I should prepare"	176	NA	NA	NA	NA	NA	30
+2020-09-23 12:25:59	"student011"	"student"	179	"thank you )"	"thank you )"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:26:54	"teacher008"	"teacher"	180	"I've baked my own sourdough bread, which was a very popular thing in the lockdown in the UK"	"I've baked my own sourdough bread, which was a very popular thing in the lockdown in the UK"	NA	"4h"	"topic development"	NA	NA	NA	18
+2020-09-23 12:27:02	"teacher008"	"teacher"	181	"Do you know sourdough?"	"Do you know sourdough?"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:27:24	"student011"	"student"	182	"No! I have to try )"	"No! I have to try )"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 12:28:05	"student011"	"student"	183	"It's difficult to make?"	"Is it difficult to make?"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:28:09	"teacher008"	"teacher"	184	"It's the bread you make without shop-bought yeast. You ferment flour and water for a while until it produces it's own yeast"	"It's the bread you make without shop-bought yeast. You ferment flour and water for a while until it produces it's own yeast"	182	NA	NA	NA	NA	NA	22
+2020-09-23 12:28:28	"teacher008"	"teacher"	185	"It's not difficult but it takes a few days to make that sourdough starter!"	"It's not difficult but it takes a few days to make that sourdough starter!"	183	NA	NA	NA	NA	NA	14
+2020-09-23 12:28:46	"teacher008"	"teacher"	186	"But once you have it, you can make bread, waffles, pancakes, focaccia - so many things"	"But once you have it, you can make bread, waffles, pancakes, focaccia - so many things"	NA	NA	NA	NA	NA	NA	16
+2020-09-23 12:29:25	"student011"	"student"	187	"I see! Actually this sort of bread is better than with shop-bought yeast I think"	"I see! Actually this sort of bread is better than with the shop-bought yeast I think"	NA	NA	NA	NA	NA	NA	15
+2020-09-23 12:29:43	"teacher008"	"teacher"	188	"Yes, I'll give you a recipe if you'd like."	"Yes, I'll give you a recipe if you'd like."	NA	NA	NA	NA	NA	NA	9
+2020-09-23 12:29:59	"student011"	"student"	189	"I really need it now )"	"I really need it now )"	NA	NA	NA	NA	NA	NA	6
+2020-09-23 12:30:12	"student011"	"student"	190	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-09-23 12:30:40	"teacher008"	"teacher"	191	"Oh no, time to go! That went fast! Thank you for today! Some of the new words were 'deliberately', 'time-consuming' (you used it very well, so maybe it wasn't new) and 'my heart bleeds' for expressing sarcasm. We'll return to them another day!"	"Oh no, time to go! That went fast! Thank you for today! Some of the new words were 'deliberately', 'time-consuming' (you used it very well, so maybe it wasn't new) and 'my heart bleeds' for expressing sarcasm. We'll return to them another day!"	NA	"6.0"	"recap,closing"	"lexical resource"	NA	NA	43
+2020-09-23 12:31:09	"student011"	"student"	192	"Thank you very much!"	"Thank you very much!"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:31:17	"teacher008"	"teacher"	193	"And I'll see you here on Friday at the same time for more food talk, right?"	"And I'll see you here on Friday at the same time for more food talk, right?"	NA	NA	NA	NA	NA	NA	16
+2020-09-23 12:31:18	"student011"	"student"	194	"See you soon!"	"See you soon!"	NA	NA	NA	NA	NA	NA	3
+2020-09-23 12:31:29	"teacher008"	"teacher"	195	"See you, take care!"	"See you, take care!"	NA	NA	NA	NA	NA	NA	4
+2020-09-23 12:31:55	"student011"	"student"	196	"Thank you! See you! Take care too"	"Thank you! See you! Take care too"	NA	NA	NA	NA	NA	NA	7
+2020-09-23 12:32:16	"teacher008"	"teacher"	197	":) you can just close the programme, everything is saved automatically"	":) you can just close the programme, everything is saved automatically"	NA	NA	NA	NA	NA	NA	11
+2020-09-23 12:33:11	"student011"	"student"	198	"ok, thanks!"	"ok, thanks!"	NA	NA	NA	NA	NA	"B2"	2

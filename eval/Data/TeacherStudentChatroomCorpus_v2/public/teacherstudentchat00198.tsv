@@ -1,0 +1,112 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2021-02-09T13:32:32+00:00+00:00+00:00"	"teacher008"	"teacher"	1	"hi, can you read skype please?"	"Hi, can you read my message on Skype, please?"	NA	"1.0"	"opening"	NA	NA	NA	6
+"2021-02-09T13:32:55+00:00+00:00+00:00"	"teacher008"	"teacher"	2	"Hi <STUDENT>, one second"	"Hi <STUDENT>, one second"	NA	NA	NA	NA	NA	NA	4
+"2021-02-09T13:33:00+00:00+00:00+00:00"	"teacher008"	"teacher"	3	"Maybe just tell me here?"	"Maybe just tell me here?"	NA	NA	NA	NA	NA	NA	5
+"2021-02-09T13:34:49+00:00+00:00+00:00"	"student009"	"student"	4	"send me the link please"	"send me the link please"	NA	NA	NA	NA	NA	NA	5
+"2021-02-09T13:35:16+00:00+00:00+00:00"	"teacher008"	"teacher"	5	"Oh, one second"	"Oh, one second"	NA	NA	NA	NA	NA	NA	3
+"2021-02-09T13:35:19+00:00+00:00+00:00"	"student009"	"student"	6	"that's why i"	"that's why I"	NA	NA	NA	NA	NA	NA	3
+"2021-02-09T13:35:25+00:00+00:00+00:00"	"student009"	"student"	7	"need skype"	"need Skype"	NA	NA	NA	NA	NA	NA	2
+"2021-02-09T13:36:22+00:00+00:00+00:00"	"teacher008"	"teacher"	8	"Ah, my Skype won't start! hold on"	"Ah, my Skype won't start! hold on"	NA	NA	NA	NA	NA	NA	7
+"2021-02-09T13:36:34+00:00+00:00+00:00"	"student009"	"student"	9	"mine too"	"mine neither"	NA	NA	NA	NA	NA	NA	2
+"2021-02-09T13:36:38+00:00+00:00+00:00"	"student009"	"student"	10	"strange"	"strange"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:37:42+00:00+00:00+00:00"	"teacher008"	"teacher"	11	"Are you trying to switch to your iPad?"	"Are you trying to switch to your iPad?"	NA	NA	NA	NA	NA	NA	8
+"2021-02-09T13:38:14+00:00+00:00+00:00"	"teacher008"	"teacher"	12	"Done! Have you got it?"	"Done! Have you got it?"	NA	NA	NA	NA	NA	NA	5
+"2021-02-09T13:38:20+00:00+00:00+00:00"	"student009"	"student"	13	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:38:28+00:00+00:00+00:00"	"teacher008"	"teacher"	14	"great"	"great"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:38:33+00:00+00:00+00:00"	"student009"	"student"	15	"but I typed it by myself)"	"but I typed it by myself)"	NA	NA	NA	NA	NA	NA	6
+"2021-02-09T13:38:43+00:00+00:00+00:00"	"teacher008"	"teacher"	16	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:38:50+00:00+00:00+00:00"	"student009"	"student"	17	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:39:08+00:00+00:00+00:00"	"teacher008"	"teacher"	18	"We made it eventually!"	"We made it eventually!"	NA	NA	NA	NA	NA	NA	4
+"2021-02-09T13:39:15+00:00+00:00+00:00"	"teacher008"	"teacher"	19	"How's life with an iPad? :)"	"How's life with an iPad? :)"	NA	"2.0"	"topic opening"	NA	NA	NA	6
+"2021-02-09T13:39:56+00:00+00:00+00:00"	"student009"	"student"	20	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:40:20+00:00+00:00+00:00"	"teacher008"	"teacher"	21	"You are on your iPad now, aren't you?"	"You are on your iPad now, aren't you?"	NA	NA	NA	NA	NA	NA	8
+"2021-02-09T13:40:38+00:00+00:00+00:00"	"student009"	"student"	22	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:40:54+00:00+00:00+00:00"	"student009"	"student"	23	"I am from computer now)"	"I am on my computer now)"	NA	NA	NA	NA	NA	NA	5
+"2021-02-09T13:41:23+00:00+00:00+00:00"	"teacher008"	"teacher"	24	"Oh I see. Have you tried your iPad for school books yet?"	"Oh I see. Have you tried your iPad for school books yet?"	NA	NA	NA	NA	NA	NA	12
+"2021-02-09T13:41:31+00:00+00:00+00:00"	"student009"	"student"	25	"of course"	"of course"	NA	NA	NA	NA	NA	NA	2
+"2021-02-09T13:41:43+00:00+00:00+00:00"	"teacher008"	"teacher"	26	"Is it convenient?"	"Is it convenient?"	NA	NA	NA	NA	NA	NA	3
+"2021-02-09T13:43:02+00:00+00:00+00:00"	"student009"	"student"	27	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:44:18+00:00+00:00+00:00"	"teacher008"	"teacher"	28	"Lovely"	"Lovely"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:44:25+00:00+00:00+00:00"	"teacher008"	"teacher"	29	"We've had two snowy days now!"	"We've had two snowy days now!"	NA	"3.0"	"topic opening"	NA	NA	NA	6
+"2021-02-09T13:44:37+00:00+00:00+00:00"	"student009"	"student"	30	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:44:47+00:00+00:00+00:00"	"student009"	"student"	31	"tere also a lot of snow here"	"There is also a lot of snow here"	NA	NA	NA	NA	NA	NA	7
+"2021-02-09T13:44:47+00:00+00:00+00:00"	"teacher008"	"teacher"	32	"Which is really weird for us, we are in a part of the country where the climate is really mild"	"Which is really weird for us, we are in a part of the country where the climate is really mild"	30	NA	NA	NA	NA	NA	20
+"2021-02-09T13:45:02+00:00+00:00+00:00"	"teacher008"	"teacher"	33	"Oh really?"	"Oh really?"	31	NA	NA	NA	NA	NA	2
+"2021-02-09T13:45:31+00:00+00:00+00:00"	"student009"	"student"	34	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:47:22+00:00+00:00+00:00"	"teacher008"	"teacher"	35	"Ok, just for a bit of practice, can you tell me three things about your week? One boring, one fun and one new"	"Ok, just for a bit of practice, can you tell me three things about your week? One boring, one fun and one new"	NA	"4.0"	"topic opening,eliciting"	"writing"	NA	NA	23
+"2021-02-09T13:47:37+00:00+00:00+00:00"	"teacher008"	"teacher"	36	"And I'll tell you about mine!"	"And I'll tell you about mine!"	NA	NA	NA	NA	NA	NA	6
+"2021-02-09T13:48:23+00:00+00:00+00:00"	"student009"	"student"	37	"This Saturday my friend invited me to his birthday"	"This Saturday my friend invited me to his birthday"	NA	NA	NA	NA	NA	NA	9
+"2021-02-09T13:48:31+00:00+00:00+00:00"	"student009"	"student"	38	"that's new"	"that's new"	NA	NA	NA	NA	NA	NA	2
+"2021-02-09T13:49:02+00:00+00:00+00:00"	"teacher008"	"teacher"	39	"Cool! What are you going to give him?"	"Cool! What are you going to give him?"	NA	NA	NA	NA	NA	NA	8
+"2021-02-09T13:49:47+00:00+00:00+00:00"	"student009"	"student"	40	"fun that a half of the class didn't come last Friday because there is a litle virus in our class I think and because of the weather"	"It was fun that half of the class didn't come last Friday because there is a little virus in our class I think and because of the weather"	NA	NA	NA	NA	NA	NA	27
+"2021-02-09T13:50:00+00:00+00:00+00:00"	"student009"	"student"	41	"little"	"little"	NA	NA	"repair"	"writing"	NA	NA	1
+"2021-02-09T13:50:30+00:00+00:00+00:00"	"teacher008"	"teacher"	42	"a little virus :)) nice and cute"	"a little virus :)) nice and cute"	NA	NA	NA	NA	NA	NA	7
+"2021-02-09T13:50:40+00:00+00:00+00:00"	"student009"	"student"	43	"and boring that tomorrow is Geography"	"and it's boring that tomorrow is geography"	NA	NA	NA	NA	NA	NA	6
+"2021-02-09T13:51:00+00:00+00:00+00:00"	"teacher008"	"teacher"	44	"Ooh, geography, yes, I remember it's not your favourite subject!"	"Ooh, geography, yes, I remember it's not your favourite subject!"	NA	NA	NA	NA	NA	NA	10
+"2021-02-09T13:51:50+00:00+00:00+00:00"	"teacher008"	"teacher"	45	"Ok, my boring is definitely not being able to go anywhere because of the lockdown"	"Ok, my boring is definitely not being able to go anywhere because of the lockdown"	NA	"4a"	"topic development"	NA	NA	NA	15
+"2021-02-09T13:52:12+00:00+00:00+00:00"	"teacher008"	"teacher"	46	"The fun one is the book I'm reading, His Dark Materials, the fantasy one I told you about"	"The fun one is the book I'm reading, His Dark Materials, the fantasy one I told you about"	NA	NA	NA	NA	NA	NA	18
+"2021-02-09T13:52:46+00:00+00:00+00:00"	"teacher008"	"teacher"	47	"And the new one is that we're buying a car! We're very excited but can't go anywhere for now"	"And the new one is that we're buying a car! We're very excited but can't go anywhere for now"	NA	NA	NA	NA	NA	NA	19
+"2021-02-09T13:53:49+00:00+00:00+00:00"	"student009"	"student"	48	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T13:54:42+00:00+00:00+00:00"	"teacher008"	"teacher"	49	"I'm really looking forward to exploring East Anglia where we live. All the places we weren't able to visit without a car!"	"I'm really looking forward to exploring East Anglia where we live. All the places we weren't able to visit without a car!"	NA	NA	NA	NA	NA	NA	22
+"2021-02-09T13:55:46+00:00+00:00+00:00"	"teacher008"	"teacher"	50	"Anyway, I'd like to talk about bookshops with you today! Do you ever go to bookshops? How do you prefer to buy books, in shops or online? If you do go to bookshops, what is your favourite bookshop like?"	"Anyway, I'd like to talk about bookshops with you today! Do you ever go to bookshops? How do you prefer to buy books, in shops or online? If you do go to bookshops, what is your favourite bookshop like?"	NA	"5.0"	"topic opening"	NA	NA	NA	39
+"2021-02-09T13:56:12+00:00+00:00+00:00"	"student009"	"student"	51	"I go to library)"	"I go to a library)"	NA	NA	NA	NA	NA	NA	4
+"2021-02-09T13:56:47+00:00+00:00+00:00"	"student009"	"student"	52	"now I am reading Student and a black hand"	"now I am reading \"A Student and a Black Hand\""	NA	NA	NA	NA	NA	NA	9
+"2021-02-09T13:57:35+00:00+00:00+00:00"	"teacher008"	"teacher"	53	"Ooh, a library is a very good option!"	"Ooh, a library is a very good option!"	NA	NA	NA	NA	NA	NA	8
+"2021-02-09T13:57:46+00:00+00:00+00:00"	"teacher008"	"teacher"	54	"I haven't heard about this book. Tell me, please!"	"I haven't heard about this book. Tell me, please!"	NA	NA	NA	NA	NA	NA	9
+"2021-02-09T13:58:41+00:00+00:00+00:00"	"student009"	"student"	55	"I only started, but it is about"	"I've just started it, but it is about"	NA	NA	NA	NA	NA	NA	7
+"2021-02-09T14:01:07+00:00+00:00+00:00"	"student009"	"student"	56	"Yura, he is in 8 grade, and in their school a lot of people get a message on a piece of paper to come to a place that Black hand would say and leave there some money OR everybode will know your secrets, but accidentaly , Yura finds there a dead body"	"Yura, he is in 8 grade, and at their school a lot of people get a message on a piece of paper to come to a place that Black Hand would name and leave there some money OR everybody will know your secrets, but accidentaly, Yura finds there a dead body"	NA	NA	NA	NA	NA	NA	52
+"2021-02-09T14:02:18+00:00+00:00+00:00"	"teacher008"	"teacher"	57	"Ooh, sounds like a thriller!"	"Ooh, sounds like a thriller!"	NA	NA	NA	NA	NA	NA	5
+"2021-02-09T14:03:11+00:00+00:00+00:00"	"teacher008"	"teacher"	58	"and a detective story, right?"	"and a detective story, right?"	NA	NA	NA	NA	NA	NA	5
+"2021-02-09T14:03:14+00:00+00:00+00:00"	"student009"	"student"	59	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:04:16+00:00+00:00+00:00"	"teacher008"	"teacher"	60	"Lovely"	"Lovely"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:04:37+00:00+00:00+00:00"	"teacher008"	"teacher"	61	"Well, speaking about bookshop, this is the situation in the UK"	"Well, speaking about bookshop, this is the situation in the UK"	NA	"5a"	"topic development,presentation"	"world knowledge,lexical resource"	NA	NA	11
+"2021-02-09T14:05:16+00:00+00:00+00:00"	"teacher008"	"teacher"	62	"Lots of people buy books online, from huge companies like Amazon. Books can be quite cheap on Amazon, and people can order from the comfort of their own homes"	"Lots of people buy books online, from huge companies like Amazon. Books can be quite cheap on Amazon, and people can order from the comfort of their own homes"	NA	NA	NA	NA	NA	NA	29
+"2021-02-09T14:06:18+00:00+00:00+00:00"	"teacher008"	"teacher"	63	"Still, some people love going to actual bookshops. Some of them are really nice, with cafes for example"	"Still, some people love going to actual bookshops. Some of them are really nice, with cafes for example"	NA	NA	NA	NA	NA	NA	18
+"2021-02-09T14:06:50+00:00+00:00+00:00"	"teacher008"	"teacher"	64	"Some bookshops also invite authors to give talks, or bands to play, or comedians"	"Some bookshops also invite authors to give talks, or bands to play, or comedians"	NA	NA	NA	NA	NA	NA	14
+"2021-02-09T14:07:31+00:00+00:00+00:00"	"teacher008"	"teacher"	65	"There are big chains of shops. If one company owns several shops around the country, this is called a chain"	"There are big chains of shops. If one company owns several shops around the country, this is called a chain"	NA	"5b"	"presentation"	"lexical resource,meaning"	NA	NA	20
+"2021-02-09T14:08:08+00:00+00:00+00:00"	"teacher008"	"teacher"	66	"Can you think of a chain shop in Ukraine? Not necessarily a bookshop. A shop that you can find in Kyiv, in Lviv, in Vinnitsa etc., and they are pretty  much the same"	"Can you think of a chain shop in Ukraine? Not necessarily a bookshop. A shop that you can find in Kyiv, in Lviv, in Vinnitsa etc., and they are pretty  much the same"	NA	NA	"eliciting"	"lexical resource"	NA	NA	34
+"2021-02-09T14:09:01+00:00+00:00+00:00"	"student009"	"student"	67	"Lviv's croissants)"	"Lviv's croissants)"	NA	NA	NA	NA	NA	NA	2
+"2021-02-09T14:09:43+00:00+00:00+00:00"	"teacher008"	"teacher"	68	"Ok, great! A cafe chain, right?"	"Ok, great! A cafe chain, right?"	NA	NA	NA	NA	NA	NA	6
+"2021-02-09T14:10:06+00:00+00:00+00:00"	"teacher008"	"teacher"	69	"Good spelling of 'croissants', well done :)"	"Good spelling of 'croissants', well done :)"	NA	NA	NA	NA	NA	NA	7
+"2021-02-09T14:10:31+00:00+00:00+00:00"	"student009"	"student"	70	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:10:53+00:00+00:00+00:00"	"teacher008"	"teacher"	71	"Yes, chains can be quite big companies too"	"Yes, chains can be quite big companies too"	NA	NA	NA	NA	NA	NA	8
+"2021-02-09T14:11:10+00:00+00:00+00:00"	"teacher008"	"teacher"	72	"Also, there are independent bookshops"	"Also, there are independent bookshops"	NA	"5c"	"presentation"	"lexical resource"	NA	NA	5
+"2021-02-09T14:11:47+00:00+00:00+00:00"	"teacher008"	"teacher"	73	"For example, one person wants to open their own bookshop business. They don't want to be part of a chain. Just their own bookshop"	"For example, one person wants to open their own bookshop business. They don't want to be part of a chain. Just their own bookshop"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	24
+"2021-02-09T14:12:19+00:00+00:00+00:00"	"teacher008"	"teacher"	74	"These independent (or 'indie') bookshops can be very interesting and even unusual"	"These independent (or 'indie') bookshops can be very interesting and even unusual"	NA	"5d"	"presentation"	"lexical resource"	NA	NA	12
+"2021-02-09T14:12:29+00:00+00:00+00:00"	"teacher008"	"teacher"	75	"or, as people say in the UK, quirky"	"or, as people say in the UK, quirky"	NA	NA	"presentation"	"lexical resource"	NA	NA	8
+"2021-02-09T14:12:41+00:00+00:00+00:00"	"teacher008"	"teacher"	76	"quirky = unusual in a nice way"	"quirky = unusual in a nice way"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	7
+"2021-02-09T14:13:10+00:00+00:00+00:00"	"teacher008"	"teacher"	77	"For example, she was wearing quirky sunglasses"	"For example, she was wearing quirky sunglasses"	NA	NA	"presentation"	"lexical resource"	NA	NA	7
+"2021-02-09T14:13:46+00:00+00:00+00:00"	"teacher008"	"teacher"	78	"Often, chain shops are pretty standard, not quirky"	"Often, chain shops are pretty standard, not quirky"	NA	NA	NA	NA	NA	NA	8
+"2021-02-09T14:14:08+00:00+00:00+00:00"	"teacher008"	"teacher"	79	"Another word for 'unusual', but in an old-fashioned way, is 'quaint'"	"Another word for 'unusual', but in an old-fashioned way, is 'quaint'"	NA	"5e"	"presentation"	"lexical resource"	NA	NA	11
+"2021-02-09T14:14:33+00:00+00:00+00:00"	"teacher008"	"teacher"	80	"The bookshop we're going to watch a video about is both quirky and quaint :)"	"The bookshop we're going to watch a video about is both quirky and quaint :)"	NA	NA	NA	NA	NA	NA	15
+"2021-02-09T14:14:43+00:00+00:00+00:00"	"teacher008"	"teacher"	81	"for example, a quaint old cottage"	"for example, a quaint old cottage"	NA	NA	"presentation"	"lexical resource"	NA	NA	6
+"2021-02-09T14:16:50+00:00+00:00+00:00"	"teacher008"	"teacher"	82	"Are you with me, <STUDENT>?"	"Are you with me, <STUDENT>?"	NA	"6.0"	"disruption"	NA	NA	NA	5
+"2021-02-09T14:17:26+00:00+00:00+00:00"	"student009"	"student"	83	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:18:43+00:00+00:00+00:00"	"teacher008"	"teacher"	84	"Cool! I'm going to send you a link to the video about an independent bookshop like this. Can you please watch it and say what problem the bookshop was facing?"	"Cool! I'm going to send you a link to the video about an independent bookshop like this. Can you please watch it and say what problem the bookshop was facing?"	NA	"7.0"	"exercise"	"listening,lexical resource"	"website"	NA	30
+"2021-02-09T14:19:18+00:00+00:00+00:00"	"student009"	"student"	85	"send it here"	"send it here"	NA	"7a"	"disruption"	NA	NA	NA	3
+"2021-02-09T14:19:35+00:00+00:00+00:00"	"student009"	"student"	86	"pls"	"pls"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:20:02+00:00+00:00+00:00"	"student009"	"student"	87	"hello&amp;"	"hello"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:20:06+00:00+00:00+00:00"	"student009"	"student"	88	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:21:00+00:00+00:00+00:00"	"teacher008"	"teacher"	90	"will you be able to copy it?"	"will you be able to copy it?"	NA	NA	NA	NA	NA	NA	7
+"2021-02-09T14:21:47+00:00+00:00+00:00"	"student009"	"student"	91	"yes, but are you sure it is correct link&amp;"	"yes, but are you sure it is the correct link?"	NA	NA	NA	NA	NA	NA	9
+"2021-02-09T14:21:50+00:00+00:00+00:00"	"student009"	"student"	92	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:22:20+00:00+00:00+00:00"	"teacher008"	"teacher"	93	"Yes, I am!"	"Yes, I am!"	NA	NA	NA	NA	NA	NA	3
+"2021-02-09T14:22:33+00:00+00:00+00:00"	"teacher008"	"teacher"	94	"The video is called 'Bookshop in a fairy-tale tweet'"	"The video is called 'Bookshop in a fairy-tale tweet'"	NA	NA	NA	NA	NA	NA	9
+"2021-02-09T14:24:28+00:00+00:00+00:00"	"student009"	"student"	96	"it doesn't work("	"it doesn't work("	NA	NA	NA	NA	NA	NA	3
+"2021-02-09T14:25:01+00:00+00:00+00:00"	"teacher008"	"teacher"	97	"Oh no! Maybe you can use the link from Skype and watch it as your homework"	"Oh no! Maybe you can use the link from Skype and watch it as your homework"	NA	NA	NA	NA	NA	NA	16
+"2021-02-09T14:25:20+00:00+00:00+00:00"	"teacher008"	"teacher"	98	"What problem do you think the bookshop might be facing?"	"What problem do you think the bookshop might be facing?"	NA	"7b"	"eliciting"	"writing,lexical resource"	NA	NA	10
+"2021-02-09T14:25:54+00:00+00:00+00:00"	"student009"	"student"	99	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:25:57+00:00+00:00+00:00"	"student009"	"student"	100	"worked"	"worked"	NA	"7c"	"exercise"	"listening"	NA	NA	1
+"2021-02-09T14:26:31+00:00+00:00+00:00"	"teacher008"	"teacher"	101	"Haha, ok, have a watch then"	"Haha, ok, have a watch then"	NA	NA	NA	NA	NA	NA	6
+"2021-02-09T14:27:32+00:00+00:00+00:00"	"student009"	"student"	102	"one day nobody came to the shop"	"one day nobody came to the shop"	NA	NA	NA	NA	NA	NA	7
+"2021-02-09T14:27:42+00:00+00:00+00:00"	"teacher008"	"teacher"	103	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:30:13+00:00+00:00+00:00"	"teacher008"	"teacher"	104	"Are you typing?"	"Are you typing?"	NA	NA	NA	NA	NA	NA	3
+"2021-02-09T14:30:40+00:00+00:00+00:00"	"student009"	"student"	105	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+"2021-02-09T14:30:49+00:00+00:00+00:00"	"student009"	"student"	106	"should i?"	"should I?"	NA	NA	NA	NA	NA	NA	2
+"2021-02-09T14:30:55+00:00+00:00+00:00"	"student009"	"student"	107	"that was the ploplem"	"that was the problem"	NA	NA	NA	NA	NA	NA	4
+"2021-02-09T14:31:07+00:00+00:00+00:00"	"student009"	"student"	108	"they earned nothing"	"they earned nothing"	NA	NA	NA	NA	NA	NA	3
+"2021-02-09T14:31:30+00:00+00:00+00:00"	"teacher008"	"teacher"	109	"No worries, I thought you were! Yes, you're right. This is the problem with this chatroom, we don't know if the other person is saying something else"	"No worries, I thought you were! Yes, you're right. This is the problem with this chatroom, we don't know if the other person is saying something else"	NA	NA	NA	NA	NA	NA	27
+"2021-02-09T14:31:48+00:00+00:00+00:00"	"teacher008"	"teacher"	110	"Yes, true! Ok, <STUDENT>, we'll continue next week (same time, right?)"	"Yes, true! Ok, <STUDENT>, we'll continue next week (same time, right?)"	NA	"8.0"	"closing"	NA	NA	NA	11
+"2021-02-09T14:31:58+00:00+00:00+00:00"	"teacher008"	"teacher"	111	"Enjoy your friend's birthday and the rest of your week!"	"Enjoy your friend's birthday and the rest of your week!"	NA	NA	NA	NA	NA	NA	10
+"2021-02-09T14:33:03+00:00+00:00+00:00"	"student009"	"student"	112	"okie, bye bye!"	"okie, bye bye!"	NA	NA	NA	NA	NA	NA	3
+"2021-02-09T14:33:07+00:00+00:00+00:00"	"teacher008"	"teacher"	113	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

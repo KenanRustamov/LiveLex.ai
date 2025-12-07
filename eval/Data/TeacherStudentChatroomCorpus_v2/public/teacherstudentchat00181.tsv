@@ -1,0 +1,118 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-01-15 13:11:13	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-01-15 13:11:15	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-01-15 13:11:24	"teacher008"	"teacher"	3	"Good to have you here - it's been a while!"	"Good to have you here - it's been a while!"	NA	NA	NA	NA	NA	NA	10
+2021-01-15 13:11:28	"teacher008"	"teacher"	4	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-01-15 13:11:45	"student009"	"student"	5	"i am fine"	"I am fine"	NA	NA	NA	NA	NA	NA	3
+2021-01-15 13:11:50	"student009"	"student"	6	"and you?"	"and you?"	NA	"2a"	"topic development"	NA	NA	NA	2
+2021-01-15 13:13:21	"teacher008"	"teacher"	7	"Good, thank you. We're under another lockdown in the UK because the corona situation has got pretty bad. They even closed schools this time, so my son is at home and we're doing homelearning with him"	"Good, thank you. We're under another lockdown in the UK because the corona situation has got pretty bad. They even closed schools this time, so my son is at home and we're doing homelearning with him"	NA	NA	NA	NA	NA	NA	36
+2021-01-15 13:13:39	"teacher008"	"teacher"	8	"We had a nice quiet Christmas but it was a shame not to be able to see friends and family!"	"We had a nice quiet Christmas but it was a shame not to be able to see friends and family!"	NA	NA	NA	NA	NA	NA	20
+2021-01-15 13:13:59	"teacher008"	"teacher"	9	"What about you? How was your holiday? And how is online schooling?"	"What about you? How was your holiday? And how is online schooling?"	NA	"2b"	"topic development"	NA	NA	NA	12
+2021-01-15 13:14:34	"student009"	"student"	10	"online is nice"	"online is nice"	NA	NA	NA	NA	NA	NA	3
+2021-01-15 13:14:39	"student009"	"student"	12	"i love it"	"I love it"	NA	NA	NA	NA	NA	NA	3
+2021-01-15 13:14:56	"teacher008"	"teacher"	13	"Yes, I remember that you prefer it, so I thought you must be pleased"	"Yes, I remember that you prefer it, so I thought you must be pleased"	NA	NA	NA	NA	NA	NA	14
+2021-01-15 13:15:03	"student009"	"student"	14	"holiday was cool, but a bit boring sometimes"	"The holiday was cool, but a bit boring sometimes"	NA	NA	NA	NA	NA	NA	8
+2021-01-15 13:16:09	"teacher008"	"teacher"	15	"What did you do on holiday"	"What did you do on holiday"	NA	NA	NA	NA	NA	NA	6
+2021-01-15 13:16:11	"teacher008"	"teacher"	16	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:16:58	"student009"	"student"	17	"I visited my grandma and my friends"	"I visited my grandma and my friends"	NA	NA	NA	NA	NA	NA	7
+2021-01-15 13:17:11	"student009"	"student"	18	"also i went shopping"	"also I went shopping"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:17:52	"teacher008"	"teacher"	19	"Sounds nice"	"Sounds nice"	NA	NA	NA	NA	NA	NA	2
+2021-01-15 13:18:42	"teacher008"	"teacher"	20	"Ok, sadly, I have weird times I can offer you for the next week. Could you have a look and say if any of them are good for you?"	"Ok, sadly, I have weird times I can offer you for the next week. Could you have a look and say if any of them are good for you?"	NA	"3.0"	"topic opening"	NA	NA	NA	29
+2021-01-15 13:19:06	"teacher008"	"teacher"	21	"I've got 10 am on Tuesday and 5.30 pm on Wednesday"	"I've got 10 am on Tuesday and 5.30 pm on Wednesday"	NA	NA	NA	NA	NA	NA	11
+2021-01-15 13:19:10	"teacher008"	"teacher"	22	"What do you think?"	"What do you think?"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:21:11	"student009"	"student"	23	"at 10 am i have my school and at 5.30pm it is my ih lesson"	"at 10 am I have my school and at 5.30 pm it is my <LANGUAGE SCHOOL> lesson"	NA	NA	NA	NA	NA	NA	15
+2021-01-15 13:21:48	"teacher008"	"teacher"	26	"Oh no, I'm sorry, we'll have to cancel classes next week again! But I'll email you about the week after, ok?"	"Oh no, I'm sorry, we'll have to cancel classes next week again! But I'll email you about the week after, ok?"	NA	NA	NA	NA	NA	NA	21
+2021-01-15 13:22:34	"student009"	"student"	27	"I hink you should better text me in skype"	"I think you should better text me in Skype"	NA	NA	NA	NA	NA	NA	9
+2021-01-15 13:22:51	"teacher008"	"teacher"	28	"Oh yes, thanks for reminding me, skype, yes"	"Oh yes, thanks for reminding me, Skype, yes"	NA	NA	NA	NA	NA	NA	8
+2021-01-15 13:23:12	"teacher008"	"teacher"	29	"Are your IH lessons online too?"	"Are your <LANGUAGE SCHOOL> lessons online too?"	NA	"4.0"	"topic opening"	NA	NA	NA	6
+2021-01-15 13:23:25	"student009"	"student"	30	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:24:04	"teacher008"	"teacher"	31	"Do you prefer them online or do you like actually going to IH?"	"Do you prefer them online or do you like actually going to <LANGUAGE SCHOOL>?"	NA	NA	NA	NA	NA	NA	13
+2021-01-15 13:24:24	"student009"	"student"	32	"I don't really care"	"I don't really care"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:24:45	"student009"	"student"	33	"like in IH they are same"	"like at <LANGUAGE SCHOOL> they are the same"	NA	NA	NA	NA	NA	NA	6
+2021-01-15 13:24:58	"teacher008"	"teacher"	34	"what do you mean?"	"what do you mean?"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:25:21	"student009"	"student"	35	"online and offline"	"online and offline"	NA	NA	NA	NA	NA	NA	3
+2021-01-15 13:25:31	"teacher008"	"teacher"	36	"Ah, I see, they are the same"	"Ah, I see, they are the same"	33	NA	"repair"	"grammatical resource"	NA	NA	7
+2021-01-15 13:26:07	"teacher008"	"teacher"	37	"Ok, I thought we could talk about one of my favourite subjects to learn about today"	"Ok, I thought we could talk about one of my favourite subjects to learn about today"	NA	"5.0"	"topic opening"	NA	NA	NA	16
+2021-01-15 13:26:23	"teacher008"	"teacher"	38	"the brain and how it works!"	"the brain and how it works!"	NA	NA	NA	NA	NA	NA	6
+2021-01-15 13:26:37	"teacher008"	"teacher"	39	"Do you like to learn about the human brain?"	"Do you like to learn about the human brain?"	NA	NA	"eliciting"	NA	NA	NA	9
+2021-01-15 13:26:44	"student009"	"student"	40	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:27:52	"teacher008"	"teacher"	41	"Maybe you've talked about it at school? or some cool stuff you read?"	"Maybe you've talked about it at school? or some cool stuff you read?"	NA	NA	"eliciting"	NA	NA	NA	13
+2021-01-15 13:28:19	"teacher008"	"teacher"	42	"I mean, I'm very excited by this subject and I like to read about the brain, listen to TED talks about it etc."	"I mean, I'm very excited by this subject and I like to read about the brain, listen to TED talks about it etc."	NA	NA	NA	NA	NA	NA	23
+2021-01-15 13:28:22	"teacher008"	"teacher"	43	"What about you?"	"What about you?"	NA	NA	NA	NA	NA	NA	3
+2021-01-15 13:29:08	"student009"	"student"	44	"i remember a paragraph about our brain from our english book from last year"	"I remember a paragraph about our brain from our English book from last year"	NA	NA	NA	NA	NA	NA	14
+2021-01-15 13:29:28	"teacher008"	"teacher"	46	"Ok, what did it say?"	"Ok, what did it say?"	NA	NA	NA	NA	NA	NA	5
+2021-01-15 13:30:00	"student009"	"student"	47	"i don't really remember)"	"I don't really remember)"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:30:11	"teacher008"	"teacher"	48	"Fair enough :)"	"Fair enough :)"	NA	NA	NA	NA	NA	NA	3
+2021-01-15 13:30:41	"teacher008"	"teacher"	49	"Ok, you know that a brain grows and develops. At what age do you thing the brain is fully formed?"	"Ok, you know that a brain grows and develops. At what age do you thing the brain is fully formed?"	NA	"5a"	"topic development"	NA	NA	NA	20
+2021-01-15 13:31:11	"student009"	"student"	50	"about 18"	"about 18"	NA	NA	NA	NA	NA	NA	2
+2021-01-15 13:31:41	"student009"	"student"	51	"that's why we can go to off-lisence shops at this age"	"that's why we can go to off-licence shops at this age"	NA	NA	NA	NA	NA	NA	11
+2021-01-15 13:31:47	"student009"	"student"	52	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:31:51	"teacher008"	"teacher"	55	"Hahaha)))))"	"Hahaha)))))"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:32:02	"teacher008"	"teacher"	56	"The brain is fully formed, that's it, start drinking!"	"The brain is fully formed, that's it, start drinking!"	NA	NA	NA	NA	NA	NA	9
+2021-01-15 13:32:26	"teacher008"	"teacher"	57	"So you think yours is still in the process of developing?"	"So you think yours is still in the process of developing?"	NA	NA	NA	NA	NA	NA	11
+2021-01-15 13:32:54	"student009"	"student"	58	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:33:09	"teacher008"	"teacher"	59	"Oh goodness, it's your birthday very soon, isn't it?"	"Oh goodness, it's your birthday very soon, isn't it?"	NA	"5b"	"topic development"	NA	NA	NA	9
+2021-01-15 13:33:34	"student009"	"student"	60	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:33:45	"teacher008"	"teacher"	61	"Yaay! How old will you be? 14?"	"Yaay! How old will you be? <AGE>?"	NA	NA	NA	NA	NA	NA	7
+2021-01-15 13:33:47	"student009"	"student"	62	"how do you know?)"	"how do you know?)"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:34:14	"teacher008"	"teacher"	63	"You told me before"	"You told me before"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:34:37	"student009"	"student"	64	"13.0"	"<AGE>"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:35:56	"teacher008"	"teacher"	65	"Oh, you're 12 now? I thought you were 13 :)"	"Oh, you're <AGE> now? I thought you were <AGE> :)"	NA	NA	NA	NA	NA	NA	10
+2021-01-15 13:36:06	"teacher008"	"teacher"	66	"Are you excited about your birthday?"	"Are you excited about your birthday?"	NA	NA	NA	NA	NA	NA	6
+2021-01-15 13:37:08	"student009"	"student"	67	"not really"	"not really"	NA	NA	NA	NA	NA	NA	2
+2021-01-15 13:37:15	"teacher008"	"teacher"	68	"Why not?"	"Why not?"	NA	NA	NA	NA	NA	NA	2
+2021-01-15 13:37:17	"student009"	"student"	69	"because of the lockdown"	"because of the lockdown"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:37:35	"teacher008"	"teacher"	71	"Ok, can you give me a nice big sentence, please?"	"Ok, can you give me a nice big sentence, please?"	NA	NA	"eliciting"	"writing"	NA	NA	10
+2021-01-15 13:38:08	"student009"	"student"	72	"I am not excited about my birthday because of the lockdown"	"I am not excited about my birthday because of the lockdown"	NA	NA	NA	NA	NA	NA	11
+2021-01-15 13:39:04	"teacher008"	"teacher"	73	"I see, what a shame. I hope you will still have some fun!"	"I see, what a shame. I hope you will still have some fun!"	NA	NA	NA	NA	NA	NA	13
+2021-01-15 13:39:13	"teacher008"	"teacher"	74	"You're becoming a real teenager!"	"You're becoming a real teenager!"	NA	NA	NA	NA	NA	NA	5
+2021-01-15 13:39:19	"student009"	"student"	75	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-01-15 13:39:52	"teacher008"	"teacher"	76	"Do you think teenagers are different from adults? and younger children? In terms of how their brains work"	"Do you think teenagers are different from adults? and younger children? In terms of how their brains work"	NA	"5c"	"topic development"	NA	NA	NA	18
+2021-01-15 13:42:41	"student009"	"student"	77	"I think yes, because teenagwrs are not children anymore, but they are not adults, and people sometimes think about them like about children and sometimes like about adults"	"I think yes, because teenagers are not children anymore, but they are not adults, and people sometimes think about them as children and sometimes as adults"	NA	NA	NA	NA	NA	NA	28
+2021-01-15 13:43:10	"teacher008"	"teacher"	78	"Yes, it's an interesting time in-between, you're right!"	"Yes, it's an interesting time in-between, you're right!"	NA	NA	NA	NA	NA	NA	8
+2021-01-15 13:43:43	"teacher008"	"teacher"	79	"The video (a cartoon) I prepared for you today is on how a teenager's brain is different"	"The video (a cartoon) I prepared for you today is on how a teenager's brain is different"	NA	"6.0"	"exercise"	"listening,reading"	NA	NA	17
+2021-01-15 13:43:58	"teacher008"	"teacher"	80	"Just a bit of vocabulary before we start"	"Just a bit of vocabulary before we start"	NA	"6a"	"presentation"	"lexical resource"	NA	NA	8
+2021-01-15 13:44:25	"teacher008"	"teacher"	81	"the science of the brain and the nervous system is called..."	"the science of the brain and the nervous system is called..."	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	11
+2021-01-15 13:44:29	"teacher008"	"teacher"	82	"neuroscience"	"neuroscience"	NA	NA	"presentation"	"lexical resource"	NA	NA	1
+2021-01-15 13:44:45	"teacher008"	"teacher"	83	"ˌnjʊə.rəʊˈsaɪəns"	"ˌnjʊə.rəʊˈsaɪəns"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	1
+2021-01-15 13:45:04	"teacher008"	"teacher"	84	"Ok?"	"Ok?"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:45:38	"teacher008"	"teacher"	85	"Which school subject do you think you will have bits of neuroscience in?"	"Which school subject do you think you will have bits of neuroscience in?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	13
+2021-01-15 13:45:56	"student009"	"student"	86	"biology"	"biology"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:46:12	"teacher008"	"teacher"	87	"Exactly, it's part of human biology"	"Exactly, it's part of human biology"	NA	NA	NA	NA	NA	NA	6
+2021-01-15 13:46:22	"teacher008"	"teacher"	88	"and psychology!"	"and psychology!"	NA	NA	NA	NA	NA	NA	2
+2021-01-15 13:47:26	"teacher008"	"teacher"	89	"Ok, and you know the brain has two parts? like two halves"	"Ok, and you know the brain has two parts? like two halves"	NA	"6b"	"presentation"	"lexical resource,meaning"	NA	NA	12
+2021-01-15 13:47:35	"teacher008"	"teacher"	90	"These two halves are called hemispheres"	"These two halves are called hemispheres"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	6
+2021-01-15 13:50:18	"student009"	"student"	91	"hi"	"hi"	NA	"7.0"	"disruption"	NA	NA	NA	1
+2021-01-15 13:50:23	"student009"	"student"	92	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:50:30	"teacher008"	"teacher"	93	"Hi <STUDENT>, connection problems?"	"Hi <STUDENT>, connection problems?"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:50:33	"student009"	"student"	94	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:50:38	"student009"	"student"	95	"I am okay now"	"I am okay now"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:51:09	"teacher008"	"teacher"	96	"Ok, sure"	"Ok, sure"	NA	NA	NA	NA	NA	NA	2
+2021-01-15 13:51:32	"teacher008"	"teacher"	97	"Our brains have two hemispheres, the right one and the left one"	"Our brains have two hemispheres, the right one and the left one"	90	NA	"presentation"	"lexical resource"	NA	NA	12
+2021-01-15 13:51:44	"teacher008"	"teacher"	98	"And another thing that has hemispheres is our planet!"	"And another thing that has hemispheres is our planet!"	NA	NA	"presentation"	"lexical resource"	NA	NA	9
+2021-01-15 13:51:55	"teacher008"	"teacher"	99	"The Northern one and the ....?"	"The Northern one and the ....?"	NA	NA	NA	NA	NA	NA	6
+2021-01-15 13:52:14	"student009"	"student"	100	"Southern"	"Southern"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:52:20	"teacher008"	"teacher"	101	"exactly"	"exactly"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:52:43	"teacher008"	"teacher"	102	"And also, brains are divided into smaller parts called lobes"	"And also, brains are divided into smaller parts called lobes"	NA	"6c"	"presentation"	"lexical resource,meaning"	NA	NA	10
+2021-01-15 13:53:02	"teacher008"	"teacher"	103	"for example, a frontal lobe is at the front of the brain, behind our foreheads"	"for example, a frontal lobe is at the front of the brain, behind our foreheads"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	15
+2021-01-15 13:54:09	"teacher008"	"teacher"	104	"Ok, and the last word is 'to evolve'"	"Ok, and the last word is 'to evolve'"	NA	"6d"	"presentation"	"lexical resource,meaning"	NA	NA	8
+2021-01-15 13:54:15	"teacher008"	"teacher"	105	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:54:47	"teacher008"	"teacher"	106	"for example, scientists believe that humans evolved from primates"	"for example, scientists believe that humans evolved from primates"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	9
+2021-01-15 13:55:02	"teacher008"	"teacher"	107	"and I bet you know the noun for 'evolve'??"	"and I bet you know the noun for 'evolve'??"	NA	NA	"eliciting"	"lexical resource"	NA	NA	9
+2021-01-15 13:55:39	"student009"	"student"	108	"evolution"	"evolution"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:56:08	"teacher008"	"teacher"	109	"absolutely"	"absolutely"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:56:35	"teacher008"	"teacher"	110	"Ok, I'm goint to send you a link to the video on skype. Can you watch and say how a teenager's brain is different, please?"	"Ok, I'm goint to send you a link to the video on skype. Can you watch and say how a teenager's brain is different, please?"	NA	"6e"	"exercise"	"listening"	NA	NA	25
+2021-01-15 13:56:47	"student009"	"student"	111	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:57:56	"student009"	"student"	112	"this content isn't available in my region"	"this content isn't available in my region"	NA	NA	NA	NA	NA	NA	7
+2021-01-15 13:58:06	"student009"	"student"	113	"i can read transcript"	"I can read the transcript"	NA	NA	NA	NA	NA	NA	4
+2021-01-15 13:59:19	"student009"	"student"	114	"hey?"	"hey?"	NA	NA	NA	NA	NA	NA	1
+2021-01-15 13:59:23	"teacher008"	"teacher"	115	"Oh no, what a shame! Yes please, can you read the transcript?"	"Oh no, what a shame! Yes please, can you read the transcript?"	NA	"6f"	"exercise"	"reading"	NA	NA	12
+2021-01-15 14:06:10	"student009"	"student"	116	"the frontal lobe in teenafers brains isn't fully developed and they also have a high level of dopamin"	"the frontal lobe in teenagers' brains isn't fully developed and they also have a high level of dopamine"	NA	NA	NA	NA	NA	NA	18
+2021-01-15 14:06:17	"student009"	"student"	117	"e"	"e"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-01-15 14:06:30	"teacher008"	"teacher"	118	"Yes, what does it mean in terms of how they experience life?"	"Yes, what does it mean in terms of how they experience life?"	NA	NA	NA	NA	NA	NA	12
+2021-01-15 14:07:59	"student009"	"student"	119	"sometimes teenagers can feel out of control and because of Dopamine motivates us to do things, to feel interested in life, to seek out new experiences"	"Sometimes teenagers can feel out of control. Dopamine motivates us to do things, to feel interested in life, to seek out new experiences"	NA	NA	NA	NA	NA	NA	26
+2021-01-15 14:08:39	"teacher008"	"teacher"	120	"Yes, great! It's definitely a time to feel big emotions and do new things!"	"Yes, great! It's definitely a time to feel big emotions and do new things!"	NA	NA	NA	NA	NA	NA	14
+2021-01-15 14:09:09	"teacher008"	"teacher"	121	"Ok, lovely! I hope you will have a great birthday even though you can't see your friends!"	"Ok, lovely! I hope you will have a great birthday even though you can't see your friends!"	NA	"7.0"	"closing"	NA	NA	NA	17
+2021-01-15 14:09:25	"teacher008"	"teacher"	122	"And I'll message you about our next class"	"And I'll message you about our next class"	NA	NA	NA	NA	NA	NA	8
+2021-01-15 14:09:38	"student009"	"student"	123	"okay, thank you for thw lwsson, bye!"	"okay, thank you for the lesson, bye!"	NA	NA	NA	NA	NA	NA	7
+2021-01-15 14:09:52	"teacher008"	"teacher"	124	"Bye <STUDENT> :)"	"Bye <STUDENT> :)"	NA	NA	NA	NA	NA	"B2"	3

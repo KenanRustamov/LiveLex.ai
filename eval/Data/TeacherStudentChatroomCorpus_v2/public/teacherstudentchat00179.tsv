@@ -1,0 +1,169 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-01-14 13:30:01	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-01-14 13:30:13	"student015"	"student"	2	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	NA	NA	NA	NA	NA	2
+2021-01-14 13:30:35	"teacher008"	"teacher"	3	"How's it going?"	"How's it going?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-01-14 13:31:04	"student015"	"student"	4	"I'm fine."	"I'm fine."	NA	NA	NA	NA	NA	NA	2
+2021-01-14 13:31:22	"student015"	"student"	5	"I'm still in Beijing now."	"I'm still in Beijing now."	NA	NA	NA	NA	NA	NA	5
+2021-01-14 13:31:56	"teacher008"	"teacher"	6	"Have you heard anything from Fudan university? Is there any progress with your application?"	"Have you heard anything from Fudan university? Is there any progress with your application?"	NA	"2a"	"topic development"	NA	NA	NA	14
+2021-01-14 13:33:01	"student015"	"student"	7	"For the RA, six months are too short, so I can not go to Fudan now."	"For the RA, six months are not enough, so I cannot go to Fudan now."	NA	NA	NA	NA	NA	NA	16
+2021-01-14 13:33:54	"teacher008"	"teacher"	8	"Oh no, I'm sorry to hear that! Are you disappointed?"	"Oh no, I'm sorry to hear that! Are you disappointed?"	NA	NA	NA	NA	NA	NA	10
+2021-01-14 13:34:18	"student015"	"student"	9	"Yes. A little."	"Yes. A little."	NA	NA	NA	NA	NA	NA	3
+2021-01-14 13:34:36	"student015"	"student"	10	"I need to wait the official enrolment."	"I need to wait for the official enrolment."	NA	NA	NA	NA	NA	NA	7
+2021-01-14 13:34:39	"teacher008"	"teacher"	11	"Oh, I'm sorry! Does it mean you're not moving to Shanghai at all?"	"Oh, I'm sorry! Does it mean you're not moving to Shanghai at all?"	NA	NA	NA	NA	NA	NA	13
+2021-01-14 13:34:44	"teacher008"	"teacher"	12	"I see!"	"I see!"	10	NA	NA	NA	NA	NA	2
+2021-01-14 13:36:28	"student015"	"student"	13	"I will wait until September"	"I will wait until September"	11	NA	NA	NA	NA	NA	5
+2021-01-14 13:37:32	"teacher008"	"teacher"	14	"Ah, I hope it'll work out for you in September!"	"Ah, I hope it'll work out for you in September!"	NA	NA	NA	NA	NA	NA	10
+2021-01-14 13:37:47	"student015"	"student"	15	"But the impact of the pendemic is aloso more serious in China."	"But the impact of the pandemic is also more serious in China."	NA	"2b"	"topic development"	NA	NA	NA	12
+2021-01-14 13:37:53	"student015"	"student"	16	"Thanks."	"Thanks."	14	NA	NA	NA	NA	NA	1
+2021-01-14 13:38:11	"teacher008"	"teacher"	17	"Yes, I've read that there are more cases in China now"	"Yes, I've read that there are more cases in China now"	15	NA	NA	NA	NA	NA	11
+2021-01-14 13:39:25	"teacher008"	"teacher"	18	"Are there more restrictions in place? Do people have to wear masks again?"	"Are there more restrictions in place? Do people have to wear masks again?"	NA	NA	NA	NA	NA	NA	13
+2021-01-14 13:39:36	"student015"	"student"	19	"Yes, my hometown is a little serious, so the government lockdown again."	"Yes, the situation in my hometown is a little serious, so the government imposed a lockdown again."	17	NA	NA	NA	NA	NA	12
+2021-01-14 13:40:12	"student015"	"student"	20	"We always wear masks"	"We always wear masks"	18	NA	NA	NA	NA	NA	4
+2021-01-14 13:40:40	"student015"	"student"	21	"If you don’t wear mask, you can’t go to the subway."	"If you don’t wear a mask, you can’t go on the subway."	NA	NA	NA	NA	NA	NA	11
+2021-01-14 13:41:09	"teacher008"	"teacher"	22	"I see! Have you had to wear masks since the beginning of the pandemic?"	"I see! Have you had to wear masks since the beginning of the pandemic?"	NA	NA	NA	NA	NA	NA	14
+2021-01-14 13:43:20	"teacher008"	"teacher"	23	"oh no, are we having connection problems again?"	"oh no, are we having connection problems again?"	NA	"3.0"	"disruption"	NA	NA	NA	8
+2021-01-14 13:44:21	"student015"	"student"	24	"Yes, we must wear masks in public places in China."	"Yes, we must wear masks in public places in China."	22	NA	NA	NA	NA	NA	10
+2021-01-14 13:44:51	"student015"	"student"	25	"I couldn’t send messages just before."	"I couldn’t send messages just before."	23	NA	NA	NA	NA	NA	6
+2021-01-14 13:45:37	"teacher008"	"teacher"	26	"Yes, I realized that. I hope it'll be working!"	"Yes, I realized that. I hope it'll be working!"	NA	NA	NA	NA	NA	NA	9
+2021-01-14 13:45:59	"teacher008"	"teacher"	27	"Ok, shall we do a bit of B2 exam practice?"	"Ok, shall we do a bit of B2 exam practice?"	NA	"4.0"	"exercise"	"grammatical resource"	NA	NA	10
+2021-01-14 13:46:16	"student015"	"student"	28	"OK. It's great, thanks."	"OK. It's great, thanks."	NA	NA	NA	NA	NA	NA	4
+2021-01-14 13:46:46	"teacher008"	"teacher"	29	"Lovely. I've prepared some key word transformation for you today."	"Lovely. I've prepared some key word transformation for you today."	NA	NA	NA	NA	NA	NA	10
+2021-01-14 13:47:07	"teacher008"	"teacher"	30	"As you probably remember, you have an original sentence and a sentence you need to change it into using a key word"	"As you probably remember, you have an original sentence and a sentence you need to change it into using a key word"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	22
+2021-01-14 13:47:15	"teacher008"	"teacher"	31	"You can't change the key word"	"You can't change the key word"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-01-14 13:47:38	"teacher008"	"teacher"	32	"And the meaning should be as close to the original sentence as possible"	"And the meaning should be as close to the original sentence as possible"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2021-01-14 13:47:56	"student015"	"student"	33	"Can you give me an example?"	"Can you give me an example?"	NA	"4a"	"enquiry"	"grammatical resource"	NA	NA	6
+2021-01-14 13:47:58	"teacher008"	"teacher"	34	"For example, your original sentence is"	"For example, your original sentence is"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-01-14 13:48:07	"teacher008"	"teacher"	35	"It's been six months since I last saw Dan."	"It's been six months since I last saw Dan."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2021-01-14 13:48:23	"teacher008"	"teacher"	36	"the key word is 'seen'"	"the key word is 'seen'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2021-01-14 13:48:38	"teacher008"	"teacher"	37	"I _______ seen Dan for over six months."	"I _______ seen Dan for over six months."	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+2021-01-14 13:48:39	"student015"	"student"	38	"I haven’t see Dan six months."	"I haven’t seen Dan for over six months."	NA	NA	NA	NA	NA	NA	6
+2021-01-14 13:48:54	"teacher008"	"teacher"	39	"You can use 2-5 words"	"You can use 2-5 words"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 13:48:59	"student015"	"student"	40	"have"	"have"	NA	NA	NA	NA	NA	NA	1
+2021-01-14 13:49:27	"student015"	"student"	41	"sorry, let me see."	"sorry, let me see."	NA	NA	NA	NA	NA	NA	4
+2021-01-14 13:49:30	"teacher008"	"teacher"	42	"No, you're right! I haven't seen Dan for over six months"	"No, you're right! I haven't seen Dan for over six months"	NA	NA	NA	NA	NA	NA	11
+2021-01-14 13:49:47	"teacher008"	"teacher"	43	"Sorry, I've made a mistake! I ________ Dan for over six months."	"Sorry, I've made a mistake! I ________ Dan for over six months."	37	NA	"repair"	NA	NA	NA	12
+2021-01-14 13:49:47	"student015"	"student"	44	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 13:50:07	"teacher008"	"teacher"	45	"Sorry, ok, next one!"	"Sorry, ok, next one!"	NA	"4b"	"exercise"	"grammatical resource"	NA	NA	4
+2021-01-14 13:50:09	"teacher008"	"teacher"	46	"John is interested in knowing more about astronomy"	"John is interested in knowing more about astronomy"	NA	NA	NA	NA	NA	NA	8
+2021-01-14 13:50:15	"teacher008"	"teacher"	47	"The key word is: like"	"The key word is: like"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 13:50:29	"teacher008"	"teacher"	48	"John ________ more about astronomy."	"John ________ more about astronomy."	NA	NA	NA	NA	NA	NA	5
+2021-01-14 13:50:44	"student015"	"student"	49	"would like to know"	"would like to know"	NA	NA	NA	NA	NA	NA	4
+2021-01-14 13:50:52	"teacher008"	"teacher"	50	"Yes, perfect!"	"Yes, perfect!"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 13:51:16	"teacher008"	"teacher"	51	"Ok, could you give me a synonym for arrive? It's a phrasal verb that starts with 'turn'"	"Ok, could you give me a synonym for arrive? It's a phrasal verb that starts with 'turn'"	NA	"4c"	"eliciting"	"lexical resource"	NA	NA	17
+2021-01-14 13:51:53	"teacher008"	"teacher"	52	"arrive = turn ___"	"arrive = turn ___"	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+2021-01-14 13:51:57	"student015"	"student"	53	"turn to"	"turn up"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 13:52:07	"teacher008"	"teacher"	54	"turn up"	"turn up"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+2021-01-14 13:52:11	"student015"	"student"	55	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 13:52:16	"teacher008"	"teacher"	56	"arrive at the party = turn up at the party"	"arrive at the party = turn up at the party"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-01-14 13:52:25	"teacher008"	"teacher"	57	"Marian only arrived at the party at 9 o'clock, so her friends were a bit annoyed."	"Marian only arrived at the party at 9 o'clock, so her friends were a bit annoyed."	NA	NA	NA	NA	NA	NA	16
+2021-01-14 13:52:30	"teacher008"	"teacher"	58	"The key word is: turn"	"The key word is: turn"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 13:52:48	"teacher008"	"teacher"	59	"Marian _____ at the party until 9 o'clock, so her friends were a bit annoyed."	"Marian _____ at the party until 9 o'clock, so her friends were a bit annoyed."	NA	NA	NA	NA	NA	NA	15
+2021-01-14 13:53:39	"student015"	"student"	60	"turned up"	"turned up"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 13:53:49	"student015"	"student"	61	"turned up at the party?"	"turned up at the party?"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 13:54:26	"student015"	"student"	62	"wait"	"wait"	NA	NA	NA	NA	NA	NA	1
+2021-01-14 13:54:27	"teacher008"	"teacher"	63	"Ah, this is a tricky one. The structure we often use is 'negative + until'"	"Ah, this is a tricky one. The structure we often use is 'negative + until'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2021-01-14 13:54:35	"teacher008"	"teacher"	65	"Yes, sure"	"Yes, sure"	62	NA	NA	NA	NA	NA	2
+2021-01-14 13:55:02	"student015"	"student"	66	"haven't turned up"	"hasn't turned up"	63	NA	NA	NA	NA	NA	3
+2021-01-14 13:55:13	"student015"	"student"	67	"hasn't turned up"	"hasn't turned up"	NA	NA	"repair"	"grammatical resource"	NA	NA	3
+2021-01-14 13:55:13	"teacher008"	"teacher"	68	"Nearly! You need past simple"	"Nearly! You need past simple"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	5
+2021-01-14 13:56:16	"student015"	"student"	69	"didn't turn up"	"didn't turn up"	NA	NA	NA	NA	NA	NA	3
+2021-01-14 13:56:35	"teacher008"	"teacher"	70	"Yes, you've got it :)"	"Yes, you've got it :)"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 13:56:51	"teacher008"	"teacher"	71	"Some examples of 'negative + until'"	"Some examples of 'negative + until'"	NA	"4d"	"scaffolding"	"grammatical resource"	NA	NA	6
+2021-01-14 13:57:07	"teacher008"	"teacher"	72	"I didn't have my first coffee until lunchtime"	"I didn't have my first coffee until lunchtime"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2021-01-14 13:57:26	"teacher008"	"teacher"	73	"This writer didn't write his first novel until he was in his forties"	"This writer didn't write his first novel until he was in his forties"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2021-01-14 13:57:56	"teacher008"	"teacher"	74	"I can't see my friends until the end of the lockdown"	"I can't see my friends until the end of the lockdown"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2021-01-14 13:58:06	"teacher008"	"teacher"	75	"Could you give me an example too, please?"	"Could you give me an example too, please?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+2021-01-14 13:58:13	"student015"	"student"	76	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 13:59:24	"student015"	"student"	77	"I can't watch the football game until this Saturday."	"I can't watch the football game until this Saturday."	NA	NA	NA	NA	NA	NA	9
+2021-01-14 13:59:44	"teacher008"	"teacher"	78	"Yes, good example, thank you!"	"Yes, good example, thank you!"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 14:00:11	"teacher008"	"teacher"	79	"Ok, next sentence"	"Ok, next sentence"	NA	"4e"	"exercise"	"grammatical resource"	NA	NA	3
+2021-01-14 14:00:33	"teacher008"	"teacher"	80	"Advance payment isn't necessary for attendance at school clubs"	"Advance payment isn't necessary for attendance at school clubs"	NA	NA	NA	NA	NA	NA	9
+2021-01-14 14:00:47	"teacher008"	"teacher"	81	"Do you know the expression 'advance payment'?"	"Do you know the expression 'advance payment'?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	7
+2021-01-14 14:00:56	"student015"	"student"	82	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:01:58	"teacher008"	"teacher"	83	"OK, cool. The key word is: in"	"OK, cool. The key word is: in"	NA	NA	NA	NA	NA	NA	7
+2021-01-14 14:02:09	"student015"	"student"	84	"Advance payment means you need to pay before you use something."	"Advance payment means you need to pay before you use something."	82	NA	NA	NA	NA	NA	11
+2021-01-14 14:02:13	"student015"	"student"	85	"OK."	"OK."	83	NA	NA	NA	NA	NA	1
+2021-01-14 14:02:14	"teacher008"	"teacher"	86	"You don't need _____ to attend school clubs"	"You don't need _____ to attend school clubs"	NA	NA	NA	NA	NA	NA	8
+2021-01-14 14:02:19	"teacher008"	"teacher"	87	"Yes, exactly right"	"Yes, exactly right"	84	NA	NA	NA	NA	NA	3
+2021-01-14 14:02:39	"student015"	"student"	88	"pay in advance"	"pay in advance"	NA	NA	NA	NA	NA	NA	3
+2021-01-14 14:02:49	"student015"	"student"	89	"to pay in advance"	"to pay in advance"	NA	NA	"repair"	"grammatical resource"	NA	NA	4
+2021-01-14 14:03:00	"teacher008"	"teacher"	90	"absolutely, to pay in advance"	"absolutely, to pay in advance"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 14:03:57	"teacher008"	"teacher"	91	"This is probably the hardest task in B2 Use of English, and you would get two points for each sentence. For something like 'pay in advance' you would get one point. It's the correct expression but there's a mistake. And 'to pay in advance' would be two points :)"	"This is probably the hardest task in B2 Use of English, and you would get two points for each sentence. For something like 'pay in advance' you would get one point. It's the correct expression but there's a mistake. And 'to pay in advance' would be two points :)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	49
+2021-01-14 14:04:34	"teacher008"	"teacher"	92	"I only went to see that film because you told me how good it was"	"I only went to see that film because you told me how good it was"	NA	"4f"	"exercise"	"grammatical resource"	NA	NA	15
+2021-01-14 14:04:43	"teacher008"	"teacher"	93	"the key word is: have"	"the key word is: have"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 14:05:13	"teacher008"	"teacher"	94	"I ________ to see this film if you hadn't told me how good it was."	"I ________ to see this film if you hadn't told me how good it was."	NA	NA	NA	NA	NA	NA	15
+2021-01-14 14:07:03	"student015"	"student"	95	"Sorry. I don’t know."	"Sorry. I don’t know."	NA	NA	NA	NA	NA	NA	4
+2021-01-14 14:07:34	"teacher008"	"teacher"	96	"No worries, we will come back to it in a minute, ok?"	"No worries, we will come back to it in a minute, ok?"	NA	NA	NA	NA	NA	NA	12
+2021-01-14 14:07:41	"teacher008"	"teacher"	97	"One last sentence to transform"	"One last sentence to transform"	NA	"4g"	"exercise"	"grammatical resource"	NA	NA	5
+2021-01-14 14:07:47	"student015"	"student"	98	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:08:08	"teacher008"	"teacher"	99	"I'm afraid these jeans have a hole in them"	"I'm afraid these jeans have a hole in them"	NA	NA	NA	NA	NA	NA	9
+2021-01-14 14:08:19	"teacher008"	"teacher"	100	"key word: there"	"key word: there"	NA	NA	NA	NA	NA	NA	3
+2021-01-14 14:08:34	"teacher008"	"teacher"	101	"I'm afraid that ________ these jeans."	"I'm afraid that ________ these jeans."	NA	NA	NA	NA	NA	NA	6
+2021-01-14 14:08:49	"student015"	"student"	102	"there is a hole in"	"there is a hole in"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 14:09:09	"teacher008"	"teacher"	104	"Yes, perfect!"	"Yes, perfect!"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:09:33	"teacher008"	"teacher"	105	"Ok, a bit of grammar in this case!"	"Ok, a bit of grammar in this case!"	NA	"5.0"	"presentation"	"grammatical resource"	NA	NA	8
+2021-01-14 14:10:08	"teacher008"	"teacher"	106	"You probably remember that I lived in China for year"	"You probably remember that I lived in China for year"	NA	NA	NA	NA	NA	NA	10
+2021-01-14 14:10:20	"teacher008"	"teacher"	107	"When I lived there, I learned to use chopsticks."	"When I lived there, I learned to use chopsticks."	NA	NA	NA	NA	NA	NA	9
+2021-01-14 14:10:39	"student015"	"student"	108	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:10:51	"student015"	"student"	109	"It's great."	"It's great."	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:10:54	"teacher008"	"teacher"	111	"But I only learned because I lived in China! If this was not the case, I wouldn't know how to use chopsticks"	"But I only learned because I lived in China! If this was not the case, I wouldn't know how to use chopsticks"	NA	NA	NA	NA	NA	NA	22
+2021-01-14 14:11:10	"teacher008"	"teacher"	112	"Thank you, I'm not nearly as good with chopsticks as you probably are :)"	"Thank you, I'm not nearly as good with chopsticks as you probably are :)"	109	NA	NA	NA	NA	NA	14
+2021-01-14 14:11:29	"student015"	"student"	113	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:11:39	"teacher008"	"teacher"	114	"I lived in China 5 years ago. This is a situation in the past"	"I lived in China 5 years ago. This is a situation in the past"	NA	NA	NA	NA	NA	NA	14
+2021-01-14 14:12:05	"teacher008"	"teacher"	115	"If I hadn't lived in China, I wouldn't have learned to use chopsticks!"	"If I hadn't lived in China, I wouldn't have learned to use chopsticks!"	NA	NA	"presentation"	"grammatical resource"	NA	NA	13
+2021-01-14 14:12:38	"teacher008"	"teacher"	116	"But I did live in China! If we want to talk about an imaginary, unreal situation in the past, we use this structure"	"But I did live in China! If we want to talk about an imaginary, unreal situation in the past, we use this structure"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	23
+2021-01-14 14:13:03	"teacher008"	"teacher"	117	"If + had + past participle, would + have + past participle"	"If + had + past participle, would + have + past participle"	NA	NA	"presentation"	"grammatical resource"	NA	NA	12
+2021-01-14 14:13:36	"teacher008"	"teacher"	118	"The past participle is the third form of the verb (shopped, lifted, written, run etc.)"	"The past participle is the third form of the verb (shopped, lifted, written, run etc.)"	NA	NA	"presentation"	"grammatical resource"	NA	NA	15
+2021-01-14 14:13:36	"student015"	"student"	119	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:14:22	"teacher008"	"teacher"	121	"If I hadn't lived in China, I wouldn't have seen the beautiful lake in Hanzhou"	"If I hadn't lived in China, I wouldn't have seen the beautiful lake in Hanzhou"	NA	NA	"presentation"	"grammatical resource"	NA	NA	15
+2021-01-14 14:14:39	"teacher008"	"teacher"	122	"But I did! I'm talking about an unreal situation, in the past"	"But I did! I'm talking about an unreal situation, in the past"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	12
+2021-01-14 14:15:06	"teacher008"	"teacher"	123	"If I had been to New York, I would have gone to see a play on Broadway."	"If I had been to New York, I would have gone to see a play on Broadway."	NA	NA	"presentation"	"grammatical resource"	NA	NA	17
+2021-01-14 14:15:14	"teacher008"	"teacher"	124	"Have I ever been to New York?"	"Have I ever been to New York?"	NA	NA	"eliciting"	"grammatical resource,meaning"	NA	NA	7
+2021-01-14 14:15:49	"student015"	"student"	125	"No."	"No."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:16:11	"teacher008"	"teacher"	126	"Correct! And I haven't seen a play on Broadway"	"Correct! And I haven't seen a play on Broadway"	NA	NA	NA	NA	NA	NA	9
+2021-01-14 14:16:20	"teacher008"	"teacher"	127	"But if I had, I would have :)"	"But if I had, I would have :)"	NA	NA	NA	NA	NA	NA	8
+2021-01-14 14:16:33	"teacher008"	"teacher"	128	"Ok, have you ever been to the UK?"	"Ok, have you ever been to the UK?"	NA	"5a"	"eliciting"	"grammatical resource"	NA	NA	8
+2021-01-14 14:18:02	"student015"	"student"	129	"If I had been to the UK, I would have seen a match in Liverpool."	"If I had been to the UK, I would have seen a match in Liverpool."	NA	NA	NA	NA	NA	NA	15
+2021-01-14 14:18:19	"teacher008"	"teacher"	130	"Haha, yes! Excellent example!"	"Haha, yes! Excellent example!"	NA	NA	NA	NA	NA	NA	4
+2021-01-14 14:19:10	"teacher008"	"teacher"	131	"Ok, let's go back to our sentence transformation"	"Ok, let's go back to our sentence transformation"	NA	"6.0"	"exercise,exercise"	"grammatical resource,grammatical resource"	NA	NA	8
+2021-01-14 14:19:12	"teacher008"	"teacher"	132	"I only went to see that film because you told me how good it was."	"I only went to see that film because you told me how good it was."	NA	NA	NA	NA	NA	NA	15
+2021-01-14 14:19:32	"teacher008"	"teacher"	133	"I ________ to see that film if you hadn't told me how good it was."	"I ________ to see that film if you hadn't told me how good it was."	NA	NA	NA	NA	NA	NA	15
+2021-01-14 14:19:37	"teacher008"	"teacher"	134	"the key word is have"	"the key word is have"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 14:20:09	"student015"	"student"	135	"would have not"	"would have not"	NA	NA	NA	NA	NA	NA	3
+2021-01-14 14:21:13	"teacher008"	"teacher"	136	"ah, you just need the verb there. would have not ??"	"ah, you just need the verb there. would have not ??"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2021-01-14 14:21:57	"student015"	"student"	137	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:22:14	"student015"	"student"	138	"have not"	"have not"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:22:16	"teacher008"	"teacher"	139	"the verb in the original sentence is 'went', so you need...."	"the verb in the original sentence is 'went', so you need...."	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2021-01-14 14:22:22	"student015"	"student"	140	"had not"	"had not"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:22:30	"teacher008"	"teacher"	141	"no, would have not is correct!"	"no, would have not is correct!"	NA	NA	NA	NA	NA	NA	6
+2021-01-14 14:22:37	"student015"	"student"	142	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:22:38	"teacher008"	"teacher"	143	"but you need one more word"	"but you need one more word"	NA	NA	NA	NA	NA	NA	6
+2021-01-14 14:23:06	"student015"	"student"	144	"Oh, sorry."	"Oh, sorry."	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:23:12	"teacher008"	"teacher"	145	"no problem"	"no problem"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:25:09	"teacher008"	"teacher"	146	"I would not have gone to see the film, right?"	"I would not have gone to see the film, right?"	NA	NA	NA	NA	NA	NA	10
+2021-01-14 14:25:15	"teacher008"	"teacher"	147	"you just needed 'gone' there"	"you just needed 'gone' there"	NA	NA	NA	NA	NA	NA	5
+2021-01-14 14:25:30	"teacher008"	"teacher"	148	"go-went-gone"	"go-went-gone"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	1
+2021-01-14 14:25:34	"student015"	"student"	149	"Yes. Thanks."	"Yes. Thanks."	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:25:56	"teacher008"	"teacher"	150	"No worries"	"No worries"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:26:28	"teacher008"	"teacher"	151	"Let's think of more real-life examples. I'll give you one from my life. If I hadn't married an Englishman, I wouldn't have moved to the UK"	"Let's think of more real-life examples. I'll give you one from my life. If I hadn't married an Englishman, I wouldn't have moved to the UK"	NA	"7.0"	"exercise,free practice"	"grammatical resource"	NA	NA	26
+2021-01-14 14:27:03	"student015"	"student"	152	"Haha,great."	"Haha, great."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:27:21	"teacher008"	"teacher"	153	":))"	":))"	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:27:32	"student015"	"student"	154	"Yes, you did."	"Yes, you did."	NA	NA	NA	NA	NA	NA	3
+2021-01-14 14:27:37	"teacher008"	"teacher"	155	"Your example, please! Real or imaginary"	"Your example, please! Real or imaginary"	NA	NA	NA	NA	NA	NA	6
+2021-01-14 14:27:45	"student015"	"student"	156	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:29:53	"student015"	"student"	157	"If I hadn't had a dog, I would not have known how dogs express themselves."	"If I hadn't had a dog, I would not have known how dogs express themselves."	NA	NA	NA	NA	NA	NA	15
+2021-01-14 14:30:14	"teacher008"	"teacher"	158	"Good example!"	"Good example!"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:30:25	"teacher008"	"teacher"	159	"I didn't know you had a dog, you'll have to tell me about it next time!"	"I didn't know you had a dog, you'll have to tell me about it next time!"	NA	NA	NA	NA	NA	NA	16
+2021-01-14 14:31:27	"student015"	"student"	160	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:31:35	"teacher008"	"teacher"	161	"Sorry, Internet!"	"Sorry, Internet!"	NA	"8.0"	"disruption"	NA	NA	NA	2
+2021-01-14 14:31:37	"student015"	"student"	162	"See you next time."	"See you next time."	NA	NA	NA	NA	NA	NA	4
+2021-01-14 14:31:43	"teacher008"	"teacher"	163	"Wait a sec"	"Wait a sec"	NA	"9.0"	"topic opening"	NA	NA	NA	3
+2021-01-14 14:31:47	"student015"	"student"	164	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:32:07	"teacher008"	"teacher"	165	"I've got to cancel our Monday class, sadly. But we can have a class on Thursday, ok?"	"I've got to cancel our Monday class, sadly. But we can have a class on Thursday, ok?"	NA	NA	NA	NA	NA	NA	17
+2021-01-14 14:32:16	"student015"	"student"	166	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:32:22	"teacher008"	"teacher"	167	"Sorry about that, lockdown scheduling challenges"	"Sorry about that, lockdown scheduling challenges"	NA	NA	NA	NA	NA	NA	6
+2021-01-14 14:32:31	"teacher008"	"teacher"	168	"Lovely, speak to you then!"	"Lovely, speak to you then!"	NA	"10.0"	"closing"	NA	NA	NA	5
+2021-01-14 14:32:40	"student015"	"student"	169	"No problems"	"No problem"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:32:44	"student015"	"student"	170	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-14 14:33:01	"teacher008"	"teacher"	171	"Ok, bye!"	"Ok, bye!"	NA	NA	NA	NA	NA	NA	2
+2021-01-14 14:33:07	"student015"	"student"	172	"Byebye."	"Bye bye."	NA	NA	NA	NA	NA	"B2"	1

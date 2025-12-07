@@ -1,0 +1,106 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-26 16:00:02	"student007"	"student"	1	"Good afternoon <TEACHER>."	"Good afternoon <TEACHER>."	NA	"1.0"	"opening"	NA	NA	NA	3
+2020-03-26 16:00:48	"teacher001"	"teacher"	2	"Hi there <STUDENT>, everything OK with you?"	"Hi there <STUDENT>, everything OK with you?"	NA	NA	NA	NA	NA	NA	7
+2020-03-26 16:01:09	"student007"	"student"	3	"yes, I am health."	"yes, I am healthy"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 16:01:51	"teacher001"	"teacher"	5	"OK great, I;m pleased you're healthY!"	"OK great, I;m pleased you're healthY!"	NA	NA	"repair"	"lexical resource"	NA	NA	6
+2020-03-26 16:02:22	"student007"	"student"	6	"just stay at hotel by myself for 14 days, and nurses are take care of everyone."	"just staying at a hotel by myself for 14 days, and nurses are taking care of everyone."	NA	"1a"	NA	NA	NA	NA	16
+2020-03-26 16:02:42	"teacher001"	"teacher"	7	"Oh right - so you're in quarantine for 2 weeks?!"	"Oh right - so you're in quarantine for 2 weeks?!"	NA	NA	NA	NA	NA	NA	10
+2020-03-26 16:03:21	"teacher001"	"teacher"	8	"But have you tested negative?"	"But have you tested negative?"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 16:03:37	"student007"	"student"	9	"absolute, I for 2 weeks."	"absolutely, I am for 2 weeks."	"7.0"	NA	NA	NA	NA	NA	5
+2020-03-26 16:03:57	"student007"	"student"	10	"yes, the test was negative"	"yes, the test was negative"	"8.0"	NA	NA	NA	NA	NA	5
+2020-03-26 16:04:15	"teacher001"	"teacher"	11	"OK right but you still have to stay isolated???"	"OK right but you still have to stay isolated???"	NA	NA	NA	NA	NA	NA	9
+2020-03-26 16:04:26	"teacher001"	"teacher"	12	"Is that logical?"	"Is that logical?"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:04:52	"student007"	"student"	13	"I think so..."	"I think so..."	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:05:14	"teacher001"	"teacher"	14	"OK well anyway - I hope you cam make the best of it and don't get too down....!"	"OK well anyway - I hope you cam make the best of it and don't get too down....!"	NA	NA	NA	NA	NA	NA	18
+2020-03-26 16:06:04	"student007"	"student"	15	"Thanks !!  I think you need take care if yourself too...!"	"Thanks !!  I think you need to take care of yourself too...!"	NA	NA	NA	NA	NA	NA	12
+2020-03-26 16:06:36	"teacher001"	"teacher"	16	"Yeah don't worry I'll be fine!"	"Yeah don't worry I'll be fine!"	NA	NA	NA	NA	NA	NA	6
+2020-03-26 16:06:53	"student007"	"student"	17	"ok~~~that great"	"ok~~~that's great"	NA	NA	NA	NA	NA	NA	2
+2020-03-26 16:07:00	"teacher001"	"teacher"	18	"OK <STUDENT>, shall l we do some IELTS magic?!"	"OK <STUDENT>, shall l we do some IELTS magic?!"	NA	"2.0"	NA	"writing"	NA	NA	9
+2020-03-26 16:07:32	"student007"	"student"	19	"of cause, let do it"	"of course, let's do it"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 16:08:39	"teacher001"	"teacher"	20	"ok great - so if you can face it, let's go back to the pie charts ok? Can you give me a sentence about coal in France in 1980 please? JUST that nothing else ok?"	"ok great - so if you can face it, let's go back to the pie charts ok? Can you give me a sentence about coal in France in 1980 please? JUST that nothing else ok?"	NA	"2a"	"exercise"	"writing"	NA	NA	35
+2020-03-26 16:09:36	"student007"	"student"	21	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:11:36	"student007"	"student"	22	"Coal accounted for 25% of electricity in France in 1980"	"Coal accounted for 25% of electricity in France in 1980"	NA	NA	NA	NA	NA	NA	10
+2020-03-26 16:12:18	"student007"	"student"	23	"Coal made up for 25% of electricity in France in 1980."	"Coal made up 25% of electricity in France in 1980."	NA	NA	NA	NA	NA	NA	11
+2020-03-26 16:12:30	"teacher001"	"teacher"	24	"Yes thanks <STUDENT> that's great language well done ....be careful with the proportion though! Check the units ok?"	"Yes thanks <STUDENT> that's great language well done ....be careful with the proportion though! Check the units ok?"	NA	"2b"	"eliciting,repair"	"task achievement"	NA	NA	18
+2020-03-26 16:12:42	"teacher001"	"teacher"	25	"Is it really 25%?"	"Is it really 25%?"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 16:13:37	"student007"	"student"	26	"wow, it is not 100 units..."	"wow, it is not 100 units..."	NA	NA	NA	NA	NA	NA	6
+2020-03-26 16:14:42	"student007"	"student"	35	"sorry, my internet became slowly just now"	"sorry, my internet was slow just now"	NA	"2c"	"disruption"	NA	NA	NA	7
+2020-03-26 16:15:26	"teacher001"	"teacher"	36	"no that's ok....so no, it's not 100 units..."	"no that's ok....so no, it's not 100 units..."	"35, 26"	NA	NA	NA	NA	NA	8
+2020-03-26 16:15:52	"teacher001"	"teacher"	37	"How can you say it then?"	"How can you say it then?"	NA	"2b (continued)"	"eliciting"	NA	NA	NA	6
+2020-03-26 16:16:50	"student007"	"student"	38	"so...approximately 27% of electricity form/by coal."	"so...approximately 27% of electricity was produced from coal."	NA	NA	NA	NA	NA	NA	6
+2020-03-26 16:18:04	"teacher001"	"teacher"	39	"OK thanks... wow, you could try and work it out like that if you like....maybe an easier way would be to say e.g. 25 out of 90 units OR more than a quarter ...OK?"	"OK thanks... wow, you could try and work it out like that if you like....maybe an easier way would be to say e.g. 25 out of 90 units OR more than a quarter ...OK?"	NA	NA	"scaffolding"	"lexical resource,task achievement"	NA	NA	34
+2020-03-26 16:18:41	"student007"	"student"	40	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:19:30	"teacher001"	"teacher"	41	"So in fact <STUDENT> fractions (half/third/quarter etc) are good to use for variety in language OK?"	"So in fact <STUDENT> fractions (half/third/quarter etc) are good to use for variety in language OK?"	NA	"3.0"	"presentation"	"lexical resource"	NA	NA	16
+2020-03-26 16:19:59	"teacher001"	"teacher"	43	"So for example ...52% = just _____ half?"	"So for example ...52% = just _____ half?"	NA	"3a"	"eliciting"	"lexical resource"	NA	NA	8
+2020-03-26 16:20:23	"student007"	"student"	44	"just more than half"	"just more than half"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 16:20:56	"student007"	"student"	45	"just exceeding half"	"just exceeding half"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:21:02	"teacher001"	"teacher"	46	"can you try it with just one word in the gap?"	"can you try it with just one word in the gap?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	11
+2020-03-26 16:21:17	"teacher001"	"teacher"	47	"beginning with 'o'!"	"beginning with 'o'!"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:21:30	"student007"	"student"	48	"just over half"	"just over half"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:21:42	"teacher001"	"teacher"	49	"YEs thanks! I think that's best.."	"YEs thanks! I think that's best.."	NA	NA	NA	NA	NA	NA	6
+2020-03-26 16:21:47	"teacher001"	"teacher"	50	"It is best!"	"It is best!"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:22:00	"student007"	"student"	51	"ok,thanks"	"ok, thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:22:06	"teacher001"	"teacher"	52	"and what about e.g. 23%?"	"and what about e.g. 23%?"	NA	"3b"	"eliciting"	"lexical resource"	NA	NA	5
+2020-03-26 16:22:38	"student007"	"student"	53	"just over third."	"just over third."	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:22:52	"student007"	"student"	54	"just over fifth"	"just over fifth"	NA	NA	"repair"	"content"	NA	NA	3
+2020-03-26 16:22:59	"teacher001"	"teacher"	55	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:23:09	"teacher001"	"teacher"	56	"Or just ________ a quarter?"	"Or just ________ a quarter?"	NA	"3c"	"eliciting"	"lexical resource"	NA	NA	5
+2020-03-26 16:23:32	"student007"	"student"	57	"just less a quarter"	"just less than a quarter"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 16:24:06	"teacher001"	"teacher"	58	"so if you say 'less' you need to say 'less than' ....so just use one word ok? beginning with 'u'!"	"so if you say 'less' you need to say 'less than' ....so just use one word ok? beginning with 'u'!"	NA	NA	"eliciting"	"lexical resource"	NA	NA	20
+2020-03-26 16:25:11	"student007"	"student"	59	"just u.... a quarter"	"just u.... a quarter"	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+2020-03-26 16:25:22	"teacher001"	"teacher"	60	"opposite of 'over'"	"opposite of 'over'"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-03-26 16:25:31	"student007"	"student"	61	"I am not sure that word.."	"I am not sure of the word."	NA	NA	NA	NA	NA	NA	6
+2020-03-26 16:25:38	"teacher001"	"teacher"	62	"under!"	"under!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-03-26 16:25:44	"teacher001"	"teacher"	63	"just under a quarter"	"just under a quarter"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-03-26 16:25:54	"student007"	"student"	64	"haha...thanks"	"haha...thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:26:00	"teacher001"	"teacher"	65	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:26:08	"student007"	"student"	66	"just under a quarter"	"just under a quarter"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 16:26:42	"teacher001"	"teacher"	67	"Yes that's it good...So by the way you need 'a' before all fractions except for 'half' (although it's possible to out it in for 'half' too)"	"Yes that's it good...So by the way you need 'a' before all fractions except for 'half' (although it's possible to out it in for 'half' too)"	NA	"3d"	"scaffolding"	"grammatical resource"	NA	NA	26
+2020-03-26 16:26:54	"teacher001"	"teacher"	68	"so e.g. a third/a quarter"	"so e.g. a third/a quarter"	NA	NA	NA	NA	NA	NA	5
+2020-03-26 16:27:23	"student007"	"student"	69	"ok, I got it"	"ok, I got it"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 16:27:26	"teacher001"	"teacher"	70	"when it's just one I mean...actually 'one' is correct too right? so a/one third etc"	"when it's just one I mean...actually 'one' is correct too right? so a/one third etc"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-03-26 16:27:49	"teacher001"	"teacher"	71	"BUT e.g. two fifths/three quarters etc ...obviously without 'a'"	"BUT e.g. two fifths/three quarters etc ...obviously without 'a'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-03-26 16:29:10	"teacher001"	"teacher"	72	"So <STUDENT>...last individual one...What about coal in Australia in 2000?! Tell me about that in one sentence (try a fraction if you like too)"	"So <STUDENT>...last individual one...What about coal in Australia in 2000?! Tell me about that in one sentence (try a fraction if you like too)"	NA	"4.0"	"exercise"	"writing"	NA	NA	24
+2020-03-26 16:29:15	"student007"	"student"	73	"ok, it is a very different way to explain date"	"ok, it is a very different way to explain data"	NA	NA	NA	NA	NA	NA	10
+2020-03-26 16:30:53	"teacher001"	"teacher"	74	"Do you mean fractions?"	"Do you mean fractions?"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 16:31:20	"student007"	"student"	75	"cola was 130 out of 170 units in Australia in 2000"	"coal was 130 out of 170 units in Australia in 2000"	NA	NA	NA	NA	NA	NA	11
+2020-03-26 16:31:28	"teacher001"	"teacher"	76	"OK fine...hol don"	"OK fine...hol don"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:31:34	"teacher001"	"teacher"	77	"hold on I mean!"	"hold on I mean!"	NA	NA	"repair"	"writing"	NA	NA	4
+2020-03-26 16:31:39	"student007"	"student"	78	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:32:55	"teacher001"	"teacher"	79	"So yes fine - good to get that little structure 'out of' correct ! OR ... e.g. Coal accounted for 130 out of 170 units of electricity OR e.g. Coal generated 130 out of 170 units"	"So yes fine - good to get that little structure 'out of' correct ! OR ... e.g. Coal accounted for 130 out of 170 units of electricity OR e.g. Coal generated 130 out of 170 units"	NA	NA	"scaffolding"	"lexical resource,task achievement"	NA	NA	36
+2020-03-26 16:33:48	"student007"	"student"	80	"ok, I understand,,thanks"	"ok, I understand, thanks"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:33:48	"teacher001"	"teacher"	81	"And the passive structure? Remember that possibility? So e.g. 130 out of 170 units of electricity...(Can you finish this one?)"	"And the passive structure? Remember that possibility? So e.g. 130 out of 170 units of electricity...(Can you finish this one?)"	NA	"4a"	"eliciting"	"grammatical resource"	NA	NA	20
+2020-03-26 16:34:31	"student007"	"student"	82	"130 out of 170 units of electricity form/by coal."	"130 out of 170 units of electricity are generated from coal."	NA	NA	NA	NA	NA	NA	9
+2020-03-26 16:35:09	"teacher001"	"teacher"	83	"yes ok but you need a verb somewhere!"	"yes ok but you need a verb somewhere!"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	8
+2020-03-26 16:36:00	"student007"	"student"	84	"130 out of 170 units of electricity was produced from/by coal"	"130 out of 170 units of electricity were produced from/by coal"	NA	NA	NA	NA	NA	NA	11
+2020-03-26 16:36:46	"teacher001"	"teacher"	85	"yes ok good thanks! Because it's units it is plural so we need 'were produced from' (good to use verb 'produced' by the way)"	"yes ok good thanks! Because it's units it is plural so we need 'were produced from' (good to use verb 'produced' by the way)"	NA	NA	"repair"	"grammatical resource"	NA	NA	24
+2020-03-26 16:37:37	"student007"	"student"	86	"ok,i got it,thanks"	"ok, I got it, thanks"	NA	NA	NA	NA	NA	NA	3
+2020-03-26 16:38:08	"teacher001"	"teacher"	87	"OK <STUDENT> so let's take another step here OK? So we have given the  basic numbers for coal in 2000 (130 out of 170 units) ...but what does really mean? It's good if we can say that in words you know?"	"OK <STUDENT> so let's take another step here OK? So we have given the  basic numbers for coal in 2000 (130 out of 170 units) ...but what does really mean? It's good if we can say that in words you know?"	NA	"5.0"	"exercise"	"writing"	NA	NA	42
+2020-03-26 16:38:55	"teacher001"	"teacher"	88	"What i mean is ...in bad English we might say: 'Yes coal really big 2000' do you see? But in good IELTS English we could say...?"	"What i mean is ...in bad English we might say: 'Yes coal really big 2000' do you see? But in good IELTS English we could say...?"	NA	NA	"eliciting"	"task achievement"	NA	NA	26
+2020-03-26 16:39:17	"teacher001"	"teacher"	89	"Not the numbers just this idea in words"	"Not the numbers just this idea in words"	NA	NA	NA	NA	NA	NA	8
+2020-03-26 16:40:19	"student007"	"student"	90	"Coal was by far the most popular fuel, with 130 out of 170 units were produced."	"Coal was by far the most popular fuel, with 130 out of 170 units were produced."	NA	NA	NA	NA	NA	NA	16
+2020-03-26 16:42:05	"teacher001"	"teacher"	91	"THanks <STUDENT> - a very good sentence overall...hold on"	"THanks <STUDENT> - a very good sentence overall...hold on"	NA	NA	NA	NA	NA	NA	9
+2020-03-26 16:43:04	"student007"	"student"	92	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:44:04	"teacher001"	"teacher"	93	"So if we make 2 basic correct sentences we could get: Coal was by far the most significant (better than 'popular' here because people aren't actually choosing it like Coca cola you see?) fuel. It produced 130 out of 170 units. OK?"	"So if we make 2 basic correct sentences we could get: Coal was by far the most significant (better than 'popular' here because people aren't actually choosing it like Coca cola you see?) fuel. It produced 130 out of 170 units. OK?"	NA	"5a"	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	42
+2020-03-26 16:45:02	"student007"	"student"	94	"ok, it is better than my sentence."	"ok, it is better than my sentence."	NA	NA	NA	NA	NA	NA	7
+2020-03-26 16:46:05	"teacher001"	"teacher"	95	"Well yes I guess so! BUT we can take one more step if we like....Look at the one coming up...can you see I have deleted the full stop and the verb - you just need to change the form of the verb ..can you try it?Coal was by far the most significant fuel, _________  130 out of 170 units"	"Well yes I guess so! BUT we can take one more step if we like....Look at the one coming up...can you see I have deleted the full stop and the verb - you just need to change the form of the verb ..can you try it?Coal was by far the most significant fuel, _________  130 out of 170 units"	NA	"5b"	"scaffolding,eliciting"	"grammatical resource"	NA	NA	60
+2020-03-26 16:46:39	"teacher001"	"teacher"	96	"So e.g. 'produce/produced/producing'? you decide!"	"So e.g. 'produce/produced/producing'? you decide!"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	5
+2020-03-26 16:47:55	"student007"	"student"	97	"ok, less verbs make sentences more academic."	"ok, fewer verbs make sentences more academic."	NA	NA	NA	NA	NA	NA	7
+2020-03-26 16:48:23	"student007"	"student"	98	"produced"	"produced"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:48:40	"student007"	"student"	99	"because it was in 2000."	"because it was in 2000."	NA	NA	NA	NA	NA	NA	5
+2020-03-26 16:49:28	"teacher001"	"teacher"	100	"OK right so I know what you mean BUT remember 'prodcued was in the original two sentence version but here we are changing it so we need: ...Coal was by far the most significant fuel, producing130 out of 170 units"	"OK right so I know what you mean BUT remember 'prodcued was in the original two sentence version but here we are changing it so we need: ...Coal was by far the most significant fuel, producing130 out of 170 units"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	40
+2020-03-26 16:49:41	"teacher001"	"teacher"	101	"Have you seen that before?"	"Have you seen that before?"	NA	"5c"	NA	"grammatical resource"	NA	NA	5
+2020-03-26 16:50:49	"student007"	"student"	102	"no.. I just could write very simple sentences before."	"no.. I could only write very simple sentences before."	NA	NA	NA	NA	NA	NA	9
+2020-03-26 16:51:29	"teacher001"	"teacher"	103	"OK well don't worry too much - the first two-sentence version was still good and you could still get a high score with that OK?"	"OK well don't worry too much - the first two-sentence version was still good and you could still get a high score with that OK?"	NA	NA	NA	NA	NA	NA	25
+2020-03-26 16:51:52	"student007"	"student"	104	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:51:54	"student007"	"student"	105	"hanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:52:31	"student007"	"student"	109	"thanks"	"thanks"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-03-26 16:53:44	"teacher001"	"teacher"	110	"OK <STUDENT> before we finish this hour let me ask you one final question....can you tell me about nuclear power in France in 1980 AND 2000. So you could try it like this: 'In 1980, nuclear power.....However, in 2000....' OK?!"	"OK <STUDENT> before we finish this hour let me ask you one final question....can you tell me about nuclear power in France in 1980 AND 2000. So you could try it like this: 'In 1980, nuclear power.....However, in 2000....' OK?!"	NA	"6.0"	"exercise"	"writing"	NA	NA	40
+2020-03-26 16:54:18	"student007"	"student"	111	"ok.."	"ok.."	NA	NA	NA	NA	NA	NA	1
+2020-03-26 16:57:16	"student007"	"student"	113	"in 1980, nuclear power accounted for 15 out of 90 units of electricity,However, in 2000, it was by far the most signifiant fuel, producing 126 out of 180 units."	"In 1980, nuclear power accounted for 15 out of 90 units of electricity. However, in 2000, it was by far the most significant fuel, producing 126 out of 180 units."	NA	NA	NA	NA	NA	NA	29
+2020-03-26 16:58:37	"student007"	"student"	114	"I think my type speed have become more quickly than a few days ago."	"I think my typing speed has become higher than a few days ago."	NA	NA	NA	NA	NA	NA	14
+2020-03-26 16:58:57	"student007"	"student"	115	"have becoming"	"have becoming"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2020-03-26 16:59:56	"teacher001"	"teacher"	116	"Ooohh <STUDENT>! That's a great sentence! I'm very happy with that!   Perfect...A great ending...I'll see you in 15 minutes OK?"	"Ooohh <STUDENT>! That's a great sentence! I'm very happy with that!   Perfect...A great ending...I'll see you in 15 minutes OK?"	"113.0"	"7.0"	"closing"	NA	NA	NA	22
+2020-03-26 17:00:12	"student007"	"student"	117	"ok, see you later"	"ok, see you later"	NA	NA	NA	NA	NA	NA	4
+2020-03-26 17:00:15	"teacher001"	"teacher"	118	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-26 17:00:19	"student007"	"student"	119	"thanks"	"thanks"	NA	NA	NA	NA	NA	"B1"	1

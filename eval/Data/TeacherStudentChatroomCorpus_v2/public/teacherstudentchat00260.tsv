@@ -1,0 +1,184 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-06-18 09:38:19	"student011"	"student"	1	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-06-18 09:38:31	"student011"	"student"	2	"Sorry for being late"	"Sorry for being late"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 09:38:33	"teacher008"	"teacher"	3	"Hello!"	"Hello!"	1	NA	NA	NA	NA	NA	1
+2021-06-18 09:38:38	"teacher008"	"teacher"	4	"No worries at all!"	"No worries at all!"	2	NA	NA	NA	NA	NA	4
+2021-06-18 09:38:42	"teacher008"	"teacher"	5	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-06-18 09:38:59	"student011"	"student"	6	"Fine"	"Fine"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 09:39:01	"student011"	"student"	7	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 09:39:11	"student011"	"student"	8	"and you?"	"and you?"	NA	"2a"	"topic development"	NA	NA	NA	2
+2021-06-18 09:39:31	"teacher008"	"teacher"	9	"Good, thank you! It's absolutely pouring here!"	"Good, thank you! It's absolutely pouring here!"	NA	NA	NA	NA	NA	NA	7
+2021-06-18 09:39:57	"student011"	"student"	10	"pouring? )"	"pouring? )"	NA	"2b"	"enquiry"	"lexical resource"	NA	NA	2
+2021-06-18 09:40:02	"teacher008"	"teacher"	11	"How's <STUDENT'S CHILD> been settling at the nursery this week?"	"How's <STUDENT'S CHILD> been settling at the nursery this week?"	NA	"2c"	"topic development"	NA	NA	NA	10
+2021-06-18 09:40:22	"teacher008"	"teacher"	12	"Yes, raining very hard! You know, like pour some water into a glass"	"Yes, raining very hard! You know, like pour some water into a glass"	10	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2021-06-18 09:40:40	"student011"	"student"	13	"Ah! Wow"	"Ah! Wow"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 09:40:43	"student011"	"student"	14	"It's hot here"	"It's hot here"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 09:41:13	"teacher008"	"teacher"	15	"I guess 'pouring down' is more correct, actually"	"I guess 'pouring down' is more correct, actually"	12	NA	"repair"	"lexical resource"	NA	NA	8
+2021-06-18 09:41:26	"student011"	"student"	16	"I saw on Instagram that it was raining in Kyiv yesterday, but I didn't 'met'the rain )"	"I saw on Instagram that it was raining in Kyiv yesterday, but I didn't 'meet' the rain )"	14	NA	NA	NA	NA	NA	17
+2021-06-18 09:41:41	"teacher008"	"teacher"	17	"It was hot until yesterday, now it's been raining non-stop :)"	"It was hot until yesterday, now it's been raining non-stop :)"	14	NA	NA	NA	NA	NA	11
+2021-06-18 09:41:52	"teacher008"	"teacher"	18	"Oh, interesting! Kyiv is big I guess!"	"Oh, interesting! Kyiv is big I guess!"	18	NA	NA	NA	NA	NA	7
+2021-06-18 09:42:28	"student011"	"student"	19	"<STUDENT'S CHILD> is ok, but she decide till which time to be at the nursery each day"	"<STUDENT'S CHILD> is ok, but she decides till which time to be at the nursery each day"	11	NA	NA	NA	NA	NA	17
+2021-06-18 09:42:44	"student011"	"student"	20	"nd it is not very convenient to me ))"	"and it is not very convenient for me ))"	NA	NA	NA	NA	NA	NA	9
+2021-06-18 09:42:54	"teacher008"	"teacher"	21	"That's nice! What has she decided today?"	"That's nice! What has she decided today?"	19	NA	NA	NA	NA	NA	7
+2021-06-18 09:42:58	"teacher008"	"teacher"	22	"Oh, I see!"	"Oh, I see!"	20	NA	NA	NA	NA	NA	3
+2021-06-18 09:43:26	"student011"	"student"	23	"But I negotiated with her about next Tuesday so I'm happy about it )"	"But I negotiated with her about next Tuesday so I'm happy about it )"	21	NA	NA	NA	NA	NA	14
+2021-06-18 09:44:06	"student011"	"student"	24	"Today she asked to pick her up from the nursery at 3 pm"	"Today she asked to pick her up from the nursery at 3 pm"	21	NA	NA	NA	NA	NA	13
+2021-06-18 09:44:17	"student011"	"student"	25	"So it's quite good"	"So it's quite good"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 09:44:51	"teacher008"	"teacher"	26	"Yes, you'll have a little bit of time. And then her nanny will be back soon!"	"Yes, you'll have a little bit of time. And then her nanny will be back soon!"	NA	NA	NA	NA	NA	NA	16
+2021-06-18 09:45:07	"student011"	"student"	27	"because on Monday she asked to do it at 12:30 and I really didn't have time for work"	"because on Monday she asked to do it at 12:30 and I really didn't have time for work"	25	NA	NA	NA	NA	NA	18
+2021-06-18 09:45:17	"student011"	"student"	28	"just 3 hours"	"just 3 hours"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 09:45:31	"student011"	"student"	29	"Yeah"	"Yeah"	26	NA	NA	NA	NA	NA	1
+2021-06-18 09:46:01	"teacher008"	"teacher"	30	"Speaking of work, I've noticed that <STUDENT'S COMPANY>'s launched some new courses!"	"Speaking of work, I've noticed that <STUDENT'S COMPANY>'s launched some new courses!"	NA	"3.0"	"topic opening"	NA	NA	NA	12
+2021-06-18 09:46:13	"student011"	"student"	31	"but we are going to holidays so we will be with nanny just 1 working day ))"	"but we are going on holiday, so we will be with the nanny just 1 working day ))"	29	NA	NA	NA	NA	NA	17
+2021-06-18 09:46:33	"teacher008"	"teacher"	32	"You're going on holiday? Exciting!! Where?"	"You're going on holiday? Exciting!! Where?"	NA	"2d"	"topic development"	NA	NA	NA	6
+2021-06-18 09:47:14	"student011"	"student"	33	"It's near Chernomorsk city"	"It's near Chernomorsk city"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 09:47:24	"student011"	"student"	34	"About 1 hour fro Odessa"	"About 1 hour from Odessa"	NA	NA	NA	NA	NA	NA	5
+2021-06-18 09:47:57	"student011"	"student"	35	"But the sea is better because the beach not so close to the city"	"But the sea is better because the beach is not so close to the city"	NA	NA	NA	NA	NA	NA	14
+2021-06-18 09:48:05	"teacher008"	"teacher"	36	"Yes, I can imagine!"	"Yes, I can imagine!"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 09:48:12	"student011"	"student"	37	"It is called <RESORT> )"	"It is called <RESORT> )"	NA	NA	NA	NA	NA	NA	5
+2021-06-18 09:48:20	"teacher008"	"teacher"	38	"Ooh, you're going on a beach holiday, yay!"	"Ooh, you're going on a beach holiday, yay!"	NA	NA	NA	NA	NA	NA	8
+2021-06-18 09:48:43	"student011"	"student"	39	"They have several buildings with bedrooms and kitchens"	"They have several buildings with bedrooms and kitchens"	NA	NA	NA	NA	NA	NA	8
+2021-06-18 09:48:46	"teacher008"	"teacher"	40	"I can't wait for our holiday too, we're going to Cornwall"	"I can't wait for our holiday too, we're going to Cornwall"	NA	"2e"	"topic development"	NA	NA	NA	11
+2021-06-18 09:49:18	"student011"	"student"	41	"And open space with playgrounds for childrens"	"And an open space with playgrounds for children"	39	NA	NA	NA	NA	NA	7
+2021-06-18 09:49:30	"teacher008"	"teacher"	42	"Sounds perfect!"	"Sounds perfect!"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 09:49:34	"student011"	"student"	43	"with washing machins"	"with washing machines"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 09:49:36	"student011"	"student"	44	"etc"	"etc."	NA	NA	NA	NA	NA	NA	1
+2021-06-18 09:49:50	"student011"	"student"	45	"Cornwall! Hm"	"Cornwall! Hm"	40	NA	NA	NA	NA	NA	2
+2021-06-18 09:50:27	"student011"	"student"	46	"I think I've heard about it before"	"I think I've heard about it before"	NA	NA	NA	NA	NA	NA	7
+2021-06-18 09:51:01	"teacher008"	"teacher"	47	"It sounds like your holiday is 'self-catering', is that right? When you buy and cook the food yourselves, and do the washing etc."	"It sounds like your holiday is 'self-catering', is that right? When you buy and cook the food yourselves, and do the washing etc."	NA	"2f"	"topic development,scaffolding"	"lexical resource,meaning"	NA	NA	23
+2021-06-18 09:51:03	"student011"	"student"	48	"is it a popular place?"	"is it a popular place?"	46	NA	NA	NA	NA	NA	5
+2021-06-18 09:51:29	"teacher008"	"teacher"	49	"Yes, it's going to be especially popular this summer now that many people can't go on holiday abroad"	"Yes, it's going to be especially popular this summer now that many people can't go on holiday abroad"	NA	NA	NA	NA	NA	NA	18
+2021-06-18 09:51:38	"student011"	"student"	50	"It could be self-catering, but also we can order food there and they will cook it for us"	"It could be self-catering, but also we can order food there and they will cook it for us"	47	NA	NA	NA	NA	NA	18
+2021-06-18 09:52:10	"student011"	"student"	51	"But we are going to go with my mom and <STUDENT'S NIECE>, And one week late <STUDENT'S SISTER-IN-LAW> and <STUDENT'S BROTHER> will join us"	"But we are going to go with my mom and <STUDENT'S NIECE>, and one week later <STUDENT'S SISTER-IN-LAW> and <STUDENT'S BROTHER> will join us"	NA	NA	NA	NA	NA	NA	24
+2021-06-18 09:52:34	"teacher008"	"teacher"	52	"It's the very south-east of England. It's warmer and the sea is beautiful!"	"It's the very south-east of England. It's warmer and the sea is beautiful!"	49	NA	NA	NA	NA	NA	13
+2021-06-18 09:52:39	"student011"	"student"	53	"So I think it will be ok to cook по очереди ) or together )"	"So I think it will be ok to cook по очереди ) or together )"	51	NA	"non-English"	"code switching,lexical resource"	NA	NA	15
+2021-06-18 09:53:06	"teacher008"	"teacher"	54	"Ok, you're going to take turns cooking. Fair enough!"	"Ok, you're going to take turns cooking. Fair enough!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-06-18 09:53:11	"student011"	"student"	55	"wow! It sounds perfect. When are you going there?"	"wow! It sounds perfect. When are you going there?"	52	NA	NA	NA	NA	NA	9
+2021-06-18 09:53:31	"student011"	"student"	56	"yes! To take turns )"	"yes! To take turns )"	54	NA	NA	NA	NA	NA	5
+2021-06-18 09:53:45	"teacher008"	"teacher"	57	"Once <TEACHER'S CHILD>'s finished school, the last week of July"	"Once <TEACHER'S CHILD>'s finished school, the last week of July"	55	NA	NA	NA	NA	NA	10
+2021-06-18 09:54:04	"teacher008"	"teacher"	58	"Sorry, it's not the south-east of England! It's the south-west!"	"Sorry, it's not the south-east of England! It's the south-west!"	52	NA	"repair"	"content"	NA	NA	10
+2021-06-18 09:54:40	"student011"	"student"	59	"Oh! They also have fridges with ice-cream vareniky and pelmeny, so we can buy and eat this food )"	"Oh! They also have fridges with ice-cream, vareniky and pelmeny, so we can buy and eat this food )"	56	NA	NA	NA	NA	NA	19
+2021-06-18 09:55:16	"teacher008"	"teacher"	60	"Oh, you're sorted then :))) ice-cream, vareniky and pelmeny, what else do you need? )))"	"Oh, you're sorted then :))) ice-cream, vareniky and pelmeny, what else do you need? )))"	NA	NA	NA	NA	NA	NA	15
+2021-06-18 09:55:50	"teacher008"	"teacher"	61	"I bet in Cornwall there are going to be a lot of Cornish pasties and Cornish ice-cream, and fish and chips"	"I bet in Cornwall there are going to be a lot of Cornish pasties and Cornish ice-cream, and fish and chips"	NA	"2g"	"topic development"	NA	NA	NA	21
+2021-06-18 09:55:57	"teacher008"	"teacher"	62	"Do you know Cornish pasties?"	"Do you know Cornish pasties?"	NA	NA	"eliciting"	"world knowledge,lexical resource"	NA	NA	5
+2021-06-18 09:56:15	"student011"	"student"	63	"рфрф"	"рфрф"	60	NA	NA	NA	NA	NA	1
+2021-06-18 09:56:23	"student011"	"student"	65	"sorry )"	"sorry )"	NA	NA	"repair"	"writing"	NA	NA	2
+2021-06-18 09:56:34	"teacher008"	"teacher"	66	"They are medium-sized pies filled with some meat, carrots and peas"	"They are medium-sized pies filled with some meat, carrots and peas"	62	NA	"scaffolding"	"world knowledge,lexical resource"	NA	NA	11
+2021-06-18 09:56:35	"student011"	"student"	67	"haha, you are right! )"	"haha, you are right! )"	65	NA	NA	NA	NA	NA	5
+2021-06-18 09:56:41	"student011"	"student"	68	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 09:57:00	"student011"	"student"	69	"I don't know Cornish pasties"	"I don't know Cornish pasties"	62	NA	NA	NA	NA	NA	5
+2021-06-18 09:57:08	"student011"	"student"	70	"Let me check please )"	"Let me check please )"	NA	NA	NA	NA	NA	NA	5
+2021-06-18 09:57:14	"teacher008"	"teacher"	71	"It's very simple food"	"It's very simple food"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 09:57:36	"student011"	"student"	72	"Ah! Пирожки )))))"	"Ah! Пирожки )))))"	NA	NA	"non-English"	"lexical resource,code switching"	NA	NA	3
+2021-06-18 09:58:31	"student011"	"student"	73	"It looks very tasty )"	"It looks very tasty )"	NA	NA	NA	NA	NA	NA	5
+2021-06-18 09:58:42	"teacher008"	"teacher"	74	"Yes, well, they are bigger than pirozhki and the pastry is different"	"Yes, well, they are bigger than pirozhki and the pastry is different"	72	NA	"non-English"	"lexical resource,code switching"	NA	NA	12
+2021-06-18 09:59:12	"student011"	"student"	75	"I see )"	"I see )"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 09:59:15	"teacher008"	"teacher"	76	"But it's the same idea of putting some filling in pastry so that it's easy to eat on the go or at work if you're a miner or a sailor"	"But it's the same idea of putting some filling in pastry so that it's easy to eat on the go or at work if you're a miner or a sailor"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	30
+2021-06-18 09:59:50	"student011"	"student"	77	"miner? )"	"miner? )"	NA	"2h"	"enquiry"	"lexical resource"	NA	NA	2
+2021-06-18 10:00:42	"teacher008"	"teacher"	78	"Yes, someone who works down the mine. A coal mine for example, where people cut coal out of rock, or a salt mine"	"Yes, someone who works down the mine. A coal mine for example, where people cut coal out of rock, or a salt mine"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	23
+2021-06-18 10:00:50	"teacher008"	"teacher"	79	"or a gold mine, if you're lucky :)"	"or a gold mine, if you're lucky :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-06-18 10:00:59	"student011"	"student"	80	"ah!"	"ah!"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:01:06	"student011"	"student"	81	"Coal"	"Coal"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:01:25	"teacher008"	"teacher"	82	"Yes, like in Donbass (at least there used to be mines...)"	"Yes, like in Donbass (at least there used to be mines...)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-06-18 10:01:53	"student011"	"student"	83	"I see now"	"I see now"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:01:55	"student011"	"student"	84	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:02:16	"student011"	"student"	85	"It's strange but I didn't know the word before"	"It's strange but I didn't know the word before"	NA	NA	NA	NA	NA	NA	9
+2021-06-18 10:02:51	"teacher008"	"teacher"	86	"No worries! There used to be a lot of mines in the UK, but then the country started importing a lot of its fuel. And now, obviously, everyone is trying to find alternative sources of energy and stop mining!"	"No worries! There used to be a lot of mines in the UK, but then the country started importing a lot of its fuel. And now, obviously, everyone is trying to find alternative sources of energy and stop mining!"	84	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	39
+2021-06-18 10:03:12	"student011"	"student"	87	"ah!"	"ah!"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:03:19	"teacher008"	"teacher"	88	"No problem, that's what we're here for :)"	"No problem, that's what we're here for :)"	85	NA	NA	NA	NA	NA	8
+2021-06-18 10:03:20	"student011"	"student"	89	"But I know the word mining )"	"But I know the word mining )"	NA	"2i"	"topic development"	"lexical resource"	NA	NA	7
+2021-06-18 10:03:45	"student011"	"student"	90	"bitcoin mining )"	"bitcoin mining )"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:04:03	"teacher008"	"teacher"	91	"Haha, there you go! I'm not sure what it means but still!"	"Haha, there you go! I'm not sure what it means but still!"	NA	NA	NA	NA	NA	NA	12
+2021-06-18 10:04:13	"student011"	"student"	92	"haha )"	"haha )"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:04:30	"teacher008"	"teacher"	93	"Well, I understand 'bitcoin' and 'mining', but not together))"	"Well, I understand 'bitcoin' and 'mining', but not together))"	NA	NA	NA	NA	NA	NA	9
+2021-06-18 10:04:35	"student011"	"student"	94	"Bitcoin mining is the process by which new bitcoins are entered into circulation, but it is also a critical component of the maintenance and development of the blockchain ledger. It is performed using very sophisticated computers that solve extremely complex computational math problems."	"Bitcoin mining is the process by which new bitcoins are entered into circulation, but it is also a critical component of the maintenance and development of the blockchain ledger. It is performed using very sophisticated computers that solve extremely complex computational math problems."	NA	NA	NA	NA	"website"	NA	43
+2021-06-18 10:04:59	"student011"	"student"	95	"it's not my text )))))"	"it's not my text )))))"	NA	NA	NA	NA	NA	NA	5
+2021-06-18 10:05:22	"teacher008"	"teacher"	96	"Right, I'll have to look it up later, I can't say it's very clear to me :)))"	"Right, I'll have to look it up later, I can't say it's very clear to me :)))"	NA	NA	NA	NA	NA	NA	17
+2021-06-18 10:05:51	"student011"	"student"	97	"me too )))))"	"me neither )))))"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:07:29	"teacher008"	"teacher"	98	"So, when you're on holiday, you can make food yourselves, or you can have something made for you, right?"	"So, when you're on holiday, you can make food yourselves, or you can have something made for you, right?"	NA	"4.0"	"revision"	"grammatical resource"	NA	NA	19
+2021-06-18 10:07:52	"teacher008"	"teacher"	99	"Remember we talked about 'have something V3'? to mean that someone else does it for you"	"Remember we talked about 'have something V3'? to mean that someone else does it for you"	NA	NA	"revision"	"grammatical resource"	NA	NA	16
+2021-06-18 10:08:18	"student011"	"student"	100	"Aha, I remember"	"Aha, I remember"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:09:37	"teacher008"	"teacher"	101	"Great! Shall we practice a bit? I'll give you a sentence where the person does something themselves and you change it into 'have something done', ok?"	"Great! Shall we practice a bit? I'll give you a sentence where the person does something themselves and you change it into 'have something done', ok?"	NA	"5.0"	"exercise"	"grammatical resource"	NA	NA	26
+2021-06-18 10:10:01	"teacher008"	"teacher"	102	"e.g. I clean my windows ever month. I have my windows cleaned every month"	"e.g. I clean my windows ever month. I have my windows cleaned every month"	NA	NA	NA	NA	NA	NA	14
+2021-06-18 10:10:37	"student011"	"student"	103	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:10:45	"student011"	"student"	104	"let's do it )"	"let's do it )"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 10:11:06	"teacher008"	"teacher"	105	"One second, I lost my exercise!"	"One second, I lost my exercise!"	NA	NA	NA	NA	NA	NA	6
+2021-06-18 10:11:18	"student011"	"student"	106	"noprobs"	"no probs"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:11:21	"student011"	"student"	107	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:11:50	"teacher008"	"teacher"	108	"Here it is!"	"Here it is!"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:12:13	"teacher008"	"teacher"	109	"Mind that tenses are different in different sentences"	"Mind that tenses are different in different sentences"	NA	NA	NA	NA	NA	NA	8
+2021-06-18 10:12:22	"student011"	"student"	110	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:12:30	"teacher008"	"teacher"	111	"They are painting portraits of their children."	"They are painting portraits of their children."	NA	"5a"	"exercise"	"grammatical resource"	NA	NA	7
+2021-06-18 10:12:54	"student011"	"student"	112	"They are having?"	"They are having?"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:13:15	"student011"	"student"	113	"their children portraits painted"	"their children's portraits painted"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 10:13:24	"teacher008"	"teacher"	114	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:13:36	"student011"	"student"	115	"super )"	"super )"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:13:40	"teacher008"	"teacher"	116	"Have you done your hair? It looks great!"	"Have you done your hair? It looks great!"	NA	"5b"	"exercise"	"grammatical resource"	NA	NA	8
+2021-06-18 10:13:47	"student011"	"student"	117	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:14:03	"student011"	"student"	118	"how can you see it ))"	"how can you see it ))"	NA	NA	NA	NA	NA	NA	6
+2021-06-18 10:14:05	"student011"	"student"	119	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:14:09	"student011"	"student"	120	"it was a joke"	"it was a joke"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 10:14:21	"teacher008"	"teacher"	121	"Just a guess))"	"Just a guess))"	118	NA	NA	NA	NA	NA	3
+2021-06-18 10:14:40	"student011"	"student"	122	"do you have your hair done?"	"Have you had your hair done?"	120	NA	NA	NA	NA	NA	6
+2021-06-18 10:14:54	"student011"	"student"	123	"did you"	"did you"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:14:57	"student011"	"student"	124	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:15:03	"teacher008"	"teacher"	125	"Ok, now let's put it in present perfect))"	"Ok, now let's put it in present perfect))"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	8
+2021-06-18 10:15:30	"student011"	"student"	126	"Have you had your hair done?"	"Have you had your hair done?"	NA	NA	NA	NA	NA	NA	6
+2021-06-18 10:15:36	"teacher008"	"teacher"	127	"Yes!! Well done))"	"Yes!! Well done))"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:15:40	"student011"	"student"	128	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:16:00	"teacher008"	"teacher"	129	"I'm testing my eyes on Monday morning."	"I'm testing my eyes on Monday morning."	NA	"5c"	"exercise"	"grammatical resource"	NA	NA	7
+2021-06-18 10:16:51	"student011"	"student"	130	"I'm having my eyes tested onMonday morning"	"I'm having my eyes tested on Monday morning"	NA	NA	NA	NA	NA	NA	7
+2021-06-18 10:17:06	"teacher008"	"teacher"	131	"Absolutely, well done!"	"Absolutely, well done!"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:17:13	"teacher008"	"teacher"	132	"Where do you do your nails?"	"Where do you do your nails?"	NA	"5d"	"exercise"	"grammatical resource"	NA	NA	6
+2021-06-18 10:18:51	"student011"	"student"	133	"Where do you do your nails done?"	"Where do you have your nails done?"	NA	NA	NA	NA	NA	NA	7
+2021-06-18 10:18:54	"student011"	"student"	134	"hmhm"	"hmm"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:19:16	"teacher008"	"teacher"	135	"you need to have 'have something V3' there))"	"you need to have 'have something V3' there))"	NA	NA	"eliciting,scaffolding"	"grammatical resource"	NA	NA	8
+2021-06-18 10:19:45	"student011"	"student"	136	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:19:49	"student011"	"student"	137	"I see now"	"I see now"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:20:00	"student011"	"student"	138	"where do you have you nails done?"	"where do you have you nails done?"	NA	NA	NA	NA	NA	NA	7
+2021-06-18 10:20:26	"teacher008"	"teacher"	139	"Yes! That's it!"	"Yes! That's it!"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:20:38	"teacher008"	"teacher"	140	"Do you think I should pierce my tongue?"	"Do you think I should pierce my tongue?"	NA	"5e"	"exercise"	"grammatical resource"	NA	NA	8
+2021-06-18 10:21:04	"student011"	"student"	141	"тщ! )"	"тщ! )"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:21:07	"student011"	"student"	142	"no!"	"no!"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-06-18 10:21:18	"student011"	"student"	143	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:21:19	"teacher008"	"teacher"	144	"I know, it sounds very painful :)))"	"I know, it sounds very painful :)))"	NA	NA	NA	NA	NA	NA	7
+2021-06-18 10:21:31	"student011"	"student"	145	"I know that you wold like to do it )"	"I know that you would like to do it )"	NA	NA	NA	NA	NA	NA	10
+2021-06-18 10:21:42	"student011"	"student"	146	"ok )"	"ok )"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:21:44	"teacher008"	"teacher"	147	"My childhood dream!))"	"My childhood dream!))"	145	NA	NA	NA	NA	NA	3
+2021-06-18 10:21:50	"student011"	"student"	148	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:21:54	"student011"	"student"	149	"really? )"	"really? )"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:22:12	"teacher008"	"teacher"	150	"nooo, I'm joking))"	"nooo, I'm joking))"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:22:14	"student011"	"student"	151	"I wanted just have red hair )"	"I wanted just to have red hair )"	NA	NA	NA	NA	NA	NA	7
+2021-06-18 10:22:33	"teacher008"	"teacher"	152	"Oh yes, I went through this stage too!"	"Oh yes, I went through this stage too!"	NA	NA	NA	NA	NA	NA	8
+2021-06-18 10:22:38	"student011"	"student"	153	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:22:39	"student011"	"student"	154	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:22:44	"student011"	"student"	155	"let's practice"	"let's practise"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:23:11	"student011"	"student"	156	"Do you think I should have my tongue pierced?"	"Do you think I should have my tongue pierced?"	NA	NA	NA	NA	NA	NA	9
+2021-06-18 10:23:18	"teacher008"	"teacher"	157	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:23:20	"teacher008"	"teacher"	158	"Do it))"	"Do it))"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:23:43	"teacher008"	"teacher"	159	"Sorry, couldn't help it))"	"Sorry, couldn't help it))"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 10:23:49	"teacher008"	"teacher"	160	"And the last one!"	"And the last one!"	NA	"5f"	"exercise"	"grammatical resource"	NA	NA	4
+2021-06-18 10:23:57	"teacher008"	"teacher"	161	"They've burgled their flat three times!"	"They've burgled their flat three times!"	NA	NA	NA	NA	NA	NA	6
+2021-06-18 10:24:09	"student011"	"student"	162	"рфрф"	"рфрф"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:24:13	"student011"	"student"	163	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:25:01	"student011"	"student"	164	"They've had their flat burgled three times"	"They've had their flat burgled three times"	NA	NA	NA	NA	NA	NA	7
+2021-06-18 10:25:18	"teacher008"	"teacher"	165	"Yes, well done! Is it getting a bit easier? this structure?"	"Yes, well done! Is it getting a bit easier? this structure?"	NA	"5g"	NA	NA	NA	NA	11
+2021-06-18 10:25:37	"student011"	"student"	166	"yes, thank you )"	"yes, thank you )"	NA	NA	NA	NA	NA	NA	4
+2021-06-18 10:25:48	"teacher008"	"teacher"	167	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:27:02	"teacher008"	"teacher"	168	"What are your English-learning plans for the future, if I may ask? To take a break? Do something else?"	"What are your English-learning plans for the future, if I may ask? To take a break? Do something else?"	NA	"6.0"	"topic opening"	"meta knowledge"	NA	NA	19
+2021-06-18 10:27:39	"student011"	"student"	169	"Maybe I'll have a break for the summer"	"Maybe I'll have a break for the summer"	NA	NA	NA	NA	NA	NA	8
+2021-06-18 10:27:55	"student011"	"student"	170	"and than I'm not sure what I have to do"	"and then I'm not sure what I should do"	NA	NA	NA	NA	NA	NA	10
+2021-06-18 10:28:04	"teacher008"	"teacher"	171	"Yes, sure! It's important to have a break I think!"	"Yes, sure! It's important to have a break I think!"	NA	NA	NA	NA	NA	NA	10
+2021-06-18 10:28:15	"student011"	"student"	172	"if ou don't mind I'll ask you an advice later )"	"if you don't mind I'll ask you for advice later )"	NA	NA	NA	NA	NA	NA	11
+2021-06-18 10:28:32	"teacher008"	"teacher"	173	"Of course, I was just going to say, we can always talk about it later if you'd like!"	"Of course, I was just going to say, we can always talk about it later if you'd like!"	NA	NA	NA	NA	NA	NA	18
+2021-06-18 10:28:47	"student011"	"student"	174	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-06-18 10:28:59	"student011"	"student"	175	"I really enjoyed our chats )"	"I really enjoyed our chats )"	NA	"7.0"	"closing"	NA	NA	NA	6
+2021-06-18 10:29:02	"teacher008"	"teacher"	176	"Well, thank you very much for contributing to this project and helping science! It's been so much fun to talk to you here! :))"	"Well, thank you very much for contributing to this project and helping science! It's been so much fun to talk to you here! :))"	NA	NA	NA	NA	NA	NA	24
+2021-06-18 10:29:11	"teacher008"	"teacher"	177	"Me too, I've really enjoyed them!"	"Me too, I've really enjoyed them!"	175	NA	NA	NA	NA	NA	6
+2021-06-18 10:29:15	"student011"	"student"	178	"thank you very very much!"	"thank you very very much!"	176	NA	NA	NA	NA	NA	5
+2021-06-18 10:29:31	"teacher008"	"teacher"	179	"You're very welcome, and thank you!"	"You're very welcome, and thank you!"	NA	NA	NA	NA	NA	NA	6
+2021-06-18 10:29:32	"student011"	"student"	180	"xx"	"xx"	NA	NA	NA	NA	NA	NA	1
+2021-06-18 10:29:48	"teacher008"	"teacher"	181	"Take care, and speak to you later! xx"	"Take care, and speak to you later! xx"	NA	NA	NA	NA	NA	NA	8
+2021-06-18 10:29:59	"student011"	"student"	182	"you to!! have a good day!"	"you too!! have a good day!"	NA	NA	NA	NA	NA	NA	6
+2021-06-18 10:30:04	"student011"	"student"	183	"bye bye xx"	"bye bye xx"	NA	NA	NA	NA	NA	NA	3
+2021-06-18 10:30:15	"teacher008"	"teacher"	184	"Bye <STUDENT> :))"	"Bye <STUDENT> :))"	NA	NA	NA	NA	NA	"B2"	3

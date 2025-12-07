@@ -1,0 +1,179 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2021-02-04T08:10:24+00:00+00:00+00:00"	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2021-02-04T08:10:30+00:00+00:00+00:00"	"teacher008"	"teacher"	2	"Here I am, sorry!"	"Here I am, sorry!"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:11:44+00:00+00:00+00:00"	"student011"	"student"	3	"Hi!"	"Hi!"	"1.0"	NA	NA	NA	NA	NA	1
+"2021-02-04T08:12:02+00:00+00:00+00:00"	"student011"	"student"	4	"It's ok! I needed some time too"	"It's ok! I needed some time too"	"2.0"	NA	NA	NA	NA	NA	7
+"2021-02-04T08:12:35+00:00+00:00+00:00"	"teacher008"	"teacher"	5	"Good :)"	"Good :)"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:12:37+00:00+00:00+00:00"	"student011"	"student"	6	"Today I'm with <STUDENT'S CHILD> at home"	"Today I'm with <STUDENT'S CHILD> at home"	NA	"2.0"	"topic opening"	NA	NA	NA	7
+"2021-02-04T08:12:41+00:00+00:00+00:00"	"teacher008"	"teacher"	7	"How are you today?"	"How are you today?"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:12:50+00:00+00:00+00:00"	"student011"	"student"	8	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T08:12:51+00:00+00:00+00:00"	"teacher008"	"teacher"	9	"Oh I see! Has the nanny cancelled?"	"Oh I see! Has the nanny cancelled?"	"6.0"	NA	NA	NA	NA	NA	7
+"2021-02-04T08:13:00+00:00+00:00+00:00"	"student011"	"student"	10	"How are you? How is your neck?"	"How are you? How is your neck?"	NA	"2a"	"topic development"	NA	NA	NA	7
+"2021-02-04T08:13:28+00:00+00:00+00:00"	"teacher008"	"teacher"	11	"Much better, thank you! But now I've got to teach myself to sleep in a better position, which is really hard!"	"Much better, thank you! But now I've got to teach myself to sleep in a better position, which is really hard!"	NA	NA	NA	NA	NA	NA	21
+"2021-02-04T08:13:54+00:00+00:00+00:00"	"student011"	"student"	12	"No, no, she is here on Mondays, Wednesdays and Fridays. So today a nanny is me ))"	"No, no, she is here on Mondays, Wednesdays and Fridays. So today the nanny is me ))"	"9.0"	NA	NA	NA	NA	NA	17
+"2021-02-04T08:14:26+00:00+00:00+00:00"	"student011"	"student"	13	"do you prefer to sleep on the back?"	"Do you prefer to sleep on the back?"	"11.0"	NA	NA	NA	NA	NA	8
+"2021-02-04T08:14:33+00:00+00:00+00:00"	"teacher008"	"teacher"	14	"Aah, of course, I'm with you! I'll try to offer you classes on Mondays, Wednesdays and Fridays then"	"Aah, of course, I'm with you! I'll try to offer you classes on Mondays, Wednesdays and Fridays then"	"12.0"	NA	NA	NA	NA	NA	18
+"2021-02-04T08:14:51+00:00+00:00+00:00"	"teacher008"	"teacher"	15	"I sleep on my front, but I have to sleep on my side or my back!"	"I sleep on my front, but I have to sleep on my side or my back!"	"13.0"	NA	NA	NA	NA	NA	16
+"2021-02-04T08:14:53+00:00+00:00+00:00"	"student011"	"student"	16	"And you did"	"And you did"	"14.0"	NA	NA	NA	NA	NA	3
+"2021-02-04T08:15:02+00:00+00:00+00:00"	"teacher008"	"teacher"	17	"Did I? Good))"	"Did I? Good))"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T08:15:54+00:00+00:00+00:00"	"student011"	"student"	18	"But I couldn't do yesterday because I had to bring <STUDENT'S CHILD> to the doctor"	"But I couldn't do yesterday because I had to take <STUDENT'S CHILD> to the doctor"	"16.0"	NA	NA	NA	NA	NA	15
+"2021-02-04T08:16:02+00:00+00:00+00:00"	"student011"	"student"	19	"Not bring I think"	"Not bring I think"	NA	"2b"	"enquiry"	"lexical resource"	NA	NA	4
+"2021-02-04T08:16:06+00:00+00:00+00:00"	"teacher008"	"teacher"	20	"Right I see. Take"	"Right I see. Take"	"18, 19"	NA	"scaffolding"	"lexical resource"	NA	NA	4
+"2021-02-04T08:16:12+00:00+00:00+00:00"	"teacher008"	"teacher"	21	"Take <STUDENT'S CHILD> to the doctor"	"Take <STUDENT'S CHILD> to the doctor"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2021-02-04T08:16:17+00:00+00:00+00:00"	"student011"	"student"	22	"Sure. Take"	"Sure. Take"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:17:13+00:00+00:00+00:00"	"teacher008"	"teacher"	23	"Ok, just do what you can today then, if you need to stop early, no problem, ok?"	"Ok, just do what you can today then, if you need to stop early, no problem, ok?"	"18.0"	NA	NA	NA	NA	NA	17
+"2021-02-04T08:18:02+00:00+00:00+00:00"	"student011"	"student"	24	"Ok! Thank you"	"Ok! Thank you"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T08:18:21+00:00+00:00+00:00"	"student011"	"student"	25	"I think the lesson till 11 am will be ok )"	"I think the lesson till 11 am will be ok )"	NA	NA	NA	NA	NA	NA	11
+"2021-02-04T08:18:35+00:00+00:00+00:00"	"teacher008"	"teacher"	26	"Ok, lovely"	"Ok, lovely"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:18:49+00:00+00:00+00:00"	"student011"	"student"	27	"We have to go to Nova Poshta with <STUDENT'S CHILD> to pick her new book )"	"We have to go to Nova Poshta with <STUDENT'S CHILD> to pick up her new book )"	NA	NA	NA	NA	NA	NA	16
+"2021-02-04T08:18:58+00:00+00:00+00:00"	"teacher008"	"teacher"	28	"Exciting!"	"Exciting!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:19:28+00:00+00:00+00:00"	"teacher008"	"teacher"	29	"Do you go to bookshops sometimes or do you order books online?"	"Do you go to bookshops sometimes or do you order books online?"	NA	"2c"	"topic development"	NA	NA	NA	12
+"2021-02-04T08:19:48+00:00+00:00+00:00"	"student011"	"student"	30	"An I would like to do it before her lunch and the nip"	"And I would like to do it before her lunch and the nap"	NA	NA	NA	NA	NA	NA	13
+"2021-02-04T08:19:59+00:00+00:00+00:00"	"student011"	"student"	31	"nip? Am I right?"	"nap? Am I right?"	NA	"2d"	"enquiry"	"lexical resource"	NA	NA	4
+"2021-02-04T08:20:03+00:00+00:00+00:00"	"teacher008"	"teacher"	32	"nap"	"nap"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+"2021-02-04T08:20:10+00:00+00:00+00:00"	"student011"	"student"	33	"Yes! Nap"	"Yes! Nap"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:20:15+00:00+00:00+00:00"	"teacher008"	"teacher"	34	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:20:32+00:00+00:00+00:00"	"student011"	"student"	35	"I felt like something wrong )))))"	"I felt like something wrong )))))"	NA	NA	NA	NA	NA	NA	6
+"2021-02-04T08:20:33+00:00+00:00+00:00"	"student011"	"student"	36	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:20:45+00:00+00:00+00:00"	"teacher008"	"teacher"	37	":))"	":))"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:20:53+00:00+00:00+00:00"	"teacher008"	"teacher"	38	"You were close!"	"You were close!"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T08:21:19+00:00+00:00+00:00"	"student011"	"student"	39	"But I think nobody would understand me ))"	"But I think nobody would understand me ))"	NA	NA	NA	NA	NA	NA	8
+"2021-02-04T08:21:43+00:00+00:00+00:00"	"teacher008"	"teacher"	40	"They might have questions))"	"They might have questions))"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:21:53+00:00+00:00+00:00"	"student011"	"student"	41	"sure )"	"sure )"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:22:36+00:00+00:00+00:00"	"student011"	"student"	42	"So as you see I started to do a nap for <STUDENT'S CHILD> again"	"So as you see I started to put down <STUDENT'S CHILD> to nap again"	NA	"2e"	"topic development"	NA	NA	NA	14
+"2021-02-04T08:23:05+00:00+00:00+00:00"	"student011"	"student"	43	"It looks like she need it"	"It looks like she needs it"	NA	NA	NA	NA	NA	NA	6
+"2021-02-04T08:23:22+00:00+00:00+00:00"	"teacher008"	"teacher"	44	"Oh right, you stopped for a while, didn't you? Does she still go to bed pretty late at night then?"	"Oh right, you stopped for a while, didn't you? Does she still go to bed pretty late at night then?"	NA	NA	NA	NA	NA	NA	20
+"2021-02-04T08:23:38+00:00+00:00+00:00"	"student011"	"student"	45	"But I don't like she started to go to bed later in the evening"	"But I don't like it that she started to go to bed later in the evening"	NA	NA	NA	NA	NA	NA	14
+"2021-02-04T08:24:29+00:00+00:00+00:00"	"teacher008"	"teacher"	46	"Yes, it's a difficult choice!"	"Yes, it's a difficult choice!"	NA	NA	NA	NA	NA	NA	5
+"2021-02-04T08:24:36+00:00+00:00+00:00"	"student011"	"student"	47	"When she doesn't have a nap it's ok, but when she has it she goes to bed later ("	"When she doesn't have a nap it's ok, but when she has it she goes to bed later ("	NA	NA	NA	NA	NA	NA	19
+"2021-02-04T08:25:24+00:00+00:00+00:00"	"teacher008"	"teacher"	48	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:25:27+00:00+00:00+00:00"	"student011"	"student"	49	"I don't like the schedule like this"	"I don't like the schedule like this"	NA	NA	NA	NA	NA	NA	7
+"2021-02-04T08:25:47+00:00+00:00+00:00"	"teacher008"	"teacher"	50	"At least you get some time to yourself during the day. Or the nanny does :)"	"At least you get some time to yourself during the day. Or the nanny does :)"	NA	NA	NA	NA	NA	NA	16
+"2021-02-04T08:25:50+00:00+00:00+00:00"	"student011"	"student"	51	"But I feel she needs a nap"	"But I feel she needs a nap"	"49.0"	NA	NA	NA	NA	NA	7
+"2021-02-04T08:26:23+00:00+00:00+00:00"	"student011"	"student"	52	"Yes, you are right, but"	"Yes, you are right, but"	"50.0"	NA	NA	NA	NA	NA	5
+"2021-02-04T08:26:25+00:00+00:00+00:00"	"student011"	"student"	53	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:26:32+00:00+00:00+00:00"	"teacher008"	"teacher"	54	"This is so 'cultural' too, weirdly. In the UK, a 3-year-old hardly ever naps, but in Ukraine they mostly do!"	"This is so 'cultural' too, weirdly. In the UK, a 3-year-old hardly ever naps, but in Ukraine they mostly do!"	NA	"2f"	"topic development"	NA	NA	NA	20
+"2021-02-04T08:26:38+00:00+00:00+00:00"	"student011"	"student"	55	"I don't know the word"	"I don't know the word"	"53.0"	NA	NA	NA	NA	NA	5
+"2021-02-04T08:27:06+00:00+00:00+00:00"	"student011"	"student"	56	"like I 'razuchilas'"	"like I 'razuchilas'"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+"2021-02-04T08:27:25+00:00+00:00+00:00"	"teacher008"	"teacher"	57	"you unlearned something?"	"you unlearned something?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+"2021-02-04T08:27:30+00:00+00:00+00:00"	"student011"	"student"	58	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:28:03+00:00+00:00+00:00"	"student011"	"student"	59	"I've unlearned to use her nap to do something )"	"I've unlearned to use her nap to do something )"	NA	NA	NA	NA	NA	NA	10
+"2021-02-04T08:28:18+00:00+00:00+00:00"	"student011"	"student"	60	"I feel like that )"	"I feel like that )"	NA	NA	NA	NA	NA	NA	5
+"2021-02-04T08:28:30+00:00+00:00+00:00"	"teacher008"	"teacher"	61	"Maybe you just relax? That's important too!"	"Maybe you just relax? That's important too!"	NA	NA	NA	NA	NA	NA	7
+"2021-02-04T08:28:51+00:00+00:00+00:00"	"student011"	"student"	62	"Yes, it's strange. I don't think that the toddlers are different"	"Yes, it's strange. I don't think that toddlers are different"	"54.0"	NA	NA	NA	NA	NA	11
+"2021-02-04T08:29:12+00:00+00:00+00:00"	"student011"	"student"	63	"It looks more like different tradition"	"It looks more like different traditions"	NA	NA	NA	NA	NA	NA	6
+"2021-02-04T08:29:21+00:00+00:00+00:00"	"teacher008"	"teacher"	64	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:29:40+00:00+00:00+00:00"	"student011"	"student"	65	"you are right! Relax is the best option )"	"you are right! To relax is the best option )"	"61.0"	NA	NA	NA	NA	NA	9
+"2021-02-04T08:29:40+00:00+00:00+00:00"	"teacher008"	"teacher"	66	"And then children are expected to go to bed at 7 pm, which is nice"	"And then children are expected to go to bed at 7 pm, which is nice"	"64.0"	NA	NA	NA	NA	NA	15
+"2021-02-04T08:29:43+00:00+00:00+00:00"	"teacher008"	"teacher"	67	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:29:58+00:00+00:00+00:00"	"student011"	"student"	68	"I like it )"	"I like it )"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:30:21+00:00+00:00+00:00"	"student011"	"student"	69	"but for me it's not very convenient too"	"but for me it's not very convenient either"	NA	NA	NA	NA	NA	NA	8
+"2021-02-04T08:30:30+00:00+00:00+00:00"	"teacher008"	"teacher"	70	"If a toddler is tired, they start to get grumpy"	"If a toddler is tired, they start to get grumpy"	NA	NA	NA	NA	NA	NA	10
+"2021-02-04T08:30:38+00:00+00:00+00:00"	"teacher008"	"teacher"	71	"Oh, then she doesn't see <STUDENT'S HUSBAND>?"	"Oh, then she doesn't see <STUDENT'S HUSBAND>?"	"69.0"	NA	NA	NA	NA	NA	7
+"2021-02-04T08:30:55+00:00+00:00+00:00"	"student011"	"student"	72	"Our nanny works three days per week but from 8 am till 8 pm"	"Our nanny works three days per week but from 8 am till 8 pm"	NA	NA	NA	NA	NA	NA	14
+"2021-02-04T08:31:27+00:00+00:00+00:00"	"student011"	"student"	73	"So if <STUDENT'S CHILD> goes to bed at 7 pm I won't see her before it"	"So if <STUDENT'S CHILD> goes to bed at 7 pm I won't see her before it"	NA	NA	NA	NA	NA	NA	16
+"2021-02-04T08:31:31+00:00+00:00+00:00"	"teacher008"	"teacher"	74	"I see the problem yes!"	"I see the problem yes!"	NA	NA	NA	NA	NA	NA	5
+"2021-02-04T08:32:16+00:00+00:00+00:00"	"student011"	"student"	75	"Sometimes I come home at 7 pm, but usually it's 7:45-8 pm"	"Sometimes I come home at 7 pm, but usually it's 7:45-8 pm"	NA	NA	NA	NA	NA	NA	12
+"2021-02-04T08:32:26+00:00+00:00+00:00"	"student011"	"student"	76	"I mean when the nanny is here"	"I mean when the nanny is here"	NA	NA	NA	NA	NA	NA	7
+"2021-02-04T08:32:41+00:00+00:00+00:00"	"teacher008"	"teacher"	77	"Ah, yes, I see!"	"Ah, yes, I see!"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:32:52+00:00+00:00+00:00"	"student011"	"student"	78	"Ok"	"Ok"	"29.0"	NA	NA	NA	NA	NA	1
+"2021-02-04T08:32:55+00:00+00:00+00:00"	"student011"	"student"	79	"about book"	"about book"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:33:01+00:00+00:00+00:00"	"student011"	"student"	80	"*books"	"*books"	NA	NA	"repair"	"writing"	NA	NA	1
+"2021-02-04T08:33:17+00:00+00:00+00:00"	"student011"	"student"	81	"Usually I order them online"	"Usually I order them online"	NA	NA	NA	NA	NA	NA	5
+"2021-02-04T08:33:37+00:00+00:00+00:00"	"student011"	"student"	82	"We try to avoid shops now"	"We try to avoid shops now"	NA	NA	NA	NA	NA	NA	6
+"2021-02-04T08:34:11+00:00+00:00+00:00"	"student011"	"student"	83	"Especially big malls"	"Especially big malls"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T08:34:49+00:00+00:00+00:00"	"teacher008"	"teacher"	84	"Yes, sure. We buy most things online now too, but I try not to buy books from Amazon because, you know, the ex-owner of Amazon is the richest man in the world. Surely, he doesn't need my money"	"Yes, sure. We buy most things online now too, but I try not to buy books from Amazon because, you know, the ex-owner of Amazon is the richest man in the world. Surely, he doesn't need my money"	NA	NA	NA	NA	NA	NA	38
+"2021-02-04T08:35:03+00:00+00:00+00:00"	"student011"	"student"	85	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:35:04+00:00+00:00+00:00"	"student011"	"student"	86	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:35:07+00:00+00:00+00:00"	"teacher008"	"teacher"	87	"But it's hard because they are cheaper on Amazon!"	"But it's hard because they are cheaper on Amazon!"	NA	NA	NA	NA	NA	NA	9
+"2021-02-04T08:35:49+00:00+00:00+00:00"	"teacher008"	"teacher"	88	"than at 'indie' bookshops"	"than at 'indie' bookshops"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:35:53+00:00+00:00+00:00"	"student011"	"student"	89	"We have a big online book shop Yakaboo here in Ukraine"	"We have a big online book shop Yakaboo here in Ukraine"	NA	NA	NA	NA	NA	NA	11
+"2021-02-04T08:36:19+00:00+00:00+00:00"	"student011"	"student"	90	"They do very fast and cheap delivery"	"They do a very fast and cheap delivery"	NA	NA	NA	NA	NA	NA	7
+"2021-02-04T08:36:20+00:00+00:00+00:00"	"teacher008"	"teacher"	91	"Ah yes, I remember"	"Ah yes, I remember"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:36:42+00:00+00:00+00:00"	"student011"	"student"	92	"But book are more expensive there"	"But books are more expensive there"	NA	NA	NA	NA	NA	NA	6
+"2021-02-04T08:36:52+00:00+00:00+00:00"	"teacher008"	"teacher"	93	"than at shops?"	"than at shops?"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T08:37:07+00:00+00:00+00:00"	"student011"	"student"	94	"So I try to buy from smaller online shops"	"So I try to buy from smaller online shops"	NA	NA	NA	NA	NA	NA	9
+"2021-02-04T08:37:37+00:00+00:00+00:00"	"student011"	"student"	95	"It's cheaper but I still need to pay more for the delivery via Nova Poshta"	"It's cheaper but I still need to pay more for the delivery via Nova Poshta"	NA	NA	NA	NA	NA	NA	15
+"2021-02-04T08:37:46+00:00+00:00+00:00"	"teacher008"	"teacher"	96	"I see, interesting! It's the other way round in Ukraine then"	"I see, interesting! It's the other way round in Ukraine then"	NA	NA	NA	NA	NA	NA	11
+"2021-02-04T08:38:03+00:00+00:00+00:00"	"teacher008"	"teacher"	97	"Oh, have you had a chance to watch the video about cars?"	"Oh, have you had a chance to watch the video about cars?"	NA	"3.0"	"exercise,homework"	"listening,writing"	"website"	NA	12
+"2021-02-04T08:38:39+00:00+00:00+00:00"	"student011"	"student"	98	"But I feel like I help to work small игыштуыы )"	"But I feel like I help small businesses)"	"96.0"	NA	NA	NA	NA	NA	11
+"2021-02-04T08:38:42+00:00+00:00+00:00"	"student011"	"student"	99	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:38:44+00:00+00:00+00:00"	"student011"	"student"	100	"business"	"businesses"	"98.0"	NA	"repair"	"writing"	NA	NA	1
+"2021-02-04T08:38:57+00:00+00:00+00:00"	"teacher008"	"teacher"	101	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:39:01+00:00+00:00+00:00"	"student011"	"student"	102	"Yes! I've watched it!"	"Yes! I've watched it!"	"97.0"	NA	NA	NA	NA	NA	4
+"2021-02-04T08:39:15+00:00+00:00+00:00"	"teacher008"	"teacher"	103	"Ok, can you tell me in a few words what it is about?"	"Ok, can you tell me in a few words what it is about?"	NA	NA	"eliciting"	"listening,writing"	NA	NA	13
+"2021-02-04T08:39:39+00:00+00:00+00:00"	"student011"	"student"	104	"It's about future )"	"It's about the future )"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:40:23+00:00+00:00+00:00"	"student011"	"student"	105	"There is a plan to use electric car by 2030"	"There is a plan to use electric cars by 2030"	NA	NA	NA	NA	NA	NA	10
+"2021-02-04T08:40:41+00:00+00:00+00:00"	"student011"	"student"	106	"it's quite ambitious plan but still"	"it's quite an ambitious plan but still"	NA	NA	NA	NA	NA	NA	6
+"2021-02-04T08:41:10+00:00+00:00+00:00"	"teacher008"	"teacher"	107	"Yes, it's an ambitious plan! Good expression"	"Yes, it's an ambitious plan! Good expression"	NA	NA	NA	NA	NA	NA	7
+"2021-02-04T08:41:25+00:00+00:00+00:00"	"student011"	"student"	108	"A big car companies doesn't sure that it will be easy"	"And big car companies aren't sure that it will be easy"	NA	NA	NA	NA	NA	NA	11
+"2021-02-04T08:41:45+00:00+00:00+00:00"	"student011"	"student"	109	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:41:52+00:00+00:00+00:00"	"teacher008"	"teacher"	110	"Well, they plan to ban the sales of new petrol / diesel cars, but if you already own one, you can still drive it!"	"Well, they plan to ban the sales of new petrol / diesel cars, but if you already own one, you can still drive it!"	NA	NA	NA	NA	NA	NA	24
+"2021-02-04T08:42:19+00:00+00:00+00:00"	"teacher008"	"teacher"	111	"Also, there is a huge market of used cars in the UK. People will be able to buy a used petrol car, but not a new one"	"Also, there is a huge market of used cars in the UK. People will be able to buy a used petrol car, but not a new one"	NA	NA	NA	NA	NA	NA	27
+"2021-02-04T08:42:24+00:00+00:00+00:00"	"student011"	"student"	112	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:43:07+00:00+00:00+00:00"	"teacher008"	"teacher"	113	"And what are some of the problems that the owners of electric cars might face now?"	"And what are some of the problems that the owners of electric cars might face now?"	NA	"3a"	"eliciting"	"listening,writing"	NA	NA	16
+"2021-02-04T08:43:40+00:00+00:00+00:00"	"student011"	"student"	114	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:45:05+00:00+00:00+00:00"	"student011"	"student"	115	"they need more charge points"	"they need more charge points"	NA	NA	NA	NA	NA	NA	5
+"2021-02-04T08:45:18+00:00+00:00+00:00"	"teacher008"	"teacher"	116	"Yes, definitely!"	"Yes, definitely!"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:45:36+00:00+00:00+00:00"	"student011"	"student"	117	"something else?"	"something else?"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:46:01+00:00+00:00+00:00"	"student011"	"student"	118	"I remember the woman who was talking about charge points )"	"I remember the woman who was talking about charge points )"	NA	NA	NA	NA	NA	NA	11
+"2021-02-04T08:46:11+00:00+00:00+00:00"	"teacher008"	"teacher"	119	"That's the main thing, really. I read that a new battery has been invented that can be charged within 5 minutes"	"That's the main thing, really. I read that a new battery has been invented that can be charged within 5 minutes"	NA	NA	NA	NA	NA	NA	21
+"2021-02-04T08:46:23+00:00+00:00+00:00"	"student011"	"student"	120	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:46:40+00:00+00:00+00:00"	"teacher008"	"teacher"	121	"Because, you know, if you are on a motorway and run out of battery, you have to find a charge point and charge for several hours"	"Because, you know, if you are on a motorway and run out of battery, you have to find a charge point and charge for several hours"	NA	NA	NA	NA	NA	NA	26
+"2021-02-04T08:46:51+00:00+00:00+00:00"	"teacher008"	"teacher"	122	"Which is not as good as filling the car with petrol!"	"Which is not as good as filling the car with petrol!"	NA	NA	NA	NA	NA	NA	11
+"2021-02-04T08:47:28+00:00+00:00+00:00"	"teacher008"	"teacher"	123	"But the technology is here, it just needs to become widespread"	"But the technology is here, it just needs to become widespread"	NA	NA	NA	NA	NA	NA	11
+"2021-02-04T08:47:32+00:00+00:00+00:00"	"student011"	"student"	124	"I know that now it's the most difficult thing with electric car to find a charge point and to spend enough time for charging"	"I know that now it's the most difficult thing about electric cars, to find a charge point and to spend enough time on charging"	NA	NA	NA	NA	NA	NA	24
+"2021-02-04T08:47:41+00:00+00:00+00:00"	"teacher008"	"teacher"	125	"Big car companies ____ sure it will be easy (sure is an adjective)"	"Big car companies ____ sure it will be easy (sure is an adjective)"	NA	"3b"	"eliciting,repair"	"grammatical resource"	NA	NA	13
+"2021-02-04T08:48:03+00:00+00:00+00:00"	"student011"	"student"	126	"are sure?"	"are sure?"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:48:15+00:00+00:00+00:00"	"teacher008"	"teacher"	127	"Yes! Some people might charge it at home or in their garage, but for that they need ___-____ parking"	"Yes! Some people might charge it at home or in their garage, but for that they need ___-____ parking"	"124.0"	"3c"	"eliciting,revision"	"lexical resource"	NA	NA	19
+"2021-02-04T08:48:27+00:00+00:00+00:00"	"teacher008"	"teacher"	128	"Yes, or 'aren't sure' in this case"	"Yes, or 'aren't sure' in this case"	"126.0"	NA	NA	NA	NA	NA	7
+"2021-02-04T08:48:46+00:00+00:00+00:00"	"student011"	"student"	129	"off-sreet"	"off-street"	"127.0"	NA	NA	NA	NA	NA	1
+"2021-02-04T08:48:54+00:00+00:00+00:00"	"student011"	"student"	130	"*off-street"	"*off-street"	NA	NA	"repair"	"writing"	NA	NA	1
+"2021-02-04T08:49:23+00:00+00:00+00:00"	"teacher008"	"teacher"	131	"correct!"	"correct!"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T08:49:24+00:00+00:00+00:00"	"student011"	"student"	132	"Ah! sure! They aren't sure!"	"Ah! sure! They aren't sure!"	"128.0"	NA	NA	NA	NA	NA	5
+"2021-02-04T08:49:36+00:00+00:00+00:00"	"teacher008"	"teacher"	133	"Have you guys got off-street parking?"	"Have you guys got off-street parking?"	NA	"3d"	"eliciting"	"writing,lexical resource"	NA	NA	6
+"2021-02-04T08:50:10+00:00+00:00+00:00"	"student011"	"student"	134	"we have a big parking here in our building"	"we have a big car park here in our building"	NA	NA	NA	NA	NA	NA	9
+"2021-02-04T08:50:25+00:00+00:00+00:00"	"teacher008"	"teacher"	135	"Oh, a big car park? Underground?"	"Oh, a big car park? Underground?"	NA	NA	"repair"	"lexical resource"	NA	NA	6
+"2021-02-04T08:50:34+00:00+00:00+00:00"	"student011"	"student"	136	"I'm not sure that it's exactly off-street parking )"	"I'm not sure that it's exactly off-street parking )"	"134.0"	NA	NA	NA	NA	NA	9
+"2021-02-04T08:50:54+00:00+00:00+00:00"	"student011"	"student"	137	"Yes! Underground!"	"Yes! Underground!"	"135.0"	NA	NA	NA	NA	NA	2
+"2021-02-04T08:51:12+00:00+00:00+00:00"	"student011"	"student"	138	"So does it call car park?"	"So is it called a car park?"	NA	"3e"	"enquiry"	"lexical resource"	NA	NA	6
+"2021-02-04T08:51:49+00:00+00:00+00:00"	"teacher008"	"teacher"	139	"Yes, it's called a car park. Off-street / on-street parking is more of a situation"	"Yes, it's called a car park. Off-street / on-street parking is more of a situation"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+"2021-02-04T08:52:28+00:00+00:00+00:00"	"student011"	"student"	140	"of a situation?"	"of a situation?"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T08:52:36+00:00+00:00+00:00"	"teacher008"	"teacher"	141	"But the place is a car park. You can have your own 'parking spot' at a car park"	"But the place is a car park. You can have your own 'parking spot' at a car park"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+"2021-02-04T08:52:54+00:00+00:00+00:00"	"teacher008"	"teacher"	142	"Sorry, I'll try to explain better"	"Sorry, I'll try to explain better"	NA	NA	NA	NA	NA	NA	6
+"2021-02-04T08:53:09+00:00+00:00+00:00"	"student011"	"student"	143	"Ah! I see now"	"Ah! I see now"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:53:33+00:00+00:00+00:00"	"student011"	"student"	144	"So we have a parking spot which we rent from the owner"	"So we have a parking spot which we rent from the owner"	NA	NA	NA	NA	NA	NA	12
+"2021-02-04T08:53:51+00:00+00:00+00:00"	"student011"	"student"	145	"it's to expensive to buy"	"it's too expensive to buy"	NA	NA	NA	NA	NA	NA	5
+"2021-02-04T08:53:57+00:00+00:00+00:00"	"student011"	"student"	146	"too"	"too"	NA	NA	"repair"	"writing"	NA	NA	1
+"2021-02-04T08:54:07+00:00+00:00+00:00"	"teacher008"	"teacher"	147	"I remember, you said!"	"I remember, you said!"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T08:54:25+00:00+00:00+00:00"	"student011"	"student"	148	"Ah, right! )"	"Ah, right! )"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T08:54:39+00:00+00:00+00:00"	"teacher008"	"teacher"	149	"On-street parking means parking your vehicle on the street, anywhere on or along the curb of streets, in contrast to parking it in a parking garage. In some streets you can always park your vehicle on the street, but sometimes there are restrictions. Mostly these restrictions are presented on traffic signs. Sometimes you’re only allowed to park on one side of the street, and sometimes you’re not allowed to park your vehicle at all."	"On-street parking means parking your vehicle on the street, anywhere on or along the curb of streets, in contrast to parking it in a parking garage. In some streets you can always park your vehicle on the street, but sometimes there are restrictions. Mostly these restrictions are presented on traffic signs. Sometimes you’re only allowed to park on one side of the street, and sometimes you’re not allowed to park your vehicle at all."	NA	NA	"scaffolding"	"lexical resource,meaning"	"website"	NA	74
+"2021-02-04T08:55:25+00:00+00:00+00:00"	"student011"	"student"	150	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:55:49+00:00+00:00+00:00"	"teacher008"	"teacher"	151	"This is a piece from the website about parking rules :)"	"This is a piece from the website about parking rules :)"	NA	NA	NA	NA	NA	NA	11
+"2021-02-04T08:56:19+00:00+00:00+00:00"	"student011"	"student"	152	"I see, it's not your style to explain ))))"	"I see, it's not your style of explanation ))))"	NA	NA	NA	NA	NA	NA	9
+"2021-02-04T08:56:30+00:00+00:00+00:00"	"teacher008"	"teacher"	153	"That's right))"	"That's right))"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:56:58+00:00+00:00+00:00"	"teacher008"	"teacher"	154	"But you can still say, for example, this house has off-street parking (which means there is a driveway probably)"	"But you can still say, for example, this house has off-street parking (which means there is a driveway probably)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+"2021-02-04T08:57:11+00:00+00:00+00:00"	"teacher008"	"teacher"	155	"Estate agents especially like to say this"	"Estate agents especially like to say this"	NA	NA	NA	NA	NA	NA	7
+"2021-02-04T08:57:43+00:00+00:00+00:00"	"student011"	"student"	156	"No garage but the place for a car"	"No garage but the place for a car"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+"2021-02-04T08:58:19+00:00+00:00+00:00"	"teacher008"	"teacher"	157	"I think it's a bit hard to explain because in Ukraine off-street parking is usually a garage or a car park, but here it's often a driveway because many people live in houses"	"I think it's a bit hard to explain because in Ukraine off-street parking is usually a garage or a car park, but here it's often a driveway because many people live in houses"	NA	NA	NA	NA	NA	NA	33
+"2021-02-04T08:58:37+00:00+00:00+00:00"	"student011"	"student"	158	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T08:58:54+00:00+00:00+00:00"	"teacher008"	"teacher"	159	"Yes, check out this picture, for example"	"Yes, check out this picture, for example"	NA	NA	"scaffolding"	"lexical resource,meaning"	"website"	NA	7
+"2021-02-04T08:58:55+00:00+00:00+00:00"	"student011"	"student"	160	"I remember it from my visit to York"	"I remember it from my visit to York"	"158.0"	NA	NA	NA	NA	NA	8
+"2021-02-04T08:59:21+00:00+00:00+00:00"	"student011"	"student"	162	"Mike's parents had it I think"	"Mike's parents had it I think"	"160.0"	NA	NA	NA	NA	NA	6
+"2021-02-04T08:59:40+00:00+00:00+00:00"	"student011"	"student"	163	"I mean a driveway"	"I mean a driveway"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T09:00:10+00:00+00:00+00:00"	"teacher008"	"teacher"	164	"Yes, many people have it! I don't know if the link works, but if you just google 'a driveway' you can see the images"	"Yes, many people have it! I don't know if the link works, but if you just google 'a driveway' you can see the images"	NA	NA	"scaffolding,reference"	"lexical resource"	"website"	NA	24
+"2021-02-04T09:00:49+00:00+00:00+00:00"	"student011"	"student"	165	"Yes! Thank you"	"Yes! Thank you"	NA	NA	NA	NA	NA	NA	3
+"2021-02-04T09:01:32+00:00+00:00+00:00"	"teacher008"	"teacher"	166	"I know you've been to London loads, I don't know what the situation is like in the city centre, there are probably car parks"	"I know you've been to London loads, I don't know what the situation is like in the city centre, there are probably car parks"	NA	NA	NA	NA	NA	NA	24
+"2021-02-04T09:01:34+00:00+00:00+00:00"	"student011"	"student"	167	"I even found 'Why Choose Resin Over Other Driveway Materials?'for your driveway )"	"I even found 'Why Choose Resin Over Other Driveway Materials?' for your driveway )"	"165.0"	NA	NA	NA	NA	NA	13
+"2021-02-04T09:01:57+00:00+00:00+00:00"	"teacher008"	"teacher"	168	"Yes!! We get a lot of ads for driveways))))"	"Yes!! We get a lot of ads for driveways))))"	NA	NA	NA	NA	NA	NA	9
+"2021-02-04T09:02:10+00:00+00:00+00:00"	"student011"	"student"	169	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+"2021-02-04T09:02:41+00:00+00:00+00:00"	"teacher008"	"teacher"	170	"I think by resin they mean this tennis court sort of cover, do you know what I mean?"	"I think by resin they mean this tennis court sort of cover, do you know what I mean?"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+"2021-02-04T09:02:50+00:00+00:00+00:00"	"student011"	"student"	171	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T09:02:56+00:00+00:00+00:00"	"teacher008"	"teacher"	172	"I've got to let you go pick up <STUDENT'S CHILD>'s new book!"	"I've got to let you go pick up <STUDENT'S CHILD>'s new book!"	NA	"4.0"	"closing"	NA	NA	NA	12
+"2021-02-04T09:03:03+00:00+00:00+00:00"	"student011"	"student"	173	"They have a picture )"	"They have a picture )"	"171.0"	NA	NA	NA	NA	NA	5
+"2021-02-04T09:03:10+00:00+00:00+00:00"	"student011"	"student"	174	"Thank you"	"Thank you"	"172.0"	NA	NA	NA	NA	NA	2
+"2021-02-04T09:03:27+00:00+00:00+00:00"	"student011"	"student"	175	"See you tomorrow )"	"See you tomorrow )"	NA	NA	NA	NA	NA	NA	4
+"2021-02-04T09:03:38+00:00+00:00+00:00"	"teacher008"	"teacher"	176	"And I'll talk to you tomorrow! That's right, have a lovely day!"	"And I'll talk to you tomorrow! That's right, have a lovely day!"	NA	NA	NA	NA	NA	NA	12
+"2021-02-04T09:03:43+00:00+00:00+00:00"	"student011"	"student"	177	"bye xx"	"bye xx"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T09:03:47+00:00+00:00+00:00"	"teacher008"	"teacher"	178	"Bye :)"	"Bye :)"	NA	NA	NA	NA	NA	NA	2
+"2021-02-04T09:03:50+00:00+00:00+00:00"	"student011"	"student"	179	"You too! )"	"You too! )"	NA	NA	NA	NA	NA	"B2"	3

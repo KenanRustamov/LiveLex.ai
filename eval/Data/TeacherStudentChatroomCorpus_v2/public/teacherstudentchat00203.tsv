@@ -1,0 +1,193 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-17 08:08:12	"student011"	"student"	1	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-02-17 08:08:19	"teacher008"	"teacher"	2	"Morning!"	"Morning!"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:08:22	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-02-17 08:08:32	"student011"	"student"	4	"Sorry for being late"	"Sorry for being late"	NA	"1a"	NA	NA	NA	NA	4
+2021-02-17 08:08:38	"teacher008"	"teacher"	5	"No worries"	"No worries"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:08:41	"student011"	"student"	6	"Fine, thank you"	"Fine, thank you"	3	NA	NA	NA	NA	NA	3
+2021-02-17 08:08:46	"student011"	"student"	7	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:09:16	"teacher008"	"teacher"	8	"Good too, thank you. The cold spell seems to be over here, and now it's +10 and raining"	"Good too, thank you. The cold spell seems to be over here, and now it's +10 and raining"	NA	"2a"	"topic development"	NA	NA	NA	18
+2021-02-17 08:09:49	"student011"	"student"	9	"Oh!"	"Oh!"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:10:16	"student011"	"student"	10	"It looks more like usual British weather )"	"It looks more like the usual British weather )"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 08:10:49	"teacher008"	"teacher"	11	"Yes, exactly! What's it like in Kyiv? Is it -23 as you said it would be?"	"Yes, exactly! What's it like in Kyiv? Is it -23 as you said it would be?"	NA	"2b"	"topic development"	NA	NA	NA	16
+2021-02-17 08:11:08	"student011"	"student"	12	"It's not extremely cold here too. Just -11 )"	"It's not extremely cold here either. Just -11 )"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 08:12:07	"student011"	"student"	13	"Not now, but for the Thursday night the broadcast shows me -22"	"Not now, but for Thursday night the forecast shows me -22"	NA	NA	NA	NA	NA	NA	12
+2021-02-17 08:12:31	"teacher008"	"teacher"	14	"Yes, everything is relative, isn't it? That would be extreme cold here!"	"Yes, everything is relative, isn't it? That would be extreme cold here!"	NA	NA	NA	NA	NA	NA	12
+2021-02-17 08:12:40	"teacher008"	"teacher"	15	"The forecast, the weather forecast"	"The forecast, the weather forecast"	13	"2c"	"repair"	"lexical resource"	NA	NA	5
+2021-02-17 08:12:45	"student011"	"student"	16	"ah"	"ah"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:12:48	"student011"	"student"	17	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:13:22	"teacher008"	"teacher"	18	"a broadcast is just a programme on TV or radio"	"a broadcast is just a programme on TV or radio"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-02-17 08:13:23	"student011"	"student"	19	"Why I was typing broadcast )"	"Why I typed broadcast )"	NA	NA	NA	NA	NA	NA	6
+2021-02-17 08:13:29	"teacher008"	"teacher"	20	"No problem )"	"No problem )"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:13:36	"student011"	"student"	21	"Yes, I know"	"Yes, I know"	18	NA	NA	NA	NA	NA	3
+2021-02-17 08:13:43	"student011"	"student"	22	"thank you )"	"thank you )"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:13:57	"teacher008"	"teacher"	23	"How was your birthday? I can't believe I forgot what day it was last time, I'm so sorry!"	"How was your birthday? I can't believe I forgot what day it was last time, I'm so sorry!"	NA	"3.0"	"topic opening"	NA	NA	NA	18
+2021-02-17 08:14:42	"student011"	"student"	24	"Ah! Don't worry! You sent me very warm wishes )"	"Ah! Don't worry! You sent me some very warm wishes )"	NA	NA	NA	NA	NA	NA	10
+2021-02-17 08:14:50	"student011"	"student"	25	"the wishes? )"	"the wishes? )"	NA	"3a"	"enquiry"	"grammatical resource"	NA	NA	3
+2021-02-17 08:15:05	"teacher008"	"teacher"	26	"no, wishes is fine!"	"no, wishes is fine!"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 08:15:45	"student011"	"student"	27	"To be honest I don't remember your birthday date exactly )"	"To be honest I don't remember the date of your birthday exactly )"	24	NA	NA	NA	NA	NA	11
+2021-02-17 08:16:23	"student011"	"student"	28	"I don't remember lot's of birthday dates ))"	"I don't remember many birthday ))"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 08:16:46	"teacher008"	"teacher"	29	"That's ok, Facebook will remind you :) I'm trying to use Facebook less, but the downside of this is I'm not reminded of my friends' birthdays"	"That's ok, Facebook will remind you :) I'm trying to use Facebook less, but the downside of this is I'm not reminded of my friends' birthdays"	NA	NA	NA	NA	NA	NA	26
+2021-02-17 08:16:52	"student011"	"student"	30	"Even if it's my friends )"	"Even if it's my friends )"	28	NA	NA	NA	NA	NA	6
+2021-02-17 08:17:51	"student011"	"student"	31	"Me too! I think now I miss some of my friends' birthdays"	"Me too! I think now I miss some of my friends' birthdays"	29	NA	NA	NA	NA	NA	12
+2021-02-17 08:18:19	"student011"	"student"	32	"But if they love me I hope they'll forgive me )))))"	"But if they love me I hope they'll forgive me )))))"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 08:18:41	"student011"	"student"	33	"I'm trying to use Facebook less"	"I'm trying to use Facebook less"	NA	"3b"	"enquiry"	"grammatical resource"	NA	NA	6
+2021-02-17 08:18:51	"teacher008"	"teacher"	34	"Yes, that's the idea :)) Did you have a good day, anyway? on your birthday?"	"Yes, that's the idea :)) Did you have a good day, anyway? on your birthday?"	32	"3c"	"topic development"	NA	NA	NA	15
+2021-02-17 08:18:56	"student011"	"student"	35	"Can I answer - So I am?"	"Can I answer - So I am?"	33	NA	"enquiry"	"grammatical resource"	NA	NA	7
+2021-02-17 08:19:04	"student011"	"student"	36	"So am I"	"So am I"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:19:09	"teacher008"	"teacher"	37	"So am I, yes)"	"So am I, yes)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2021-02-17 08:19:21	"student011"	"student"	38	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:19:22	"teacher008"	"teacher"	39	"Or 'me too'"	"Or 'me too'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2021-02-17 08:19:36	"teacher008"	"teacher"	40	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:19:50	"student011"	"student"	41	"Yes! You know my nanny has birthday at the same day"	"Yes! You know my nanny has a birthday on the same day"	34	NA	NA	NA	NA	NA	11
+2021-02-17 08:20:06	"teacher008"	"teacher"	42	"Oh yes, I remember!"	"Oh yes, I remember!"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 08:20:32	"student011"	"student"	43	"Before it wasn't a big problem because we were traveling on my birthday"	"Before it wasn't a big problem because we were traveling on my birthday"	NA	NA	NA	NA	NA	NA	13
+2021-02-17 08:21:10	"student011"	"student"	44	"But this year the nanny has a day off and I asked <STUDENT'S HUSBAND> to have a day off too"	"But this year the nanny has a day off and I asked <STUDENT'S HUSBAND> to have a day off too"	NA	NA	NA	NA	NA	NA	20
+2021-02-17 08:21:37	"student011"	"student"	45	"So we were together at home with <STUDENT'S CHILD> and <STUDENT'S HUSBAND>"	"So we were together at home with <STUDENT'S CHILD> and <STUDENT'S HUSBAND>"	NA	NA	NA	NA	NA	NA	12
+2021-02-17 08:22:24	"student011"	"student"	46	"In the afternoon we went to the Dinosaur Exhibition )"	"In the afternoon we went to the Dinosaur Exhibition )"	NA	NA	NA	NA	NA	NA	10
+2021-02-17 08:22:27	"teacher008"	"teacher"	47	"Pandemic birthdays!"	"Pandemic birthdays!"	45	NA	NA	NA	NA	NA	2
+2021-02-17 08:22:33	"teacher008"	"teacher"	48	"Oh nice!"	"Oh nice!"	46	NA	NA	NA	NA	NA	2
+2021-02-17 08:22:54	"student011"	"student"	49	"We decided that there weren't lots of people there on Wednesday and we were right )"	"We decided that there wouldn't be lots of people there on Wednesday and we were right )"	NA	NA	NA	NA	NA	NA	16
+2021-02-17 08:22:58	"student011"	"student"	50	"No people"	"No people"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:23:09	"teacher008"	"teacher"	51	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:23:49	"student011"	"student"	52	"And then we ordered sushi and I invited <STUDENT'S FRIEND> and <STUDENT'S FRIEND1> to us"	"And then we ordered sushi and I invited <STUDENT'S FRIEND> and <STUDENT'S FRIEND1> to ours"	NA	NA	NA	NA	NA	NA	15
+2021-02-17 08:24:10	"teacher008"	"teacher"	53	"For everything to do with the word 'day', the preposition is 'on'. on Monday / on my birthday / on weekdays / on Christmas Day"	"For everything to do with the word 'day', the preposition is 'on'. on Monday / on my birthday / on weekdays / on Christmas Day"	NA	"3d"	"repair,scaffolding"	"lexical resource,grammatical resource"	NA	NA	25
+2021-02-17 08:24:21	"teacher008"	"teacher"	54	"<STUDENT'S CHILD>'s nanny and I have birthdays ___ the same day"	"<STUDENT'S CHILD>'s nanny and I have birthdays ___ the same day"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	11
+2021-02-17 08:24:31	"student011"	"student"	55	"We can contact with them because usually we contact at work"	"We can see them because usually we see each other at work"	52	NA	NA	NA	NA	NA	11
+2021-02-17 08:24:34	"student011"	"student"	56	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:24:43	"student011"	"student"	57	"<STUDENT'S CHILD>'s nanny and I have birthdays on the same day"	"<STUDENT'S CHILD>'s nanny and I have birthdays on the same day"	54	NA	NA	NA	NA	NA	11
+2021-02-17 08:24:45	"teacher008"	"teacher"	58	"Sushi! I'm so jealous!"	"Sushi! I'm so jealous!"	52	NA	NA	NA	NA	NA	4
+2021-02-17 08:24:58	"teacher008"	"teacher"	59	"Yes, it makes sense"	"Yes, it makes sense"	55	NA	NA	NA	NA	NA	4
+2021-02-17 08:25:01	"teacher008"	"teacher"	60	"That's right"	"That's right"	57	NA	NA	NA	NA	NA	2
+2021-02-17 08:25:16	"student011"	"student"	61	"I eat them very rare now too"	"I eat it very rarely now too"	58	NA	NA	NA	NA	NA	7
+2021-02-17 08:25:37	"student011"	"student"	62	"so I was happy with them ))"	"so I was happy with it ))"	NA	NA	NA	NA	NA	NA	7
+2021-02-17 08:26:07	"student011"	"student"	63	"Actually, <STUDENT'S FRIEND> had Covid so she has antibodies now I think"	"Actually, <STUDENT'S FRIEND> had Covid so she has some antibodies now I think"	59	NA	NA	NA	NA	NA	12
+2021-02-17 08:26:18	"teacher008"	"teacher"	64	"Yes, I remember!"	"Yes, I remember!"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:26:26	"student011"	"student"	65	"And <STUDENT'S FRIEND1> is pretty sure that she had it too"	"And <STUDENT'S FRIEND1> is pretty sure that she had it too"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 08:27:51	"teacher008"	"teacher"	66	"Right. It's hard to know for sure what to do!"	"Right. It's hard to know for sure what to do!"	NA	NA	NA	NA	NA	NA	10
+2021-02-17 08:28:25	"student011"	"student"	67	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:28:51	"student011"	"student"	68	"And on Friday we had the celebration with <STUDENT'S FRIEND2>"	"And on Friday we had a celebration with <STUDENT'S FRIEND2>"	NA	NA	NA	NA	NA	NA	10
+2021-02-17 08:28:55	"teacher008"	"teacher"	69	"Schools might re-open here on March 8. We're looking forward to it, but we'll be exposed to the infection again. Crazy!"	"Schools might re-open here on March 8. We're looking forward to it, but we'll be exposed to the infection again. Crazy!"	NA	"3e"	"topic development"	NA	NA	NA	21
+2021-02-17 08:30:05	"student011"	"student"	70	"exposed -podverzheny?"	"exposed -podverzheny?"	NA	"3f"	"enquiry,non-English"	"lexical resource,meaning,code switching"	NA	NA	2
+2021-02-17 08:30:20	"teacher008"	"teacher"	71	"Yes, that's right. open to it"	"Yes, that's right. open to it"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2021-02-17 08:30:21	"student011"	"student"	72	"Actually, I haven't told you"	"Actually, I haven't told you"	NA	"3g"	"topic development"	NA	NA	NA	5
+2021-02-17 08:30:33	"student011"	"student"	73	"<STUDENT'S SISTER-IN-LAW> and <STUDENT'S BROTHER> now have Covid"	"<STUDENT'S SISTER-IN-LAW> and <STUDENT'S BROTHER> now have Covid"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 08:30:49	"teacher008"	"teacher"	74	"Oh no!!! Are they ok?"	"Oh no!!! Are they ok?"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 08:31:13	"student011"	"student"	75	"Yes! Thank you. It's about 10th day now"	"Yes! Thank you. It's about day 10 now"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 08:31:38	"teacher008"	"teacher"	76	"They are not feeling too bad?"	"They are not feeling too bad?"	NA	NA	NA	NA	NA	NA	6
+2021-02-17 08:32:02	"student011"	"student"	77	"<STUDENT'S SISTER-IN-LAW> is completelly ok, she even didn't have high temperature"	"<STUDENT'S SISTER-IN-LAW> is completely ok, she didn't even have a high temperature"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 08:32:34	"student011"	"student"	78	"<STUDENT'S BROTHER> has a temperature like 37.2-37.2"	"<STUDENT'S BROTHER> has a temperature like 37.2-37.2"	NA	NA	NA	NA	NA	NA	7
+2021-02-17 08:32:50	"student011"	"student"	79	"not A, just temperature?"	"not A, just temperature?"	NA	"3h"	"enquiry"	"grammatical resource"	NA	NA	4
+2021-02-17 08:32:57	"student011"	"student"	80	"the temperature?"	"the temperature?"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:33:26	"teacher008"	"teacher"	82	"Hmm, I'm having a think"	"Hmm, I'm having a think"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 08:33:27	"student011"	"student"	83	"And he has a cough a bit but he is ok"	"And he has a bit of a cough but he is ok"	78	NA	NA	NA	NA	NA	11
+2021-02-17 08:34:05	"teacher008"	"teacher"	84	"He has a temperature of about 37.2"	"He has a temperature of about 37.2"	82	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2021-02-17 08:34:23	"teacher008"	"teacher"	86	"Ok, glad to hear it's a mild illness for them!"	"Ok, glad to hear it's a mild illness for them!"	83	NA	NA	NA	NA	NA	10
+2021-02-17 08:34:33	"student011"	"student"	87	"Ah! And they both don't have the smell and the taste"	"Ah! And neither of them has their sense of smell and taste"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 08:34:35	"student011"	"student"	88	"the? )"	"the? )"	NA	"3i"	"enquiry"	"grammatical resource"	NA	NA	2
+2021-02-17 08:35:28	"teacher008"	"teacher"	89	"Yes, they don't have their sense of smell and taste"	"Yes, they don't have their sense of smell and taste"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2021-02-17 08:35:29	"student011"	"student"	90	"<STUDENT'S NIECE> is ok but she is an home at selfisolation"	"<STUDENT'S NIECE> is ok but she is at home self-isolating"	87	NA	NA	NA	NA	NA	11
+2021-02-17 08:35:33	"student011"	"student"	91	"at? )"	"at? )"	NA	"3j"	"enquiry"	"lexical resource"	NA	NA	2
+2021-02-17 08:35:46	"teacher008"	"teacher"	92	"she is self-isolating at home"	"she is self-isolating at home"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	5
+2021-02-17 08:35:50	"teacher008"	"teacher"	93	"as a verb"	"as a verb"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	3
+2021-02-17 08:35:57	"student011"	"student"	94	"ah"	"ah"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:35:58	"teacher008"	"teacher"	95	"or 'in self-isolation'"	"or 'in self-isolation'"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	3
+2021-02-17 08:36:11	"student011"	"student"	96	"In Ukrainian and Russian we use it like a noun"	"In Ukrainian and Russian we use it as a noun"	NA	NA	NA	NA	NA	NA	10
+2021-02-17 08:36:22	"student011"	"student"	97	"ok! I see"	"ok! I see"	95	NA	NA	NA	NA	NA	3
+2021-02-17 08:36:28	"teacher008"	"teacher"	98	"Yes, you can use it as a noun as well in English"	"Yes, you can use it as a noun as well in English"	96	NA	NA	NA	NA	NA	12
+2021-02-17 08:36:51	"student011"	"student"	99	"ok! I see. Thank you!"	"ok! I see. Thank you!"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 08:37:17	"student011"	"student"	100	"How is your car? )"	"How is your car? )"	NA	"4.0"	"topic opening"	NA	NA	NA	5
+2021-02-17 08:37:43	"student011"	"student"	101	"Have you already used it? )"	"Have you used it yet? )"	NA	NA	NA	NA	NA	NA	6
+2021-02-17 08:37:55	"teacher008"	"teacher"	102	"Well, we drove to a beautiful wood on Sunday, but the wood was locked! We can't go anywhere!"	"Well, we drove to a beautiful wood on Sunday, but the wood was locked! We can't go anywhere!"	NA	NA	NA	NA	NA	NA	18
+2021-02-17 08:38:09	"teacher008"	"teacher"	103	"Which is the whole idea of a lockdown, but it's becoming a bit depressing"	"Which is the whole idea of a lockdown, but it's becoming a bit depressing"	NA	NA	NA	NA	NA	NA	14
+2021-02-17 08:39:00	"student011"	"student"	104	"the wood is locked? How is it possible?"	"the wood is locked? How is it possible?"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 08:39:20	"teacher008"	"teacher"	105	"Yes, can you imagine? There's a gate and a lock on the gate, and you can't park"	"Yes, can you imagine? There's a gate and a lock on the gate, and you can't park"	NA	NA	NA	NA	NA	NA	17
+2021-02-17 08:39:52	"student011"	"student"	106	"I think to walk in a wood is quite safely"	"I think to walk in a wood is quite safe"	NA	NA	NA	NA	NA	NA	10
+2021-02-17 08:40:16	"student011"	"student"	107	"I can't imagine"	"I can't imagine"	105	NA	NA	NA	NA	NA	3
+2021-02-17 08:40:41	"teacher008"	"teacher"	108	"Yes, but all places like this are closed, and people are not supposed to drive for more than 5 miles to go for a walk"	"Yes, but all places like this are closed, and people are not supposed to drive for more than 5 miles to go for a walk"	106	NA	NA	NA	NA	NA	25
+2021-02-17 08:40:50	"teacher008"	"teacher"	109	"So we're very limited in where we can go"	"So we're very limited in where we can go"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 08:40:54	"student011"	"student"	110	"We had a lockdown last spring but we could go to wood"	"We had a lockdown last spring but we could go to woods"	NA	NA	NA	NA	NA	NA	12
+2021-02-17 08:41:35	"teacher008"	"teacher"	111	"Yes, it's different, isn't it?"	"Yes, it's different, isn't it?"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 08:41:39	"student011"	"student"	112	"do you have another option in 5 miles from your home?"	"do you have another option within 5 miles from your home?"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 08:42:09	"teacher008"	"teacher"	113	"One option, but it's not very interesting, we could always go there by bike."	"One option, but it's not very interesting, we could always go there by bike."	NA	NA	NA	NA	NA	NA	14
+2021-02-17 08:42:25	"teacher008"	"teacher"	114	"I've prepared a new video for you for today, and some new words."	"I've prepared a new video for you for today, and some new words."	NA	"5.0"	"topic opening"	"lexical resource"	"website"	NA	13
+2021-02-17 08:42:39	"teacher008"	"teacher"	115	"The video is about an experiment that was done at a nursery"	"The video is about an experiment that was done at a nursery"	NA	NA	NA	NA	NA	NA	12
+2021-02-17 08:43:15	"student011"	"student"	116	"ok! )"	"ok! )"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:43:17	"teacher008"	"teacher"	117	"Do you know 'a nursery'? a place where children from 6 months old to 5 are looked after by teachers while their parents work"	"Do you know 'a nursery'? a place where children from 6 months old to 5 are looked after by teachers while their parents work"	NA	"5a"	"scaffolding"	"lexical resource,meaning"	NA	NA	24
+2021-02-17 08:43:49	"student011"	"student"	118	"kind of kindergarden?"	"kind of a kindergarten?"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:44:16	"teacher008"	"teacher"	119	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:44:24	"student011"	"student"	120	"kindergarten?"	"kindergarten?"	118	NA	"repair"	"writing"	NA	NA	1
+2021-02-17 08:44:26	"teacher008"	"teacher"	121	"It's called a nursery in the UK"	"It's called a nursery in the UK"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-02-17 08:45:03	"teacher008"	"teacher"	122	"You know, the same as a child's bedroom"	"You know, the same as a child's bedroom"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-02-17 08:45:44	"teacher008"	"teacher"	123	"When you read the text about the Queen, it said that children were at a nursery in Buckingham palace, meaning their room"	"When you read the text about the Queen, it said that children were at a nursery in Buckingham palace, meaning their room"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+2021-02-17 08:45:46	"student011"	"student"	124	"child's bedroom -  I didn't hear about it"	"child's bedroom -  I haven't heard about it"	122	NA	NA	NA	NA	NA	9
+2021-02-17 08:46:01	"student011"	"student"	125	"ahhh"	"ahhh"	123	NA	NA	NA	NA	NA	1
+2021-02-17 08:46:06	"student011"	"student"	126	"I see )))"	"I see )))"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:46:39	"student011"	"student"	127	"I thought a child's bedroom it's another name of kindergarten )))))"	"I thought a child's bedroom was another name for a kindergarten )))))"	NA	NA	NA	NA	NA	NA	11
+2021-02-17 08:46:46	"teacher008"	"teacher"	128	"Yes, the experiment was to take away all toys and give children different materials such as magnets and tools to play with"	"Yes, the experiment was to take away all toys and give children different materials such as magnets and tools to play with"	116	NA	NA	NA	NA	NA	22
+2021-02-17 08:46:56	"teacher008"	"teacher"	129	"Oh no, sorry, I confused you. A nursery!"	"Oh no, sorry, I confused you. A nursery!"	127	NA	NA	NA	NA	NA	8
+2021-02-17 08:47:08	"teacher008"	"teacher"	130	"How do you think this experiment went?"	"How do you think this experiment went?"	128	NA	"eliciting"	NA	NA	NA	7
+2021-02-17 08:47:43	"student011"	"student"	131	"It's ok, It's just kind of my understanding ))))))"	"It's ok, it's just kind of my understanding ))))))"	129	NA	NA	NA	NA	NA	9
+2021-02-17 08:48:14	"student011"	"student"	132	"I think the children loved the tools and the magnets )"	"I think the children loved the tools and the magnets )"	130	NA	NA	NA	NA	NA	11
+2021-02-17 08:48:57	"teacher008"	"teacher"	133	"Ok! You'll watch later on and find out :) a few more words first!"	"Ok! You'll watch later on and find out :) a few more words first!"	NA	NA	NA	NA	NA	NA	14
+2021-02-17 08:49:40	"teacher008"	"teacher"	134	"When something (a new product or programme) is tested for a period of time, this is called a trial"	"When something (a new product or programme) is tested for a period of time, this is called a trial"	NA	"5b"	"presentation"	"lexical resource"	NA	NA	19
+2021-02-17 08:49:54	"student011"	"student"	135	"Am I not right? )"	"Am I not right? )"	133	NA	NA	NA	NA	NA	5
+2021-02-17 08:50:03	"teacher008"	"teacher"	136	"traɪəl"	"traɪəl"	134	NA	"presentation"	"lexical resource,speaking"	NA	NA	1
+2021-02-17 08:50:11	"student011"	"student"	137	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:50:20	"student011"	"student"	138	"a trial lesson )"	"a trial lesson )"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 08:50:24	"teacher008"	"teacher"	139	"You are, generally)"	"You are, generally)"	135	NA	NA	NA	NA	NA	3
+2021-02-17 08:50:33	"teacher008"	"teacher"	140	"Oh yes, of course, you know that!"	"Oh yes, of course, you know that!"	138	NA	NA	NA	NA	NA	7
+2021-02-17 08:50:47	"teacher008"	"teacher"	141	"Before a vaccine is approved, it has to go through a trial"	"Before a vaccine is approved, it has to go through a trial"	NA	NA	"presentation"	"lexical resource"	NA	NA	12
+2021-02-17 08:50:54	"teacher008"	"teacher"	142	"Sorry, another coronavirus example"	"Sorry, another coronavirus example"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 08:51:58	"teacher008"	"teacher"	143	"And what does it mean if a person is on trial? You might remember from your background in law"	"And what does it mean if a person is on trial? You might remember from your background in law"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	19
+2021-02-17 08:52:41	"student011"	"student"	144	"it means"	"it means"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:53:09	"student011"	"student"	145	"than the person is like investigated in the court"	"that the person is like investigated in court"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 08:53:17	"teacher008"	"teacher"	146	"That's right)"	"That's right)"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:53:22	"teacher008"	"teacher"	147	"Ok, next word!"	"Ok, next word!"	NA	"5c"	"presentation"	"lexical resource"	NA	NA	3
+2021-02-17 08:53:56	"teacher008"	"teacher"	148	"the ability to do something quickly and skilfully with your hands"	"the ability to do something quickly and skilfully with your hands"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	11
+2021-02-17 08:54:02	"student011"	"student"	149	"I'm ready for it ))"	"I'm ready for it ))"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 08:54:02	"teacher008"	"teacher"	150	"dexterity"	"dexterity"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	1
+2021-02-17 08:54:18	"teacher008"	"teacher"	151	"/dekˈster.ə.ti/"	"/dekˈster.ə.ti/"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	1
+2021-02-17 08:54:36	"student011"	"student"	152	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:54:45	"teacher008"	"teacher"	153	"for example, surgical dexterity"	"for example, surgical dexterity"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	4
+2021-02-17 08:55:05	"student011"	"student"	154	"lovkost?"	"lovkost?"	NA	NA	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	1
+2021-02-17 08:55:12	"student011"	"student"	155	"I'm surprised"	"I'm surprised"	153	NA	NA	NA	NA	NA	2
+2021-02-17 08:55:14	"teacher008"	"teacher"	156	"Yes, I think so!"	"Yes, I think so!"	154	NA	NA	NA	NA	NA	4
+2021-02-17 08:55:21	"student011"	"student"	157	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:55:35	"teacher008"	"teacher"	158	"He caught the ball with great dexterity."	"He caught the ball with great dexterity."	NA	NA	"presentation"	"lexical resource"	"dictionary"	NA	7
+2021-02-17 08:55:42	"teacher008"	"teacher"	159	"an example from the dictionary"	"an example from the dictionary"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 08:55:48	"teacher008"	"teacher"	160	"Why are you surprised?"	"Why are you surprised?"	155	NA	NA	NA	NA	NA	4
+2021-02-17 08:56:00	"student011"	"student"	161	"I don't know"	"I don't know"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:56:02	"student011"	"student"	162	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:56:06	"teacher008"	"teacher"	163	":))"	":))"	NA	NA	NA	NA	NA	NA	1
+2021-02-17 08:56:16	"student011"	"student"	164	"I just didn't know the word before"	"I just didn't know the word before"	NA	NA	NA	NA	NA	NA	7
+2021-02-17 08:56:21	"teacher008"	"teacher"	165	"People say that knitting and crafts develops dexterity"	"People say that knitting and crafts develops dexterity"	NA	NA	"presentation"	"lexical resource"	NA	NA	8
+2021-02-17 08:56:25	"teacher008"	"teacher"	166	"and Lego))"	"and Lego))"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:56:55	"teacher008"	"teacher"	167	"the adjective is 'dexterous"	"the adjective is 'dexterous"	NA	NA	"presentation"	"lexical resource"	NA	NA	4
+2021-02-17 08:56:58	"student011"	"student"	168	"I love all this staff )"	"I love all this stuff )"	165	NA	NA	NA	NA	NA	6
+2021-02-17 08:57:10	"student011"	"student"	169	"the adjective is 'dexterous  - ok!"	"the adjective is 'dexterous  - ok!"	167	NA	NA	NA	NA	NA	7
+2021-02-17 08:57:31	"teacher008"	"teacher"	170	"If a person can use both hands equally well, they are 'ambidexterous'"	"If a person can use both hands equally well, they are 'ambidexterous'"	NA	NA	"presentation"	"lexical resource"	NA	NA	12
+2021-02-17 08:57:55	"student011"	"student"	171	"oh! Ok )"	"oh! Ok )"	NA	NA	NA	NA	NA	NA	3
+2021-02-17 08:58:01	"student011"	"student"	172	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 08:58:22	"teacher008"	"teacher"	173	"A person needs to be quite dexterous to eat with chopsticks, for example"	"A person needs to be quite dexterous to eat with chopsticks, for example"	NA	NA	"presentation"	"lexical resource"	NA	NA	13
+2021-02-17 08:58:23	"student011"	"student"	174	"I even don't know how we call it in Ukrainian or Russian ))"	"I even don't know what we call it in Ukrainian or Russian ))"	170	NA	NA	NA	NA	NA	13
+2021-02-17 08:58:31	"teacher008"	"teacher"	175	"or play a musical instrument!"	"or play a musical instrument!"	173	NA	NA	NA	NA	NA	5
+2021-02-17 08:58:55	"teacher008"	"teacher"	176	"I think it's borrowed, амбидекстер or something"	"I think it's borrowed, амбидекстер or something"	174	NA	"non-English,scaffolding"	"lexical resource,code switching"	NA	NA	7
+2021-02-17 08:59:02	"teacher008"	"teacher"	177	"But I might be wrong!"	"But I might be wrong!"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 08:59:14	"student011"	"student"	178	"Oh! Yes! I think I know the word in Russian )"	"Oh! Yes! I think I know the word in Russian )"	176	NA	NA	NA	NA	NA	11
+2021-02-17 08:59:25	"student011"	"student"	179	"You are right"	"You are right"	177	NA	NA	NA	NA	NA	3
+2021-02-17 09:00:10	"teacher008"	"teacher"	180	"Ah, that's interesting. Apparently, 'ambi' in Latin means 'both' and 'dexter' means 'right'. So if you are ambidexterous, it's like you have two right hands"	"Ah, that's interesting. Apparently, 'ambi' in Latin means 'both' and 'dexter' means 'right'. So if you are ambidexterous, it's like you have two right hands"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	25
+2021-02-17 09:00:11	"student011"	"student"	181	"it's the same in Russian"	"it's the same in Russian"	179	NA	NA	NA	NA	NA	5
+2021-02-17 09:00:44	"student011"	"student"	182	"Ah, that's interesting. Apparently, 'ambi' in Latin means 'both' and 'dexter' means 'right'. So if you are ambidexterous, it's like you have two right hands  - haha! Wow! I like the information like this )"	"Ah, that's interesting. Apparently, 'ambi' in Latin means 'both' and 'dexter' means 'right'. So if you are ambidexterous, it's like you have two right hands  - haha! Wow! I like information like this )"	180	NA	NA	NA	NA	NA	36
+2021-02-17 09:01:06	"teacher008"	"teacher"	183	"Yes, very cool, isn't it? I enjoy it too!"	"Yes, very cool, isn't it? I enjoy it too!"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 09:01:18	"teacher008"	"teacher"	184	"This is discrimination against left-handed people, as usual"	"This is discrimination against left-handed people, as usual"	NA	NA	NA	NA	NA	NA	8
+2021-02-17 09:01:21	"student011"	"student"	185	"Cool! I like it!"	"Cool! I like it!"	183	NA	NA	NA	NA	NA	4
+2021-02-17 09:01:30	"student011"	"student"	186	"yep ))"	"yep ))"	184	NA	NA	NA	NA	NA	2
+2021-02-17 09:01:35	"student011"	"student"	187	"I'm sorry"	"I'm sorry"	NA	"6.0"	"closing"	NA	NA	NA	2
+2021-02-17 09:01:39	"student011"	"student"	188	"I need to go ("	"I need to go ("	NA	NA	NA	NA	NA	NA	5
+2021-02-17 09:01:53	"teacher008"	"teacher"	189	"Ok, of course! I'll send you the link for homework"	"Ok, of course! I'll send you the link for homework"	NA	NA	"homework"	NA	NA	NA	10
+2021-02-17 09:02:01	"teacher008"	"teacher"	190	"Have a lovely day!"	"Have a lovely day!"	NA	NA	NA	NA	NA	NA	4
+2021-02-17 09:02:12	"student011"	"student"	191	"Thank you very much! Have a great day! XX"	"Thank you very much! Have a great day! XX"	NA	NA	NA	NA	NA	NA	9
+2021-02-17 09:02:21	"teacher008"	"teacher"	192	"Thank you, you too :)"	"Thank you, you too :)"	NA	NA	NA	NA	NA	NA	5
+2021-02-17 09:02:25	"student011"	"student"	193	"bye!! )"	"bye!! )"	NA	NA	NA	NA	NA	NA	2
+2021-02-17 09:02:29	"teacher008"	"teacher"	194	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

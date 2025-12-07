@@ -1,0 +1,127 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-03-26 13:30:54	"student009"	"student"	1	"Hi!How are you ?:]"	"Hi! How are you ?:]"	NA	"1.0"	"opening"	NA	NA	NA	4
+2021-03-26 13:31:16	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 13:31:25	"teacher008"	"teacher"	3	"I'm good, thank you!"	"I'm good, thank you!"	1	NA	NA	NA	NA	NA	4
+2021-03-26 13:31:32	"teacher008"	"teacher"	4	"How are you? How's your holiday going?"	"How are you? How's your holiday going?"	NA	"2.0"	"topic opening"	NA	NA	NA	7
+2021-03-26 13:32:42	"student009"	"student"	5	"It finished yesterday! Our holiday started on last Thursday, and it finished yesterday"	"It finished yesterday! Our holiday started last Thursday, and it finished yesterday"	NA	NA	NA	NA	NA	NA	13
+2021-03-26 13:32:59	"teacher008"	"teacher"	6	"Oh no! I see!"	"Oh no! I see!"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 13:33:10	"teacher008"	"teacher"	7	"Are schools still open despite the lockdown?"	"Are schools still open despite the lockdown?"	NA	NA	NA	NA	NA	NA	7
+2021-03-26 13:33:20	"student009"	"student"	8	"And we are online because of the lockdown"	"And we are online because of the lockdown"	6	NA	NA	NA	NA	NA	8
+2021-03-26 13:33:34	"teacher008"	"teacher"	9	"Ah, ok! Your favourite :."	"Ah, ok! Your favourite :."	NA	NA	NA	NA	NA	NA	5
+2021-03-26 13:34:20	"teacher008"	"teacher"	10	"In this case, did you have a good holiday?"	"In this case, did you have a good holiday?"	NA	"2a"	"topic development"	NA	NA	NA	9
+2021-03-26 13:34:42	"student009"	"student"	11	"Not really"	"Not really"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 13:34:46	"student009"	"student"	12	"Boring"	"Boring"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:35:08	"teacher008"	"teacher"	13	"Oh no, that's a shame!"	"Oh no, that's a shame!"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 13:35:14	"teacher008"	"teacher"	14	"What did you do?"	"What did you do?"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 13:35:20	"student009"	"student"	15	"I only went to my grandma’s house for three days and that’s all"	"I only went to my grandma’s house for three days and that’s all"	NA	NA	NA	NA	NA	NA	13
+2021-03-26 13:36:36	"teacher008"	"teacher"	16	"I see! Well, did you manage to chill? read, listen to some music, talk to your friends?"	"I see! Well, did you manage to chill? read, listen to some music, talk to your friends?"	NA	NA	NA	NA	NA	NA	17
+2021-03-26 13:37:33	"student009"	"student"	17	"Well, yes, but no."	"Well, yes, but no."	NA	NA	NA	NA	NA	NA	4
+2021-03-26 13:37:59	"teacher008"	"teacher"	18	"that's a very mysterious answer :."	"that's a very mysterious answer :."	NA	NA	NA	NA	NA	NA	6
+2021-03-26 13:39:37	"student009"	"student"	19	"Heh"	"Heh"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:41:25	"teacher008"	"teacher"	20	"Ok, I've got some oompa-loompa words for you, from our last class"	"Ok, I've got some oompa-loompa words for you, from our last class"	NA	"3.0"	"exercise,revision"	"lexical resource"	NA	NA	12
+2021-03-26 13:42:03	"teacher008"	"teacher"	21	"greedy, nincompoop, rot and clutter up"	"greedy, nincompoop, rot and clutter up"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 13:42:31	"teacher008"	"teacher"	22	"Could you identify which one is which part of speech, please? .nouns, verbs, adverbs, adjectives etc.."	"Could you identify which one is which part of speech, please? .nouns, verbs, adverbs, adjectives etc.."	NA	NA	NA	NA	NA	NA	16
+2021-03-26 13:42:56	"student009"	"student"	23	"Adjectives"	"Adjectives"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:43:22	"teacher008"	"teacher"	24	"All of them?"	"All of them?"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 13:43:32	"teacher008"	"teacher"	25	"Hint: there's only one adjective"	"Hint: there's only one adjective"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 13:43:38	"student009"	"student"	26	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:44:08	"student009"	"student"	27	"Wai"	"Wait"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:44:14	"student009"	"student"	28	"t"	"t"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-26 13:44:24	"teacher008"	"teacher"	29	"waiting :."	"waiting :."	NA	NA	NA	NA	NA	NA	2
+2021-03-26 13:44:31	"student009"	"student"	30	"Rot is a verb"	"Rot is a verb"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 13:44:37	"teacher008"	"teacher"	31	"correct!"	"correct!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:44:55	"student009"	"student"	32	"Clutter up is also a verb"	"Clutter up is also a verb"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 13:45:12	"teacher008"	"teacher"	33	"Also correct!"	"Also correct!"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 13:45:16	"student009"	"student"	34	"Greedy is an adjective"	"Greedy is an adjective"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 13:45:28	"teacher008"	"teacher"	35	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:45:56	"student009"	"student"	36	"And nincompoop is a noun"	"And nincompoop is a noun"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 13:46:08	"teacher008"	"teacher"	37	"Absolutely!"	"Absolutely!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:47:08	"teacher008"	"teacher"	38	"The fruit I bought ___ before I could eat them! Such a shame! .which word goes in the gap?."	"The fruit I bought ___ before I could eat them! Such a shame! .which word goes in the gap?."	NA	"3a"	"exercise,revision"	"lexical resource"	NA	NA	19
+2021-03-26 13:47:40	"student009"	"student"	39	"Rot"	"Rot"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:48:54	"teacher008"	"teacher"	40	"Ok, but it's in the past, isn't it?"	"Ok, but it's in the past, isn't it?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	8
+2021-03-26 13:49:08	"student009"	"student"	41	"Rotten"	"Rotten"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:49:28	"teacher008"	"teacher"	42	"rotted"	"rotted"	NA	NA	"repair"	"lexical resource,grammatical resource"	NA	NA	1
+2021-03-26 13:49:42	"teacher008"	"teacher"	43	"But 'rotten' is an adjective. rotten fruit"	"But 'rotten' is an adjective. rotten fruit"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-03-26 13:49:53	"student009"	"student"	44	"Yeah"	"Yeah"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:49:59	"teacher008"	"teacher"	45	"It's a regular verb"	"It's a regular verb"	42	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	4
+2021-03-26 13:50:06	"teacher008"	"teacher"	46	"Ok, cool"	"Ok, cool"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 13:50:36	"teacher008"	"teacher"	47	"I ate the whole cake in secret and didn't share, and then my family called me ____"	"I ate the whole cake in secret and didn't share, and then my family called me ____"	NA	"3b"	"exercise,revision"	"lexical resource"	NA	NA	17
+2021-03-26 13:50:51	"student009"	"student"	48	"Greedy"	"Greedy"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:51:02	"teacher008"	"teacher"	49	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:51:34	"teacher008"	"teacher"	50	"The government has just done something extremely stupid. What a bunch of ______!"	"The government has just done something extremely stupid. What a bunch of ______!"	NA	"3c"	"exercise,revision"	"lexical resource"	NA	NA	13
+2021-03-26 13:51:50	"student009"	"student"	51	"Nincompoop"	"Nincompoop"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:52:04	"teacher008"	"teacher"	52	"nincompoops .plural, right."	"nincompoops .plural, right."	NA	NA	"repair"	"grammatical resource"	NA	NA	3
+2021-03-26 13:52:07	"teacher008"	"teacher"	53	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:52:09	"teacher008"	"teacher"	54	"But yes."	"But yes."	NA	NA	NA	NA	NA	NA	2
+2021-03-26 13:52:23	"teacher008"	"teacher"	55	"Aaaand, can you give me an example with 'clutter up', please?"	"Aaaand, can you give me an example with 'clutter up', please?"	NA	"3d"	"exercise,revision"	"lexical resource"	NA	NA	11
+2021-03-26 13:54:11	"student009"	"student"	56	"When I came in, I saw that house was cluttered up with rubbish"	"When I came in, I saw that the house was cluttered up with rubbish"	NA	NA	NA	NA	NA	NA	13
+2021-03-26 13:54:28	"teacher008"	"teacher"	57	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 13:55:06	"teacher008"	"teacher"	58	"There's also a verb 'to declutter', it means to get rid of all the clutter you have collected"	"There's also a verb 'to declutter', it means to get rid of all the clutter you have collected"	NA	"3e"	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2021-03-26 13:55:44	"teacher008"	"teacher"	59	"Have you heard of Marie Kondo? She teaches people how to declutter"	"Have you heard of Marie Kondo? She teaches people how to declutter"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	12
+2021-03-26 13:55:54	"student009"	"student"	60	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 13:57:07	"teacher008"	"teacher"	61	"Well, she had her own TV show .or maybe it's still going, I'm not sure.. She comes to people's houses and helps them to get rid of stuff"	"Well, she had her own TV show .or maybe it's still going, I'm not sure.. She comes to people's houses and helps them to get rid of stuff"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	28
+2021-03-26 13:57:39	"teacher008"	"teacher"	62	"Are you a tidy person? Are things always in their places? Or does your room get cluttered up? .Mine does!."	"Are you a tidy person? Are things always in their places? Or does your room get cluttered up? .Mine does!."	NA	"3f"	"eliciting"	"lexical resource"	NA	NA	20
+2021-03-26 13:58:44	"student009"	"student"	63	"Usually when I am tired some things are not on their places, but then I put them away"	"Usually when I am tired some things are not in their places, but then I put them away"	NA	NA	NA	NA	NA	NA	18
+2021-03-26 13:59:21	"teacher008"	"teacher"	64	"Ah, I admire that! It's hard for me to keep things tidy"	"Ah, I admire that! It's hard for me to keep things tidy"	NA	NA	NA	NA	NA	NA	12
+2021-03-26 14:01:01	"teacher008"	"teacher"	65	"I like to be surrounded by things that I like. At the moment, it's books, seed packets and cards. But they do clutter up the place!"	"I like to be surrounded by things that I like. At the moment, it's books, seed packets and cards. But they do clutter up the place!"	NA	NA	NA	NA	NA	NA	26
+2021-03-26 14:02:37	"teacher008"	"teacher"	66	"Ok, today I'd like us to talk about a trial that took place in one of English nurseries. .are their any unfamiliar words in this sentence?."	"Ok, today I'd like us to talk about a trial that took place in one of English nurseries. .are their any unfamiliar words in this sentence?."	NA	"4.0"	"exercise,eliciting"	"lexical resource,listening"	"website"	NA	26
+2021-03-26 14:04:16	"student009"	"student"	67	"Trial and nurseries"	"Trial and nurseries"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 14:04:21	"teacher008"	"teacher"	68	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:04:54	"teacher008"	"teacher"	69	"a trial = an experiment that takes place over some time"	"a trial = an experiment that takes place over some time"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-03-26 14:05:18	"teacher008"	"teacher"	70	"For example, scientists want to find out how some things are going to work, and they run a trial to see what the results will be"	"For example, scientists want to find out how some things are going to work, and they run a trial to see what the results will be"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	26
+2021-03-26 14:06:04	"teacher008"	"teacher"	71	"a new vaccine / medicine needs to go through clinical trials .when it's tested on volunteers, for example."	"a new vaccine / medicine needs to go through clinical trials .when it's tested on volunteers, for example."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2021-03-26 14:07:06	"teacher008"	"teacher"	72	"and a nursery is a place where children spend their days while their parents are at work"	"and a nursery is a place where children spend their days while their parents are at work"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2021-03-26 14:08:54	"teacher008"	"teacher"	73	"Did you go the nursery before you started school?"	"Did you go the nursery before you started school?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	9
+2021-03-26 14:09:08	"student009"	"student"	74	"Yea"	"Yea"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:09:23	"teacher008"	"teacher"	75	"Did you like it? Were there a lot of toys?"	"Did you like it? Were there a lot of toys?"	NA	NA	NA	NA	NA	NA	10
+2021-03-26 14:09:41	"student009"	"student"	76	"Yes I think"	"Yes I think"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 14:10:55	"teacher008"	"teacher"	77	"Ok, cool! Well, in this trial, they removed all toys from a nursery and gave children some objects like magnets and bits of metal instead"	"Ok, cool! Well, in this trial, they removed all toys from a nursery and gave children some objects like magnets and bits of metal instead"	NA	"4a"	"scaffolding"	"listening"	NA	NA	25
+2021-03-26 14:11:31	"teacher008"	"teacher"	78	"Also, some shells, boxes and envelopes"	"Also, some shells, boxes and envelopes"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 14:11:48	"teacher008"	"teacher"	79	"Do you think the children at this nursery enjoyed them? Or do you think they missed their toys?"	"Do you think the children at this nursery enjoyed them? Or do you think they missed their toys?"	NA	NA	"eliciting"	NA	NA	NA	18
+2021-03-26 14:12:00	"teacher008"	"teacher"	80	"You'll watch a video to find out in a minute :."	"You'll watch a video to find out in a minute :."	NA	NA	NA	NA	NA	NA	11
+2021-03-26 14:16:51	"teacher008"	"teacher"	81	"Are you with me, <STUDENT>?."	"Are you with me, <STUDENT>?."	NA	NA	NA	NA	NA	NA	5
+2021-03-26 14:17:22	"student009"	"student"	82	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:18:27	"teacher008"	"teacher"	83	"Ok, what do you think then?"	"Ok, what do you think then?"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 14:18:50	"student009"	"student"	84	"I didn’t watch the video"	"I didn’t watch the video"	NA	NA	NA	NA	NA	NA	5
+2021-03-26 14:19:20	"student009"	"student"	85	"You didn’t send it"	"You didn’t send it"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 14:19:42	"teacher008"	"teacher"	86	"I know, I'm just wondering what you think! If all toys were taken away from a nursery, and children had objects that I've just described to play with, would they enjoy it? Or would they miss their toys?"	"I know, I'm just wondering what you think! If all toys were taken away from a nursery, and children had objects that I've just described to play with, would they enjoy it? Or would they miss their toys?"	NA	NA	"eliciting"	NA	NA	NA	38
+2021-03-26 14:20:17	"student009"	"student"	87	"I think some of them would miss the toys and some of them not"	"I think some of them would miss the toys and some of them not"	NA	NA	NA	NA	NA	NA	14
+2021-03-26 14:20:42	"teacher008"	"teacher"	88	"Haha, a wise answer"	"Haha, a wise answer"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 14:20:50	"teacher008"	"teacher"	89	"Ok, let's see!"	"Ok, let's see!"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 14:20:58	"student009"	"student"	90	"Like children are different"	"Like children are different"	88	NA	NA	NA	NA	NA	4
+2021-03-26 14:21:06	"teacher008"	"teacher"	91	"I've sent you the link now"	"I've sent you the link now"	89	NA	NA	NA	NA	NA	6
+2021-03-26 14:23:59	"student009"	"student"	92	"I watched"	"I watched"	NA	"4b"	"exercise"	"listening"	"website"	NA	2
+2021-03-26 14:24:16	"teacher008"	"teacher"	93	"Ok, so what happened? How did the kids react?"	"Ok, so what happened? How did the kids react?"	NA	NA	NA	NA	NA	NA	9
+2021-03-26 14:24:50	"student009"	"student"	94	"Youngest children were okay with th"	"The youngest children were okay with it"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 14:25:08	"student009"	"student"	95	"But older ones asked for their toys back"	"But older ones asked for their toys back"	NA	NA	NA	NA	NA	NA	8
+2021-03-26 14:25:33	"teacher008"	"teacher"	96	"Yes, in the end they missed their trains, didn't they?"	"Yes, in the end they missed their trains, didn't they?"	NA	NA	NA	NA	NA	NA	10
+2021-03-26 14:25:39	"student009"	"student"	97	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:25:49	"teacher008"	"teacher"	98	"Why did scientists want to run this trial? to remove toys"	"Why did scientists want to run this trial? to remove toys"	NA	NA	NA	NA	NA	NA	11
+2021-03-26 14:27:58	"student009"	"student"	99	"To learn some skills of dexterity and to reinforce gender throug the toys"	"To teach dexterity and to reinforce gender through the toys"	NA	NA	NA	NA	NA	NA	13
+2021-03-26 14:28:18	"teacher008"	"teacher"	100	"Aha, interesting!"	"Aha, interesting!"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 14:28:40	"teacher008"	"teacher"	101	"They were saying that toys like princesses and superheroes reinforce gender stereotypes"	"They were saying that toys like princesses and superheroes reinforce gender stereotypes"	NA	NA	"scaffolding"	"listening,lexical resource"	NA	NA	12
+2021-03-26 14:28:50	"student009"	"student"	102	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:28:57	"teacher008"	"teacher"	103	"gender = roles associated with being male / female"	"gender = roles associated with being male / female"	NA	NA	"scaffolding"	"listening,lexical resource"	NA	NA	9
+2021-03-26 14:29:06	"student009"	"student"	104	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:29:16	"teacher008"	"teacher"	105	"And they wanted to avoid gender stereotypes, not reinforce them actually"	"And they wanted to avoid gender stereotypes, not reinforce them actually"	NA	NA	"scaffolding"	"listening,lexical resource"	NA	NA	11
+2021-03-26 14:29:16	"student009"	"student"	106	"I meant stereotype"	"I meant stereotype"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 14:29:25	"teacher008"	"teacher"	107	"reinforce = make something stronger"	"reinforce = make something stronger"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2021-03-26 14:29:37	"student009"	"student"	108	"Oops"	"Oops"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:29:44	"teacher008"	"teacher"	109	"No worries, good try!"	"No worries, good try!"	NA	NA	NA	NA	NA	NA	4
+2021-03-26 14:29:54	"student009"	"student"	110	"That what they said in the video"	"That's what they said in the video"	NA	NA	NA	NA	NA	NA	7
+2021-03-26 14:29:58	"teacher008"	"teacher"	111	"Ok, we'll talk about it more next time, ok?"	"Ok, we'll talk about it more next time, ok?"	NA	"5.0"	"closing"	NA	NA	NA	9
+2021-03-26 14:30:46	"student009"	"student"	112	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:30:54	"teacher008"	"teacher"	113	"Oh, speaking of next time! I will take a couple of weeks off .it's Easter holidays here!., and our next class will be"	"Oh, speaking of next time! I will take a couple of weeks off .it's Easter holidays here!., and our next class will be"	NA	"5a"	"admin"	NA	NA	NA	23
+2021-03-26 14:31:03	"teacher008"	"teacher"	114	"one sec, I'm loading my calendar, but it's being slow!"	"one sec, I'm loading my calendar, but it's being slow!"	NA	NA	NA	NA	NA	NA	10
+2021-03-26 14:31:25	"teacher008"	"teacher"	115	"Got it! Friday April 16th, ok?"	"Got it! Friday April 16th, ok?"	NA	NA	NA	NA	NA	NA	6
+2021-03-26 14:31:39	"student009"	"student"	116	"Oka"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:31:51	"student009"	"student"	117	"That’s long"	"That’s long"	NA	NA	NA	NA	NA	NA	2
+2021-03-26 14:32:11	"teacher008"	"teacher"	118	"Yes, my son will have two weeks off school"	"Yes, my son will have two weeks off school"	NA	NA	NA	NA	NA	NA	9
+2021-03-26 14:32:25	"teacher008"	"teacher"	119	"I know in Ukraine spring holidays are only one week, aren't they?"	"I know in Ukraine spring holidays are only one week, aren't they?"	NA	NA	NA	NA	NA	NA	12
+2021-03-26 14:32:44	"student009"	"student"	120	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:33:02	"teacher008"	"teacher"	121	"Yes, they are two weeks here .but the summer holidays are only 6 weeks!."	"Yes, they are two weeks here .but the summer holidays are only 6 weeks!."	NA	NA	NA	NA	NA	NA	14
+2021-03-26 14:33:12	"student009"	"student"	122	"Why"	"Why?"	NA	NA	NA	NA	NA	NA	1
+2021-03-26 14:33:31	"teacher008"	"teacher"	123	"Just a tradition I suppose. The academic year is different in the UK!"	"Just a tradition I suppose. The academic year is different in the UK!"	NA	NA	NA	NA	NA	NA	13
+2021-03-26 14:34:25	"teacher008"	"teacher"	124	"Ok, I'll send you a reminder about the class when I'm back at work. Have a good weekend, speak to you in April!"	"Ok, I'll send you a reminder about the class when I'm back at work. Have a good weekend, speak to you in April!"	NA	NA	NA	NA	NA	NA	23
+2021-03-26 14:34:38	"student009"	"student"	125	"Okay, goodbye !"	"Okay, goodbye !"	NA	NA	NA	NA	NA	NA	3
+2021-03-26 14:34:45	"teacher008"	"teacher"	126	"Bye! :."	"Bye! :."	NA	NA	NA	NA	NA	"B2"	2

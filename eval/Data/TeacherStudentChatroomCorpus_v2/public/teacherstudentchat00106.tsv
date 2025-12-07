@@ -1,0 +1,148 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-25 07:00:54	"student009"	"student"	1	"hello"	"hello"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-08-25 07:01:08	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 07:01:10	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-08-25 07:01:31	"student009"	"student"	4	"I am fine , and you?"	"I am fine , and you?"	NA	NA	NA	NA	NA	NA	6
+2020-08-25 07:01:49	"teacher008"	"teacher"	5	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:02:06	"teacher008"	"teacher"	6	"I've just realised you're starting school next week!"	"I've just realised you're starting school next week!"	NA	"2a"	"topic development"	NA	NA	NA	8
+2020-08-25 07:02:27	"student009"	"student"	7	"I DON'T WANT TO HEAR ABOUT"	"I DON'T WANT TO HEAR ABOUT IT"	NA	NA	NA	NA	NA	NA	6
+2020-08-25 07:02:31	"student009"	"student"	8	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:02:37	"student009"	"student"	9	"I am just"	"I am just"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:02:41	"teacher008"	"teacher"	10	"sorry!"	"sorry!"	7	NA	NA	NA	NA	NA	1
+2020-08-25 07:02:53	"student009"	"student"	11	"very nervous about that"	"very nervous about that"	9	NA	NA	NA	NA	NA	4
+2020-08-25 07:03:17	"student009"	"student"	12	"I am absolutely not ready!"	"I am absolutely not ready!"	NA	NA	NA	NA	NA	NA	5
+2020-08-25 07:03:24	"teacher008"	"teacher"	13	"aww, sorry to hear that!"	"aww, sorry to hear that!"	NA	NA	NA	NA	NA	NA	5
+2020-08-25 07:03:39	"teacher008"	"teacher"	14	"I guess no one is truly ready for what this academic year might bring!"	"I guess no one is truly ready for what this academic year might bring!"	NA	NA	NA	NA	NA	NA	14
+2020-08-25 07:04:03	"teacher008"	"teacher"	15	"Have you had a chance to think about our classes?"	"Have you had a chance to think about our classes?"	NA	"2b"	"topic development"	NA	NA	NA	10
+2020-08-25 07:05:00	"student009"	"student"	16	"I don't know"	"I don't know"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:05:05	"student009"	"student"	17	"I can't say"	"I can't say"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:05:32	"teacher008"	"teacher"	18	"You don't know how much time / workload you're likely to have?"	"You don't know how much time / workload you're likely to have?"	NA	NA	NA	NA	NA	NA	12
+2020-08-25 07:05:44	"student009"	"student"	19	"I don't"	"I don't"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 07:07:57	"teacher008"	"teacher"	20	"Right, in this case we will finish this week, and you will have a think for a couple of weeks and see how it all goes and let me know by the middle of September, ok?"	"Right, in this case we will finish this week, and you will have a think for a couple of weeks and see how it all goes and let me know by the middle of September, ok?"	NA	NA	NA	NA	NA	NA	36
+2020-08-25 07:08:38	"teacher008"	"teacher"	21	"It would be lovely to continue, but it's ok to say no!"	"It would be lovely to continue, but it's ok to say no!"	NA	NA	NA	NA	NA	NA	12
+2020-08-25 07:08:50	"student009"	"student"	22	"ok, maybe earlier"	"ok, maybe earlier"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:09:07	"student009"	"student"	23	"I want to continue :("	"I want to continue :("	NA	NA	NA	NA	NA	NA	5
+2020-08-25 07:09:17	"teacher008"	"teacher"	24	"I have to be finished by <TIME> as I mentioned to you because I will need to pick up my son from school"	"I have to be finished by <TIME> as I mentioned to you because I will need to pick up my son from school"	NA	NA	NA	NA	NA	NA	23
+2020-08-25 07:09:25	"teacher008"	"teacher"	25	"at <TIME>"	"at <TIME>"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 07:09:55	"student009"	"student"	26	"If we can do this at <TIME> on Tuesday and Thursday"	"If we can do this at <TIME> on Tuesday and Thursday"	NA	NA	NA	NA	NA	NA	11
+2020-08-25 07:10:18	"student009"	"student"	27	"that might fit me"	"that might suit me"	NA	NA	NA	NA	NA	NA	4
+2020-08-25 07:10:37	"teacher008"	"teacher"	28	"<TIME> is too late for me, sorry! I need to be finished at <TIME>, so the latest I can start is <TIME>"	"<TIME> is too late for me, sorry! I need to be finished at <TIME>, so the latest I can start is <TIME>"	NA	NA	NA	NA	NA	NA	22
+2020-08-25 07:10:50	"student009"	"student"	29	"okay:("	"okay:("	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:11:19	"teacher008"	"teacher"	30	"Are you also restarting your <LANGUAGE SCHOOL> English, coding club, chess and extra math?"	"Are you also restarting your <LANGUAGE SCHOOL> English, coding club, chess and extra math?"	NA	"2c"	NA	NA	NA	NA	14
+2020-08-25 07:11:32	"student009"	"student"	31	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:12:00	"student009"	"student"	32	"coding , math and chess are in one day"	"coding, math and chess are on the same day"	NA	NA	NA	NA	NA	NA	9
+2020-08-25 07:12:09	"student009"	"student"	33	"on Sunday"	"on Sunday"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 07:12:11	"teacher008"	"teacher"	34	"You're going to be a very busy lady!"	"You're going to be a very busy lady!"	31	NA	NA	NA	NA	NA	8
+2020-08-25 07:12:17	"teacher008"	"teacher"	35	"Ah, I see!"	"Ah, I see!"	33	NA	NA	NA	NA	NA	3
+2020-08-25 07:13:07	"student009"	"student"	36	"<LANGUAGE SCHOOL> must be on Monday, Wednesday and on Friday"	"<LANGUAGE SCHOOL> will probably be on Monday, Wednesday and on Friday"	NA	NA	NA	NA	NA	NA	10
+2020-08-25 07:13:35	"teacher008"	"teacher"	37	"<LANGUAGE SCHOOL> classes for teenagers are usually twice a week, no?"	"<LANGUAGE SCHOOL> classes for teenagers are usually twice a week, no?"	NA	NA	NA	NA	NA	NA	11
+2020-08-25 07:13:38	"student009"	"student"	38	"maybe it will be okay on Tuesday and Thursday"	"maybe it will be okay on Tuesday and Thursday"	36	NA	NA	NA	NA	NA	9
+2020-08-25 07:13:54	"student009"	"student"	39	"yes, but there is also Friday fun"	"yes, but there is also Friday fun"	37	NA	NA	NA	NA	NA	7
+2020-08-25 07:14:04	"teacher008"	"teacher"	40	"We can always go down to once a week"	"We can always go down to once a week"	NA	NA	NA	NA	NA	NA	9
+2020-08-25 07:14:17	"teacher008"	"teacher"	41	"Or stop completely, it's up to you! You need some free time, too!"	"Or stop completely, it's up to you! You need some free time, too!"	NA	NA	NA	NA	NA	NA	13
+2020-08-25 07:14:32	"teacher008"	"teacher"	42	"What's Friday fun?"	"What's Friday fun?"	39	NA	NA	NA	NA	NA	3
+2020-08-25 07:15:35	"student009"	"student"	43	"oh, we watch films , play board games and do a lot of intresting things:)"	"oh, we watch films, play board games and do a lot of interesting things:)"	NA	NA	NA	NA	NA	NA	15
+2020-08-25 07:15:49	"student009"	"student"	44	"not with group"	"not with the group"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:15:51	"teacher008"	"teacher"	45	"Oh wow, all online?"	"Oh wow, all online?"	NA	NA	NA	NA	NA	NA	4
+2020-08-25 07:16:53	"student009"	"student"	46	"well yes, but on online we do something another"	"well yes, but online we do something else"	NA	NA	NA	NA	NA	NA	9
+2020-08-25 07:17:41	"teacher008"	"teacher"	47	"you do something different?"	"you do something different?"	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2020-08-25 07:18:20	"student009"	"student"	48	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:18:26	"teacher008"	"teacher"	49	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:19:00	"teacher008"	"teacher"	50	"My son is starting school in two weeks! It's going to be a big change!"	"My son is starting school in two weeks! It's going to be a big change!"	NA	"3.0"	"topic opening"	NA	NA	NA	15
+2020-08-25 07:19:21	"student009"	"student"	51	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:19:26	"student009"	"student"	52	"that's nice"	"that's nice"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 07:19:45	"teacher008"	"teacher"	53	"I hope it will be"	"I hope it will be"	NA	NA	NA	NA	NA	NA	5
+2020-08-25 07:21:16	"teacher008"	"teacher"	54	"Ok, I mentioned 'false friends' last time. The words in different languages that sound and look similar (and probably even come from the same word) but that mean different things"	"Ok, I mentioned 'false friends' last time. The words in different languages that sound and look similar (and probably even come from the same word) but that mean different things"	NA	"4.0"	"presentation"	"lexical resource,meta knowledge"	NA	NA	30
+2020-08-25 07:21:44	"student009"	"student"	55	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:22:42	"teacher008"	"teacher"	56	"The example was 'a cabinet'. Kabinet means 'an office / classroom' in Russian and Ukrainian, but 'cabinet' means ??? in English"	"The example was 'a cabinet'. Kabinet means 'an office / classroom' in Russian and Ukrainian, but 'cabinet' means ??? in English"	NA	NA	"scaffolding,eliciting,non-English"	"lexical resource,code switching"	NA	NA	21
+2020-08-25 07:23:21	"student009"	"student"	57	"a cupboard"	"a cupboard"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 07:23:47	"teacher008"	"teacher"	58	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:24:13	"teacher008"	"teacher"	59	"I've picked some other false friends, you might know some of them"	"I've picked some other false friends, you might know some of them"	NA	NA	NA	NA	NA	NA	12
+2020-08-25 07:24:47	"teacher008"	"teacher"	60	"Let's start with an easy one. A biscuit in Russian / Ukrainian is a sponge cake, but in English it's a ....?"	"Let's start with an easy one. A biscuit in Russian / Ukrainian is a sponge cake, but in English it's a ....?"	NA	"4a"	"presentation,eliciting,non-English"	"lexical resource,meaning,code switching"	NA	NA	22
+2020-08-25 07:25:15	"student009"	"student"	61	"cookie"	"cookie"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:25:25	"teacher008"	"teacher"	62	"That's right :)"	"That's right :)"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:25:39	"teacher008"	"teacher"	63	"What's the difference between a biscuit and a cookie?"	"What's the difference between a biscuit and a cookie?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	9
+2020-08-25 07:26:44	"teacher008"	"teacher"	64	"It's a trick question, now that I'm thinking about it, ignore it!"	"It's a trick question, now that I'm thinking about it, ignore it!"	NA	NA	"repair"	"content"	NA	NA	12
+2020-08-25 07:27:22	"teacher008"	"teacher"	65	"Moving on! A chef in Russian / Ukrainian is a boss, but in English it's a...?"	"Moving on! A chef in Russian / Ukrainian is a boss, but in English it's a...?"	NA	"4b"	"scaffolding,eliciting,non-English"	"lexical resource,code switching"	NA	NA	16
+2020-08-25 07:27:31	"student009"	"student"	66	"cookie american english?"	"cookie American English?"	63	NA	NA	NA	NA	NA	3
+2020-08-25 07:27:48	"teacher008"	"teacher"	67	"Yes, this is mostly correct, a cookie is an American word"	"Yes, this is mostly correct, a cookie is an American word"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-08-25 07:28:07	"student009"	"student"	68	"chef - person who is cooking"	"chef - a person who cooks"	65	NA	NA	NA	NA	NA	6
+2020-08-25 07:29:16	"teacher008"	"teacher"	69	"Yes, it's a professional cook!"	"Yes, it's a professional cook!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-08-25 07:29:38	"teacher008"	"teacher"	70	"And a similar word for 'a boss' is 'a chief'"	"And a similar word for 'a boss' is 'a chief'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-08-25 07:29:51	"student009"	"student"	71	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:30:54	"teacher008"	"teacher"	72	"What do you think a phrase 'too many chiefs and not enough Indians' means?"	"What do you think a phrase 'too many chiefs and not enough Indians' means?"	NA	"4c"	"eliciting"	"lexical resource,meaning"	NA	NA	14
+2020-08-25 07:31:37	"student009"	"student"	73	"Don't really know..."	"Don't really know..."	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:32:07	"teacher008"	"teacher"	74	"it's a situation where there are two many bosses and not enough people who actually do the job"	"it's a situation where there are two many bosses and not enough people who actually do the job"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2020-08-25 07:33:42	"teacher008"	"teacher"	75	"because back in the day Indian communities had chiefs"	"because back in the day Indian communities had chiefs"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	9
+2020-08-25 07:34:02	"teacher008"	"teacher"	76	"Indian as in 'Native American'"	"Indian as in 'Native American'"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	5
+2020-08-25 07:34:14	"teacher008"	"teacher"	77	"does it make sense?"	"does it make sense?"	NA	NA	NA	NA	NA	NA	4
+2020-08-25 07:34:25	"student009"	"student"	78	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:34:34	"teacher008"	"teacher"	79	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:34:44	"teacher008"	"teacher"	80	"Can you maybe think of a false friend?"	"Can you maybe think of a false friend?"	NA	"4d"	"eliciting"	"lexical resource,meta knowledge"	NA	NA	8
+2020-08-25 07:35:44	"student009"	"student"	81	"to Indian?"	"to Indian?"	NA	NA	"enquiry"	NA	NA	NA	2
+2020-08-25 07:36:30	"teacher008"	"teacher"	82	"No, I mean a word in English that looks like a word in your language but means something different"	"No, I mean a word in English that looks like a word in your language but means something different"	NA	NA	"clarification"	NA	NA	NA	19
+2020-08-25 07:36:39	"student009"	"student"	83	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:38:04	"teacher008"	"teacher"	84	"Ok, I've got another one for you! 'Angina' What do you it means?"	"Ok, I've got another one for you! 'Angina' What do you it means?"	NA	"4e"	"eliciting"	"lexical resource,code switching"	NA	NA	13
+2020-08-25 07:38:16	"teacher008"	"teacher"	85	"sorry, What do you think it means?"	"sorry, What do you think it means?"	NA	NA	"repair"	"writing"	NA	NA	7
+2020-08-25 07:39:15	"student009"	"student"	86	"I know it on Russian"	"I know it in Russian"	NA	NA	NA	NA	NA	NA	5
+2020-08-25 07:39:40	"teacher008"	"teacher"	87	"It means a very sore throat, tonsillitis, right?"	"It means a very sore throat, tonsillitis, right?"	NA	NA	NA	"code switching,lexical resource,meaning"	NA	NA	8
+2020-08-25 07:40:01	"student009"	"student"	88	"throat?"	"throat?"	NA	"4f"	"enquiry"	"lexical resource,meaning"	NA	NA	1
+2020-08-25 07:40:11	"student009"	"student"	89	"tonsillitis ?"	"tonsillitis ?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	2
+2020-08-25 07:40:37	"teacher008"	"teacher"	90	"A throat is inside your mouth and neck, the place that hurts if you have a cold"	"A throat is inside your mouth and neck, the place that hurts if you have a cold"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2020-08-25 07:41:30	"teacher008"	"teacher"	91	"Do you know what I mean? A runny nose and a sore throat are all symptoms of a cold"	"Do you know what I mean? A runny nose and a sore throat are all symptoms of a cold"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2020-08-25 07:42:19	"student009"	"student"	92	"..."	"..."	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:42:36	"teacher008"	"teacher"	93	"oh no, I lost you"	"oh no, I lost you"	NA	NA	NA	NA	NA	NA	5
+2020-08-25 07:43:06	"teacher008"	"teacher"	94	"A throat is at the back of your mouth"	"A throat is at the back of your mouth"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2020-08-25 07:43:15	"student009"	"student"	95	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:43:35	"teacher008"	"teacher"	96	"So in the winter, if you catch a virus, your throat becomes red and hurts"	"So in the winter, if you catch a virus, your throat becomes red and hurts"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2020-08-25 07:43:50	"teacher008"	"teacher"	97	"You might also have a headache, a high temperature and a runny nose"	"You might also have a headache, a high temperature and a runny nose"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2020-08-25 07:44:59	"student009"	"student"	98	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:45:56	"teacher008"	"teacher"	99	"this means you 'have a cold' and 'have a sore throat'"	"this means you 'have a cold' and 'have a sore throat'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-08-25 07:46:35	"teacher008"	"teacher"	100	"What usually helps you when you have a sore throat? I like to have some honey and a warm cup of tea"	"What usually helps you when you have a sore throat? I like to have some honey and a warm cup of tea"	NA	"4g"	"exercise,free practice"	"lexical resource"	NA	NA	22
+2020-08-25 07:49:02	"teacher008"	"teacher"	101	"hey <STUDENT>, are you there?"	"hey <STUDENT>, are you there?"	NA	NA	NA	NA	NA	NA	5
+2020-08-25 07:49:16	"student009"	"student"	102	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:49:51	"teacher008"	"teacher"	103	"Ok, let's talk about colds. What do you do when you have a cold? Or maybe you never catch any colds?"	"Ok, let's talk about colds. What do you do when you have a cold? Or maybe you never catch any colds?"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	21
+2020-08-25 07:50:28	"student009"	"student"	104	"rarely"	"rarely"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:50:45	"teacher008"	"teacher"	105	"Ok, that's good"	"Ok, that's good"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:51:02	"teacher008"	"teacher"	106	"Could you give me a full sentence and say something else about it?"	"Could you give me a full sentence and say something else about it?"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	13
+2020-08-25 07:51:32	"student009"	"student"	107	"my mom give me some syrup"	"my mom gives me some syrup"	NA	NA	NA	NA	NA	NA	6
+2020-08-25 07:51:46	"student009"	"student"	108	"and oranges"	"and oranges"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 07:52:15	"teacher008"	"teacher"	109	"Ok, sure, as a source of vitamin C, right?"	"Ok, sure, as a source of vitamin C, right?"	NA	NA	NA	NA	NA	NA	9
+2020-08-25 07:52:23	"student009"	"student"	110	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:52:38	"teacher008"	"teacher"	111	"What do you do if you have a sore throat?"	"What do you do if you have a sore throat?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	10
+2020-08-25 07:54:09	"teacher008"	"teacher"	112	"Does 'sore throat' make sense to you now?"	"Does 'sore throat' make sense to you now?"	NA	NA	NA	NA	NA	NA	8
+2020-08-25 07:54:11	"student009"	"student"	113	"I drink something hot"	"I drink something hot"	111	NA	NA	NA	NA	NA	4
+2020-08-25 07:54:19	"student009"	"student"	114	"yeah"	"yeah"	113	NA	NA	NA	NA	NA	1
+2020-08-25 07:54:19	"teacher008"	"teacher"	115	"Yes, me too!"	"Yes, me too!"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:54:43	"teacher008"	"teacher"	116	"Ok, and if the throat gets really bad, in Russian we call it 'angina'"	"Ok, and if the throat gets really bad, in Russian we call it 'angina'"	NA	"4h"	"scaffolding,non-English"	"lexical resource,meta knowledge,code switching"	NA	NA	14
+2020-08-25 07:54:46	"teacher008"	"teacher"	117	"right?"	"right?"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:55:00	"student009"	"student"	118	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:55:24	"teacher008"	"teacher"	119	"but in English 'angina' means chest pain caused by the heart"	"but in English 'angina' means chest pain caused by the heart"	NA	NA	"scaffolding"	"lexical resource,meta knowledge"	NA	NA	11
+2020-08-25 07:56:31	"teacher008"	"teacher"	120	"Same word, completely different meaning = another false friend"	"Same word, completely different meaning = another false friend"	NA	NA	"scaffolding"	"lexical resource,meta knowledge"	NA	NA	9
+2020-08-25 07:57:17	"teacher008"	"teacher"	121	"Are you with me, <STUDENT>?"	"Are you with me, <STUDENT>?"	NA	"4i"	NA	NA	NA	NA	5
+2020-08-25 07:57:43	"student009"	"student"	122	"of course"	"of course"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 07:58:03	"teacher008"	"teacher"	123	"Are you feeling a bit confused by this topic? You don't seem as active as usual"	"Are you feeling a bit confused by this topic? You don't seem as active as usual"	NA	NA	NA	NA	NA	NA	16
+2020-08-25 07:58:22	"student009"	"student"	124	"I am sleepy"	"I am sleepy"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 07:58:39	"student009"	"student"	125	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:59:12	"teacher008"	"teacher"	126	"Don't worry. We should have another Harry Potter lesson to mark the end of summer on Thursday"	"Don't worry. We should have another Harry Potter lesson to mark the end of summer on Thursday"	NA	NA	NA	NA	NA	NA	17
+2020-08-25 07:59:16	"teacher008"	"teacher"	127	"What do you think?"	"What do you think?"	NA	NA	NA	NA	NA	NA	4
+2020-08-25 07:59:34	"student009"	"student"	128	"yeees!!!"	"yeees!!!"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 07:59:50	"teacher008"	"teacher"	129	"Haha, cool!"	"Haha, cool!"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 08:00:18	"teacher008"	"teacher"	130	"Ooh, I forgot to ask. Were you planning to do one of the Cambridge exams at <LANGUAGE SCHOOL>? Such as Cambridge First"	"Ooh, I forgot to ask. Were you planning to do one of the Cambridge exams at <LANGUAGE SCHOOL>? Such as Cambridge First"	NA	"5.0"	"topic opening"	NA	NA	NA	22
+2020-08-25 08:00:28	"teacher008"	"teacher"	131	"Did <TEACHER> talk to you guys about it?"	"Did <TEACHER> talk to you guys about it?"	NA	NA	NA	NA	NA	NA	8
+2020-08-25 08:00:52	"student009"	"student"	132	"uhhhh"	"uhhhh"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 08:01:05	"student009"	"student"	133	"don't really understand"	"don't really understand"	NA	NA	NA	NA	NA	NA	3
+2020-08-25 08:01:35	"teacher008"	"teacher"	134	"Never mind! I can tell you more next time, but I'm sure you'll hear about it at <LANGUAGE SCHOOL>"	"Never mind! I can tell you more next time, but I'm sure you'll hear about it at <LANGUAGE SCHOOL>"	NA	NA	NA	NA	NA	NA	19
+2020-08-25 08:01:44	"student009"	"student"	135	"I just remember I have done tgis test"	"I just remember I did this test"	NA	NA	NA	NA	NA	NA	8
+2020-08-25 08:01:56	"student009"	"student"	136	"that's all"	"that's all"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 08:02:09	"student009"	"student"	137	"I don't even remember reaults"	"I don't even remember the results"	NA	NA	NA	NA	NA	NA	5
+2020-08-25 08:02:27	"student009"	"student"	138	"and I think we don't have them..."	"and I think we don't have them..."	NA	NA	NA	NA	NA	NA	7
+2020-08-25 08:02:49	"student009"	"student"	139	"that's sTrAnGe"	"that's sTrAnGe"	NA	NA	NA	NA	NA	NA	2
+2020-08-25 08:02:55	"teacher008"	"teacher"	140	"Cambridge exams are international English language exams. The <LANGUAGE SCHOOL> used to be one of the exam centres in Kyiv and definitely a very strong preparation centre"	"Cambridge exams are international English language exams. The <LANGUAGE SCHOOL> used to be one of the exam centres in Kyiv and definitely a very strong preparation centre"	NA	NA	NA	NA	NA	NA	27
+2020-08-25 08:03:29	"teacher008"	"teacher"	141	"TrAnGE?"	"TrAnGE?"	139	NA	NA	NA	NA	NA	1
+2020-08-25 08:03:54	"teacher008"	"teacher"	142	"Anyway, you would definitely remember if you had taken Cambridge First :)"	"Anyway, you would definitely remember if you had taken Cambridge First :)"	140	NA	NA	NA	NA	NA	12
+2020-08-25 08:04:29	"teacher008"	"teacher"	143	"Cambridge First is a B2 level exam"	"Cambridge First is a B2 level exam"	NA	NA	NA	NA	NA	NA	7
+2020-08-25 08:05:04	"teacher008"	"teacher"	144	"You can google it if you want and get some more information"	"You can google it if you want and get some more information"	NA	NA	NA	NA	NA	NA	12
+2020-08-25 08:05:27	"student009"	"student"	145	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-25 08:05:44	"teacher008"	"teacher"	146	"Anyway, I should let you go! Speak to your on Thursday, take care!"	"Anyway, I should let you go! Speak to your on Thursday, take care!"	NA	"6.0"	"closing"	NA	NA	NA	13
+2020-08-25 08:05:55	"student009"	"student"	147	"okay, bye!"	"okay, bye!"	NA	NA	NA	NA	NA	"B2"	2

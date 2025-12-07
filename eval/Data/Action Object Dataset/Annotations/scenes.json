@@ -1,0 +1,444 @@
+[
+  {
+    "scene_id": "scene_001",
+    "image_path": "Data/Action Object Dataset/Images/Scenes/scene_1_tabletop.png",
+    "objects": [
+      {
+        "object_id": "scene_001_thermometer",
+        "labels_en": ["thermometer"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_001_chips",
+        "labels_en": ["chips", "chip bag"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_001_fruit_cup",
+        "labels_en": ["fruit cup", "peach cup"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_tape",
+        "labels_en": ["tape"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_watch",
+        "labels_en": ["watch"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_headphones",
+        "labels_en": ["headphones", "earphones"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_lock",
+        "labels_en": ["lock"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_bracelet",
+        "labels_en": ["bracelet"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_laptop",
+        "labels_en": ["laptop", "computer"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_keyboard",
+        "labels_en": ["keyboard"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_mouse",
+        "labels_en": ["mouse"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_wallet",
+        "labels_en": ["wallet"],
+        "actionable": true
+      },
+      { 
+        "object_id": "scene_001_knife",
+        "labels_en": ["knife"],
+        "actionable": false
+      },
+      { 
+        "object_id": "scene_001_table",
+        "labels_en": ["table"],
+        "actionable": false
+      }
+    ]
+  },
+  {
+    "scene_id": "scene_002",
+    "image_path": "Data/Action Object Dataset/Images/Scenes/scene_2_cooking.png",
+    "objects": [
+      {
+        "object_id": "scene_002_pasta",
+        "labels_en": ["pasta box", "pasta", "rotini"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_002_lemon_juice",
+        "labels_en": ["lemon juice"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_002_alfredo",
+        "labels_en": ["alfredo sauce", "pasta sauce", "white sauce", "sauce"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_002_peanut_butter",
+        "labels_en": ["peanut butter", "peanut sauce", "peanut spread"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_002_tomato_sauce",
+        "labels_en": ["tomato sauce", "marinara sauce", "red sauce", "sauce"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_002_honey",
+        "labels_en": ["honey"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_002_chair",
+        "labels_en": ["chair"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_002_bucket",
+        "labels_en": ["bucket"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_002_table",
+        "labels_en": ["table"],
+        "actionable": false
+      }
+    ]
+  },  
+  {
+    "scene_id": "scene_003",
+    "image_path": "Data/Action Object Dataset/Images/Scenes/scene_3_condiments.png",
+    "objects": [
+      {
+        "object_id": "scene_003_salt",
+        "labels_en": ["salt"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_003_olive_oil",
+        "labels_en": ["olive oil", "oil"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_003_sugar",
+        "labels_en": ["sugar"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_003_black_pepper",
+        "labels_en": ["black pepper", "ground pepper", "pepper"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_003_can_opener",
+        "labels_en": ["can opener"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_003_chair",
+        "labels_en": ["chair"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_003_bucket",
+        "labels_en": ["bucket"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_003_table",
+        "labels_en": ["table"],
+        "actionable": false
+      }
+    ]
+  },  
+  {
+    "scene_id": "scene_004",
+    "image_path": "Data/Action Object Dataset/Images/Scenes/scene_4_utensils.png",
+    "objects": [
+      {
+        "object_id": "scene_004_soap",
+        "labels_en": ["soap", "dish soap"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_bowl_1",
+        "labels_en": ["bowl", "blue bowl", "ceramic bowl"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_scissors",
+        "labels_en": ["scissors", "green scissors"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_bowl_2",
+        "labels_en": ["bowl", "green bowl", "ceramic bowl"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_fork",
+        "labels_en": ["plastic fork", "fork", "plastic utensil"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_spoon",
+        "labels_en": ["spoon", "plastic spoon", "plastic utensil", "white spoon"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_metal_spatula",
+        "labels_en": ["metal spatula", "spatula"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_rubber_spatula",
+        "labels_en": ["rubber spatula", "spatula", "red spatula"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_plate",
+        "labels_en": ["plate"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_cutting_board",
+        "labels_en": ["cutting board", "wooden board", "wooden cutting board"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_aluminum_foil",
+        "labels_en": ["aluminum foil", "foil"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_004_knife",
+        "labels_en": ["knife", "kitchen knife"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_004_stove",
+        "labels_en": ["stove", "kitchen stove", "stovetop"],
+        "actionable": false
+      }
+    ]
+  },  
+  {
+    "scene_id": "scene_005",
+    "image_path": "Data/Action Object Dataset/Images/Scenes/scene_5_tabletop2.png",
+    "objects": [
+      {
+        "object_id": "scene_005_soap",
+        "labels_en": ["soap", "hand soap"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_red_drink",
+        "labels_en": ["red drink", "drink", "beverage", "gatorade","sports drink", "red gatorade"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_blue_drink",
+        "labels_en": ["blue drink", "drink", "beverage", "gatorade","sports drink", "blue gatorade"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_napkin",
+        "labels_en": ["napkin", "paper towel"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_metal_fork",
+        "labels_en": ["metal fork", "fork"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_metal_spoon",
+        "labels_en": ["metal spoon", "spoon"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_keys",
+        "labels_en": ["keys", "keychain"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_water_bottle",
+        "labels_en": ["water bottle", "bottle", "blue bottle", "small bottle", "plastic bottle"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_metal_bottle",
+        "labels_en": ["metal bottle", "bottle", "water bottle"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_tissue",
+        "labels_en": ["tissues", "tissue box", "tissue"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_umbrella",
+        "labels_en": ["umbrella"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_005_box",
+        "labels_en": ["box", "cardboard box"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_005_table",
+        "labels_en": ["table"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_005_chair",
+        "labels_en": ["chair"],
+        "actionable": false
+      }
+    ]
+  },  
+  {
+    "scene_id": "scene_006",
+    "image_path": "Data/Action Object Dataset/Images/Scenes/scene_6_tabletop3_1.png",
+    "objects": [
+      {
+        "object_id": "scene_006_book",
+        "labels_en": ["book", "novel", "paper book"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_006_cube",
+        "labels_en": ["cube", "rubik's cube", "rubiks cube", "puzzle cube", "toy cube"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_006_brush",
+        "labels_en": ["brush", "hairbrush", "comb"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_006_marker",
+        "labels_en": ["marker", "pink marker", "sharpie", "pink sharpie"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_006_pen",
+        "labels_en": ["pen", "grey pen"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_006_pencil",
+        "labels_en": ["pencil", "mechanical pencil"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_006_toothbrush",
+        "labels_en": ["toothbrush", "blue toothbrush", "brush"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_006_cup",
+        "labels_en": ["cup", "mug", "ceramic cup", "grey cup"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_006_knife",
+        "labels_en": ["knife"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_006_table",
+        "labels_en": ["table"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_006_chair",
+        "labels_en": ["chair"],
+        "actionable": false
+      }
+    ]
+  },  
+  {
+    "scene_id": "scene_007",
+    "image_path": "Data/Action Object Dataset/Images/Scenes/scene_7_tabletop4.png",
+    "objects": [
+      {
+        "object_id": "scene_007_glasses",
+        "labels_en": ["glasses"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_phone",
+        "labels_en": ["phone", "cell phone", "mobile phone", "iphone"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_stapler",
+        "labels_en": ["stapler", "blue stapler"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_eraser",
+        "labels_en": ["eraser", "rubber eraser"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_knife",
+        "labels_en": ["knife", "kitchen knife"],
+        "actionable": false
+      },
+      {
+        "object_id": "scene_007_sunglasses",
+        "labels_en": ["sunglasses", "shades"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_glue_stick",
+        "labels_en": ["glue stick", "glue"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_scissors",
+        "labels_en": ["scissors", "pink scissors"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_laptop",
+        "labels_en": ["laptop", "computer"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_controller",
+        "labels_en": ["controller", "xbox controller", "game controller"],
+        "actionable": true
+      },
+      {
+        "object_id": "scene_007_table",
+        "labels_en": ["table", "black table"],
+        "actionable": false
+      }
+    ]
+  }
+]

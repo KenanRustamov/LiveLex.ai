@@ -1,0 +1,128 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-05-07 12:33:02	"student009"	"student"	1	"Hi!"	"Hi!"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-05-07 12:33:11	"student009"	"student"	2	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2021-05-07 12:33:58	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	1	NA	NA	NA	NA	NA	2
+2021-05-07 12:34:21	"teacher008"	"teacher"	4	"I'm good, thank you! I've spent the whole morning gardening, so I'm very happy :."	"I'm good, thank you! I've spent the whole morning gardening, so I'm very happy :)"	NA	"2.0"	"topic opening"	NA	NA	NA	15
+2021-05-07 12:34:25	"teacher008"	"teacher"	5	"How are you?"	"How are you?"	NA	"2a"	"topic development"	NA	NA	NA	3
+2021-05-07 12:34:39	"student009"	"student"	6	"I am good"	"I am good"	NA	NA	NA	NA	NA	NA	3
+2021-05-07 12:34:45	"student009"	"student"	7	"feel nice"	"feel nice"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 12:35:00	"student009"	"student"	8	"we are at school again"	"we are at school again"	NA	NA	NA	NA	NA	NA	5
+2021-05-07 12:35:16	"teacher008"	"teacher"	9	"Do you mean you're at school now?"	"Do you mean you're at school now?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2021-05-07 12:35:23	"student009"	"student"	10	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 12:35:41	"student009"	"student"	11	"we just came back to school from Tuesday"	"we just went back to school on Tuesday"	NA	NA	NA	NA	NA	NA	8
+2021-05-07 12:36:24	"teacher008"	"teacher"	12	"Hmm, do you mean today was your first day back at school?"	"Hmm, do you mean today was your first day back at school?"	NA	"2b"	"eliciting,repair"	"grammatical resource"	NA	NA	12
+2021-05-07 12:36:40	"student009"	"student"	13	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 12:37:03	"teacher008"	"teacher"	14	"Aah, I see! Were you studying online then?"	"Aah, I see! Were you studying online then?"	NA	NA	NA	NA	NA	NA	8
+2021-05-07 12:37:51	"student009"	"student"	15	"oh no"	"oh no"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 12:38:07	"student009"	"student"	16	"Tuesday was my first day back to school"	"Tuesday was my first day back at school"	NA	NA	NA	NA	NA	NA	8
+2021-05-07 12:39:28	"teacher008"	"teacher"	17	"I see! In this case, 'we ___ ____ back at school ____ Tuesday'"	"I see! In this case, 'we ___ ____ back at school ____ Tuesday'"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	13
+2021-05-07 12:40:22	"student009"	"student"	18	"have came , on"	"have been, since"	NA	NA	NA	NA	NA	NA	4
+2021-05-07 12:41:03	"teacher008"	"teacher"	19	"No! :. If you're using 'on Tuesday' you need past simple. We went back to school on Tuesday"	"No! :) If you're using 'on Tuesday' you need past simple. We went back to school on Tuesday"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2021-05-07 12:41:23	"teacher008"	"teacher"	20	"But if you're using present perfect .which is a good idea., you need a different word before Tuesday"	"But if you're using present perfect (which is a good idea), you need a different word before Tuesday"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2021-05-07 12:41:32	"teacher008"	"teacher"	21	"it started on Tuesday and it's still happening!"	"it started on Tuesday and it's still happening!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2021-05-07 12:41:48	"student009"	"student"	22	"you wrote two ___ and I wrote present perfect"	"you wrote two ___ and I wrote present perfect"	NA	NA	NA	NA	NA	NA	9
+2021-05-07 12:42:08	"teacher008"	"teacher"	23	"Yes, we have been back at school ____ Tuesday"	"Yes, we have been back at school ____ Tuesday"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2021-05-07 12:42:36	"teacher008"	"teacher"	24	"s...."	"s...."	NA	NA	NA	NA	NA	NA	1
+2021-05-07 12:42:37	"student009"	"student"	25	"since"	"since"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 12:42:44	"teacher008"	"teacher"	26	"Yay! We got there eventually"	"Yay! We got there eventually"	NA	NA	NA	NA	NA	NA	5
+2021-05-07 12:43:02	"teacher008"	"teacher"	27	"You have been back at school since Tuesday then"	"You have been back at school since Tuesday then"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2021-05-07 12:43:18	"teacher008"	"teacher"	28	"And now there's another long weekend coming, right? Have you got any nice plans?"	"And now there's another long weekend coming, right? Have you got any nice plans?"	NA	"3.0"	"topic opening,eliciting"	"grammatical resource"	NA	NA	14
+2021-05-07 12:43:54	"student009"	"student"	29	"nah, tomorrow it is my mom's friend's Birthday and we will come"	"nah, tomorrow it is my mom's friend's birthday and we are going"	NA	NA	NA	NA	NA	NA	12
+2021-05-07 12:44:56	"teacher008"	"teacher"	30	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 12:46:14	"teacher008"	"teacher"	31	"This takes us nicely to today's topic, actually. Talking about the future. Would you say it's a plan, to go to your mom's friend's birthday?"	"This takes us nicely to today's topic, actually. Talking about the future. Would you say it's a plan, to go to your mom's friend's birthday?"	NA	NA	"eliciting"	"grammatical resource,meaning"	NA	NA	25
+2021-05-07 12:47:00	"student009"	"student"	32	"my parent's plan , not mine , for me it is a fact"	"my parent's plan, not mine, for me it is a fact"	NA	NA	NA	NA	NA	NA	13
+2021-05-07 12:47:58	"teacher008"	"teacher"	33	"Ok, fair enough. To talk about plans, even very solid plans that are like a fact, we use... do you remember this?"	"Ok, fair enough. To talk about plans, even very solid plans that are like a fact, we use... do you remember this?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	22
+2021-05-07 12:48:18	"teacher008"	"teacher"	34	"we ___ ____ to my mom's friend's b-day party .go."	"we ___ ____ to my mom's friend's b-day party (go)"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	10
+2021-05-07 12:49:36	"student009"	"student"	35	"will go-me, are going to go-my parents."	"will go-me, are going to go-my parents."	NA	NA	NA	NA	NA	NA	7
+2021-05-07 12:51:24	"teacher008"	"teacher"	36	"Hmm, you know what, I'm going to send you a description of how 'will' and present continuous / going to work for the future, and you have a think if it fits"	"Hmm, you know what, I'm going to send you a description of how 'will' and present continuous / going to work for the future, and you have a think if it fits"	NA	"3a"	"scaffolding"	"grammatical resource,meaning"	"website"	NA	32
+2021-05-07 12:52:01	"student009"	"student"	37	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 12:52:19	"teacher008"	"teacher"	38	"1. We use the present simple for something scheduled:  We have a lesson next Monday. The train arrives at 6.30 in the morning. The holidays start next week. It's my birthday tomorrow.  2. We can use the present continuous for plans or arrangements:  I'm playing football tomorrow. They are coming to see us tomorrow. We're having a party at Christmas.  3. We use will:  when we express beliefs about the future: It will be a nice day tomorrow. I think Brazil will win the World Cup. I'm sure you will enjoy the film.  to mean want to or be willing to: I hope you will come to my party. George says he will help us.  to make offers and promises : I'll see you tomorrow. We'll send you an email.  to talk about offers and promises: Tim will be at the meeting. Mary will help with the cooking.  4. We use be going to:  to talk about plans or intentions: I'm going to drive to work today. They are going to move to Manchester.  to make predictions based on evidence we can see: Be careful! You are going to fall. .= I can see that you might fall.. Look at those black clouds. I think it's going to rain. .= I can see that it will rain.."	"1. We use the present simple for something scheduled:  We have a lesson next Monday. The train arrives at 6.30 in the morning. The holidays start next week. It's my birthday tomorrow.  2. We can use the present continuous for plans or arrangements:  I'm playing football tomorrow. They are coming to see us tomorrow. We're having a party at Christmas.  3. We use will:  when we express beliefs about the future: It will be a nice day tomorrow. I think Brazil will win the World Cup. I'm sure you will enjoy the film.  to mean want to or be willing to: I hope you will come to my party. George says he will help us.  to make offers and promises : I'll see you tomorrow. We'll send you an email.  to talk about offers and promises: Tim will be at the meeting. Mary will help with the cooking.  4. We use be going to:  to talk about plans or intentions: I'm going to drive to work today. They are going to move to Manchester.  to make predictions based on evidence we can see: Be careful! You are going to fall. .= I can see that you might fall.. Look at those black clouds. I think it's going to rain. .= I can see that it will rain.."	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	228
+2021-05-07 12:55:11	"student009"	"student"	39	"we are going to a b-day party"	"we are going to a b-day party"	NA	NA	NA	NA	NA	NA	7
+2021-05-07 12:55:16	"student009"	"student"	40	"that fits"	"that fits"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 12:55:42	"teacher008"	"teacher"	41	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 12:56:05	"teacher008"	"teacher"	42	"Will expresses other things: what you believe / hope / are sure / not sure will happen in the future"	"Will expresses other things: what you believe / hope / are sure / not sure will happen in the future"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	20
+2021-05-07 12:56:11	"teacher008"	"teacher"	43	"or what you offer / promise"	"or what you offer / promise"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	6
+2021-05-07 12:56:33	"teacher008"	"teacher"	44	"like 'I will love you forever!' 'I will buy you a new iPhone'"	"like 'I will love you forever!' 'I will buy you a new iPhone'"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	13
+2021-05-07 12:56:38	"teacher008"	"teacher"	45	"things like that :."	"things like that :)"	NA	NA	NA	NA	NA	NA	4
+2021-05-07 12:57:45	"teacher008"	"teacher"	46	"What if you're not sure about what will happen? There's a very compact way to express it."	"What if you're not sure about what will happen? There's a very compact way to express it."	NA	"4.0"	"eliciting,revision"	"grammatical resource"	NA	NA	17
+2021-05-07 12:58:00	"teacher008"	"teacher"	47	"It ____ be sunny at the weekend .maybe yes, maybe no, I don't know."	"It ____ be sunny at the weekend (maybe yes, maybe no, I don't know)"	NA	NA	"eliciting,revision"	"grammatical resource"	NA	NA	14
+2021-05-07 12:58:29	"student009"	"student"	48	"will"	"will"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 12:59:08	"teacher008"	"teacher"	49	"Hmm, how can we better expressed that we're not sure?"	"Hmm, how can we better expressed that we're not sure?"	NA	NA	"eliciting,revision"	"grammatical resource"	NA	NA	10
+2021-05-07 12:59:37	"teacher008"	"teacher"	50	"remember may / might / could?"	"remember may / might / could?"	NA	NA	"scaffolding,revision"	"grammatical resource"	NA	NA	6
+2021-05-07 12:59:38	"student009"	"student"	51	"going to"	"going to"	49	NA	NA	NA	NA	NA	2
+2021-05-07 12:59:41	"student009"	"student"	52	"yes"	"yes"	50	NA	NA	NA	NA	NA	1
+2021-05-07 12:59:55	"teacher008"	"teacher"	53	"Yeah, the modals will be great here"	"Yeah, the modals will be great here"	NA	NA	NA	NA	NA	NA	7
+2021-05-07 13:00:52	"teacher008"	"teacher"	54	"Ok, let's practise this a little. Put the verb in brackets into the correct tense, please"	"Ok, let's practise this a little. Put the verb in brackets into the correct tense, please"	NA	"5.0"	"exercise"	"grammatical resource"	NA	NA	16
+2021-05-07 13:00:54	"teacher008"	"teacher"	55	"Los Angeles is a great city. I'm sure you     .have. a good time there."	"Los Angeles is a great city. I'm sure you    (have) a good time there."	NA	NA	NA	NA	NA	NA	18
+2021-05-07 13:01:19	"student009"	"student"	56	"will"	"will"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:01:57	"teacher008"	"teacher"	57	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 13:01:59	"teacher008"	"teacher"	58	"I'm not sure but we     .see. Catrina at the funeral tomorrow."	"I'm not sure but we     (see) Catrina at the funeral tomorrow."	NA	"5a"	NA	NA	NA	NA	15
+2021-05-07 13:02:24	"student009"	"student"	59	"are going to see"	"are going to see"	NA	NA	NA	NA	NA	NA	4
+2021-05-07 13:02:42	"teacher008"	"teacher"	60	"how to express that we're not sure about it?"	"how to express that we're not sure about it?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	9
+2021-05-07 13:03:25	"teacher008"	"teacher"	61	"*are going to see sounds like you're very sure! For example, tomorrow you're going to see your mum's friend .we can be pretty sure about it!."	"*are going to see sounds like you're very sure! For example, tomorrow you're going to see your mum's friend .we can be pretty sure about it!."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	26
+2021-05-07 13:04:46	"student009"	"student"	62	"will?"	"will?"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:05:03	"teacher008"	"teacher"	63	"might / may / could!"	"might / may / could!"	NA	NA	"repair"	"grammatical resource"	NA	NA	5
+2021-05-07 13:05:57	"teacher008"	"teacher"	64	"Does it make sense to you?"	"Does it make sense to you?"	NA	NA	NA	NA	NA	NA	6
+2021-05-07 13:07:23	"student009"	"student"	65	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:07:34	"teacher008"	"teacher"	66	"Ok, the next one then!"	"Ok, the next one then!"	NA	"5b"	NA	NA	NA	NA	5
+2021-05-07 13:07:36	"teacher008"	"teacher"	67	"I've already decided. I     .phone. my bank manager tomorrow."	"I've already decided. I    (phone) my bank manager tomorrow."	NA	NA	NA	NA	NA	NA	13
+2021-05-07 13:07:45	"student009"	"student"	68	"you said for modals we use going to"	"you said for modals we use going to"	NA	"5c"	"enquiry"	"grammatical resource"	NA	NA	8
+2021-05-07 13:08:41	"teacher008"	"teacher"	69	"No no no! There's a misunderstanding. We usually use the modals separately from going to"	"No no no! There's a misunderstanding. We usually use the modals separately from going to"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2021-05-07 13:09:08	"teacher008"	"teacher"	70	"we might see Catrina... all you need is a modal verb and an infinitive"	"we might see Catrina... all you need is a modal verb and an infinitive"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2021-05-07 13:09:36	"student009"	"student"	71	"am phoning"	"am phoning"	67	NA	NA	NA	NA	NA	2
+2021-05-07 13:09:50	"teacher008"	"teacher"	72	"It might rain tomorrow. He could know the answer. = we're not sure"	"It might rain tomorrow. He could know the answer. = we're not sure"	70	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2021-05-07 13:09:58	"teacher008"	"teacher"	73	"Are you on the phone you mean?"	"Are you on the phone you mean?"	71	NA	NA	NA	NA	NA	7
+2021-05-07 13:10:31	"student009"	"student"	74	"plan"	"plan"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:10:51	"teacher008"	"teacher"	75	"Oh sorry, you doing the next task!"	"Oh sorry, you doing the next task!"	NA	NA	NA	NA	NA	NA	7
+2021-05-07 13:11:03	"teacher008"	"teacher"	76	"Yes, good! Because it's a plan the person's made"	"Yes, good! Because it's a plan the person's made"	NA	NA	NA	NA	NA	NA	9
+2021-05-07 13:11:08	"student009"	"student"	77	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:11:11	"student009"	"student"	78	"heh"	"heh"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:11:34	"teacher008"	"teacher"	79	"The next course     .start. on 1 July. That's what the website says."	"The next course     (start) on 1 July. That's what the website says."	NA	"5d"	NA	NA	NA	NA	16
+2021-05-07 13:11:43	"student009"	"student"	80	"starts"	"starts"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:12:00	"teacher008"	"teacher"	81	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 13:12:18	"teacher008"	"teacher"	82	"I     .help. you do the washing up if you like."	"I     (help) you do the washing up if you like."	NA	"5e"	NA	NA	NA	NA	14
+2021-05-07 13:12:49	"student009"	"student"	83	"will"	"will"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:12:52	"teacher008"	"teacher"	84	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:12:55	"teacher008"	"teacher"	85	"Bella and I     .get. married in the summer. We've already agreed on the date."	"Bella and I     (get) married in the summer. We've already agreed on the date."	NA	"5f"	NA	NA	NA	NA	18
+2021-05-07 13:13:21	"student009"	"student"	86	"are getting"	"are getting"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 13:13:26	"teacher008"	"teacher"	87	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2021-05-07 13:14:21	"teacher008"	"teacher"	88	"Ok, lovely! Do you remember we talked about food of the future last time? Can you make a few sentences about what we might eat in the future, using the future forms we've just talked about?"	"Ok, lovely! Do you remember we talked about food of the future last time? Can you make a few sentences about what we might eat in the future, using the future forms we've just talked about?"	NA	"6.0"	"exercise,revision"	"grammatical resource,lexical resource,writing"	NA	NA	36
+2021-05-07 13:18:18	"student009"	"student"	89	"Some insects taste like products we usually eat, so more people will eat insects soon"	"Some insects taste like products we usually eat, so more people will eat insects soon"	NA	NA	NA	NA	NA	NA	15
+2021-05-07 13:18:55	"teacher008"	"teacher"	90	"Yes, that might happen! :."	"Yes, that might happen! :)"	NA	NA	NA	NA	NA	NA	5
+2021-05-07 13:19:59	"student009"	"student"	91	"Some labs will try to make lab-grown meat"	"Some labs will try to make lab-grown meat"	NA	NA	NA	NA	NA	NA	8
+2021-05-07 13:20:39	"teacher008"	"teacher"	92	"Yes, it's happening already I think"	"Yes, it's happening already I think"	NA	NA	NA	NA	NA	NA	6
+2021-05-07 13:21:05	"teacher008"	"teacher"	93	"Oh, have you watched more of the Queen's Gambit, by the way?"	"Oh, have you watched more of the Queen's Gambit, by the way?"	NA	"7.0"	"exercise"	"grammatical resource,writing"	NA	NA	12
+2021-05-07 13:21:25	"student009"	"student"	94	"we finished watching it"	"we finished watching it"	NA	NA	NA	NA	NA	NA	4
+2021-05-07 13:21:34	"student009"	"student"	95	"I love it"	"I love it"	NA	NA	NA	NA	NA	NA	3
+2021-05-07 13:21:37	"teacher008"	"teacher"	96	"Ok, cool! Did you like it?"	"Ok, cool! Did you like it?"	94	NA	NA	NA	NA	NA	6
+2021-05-07 13:21:42	"teacher008"	"teacher"	97	"Ah yes, so good, isn't it?"	"Ah yes, so good, isn't it?"	95	NA	NA	NA	NA	NA	6
+2021-05-07 13:21:53	"student009"	"student"	98	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:21:54	"teacher008"	"teacher"	99	"What do you think might happen to Beth in the future??"	"What do you think might happen to Beth in the future??"	NA	"7a"	"eliciting"	"writing,grammatical resource"	NA	NA	11
+2021-05-07 13:22:57	"student009"	"student"	100	"maybe she will come back to America and will visit Russia next year also to participate in wold's championship"	"maybe she will come back to America and will visit Russia next year again to participate in the world championship"	NA	NA	NA	NA	NA	NA	19
+2021-05-07 13:23:05	"student009"	"student"	101	"world's*"	"world*"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-07 13:23:29	"teacher008"	"teacher"	102	"Yes, good idea! How can we express 'maybe ... will' in one .modal. verb?"	"Yes, good idea! How can we express 'maybe ... will' in one (modal) verb?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	14
+2021-05-07 13:23:38	"student009"	"student"	103	"might"	"might"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:23:48	"teacher008"	"teacher"	104	"Ok, so 'she might come back to America'"	"Ok, so 'she might come back to America'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2021-05-07 13:23:56	"teacher008"	"teacher"	105	"Ok, what else?"	"Ok, what else?"	NA	"7b"	"eliciting"	"grammatical resource,writing"	NA	NA	3
+2021-05-07 13:24:38	"student009"	"student"	106	"she might move to Paris or she might visit her friends who helped her on her way"	"she might move to Paris or she might visit her friends who helped her on her way"	NA	NA	NA	NA	NA	NA	17
+2021-05-07 13:25:30	"teacher008"	"teacher"	107	"Yes, that might happen!"	"Yes, that might happen!"	NA	NA	NA	NA	NA	NA	4
+2021-05-07 13:25:48	"teacher008"	"teacher"	108	"Do you think Townes and she will live happily ever after?"	"Do you think Townes and she will live happily ever after?"	NA	"7c"	"eliciting"	"grammatical resource,writing"	NA	NA	11
+2021-05-07 13:26:27	"student009"	"student"	109	"Townes?"	"Townes?"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:26:36	"student009"	"student"	110	"I don't actually remember"	"I don't actually remember"	NA	NA	NA	NA	NA	NA	4
+2021-05-07 13:26:40	"teacher008"	"teacher"	111	"Hmm, what was his name? The handsome guy"	"Hmm, what was his name? The handsome guy"	NA	NA	NA	NA	NA	NA	8
+2021-05-07 13:26:46	"student009"	"student"	112	"ohh"	"ohh"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:26:59	"student009"	"student"	113	"those journalist, right?"	"that journalist, right?"	NA	NA	NA	NA	NA	NA	3
+2021-05-07 13:27:01	"teacher008"	"teacher"	114	"a chess player who became a journalist I think"	"a chess player who became a journalist I think"	NA	NA	NA	NA	NA	NA	9
+2021-05-07 13:27:06	"teacher008"	"teacher"	115	"yes, the journalist"	"yes, the journalist"	NA	NA	NA	NA	NA	NA	3
+2021-05-07 13:27:08	"student009"	"student"	116	"yess"	"yess"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:27:47	"student009"	"student"	117	"I think so, but I didn't really like him"	"I think so, but I didn't really like him"	NA	NA	NA	NA	NA	NA	9
+2021-05-07 13:27:54	"teacher008"	"teacher"	118	"No? Why not?"	"No? Why not?"	NA	NA	NA	NA	NA	NA	3
+2021-05-07 13:28:11	"student009"	"student"	119	"not my type"	"not my type"	NA	NA	NA	NA	NA	NA	3
+2021-05-07 13:28:22	"teacher008"	"teacher"	120	"Did you think there was someone else who would have been better for her?"	"Did you think there was someone else who would have been better for her?"	NA	"7d"	"eliciting"	"grammatical resource,writing"	NA	NA	14
+2021-05-07 13:28:33	"student009"	"student"	121	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-05-07 13:28:52	"student009"	"student"	122	"all her boyfriends are strange"	"all her boyfriends are strange"	NA	NA	NA	NA	NA	NA	5
+2021-05-07 13:29:10	"teacher008"	"teacher"	123	"Haha, well, she isn't very ordinary herself :."	"Haha, well, she isn't very ordinary herself :)"	NA	NA	NA	NA	NA	NA	8
+2021-05-07 13:29:30	"teacher008"	"teacher"	124	"Ok, <STUDENT>, have a lovely weekend, I'll talk to you next Friday! :."	"Ok, <STUDENT>, have a lovely weekend, I'll talk to you next Friday! :)"	NA	"8.0"	"closing"	NA	NA	NA	13
+2021-05-07 13:29:36	"student009"	"student"	125	"and I think her girlfriend's type of life wouldn't be okay for her"	"and I think her girlfriend's type of life wouldn't be okay for her"	123	NA	NA	NA	NA	NA	13
+2021-05-07 13:29:42	"student009"	"student"	126	"okay, bye bye"	"okay, bye bye"	124	NA	NA	NA	NA	NA	3
+2021-05-07 13:30:09	"teacher008"	"teacher"	127	"Ok! We can talk about it some more next time"	"Ok! We can talk about it some more next time"	125	NA	NA	NA	NA	"B2"	10

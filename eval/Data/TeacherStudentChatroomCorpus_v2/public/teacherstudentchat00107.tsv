@@ -1,0 +1,120 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-26 06:31:14	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-08-26 06:31:31	"student010"	"student"	2	"Hello!"	"Hello!"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:31:38	"teacher008"	"teacher"	4	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-08-26 06:32:04	"student010"	"student"	5	"I'm fine and you?"	"I'm fine and you?"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 06:32:24	"teacher008"	"teacher"	6	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2020-08-26 06:32:34	"teacher008"	"teacher"	7	"I've realized you're starting school next week!"	"I've realized you're starting school next week!"	NA	"2a"	"topic development"	NA	NA	NA	7
+2020-08-26 06:32:53	"student010"	"student"	8	"😢"	"😢"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:33:15	"teacher008"	"teacher"	9	"Oh sorry!"	"Oh sorry!"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 06:33:30	"teacher008"	"teacher"	10	"Are you going back to Kyiv? Is school going to be online?"	"Are you going back to Kyiv? Is school going to be online?"	NA	NA	NA	NA	NA	NA	12
+2020-08-26 06:34:30	"student010"	"student"	11	"I'm already at Kyiv. No😭"	"I'm already in Kyiv. No😭"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 06:35:15	"teacher008"	"teacher"	12	"Not online? You were hoping it would be!"	"Not online? You were hoping it would be!"	NA	NA	NA	NA	NA	NA	8
+2020-08-26 06:36:00	"student010"	"student"	13	"It isn't the worst thing"	"It isn't the worst thing"	NA	"2b"	"topic development"	NA	NA	NA	5
+2020-08-26 06:36:35	"teacher008"	"teacher"	14	"What's the worst thing?"	"What's the worst thing?"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 06:37:09	"student010"	"student"	15	"My brother is going to learn 1 week and 1 week at school😭😭😤😭😰"	"My brother is going to learn 1 week at home and 1 week at school😭😭😤😭😰"	NA	NA	NA	NA	NA	NA	13
+2020-08-26 06:37:22	"teacher008"	"teacher"	16	"What do you mean?"	"What do you mean?"	NA	NA	"enquiry"	"content"	NA	NA	4
+2020-08-26 06:39:15	"student010"	"student"	17	"They're going to school for 1 week then 1 week online and then they're learning at school again"	"They're going to school for 1 week then 1 week online and then they're learning at school again"	NA	NA	"clarification"	NA	NA	NA	18
+2020-08-26 06:39:28	"teacher008"	"teacher"	18	"Wow, that's so weird!!"	"Wow, that's so weird!!"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 06:39:43	"teacher008"	"teacher"	19	"I guess it's to keep the number of children at school down?"	"I guess it's to keep the number of children at school down?"	NA	NA	NA	NA	NA	NA	12
+2020-08-26 06:39:52	"teacher008"	"teacher"	20	"Is he younger than you?"	"Is he younger than you?"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 06:40:13	"student010"	"student"	21	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:40:27	"teacher008"	"teacher"	22	"I see. Unfair!"	"I see. Unfair!"	NA	NA	NA	NA	NA	NA	3
+2020-08-26 06:40:57	"student010"	"student"	23	"😭"	"😭"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:41:05	"teacher008"	"teacher"	24	"What about our classes then? Do you think you'll have the time / would like to continue? maybe once a week. It's ok to say no, I understand!"	"What about our classes then? Do you think you'll have the time / would like to continue? maybe once a week. It's ok to say no, I understand!"	NA	"2c"	"topic development"	NA	NA	NA	28
+2020-08-26 06:42:44	"student010"	"student"	25	"So if we learn online, I think we can proceed"	"So if we learn online, I think we can proceed"	NA	NA	NA	NA	NA	NA	10
+2020-08-26 06:43:34	"student010"	"student"	26	"If not we can countinue next summer"	"If not, we can continue next summer"	NA	NA	NA	NA	NA	NA	7
+2020-08-26 06:44:05	"teacher008"	"teacher"	27	"Yes, online of course. I'm in England! :)"	"Yes, online of course. I'm in England! :)"	NA	NA	NA	NA	NA	NA	8
+2020-08-26 06:44:32	"student010"	"student"	28	"No I said about school"	"No I said about school"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 06:44:50	"teacher008"	"teacher"	29	"Aah, sorry, got it!"	"Aah, sorry, got it!"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 06:45:10	"teacher008"	"teacher"	30	"But you said you're going to study face-to-face?"	"But you said you're going to study face-to-face?"	NA	NA	NA	NA	NA	NA	8
+2020-08-26 06:46:03	"student010"	"student"	31	"Yes but we can't know how many sick people will be next month"	"Yes but we can't know how many sick people there will be next month"	NA	NA	NA	NA	NA	NA	13
+2020-08-26 06:46:47	"teacher008"	"teacher"	32	"Oh I see, you might be back under quarantine?"	"Oh I see, you might be back under quarantine?"	NA	NA	NA	NA	NA	NA	9
+2020-08-26 06:47:08	"student010"	"student"	33	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:48:16	"teacher008"	"teacher"	34	"I see what you mean now. In this case we'll have our last class on Friday, and if you have some free time and would like to continue later on in September, just let me know"	"I see what you mean now. In this case we'll have our last class on Friday, and if you have some free time and would like to continue later on in September, just let me know"	NA	NA	NA	NA	NA	NA	36
+2020-08-26 06:48:19	"teacher008"	"teacher"	35	"Ok?"	"Ok?"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:48:47	"student010"	"student"	36	"Ok I'll contact you"	"Ok I'll contact you"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 06:48:54	"teacher008"	"teacher"	37	"Lovely"	"Lovely"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:49:40	"teacher008"	"teacher"	38	"Ok, let's go back to our prefixes with opposite meaning (happy - unhappy)"	"Ok, let's go back to our prefixes with opposite meaning (happy - unhappy)"	NA	"3.0"	"exercise,exercise,revision"	"lexical resource"	NA	NA	13
+2020-08-26 06:51:00	"teacher008"	"teacher"	39	"illogical, illegal, irrational, irregular, impossible, impolite, immature, incorrect, inexpensive, insane, inconvenient"	"illogical, illegal, irrational, irregular, impossible, impolite, immature, incorrect, inexpensive, insane, inconvenient"	NA	NA	NA	NA	NA	NA	11
+2020-08-26 06:52:06	"teacher008"	"teacher"	40	"Of course he doesn't understand, he is only 3, he's very _____"	"Of course he doesn't understand, he is only 3, he's very _____"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	12
+2020-08-26 06:52:10	"teacher008"	"teacher"	41	"what goes in the gap?"	"what goes in the gap?"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 06:52:24	"student010"	"student"	42	"Young"	"Young"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:52:53	"teacher008"	"teacher"	43	"Ok, could you choose an adjective from the list?"	"Ok, could you choose an adjective from the list?"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	9
+2020-08-26 06:53:34	"student010"	"student"	44	"Immature"	"Immature"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:53:42	"teacher008"	"teacher"	45	"Correct! :)"	"Correct! :)"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 06:54:31	"teacher008"	"teacher"	46	"I can't call you at 7 am, this is when we're having breakfast, this is _____ for me"	"I can't call you at 7 am, this is when we're having breakfast, this is _____ for me"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	18
+2020-08-26 06:54:58	"student010"	"student"	47	"Inconvenient"	"Inconvenient"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:55:06	"teacher008"	"teacher"	48	"well done!"	"well done!"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 06:55:27	"teacher008"	"teacher"	49	"This answer just doesn't make sense. It's completely ____"	"This answer just doesn't make sense. It's completely ____"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	9
+2020-08-26 06:56:03	"student010"	"student"	50	"Incorrect"	"Incorrect"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:56:47	"teacher008"	"teacher"	51	"Ah, I see that, could be. I was thinking about 'illogical', as in it doesn't make sense"	"Ah, I see that, could be. I was thinking about 'illogical', as in it doesn't make sense"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-08-26 06:57:04	"teacher008"	"teacher"	52	"Ok, could you make sentences with gaps for me, and I'll guess the adjective?"	"Ok, could you make sentences with gaps for me, and I'll guess the adjective?"	NA	"3a"	"exercise,free practice,revision"	"lexical resource"	NA	NA	14
+2020-08-26 06:58:30	"student010"	"student"	53	"You can't transport this. It's ________"	"You can't transport this. It's ________"	NA	NA	NA	NA	NA	NA	6
+2020-08-26 06:58:36	"teacher008"	"teacher"	54	"illegal?"	"illegal?"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:58:47	"student010"	"student"	55	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 06:58:52	"teacher008"	"teacher"	56	"Good one:)"	"Good one:)"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 06:59:47	"student010"	"student"	57	"We don't have much money we need something _______"	"We don't have much money we need something _______"	NA	NA	NA	NA	NA	NA	9
+2020-08-26 07:00:00	"teacher008"	"teacher"	58	"inexpensive :)"	"inexpensive :)"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 07:00:10	"student010"	"student"	59	"Right"	"Right"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 07:00:19	"teacher008"	"teacher"	60	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 07:01:42	"teacher008"	"teacher"	61	"another one?"	"another one?"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 07:02:13	"student010"	"student"	62	"This man tried to kill himself. He's _____"	"This man tried to kill himself. He's _____"	NA	NA	NA	NA	NA	NA	8
+2020-08-26 07:02:22	"teacher008"	"teacher"	63	"insane"	"insane"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 07:03:01	"student010"	"student"	64	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 07:03:26	"teacher008"	"teacher"	65	"Cool, well done! You could be an English teacher :)"	"Cool, well done! You could be an English teacher :)"	NA	NA	NA	NA	NA	NA	10
+2020-08-26 07:04:01	"student010"	"student"	66	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 07:04:28	"student010"	"student"	67	"Because I have the best teacher in the world"	"Because I have the best teacher in the world"	NA	NA	NA	NA	NA	NA	9
+2020-08-26 07:05:00	"teacher008"	"teacher"	68	"aww thank you :) if you mean me, I bet you have lots of great teachers"	"aww thank you :) if you mean me, I bet you have lots of great teachers"	NA	NA	NA	NA	NA	NA	16
+2020-08-26 07:05:22	"teacher008"	"teacher"	69	"Anyway, I've got another question!"	"Anyway, I've got another question!"	NA	"4.0"	"topic opening"	NA	NA	NA	5
+2020-08-26 07:05:36	"teacher008"	"teacher"	70	"Do you like Star Wars movies? And if you do, which ones?"	"Do you like Star Wars movies? And if you do, which ones?"	NA	NA	NA	NA	NA	NA	12
+2020-08-26 07:06:37	"student010"	"student"	71	"The first 3 films"	"The first 3 films"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 07:07:12	"teacher008"	"teacher"	72	"Oh really? The old ones?"	"Oh really? The old ones?"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 07:07:51	"student010"	"student"	73	"Not old republic"	"Not old republic"	NA	NA	NA	NA	NA	NA	3
+2020-08-26 07:08:32	"teacher008"	"teacher"	74	"Do you mean episodes 4, 5 and 6?"	"Do you mean episodes 4, 5 and 6?"	NA	NA	NA	NA	NA	NA	8
+2020-08-26 07:08:52	"teacher008"	"teacher"	75	"or the prequels with Anakin?"	"or the prequels with Anakin?"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 07:09:04	"student010"	"student"	76	"Yes clone wars"	"Yes clone wars"	NA	NA	NA	NA	NA	NA	3
+2020-08-26 07:09:20	"teacher008"	"teacher"	77	"Oh clone wars, got you!"	"Oh clone wars, got you!"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 07:09:37	"teacher008"	"teacher"	78	"What about the latest ones?"	"What about the latest ones?"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 07:10:25	"teacher008"	"teacher"	79	"the Force Awakens and the Rise of Skywalker"	"the Force Awakens and the Rise of Skywalker"	NA	NA	NA	NA	NA	NA	8
+2020-08-26 07:11:12	"student010"	"student"	80	"The last one was great but after the Disnay has bought the lucasfilms all movies were just about talking"	"The last one was great but since Disney bought Lucasfilm, all movies have become just about talking"	NA	NA	NA	NA	NA	NA	19
+2020-08-26 07:11:57	"teacher008"	"teacher"	81	"They sure talk a lot!"	"They sure talk a lot!"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 07:12:23	"teacher008"	"teacher"	82	"Ok, I'm just curious :)"	"Ok, I'm just curious :)"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 07:12:41	"teacher008"	"teacher"	83	"I bet the old ones look really old to you?"	"I bet the old ones look really old to you?"	NA	NA	NA	NA	NA	NA	10
+2020-08-26 07:13:11	"student010"	"student"	84	"It's still very good"	"They're still very good"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 07:13:28	"teacher008"	"teacher"	85	"They are good, aren't they :)"	"They are good, aren't they :)"	NA	NA	NA	NA	NA	NA	6
+2020-08-26 07:13:51	"student010"	"student"	86	"Do you know Battlefront 2"	"Do you know Battlefront 2"	NA	"5a"	"topic development"	NA	NA	NA	5
+2020-08-26 07:13:59	"teacher008"	"teacher"	87	"No! What is it?"	"No! What is it?"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 07:14:40	"student010"	"student"	88	"It computer game about star wars"	"It's a computer game about Star Wars"	NA	NA	NA	NA	NA	NA	6
+2020-08-26 07:14:52	"student010"	"student"	89	"It's very old"	"It's very old"	NA	NA	NA	NA	NA	NA	3
+2020-08-26 07:15:04	"teacher008"	"teacher"	90	"Ah, I bet my husband knows it"	"Ah, I bet my husband knows it"	NA	NA	NA	NA	NA	NA	7
+2020-08-26 07:15:12	"teacher008"	"teacher"	91	"It's __ computer game about Star Wars"	"It's __ computer game about Star Wars"	NA	"5b"	"eliciting,repair"	"grammatical resource"	NA	NA	7
+2020-08-26 07:15:23	"student010"	"student"	92	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 07:15:36	"teacher008"	"teacher"	93	"correct!"	"correct!"	NA	NA	NA	NA	NA	NA	1
+2020-08-26 07:16:36	"student010"	"student"	94	"There are 2 Battlefront 2 games there is old one and one is new it was made in 2018"	"There are 2 Battlefront 2 games .There is an old one and a new one, which was made in 2018"	90	NA	NA	NA	NA	NA	19
+2020-08-26 07:16:43	"teacher008"	"teacher"	95	"Grammar time! If you ____ born in the 1970s, you ___ think the old Star Wars are the coolest films in the world"	"Grammar time! If you ____ born in the 1970s, you ___ think the old Star Wars are the coolest films in the world"	NA	"6.0"	"exercise,exercise"	"grammatical resource"	NA	NA	23
+2020-08-26 07:17:38	"student010"	"student"	96	"Were would"	"Were would"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 07:18:20	"teacher008"	"teacher"	97	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 07:19:41	"teacher008"	"teacher"	98	"One sec, thinking of something else"	"One sec, thinking of something else"	NA	NA	NA	NA	NA	NA	6
+2020-08-26 07:19:53	"teacher008"	"teacher"	99	"I'll ask my husband whether he knows Battlefront"	"I'll ask my husband whether he knows Battlefront"	94	NA	NA	NA	NA	NA	8
+2020-08-26 07:20:44	"teacher008"	"teacher"	100	"If I ____ more time to play video games (have), I ___ ___ more about them (know)"	"If I ____ more time to play video games (have), I ___ ___ more about them (know)"	NA	"6a"	"exercise,exercise"	"grammatical resource"	NA	NA	17
+2020-08-26 07:21:54	"student010"	"student"	101	"Had would know"	"Had would know"	NA	NA	NA	NA	NA	NA	3
+2020-08-26 07:22:12	"teacher008"	"teacher"	102	"Perfect! Which conditional is it? First, second or third?"	"Perfect! Which conditional is it? First, second or third?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2020-08-26 07:22:32	"student010"	"student"	103	"Second i think"	"Second I think"	NA	NA	NA	NA	NA	NA	3
+2020-08-26 07:23:08	"teacher008"	"teacher"	104	"correct, second, the one that's all about what doesn't really happen in our lives"	"correct, second, the one that's all about what doesn't really happen in our lives"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-08-26 07:23:12	"teacher008"	"teacher"	105	"What about"	"What about"	NA	"6b"	"exercise,exercise"	"grammatical resource"	NA	NA	2
+2020-08-26 07:23:47	"teacher008"	"teacher"	106	"If there ___ ____ a coronavirus pandemic (be), we ___ ____ ____ on holiday abroad (go)"	"If there ___ ____ a coronavirus pandemic (be), we ___ ____ ____ on holiday abroad (go)"	NA	NA	NA	NA	NA	NA	16
+2020-08-26 07:23:52	"teacher008"	"teacher"	107	"but we didn't!"	"but we didn't!"	NA	NA	NA	NA	NA	NA	3
+2020-08-26 07:24:34	"student010"	"student"	108	"Had been would have gone"	"Had been would have gone"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 07:24:50	"teacher008"	"teacher"	109	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 07:24:55	"teacher008"	"teacher"	110	"Actually, hadn't been"	"Actually, hadn't been"	108	NA	"repair"	"grammatical resource"	NA	NA	3
+2020-08-26 07:25:09	"teacher008"	"teacher"	111	"If there hadn't been a pandemic, we would have gone"	"If there hadn't been a pandemic, we would have gone"	NA	NA	NA	NA	NA	NA	10
+2020-08-26 07:25:17	"teacher008"	"teacher"	112	"The third conditional"	"The third conditional"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2020-08-26 07:25:45	"teacher008"	"teacher"	113	"If ______________, Anakin Skywalker wouldn't have turned evil"	"If ______________, Anakin Skywalker wouldn't have turned evil"	NA	"6c"	"exercise,free practice"	"grammatical resource"	NA	NA	8
+2020-08-26 07:25:50	"teacher008"	"teacher"	114	"What do you think?"	"What do you think?"	NA	NA	NA	NA	NA	NA	4
+2020-08-26 07:27:28	"student010"	"student"	115	"Jedies had turned Anakin into master jedi"	"the Jedis had turned Anakin into master jedi"	NA	NA	NA	NA	NA	NA	7
+2020-08-26 07:28:06	"teacher008"	"teacher"	116	"Aha, interesting! I see that"	"Aha, interesting! I see that"	NA	NA	NA	NA	NA	NA	5
+2020-08-26 07:28:35	"teacher008"	"teacher"	117	"Also, if he had been allowed to be sad about his mother"	"Also, if he had been allowed to be sad about his mother"	NA	NA	NA	NA	NA	NA	12
+2020-08-26 07:30:32	"teacher008"	"teacher"	118	"Oh, we're out of time! I'll let you go, have a good day! I'll think of something fun for our last class!"	"Oh, we're out of time! I'll let you go, have a good day! I'll think of something fun for our last class!"	NA	"7.0"	"closing"	NA	NA	NA	22
+2020-08-26 07:30:48	"student010"	"student"	119	"Ok bye"	"Ok bye"	NA	NA	NA	NA	NA	NA	2
+2020-08-26 07:30:58	"teacher008"	"teacher"	120	"take care"	"take care"	NA	NA	NA	NA	NA	"B2"	2

@@ -1,0 +1,223 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-04-23 09:32:35	"student011"	"student"	1	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-04-23 09:32:38	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 09:32:52	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-04-23 09:33:19	"student011"	"student"	4	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 09:33:56	"teacher008"	"teacher"	5	"How's Kyiv? Is it getting nice and warm?"	"How's Kyiv? Is it getting nice and warm?"	NA	"2a"	"topic development"	NA	NA	NA	8
+2021-04-23 09:34:11	"student011"	"student"	6	"Have had a yoga lesson and a meeting before it ."	"I have had a yoga lesson and a meeting before the lesson."	4	NA	NA	NA	NA	NA	11
+2021-04-23 09:34:45	"student011"	"student"	7	"Oh, yesterday we have a warm day but a bit rainy"	"Oh, yesterday we had a warm day but a bit rainy"	5	NA	NA	NA	NA	NA	11
+2021-04-23 09:34:52	"student011"	"student"	8	"But today it's colder"	"But today it's colder"	NA	NA	NA	NA	NA	NA	4
+2021-04-23 09:34:57	"teacher008"	"teacher"	9	"Nice!"	"Nice!"	6	NA	NA	NA	NA	NA	1
+2021-04-23 09:35:10	"teacher008"	"teacher"	10	"Sounds like a busy morning!"	"Sounds like a busy morning!"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 09:35:21	"teacher008"	"teacher"	11	"Have you got any nice plans for the weekend?"	"Have you got any nice plans for the weekend?"	NA	"2b"	"topic development"	NA	NA	NA	9
+2021-04-23 09:35:23	"student011"	"student"	12	"And the forecast shows that we will have the same weather next 3 or 4 days"	"And the forecast shows that we will have the same weather for the next 3 or 4 days"	8	NA	NA	NA	NA	NA	16
+2021-04-23 09:35:37	"teacher008"	"teacher"	13	"Right, I see!"	"Right, I see!"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 09:36:35	"student011"	"student"	14	"Tomorrow maybe we will do something with <STUDENT'S HUSBAND> and <STUDENT'S CHILD> at home .it's still lockdown here and the weathers will be rainy."	"Tomorrow maybe we will do something with <STUDENT'S HUSBAND> and <STUDENT'S CHILD> at home. It's still lockdown here and the weathers will be rainy."	11	NA	NA	NA	NA	NA	24
+2021-04-23 09:37:03	"teacher008"	"teacher"	15	"Yes, of course, it makes sense!"	"Yes, of course, it makes sense!"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 09:37:29	"student011"	"student"	16	"And on Sunday <STUDENT'S CHILD> and <STUDENT'S HUSBAND> will go to <STUDENT HUSBAND>'s parents and <STUDENT'S SISTER-IN-LAW> is going to me to dye my hair at home"	"And on Sunday <STUDENT'S CHILD> and <STUDENT'S HUSBAND> will go to <STUDENT HUSBAND>'s parents and <STUDENT'S SISTER-IN-LAW> is coming to me to dye my hair at home"	NA	NA	NA	NA	NA	NA	27
+2021-04-23 09:37:42	"student011"	"student"	17	"Maybe you don't know"	"Maybe you don't know"	NA	NA	NA	NA	NA	NA	4
+2021-04-23 09:37:50	"teacher008"	"teacher"	18	"Oh, <STUDENT'S SISTER-IN-LAW> is coming over to dye your hair?"	"Oh, <STUDENT'S SISTER-IN-LAW> is coming over to dye your hair?"	16	NA	"repair"	"lexical resource"	NA	NA	10
+2021-04-23 09:37:59	"teacher008"	"teacher"	19	"good use of the verb 'dye' :."	"good use of the verb 'dye' :."	NA	NA	NA	NA	NA	NA	7
+2021-04-23 09:37:59	"student011"	"student"	20	"<STUDENT'S HUSBAND>'s dad had covid"	"<STUDENT'S HUSBAND>'s dad had covid"	17	NA	NA	NA	NA	NA	5
+2021-04-23 09:38:15	"student011"	"student"	21	"and we don't meet with them for a long time"	"and we haven't seen them for a long time"	NA	NA	NA	NA	NA	NA	10
+2021-04-23 09:38:16	"teacher008"	"teacher"	22	"Yes, you said! How is he feeling?"	"Yes, you said! How is he feeling?"	NA	NA	NA	NA	NA	NA	7
+2021-04-23 09:38:31	"student011"	"student"	23	"I mean <STUDENT'S HUSBAND>'s parents"	"I mean <STUDENT'S HUSBAND>'s parents"	21	NA	NA	NA	NA	NA	5
+2021-04-23 09:39:01	"student011"	"student"	24	"And on Tuesday <STUDENT'S HUSBAND>'s mum has an surgery ."	"And on Tuesday <STUDENT'S HUSBAND>'s mum has a surgery ."	NA	NA	NA	NA	NA	NA	10
+2021-04-23 09:39:22	"student011"	"student"	25	"And they really want to see <STUDENT'S CHILD>"	"And they really want to see <STUDENT'S CHILD>"	NA	NA	NA	NA	NA	NA	8
+2021-04-23 09:39:33	"student011"	"student"	26	"<STUDENT'S HUSBAND>'s dad is better, thank you"	"<STUDENT'S HUSBAND>'s dad is better, thank you"	22	NA	NA	NA	NA	NA	7
+2021-04-23 09:40:10	"student011"	"student"	27	"not very good blood test but we hope he will be better in two or three weeks"	"not a very good blood test but we hope he will be better in two or three weeks"	NA	NA	NA	NA	NA	NA	17
+2021-04-23 09:40:26	"student011"	"student"	28	"<TEACHER> : good use of the verb 'dye' :.  - thanks .."	"<TEACHER> : good use of the verb 'dye' :.  - thanks .."	19	NA	NA	NA	NA	NA	13
+2021-04-23 09:40:49	"teacher008"	"teacher"	29	"I hope he's better soon and everything goes smoothly with the surgery!"	"I hope he's better soon and everything goes smoothly with the surgery!"	27	NA	NA	NA	NA	NA	12
+2021-04-23 09:40:51	"student011"	"student"	30	"*a surgery not an"	"*a surgery not an"	24	NA	"repair"	"writing"	NA	NA	4
+2021-04-23 09:41:07	"student011"	"student"	31	"Thank you! xx"	"Thank you! xx"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 09:41:54	"student011"	"student"	32	"how is weather there in March?"	"how is the weather there in March?"	NA	"2c"	"topic development"	NA	NA	NA	6
+2021-04-23 09:42:08	"student011"	"student"	33	"Rainy as usual?"	"Rainy as usual?"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 09:42:18	"teacher008"	"teacher"	34	"It's still very cold! Sunny and warm in the daytime and frosty at night."	"It's still very cold! Sunny and warm in the daytime and frosty at night."	NA	NA	NA	NA	NA	NA	14
+2021-04-23 09:42:32	"student011"	"student"	35	"Or is it better and you can go out at the weekend?"	"Or is it better and you can go out at the weekend?"	33	NA	NA	NA	NA	NA	12
+2021-04-23 09:42:33	"teacher008"	"teacher"	36	"No, it hasn't rained for ages! I'm not sure what's going on"	"No, it hasn't rained for ages! I'm not sure what's going on"	33	NA	NA	NA	NA	NA	12
+2021-04-23 09:42:59	"student011"	"student"	37	"hm, it's really strange"	"hm, it's really strange"	NA	NA	NA	NA	NA	NA	4
+2021-04-23 09:43:04	"teacher008"	"teacher"	38	"I'd really like to go for a walk in the wood tomorrow. There should be bluebells .lovely blue flowers."	"I'd really like to go for a walk in the wood tomorrow. There should be bluebells (lovely blue flowers)"	NA	"3.0"	"topic opening"	NA	NA	NA	19
+2021-04-23 09:43:18	"teacher008"	"teacher"	39	"And most importantly, I'll be looking for some wild garlic!"	"And most importantly, I'll be looking for some wild garlic!"	NA	NA	NA	NA	NA	NA	10
+2021-04-23 09:43:32	"teacher008"	"teacher"	40	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:44:37	"student011"	"student"	41	"Oh!"	"Oh!"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:44:52	"student011"	"student"	42	"Why do you need wild garlic? ."	"Why do you need wild garlic? ."	NA	NA	NA	NA	NA	NA	7
+2021-04-23 09:44:58	"teacher008"	"teacher"	43	"cheremsha' :."	"cheremsha' :."	NA	NA	"scaffolding,non-English"	"code switching,lexical resource"	NA	NA	2
+2021-04-23 09:45:07	"student011"	"student"	44	"For cooking?"	"For cooking?"	42	NA	NA	NA	NA	NA	2
+2021-04-23 09:45:11	"student011"	"student"	45	"Ahhhhh"	"Ahhhhh"	43	NA	"scaffolding,non-English"	"code switching,lexical resource"	NA	NA	1
+2021-04-23 09:45:16	"student011"	"student"	46	"черемша!"	"черемша!"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:45:27	"teacher008"	"teacher"	47	"I'm going to make wild garlic pesto and a pie with some spinach and wild garlic, in filo pastry :."	"I'm going to make wild garlic pesto and a pie with some spinach and wild garlic, in filo pastry :."	44	NA	NA	NA	NA	NA	20
+2021-04-23 09:45:28	"student011"	"student"	48	"Yes, it's season now"	"Yes, it's the season now"	NA	NA	NA	NA	NA	NA	4
+2021-04-23 09:45:32	"teacher008"	"teacher"	49	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:45:44	"teacher008"	"teacher"	50	"But you can't buy it here like in Ukraine"	"But you can't buy it here like in Ukraine"	NA	NA	NA	NA	NA	NA	9
+2021-04-23 09:45:53	"teacher008"	"teacher"	51	"What do you make with it?"	"What do you make with it?"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 09:46:09	"student011"	"student"	52	"but is it in the forest?"	"but is it in the forest?"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 09:46:15	"student011"	"student"	53	"Are you sure? ."	"Are you sure? ."	NA	NA	NA	NA	NA	NA	4
+2021-04-23 09:46:32	"student011"	"student"	54	"a'm not good at wild plants area .."	"I'm not good at wild plants .."	NA	NA	NA	NA	NA	NA	8
+2021-04-23 09:46:36	"student011"	"student"	55	"I'm"	"I'm"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-04-23 09:46:41	"teacher008"	"teacher"	56	"Well, in Ukraine people probably grow it on their dachas :."	"Well, in Ukraine people probably grow it on their dachas :."	NA	NA	NA	NA	NA	NA	11
+2021-04-23 09:47:19	"teacher008"	"teacher"	57	"But here it's a wild plant!"	"But here it's a wild plant!"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 09:47:34	"student011"	"student"	58	"But I know that if you would like to buy it it's still a quest"	"But I know that if you would like to buy it it's still a quest"	NA	NA	NA	NA	NA	NA	15
+2021-04-23 09:47:49	"student011"	"student"	59	"you can buy it here just from babushkas ."	"you can buy it here just from babushkas ."	NA	NA	NA	NA	NA	NA	9
+2021-04-23 09:47:57	"teacher008"	"teacher"	60	"If you go out and gather some edible plants and mushrooms in the wild, it's called 'foraging'"	"If you go out and gather some edible plants and mushrooms in the wild, it's called 'foraging'"	NA	"4.0"	"presentation"	"lexical resource,meaning"	NA	NA	17
+2021-04-23 09:48:11	"teacher008"	"teacher"	61	"to forage for berries / mushrooms / wild garlic"	"to forage for berries / mushrooms / wild garlic"	NA	NA	"presentation"	"lexical resource"	NA	NA	9
+2021-04-23 09:48:14	"student011"	"student"	62	"edible?"	"edible?"	NA	"4a"	"enquiry"	"lexical resource"	NA	NA	1
+2021-04-23 09:48:30	"teacher008"	"teacher"	63	"Yes, I know! English babushkas don't grow wild garlic :...."	"Yes, I know! English babushkas don't grow wild garlic :...."	59	NA	NA	NA	NA	NA	10
+2021-04-23 09:48:42	"teacher008"	"teacher"	64	"edible = suitable for eating"	"edible = suitable for eating"	62	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2021-04-23 09:48:51	"teacher008"	"teacher"	65	"the opposite is 'inedible'"	"the opposite is 'inedible'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+2021-04-23 09:49:00	"teacher008"	"teacher"	66	"Mushrooms can be edible and inedible"	"Mushrooms can be edible and inedible"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2021-04-23 09:49:17	"student011"	"student"	67	"I've just checked translation"	"I've just checked the translation"	NA	"5.0"	"topic opening"	"lexical resource"	NA	NA	4
+2021-04-23 09:49:22	"student011"	"student"	68	"фураировать .."	"фураировать .."	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	2
+2021-04-23 09:49:37	"student011"	"student"	69	"Did you hear the word фуражировать ."	"Have you heard the word фуражировать ?"	NA	NA	NA	NA	NA	NA	7
+2021-04-23 09:49:39	"student011"	"student"	70	","	","	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:49:42	"student011"	"student"	71	"?"	"?"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-04-23 09:49:45	"teacher008"	"teacher"	72	"I've never heard such a word!!"	"I've never heard such a word!!"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 09:49:49	"student011"	"student"	73	"Me never"	"Me neither"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 09:49:54	"student011"	"student"	74	"."	"."	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:50:03	"teacher008"	"teacher"	75	"Me ____???"	"Me ____???"	NA	"5a"	"eliciting,repair"	"grammatical resource"	NA	NA	2
+2021-04-23 09:51:12	"student011"	"student"	76	"Me didn't?"	"Me didn't?"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 09:51:23	"teacher008"	"teacher"	77	"Noo, 'me neither'"	"Noo, 'me neither'"	NA	NA	"repair"	"grammatical resource"	NA	NA	3
+2021-04-23 09:51:27	"student011"	"student"	78	"Ah"	"Ah"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:51:28	"student011"	"student"	79	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:51:40	"student011"	"student"	80	"but I answered my question"	"but I answered my question"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 09:51:46	"teacher008"	"teacher"	81	"or 'Neither ____ I' .which verb goes in the gap?."	"or 'Neither ____ I' .which verb goes in the gap?."	NA	"5b"	"eliciting,revision"	"grammatical resource"	NA	NA	10
+2021-04-23 09:51:49	"student011"	"student"	82	"not your expression"	"not your expression"	80	NA	NA	NA	NA	NA	3
+2021-04-23 09:52:01	"student011"	"student"	83	"Neither do I"	"Neither do I"	81	NA	NA	NA	NA	NA	3
+2021-04-23 09:52:22	"teacher008"	"teacher"	84	"I've never heard this word.  - Me neither / Neither ___ I"	"I've never heard this word.  - Me neither / Neither ___ I"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	13
+2021-04-23 09:52:23	"student011"	"student"	85	"Did you hear the word фуражировать .? Me never"	"Did you hear the word фуражировать .? Me never"	82	NA	NA	NA	NA	NA	9
+2021-04-23 09:52:33	"student011"	"student"	86	"Is it not right?"	"Is it not right?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	4
+2021-04-23 09:52:53	"teacher008"	"teacher"	87	"No :. Have you heard the word ' '? I haven't."	"No :. Have you heard the word ' '? I haven't."	NA	NA	"repair"	"grammatical resource"	NA	NA	11
+2021-04-23 09:53:00	"student011"	"student"	88	"Ah"	"Ah"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:53:02	"student011"	"student"	89	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:53:22	"student011"	"student"	90	"So I didn't in that case?"	"So I didn't in that case?"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 09:53:47	"student011"	"student"	91	"When I ask you and answer about me at the same time?"	"When I ask you and answer about me at the same time?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	12
+2021-04-23 09:54:24	"teacher008"	"teacher"	92	"You can say 'I didn't' if the question is in past simple .or 'I haven't' if it was in present perfect."	"You can say 'I didn't' if the question is in past simple .or 'I haven't' if it was in present perfect."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	21
+2021-04-23 09:54:46	"teacher008"	"teacher"	93	"фуражировать sounds horrible, anyway!"	"фуражировать sounds horrible, anyway!"	NA	"5c"	"topic development"	NA	NA	NA	4
+2021-04-23 09:55:00	"student011"	"student"	94	"I see"	"I see"	92	NA	NA	NA	NA	NA	2
+2021-04-23 09:55:01	"student011"	"student"	95	"you"	"you"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:55:08	"teacher008"	"teacher"	96	"To forage is 'sobirat'', 'hodit' za .gribami.'"	"To forage is 'sobirat'', 'hodit' za (gribami)'"	93	NA	"scaffolding,non-English"	"lexical resource,code switching"	NA	NA	7
+2021-04-23 09:55:18	"student011"	"student"	97	"I agree, it's horrible word ."	"I agree, it's a horrible word ."	93	NA	NA	NA	NA	NA	6
+2021-04-23 09:55:31	"student011"	"student"	98	"I see"	"I see"	96	NA	NA	NA	NA	NA	2
+2021-04-23 09:55:33	"student011"	"student"	99	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 09:55:41	"student011"	"student"	100	"фуражировать грибы .."	"фуражировать грибы .."	NA	NA	"non-English"	"lexical resource,code switching"	NA	NA	3
+2021-04-23 09:55:42	"teacher008"	"teacher"	101	"Foraging seems to be a new hobby here in the UK :. .hipster."	"Foraging seems to be a new hobby here in the UK :. (hipster)"	NA	"5d"	"topic development"	NA	NA	NA	13
+2021-04-23 09:55:53	"student011"	"student"	102	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:55:55	"teacher008"	"teacher"	103	"Noooo, don't say that, lol :...."	"Noooo, don't say that, lol :...."	100	NA	NA	NA	NA	NA	6
+2021-04-23 09:56:05	"student011"	"student"	104	"фуражировать черемшу .."	"фуражировать черемшу .."	NA	NA	"non-English"	"lexical resource,code switching"	NA	NA	3
+2021-04-23 09:56:25	"teacher008"	"teacher"	105	"Now I won't be able to forget this word!"	"Now I won't be able to forget this word!"	NA	NA	NA	NA	NA	NA	9
+2021-04-23 09:56:32	"student011"	"student"	106	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:56:45	"student011"	"student"	107	"Как твой ывечрашний фураж черемши? ."	"Как твой ывечрашний фураж черемши? ."	NA	NA	"non-English"	"lexical resource,code switching"	NA	NA	6
+2021-04-23 09:57:01	"student011"	"student"	108	"I have фураж as a noun too ."	"I have фураж as a noun too ."	NA	NA	"non-English"	"lexical resource,code switching"	NA	NA	8
+2021-04-23 09:57:04	"teacher008"	"teacher"	109	"Awful!!"	"Awful!!"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 09:57:13	"teacher008"	"teacher"	110	"Do you ever go foraging?"	"Do you ever go foraging?"	NA	"5e"	"topic development,eliciting"	"lexical resource"	NA	NA	5
+2021-04-23 09:57:29	"student011"	"student"	111	"Maybe yes"	"Maybe yes"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 09:57:40	"student011"	"student"	112	"But it was when I was a child"	"But it was when I was a child"	NA	NA	NA	NA	NA	NA	8
+2021-04-23 09:57:50	"student011"	"student"	113	"I think just 1 or 2"	"I think just 1 or 2"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 09:58:08	"teacher008"	"teacher"	114	"once or twice?"	"once or twice?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-04-23 09:58:12	"student011"	"student"	115	"And I foraged for nuts ."	"And I foraged for nuts ."	NA	NA	NA	NA	NA	NA	6
+2021-04-23 09:58:13	"teacher008"	"teacher"	116	"What did you forage for?"	"What did you forage for?"	114	NA	NA	NA	NA	NA	5
+2021-04-23 09:58:17	"teacher008"	"teacher"	117	"Nice!"	"Nice!"	115	NA	NA	NA	NA	NA	1
+2021-04-23 09:58:41	"student011"	"student"	118	"hazelnuts ."	"hazelnuts ."	116	NA	NA	NA	NA	NA	2
+2021-04-23 09:58:54	"teacher008"	"teacher"	119	"Foraging is fun! I'm glad it's becoming popular in the UK."	"Foraging is fun! I'm glad it's becoming popular in the UK."	NA	NA	NA	NA	NA	NA	11
+2021-04-23 09:59:09	"student011"	"student"	120	"I don't like it"	"I don't like it"	NA	NA	NA	NA	NA	NA	4
+2021-04-23 09:59:12	"student011"	"student"	121	"sorry ."	"sorry ."	NA	NA	NA	NA	NA	NA	2
+2021-04-23 09:59:34	"teacher008"	"teacher"	122	"No problem, you've got to be used to it I think :."	"No problem, you've got to be used to it I think :)"	NA	NA	NA	NA	NA	NA	12
+2021-04-23 09:59:48	"teacher008"	"teacher"	123	"Ok, shall we go back to the video about books?"	"Ok, shall we go back to the video about books?"	NA	"6.0"	"topic opening,homework"	"listening"	NA	NA	10
+2021-04-23 09:59:51	"student011"	"student"	124	"But I know loots of people who love foraging for mushrooms here in Ukraine"	"But I know lots of people who love foraging for mushrooms here in Ukraine"	122	NA	NA	NA	NA	NA	14
+2021-04-23 10:00:19	"teacher008"	"teacher"	125	"Yes, definitely!"	"Yes, definitely!"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:00:46	"student011"	"student"	126	"But I don't like mushrooms at all ....."	"But I don't like mushrooms at all ....."	NA	NA	NA	NA	NA	NA	8
+2021-04-23 10:01:03	"teacher008"	"teacher"	127	"Oh, wait a second. The pronunciation for the new words"	"Oh, wait a second. The pronunciation for the new words"	NA	"5f"	"scaffolding"	"lexical resource,speaking"	NA	NA	10
+2021-04-23 10:01:05	"teacher008"	"teacher"	128	"/ˈed.ə.bəl/"	"/ˈed.ə.bəl/"	NA	NA	"scaffolding,eliciting"	"lexical resource,speaking"	NA	NA	1
+2021-04-23 10:01:10	"student011"	"student"	129	"I am a person 'I don't like'."	"I am an 'I don't like it' person."	126	NA	NA	NA	NA	NA	7
+2021-04-23 10:01:13	"teacher008"	"teacher"	130	"Which word is this? :."	"Which word is this? :)"	128	NA	NA	NA	NA	NA	5
+2021-04-23 10:01:24	"teacher008"	"teacher"	131	"It's good to know what you like and don't like!"	"It's good to know what you like and don't like!"	129	NA	NA	NA	NA	NA	10
+2021-04-23 10:01:43	"student011"	"student"	132	"for wild plants ou can eat ."	"for wild plants you can eat ."	130	NA	NA	NA	NA	NA	7
+2021-04-23 10:02:06	"teacher008"	"teacher"	133	"I mean, could you spell the word for me?"	"I mean, could you spell the word for me?"	NA	NA	NA	NA	NA	NA	9
+2021-04-23 10:03:19	"student011"	"student"	134	"I like to buy berries and other food and go to picnic ."	"I like to buy berries and other food and go on a picnic ."	131	NA	NA	NA	NA	NA	13
+2021-04-23 10:03:40	"student011"	"student"	135	"edible"	"edible"	133	NA	NA	NA	NA	NA	1
+2021-04-23 10:03:57	"teacher008"	"teacher"	136	"Yes! and /ɪˈned.ə.bəl/ ?"	"Yes! and /ɪˈned.ə.bəl/ ?"	NA	"5g"	"scaffolding,eliciting"	"lexical resource,speaking"	NA	NA	4
+2021-04-23 10:04:12	"teacher008"	"teacher"	137	"I love going on a picnic too :."	"I love going on a picnic too :."	134	NA	NA	NA	NA	NA	8
+2021-04-23 10:04:47	"student011"	"student"	138	"wow! I'm with you ."	"wow! I'm with you ."	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:04:49	"student011"	"student"	139	"here"	"here"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:05:35	"student011"	"student"	140	"inedible"	"inedible"	136	NA	NA	NA	NA	NA	1
+2021-04-23 10:05:49	"teacher008"	"teacher"	141	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:06:54	"teacher008"	"teacher"	142	"Edible / inedible is not just about wild plants, actually. Rocks are inedible but pasta is edible :."	"Edible / inedible is not just about wild plants, actually. Rocks are inedible but pasta is edible :."	NA	"5h"	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2021-04-23 10:07:37	"teacher008"	"teacher"	143	"And metaphorically: I put too much salt in my soup, and it was practically inedible!"	"And metaphorically: I put too much salt in my soup, and it was practically inedible!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2021-04-23 10:08:10	"teacher008"	"teacher"	144	"This pasta is edible, but nothing special. .it's not very tasty but it's safe to eat."	"This pasta is edible, but nothing special. (it's not very tasty but it's safe to eat)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2021-04-23 10:08:29	"student011"	"student"	145	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:08:36	"student011"	"student"	146	"it's very clear"	"it's very clear"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 10:08:37	"student011"	"student"	147	"."	"."	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:09:33	"teacher008"	"teacher"	148	"No problem :."	"No problem :)"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 10:09:55	"teacher008"	"teacher"	149	"/ˈfɒr.ɪdʒ/  ?"	"/ˈfɒr.ɪdʒ/  ?"	NA	"5i"	"scaffolding,eliciting"	"lexical resource,speaking"	NA	NA	3
+2021-04-23 10:10:12	"student011"	"student"	150	"forage"	"forage"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:10:17	"teacher008"	"teacher"	151	"Yes :."	"Yes :)"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:10:35	"teacher008"	"teacher"	152	"Ok, shall we go to our 'people in the street' talking about their favourite books?"	"Ok, shall we go to our 'people in the street' talking about their favourite books?"	NA	"6a"	"redirection,homework"	"listening"	NA	NA	15
+2021-04-23 10:11:07	"teacher008"	"teacher"	153	"To make it a bit easier, I'll say that the first girl .Charlie. talks about 'Dear Zoo' .I don't know if you've heard of 'Dear Zoo'."	"To make it a bit easier, I'll say that the first girl .Charlie. talks about 'Dear Zoo' .I don't know if you've heard of 'Dear Zoo'."	NA	NA	"scaffolding"	"listening,world knowledge"	NA	NA	26
+2021-04-23 10:11:11	"student011"	"student"	154	"Yes"	"Yes"	152	NA	NA	NA	NA	NA	1
+2021-04-23 10:11:33	"student011"	"student"	155	"No, I haven't ."	"No, I haven't ."	153	NA	NA	NA	NA	NA	4
+2021-04-23 10:11:34	"student011"	"student"	156	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:11:46	"student011"	"student"	157	"she was talking something about"	"she was talking about something like"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:12:19	"student011"	"student"	158	"a boy who got lost? animal through post?"	"a boy who got lost? animals through the post?"	NA	NA	NA	NA	NA	NA	8
+2021-04-23 10:12:30	"teacher008"	"teacher"	159	"It's a book for very young children, I think even <STUDENT'S CHILD> will be too old for Dear Zoo :. I found a video of a lady reading it, I'll send it to you at the end of the class"	"It's a book for very young children, I think even <STUDENT'S CHILD> will be too old for Dear Zoo :) I found a video of a lady reading it, I'll send it to you at the end of the class"	NA	NA	"scaffolding,reference"	"world knowledge"	"website"	NA	40
+2021-04-23 10:12:44	"teacher008"	"teacher"	160	"a boy who was getting animals through the post"	"a boy who was getting animals through the post"	158	NA	"repair"	"listening"	NA	NA	9
+2021-04-23 10:12:52	"student011"	"student"	161	"And she like the plot because she had .would like to have . a dog?"	"And she likes the plot because she had (would like to have) a dog?"	NA	NA	NA	NA	NA	NA	15
+2021-04-23 10:13:09	"teacher008"	"teacher"	162	"The book goes: I wrote to a zoo to send me a pet. They send me a lion. He was too fierce! I sent him back."	"The book goes: I wrote to a zoo to send me a pet. They send me a lion. He was too fierce! I sent him back."	159	NA	"scaffolding"	"world knowledge"	NA	NA	26
+2021-04-23 10:13:37	"teacher008"	"teacher"	163	"And so on with  several animals, none of them is right, until they send him a dog"	"And so on with  several animals, none of them is right, until they send him a dog"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	18
+2021-04-23 10:14:22	"student011"	"student"	164	"aaaaah"	"aaaaah"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:14:25	"student011"	"student"	165	"oooooh"	"oooooh"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:14:30	"student011"	"student"	166	"I see now ."	"I see now ."	NA	NA	NA	NA	NA	NA	4
+2021-04-23 10:14:58	"teacher008"	"teacher"	167	"Yes, Charlie says, 'Growing up, my parents wouldn't let me have a pet, so it was a nice idea, lots of animals coming to stay...'"	"Yes, Charlie says, 'Growing up, my parents wouldn't let me have a pet, so it was a nice idea, lots of animals coming to stay...'"	NA	NA	"scaffolding"	"listening"	NA	NA	25
+2021-04-23 10:15:38	"student011"	"student"	168	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:15:41	"student011"	"student"	169	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:15:56	"teacher008"	"teacher"	170	"Oh, the next question has a nice expression. 'to identify with' = to feel a connection with"	"Oh, the next question has a nice expression. 'to identify with' = to feel a connection with"	NA	"6b"	"scaffolding"	"listening,lexical resource,meaning"	NA	NA	17
+2021-04-23 10:16:36	"teacher008"	"teacher"	171	"for example, a character you can identify with = a character you like or think is like you"	"for example, a character you can identify with = a character you like or think is like you"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2021-04-23 10:16:44	"student011"	"student"	172	"Aga, I got it"	"Aha, I got it"	NA	NA	NA	NA	NA	NA	4
+2021-04-23 10:17:28	"teacher008"	"teacher"	173	"We can also identify with an idea, if we like / support the idea"	"We can also identify with an idea, if we like / support the idea"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+2021-04-23 10:17:46	"student011"	"student"	174	"Aha, I see, thank you"	"Aha, I see, thank you"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:18:18	"teacher008"	"teacher"	175	"Or for example, someone says on TV, 'being in lockdown can be very lonely'. Many people can identify with this .they feel the same way."	"Or for example, someone says on TV, 'being in lockdown can be very lonely'. Many people can identify with this (they feel the same way)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	25
+2021-04-23 10:19:16	"teacher008"	"teacher"	176	"Charlie identifies with a girl from a book that she likes. Do you remember why she likes this girl?"	"Charlie identifies with a girl from a book that she likes. Do you remember why she likes this girl?"	NA	"6c"	"eliciting"	"listening"	NA	NA	19
+2021-04-23 10:19:45	"student011"	"student"	177	"a girl? Not a boy?"	"a girl? Not a boy?"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:20:23	"student011"	"student"	178	"I'm quite confused about the video . Sorry ."	"I'm quite confused about the video . Sorry ."	NA	NA	NA	NA	NA	NA	9
+2021-04-23 10:20:34	"teacher008"	"teacher"	179	"Yes, I think she talks about a girl!"	"Yes, I think she talks about a girl!"	NA	NA	NA	NA	NA	NA	8
+2021-04-23 10:20:41	"teacher008"	"teacher"	180	"Sorry, the first speaker in the video!"	"Sorry, the first speaker in the video!"	NA	NA	NA	NA	NA	NA	7
+2021-04-23 10:21:05	"student011"	"student"	181	"Ah, ok, I'm sorry"	"Ah, ok, I'm sorry"	NA	NA	NA	NA	NA	NA	4
+2021-04-23 10:21:20	"student011"	"student"	183	"I thought it was a boy ."	"I thought it was a boy ."	NA	NA	NA	NA	NA	NA	7
+2021-04-23 10:21:38	"teacher008"	"teacher"	184	"It's around 0:40"	"It's around 0:40"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 10:22:12	"teacher008"	"teacher"	185	"if you've got the video handy"	"if you've got the video handy"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 10:22:24	"student011"	"student"	186	"I have"	"I have"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:22:40	"student011"	"student"	187	"Let me listen to please"	"Let me listen to it please"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:23:08	"teacher008"	"teacher"	188	"Yes, sure!"	"Yes, sure!"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:23:57	"student011"	"student"	189	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:24:10	"student011"	"student"	190	"I can't her 100%, but"	"I can't hear 100%, but"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:24:47	"student011"	"student"	191	"thin she talks about a girl from the book who was like Tommy boy"	"then she talks about a girl from a book who was like a tomboy"	NA	NA	NA	NA	NA	NA	14
+2021-04-23 10:25:12	"student011"	"student"	192	"adventurous"	"adventurous"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:25:20	"teacher008"	"teacher"	193	"Yes! a 'tomboy' = a girl who behaves like a boy"	"Yes! a 'tomboy' = a girl who behaves like a boy"	192	NA	"repair,scaffolding"	"lexical resource"	NA	NA	11
+2021-04-23 10:25:33	"student011"	"student"	194	"ke Charlie was when she was a child"	"like Charlie was when she was a child"	NA	NA	NA	NA	NA	NA	8
+2021-04-23 10:25:47	"student011"	"student"	195	"Something like that"	"Something like that"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 10:25:52	"teacher008"	"teacher"	196	"a girl who acts and dresses like a boy and likes noisy physical activities"	"a girl who acts and dresses like a boy and likes noisy physical activities"	NA	NA	"scaffolding"	"lexical resource,meaning"	"dictionary"	NA	14
+2021-04-23 10:25:59	"teacher008"	"teacher"	197	"says the dictionary"	"says the dictionary"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 10:26:10	"student011"	"student"	198	"I know the expression"	"I know the expression"	NA	NA	NA	NA	NA	NA	4
+2021-04-23 10:26:12	"student011"	"student"	199	"hank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:26:37	"teacher008"	"teacher"	200	"I think Alexa Chung was talking about tomboy style .dressing like men, in casual clothes."	"I think Alexa Chung was talking about tomboy style (dressing like men, in casual clothes)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2021-04-23 10:26:42	"student011"	"student"	201	"but I didn't know how to write it correct way ."	"but I didn't know how to spell it correctly"	200	NA	NA	NA	NA	NA	11
+2021-04-23 10:26:49	"teacher008"	"teacher"	202	"Were you a tomboy when you were growing up?"	"Were you a tomboy when you were growing up?"	NA	"6d"	"eliciting"	"lexical resource,writing"	NA	NA	9
+2021-04-23 10:27:18	"student011"	"student"	203	"Yes! I think I know the expression from Alexa or from other interview about style"	"Yes! I think I know the expression from Alexa or from other interviews about style"	201	NA	NA	NA	NA	NA	15
+2021-04-23 10:27:30	"student011"	"student"	204	"no, I wasn't"	"no, I wasn't"	203	NA	NA	NA	NA	NA	3
+2021-04-23 10:27:36	"student011"	"student"	205	"I think you too ."	"I think neither were you"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:27:45	"student011"	"student"	206	"Am I right? ."	"Am I right? ."	NA	NA	NA	NA	NA	NA	4
+2021-04-23 10:28:21	"teacher008"	"teacher"	207	"Not really! But I liked running around, swimming and foraging :."	"Not really! But I liked running around, swimming and foraging :)"	206	NA	NA	NA	NA	NA	11
+2021-04-23 10:28:30	"student011"	"student"	208	"..."	"..."	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:29:00	"student011"	"student"	209	"I liked play with boys but I wasn't tomboy ."	"I liked playing with boys but I wasn't a tomboy ."	NA	NA	NA	NA	NA	NA	10
+2021-04-23 10:29:12	"teacher008"	"teacher"	210	"I think tomboy is a bit of labelling. I mean, a girl should be able to run, be noisy and wear comfortable clothes without being called a boy! or a tomboy!"	"I think tomboy is a bit of labelling. I mean, a girl should be able to run, be noisy and wear comfortable clothes without being called a boy! or a tomboy!"	NA	"6e"	"topic development"	"lexical resource"	NA	NA	31
+2021-04-23 10:29:20	"teacher008"	"teacher"	211	"Yes, that makes sense!"	"Yes, that makes sense!"	210	NA	NA	NA	NA	NA	4
+2021-04-23 10:29:33	"student011"	"student"	212	"Agree!"	"Agree!"	NA	NA	NA	NA	NA	NA	1
+2021-04-23 10:29:50	"student011"	"student"	213	"<STUDENT'S CHILD> likes cars for examble"	"<STUDENT'S CHILD> likes cars for examble"	NA	NA	NA	NA	NA	NA	6
+2021-04-23 10:30:00	"student011"	"student"	214	"or to play with ball"	"or to play with a ball"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:30:08	"student011"	"student"	215	"And like it so much"	"And likes it so much"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:30:38	"teacher008"	"teacher"	216	"Yes, of course! And <TEACHER'S CHILD> likes lots of 'girl' stuff! On this feminist note, I'm going to wish you to have a lovely weekend :."	"Yes, of course! And <TEACHER'S CHILD> likes lots of 'girl' stuff! On this feminist note, I'm going to wish you to have a lovely weekend :)"	NA	"7.0"	"closing"	NA	NA	NA	26
+2021-04-23 10:32:10	"student011"	"student"	217	"thank you .."	"thank you ))"	NA	NA	NA	NA	NA	NA	3
+2021-04-23 10:32:22	"student011"	"student"	218	"Have a good weekend too"	"Have a good weekend too"	NA	NA	NA	NA	NA	NA	5
+2021-04-23 10:32:39	"student011"	"student"	219	"bye xx"	"bye xx"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:32:47	"teacher008"	"teacher"	220	"Thank you! I'll send you a picture of some wild garlic if I find any :."	"Thank you! I'll send you a picture of some wild garlic if I find any :)"	NA	NA	NA	NA	NA	NA	16
+2021-04-23 10:32:51	"teacher008"	"teacher"	221	"Bye! :."	"Bye! :)"	NA	NA	NA	NA	NA	NA	2
+2021-04-23 10:33:01	"student011"	"student"	222	"Oh! I will wait ."	"Oh! I will wait )"	221	NA	NA	NA	NA	NA	5
+2021-04-23 10:33:15	"teacher008"	"teacher"	223	"Ok :.."	"Ok :))"	NA	NA	NA	NA	NA	"B2"	2

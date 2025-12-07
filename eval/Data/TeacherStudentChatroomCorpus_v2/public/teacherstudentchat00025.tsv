@@ -1,0 +1,121 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-02-22 11:41:09	"teacher001"	"teacher"	1	"Hi <STUDENT> how are you? Ok?"	"Hi <STUDENT> how are you? Ok?"	NA	"1.0"	"opening"	NA	NA	NA	6
+2020-02-22 11:41:45	"student005"	"student"	2	"fine thanks"	"fine thanks"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:42:32	"teacher001"	"teacher"	3	"Ok great- by the way is <STUDENT'S SHORT NAME> a short form for <STUDENT'S FULL NAME> in speaking?"	"Ok great- by the way is <STUDENT'S SHORT NAME> a short form for <STUDENT'S FULL NAME> in speaking?"	NA	"2.0"	"topic opening"	NA	NA	NA	18
+2020-02-22 11:43:13	"student005"	"student"	4	"yes it is"	"yes it is"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 11:43:37	"teacher001"	"teacher"	5	"Ok yes not surprising i guess!"	"Ok yes not surprising i guess!"	NA	NA	NA	NA	NA	NA	6
+2020-02-22 11:43:54	"teacher001"	"teacher"	6	"Ok so you have the museum pie charts right?"	"Ok so you have the museum pie charts right?"	NA	"3.0"	"exercise"	"writing"	NA	NA	9
+2020-02-22 11:44:06	"student005"	"student"	7	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:44:44	"teacher001"	"teacher"	8	"Ok so....could you try an intro for them please?!"	"Ok so....could you try an intro for them please?!"	NA	NA	NA	NA	NA	NA	9
+2020-02-22 11:45:22	"teacher001"	"teacher"	9	"Take a minute....and show me your idea....ok"	"Take a minute....and show me your idea....ok"	NA	NA	NA	NA	NA	NA	7
+2020-02-22 11:47:35	"student005"	"student"	10	"both of charts illustrate the different visitors' reactions at ashdown museum before and after his renovation"	"Both charts illustrate different visitors' reactions to Ashdown museum before and after its renovation"	NA	NA	NA	NA	NA	NA	16
+2020-02-22 11:48:16	"teacher001"	"teacher"	11	"Ok thanks <STUDENT> hold on..."	"Ok thanks <STUDENT> hold on..."	NA	NA	NA	NA	NA	NA	5
+2020-02-22 11:50:45	"teacher001"	"teacher"	12	"Yes pretty good actually! The big idea is fine definitely...Just a couple of small things...so can you write it again with tbe following changes: delete one 'tbe' and change 'at' and 'his' ok?! d"	"Yes pretty good actually! The big idea is fine definitely...Just a couple of small things...so can you write it again with tbe following changes: delete one 'tbe' and change 'at' and 'his' ok?! d"	NA	"3a"	"eliciting,repair"	"grammatical resource,lexical resource"	NA	NA	34
+2020-02-22 11:50:59	"teacher001"	"teacher"	13	"Sorry 'the'"	"Sorry 'the'"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-02-22 11:53:20	"teacher001"	"teacher"	14	"Ahhh sorry <STUDENT> no ..your 'the' is fine actually but you need to delete 'of' ok?"	"Ahhh sorry <STUDENT> no ..your 'the' is fine actually but you need to delete 'of' ok?"	"12.0"	NA	"repair"	"content"	NA	NA	16
+2020-02-22 11:53:40	"student005"	"student"	15	"both of charts illustrate the different reactions' about ashdown museum before and after  the renovation"	"Both charts illustrate different reactions to Ashdown museum before and after  the renovation"	NA	NA	NA	NA	NA	NA	16
+2020-02-22 11:54:03	"student005"	"student"	16	"both the charts?"	"both the charts?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	3
+2020-02-22 11:55:04	"student005"	"student"	17	"sorry"	"sorry"	"15.0"	NA	NA	NA	NA	NA	1
+2020-02-22 11:55:13	"student005"	"student"	18	"visitors' reactions"	"visitors' reactions"	"15.0"	NA	"repair"	"writing"	NA	NA	2
+2020-02-22 11:55:35	"teacher001"	"teacher"	19	"Ok thanks so...Botb charts illustrate the different reactions to Ashdown museum before and after its renovation = good"	"Ok thanks so...Botb charts illustrate the different reactions to Ashdown museum before and after its renovation = good"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	18
+2020-02-22 11:56:00	"student005"	"student"	20	"super"	"super"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:56:26	"teacher001"	"teacher"	21	"Look at this pattern: reply answer reaction etc TO something ok?"	"Look at this pattern: reply answer reaction etc TO something ok?"	NA	"3b"	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-02-22 11:56:44	"student005"	"student"	22	"it's strange"	"it's strange"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:56:55	"teacher001"	"teacher"	23	"Not for me!"	"Not for me!"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 11:57:04	"student005"	"student"	24	"ahahha"	"ahahha"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:57:11	"student005"	"student"	25	"understood"	"understood"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:57:18	"teacher001"	"teacher"	26	"Ok):"	"Ok):"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:57:23	"teacher001"	"teacher"	27	"Also..."	"Also..."	NA	"3c"	NA	NA	NA	NA	1
+2020-02-22 11:57:55	"teacher001"	"teacher"	28	"Common mistake = most/both etc + of"	"Common mistake = most/both etc + of"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-02-22 11:58:16	"teacher001"	"teacher"	29	"If you say of you need to add 'the'"	"If you say of you need to add 'the'"	NA	NA	NA	NA	NA	NA	9
+2020-02-22 11:58:44	"student005"	"student"	30	"is it fine 'both of the charts'"	"Is it fine to say 'both of the charts'"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	7
+2020-02-22 11:58:46	"student005"	"student"	31	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:58:48	"teacher001"	"teacher"	32	"So either most OR most of the but NEVER just most of"	"So either most OR most of the but NEVER just most of"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-02-22 11:59:35	"teacher001"	"teacher"	33	"So most people OR most of the people but NOT most of people.... ok?"	"So most people OR most of the people but NOT most of people.... ok?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-02-22 11:59:44	"student005"	"student"	34	"got it"	"got it"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:59:49	"student005"	"student"	35	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:00:52	"teacher001"	"teacher"	36	"Ok good- but... one more question....for ielts in task 2 for example what do you normallt need- most people or most of the people?"	"Ok good- but... one more question....for ielts in task 2 for example what do you normallt need- most people or most of the people?"	NA	"3d"	"eliciting"	"grammatical resource"	NA	NA	24
+2020-02-22 12:01:17	"student005"	"student"	37	"most people"	"most people"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 12:01:35	"student005"	"student"	38	"or both"	"or both"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 12:01:36	"teacher001"	"teacher"	39	"Ok yes good....why?"	"Ok yes good....why?"	"37.0"	NA	NA	NA	NA	NA	3
+2020-02-22 12:01:43	"teacher001"	"teacher"	40	"No not both!"	"No not both!"	"38.0"	NA	NA	NA	NA	NA	3
+2020-02-22 12:01:44	"student005"	"student"	41	"ahahah sorry"	"ahahah sorry"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 12:02:14	"teacher001"	"teacher"	42	"(:"	"(:"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:02:17	"student005"	"student"	43	"I don't know why, I never use most of the people"	"I don't know why, I never use 'most of the people'"	NA	NA	NA	NA	NA	NA	11
+2020-02-22 12:03:14	"teacher001"	"teacher"	44	"Ah ok! Well if you say 'the people....' i expect you to tell me about a particular group of people you see?"	"Ah ok! Well if you say 'the people....' i expect you to tell me about a particular group of people you see?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	22
+2020-02-22 12:03:28	"student005"	"student"	45	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:03:42	"teacher001"	"teacher"	46	"But normally in your esday you're just talkjng in general"	"But normally in your esday you're just talkjng in general"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-02-22 12:03:49	"teacher001"	"teacher"	47	"Essay i mean"	"Essay i mean"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-02-22 12:03:57	"student005"	"student"	48	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:04:25	"teacher001"	"teacher"	49	"So a common mistake is using lots of 'the' all the time when you don't need it"	"So a common mistake is using lots of 'the' all the time when you don't need it"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2020-02-22 12:04:40	"teacher001"	"teacher"	50	"Including for italians!"	"Including for italians!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2020-02-22 12:05:12	"teacher001"	"teacher"	51	"Anyway....intro was good thanks...hold on..."	"Anyway....intro was good thanks...hold on..."	NA	NA	NA	NA	NA	NA	5
+2020-02-22 12:05:40	"teacher001"	"teacher"	52	"What about the overview <STUDENT>? Have a go ...!"	"What about the overview <STUDENT>? Have a go ...!"	NA	"4.0"	"exercise"	"writing"	NA	NA	9
+2020-02-22 12:05:51	"teacher001"	"teacher"	53	"I'll wait ok?"	"I'll wait ok?"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 12:05:58	"student005"	"student"	54	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:06:23	"student005"	"student"	55	"you mean conclusion right?"	"you mean conclusion right?"	NA	NA	"enquiry"	NA	NA	NA	4
+2020-02-22 12:06:44	"teacher001"	"teacher"	56	"Yes"	"Yes"	NA	NA	"clarification"	NA	NA	NA	1
+2020-02-22 12:07:15	"teacher001"	"teacher"	57	"Just the really big thing(s)"	"Just the really big thing(s)"	NA	NA	"scaffolding"	"task achievement"	NA	NA	5
+2020-02-22 12:07:33	"teacher001"	"teacher"	58	"Usually with no numbers"	"Usually with no numbers"	NA	NA	"scaffolding"	"task achievement"	NA	NA	4
+2020-02-22 12:07:56	"teacher001"	"teacher"	59	"I mean the main point"	"I mean the main point"	NA	NA	"scaffolding"	"task achievement"	NA	NA	5
+2020-02-22 12:09:53	"student005"	"student"	60	"we can conclude that people who visited the museum after its refurbishment are"	"We can conclude that people who visited the museum after its refurbishment are"	NA	NA	NA	NA	NA	NA	13
+2020-02-22 12:09:56	"student005"	"student"	61	"...."	"...."	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:10:28	"student005"	"student"	62	"after that it's better if I write information in general?"	"after that is it better if I write the information in general?"	NA	NA	"enquiry"	"task achievement"	NA	NA	10
+2020-02-22 12:10:46	"teacher001"	"teacher"	63	"Yes..."	"Yes..."	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:10:47	"student005"	"student"	64	"like '...are more satisfied'"	"like '...are more satisfied'"	NA	NA	NA	NA	NA	NA	4
+2020-02-22 12:11:00	"teacher001"	"teacher"	65	"Yes for example"	"Yes for example"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 12:11:41	"student005"	"student"	66	"than the visitors in the years before"	"than the visitors in the years before"	NA	NA	NA	NA	NA	NA	7
+2020-02-22 12:13:10	"teacher001"	"teacher"	67	"Yes ok ...again , pretty good you've got the big idea clearly expressed"	"Yes ok ...again , pretty good you've got the big idea clearly expressed"	NA	NA	NA	NA	NA	NA	13
+2020-02-22 12:13:23	"student005"	"student"	68	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:13:31	"teacher001"	"teacher"	69	"A couple of small things..."	"A couple of small things..."	NA	"4a"	NA	NA	NA	NA	5
+2020-02-22 12:13:38	"student005"	"student"	70	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:13:59	"teacher001"	"teacher"	71	"Dont say ' we can conclude'- just say it!"	"Dont say ' we can conclude'- just say it!"	NA	NA	"scaffolding"	"discourse management"	NA	NA	9
+2020-02-22 12:14:19	"teacher001"	"teacher"	72	"Use past simple..."	"Use past simple..."	NA	NA	"scaffolding"	"grammatical resource,discourse management"	NA	NA	3
+2020-02-22 12:14:57	"teacher001"	"teacher"	73	"I.e. 'were' more satisfied"	"I.e. 'were' more satisfied"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2020-02-22 12:15:37	"teacher001"	"teacher"	74	"And finally....change some of the words if possible using synonyms and different phrases like we did last week"	"And finally....change some of the words if possible using synonyms and different phrases like we did last week"	NA	"4b"	"scaffolding"	"lexical resource"	NA	NA	18
+2020-02-22 12:16:20	"student005"	"student"	75	"but for example"	"but for example"	"73.0"	NA	NA	NA	NA	NA	3
+2020-02-22 12:16:53	"student005"	"student"	76	"if I say 'we can see...' then I have to use the present simle"	"if I say 'we can see...' then I have to use the present simle"	NA	NA	NA	NA	NA	NA	14
+2020-02-22 12:16:58	"student005"	"student"	77	"simple"	"simple"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-22 12:17:00	"student005"	"student"	78	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:17:42	"student005"	"student"	79	"even if I used always the past in my essay"	"even if I used the past tense in my essay"	NA	NA	NA	NA	NA	NA	10
+2020-02-22 12:18:49	"teacher001"	"teacher"	80	"Yes ...we can see thd charts now BUT when you talk aboug the actual information in the charts its (normally) in the past ok? ...maybe change : people, satisfied and refurbishment ok? And....show me the whole conclusion again ok?"	"Yes ...we can see thd charts now BUT when you talk aboug the actual information in the charts its (normally) in the past ok? ...maybe change : people, satisfied and refurbishment ok? And....show me the whole conclusion again ok?"	NA	"4c"	"scaffolding,eliciting"	"grammatical resource,lexical resource"	NA	NA	39
+2020-02-22 12:19:29	"student005"	"student"	81	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:22:22	"student005"	"student"	82	"people who visited the museum after its regeneration were more pleased than the visitors in the years before"	"people who visited the museum after its regeneration were more pleased than the visitors in the years before"	NA	NA	NA	NA	NA	NA	18
+2020-02-22 12:22:54	"student005"	"student"	83	"I'm not sure if I can use regeneration like a synonym"	"I'm not sure if I can use regeneration as a synonym"	NA	"4d"	"enquiry"	"lexical resource"	NA	NA	11
+2020-02-22 12:24:06	"teacher001"	"teacher"	84	"Um...good idea but not quite right here I'm afraid....maybe for e.g an atea of a city or a whe industry..."	"Um...good idea but not quite right here I'm afraid....maybe for e.g an atea of a city or a whe industry..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-02-22 12:24:43	"teacher001"	"teacher"	85	"Sorry...area of a city...or whole industry"	"Sorry...area of a city...or whole industry"	NA	NA	"repair"	"writing"	NA	NA	6
+2020-02-22 12:24:57	"student005"	"student"	86	"yes I see"	"yes I see"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 12:25:17	"student005"	"student"	87	"because it's the same thing in italian"	"because it's the same thing in Italian"	NA	NA	NA	NA	NA	NA	7
+2020-02-22 12:25:18	"teacher001"	"teacher"	88	"But e.g. pleased with their visit = good idea"	"But e.g. pleased with their visit = good idea"	"82.0"	NA	NA	NA	NA	NA	9
+2020-02-22 12:25:55	"teacher001"	"teacher"	89	"You would need to say tbat it shows information on number of visitors too ok?"	"You would need to say tbat it shows information on number of visitors too ok?"	NA	"4e"	"eliciting"	"task achievement"	NA	NA	15
+2020-02-22 12:26:26	"teacher001"	"teacher"	90	"Oh no sorry we're on conclusion not intro...!"	"Oh no sorry we're on conclusion not intro...!"	NA	NA	"repair"	"content"	NA	NA	8
+2020-02-22 12:26:55	"student005"	"student"	91	"don't worry"	"don't worry"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 12:28:10	"teacher001"	"teacher"	92	"Ok <STUDENT> so if we have the intro and tbe conclusion tben we need to divide the main body into two paragraphs I'd  say for this one..."	"Ok <STUDENT> so if we have the intro and tbe conclusion tben we need to divide the main body into two paragraphs I'd  say for this one..."	NA	"5.0"	"scaffolding"	"writing,discourse management"	NA	NA	28
+2020-02-22 12:29:04	"teacher001"	"teacher"	93	"One paragraph on positive responses and tben one on less positive feedback"	"One paragraph on positive responses and tben one on less positive feedback"	NA	NA	NA	NA	NA	NA	12
+2020-02-22 12:29:15	"teacher001"	"teacher"	94	"Seem logical to you?"	"Seem logical to you?"	NA	NA	NA	NA	NA	NA	4
+2020-02-22 12:29:24	"student005"	"student"	95	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:30:01	"student005"	"student"	96	"but usually I start from the main features, not from the positive things"	"but usually I start from the main features, not from the positive things"	NA	"5a"	"enquiry"	"discourse management"	NA	NA	13
+2020-02-22 12:30:20	"student005"	"student"	97	"is it a bad idea?"	"is it a bad idea?"	NA	NA	NA	NA	NA	NA	5
+2020-02-22 12:30:40	"teacher001"	"teacher"	98	"Um...ok maybe it depends...hold on"	"Um...ok maybe it depends...hold on"	NA	NA	NA	NA	NA	NA	5
+2020-02-22 12:31:39	"teacher001"	"teacher"	99	"Maybe if the categories are not really connected but here thete is do you see?"	"Maybe if the categories are not really connected but here thete is do you see?"	NA	NA	"scaffolding"	"discourse management"	NA	NA	15
+2020-02-22 12:31:53	"teacher001"	"teacher"	100	"They are connected i mean"	"They are connected i mean"	NA	NA	"repair"	"writing"	NA	NA	5
+2020-02-22 12:32:07	"student005"	"student"	101	"no i mean"	"no I mean"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 12:32:15	"student005"	"student"	102	"for example"	"for example"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 12:32:23	"teacher001"	"teacher"	103	"Yes..."	"Yes..."	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:33:15	"student005"	"student"	104	"in this case the most significant information is about dissatisfied people"	"in this case the most significant information is about dissatisfied people"	NA	NA	NA	NA	NA	NA	11
+2020-02-22 12:34:00	"teacher001"	"teacher"	105	"Um...is it?"	"Um...is it?"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 12:34:08	"teacher001"	"teacher"	106	"Why?"	"Why?"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:34:34	"teacher001"	"teacher"	107	"Do you mean because it's the biggezt proportion?"	"Do you mean because it's the biggezt proportion?"	NA	NA	NA	NA	NA	NA	8
+2020-02-22 12:35:11	"teacher001"	"teacher"	108	"Oh no sorry it isnt is it? So why then?"	"Oh no sorry it isnt is it? So why then?"	NA	NA	NA	NA	NA	NA	10
+2020-02-22 12:35:15	"student005"	"student"	109	"because it is the information that has changed the most"	"because it is the information that has changed the most"	NA	NA	NA	NA	NA	NA	10
+2020-02-22 12:35:35	"teacher001"	"teacher"	110	"Ah i see ...hold on"	"Ah i see ...hold on"	NA	NA	NA	NA	NA	NA	5
+2020-02-22 12:35:50	"student005"	"student"	111	"(I don't know if my English grammar is correct here)"	"(I don't know if my English grammar is correct here)"	"109.0"	"5b"	"enquiry"	"grammatical resource"	NA	NA	10
+2020-02-22 12:36:55	"teacher001"	"teacher"	112	"No its ok! 'Has changed' = better...Well....if you divided the two paragraphs like tbat i think it woumd be quite complicated...."	"No its ok! 'Has changed' = better...Well....if you divided the two paragraphs like tbat i think it woumd be quite complicated...."	"111, 109"	NA	"scaffolding"	"grammatical resource,discourse management"	NA	NA	21
+2020-02-22 12:37:02	"teacher001"	"teacher"	113	"Hold on..."	"Hold on..."	NA	"5a (continued)"	NA	NA	NA	NA	2
+2020-02-22 12:37:13	"student005"	"student"	114	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:37:52	"student005"	"student"	115	"so it's better to do a logical distinction"	"so it's better to make a logical distinction"	NA	NA	NA	NA	NA	NA	8
+2020-02-22 12:38:45	"teacher001"	"teacher"	116	"Its a bit difficult to go through it right now and we're going to have to stop now but...yes i think i know what you mean with logical distinction and i agree ...we'll come back to it soon ok!"	"Its a bit difficult to go through it right now and we're going to have to stop now but...yes i think i know what you mean with logical distinction and i agree ...we'll come back to it soon ok!"	NA	"6.0"	"scaffolding,closing"	"discourse management"	NA	NA	39
+2020-02-22 12:39:08	"student005"	"student"	117	"sure thanks!"	"sure thanks!"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 12:39:28	"teacher001"	"teacher"	118	"Ok cheers <STUDENT> speak to you soon"	"Ok cheers <STUDENT> speak to you soon"	NA	NA	NA	NA	NA	NA	7
+2020-02-22 12:39:34	"teacher001"	"teacher"	119	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 12:39:40	"student005"	"student"	120	"bye thanksss"	"bye thanks"	NA	NA	NA	NA	NA	"B2"	2

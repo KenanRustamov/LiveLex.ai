@@ -1,0 +1,156 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-26 13:30:59	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-26 13:31:33	"student015"	"student"	2	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	NA	NA	NA	NA	NA	2
+2020-11-26 13:31:44	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-26 13:32:03	"student015"	"student"	4	"I am fine."	"I am fine."	NA	NA	NA	NA	NA	NA	3
+2020-11-26 13:32:19	"teacher008"	"teacher"	5	"Good to hear. Are you having a busy week?"	"Good to hear. Are you having a busy week?"	NA	"2a"	"topic development"	NA	NA	NA	9
+2020-11-26 13:33:12	"student015"	"student"	6	"No, the week was good. I had time to learn something about my PHD exam."	"No, the week is good. I had time to learn something about my PHD exam."	NA	NA	NA	NA	NA	NA	15
+2020-11-26 13:33:58	"teacher008"	"teacher"	7	"That's good!"	"That's good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-26 13:34:49	"teacher008"	"teacher"	8	"The UK is preparing for the festive season even though we are in a lockdown. Everyone's talking about Christmas! But I guess the festive season for you is not until February, is it?"	"The UK is preparing for the festive season even though we are in a lockdown. Everyone's talking about Christmas! But I guess the festive season for you is not until February, is it?"	NA	"2b"	"topic development"	NA	NA	NA	33
+2020-11-26 13:35:33	"student015"	"student"	9	"What's mean of festive season"	"What does 'a festive season' mean?"	NA	"2c"	"enquiry"	"lexical resource"	NA	NA	5
+2020-11-26 13:36:07	"teacher008"	"teacher"	10	"festive = connected to celebration, in this case the celebration of Christmas and New Year"	"festive = connected to celebration, in this case the celebration of Christmas and New Year"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2020-11-26 13:36:39	"teacher008"	"teacher"	11	"a festive season (end of December in the UK), festive decorations, festive food, festive spirit etc."	"a festive season (end of December in the UK), festive decorations, festive food, festive spirit etc."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-11-26 13:36:55	"student015"	"student"	12	"Oh, I know."	"Oh, I know."	NA	NA	NA	NA	NA	NA	3
+2020-11-26 13:37:00	"teacher008"	"teacher"	13	"festive = adjective; festival = noun"	"festive = adjective; festival = noun"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-26 13:37:24	"student015"	"student"	14	"Yes. Chinese New Year is a little late than the New year in the UK"	"Yes. The Chinese New Year is a little later than the New Year in the UK"	8	NA	NA	NA	NA	NA	15
+2020-11-26 13:37:48	"teacher008"	"teacher"	15	"Yes, I know! I really liked the New Year in Shanghai because it felt like spring"	"Yes, I know! I really liked the New Year in Shanghai because it felt like spring"	NA	NA	NA	NA	NA	NA	16
+2020-11-26 13:38:37	"student015"	"student"	16	"Yes. In China, we have an old calender."	"Yes. In China, we have an old calender."	NA	NA	NA	NA	NA	NA	8
+2020-11-26 13:38:42	"teacher008"	"teacher"	17	"Ok, I thought it would be a good idea for us to practice future forms today. Could you tell me about your plans for the weekend please?"	"Ok, I thought it would be a good idea for us to practice future forms today. Could you tell me about your plans for the weekend please?"	NA	"3.0"	"topic opening,eliciting"	"grammatical resource"	NA	NA	27
+2020-11-26 13:38:56	"teacher008"	"teacher"	18	"just to practise"	"just to practise"	NA	NA	NA	NA	NA	NA	3
+2020-11-26 13:39:06	"student015"	"student"	19	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 13:40:43	"student015"	"student"	20	"In Seturday morning, I will go to boxing in a club."	"On Saturday morning, I'm going boxing in a club."	NA	NA	NA	NA	NA	NA	11
+2020-11-26 13:41:03	"student015"	"student"	21	"About an hour class."	"The class takes about an hour."	NA	NA	NA	NA	NA	NA	4
+2020-11-26 13:41:11	"teacher008"	"teacher"	22	"Ok, I didn't know you do boxing!"	"Ok, I didn't know you do boxing!"	NA	NA	NA	NA	NA	NA	7
+2020-11-26 13:41:42	"student015"	"student"	23	"It's for building my body."	"It's for building my body."	NA	NA	NA	NA	NA	NA	5
+2020-11-26 13:43:07	"student015"	"student"	24	"Because when I was at work, my neck often hurt."	"Because when I am at work, my neck often hurts."	NA	NA	NA	NA	NA	NA	10
+2020-11-26 13:43:16	"teacher008"	"teacher"	25	"Yes, it's good exercise!"	"Yes, it's good exercise!"	23	NA	NA	NA	NA	NA	4
+2020-11-26 13:43:21	"teacher008"	"teacher"	26	"Oh, sorry to hear that!"	"Oh, sorry to hear that!"	24	NA	NA	NA	NA	NA	5
+2020-11-26 13:43:46	"teacher008"	"teacher"	27	"Is this in the present? When I __ at work, my neck often ___"	"Is this in the present? When I __ at work, my neck often ___"	24	"3a"	"eliciting,repair"	"grammatical resource"	NA	NA	14
+2020-11-26 13:44:28	"student015"	"student"	28	"Yes. When I am at work, my neck often hurts."	"Yes. When I am at work, my neck often hurts."	NA	NA	NA	NA	NA	NA	10
+2020-11-26 13:45:14	"teacher008"	"teacher"	29	"Yes, that's much better :) perfect grammar this time"	"Yes, that's much better :) perfect grammar this time"	NA	NA	NA	NA	NA	NA	9
+2020-11-26 13:45:15	"student015"	"student"	30	"In Chinese Internet company, we often sit here all day."	"At a Chinese Internet company, we often sit all day."	26	NA	NA	NA	NA	NA	10
+2020-11-26 13:45:26	"teacher008"	"teacher"	31	"I can imagine!"	"I can imagine!"	NA	NA	NA	NA	NA	NA	3
+2020-11-26 13:45:52	"teacher008"	"teacher"	32	"Have you got any other plans for the weekend? Or anything you hope to do?"	"Have you got any other plans for the weekend? Or anything you hope to do?"	NA	"3b"	"eliciting"	"grammatical resource"	NA	NA	15
+2020-11-26 13:46:54	"student015"	"student"	33	"Yes. In Seturday afternoon, I will go to my favorite bookshop reading books."	"Yes. On Saturday afternoon, I'm going to my favorite bookshop to read books."	NA	NA	NA	NA	NA	NA	13
+2020-11-26 13:47:07	"teacher008"	"teacher"	34	"Nice!"	"Nice!"	NA	NA	NA	NA	NA	NA	1
+2020-11-26 13:47:24	"teacher008"	"teacher"	35	"It's 'on' with days of the week and parts of days of the week"	"It's 'on' with days of the week and parts of days of the week"	NA	"3c"	"repair,scaffolding"	"lexical resource"	NA	NA	14
+2020-11-26 13:47:32	"teacher008"	"teacher"	36	"on Saturday morning / afternoon"	"on Saturday morning / afternoon"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-11-26 13:47:43	"student015"	"student"	37	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 13:47:49	"teacher008"	"teacher"	38	"Anything else? :)"	"Anything else? :)"	34	NA	"eliciting"	"grammatical resource"	NA	NA	3
+2020-11-26 13:49:19	"student015"	"student"	39	"About 0:00 in Sunday, If there has a great football game, I will watch it."	"About 0:00 on Sunday, if there is a great football game on, I will watch it."	NA	NA	NA	NA	NA	NA	15
+2020-11-26 13:50:18	"student015"	"student"	40	"Sorry, do weekdays always use 'on'?"	"Sorry, do we always use 'on' with days of the week?"	37	NA	"enquiry"	"lexical resource"	NA	NA	6
+2020-11-26 13:50:30	"teacher008"	"teacher"	41	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-11-26 13:50:39	"student015"	"student"	42	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 13:51:19	"teacher008"	"teacher"	43	"Days of the week and all expressions with 'day' such as birthday, Christmas day etc."	"Days of the week and all expressions with 'day' such as birthday, Christmas day etc."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-11-26 13:51:32	"teacher008"	"teacher"	44	"on my birthday, on Sunday, on Saturday morning etc."	"on my birthday, on Sunday, on Saturday morning etc."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-11-26 13:51:50	"teacher008"	"teacher"	45	"On Sunday, if there __ a great football game on, I will watch it"	"On Sunday, if there __ a great football game on, I will watch it"	39	"3d"	"eliciting,repair"	"grammatical resource"	NA	NA	14
+2020-11-26 13:51:54	"student015"	"student"	46	"I like to watch football games like premier league on Saturday night."	"I like to watch football games like the Premier League on Saturday night."	39	NA	NA	NA	NA	NA	12
+2020-11-26 13:52:06	"teacher008"	"teacher"	47	"I remember, you love football!"	"I remember, you love football!"	NA	NA	NA	NA	NA	NA	5
+2020-11-26 13:52:07	"student015"	"student"	48	"if there is"	"if there is"	45	NA	NA	NA	NA	NA	3
+2020-11-26 13:52:13	"teacher008"	"teacher"	49	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-11-26 13:52:44	"teacher008"	"teacher"	50	"Ok, thanks for sharing! Let's have another look at these sentences and future forms"	"Ok, thanks for sharing! Let's have another look at these sentences and future forms"	47	"4.0"	"presentation"	"grammatical resource"	NA	NA	14
+2020-11-26 13:53:14	"student015"	"student"	51	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 13:53:17	"teacher008"	"teacher"	52	"In the future, we sometimes talk about things that happen according to a schedule / timetable"	"In the future, we sometimes talk about things that happen according to a schedule / timetable"	NA	NA	"presentation"	"grammatical resource"	NA	NA	16
+2020-11-26 13:53:40	"teacher008"	"teacher"	53	"For example, there is a football match on TV on Saturday night"	"For example, there is a football match on TV on Saturday night"	NA	NA	"presentation"	"grammatical resource"	NA	NA	12
+2020-11-26 13:53:55	"teacher008"	"teacher"	54	"It's in the future, but it's a timetable, so we use Present Simple here"	"It's in the future, but it's a timetable, so we use Present Simple here"	NA	NA	"presentation"	"grammatical resource"	NA	NA	14
+2020-11-26 13:54:12	"teacher008"	"teacher"	55	"Another example: My train leaves tomorrow at 2 pm"	"Another example: My train leaves tomorrow at 2 pm"	NA	NA	"presentation"	"grammatical resource"	NA	NA	9
+2020-11-26 13:54:12	"student015"	"student"	56	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 13:55:15	"teacher008"	"teacher"	57	"Let's practise this. What time do you start work tomorrow?"	"Let's practise this. What time do you start work tomorrow?"	NA	"4a"	"eliciting"	"grammatical resource"	NA	NA	10
+2020-11-26 13:56:12	"student015"	"student"	58	"I start work at 9 am tomorrow."	"I start work at 9 am tomorrow."	NA	NA	NA	NA	NA	NA	7
+2020-11-26 13:57:09	"teacher008"	"teacher"	59	"Yes, great. Our next lesson is on Monday"	"Yes, great. Our next lesson is on Monday"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-11-26 13:57:22	"teacher008"	"teacher"	60	"It's in the future, but it's all Present Simple because it's a schedule"	"It's in the future, but it's all Present Simple because it's a schedule"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-11-26 13:57:41	"student015"	"student"	61	"OK. I understand."	"OK. I understand."	NA	NA	NA	NA	NA	NA	3
+2020-11-26 13:58:53	"teacher008"	"teacher"	62	"Ok, moving on! In the future we also have plans. Present continuous and 'be going to V' are both good ways to talk about our plans"	"Ok, moving on! In the future we also have plans. Present continuous and 'be going to V' are both good ways to talk about our plans"	NA	"4b"	"presentation"	"grammatical resource"	NA	NA	26
+2020-11-26 13:59:14	"teacher008"	"teacher"	63	"For example, this weekend I'm going to put up Christmas decorations with my son"	"For example, this weekend I'm going to put up Christmas decorations with my son"	NA	NA	"presentation"	"grammatical resource"	NA	NA	14
+2020-11-26 13:59:18	"teacher008"	"teacher"	64	"It's my plan."	"It's my plan."	NA	NA	NA	NA	NA	NA	3
+2020-11-26 13:59:40	"teacher008"	"teacher"	65	"Or I could say, I'm putting on Christmas decorations with my son (Present Continuous)"	"Or I could say, I'm putting on Christmas decorations with my son (Present Continuous)"	NA	NA	"presentation"	"grammatical resource"	NA	NA	14
+2020-11-26 14:00:01	"teacher008"	"teacher"	66	"And your plan is to go to the book shop, right? Could you make a sentence about that?"	"And your plan is to go to the book shop, right? Could you make a sentence about that?"	NA	"4c"	"eliciting"	"grammatical resource"	NA	NA	18
+2020-11-26 14:00:29	"student015"	"student"	67	"OK. But this two type of sentences have the same means?"	"OK. But do these two types of sentences have the same meaning?"	NA	"4d"	"enquiry"	"grammatical resource"	NA	NA	11
+2020-11-26 14:00:35	"student015"	"student"	68	"these"	"these"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-11-26 14:01:58	"teacher008"	"teacher"	69	"Yes, they have pretty much the same meaning. They both describe my plans for the future"	"Yes, they have pretty much the same meaning. They both describe my plans for the future"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2020-11-26 14:03:23	"student015"	"student"	70	"I am going to the book shop this week."	"I am going to the book shop this week."	66	NA	NA	NA	NA	NA	9
+2020-11-26 14:03:35	"teacher008"	"teacher"	71	"Yes, lovely!"	"Yes, lovely!"	NA	NA	NA	NA	NA	NA	2
+2020-11-26 14:04:06	"student015"	"student"	72	"I am going to watch a football game this weekend."	"I am going to watch a football game this weekend."	NA	NA	NA	NA	NA	NA	10
+2020-11-26 14:04:31	"teacher008"	"teacher"	73	"Very good, yes!"	"Very good, yes!"	NA	NA	NA	NA	NA	NA	3
+2020-11-26 14:04:56	"teacher008"	"teacher"	74	"What about your boxing class? Is it more of a plan or more of a schedule, what do you think?"	"What about your boxing class? Is it more of a plan or more of a schedule, what do you think?"	NA	"4e"	"eliciting"	"grammatical resource"	NA	NA	20
+2020-11-26 14:06:24	"student015"	"student"	75	"It's a schedule, because it's a class and have an exact time."	"It's a schedule, because it's a class and it has an exact time."	NA	NA	NA	NA	NA	NA	12
+2020-11-26 14:06:32	"student015"	"student"	76	"has"	"has"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-11-26 14:06:35	"teacher008"	"teacher"	77	"I agree with you!"	"I agree with you!"	NA	NA	NA	NA	NA	NA	4
+2020-11-26 14:06:48	"teacher008"	"teacher"	78	"So what would be your sentence about the boxing club?"	"So what would be your sentence about the boxing club?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	10
+2020-11-26 14:07:47	"student015"	"student"	79	"I go to the boxing class at 10:00 on Saturday."	"I go to the boxing class at 10:00 on Saturday."	NA	NA	NA	NA	NA	NA	10
+2020-11-26 14:08:16	"teacher008"	"teacher"	80	"Yes, lovely!"	"Yes, lovely!"	NA	NA	NA	NA	NA	NA	2
+2020-11-26 14:08:34	"teacher008"	"teacher"	81	"Ok, now let's have a look at 'will'"	"Ok, now let's have a look at 'will'"	NA	"4f"	"presentation"	"grammatical resource"	NA	NA	8
+2020-11-26 14:09:39	"student015"	"student"	82	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:09:41	"teacher008"	"teacher"	83	"We use 'will' to talk about what we hope / promise / want to happen in the future or what we think will happen in the future"	"We use 'will' to talk about what we hope / promise / want to happen in the future or what we think will happen in the future"	NA	NA	"presentation"	"grammatical resource"	NA	NA	27
+2020-11-26 14:09:51	"teacher008"	"teacher"	84	"but it's not a plan or a schedule"	"but it's not a plan or a schedule"	NA	NA	"presentation"	"grammatical resource"	NA	NA	8
+2020-11-26 14:10:03	"teacher008"	"teacher"	85	"or what we've just decided to do"	"or what we've just decided to do"	NA	NA	"presentation"	"grammatical resource"	NA	NA	7
+2020-11-26 14:10:19	"teacher008"	"teacher"	86	"For example, I'm cold, I'll go get a jumper"	"For example, I'm cold, I'll go get a jumper"	NA	NA	"presentation"	"grammatical resource"	NA	NA	9
+2020-11-26 14:10:36	"teacher008"	"teacher"	87	"It's not a plan or a schedule, I've just decided to go get a jumper = will"	"It's not a plan or a schedule, I've just decided to go get a jumper = will"	NA	NA	"presentation"	"grammatical resource"	NA	NA	17
+2020-11-26 14:10:47	"student015"	"student"	88	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:10:51	"teacher008"	"teacher"	89	"or, I hope Christmas will be fun!"	"or, I hope Christmas will be fun!"	NA	NA	"presentation"	"grammatical resource"	NA	NA	7
+2020-11-26 14:11:11	"student015"	"student"	90	"I wish I will have a good future."	"I hope I will have a good future."	NA	NA	NA	NA	NA	NA	8
+2020-11-26 14:11:20	"teacher008"	"teacher"	91	"I hope we will be able to fix the environmental problems"	"I hope we will be able to fix the environmental problems"	NA	NA	NA	NA	NA	NA	11
+2020-11-26 14:11:42	"teacher008"	"teacher"	92	"Yes, good example!"	"Yes, good example!"	90	NA	NA	NA	NA	NA	3
+2020-11-26 14:12:01	"teacher008"	"teacher"	93	"Or, I promise I'll come to your party!"	"Or, I promise I'll come to your party!"	NA	NA	"presentation"	"grammatical resource"	NA	NA	8
+2020-11-26 14:12:14	"teacher008"	"teacher"	94	"I'll pay your the money back tomorrow"	"I'll pay your the money back tomorrow"	NA	NA	"presentation"	"grammatical resource"	NA	NA	7
+2020-11-26 14:12:22	"teacher008"	"teacher"	95	"I'll love you forever"	"I'll love you forever"	NA	NA	"presentation"	"grammatical resource"	NA	NA	4
+2020-11-26 14:12:26	"teacher008"	"teacher"	96	"and other promises :)"	"and other promises :)"	NA	NA	"presentation"	"grammatical resource"	NA	NA	4
+2020-11-26 14:12:52	"teacher008"	"teacher"	97	"I hope it won't rain tomorrow (won't = will not)"	"I hope it won't rain tomorrow (won't = will not)"	NA	NA	"presentation"	"grammatical resource"	NA	NA	10
+2020-11-26 14:13:27	"student015"	"student"	98	"Is there a type like 'promise did something'?"	"Is there a type like 'promised to do something'?"	NA	"4g"	"enquiry"	"grammatical resource"	NA	NA	8
+2020-11-26 14:13:51	"teacher008"	"teacher"	99	"Hmm, what do you mean?"	"Hmm, what do you mean?"	NA	NA	NA	NA	NA	NA	5
+2020-11-26 14:14:25	"student015"	"student"	100	"I promise I did something yesterday"	"I promised I would do something yesterday"	NA	NA	NA	NA	NA	NA	6
+2020-11-26 14:14:33	"student015"	"student"	101	"Is it right?"	"Is it right?"	NA	NA	NA	NA	NA	NA	3
+2020-11-26 14:15:08	"teacher008"	"teacher"	102	"I'm thinking about this one. How can you promise to do something in the past?"	"I'm thinking about this one. How can you promise to do something in the past?"	NA	NA	NA	NA	NA	NA	15
+2020-11-26 14:15:58	"teacher008"	"teacher"	103	"If you're talking about something you promised to do in the past, you can say, 'I promised I would help him yesterday' for example"	"If you're talking about something you promised to do in the past, you can say, 'I promised I would help him yesterday' for example"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	24
+2020-11-26 14:16:19	"student015"	"student"	104	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:16:24	"teacher008"	"teacher"	105	"You take 'I promise I will help him' and put it into the past tense"	"You take 'I promise I will help him' and put it into the past tense"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-11-26 14:16:28	"teacher008"	"teacher"	106	"promise - promised"	"promise - promised"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2020-11-26 14:16:31	"teacher008"	"teacher"	107	"will - would"	"will - would"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2020-11-26 14:16:36	"student015"	"student"	108	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:16:37	"teacher008"	"teacher"	109	"I promised I would help him"	"I promised I would help him"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-11-26 14:16:45	"teacher008"	"teacher"	110	"Is this what you had in mind?"	"Is this what you had in mind?"	NA	NA	NA	NA	NA	NA	7
+2020-11-26 14:16:55	"student015"	"student"	111	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:17:04	"teacher008"	"teacher"	112	"Great!"	"Great!"	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:17:42	"teacher008"	"teacher"	113	"Ok, one last bit. We don't really use 'will' after 'when' or 'if' even if we talk about the future"	"Ok, one last bit. We don't really use 'will' after 'when' or 'if' even if we talk about the future"	NA	"4h"	"presentation"	"grammatical resource"	NA	NA	20
+2020-11-26 14:17:53	"teacher008"	"teacher"	114	"We use the Present Tense insted"	"We use the Present Tense insted"	NA	NA	"presentation"	"grammatical resource"	NA	NA	6
+2020-11-26 14:17:55	"teacher008"	"teacher"	115	"instead"	"instead"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-26 14:18:04	"teacher008"	"teacher"	116	"When the rain stops, I will go out."	"When the rain stops, I will go out."	NA	NA	"presentation"	"grammatical resource"	NA	NA	8
+2020-11-26 14:18:23	"teacher008"	"teacher"	117	"When Present Simple, I will..."	"When Present Simple, I will..."	NA	NA	"presentation"	"grammatical resource"	NA	NA	5
+2020-11-26 14:18:25	"student015"	"student"	118	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:18:44	"teacher008"	"teacher"	119	"If I win a lottery, I will travel around the world"	"If I win a lottery, I will travel around the world"	NA	NA	"presentation"	"grammatical resource"	NA	NA	11
+2020-11-26 14:19:11	"teacher008"	"teacher"	120	"When the pandemic stops, we will see our family and friends"	"When the pandemic stops, we will see our family and friends"	NA	NA	"presentation"	"grammatical resource"	NA	NA	11
+2020-11-26 14:19:51	"student015"	"student"	121	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:20:02	"teacher008"	"teacher"	122	"When I _____ to Shanghai, I ___ ___ at Fudon University"	"When I _____ to Shanghai, I ___ ___ at Fudon University"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2020-11-26 14:20:24	"teacher008"	"teacher"	123	"*Fudan, sorry"	"*Fudan, sorry"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-11-26 14:20:39	"student015"	"student"	124	"When I go to Shanghai, I will be at Fudan University."	"When I go to Shanghai, I will be at Fudan University."	122	NA	NA	NA	NA	NA	11
+2020-11-26 14:20:59	"teacher008"	"teacher"	125	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-26 14:21:16	"teacher008"	"teacher"	126	"Could you make some more sentences like this about your move to Shanghai, please?"	"Could you make some more sentences like this about your move to Shanghai, please?"	NA	"4i"	"eliciting"	"grammatical resource"	NA	NA	14
+2020-11-26 14:22:18	"student015"	"student"	127	"When I go to Shanghai, I will go to see my Professor."	"When I go to Shanghai, I will go to see my Professor."	NA	NA	NA	NA	NA	NA	12
+2020-11-26 14:23:07	"teacher008"	"teacher"	128	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-26 14:23:26	"teacher008"	"teacher"	129	"How do you think your life will be different when you live in Shanghai?"	"How do you think your life will be different when you live in Shanghai?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	14
+2020-11-26 14:23:53	"student015"	"student"	130	"When I pass my exams, I will have a opportunity to join the lab."	"When I pass my exams, I will have an opportunity to join the lab."	NA	NA	NA	NA	NA	NA	14
+2020-11-26 14:24:03	"teacher008"	"teacher"	131	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-26 14:24:47	"student015"	"student"	132	"When I go to Shanghai, I will put my attention on researching work."	"When I go to Shanghai, I will give my attention to research work."	NA	NA	NA	NA	NA	NA	13
+2020-11-26 14:25:26	"teacher008"	"teacher"	133	"Yes, 'I will give my attention to research work' or 'I'll focus on research work'"	"Yes, 'I will give my attention to research work' or 'I'll focus on research work'"	NA	NA	"repair"	"lexical resource"	NA	NA	15
+2020-11-26 14:26:00	"student015"	"student"	134	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-26 14:26:14	"teacher008"	"teacher"	135	"Do you you will be eating different food there? Experiencing different weather?"	"Do you you will be eating different food there? Experiencing different weather?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	12
+2020-11-26 14:27:08	"student015"	"student"	136	"Yes. When I go to Shanghai, I will be eating different food there."	"Yes. When I go to Shanghai, I will be eating different food there."	NA	NA	NA	NA	NA	NA	13
+2020-11-26 14:27:11	"teacher008"	"teacher"	137	"*sorry, Do you think"	"*sorry, Do you think"	135	NA	"repair"	"writing"	NA	NA	4
+2020-11-26 14:27:19	"teacher008"	"teacher"	138	"Like the dumplings))"	"Like the dumplings))"	136	"4j"	NA	NA	NA	NA	3
+2020-11-26 14:28:30	"student015"	"student"	139	"Dumplings are the North food."	"Dumplings are the northern food."	NA	NA	NA	NA	NA	NA	5
+2020-11-26 14:28:35	"teacher008"	"teacher"	140	"Oh really?"	"Oh really?"	NA	NA	NA	NA	NA	NA	2
+2020-11-26 14:28:56	"teacher008"	"teacher"	141	"I thought there were some kind of dumplings that are specific to Shaghai"	"I thought there were some kind of dumplings that are specific to Shaghai"	NA	NA	NA	NA	NA	NA	13
+2020-11-26 14:29:03	"teacher008"	"teacher"	142	"Hmm, maybe I'm wrong about that!"	"Hmm, maybe I'm wrong about that!"	NA	NA	NA	NA	NA	NA	6
+2020-11-26 14:29:33	"teacher008"	"teacher"	143	"These tiny steamed dumplings with a meat filling? I forgot what they are called, unfortunately!"	"These tiny steamed dumplings with a meat filling? I forgot what they are called, unfortunately!"	NA	NA	NA	NA	NA	NA	15
+2020-11-26 14:29:37	"teacher008"	"teacher"	144	"But they are delicious"	"But they are delicious"	NA	NA	NA	NA	NA	NA	4
+2020-11-26 14:29:51	"student015"	"student"	145	"Xiao long bao"	"Xiao long bao"	NA	NA	"non-English"	"code switching,world knowledge,lexical resource"	NA	NA	3
+2020-11-26 14:30:05	"teacher008"	"teacher"	146	"That's it! Probably!"	"That's it! Probably!"	NA	NA	NA	NA	NA	NA	3
+2020-11-26 14:30:17	"teacher008"	"teacher"	147	"I mean, I'm sure you're right :)"	"I mean, I'm sure you're right :)"	NA	NA	NA	NA	NA	NA	7
+2020-11-26 14:31:07	"teacher008"	"teacher"	148	"There is one place in Cambridge where you can buy them but they are not as good as in Shanghai :)"	"There is one place in Cambridge where you can buy them but they are not as good as in Shanghai :)"	NA	NA	NA	NA	NA	NA	21
+2020-11-26 14:31:33	"teacher008"	"teacher"	149	"Anyway, I'll let you go! I've emailed you some homework, a bit more on future forms + some exercises"	"Anyway, I'll let you go! I've emailed you some homework, a bit more on future forms + some exercises"	NA	"5.0"	"closing,homework"	NA	NA	NA	19
+2020-11-26 14:31:47	"student015"	"student"	150	"Oh. So Chinese food is also famous in the UK."	"Oh. So Chinese food is also famous in the UK."	148	NA	NA	NA	NA	NA	10
+2020-11-26 14:31:53	"teacher008"	"teacher"	151	"Enjoy your weekend, I'll speak to you on Monday!"	"Enjoy your weekend, I'll speak to you on Monday!"	149	NA	NA	NA	NA	NA	9
+2020-11-26 14:32:03	"student015"	"student"	152	"OK. Thanks again."	"OK. Thanks again."	NA	NA	NA	NA	NA	NA	3
+2020-11-26 14:32:05	"teacher008"	"teacher"	153	"Yes, but it's mainly Cantonese food here, to be honest"	"Yes, but it's mainly Cantonese food here, to be honest"	150	NA	NA	NA	NA	NA	10
+2020-11-26 14:32:40	"teacher008"	"teacher"	154	"My pleasure :)"	"My pleasure :)"	152	NA	NA	NA	NA	NA	3
+2020-11-26 14:33:47	"student015"	"student"	155	"Cantonese food is really likes Hong Kong food."	"Cantonese food is really Hong Kong food."	153	NA	NA	NA	NA	"B2"	8

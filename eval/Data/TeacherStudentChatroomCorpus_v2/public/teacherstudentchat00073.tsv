@@ -1,0 +1,134 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-04-14 11:18:59	"teacher001"	"teacher"	1	"Hi there..."	"Hi there..."	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-04-14 11:19:10	"student007"	"student"	2	"hi"	"hi"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:20:07	"teacher001"	"teacher"	3	"OK <STUDENT> ... so if you're ready, have a think about what you can tell about yourself using any of these adjectives:"	"OK <STUDENT> ... so if you're ready, have a think about what you can tell about yourself using any of these adjectives:"	NA	"2.0"	"exercise"	"lexical resource"	NA	NA	22
+2020-04-14 11:20:22	"teacher001"	"teacher"	4	"proud/scared/excited/disappointed/"	"proud/scared/excited/disappointed/"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:20:36	"teacher001"	"teacher"	5	"motivated/annoyed"	"motivated/annoyed"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:20:54	"teacher001"	"teacher"	6	"and...happy!"	"and...happy!"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:21:05	"teacher001"	"teacher"	7	"present or past you decide ok?"	"present or past you decide ok?"	NA	NA	NA	NA	NA	NA	6
+2020-04-14 11:21:16	"teacher001"	"teacher"	8	"But use the verb 'be' !!"	"But use the verb 'be' !!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-04-14 11:21:39	"teacher001"	"teacher"	9	"You could include examples with other people if you like!"	"You could include examples with other people if you like!"	NA	NA	NA	NA	NA	NA	10
+2020-04-14 11:21:52	"teacher001"	"teacher"	10	"E.g. My brother was..."	"E.g. My brother was..."	NA	NA	NA	NA	NA	NA	4
+2020-04-14 11:21:56	"teacher001"	"teacher"	11	"You decide"	"You decide"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 11:22:07	"student007"	"student"	12	"ok, I am ready"	"ok, I am ready"	NA	"2a"	NA	NA	NA	NA	4
+2020-04-14 11:23:01	"student007"	"student"	13	"I am proud of participate in your class."	"I am proud of participating in your class."	NA	NA	NA	NA	NA	NA	8
+2020-04-14 11:23:30	"student007"	"student"	14	"I am proud of participating in your class."	"I am proud of participating in your class."	NA	NA	"repair"	"grammatical resource"	NA	NA	8
+2020-04-14 11:23:41	"teacher001"	"teacher"	15	"OK thanks <STUDENT> - good example! And...yes good correction"	"OK thanks <STUDENT> - good example! And...yes good correction"	NA	NA	NA	NA	NA	NA	9
+2020-04-14 11:24:03	"teacher001"	"teacher"	16	"so proud of participating / or proud of  my participation = both good"	"so proud of participating / or proud of  my participation = both good"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-04-14 11:24:23	"student007"	"student"	17	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:25:10	"teacher001"	"teacher"	18	"keep going..."	"keep going..."	NA	"2b"	NA	NA	NA	NA	2
+2020-04-14 11:25:28	"student007"	"student"	19	"and next is that my sister is scared of examines every end of the terms."	"and next is that my sister is scared of exams at the end of every term."	NA	NA	NA	NA	NA	NA	15
+2020-04-14 11:26:46	"student007"	"student"	20	"I am excited about studying English with you every day."	"I am excited about studying English with you every day."	NA	NA	NA	NA	NA	NA	10
+2020-04-14 11:26:47	"teacher001"	"teacher"	21	"OK fine! She's scared of examinations (less formal/normal in speaking = exams) at the end of every term"	"OK fine! She's scared of examinations (less formal/normal in speaking = exams) at the end of every term"	19	NA	"scaffolding,repair"	"lexical resource"	NA	NA	18
+2020-04-14 11:27:02	"teacher001"	"teacher"	22	"OK good example!"	"OK good example!"	20	NA	NA	NA	NA	NA	3
+2020-04-14 11:27:06	"student007"	"student"	23	"okey, thanks"	"ok, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 11:27:59	"teacher001"	"teacher"	24	"one more if you can..."	"one more if you can..."	NA	"2c"	NA	NA	NA	NA	5
+2020-04-14 11:28:25	"student007"	"student"	25	"my parents are disappointed with my last IELTS score."	"my parents are disappointed with my last IELTS score."	NA	NA	NA	NA	NA	NA	9
+2020-04-14 11:29:34	"teacher001"	"teacher"	26	"OK good (but bad :(  i know...)  and in the past?"	"OK good (but bad :(  i know...)  and in the past?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	13
+2020-04-14 11:30:13	"student007"	"student"	27	"New knowledge is always studied by me. when I had full motivation on it."	"I always study new things when I'm motivated to do so."	NA	"2d"	NA	NA	NA	NA	14
+2020-04-14 11:30:27	"student007"	"student"	28	"my parents were disappointed with my last IELTS score."	"my parents were disappointed with my last IELTS score."	26	NA	NA	NA	NA	NA	9
+2020-04-14 11:30:32	"teacher001"	"teacher"	29	"ok good"	"ok good"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 11:30:38	"teacher001"	"teacher"	30	"but bad sorry"	"but bad sorry"	NA	NA	NA	NA	NA	NA	3
+2020-04-14 11:31:46	"teacher001"	"teacher"	31	"OK <STUDENT>: 'when I had full motivation on it.'  try this again BUT with the verb/adjective structure we're focusing on ok?"	"OK <STUDENT>: 'when I had full motivation on it.'  try this again BUT with the verb/adjective structure we're focusing on ok?"	27	NA	"eliciting"	"lexical resource"	NA	NA	22
+2020-04-14 11:32:11	"teacher001"	"teacher"	32	"So: ...' when I ____  f______  _______.'"	"So: ...' when I ____  f______  _______.'"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	9
+2020-04-14 11:32:27	"teacher001"	"teacher"	33	"don't include 'on it' unnecessary here"	"don't include 'on it' unnecessary here"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-04-14 11:32:51	"student007"	"student"	34	"when I am full motivated."	"when I am fully motivated."	NA	NA	NA	NA	NA	NA	5
+2020-04-14 11:33:12	"teacher001"	"teacher"	35	"OK much better yes....before the adjective you need an...?"	"OK much better yes....before the adjective you need an...?"	NA	"2e"	"eliciting,repair"	"grammatical resource"	NA	NA	9
+2020-04-14 11:33:29	"teacher001"	"teacher"	36	"full' = adjective but you need an ...?"	"full' = adjective but you need an ...?"	NA	NA	NA	NA	NA	NA	8
+2020-04-14 11:33:59	"student007"	"student"	37	"I have full motivated."	"I am fully motivated."	NA	NA	NA	NA	NA	NA	4
+2020-04-14 11:34:29	"teacher001"	"teacher"	38	"no no no no no come back <STUDENT> ...you ONLY need the verb be again OK?!!"	"no no no no no come back <STUDENT> ...you ONLY need the verb be again OK?!!"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	16
+2020-04-14 11:34:56	"teacher001"	"teacher"	39	"so when i am ______ motivated = good! Just change 'full'  to full_?"	"so when i am ______ motivated = good! Just change 'full'  to full_?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	14
+2020-04-14 11:35:12	"teacher001"	"teacher"	40	"add a  leeter to make it an adverb"	"add a  leeter to make it an adverb"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2020-04-14 11:35:18	"teacher001"	"teacher"	41	"a letter i mean"	"a letter i mean"	NA	NA	"repair"	"writing"	NA	NA	4
+2020-04-14 11:35:35	"student007"	"student"	42	"when I am fully motivated"	"when I am fully motivated"	NA	NA	NA	NA	NA	NA	5
+2020-04-14 11:35:38	"student007"	"student"	43	"when I am fully motivated."	"when I am fully motivated."	NA	NA	NA	NA	NA	NA	5
+2020-04-14 11:35:40	"teacher001"	"teacher"	44	"OK yes!"	"OK yes!"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 11:36:27	"teacher001"	"teacher"	45	"So if you're using these adjectives you can almost always use 'be' OK? e.g. I am /you are  etc OR I was / they were etc"	"So if you're using these adjectives you can almost always use 'be' OK? e.g. I am /you are  etc OR I was / they were etc"	NA	"2f"	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	27
+2020-04-14 11:36:52	"teacher001"	"teacher"	46	"If you start using lots other verbs it can easily go wrong!"	"If you start using lots other verbs it can easily go wrong!"	NA	NA	NA	NA	NA	NA	12
+2020-04-14 11:37:07	"student007"	"student"	47	"yes.. I understood... thanks"	"yes.. I understood... thanks"	NA	NA	NA	NA	NA	NA	4
+2020-04-14 11:37:39	"teacher001"	"teacher"	48	"OK ....however...let's have a think about the nouns ok?"	"OK ....however...let's have a think about the nouns ok?"	NA	"3.0"	NA	"lexical resource"	NA	NA	9
+2020-04-14 11:37:50	"student007"	"student"	49	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:38:24	"teacher001"	"teacher"	50	"So can you give me the nouns for the adjectives? so change these into nouns if you can: proud/happy/excited/annoyed/disappointed"	"So can you give me the nouns for the adjectives? so change these into nouns if you can: proud/happy/excited/annoyed/disappointed"	NA	NA	"eliciting"	"lexical resource"	NA	NA	19
+2020-04-14 11:38:46	"teacher001"	"teacher"	51	"and...motivated/scared"	"and...motivated/scared"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:41:52	"student007"	"student"	52	"proud - pleasure / happy - happiness  / excited - excitation / annoyed - / disappointed - dissipation"	"proud - pride / happy - happiness  / excited - excitement / annoyed - annoyance/ disappointed - disappointment"	50	NA	NA	NA	NA	NA	19
+2020-04-14 11:42:45	"student007"	"student"	53	"motivated - motivation / scared -"	"motivated - motivation / scared -"	51	NA	NA	NA	NA	NA	6
+2020-04-14 11:44:17	"student007"	"student"	54	"yes..."	"yes..."	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:44:35	"teacher001"	"teacher"	55	"OK thanks <STUDENT> .. sorry internet probs...hold on a sec"	"OK thanks <STUDENT> .. sorry internet probs...hold on a sec"	NA	"3a"	"disruption"	NA	NA	NA	10
+2020-04-14 11:44:52	"student007"	"student"	56	"ok.. no problems"	"ok.. no problem"	NA	NA	NA	NA	NA	NA	3
+2020-04-14 11:45:54	"teacher001"	"teacher"	57	"so pride/happiness/excitement/annoyance (anger common too) /disappointment/motivation/fear (the normal noun for all 3 adjectives scared/frightended/afraid)"	"so pride/happiness/excitement/annoyance (anger common too) /disappointment/motivation/fear (the normal noun for all 3 adjectives scared/frightended/afraid)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-04-14 11:46:11	"teacher001"	"teacher"	58	"you got some of them!"	"you got some of them!"	NA	NA	NA	NA	NA	NA	5
+2020-04-14 11:46:35	"teacher001"	"teacher"	59	"excitation = exists but very unusual (forget it!)"	"excitation = exists but very unusual (forget it!)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-04-14 11:48:03	"student007"	"student"	60	"okey, I write them on my notebook"	"ok, I'll write them down in my notebook"	NA	NA	NA	NA	NA	NA	7
+2020-04-14 11:48:08	"student007"	"student"	61	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:49:54	"teacher001"	"teacher"	62	"OK <STUDENT> - so e.g. 'there is a lot of __________ about the next World Cup' choose a noun!"	"OK <STUDENT> - so e.g. 'there is a lot of __________ about the next World Cup' choose a noun!"	NA	"4.0"	"exercise,eliciting"	"lexical resource"	NA	NA	19
+2020-04-14 11:50:26	"teacher001"	"teacher"	63	"People are very ______ about it ' = same idea - choose an adjective"	"People are very ______ about it ' = same idea - choose an adjective"	NA	NA	"eliciting"	"lexical resource"	NA	NA	14
+2020-04-14 11:50:36	"student007"	"student"	64	"there is a lot of information about the next World CUp"	"there is a lot of information about the next World CUp"	62	NA	NA	NA	NA	NA	11
+2020-04-14 11:50:52	"teacher001"	"teacher"	65	"Choose a noun from the ones we've just looked at!"	"Choose a noun from the ones we've just looked at!"	NA	NA	"eliciting"	"lexical resource"	NA	NA	10
+2020-04-14 11:51:04	"student007"	"student"	66	"ok...sorry"	"ok...sorry"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:51:06	"teacher001"	"teacher"	67	"People are looking forward to it = there is a lot of _________ ?"	"People are looking forward to it = there is a lot of _________ ?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	14
+2020-04-14 11:51:37	"student007"	"student"	68	"excitement"	"excitement"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:51:41	"teacher001"	"teacher"	69	"ok good!"	"ok good!"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 11:52:30	"teacher001"	"teacher"	70	"Coronavirus has caused a lot of _______ among the population."	"Coronavirus has caused a lot of _______ among the population."	NA	"4a"	"eliciting"	"lexical resource"	NA	NA	10
+2020-04-14 11:52:34	"teacher001"	"teacher"	71	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:53:15	"student007"	"student"	72	"fear"	"fear"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:53:19	"teacher001"	"teacher"	73	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:54:09	"teacher001"	"teacher"	74	"The possibility of discovering life on other planets is a important _______ for space scientists."	"The possibility of discovering life on other planets is a important _______ for space scientists."	NA	"4b"	"eliciting"	"lexical resource"	NA	NA	15
+2020-04-14 11:54:47	"student007"	"student"	75	"motivation"	"motivation"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:55:14	"teacher001"	"teacher"	76	"ok good"	"ok good"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 11:56:02	"teacher001"	"teacher"	77	"There is a lot of   _ _  _ _ _ about the way the government has tackled Coronavirus."	"There is a lot of   _ _  _ _ _ about the way the government has tackled Coronavirus."	NA	"4c"	"eliciting"	"lexical resource"	NA	NA	21
+2020-04-14 11:56:15	"teacher001"	"teacher"	78	"People are not happy i mean!"	"People are not happy i mean!"	NA	NA	NA	NA	NA	NA	6
+2020-04-14 11:56:40	"student007"	"student"	79	"disappointment"	"disappointment"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:57:28	"teacher001"	"teacher"	80	"Yes ok fine ... or a stronger emotion?"	"Yes ok fine ... or a stronger emotion?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	8
+2020-04-14 11:58:10	"student007"	"student"	81	"fear ?"	"fear ?"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 11:58:26	"teacher001"	"teacher"	82	"yes ok"	"yes ok"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 11:58:28	"teacher001"	"teacher"	83	"good"	"good"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:59:12	"student007"	"student"	84	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 11:59:23	"teacher001"	"teacher"	85	"There is  a lot of _______ in the NHS (National Health Service) in the UK and the way it has responded to the challenge of Coronavirus."	"There is  a lot of _______ in the NHS (National Health Service) in the UK and the way it has responded to the challenge of Coronavirus."	NA	"4d"	"eliciting"	"lexical resource"	NA	NA	27
+2020-04-14 11:59:34	"teacher001"	"teacher"	86	"People think it has done a good job i mean"	"People think it has done a good job i mean"	NA	NA	NA	NA	NA	NA	10
+2020-04-14 12:00:29	"student007"	"student"	87	"pride"	"pride"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 12:00:32	"teacher001"	"teacher"	88	"ok good"	"ok good"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:01:14	"teacher001"	"teacher"	89	"The decision to extend the lockdown for another week at least has caused a lot of ________? (People were looking forward to going out and now they can't!)"	"The decision to extend the lockdown for another week at least has caused a lot of ________? (People were looking forward to going out and now they can't!)"	NA	"4e"	"eliciting"	"lexical resource"	NA	NA	28
+2020-04-14 12:02:07	"student007"	"student"	90	"happiness"	"happiness"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 12:02:30	"teacher001"	"teacher"	91	"...and now they can't '= good?"	"...and now they can't '= good?"	NA	NA	NA	NA	NA	NA	6
+2020-04-14 12:03:03	"student007"	"student"	92	"annoyance"	"annoyance"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 12:03:49	"teacher001"	"teacher"	93	"yes possible ! or 'disappointment' = good (they were looking forward to it)"	"yes possible ! or 'disappointment' = good (they were looking forward to it)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-04-14 12:04:37	"teacher001"	"teacher"	94	"OK <STUDENT> so i've given you some moun examples ... see if you remember the ideas and can answer the following questions with the same idea OK?"	"OK <STUDENT> so i've given you some moun examples ... see if you remember the ideas and can answer the following questions with the same idea OK?"	NA	"5.0"	"exercise"	"lexical resource"	NA	NA	27
+2020-04-14 12:04:47	"teacher001"	"teacher"	95	"noun examples i mean"	"noun examples i mean"	NA	NA	NA	NA	NA	NA	4
+2020-04-14 12:04:52	"student007"	"student"	96	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 12:05:02	"teacher001"	"teacher"	97	"1. People ____  very ___ the next World Cup. 2. People ____ very ____ about the government’s handling of Coronavirus.  3. People ____  very ___scared about Coronavirus. 4. British people ____  very ______ of the doctors and nurses working in the NHS.  5. People ____  very _____ they still can’t go out because of the lockdown."	"1. People ____  very ___ the next World Cup. 2. People ____ very ____ about the government’s handling of Coronavirus.  3. People ____  very ___scared about Coronavirus. 4. British people ____  very ______ of the doctors and nurses working in the NHS.  5. People ____  very _____ they still can’t go out because of the lockdown."	NA	NA	NA	NA	NA	NA	62
+2020-04-14 12:05:22	"teacher001"	"teacher"	98	"Oh sorry hold on ignore these - mistake!!!"	"Oh sorry hold on ignore these - mistake!!!"	NA	"5a"	"repair"	"content"	NA	NA	8
+2020-04-14 12:05:55	"student007"	"student"	99	"okey"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 12:06:36	"teacher001"	"teacher"	100	"1. People are  very ___ _____the next World Cup. 2. People are very ____   _____ the government’s handling of Coronavirus.  3. People are  very ___  _____ of getting  Coronavirus. 4. British people are  very ______ ______  the doctors and nurses working in the NHS.  5. People are   very _____ _____ the extension of the lockdown."	"1. People are  very ___ _____the next World Cup. 2. People are very ____   _____ the government’s handling of Coronavirus.  3. People are  very ___  _____ of getting  Coronavirus. 4. British people are  very ______ ______  the doctors and nurses working in the NHS.  5. People are   very _____ _____ the extension of the lockdown."	NA	"5b"	"exercise"	"lexical resource"	NA	NA	67
+2020-04-14 12:07:06	"teacher001"	"teacher"	101	"OK these are good - go for it! Just choose words we've looked at OK? If you can' t do one just do the next one!"	"OK these are good - go for it! Just choose words we've looked at OK? If you can' t do one just do the next one!"	NA	NA	NA	NA	NA	NA	26
+2020-04-14 12:08:55	"teacher001"	"teacher"	102	"Give me one answer when you can <STUDENT> OK?"	"Give me one answer when you can <STUDENT> OK?"	NA	NA	NA	NA	NA	NA	9
+2020-04-14 12:08:58	"student007"	"student"	103	"excited about"	"excited about"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:09:03	"student007"	"student"	104	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 12:09:03	"teacher001"	"teacher"	105	"OK great!"	"OK great!"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:09:12	"teacher001"	"teacher"	106	"keep going..."	"keep going..."	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:09:21	"student007"	"student"	107	"disappoint with"	"disappointed with"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:09:34	"student007"	"student"	108	"scared of"	"scared of"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:09:52	"student007"	"student"	109	"happy with"	"happy with"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:10:29	"teacher001"	"teacher"	110	"yes ok good (disappointED with)"	"yes ok good (disappointED with)"	107	NA	"repair"	"grammatical resource"	NA	NA	5
+2020-04-14 12:10:44	"teacher001"	"teacher"	111	"Do you understand number 5?"	"Do you understand number 5?"	NA	"5c"	"enquiry"	NA	NA	NA	5
+2020-04-14 12:10:48	"student007"	"student"	112	"annoyed with"	"annoyed with"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:10:53	"teacher001"	"teacher"	113	"Yes ok great!"	"Yes ok great!"	NA	NA	NA	NA	NA	NA	3
+2020-04-14 12:11:28	"student007"	"student"	114	"maybe it means people are isolated at home"	"maybe it means people are isolated at home"	NA	NA	NA	NA	NA	NA	8
+2020-04-14 12:11:35	"teacher001"	"teacher"	115	"So you can see the possibilities <STUDENT> right? You just need to focus on getting the adjective + prepositions right first"	"So you can see the possibilities <STUDENT> right? You just need to focus on getting the adjective + prepositions right first"	111	"6.0"	"scaffolding"	"lexical resource,meta knowledge"	NA	NA	21
+2020-04-14 12:12:12	"student007"	"student"	116	"yes, and I need to remember them as a team."	"yes, and I need to remember them as a team."	NA	NA	NA	NA	NA	NA	10
+2020-04-14 12:12:24	"teacher001"	"teacher"	117	"The nouns are a bit more complicated because you have more choice with the  language around them you see?"	"The nouns are a bit more complicated because you have more choice with the  language around them you see?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-04-14 12:12:56	"teacher001"	"teacher"	118	"E.g. 'cause excitement' .... 'led to disappointment' etc"	"E.g. 'cause excitement' .... 'led to disappointment' etc"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-04-14 12:13:19	"teacher001"	"teacher"	119	"Yes you're right - they are isolated at home and can't leave = correct definition"	"Yes you're right - they are isolated at home and can't leave = correct definition"	114	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-04-14 12:13:36	"student007"	"student"	120	"yes.. massive determines of nouns we can use"	"yes.. there are a lot of words we can use with nouns"	118	NA	NA	NA	NA	NA	8
+2020-04-14 12:13:46	"teacher001"	"teacher"	121	"But actually often you can just say: 'there is' + the noun you see?"	"But actually often you can just say: 'there is' + the noun you see?"	NA	"6a"	"scaffolding"	"lexical resource"	NA	NA	14
+2020-04-14 12:14:34	"teacher001"	"teacher"	122	"Yes....I kow you want to use 'academic' language and it's true that nouns are quite imoprtant BUT soemtimes just use the verb 'be' = adjective and just get it  right ok?"	"Yes....I kow you want to use 'academic' language and it's true that nouns are quite imoprtant BUT soemtimes just use the verb 'be' = adjective and just get it  right ok?"	NA	NA	"scaffolding"	"lexical resource,grammatical resource,meta knowledge"	NA	NA	32
+2020-04-14 12:15:22	"student007"	"student"	123	"yes,  I still remembering the example is that there are various museums in London."	"yes,  I still remember the example is that there are various museums in London."	NA	NA	NA	NA	NA	NA	15
+2020-04-14 12:17:09	"student007"	"student"	124	"thanks... because correct is the most imperative part."	"thanks... because correct is the most imperative part."	122	NA	NA	NA	NA	NA	8
+2020-04-14 12:17:31	"teacher001"	"teacher"	125	"Hey sorry - my internet went again"	"Hey sorry - my internet went again"	NA	"6b"	"disruption"	NA	NA	NA	7
+2020-04-14 12:18:22	"student007"	"student"	128	"that ok"	"that's ok"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:18:39	"teacher001"	"teacher"	129	"Hi..Yes, the museum example is a great point here..exactly!"	"Hi..Yes, the museum example is a great point here..exactly!"	123	NA	NA	NA	NA	NA	9
+2020-04-14 12:19:17	"teacher001"	"teacher"	130	"there is + noun is like to be + adjective ...usually correct!"	"there is + noun is like to be + adjective ...usually correct!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-04-14 12:19:36	"teacher001"	"teacher"	131	"OK cheers <STUDENT> ...speak to you tomorrow...well done"	"OK cheers <STUDENT> ...speak to you tomorrow...well done"	NA	"7.0"	NA	NA	NA	NA	8
+2020-04-14 12:19:52	"student007"	"student"	132	"okey, thank you very much"	"ok, thank you very much"	NA	NA	NA	NA	NA	NA	5
+2020-04-14 12:19:58	"teacher001"	"teacher"	133	"bye,...."	"bye,...."	NA	NA	NA	NA	NA	NA	1
+2020-04-14 12:19:58	"student007"	"student"	134	"see you"	"see you"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 12:20:11	"student007"	"student"	135	"bey.."	"bye..."	NA	NA	NA	NA	NA	"B1"	1

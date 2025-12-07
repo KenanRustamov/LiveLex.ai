@@ -1,0 +1,202 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2021-05-07T09:32:31+00:00+00:00+00:00"	"student011"	"student"	1	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2021-05-07T09:32:40+00:00+00:00+00:00"	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T09:32:44+00:00+00:00+00:00"	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+"2021-05-07T09:32:58+00:00+00:00+00:00"	"student011"	"student"	4	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+"2021-05-07T09:33:03+00:00+00:00+00:00"	"student011"	"student"	5	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+"2021-05-07T09:33:25+00:00+00:00+00:00"	"teacher008"	"teacher"	6	"I'm good too, thank you!"	"I'm good too, thank you!"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T09:33:34+00:00+00:00+00:00"	"teacher008"	"teacher"	7	"Are you looking forward to another long weekend?"	"Are you looking forward to another long weekend?"	NA	"2a"	"topic development"	NA	NA	NA	8
+"2021-05-07T09:34:14+00:00+00:00+00:00"	"student011"	"student"	8	"Yes, we have one more bank holiday in next Monday"	"Yes, we have one more bank holiday next Monday"	NA	NA	NA	NA	NA	NA	10
+"2021-05-07T09:34:50+00:00+00:00+00:00"	"teacher008"	"teacher"	9	"Yes, sure. Just 'next Monday'"	"Yes, sure. Just 'next Monday'"	NA	"2b"	"repair"	"lexical resource"	NA	NA	5
+"2021-05-07T09:35:29+00:00+00:00+00:00"	"teacher008"	"teacher"	10	"Generally, when we use words and expressions that contain 'day', the preposition is 'on'"	"Generally, when we use words and expressions that contain 'day', the preposition is 'on'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+"2021-05-07T09:35:45+00:00+00:00+00:00"	"teacher008"	"teacher"	11	"on Monday, on Monday morning, on my birthday, on Christmas Day"	"on Monday, on Monday morning, on my birthday, on Christmas Day"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+"2021-05-07T09:35:58+00:00+00:00+00:00"	"student011"	"student"	12	"ше цфы щт ."	"it was on"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T09:36:01+00:00+00:00+00:00"	"student011"	"student"	13	"it was on"	"it was on"	NA	NA	"repair"	"writing"	NA	NA	3
+"2021-05-07T09:36:06+00:00+00:00+00:00"	"student011"	"student"	14	"Just typo"	"Just a typo"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T09:36:07+00:00+00:00+00:00"	"student011"	"student"	15	"."	")"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T09:36:07+00:00+00:00+00:00"	"teacher008"	"teacher"	16	"but: in the morning, at Christmas"	"but: in the morning, at Christmas"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2021-05-07T09:36:26+00:00+00:00+00:00"	"teacher008"	"teacher"	17	"Haha, I see! If you're using 'next' you don't need a preposition at all :."	"Haha, I see! If you're using 'next' you don't need a preposition at all :)"	14	NA	"scaffolding"	"lexical resource"	NA	NA	15
+"2021-05-07T09:36:32+00:00+00:00+00:00"	"student011"	"student"	18	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T09:36:39+00:00+00:00+00:00"	"student011"	"student"	19	"I had that idea"	"I had that idea"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T09:36:44+00:00+00:00+00:00"	"teacher008"	"teacher"	20	"or 'last' .last Monday, last night."	"or 'last' (last Monday, last night)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2021-05-07T09:36:56+00:00+00:00+00:00"	"teacher008"	"teacher"	21	"Anyway, are you planning anything nice for the weekend?"	"Anyway, are you planning anything nice for the weekend?"	NA	"2c"	"topic development"	NA	NA	NA	9
+"2021-05-07T09:37:03+00:00+00:00+00:00"	"student011"	"student"	22	"but remembering the rule decided to use on"	"but remembering the rule I decided to use on"	19	NA	NA	NA	NA	NA	8
+"2021-05-07T09:37:17+00:00+00:00+00:00"	"student011"	"student"	23	"but not successful ....."	"but not successfully ))))"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T09:37:30+00:00+00:00+00:00"	"teacher008"	"teacher"	24	"I see! :.. Yes, it's a bit confusing..."	"I see! :)) Yes, it's a bit confusing..."	NA	NA	NA	NA	NA	NA	8
+"2021-05-07T09:37:51+00:00+00:00+00:00"	"student011"	"student"	25	"Maybe we will go ti the countryside with my family"	"Maybe we will go to the countryside with my family"	21	NA	NA	NA	NA	NA	10
+"2021-05-07T09:38:11+00:00+00:00+00:00"	"student011"	"student"	26	"We have a nice place near Kyiv"	"We have a nice place near Kyiv"	NA	NA	NA	NA	NA	NA	7
+"2021-05-07T09:38:32+00:00+00:00+00:00"	"student011"	"student"	27	"it is called Dva bobra ."	"it is called Dva bobra ."	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	6
+"2021-05-07T09:38:43+00:00+00:00+00:00"	"student011"	"student"	28	"two something in English ."	"two something in English ."	NA	"2d"	"enquiry"	"lexical resource"	NA	NA	5
+"2021-05-07T09:38:59+00:00+00:00+00:00"	"student011"	"student"	29	"I don't know how to say bober ."	"I don't know how to say bober )"	NA	NA	"non-English,enquiry"	"code switching,lexical resource"	NA	NA	8
+"2021-05-07T09:39:00+00:00+00:00+00:00"	"teacher008"	"teacher"	30	"two beavers :."	"two beavers :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+"2021-05-07T09:39:09+00:00+00:00+00:00"	"student011"	"student"	31	"Ah! Yes!"	"Ah! Yes!"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T09:39:19+00:00+00:00+00:00"	"teacher008"	"teacher"	32	"Sounds very nice!"	"Sounds very nice!"	27	NA	NA	NA	NA	NA	3
+"2021-05-07T09:39:41+00:00+00:00+00:00"	"student011"	"student"	33	"Thay have a nice territory with a pound and two small beaches"	"They have a nice territory with a pond and two small beaches"	NA	NA	NA	NA	NA	NA	12
+"2021-05-07T09:40:01+00:00+00:00+00:00"	"student011"	"student"	34	"Also there is a restaurant there"	"Also there is a restaurant there"	NA	NA	NA	NA	NA	NA	6
+"2021-05-07T09:40:27+00:00+00:00+00:00"	"teacher008"	"teacher"	35	"What's the weather going to be like?"	"What's the weather going to be like?"	NA	NA	NA	NA	NA	NA	7
+"2021-05-07T09:40:44+00:00+00:00+00:00"	"student011"	"student"	36	"and also we can pay for a special place like besedka in Russian with mangal in Russian ."	"and also we can pay for a special place like besedka in Russian with mangal in Russian ."	34	NA	"non-English"	"code switching,lexical resource"	NA	NA	18
+"2021-05-07T09:41:14+00:00+00:00+00:00"	"student011"	"student"	37	"And we can use this stuff all he day and bring our food and drinks ."	"And we can use this stuff all day and bring our food and drinks ."	NA	NA	NA	NA	NA	NA	16
+"2021-05-07T09:41:55+00:00+00:00+00:00"	"teacher008"	"teacher"	38	"Ok, besedka is a gazebo"	"Ok, besedka is a gazebo"	NA	"2e"	"scaffolding,non-English"	"code switching,lexical resource"	NA	NA	5
+"2021-05-07T09:42:09+00:00+00:00+00:00"	"teacher008"	"teacher"	39	"/ɡəˈziː.bəʊ/"	"/ɡəˈziː.bəʊ/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+"2021-05-07T09:42:32+00:00+00:00+00:00"	"student011"	"student"	40	"Oh! I've never heard it ."	"Oh! I've never heard it ."	NA	NA	NA	NA	NA	NA	6
+"2021-05-07T09:42:46+00:00+00:00+00:00"	"teacher008"	"teacher"	41	"and mangal is a barbecue!"	"and mangal is a barbecue!"	NA	NA	"scaffolding,non-English"	"code switching,lexical resource"	NA	NA	5
+"2021-05-07T09:42:50+00:00+00:00+00:00"	"teacher008"	"teacher"	42	"easy-peasy"	"easy-peasy"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T09:43:01+00:00+00:00+00:00"	"student011"	"student"	43	"Ah! Of course! .."	"Ah! Of course! .."	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T09:43:53+00:00+00:00+00:00"	"teacher008"	"teacher"	44	"Yes, 'gazebo' sounds a bit funny; apparently, it comes from Italian"	"Yes, 'gazebo' sounds a bit funny; apparently, it comes from Italian"	40	NA	NA	NA	NA	NA	11
+"2021-05-07T09:44:28+00:00+00:00+00:00"	"teacher008"	"teacher"	45	"Well, your plan sounds lovely! Hope the weather will be good!"	"Well, your plan sounds lovely! Hope the weather will be good!"	37	NA	NA	NA	NA	NA	11
+"2021-05-07T09:44:48+00:00+00:00+00:00"	"student011"	"student"	46	"It doesn't look like an English word really ."	"It doesn't look like an English word really ."	44	NA	NA	NA	NA	NA	9
+"2021-05-07T09:44:57+00:00+00:00+00:00"	"teacher008"	"teacher"	47	"But if not, the barbecue will keep you warm and the gazebo will keep the rain off :."	"But if not, the barbecue will keep you warm and the gazebo will keep the rain off :)"	45	NA	NA	NA	NA	NA	18
+"2021-05-07T09:44:58+00:00+00:00+00:00"	"student011"	"student"	48	"We hope too ."	"We hope so too )"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T09:45:10+00:00+00:00+00:00"	"teacher008"	"teacher"	49	"What are you going to barbecue?"	"What are you going to barbecue?"	NA	"2f"	"topic development"	NA	NA	NA	6
+"2021-05-07T09:45:30+00:00+00:00+00:00"	"student011"	"student"	50	"It should be +18 and sunny"	"It should be +18 and sunny"	48	NA	NA	NA	NA	NA	6
+"2021-05-07T09:45:40+00:00+00:00+00:00"	"teacher008"	"teacher"	51	"Ooh, brilliant!"	"Ooh, brilliant!"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T09:46:02+00:00+00:00+00:00"	"student011"	"student"	52	"Folowing the forecast ."	"According to the forecast )"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T09:46:25+00:00+00:00+00:00"	"teacher008"	"teacher"	53	"Yes, according to the forecast. Fingers crossed!"	"Yes, according to the forecast. Fingers crossed!"	NA	NA	"repair"	"lexical resource"	NA	NA	7
+"2021-05-07T09:46:45+00:00+00:00+00:00"	"student011"	"student"	54	"I should to find <STUDENT'S CHILD>'s sunscreen"	"I should find <STUDENT'S CHILD>'s sunscreen"	NA	NA	NA	NA	NA	NA	7
+"2021-05-07T09:46:52+00:00+00:00+00:00"	"student011"	"student"	55	"from the last summe"	"from the last summer"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T09:46:55+00:00+00:00+00:00"	"student011"	"student"	57	"r"	"r"	NA	NA	"repair"	"writing"	NA	NA	1
+"2021-05-07T09:46:58+00:00+00:00+00:00"	"student011"	"student"	58	"sorry ."	"sorry )"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T09:47:03+00:00+00:00+00:00"	"teacher008"	"teacher"	59	"no worries"	"no worries"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T09:47:17+00:00+00:00+00:00"	"student011"	"student"	60	"According to! Of course one more time .."	"According to! Of course one more time .."	53	NA	NA	NA	NA	NA	8
+"2021-05-07T09:47:21+00:00+00:00+00:00"	"teacher008"	"teacher"	61	"We're dithering about whether we need a barbecue for the garden"	"We're dithering about whether we need a barbecue for the garden"	NA	"3.0"	"topic opening"	NA	NA	NA	11
+"2021-05-07T09:47:28+00:00+00:00+00:00"	"teacher008"	"teacher"	62	"No worries, I know that you know :."	"No worries, I know that you know :)"	60	NA	NA	NA	NA	NA	8
+"2021-05-07T09:47:48+00:00+00:00+00:00"	"student011"	"student"	63	"haha ."	"haha ."	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T09:48:12+00:00+00:00+00:00"	"student011"	"student"	64	"Why are you dithering?"	"Why are you dithering?"	61	NA	NA	NA	NA	NA	4
+"2021-05-07T09:48:31+00:00+00:00+00:00"	"student011"	"student"	65	"Is it not good for your plants?"	"Is it not good for your plants?"	NA	NA	NA	NA	NA	NA	7
+"2021-05-07T09:49:50+00:00+00:00+00:00"	"teacher008"	"teacher"	66	"On the one hand, it would be nice to barbecue every now and then. On the other hand, that might mean we will eat more meat .and we're trying to eat less.. Also, I'm a bit nervous about <TEACHER'S CHILD> running around and a hot barbecue. Even though he's usually quite careful!"	"On the one hand, it would be nice to barbecue every now and then. On the other hand, that might mean we will eat more meat (and we're trying to eat less). Also, I'm a bit nervous about <TEACHER'S CHILD> running around and a hot barbecue. Even though he's usually quite careful!"	NA	NA	NA	NA	NA	NA	52
+"2021-05-07T09:50:31+00:00+00:00+00:00"	"student011"	"student"	67	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T09:50:43+00:00+00:00+00:00"	"teacher008"	"teacher"	68	"We have a sitting area in the garden where we eat in the summer, but yes, I'd have to move my plant pots to make room for the barbecue"	"We have a sitting area in the garden where we eat in the summer, but yes, I'd have to move my plant pots to make room for the barbecue"	NA	NA	NA	NA	NA	NA	29
+"2021-05-07T09:50:54+00:00+00:00+00:00"	"student011"	"student"	69	"I worry about dangerous stuff quite often too"	"I worry about dangerous stuff quite often too"	NA	NA	NA	NA	NA	NA	8
+"2021-05-07T09:51:17+00:00+00:00+00:00"	"teacher008"	"teacher"	70	"But now that you've mentioned it, I'm craving a barbecue :."	"But now that you've mentioned it, I'm craving a barbecue :)"	NA	NA	NA	NA	NA	NA	11
+"2021-05-07T09:51:19+00:00+00:00+00:00"	"student011"	"student"	71	"Are you really try to eat less meat?"	"Are you really trying to eat less meat?"	NA	"3a"	"topic development"	NA	NA	NA	8
+"2021-05-07T09:51:25+00:00+00:00+00:00"	"teacher008"	"teacher"	72	"Do you know 'crave'?"	"Do you know 'crave'?"	NA	"3b"	"eliciting"	"lexical resource,meaning"	NA	NA	4
+"2021-05-07T09:51:45+00:00+00:00+00:00"	"teacher008"	"teacher"	73	"Yes! for the planet :."	"Yes! for the planet :)"	71	NA	NA	NA	NA	NA	5
+"2021-05-07T09:52:40+00:00+00:00+00:00"	"student011"	"student"	74	"no"	"no"	72	NA	NA	NA	NA	NA	1
+"2021-05-07T09:52:41+00:00+00:00+00:00"	"teacher008"	"teacher"	75	"We still eat some meat, but we have a lot of meat-free days too"	"We still eat some meat, but we have a lot of meat-free days too"	73	NA	NA	NA	NA	NA	14
+"2021-05-07T09:52:46+00:00+00:00+00:00"	"student011"	"student"	76	"I don't know the word"	"I don't know the word"	74	NA	NA	NA	NA	NA	5
+"2021-05-07T09:53:32+00:00+00:00+00:00"	"teacher008"	"teacher"	77	"If a person craves something, they want it very much. e.g. He's the fifth child in the family, no one has time for him and he just craves attention!"	"If a person craves something, they want it very much. e.g. He's the fifth child in the family, no one has time for him and he just craves attention!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	29
+"2021-05-07T09:53:46+00:00+00:00+00:00"	"student011"	"student"	78	"I ask you because you know <STUDENT'S HUSBAND> doesn't eat red meat and actually I don't like it too much also"	"I'm asking you because you know <STUDENT'S HUSBAND> doesn't eat red meat and actually I don't like it too much either"	75	NA	NA	NA	NA	NA	21
+"2021-05-07T09:54:27+00:00+00:00+00:00"	"teacher008"	"teacher"	79	"But often, we use 'crave' to talk about the food we really want! Craving a cold beer on a hot summer day, craving a barbecue, craving some chocolate"	"But often, we use 'crave' to talk about the food we really want! Craving a cold beer on a hot summer day, craving a barbecue, craving some chocolate"	77	NA	"scaffolding"	"lexical resource"	NA	NA	28
+"2021-05-07T09:54:37+00:00+00:00+00:00"	"student011"	"student"	80	"But if I don't eat it I have some problems with ауккшешт"	"But if I don't eat it I have some problems with ferritin"	78	NA	NA	NA	NA	NA	12
+"2021-05-07T09:54:40+00:00+00:00+00:00"	"student011"	"student"	81	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T09:54:42+00:00+00:00+00:00"	"student011"	"student"	82	"ferritin"	"ferritin"	NA	NA	"repair"	"writing"	NA	NA	1
+"2021-05-07T09:54:53+00:00+00:00+00:00"	"teacher008"	"teacher"	83	"Ok, your iron levels?"	"Ok, your iron levels?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+"2021-05-07T09:55:21+00:00+00:00+00:00"	"student011"	"student"	84	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T09:55:23+00:00+00:00+00:00"	"teacher008"	"teacher"	85	"We're not nearly as good as my sister, who as you probably know is vegan"	"We're not nearly as good as my sister, who as you probably know is vegan"	NA	NA	NA	NA	NA	NA	15
+"2021-05-07T09:55:42+00:00+00:00+00:00"	"student011"	"student"	86	"And I think I should control than <STUDENT'S CHILD> eats meat too"	"And I think I should control that <STUDENT'S CHILD> eats meat too"	84	NA	NA	NA	NA	NA	12
+"2021-05-07T09:55:47+00:00+00:00+00:00"	"teacher008"	"teacher"	87	"She knows all these plant-based recipes and even makes her own yogurt with some oat milk"	"She knows all these plant-based recipes and even makes her own yogurt with some oat milk"	85	NA	NA	NA	NA	NA	16
+"2021-05-07T09:56:08+00:00+00:00+00:00"	"student011"	"student"	88	"So now I think we should eat meat but I still don't like it very much ."	"So now I think we should eat meat but I still don't like it very much ."	86	NA	NA	NA	NA	NA	17
+"2021-05-07T09:56:55+00:00+00:00+00:00"	"teacher008"	"teacher"	89	"Does she like meat? We couldn't be vegetarian at the moment because <TEACHER'S CHILD> loves chicken and sausages :."	"Does she like meat? We couldn't be vegetarian at the moment because <TEACHER'S CHILD> loves chicken and sausages :."	NA	"3c"	"topic development"	NA	NA	NA	19
+"2021-05-07T09:57:18+00:00+00:00+00:00"	"student011"	"student"	90	"She likes but not loves I think ."	"She likes it but she doesn't love it I think ."	NA	NA	NA	NA	NA	NA	8
+"2021-05-07T09:57:22+00:00+00:00+00:00"	"teacher008"	"teacher"	91	"But we try to buy better meat, like free-range or even organic .even though it's very expensive here."	"But we try to buy better meat, like free-range or even organic (even though it's very expensive here)"	NA	NA	NA	NA	NA	NA	18
+"2021-05-07T09:57:34+00:00+00:00+00:00"	"student011"	"student"	92	"She likes котлетки ."	"She likes котлетки ."	NA	NA	"non-English"	"lexical resource,code switching"	NA	NA	4
+"2021-05-07T09:57:50+00:00+00:00+00:00"	"student011"	"student"	93	"and пельмени ."	"and пельмени ."	NA	NA	"non-English"	"lexical resource,code switching"	NA	NA	3
+"2021-05-07T09:58:46+00:00+00:00+00:00"	"student011"	"student"	94	"How can I translate она осень спокойно относится к сосискам? ."	"How can I translate она очень спокойно относится к сосискам? ."	NA	"3d"	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	11
+"2021-05-07T09:58:55+00:00+00:00+00:00"	"teacher008"	"teacher"	95	"Haha, well, I don't blame her. Pelmeni has always been my absolute favourite food!"	"Haha, well, I don't blame her. Pelmeni has always been my absolute favourite food!"	93	NA	NA	NA	NA	NA	14
+"2021-05-07T09:59:12+00:00+00:00+00:00"	"teacher008"	"teacher"	96	"She is indifferent to sausages?"	"She is indifferent to sausages?"	94	NA	"scaffolding"	"lexical resource"	NA	NA	5
+"2021-05-07T09:59:27+00:00+00:00+00:00"	"student011"	"student"	97	"I should mention it because it is very surprising for us . Usually kids love sausages ."	"I should mention it because it is very surprising for us ) Usually kids love sausages )"	NA	NA	NA	NA	NA	NA	17
+"2021-05-07T09:59:48+00:00+00:00+00:00"	"teacher008"	"teacher"	98	"Yes! True! Sausages and pasta"	"Yes! True! Sausages and pasta"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:00:28+00:00+00:00+00:00"	"student011"	"student"	99	"and she loves shrimps .."	"and she loves shrimps ))"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:00:33+00:00+00:00+00:00"	"student011"	"student"	100	"Surprise! ."	"Surprise! ."	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T10:00:56+00:00+00:00+00:00"	"teacher008"	"teacher"	101	"Ooh, she's got a taste for grown-up foods!"	"Ooh, she's got a taste for grown-up foods!"	NA	NA	NA	NA	NA	NA	8
+"2021-05-07T10:01:07+00:00+00:00+00:00"	"student011"	"student"	102	"I even have to дшьше еру тгьиук ша ыркшьзы шт рук зфыеф"	"I even have to limit the number of shrimps in her pasta"	NA	NA	NA	NA	NA	NA	12
+"2021-05-07T10:01:17+00:00+00:00+00:00"	"student011"	"student"	103	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:01:33+00:00+00:00+00:00"	"student011"	"student"	104	"limit the number of shrimps in her pasta ."	"limit the number of shrimps in her pasta ."	102	NA	"repair"	"writing"	NA	NA	9
+"2021-05-07T10:02:05+00:00+00:00+00:00"	"teacher008"	"teacher"	105	"Interesting!"	"Interesting!"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:02:22+00:00+00:00+00:00"	"student011"	"student"	106	"Usually I cook булгур? or pasta with shrimps and broccoli or zucchini ."	"Usually I cook булгур? or pasta with shrimps and broccoli or zucchini ."	NA	"3e"	"non-English,enquiry"	"code switching,lexical resource"	NA	NA	13
+"2021-05-07T10:02:25+00:00+00:00+00:00"	"teacher008"	"teacher"	107	"Actually, I've prepared something about food for today :."	"Actually, I've prepared something about food for today :)"	NA	"4.0"	"topic opening"	"lexical resource,reading"	NA	NA	9
+"2021-05-07T10:02:41+00:00+00:00+00:00"	"student011"	"student"	108	"I'm ready for food .."	"I'm ready for food ))"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:02:56+00:00+00:00+00:00"	"teacher008"	"teacher"	109	"bulgar wheat"	"bulgar wheat"	106	NA	"scaffolding"	"lexical resource"	NA	NA	2
+"2021-05-07T10:02:57+00:00+00:00+00:00"	"teacher008"	"teacher"	110	"/ˈbʌl.ɡər/"	"/ˈbʌl.ɡər/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+"2021-05-07T10:03:35+00:00+00:00+00:00"	"teacher008"	"teacher"	111	"Not just food, the foods of the future!"	"Not just food, the foods of the future!"	108	NA	NA	NA	NA	NA	8
+"2021-05-07T10:03:48+00:00+00:00+00:00"	"student011"	"student"	112	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:04:34+00:00+00:00+00:00"	"teacher008"	"teacher"	113	"You know how the production of a lot of foods that we eat is not very sustainable at the moment. Sustainable = able to continue for a long time"	"You know how the production of a lot of foods that we eat is not very sustainable at the moment. Sustainable = able to continue for a long time"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	29
+"2021-05-07T10:05:03+00:00+00:00+00:00"	"student011"	"student"	114	"Aha! I know the word"	"Aha! I know the word"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:05:19+00:00+00:00+00:00"	"teacher008"	"teacher"	115	"They are talking a lot about sustainable food and sustainable energy at the moment because we're running out of the old resources"	"They are talking a lot about sustainable food and sustainable energy at the moment because we're running out of the old resources"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+"2021-05-07T10:05:22+00:00+00:00+00:00"	"teacher008"	"teacher"	116	"Oh good!"	"Oh good!"	114	NA	NA	NA	NA	NA	2
+"2021-05-07T10:05:24+00:00+00:00+00:00"	"student011"	"student"	117	"it is  used for clothes too now"	"it is  used for clothes too now"	NA	NA	NA	NA	NA	NA	8
+"2021-05-07T10:05:38+00:00+00:00+00:00"	"teacher008"	"teacher"	118	"Yes, absolutely. Sustainable fashion"	"Yes, absolutely. Sustainable fashion"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+"2021-05-07T10:05:43+00:00+00:00+00:00"	"student011"	"student"	119	"Aha!"	"Aha!"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:06:46+00:00+00:00+00:00"	"teacher008"	"teacher"	120	"Ok, have you probably heard about some new foods that will be available in the future? What might / could we eat? 10 or 20 or 30 years from now. What do you think?"	"Ok, have you probably heard about some new foods that will be available in the future? What might / could we eat? 10 or 20 or 30 years from now. What do you think?"	NA	"4a"	"eliciting"	"lexical resource,world knowledge"	NA	NA	34
+"2021-05-07T10:07:57+00:00+00:00+00:00"	"student011"	"student"	121	"beyond meat? ."	"beyond meat? )"	NA	NA	NA	NA	NA	NA	3
+"2021-05-07T10:08:08+00:00+00:00+00:00"	"student011"	"student"	122	"<STUDENT'S HUSBAND> likes it .."	"<STUDENT'S HUSBAND> likes it .."	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:08:39+00:00+00:00+00:00"	"teacher008"	"teacher"	123	"Beyond meat? I've not heard about it! Is it a product?"	"Beyond meat? I've not heard about it! Is it a product?"	NA	NA	NA	NA	NA	NA	11
+"2021-05-07T10:09:38+00:00+00:00+00:00"	"student011"	"student"	124	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:09:46+00:00+00:00+00:00"	"student011"	"student"	125	"You can google it"	"You can google it"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T10:09:52+00:00+00:00+00:00"	"student011"	"student"	126	"it is not real meat"	"it is not real meat"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:10:04+00:00+00:00+00:00"	"student011"	"student"	127	"but it tastes like real ."	"but it tastes like real ."	NA	NA	NA	NA	NA	NA	6
+"2021-05-07T10:10:30+00:00+00:00+00:00"	"teacher008"	"teacher"	128	"Interesting! It's available in Ukraine then? I've never seen it here"	"Interesting! It's available in Ukraine then? I've never seen it here"	NA	NA	NA	NA	NA	NA	11
+"2021-05-07T10:11:12+00:00+00:00+00:00"	"teacher008"	"teacher"	130	"Thank you, I see!"	"Thank you, I see!"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T10:11:38+00:00+00:00+00:00"	"student011"	"student"	131	"Yes! Usually we don't buy it for cooking at home but we buy burgers with it for example at the restaurants"	"Yes! Usually we don't buy it for cooking at home but we buy burgers with it for example at restaurants"	NA	NA	NA	NA	NA	NA	21
+"2021-05-07T10:11:59+00:00+00:00+00:00"	"teacher008"	"teacher"	132	"I see! Sounds very cool!"	"I see! Sounds very cool!"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:12:21+00:00+00:00+00:00"	"student011"	"student"	133	"You should try it!"	"You should try it!"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T10:13:07+00:00+00:00+00:00"	"teacher008"	"teacher"	134	"I've never seen any 'beyond meat' products, but there are several companies that sell meat-free burgers, sausages, steaks etc. here"	"I've never seen any 'beyond meat' products, but there are several companies that sell meat-free burgers, sausages, steaks etc. here"	NA	NA	NA	NA	NA	NA	20
+"2021-05-07T10:13:34+00:00+00:00+00:00"	"student011"	"student"	135	"maybe it is American name"	"maybe it is an American name"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:13:41+00:00+00:00+00:00"	"student011"	"student"	136	"I'm not sure"	"I'm not sure"	NA	NA	NA	NA	NA	NA	3
+"2021-05-07T10:13:59+00:00+00:00+00:00"	"student011"	"student"	137	"here we use this name of the kind of meet"	"here we use this name for this kind of meat"	NA	NA	NA	NA	NA	NA	10
+"2021-05-07T10:14:04+00:00+00:00+00:00"	"teacher008"	"teacher"	138	"Yes, it says on the website that it's an LA company"	"Yes, it says on the website that it's an LA company"	135	NA	NA	NA	NA	NA	11
+"2021-05-07T10:14:16+00:00+00:00+00:00"	"student011"	"student"	139	"Ah! I see now"	"Ah! I see now"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T10:15:14+00:00+00:00+00:00"	"teacher008"	"teacher"	140	"Well, the UK's relationship with the EU seems to be getting worse and worse, I'm sure we'll be importing from the US very soon instead!"	"Well, the UK's relationship with the EU seems to be getting worse and worse, I'm sure we'll be importing from the US very soon instead!"	NA	NA	NA	NA	NA	NA	25
+"2021-05-07T10:15:43+00:00+00:00+00:00"	"teacher008"	"teacher"	141	"Ok, so you're saying that people might be finding alternatives to meat, right? Anything else?"	"Ok, so you're saying that people might be finding alternatives to meat, right? Anything else?"	NA	"4b"	NA	NA	NA	NA	15
+"2021-05-07T10:15:52+00:00+00:00+00:00"	"student011"	"student"	142	"maybe you are right!"	"maybe you are right!"	140	NA	NA	NA	NA	NA	4
+"2021-05-07T10:16:04+00:00+00:00+00:00"	"student011"	"student"	143	"hm"	"hm"	141	NA	NA	NA	NA	NA	1
+"2021-05-07T10:16:30+00:00+00:00+00:00"	"student011"	"student"	144	"maybe eat more plaint food"	"maybe eat more plant-based food"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:16:36+00:00+00:00+00:00"	"student011"	"student"	145	"растительная пища?"	"растительная пища?"	NA	"4c"	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	2
+"2021-05-07T10:16:43+00:00+00:00+00:00"	"teacher008"	"teacher"	146	"plant-based food"	"plant-based food"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+"2021-05-07T10:16:56+00:00+00:00+00:00"	"student011"	"student"	147	"plaint-based bood"	"plant-based food"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T10:16:59+00:00+00:00+00:00"	"student011"	"student"	148	"food ."	"food"	NA	NA	"repair"	"writing"	NA	NA	2
+"2021-05-07T10:17:12+00:00+00:00+00:00"	"teacher008"	"teacher"	149	"Yes, plant, without the 'i'"	"Yes, plant, without the 'i'"	147	NA	"repair"	"writing"	NA	NA	5
+"2021-05-07T10:17:27+00:00+00:00+00:00"	"student011"	"student"	150	"don't use animal for producing food"	"don't use animals for producing food"	144	NA	NA	NA	NA	NA	6
+"2021-05-07T10:17:39+00:00+00:00+00:00"	"student011"	"student"	151	"I'm not sure about the topic ."	"I'm not sure about the topic )"	NA	NA	NA	NA	NA	NA	7
+"2021-05-07T10:17:39+00:00+00:00+00:00"	"teacher008"	"teacher"	152	"Yes, it's more sustainable to eat plants then to feed plants to animals and then eat the animals!"	"Yes, it's more sustainable to eat plants then to feed plants to animals and then eat the animals!"	150	NA	NA	NA	NA	NA	18
+"2021-05-07T10:17:48+00:00+00:00+00:00"	"teacher008"	"teacher"	153	"At least that's the idea I think"	"At least that's the idea I think"	NA	NA	NA	NA	NA	NA	7
+"2021-05-07T10:17:51+00:00+00:00+00:00"	"teacher008"	"teacher"	154	"Ok, sure!"	"Ok, sure!"	151	NA	NA	NA	NA	NA	2
+"2021-05-07T10:18:07+00:00+00:00+00:00"	"teacher008"	"teacher"	155	"Just a couple of words before I send you a text to read about it"	"Just a couple of words before I send you a text to read about it"	NA	"5.0"	"presentation"	"lexical resource"	NA	NA	15
+"2021-05-07T10:18:15+00:00+00:00+00:00"	"student011"	"student"	156	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:18:33+00:00+00:00+00:00"	"teacher008"	"teacher"	157	"alga /ˈæl·ɡə/"	"alga /ˈæl·ɡə/"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	2
+"2021-05-07T10:18:41+00:00+00:00+00:00"	"teacher008"	"teacher"	158	"the plural form is 'algae'"	"the plural form is 'algae'"	NA	NA	"presentation"	"lexical resource"	NA	NA	5
+"2021-05-07T10:18:54+00:00+00:00+00:00"	"teacher008"	"teacher"	159	"/ˈæl·dʒi/"	"/ˈæl·dʒi/"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	1
+"2021-05-07T10:19:18+00:00+00:00+00:00"	"teacher008"	"teacher"	160	"it's a simple plant that grows near water or underwater"	"it's a simple plant that grows near water or underwater"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	10
+"2021-05-07T10:19:23+00:00+00:00+00:00"	"teacher008"	"teacher"	161	"for example seaweed"	"for example seaweed"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	3
+"2021-05-07T10:19:43+00:00+00:00+00:00"	"student011"	"student"	162	"водопросли?"	"водоросли?"	NA	NA	"enquiry,non-English"	"lexical resource,meaning,code switching"	NA	NA	1
+"2021-05-07T10:19:43+00:00+00:00+00:00"	"teacher008"	"teacher"	163	"as you can probably guess, it's one of the food alternatives :."	"as you can probably guess, it's one of the food alternatives :)"	161	NA	NA	NA	NA	NA	12
+"2021-05-07T10:19:52+00:00+00:00+00:00"	"teacher008"	"teacher"	164	"Yes, that's right!"	"Yes, that's right!"	162	NA	NA	NA	NA	NA	3
+"2021-05-07T10:20:23+00:00+00:00+00:00"	"student011"	"student"	165	"I know about clothes from algae ."	"I know about clothes from algae ."	NA	NA	NA	NA	NA	NA	7
+"2021-05-07T10:20:31+00:00+00:00+00:00"	"teacher008"	"teacher"	166	"Do you like seaweed? to eat"	"Do you like seaweed? to eat"	NA	"5a"	"eliciting"	"lexical resource"	NA	NA	6
+"2021-05-07T10:20:36+00:00+00:00+00:00"	"teacher008"	"teacher"	167	"Oh yes, sure!"	"Oh yes, sure!"	165	NA	NA	NA	NA	NA	3
+"2021-05-07T10:20:49+00:00+00:00+00:00"	"student011"	"student"	168	"I like it but I really eat it rare"	"I like it but I eat it very rarely"	166	NA	NA	NA	NA	NA	9
+"2021-05-07T10:20:56+00:00+00:00+00:00"	"student011"	"student"	169	"rarely?"	"rarely?"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+"2021-05-07T10:21:01+00:00+00:00+00:00"	"teacher008"	"teacher"	170	"rarely, yes"	"rarely, yes"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T10:21:09+00:00+00:00+00:00"	"teacher008"	"teacher"	171	"Well, it's nori in sushi, isn't it"	"Well, it's nori in sushi, isn't it"	NA	NA	NA	NA	NA	NA	7
+"2021-05-07T10:21:30+00:00+00:00+00:00"	"teacher008"	"teacher"	172	"I love Ukrainian pickled seaweed :. I buy it from the local Lithuanian shop here"	"I love Ukrainian pickled seaweed :) I buy it from the local Lithuanian shop here"	NA	NA	NA	NA	NA	NA	15
+"2021-05-07T10:22:33+00:00+00:00+00:00"	"student011"	"student"	173	"But I eat sushi not very often .."	"But I don't eat sushi very often .."	NA	NA	NA	NA	NA	NA	8
+"2021-05-07T10:22:44+00:00+00:00+00:00"	"teacher008"	"teacher"	174	"Oh yes, I remember you said!"	"Oh yes, I remember you said!"	NA	NA	NA	NA	NA	NA	6
+"2021-05-07T10:22:54+00:00+00:00+00:00"	"student011"	"student"	175	"I should buy it too. It's a good idea ."	"I should buy it too. It's a good idea ."	172	NA	NA	NA	NA	NA	10
+"2021-05-07T10:22:55+00:00+00:00+00:00"	"teacher008"	"teacher"	176	"I don't eat sushi very often'"	"I don't eat sushi very often'"	173	"5b"	"repair"	"grammatical resource"	NA	NA	6
+"2021-05-07T10:23:08+00:00+00:00+00:00"	"student011"	"student"	177	"I see ."	"I see )"	NA	NA	NA	NA	NA	NA	3
+"2021-05-07T10:23:09+00:00+00:00+00:00"	"teacher008"	"teacher"	178	"would be a more natural way to say it"	"would be a more natural way to say it"	NA	NA	NA	NA	NA	NA	9
+"2021-05-07T10:23:44+00:00+00:00+00:00"	"teacher008"	"teacher"	179	"Ok! the next word is 'livestock'. livestock = all the animals that we eat on a farm"	"Ok! the next word is 'livestock'. livestock = all the animals that we eat on a farm"	NA	"5c"	"presentation"	"lexical resource,meaning"	NA	NA	17
+"2021-05-07T10:24:05+00:00+00:00+00:00"	"student011"	"student"	180	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:24:29+00:00+00:00+00:00"	"teacher008"	"teacher"	181	"It's uncountable."	"It's uncountable."	NA	NA	"presentation"	"lexical resource,grammatical resource"	NA	NA	2
+"2021-05-07T10:24:43+00:00+00:00+00:00"	"teacher008"	"teacher"	182	"a livestock farmer raises cows, chickens, sheep etc."	"a livestock farmer raises cows, chickens, sheep etc."	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	8
+"2021-05-07T10:24:44+00:00+00:00+00:00"	"student011"	"student"	183	"It's clear thank you"	"It's clear thank you"	NA	NA	NA	NA	NA	NA	4
+"2021-05-07T10:25:15+00:00+00:00+00:00"	"teacher008"	"teacher"	184	"Ok, great, and you probably remember the last one. If something is suitable for eating, it's e....."	"Ok, great, and you probably remember the last one. If something is suitable for eating, it's e....."	NA	"5d"	"eliciting,revision"	"lexical resource"	NA	NA	17
+"2021-05-07T10:25:37+00:00+00:00+00:00"	"student011"	"student"	185	"edible"	"edible"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:25:45+00:00+00:00+00:00"	"teacher008"	"teacher"	186	"Yay, well done!"	"Yay, well done!"	NA	NA	NA	NA	NA	NA	3
+"2021-05-07T10:25:49+00:00+00:00+00:00"	"teacher008"	"teacher"	187	"And the opposite is...?"	"And the opposite is...?"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	4
+"2021-05-07T10:26:42+00:00+00:00+00:00"	"student011"	"student"	188	"inedible"	"inedible"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:26:47+00:00+00:00+00:00"	"teacher008"	"teacher"	189	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:27:00+00:00+00:00+00:00"	"teacher008"	"teacher"	190	"Yes, like in 'foraging for edible mushrooms'"	"Yes, like in 'foraging for edible mushrooms'"	NA	NA	"scaffolding,revision"	"lexical resource"	NA	NA	7
+"2021-05-07T10:27:36+00:00+00:00+00:00"	"student011"	"student"	191	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:28:08+00:00+00:00+00:00"	"teacher008"	"teacher"	192	"Ok, lovely! I'll send you the link to the text to read before our next class if you have the time, ok?"	"Ok, lovely! I'll send you the link to the text to read before our next class if you have the time, ok?"	NA	"6.0"	"homework,closing"	"reading"	NA	NA	22
+"2021-05-07T10:28:25+00:00+00:00+00:00"	"student011"	"student"	193	"Lovely, thank you!"	"Lovely, thank you!"	NA	NA	NA	NA	NA	NA	3
+"2021-05-07T10:28:42+00:00+00:00+00:00"	"student011"	"student"	194	"Se you ON next Wednesday ."	"See you next Wednesday ."	NA	NA	NA	NA	NA	NA	6
+"2021-05-07T10:28:51+00:00+00:00+00:00"	"teacher008"	"teacher"	195	"Sure! And our next class is on Wednesday at 11.30, right?"	"Sure! And our next class is on Wednesday at 11.30, right?"	NA	NA	NA	NA	NA	NA	11
+"2021-05-07T10:28:54+00:00+00:00+00:00"	"student011"	"student"	196	"Thank you for the lesson"	"Thank you for the lesson"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:29:03+00:00+00:00+00:00"	"teacher008"	"teacher"	197	"Yes, correct, on Wednesday :."	"Yes, correct, on Wednesday :)"	194	NA	NA	NA	NA	NA	5
+"2021-05-07T10:29:03+00:00+00:00+00:00"	"student011"	"student"	198	"ah"	"ah"	NA	NA	NA	NA	NA	NA	1
+"2021-05-07T10:29:11+00:00+00:00+00:00"	"student011"	"student"	199	"just next Wednesday?"	"just next Wednesday?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	3
+"2021-05-07T10:29:23+00:00+00:00+00:00"	"teacher008"	"teacher"	200	"It's my pleasure :. Have a lovely weekend! Don't eat anything inedible!"	"It's my pleasure :) Have a lovely weekend! Don't eat anything inedible!"	196	NA	NA	NA	NA	NA	12
+"2021-05-07T10:29:38+00:00+00:00+00:00"	"student011"	"student"	201	"You too! Thank you ..."	"You too! Thank you )))"	NA	NA	NA	NA	NA	NA	5
+"2021-05-07T10:29:44+00:00+00:00+00:00"	"student011"	"student"	202	"bye xx"	"bye xx"	NA	NA	NA	NA	NA	NA	2
+"2021-05-07T10:29:52+00:00+00:00+00:00"	"teacher008"	"teacher"	203	"Bye! :."	"Bye! :)"	NA	NA	NA	NA	NA	"B2"	2

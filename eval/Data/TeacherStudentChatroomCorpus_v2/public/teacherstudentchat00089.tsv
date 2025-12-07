@@ -1,0 +1,119 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-22 06:30:06	"teacher008"	"teacher"	1	"Hi <STUDENT>"	"Hi <STUDENT>"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-07-22 06:30:19	"student010"	"student"	2	"Hi <TEACHER>"	"Hi <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 06:30:27	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-07-22 06:30:47	"student010"	"student"	4	"I'm fine"	"I'm fine"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 06:31:10	"teacher008"	"teacher"	5	"Good to hear. Have you returned to Kyiv?"	"Good to hear. Have you returned to Kyiv?"	NA	"2a"	"topic development"	NA	NA	NA	8
+2020-07-22 06:31:30	"student010"	"student"	6	"No, I don't"	"No, I haven't"	NA	NA	NA	NA	NA	NA	3
+2020-07-22 06:31:51	"teacher008"	"teacher"	7	"No, I __m"	"No, I __m"	NA	"2b"	"repair,eliciting"	"grammatical resource"	NA	NA	3
+2020-07-22 06:31:53	"teacher008"	"teacher"	8	"sorry"	"sorry"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-07-22 06:32:02	"teacher008"	"teacher"	9	"No, I __n't."	"No, I __n't."	NA	NA	NA	NA	NA	NA	3
+2020-07-22 06:32:09	"teacher008"	"teacher"	10	"What goes in the gap?"	"What goes in the gap?"	NA	NA	NA	NA	NA	NA	5
+2020-07-22 06:32:26	"student010"	"student"	11	"Oh haven't"	"Oh haven't"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 06:32:34	"teacher008"	"teacher"	12	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 06:32:56	"teacher008"	"teacher"	13	"Are you still in the same village at your grandmother's or the other one?"	"Are you still in the same village at your grandmother's or the other one?"	NA	"2c"	"topic development"	NA	NA	NA	14
+2020-07-22 06:33:35	"student010"	"student"	14	"We still in the first village"	"We are still in the first village"	NA	NA	NA	NA	NA	NA	6
+2020-07-22 06:34:13	"teacher008"	"teacher"	15	"I see. Are you friends the cat and the dog still there in the porch with you?"	"I see. Are you friends the cat and the dog still there in the porch with you?"	NA	NA	NA	NA	NA	NA	17
+2020-07-22 06:35:08	"student010"	"student"	16	"Yes the cat is in my hoody"	"Yes the cat is in my hoody"	NA	NA	NA	NA	NA	NA	7
+2020-07-22 06:35:27	"teacher008"	"teacher"	17	"Oh that's cute :)"	"Oh that's cute :)"	NA	NA	NA	NA	NA	NA	4
+2020-07-22 06:36:50	"student010"	"student"	18	"It's windy today"	"It's windy today"	NA	"2d"	"topic development"	NA	NA	NA	3
+2020-07-22 06:37:45	"teacher008"	"teacher"	19	"Ah, I don't like windy weather! We get a lot of winds, I think because of the Atlantic"	"Ah, I don't like windy weather! We get a lot of winds, I think because of the Atlantic"	NA	NA	NA	NA	NA	NA	18
+2020-07-22 06:38:20	"student010"	"student"	20	"It's fine when you in house"	"It's fine when you're in the house"	NA	NA	NA	NA	NA	NA	6
+2020-07-22 06:38:36	"teacher008"	"teacher"	21	"Are you too cold again?"	"Are you too cold again?"	NA	NA	NA	NA	NA	NA	5
+2020-07-22 06:39:09	"student010"	"student"	22	"No, I have the cat with me"	"No, I have the cat with me"	NA	NA	NA	NA	NA	NA	7
+2020-07-22 06:39:13	"student010"	"student"	23	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 06:39:36	"teacher008"	"teacher"	24	"as a personal radiator :) well, let me know if you are too uncomfortable!"	"as a personal radiator :) well, let me know if you are too uncomfortable!"	NA	NA	NA	NA	NA	NA	14
+2020-07-22 06:40:18	"student010"	"student"	25	"Ok I'll ask cat:)"	"Ok I'll ask the cat:)"	NA	NA	NA	NA	NA	NA	4
+2020-07-22 06:40:27	"teacher008"	"teacher"	26	"<STUDENT>, I wanted your opinion on something"	"<STUDENT>, I wanted your opinion on something"	NA	"3.0"	"topic opening"	NA	NA	NA	7
+2020-07-22 06:41:02	"student010"	"student"	27	"It's pretty warm with cat"	"It's pretty warm with the cat"	25	NA	NA	NA	NA	NA	5
+2020-07-22 06:41:48	"teacher008"	"teacher"	28	"My son is nearly 5, and his best friend, who is 6, loves playing Fortnite with his school friends. Of course, now my son wants to play it, too! What do you think - is he too young?"	"My son is nearly 5, and his best friend, who is 6, loves playing Fortnite with his school friends. Of course, now my son wants to play it, too! What do you think - is he too young?"	NA	NA	NA	NA	NA	NA	38
+2020-07-22 06:42:24	"student010"	"student"	29	"There is no blood"	"There is no blood"	NA	NA	NA	NA	NA	NA	4
+2020-07-22 06:42:47	"teacher008"	"teacher"	30	"Ok, that's good, but could you tell me a bit more about it?"	"Ok, that's good, but could you tell me a bit more about it?"	NA	NA	NA	NA	NA	NA	13
+2020-07-22 06:43:23	"student010"	"student"	31	"Ok and after that some funny fact about me"	"Ok and after that a funny fact about me"	NA	NA	NA	NA	NA	NA	9
+2020-07-22 06:43:30	"teacher008"	"teacher"	32	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 06:50:51	"teacher008"	"teacher"	33	"Are you there? typing?"	"Are you there? typing?"	NA	NA	NA	NA	NA	NA	4
+2020-07-22 06:51:58	"student010"	"student"	34	"It's shooter. There is no blood and monsters aren't scary but they were only for special ivent you can find fortnite trailer and gameplay videos and you can download it on phone pc, xbox, ps4, nintendo swich.(about xbox and ps4. You'll need xbox live for xbox and ps subscribe to play online) It's teen and looks like movie"	"It's a shooter. There is no blood and the monsters aren't scary but they were only for special event. You can find a Fortnite trailer and gameplay videos and you can download it on your phone, pc, xbox, ps4 and nintendo swich. (About xbox and ps4. You'll need xbox live for xbox and ps subscribe to play online) It's teen and looks like a movie."	NA	NA	NA	NA	NA	NA	58
+2020-07-22 06:53:58	"teacher008"	"teacher"	35	"Sounds cool, thanks for that! It's probably aimed at teenagers though, not young kids, right?"	"Sounds cool, thanks for that! It's probably aimed at teenagers though, not young kids, right?"	NA	NA	NA	NA	NA	NA	15
+2020-07-22 06:55:02	"student010"	"student"	36	"It's teen but you need to see gameplay"	"It's teen but you need to see the gameplay"	NA	NA	NA	NA	NA	NA	8
+2020-07-22 06:55:37	"student010"	"student"	37	"If you want , I can send one"	"If you want, I can send you one"	NA	NA	NA	NA	NA	NA	8
+2020-07-22 06:56:09	"teacher008"	"teacher"	38	"I'm sure I can find it, thank you! It's reassuring that there is no blood"	"I'm sure I can find it, thank you! It's reassuring that there is no blood"	NA	NA	NA	NA	NA	NA	15
+2020-07-22 06:56:44	"teacher008"	"teacher"	39	"So what's the fun fact about you? :)"	"So what's the fun fact about you? :)"	NA	"3a"	"topic development"	NA	NA	NA	8
+2020-07-22 06:56:49	"student010"	"student"	40	"Have you ever played star wars lego?"	"Have you ever played Lego Star Wars?"	NA	"3b"	"topic development"	NA	NA	NA	7
+2020-07-22 06:56:55	"teacher008"	"teacher"	41	"Yes! We like it a lot"	"Yes! We like it a lot"	NA	NA	NA	NA	NA	NA	6
+2020-07-22 06:57:25	"student010"	"student"	42	"Fortnite very near it"	"Fortnite is very similar to it"	NA	NA	NA	NA	NA	NA	4
+2020-07-22 06:57:36	"teacher008"	"teacher"	43	"Oh is it?"	"Oh is it?"	NA	NA	NA	NA	NA	NA	3
+2020-07-22 06:58:00	"student010"	"student"	44	"But heroes aren't lego:)"	"But the characters aren't Lego:)"	NA	NA	NA	NA	NA	NA	4
+2020-07-22 06:58:19	"teacher008"	"teacher"	45	"Aha, you mean 'characters'?"	"Aha, you mean 'characters'?"	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2020-07-22 06:58:27	"student010"	"student"	46	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 06:58:32	"teacher008"	"teacher"	47	"Yes, makes sense"	"Yes, makes sense"	NA	NA	NA	NA	NA	NA	3
+2020-07-22 06:58:42	"student010"	"student"	48	"Now fact"	"Now the fact"	39	NA	NA	NA	NA	NA	2
+2020-07-22 06:58:48	"teacher008"	"teacher"	49	"Go on!"	"Go on!"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 07:03:48	"student010"	"student"	50	"Now I'm 13 and my mum checks all video games that I want to buy. My first time when I played fortnite I was about 11 and my mum said that it's shooter than me and cousin tried to show her that it's no ussual sooter and she said that I can play it"	"Now I'm 13 and my mum checks all video games that I want to buy. The first time I played Fortnite I was about 11 and my mum said that it was a shooter. Then me and my cousin tried to show her that it wasn't a usual shooter and she said that I could play it"	NA	NA	NA	NA	NA	NA	54
+2020-07-22 07:04:33	"student010"	"student"	51	"So fortnite was checked by my mum"	"So fortnite was checked by my mum"	NA	NA	NA	NA	NA	NA	7
+2020-07-22 07:05:07	"student010"	"student"	52	"My brother started to play fortnite at 7"	"My brother started to play Fortnite at 7"	NA	NA	NA	NA	NA	NA	8
+2020-07-22 07:05:22	"teacher008"	"teacher"	53	"Aha, approved by your mum, I see! You were 11 though, not 5... I have to think about this one, I think I'll take your advice and watch the trailer and the gameplay"	"Aha, approved by your mum, I see! You were 11 though, not 5... I have to think about this one, I think I'll take your advice and watch the trailer and the gameplay"	NA	NA	NA	NA	NA	NA	33
+2020-07-22 07:06:02	"teacher008"	"teacher"	54	"Why is it not a usual shooter then?"	"Why is it not a usual shooter then?"	NA	"3c"	"topic development"	NA	NA	NA	8
+2020-07-22 07:09:08	"student010"	"student"	55	"Because there is no blood and it's different from others and all shooters are always 18+"	"Because there is no blood and it's different from others and all shooters are always 18+"	NA	NA	NA	NA	NA	NA	16
+2020-07-22 07:09:49	"teacher008"	"teacher"	56	"I see! It all makes sense, thank you very much!"	"I see! It all makes sense, thank you very much!"	NA	"3d"	"topic closure"	NA	NA	NA	10
+2020-07-22 07:10:15	"teacher008"	"teacher"	57	"Also, really well done with all the writing today!"	"Also, really well done with all the writing today!"	NA	NA	NA	NA	NA	NA	9
+2020-07-22 07:10:33	"student010"	"student"	58	"But you still need to see gameplay"	"But you still need to see the gameplay"	NA	NA	NA	NA	NA	NA	7
+2020-07-22 07:10:59	"teacher008"	"teacher"	59	"Oh I will now, thank you. It'll be my homework :)"	"Oh I will now, thank you. It'll be my homework :)"	NA	NA	NA	NA	NA	NA	11
+2020-07-22 07:11:40	"teacher008"	"teacher"	60	"Now, let's have a go at some sentences I copied from the chat. Could you insert the missing word?"	"Now, let's have a go at some sentences I copied from the chat. Could you insert the missing word?"	NA	"4.0"	"exercise"	"grammatical resource"	"chat"	NA	19
+2020-07-22 07:11:45	"teacher008"	"teacher"	61	"It's pretty warm with cat"	"It's pretty warm with cat"	NA	NA	NA	NA	NA	NA	5
+2020-07-22 07:11:57	"student010"	"student"	62	"The cat?"	"The cat?"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 07:12:04	"teacher008"	"teacher"	63	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 07:12:31	"teacher008"	"teacher"	64	"Ok and after that some funny fact about me"	"Ok and after that some funny fact about me"	NA	"4a"	NA	NA	NA	NA	9
+2020-07-22 07:12:38	"teacher008"	"teacher"	65	"In this one, can you change one word?"	"In this one, can you change one word?"	NA	NA	NA	NA	NA	NA	8
+2020-07-22 07:13:26	"student010"	"student"	66	"Facts"	"Facts"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:13:44	"teacher008"	"teacher"	67	"Ha, ok, that could work"	"Ha, ok, that could work"	NA	NA	NA	NA	NA	NA	5
+2020-07-22 07:13:58	"teacher008"	"teacher"	68	"or 'after that ___ fun fact about me'"	"or 'after that ___ fun fact about me'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+2020-07-22 07:14:15	"student010"	"student"	69	"One fact"	"One fact"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 07:14:35	"teacher008"	"teacher"	70	"Ok, and if you use an article?"	"Ok, and if you use an article?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2020-07-22 07:14:47	"student010"	"student"	71	"The"	"The"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:15:40	"teacher008"	"teacher"	72	"Hmm, the thing is, if you say 'the fun fact about me', it means there's only one fun fact about you. I'm sure that's not true! We are talking one of many fun facts, and the article is ???"	"Hmm, the thing is, if you say 'the fun fact about me', it means there's only one fun fact about you. I'm sure that's not true! We are talking one of many fun facts, and the article is ???"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	39
+2020-07-22 07:16:09	"student010"	"student"	73	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:16:12	"teacher008"	"teacher"	74	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:16:47	"teacher008"	"teacher"	75	"Does it make sense? 'The fun fact about me' means there is only one!"	"Does it make sense? 'The fun fact about me' means there is only one!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-07-22 07:17:07	"student010"	"student"	76	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:18:02	"teacher008"	"teacher"	77	"If I say 'The apple tree in my garden hasn't got any apples on it this year'"	"If I say 'The apple tree in my garden hasn't got any apples on it this year'"	NA	"4b"	"eliciting"	"grammatical resource"	NA	NA	17
+2020-07-22 07:18:10	"teacher008"	"teacher"	78	"How many apple trees have I got?"	"How many apple trees have I got?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2020-07-22 07:18:27	"student010"	"student"	79	"One tree"	"One tree"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 07:18:45	"teacher008"	"teacher"	80	"Yes, that's right! But"	"Yes, that's right! But"	NA	NA	NA	NA	NA	NA	4
+2020-07-22 07:19:04	"teacher008"	"teacher"	81	"an apple tree' means I probably have more than one, and I'm talking about one of them"	"an apple tree' means I probably have more than one, and I'm talking about one of them"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2020-07-22 07:19:20	"student010"	"student"	82	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:19:41	"teacher008"	"teacher"	83	"All right, the next one"	"All right, the next one"	NA	"4c"	"exercise"	"grammatical resource"	"chat"	NA	5
+2020-07-22 07:19:49	"teacher008"	"teacher"	84	"It's fine when you in house"	"It's fine when you in house"	NA	NA	NA	NA	NA	NA	6
+2020-07-22 07:20:02	"teacher008"	"teacher"	85	"What would you change? Also article-related"	"What would you change? Also article-related"	NA	NA	NA	NA	NA	NA	6
+2020-07-22 07:20:17	"student010"	"student"	86	"Your"	"Your"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:20:27	"teacher008"	"teacher"	87	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-07-22 07:20:50	"teacher008"	"teacher"	88	"Ok, next one."	"Ok, next one."	NA	"4d"	"exercise"	"grammatical resource"	"chat"	NA	3
+2020-07-22 07:20:53	"teacher008"	"teacher"	89	"It's shooter."	"It's shooter."	NA	NA	NA	NA	NA	NA	2
+2020-07-22 07:21:06	"student010"	"student"	90	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:21:10	"teacher008"	"teacher"	91	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:21:24	"teacher008"	"teacher"	92	"Next one"	"Next one"	NA	"4e"	"exercise"	"grammatical resource"	"chat"	NA	2
+2020-07-22 07:21:25	"teacher008"	"teacher"	93	"you can download it on phone"	"you can download it on phone"	NA	NA	NA	NA	NA	NA	6
+2020-07-22 07:21:37	"student010"	"student"	94	"Your"	"Your"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:21:42	"teacher008"	"teacher"	95	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:21:54	"teacher008"	"teacher"	96	"and looks like movie"	"and looks like movie"	NA	"4f"	"exercise"	"grammatical resource"	"chat"	NA	4
+2020-07-22 07:21:59	"student010"	"student"	97	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:22:03	"teacher008"	"teacher"	98	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:22:15	"teacher008"	"teacher"	99	"me and cousin tried to show her"	"me and cousin tried to show her"	NA	"4g"	"exercise"	"grammatical resource"	"chat"	NA	7
+2020-07-22 07:22:29	"student010"	"student"	100	"My"	"My"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:22:39	"teacher008"	"teacher"	101	"yes, easy, isn't it?"	"yes, easy, isn't it?"	NA	NA	NA	NA	NA	NA	4
+2020-07-22 07:22:42	"teacher008"	"teacher"	102	"you still need to see gameplay"	"you still need to see gameplay"	NA	"4h"	"exercise"	"grammatical resource"	"chat\"	NA	6
+2020-07-22 07:22:45	"student010"	"student"	103	"Aha"	"Aha"	101	NA	NA	NA	NA	NA	1
+2020-07-22 07:23:28	"student010"	"student"	104	"A"	"A"	102	NA	NA	NA	NA	NA	1
+2020-07-22 07:23:53	"teacher008"	"teacher"	105	"Mmm, it's the gameplay we talked about before, so I would go for 'the gameplay'"	"Mmm, it's the gameplay we talked about before, so I would go for 'the gameplay'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-07-22 07:24:02	"student010"	"student"	106	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:24:32	"teacher008"	"teacher"	107	"Ok, well done with the articles!"	"Ok, well done with the articles!"	NA	NA	NA	NA	NA	NA	6
+2020-07-22 07:24:40	"teacher008"	"teacher"	108	"Have you got any questions about them?"	"Have you got any questions about them?"	NA	"4i"	"enquiry"	NA	NA	NA	7
+2020-07-22 07:24:52	"student010"	"student"	109	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:25:33	"teacher008"	"teacher"	110	"Ok :)"	"Ok :)"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 07:25:55	"teacher008"	"teacher"	111	"A couple of spelling things that I noticed."	"A couple of spelling things that I noticed."	NA	"5.0"	"repair"	"writing"	NA	NA	8
+2020-07-22 07:26:22	"teacher008"	"teacher"	112	"Village' has double ll, like 'villa'"	"Village' has double ll, like 'villa'"	NA	NA	"repair"	"writing"	NA	NA	6
+2020-07-22 07:26:38	"teacher008"	"teacher"	113	"But 'usual' has only one 's'"	"But 'usual' has only one 's'"	NA	NA	"repair"	"writing"	NA	NA	6
+2020-07-22 07:26:49	"student010"	"student"	114	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-22 07:26:59	"teacher008"	"teacher"	115	"Usually' - one s and double ll"	"Usually' - one s and double ll"	NA	NA	"repair"	"writing"	NA	NA	7
+2020-07-22 07:28:12	"teacher008"	"teacher"	116	"Ok <STUDENT>, thank you for today, very well done! See you on Friday 9.30 am?"	"Ok <STUDENT>, thank you for today, very well done! See you on Friday 9.30 am?"	NA	"6.0"	"closing"	NA	NA	NA	15
+2020-07-22 07:28:27	"student010"	"student"	117	"Yes bye!"	"Yes bye!"	NA	NA	NA	NA	NA	NA	2
+2020-07-22 07:28:36	"teacher008"	"teacher"	118	"Take care"	"Take care"	NA	NA	NA	NA	NA	"B2"	2

@@ -1,0 +1,231 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-06-25 11:58:26	"student009"	"student"	1	"Hi"	"Hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-06-25 11:58:37	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 11:58:46	"teacher008"	"teacher"	3	"I like your username"	"I like your username"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-06-25 11:58:52	"teacher008"	"teacher"	4	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 11:58:54	"student009"	"student"	5	"Thanks)"	"Thanks)"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 11:59:06	"teacher008"	"teacher"	6	"Do you actually love pancakes?"	"Do you actually love pancakes?"	NA	"2a"	"topic development"	NA	NA	NA	5
+2020-06-25 11:59:11	"student009"	"student"	7	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 11:59:26	"teacher008"	"teacher"	8	"Me too! What kind of pancakes are your favourite?"	"Me too! What kind of pancakes are your favourite?"	NA	"2b"	"topic development"	NA	NA	NA	9
+2020-06-25 11:59:41	"student009"	"student"	9	"With syrup"	"With syrup"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 11:59:58	"teacher008"	"teacher"	10	"Ah, sounds good!"	"Ah, sounds good!"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:00:01	"student009"	"student"	11	"But I don’t eat them as usually as I want to"	"But I don’t eat them as often as I want to"	NA	"2c"	"topic development"	NA	NA	NA	11
+2020-06-25 12:00:13	"teacher008"	"teacher"	12	"Haha, I understand, me neither!"	"Haha, I understand, me neither!"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:00:33	"student009"	"student"	13	"They are not healthy"	"They are not healthy"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:00:53	"teacher008"	"teacher"	14	"Not terribly healthy, no"	"Not terribly healthy, no"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:01:22	"teacher008"	"teacher"	15	"Is chatting in English a new experience to you?"	"Is chatting in English a new experience to you?"	NA	"3.0"	"topic opening"	NA	NA	NA	9
+2020-06-25 12:01:31	"student009"	"student"	16	"Not really"	"Not really"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:01:49	"student009"	"student"	17	"I chat with my friend from USA"	"I chat with my friend from the USA"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:01:59	"teacher008"	"teacher"	18	"Ok, great!"	"Ok, great!"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:02:15	"teacher008"	"teacher"	19	"And how are you today? Is it a nice day in Kyiv?"	"And how are you today? Is it a nice day in Kyiv?"	NA	"4.0"	"topic opening"	NA	NA	NA	12
+2020-06-25 12:02:28	"student009"	"student"	20	"Yes, it is"	"Yes, it is"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:02:42	"teacher008"	"teacher"	21	"I do miss Kyiv in the summer!"	"I do miss Kyiv in the summer!"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:02:44	"student009"	"student"	22	"It is hot outside"	"It is hot outside"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:03:05	"teacher008"	"teacher"	23	"It's very hot here today, by English standards. +29"	"It's very hot here today, by English standards. +29"	NA	NA	NA	NA	NA	NA	9
+2020-06-25 12:03:17	"student009"	"student"	24	"Wow"	"Wow"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:03:31	"student009"	"student"	25	"I am okay, but I don’t know what to do"	"I am okay, but I don’t know what to do"	NA	"5.0"	"topic opening"	NA	NA	NA	10
+2020-06-25 12:03:41	"teacher008"	"teacher"	26	"What do you mean?"	"What do you mean?"	NA	NA	"enquiry"	NA	NA	NA	4
+2020-06-25 12:03:48	"student009"	"student"	27	"Like"	"Like"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:04:39	"teacher008"	"teacher"	28	"Are you a bit confused about this lesson? or generally, you are not sure what to do with your time?"	"Are you a bit confused about this lesson? or generally, you are not sure what to do with your time?"	NA	NA	"enquiry"	NA	NA	NA	20
+2020-06-25 12:04:40	"student009"	"student"	29	"Be a of the karantine, I can’t go somewhere"	"Because of the quarantine, I can’t go anywhere"	NA	NA	"clarification"	NA	NA	NA	9
+2020-06-25 12:05:11	"student009"	"student"	30	"So I am sitting at home"	"So I am sitting at home"	NA	NA	NA	NA	NA	NA	6
+2020-06-25 12:05:30	"student009"	"student"	31	"And it is terrible"	"And it is terrible"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:05:34	"teacher008"	"teacher"	32	"Ah, I'm with you. I have to stay at home, too!"	"Ah, I'm with you. I have to stay at home, too!"	30	NA	NA	NA	NA	NA	11
+2020-06-25 12:05:46	"teacher008"	"teacher"	33	"Oh sorry to hear that!"	"Oh sorry to hear that!"	31	NA	NA	NA	NA	NA	5
+2020-06-25 12:05:59	"teacher008"	"teacher"	34	"What would you normally do if it wasn't for the quarantine?"	"What would you normally do if it wasn't for the quarantine?"	NA	"5a"	"topic development"	NA	NA	NA	11
+2020-06-25 12:06:00	"student009"	"student"	35	"That’s fine"	"That’s fine"	33	NA	NA	NA	NA	NA	2
+2020-06-25 12:06:13	"student009"	"student"	36	"I want to meet my grandma"	"I want to see my grandma"	34	NA	NA	NA	NA	NA	6
+2020-06-25 12:06:23	"student009"	"student"	37	"She lives in Israel"	"She lives in Israel"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:07:08	"teacher008"	"teacher"	38	"Oh I see, and the quarantine is very strict in Israel, isn't it? I know because my uncle lives there"	"Oh I see, and the quarantine is very strict in Israel, isn't it? I know because my uncle lives there"	NA	NA	NA	NA	NA	NA	20
+2020-06-25 12:07:18	"student009"	"student"	39	"Yes it is"	"Yes it is"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:07:39	"student009"	"student"	40	"Usually in this time me and my mom are there"	"Usually at this time me and my mom are there"	NA	NA	NA	NA	NA	NA	10
+2020-06-25 12:07:55	"teacher008"	"teacher"	41	"I see! Such a shame"	"I see! Such a shame"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:08:07	"student009"	"student"	42	"A big part of my family is there and I miss them so much:("	"A big part of my family are there and I miss them so much:("	NA	NA	NA	NA	NA	NA	14
+2020-06-25 12:08:38	"teacher008"	"teacher"	43	"That's too bad, this year has been really difficult in this respect!"	"That's too bad, this year has been really difficult in this respect!"	NA	NA	NA	NA	NA	NA	12
+2020-06-25 12:08:50	"student009"	"student"	44	"I hate 2020("	"I hate 2020("	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:09:09	"teacher008"	"teacher"	45	"Yes, a very weird year..."	"Yes, a very weird year..."	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:09:13	"student009"	"student"	46	"2019 and 2017 were the best!!!"	"2019 and 2017 were the best!!!"	NA	"5b"	"topic development"	NA	NA	NA	6
+2020-06-25 12:09:30	"teacher008"	"teacher"	47	"Oh really? What was special about them?"	"Oh really? What was special about them?"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:10:24	"student009"	"student"	48	"In 2019 I traveled to Italy the first time and I traveled to Israel 2 times"	"In 2019 I traveled to Italy for the first time and I traveled to Israel 2 times"	NA	NA	NA	NA	NA	NA	16
+2020-06-25 12:10:47	"teacher008"	"teacher"	49	"Sounds great!"	"Sounds great!"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:12:24	"student009"	"student"	50	"In 2017 I finished 4 grade , people in my class were the best,and since the 5 grade there mostly different people in my class"	"In 2017 I finished the 4th grade, the people in my class were the best, and since the 5th grade there are mostly different people in my class"	NA	NA	NA	NA	NA	NA	25
+2020-06-25 12:12:59	"student009"	"student"	51	"I miss my old class, because now most of people are toxic:("	"I miss my old class, because now most of the people are toxic:("	NA	NA	NA	NA	NA	NA	12
+2020-06-25 12:13:35	"student009"	"student"	52	"Where are you ?"	"Where are you ?"	NA	"6.0"	"topic opening"	NA	NA	NA	4
+2020-06-25 12:13:45	"teacher008"	"teacher"	53	"I see, what a shame! I can relate to this, sometimes new classes /  teams are just not the same"	"I see, what a shame! I can relate to this, sometimes new classes /  teams are just not the same"	51	NA	NA	NA	NA	NA	21
+2020-06-25 12:14:30	"student009"	"student"	54	"Now there are some people from my old class, but they are strange for me"	"Now there are some people from my old class, but they are strange to me"	NA	NA	NA	NA	NA	NA	15
+2020-06-25 12:14:36	"teacher008"	"teacher"	55	"I live in England, near Cambridge. You know how England is divided into counties? Our county is called Cambridgeshire"	"I live in England, near Cambridge. You know how England is divided into counties? Our county is called Cambridgeshire"	52	"6a"	"presentation"	"lexical resource,world knowledge"	NA	NA	19
+2020-06-25 12:14:48	"student009"	"student"	56	"Wow"	"Wow"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:14:57	"student009"	"student"	57	"I didn’t know that"	"I didn’t know that"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:15:24	"teacher008"	"teacher"	58	"Yes, similar to oblast' in Ukraine"	"Yes, similar to oblast' in Ukraine"	NA	NA	NA	NA	NA	NA	6
+2020-06-25 12:15:37	"student009"	"student"	59	"Ah yea"	"Ah yea"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:15:43	"student009"	"student"	60	"I understand now"	"I understand now"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:15:55	"teacher008"	"teacher"	61	"And a lot of the times, the names of counties are the name of the main city + shire"	"And a lot of the times, the names of counties are the name of the main city + shire"	NA	NA	"presentation"	"lexical resource,world knowledge"	NA	NA	19
+2020-06-25 12:16:07	"teacher008"	"teacher"	62	"Cambridge + shire = Cambridgeshire"	"Cambridge + shire = Cambridgeshire"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:16:14	"student009"	"student"	63	"Easy to remember"	"Easy to remember"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:16:30	"teacher008"	"teacher"	64	"Gloucester + shire = Gloucestershire"	"Gloucester + shire = Gloucestershire"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:16:47	"teacher008"	"teacher"	65	"What do you think is the name of the county where York is?"	"What do you think is the name of the county where York is?"	NA	"6b"	"eliciting"	"lexical resource"	NA	NA	13
+2020-06-25 12:17:05	"student009"	"student"	66	"To be honest, I am very bad in Geography"	"To be honest, I am very bad at geography"	NA	NA	NA	NA	NA	NA	9
+2020-06-25 12:17:12	"student009"	"student"	67	"Yorkshire"	"Yorkshire"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:17:21	"teacher008"	"teacher"	68	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:17:54	"teacher008"	"teacher"	69	"So, <STUDENT>, I thought of a game that you might have played at IH before. I will give you the names of 4 things that have some kind of connection to my life, and you ask me yes/no questions to establish what the connection is. How does it sound?"	"So, <STUDENT>, I thought of a game that you might have played at IH before. I will give you the names of 4 things that have some kind of connection to my life, and you ask me yes/no questions to establish what the connection is. How does it sound?"	NA	"7.0"	"topic opening"	NA	NA	NA	49
+2020-06-25 12:18:00	"student009"	"student"	70	"It is similar to the name of the type of a dog"	"It is similar to the name of the type of a dog"	68	NA	NA	NA	NA	NA	12
+2020-06-25 12:18:16	"teacher008"	"teacher"	71	"Of course, that's right! Yorkshire terriers :)"	"Of course, that's right! Yorkshire terriers :)"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:18:50	"student009"	"student"	72	"It sounds interesting"	"It sounds interesting"	69	NA	NA	NA	NA	NA	3
+2020-06-25 12:19:24	"teacher008"	"teacher"	73	"I just googled, and they were actually bred in Yorkshire in the 19th century"	"I just googled, and they were actually bred in Yorkshire in the 19th century"	71	NA	"presentation"	"lexical resource,world knowledge"	NA	NA	14
+2020-06-25 12:19:45	"teacher008"	"teacher"	74	"Ok, great. So here are my 4 things"	"Ok, great. So here are my 4 things"	72	"7a"	"topic development"	NA	NA	NA	8
+2020-06-25 12:19:53	"student009"	"student"	75	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:20:09	"teacher008"	"teacher"	76	"1. March  2. Shanghai  3. Bubble and Squeak 4. Little Women"	"1. March  2. Shanghai  3. Bubble and Squeak 4. Little Women"	NA	NA	NA	NA	NA	NA	13
+2020-06-25 12:20:39	"student009"	"student"	77	"What is Squeak?"	"What is Squeak?"	NA	"7b"	"enquiry"	"lexical resource,meaning"	NA	NA	3
+2020-06-25 12:20:55	"teacher008"	"teacher"	78	"Only yes/ no questions :)"	"Only yes/ no questions :)"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:21:18	"student009"	"student"	79	"I know, but I don’t understand what does it mean..."	"I know, but I don’t understand what it means..."	NA	NA	NA	NA	NA	NA	10
+2020-06-25 12:22:15	"student009"	"student"	80	"Were you born on March?"	"Were you born in March?"	NA	"7c"	"topic development"	NA	NA	NA	5
+2020-06-25 12:22:20	"teacher008"	"teacher"	81	"Oh, I see. Squeak is a sound that a mouse might make, or a squeaky door"	"Oh, I see. Squeak is a sound that a mouse might make, or a squeaky door"	79	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-06-25 12:22:39	"teacher008"	"teacher"	82	"I was, correct!"	"I was, correct!"	80	NA	NA	NA	NA	NA	3
+2020-06-25 12:22:53	"student009"	"student"	83	"thanks for explanation"	"thanks for the explanation"	81	NA	NA	NA	NA	NA	3
+2020-06-25 12:22:57	"teacher008"	"teacher"	84	"That was easy :) But also, the town where I live is called March"	"That was easy :) But also, the town where I live is called March"	82	NA	NA	NA	NA	NA	14
+2020-06-25 12:23:06	"student009"	"student"	85	"Wow"	"Wow"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:23:11	"student009"	"student"	86	"Okay"	"Okay"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:23:38	"teacher008"	"teacher"	87	"I know, I was very pleased when we found a house here because it's my birth month"	"I know, I was very pleased when we found a house here because it's my birth month"	NA	NA	NA	NA	NA	NA	17
+2020-06-25 12:23:47	"student009"	"student"	88	"Have you ever been to Shanghai?"	"Have you ever been to Shanghai?"	NA	"7d"	"topic development"	NA	NA	NA	6
+2020-06-25 12:24:09	"teacher008"	"teacher"	89	"Yes, that was easy too!"	"Yes, that was easy too!"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:24:15	"teacher008"	"teacher"	90	"I lived there for a bit"	"I lived there for a bit"	NA	NA	NA	NA	NA	NA	6
+2020-06-25 12:24:38	"student009"	"student"	91	"Do you speak Chinese?"	"Do you speak Chinese?"	NA	"7e"	"topic development"	NA	NA	NA	4
+2020-06-25 12:25:34	"teacher008"	"teacher"	92	"I learnt a little bit of Mandarin at the time, but I have unfortunately forgotten most of it. Hieroglyphs were very hard for me!"	"I learnt a little bit of Mandarin at the time, but I have unfortunately forgotten most of it. Hieroglyphs were very hard for me!"	NA	NA	NA	NA	NA	NA	24
+2020-06-25 12:25:52	"student009"	"student"	93	"I see what you mean"	"I see what you mean"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:26:08	"student009"	"student"	94	"The next questions are difficult..."	"The next questions are difficult..."	NA	"7f"	"topic development"	NA	NA	NA	5
+2020-06-25 12:26:34	"teacher008"	"teacher"	95	"I'm glad, you've been cracking my quiz so far!"	"I'm glad, you've been cracking my quiz so far!"	NA	NA	NA	NA	NA	NA	9
+2020-06-25 12:26:41	"student009"	"student"	96	"Bubbles and Squeak"	"Bubbles and Squeak"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:26:44	"student009"	"student"	97	"Hmmm"	"Hmmm"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:27:12	"student009"	"student"	98	"I don’t even know what to ask"	"I don’t even know what to ask"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:27:37	"student009"	"student"	99	"It is like something very unlogical for me"	"It seems very illogical to me"	NA	NA	NA	NA	NA	NA	8
+2020-06-25 12:27:39	"teacher008"	"teacher"	100	"Well, you can see that the words are capitalized, so they must be..."	"Well, you can see that the words are capitalized, so they must be..."	NA	"7g"	"eliciting"	"lexical resource"	NA	NA	13
+2020-06-25 12:27:56	"student009"	"student"	101	"Names!"	"Names!"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:28:01	"teacher008"	"teacher"	102	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:28:10	"student009"	"student"	103	"Is it your pets names?"	"Are they your pets names?"	NA	"7h"	"topic development"	NA	NA	NA	5
+2020-06-25 12:28:16	"teacher008"	"teacher"	104	"Yes!!"	"Yes!!"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:28:27	"student009"	"student"	105	"Dog and mouse?"	"Dog and mouse?"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:28:29	"teacher008"	"teacher"	106	"They are my two guinea pigs :)"	"They are my two guinea pigs :)"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:28:33	"student009"	"student"	107	"Oh"	"Oh"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:28:46	"student009"	"student"	108	"That’s also cool:)"	"That’s also cool:)"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:29:03	"teacher008"	"teacher"	109	"Generally, bubble-and-squeak is a traditional English dish"	"Generally, bubble-and-squeak is a traditional English dish"	NA	"8.0"	"presentation"	"lexical resource,world knowledge"	NA	NA	7
+2020-06-25 12:29:14	"student009"	"student"	110	"Really?"	"Really?"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:29:24	"teacher008"	"teacher"	111	"You know how traditionally English people have a roast on Sundays?"	"You know how traditionally English people have a roast on Sundays?"	NA	"8a"	"eliciting"	"world knowledge"	NA	NA	11
+2020-06-25 12:29:31	"student009"	"student"	112	"Tell me more about it, please"	"Tell me more about it, please"	NA	NA	NA	NA	NA	NA	6
+2020-06-25 12:29:39	"student009"	"student"	113	"No"	"No"	111	NA	NA	NA	NA	NA	1
+2020-06-25 12:29:52	"teacher008"	"teacher"	114	"Some roast meat / chicken (or a nut roast if you are vegetarian / vegan) and some roasted vegetables"	"Some roast meat / chicken (or a nut roast if you are vegetarian / vegan) and some roasted vegetables"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	19
+2020-06-25 12:30:05	"teacher008"	"teacher"	115	"Potatoes, carrots, parsnips etc."	"Potatoes, carrots, parsnips etc."	NA	NA	"scaffolding"	"world knowledge"	NA	NA	4
+2020-06-25 12:30:38	"student009"	"student"	116	"Okay"	"Okay"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:30:47	"teacher008"	"teacher"	117	"If you have a huge meal and have some food left for the next day, what do you usually call this food?"	"If you have a huge meal and have some food left for the next day, what do you usually call this food?"	NA	"8b"	"eliciting"	"lexical resource"	NA	NA	22
+2020-06-25 12:30:51	"teacher008"	"teacher"	118	"Do you know the word?"	"Do you know the word?"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:31:06	"student009"	"student"	119	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:31:21	"teacher008"	"teacher"	120	"Leftovers!"	"Leftovers!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-06-25 12:31:27	"teacher008"	"teacher"	121	"Or leftover food"	"Or leftover food"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-06-25 12:32:06	"teacher008"	"teacher"	122	"So, next day, people gather the leftovers and pour some batter over them and bake them in the oven, and they get bubble-and-squeak"	"So, next day, people gather the leftovers and pour some batter over them and bake them in the oven, and they get bubble-and-squeak"	NA	NA	"presentation"	"lexical resource,world knowledge"	NA	NA	23
+2020-06-25 12:32:07	"student009"	"student"	123	"I‘ve never heard that word before"	"I‘ve never heard that word before"	NA	NA	NA	NA	NA	NA	6
+2020-06-25 12:32:46	"student009"	"student"	124	"Okay, thanks"	"Okay, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:32:59	"student009"	"student"	125	"Little Women"	"Little Women"	NA	"9.0"	"topic opening"	NA	NA	NA	2
+2020-06-25 12:33:08	"teacher008"	"teacher"	126	"Our guinea pigs are adopted, and they already had their names when they came to us, but we liked the names and kept them"	"Our guinea pigs are adopted, and they already had their names when they came to us, but we liked the names and kept them"	124	NA	NA	NA	NA	NA	24
+2020-06-25 12:33:19	"teacher008"	"teacher"	127	"Go on!"	"Go on!"	125	NA	NA	NA	NA	NA	2
+2020-06-25 12:33:22	"student009"	"student"	128	"Do you have two daughters?"	"Do you have two daughters?"	NA	"9a"	"topic development"	NA	NA	NA	5
+2020-06-25 12:33:48	"teacher008"	"teacher"	129	"No! But good guess"	"No! But good guess"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:34:02	"student009"	"student"	130	"Hmmm"	"Hmmm"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:35:07	"student009"	"student"	131	"Are you very little, like the most part of your family?"	"Are you very short, like most of your family?"	NA	"9b"	"topic development"	NA	NA	NA	11
+2020-06-25 12:35:36	"teacher008"	"teacher"	132	"Mmm, I'm not sure I understand that. What do you mean?"	"Mmm, I'm not sure I understand that. What do you mean?"	NA	"9c"	"enquiry"	NA	NA	NA	11
+2020-06-25 12:35:57	"student009"	"student"	133	"Your height is small"	"You are not tall"	NA	NA	"clarification"	NA	NA	NA	4
+2020-06-25 12:36:09	"student009"	"student"	134	"That’s what I mean"	"That’s what I mean"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:36:25	"teacher008"	"teacher"	135	"Ah, I see, no! Good guess again, but I'm actually pretty tall"	"Ah, I see, no! Good guess again, but I'm actually pretty tall"	NA	NA	NA	NA	NA	NA	12
+2020-06-25 12:36:37	"student009"	"student"	136	"Help me"	"Help me"	NA	"9d"	"topic development"	NA	NA	NA	2
+2020-06-25 12:36:40	"student009"	"student"	137	"Please"	"Please"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:37:07	"teacher008"	"teacher"	138	"Ok! :) Little Women was the last film I saw at the cinema, just before the lockdown!"	"Ok! :) Little Women was the last film I saw at the cinema, just before the lockdown!"	NA	NA	NA	NA	NA	NA	17
+2020-06-25 12:37:23	"student009"	"student"	139	"Aawww"	"Aawww"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:37:34	"teacher008"	"teacher"	140	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:38:00	"student009"	"student"	141	"That was difficult!"	"That was difficult!"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:38:27	"teacher008"	"teacher"	142	"It was, yes! But well done!"	"It was, yes! But well done!"	NA	NA	NA	NA	NA	NA	6
+2020-06-25 12:38:34	"student009"	"student"	143	"I didn’t know that such a film even exists"	"I didn’t know that such a film even existed"	NA	NA	NA	NA	NA	NA	9
+2020-06-25 12:38:41	"student009"	"student"	144	"Thanks:)"	"Thanks:)"	143	NA	NA	NA	NA	NA	1
+2020-06-25 12:39:12	"teacher008"	"teacher"	145	"Would you like to create a similar quiz for me now? Think of 4 things that have a connection with your life, and I'll try to guess"	"Would you like to create a similar quiz for me now? Think of 4 things that have a connection with your life, and I'll try to guess"	NA	"10.0"	"topic opening"	NA	NA	NA	27
+2020-06-25 12:39:22	"student009"	"student"	146	"Okay"	"Okay"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:39:35	"teacher008"	"teacher"	147	"Ok, take a couple of minutes if you want"	"Ok, take a couple of minutes if you want"	NA	NA	NA	NA	NA	NA	9
+2020-06-25 12:39:37	"student009"	"student"	148	"Give me some time"	"Give me some time"	146	NA	NA	NA	NA	NA	4
+2020-06-25 12:39:42	"teacher008"	"teacher"	149	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:44:38	"student009"	"student"	150	"1.Summer 2.White dog 3.Crisps 4.TOP"	"1.Summer 2.White dog 3.Crisps 4.TOP"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:44:48	"student009"	"student"	151	"That’s it"	"That’s it"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:44:51	"teacher008"	"teacher"	152	"Hmm, interesting!"	"Hmm, interesting!"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:44:59	"teacher008"	"teacher"	153	"Have you got a white dog?"	"Have you got a white dog?"	NA	"10a"	"topic development"	NA	NA	NA	6
+2020-06-25 12:45:04	"student009"	"student"	154	"Nope"	"Nope"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:45:14	"teacher008"	"teacher"	155	"Are you afraid of white dogs?"	"Are you afraid of white dogs?"	NA	"10b"	"topic development"	NA	NA	NA	6
+2020-06-25 12:45:19	"student009"	"student"	156	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:45:34	"student009"	"student"	157	"I love doggies:)"	"I love doggies:)"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:45:40	"teacher008"	"teacher"	158	"Me too :)"	"Me too :)"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:45:50	"teacher008"	"teacher"	159	"Hmm, I'll have a think about that later"	"Hmm, I'll have a think about that later"	NA	NA	NA	NA	NA	NA	8
+2020-06-25 12:45:57	"teacher008"	"teacher"	160	"Do you love crisps?"	"Do you love crisps?"	NA	"10c"	"topic development"	NA	NA	NA	4
+2020-06-25 12:46:17	"student009"	"student"	161	"Yes, but that’s not the answer :)"	"Yes, but that’s not the answer :)"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:46:25	"teacher008"	"teacher"	162	"Fair enough"	"Fair enough"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:46:48	"teacher008"	"teacher"	163	"Can you cook crisps?"	"Can you cook crisps?"	NA	"10d"	"topic development"	NA	NA	NA	4
+2020-06-25 12:46:53	"student009"	"student"	164	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:46:59	"student009"	"student"	165	"Need help?"	"Need help?"	NA	"10e"	"topic development"	NA	NA	NA	2
+2020-06-25 12:47:05	"teacher008"	"teacher"	166	"Just a little hint?"	"Just a little hint?"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:47:26	"student009"	"student"	167	"Before the lesson I..."	"Before the lesson I..."	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:47:35	"teacher008"	"teacher"	168	"You ate crisps!"	"You ate crisps!"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:47:44	"teacher008"	"teacher"	169	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:47:54	"student009"	"student"	170	"No, but you are near the answer"	"No, but you are close to the answer"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:48:05	"teacher008"	"teacher"	171	"You stroked a white dog?"	"You stroked a white dog?"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:48:15	"teacher008"	"teacher"	172	"You opened a packet of crisps?"	"You opened a packet of crisps?"	NA	NA	NA	NA	NA	NA	6
+2020-06-25 12:48:20	"student009"	"student"	173	"Hint was about crisps"	"The hint was about crisps"	171	NA	NA	NA	NA	NA	4
+2020-06-25 12:48:41	"student009"	"student"	174	"Hint : money"	"Hint : money"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:48:53	"teacher008"	"teacher"	175	"Ok, did you count every crips in the packet because you were bored?"	"Ok, did you count every crips in the packet because you were bored?"	NA	NA	NA	NA	NA	NA	13
+2020-06-25 12:49:12	"teacher008"	"teacher"	176	"Did you sell crisps to earn some pocket money?"	"Did you sell crisps to earn some pocket money?"	NA	NA	NA	NA	NA	NA	9
+2020-06-25 12:49:15	"student009"	"student"	177	"No, but it is funny guess"	"No, but it is a funny guess"	NA	NA	NA	NA	NA	NA	6
+2020-06-25 12:49:23	"teacher008"	"teacher"	178	"I give up!"	"I give up!"	NA	"10f"	"topic development"	NA	NA	NA	3
+2020-06-25 12:49:30	"student009"	"student"	179	"I ... some crisps today"	"I ... some crisps today"	177	"10g"	"topic development"	NA	NA	NA	5
+2020-06-25 12:49:36	"student009"	"student"	180	"Sure?"	"Sure?"	178	NA	NA	NA	NA	NA	1
+2020-06-25 12:49:47	"teacher008"	"teacher"	181	"Did you eat them?"	"Did you eat them?"	179	NA	NA	NA	NA	NA	4
+2020-06-25 12:49:51	"student009"	"student"	182	"Not"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:49:53	"teacher008"	"teacher"	183	"Did you spill them on the flour?"	"Did you spill them on the flour?"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:49:58	"teacher008"	"teacher"	184	"floor, sorrry"	"floor, sorrry"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-06-25 12:50:00	"teacher008"	"teacher"	185	"sorry"	"sorry"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-06-25 12:50:02	"student009"	"student"	186	"I didn’t open them!"	"I didn’t open them!"	183	NA	NA	NA	NA	NA	4
+2020-06-25 12:50:20	"teacher008"	"teacher"	187	"Ah, you have some willpower!"	"Ah, you have some willpower!"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:50:34	"student009"	"student"	188	"Willpower ?"	"Willpower ?"	NA	"10h"	"enquiry"	"lexical resource,meaning"	NA	NA	2
+2020-06-25 12:51:07	"student009"	"student"	189	"Okay, so you give up?"	"Okay, so you give up?"	NA	"10i"	"topic development"	NA	NA	NA	5
+2020-06-25 12:51:28	"teacher008"	"teacher"	190	"Yes, it's a character trait that means people can keep doing something hard or can resist doing something they want to"	"Yes, it's a character trait that means people can keep doing something hard or can resist doing something they want to"	188	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	21
+2020-06-25 12:51:49	"teacher008"	"teacher"	191	"I give up! But wasn't the answer 'you didn't open them'?"	"I give up! But wasn't the answer 'you didn't open them'?"	189	NA	NA	NA	NA	NA	11
+2020-06-25 12:51:55	"student009"	"student"	192	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:52:10	"student009"	"student"	193	"I bought them today in the morning!"	"I bought them this morning!"	NA	NA	NA	NA	NA	NA	7
+2020-06-25 12:52:33	"teacher008"	"teacher"	194	"Ah I see!!"	"Ah I see!!"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:52:57	"student009"	"student"	195	"Do you need help with the white dog?"	"Do you need help with the white dog?"	NA	"10j"	"topic development"	NA	NA	NA	8
+2020-06-25 12:53:52	"teacher008"	"teacher"	196	"You know what, our time's running out, so how about we finish the quiz next time. I want to solve the mystery of the white dog!"	"You know what, our time's running out, so how about we finish the quiz next time. I want to solve the mystery of the white dog!"	NA	"10k"	"redirection"	NA	NA	NA	26
+2020-06-25 12:54:18	"student009"	"student"	197	"It is interesting to guess"	"It is interesting to guess"	NA	NA	NA	NA	NA	NA	5
+2020-06-25 12:54:48	"student009"	"student"	198	"I copied 4 facts"	"I copied the 4 facts"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:55:17	"teacher008"	"teacher"	199	"So, back to willpower. We can say, 'It takes a lot of willpower to go to the gym every day' or 'She has a lot of willpower, she hasn't eaten the packet of crisps she bought this morning'"	"So, back to willpower. We can say, 'It takes a lot of willpower to go to the gym every day' or 'She has a lot of willpower, she hasn't eaten the packet of crisps she bought this morning'"	NA	"11.0"	"presentation"	"lexical resource"	NA	NA	38
+2020-06-25 12:55:23	"teacher008"	"teacher"	200	"Does it make sense?"	"Does it make sense?"	NA	NA	NA	NA	NA	NA	4
+2020-06-25 12:55:38	"student009"	"student"	201	"Yeah"	"Yeah"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:56:10	"student009"	"student"	202	"When we will meet here next time?"	"When will we meet here next time?"	NA	"12.0"	"enquiry"	NA	NA	NA	7
+2020-06-25 12:56:18	"teacher008"	"teacher"	203	"Apart from willpower, have there been any other new words you'd like to remember from today? Feel free to look in the chat"	"Apart from willpower, have there been any other new words you'd like to remember from today? Feel free to look in the chat"	NA	"13.0"	"recap"	"lexical resource"	NA	NA	23
+2020-06-25 12:56:39	"student009"	"student"	204	"Wait a minute"	"Wait a minute"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:56:59	"teacher008"	"teacher"	205	"Does 9.30 am on Tuesday sound good to you?"	"Does 9.30 am on Tuesday sound good to you?"	202	NA	NA	NA	NA	NA	9
+2020-06-25 12:57:41	"student009"	"student"	206	"Let’s talk about it in the Skype, okay?"	"Let’s talk about it on Skype, okay?"	NA	NA	NA	NA	NA	NA	8
+2020-06-25 12:57:55	"teacher008"	"teacher"	207	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:58:21	"student009"	"student"	208	"Squeak"	"Squeak"	204	NA	NA	NA	NA	NA	1
+2020-06-25 12:58:27	"teacher008"	"teacher"	209	"Aha, yes"	"Aha, yes"	NA	NA	NA	NA	NA	NA	2
+2020-06-25 12:58:39	"teacher008"	"teacher"	210	"The food that's left from yesterday?"	"The food that's left from yesterday?"	NA	"13a"	"eliciting"	"lexical resource"	NA	NA	6
+2020-06-25 12:58:39	"student009"	"student"	211	"But I know what does it mean now"	"But I know what it means now"	209	NA	NA	NA	NA	NA	8
+2020-06-25 12:58:53	"student009"	"student"	212	"Leftover"	"Leftover"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:59:18	"teacher008"	"teacher"	213	"leftover food (leftover is an adjective here) or leftovers (plural noun)"	"leftover food (leftover is an adjective here) or leftovers (plural noun)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-06-25 12:59:19	"student009"	"student"	214	"Am I right?"	"Am I right?"	212	NA	NA	NA	NA	NA	3
+2020-06-25 12:59:23	"teacher008"	"teacher"	215	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 12:59:39	"student009"	"student"	216	"So 3 words"	"So 3 words"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 12:59:59	"teacher008"	"teacher"	217	"For example, I sometimes have leftovers for lunch"	"For example, I sometimes have leftovers for lunch"	NA	NA	NA	NA	NA	NA	8
+2020-06-25 13:00:15	"teacher008"	"teacher"	218	"And a part of England?"	"And a part of England?"	NA	"13b"	"eliciting"	"lexical resource"	NA	NA	5
+2020-06-25 13:00:20	"student009"	"student"	219	"Makes sense"	"Makes sense"	217	NA	NA	NA	NA	NA	2
+2020-06-25 13:00:28	"teacher008"	"teacher"	220	"like Yorkshire or Cambridgeshire"	"like Yorkshire or Cambridgeshire"	218	NA	"eliciting"	"lexical resource"	NA	NA	4
+2020-06-25 13:00:28	"student009"	"student"	221	"County"	"County"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 13:00:33	"teacher008"	"teacher"	222	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 13:00:50	"student009"	"student"	223	"Thanks:)"	"Thanks:)"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 13:00:50	"teacher008"	"teacher"	224	"It's pronounced /'kaunti/"	"It's pronounced /'kaunti/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	3
+2020-06-25 13:01:02	"student009"	"student"	225	"I know that"	"I know that"	NA	NA	NA	NA	NA	NA	3
+2020-06-25 13:01:33	"student009"	"student"	226	"So thank you for the lesson😃"	"So thank you for the lesson😃"	NA	"14.0"	"closing"	NA	NA	NA	6
+2020-06-25 13:01:40	"teacher008"	"teacher"	227	"Ok, <STUDENT>, it was lovely to talk to you (your English is great!), have a nice weekend, see you next week!"	"Ok, <STUDENT>, it was lovely to talk to you (your English is great!), have a nice weekend, see you next week!"	NA	NA	NA	NA	NA	NA	21
+2020-06-25 13:01:47	"teacher008"	"teacher"	228	"You are very welcome"	"You are very welcome"	226	NA	NA	NA	NA	NA	4
+2020-06-25 13:01:49	"student009"	"student"	229	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	NA	1
+2020-06-25 13:01:54	"teacher008"	"teacher"	230	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

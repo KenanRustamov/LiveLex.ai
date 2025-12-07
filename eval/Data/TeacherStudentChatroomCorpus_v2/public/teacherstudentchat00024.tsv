@@ -1,0 +1,123 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-02-22 10:37:26	"teacher001"	"teacher"	1	"Hi <STUDENT> all ok? Sorry for delay - connection problwm"	"Hi <STUDENT> all ok? Sorry for delay - connection problwm"	NA	"1.0"	"opening"	NA	NA	NA	10
+2020-02-22 10:38:00	"student006"	"student"	2	"Hi <TEACHER>"	"Hi <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 10:38:09	"student006"	"student"	3	"I’m fine"	"I’m fine"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 10:38:20	"student006"	"student"	4	"And you"	"And you?"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 10:38:39	"teacher001"	"teacher"	5	"Yes fine thanks"	"Yes fine thanks"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 10:39:03	"teacher001"	"teacher"	6	"Did you have  a chance to look at the sentences?"	"Did you have  a chance to look at the sentences?"	NA	"2.0"	"exercise"	"writing"	NA	NA	11
+2020-02-22 10:41:03	"student006"	"student"	7	"Yess"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 10:41:28	"student006"	"student"	8	"Australia  in 1980 had 50% of electric product was produced from coal.  Coal was an importance source, generating around half of electricity in Australia in 1980  Fifty percent of electricity was generated from coal in Australia in 1980  Australia produced 50 percent of electricity from coal in 1980  Coal generated half of electricity in Australia in 1980  Coal was the significant fuel source , generating half of electricity in Australia.  By 2000, coal was the most important source for generating electricity.  The proportion of electricity from coal in Australia was half in 1980 and rose to three quarters in 2000"	"In 1980 Australia had 50% of its electricity produced from coal.  Coal was an important source, generating around half of electricity in Australia in 1980.  Fifty per cent of electricity was generated from coal in Australia in 1980.  Australia produced 50 per cent of electricity from coal in 1980.  Coal generated half of electricity in Australia in 1980. Coal was a significant fuel source, generating half of electricity in Australia.  By 2000, coal was the most important source for generating electricity.  The proportion of electricity from coal in Australia was half in 1980 and rose to three quarters in 2000"	NA	NA	NA	NA	NA	NA	108
+2020-02-22 10:42:10	"teacher001"	"teacher"	9	"Ok! Hold on..."	"Ok! Hold on..."	NA	NA	NA	NA	NA	NA	3
+2020-02-22 10:42:10	"student006"	"student"	10	"Again"	"Again"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 10:42:14	"student006"	"student"	11	"Australia  in 1980 had 50% of electric product was produced from coal.  Coal was an importance source, generating around half of electricity in Australia in 1980.  Fifty percent of electricity was generated from coal in Australia in 1980.  Australia produced 50 percent of electricity from coal in 1980.  Coal generated half of electricity in Australia in 1980.  Coal was the significant fuel source , generating half of electricity in Australia.  By 2000, coal was the most important source for generating electricity.  The proportion of electricity from coal in Australia was half in 1980 and rose to three quarters in 2000."	"In 1980 Australia had 50% of its electricity produced from coal.  Coal was an important source, generating around half of electricity in Australia in 1980.  Fifty per cent of electricity was generated from coal in Australia in 1980.  Australia produced 50 per cent of electricity from coal in 1980.  Coal generated half of electricity in Australia in 1980. Coal was a significant fuel source, generating half of electricity in Australia.  By 2000, coal was the most important source for generating electricity.  The proportion of electricity from coal in Australia was half in 1980 and rose to three quarters in 2000"	NA	NA	NA	NA	NA	NA	108
+2020-02-22 10:43:48	"teacher001"	"teacher"	12	"Ok thanks <STUDENT> - you've basically done really well there - can you try the first one again for me?f"	"Ok thanks <STUDENT> - you've basically done really well there - can you try the first one again for me?f"	NA	"2a"	"eliciting"	"grammatical resource"	NA	NA	20
+2020-02-22 10:44:10	"teacher001"	"teacher"	13	"You need to follow first word with a verb"	"You need to follow first word with a verb"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2020-02-22 10:44:11	"student006"	"student"	14	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 10:45:23	"student006"	"student"	15	"Australia produced half of electricity from coal in 1980"	"Australia produced half of electricity from coal in 1980"	NA	NA	NA	NA	NA	NA	9
+2020-02-22 10:45:35	"teacher001"	"teacher"	16	"Yes great well done"	"Yes great well done"	NA	NA	NA	NA	NA	NA	4
+2020-02-22 10:46:07	"teacher001"	"teacher"	17	"Ok so youve git a variety of correct structures there"	"Ok so youve git a variety of correct structures there"	NA	NA	NA	NA	NA	NA	10
+2020-02-22 10:46:22	"student006"	"student"	18	"Yeh"	"Yeh"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 10:46:57	"teacher001"	"teacher"	19	"<STUDENT> can i ask you a slightly different question now - hold on"	"<STUDENT> can i ask you a slightly different question now - hold on"	NA	"3.0"	NA	NA	NA	NA	13
+2020-02-22 10:47:51	"teacher001"	"teacher"	20	"In your overview fir these charts what information would you include? Just use really simple keywords if you like to tell me"	"In your overview fir these charts what information would you include? Just use really simple keywords if you like to tell me"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	22
+2020-02-22 10:48:19	"teacher001"	"teacher"	21	"Remember it's normally only two or three really big things"	"Remember it's normally only two or three really big things"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	10
+2020-02-22 10:48:45	"teacher001"	"teacher"	22	"You've practised this in class a bit right?"	"You've practised this in class a bit right?"	NA	NA	NA	NA	NA	NA	8
+2020-02-22 10:48:59	"student006"	"student"	23	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 10:49:18	"student006"	"student"	24	"Highest , lowest"	"Highest , lowest"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 10:49:30	"teacher001"	"teacher"	25	"Ok great so take a minute and just think - whats the really big thing ot"	"Ok great so take a minute and just think - whats the really big thing ot"	NA	NA	NA	NA	NA	NA	16
+2020-02-22 10:49:42	"teacher001"	"teacher"	26	"Or things you need to say"	"Or things you need to say"	NA	NA	NA	NA	NA	NA	6
+2020-02-22 10:49:59	"teacher001"	"teacher"	27	"In the overview"	"In the overview"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 10:51:16	"student006"	"student"	28	"In Australia, the most important fuel source was coa"	"In Australia, the most important fuel source was coal"	NA	NA	NA	NA	NA	NA	9
+2020-02-22 10:51:30	"teacher001"	"teacher"	29	"Ok great anything else?"	"Ok great anything else?"	NA	NA	NA	NA	NA	NA	4
+2020-02-22 10:52:53	"student006"	"student"	30	"In France, the least fuel source was hydro power"	"In France, the least important fuel source was hydro power"	NA	NA	NA	NA	NA	NA	9
+2020-02-22 10:53:29	"teacher001"	"teacher"	31	"Ok thanks hold on a sec"	"Ok thanks hold on a sec"	NA	NA	NA	NA	NA	NA	6
+2020-02-22 10:53:33	"student006"	"student"	32	"Both in 1980 and in 2000"	"Both in 1980 and in 2000"	NA	NA	NA	NA	NA	NA	6
+2020-02-22 10:55:12	"teacher001"	"teacher"	33	"Ok <STUDENT> do do they teach you to include the lowest thing always? Is there anything you need to say about france thats more i.portant?"	"Ok <STUDENT> do do they teach you to include the lowest thing always? Is there anything you need to say about france thats more i.portant?"	NA	"3a"	"eliciting"	"writing,task achievement"	NA	NA	25
+2020-02-22 10:57:55	"student006"	"student"	34	"Um"	"Um"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 10:58:37	"teacher001"	"teacher"	35	"Ok well if you say that coal was the most important fuel in Aus tralia then in france?"	"Ok well if you say that coal was the most important fuel in Aus tralia then in france?"	NA	NA	"eliciting"	NA	NA	NA	18
+2020-02-22 10:59:17	"student006"	"student"	36	"Nuclear power was an importance source in France in 2000"	"Nuclear power was an important source in France in 2000"	NA	NA	NA	NA	NA	NA	10
+2020-02-22 10:59:50	"teacher001"	"teacher"	37	"Ok yes that's a more important poi g to make for France here"	"Ok yes that's a more important poi g to make for France here"	NA	NA	NA	NA	NA	NA	13
+2020-02-22 10:59:55	"teacher001"	"teacher"	38	"Point"	"Point"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-02-22 10:59:58	"student006"	"student"	39	"But in France in 1980, Natural gas was an important souce"	"But in France in 1980, natural gas was an important source"	36	NA	NA	NA	NA	NA	11
+2020-02-22 11:00:17	"student006"	"student"	40	"Ah I see"	"Ah I see"	37	NA	NA	NA	NA	NA	3
+2020-02-22 11:01:02	"teacher001"	"teacher"	41	"Yes but overall the main point is that both countries rely on one fuel you see?"	"Yes but overall the main point is that both countries rely on one fuel you see?"	NA	NA	"eliciting"	"task achievement"	NA	NA	16
+2020-02-22 11:01:31	"student006"	"student"	42	"Yess"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:01:49	"student006"	"student"	43	"But I’m not sure about in france"	"But I’m not sure about France"	NA	"3b"	"enquiry"	"task achievement"	NA	NA	7
+2020-02-22 11:02:34	"student006"	"student"	44	"Because the biggest source in France was not the same"	"Because the biggest source in France was not the same"	NA	NA	NA	NA	NA	NA	10
+2020-02-22 11:02:45	"teacher001"	"teacher"	45	"Well i guess thst in 1980 france relied on a variety of sources right?"	"Well i guess thst in 1980 france relied on a variety of sources right?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	14
+2020-02-22 11:03:15	"student006"	"student"	46	"Yess"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:04:21	"teacher001"	"teacher"	47	"BUT by 2000 tbis had co.plety changed and overall tbe biggest thing that had changed was NOT that gas was less important BUT that nuclear power wasBY FAR the MOST IMPORTANT SOURCE.ost"	"BUT by 2000 tbis had co.plety changed and overall tbe biggest thing that had changed was NOT that gas was less important BUT that nuclear power wasBY FAR the MOST IMPORTANT SOURCE.ost"	NA	NA	"scaffolding"	"task achievement"	NA	NA	32
+2020-02-22 11:04:44	"teacher001"	"teacher"	48	"Sorry for crazy typing!"	"Sorry for crazy typing!"	NA	NA	NA	NA	NA	NA	4
+2020-02-22 11:04:59	"teacher001"	"teacher"	49	"Is it clear enough?!"	"Is it clear enough?!"	NA	NA	NA	NA	NA	NA	4
+2020-02-22 11:05:37	"student006"	"student"	50	"U"	"U"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:05:40	"student006"	"student"	51	"Umm"	"Umm"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:05:55	"student006"	"student"	52	"It’s clear"	"It’s clear"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:06:04	"teacher001"	"teacher"	53	"Sure?!"	"Sure?!"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:06:56	"student006"	"student"	54	"Did you mean, we have to focus the biggest proportion source in France"	"Do you mean we have to focus on the source that made up the biggest proportion in France?"	NA	"3c"	"enquiry"	"task achievement"	NA	NA	13
+2020-02-22 11:07:03	"student006"	"student"	55	"In 2000"	"In 2000"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:07:17	"teacher001"	"teacher"	56	"There are various changes it's true BUT relatively speaking it's the biggest thing"	"There are various changes it's true BUT relatively speaking it's the biggest thing"	53	NA	NA	NA	NA	NA	13
+2020-02-22 11:07:36	"student006"	"student"	57	"Because in 1980, proportion is not much different"	"Because in 1980 the proportion was not much different"	NA	NA	NA	NA	NA	NA	8
+2020-02-22 11:07:40	"student006"	"student"	58	"Right"	"Right"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:07:44	"teacher001"	"teacher"	59	"Yes because of my last comment"	"Yes because of my last comment"	54	NA	NA	NA	NA	NA	6
+2020-02-22 11:08:05	"student006"	"student"	60	"Oh"	"Oh"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:08:11	"student006"	"student"	61	"Oh ok"	"Oh ok"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:08:55	"teacher001"	"teacher"	62	"If you imagine this info in a bar chart itmight be easier to see tbd relative diffetence and changes"	"If you imagine this info in a bar chart itmight be easier to see tbd relative diffetence and changes"	NA	NA	NA	NA	NA	NA	19
+2020-02-22 11:09:03	"student006"	"student"	63	"Now, I got this point"	"Now, I got this point"	NA	NA	NA	NA	NA	NA	5
+2020-02-22 11:09:12	"teacher001"	"teacher"	64	"Ok great!"	"Ok great!"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:09:50	"teacher001"	"teacher"	65	"Can i ask you to try an intro for these charts <STUDENT>?"	"Can i ask you to try an intro for these charts <STUDENT>?"	NA	"4.0"	"exercise"	"writing"	NA	NA	12
+2020-02-22 11:10:20	"student006"	"student"	66	"Ok, I"	"Ok, I"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:13:53	"student006"	"student"	67	"The charts illustrate fuel source for generating electricity in France and in Australia both in 1980 and in 2000"	"The charts illustrate fuel sources for generating electricity in France and in Australia both in 1980 and in 2000"	NA	NA	NA	NA	NA	NA	19
+2020-02-22 11:14:48	"teacher001"	"teacher"	68	"Thanks <STUDENT> yes pretty good! Give me a sec"	"Thanks <STUDENT> yes pretty good! Give me a sec"	NA	NA	NA	NA	NA	NA	9
+2020-02-22 11:14:53	"student006"	"student"	69	"Fuel sources are divided into coal, oil, natural gas, hydro power and nuclear power"	"Fuel sources are divided into coal, oil, natural gas, hydro power and nuclear power"	NA	NA	NA	NA	NA	NA	14
+2020-02-22 11:15:23	"teacher001"	"teacher"	70	"Ok so two things ....number one"	"Ok so two things ....number one"	NA	"4a"	"scaffolding"	"task achievement,writing"	NA	NA	6
+2020-02-22 11:16:08	"teacher001"	"teacher"	71	"Better if you say the charts illustrate the significance of different fuel sources"	"Better if you say the charts illustrate the significance of different fuel sources"	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	13
+2020-02-22 11:16:23	"student006"	"student"	72	"Ah ok"	"Ah ok"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:16:56	"teacher001"	"teacher"	73	"Or e.g. the contribution of different fuel sources"	"Or e.g. the contribution of different fuel sources"	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	8
+2020-02-22 11:17:14	"teacher001"	"teacher"	74	"These are a bit clearer"	"These are a bit clearer"	NA	NA	NA	NA	NA	NA	5
+2020-02-22 11:17:46	"student006"	"student"	75	"Ah o"	"Ah ok"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:17:54	"teacher001"	"teacher"	76	"Or...you could also say ...illustrate the proportion of electricity generated from different"	"Or...you could also say ...illustrate the proportion of electricity generated from different"	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	12
+2020-02-22 11:17:58	"teacher001"	"teacher"	77	"Fuels"	"Fuels"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:18:42	"teacher001"	"teacher"	78	"Number two....you can find a way of including the fuels in the same sentence ok?"	"Number two....you can find a way of including the fuels in the same sentence ok?"	NA	"4b"	"scaffolding"	"discourse management,writing"	NA	NA	15
+2020-02-22 11:19:00	"teacher001"	"teacher"	79	"For exames brackets -do you see?"	"For exames brackets -do you see?"	NA	NA	NA	NA	NA	NA	6
+2020-02-22 11:19:19	"teacher001"	"teacher"	80	"Sorry...for example in brackets"	"Sorry...for example in brackets"	NA	NA	NA	NA	NA	NA	4
+2020-02-22 11:19:23	"student006"	"student"	81	"Oh"	"Oh"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:19:33	"student006"	"student"	82	"[]"	"[]"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:19:36	"teacher001"	"teacher"	83	"Hold on"	"Hold on"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:19:41	"student006"	"student"	84	"This"	"This"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:19:48	"student006"	"student"	85	"[ ]"	"[ ]"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:19:54	"teacher001"	"teacher"	86	"Sorry go ahead"	"Sorry go ahead"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 11:20:36	"student006"	"student"	87	"No."	"No."	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:21:11	"student006"	"student"	88	"I just said brackets like [ ] this"	"I just said brackets like [ ] this"	NA	NA	NA	NA	NA	NA	8
+2020-02-22 11:21:13	"student006"	"student"	89	"555.0"	"555.0"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:21:58	"teacher001"	"teacher"	90	"Ok so you could say...illustrate the role of different fuel sources (coal, gas...) in the production of electricity"	"Ok so you could say...illustrate the role of different fuel sources (coal, gas...) in the production of electricity"	NA	NA	"scaffolding"	"discourse management,writing"	NA	NA	18
+2020-02-22 11:22:26	"teacher001"	"teacher"	91	"Include the names of the other fuels too!"	"Include the names of the other fuels too!"	NA	NA	"scaffolding"	"discourse management,writing"	NA	NA	8
+2020-02-22 11:22:42	"teacher001"	"teacher"	92	"Is that clear?"	"Is that clear?"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 11:22:44	"student006"	"student"	93	"Ahh ok"	"Ahh ok"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:22:57	"student006"	"student"	94	"Yes it’s clear"	"Yes it’s clear"	NA	NA	NA	NA	NA	NA	3
+2020-02-22 11:23:01	"student006"	"student"	95	"Thank"	"Thank"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:23:04	"student006"	"student"	96	"You"	"You"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:24:03	"teacher001"	"teacher"	97	"Ok great so....could you try to tell me about gas and hydrpower in Australia in 1980?!"	"Ok great so....could you try to tell me about gas and hydrpower in Australia in 1980?!"	NA	"5.0"	"exercise"	"writing"	NA	NA	16
+2020-02-22 11:24:59	"teacher001"	"teacher"	98	"Do you think it's better to do it in one sentence ortwo??!"	"Do you think it's better to do it in one sentence ortwo??!"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	12
+2020-02-22 11:25:30	"teacher001"	"teacher"	99	"Or better would one sentence be ok?"	"Or better would one sentence be ok?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2020-02-22 11:25:41	"teacher001"	"teacher"	100	"Better question i mean"	"Better question i mean"	NA	NA	"repair"	"writing"	NA	NA	4
+2020-02-22 11:27:45	"student006"	"student"	101	"In France in 1980, natural gas generated least electricity only 5 units but hydro power produced the most electricity for 25 units."	"In France in 1980 natural gas generated the least electricity, only 5 units, but hydro power produced the most electricity, 25 units."	NA	NA	NA	NA	NA	NA	22
+2020-02-22 11:29:25	"teacher001"	"teacher"	102	"Ah! Sorrh can you do it for these two fuels for Australia?!"	"Ah! Sorrh can you do it for these two fuels for Australia?!"	NA	"5a"	NA	NA	NA	NA	12
+2020-02-22 11:29:38	"student006"	"student"	103	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:30:03	"teacher001"	"teacher"	104	"Would yoh put these together for france? Why not?"	"Would yoh put these together for france? Why not?"	NA	"5b"	"eliciting"	"grammatical resource"	NA	NA	9
+2020-02-22 11:30:30	"teacher001"	"teacher"	105	"Because there is no obvious connection right?"	"Because there is no obvious connection right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-02-22 11:30:45	"teacher001"	"teacher"	106	"But in Australia...tbere is!"	"But in Australia...tbere is!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2020-02-22 11:30:55	"student006"	"student"	107	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:31:06	"teacher001"	"teacher"	108	"Ok..."	"Ok..."	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:31:37	"student006"	"student"	109	"In France,"	"In France,"	102	NA	NA	NA	NA	NA	2
+2020-02-22 11:31:53	"teacher001"	"teacher"	110	"No australia!"	"No australia!"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:32:19	"student006"	"student"	111	"Ah sorry"	"Ah sorry"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:32:21	"student006"	"student"	112	"5555.0"	"5555.0"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:32:37	"teacher001"	"teacher"	113	"No problem):"	"No problem):"	NA	NA	NA	NA	NA	NA	2
+2020-02-22 11:35:08	"student006"	"student"	114	"InAustralia in 1980, 20 units of electricity was produced from natural gas  as same as from hydro power"	"In Australia in 1980, 20 units of electricity were produced from natural gas, the same as from hydro power"	NA	NA	NA	NA	NA	NA	19
+2020-02-22 11:35:25	"student006"	"student"	115	"As same proportion as"	"the same proportion as"	NA	NA	NA	NA	NA	NA	4
+2020-02-22 11:35:27	"teacher001"	"teacher"	116	"Ok thanks <STUDENT> hold on..."	"Ok thanks <STUDENT> hold on..."	NA	NA	NA	NA	NA	NA	5
+2020-02-22 11:36:35	"teacher001"	"teacher"	117	"Yes ok pretty good....you could use your structure you just need to say: ...from natural gas, the same as...."	"Yes ok pretty good....you could use your structure you just need to say: ...from natural gas, the same as...."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-02-22 11:36:59	"teacher001"	"teacher"	118	"In other words add a comma and then 'the' ok?"	"In other words add a comma and then 'the' ok?"	NA	NA	"clarification"	NA	NA	NA	10
+2020-02-22 11:37:27	"teacher001"	"teacher"	119	"But yes good and good to put similar things together in ielts task 1 right?"	"But yes good and good to put similar things together in ielts task 1 right?"	NA	NA	"scaffolding"	"task achievement"	NA	NA	15
+2020-02-22 11:37:40	"student006"	"student"	120	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-02-22 11:38:00	"teacher001"	"teacher"	121	"Ok thanks <STUDENT> speak to you soon!"	"Ok thanks <STUDENT> speak to you soon!"	NA	"6.0"	"closing"	NA	NA	NA	7
+2020-02-22 11:38:10	"student006"	"student"	122	"Ok thank you so much"	"Ok thank you so much"	NA	NA	NA	NA	NA	"B1"	5

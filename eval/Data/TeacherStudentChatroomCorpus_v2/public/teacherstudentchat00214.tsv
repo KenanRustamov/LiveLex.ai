@@ -1,0 +1,226 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-03-10 10:31:36	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-03-10 10:31:45	"student011"	"student"	2	"How is life?"	"How is life?"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 10:31:55	"teacher008"	"teacher"	3	"Hiya! All good, thank you!"	"Hiya! All good, thank you!"	NA	NA	NA	NA	NA	NA	5
+2021-03-10 10:31:58	"teacher008"	"teacher"	4	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 10:32:11	"student011"	"student"	5	"I'm ok, thank you! )"	"I'm ok, thank you! )"	NA	NA	NA	NA	NA	NA	5
+2021-03-10 10:32:27	"student011"	"student"	6	"Is <TEACHER'S CHILD> at the school now? )"	"Is <TEACHER'S CHILD> at school now? )"	NA	"2.0"	"topic opening"	NA	NA	NA	8
+2021-03-10 10:32:27	"teacher008"	"teacher"	7	"Have you had a nice yoga session?"	"Have you had a nice yoga session?"	NA	"3.0"	"topic opening"	NA	NA	NA	7
+2021-03-10 10:33:02	"teacher008"	"teacher"	8	"Yes, he is! We can now work in peace and quiet! But I do miss him..."	"Yes, he is! We can now work in peace and quiet! But I do miss him..."	"6.0"	NA	NA	NA	NA	NA	16
+2021-03-10 10:33:28	"student011"	"student"	9	"Today I haven't had. Usually I have pilates on Monday and yoga on Friday"	"Today I haven't had it. Usually I have pilates on Monday and yoga on Friday"	"7.0"	NA	NA	NA	NA	NA	14
+2021-03-10 10:33:55	"teacher008"	"teacher"	10	"What about Wednesday?"	"What about Wednesday?"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 10:34:12	"student011"	"student"	11	"And sometimes I have strength training on Wednesday"	"And sometimes I have strength training on Wednesday"	NA	NA	NA	NA	NA	NA	8
+2021-03-10 10:34:25	"student011"	"student"	12	"But today I've missed it )"	"But today I've missed it )"	NA	NA	NA	NA	NA	NA	6
+2021-03-10 10:34:58	"student011"	"student"	13	"I see. I miss <STUDENT'S CHILD> all the time"	"I see. I miss <STUDENT'S CHILD> all the time"	"8.0"	NA	NA	NA	NA	NA	9
+2021-03-10 10:35:04	"teacher008"	"teacher"	14	"Oh I see! Fair enough"	"Oh I see! Fair enough"	"12.0"	NA	NA	NA	NA	NA	5
+2021-03-10 10:35:10	"student011"	"student"	15	"Today I have had a face massage"	"Today I have had a face massage"	NA	NA	NA	NA	NA	NA	7
+2021-03-10 10:35:30	"student011"	"student"	16	"I try do it every week and I can see the result"	"I try to do it every week and I can see the result"	NA	NA	NA	NA	NA	NA	12
+2021-03-10 10:35:36	"teacher008"	"teacher"	17	"It's difficult, isn't it? On the one hand, you want some time to get some work done; on the other hand, you miss your little one"	"It's difficult, isn't it? On the one hand, you want some time to get some work done; on the other hand, you miss your little one"	"13.0"	NA	NA	NA	NA	NA	26
+2021-03-10 10:35:39	"student011"	"student"	18	"It pays me off )"	"It pays off for me )"	"16.0"	NA	NA	NA	NA	NA	5
+2021-03-10 10:35:55	"teacher008"	"teacher"	19	"It pays off for you! Yes!"	"It pays off for you! Yes!"	NA	"3a"	"repair"	"lexical resource"	NA	NA	6
+2021-03-10 10:36:22	"student011"	"student"	20	"Agree, it's difficult, but we still need time for ourselves"	"Agree, it's difficult, but we still need time for ourselves"	"17.0"	NA	NA	NA	NA	NA	10
+2021-03-10 10:36:39	"student011"	"student"	21	"Ah! It pays off for me )"	"Ah! It pays off for me )"	"19.0"	NA	NA	NA	NA	NA	7
+2021-03-10 10:37:19	"student011"	"student"	22	"And even more about children. I feel like I became a crazy mom when I spend all the time with <STUDENT'S CHILD>"	"And even more about children. I feel like I become a crazy mom when I spend all the time with <STUDENT'S CHILD>"	"20.0"	NA	NA	NA	NA	NA	22
+2021-03-10 10:37:29	"student011"	"student"	23	"I don't like my feeling then"	"I don't like feeling like that"	NA	NA	NA	NA	NA	NA	6
+2021-03-10 10:38:05	"student011"	"student"	24	"So I think it's vital for me to work and to do something just for me"	"So I think it's vital for me to work and to do something just for me"	NA	NA	NA	NA	NA	NA	16
+2021-03-10 10:38:11	"teacher008"	"teacher"	25	"Yes, you can, of course, say, pay someone. I paid a massage therapist for a massage, for example"	"Yes, you can, of course, say, pay someone. I paid a massage therapist for a massage, for example"	"21.0"	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2021-03-10 10:38:35	"teacher008"	"teacher"	26	"But efforts / regular face massages pay off"	"But efforts / regular face massages pay off"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-10 10:38:45	"teacher008"	"teacher"	27	"or pay off for me"	"or pay off for me"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-03-10 10:38:47	"student011"	"student"	28	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 10:39:17	"student011"	"student"	29	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 10:39:19	"teacher008"	"teacher"	30	"Yes, it's so important! Vital is a very good word here :)"	"Yes, it's so important! Vital is a very good word here :)"	"24.0"	NA	NA	NA	NA	NA	12
+2021-03-10 10:39:30	"student011"	"student"	31	"thank you ))"	"thank you ))"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 10:40:39	"teacher008"	"teacher"	32	"Well, well, do you know what the UK has been buzzing about in the last couple of weeks?"	"Well, well, do you know what the UK has been buzzing about in the last couple of weeks?"	NA	"4.0"	"topic opening"	NA	NA	NA	18
+2021-03-10 10:41:15	"student011"	"student"	33	"Oh!"	"Oh!"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 10:41:22	"student011"	"student"	34	"Yes of course!"	"Yes of course!"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 10:41:42	"student011"	"student"	35	"I wold like to ask you what do you think about the situation"	"I would like to ask you what you think about the situation"	NA	NA	NA	NA	NA	NA	13
+2021-03-10 10:41:46	"student011"	"student"	36	"would"	"would"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-10 10:42:03	"teacher008"	"teacher"	37	"Oh do you? You're very well informed :)"	"Oh do you? You're very well informed :)"	"34.0"	NA	NA	NA	NA	NA	8
+2021-03-10 10:42:11	"teacher008"	"teacher"	38	"You mean the Meghan and Harry situation?"	"You mean the Meghan and Harry situation?"	"35.0"	NA	NA	NA	NA	NA	7
+2021-03-10 10:42:36	"student011"	"student"	39	"Do you mean the interview of Meghan and Harry?"	"Do you mean the interview with Meghan and Harry?"	"37.0"	NA	NA	NA	NA	NA	9
+2021-03-10 10:42:45	"student011"	"student"	40	"Yes )"	"Yes )"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 10:43:14	"teacher008"	"teacher"	41	"Yes, sure) Have you seen it? I haven't, it's not on youtube yet (and I'm not sure I want to spend 2 hours on it)"	"Yes, sure) Have you seen it? I haven't, it's not on youtube yet (and I'm not sure I want to spend 2 hours on it)"	NA	NA	NA	NA	NA	NA	25
+2021-03-10 10:43:49	"student011"	"student"	42	"Actually I think it's not just about the UK. I think that all the world are watching (on?) this story"	"Actually I think it's not just about the UK. I think that all the world is watching (on?) this story"	"40.0"	NA	NA	NA	NA	NA	20
+2021-03-10 10:44:07	"student011"	"student"	43	"No, I haven't watched it"	"No, I haven't watched it"	"41.0"	NA	NA	NA	NA	NA	5
+2021-03-10 10:44:18	"teacher008"	"teacher"	44	"Neither have I"	"Neither have I"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 10:44:38	"student011"	"student"	45	"And actually I'm not sure that I have enough patience to watch"	"And actually I'm not sure that I have enough patience to watch"	NA	NA	NA	NA	NA	NA	12
+2021-03-10 10:44:49	"teacher008"	"teacher"	46	"Me neither!"	"Me neither!"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 10:44:55	"student011"	"student"	47	"Yeeees! ))"	"Yeeees! ))"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 10:45:05	"student011"	"student"	48	"Ok! So Neither have I )"	"Ok! So Neither have I )"	NA	NA	NA	NA	NA	NA	6
+2021-03-10 10:45:17	"teacher008"	"teacher"	49	"that's right :))"	"that's right :))"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 10:45:45	"student011"	"student"	50	"m not sure also that I really want to watch it )"	"I'm also not sure that I really want to watch it )"	NA	NA	NA	NA	NA	NA	12
+2021-03-10 10:46:12	"teacher008"	"teacher"	51	"Well, they say the UK is split into two. Older people are sorry for the Queen and 'senior royals' and younger people are sorry for Harry and Meghan"	"Well, they say the UK is split into two. Older people are sorry for the Queen and 'senior royals' and younger people are sorry for Harry and Meghan"	NA	"4a"	"topic development"	NA	NA	NA	28
+2021-03-10 10:46:50	"student011"	"student"	52	"I'm not sure that I have my own opinion here"	"I'm not sure that I have my own opinion here"	NA	NA	NA	NA	NA	NA	10
+2021-03-10 10:46:54	"student011"	"student"	53	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 10:47:36	"teacher008"	"teacher"	54	"But I'm not terribly surprised. The royals are not the easiest family to marry into, especially for someone who is used to being an independent woman like Meghan was"	"But I'm not terribly surprised. The royals are not the easiest family to marry into, especially for someone who is used to being an independent woman like Meghan was"	"51.0"	NA	NA	NA	NA	NA	29
+2021-03-10 10:47:58	"teacher008"	"teacher"	55	"Yes, it's hard to say, isn't it!"	"Yes, it's hard to say, isn't it!"	"52.0"	NA	NA	NA	NA	NA	7
+2021-03-10 10:48:09	"teacher008"	"teacher"	56	"I'm actually much more shocked by something else"	"I'm actually much more shocked by something else"	NA	"4b"	"topic development"	NA	NA	NA	8
+2021-03-10 10:48:26	"student011"	"student"	57	"I'm sorry for Meghan if she feels so bad about the story, but I don't know if she is (truthful)?"	"I'm sorry for Meghan if she feels so bad about the story, but I don't know if she is (truthful)?"	"55.0"	"4c"	"enquiry"	"lexical resource"	NA	NA	20
+2021-03-10 10:49:00	"teacher008"	"teacher"	58	"Yes, you can say if she is truthful / honest / if she is telling the truth"	"Yes, you can say if she is truthful / honest / if she is telling the truth"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2021-03-10 10:49:02	"student011"	"student"	59	"so I don't know what is the right position here )"	"so I don't know what the right position here is)"	"57.0"	NA	NA	NA	NA	NA	11
+2021-03-10 10:49:30	"teacher008"	"teacher"	60	"Remember we were talking about how bills go through parliament and become laws? a while ago?"	"Remember we were talking about how bills go through parliament and become laws? a while ago?"	"56.0"	NA	"revision"	"lexical resource,world knowledge"	NA	NA	16
+2021-03-10 10:50:11	"student011"	"student"	61	"You've written that you are much more shocked by something else ? What is it?"	"You've written that you are much more shocked by something else ? What is it?"	"56.0"	NA	NA	NA	NA	NA	15
+2021-03-10 10:50:29	"teacher008"	"teacher"	62	"Yes, I'm getting there :)"	"Yes, I'm getting there :)"	NA	NA	NA	NA	NA	NA	5
+2021-03-10 10:50:53	"student011"	"student"	63	"Of course, I remember"	"Of course, I remember"	"60.0"	NA	NA	NA	NA	NA	4
+2021-03-10 10:51:07	"teacher008"	"teacher"	64	"And then the Queen approves the law (it's called the royal assent). In theory, she has veto powers but she never uses it, it's a formality"	"And then the Queen approves the law (it's called the royal assent). In theory, she has veto powers but she never uses it, it's a formality"	NA	NA	"revision"	"lexical resource,world knowledge"	NA	NA	26
+2021-03-10 10:51:15	"student011"	"student"	65	"What does it mean I'm getting there? )"	"What does 'I'm getting there' mean? )"	"62.0"	"4d"	"enquiry"	"lexical resource,meaning"	NA	NA	8
+2021-03-10 10:51:31	"teacher008"	"teacher"	66	"I'm getting to the point of telling you what I'm shocked about))"	"I'm getting to the point of telling you what I'm shocked about))"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-03-10 10:51:46	"student011"	"student"	67	"Ok )"	"Ok )"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 10:52:06	"student011"	"student"	68	"Yes I remember about the Queen's veto"	"Yes I remember about the Queen's veto"	"64.0"	NA	NA	NA	NA	NA	7
+2021-03-10 10:53:20	"teacher008"	"teacher"	69	"Well, it turns out, the Queen has much more power than we ever knew! Apparently, she looks at bills before they go to the Parliament and she has changed / thrown away some of them, especially the ones that are not good for her. For example, if a bill means people will find out about how rich she is or there is a danger that she will lose some of her land / powers"	"Well, it turns out, the Queen has much more power than we ever knew! Apparently, she looks at bills before they go to the Parliament and she has changed / thrown away some of them, especially the ones that are not good for her. For example, if a bill means people will find out about how rich she is or there is a danger that she will lose some of her land / powers"	NA	NA	NA	NA	NA	NA	74
+2021-03-10 10:53:42	"teacher008"	"teacher"	70	"She vetoes some bills before they even get to the Parliament!"	"She vetoes some bills before they even get to the Parliament!"	NA	NA	NA	NA	NA	NA	11
+2021-03-10 10:54:13	"student011"	"student"	71	"Really?"	"Really?"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 10:54:16	"teacher008"	"teacher"	72	"This was a new investigation, and this practice is completely undemocratic, of course, and means that the Queen has much more power than anybody thought"	"This was a new investigation, and this practice is completely undemocratic, of course, and means that the Queen has much more power than anybody thought"	NA	NA	NA	NA	NA	NA	25
+2021-03-10 10:54:31	"teacher008"	"teacher"	73	"Yes, the investigation was done by one of the leading newspapers, the Guardian"	"Yes, the investigation was done by one of the leading newspapers, the Guardian"	"71.0"	NA	NA	NA	NA	NA	13
+2021-03-10 10:55:03	"student011"	"student"	74	"Yes, people think that she is just 'milaya starushka' )))"	"Yes, people think that she is just 'milaya starushka' )))"	"72.0"	NA	"non-English"	"code switching,lexical resource"	NA	NA	10
+2021-03-10 10:55:11	"teacher008"	"teacher"	75	"She apparently looked through more than 1000 bills before they got to the Parliament"	"She apparently looked through more than 1000 bills before they got to the Parliament"	"73.0"	NA	NA	NA	NA	NA	14
+2021-03-10 10:55:29	"teacher008"	"teacher"	76	"Exactly! But she is a very powerful woman, protecting her wealth and her power"	"Exactly! But she is a very powerful woman, protecting her wealth and her power"	"74.0"	NA	NA	NA	NA	NA	14
+2021-03-10 10:55:40	"student011"	"student"	77	"during which period?"	"during which period?"	"75.0"	NA	NA	NA	NA	NA	3
+2021-03-10 10:55:59	"teacher008"	"teacher"	78	"I should have said 'has looked', during her rule"	"I should have said 'has looked', during her rule"	"75.0"	"4e"	"repair"	"grammatical resource"	NA	NA	9
+2021-03-10 10:56:18	"teacher008"	"teacher"	79	"She has looked through more than 1000 bills since she became the Queen"	"She has looked through more than 1000 bills since she became the Queen"	"77, 78"	NA	NA	NA	NA	NA	13
+2021-03-10 10:56:25	"teacher008"	"teacher"	80	"That's good grammar now :)"	"That's good grammar now :)"	NA	NA	NA	NA	NA	NA	5
+2021-03-10 10:56:44	"student011"	"student"	81	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 10:57:35	"teacher008"	"teacher"	82	"How shocking is that?!"	"How shocking is that?!"	"79.0"	"4d (continued)"	NA	NA	NA	NA	4
+2021-03-10 10:57:51	"student011"	"student"	83	"Shocking shocking!"	"Shocking shocking!"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 10:58:20	"student011"	"student"	84	"she is not milaya starushka"	"she is not milaya starushka"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	5
+2021-03-10 10:58:20	"teacher008"	"teacher"	85	"Exactly! :)"	"Exactly! :)"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 10:58:27	"teacher008"	"teacher"	86	"Not at all!"	"Not at all!"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 10:59:10	"teacher008"	"teacher"	87	"Ok, but have you seen the interview that Prince Harry gave to James Corden, a couple of weeks ago?"	"Ok, but have you seen the interview that Prince Harry gave to James Corden, a couple of weeks ago?"	NA	"5.0"	"topic opening"	NA	NA	NA	19
+2021-03-10 10:59:20	"student011"	"student"	88	"is that investigation was published on the Guardian website?"	"was that investigation published on the Guardian website?"	"86.0"	NA	NA	NA	NA	NA	9
+2021-03-10 10:59:28	"student011"	"student"	89	"Or there is a video?"	"Or there is a video?"	NA	NA	NA	NA	NA	NA	5
+2021-03-10 10:59:39	"teacher008"	"teacher"	90	"James Corden is an actor, musician and TV presenter from the UK, but he moved to Los Angeles a while ago"	"James Corden is an actor, musician and TV presenter from the UK, but he moved to Los Angeles a while ago"	"87.0"	NA	NA	NA	NA	NA	21
+2021-03-10 10:59:56	"teacher008"	"teacher"	91	"It's a series of articles, I'll send you links if you're curious"	"It's a series of articles, I'll send you links if you're curious"	"89.0"	NA	NA	NA	NA	NA	12
+2021-03-10 11:00:01	"teacher008"	"teacher"	92	"On the Guardian website, yes!"	"On the Guardian website, yes!"	"88.0"	NA	NA	NA	NA	NA	5
+2021-03-10 11:00:03	"student011"	"student"	93	"No, I haven't seen it"	"No, I haven't seen it"	"87.0"	NA	NA	NA	NA	NA	5
+2021-03-10 11:00:38	"student011"	"student"	94	"What about is it?"	"What is it about?"	NA	NA	NA	NA	NA	NA	4
+2021-03-10 11:00:43	"teacher008"	"teacher"	95	"Ah, good! Because this is going to be your homework. This is the most fun royal interview I've ever seen! I'm sure you'll enjoy it"	"Ah, good! Because this is going to be your homework. This is the most fun royal interview I've ever seen! I'm sure you'll enjoy it"	NA	NA	NA	NA	NA	NA	25
+2021-03-10 11:00:59	"teacher008"	"teacher"	96	"And I'm going to give you some vocabulary for it in a minute"	"And I'm going to give you some vocabulary for it in a minute"	NA	NA	NA	NA	NA	NA	13
+2021-03-10 11:01:33	"teacher008"	"teacher"	97	"When Harry and Meghan stepped down as royals, they moved to Canada, and then they moved to LA"	"When Harry and Meghan stepped down as royals, they moved to Canada, and then they moved to LA"	"94.0"	NA	NA	NA	NA	NA	18
+2021-03-10 11:01:34	"student011"	"student"	98	"Ok! )"	"Ok! )"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:01:56	"teacher008"	"teacher"	99	"I don't want to spoil it for you!"	"I don't want to spoil it for you!"	NA	NA	NA	NA	NA	NA	8
+2021-03-10 11:02:44	"student011"	"student"	100	"I see )"	"I see )"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:02:45	"teacher008"	"teacher"	101	"Ok, are you ready for some new words? Maybe not all of them new)"	"Ok, are you ready for some new words? Maybe not all of them new)"	NA	"6.0"	"presentation"	"lexical resource"	NA	NA	14
+2021-03-10 11:03:02	"student011"	"student"	102	"I'm ready! )"	"I'm ready! )"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:03:36	"teacher008"	"teacher"	103	"Ok, the first one is 'fare': a bus fare, a train fare (the money you pay to ride on public transport)"	"Ok, the first one is 'fare': a bus fare, a train fare (the money you pay to ride on public transport)"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	21
+2021-03-10 11:04:14	"teacher008"	"teacher"	104	"When I first moved to Kyiv, a bus fare was about 2 hryvnas, and when I was leaving, it was about 5 :)"	"When I first moved to Kyiv, a bus fare was about 2 hryvnas, and when I was leaving, it was about 5 :)"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	23
+2021-03-10 11:04:32	"student011"	"student"	105	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 11:04:44	"teacher008"	"teacher"	106	"What's the underground fare these days?"	"What's the underground fare these days?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	6
+2021-03-10 11:05:59	"student011"	"student"	107	"I think the underground fare is 8 uah now"	"I think the underground fare is 8 uah now"	NA	NA	NA	NA	NA	NA	9
+2021-03-10 11:06:12	"teacher008"	"teacher"	108	"Oh my goodness! I think it used to be 1 uah"	"Oh my goodness! I think it used to be 1 uah"	NA	NA	NA	NA	NA	NA	11
+2021-03-10 11:06:27	"teacher008"	"teacher"	109	"But still, it's much cheaper than London transport fares :)"	"But still, it's much cheaper than London transport fares :)"	NA	NA	NA	NA	NA	NA	10
+2021-03-10 11:07:06	"student011"	"student"	110	"I'n not sure because now I don't have to use the metro and I try to avoid it because it's crowded"	"I'n not sure because now I don't have to use the metro and I try to avoid it because it's crowded"	"107.0"	NA	NA	NA	NA	NA	21
+2021-03-10 11:07:24	"teacher008"	"teacher"	111	"I can imagine!"	"I can imagine!"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:07:29	"teacher008"	"teacher"	112	"Ok, next one!"	"Ok, next one!"	NA	"6a"	"presentation"	"lexical resource"	NA	NA	3
+2021-03-10 11:07:38	"student011"	"student"	113	"It's chipper you are right )"	"It's cheaper you are right )"	"109.0"	NA	NA	NA	NA	NA	6
+2021-03-10 11:08:07	"teacher008"	"teacher"	114	"If you imagine a crown (like the one the Queen wears), it's very heavy because it's made of metal and is decorated with....."	"If you imagine a crown (like the one the Queen wears), it's very heavy because it's made of metal and is decorated with....."	"112.0"	NA	"presentation"	"lexical resource,meaning"	NA	NA	23
+2021-03-10 11:08:23	"teacher008"	"teacher"	115	"shiny beautiful very expensive stones"	"shiny beautiful very expensive stones"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	5
+2021-03-10 11:08:27	"teacher008"	"teacher"	116	"called 'gems'"	"called 'gems'"	NA	NA	"presentation"	"lexical resource"	NA	NA	2
+2021-03-10 11:08:39	"teacher008"	"teacher"	117	"/dʒem/"	"/dʒem/"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	1
+2021-03-10 11:08:50	"student011"	"student"	118	"Aha! I see"	"Aha! I see"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:10:08	"teacher008"	"teacher"	119	"Ok, and if you're a tourist in London, you can go to some famous places, like Trafalgar Square, Hyde Park etc. etc., but also, you can find some less famous and less crowded places that are still very interesting"	"Ok, and if you're a tourist in London, you can go to some famous places, like Trafalgar Square, Hyde Park etc. etc., but also, you can find some less famous and less crowded places that are still very interesting"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	39
+2021-03-10 11:10:19	"teacher008"	"teacher"	120	"Places like these are called 'hidden gems'"	"Places like these are called 'hidden gems'"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	7
+2021-03-10 11:10:33	"teacher008"	"teacher"	121	"They are very interesting, but not many people know about them!"	"They are very interesting, but not many people know about them!"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	11
+2021-03-10 11:11:07	"student011"	"student"	122	"Ok! A very goo explanation actually"	"Ok! A very good explanation actually"	NA	NA	NA	NA	NA	NA	6
+2021-03-10 11:11:11	"student011"	"student"	123	"good"	"good"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-10 11:11:41	"teacher008"	"teacher"	124	"Ok, cool, I'm going to be moving on quite fast, so that we have the time for all the words. Next one!"	"Ok, cool, I'm going to be moving on quite fast, so that we have the time for all the words. Next one!"	NA	"6b"	"presentation"	"lexical resource"	NA	NA	22
+2021-03-10 11:11:46	"teacher008"	"teacher"	125	"an obstacle course"	"an obstacle course"	NA	NA	"presentation"	"lexical resource"	NA	NA	3
+2021-03-10 11:12:21	"teacher008"	"teacher"	126	"it's a race in which runners have to climb over things, jump, hit a target etc. etc."	"it's a race in which runners have to climb over things, jump, hit a target etc. etc."	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	17
+2021-03-10 11:12:24	"teacher008"	"teacher"	127	"not just run"	"not just run"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	3
+2021-03-10 11:12:31	"student011"	"student"	128	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:12:48	"teacher008"	"teacher"	129	"maybe the best way is to google a picture of an obstacle course"	"maybe the best way is to google a picture of an obstacle course"	NA	NA	"presentation,reference"	"lexical resource,meaning"	"website"	NA	13
+2021-03-10 11:13:44	"teacher008"	"teacher"	130	"But you can imagine it, right? There are obstacle courses for dogs too, for example, not just for people"	"But you can imagine it, right? There are obstacle courses for dogs too, for example, not just for people"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	19
+2021-03-10 11:14:22	"student011"	"student"	131	"It's understandable 100%"	"It's understandable 100%"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:14:26	"student011"	"student"	132	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 11:14:41	"teacher008"	"teacher"	133	"Ok, next one! As you know, Harry is a prince, but his official title is the Duke of Sussex"	"Ok, next one! As you know, Harry is a prince, but his official title is the Duke of Sussex"	NA	"6c"	"presentation"	"lexical resource"	NA	NA	19
+2021-03-10 11:14:56	"teacher008"	"teacher"	134	"and Meghan is....?? (the female version of duke)"	"and Meghan is....?? (the female version of duke)"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	8
+2021-03-10 11:15:39	"teacher008"	"teacher"	135	"the duchess"	"the duchess"	NA	NA	"presentation"	"lexical resource"	NA	NA	2
+2021-03-10 11:15:46	"teacher008"	"teacher"	136	"the Duchess of Sussex"	"the Duchess of Sussex"	NA	NA	"presentation"	"lexical resource"	NA	NA	4
+2021-03-10 11:15:56	"student011"	"student"	137	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:16:20	"teacher008"	"teacher"	138	"By the way, Harry calls her 'Meg' in the interview (just to help with understanding when you're listening). And their little son is Archie"	"By the way, Harry calls her 'Meg' in the interview (just to help with understanding when you're listening). And their little son is Archie"	NA	"6d"	"scaffolding"	"listening"	NA	NA	24
+2021-03-10 11:16:28	"teacher008"	"teacher"	139	"Not a very common royal name at all :)"	"Not a very common royal name at all :)"	NA	NA	NA	NA	NA	NA	9
+2021-03-10 11:16:57	"student011"	"student"	140	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 11:17:44	"student011"	"student"	141	"How old is he actually?"	"How old is he actually?"	NA	NA	NA	NA	NA	NA	5
+2021-03-10 11:17:49	"student011"	"student"	142	"! year old?"	"1 year old?"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:17:51	"teacher008"	"teacher"	143	"1,5 I think"	"1,5 I think"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:17:51	"student011"	"student"	144	"1.0"	"1.0"	"142.0"	NA	"repair"	"writing"	NA	NA	1
+2021-03-10 11:17:55	"teacher008"	"teacher"	145	"Yes, something like that"	"Yes, something like that"	NA	NA	NA	NA	NA	NA	4
+2021-03-10 11:17:58	"student011"	"student"	146	"Aha, thank you"	"Aha, thank you"	"143.0"	NA	NA	NA	NA	NA	3
+2021-03-10 11:18:03	"teacher008"	"teacher"	147	"Ok, next one!"	"Ok, next one!"	NA	"6e"	"presentation"	"lexical resource"	NA	NA	3
+2021-03-10 11:18:31	"teacher008"	"teacher"	148	"If someone find the love of their life, this person is 'the one' for them"	"If someone find the love of their life, this person is 'the one' for them"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	15
+2021-03-10 11:18:48	"teacher008"	"teacher"	149	"James Corden asks Harry, 'When did you realize that Meghan was the one?'"	"James Corden asks Harry, 'When did you realize that Meghan was the one?'"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	13
+2021-03-10 11:18:56	"student011"	"student"	150	"aha, ok )))"	"aha, ok )))"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:19:00	"teacher008"	"teacher"	151	"the one' as in 'the one and only', 'the best one'"	"the one' as in 'the one and only', 'the best one'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-03-10 11:19:21	"teacher008"	"teacher"	152	"Yes, it's quite intuitive"	"Yes, it's quite intuitive"	NA	NA	NA	NA	NA	NA	4
+2021-03-10 11:19:49	"teacher008"	"teacher"	153	"Ok, and if two people meet and like each other straightaway, we can say that they 'hit it off'"	"Ok, and if two people meet and like each other straightaway, we can say that they 'hit it off'"	NA	"6f"	"presentation"	"lexical resource,meaning"	NA	NA	19
+2021-03-10 11:20:36	"teacher008"	"teacher"	154	"It's not necessarily about a romantic relationship. I think you and me hit it off when we first met 8 (??) years ago :)"	"It's not necessarily about a romantic relationship. I think you and me hit it off when we first met 8 (??) years ago :)"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	24
+2021-03-10 11:20:45	"teacher008"	"teacher"	155	"At least I knew I liked you straightaway"	"At least I knew I liked you straightaway"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	8
+2021-03-10 11:20:48	"student011"	"student"	156	"is it just about love?"	"is it just about love?"	"153.0"	NA	"enquiry"	"lexical resource,meaning"	NA	NA	5
+2021-03-10 11:20:58	"teacher008"	"teacher"	157	"No, not only!"	"No, not only!"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:20:58	"student011"	"student"	158	"Ah, Ok. I see now"	"Ah, Ok. I see now"	"154.0"	NA	NA	NA	NA	NA	5
+2021-03-10 11:21:03	"student011"	"student"	159	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 11:21:23	"teacher008"	"teacher"	160	"Ok, next one!"	"Ok, next one!"	NA	"6g"	"presentation"	"lexical resource"	NA	NA	3
+2021-03-10 11:21:29	"student011"	"student"	161	"We completely hit it off ))"	"We completely hit it off ))"	"159.0"	NA	NA	NA	NA	NA	6
+2021-03-10 11:21:57	"teacher008"	"teacher"	162	"Today is the new word attack, we will practice and chat more on Friday, ok?"	"Today is the new word attack, we will practice and chat more on Friday, ok?"	"160.0"	NA	NA	NA	NA	NA	15
+2021-03-10 11:22:00	"teacher008"	"teacher"	163	"Yes, we did))"	"Yes, we did))"	"161.0"	NA	NA	NA	NA	NA	3
+2021-03-10 11:22:14	"student011"	"student"	164	"ok )"	"ok )"	"162.0"	NA	NA	NA	NA	NA	2
+2021-03-10 11:22:27	"student011"	"student"	165	"I'm ready )"	"I'm ready )"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:22:31	"teacher008"	"teacher"	166	"Ok! Do you know 'fiction'? and 'fictional'?"	"Ok! Do you know 'fiction'? and 'fictional'?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	7
+2021-03-10 11:22:57	"student011"	"student"	167	"Like a genre?"	"Like a genre?"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:23:02	"teacher008"	"teacher"	168	"Like books / films. If a book is fiction, it's written about imaginary characters and situations"	"Like books / films. If a book is fiction, it's written about imaginary characters and situations"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2021-03-10 11:23:17	"student011"	"student"	169	"Yes, I know )"	"Yes, I know )"	NA	NA	NA	NA	NA	NA	4
+2021-03-10 11:23:32	"teacher008"	"teacher"	170	"But if it's non-fiction, it's about history, science etc. What actually happened / what is actually true"	"But if it's non-fiction, it's about history, science etc. What actually happened / what is actually true"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2021-03-10 11:23:42	"teacher008"	"teacher"	171	"Ok, cool!"	"Ok, cool!"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:23:44	"student011"	"student"	172	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:24:03	"teacher008"	"teacher"	173	"And also, a book / film can be based on a true story"	"And also, a book / film can be based on a true story"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2021-03-10 11:24:13	"teacher008"	"teacher"	174	"or maybe 'loosely based on' a true story"	"or maybe 'loosely based on' a true story"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-10 11:24:14	"student011"	"student"	175	"Bris prefers to write non-fiction books )"	"Boris prefers to write non-fiction books )"	NA	NA	NA	NA	NA	NA	7
+2021-03-10 11:24:31	"student011"	"student"	176	"Boris"	"Boris"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-10 11:24:32	"teacher008"	"teacher"	177	"It's not very accurate, but it's loosely based on the truth"	"It's not very accurate, but it's loosely based on the truth"	"174.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-03-10 11:25:01	"teacher008"	"teacher"	178	"Yes, the Churchill book is non-fiction I guess. If he tried to be accurate about history"	"Yes, the Churchill book is non-fiction I guess. If he tried to be accurate about history"	"175.0"	NA	NA	NA	NA	NA	16
+2021-03-10 11:25:47	"student011"	"student"	179	"ok, so loosely based it's like based on truth but not 100%"	"ok, so loosely based it's like based on the truth but not 100%"	"177.0"	NA	NA	NA	NA	NA	12
+2021-03-10 11:25:49	"student011"	"student"	180	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:26:06	"teacher008"	"teacher"	181	"yes, it's maybe 70% :)"	"yes, it's maybe 70% :)"	NA	NA	NA	NA	NA	NA	5
+2021-03-10 11:26:12	"student011"	"student"	182	"haha ) Ok ))"	"haha ) Ok ))"	NA	NA	NA	NA	NA	NA	4
+2021-03-10 11:27:00	"teacher008"	"teacher"	183	"Ok, in the interview Harry talks about 'public service'. The life of a royal is given to public service. Public service means things that are done for the people of the country, such as hospitals, libraries, schools, charities etc."	"Ok, in the interview Harry talks about 'public service'. The life of a royal is given to public service. Public service means things that are done for the people of the country, such as hospitals, libraries, schools, charities etc."	NA	"6h"	"presentation"	"lexical resource,meaning"	NA	NA	39
+2021-03-10 11:27:10	"teacher008"	"teacher"	184	"Trying to improve the life of people"	"Trying to improve the life of people"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	7
+2021-03-10 11:27:17	"teacher008"	"teacher"	185	"without making money out of it"	"without making money out of it"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	6
+2021-03-10 11:27:37	"student011"	"student"	186	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:27:50	"teacher008"	"teacher"	187	"Ok, an easy one"	"Ok, an easy one"	NA	"6i"	"presentation"	"lexical resource"	NA	NA	4
+2021-03-10 11:27:56	"teacher008"	"teacher"	188	"hysterical = very funny"	"hysterical = very funny"	NA	NA	"presentation"	"lexical resource"	NA	NA	4
+2021-03-10 11:28:04	"student011"	"student"	189	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 11:28:24	"student011"	"student"	190	"not the same in Ukrainian or Russian )"	"not the same in Ukrainian or Russian )"	NA	NA	NA	NA	NA	NA	8
+2021-03-10 11:28:29	"teacher008"	"teacher"	191	"well, this is not always the meaning, but in the way Harry uses it"	"well, this is not always the meaning, but in the way Harry uses it"	NA	NA	"presentation"	"lexical resource"	NA	NA	14
+2021-03-10 11:28:40	"teacher008"	"teacher"	192	"No, not the same at all!"	"No, not the same at all!"	"190.0"	NA	NA	NA	NA	NA	6
+2021-03-10 11:29:00	"teacher008"	"teacher"	193	"It's so funny that you become hysterical and can't stop laughing. Something like that))"	"It's so funny that you become hysterical and can't stop laughing. Something like that))"	"191.0"	NA	"presentation"	"lexical resource,meaning"	NA	NA	14
+2021-03-10 11:29:13	"teacher008"	"teacher"	194	"Ok, one last word! a waffle!"	"Ok, one last word! a waffle!"	NA	"6j"	"presentation"	"lexical resource"	NA	NA	6
+2021-03-10 11:29:20	"teacher008"	"teacher"	195	"Do you know 'waffles'?"	"Do you know 'waffles'?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	4
+2021-03-10 11:29:31	"student011"	"student"	196	"The thing to eat? )"	"The thing to eat? )"	NA	NA	NA	NA	NA	NA	5
+2021-03-10 11:29:38	"teacher008"	"teacher"	197	"/ˈwɒf.əl/"	"/ˈwɒf.əl/"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	1
+2021-03-10 11:29:51	"teacher008"	"teacher"	198	"Yes, yummy waffles, like Belgian waffles"	"Yes, yummy waffles, like Belgian waffles"	NA	NA	"presentation"	"lexical resource"	NA	NA	6
+2021-03-10 11:30:00	"student011"	"student"	199	"Even more"	"Even more"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:30:02	"student011"	"student"	200	"I like i"	"I like it"	NA	NA	NA	NA	NA	NA	3
+2021-03-10 11:30:05	"student011"	"student"	201	"it"	"it"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-10 11:30:09	"teacher008"	"teacher"	202	"You can make them in a waffle maker, put some yogurt and berries on"	"You can make them in a waffle maker, put some yogurt and berries on"	NA	NA	"presentation"	"lexical resource"	NA	NA	14
+2021-03-10 11:30:11	"student011"	"student"	203	"not just know )"	"not just know )"	"200.0"	NA	NA	NA	NA	NA	4
+2021-03-10 11:30:16	"teacher008"	"teacher"	204	"I love waffles :)"	"I love waffles :)"	NA	NA	NA	NA	NA	NA	4
+2021-03-10 11:30:21	"teacher008"	"teacher"	205	"Me too!"	"Me too!"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:30:32	"student011"	"student"	206	"So am I"	"So do I"	NA	"6k"	"enquiry"	"grammatical resource"	NA	NA	3
+2021-03-10 11:30:33	"student011"	"student"	207	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 11:30:36	"student011"	"student"	208	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-03-10 11:30:52	"teacher008"	"teacher"	209	"Ok, cool! And you know 'casting', right? Choosing actors to play different roles in movies / shows"	"Ok, cool! And you know 'casting', right? Choosing actors to play different roles in movies / shows"	NA	"6l"	"presentation"	"lexical resource"	NA	NA	17
+2021-03-10 11:31:03	"student011"	"student"	210	"I know!"	"I know!"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:31:04	"teacher008"	"teacher"	211	"I think it's the same in Russian / Ukrainian, isn't it?"	"I think it's the same in Russian / Ukrainian, isn't it?"	NA	NA	NA	NA	NA	NA	11
+2021-03-10 11:31:08	"teacher008"	"teacher"	212	"Yes, cool, lovely!"	"Yes, cool, lovely!"	"210.0"	NA	NA	NA	NA	NA	3
+2021-03-10 11:31:12	"student011"	"student"	213	"Same!"	"Same!"	"211.0"	NA	NA	NA	NA	NA	1
+2021-03-10 11:31:50	"teacher008"	"teacher"	214	"Ok, I'm sending you the link. The only thing I'm going to say, the subtitles are not good quality at all (probably auto-generated), so I would strongly recommend to listen without them"	"Ok, I'm sending you the link. The only thing I'm going to say, the subtitles are not good quality at all (probably auto-generated), so I would strongly recommend to listen without them"	NA	"7.0"	"homework,scaffolding"	"listening"	NA	NA	32
+2021-03-10 11:32:10	"teacher008"	"teacher"	215	"And also, if you re-read the new words before you listen, that should help"	"And also, if you re-read the new words before you listen, that should help"	NA	NA	"homework,scaffolding"	"listening"	NA	NA	14
+2021-03-10 11:32:11	"student011"	"student"	216	"ok )"	"ok )"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:32:19	"student011"	"student"	217	"I will"	"I will"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:32:22	"student011"	"student"	218	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:32:37	"teacher008"	"teacher"	219	"Oh, you know what, I'll send you the link in Messenger, that'll be easier."	"Oh, you know what, I'll send you the link in Messenger, that'll be easier."	NA	NA	NA	NA	NA	NA	14
+2021-03-10 11:32:49	"teacher008"	"teacher"	220	"Ok, cool! And we can talk about it on Friday! Hope you enjoy it :)"	"Ok, cool! And we can talk about it on Friday! Hope you enjoy it :)"	NA	NA	NA	NA	NA	NA	15
+2021-03-10 11:32:51	"student011"	"student"	221	"Have a good day xxx"	"Have a good day xxx"	NA	"8.0"	"closing"	NA	NA	NA	5
+2021-03-10 11:32:55	"student011"	"student"	222	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:33:00	"student011"	"student"	223	"bye )"	"bye )"	NA	NA	NA	NA	NA	NA	2
+2021-03-10 11:33:03	"teacher008"	"teacher"	224	"But if you haven't got the time to do it, just let me know, it's ok"	"But if you haven't got the time to do it, just let me know, it's ok"	NA	NA	NA	NA	NA	NA	16
+2021-03-10 11:33:05	"teacher008"	"teacher"	225	"Bye! :)"	"Bye! :)"	NA	NA	NA	NA	NA	"B2"	2

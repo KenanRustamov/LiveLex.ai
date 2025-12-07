@@ -1,0 +1,147 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-05-13 11:59:40	"teacher008"	"teacher"	1	"Hi <STUDENT>"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-05-13 11:59:43	"student012"	"student"	2	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 11:59:45	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-05-13 12:00:05	"student012"	"student"	4	"I'm fine. And you?"	"I'm fine. And you?"	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:00:21	"student012"	"student"	5	"I'm on time today - yay!.."	"I'm on time today - yay!.."	NA	NA	NA	NA	NA	NA	6
+2021-05-13 12:01:00	"teacher008"	"teacher"	6	"Haha, yay.."	"Haha, yay.."	NA	NA	NA	NA	NA	NA	2
+2021-05-13 12:01:09	"teacher008"	"teacher"	7	"I'm fine too, thank you!"	"I'm fine too, thank you!"	4	NA	NA	NA	NA	NA	5
+2021-05-13 12:01:18	"teacher008"	"teacher"	8	"How was your trip?"	"How was your trip?"	NA	"2a"	"topic development"	NA	NA	NA	4
+2021-05-13 12:03:19	"student012"	"student"	9	"It actually exceeded my expectations"	"It actually exceeded my expectations"	NA	NA	NA	NA	NA	NA	5
+2021-05-13 12:03:26	"student012"	"student"	10	"It was nic"	"It was nice"	NA	NA	NA	NA	NA	NA	3
+2021-05-13 12:03:29	"student012"	"student"	11	"nice"	"nice"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-13 12:03:59	"student012"	"student"	12	"The in-laws behaved well ...."	"The in-laws behaved well ))))"	NA	NA	NA	NA	NA	NA	5
+2021-05-13 12:04:08	"teacher008"	"teacher"	13	"Super! Low expectations are sometimes the key to success :.."	"Super! Low expectations are sometimes the key to success :))"	NA	NA	NA	NA	NA	NA	10
+2021-05-13 12:04:24	"teacher008"	"teacher"	14	"Haha, always a plus!"	"Haha, always a plus!"	12	NA	NA	NA	NA	NA	4
+2021-05-13 12:04:27	"student012"	"student"	15	"They are, aren't they?"	"They are, aren't they?"	13	NA	NA	NA	NA	NA	4
+2021-05-13 12:05:48	"teacher008"	"teacher"	16	"Yes, I've learned it the hard way with holidays :. Especially with weather in this country. If I obssess about the weather and check the forecast every minute before the holiday, it's likely to be ruined. But if I just assume it's going to rain all week, I get pleasantly surprised :..."	"Yes, I've learned it the hard way with holidays :) Especially with weather in this country. If I obssess about the weather and check the forecast every minute before the holiday, it's likely to be ruined. But if I just assume it's going to rain all week, I get pleasantly surprised :))))"	NA	"2b"	"topic development"	NA	NA	NA	52
+2021-05-13 12:07:51	"teacher008"	"teacher"	17	"Sorry, I misspelled 'obsess', didn't I?"	"Sorry, I misspelled 'obsess', didn't I?"	NA	"2c"	"repair"	"writing"	NA	NA	6
+2021-05-13 12:08:08	"student012"	"student"	18	"I think this kind of philosophy applies to all spheres of life."	"I think this kind of philosophy applies to all spheres of life."	16	NA	NA	NA	NA	NA	12
+2021-05-13 12:08:24	"student012"	"student"	19	"I haven't even noticed.."	"I haven't even noticed.."	17	NA	NA	NA	NA	NA	4
+2021-05-13 12:09:28	"teacher008"	"teacher"	20	"Yes, assess, but obsess. And the killer is of course 'embarrass'"	"Yes, assess, but obsess. And the killer is of course 'embarrass'"	NA	NA	"scaffolding"	"writing"	NA	NA	11
+2021-05-13 12:09:51	"student012"	"student"	21	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:10:06	"teacher008"	"teacher"	22	"I can't be so chilled in all areas of life though! I barely manage it with holidays! .."	"I can't be so chilled in all areas of life though! I barely manage it with holidays! .."	18	NA	NA	NA	NA	NA	18
+2021-05-13 12:10:09	"student012"	"student"	23	"possess also"	"possess also"	21	NA	NA	NA	NA	NA	2
+2021-05-13 12:10:21	"teacher008"	"teacher"	24	"Ooh, yes, good one!"	"Ooh, yes, good one!"	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:11:01	"teacher008"	"teacher"	25	"So 'obsess' is the odd one out, actually, with just the three 'sss"	"So 'obsess' is the odd one out, actually, with just the three 'sss"	NA	NA	"scaffolding"	"writing"	NA	NA	13
+2021-05-13 12:12:21	"student012"	"student"	26	"Right. The weakest link.."	"Right. The weakest link.."	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:12:31	"teacher008"	"teacher"	27	"Loser!"	"Loser!"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:13:13	"teacher008"	"teacher"	28	"Oh, I've been enjoying ALMA videos so much! Well done ladies!"	"Oh, I've been enjoying ALMA videos so much! Well done ladies!"	NA	"3.0"	"topic opening"	NA	NA	NA	11
+2021-05-13 12:13:50	"student012"	"student"	29	"Really?"	"Really?"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:13:54	"student012"	"student"	30	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 12:14:01	"student012"	"student"	31	"The editing took me forever"	"The editing took me forever"	NA	NA	NA	NA	NA	NA	5
+2021-05-13 12:14:22	"student012"	"student"	32	"I really laughed at you comment to <STUDENT'S COLLEAGUE>"	"I really laughed at your comment to <STUDENT'S COLLEAGUE>"	NA	NA	NA	NA	NA	NA	9
+2021-05-13 12:14:29	"teacher008"	"teacher"	33	"Did you do all the editing? Amazing!"	"Did you do all the editing? Amazing!"	31	NA	NA	NA	NA	NA	7
+2021-05-13 12:15:13	"teacher008"	"teacher"	34	"Goodness, it's because I actually say it now! You know, 'I'll be there' but in Russian, and then I always think that :.."	"Goodness, it's because I actually say it now! You know, 'I'll be there' but in Russian, and then I always think that :)))"	32	NA	NA	NA	NA	NA	23
+2021-05-13 12:15:25	"student012"	"student"	35	"Yes. I'm usually the camerawoman and the editor .монтажер?."	"Yes. I'm usually the camerawoman and the editor .монтажер?."	33	"3a"	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	9
+2021-05-13 12:16:21	"teacher008"	"teacher"	36	"Yes, it's video editing, isn't it? It's even a category at Oscars, Baftas and whatnots"	"Yes, it's video editing, isn't it? It's even a category at Oscars, Baftas and whatnots"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2021-05-13 12:16:31	"student012"	"student"	37	"Oh yes, it grows on you. The language environment I mean"	"Oh yes, it grows on you. The language environment I mean"	34	NA	NA	NA	NA	NA	11
+2021-05-13 12:16:43	"teacher008"	"teacher"	38	"Wow, I didn't know! You're multi-talented!"	"Wow, I didn't know! You're multi-talented!"	35	NA	NA	NA	NA	NA	6
+2021-05-13 12:16:46	"student012"	"student"	39	"Right!"	"Right!"	36	NA	NA	NA	NA	NA	1
+2021-05-13 12:17:21	"student012"	"student"	40	"I'm the jack of all trades"	"I'm the jack of all trades"	38	NA	NA	NA	NA	NA	6
+2021-05-13 12:17:26	"student012"	"student"	41	"and master of none.."	"and master of none.."	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:17:40	"teacher008"	"teacher"	42	"Haha, I'm sure that's not true :."	"Haha, I'm sure that's not true :)"	NA	NA	NA	NA	NA	NA	7
+2021-05-13 12:17:52	"teacher008"	"teacher"	43	"What do you shoot the videos with?"	"What do you shoot the videos with?"	NA	"3b"	"topic development"	NA	NA	NA	7
+2021-05-13 12:17:56	"student012"	"student"	44	"Actually, it is true. And I'm OK with it."	"Actually, it is true. And I'm OK with it."	42	NA	NA	NA	NA	NA	9
+2021-05-13 12:18:11	"student012"	"student"	45	"My iphone =."	"My iphone =."	43	NA	NA	NA	NA	NA	3
+2021-05-13 12:18:21	"teacher008"	"teacher"	46	"Well, why not indeed!"	"Well, why not indeed!"	44	NA	NA	NA	NA	NA	4
+2021-05-13 12:18:42	"teacher008"	"teacher"	47	"Oh really? Wow! Well done you and well done your iphone! I thought it was shot professionally"	"Oh really? Wow! Well done you and well done your iphone! I thought it was shot professionally"	45	NA	NA	NA	NA	NA	17
+2021-05-13 12:18:52	"student012"	"student"	48	"The cameras on iphones are so advanced now. There's no need for any special equipment"	"The cameras on iphones are so advanced now. There's no need for any special equipment"	NA	NA	NA	NA	NA	NA	15
+2021-05-13 12:19:36	"student012"	"student"	49	"Thank you!"	"Thank you!"	47	NA	NA	NA	NA	NA	2
+2021-05-13 12:20:04	"student012"	"student"	50	"I mostly enjoy creating them."	"I mostly enjoy creating them."	NA	NA	NA	NA	NA	NA	5
+2021-05-13 12:20:21	"teacher008"	"teacher"	51	"Very cool!"	"Very cool!"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 12:21:30	"teacher008"	"teacher"	52	"Ok, lovely! I want us to look at a C2 writing task .part 1. today and some examples of actual writing .I'm not going to make you write anything! today."	"Ok, lovely! I want us to look at a C2 writing task (part 1) today and some examples of actual writing (I'm not going to make you write anything! today)"	NA	"4.0"	"exercise"	"writing"	"textbook"	NA	30
+2021-05-13 12:21:50	"student012"	"student"	53	"Ok! Which book is this?"	"Ok! Which book is this?"	NA	"4a"	"enquiry"	NA	NA	NA	5
+2021-05-13 12:22:00	"teacher008"	"teacher"	54	"As you probably remember, you've got a few options to choose from in part 1, but part 1 is set for you"	"As you probably remember, you've got a few options to choose from in part 1, but part 1 is set for you"	52	NA	"scaffolding"	"writing"	NA	NA	22
+2021-05-13 12:22:37	"student012"	"student"	55	"C2 prof?"	"C2 prof?"	53	NA	NA	NA	NA	NA	2
+2021-05-13 12:22:40	"teacher008"	"teacher"	56	"Could you go to page 24 in the 'teacher's handbook' pdf, please?"	"Could you go to page 24 in the 'teacher's handbook' pdf, please?"	NA	NA	NA	NA	NA	NA	12
+2021-05-13 12:22:44	"teacher008"	"teacher"	57	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:23:16	"teacher008"	"teacher"	58	"It should say 'Part 1 .instructions. Shifting Sands: behavioural change'"	"It should say 'Part 1 (instructions) Shifting Sands: behavioural change'"	NA	NA	NA	NA	NA	NA	10
+2021-05-13 12:23:30	"student012"	"student"	59	"Ok. I'm on page 24 now"	"Ok. I'm on page 24 now"	NA	NA	NA	NA	NA	NA	6
+2021-05-13 12:23:37	"student012"	"student"	60	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:23:53	"teacher008"	"teacher"	61	"Lovely! Could you read the instructions and the two paragraphs, please?"	"Lovely! Could you read the instructions and the two paragraphs, please?"	NA	"4b"	"exercise"	"writing"	NA	NA	11
+2021-05-13 12:24:14	"student012"	"student"	62	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:25:11	"teacher008"	"teacher"	63	"and let me know."	"and let me know."	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:27:05	"student012"	"student"	64	"Done"	"Done"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:27:39	"teacher008"	"teacher"	65	"Great. What questions come to your mind, if any?"	"Great. What questions come to your mind, if any?"	NA	NA	"eliciting"	"writing"	NA	NA	9
+2021-05-13 12:28:04	"student012"	"student"	66	"The second text is too hard to read"	"The second text is too hard to read"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:28:38	"teacher008"	"teacher"	67	"Fair enough, what's the main idea of it though?"	"Fair enough, what's the main idea of it though?"	NA	NA	NA	NA	NA	NA	9
+2021-05-13 12:28:48	"student012"	"student"	68	"Individualism is cool ?"	"Individualism is cool ?"	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:29:26	"teacher008"	"teacher"	69	"Pretty much!"	"Pretty much!"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 12:29:56	"teacher008"	"teacher"	70	"And the first one is all about, think about others, they might hold different views, culturally"	"And the first one is all about, think about others, they might hold different views, culturally"	NA	NA	NA	NA	NA	NA	16
+2021-05-13 12:30:13	"student012"	"student"	71	"Yes. And they probably want you to pick sides"	"Yes. And they probably want you to pick sides"	NA	NA	NA	NA	NA	NA	9
+2021-05-13 12:30:25	"student012"	"student"	72	"And present your argument in your essay"	"And present your argument in your essay"	NA	NA	NA	NA	NA	NA	7
+2021-05-13 12:30:40	"teacher008"	"teacher"	73	"Ok, lovely! The task here as you can see is to talk about both points of view and express your own ideas in your essay"	"Ok, lovely! The task here as you can see is to talk about both points of view and express your own ideas in your essay"	NA	NA	"scaffolding"	"writing"	NA	NA	25
+2021-05-13 12:31:24	"teacher008"	"teacher"	74	"Or you can come up with a third idea! Some people think A, others think B, but I think C"	"Or you can come up with a third idea! Some people think A, others think B, but I think C"	NA	NA	"scaffolding"	"writing"	NA	NA	20
+2021-05-13 12:31:41	"student012"	"student"	75	"Right"	"Right"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:32:25	"teacher008"	"teacher"	76	"Ok, but my aim for today is to give you a glimpse of how different candidates approach it, and what makes a successful essay"	"Ok, but my aim for today is to give you a glimpse of how different candidates approach it, and what makes a successful essay"	NA	"4c"	"scaffolding"	"writing"	NA	NA	24
+2021-05-13 12:33:23	"teacher008"	"teacher"	77	"The essays are assessed in 4 categories. 1. Content .how fully you've answered the question. Is the target reader informed?."	"The essays are assessed in 4 categories. 1. Content (how fully you've answered the question) Is the target reader informed?."	NA	NA	"scaffolding"	"writing"	NA	NA	20
+2021-05-13 12:34:13	"teacher008"	"teacher"	78	"2. Communicative achievement .how easily you communicate what you're trying to say; whether the register and style are consistent throughout .or you suddenly start to use slang etc..."	"2. Communicative achievement (how easily you communicate what you're trying to say; whether the register and style are consistent throughout .or you suddenly start to use slang etc..."	NA	NA	"scaffolding"	"writing"	NA	NA	28
+2021-05-13 12:35:29	"student012"	"student"	79	"What are the other 2?"	"What are the other 2?"	NA	NA	NA	NA	NA	NA	5
+2021-05-13 12:35:56	"teacher008"	"teacher"	80	"3. Organisation. A clear organisation is key because it makes it much easier to actually do 1 and 2 .answer the question fully and express your ideas coherently."	"3. Organisation. A clear organisation is key because it makes it much easier to actually do 1 and 2 .answer the question fully and express your ideas coherently."	NA	NA	"scaffolding"	"writing"	NA	NA	28
+2021-05-13 12:36:46	"teacher008"	"teacher"	81	"The elements of organisation are structural .paragraphs, topic sentences to start each paragraph. and linguistic .linkers like 'moreover' etc.. But the structural stuff is probably more important"	"The elements of organisation are structural (paragraphs, topic sentences to start each paragraph) and linguistic (linkers like 'moreover' etc.. But the structural stuff is probably more important"	NA	NA	"scaffolding"	"writing"	NA	NA	27
+2021-05-13 12:37:13	"teacher008"	"teacher"	82	"4. Language .self-explanatory, but note that grammar and vocabulary together are only 1/4 of the mark!."	"4. Language (self-explanatory, but note that grammar and vocabulary together are only 1/4 of the mark!)"	NA	NA	"scaffolding"	"writing"	NA	NA	16
+2021-05-13 12:37:42	"student012"	"student"	83	"Wow. Tough.."	"Wow. Tough.."	NA	NA	NA	NA	NA	NA	2
+2021-05-13 12:37:53	"teacher008"	"teacher"	84	"Yes, but it's a skill! and very learnable"	"Yes, but it's a skill! and very learnable"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:38:31	"teacher008"	"teacher"	85	"Ok, could you go to page 30, please, and skim the first sample answer .but don't look at the marks underneath yet if possible!. And tell me what you think about it :."	"Ok, could you go to page 30, please, and skim the first sample answer (but don't look at the marks underneath yet if possible!) And tell me what you think about it :)"	NA	"4d"	"exercise"	"writing"	NA	NA	33
+2021-05-13 12:39:49	"student012"	"student"	86	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:40:09	"teacher008"	"teacher"	87	"Ok?"	"Ok?"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:43:03	"student012"	"student"	88	"Ok. The structure is incoherent, the language has some slang like 'thru'. There's some good vocabulary for sure. But I can't figure out the author's point of view."	"Ok. The structure is incoherent, the language has some slang like 'thru'. There's some good vocabulary for sure. But I can't figure out the author's point of view."	NA	NA	NA	NA	NA	NA	28
+2021-05-13 12:43:27	"student012"	"student"	89	"In terms of punctuation, some commas are lacking"	"In terms of punctuation, some commas are lacking"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:43:32	"student012"	"student"	90	"I think"	"I think"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 12:43:36	"teacher008"	"teacher"	91	"Yes, I very much agree with you! They bounce from one idea to another, don't they?"	"Yes, I very much agree with you! They bounce from one idea to another, don't they?"	NA	NA	NA	NA	NA	NA	16
+2021-05-13 12:43:58	"teacher008"	"teacher"	92	"Have a look at the marks now, please :. they are all out of 5"	"Have a look at the marks now, please :) they are all out of 5"	NA	NA	NA	NA	NA	NA	15
+2021-05-13 12:44:22	"student012"	"student"	93	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:45:39	"student012"	"student"	94	"LOL"	"LOL"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:45:48	"student012"	"student"	95	"They assessed it better than I would have"	"They assessed it better than I would have"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:46:07	"student012"	"student"	96	"But then again, I'm not an examiner .."	"But then again, I'm not an examiner ))"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:46:18	"student012"	"student"	97	"I disagree that it's cohesive"	"I disagree that it's cohesive"	NA	NA	NA	NA	NA	NA	5
+2021-05-13 12:46:35	"teacher008"	"teacher"	98	"Yeah, they had a bit more time! ... It's an average of 3 out of 5, which by the way is a pass"	"Yeah, they had a bit more time! ))) It's an average of 3 out of 5, which by the way is a pass"	NA	NA	NA	NA	NA	NA	23
+2021-05-13 12:47:01	"student012"	"student"	99	"The use of phrases like 'moreover' and alike doesn't make a text cohesive, does it?"	"The use of phrases like 'moreover' and alike doesn't make a text cohesive, does it?"	NA	NA	NA	NA	NA	NA	15
+2021-05-13 12:47:34	"teacher008"	"teacher"	100	"Well, the idea is that Cambridge writes these assessments in positive 'can-do' statements. They say it's coherent, but only give it a 3"	"Well, the idea is that Cambridge writes these assessments in positive 'can-do' statements. They say it's coherent, but only give it a 3"	NA	NA	"scaffolding"	"writing"	NA	NA	23
+2021-05-13 12:47:48	"student012"	"student"	101	"Right."	"Right."	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:47:52	"student012"	"student"	102	"Same with the Language"	"Same with the Language"	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:48:03	"student012"	"student"	103	"the Language section"	"the Language section"	NA	NA	NA	NA	NA	NA	3
+2021-05-13 12:48:16	"student012"	"student"	104	"They complement it and give 2/5"	"They complement it and give 2/5"	NA	NA	NA	NA	NA	NA	6
+2021-05-13 12:48:21	"teacher008"	"teacher"	105	"They are cohesive devices, words like 'morever'. And the candidate is linking their sentences! But the overall coherence is lacking a bit, I agree!"	"They are cohesive devices, words like 'morever'. And the candidate is linking their sentences! But the overall coherence is lacking a bit, I agree!"	NA	NA	"scaffolding"	"writing"	NA	NA	24
+2021-05-13 12:48:28	"teacher008"	"teacher"	106	"Yep!"	"Yep!"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:49:09	"teacher008"	"teacher"	107	"Ok, you will see a bit more about how it works when we compare with the next two! Could you go to the next page, please? Same idea, read through the essay and don't peek at the marks, please"	"Ok, you will see a bit more about how it works when we compare with the next two! Could you go to the next page, please? Same idea, read through the essay and don't peek at the marks, please"	NA	"4e"	"exercise"	"writing"	NA	NA	39
+2021-05-13 12:50:17	"student012"	"student"	108	"Deal"	"Deal"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:50:26	"student012"	"student"	109	"OMG"	"OMG"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:50:38	"teacher008"	"teacher"	110	":.. it's not as bad as it looks!"	":)) it's not as bad as it looks!"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:50:39	"student012"	"student"	111	"Where did the paragraphs go?"	"Where did the paragraphs go?"	NA	NA	NA	NA	NA	NA	5
+2021-05-13 12:50:50	"teacher008"	"teacher"	112	"Yep, that's the main question!"	"Yep, that's the main question!"	NA	NA	NA	NA	NA	NA	5
+2021-05-13 12:53:19	"student012"	"student"	113	"I really like it"	"I really like it"	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:53:43	"teacher008"	"teacher"	114	"It's good, right??"	"It's good, right??"	NA	NA	NA	NA	NA	NA	3
+2021-05-13 12:53:51	"student012"	"student"	115	"Needs a little brushing up and paragraphs ."	"Needs a little brushing up and paragraphs )"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:54:04	"student012"	"student"	116	"I wish I could express my thought like that =."	"I wish I could express my thoughts like that =."	NA	NA	NA	NA	NA	NA	10
+2021-05-13 12:54:10	"student012"	"student"	117	"my thoughts"	"my thoughts"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 12:54:35	"teacher008"	"teacher"	118	"Me too! Again, it's a skill! Have a look at the marks, please :."	"Me too! Again, it's a skill! Have a look at the marks, please :)"	NA	NA	NA	NA	NA	NA	14
+2021-05-13 12:55:28	"student012"	"student"	119	"Oh yes. The marks are good"	"Oh yes. The marks are good"	NA	NA	NA	NA	NA	NA	6
+2021-05-13 12:55:43	"student012"	"student"	120	"Well done, stranger .."	"Well done, stranger ))"	NA	NA	NA	NA	NA	NA	4
+2021-05-13 12:56:05	"teacher008"	"teacher"	121	"Definitely! I'm guessing 'clear paragraphing' would have pushed it towards 5/5"	"Definitely! I'm guessing 'clear paragraphing' would have pushed it towards 5/5"	NA	NA	NA	NA	NA	NA	11
+2021-05-13 12:56:11	"teacher008"	"teacher"	122	"That's what I thought, too :.."	"That's what I thought, too :))"	NA	NA	NA	NA	NA	NA	6
+2021-05-13 12:56:41	"teacher008"	"teacher"	123	"Ok, we'll skip the next one because we're nearly out of time, but can you have a quick read through the one on page 33, please? same idea :."	"Ok, we'll skip the next one because we're nearly out of time, but can you have a quick read through the one on page 33, please? same idea :)"	NA	"4f"	"exercise"	"writing"	NA	NA	29
+2021-05-13 12:57:05	"student012"	"student"	124	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 12:57:37	"student012"	"student"	125	"The other one is also good"	"The other one is also good"	NA	NA	NA	NA	NA	NA	6
+2021-05-13 12:57:55	"teacher008"	"teacher"	126	"Yes, that's right! Easy to read, isn't it?"	"Yes, that's right! Easy to read, isn't it?"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:58:04	"teacher008"	"teacher"	127	"Feel free to look at the marks :."	"Feel free to look at the marks :)"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 12:58:55	"student012"	"student"	128	"I did"	"I did"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 12:59:03	"student012"	"student"	129	"Easy indeed"	"Easy indeed"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 13:00:16	"teacher008"	"teacher"	130	"organised impressively and coherently' as they put it. And in a way it's more important than lots of fancy vocabulary!"	"organised impressively and coherently' as they put it. And in a way it's more important than lots of fancy vocabulary!"	NA	NA	NA	NA	NA	NA	20
+2021-05-13 13:00:54	"teacher008"	"teacher"	131	"Ok, lovely. I've got to let you go. I hope it's given you a bit of an idea of how this task could be approached? We can have a go at it in real time next week!"	"Ok, lovely. I've got to let you go. I hope it's given you a bit of an idea of how this task could be approached? We can have a go at it in real time next week!"	NA	"5.0"	"closing"	NA	NA	NA	37
+2021-05-13 13:01:16	"student012"	"student"	132	"Yes. Got it. Structuring is cruail"	"Yes. Got it. Structuring is crucial"	130	NA	NA	NA	NA	NA	6
+2021-05-13 13:01:19	"student012"	"student"	133	"crucial"	"crucial"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-13 13:01:29	"student012"	"student"	134	"Thank you <TEACHER>!"	"Thank you <TEACHER>!"	131	NA	NA	NA	NA	NA	3
+2021-05-13 13:01:31	"teacher008"	"teacher"	135	"Definitely!"	"Definitely!"	132	NA	NA	NA	NA	NA	1
+2021-05-13 13:01:38	"student012"	"student"	136	"Next Thursday then?"	"Next Thursday then?"	NA	NA	NA	NA	NA	NA	3
+2021-05-13 13:01:55	"teacher008"	"teacher"	137	"It's a pleasure. Would you prefer Thursday or Monday?"	"It's a pleasure. Would you prefer Thursday or Monday?"	134	NA	NA	NA	NA	NA	9
+2021-05-13 13:02:06	"student012"	"student"	138	"I think Thursday"	"I think Thursday"	NA	NA	NA	NA	NA	NA	3
+2021-05-13 13:02:23	"student012"	"student"	139	"It's calm. There's noone in the school .."	"It's calm. There's no one in the school .."	NA	NA	NA	NA	NA	NA	8
+2021-05-13 13:02:38	"teacher008"	"teacher"	140	"Got you! No problem, Thursday it is!"	"Got you! No problem, Thursday it is!"	NA	NA	NA	NA	NA	NA	7
+2021-05-13 13:02:47	"student012"	"student"	141	"Great! See you soon!"	"Great! See you soon!"	NA	NA	NA	NA	NA	NA	4
+2021-05-13 13:02:52	"student012"	"student"	142	"Have a great weekend!"	"Have a great weekend!"	NA	NA	NA	NA	NA	NA	4
+2021-05-13 13:02:52	"teacher008"	"teacher"	143	"Take care, I'll speak to you then :."	"Take care, I'll speak to you then :)"	NA	NA	NA	NA	NA	NA	8
+2021-05-13 13:02:56	"student012"	"student"	144	"You too"	"You too"	NA	NA	NA	NA	NA	NA	2
+2021-05-13 13:02:58	"student012"	"student"	145	"Bye"	"Bye"	NA	NA	NA	NA	NA	NA	1
+2021-05-13 13:03:05	"teacher008"	"teacher"	146	"Thanks, you too :. bye!"	"Thanks, you too :) bye!"	NA	NA	NA	NA	NA	"C2"	5

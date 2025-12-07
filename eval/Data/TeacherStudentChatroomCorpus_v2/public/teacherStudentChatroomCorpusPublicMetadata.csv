@@ -1,0 +1,261 @@
+"chat.num","filename","start.time","teacher","student","n.turns","n.teacher.turns","n.student.turns","n.words","n.teacher.words","n.student.words","student.cefr.level","student.age","student.L1","student.immersed.in.english","is_sett_annotated"
+2,"teacherstudentchat00002.tsv",2019-11-17 12:00:08,"teacher001","student002",92,52,40,1067,767,300,"B1",22,"Japanese",NA,TRUE
+3,"teacherstudentchat00003.tsv",2019-12-03 13:00:03,"teacher001","student004",115,55,60,1623,943,680,"C1",40,"Spanish",NA,TRUE
+4,"teacherstudentchat00004.tsv",2019-12-03 15:29:58,"teacher001","student003",96,51,45,1320,965,355,"B2",32,"Japanese",NA,TRUE
+5,"teacherstudentchat00005.tsv",2019-12-04 14:01:25,"teacher001","student002",75,43,32,1121,936,185,"B1",22,"Japanese",NA,TRUE
+6,"teacherstudentchat00006.tsv",2019-12-09 13:00:35,"teacher001","student004",138,75,63,1820,1109,711,"C1",40,"Spanish",NA,TRUE
+7,"teacherstudentchat00007.tsv",2019-12-10 11:45:34,"teacher001","student004",107,57,50,1759,1095,664,"C1",40,"Spanish",NA,TRUE
+8,"teacherstudentchat00008.tsv",2019-12-10 12:59:29,"teacher001","student003",97,49,48,1591,1222,369,"B2",32,"Japanese",NA,TRUE
+9,"teacherstudentchat00009.tsv",2019-12-10 14:15:39,"teacher001","student002",91,51,40,1162,891,271,"B2",22,"Japanese",NA,TRUE
+10,"teacherstudentchat00010.tsv",2019-12-12 11:46:10,"teacher001","student004",144,83,61,1818,1207,611,"C1",40,"Spanish",NA,TRUE
+11,"teacherstudentchat00011.tsv",2020-01-15 16:00:49,"teacher001","student004",122,71,51,1627,1058,569,"C1",40,"Spanish",NA,TRUE
+12,"teacherstudentchat00012.tsv",2020-01-16 14:33:01,"teacher001","student003",103,58,45,1406,1027,379,"B2",32,"Japanese",NA,TRUE
+13,"teacherstudentchat00013.tsv",2020-01-16 16:00:08,"teacher001","student004",120,65,55,949,654,295,"C1",40,"Spanish",NA,TRUE
+14,"teacherstudentchat00014.tsv",2020-01-22 16:03:19,"teacher001","student004",144,80,64,1287,841,446,"C1",40,"Spanish",NA,TRUE
+15,"teacherstudentchat00015.tsv",2020-01-23 16:05:15,"teacher001","student004",135,77,58,1385,912,473,"C1",40,"Spanish",NA,TRUE
+16,"teacherstudentchat00016.tsv",2020-01-24 14:10:40,"teacher001","student003",81,44,37,1228,851,377,"B2",32,"Japanese",NA,TRUE
+17,"teacherstudentchat00017.tsv",2020-01-29 16:01:48,"teacher001","student004",126,69,57,1207,794,413,"C1",40,"Spanish",NA,TRUE
+18,"teacherstudentchat00018.tsv",2020-01-30 16:22:49,"teacher001","student005",146,86,60,1172,870,302,"B2",20,"Italian",NA,TRUE
+19,"teacherstudentchat00019.tsv",2020-02-02 11:03:05,"teacher001","student005",133,75,58,976,711,265,"B2",20,"Italian",NA,TRUE
+20,"teacherstudentchat00020.tsv",2020-02-09 10:03:38,"teacher001","student006",132,73,59,934,723,211,"B1",23,"Thai",NA,TRUE
+21,"teacherstudentchat00021.tsv",2020-02-09 11:10:08,"teacher001","student005",140,83,57,1048,736,312,"B2",20,"Italian",NA,TRUE
+22,"teacherstudentchat00022.tsv",2020-02-16 10:33:17,"teacher001","student005",139,85,54,1030,827,203,"B2",20,"Italian",NA,TRUE
+23,"teacherstudentchat00023.tsv",2020-02-16 11:40:53,"teacher001","student006",133,68,65,1105,859,246,"B1",23,"Thai",NA,TRUE
+24,"teacherstudentchat00024.tsv",2020-02-22 10:37:26,"teacher001","student006",122,63,59,1045,583,462,"B1",23,"Thai",NA,TRUE
+25,"teacherstudentchat00025.tsv",2020-02-22 11:41:09,"teacher001","student005",120,66,54,885,625,260,"B2",20,"Italian",NA,TRUE
+26,"teacherstudentchat00026.tsv",2020-03-11 15:34:24,"teacher001","student006",107,47,60,934,658,276,"B1",23,"Thai",NA,TRUE
+27,"teacherstudentchat00027.tsv",2020-03-11 16:42:47,"teacher001","student005",148,72,76,1144,743,401,"B2",20,"Italian",NA,TRUE
+28,"teacherstudentchat00028.tsv",2020-03-17 14:05:11,"teacher001","student004",114,68,46,1947,1131,816,"C1",40,"Spanish",NA,TRUE
+29,"teacherstudentchat00029.tsv",2020-03-18 13:18:48,"teacher001","student004",175,100,75,1527,1045,482,"C1",40,"Spanish",NA,TRUE
+30,"teacherstudentchat00030.tsv",2020-03-23 13:15:43,"teacher001","student004",157,91,66,1460,915,545,"C1",40,"Spanish",NA,TRUE
+31,"teacherstudentchat00031.tsv",2020-03-24 15:05:34,"teacher001","student007",122,74,48,1440,1081,359,"B2",22,"Mandarin Chinese",NA,TRUE
+32,"teacherstudentchat00032.tsv",2020-03-24 17:17:17,"teacher001","student007",91,53,38,1128,856,272,"B1",22,"Mandarin Chinese",NA,TRUE
+33,"teacherstudentchat00033.tsv",2020-03-24 18:30:56,"teacher001","student004",172,106,66,1603,1023,580,"C1",40,"Spanish",NA,TRUE
+34,"teacherstudentchat00034.tsv",2020-03-25 16:03:03,"teacher001","student007",102,56,46,1046,765,281,"B1",22,"Mandarin Chinese",NA,TRUE
+35,"teacherstudentchat00035.tsv",2020-03-25 17:34:10,"teacher001","student007",79,40,39,975,673,302,"B1",22,"Mandarin Chinese",NA,TRUE
+36,"teacherstudentchat00036.tsv",2020-03-25 20:01:26,"teacher001","student004",139,82,57,1433,961,472,"C1",40,"Spanish",NA,TRUE
+37,"teacherstudentchat00037.tsv",2020-03-26 16:00:02,"teacher001","student007",105,54,51,1053,768,285,"B1",22,"Mandarin Chinese",NA,TRUE
+38,"teacherstudentchat00038.tsv",2020-03-26 17:15:28,"teacher001","student007",107,59,48,1138,769,369,"B1",22,"Mandarin Chinese",NA,TRUE
+39,"teacherstudentchat00039.tsv",2020-03-27 14:00:41,"teacher001","student007",103,55,48,1089,804,285,"B1",22,"Mandarin Chinese",NA,TRUE
+40,"teacherstudentchat00040.tsv",2020-03-27 15:17:24,"teacher001","student007",135,78,57,1105,834,271,"B1",22,"Mandarin Chinese",NA,TRUE
+41,"teacherstudentchat00041.tsv",2020-03-27 17:00:09,"teacher001","student004",178,105,73,2131,1433,698,"C1",40,"Spanish",NA,TRUE
+42,"teacherstudentchat00042.tsv",2020-03-30 09:30:55,"teacher001","student007",111,61,50,1116,789,327,"B1",22,"Mandarin Chinese",NA,TRUE
+43,"teacherstudentchat00043.tsv",2020-03-30 10:49:08,"teacher001","student007",81,50,31,1195,972,223,"B1",22,"Mandarin Chinese",NA,TRUE
+44,"teacherstudentchat00044.tsv",2020-03-29 23:00:00,"teacher001","student004",94,47,47,1174,680,494,"C1",40,"Spanish",NA,TRUE
+45,"teacherstudentchat00045.tsv",2020-03-31 09:02:25,"teacher001","student007",104,56,48,1232,954,278,"B1",22,"Mandarin Chinese",NA,TRUE
+46,"teacherstudentchat00046.tsv",2020-03-31 10:21:55,"teacher001","student007",89,50,39,993,694,299,"B1",22,"Mandarin Chinese",NA,TRUE
+47,"teacherstudentchat00047.tsv",2020-03-31 11:31:33,"teacher001","student004",145,83,62,1688,1165,523,"C1",40,"Spanish",NA,TRUE
+48,"teacherstudentchat00048.tsv",2020-04-01 09:00:12,"teacher001","student007",75,42,33,1211,714,497,"B1",22,"Mandarin Chinese",NA,TRUE
+49,"teacherstudentchat00049.tsv",2020-04-01 10:17:14,"teacher001","student007",98,54,44,1195,891,304,"C1",22,"Mandarin Chinese",NA,TRUE
+50,"teacherstudentchat00050.tsv",2020-04-01 11:30:10,"teacher001","student004",145,86,59,1686,1122,564,"C1",40,"Spanish",NA,TRUE
+51,"teacherstudentchat00051.tsv",2020-04-02 09:01:40,"teacher001","student007",98,54,44,1119,870,249,"B1",22,"Mandarin Chinese",NA,TRUE
+52,"teacherstudentchat00052.tsv",2020-04-02 10:16:13,"teacher001","student007",112,58,54,1291,933,358,"B1",22,"Mandarin Chinese",NA,FALSE
+53,"teacherstudentchat00053.tsv",2020-04-02 11:36:10,"teacher001","student004",139,76,63,1638,1196,442,"C1",40,"Spanish",NA,FALSE
+54,"teacherstudentchat00054.tsv",2020-04-03 09:01:13,"teacher001","student007",98,47,51,1109,814,295,"B1",22,"Mandarin Chinese",NA,FALSE
+55,"teacherstudentchat00055.tsv",2020-04-03 10:17:23,"teacher001","student007",106,60,46,1117,840,277,"B1",22,"Mandarin Chinese",NA,FALSE
+56,"teacherstudentchat00056.tsv",2020-04-03 11:33:35,"teacher001","student004",134,82,52,1247,912,335,"C1",40,"Spanish",NA,FALSE
+57,"teacherstudentchat00057.tsv",2020-04-06 09:00:52,"teacher001","student007",109,57,52,1221,826,395,"B1",22,"Mandarin Chinese",NA,FALSE
+58,"teacherstudentchat00058.tsv",2020-04-06 10:15:41,"teacher001","student007",91,50,41,1319,1018,301,"B1",22,"Mandarin Chinese",NA,FALSE
+59,"teacherstudentchat00059.tsv",2020-04-06 11:32:27,"teacher001","student004",121,63,58,1588,956,632,"C1",40,"Spanish",NA,FALSE
+60,"teacherstudentchat00060.tsv",2020-04-07 11:32:07,"teacher001","student004",149,82,67,1406,976,430,"C1",40,"Spanish",NA,FALSE
+61,"teacherstudentchat00061.tsv",2020-04-08 09:01:23,"teacher001","student007",127,74,53,1620,1133,487,"B1",22,"Mandarin Chinese",NA,FALSE
+62,"teacherstudentchat00062.tsv",2020-04-08 10:15:58,"teacher001","student007",95,59,36,1102,883,219,"B1",22,"Mandarin Chinese",NA,FALSE
+63,"teacherstudentchat00063.tsv",2020-04-08 11:32:40,"teacher001","student004",159,86,73,1877,1258,619,"C1",40,"Spanish",NA,FALSE
+64,"teacherstudentchat00064.tsv",2020-04-09 09:02:27,"teacher001","student007",105,59,46,1252,936,316,"B1",22,"Mandarin Chinese",NA,FALSE
+65,"teacherstudentchat00065.tsv",2020-04-09 10:15:56,"teacher001","student007",119,65,54,1284,941,343,"B1",22,"Mandarin Chinese",NA,FALSE
+66,"teacherstudentchat00066.tsv",2020-04-09 11:30:45,"teacher001","student004",159,82,77,1975,1290,685,"C1",40,"Spanish",NA,FALSE
+67,"teacherstudentchat00067.tsv",2020-04-10 09:01:00,"teacher001","student007",115,64,51,1324,962,362,"B1",22,"Mandarin Chinese",NA,FALSE
+68,"teacherstudentchat00068.tsv",2020-04-10 10:17:39,"teacher001","student007",116,64,52,1397,1057,340,"B1",22,"Mandarin Chinese",NA,FALSE
+69,"teacherstudentchat00069.tsv",2020-04-10 11:30:56,"teacher001","student004",132,79,53,1877,1273,604,"C1",40,"Spanish",NA,FALSE
+70,"teacherstudentchat00070.tsv",2020-04-13 09:01:31,"teacher001","student007",96,49,47,1230,799,431,"B1",22,"Mandarin Chinese",NA,FALSE
+71,"teacherstudentchat00071.tsv",2020-04-13 11:16:44,"teacher001","student007",110,60,50,1018,699,319,"B2",22,"Mandarin Chinese",NA,FALSE
+72,"teacherstudentchat00072.tsv",2020-04-14 10:01:46,"teacher001","student007",111,60,51,1258,826,432,"B1",22,"Mandarin Chinese",NA,FALSE
+73,"teacherstudentchat00073.tsv",2020-04-14 11:18:59,"teacher001","student007",133,82,51,1143,907,236,"B1",22,"Mandarin Chinese",NA,FALSE
+74,"teacherstudentchat00074.tsv",2020-04-14 13:01:29,"teacher001","student004",152,80,72,1571,951,620,"C1",40,"Spanish",NA,FALSE
+75,"teacherstudentchat00075.tsv",2020-04-15 10:00:39,"teacher001","student007",111,65,46,1137,822,315,"B1",22,"Mandarin Chinese",NA,FALSE
+76,"teacherstudentchat00076.tsv",2020-04-15 11:16:46,"teacher001","student007",98,59,39,1095,914,181,"B1",22,"Mandarin Chinese",NA,FALSE
+77,"teacherstudentchat00077.tsv",2020-04-16 13:02:50,"teacher001","student004",132,72,60,1909,1478,431,"C1",40,"Spanish",NA,FALSE
+78,"teacherstudentchat00078.tsv",2020-04-25 07:01:00,"teacher001","student004",107,59,48,1873,948,925,"C1",40,"Spanish",NA,FALSE
+79,"teacherstudentchat00079.tsv",2020-06-25 11:58:26,"teacher008","student009",230,112,118,1493,987,506,"B2",12,"Ukrainian","n",FALSE
+80,"teacherstudentchat00080.tsv",2020-06-30 06:58:18,"teacher008","student009",225,122,103,1302,931,371,"B2",12,"Ukrainian","n",FALSE
+81,"teacherstudentchat00081.tsv",2020-07-01 06:28:12,"teacher008","student010",129,77,52,997,736,261,"B2",13,"Ukrainian","n",FALSE
+82,"teacherstudentchat00082.tsv",2020-07-02 06:58:45,"teacher008","student009",211,131,80,1425,1157,268,"B2",12,"Ukrainian","n",FALSE
+83,"teacherstudentchat00083.tsv",2020-07-03 06:26:37,"teacher008","student010",137,81,56,994,714,280,"B2",13,"Ukrainian","n",FALSE
+84,"teacherstudentchat00084.tsv",2020-07-07 06:58:17,"teacher008","student009",188,106,82,1202,901,301,"B2",12,"Ukrainian","n",FALSE
+85,"teacherstudentchat00085.tsv",2020-07-08 06:29:49,"teacher008","student010",120,73,47,934,669,265,"B2",13,"Ukrainian","n",FALSE
+86,"teacherstudentchat00086.tsv",2020-07-09 06:59:03,"teacher008","student009",203,121,82,1053,798,255,"B2",12,"Ukrainian","n",FALSE
+87,"teacherstudentchat00087.tsv",2020-07-10 06:30:44,"teacher008","student010",117,70,47,1009,696,313,"B2",13,"Ukrainian","n",FALSE
+88,"teacherstudentchat00088.tsv",2020-07-21 07:02:02,"teacher008","student009",148,78,70,1017,692,325,"B2",12,"Ukrainian","n",FALSE
+89,"teacherstudentchat00089.tsv",2020-07-22 06:30:06,"teacher008","student010",118,72,46,850,582,268,"B2",13,"Ukrainian","n",FALSE
+90,"teacherstudentchat00090.tsv",2020-07-23 07:02:26,"teacher008","student009",135,83,52,944,792,152,"B2",12,"Ukrainian","n",FALSE
+91,"teacherstudentchat00091.tsv",2020-07-23 23:00:00,"teacher008","student010",138,86,52,1038,779,259,"B2",13,"Ukrainian","n",FALSE
+92,"teacherstudentchat00092.tsv",2020-07-29 06:28:29,"teacher008","student010",157,93,64,996,733,263,"B2",13,"Ukrainian","n",FALSE
+93,"teacherstudentchat00093.tsv",2020-07-31 06:30:33,"teacher008","student010",206,133,73,1017,815,202,"B2",13,"Ukrainian","n",FALSE
+94,"teacherstudentchat00094.tsv",2020-07-31 07:33:05,"teacher008","student009",151,76,75,923,592,331,"B2",12,"Ukrainian","n",FALSE
+95,"teacherstudentchat00095.tsv",2020-08-05 06:30:22,"teacher008","student010",148,93,55,929,760,169,"B2",13,"Ukrainian","n",FALSE
+96,"teacherstudentchat00096.tsv",2020-08-05 07:32:11,"teacher008","student009",181,102,79,1049,747,302,"B2",12,"Ukrainian","n",FALSE
+97,"teacherstudentchat00097.tsv",2020-08-06 07:30:48,"teacher008","student009",144,87,57,917,706,211,"B2",12,"Ukrainian","n",FALSE
+98,"teacherstudentchat00098.tsv",2020-08-11 07:14:06,"teacher008","student009",133,69,64,712,508,204,"B2",12,"Ukrainian","n",FALSE
+99,"teacherstudentchat00099.tsv",2020-08-12 06:31:53,"teacher008","student010",112,63,49,830,565,265,"B2",13,"Ukrainian","n",FALSE
+100,"teacherstudentchat00100.tsv",2020-08-13 07:00:23,"teacher008","student009",207,120,87,1135,885,250,"B2",12,"Ukrainian","n",FALSE
+101,"teacherstudentchat00101.tsv",2020-08-14 06:32:02,"teacher008","student010",133,83,50,1157,898,259,"B2",13,"Ukrainian","n",FALSE
+102,"teacherstudentchat00102.tsv",2020-08-14 07:35:49,"teacher008","student009",170,105,65,978,826,152,"B2",12,"Ukrainian","n",FALSE
+103,"teacherstudentchat00103.tsv",2020-08-18 07:00:42,"teacher008","student009",177,88,89,875,677,198,"B2",12,"Ukrainian","n",FALSE
+104,"teacherstudentchat00104.tsv",2020-08-20 07:04:34,"teacher008","student009",178,92,86,1286,849,437,"B2",12,"Ukrainian","n",FALSE
+105,"teacherstudentchat00105.tsv",2020-08-21 06:31:13,"teacher008","student010",173,112,61,824,679,145,"B2",13,"Ukrainian","n",FALSE
+106,"teacherstudentchat00106.tsv",2020-08-25 07:00:54,"teacher008","student009",147,83,64,1098,884,214,"B2",12,"Ukrainian","n",FALSE
+107,"teacherstudentchat00107.tsv",2020-08-26 06:31:14,"teacher008","student010",119,76,43,798,580,218,"B2",13,"Ukrainian","n",FALSE
+108,"teacherstudentchat00108.tsv",2020-08-27 07:01:02,"teacher008","student009",213,114,99,1400,948,452,"B2",12,"Ukrainian","n",FALSE
+109,"teacherstudentchat00109.tsv",2020-08-31 06:59:27,"teacher008","student010",126,80,46,978,805,173,"B2",13,"Ukrainian","n",FALSE
+110,"teacherstudentchat00110.tsv",2020-09-23 11:30:56,"teacher008","student011",198,100,98,1797,1181,616,"B2",26,"Russian,Ukrainian","n",FALSE
+111,"teacherstudentchat00111.tsv",2020-09-25 11:32:44,"teacher008","student011",232,120,112,1748,1076,672,"B2",26,"Russian,Ukrainian","n",FALSE
+112,"teacherstudentchat00112.tsv",2020-09-29 12:30:56,"teacher008","student009",287,130,157,1901,915,986,"B2",12,"Ukrainian","n",FALSE
+113,"teacherstudentchat00113.tsv",2020-09-30 10:12:54,"teacher008","student012",299,152,147,2137,1385,752,"C2",33,"Russian","n",FALSE
+114,"teacherstudentchat00114.tsv",2020-09-30 11:33:14,"teacher008","student011",288,165,123,1969,1270,699,"B2",26,"Russian,Ukrainian","n",FALSE
+115,"teacherstudentchat00115.tsv",2020-10-01 23:00:00,"teacher008","student011",205,110,95,1498,1049,449,"B2",26,"Russian,Ukrainian","n",FALSE
+116,"teacherstudentchat00116.tsv",2020-10-02 12:30:39,"teacher008","student009",250,88,162,1698,688,1010,"B2",12,"Ukrainian","n",FALSE
+117,"teacherstudentchat00117.tsv",2020-10-11 23:00:00,"teacher008","student011",258,129,129,1888,1299,589,"B2",26,"Russian,Ukrainian","n",FALSE
+118,"teacherstudentchat00118.tsv",2020-10-13 09:30:07,"teacher008","student014",143,86,57,2092,1079,1013,"C2",30,"Italian","n",FALSE
+119,"teacherstudentchat00119.tsv",2020-10-13 12:50:54,"teacher008","student009",146,76,70,1018,702,316,"B2",12,"Ukrainian","n",FALSE
+120,"teacherstudentchat00120.tsv",2020-10-15 09:10:18,"teacher008","student012",235,119,116,1568,954,614,"C2",33,"Russian","n",FALSE
+121,"teacherstudentchat00121.tsv",2020-10-15 12:30:09,"teacher008","student015",159,96,63,1306,920,386,"B2",30,"Mandarin Chinese","n",FALSE
+122,"teacherstudentchat00122.tsv",2020-10-20 11:00:40,"teacher008","student014",171,102,69,2128,1057,1071,"C2",30,"Italian","n",FALSE
+123,"teacherstudentchat00123.tsv",2020-10-20 12:32:50,"teacher008","student009",249,133,116,1320,922,398,"B2",12,"Ukrainian","n",FALSE
+124,"teacherstudentchat00124.tsv",2020-10-21 10:02:51,"teacher008","student012",203,103,100,1433,892,541,"C2",33,"Russian","n",FALSE
+125,"teacherstudentchat00125.tsv",2020-10-21 23:00:00,"teacher008","student009",222,116,106,1171,804,367,"B2",12,"Ukrainian","n",FALSE
+126,"teacherstudentchat00126.tsv",2020-10-21 23:00:00,"teacher008","student015",198,106,92,1833,1278,555,"B2",30,"Mandarin Chinese","n",FALSE
+127,"teacherstudentchat00127.tsv",2020-11-03 12:00:45,"teacher008","student014",165,98,67,2179,1185,994,"C2",30,"Italian","n",FALSE
+128,"teacherstudentchat00128.tsv",2020-11-03 13:31:00,"teacher008","student009",200,103,97,1356,898,458,"B2",12,"Ukrainian","n",FALSE
+129,"teacherstudentchat00129.tsv",2020-11-04 13:00:26,"teacher008","student011",198,105,93,1609,1074,535,"B2",26,"Russian,Ukrainian","n",FALSE
+130,"teacherstudentchat00130.tsv",2020-11-05 00:00:00,"teacher008","student015",120,71,49,1041,763,278,"B2",30,"Mandarin Chinese","n",FALSE
+131,"teacherstudentchat00131.tsv",2020-11-06 00:00:00,"teacher008","student011",202,95,107,1508,1012,496,"B2",26,"Russian,Ukrainian","n",FALSE
+132,"teacherstudentchat00132.tsv",2020-11-06 13:42:41,"teacher008","student009",156,72,84,1023,657,366,"B2",12,"Ukrainian","n",FALSE
+133,"teacherstudentchat00133.tsv",2020-11-09 13:30:40,"teacher008","student015",158,101,57,1266,950,316,"B2",30,"Mandarin Chinese","n",FALSE
+134,"teacherstudentchat00134.tsv",2020-11-10 12:00:15,"teacher008","student014",164,99,65,1701,982,719,"C2",30,"Italian","n",FALSE
+135,"teacherstudentchat00135.tsv",2020-11-10 13:31:30,"teacher008","student009",199,123,76,1292,1040,252,"B2",12,"Ukrainian","n",FALSE
+136,"teacherstudentchat00136.tsv",2020-11-11 11:13:38,"teacher008","student012",259,120,139,1608,984,624,"C2",33,"Russian","n",FALSE
+137,"teacherstudentchat00137.tsv",2020-11-11 12:22:29,"teacher008","student011",225,123,102,1473,1030,443,"B2",26,"Russian,Ukrainian","n",FALSE
+138,"teacherstudentchat00138.tsv",2020-11-12 13:31:36,"teacher008","student015",124,75,49,1473,1050,423,"B2",30,"Mandarin Chinese","n",FALSE
+139,"teacherstudentchat00139.tsv",2020-11-13 00:00:00,"teacher008","student011",309,155,154,2046,1356,690,"B2",26,"Russian,Ukrainian","n",FALSE
+140,"teacherstudentchat00140.tsv",2020-11-16 13:34:03,"teacher008","student015",140,96,44,1321,978,343,"B2",30,"Mandarin Chinese","n",FALSE
+141,"teacherstudentchat00141.tsv",2020-11-17 12:00:21,"teacher008","student014",151,77,74,2185,1122,1063,"C2",30,"Italian","n",FALSE
+142,"teacherstudentchat00142.tsv",2020-11-17 00:00:00,"teacher008","student009",238,135,103,1345,974,371,"B2",12,"Ukrainian","n",FALSE
+143,"teacherstudentchat00143.tsv",2020-11-18 00:00:00,"teacher008","student011",285,129,156,2154,1257,897,"B2",26,"Russian,Ukrainian","n",FALSE
+144,"teacherstudentchat00144.tsv",2020-11-19 13:29:43,"teacher008","student015",134,80,54,1256,961,295,"B2",30,"Mandarin Chinese","n",FALSE
+145,"teacherstudentchat00145.tsv",2020-11-20 12:22:29,"teacher008","student011",233,117,116,1808,1150,658,"B2",26,"Russian,Ukrainian","n",FALSE
+146,"teacherstudentchat00146.tsv",2020-11-20 13:31:28,"teacher008","student009",198,106,92,1116,757,359,"B2",12,"Ukrainian","n",FALSE
+147,"teacherstudentchat00147.tsv",2020-11-23 13:29:54,"teacher008","student015",173,112,61,1696,1319,377,"B2",30,"Mandarin Chinese","n",FALSE
+148,"teacherstudentchat00148.tsv",2020-11-24 12:01:00,"teacher008","student014",177,103,74,1738,1030,708,"C2",30,"Italian","n",FALSE
+149,"teacherstudentchat00149.tsv",2020-11-24 00:00:00,"teacher008","student009",166,87,79,1049,757,292,"B2",12,"Ukrainian","n",FALSE
+150,"teacherstudentchat00150.tsv",2020-11-25 00:00:00,"teacher008","student012",245,113,132,1528,949,579,"C2",33,"Russian","n",FALSE
+151,"teacherstudentchat00151.tsv",2020-11-26 13:30:59,"teacher008","student015",155,101,54,1294,950,344,"B2",30,"Mandarin Chinese","n",FALSE
+152,"teacherstudentchat00152.tsv",2020-11-27 12:23:45,"teacher008","student011",255,122,133,1866,1188,678,"B2",26,"Russian,Ukrainian","n",FALSE
+153,"teacherstudentchat00153.tsv",2020-11-27 13:31:23,"teacher008","student009",177,99,78,1082,748,334,"B2",12,"Ukrainian","n",FALSE
+154,"teacherstudentchat00154.tsv",2020-11-30 13:30:50,"teacher008","student015",124,78,46,1270,916,354,"B2",30,"Mandarin Chinese","n",FALSE
+155,"teacherstudentchat00155.tsv",2020-12-01 13:31:32,"teacher008","student009",167,86,81,1030,693,337,"B2",12,"Ukrainian","n",FALSE
+156,"teacherstudentchat00156.tsv",2020-12-02 11:10:22,"teacher008","student012",263,137,126,1834,1177,657,"C2",33,"Russian","n",FALSE
+157,"teacherstudentchat00157.tsv",2020-12-02 12:21:48,"teacher008","student011",205,107,98,1571,1005,566,"B2",26,"Russian,Ukrainian","n",FALSE
+158,"teacherstudentchat00158.tsv",2020-12-03 13:30:42,"teacher008","student015",117,70,47,1021,617,404,"B2",30,"Mandarin Chinese","n",FALSE
+159,"teacherstudentchat00159.tsv",2020-12-04 12:21:10,"teacher008","student011",218,108,110,1485,945,540,"B2",26,"Russian,Ukrainian","n",FALSE
+160,"teacherstudentchat00160.tsv",2020-12-08 12:18:40,"teacher008","student014",179,106,73,2394,1208,1186,"C2",30,"Italian","n",FALSE
+161,"teacherstudentchat00161.tsv",2020-12-08 13:31:27,"teacher008","student009",181,115,66,1260,1053,207,"B2",12,"Ukrainian","n",FALSE
+162,"teacherstudentchat00162.tsv",2020-12-09 11:11:36,"teacher008","student012",204,89,115,1653,913,740,"C2",33,"Russian","n",FALSE
+163,"teacherstudentchat00163.tsv",2020-12-09 12:20:47,"teacher008","student011",293,129,164,1991,1236,755,"B2",26,"Russian,Ukrainian","n",FALSE
+164,"teacherstudentchat00164.tsv",2020-12-10 13:31:17,"teacher008","student015",139,86,53,1325,933,392,"B2",30,"Mandarin Chinese","n",FALSE
+165,"teacherstudentchat00165.tsv",2020-12-11 13:38:32,"teacher008","student009",143,82,61,895,658,237,"B2",12,"Ukrainian","n",FALSE
+166,"teacherstudentchat00166.tsv",2020-12-14 13:30:36,"teacher008","student015",174,114,60,1755,1423,332,"B2",30,"Mandarin Chinese","n",FALSE
+167,"teacherstudentchat00167.tsv",2020-12-15 13:31:03,"teacher008","student009",166,102,64,1097,882,215,"B2",12,"Ukrainian","n",FALSE
+168,"teacherstudentchat00168.tsv",2020-12-16 11:10:29,"teacher008","student012",253,112,141,1992,1241,751,"C2",33,"Russian","n",FALSE
+169,"teacherstudentchat00169.tsv",2020-12-16 12:22:18,"teacher008","student011",241,111,130,1843,1094,749,"B2",26,"Russian,Ukrainian","n",FALSE
+170,"teacherstudentchat00170.tsv",2020-12-18 12:19:49,"teacher008","student011",275,132,143,1870,1047,823,"B2",26,"Russian,Ukrainian","n",FALSE
+171,"teacherstudentchat00171.tsv",2020-12-18 13:30:16,"teacher008","student009",148,85,63,944,715,229,"B2",12,"Ukrainian","n",FALSE
+172,"teacherstudentchat00172.tsv",2021-01-04 13:30:31,"teacher008","student015",143,84,59,1232,913,319,"B2",30,"Mandarin Chinese","n",FALSE
+173,"teacherstudentchat00173.tsv",2021-01-05 00:00:00,"teacher008","student014",153,86,67,2140,1071,1069,"C2",30,"Italian","n",FALSE
+174,"teacherstudentchat00174.tsv",2021-01-06 12:01:17,"teacher008","student011",268,121,147,1672,954,718,"B2",26,"Russian,Ukrainian","n",FALSE
+175,"teacherstudentchat00175.tsv",2021-01-07 13:29:50,"teacher008","student015",99,60,39,877,614,263,"B2",30,"Mandarin Chinese","n",FALSE
+176,"teacherstudentchat00176.tsv",2021-01-12 15:04:58,"teacher008","student012",227,118,109,2153,1631,522,"C2",33,"Russian","n",FALSE
+177,"teacherstudentchat00177.tsv",2021-01-13 00:00:00,"teacher008","student011",249,115,134,1707,1040,667,"B2",26,"Russian,Ukrainian","n",FALSE
+178,"teacherstudentchat00178.tsv",2021-01-14 08:02:25,"teacher008","student014",125,74,51,1590,880,710,"C2",30,"Italian","n",FALSE
+179,"teacherstudentchat00179.tsv",2021-01-14 13:30:01,"teacher008","student015",168,105,63,1210,963,247,"B2",30,"Mandarin Chinese","n",FALSE
+180,"teacherstudentchat00180.tsv",2021-01-15 12:01:36,"teacher008","student011",272,115,157,1868,1118,750,"B2",26,"Russian,Ukrainian","n",FALSE
+181,"teacherstudentchat00181.tsv",2021-01-15 13:11:13,"teacher008","student009",117,73,44,907,676,231,"B2",12,"Ukrainian","n",FALSE
+182,"teacherstudentchat00182.tsv",2021-01-18 15:04:16,"teacher008","student012",155,81,74,1156,772,384,"C2",33,"Russian","n",FALSE
+183,"teacherstudentchat00183.tsv",2021-01-19 08:03:33,"teacher008","student011",200,91,109,1602,912,690,"B2",26,"Russian,Ukrainian","n",FALSE
+184,"teacherstudentchat00184.tsv",2021-01-19 12:00:26,"teacher008","student014",142,80,62,1896,1116,780,"C2",30,"Italian","n",FALSE
+185,"teacherstudentchat00185.tsv",2021-01-22 08:01:10,"teacher008","student011",170,84,86,1346,824,522,"B2",26,"Russian,Ukrainian","n",FALSE
+186,"teacherstudentchat00186.tsv",2021-01-26 13:29:37,"teacher008","student009",145,79,66,1248,884,364,"B2",12,"Ukrainian","n",FALSE
+187,"teacherstudentchat00187.tsv",2021-01-27 08:03:45,"teacher008","student011",209,91,118,1622,837,785,"B2",26,"Russian,Ukrainian","n",FALSE
+188,"teacherstudentchat00188.tsv",2021-01-29 08:10:23,"teacher008","student011",195,100,95,1593,981,612,"B2",26,"Russian,Ukrainian","n",FALSE
+189,"teacherstudentchat00189.tsv",2021-01-29 12:02:49,"teacher008","student014",147,80,67,2019,1171,848,"C2",30,"Italian","n",FALSE
+190,"teacherstudentchat00190.tsv",2021-02-02 12:05:16,"teacher008","student014",132,81,51,1639,914,725,"C2",30,"Italian","n",FALSE
+191,"teacherstudentchat00191.tsv",2021-02-02 13:31:52,"teacher008","student009",124,69,55,953,686,267,"B2",12,"Ukrainian","n",FALSE
+192,"teacherstudentchat00192.tsv",2021-02-03 08:14:35,"teacher008","student012",202,95,107,1527,940,587,"C2",33,"Russian","n",FALSE
+193,"teacherstudentchat00193.tsv",2021-02-04 00:00:00,"teacher008","student011",178,76,102,1459,835,624,"B2",26,"Russian,Ukrainian","n",FALSE
+194,"teacherstudentchat00194.tsv",2021-02-04 13:29:25,"teacher008","student015",139,88,51,1299,936,363,"B2",30,"Mandarin Chinese","n",FALSE
+195,"teacherstudentchat00195.tsv",2021-02-05 08:02:47,"teacher008","student011",210,97,113,1728,984,744,"B2",26,"Russian,Ukrainian","n",FALSE
+196,"teacherstudentchat00196.tsv",2021-02-08 12:02:25,"teacher008","student011",206,98,108,1539,945,594,"B2",26,"Russian,Ukrainian","n",FALSE
+197,"teacherstudentchat00197.tsv",2021-02-09 12:02:49,"teacher008","student014",134,81,53,1542,872,670,"C2",30,"Italian","n",FALSE
+198,"teacherstudentchat00198.tsv",2021-02-09 00:00:00,"teacher008","student009",111,66,45,890,686,204,"B2",12,"Ukrainian","n",FALSE
+199,"teacherstudentchat00199.tsv",2021-02-10 00:00:00,"teacher008","student011",244,111,133,1740,1067,673,"B2",26,"Russian,Ukrainian","n",FALSE
+200,"teacherstudentchat00200.tsv",2021-02-11 12:00:43,"teacher008","student012",143,65,78,1308,776,532,"C2",33,"Russian","n",FALSE
+201,"teacherstudentchat00201.tsv",2021-02-11 13:33:42,"teacher008","student015",151,97,54,1190,966,224,"B2",30,"Mandarin Chinese","n",FALSE
+202,"teacherstudentchat00202.tsv",2021-02-16 13:34:08,"teacher008","student009",135,77,58,829,633,196,"B2",12,"Ukrainian","n",FALSE
+203,"teacherstudentchat00203.tsv",2021-02-17 08:08:12,"teacher008","student011",192,90,102,1437,771,666,"B2",26,"Russian,Ukrainian","n",FALSE
+204,"teacherstudentchat00204.tsv",2021-02-17 09:52:54,"teacher008","student012",128,65,63,1109,711,398,"C2",33,"Russian","n",FALSE
+205,"teacherstudentchat00205.tsv",2021-02-19 08:02:38,"teacher008","student011",180,93,87,1606,855,751,"B2",26,"Russian,Ukrainian","n",FALSE
+206,"teacherstudentchat00206.tsv",2021-02-23 00:00:00,"teacher008","student014",149,74,75,1811,953,858,"C2",30,"Italian","n",FALSE
+207,"teacherstudentchat00207.tsv",2021-02-23 13:36:29,"teacher008","student009",101,60,41,725,566,159,"B2",12,"Ukrainian","n",FALSE
+208,"teacherstudentchat00208.tsv",2021-02-24 08:01:34,"teacher008","student011",195,90,105,1602,904,698,"B2",26,"Russian,Ukrainian","n",FALSE
+209,"teacherstudentchat00209.tsv",2021-02-26 08:11:29,"teacher008","student011",138,71,67,1138,720,418,"B2",26,"Russian,Ukrainian","n",FALSE
+210,"teacherstudentchat00210.tsv",2021-03-01 13:07:09,"teacher008","student012",144,73,71,1122,775,347,"C2",33,"Russian","n",FALSE
+211,"teacherstudentchat00211.tsv",2021-03-02 12:00:35,"teacher008","student014",150,80,70,1958,1085,873,"C2",30,"Italian","n",FALSE
+212,"teacherstudentchat00212.tsv",2021-03-03 08:01:04,"teacher008","student011",173,87,86,1399,876,523,"B2",26,"Russian,Ukrainian","n",FALSE
+213,"teacherstudentchat00213.tsv",2021-03-09 12:04:55,"teacher008","student014",121,72,49,1551,926,625,"C2",30,"Italian","n",FALSE
+214,"teacherstudentchat00214.tsv",2021-03-10 10:31:36,"teacher008","student011",225,122,103,1977,1436,541,"B2",26,"Russian,Ukrainian","n",FALSE
+215,"teacherstudentchat00215.tsv",2021-03-11 12:11:06,"teacher008","student012",225,116,109,1535,964,571,"C2",33,"Russian","n",FALSE
+216,"teacherstudentchat00216.tsv",2021-03-12 10:31:33,"teacher008","student011",162,77,85,1075,595,480,"B2",26,"Russian,Ukrainian","n",FALSE
+217,"teacherstudentchat00217.tsv",2021-03-12 13:31:01,"teacher008","student009",156,90,66,1399,947,452,"B2",12,"Ukrainian","n",FALSE
+218,"teacherstudentchat00218.tsv",2021-03-15 13:05:16,"teacher008","student012",179,101,78,1404,908,496,"C2",33,"Russian","n",FALSE
+219,"teacherstudentchat00219.tsv",2021-03-16 12:01:12,"teacher008","student014",123,70,53,1615,909,706,"C2",30,"Italian","n",FALSE
+220,"teacherstudentchat00220.tsv",2021-03-22 11:32:07,"teacher008","student011",232,99,133,1845,1058,787,"B2",26,"Russian,Ukrainian","n",FALSE
+221,"teacherstudentchat00221.tsv",2021-03-23 12:01:59,"teacher008","student014",137,75,62,1990,1053,937,"C2",30,"Italian","n",FALSE
+222,"teacherstudentchat00222.tsv",2021-03-25 12:06:13,"teacher008","student012",173,91,82,1509,979,530,"C2",33,"Russian","n",FALSE
+223,"teacherstudentchat00223.tsv",2021-03-26 10:32:45,"teacher008","student011",212,104,108,1600,920,680,"B2",26,"Russian,Ukrainian","n",FALSE
+224,"teacherstudentchat00224.tsv",2021-03-26 13:30:54,"teacher008","student009",126,78,48,953,760,193,"B2",12,"Ukrainian","n",FALSE
+225,"teacherstudentchat00225.tsv",2021-04-12 09:33:11,"teacher008","student011",218,104,114,1782,963,819,"B2",26,"Russian,Ukrainian","n",FALSE
+226,"teacherstudentchat00226.tsv",2021-04-12 12:13:07,"teacher008","student012",224,99,125,1461,899,562,"C2",33,"Russian","n",FALSE
+227,"teacherstudentchat00227.tsv",2021-04-12 23:00:00,"teacher008","student014",149,77,72,1696,797,899,"C2",30,"Italian","n",FALSE
+228,"teacherstudentchat00228.tsv",2021-04-15 23:00:00,"teacher008","student011",221,100,121,1464,930,534,"B2",26,"Russian,Ukrainian","n",FALSE
+229,"teacherstudentchat00229.tsv",2021-04-16 12:31:32,"teacher008","student009",152,93,59,1231,888,343,"B2",12,"Ukrainian","n",FALSE
+230,"teacherstudentchat00230.tsv",2021-04-18 23:00:00,"teacher008","student011",245,104,141,1770,948,822,"B2",26,"Russian,Ukrainian","n",FALSE
+231,"teacherstudentchat00231.tsv",2021-04-19 12:04:11,"teacher008","student012",176,81,95,1359,858,501,"C2",33,"Russian","n",FALSE
+232,"teacherstudentchat00232.tsv",2021-04-20 11:00:47,"teacher008","student014",122,75,47,1766,1096,670,"C2",30,"Italian","n",FALSE
+233,"teacherstudentchat00233.tsv",2021-04-23 09:32:35,"teacher008","student011",222,94,128,1585,918,667,"B2",26,"Russian,Ukrainian","n",FALSE
+234,"teacherstudentchat00234.tsv",2021-04-27 09:14:13,"teacher008","student012",156,78,78,1706,1296,410,"C2",33,"Russian","n",FALSE
+235,"teacherstudentchat00235.tsv",2021-04-27 11:06:58,"teacher008","student014",124,72,52,1458,877,581,"C2",30,"Italian","n",FALSE
+236,"teacherstudentchat00236.tsv",2021-04-27 23:00:00,"teacher008","student011",155,77,78,1300,861,439,"B2",26,"Russian,Ukrainian","n",FALSE
+237,"teacherstudentchat00237.tsv",2021-04-29 12:26:21,"teacher008","student011",236,104,132,1610,1014,596,"B2",26,"Russian,Ukrainian","n",FALSE
+238,"teacherstudentchat00238.tsv",2021-04-30 12:32:10,"teacher008","student009",127,69,58,1151,832,319,"B2",12,"Ukrainian","n",FALSE
+239,"teacherstudentchat00239.tsv",2021-05-04 11:01:13,"teacher008","student014",104,55,49,1574,955,619,"C2",30,"Italian","n",FALSE
+240,"teacherstudentchat00240.tsv",2021-05-06 12:00:20,"teacher008","student012",114,59,55,1464,1039,425,"C2",33,"Russian","n",FALSE
+241,"teacherstudentchat00241.tsv",2021-05-06 23:00:00,"teacher008","student011",201,97,104,1504,934,570,"B2",26,"Russian,Ukrainian","n",FALSE
+242,"teacherstudentchat00242.tsv",2021-05-07 12:33:02,"teacher008","student009",127,73,54,1214,983,231,"B2",12,"Ukrainian","n",FALSE
+243,"teacherstudentchat00243.tsv",2021-05-11 11:01:49,"teacher008","student014",139,75,64,1767,998,769,"C2",30,"Italian","n",FALSE
+244,"teacherstudentchat00244.tsv",2021-05-12 09:30:53,"teacher008","student011",152,72,80,1498,820,678,"B2",26,"Russian,Ukrainian","n",FALSE
+245,"teacherstudentchat00245.tsv",2021-05-13 11:59:40,"teacher008","student012",146,69,77,1276,911,365,"C2",33,"Russian","n",FALSE
+246,"teacherstudentchat00246.tsv",2021-05-14 09:32:14,"teacher008","student011",200,83,117,1366,757,609,"B2",26,"Russian,Ukrainian","n",FALSE
+247,"teacherstudentchat00247.tsv",2021-05-14 12:31:24,"teacher008","student009",120,65,55,859,581,278,"B2",12,"Ukrainian","n",FALSE
+248,"teacherstudentchat00248.tsv",2021-05-20 12:08:44,"teacher008","student012",118,58,60,1130,720,410,"C2",33,"Russian","n",FALSE
+249,"teacherstudentchat00249.tsv",2021-05-21 09:33:19,"teacher008","student011",177,92,85,1359,901,458,"B2",26,"Russian,Ukrainian","n",FALSE
+250,"teacherstudentchat00250.tsv",2021-05-21 12:30:35,"teacher008","student009",138,92,46,977,739,238,"B2",12,"Ukrainian","n",FALSE
+251,"teacherstudentchat00251.tsv",2021-05-24 09:30:39,"teacher008","student011",214,96,118,1422,752,670,"B2",26,"Russian,Ukrainian","n",FALSE
+252,"teacherstudentchat00252.tsv",2021-05-26 09:31:35,"teacher008","student011",216,96,120,1483,885,598,"B2",26,"Russian,Ukrainian","n",FALSE
+253,"teacherstudentchat00253.tsv",2021-05-27 10:50:37,"teacher008","student014",139,74,65,1805,873,932,"C2",30,"Italian","n",FALSE
+254,"teacherstudentchat00254.tsv",2021-05-27 12:07:32,"teacher008","student012",140,68,72,1337,841,496,"C2",33,"Russian","n",FALSE
+255,"teacherstudentchat00255.tsv",2021-06-08 11:00:50,"teacher008","student014",146,86,60,1733,916,817,"C2",30,"Italian","n",FALSE
+256,"teacherstudentchat00256.tsv",2021-06-10 12:08:25,"teacher008","student012",102,47,55,1169,671,498,"C2",33,"Russian","n",FALSE
+257,"teacherstudentchat00257.tsv",2021-06-10 23:00:00,"teacher008","student009",145,69,76,1688,1099,589,"B2",12,"Ukrainian","n",FALSE
+258,"teacherstudentchat00258.tsv",2021-06-15 11:01:30,"teacher008","student014",103,59,44,1659,975,684,"C2",30,"Italian","n",FALSE
+259,"teacherstudentchat00259.tsv",2021-06-17 12:17:50,"teacher008","student012",150,75,75,1201,738,463,"C2",33,"Russian","n",FALSE
+260,"teacherstudentchat00260.tsv",2021-06-18 09:38:19,"teacher008","student011",183,77,106,1318,744,574,"B2",26,"Russian,Ukrainian","n",FALSE
+261,"teacherstudentchat00261.tsv",2021-06-18 09:38:19,"teacher008","student011",183,77,106,1318,744,574,"B2",26,"Russian,Ukrainian","n",FALSE

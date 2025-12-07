@@ -1,0 +1,112 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-30 09:30:55	"student007"	"student"	1	"Good afternoon <TEACHER>."	"Good afternoon <TEACHER>."	NA	"1.0"	"opening"	NA	NA	NA	3
+2020-03-30 09:31:08	"teacher001"	"teacher"	2	"Good afternoon to you <STUDENT> - all OK with you?"	"Good afternoon to you <STUDENT> - all OK with you?"	NA	NA	NA	NA	NA	NA	10
+2020-03-30 09:31:11	"student007"	"student"	3	"how was your interview today?"	"how was your interview today?"	NA	"2.0"	"topic opening"	NA	NA	NA	5
+2020-03-30 09:31:41	"teacher001"	"teacher"	4	"Ah well in the end it was cancelled so I've had a free hour ...."	"Ah well in the end it was cancelled so I've had a free hour ...."	NA	NA	NA	NA	NA	NA	15
+2020-03-30 09:32:00	"teacher001"	"teacher"	5	"I've been helping my daughter with her homework."	"I've been helping my daughter with her homework."	NA	NA	NA	NA	NA	NA	8
+2020-03-30 09:32:07	"student007"	"student"	6	"yes, today the UK's time has changed, I have a little bit confused"	"yes, today the UK time has changed, I'm a little bit confused"	"2.0"	"3.0"	"topic opening"	NA	NA	NA	13
+2020-03-30 09:32:26	"student007"	"student"	7	"wow, that was great"	"wow, that was great"	"5.0"	NA	NA	NA	NA	NA	4
+2020-03-30 09:32:44	"teacher001"	"teacher"	8	"Oh yes of course - did you get the time wrong for your morning lesson?"	"Oh yes of course - did you get the time wrong for your morning lesson?"	"6.0"	NA	NA	NA	NA	NA	15
+2020-03-30 09:33:22	"student007"	"student"	9	"of course, I was late for an hour."	"of course, I was an hour late."	NA	NA	NA	NA	NA	NA	8
+2020-03-30 09:34:13	"teacher001"	"teacher"	10	"Oh no! Yes I thought of warning you by email about the time change...but i didn't of course"	"Oh no! Yes I thought of warning you by email about the time change...but i didn't of course"	NA	NA	NA	NA	NA	NA	18
+2020-03-30 09:34:27	"teacher001"	"teacher"	11	"The school should have thought of that I think!"	"The school should have thought of that I think!"	NA	NA	NA	NA	NA	NA	9
+2020-03-30 09:34:30	"student007"	"student"	12	"because the time difference has changed from 8 hours to 7 hours."	"because the time difference has changed from 8 hours to 7 hours."	NA	NA	NA	NA	NA	NA	12
+2020-03-30 09:34:50	"teacher001"	"teacher"	13	"Yes sure - So actually it's quite a late start for you"	"Yes sure - So actually it's quite a late start for you"	NA	NA	NA	NA	NA	NA	12
+2020-03-30 09:35:09	"student007"	"student"	14	"yes..but it is ok, because I change my computer's time into the UK's time."	"yes..but it is ok, because I've changed the time on my computer into the UK time."	NA	NA	NA	NA	NA	NA	14
+2020-03-30 09:35:25	"teacher001"	"teacher"	15	"OK good idea"	"OK good idea"	NA	NA	NA	NA	NA	NA	3
+2020-03-30 09:35:37	"student007"	"student"	16	"after that I can on time everyday."	"now I can be on time everyday."	NA	NA	NA	NA	NA	NA	7
+2020-03-30 09:35:42	"teacher001"	"teacher"	17	"So you're still in quarantine right?"	"So you're still in quarantine right?"	NA	"3a"	"topic development"	NA	NA	NA	6
+2020-03-30 09:36:01	"student007"	"student"	18	"it is an really effective way"	"it is a really effective way"	"16.0"	NA	NA	NA	NA	NA	6
+2020-03-30 09:36:39	"student007"	"student"	19	"yes, I have one more a week"	"yes, I have one more a week"	"17.0"	NA	NA	NA	NA	NA	7
+2020-03-30 09:37:32	"teacher001"	"teacher"	20	"Right - is it difficult or are you coping ok?"	"Right - is it difficult or are you coping ok?"	NA	"3b"	"topic development"	NA	NA	NA	10
+2020-03-30 09:38:54	"student007"	"student"	21	"I suppose the quarantine time is become better lifestyle, haha..."	"I suppose I have had a better lifestyle during the quarantine, haha..."	NA	NA	NA	NA	NA	NA	10
+2020-03-30 09:39:53	"teacher001"	"teacher"	22	"Ha! Really? Because you have a healthier  diet?!"	"Ha! Really? Because you have a healthier  diet?!"	NA	NA	NA	NA	NA	NA	9
+2020-03-30 09:41:09	"student007"	"student"	23	"because i nurses provided meals on time everyday, and I can do everything on time, such as reading, learning and so on. just one thing have to obey which is stay at room"	"Because nurses provide meals on time every day, and I can do everything on time, such as reading, learning and so on. Just one thing I have to obey, which is stay in my room"	NA	NA	NA	NA	NA	NA	33
+2020-03-30 09:42:27	"teacher001"	"teacher"	24	"Ah right - so you can be more self-disciplined - you have a structure to your day...I guess maybe all the English classes you;re having help maybe?"	"Ah right - so you can be more self-disciplined - you have a structure to your day...I guess maybe all the English classes you;re having help maybe?"	NA	"3c"	"topic development"	NA	NA	NA	27
+2020-03-30 09:43:14	"student007"	"student"	25	"I really have more health lifestyle than before. for example, drinking much water a day and do more indoor physical activities."	"I really have a healthier lifestyle than before. For example, I drink a lot of water every day and do more indoor physical activities."	"23.0"	NA	NA	NA	NA	NA	21
+2020-03-30 09:44:28	"teacher001"	"teacher"	26	"Sounds good - what kind of exercise are you doing?"	"Sounds good - what kind of exercise are you doing?"	NA	NA	NA	NA	NA	NA	10
+2020-03-30 09:48:03	"student007"	"student"	27	"of course, in particular your English class is the best one I"	"of course, in particular your English class is the best one"	"24.0"	NA	NA	NA	NA	NA	12
+2020-03-30 09:48:12	"student007"	"student"	28	"sorry, I lost my internet"	"sorry, I lost my internet"	NA	"4.0"	"disruption"	NA	NA	NA	5
+2020-03-30 09:48:30	"teacher001"	"teacher"	29	"no problem - I got your praise before it cut out!"	"no problem - I got your praise before it cut out!"	"27, 28"	NA	NA	NA	NA	NA	11
+2020-03-30 09:49:33	"teacher001"	"teacher"	30	"So <STUDENT> - to get going can I give you an esay question and ask you to give me some synonyms you could use in your two-sentence intro?"	"So <STUDENT> - to get going can I give you an esay question and ask you to give me some synonyms you could use in your two-sentence intro?"	NA	"5.0"	"exercise"	"writing,lexical resource"	NA	NA	28
+2020-03-30 09:49:48	"student007"	"student"	31	"like push-up..which can improve my muscle,..haha"	"like push-ups..which can improve my muscles,..haha"	"26.0"	NA	NA	NA	NA	NA	6
+2020-03-30 09:50:01	"student007"	"student"	32	"yes, let's start"	"yes, let's start"	"30.0"	NA	NA	NA	NA	NA	3
+2020-03-30 09:50:24	"teacher001"	"teacher"	33	"OK right! Well good luck with that  - although you have to keep going for more than a week I guess...."	"OK right! Well good luck with that  - although you have to keep going for more than a week I guess...."	"31.0"	NA	NA	NA	NA	NA	22
+2020-03-30 09:50:32	"teacher001"	"teacher"	34	"OK here's the question hold on"	"OK here's the question hold on"	"32.0"	NA	NA	NA	NA	NA	6
+2020-03-30 09:50:44	"teacher001"	"teacher"	35	"Our personalities are predetermined as a result of our genes and there is nothing we can do to change them. To what extent do you agree?"	"Our personalities are predetermined as a result of our genes and there is nothing we can do to change them. To what extent do you agree?"	NA	NA	NA	NA	NA	NA	26
+2020-03-30 09:52:14	"student007"	"student"	36	"personalities = characteristic"	"personalities = characteristics"	NA	NA	NA	NA	NA	NA	3
+2020-03-30 09:52:52	"student007"	"student"	37	"predetermined = forecast"	"predetermined = forecast"	NA	NA	NA	NA	NA	NA	3
+2020-03-30 09:53:25	"teacher001"	"teacher"	38	"ok keep going and I'll give you feedback on the group of words in a minute"	"ok keep going and I'll give you feedback on the group of words in a minute"	NA	NA	NA	NA	NA	NA	16
+2020-03-30 09:53:57	"student007"	"student"	39	"change = transform"	"change = transform"	NA	NA	NA	NA	NA	NA	3
+2020-03-30 09:54:54	"student007"	"student"	40	"as a result = as a consequence"	"as a result = as a consequence"	NA	NA	NA	NA	NA	NA	7
+2020-03-30 09:55:20	"student007"	"student"	41	"can = be able to"	"can = be able to"	NA	NA	NA	NA	NA	NA	5
+2020-03-30 09:55:53	"student007"	"student"	42	"I think that all"	"I think that's all"	NA	NA	NA	NA	NA	NA	4
+2020-03-30 09:56:04	"teacher001"	"teacher"	43	"OK thanks <STUDENT> hold on a sec..."	"OK thanks <STUDENT> hold on a sec..."	NA	NA	NA	NA	NA	NA	7
+2020-03-30 09:57:02	"teacher001"	"teacher"	44	"change one of your ideas to 'fixed' - which one is it?"	"change one of your ideas to 'fixed' - which one is it?"	NA	"5a"	"eliciting"	"lexical resource"	NA	NA	12
+2020-03-30 09:57:27	"student007"	"student"	45	"change?"	"change?"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 09:58:39	"student007"	"student"	46	"I think it is a verb, so it is maybe 'charge'."	"I think it is a verb, so it is maybe 'charge'."	NA	NA	NA	NA	NA	NA	11
+2020-03-30 09:58:47	"student007"	"student"	47	"change"	"change"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-03-30 09:58:54	"teacher001"	"teacher"	48	"Ah ok - well 'fix' has two meanings ...1=repair something that's broken and 2= establish/set etc i.e. determine"	"Ah ok - well 'fix' has two meanings ...1=repair something that's broken and 2= establish/set etc i.e. determine"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-03-30 09:59:09	"teacher001"	"teacher"	49	"so you can say our personality is 'fixed'"	"so you can say our personality is 'fixed'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-03-30 09:59:22	"student007"	"student"	50	"okey, I got it."	"ok, I got it."	NA	NA	NA	NA	NA	NA	4
+2020-03-30 09:59:22	"teacher001"	"teacher"	51	"as a synonym for 'predetermined'"	"as a synonym for 'predetermined'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-03-30 09:59:54	"teacher001"	"teacher"	52	"transform = good idea but...it means change completely ...can you think of a less extreme synonym ?"	"transform = good idea but...it means change completely ...can you think of a less extreme synonym ?"	NA	"5b"	"eliciting"	"lexical resource"	NA	NA	17
+2020-03-30 10:00:06	"teacher001"	"teacher"	53	"beginngin with 'a' ?!"	"beginning with 'a' ?!"	NA	NA	NA	NA	NA	NA	4
+2020-03-30 10:00:06	"student007"	"student"	54	"switch"	"switch"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:00:20	"teacher001"	"teacher"	55	"beginning with'a' ...?"	"beginning with'a' ...?"	NA	NA	NA	NA	NA	NA	3
+2020-03-30 10:00:24	"teacher001"	"teacher"	56	"al...@?"	"al...@?"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:00:33	"student007"	"student"	57	"alter"	"alter"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:00:46	"student007"	"student"	58	"we lean it on class"	"we learnt it in class"	NA	NA	NA	NA	NA	NA	5
+2020-03-30 10:00:56	"teacher001"	"teacher"	59	"yes OK - that's good as a general synonym for change"	"yes OK - that's good as a general synonym for change"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-03-30 10:01:02	"teacher001"	"teacher"	60	"and good here too"	"and good here too"	NA	NA	NA	NA	NA	NA	4
+2020-03-30 10:01:17	"student007"	"student"	61	"okey,"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:01:31	"teacher001"	"teacher"	62	"switch ' is like one specific to another specific thing do you see ?"	"switch ' is like one specific to another specific thing do you see ?"	"54.0"	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-03-30 10:01:42	"teacher001"	"teacher"	63	"like from your left hand to your right hand for example"	"like from your left hand to your right hand for example"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-03-30 10:02:48	"teacher001"	"teacher"	64	"OK look at these two words: character and characteristic - which one is one particular presonality feature and which one is the whole group together and best as a synonym for 'personality'"	"OK look at these two words: character and characteristic - which one is one particular presonality feature and which one is the whole group together and best as a synonym for 'personality'"	NA	"5c"	"scaffolding,eliciting"	"lexical resource"	NA	NA	32
+2020-03-30 10:02:55	"student007"	"student"	65	"yes.."	"yes.."	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:04:03	"teacher001"	"teacher"	68	"Sorry that was a question before! Did you follow it?"	"Sorry that was a question before! Did you follow it?"	NA	NA	NA	NA	NA	NA	10
+2020-03-30 10:04:29	"student007"	"student"	69	"I suppose character is for one particular personality feature, while  characteristic is for group."	"I suppose 'character' means one particular personality feature, while 'characteristic' means a group."	"64.0"	NA	NA	NA	NA	NA	15
+2020-03-30 10:05:24	"student007"	"student"	70	"so maybe it is character"	"so maybe it is character"	NA	NA	NA	NA	NA	NA	5
+2020-03-30 10:05:53	"teacher001"	"teacher"	71	"Well .... character = more general"	"Well .... character = more general"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-03-30 10:06:25	"teacher001"	"teacher"	72	"and best here as a general synonym"	"and best here as a general synonym"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-03-30 10:06:54	"student007"	"student"	73	"okey..I understand.thanks"	"ok..I understand thanks"	NA	NA	NA	NA	NA	NA	2
+2020-03-30 10:07:06	"teacher001"	"teacher"	74	"as a consequence = good! and be able to = fine but be careful ...remember it's the infinitive of 'can'"	"as a consequence = good! and be able to = fine but be careful ...remember it's the infinitive of 'can'"	NA	"5d"	"scaffolding"	"lexical resource"	NA	NA	20
+2020-03-30 10:07:30	"teacher001"	"teacher"	75	"what about this idea of 'genes' - this a noun what's the adjective?"	"what about this idea of 'genes' - this a noun what's the adjective?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	13
+2020-03-30 10:07:46	"student007"	"student"	76	"I think it is a noun"	"I think it is a noun"	NA	NA	NA	NA	NA	NA	6
+2020-03-30 10:07:57	"teacher001"	"teacher"	77	"yes you're right...what's the adjective?"	"yes you're right...what's the adjective?"	NA	NA	NA	NA	NA	NA	5
+2020-03-30 10:08:13	"student007"	"student"	78	"generous?"	"generous?"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:08:30	"student007"	"student"	79	"just come up in my mind"	"it's just come to my mind"	NA	NA	NA	NA	NA	NA	6
+2020-03-30 10:09:24	"teacher001"	"teacher"	80	"Ha! I see the similarity in the spelling! THis is the adjective of 'generosity' = the opposite of selfish....but the adjective for 'gene' is 'genetic'"	"Ha! I see the similarity in the spelling! THis is the adjective of 'generosity' = the opposite of selfish....but the adjective for 'gene' is 'genetic'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	25
+2020-03-30 10:10:16	"student007"	"student"	81	"okey, I write them on my note book"	"ok, I'll write them down in my note book"	NA	NA	NA	NA	NA	NA	8
+2020-03-30 10:10:30	"teacher001"	"teacher"	82	"OK other useful words for this question <STUDENT> might be e.g. : 'born with' , 'innate' (=adjective meaning born with!)"	"OK other useful words for this question <STUDENT> might be e.g. : 'born with' , 'innate' (=adjective meaning born with!)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-03-30 10:10:41	"teacher001"	"teacher"	83	"Where do you get your genes from?!"	"Where do you get your genes from?!"	NA	"5e"	"eliciting"	"lexical resource"	NA	NA	7
+2020-03-30 10:11:35	"student007"	"student"	84	"I think it must be form parents."	"I think it must be from parents."	NA	NA	NA	NA	NA	NA	7
+2020-03-30 10:12:43	"teacher001"	"teacher"	85	"yes absolutely! So your parents pass on their genes OK? Another way of saying this = You _____ your genes/character from you r parents(like money when they die!)"	"yes absolutely! So your parents pass on their genes OK? Another way of saying this = You _____ your genes/character from you r parents(like money when they die!)"	NA	NA	"eliciting"	"lexical resource"	NA	NA	28
+2020-03-30 10:13:45	"teacher001"	"teacher"	86	"sorry 'pass on' = phrasal verb in my example (maybe genetically maybe just information etc and the one-word verb i;m looking for in the second part = ?  )"	"sorry 'pass on' = phrasal verb in my example (maybe genetically maybe just information etc and the one-word verb i;m looking for in the second part = ?  )"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	30
+2020-03-30 10:14:15	"teacher001"	"teacher"	87	"For example: 'When my father died I __________ a million pounds!'?"	"For example: 'When my father died I __________ a million pounds!'?"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	11
+2020-03-30 10:14:41	"teacher001"	"teacher"	88	"inh_ _  _ _ '?"	"inh_ _  _ _ '?"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	6
+2020-03-30 10:15:03	"student007"	"student"	89	"when my father died I inherited a million pounds."	"when my father died I inherited a million pounds."	NA	NA	NA	NA	NA	NA	9
+2020-03-30 10:16:13	"teacher001"	"teacher"	90	"Yes OK great! So you inherit particular characteristics from you parents (maybe!) including e.g. physical ones like e.g. eye colour or e.g. a musical talent or whatever OK?"	"Yes OK great! So you inherit particular characteristics from you parents (maybe!) including e.g. physical ones like e.g. eye colour or e.g. a musical talent or whatever OK?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	28
+2020-03-30 10:16:50	"teacher001"	"teacher"	91	"What would you say you have inherited from you parents (if anything?)"	"What would you say you have inherited from you parents (if anything?)"	NA	"6.0"	"topic opening"	NA	NA	NA	12
+2020-03-30 10:17:36	"student007"	"student"	92	"yes,ok"	"yes,ok"	"90.0"	NA	NA	NA	NA	NA	1
+2020-03-30 10:17:36	"student007"	"student"	94	"yes, ok"	"yes, ok"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-03-30 10:18:38	"student007"	"student"	96	"I would say the ways to solve problems."	"I would say the ways to solve problems."	"91.0"	NA	NA	NA	NA	NA	8
+2020-03-30 10:21:09	"teacher001"	"teacher"	97	"Sorry internet out for a minute there....hol don"	"Sorry internet out for a minute there....hol don"	NA	"7.0"	"disruption"	NA	NA	NA	8
+2020-03-30 10:21:31	"student007"	"student"	98	"okey"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:21:41	"teacher001"	"teacher"	99	"Yes great example - so  the ability to solve problems or e.g. problem-solving ability/skills"	"Yes great example - so  the ability to solve problems or e.g. problem-solving ability/skills"	"96.0"	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-03-30 10:22:25	"teacher001"	"teacher"	100	"Any examples of ways in which you are DIFFERENT from your parents?!"	"Any examples of ways in which you are DIFFERENT from your parents?!"	NA	"6a"	"topic development"	NA	NA	NA	12
+2020-03-30 10:25:09	"student007"	"student"	101	"okey, so it is a really cautious vocabulary when I want to describe abilities which were from parents."	"ok, so I'm really cautious with vocabulary when I want to describe some abilities which I inherited from my parents."	NA	"6b"	"enquiry"	"lexical resource"	NA	NA	18
+2020-03-30 10:26:10	"teacher001"	"teacher"	103	"Sorry  <STUDENT> what do you mean here?"	"Sorry  <STUDENT> what do you mean here?"	NA	NA	NA	NA	NA	NA	8
+2020-03-30 10:26:30	"teacher001"	"teacher"	104	"YOu mean you don't want to say bad things about your parents??!"	"YOu mean you don't want to say bad things about your parents??!"	NA	NA	NA	NA	NA	NA	12
+2020-03-30 10:27:12	"student007"	"student"	105	"I mean the 'way' can not use here to explain something from partens"	"I mean 'way' cannot be used here to explain something that came from parents"	NA	NA	NA	NA	NA	NA	13
+2020-03-30 10:28:57	"teacher001"	"teacher"	107	"Oh i see sorry - yes I guess you;re right! you inherit an ability/talent etc = the collocation!"	"Oh i see sorry - yes I guess you;re right! you inherit an ability/talent etc = the collocation!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-03-30 10:29:11	"teacher001"	"teacher"	108	"one more potentially useful word <STUDENT> is connected to this idea of ‘before you were born’ in the question ...so ‘when you were born’ = your ‘______’? One-word noun needed here! What is it?"	"one more potentially useful word <STUDENT> is connected to this idea of ‘before you were born’ in the question ...so ‘when you were born’ = your ‘______’? One-word noun needed here! What is it?"	NA	"6c"	"scaffolding,eliciting"	"lexical resource"	NA	NA	34
+2020-03-30 10:29:57	"teacher001"	"teacher"	109	"For example...pregnant womenoften go to hospital to give _____?"	"For example...pregnant womenoften go to hospital to give _____?"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	9
+2020-03-30 10:31:24	"teacher001"	"teacher"	110	"beginning with 'b_ _ _ _ '!"	"beginning with 'b_ _ _ _ '!"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	7
+2020-03-30 10:31:51	"student007"	"student"	111	"begin"	"begin"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:32:11	"teacher001"	"teacher"	112	"Good try! 'birth' is the word here..."	"Good try! 'birth' is the word here..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-03-30 10:32:23	"student007"	"student"	113	"okey."	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-30 10:32:25	"teacher001"	"teacher"	114	"so e.g. before birth/at birth/after birth"	"so e.g. before birth/at birth/after birth"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-03-30 10:32:55	"teacher001"	"teacher"	115	"OK <STUDENT> - let's have a break...see you in 15 mins OK? Bye fo rnow"	"OK <STUDENT> - let's have a break...see you in 15 mins OK? Bye fo rnow"	NA	"8.0"	"closing"	NA	NA	NA	15
+2020-03-30 10:33:00	"teacher001"	"teacher"	116	"for now!"	"for now!"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-03-30 10:33:03	"student007"	"student"	117	"ok, see you"	"ok, see you"	NA	NA	NA	NA	NA	"B1"	3

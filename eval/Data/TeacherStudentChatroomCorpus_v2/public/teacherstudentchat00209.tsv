@@ -1,0 +1,139 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-26 08:11:29	"teacher008"	"teacher"	1	"Morning!"	"Morning!"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-02-26 08:11:52	"student011"	"student"	2	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-02-26 08:11:59	"student011"	"student"	3	"Sorry for being late"	"Sorry for being late"	NA	NA	NA	NA	NA	NA	4
+2021-02-26 08:12:00	"teacher008"	"teacher"	4	"All good, thank you!"	"All good, thank you!"	2	NA	NA	NA	NA	NA	4
+2021-02-26 08:12:03	"teacher008"	"teacher"	5	"And you?"	"And you?"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:12:12	"student011"	"student"	6	"Fine, thank you!"	"Fine, thank you!"	NA	NA	NA	NA	NA	NA	3
+2021-02-26 08:12:23	"teacher008"	"teacher"	7	"No worries. Hopefully, in a week's time we can go back to lunchtime classes"	"No worries. Hopefully, in a week's time we can go back to lunchtime classes"	3	NA	NA	NA	NA	NA	14
+2021-02-26 08:12:35	"student011"	"student"	8	"Busy Friday as usual )"	"Busy Friday as usual )"	NA	NA	NA	NA	NA	NA	5
+2021-02-26 08:13:28	"teacher008"	"teacher"	9	"Are you continuing with your marketing course?"	"Are you continuing with your marketing course?"	NA	"2a"	"topic development"	NA	NA	NA	7
+2021-02-26 08:14:38	"student011"	"student"	10	"I finished that one and now I'm watching another one from famous Ukrainian marketing ___ (who?)"	"I finished that one and now I'm watching another one from a famous Ukrainian marketing ___ (who?)"	NA	"2b"	"enquiry"	"lexical resource"	NA	NA	16
+2021-02-26 08:14:49	"teacher008"	"teacher"	11	"guru? :)"	"guru? :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-02-26 08:14:54	"teacher008"	"teacher"	12	"expert?"	"expert?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2021-02-26 08:14:57	"student011"	"student"	13	"It calls papa brand"	"It's called 'the papa brand'"	10	"2a (continued)"	NA	NA	NA	NA	4
+2021-02-26 08:15:05	"teacher008"	"teacher"	14	"It's called..."	"It's called..."	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2021-02-26 08:15:25	"student011"	"student"	15	"haha! ) Lets take 'expert' )"	"haha! ) Let's take 'expert' )"	12	NA	NA	NA	NA	NA	6
+2021-02-26 08:15:43	"student011"	"student"	16	"Oh now, of course!"	"Oh no, of course!"	13	NA	NA	NA	NA	NA	4
+2021-02-26 08:15:50	"student011"	"student"	17	"It's called"	"It's called"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:15:59	"student011"	"student"	18	"I don't like the name actually )"	"I don't like the name actually )"	NA	NA	NA	NA	NA	NA	7
+2021-02-26 08:16:10	"teacher008"	"teacher"	19	"a marketing guru is actually a nice collocation, it works"	"a marketing guru is actually a nice collocation, it works"	15	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-02-26 08:16:21	"teacher008"	"teacher"	20	"Yes, it's weird! Why is called that?"	"Yes, it's weird! Why is called that?"	18	NA	NA	NA	NA	NA	7
+2021-02-26 08:16:46	"student011"	"student"	21	"He mentioned that he didn't mean just men, but I still don't think that it's the best name for a course )"	"He mentioned that he didn't mean just men, but I still don't think that it's the best name for a course )"	NA	NA	NA	NA	NA	NA	22
+2021-02-26 08:17:48	"student011"	"student"	22	"He talks a lot about how it is important when the owner works with marketing stuff in the company"	"He talks a lot about how it is important when the owner works with marketing stuff in the company"	NA	NA	NA	NA	NA	NA	19
+2021-02-26 08:17:59	"teacher008"	"teacher"	23	"Haha, oh goodness. It's like everything for parents is called 'mummy and baby' or something like that, and then they say, we don't mean just mothers! Well, call it something more inclusive then!"	"Haha, oh goodness. It's like everything for parents is called 'mummy and baby' or something like that, and then they say, we don't mean just mothers! Well, call it something more inclusive then!"	21	NA	NA	NA	NA	NA	33
+2021-02-26 08:18:10	"student011"	"student"	24	"Papa is an owner"	"A papa is an owner"	22	NA	NA	NA	NA	NA	4
+2021-02-26 08:18:30	"student011"	"student"	25	"And a company is like a baby"	"And a company is like a baby"	NA	NA	NA	NA	NA	NA	7
+2021-02-26 08:18:31	"teacher008"	"teacher"	26	"Ok, I see, rather than just hires a marketing manager?"	"Ok, I see, rather than just hires a marketing manager?"	22	NA	NA	NA	NA	NA	10
+2021-02-26 08:18:58	"student011"	"student"	27	"Well, call it something more inclusive then!  - Agree!"	"Well, call it something more inclusive then!  - Agree!"	23	NA	NA	NA	NA	NA	10
+2021-02-26 08:20:18	"teacher008"	"teacher"	28	"Ok, back to 'it's called' for a second. It's a bit weird for speakers of Russian!"	"Ok, back to 'it's called' for a second. It's a bit weird for speakers of Russian!"	NA	"2c"	"scaffolding"	"grammatical resource"	NA	NA	16
+2021-02-26 08:20:22	"student011"	"student"	29	"Ok, he think that you can hire someone, but as an owner you don't have to think that it's an area just for our marketing director or someone like"	"Ok, he thinks that you can hire someone, but as an owner you don't have to think that it's an area just for your marketing director or someone like that"	26	NA	NA	NA	NA	NA	29
+2021-02-26 08:20:41	"teacher008"	"teacher"	30	"The company is called X. Question: What is it called?"	"The company is called X. Question: What is it called?"	28	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2021-02-26 08:20:49	"teacher008"	"teacher"	31	"not 'how' like in Russian"	"not 'how' like in Russian"	NA	NA	NA	NA	NA	NA	5
+2021-02-26 08:20:55	"student011"	"student"	32	"ok! I see"	"ok! I see"	NA	NA	NA	NA	NA	NA	3
+2021-02-26 08:21:20	"teacher008"	"teacher"	33	"And the same idea if you don't know a word in English,for example, you can ask, What it it called? or What do you call?"	"And the same idea if you don't know a word in English,for example, you can ask, What it it called? or What do you call?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	25
+2021-02-26 08:21:45	"teacher008"	"teacher"	34	"What is the ability to move quickly and skilfully called in English?"	"What is the ability to move quickly and skilfully called in English?"	NA	"3.0"	"scaffolding,eliciting,revision"	"grammatical resource,lexical resource"	NA	NA	12
+2021-02-26 08:21:50	"student011"	"student"	35	"sorry"	"sorry"	NA	"4.0"	"disruption"	NA	NA	NA	1
+2021-02-26 08:21:53	"student011"	"student"	36	"5 min"	"5 min"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:22:05	"teacher008"	"teacher"	37	"What do you call a person who can use both hands equally well?"	"What do you call a person who can use both hands equally well?"	34	NA	NA	NA	NA	NA	13
+2021-02-26 08:31:00	"student011"	"student"	38	"Oh"	"Oh"	36	NA	NA	NA	NA	NA	1
+2021-02-26 08:31:05	"student011"	"student"	39	"Sorry sorry"	"Sorry sorry"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:31:13	"teacher008"	"teacher"	40	"Everything ok?"	"Everything ok?"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:31:43	"student011"	"student"	41	"It was a call from a potential clean from the Embassy of Korea"	"It was a call from a potential client from the Embassy of Korea"	NA	NA	NA	NA	NA	NA	13
+2021-02-26 08:31:51	"student011"	"student"	42	"I had to answer"	"I had to answer"	NA	NA	NA	NA	NA	NA	4
+2021-02-26 08:31:57	"teacher008"	"teacher"	43	"Ooh, important!"	"Ooh, important!"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:31:58	"student011"	"student"	44	"I'm very sorry"	"I'm very sorry"	NA	NA	NA	NA	NA	NA	3
+2021-02-26 08:32:07	"teacher008"	"teacher"	45	"Don't worry about it!"	"Don't worry about it!"	NA	NA	NA	NA	NA	NA	4
+2021-02-26 08:32:09	"student011"	"student"	46	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-26 08:32:15	"teacher008"	"teacher"	47	"Are they interested?"	"Are they interested?"	NA	NA	NA	NA	NA	NA	3
+2021-02-26 08:33:12	"student011"	"student"	48	"She would like to make a course to pass TORFL"	"She would like to take a course to pass TORFL"	NA	NA	NA	NA	NA	NA	10
+2021-02-26 08:33:20	"student011"	"student"	49	"TRKI 2 or 3"	"TRKI 2 or 3"	NA	NA	NA	NA	NA	NA	4
+2021-02-26 08:33:35	"teacher008"	"teacher"	50	"to take a course?"	"to take a course?"	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2021-02-26 08:33:37	"student011"	"student"	51	"But actually I hear that TRKI 3 is not for her )"	"But actually I hear that TRKI 3 is not for her )"	49	NA	NA	NA	NA	NA	12
+2021-02-26 08:33:47	"student011"	"student"	52	"to take a course"	"to take a course"	50	NA	NA	NA	NA	NA	4
+2021-02-26 08:33:55	"student011"	"student"	53	"of course!"	"of course!"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:34:01	"teacher008"	"teacher"	54	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-02-26 08:34:20	"student011"	"student"	55	"Ok! What do you call a person who can use both hands equally well?"	"Ok! What do you call a person who can use both hands equally well?"	37	NA	NA	NA	NA	NA	14
+2021-02-26 08:34:30	"student011"	"student"	56	"ambidexter )"	"ambidexter )"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:34:37	"teacher008"	"teacher"	57	"Is it the exam you showed me? With really old-fashioned texts for reading? like Turgenev etc."	"Is it the exam you showed me? With really old-fashioned texts for reading? like Turgenev etc."	51	NA	NA	NA	NA	NA	16
+2021-02-26 08:34:55	"student011"	"student"	58	"Petrov is an ambidexter ))"	"Petrov is an ambidexter ))"	56	NA	NA	NA	NA	NA	5
+2021-02-26 08:35:10	"student011"	"student"	59	"<TEACHER> : Is it the exam you showed me? With really old-fashioned texts for reading? like Turgenev etc.  - Yes!!!! ))"	"<TEACHER> : Is it the exam you showed me? With really old-fashioned texts for reading? like Turgenev etc.  - Yes!!!! ))"	57	NA	NA	NA	NA	NA	22
+2021-02-26 08:35:54	"student011"	"student"	60	"It's awful test with strange materials and questions )"	"It's an awful test with strange materials and questions )"	NA	NA	NA	NA	NA	NA	9
+2021-02-26 08:36:07	"teacher008"	"teacher"	61	"Haha, yes, such a good joke! It's an adjective in English, actually. Ambidextrous"	"Haha, yes, such a good joke! It's an adjective in English, actually. Ambidextrous"	58	NA	"repair"	"lexical resource"	NA	NA	13
+2021-02-26 08:37:32	"student011"	"student"	62	"Don't you have a noun?"	"Don't you have a noun?"	NA	"3a"	"enquiry"	"lexical resource"	NA	NA	5
+2021-02-26 08:38:16	"teacher008"	"teacher"	63	"Well, yes, but it means something else!"	"Well, yes, but it means something else!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-02-26 08:38:35	"teacher008"	"teacher"	64	"It means someone who takes bribes from both sides"	"It means someone who takes bribes from both sides"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-02-26 08:39:08	"student011"	"student"	65	"Ah! Wow! Interesting )"	"Ah! Wow! Interesting )"	NA	NA	NA	NA	NA	NA	4
+2021-02-26 08:39:12	"teacher008"	"teacher"	66	"Do you know 'a bribe'?"	"Do you know 'a bribe'?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	5
+2021-02-26 08:39:18	"student011"	"student"	67	"Ok, I see"	"Ok, I see"	65	NA	NA	NA	NA	NA	3
+2021-02-26 08:39:40	"teacher008"	"teacher"	68	"Well, it can mean someone who is ambidextrous"	"Well, it can mean someone who is ambidextrous"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2021-02-26 08:39:41	"student011"	"student"	69	"It's not fair to call Petrov ambidexter ))"	"It's not fair to call Petrov ambidexter ))"	67	NA	NA	NA	NA	NA	8
+2021-02-26 08:39:55	"teacher008"	"teacher"	70	"Maybe Petrov didn't deserve it! :)))"	"Maybe Petrov didn't deserve it! :)))"	NA	NA	NA	NA	NA	NA	6
+2021-02-26 08:40:04	"student011"	"student"	71	"yes )))"	"yes )))"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:40:17	"teacher008"	"teacher"	72	"But especially a lawyer who takes fees from both sides"	"But especially a lawyer who takes fees from both sides"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+2021-02-26 08:40:57	"teacher008"	"teacher"	73	"Anyway, let's go back to our indirect questions while we still have some time!"	"Anyway, let's go back to our indirect questions while we still have some time!"	NA	"5.0"	"presentation"	"grammatical resource"	NA	NA	14
+2021-02-26 08:40:58	"student011"	"student"	74	"It's very interesting ) I mean the meaning of the word )"	"It's very interesting ) I mean the meaning of the word )"	72	NA	NA	NA	NA	NA	12
+2021-02-26 08:41:08	"teacher008"	"teacher"	75	"I know, it is, isn't it?"	"I know, it is, isn't it?"	NA	NA	NA	NA	NA	NA	6
+2021-02-26 08:41:09	"student011"	"student"	76	"ok! I'm ready!"	"ok! I'm ready!"	73	NA	NA	NA	NA	NA	3
+2021-02-26 08:41:49	"teacher008"	"teacher"	77	"Ok, could you turn these two questions into sentences that start with 'I don't know...'"	"Ok, could you turn these two questions into sentences that start with 'I don't know...'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	15
+2021-02-26 08:42:04	"teacher008"	"teacher"	78	"What time does the show start?"	"What time does the show start?"	NA	NA	NA	NA	NA	NA	6
+2021-02-26 08:42:09	"teacher008"	"teacher"	79	"Is the show on Sunday?"	"Is the show on Sunday?"	NA	NA	NA	NA	NA	NA	5
+2021-02-26 08:42:58	"student011"	"student"	80	"I don't know what time the snow starts"	"I don't know what time the snow starts"	NA	NA	NA	NA	NA	NA	8
+2021-02-26 08:43:16	"teacher008"	"teacher"	81	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-26 08:43:35	"student011"	"student"	82	"I don't know if the snow is on Sunday"	"I don't know if the snow is on Sunday"	NA	NA	NA	NA	NA	NA	9
+2021-02-26 08:43:44	"teacher008"	"teacher"	83	"Yaay! Well done :)"	"Yaay! Well done :)"	NA	NA	NA	NA	NA	NA	4
+2021-02-26 08:44:02	"teacher008"	"teacher"	84	"If there's no question word, we use 'if', but we can also use 'whether'"	"If there's no question word, we use 'if', but we can also use 'whether'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2021-02-26 08:44:11	"teacher008"	"teacher"	85	"I don't know whether the show is on Sunday"	"I don't know whether the show is on Sunday"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2021-02-26 08:44:29	"teacher008"	"teacher"	86	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-02-26 08:44:52	"teacher008"	"teacher"	87	"But you obviously remember that we need the grammar of an affirmative sentence, not a question"	"But you obviously remember that we need the grammar of an affirmative sentence, not a question"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2021-02-26 08:44:59	"teacher008"	"teacher"	88	"like in reported speech"	"like in reported speech"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2021-02-26 08:46:13	"student011"	"student"	89	"Ok! I see!"	"Ok! I see!"	NA	NA	NA	NA	NA	NA	3
+2021-02-26 08:47:17	"teacher008"	"teacher"	90	"Strictly speaking, reported speech is things like 'He said that...' but we use the same rule much more often in 'I don't know...' and 'I wonder...' sentences"	"Strictly speaking, reported speech is things like 'He said that...' but we use the same rule much more often in 'I don't know...' and 'I wonder...' sentences"	NA	"5a"	"presentation"	"grammatical resource"	NA	NA	27
+2021-02-26 08:47:38	"teacher008"	"teacher"	91	"Also, we use the same rule to ask indirect questions"	"Also, we use the same rule to ask indirect questions"	NA	NA	"presentation"	"grammatical resource"	NA	NA	10
+2021-02-26 08:48:10	"teacher008"	"teacher"	92	"When we don't know the person very well, or we want to be extra polite, we start a question with 'Could you tell me...' or 'Do you know...'"	"When we don't know the person very well, or we want to be extra polite, we start a question with 'Could you tell me...' or 'Do you know...'"	NA	NA	"presentation"	"grammatical resource,register"	NA	NA	28
+2021-02-26 08:48:50	"teacher008"	"teacher"	93	"For example, a client might write to you and ask, 'Could you tell me whether you school can help me prepare for this exam?'"	"For example, a client might write to you and ask, 'Could you tell me whether you school can help me prepare for this exam?'"	NA	NA	"presentation"	"grammatical resource,register"	NA	NA	24
+2021-02-26 08:49:10	"teacher008"	"teacher"	94	"What they mean is, 'Can you school help me prepare for this exam?', but they are being extra polite"	"What they mean is, 'Can you school help me prepare for this exam?', but they are being extra polite"	NA	NA	"presentation"	"grammatical resource,register"	NA	NA	19
+2021-02-26 08:49:34	"student011"	"student"	95	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 08:50:56	"teacher008"	"teacher"	96	"It's also useful when asking for help / talking to receptionists / flight attendants / sales people/ bank managers etc. etc."	"It's also useful when asking for help / talking to receptionists / flight attendants / sales people/ bank managers etc. etc."	NA	NA	"presentation"	"grammatical resource,register"	NA	NA	21
+2021-02-26 08:51:47	"teacher008"	"teacher"	97	"But of course, even if you don't know a person very well, you won't say, 'Could you tell me how you are?' or things like that :)"	"But of course, even if you don't know a person very well, you won't say, 'Could you tell me how you are?' or things like that :)"	NA	NA	"presentation"	"grammatical resource,register"	NA	NA	27
+2021-02-26 08:52:21	"student011"	"student"	98	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-26 08:52:24	"student011"	"student"	99	"so"	"so"	NA	NA	NA	NA	NA	NA	1
+2021-02-26 08:52:41	"teacher008"	"teacher"	100	"Ok, let's practise a bit! I'm going to give you a question, and you turn it into an indirect question, starting with 'Could you tell me...' or 'Do you know...'"	"Ok, let's practise a bit! I'm going to give you a question, and you turn it into an indirect question, starting with 'Could you tell me...' or 'Do you know...'"	NA	"6.0"	"exercise"	"grammatical resource"	NA	NA	30
+2021-02-26 08:52:43	"student011"	"student"	101	"I have to be polite all the time you mean? )))"	"I have to be polite all the time you mean? )))"	99	NA	NA	NA	NA	NA	11
+2021-02-26 08:52:51	"student011"	"student"	102	"It's a joke )"	"It's a joke )"	NA	NA	NA	NA	NA	NA	4
+2021-02-26 08:53:08	"student011"	"student"	103	"I'm ready!"	"I'm ready!"	100	NA	NA	NA	NA	NA	2
+2021-02-26 08:53:59	"teacher008"	"teacher"	104	"Nooo)))) But you know how speakers of English find speakers of Slavic languages too direct? I think it's because in Russian, for example, we express politeness with 'vy', but it's lost when translated into English"	"Nooo)))) But you know how speakers of English find speakers of Slavic languages too direct? I think it's because in Russian, for example, we express politeness with 'vy', but it's lost when translated into English"	102	"5b"	"non-English"	"code switching,grammatical resource,register"	NA	NA	35
+2021-02-26 08:54:15	"teacher008"	"teacher"	105	"So it's worth learning about English ways to express politeness"	"So it's worth learning about English ways to express politeness"	NA	NA	NA	NA	NA	NA	10
+2021-02-26 08:54:59	"teacher008"	"teacher"	106	"For example, in Russian we would say, 'Skazhite, pozhaluysta, gde vokzal'"	"For example, in Russian we would say, 'Skazhite, pozhaluysta, gde vokzal'"	NA	NA	"non-English"	"code switching,grammatical resource,register"	NA	NA	11
+2021-02-26 08:55:01	"student011"	"student"	107	"Agree!"	"Agree!"	105	NA	NA	NA	NA	NA	1
+2021-02-26 08:55:18	"teacher008"	"teacher"	108	"Which is polite because of '-te'"	"Which is polite because of '-te'"	106	NA	"non-English"	"code switching,grammatical resource,register"	NA	NA	6
+2021-02-26 08:55:37	"student011"	"student"	109	"And we use intonation. But non the different structure"	"And we use intonation. But not a different structure"	NA	NA	NA	NA	NA	NA	9
+2021-02-26 08:55:40	"teacher008"	"teacher"	110	"but people translate it into English as 'Tell me please where the station is'"	"but people translate it into English as 'Tell me please where the station is'"	NA	NA	NA	NA	NA	NA	14
+2021-02-26 08:55:41	"student011"	"student"	111	"*not"	"*not"	109	NA	"repair"	"writing"	NA	NA	1
+2021-02-26 08:55:46	"teacher008"	"teacher"	112	"Oops, not so polite!"	"Oops, not so polite!"	110	NA	NA	NA	NA	NA	4
+2021-02-26 08:55:53	"teacher008"	"teacher"	113	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-26 08:56:20	"teacher008"	"teacher"	114	"Ok, let's start with this one! Where is the railway station? Could you tell me..."	"Ok, let's start with this one! Where is the railway station? Could you tell me..."	NA	"6a"	"redirection,exercise"	"grammatical resource"	NA	NA	15
+2021-02-26 08:57:38	"student011"	"student"	115	"Could you tell me where is the railway station?"	"Could you tell me where the railway station is?"	NA	NA	NA	NA	NA	NA	9
+2021-02-26 08:57:57	"student011"	"student"	116	"Could you tell me, please, where is the railway station?"	"Could you tell me, please, where the railway station is?"	NA	NA	NA	NA	NA	NA	10
+2021-02-26 08:57:57	"teacher008"	"teacher"	117	"Nearly! Can you check the word order in the second part?"	"Nearly! Can you check the word order in the second part?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	11
+2021-02-26 08:58:04	"student011"	"student"	118	"Do I need please here?"	"Do I need please here?"	NA	"6b"	"enquiry"	"lexical resource"	NA	NA	5
+2021-02-26 08:58:13	"student011"	"student"	119	"Oh, sorry"	"Oh, sorry"	117	NA	NA	NA	NA	NA	2
+2021-02-26 08:58:24	"student011"	"student"	120	"where the railway station is?"	"where the railway station is?"	NA	NA	NA	NA	NA	NA	5
+2021-02-26 08:58:43	"teacher008"	"teacher"	121	"Yes, you can use please when you actually talk, but we can skip it in the chat to save time"	"Yes, you can use please when you actually talk, but we can skip it in the chat to save time"	118	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2021-02-26 08:58:45	"teacher008"	"teacher"	122	"Yes!"	"Yes!"	120	NA	NA	NA	NA	NA	1
+2021-02-26 08:58:47	"teacher008"	"teacher"	123	"Has Lucy been to Mexico?"	"Has Lucy been to Mexico?"	NA	"6c"	"exercise"	"grammatical resource"	NA	NA	5
+2021-02-26 08:58:52	"teacher008"	"teacher"	124	"Do you know..."	"Do you know..."	NA	NA	NA	NA	NA	NA	3
+2021-02-26 08:59:28	"student011"	"student"	125	"Do you know whether Lucy has been to Mexico?"	"Do you know whether Lucy has been to Mexico?"	NA	NA	NA	NA	NA	NA	9
+2021-02-26 08:59:42	"student011"	"student"	126	"just TO Mexico here?"	"just TO Mexico here?"	NA	"6d"	"enquiry"	"grammatical resource"	NA	NA	4
+2021-02-26 08:59:55	"teacher008"	"teacher"	127	"Yes! one last!"	"Yes! one last!"	125	"6e"	"exercise"	"grammatical resource"	NA	NA	3
+2021-02-26 08:59:58	"student011"	"student"	128	"I know it's a different subject )"	"I know it's a different subject )"	126	NA	NA	NA	NA	NA	7
+2021-02-26 09:00:13	"teacher008"	"teacher"	129	"Yes, I'll make a note to talk about it next time))"	"Yes, I'll make a note to talk about it next time))"	NA	NA	NA	NA	NA	NA	11
+2021-02-26 09:00:15	"teacher008"	"teacher"	130	"Did Amanda call John yesterday?"	"Did Amanda call John yesterday?"	127	NA	NA	NA	NA	NA	5
+2021-02-26 09:00:28	"student011"	"student"	131	"Thank you )"	"Thank you )"	129	NA	NA	NA	NA	NA	3
+2021-02-26 09:00:59	"student011"	"student"	132	"Do you know if Amanda called John yesterday?"	"Do you know if Amanda called John yesterday?"	130	NA	NA	NA	NA	NA	8
+2021-02-26 09:01:14	"teacher008"	"teacher"	133	"Correct! Well done!"	"Correct! Well done!"	NA	NA	NA	NA	NA	NA	3
+2021-02-26 09:01:25	"teacher008"	"teacher"	134	"Ok, I'll let you get on with your busy Friday! Good luck!"	"Ok, I'll let you get on with your busy Friday! Good luck!"	NA	"7.0"	"closing"	NA	NA	NA	12
+2021-02-26 09:01:35	"student011"	"student"	135	"Thank you!!!"	"Thank you!!!"	NA	NA	NA	NA	NA	NA	2
+2021-02-26 09:01:45	"student011"	"student"	136	"Have a good weekend xx"	"Have a good weekend xx"	NA	NA	NA	NA	NA	NA	5
+2021-02-26 09:01:47	"student011"	"student"	137	"bye!"	"bye!"	NA	NA	NA	NA	NA	NA	1
+2021-02-26 09:01:56	"teacher008"	"teacher"	138	"Thanks, you too! Bye! :)"	"Thanks, you too! Bye! :)"	NA	NA	NA	NA	NA	"B2"	5

@@ -1,0 +1,212 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-02 06:58:45	"student009"	"student"	1	"Hi"	"Hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-07-02 06:58:48	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 06:58:56	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2020-07-02 06:59:06	"student009"	"student"	4	"fine, thank you"	"fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2020-07-02 06:59:13	"student009"	"student"	5	"and you?"	"and you?"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 06:59:27	"teacher008"	"teacher"	6	"I'm good, thank you"	"I'm good, thank you"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 06:59:39	"teacher008"	"teacher"	7	"What does your username mean today? :)"	"What does your username mean today? :)"	NA	"2.0"	"topic opening"	NA	NA	NA	7
+2020-07-02 07:00:56	"student009"	"student"	8	"it is a nickname of one of my favorite artist on instagram"	"it is the nickname of one of my favorite artists on Instagram"	NA	NA	NA	NA	NA	NA	12
+2020-07-02 07:01:16	"student009"	"student"	9	"her nickname means 'I am Kam'"	"her nickname means 'I am Kam'"	NA	NA	NA	NA	NA	NA	6
+2020-07-02 07:01:25	"student009"	"student"	10	"her name is Kamila"	"her name is Kamila"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:01:30	"teacher008"	"teacher"	11	"oh lovely, are they from Ukraine?"	"oh lovely, are they from Ukraine?"	NA	"2a"	"topic development"	NA	NA	NA	6
+2020-07-02 07:01:35	"student009"	"student"	12	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:01:53	"student009"	"student"	13	"from Kiev"	"from Kiev"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:02:10	"teacher008"	"teacher"	14	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:02:38	"teacher008"	"teacher"	15	"I might check out her Instagram if you recommend"	"I might check out her Instagram if you recommend"	NA	NA	NA	NA	NA	NA	9
+2020-07-02 07:02:55	"student009"	"student"	16	"If you want to"	"If you want to"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:03:30	"teacher008"	"teacher"	17	"Ok, <STUDENT>, shall we dive into a bit of language exploration?"	"Ok, <STUDENT>, shall we dive into a bit of language exploration?"	NA	"3.0"	"topic opening"	"grammatical resource"	NA	NA	11
+2020-07-02 07:03:48	"student009"	"student"	18	"exploration?"	"exploration?"	NA	"3a"	"enquiry"	"lexical resource"	NA	NA	1
+2020-07-02 07:04:04	"teacher008"	"teacher"	19	"you know 'explore'?"	"you know 'explore'?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-07-02 07:04:11	"student009"	"student"	20	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:04:48	"teacher008"	"teacher"	21	"exploration' is the noun. The process of exploring (e.g. how the language works)"	"exploration' is the noun. The process of exploring (e.g. how the language works)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-07-02 07:05:00	"student009"	"student"	22	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:05:40	"teacher008"	"teacher"	23	"Ok. Imagine we found a dog in the street. No owner or anything."	"Ok. Imagine we found a dog in the street. No owner or anything."	NA	"3b"	"presentation"	"grammatical resource"	NA	NA	13
+2020-07-02 07:05:57	"teacher008"	"teacher"	24	"We feel sorry for the doggie and bring it home"	"We feel sorry for the doggie and bring it home"	NA	NA	NA	NA	NA	NA	10
+2020-07-02 07:06:31	"teacher008"	"teacher"	25	"And then you suggest, 'Shall we give it some food? It ____ ____ hungry.'"	"And then you suggest, 'Shall we give it some food? It ____ ____ hungry.'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	14
+2020-07-02 07:06:48	"teacher008"	"teacher"	26	"What two words go in the gaps, do you think?"	"What two words go in the gaps, do you think?"	NA	NA	NA	NA	NA	NA	10
+2020-07-02 07:07:01	"student009"	"student"	27	"must be"	"must be"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:07:11	"teacher008"	"teacher"	28	"Aha, good one"	"Aha, good one"	NA	NA	NA	NA	NA	NA	3
+2020-07-02 07:07:29	"teacher008"	"teacher"	29	"and if we are not 100% sure?"	"and if we are not 100% sure?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2020-07-02 07:07:35	"student009"	"student"	30	"might be"	"might be"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:07:42	"teacher008"	"teacher"	31	"Very good!"	"Very good!"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:07:49	"teacher008"	"teacher"	32	"Or also?"	"Or also?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	2
+2020-07-02 07:08:02	"student009"	"student"	33	"could be"	"could be"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:08:20	"teacher008"	"teacher"	34	"Excellent!"	"Excellent!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:08:42	"teacher008"	"teacher"	35	"Now, we've given the dog a whole bowl of food, and it looks quite happy"	"Now, we've given the dog a whole bowl of food, and it looks quite happy"	NA	"3c"	"presentation"	"grammatical resource"	NA	NA	15
+2020-07-02 07:09:22	"teacher008"	"teacher"	36	"But I say, 'Shall we give it some more?' And you answer, 'No, it's eaten the whole bowl, it ____ ____ hungry anymore!'"	"But I say, 'Shall we give it some more?' And you answer, 'No, it's eaten the whole bowl, it ____ ____ hungry anymore!'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	23
+2020-07-02 07:09:57	"student009"	"student"	37	"can't be?"	"can't be?"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:10:04	"teacher008"	"teacher"	38	"Excellent!"	"Excellent!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:10:29	"teacher008"	"teacher"	39	"If we are very sure something is true, we use must + infinitive"	"If we are very sure something is true, we use must + infinitive"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-07-02 07:10:50	"teacher008"	"teacher"	40	"And if we are sure something is not true, we use can't + infinitive"	"And if we are sure something is not true, we use can't + infinitive"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-07-02 07:11:00	"student009"	"student"	41	"yes, I remember this"	"yes, I remember this"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:11:05	"teacher008"	"teacher"	42	"could / might / may work for everything in between"	"could / might / may work for everything in between"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-07-02 07:11:09	"teacher008"	"teacher"	43	"excellent"	"excellent"	"41.0"	NA	NA	NA	NA	NA	1
+2020-07-02 07:11:34	"teacher008"	"teacher"	44	"https://learnenglish.britishcouncil.org/grammar/intermediate-to-upper-intermediate/modals-deductions-about-the-present"	"https://learnenglish.britishcouncil.org/grammar/intermediate-to-upper-intermediate/modals-deductions-about-the-present"	NA	"4.0"	"exercise"	"grammatical resource"	"website"	NA	1
+2020-07-02 07:12:00	"teacher008"	"teacher"	45	"could you click on this link and do Grammar Test 1? Should only take you a minute"	"could you click on this link and do Grammar Test 1? Should only take you a minute"	NA	NA	NA	NA	NA	NA	17
+2020-07-02 07:12:37	"student009"	"student"	46	"I can't copy it"	"I can't copy it"	NA	"4a"	"disruption"	NA	NA	NA	4
+2020-07-02 07:12:56	"teacher008"	"teacher"	47	"Oh, are you on your phone?"	"Oh, are you on your phone?"	NA	NA	NA	NA	NA	NA	6
+2020-07-02 07:13:01	"student009"	"student"	48	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:13:20	"teacher008"	"teacher"	49	"makes sense, never mind"	"makes sense, never mind"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:13:37	"teacher008"	"teacher"	50	"Do you remember my birthday party last year? You _____ remember! It was the same day as your graduation."	"Do you remember my birthday party last year? You _____ remember! It was the same day as your graduation."	NA	"4b"	"exercise"	"grammatical resource"	"website"	NA	19
+2020-07-02 07:13:49	"student009"	"student"	51	"must"	"must"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:13:53	"teacher008"	"teacher"	52	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:14:09	"teacher008"	"teacher"	53	"Come in and sit down. You _____ be tired after the journey."	"Come in and sit down. You _____ be tired after the journey."	NA	NA	NA	NA	NA	NA	12
+2020-07-02 07:14:16	"student009"	"student"	54	"must"	"must"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:14:25	"teacher008"	"teacher"	55	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:14:27	"teacher008"	"teacher"	56	"Whose is this coat? It _____ be Paul's. It's way too small for him."	"Whose is this coat? It _____ be Paul's. It's way too small for him."	NA	NA	NA	NA	NA	NA	14
+2020-07-02 07:14:37	"student009"	"student"	57	"can't"	"can't"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:14:40	"teacher008"	"teacher"	58	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:14:42	"teacher008"	"teacher"	59	"The exam results will be out soon. It _____ be this week or possibly next week."	"The exam results will be out soon. It _____ be this week or possibly next week."	NA	NA	NA	NA	NA	NA	16
+2020-07-02 07:14:56	"student009"	"student"	60	"might"	"might"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:14:59	"student009"	"student"	61	"could"	"could"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:15:05	"student009"	"student"	62	"may"	"may"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:15:13	"teacher008"	"teacher"	63	"yes, any of these!"	"yes, any of these!"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:15:16	"teacher008"	"teacher"	64	"She always gets such good grades at school. She _____ work very hard."	"She always gets such good grades at school. She _____ work very hard."	NA	NA	NA	NA	NA	NA	13
+2020-07-02 07:15:29	"student009"	"student"	65	"must"	"must"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:15:32	"teacher008"	"teacher"	66	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:15:34	"teacher008"	"teacher"	67	"The doctor said my headaches _____ be because of the hot weather but they're going to do some tests to be sure."	"The doctor said my headaches _____ be because of the hot weather but they're going to do some tests to be sure."	NA	NA	NA	NA	NA	NA	22
+2020-07-02 07:15:49	"student009"	"student"	68	"might"	"might"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:15:57	"teacher008"	"teacher"	69	"He _____ be our teacher! He looks about twelve!"	"He _____ be our teacher! He looks about twelve!"	NA	NA	NA	NA	NA	NA	9
+2020-07-02 07:16:04	"teacher008"	"teacher"	70	"yes to the previous one!"	"yes to the previous one!"	"68.0"	NA	NA	NA	NA	NA	5
+2020-07-02 07:16:04	"student009"	"student"	71	"can't"	"can't"	"69.0"	NA	NA	NA	NA	NA	1
+2020-07-02 07:16:07	"teacher008"	"teacher"	72	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:16:18	"teacher008"	"teacher"	73	"Take this umbrella just in case. It looks as if it _____ rain."	"Take this umbrella just in case. It looks as if it _____ rain."	NA	NA	NA	NA	NA	NA	13
+2020-07-02 07:16:27	"student009"	"student"	74	"might"	"might"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:16:30	"student009"	"student"	75	"may"	"may"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:16:33	"student009"	"student"	76	"could"	"could"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:16:42	"teacher008"	"teacher"	77	"Brilliant, <STUDENT>, I'm impressed!"	"Brilliant, <STUDENT>, I'm impressed!"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:16:57	"student009"	"student"	78	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:17:08	"teacher008"	"teacher"	79	"Ok, let's take it a step further."	"Ok, let's take it a step further."	NA	"5.0"	"presentation"	"grammatical resource"	NA	NA	7
+2020-07-02 07:17:33	"teacher008"	"teacher"	80	"The car is wet. It ____ ____ ____ at night (rain)"	"The car is wet. It ____ ____ ____ at night (rain)"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	11
+2020-07-02 07:17:37	"teacher008"	"teacher"	81	"what do you think?"	"what do you think?"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:17:55	"student009"	"student"	82	"might have rained?"	"might have rained?"	NA	NA	NA	NA	NA	NA	3
+2020-07-02 07:18:32	"teacher008"	"teacher"	83	"Yes, sure! We use the past infinitive, which is have + past participle"	"Yes, sure! We use the past infinitive, which is have + past participle"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-07-02 07:18:46	"student009"	"student"	84	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:18:47	"teacher008"	"teacher"	85	"but the modals are the same"	"but the modals are the same"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-07-02 07:19:14	"teacher008"	"teacher"	86	"I didn't tell him anything. He ___ ____ ___ about his surprise party. (I'm sure he didn't know)"	"I didn't tell him anything. He ___ ____ ___ about his surprise party. (I'm sure he didn't know)"	NA	"6.0"	"exercise"	"grammatical resource"	"website"	NA	18
+2020-07-02 07:19:50	"student009"	"student"	87	"can't have known"	"can't have known"	NA	NA	NA	NA	NA	NA	3
+2020-07-02 07:19:56	"teacher008"	"teacher"	88	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:20:01	"teacher008"	"teacher"	89	"Why were there no buses yesterday? Maybe it was the snow or they _____ been on strike."	"Why were there no buses yesterday? Maybe it was the snow or they _____ been on strike."	NA	NA	NA	NA	NA	NA	17
+2020-07-02 07:20:26	"student009"	"student"	90	"might habe"	"might have"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:20:33	"teacher008"	"teacher"	91	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:20:36	"teacher008"	"teacher"	92	"You _____ seen her, surely! She was standing right in front of you."	"You _____ seen her, surely! She was standing right in front of you."	NA	NA	NA	NA	NA	NA	13
+2020-07-02 07:20:39	"student009"	"student"	93	"*have"	"*have"	"90.0"	NA	"repair"	"writing"	NA	NA	1
+2020-07-02 07:20:52	"student009"	"student"	94	"must have"	"must have"	"92.0"	NA	NA	NA	NA	NA	2
+2020-07-02 07:21:00	"teacher008"	"teacher"	95	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:21:02	"teacher008"	"teacher"	96	"Let's ask at reception to see if they have your keys. Someone _____ found them."	"Let's ask at reception to see if they have your keys. Someone _____ found them."	NA	NA	NA	NA	NA	NA	15
+2020-07-02 07:21:22	"student009"	"student"	97	"might have"	"might have"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:21:32	"teacher008"	"teacher"	98	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:21:56	"teacher008"	"teacher"	99	"He _____ gone to Spain. He didn't have a passport."	"He _____ gone to Spain. He didn't have a passport."	NA	NA	NA	NA	NA	NA	10
+2020-07-02 07:22:10	"student009"	"student"	100	"can't have"	"can't have"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:22:13	"teacher008"	"teacher"	101	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:22:16	"teacher008"	"teacher"	102	"and the last one"	"and the last one"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:22:18	"teacher008"	"teacher"	103	"I explained the homework but she did the wrong page. She _____ misunderstood me."	"I explained the homework but she did the wrong page. She _____ misunderstood me."	NA	NA	NA	NA	NA	NA	14
+2020-07-02 07:22:44	"student009"	"student"	104	"might have"	"might have"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:22:54	"teacher008"	"teacher"	105	"and if we are very sure?"	"and if we are very sure?"	NA	NA	NA	NA	NA	NA	6
+2020-07-02 07:23:01	"student009"	"student"	106	"must have"	"must have"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:23:01	"teacher008"	"teacher"	107	"she did the wrong page after all!"	"she did the wrong page after all!"	NA	NA	NA	NA	NA	NA	7
+2020-07-02 07:23:04	"teacher008"	"teacher"	108	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:23:10	"teacher008"	"teacher"	109	"excellent :)"	"excellent :)"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:23:22	"student009"	"student"	110	"yay"	"yay"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:24:17	"teacher008"	"teacher"	111	"They are called modals of deduction, and, in my opinion, they are very cool to use and they show off your English much better than using 'maybe'"	"They are called modals of deduction, and, in my opinion, they are very cool to use and they show off your English much better than using 'maybe'"	NA	"7.0"	"presentation"	"grammatical resource,meta knowledge"	NA	NA	27
+2020-07-02 07:24:37	"teacher008"	"teacher"	112	"Do you know 'deduction'?"	"Do you know 'deduction'?"	NA	"7a"	"eliciting"	"lexical resource"	NA	NA	4
+2020-07-02 07:24:46	"student009"	"student"	113	"not really"	"not really"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:25:29	"teacher008"	"teacher"	114	"If you 'deduce' something, you use the evidence to understand what might have happened in the past"	"If you 'deduce' something, you use the evidence to understand what might have happened in the past"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-07-02 07:25:50	"student009"	"student"	115	"evidence?"	"evidence?"	NA	"7b"	"enquiry"	"lexical resource"	NA	NA	1
+2020-07-02 07:26:59	"teacher008"	"teacher"	116	"I'll give you an example. He came back from winter holidays all suntanned, and I deduced that he must have travelled to a warm country"	"I'll give you an example. He came back from winter holidays all suntanned, and I deduced that he must have travelled to a warm country"	"114.0"	NA	"scaffolding"	"lexical resource"	NA	NA	25
+2020-07-02 07:27:42	"teacher008"	"teacher"	117	"Him being suntanned is the evidence, and what I thought is my deduction"	"Him being suntanned is the evidence, and what I thought is my deduction"	"116, 114"	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-07-02 07:27:51	"student009"	"student"	118	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:28:15	"teacher008"	"teacher"	119	"It's the method that Sherlock Holmes used! Deduction"	"It's the method that Sherlock Holmes used! Deduction"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	8
+2020-07-02 07:28:25	"student009"	"student"	120	"aaaahhh"	"aaaahhh"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:28:32	"teacher008"	"teacher"	121	"and possibly other detectives as well"	"and possibly other detectives as well"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	6
+2020-07-02 07:29:01	"teacher008"	"teacher"	122	"does it make sense now?"	"does it make sense now?"	NA	NA	NA	NA	NA	NA	5
+2020-07-02 07:29:12	"student009"	"student"	123	"yep"	"yep"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:29:30	"teacher008"	"teacher"	124	"great"	"great"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:29:44	"teacher008"	"teacher"	125	"Ok, let's make some deductions then!"	"Ok, let's make some deductions then!"	NA	"8.0"	"exercise"	"grammatical resource"	NA	NA	6
+2020-07-02 07:30:03	"teacher008"	"teacher"	126	"She came home really upset. What do you think might have happened?"	"She came home really upset. What do you think might have happened?"	NA	NA	NA	NA	NA	NA	12
+2020-07-02 07:30:32	"teacher008"	"teacher"	127	"My guess: She must have had a bad day!"	"My guess: She must have had a bad day!"	NA	NA	NA	NA	NA	NA	9
+2020-07-02 07:30:38	"student009"	"student"	128	"She might have a fight with her friend"	"She might have had a fight with her friend"	NA	NA	NA	NA	NA	NA	8
+2020-07-02 07:31:04	"teacher008"	"teacher"	129	"Cool, can you look at my example and see which word got lost in yours?"	"Cool, can you look at my example and see which word got lost in yours?"	NA	"8a"	"eliciting,repair"	"grammatical resource"	NA	NA	15
+2020-07-02 07:31:32	"student009"	"student"	130	"had"	"had"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:31:54	"teacher008"	"teacher"	131	"Yes! Maybe she had a fight = she might have had a fight"	"Yes! Maybe she had a fight = she might have had a fight"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-07-02 07:32:01	"teacher008"	"teacher"	132	"Good one! what else?"	"Good one! what else?"	NA	"8b"	NA	NA	NA	NA	4
+2020-07-02 07:32:23	"student009"	"student"	133	"Her boss might have fired her"	"Her boss might have fired her"	NA	NA	NA	NA	NA	NA	6
+2020-07-02 07:32:29	"teacher008"	"teacher"	134	"yes, great!"	"yes, great!"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:32:42	"teacher008"	"teacher"	135	"Someone might have stolen her wallet"	"Someone might have stolen her wallet"	NA	NA	NA	NA	NA	NA	6
+2020-07-02 07:33:23	"student009"	"student"	136	"She might have had a bad mark"	"She might have had a bad mark"	NA	NA	NA	NA	NA	NA	7
+2020-07-02 07:33:30	"teacher008"	"teacher"	137	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:33:51	"teacher008"	"teacher"	138	"The canteen might have been out of her favourite food"	"The canteen might have been out of her favourite food"	NA	NA	NA	NA	NA	NA	10
+2020-07-02 07:34:39	"student009"	"student"	139	"She might have eaten something not fresh and now she might have a stomachache"	"She might have eaten something not fresh and now she might have a stomachache"	NA	NA	NA	NA	NA	NA	14
+2020-07-02 07:35:05	"teacher008"	"teacher"	140	"excellent, combining past and present, well done!"	"excellent, combining past and present, well done!"	NA	NA	NA	NA	NA	NA	7
+2020-07-02 07:35:28	"student009"	"student"	141	"nice to hear that:)"	"nice to hear that:)"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:35:34	"teacher008"	"teacher"	142	"Ok, cool! Did you have a chance to watch the marshmallow test video?"	"Ok, cool! Did you have a chance to watch the marshmallow test video?"	NA	"9.0"	"topic opening"	NA	NA	NA	13
+2020-07-02 07:35:45	"student009"	"student"	143	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:35:59	"student009"	"student"	144	"I watched it when you sent it"	"I watched it when you sent it"	NA	NA	NA	NA	NA	NA	7
+2020-07-02 07:36:07	"teacher008"	"teacher"	145	"Lovely! Could you tell me what happens in a few words?"	"Lovely! Could you tell me what happens in a few words?"	NA	"9a"	"topic development"	NA	NA	NA	11
+2020-07-02 07:37:53	"student009"	"student"	146	"so it is a test, two kids are given a marshmallow , if they wait until dad(I think) comes they will get more, if they eat their marshmallow,they won't get another one"	"so it is a test, two kids are given a marshmallow, if they wait until dad (I think) comes back, they will get more, if they eat their marshmallow, they won't get another one"	NA	NA	NA	NA	NA	NA	32
+2020-07-02 07:38:10	"teacher008"	"teacher"	147	"Exactly!"	"Exactly!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:39:13	"teacher008"	"teacher"	148	"This test was first done in the 1960s, and the researches went on to follow the lives of these children, and they found out that kids who didn't eat the marshmallow were more successful in life than those who did"	"This test was first done in the 1960s, and the researches went on to follow the lives of these children, and they found out that kids who didn't eat the marshmallow were more successful in life than those who did"	NA	"9b"	"topic development"	NA	NA	NA	40
+2020-07-02 07:39:41	"student009"	"student"	149	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:39:52	"student009"	"student"	150	"that's interesting"	"that's interesting"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:40:02	"teacher008"	"teacher"	151	"They did better at school and went on to good universities and have better jobs"	"They did better at school and went on to good universities and have better jobs"	NA	NA	NA	NA	NA	NA	15
+2020-07-02 07:40:09	"teacher008"	"teacher"	152	"Yes, that's what people thought, wow!"	"Yes, that's what people thought, wow!"	"150.0"	NA	NA	NA	NA	NA	6
+2020-07-02 07:40:58	"teacher008"	"teacher"	153	"People thought, ah, we just need to teach kids some self-control"	"People thought, ah, we just need to teach kids some self-control"	NA	NA	NA	NA	NA	NA	11
+2020-07-02 07:41:14	"teacher008"	"teacher"	154	"What's another word for it? from the last class?"	"What's another word for it? from the last class?"	NA	"9c"	"eliciting,revision"	"lexical resource"	NA	NA	9
+2020-07-02 07:41:32	"student009"	"student"	155	"willpower?)"	"willpower?)"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:41:36	"teacher008"	"teacher"	156	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:41:57	"teacher008"	"teacher"	157	"So, a bit of willpower, and kids will be super successful!"	"So, a bit of willpower, and kids will be super successful!"	NA	NA	NA	NA	NA	NA	11
+2020-07-02 07:42:01	"teacher008"	"teacher"	158	"Do you think it worked?"	"Do you think it worked?"	NA	"9d"	"topic development"	NA	NA	NA	5
+2020-07-02 07:42:21	"student009"	"student"	159	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:42:40	"teacher008"	"teacher"	160	"No! :))"	"No! :))"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:42:52	"student009"	"student"	161	"why?"	"why?"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:43:07	"teacher008"	"teacher"	162	"because human beings are way more complex than that"	"because human beings are way more complex than that"	NA	NA	NA	NA	NA	NA	9
+2020-07-02 07:43:41	"teacher008"	"teacher"	163	"You know how in science it's very important that the results of a study be replicated?"	"You know how in science it's very important that the results of a study be replicated?"	NA	NA	NA	NA	NA	NA	16
+2020-07-02 07:44:15	"student009"	"student"	164	"yes, it's very important"	"yes, it's very important"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:45:06	"teacher008"	"teacher"	165	"yes, so scientists did more and more marshmallow tests and followed the lives of the kids, and they did not get the same results as the original study"	"yes, so scientists did more and more marshmallow tests and followed the lives of the kids, and they did not get the same results as the original study"	NA	NA	NA	NA	NA	NA	28
+2020-07-02 07:45:50	"teacher008"	"teacher"	166	"There could have been other factors at play. Not just willpower. And maybe not willpower at all."	"There could have been other factors at play. Not just willpower. And maybe not willpower at all."	NA	NA	NA	NA	NA	NA	17
+2020-07-02 07:46:16	"teacher008"	"teacher"	167	"For example, the kids might have been not hungry!"	"For example, the kids might have been not hungry!"	NA	NA	NA	NA	NA	NA	9
+2020-07-02 07:47:23	"student009"	"student"	168	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:47:37	"teacher008"	"teacher"	169	"What else might have been a factor?"	"What else might have been a factor?"	NA	"9e"	"topic development,exercise"	"grammatical resource"	NA	NA	7
+2020-07-02 07:47:59	"student009"	"student"	170	"they don't like marshmallow?"	"they don't like marshmallows?"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:48:23	"teacher008"	"teacher"	171	"exactly! could you make a nice modal-of-deduction sentence, please?"	"exactly! could you make a nice modal-of-deduction sentence, please?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2020-07-02 07:49:02	"student009"	"student"	172	"they might not like the marshmallow"	"they might not like the marshmallow"	NA	NA	NA	NA	NA	NA	6
+2020-07-02 07:49:16	"teacher008"	"teacher"	173	"Aha, and in the past? when the test took place?"	"Aha, and in the past? when the test took place?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	10
+2020-07-02 07:49:39	"student009"	"student"	174	"they might not have liked the marshmallow"	"they might not have liked the marshmallow"	NA	NA	NA	NA	NA	NA	7
+2020-07-02 07:49:59	"teacher008"	"teacher"	175	"They might have not liked the marshmallow"	"They might have not liked the marshmallow"	NA	NA	NA	NA	NA	NA	7
+2020-07-02 07:50:16	"teacher008"	"teacher"	176	"They might have preferred chocolate :)"	"They might have preferred chocolate :)"	NA	NA	NA	NA	NA	NA	6
+2020-07-02 07:50:22	"student009"	"student"	177	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:50:28	"student009"	"student"	178	"maybe:)"	"maybe:)"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:50:32	"teacher008"	"teacher"	179	"what else could have happened?"	"what else could have happened?"	NA	"9f"	"eliciting"	"grammatical resource"	NA	NA	5
+2020-07-02 07:51:03	"student009"	"student"	180	"they might have had an allergy on sweets ("	"they might have had an allergy to sweets ("	NA	NA	NA	NA	NA	NA	9
+2020-07-02 07:51:27	"teacher008"	"teacher"	181	"yes, good idea! They might have known they couldn't eat it"	"yes, good idea! They might have known they couldn't eat it"	NA	NA	NA	NA	NA	NA	11
+2020-07-02 07:51:55	"teacher008"	"teacher"	182	"I think they might have wanted to please the researchers"	"I think they might have wanted to please the researchers"	NA	NA	NA	NA	NA	NA	10
+2020-07-02 07:53:01	"teacher008"	"teacher"	183	"or, to the contrary, they might have not wanted to listen to a lady / gentleman who they didn't know"	"or, to the contrary, they might have not wanted to listen to a lady / gentleman who they didn't know"	NA	NA	NA	NA	NA	NA	20
+2020-07-02 07:53:40	"teacher008"	"teacher"	184	"what do you think?"	"what do you think?"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 07:53:48	"student009"	"student"	185	"could be"	"could be"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:54:32	"teacher008"	"teacher"	186	"The big criticism of the marshmallow test was that there were poorer and richer kids"	"The big criticism of the marshmallow test was that there were poorer and richer kids"	NA	"9g"	"topic development"	NA	NA	NA	15
+2020-07-02 07:54:58	"teacher008"	"teacher"	187	"How do you think rich kids might have reacted?"	"How do you think rich kids might have reacted?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2020-07-02 07:55:27	"student009"	"student"	188	"they might have eaten it"	"they might have eaten it"	NA	NA	NA	NA	NA	NA	5
+2020-07-02 07:55:32	"student009"	"student"	189	"I think"	"I think"	NA	NA	NA	NA	NA	NA	2
+2020-07-02 07:55:34	"teacher008"	"teacher"	190	"why?"	"why?"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:55:43	"student009"	"student"	191	"I don't know"	"I don't know"	NA	NA	NA	NA	NA	NA	3
+2020-07-02 07:56:03	"teacher008"	"teacher"	192	"well, rich kids had lots of sweets and toys anyway"	"well, rich kids had lots of sweets and toys anyway"	NA	NA	NA	NA	NA	NA	10
+2020-07-02 07:56:15	"teacher008"	"teacher"	193	"so it was easier for them not to eat the marshmallow"	"so it was easier for them not to eat the marshmallow"	NA	NA	NA	NA	NA	NA	11
+2020-07-02 07:56:26	"student009"	"student"	194	"maybe because they known that their parents can buy them everything they want to"	"maybe because they knew that their parents could buy them everything they want to"	NA	NA	NA	NA	NA	NA	14
+2020-07-02 07:56:34	"teacher008"	"teacher"	195	"Exactly!"	"Exactly!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 07:57:06	"teacher008"	"teacher"	196	"one marshmallow wasn't important to them"	"one marshmallow wasn't important to them"	NA	NA	NA	NA	NA	NA	6
+2020-07-02 07:57:43	"teacher008"	"teacher"	197	"now, not surprisingly, rich kids then went to better schools and could pay for good universities and have good jobs afterwards"	"now, not surprisingly, rich kids then went to better schools and could pay for good universities and have good jobs afterwards"	NA	NA	NA	NA	NA	NA	21
+2020-07-02 07:57:58	"teacher008"	"teacher"	198	"but it was a different story for poor kids"	"but it was a different story for poor kids"	NA	NA	NA	NA	NA	NA	9
+2020-07-02 07:58:37	"student009"	"student"	199	"they might have not been able to buy marshmallows"	"they might have not been able to buy marshmallows"	NA	NA	NA	NA	NA	NA	9
+2020-07-02 07:58:51	"teacher008"	"teacher"	200	"And this is how the famous marshmallow test was debunked! Debunk = prove that something is not true"	"And this is how the famous marshmallow test was debunked! Debunk = prove that something is not true"	NA	NA	"presentation"	"lexical resource"	NA	NA	18
+2020-07-02 07:59:09	"teacher008"	"teacher"	201	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2020-07-02 08:00:25	"teacher008"	"teacher"	202	"That's it for today, <STUDENT>, it was a pleasure! Small homework: could you look up the pronunciation of the new words (exploration, evidence, deduce, deduction and debunk)?"	"That's it for today, <STUDENT>, it was a pleasure! Small homework: could you look up the pronunciation of the new words (exploration, evidence, deduce, deduction and debunk)?"	NA	"10.0"	"closing,homework"	NA	NA	NA	27
+2020-07-02 08:00:41	"teacher008"	"teacher"	203	"I think if you google them, you can listen to how they are pronounced"	"I think if you google them, you can listen to how they are pronounced"	NA	NA	NA	NA	NA	NA	14
+2020-07-02 08:00:57	"student009"	"student"	204	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 08:01:09	"teacher008"	"teacher"	205	"Great, how about Tuesday 10 am then?"	"Great, how about Tuesday 10 am then?"	NA	"10a"	"admin"	NA	NA	NA	7
+2020-07-02 08:01:15	"student009"	"student"	206	"can you type it in Skype, please?"	"can you type it in Skype, please?"	NA	NA	NA	NA	NA	NA	7
+2020-07-02 08:01:25	"teacher008"	"teacher"	207	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 08:01:29	"teacher008"	"teacher"	208	"Have a lovely day!"	"Have a lovely day!"	NA	NA	NA	NA	NA	NA	4
+2020-07-02 08:01:49	"student009"	"student"	209	"okay, if something will change , I will tell you!"	"okay, if something changes, I will tell you!"	NA	NA	NA	NA	NA	NA	10
+2020-07-02 08:01:59	"student009"	"student"	210	"Goodbye!"	"Goodbye!"	NA	NA	NA	NA	NA	NA	1
+2020-07-02 08:02:06	"teacher008"	"teacher"	211	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1
