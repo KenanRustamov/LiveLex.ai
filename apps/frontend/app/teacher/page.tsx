@@ -33,6 +33,7 @@ export default function TeacherDashboard() {
     const [teacherCode, setTeacherCode] = useState<string | null>(null);
     const [students, setStudents] = useState<any[]>([]);
     const [assignments, setAssignments] = useState<any[]>([]);
+    const [classAnalytics, setClassAnalytics] = useState<any>(null);
     const [loading, setLoading] = useState(true);
 
     // Assignment Creation State
@@ -63,11 +64,19 @@ export default function TeacherDashboard() {
                         setStudents(studentsData);
                     }
 
+
                     // Fetch assignments
                     const resAssignments = await fetch(`${backendUrl}/v1/assignments?email=${session.user.email}`);
                     if (resAssignments.ok) {
                         const assignmentsData = await resAssignments.json();
                         setAssignments(assignmentsData);
+                    }
+
+                    // Fetch class analytics
+                    const resAnalytics = await fetch(`${backendUrl}/v1/auth/teacher/analytics?email=${session.user.email}`);
+                    if (resAnalytics.ok) {
+                        const analyticsData = await resAnalytics.json();
+                        setClassAnalytics(analyticsData);
                     }
 
                 } catch (error) {
@@ -169,6 +178,44 @@ export default function TeacherDashboard() {
                                 {teacherCode || "Loading..."}
                             </div>
                         </div>
+                    </CardContent>
+                </Card>
+
+                <Card className="mb-6">
+                    <CardHeader>
+                        <CardTitle>Class Analytics</CardTitle>
+                        <CardDescription>Aggregate performance across all students.</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        {!classAnalytics ? (
+                            <div className="text-sm text-muted-foreground">Loading analytics...</div>
+                        ) : (
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                <div className="text-center p-4 bg-muted/30 rounded-lg">
+                                    <div className="text-2xl font-bold">{classAnalytics.overall_accuracy}%</div>
+                                    <div className="text-xs text-muted-foreground uppercase tracking-wide mt-1">Class Accuracy</div>
+                                </div>
+                                <div className="text-center p-4 bg-muted/30 rounded-lg">
+                                    <div className="text-2xl font-bold">{classAnalytics.total_words_practiced}</div>
+                                    <div className="text-xs text-muted-foreground uppercase tracking-wide mt-1">Words Practiced</div>
+                                </div>
+                                <div className="col-span-1 md:col-span-1">
+                                    <h4 className="font-semibold text-sm mb-2">Struggling Words</h4>
+                                    {classAnalytics.struggling_words.length === 0 ? (
+                                        <p className="text-xs text-muted-foreground">No words below 100% yet!</p>
+                                    ) : (
+                                        <div className="space-y-1">
+                                            {classAnalytics.struggling_words.map((w: any) => (
+                                                <div key={w.word} className="flex justify-between text-sm">
+                                                    <span className="font-medium">{w.word}</span>
+                                                    <span className="text-red-500">{w.accuracy}%</span>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+                            </div>
+                        )}
                     </CardContent>
                 </Card>
 
