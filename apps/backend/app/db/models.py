@@ -27,6 +27,7 @@ class UserDataDoc(Document):
     role: Optional[str] = None  # "teacher" or "student"
     teacher_code: Optional[str] = None
     enrolled_class_code: Optional[str] = None
+    teacher_id: Optional[str] = None # ID of the teacher if student
     objects: dict[str, dict[str, Any]] = Field(default_factory=dict)
     sessions: list[dict[str, Any]] = Field(default_factory=list)
 

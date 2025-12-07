@@ -40,6 +40,64 @@ export default function MobileShell() {
 
   const [settings, setSettings] = useState<UserSettings>(DEFAULT_SETTINGS);
 
+  // Class Enrollment State
+  const [classCode, setClassCode] = useState('');
+  const [enrolledTeacher, setEnrolledTeacher] = useState<string | null>(null);
+  const [joining, setJoining] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (session?.user?.email) {
+      // Fetch enrollment status using the 'me' endpoint
+      fetch(`${backendUrl}/v1/auth/me?email=${session.user.email}`)
+        .then(res => res.json())
+        .then(data => {
+          if (data.enrolled_class_code) {
+            // If enrolled, we might want to show the teacher's name.
+            // For now, let's just show "Joined". Or we can fetch teacher details.
+            // The current /me response has enrolled_class_code but not teacher name.
+            // We'll just show "Joined" and the code for now.
+            setClassCode(data.enrolled_class_code);
+            setEnrolledTeacher("Teacher"); // Or fetch teacher name if we want
+          }
+        })
+        .catch(err => console.error("Failed to fetch enrollment", err));
+    }
+  }, [session, backendUrl]);
+
+  const handleJoinClass = async () => {
+    if (!classCode) return;
+    setJoining(true);
+    setErrorMessage(null); // Clear previous errors
+    try {
+      const res = await fetch(`${backendUrl}/v1/auth/join-class`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: session?.user?.email,
+          code: classCode
+        })
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setEnrolledTeacher(data.teacher_name);
+        alert(`Successfully joined ${data.teacher_name}'s class!`);
+      } else {
+        // Assume 404 means not found
+        if (res.status === 404) {
+          setErrorMessage("Teacher code not found. Please try again.");
+        } else {
+          setErrorMessage("Failed to join class. Please try again.");
+        }
+      }
+    } catch (e) {
+      console.error(e);
+      setErrorMessage("An unexpected error occurred.");
+    } finally {
+      setJoining(false);
+    }
+  };
+
   useEffect(() => {
     try {
       if (session?.user?.name) setUsername(session.user.name);
@@ -97,6 +155,40 @@ export default function MobileShell() {
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 gap-3">
+                  <div className="text-sm">
+                    <Label className="block mb-1">Class Code</Label>
+                    <div className="flex gap-2">
+                      <Input
+                        type="text"
+                        placeholder="Enter Teacher Code"
+                        value={classCode}
+                        onChange={(e) => {
+                          setClassCode(e.target.value.toUpperCase());
+                          setErrorMessage(null); // Clear error on type
+                        }}
+                        maxLength={8}
+                        className={errorMessage ? "border-red-500 focus-visible:ring-red-500" : ""}
+                      />
+                      <Button onClick={handleJoinClass} disabled={joining || !!enrolledTeacher}>
+                        {enrolledTeacher ? 'Joined' : 'Join'}
+                      </Button>
+                    </div>
+                    {errorMessage && (
+                      <p className="text-xs text-red-500 mt-1 font-medium">
+                        {errorMessage}
+                      </p>
+                    )}
+                    {enrolledTeacher && (
+                      <p className="text-xs text-green-600 mt-1">
+                        Enrolled in {enrolledTeacher}'s class
+                      </p>
+                    )}
+                    {!enrolledTeacher && !errorMessage && (
+                      <p className="text-xs text-muted-foreground mt-1">
+                        Ask your teacher for their unique code.
+                      </p>
+                    )}
+                  </div>
                   <div className="text-sm">
                     <Label className="block mb-1">Username</Label>
                     <div className="flex gap-2">

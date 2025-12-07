@@ -107,5 +107,33 @@ async def get_current_user(email: str):
         "name": user.name,
         "role": user.role,
         "teacher_code": user.teacher_code,
-        "enrolled_class_code": user.enrolled_class_code
+        "enrolled_class_code": user.enrolled_class_code,
+        "teacher_id": user.teacher_id
     }
+
+@router.post("/auth/join-class")
+async def join_class(request: dict):
+    """Link a student to a teacher via class code."""
+    email = request.get("email")
+    code = request.get("code")
+    
+    if not email or not code:
+        raise HTTPException(status_code=400, detail="Email and code are required")
+        
+    # Find student
+    student = await UserDataDoc.find_one(UserDataDoc.email == email)
+    if not student:
+        raise HTTPException(status_code=404, detail="Student not found")
+        
+    # Find teacher by code
+    teacher = await UserDataDoc.find_one(UserDataDoc.teacher_code == code)
+    if not teacher:
+        raise HTTPException(status_code=404, detail="Invalid class code")
+        
+    # Link them
+    await student.update({"$set": {
+        "teacher_id": str(teacher.id),
+        "enrolled_class_code": code
+    }})
+    
+    return {"status": "success", "teacher_name": teacher.name}
