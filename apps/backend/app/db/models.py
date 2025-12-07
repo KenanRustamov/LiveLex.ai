@@ -56,6 +56,9 @@ class AssignmentDoc(Document):
     title: str
     words: List[str]
     created_at: datetime = Field(default_factory=datetime.utcnow)
+
+    include_grammar: bool = False
+    grammar_tense: Optional[str] = None  # "present", "past"
     
     # Optional link to a scene
     scene_id: Optional[str] = None

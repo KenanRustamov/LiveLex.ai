@@ -9,6 +9,10 @@ class CreateAssignmentRequest(BaseModel):
     email: str
     title: str
     words: List[str]
+    include_discovered_count: Optional[int] = 0
+    include_grammar: Optional[bool] = False
+    grammar_tense: Optional[str] = None     # "present" or "past"
+    scene_id: Optional[str] = None
 
 @router.post("/assignments")
 async def create_assignment(req: CreateAssignmentRequest):
@@ -24,7 +28,11 @@ async def create_assignment(req: CreateAssignmentRequest):
     assignment = AssignmentDoc(
         title=req.title,
         words=req.words,
-        teacher_id=str(teacher.id)
+        teacher_id=str(teacher.id),
+        scene_id=req.scene_id,
+        include_discovered_count=req.include_discovered_count,
+        include_grammar=req.include_grammar,
+        grammar_tense=req.grammar_tense
     )
     await assignment.insert()
     
@@ -53,7 +61,11 @@ async def get_assignments(email: str):
             "id": str(a.id),
             "title": a.title,
             "words": a.words,
-            "created_at": a.created_at
+            "created_at": a.created_at,
+            "scene_id": getattr(a, "scene_id", None),
+            "include_discovered_count": getattr(a, "include_discovered_count", 0),
+            "include_grammar": getattr(a, "include_grammar", False),
+            "grammar_tense": getattr(a, "grammar_tense", None),
         }
         for a in assignments
     ]

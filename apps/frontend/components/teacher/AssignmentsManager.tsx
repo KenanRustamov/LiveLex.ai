@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Loader2, Plus } from 'lucide-react';
 import { Assignment, Scene } from '@/types/teacher';
 import { useSession } from 'next-auth/react';
+import { Switch } from "@/components/ui/switch";
 
 interface AssignmentsManagerProps {
     assignments: Assignment[];
@@ -22,6 +23,8 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
     const [newAssignmentWords, setNewAssignmentWords] = useState("");
     const [newAssignmentSceneId, setNewAssignmentSceneId] = useState<string>("none");
     const [newAssignmentDiscoveredCount, setNewAssignmentDiscoveredCount] = useState<number>(0);
+    const [includeGrammar, setIncludeGrammar] = useState(false);
+    const [grammarTense, setGrammarTense] = useState<"present" | "past">("present");
     const [creating, setCreating] = useState(false);
 
     const handleCreateAssignment = async () => {
@@ -35,7 +38,9 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                 email: session?.user?.email,
                 title: newAssignmentTitle,
                 words: wordsList,
-                include_discovered_count: newAssignmentDiscoveredCount
+                include_discovered_count: newAssignmentDiscoveredCount,
+                include_grammar: includeGrammar,
+                grammar_tense: includeGrammar ? grammarTense : null
             };
 
             if (newAssignmentSceneId && newAssignmentSceneId !== "none") {
@@ -58,6 +63,8 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                     words: wordsList,
                     scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
                     include_discovered_count: newAssignmentDiscoveredCount,
+                    include_grammar: includeGrammar,
+                    grammar_tense: includeGrammar ? grammarTense : undefined,
                     created_at: new Date().toISOString()
                 };
 
@@ -68,6 +75,8 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                 setNewAssignmentWords("");
                 setNewAssignmentSceneId("none");
                 setNewAssignmentDiscoveredCount(0);
+                setIncludeGrammar(false);
+                setGrammarTense("present");
             }
         } catch (error) {
             console.error("Failed to create assignment", error);
@@ -111,6 +120,25 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                                 ))}
                             </select>
                         </div>
+                        {/* Grammar Toggle */}
+                        <div className="flex items-center justify-between bg-gray-50 p-3 rounded-xl">
+                            <Label className="text-sm font-medium">Include Grammar Practice</Label>
+                            <Switch checked={includeGrammar} onCheckedChange={setIncludeGrammar} />
+                        </div>
+                        {/* Tense Selector */}
+                        {includeGrammar && (
+                            <div className="space-y-2 bg-green-50 p-3 rounded-xl">
+                                <Label className="text-green-900">Choose Tense</Label>
+                                <select
+                                    className="flex h-10 w-full rounded-xl border border-input bg-background px-3 py-2 text-sm"
+                                    value={grammarTense}
+                                    onChange={(e) => setGrammarTense(e.target.value as "present" | "past")}
+                                >
+                                    <option value="present">Present Tense</option>
+                                    <option value="past">Past Tense</option>
+                                </select>
+                            </div>
+                        )}
 
                         <div className="grid grid-cols-2 gap-4">
                             <div className="space-y-2 col-span-2">
@@ -170,28 +198,36 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                     ) : (
                         <div className="space-y-3">
                             {assignments.map((assignment) => (
-                                <div key={assignment.id} className="p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow">
-                                    <div className="flex justify-between items-start">
-                                        <div>
-                                            <div className="flex items-center gap-2">
-                                                <h3 className="font-bold text-gray-800">{assignment.title}</h3>
-                                                {assignment.scene_id && (
-                                                    <span className="text-[10px] bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
-                                                        Context Aware
-                                                    </span>
-                                                )}
-                                            </div>
-                                            <p className="text-sm text-muted-foreground mt-1">
-                                                {assignment.words.length} words
-                                                {assignment.include_discovered_count && assignment.include_discovered_count > 0 && ` + ${assignment.include_discovered_count} discovered`}
-                                                • {new Date(assignment.created_at).toLocaleDateString()}
-                                            </p>
-                                            <div className="flex gap-1 mt-2 flex-wrap">
-                                                {assignment.words.slice(0, 5).map((w, i) => (
-                                                    <span key={i} className="text-xs bg-secondary px-2 py-1 rounded-full text-secondary-foreground">{w}</span>
-                                                ))}
-                                                {assignment.words.length > 5 && <span className="text-xs text-muted-foreground pl-1">+{assignment.words.length - 5} more</span>}
-                                            </div>
+                                <div
+                                    key={assignment.id}
+                                    className="p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow"
+                                >
+                                    <div className="flex flex-col gap-1">
+                                        {/* Title */}
+                                        <h3 className="font-bold text-gray-900">{assignment.title}</h3>
+
+                                        {/* Metadata */}
+                                        <p className="text-sm text-muted-foreground">
+                                            {new Date(assignment.created_at).toLocaleDateString()} •{" "}
+                                            {assignment.include_grammar ? "Vocab + Grammar" : "Vocab Only"} •{" "}
+                                            {assignment.words.length} words
+                                        </p>
+
+                                        {/* Word Chips */}
+                                        <div className="flex gap-1 mt-2 flex-wrap">
+                                            {assignment.words.slice(0, 5).map((w, i) => (
+                                                <span
+                                                    key={i}
+                                                    className="text-xs bg-secondary px-2 py-1 rounded-full text-secondary-foreground"
+                                                >
+                                                    {w}
+                                                </span>
+                                            ))}
+                                            {assignment.words.length > 5 && (
+                                                <span className="text-xs text-muted-foreground pl-1">
+                                                    +{assignment.words.length - 5} more
+                                                </span>
+                                            )}
                                         </div>
                                     </div>
                                 </div>
