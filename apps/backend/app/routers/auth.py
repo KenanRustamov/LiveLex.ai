@@ -78,10 +78,15 @@ async def set_user_role(request: dict):
     update_data = {"role": role}
     
     if role == "teacher" and not user.teacher_code:
-        # Generate a 6-character random code
+        # Generate a unique 8-character random code
         chars = string.ascii_uppercase + string.digits
-        code = ''.join(secrets.choice(chars) for _ in range(6))
-        update_data["teacher_code"] = code
+        while True:
+            code = ''.join(secrets.choice(chars) for _ in range(8))
+            # Check if code exists
+            existing_code = await UserDataDoc.find_one(UserDataDoc.teacher_code == code)
+            if not existing_code:
+                update_data["teacher_code"] = code
+                break
         
     await user.update({"$set": update_data})
     return {"status": "success", "role": role, "teacher_code": update_data.get("teacher_code")}
