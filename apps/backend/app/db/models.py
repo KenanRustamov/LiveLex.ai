@@ -51,10 +51,11 @@ class SceneDoc(Document):
 
 
 class AssignmentDoc(Document):
-    email: str # Teacher's email
+    teacher_id: str
+    email: Optional[str] = None # Keeping for backward compatibility
     title: str
     words: List[str]
-    created_at: str
+    created_at: datetime = Field(default_factory=datetime.utcnow)
     
     # Optional link to a scene
     scene_id: Optional[str] = None
