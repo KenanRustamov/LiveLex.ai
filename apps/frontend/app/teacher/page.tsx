@@ -1,6 +1,15 @@
 'use client';
 
-import { useSession } from 'next-auth/react';
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { useSession, signOut } from 'next-auth/react';
 import { useEffect, useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Loader2 } from 'lucide-react';
@@ -42,15 +51,29 @@ export default function TeacherDashboard() {
                         <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Teacher Dashboard</h1>
                         <p className="text-muted-foreground">Manage your classroom and students.</p>
                     </div>
-                    <div className="flex items-center gap-2">
-                        <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">
-                            {session?.user?.name?.[0] || 'T'}
-                        </div>
-                        <div className="text-sm">
-                            <p className="font-medium">{session?.user?.name}</p>
-                            <p className="text-xs text-muted-foreground">Teacher</p>
-                        </div>
-                    </div>
+                    <DropdownMenu>
+                        <DropdownMenuTrigger asChild>
+                            <div className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
+                                <Avatar className="w-10 h-10 border border-gray-200 dark:border-gray-700">
+                                    <AvatarImage src={session?.user?.image || ''} alt={session?.user?.name || ''} />
+                                    <AvatarFallback className="bg-primary/10 text-primary font-bold">
+                                        {session?.user?.name?.[0] || 'T'}
+                                    </AvatarFallback>
+                                </Avatar>
+                                <div className="text-sm">
+                                    <p className="font-medium">{session?.user?.name}</p>
+                                    <p className="text-xs text-muted-foreground">Teacher</p>
+                                </div>
+                            </div>
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent align="end">
+                            <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                            <DropdownMenuSeparator />
+                            <DropdownMenuItem onClick={() => signOut({ callbackUrl: '/' })}>
+                                Log out
+                            </DropdownMenuItem>
+                        </DropdownMenuContent>
+                    </DropdownMenu>
                 </header>
 
                 <Card>
