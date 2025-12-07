@@ -121,17 +121,17 @@ export default function TeacherDashboard() {
     }
 
     return (
-        <div className="min-h-screen bg-gray-50 dark:bg-gray-900 p-8">
+        <div className="min-h-screen bg-background p-8">
             <div className="max-w-4xl mx-auto space-y-6">
                 <header className="flex justify-between items-center mb-8">
                     <div>
-                        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Teacher Dashboard</h1>
+                        <h1 className="text-3xl font-bold text-foreground">Teacher Dashboard</h1>
                         <p className="text-muted-foreground">Manage your classroom and students.</p>
                     </div>
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
                             <div className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
-                                <Avatar className="w-10 h-10 border border-gray-200 dark:border-gray-700">
+                                <Avatar className="w-10 h-10 border border-border">
                                     <AvatarImage src={session?.user?.image || ''} alt={session?.user?.name || ''} />
                                     <AvatarFallback className="bg-primary/10 text-primary font-bold">
                                         {session?.user?.name?.[0] || 'T'}
@@ -255,7 +255,7 @@ export default function TeacherDashboard() {
                             ) : (
                                 <div className="space-y-3">
                                     {assignments.map((assignment: any) => (
-                                        <div key={assignment.id} className="p-3 border rounded-lg bg-gray-50 dark:bg-gray-800">
+                                        <div key={assignment.id} className="p-3 border rounded-lg bg-muted/40">
                                             <div className="flex justify-between items-start">
                                                 <div>
                                                     <h3 className="font-medium text-sm">{assignment.title}</h3>

@@ -135,7 +135,7 @@ export default function MobileShell() {
   const tabBtn = (name: 'camera' | 'profile' | 'analytics' | 'assignments', label: string) => (
     <Button
       onClick={() => setTab(name)}
-      variant={tab === name ? 'default' : 'outline'}
+      variant={tab === name ? 'default' : 'ghost'}
       className="px-3 py-1.5 text-sm"
       aria-current={tab === name ? 'page' : undefined}
     >
@@ -144,7 +144,7 @@ export default function MobileShell() {
   );
 
   return (
-    <main className="min-h-dvh flex flex-col">
+    <main className="min-h-dvh flex flex-col bg-background">
       <section className="flex-1">
         <div className="mx-auto w-full px-4 py-6 space-y-4">
           {tab === 'camera' && <CameraView key={JSON.stringify(settings)} settings={settings} username={username} />}
@@ -164,11 +164,11 @@ export default function MobileShell() {
                 ) : (
                   <div className="space-y-4">
                     {assignments.map((assignment: any) => (
-                      <div key={assignment.id} className="p-3 border rounded-lg bg-gray-50 dark:bg-gray-800">
+                      <div key={assignment.id} className="p-3 border rounded-lg bg-muted/40">
                         <h3 className="font-medium text-sm">{assignment.title}</h3>
                         <div className="mt-2 flex flex-wrap gap-1">
                           {assignment.words.map((w: string, i: number) => (
-                            <span key={i} className="text-xs bg-white dark:bg-black border px-1.5 py-0.5 rounded">
+                            <span key={i} className="text-xs bg-background border px-1.5 py-0.5 rounded">
                               {w}
                             </span>
                           ))}
@@ -286,7 +286,7 @@ export default function MobileShell() {
                   <div className="text-sm">
                     <Label className="block mb-1">Proficiency level</Label>
                     <Select
-                      className="border border-gray-300 rounded-md px-2 py-1 w-full"
+                      className="border border-input rounded-md px-2 py-1 w-full"
                       value={settings.proficiencyLevel}
                       onChange={(e) => saveSettings({ proficiencyLevel: Number(e.target.value) })}
                     >
@@ -307,7 +307,7 @@ export default function MobileShell() {
         </div>
       </section>
 
-      <nav className="sticky bottom-0 bg-white/80 backdrop-blur border-t">
+      <nav className="sticky bottom-0 bg-background/80 backdrop-blur border-t border-border">
         <div className="mx-auto max-w-md w-full px-6 py-3 flex items-center justify-between gap-1 overflow-x-auto">
           {tabBtn('camera', 'Camera')}
           {tabBtn('assignments', 'Tasks')}
