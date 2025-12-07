@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import { useSession } from 'next-auth/react';
 import CameraView from './CameraView';
 import AnalyticsView from './AnalyticsView';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -16,7 +17,8 @@ export default function MobileShell() {
   );
   const [tab, setTab] = useState<'camera' | 'profile' | 'analytics'>('camera'); // default to camera
 
-  const [username, setUsername] = useState('User');
+  const { data: session } = useSession();
+  const [username, setUsername] = useState(session?.user?.name || session?.user?.email || 'User');
   const [editingName, setEditingName] = useState('');
   const [profileReady, setProfileReady] = useState(false);
 
@@ -40,8 +42,10 @@ export default function MobileShell() {
 
   useEffect(() => {
     try {
+      if (session?.user?.name) setUsername(session.user.name);
+      else if (session?.user?.email) setUsername(session.user.email);
+
       const rawSettings = localStorage.getItem('livelex_settings');
-      const rawProfile = localStorage.getItem('livelex_profile');
 
       if (rawSettings) {
         const parsed = JSON.parse(rawSettings);
@@ -49,27 +53,22 @@ export default function MobileShell() {
           setSettings({ ...DEFAULT_SETTINGS, ...parsed });
         }
       }
-
-      if (rawProfile) {
-        const parsedProfile = JSON.parse(rawProfile);
-        if (parsedProfile.username) setUsername(parsedProfile.username);
-      }
-    } catch {}
+    } catch { }
     setProfileReady(true);
-  }, []);
+  }, [session]);
 
 
   const saveSettings = (next: Partial<UserSettings>) => {
     const merged = { ...settings, ...next };
     setSettings(merged);
-    try { localStorage.setItem('livelex_settings', JSON.stringify(merged)); } catch {}
+    try { localStorage.setItem('livelex_settings', JSON.stringify(merged)); } catch { }
   };
 
   const saveUsername = (name: string) => {
     setUsername(name);
     try {
       localStorage.setItem('livelex_profile', JSON.stringify({ username: name }));
-    } catch {}
+    } catch { }
   };
 
   const tabBtn = (name: 'camera' | 'profile' | 'analytics', label: string) => (
@@ -98,7 +97,7 @@ export default function MobileShell() {
               </CardHeader>
               <CardContent>
                 <div className="grid grid-cols-1 gap-3">
-                                    <div className="text-sm">
+                  <div className="text-sm">
                     <Label className="block mb-1">Username</Label>
                     <div className="flex gap-2">
                       <Input

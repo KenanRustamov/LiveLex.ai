@@ -21,6 +21,9 @@ class SessionDoc(Document):
 
 class UserDataDoc(Document):
     username: str
+    email: Optional[str] = None
+    name: Optional[str] = None
+    profile_image: Optional[str] = None
     objects: dict[str, dict[str, Any]] = Field(default_factory=dict)
     sessions: list[dict[str, Any]] = Field(default_factory=list)
 

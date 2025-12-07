@@ -1,25 +1,19 @@
 'use client';
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 import MobileShell from "@/components/MobileShell";
+import LandingPage from "@/components/LandingPage";
 
 export default function HomePage() {
-  const router = useRouter();
-  const [ready, setReady] = useState(false);
+  const { data: session, status } = useSession();
 
-  useEffect(() => {
-    try {
-      const raw = localStorage.getItem('livelex_profile');
-      const username = raw ? (JSON.parse(raw)?.username as string | undefined) : undefined;
-      if (!username || !username.trim()) {
-        router.replace('/login');
-        return;
-      }
-    } catch {}
-    setReady(true);
-  }, [router]);
+  if (status === "loading") {
+    return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  }
 
-  if (!ready) return null;
-  return <MobileShell />;
+  if (status === "authenticated") {
+    return <MobileShell />;
+  }
+
+  return <LandingPage />;
 }
