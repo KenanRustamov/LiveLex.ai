@@ -26,6 +26,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Loader2, Plus } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import AnalyticsView from '@/components/AnalyticsView';
 
 export default function TeacherDashboard() {
     const { data: session } = useSession();
@@ -39,6 +40,9 @@ export default function TeacherDashboard() {
     const [newAssignmentTitle, setNewAssignmentTitle] = useState("");
     const [newAssignmentWords, setNewAssignmentWords] = useState("");
     const [creating, setCreating] = useState(false);
+
+    // Analytics Modal State
+    const [selectedStudent, setSelectedStudent] = useState<any | null>(null);
 
     useEffect(() => {
         const fetchProfile = async () => {
@@ -182,7 +186,11 @@ export default function TeacherDashboard() {
                             ) : (
                                 <div className="space-y-4">
                                     {students.map((student, idx) => (
-                                        <div key={idx} className="flex items-center gap-3">
+                                        <div
+                                            key={idx}
+                                            className="flex items-center gap-3 p-2 hover:bg-muted/50 rounded-lg cursor-pointer transition-colors"
+                                            onClick={() => setSelectedStudent(student)}
+                                        >
                                             <Avatar className="w-8 h-8">
                                                 <AvatarImage src={student.profile_image} />
                                                 <AvatarFallback>{student.name?.[0]}</AvatarFallback>
@@ -272,6 +280,23 @@ export default function TeacherDashboard() {
                     </Card>
                 </div>
             </div>
+
+            {/* Student Analytics Modal */}
+            <Dialog open={!!selectedStudent} onOpenChange={(open) => !open && setSelectedStudent(null)}>
+                <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto">
+                    <DialogHeader>
+                        <DialogTitle>{selectedStudent?.name}'s Progress</DialogTitle>
+                    </DialogHeader>
+                    {selectedStudent && (
+                        <div className="py-2">
+                            <AnalyticsView
+                                username={selectedStudent.username}
+                                backendUrl={process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000'}
+                            />
+                        </div>
+                    )}
+                </DialogContent>
+            </Dialog>
         </div>
     );
 }

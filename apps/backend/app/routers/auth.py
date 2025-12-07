@@ -154,6 +154,7 @@ async def get_teacher_students(email: str):
     return [
         {
             "name": s.name,
+            "username": s.username,
             "email": s.email,
             "profile_image": s.profile_image
         }
