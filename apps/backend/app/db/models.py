@@ -24,6 +24,9 @@ class UserDataDoc(Document):
     email: Optional[str] = None
     name: Optional[str] = None
     profile_image: Optional[str] = None
+    role: Optional[str] = None  # "teacher" or "student"
+    teacher_code: Optional[str] = None
+    enrolled_class_code: Optional[str] = None
     objects: dict[str, dict[str, Any]] = Field(default_factory=dict)
     sessions: list[dict[str, Any]] = Field(default_factory=list)
 

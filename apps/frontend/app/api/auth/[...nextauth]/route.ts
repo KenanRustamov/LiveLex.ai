@@ -12,7 +12,7 @@ const handler = NextAuth({
         async signIn({ user }) {
             try {
                 const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
-                await fetch(`${backendUrl}/auth/sync`, {
+                await fetch(`${backendUrl}/v1/auth/sync`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

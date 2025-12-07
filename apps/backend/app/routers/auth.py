@@ -56,5 +56,51 @@ async def sync_user(user: UserSyncRequest):
         )
         await new_user.insert()
         logging.info(f"Created new user {username}")
+import secrets
+import string
+
+@router.post("/auth/role")
+async def set_user_role(request: dict):
+    """Set the user's role (teacher/student)."""
+    email = request.get("email")
+    role = request.get("role")
+    
+    if not email or not role:
+        raise HTTPException(status_code=400, detail="Email and role are required")
+
+    if role not in ["teacher", "student"]:
+        raise HTTPException(status_code=400, detail="Invalid role")
+
+    user = await UserDataDoc.find_one(UserDataDoc.email == email)
+    if not user:
+         raise HTTPException(status_code=404, detail="User not found")
+    
+    update_data = {"role": role}
+    
+    if role == "teacher" and not user.teacher_code:
+        # Generate a 6-character random code
+        chars = string.ascii_uppercase + string.digits
+        code = ''.join(secrets.choice(chars) for _ in range(6))
+        update_data["teacher_code"] = code
         
-    return {"status": "success", "username": username}
+    await user.update({"$set": update_data})
+    return {"status": "success", "role": role, "teacher_code": update_data.get("teacher_code")}
+
+@router.get("/auth/me")
+async def get_current_user(email: str):
+    """Get current user profile."""
+    if not email:
+        raise HTTPException(status_code=400, detail="Email is required")
+        
+    user = await UserDataDoc.find_one(UserDataDoc.email == email)
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+        
+    return {
+        "username": user.username,
+        "email": user.email,
+        "name": user.name,
+        "role": user.role,
+        "teacher_code": user.teacher_code,
+        "enrolled_class_code": user.enrolled_class_code
+    }
