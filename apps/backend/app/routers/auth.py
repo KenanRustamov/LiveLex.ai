@@ -107,7 +107,7 @@ async def get_current_user(email: str):
         "name": user.name,
         "role": user.role,
         "teacher_code": user.teacher_code,
-        "enrolled_class_code": user.enrolled_class_code,
+        "enrolled_class_code": user.class_code,
         "teacher_id": user.teacher_id
     }
 
@@ -154,14 +154,15 @@ async def get_teacher_students(email: str):
     response = []
     for s in students:
         # Calculate stats
-        objects = s.objects or {}
+        # Stats temporarily disabled as 'objects' field is deprecated
+        # objects = s.objects or {}
         total_correct = 0
         total_incorrect = 0
-        words_practiced = len(objects)
+        words_practiced = 0 # len(objects)
         
-        for stats in objects.values():
-            total_correct += int(stats.get("correct", 0))
-            total_incorrect += int(stats.get("incorrect", 0))
+        # for stats in objects.values():
+        #     total_correct += int(stats.get("correct", 0))
+        #     total_incorrect += int(stats.get("incorrect", 0))
             
         total_attempts = total_correct + total_incorrect
         accuracy = 0
@@ -198,21 +199,19 @@ async def get_class_analytics(email: str):
     word_stats = {}  # {word: {correct: 0, incorrect: 0}}
     
     for student in students:
-        objects = student.objects or {}
-        for obj_name, stats in objects.items():
-            correct = int(stats.get("correct", 0))
-            incorrect = int(stats.get("incorrect", 0))
-            
-            # Global totals
-            total_correct += correct
-            total_incorrect += incorrect
-            
-            # Word stats
-            correct_word = stats.get("correct_word", obj_name)
-            if correct_word not in word_stats:
-                word_stats[correct_word] = {"correct": 0, "incorrect": 0}
-            word_stats[correct_word]["correct"] += correct
-            word_stats[correct_word]["incorrect"] += incorrect
+        # Placeholder: 'objects' or specific word stats are not currently on UserDataDoc.
+        # We can implement real analytics aggregation from PerformanceMetricDoc later.
+        pass
+
+        # For now, we can count discovered words as "practiced"
+        # for scene_id, words in student.discovered_scene_words.items():
+        #     total_correct += len(words) 
+
+            # correct_word = stats.get("correct_word", obj_name)
+            # if correct_word not in word_stats:
+            #     word_stats[correct_word] = {"correct": 0, "incorrect": 0}
+            # word_stats[correct_word]["correct"] += correct
+            # word_stats[correct_word]["incorrect"] += incorrect
             
     # Calculate overall accuracy
     total_attempts = total_correct + total_incorrect
