@@ -1,0 +1,111 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-04-13 11:16:44	"teacher001"	"teacher"	1	"Hey there..."	"Hey there..."	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-04-13 11:16:50	"student007"	"student"	2	"hi - I am here"	"hi - I am here"	NA	NA	NA	NA	NA	NA	5
+2020-04-13 11:18:05	"teacher001"	"teacher"	3	"OK <STUDENT> ... I've been thinking about the topic and arguments in favour  of investment space exploration..  hold on"	"OK <STUDENT> ... I've been thinking about the topic and arguments in favour  of investment space exploration..  hold on"	NA	"2.0"	NA	"writing,task achievement"	NA	NA	21
+2020-04-13 11:18:45	"teacher001"	"teacher"	4	"Have a look at these 4 main ideas (just keywords) and see of you agree which one you agree and why OK?"	"Have a look at these 4 main ideas (just keywords) and see of you agree which one you agree and why OK?"	NA	NA	NA	NA	NA	NA	22
+2020-04-13 11:19:01	"student007"	"student"	5	"yes, ok"	"yes, ok"	NA	NA	NA	NA	NA	NA	2
+2020-04-13 11:19:02	"teacher001"	"teacher"	6	"Sorry: see if you agree with any of them and why..."	"Sorry: see if you agree with any of them and why..."	4	NA	"repair"	"writing"	NA	NA	11
+2020-04-13 11:19:21	"teacher001"	"teacher"	7	"International co-operation/ Economic self-interest/ Technological progress/ Long-term survival"	"International co-operation/ Economic self-interest/ Technological progress/ Long-term survival"	NA	NA	NA	NA	NA	NA	8
+2020-04-13 11:20:09	"teacher001"	"teacher"	8	"Any quick ideas about which one you think might be a good idea?"	"Any quick ideas about which one you think might be a good idea?"	NA	"2a"	"eliciting"	"task achievement,writing"	NA	NA	13
+2020-04-13 11:20:28	"teacher001"	"teacher"	9	"Remember: they are all in favour of space exploration"	"Remember: they are all in favour of space exploration"	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	9
+2020-04-13 11:21:49	"student007"	"student"	10	"international co-operation   reason: human are a  hug family rather than different countries."	"a reason for international cooperation: humans are one family rather than different countries."	NA	NA	NA	NA	NA	NA	15
+2020-04-13 11:22:50	"student007"	"student"	11	"I remember the test that you done with us, which is the left or right side people."	"I remember the test that you did with us, whether one is a left- or right-wing person"	NA	"2b"	NA	NA	NA	NA	17
+2020-04-13 11:23:21	"teacher001"	"teacher"	12	"Ah ok.. you mean left wing or right wing..."	"Ah ok.. you mean left wing or right wing..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-04-13 11:23:33	"student007"	"student"	13	"yes.."	"yes.."	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:23:47	"teacher001"	"teacher"	14	"on the left' or 'on the right' (politically) .."	"on the left' or 'on the right' (politically) .."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-04-13 11:24:32	"teacher001"	"teacher"	15	"So the idea here <STUDENT> is that countries co-operate to develop space technology you know?"	"So the idea here <STUDENT> is that countries co-operate to develop space technology you know?"	10	"2c"	"scaffolding"	"task achievement,writing"	NA	NA	15
+2020-04-13 11:24:47	"teacher001"	"teacher"	16	"Are you aware that this has happened?"	"Are you aware that this has happened?"	NA	NA	"eliciting"	"task achievement,writing"	NA	NA	7
+2020-04-13 11:25:01	"teacher001"	"teacher"	17	"Can you think of an example? (I mean a real one!)"	"Can you think of an example? (I mean a real one!)"	NA	NA	"eliciting"	"task achievement,writing"	NA	NA	11
+2020-04-13 11:25:13	"teacher001"	"teacher"	18	"Don;t worry if not!"	"Don;t worry if not!"	NA	NA	NA	NA	NA	NA	4
+2020-04-13 11:25:25	"student007"	"student"	19	"yes! the international space station."	"yes! the international space station."	NA	NA	NA	NA	NA	NA	5
+2020-04-13 11:25:54	"student007"	"student"	20	"build from NASA"	"built by NASA"	NA	NA	NA	NA	NA	NA	3
+2020-04-13 11:27:27	"teacher001"	"teacher"	22	"OK great example...."	"OK great example...."	NA	NA	NA	NA	NA	NA	3
+2020-04-13 11:28:01	"teacher001"	"teacher"	23	"So... 'The International Space Station ____  b _ _ _  _ by NASA.'?"	"So... 'The International Space Station ____  b _ _ _  _ by NASA.'?"	NA	"2d"	"eliciting,repair"	"grammatical resource"	NA	NA	15
+2020-04-13 11:28:44	"student007"	"student"	24	"The International Space Station is build by NASA."	"The International Space Station was built by NASA."	NA	NA	NA	NA	NA	NA	8
+2020-04-13 11:29:56	"teacher001"	"teacher"	25	"Hold on <STUDENT>: one correct way of saying this = 'NASA built the ISS' the passive way = 'The International Space Station ____ b _ _ _ _ by NASA.'?"	"Hold on <STUDENT>: one correct way of saying this = 'NASA built the ISS' the passive way = 'The International Space Station ____ b _ _ _ _ by NASA.'?"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	30
+2020-04-13 11:30:55	"student007"	"student"	26	"the international space station is built by NASA."	"the international space station is built by NASA."	NA	NA	NA	NA	NA	NA	8
+2020-04-13 11:31:14	"teacher001"	"teacher"	27	"Present?"	"Present?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	1
+2020-04-13 11:31:27	"teacher001"	"teacher"	28	"good 'built' though!"	"good 'built' though!"	26	NA	NA	NA	NA	NA	3
+2020-04-13 11:32:15	"student007"	"student"	29	"I suppose NASA still expanding the International space station."	"I suppose NASA is still expanding the International space station."	NA	NA	NA	NA	NA	NA	9
+2020-04-13 11:32:46	"student007"	"student"	30	"so.. 'is' here is correct, right?"	"so.. 'is' here is correct, right?"	NA	NA	NA	NA	NA	NA	6
+2020-04-13 11:33:05	"teacher001"	"teacher"	31	"Ah ok fine! Well I guess you could say then: 'NASA is building the International...'"	"Ah ok fine! Well I guess you could say then: 'NASA is building the International...'"	NA	NA	NA	NA	NA	NA	15
+2020-04-13 11:33:21	"teacher001"	"teacher"	32	"But hold on - isn't NASA American?!"	"But hold on - isn't NASA American?!"	NA	"2e"	"enquiry"	"world knowledge"	NA	NA	7
+2020-04-13 11:33:58	"student007"	"student"	33	"yes... but also have other county's spacemen."	"yes... but they also have spacemen from other countries."	NA	NA	NA	NA	NA	NA	7
+2020-04-13 11:34:36	"teacher001"	"teacher"	34	"OK fine! 'spacemen' = 'astro_ _ _ _ _ '?"	"OK fine! 'spacemen' = 'astro_ _ _ _ _ '?"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	10
+2020-04-13 11:35:35	"teacher001"	"teacher"	35	"astronauts (sorry!)"	"astronauts (sorry!)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-04-13 11:35:39	"student007"	"student"	36	"I forgot the spelling..."	"I forgot the spelling..."	NA	NA	NA	NA	NA	NA	4
+2020-04-13 11:35:45	"teacher001"	"teacher"	37	"That's OK!"	"That's OK!"	NA	NA	NA	NA	NA	NA	2
+2020-04-13 11:35:47	"student007"	"student"	38	"ok. thanks"	"ok. thanks"	NA	NA	NA	NA	NA	NA	2
+2020-04-13 11:35:53	"teacher001"	"teacher"	39	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:36:05	"student007"	"student"	40	"^-^"	"^-^"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:36:17	"teacher001"	"teacher"	41	"OK so: We've got the first two sentences of our paragraph don't you think?"	"OK so: We've got the first two sentences of our paragraph don't you think?"	NA	"3.0"	"exercise"	"writing,discourse management,task achievement"	NA	NA	14
+2020-04-13 11:36:38	"student007"	"student"	42	"yes, I think so"	"yes, I think so"	NA	NA	NA	NA	NA	NA	4
+2020-04-13 11:36:58	"teacher001"	"teacher"	43	"Main idea + example .... can you write them quickly?"	"Main idea + example .... can you write them quickly?"	NA	NA	"scaffolding,eliciting"	"writing,discourse management,task achievement"	NA	NA	10
+2020-04-13 11:37:16	"student007"	"student"	44	"yes, I will try"	"yes, I will try"	NA	NA	NA	NA	NA	NA	4
+2020-04-13 11:37:36	"teacher001"	"teacher"	45	"OK!"	"OK!"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:37:46	"teacher001"	"teacher"	46	"One reason why..."	"One reason why..."	NA	NA	NA	NA	NA	NA	3
+2020-04-13 11:41:30	"student007"	"student"	47	"one of the main reasons why the government expenditure millions on search of alien life is that countries co-operate to develop space technology, for instance, The International Space Station is built by NASA  which is the American research institution�ｼ粂owever, they always have other country's astronauts."	"One of the main reasons why the government spends millions on the search for alien life is that countries co-operate to develop space technology. For instance, The International Space Station is built by NASA,  which is an American research institution. However, they always have astronauts from other countries."	NA	NA	NA	NA	NA	NA	46
+2020-04-13 11:43:38	"teacher001"	"teacher"	48	"OK thanks <STUDENT> hold on a sec ..."	"OK thanks <STUDENT> hold on a sec ..."	NA	NA	NA	NA	NA	NA	8
+2020-04-13 11:43:45	"student007"	"student"	49	"okey"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:45:07	"teacher001"	"teacher"	50	"OK just a quick change to make it an answer to a 'Do you agree ' type essay first OK? : one of the main reasons why I think the government should expenditure millions on search of alien life is that countries co-operate to develop space technology. For instance, the International Space Station is built by NASA which is the American research institution�ｼ粂owever, they always have other country's astronauts."	"OK just a quick change to make it an answer to a 'Do you agree ' type essay first OK? : one of the main reasons why I think the government should expenditure millions on search of alien life is that countries co-operate to develop space technology. For instance, the International Space Station is built by NASA which is the American research institution�ｼ粂owever, they always have other country's astronauts."	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	69
+2020-04-13 11:45:33	"teacher001"	"teacher"	51	"OK not bad.... a couple of other questions coming for you ... hold on..."	"OK not bad.... a couple of other questions coming for you ... hold on..."	NA	"3a"	NA	NA	NA	NA	14
+2020-04-13 11:47:03	"student007"	"student"	52	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:47:30	"teacher001"	"teacher"	53	"So good = search FOR alien life/ develop space technology/ For instance/ However, 窶ｦ"	"So good = search FOR alien life/ develop space technology/ For instance/ However, 窶ｦ"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-04-13 11:47:54	"teacher001"	"teacher"	54	"Question: Is expenditure a noun?"	"Question: Is expenditure a noun?"	NA	"3b"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	5
+2020-04-13 11:49:03	"student007"	"student"	55	"yes... so  expenditure of public money on search for alien life."	"yes... so  expenditure of public money on the search for alien life."	NA	NA	NA	NA	NA	NA	12
+2020-04-13 11:49:51	"student007"	"student"	56	"OR  government expenditure of search for alien life."	"OR  government expenditure on the search for alien life."	NA	NA	NA	NA	NA	NA	9
+2020-04-13 11:51:14	"student007"	"student"	57	"expenditure of public money of search for alien life."	"expenditure of public money on the search for alien life."	NA	NA	NA	NA	NA	NA	9
+2020-04-13 11:52:35	"teacher001"	"teacher"	58	"Sorry..internet...! OK hold on..I think the government should + NOUN right? So you can't have 'expenditure' next here ..."	"Sorry..internet...! OK hold on..I think the government should + NOUN right? So you can't have 'expenditure' next here ..."	NA	NA	"scaffolding,eliciting"	"lexical resource,grammatical resource"	NA	NA	19
+2020-04-13 11:52:50	"teacher001"	"teacher"	59	"Can you solve this problem here?"	"Can you solve this problem here?"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	6
+2020-04-13 11:52:59	"student007"	"student"	60	"so could I use 'of ' to link two nouns."	"so could I use 'of ' to link two nouns."	NA	NA	NA	NA	NA	NA	10
+2020-04-13 11:53:08	"student007"	"student"	61	"no.....I do not think so"	"no.....I do not think so"	NA	NA	NA	NA	NA	NA	5
+2020-04-13 11:53:17	"teacher001"	"teacher"	62	"Um...what about the should'?"	"Um...what about the should'?"	NA	NA	NA	NA	NA	NA	4
+2020-04-13 11:53:24	"teacher001"	"teacher"	63	"should'"	"should'"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:53:44	"student007"	"student"	64	"yes! I understood the regulation"	"yes! I understood the regulation"	NA	NA	NA	NA	NA	NA	5
+2020-04-13 11:53:55	"teacher001"	"teacher"	65	"How about: One reason why I think government expenditure on space exploration is justified is because..."	"How about: One reason why I think government expenditure on space exploration is justified is because..."	NA	NA	"scaffolding,eliciting"	"lexical resource,grammatical resource"	NA	NA	16
+2020-04-13 11:53:57	"student007"	"student"	66	"just add a verb"	"just add a verb"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	4
+2020-04-13 11:53:58	"teacher001"	"teacher"	67	"OK?"	"OK?"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:54:06	"teacher001"	"teacher"	68	"Yes fine which verb?!"	"Yes fine which verb?!"	NA	NA	"eliciting"	"lexical resource,grammatical resource"	NA	NA	4
+2020-04-13 11:54:46	"student007"	"student"	69	"should expenditure on search for alien life."	"should spend on the search for alien life."	NA	NA	NA	NA	NA	NA	7
+2020-04-13 11:55:10	"student007"	"student"	70	"oh....I am wrong"	"oh....I am wrong"	NA	NA	NA	NA	NA	NA	3
+2020-04-13 11:55:37	"student007"	"student"	71	"should"	"should"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:56:17	"student007"	"student"	72	"just alter expenditure to expend/spend"	"just change expenditure to expend/spend"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	5
+2020-04-13 11:56:28	"teacher001"	"teacher"	73	"OK yes good! 'spend' = right!"	"OK yes good! 'spend' = right!"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	6
+2020-04-13 11:57:18	"teacher001"	"teacher"	74	"I'm just asking you to think about this because this is a problem which comes up a lot in IELTS (task 1 too( - i mean problems with expenditure/spending and spend)"	"I'm just asking you to think about this because this is a problem which comes up a lot in IELTS (task 1 too( - i mean problems with expenditure/spending and spend)"	NA	"3c"	"scaffolding"	"lexical resource,grammatical resource,writing"	NA	NA	31
+2020-04-13 11:57:49	"student007"	"student"	75	"yes.. I will remember this stuff"	"yes.. I will remember this stuff"	NA	NA	NA	NA	NA	NA	6
+2020-04-13 11:57:53	"student007"	"student"	76	"thaks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 11:57:58	"student007"	"student"	77	"thanks"	"thanks"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-04-13 11:58:34	"teacher001"	"teacher"	78	"one of the main reasons why I think the government should spend millions on searching for alien life is that countries co-operate to develop space technology. For instance, the International Space Station was built by NASA which is an American research institution�ｼ粂owever, they always have astronauts from other countries on board.."	"one of the main reasons why I think the government should spend millions on searching for alien life is that countries co-operate to develop space technology. For instance, the International Space Station was built by NASA which is an American research institution�ｼ粂owever, they always have astronauts from other countries on board.."	NA	"4.0"	"exercise"	"writing"	NA	NA	51
+2020-04-13 11:58:55	"teacher001"	"teacher"	79	"So this is fine <STUDENT> thanks! How could you add to this?!"	"So this is fine <STUDENT> thanks! How could you add to this?!"	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	12
+2020-04-13 11:59:06	"teacher001"	"teacher"	80	"Any ideas?"	"Any ideas?"	NA	NA	NA	NA	NA	NA	2
+2020-04-13 11:59:28	"student007"	"student"	81	"add a consequence?"	"add a consequence?"	NA	NA	NA	NA	NA	NA	3
+2020-04-13 12:00:50	"teacher001"	"teacher"	82	"OK...such as? IN quick simple words if you like..."	"OK...such as? IN quick simple words if you like..."	NA	NA	"eliciting"	"writing,task achievement"	NA	NA	9
+2020-04-13 12:02:12	"student007"	"student"	83	"as a consequence, we can share high technology and relation become close between different countries."	"as a consequence, we can share high technology and relations between different countries become closer"	NA	NA	NA	NA	NA	NA	15
+2020-04-13 12:02:46	"teacher001"	"teacher"	84	"OK not bad tahnks"	"OK not bad tahnks"	NA	NA	NA	NA	NA	NA	4
+2020-04-13 12:04:23	"student007"	"student"	85	"but it is a bad English I know.."	"but it is bad English I know.."	NA	"4a"	NA	NA	NA	NA	8
+2020-04-13 12:04:49	"teacher001"	"teacher"	87	"<STUDENT> rememebr the other ideas? : International co-operation/ Economic self-interest/ Technological progress/ Long-term survival"	"<STUDENT> rememebr the other ideas? : International co-operation/ Economic self-interest/ Technological progress/ Long-term survival"	NA	"4b"	"scaffolding"	"writing,task achievement"	NA	NA	14
+2020-04-13 12:05:20	"student007"	"student"	88	"I need to do some synonyms shift."	"I need to replace some words with synonyms"	85	NA	NA	NA	NA	NA	7
+2020-04-13 12:05:20	"student007"	"student"	90	"I need to do some synonyms replace."	"I need to replace some words with synonyms"	NA	NA	"repair"	"lexical resource"	NA	NA	7
+2020-04-13 12:05:49	"teacher001"	"teacher"	91	"No it's good hold on... Only one tiny mistake technically :  'As a consequence, we can share high technology and relations become close between different countries.'"	"No it's good hold on... Only one tiny mistake technically :  'As a consequence, we can share high technology and relations become close between different countries.'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	27
+2020-04-13 12:05:58	"student007"	"student"	92	"sorry my internet become slowly just now."	"sorry my internet became slow just now."	NA	"4c"	"disruption"	NA	NA	NA	7
+2020-04-13 12:06:11	"teacher001"	"teacher"	93	"Did you see the tiny change? (One letter!)"	"Did you see the tiny change? (One letter!)"	91	NA	NA	NA	NA	NA	8
+2020-04-13 12:06:52	"student007"	"student"	94	"relationships/relations"	"relationships/relations"	NA	NA	NA	NA	NA	NA	1
+2020-04-13 12:08:16	"teacher001"	"teacher"	95	"Yes ok fine ... 'relationships' is logical and often possible BUT 'relations' very common in this context (e.g. international relations )"	"Yes ok fine ... 'relationships' is logical and often possible BUT 'relations' very common in this context (e.g. international relations )"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	21
+2020-04-13 12:08:30	"teacher001"	"teacher"	96	"BUT with 's' at the end!"	"BUT with 's' at the end!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-04-13 12:08:35	"student007"	"student"	97	"okey, thanks"	"ok, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-04-13 12:08:57	"teacher001"	"teacher"	98	"do you know the word 'colloborate'?"	"do you know the word 'colloborate'?"	NA	"4d"	"eliciting"	"lexical resource,meaning"	NA	NA	6
+2020-04-13 12:09:15	"student007"	"student"	99	"no.. it looks like more advance"	"no.. it looks more advanced"	NA	NA	NA	NA	NA	NA	6
+2020-04-13 12:09:48	"teacher001"	"teacher"	100	"Well - it's a nice word yes... Does it mean work together or work separately do you think?"	"Well - it's a nice word yes... Does it mean work together or work separately do you think?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	18
+2020-04-13 12:10:12	"student007"	"student"	101	"I think it may means work together"	"I think it may mean 'work together'"	NA	NA	NA	NA	NA	NA	7
+2020-04-13 12:10:43	"teacher001"	"teacher"	102	"yes you're right... a good synonym for co-operate...how about 'sophisticated' - do you know this word?"	"yes you're right... a good synonym for co-operate...how about 'sophisticated' - do you know this word?"	NA	"4e"	"scaffolding,eliciting"	"lexical resource,meaning"	NA	NA	16
+2020-04-13 12:11:22	"student007"	"student"	103	"no,, it is a 100% new word"	"no, it is a 100% new word"	NA	NA	NA	NA	NA	NA	7
+2020-04-13 12:11:43	"teacher001"	"teacher"	104	"ok! Does it mean simple or advanced do you think?"	"ok! Does it mean simple or advanced do you think?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	10
+2020-04-13 12:12:21	"student007"	"student"	105	"more advanced I believe"	"more advanced I believe"	NA	NA	NA	NA	NA	NA	4
+2020-04-13 12:14:04	"teacher001"	"teacher"	106	"ok yes good so 'sophisticated technology' = a good phrase"	"ok yes good so 'sophisticated technology' = a good phrase"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-04-13 12:14:49	"teacher001"	"teacher"	107	"OK thanks <STUDENT> - don't get too down about your English! You're making progress one step at a time..."	"OK thanks <STUDENT> - don't get too down about your English! You're making progress one step at a time..."	NA	"5.0"	"closing"	NA	NA	NA	19
+2020-04-13 12:15:15	"student007"	"student"	108	"okey, thanks very much"	"ok, thanks very much"	NA	NA	NA	NA	NA	NA	4
+2020-04-13 12:15:34	"teacher001"	"teacher"	109	"All right cheers - speak to you tomorrow!"	"All right cheers - speak to you tomorrow!"	NA	NA	NA	NA	NA	NA	8
+2020-04-13 12:15:43	"student007"	"student"	110	"I know it is time to say bey"	"I know it is time to say bye"	NA	NA	NA	NA	NA	NA	8
+2020-04-13 12:15:58	"student007"	"student"	111	"yes..see you tomorrow"	"yes..see you tomorrow"	NA	NA	NA	NA	NA	NA	3
+2020-04-13 12:16:02	"teacher001"	"teacher"	112	"ok bye..."	"ok bye..."	NA	NA	NA	NA	NA	NA	2
+2020-04-13 12:16:05	"student007"	"student"	113	"thanks a lot"	"thanks a lot"	NA	NA	NA	NA	NA	"B2"	3

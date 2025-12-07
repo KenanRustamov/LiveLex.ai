@@ -1,0 +1,156 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2021-04-28T09:33:35+00:00+00:00+00:00"	"student011"	"student"	1	"Hi <TEACHER>"	"Hi <TEACHER>"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2021-04-28T09:33:40+00:00+00:00+00:00"	"student011"	"student"	2	"."	"."	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T09:33:40+00:00+00:00+00:00"	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T09:33:51+00:00+00:00+00:00"	"teacher008"	"teacher"	4	"Is everything ok with the program for you?"	"Is everything ok with the program for you?"	NA	"2.0"	"topic opening"	NA	NA	NA	8
+"2021-04-28T09:34:26+00:00+00:00+00:00"	"student011"	"student"	5	"Sorry for the spam ."	"Sorry for the spam ."	NA	NA	NA	NA	NA	NA	5
+"2021-04-28T09:34:55+00:00+00:00+00:00"	"student011"	"student"	6	"It looks like the program doesn't work properly today"	"It looks like the program isn't working properly today"	NA	NA	NA	NA	NA	NA	9
+"2021-04-28T09:35:24+00:00+00:00+00:00"	"teacher008"	"teacher"	7	"Oh no! Is it working now? It's fine on my side at the moment"	"Oh no! Is it working now? It's fine on my side at the moment"	NA	NA	NA	NA	NA	NA	14
+"2021-04-28T09:36:02+00:00+00:00+00:00"	"student011"	"student"	8	"It's ok now"	"It's ok now"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T09:36:10+00:00+00:00+00:00"	"student011"	"student"	9	"how are you?"	"how are you?"	NA	"3.0"	"topic opening"	NA	NA	NA	3
+"2021-04-28T09:36:19+00:00+00:00+00:00"	"teacher008"	"teacher"	10	"That's good!"	"That's good!"	8	NA	NA	NA	NA	NA	2
+"2021-04-28T09:37:06+00:00+00:00+00:00"	"teacher008"	"teacher"	11	"I'm fine, thank you! I'm doing a lot of gardening, it's the right time to sow seeds and plant. So I'm really enjoying myself!"	"I'm fine, thank you! I'm doing a lot of gardening, it's the right time to sow seeds and plant. So I'm really enjoying myself!"	9	NA	NA	NA	NA	NA	24
+"2021-04-28T09:38:04+00:00+00:00+00:00"	"teacher008"	"teacher"	12	"Oh, and a bit of good news. <TEACHER'S HUSBAND>'s having his first jab on Monday!"	"Oh, and a bit of good news. <TEACHER'S HUSBAND>'s having his first jab on Monday!"	NA	"3a"	"topic development"	NA	NA	NA	15
+"2021-04-28T09:38:20+00:00+00:00+00:00"	"student011"	"student"	13	"Wow!"	"Wow!"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T09:38:43+00:00+00:00+00:00"	"teacher008"	"teacher"	14	"Yes, we're so excited!"	"Yes, we're so excited!"	NA	NA	NA	NA	NA	NA	4
+"2021-04-28T09:38:48+00:00+00:00+00:00"	"student011"	"student"	15	"What does ie mean sow?"	"What does it mean, sow?"	NA	"3b"	"enquiry"	"lexical resource"	NA	NA	5
+"2021-04-28T09:39:16+00:00+00:00+00:00"	"student011"	"student"	16	"And jab? ."	"And jab? ."	NA	NA	"enquiry"	"lexical resource"	NA	NA	3
+"2021-04-28T09:39:32+00:00+00:00+00:00"	"teacher008"	"teacher"	17	"When we sow seeds, we put them in the soil and water them, and hope that they will grow :."	"When we sow seeds, we put them in the soil and water them, and hope that they will grow :."	15	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+"2021-04-28T09:39:36+00:00+00:00+00:00"	"student011"	"student"	18	"sorry it's something new for me ."	"sorry it's something new for me ."	16	NA	NA	NA	NA	NA	7
+"2021-04-28T09:39:51+00:00+00:00+00:00"	"teacher008"	"teacher"	19	"/səʊ/"	"/səʊ/"	17	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+"2021-04-28T09:40:00+00:00+00:00+00:00"	"teacher008"	"teacher"	20	"to sow - sowed -sowed .or sown."	"to sow - sowed -sowed .or sown."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+"2021-04-28T09:40:26+00:00+00:00+00:00"	"teacher008"	"teacher"	21	"I'm doing a lot of sowing at the moment: sunflowers, courgettes, pumpkins, sweetcorn etc."	"I'm doing a lot of sowing at the moment: sunflowers, courgettes, pumpkins, sweetcorn etc."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+"2021-04-28T09:41:32+00:00+00:00+00:00"	"teacher008"	"teacher"	22	"We talked about the word 'jab' a while ago I think. Children get regular jabs to protect them against serious diseases. Some people have a flu jab every autumn. And now, more and more people are getting a covid jab!"	"We talked about the word 'jab' a while ago I think. Children get regular jabs to protect them against serious diseases. Some people have a flu jab every autumn. And now, more and more people are getting a covid jab!"	16	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	40
+"2021-04-28T09:41:36+00:00+00:00+00:00"	"teacher008"	"teacher"	23	"Remember?"	"Remember?"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T09:41:59+00:00+00:00+00:00"	"student011"	"student"	24	"Ahhh"	"Ahhh"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T09:42:07+00:00+00:00+00:00"	"student011"	"student"	25	"Remember now!"	"Remember now!"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T09:42:32+00:00+00:00+00:00"	"student011"	"student"	26	"It's a good new"	"It's good news"	NA	NA	NA	NA	NA	NA	4
+"2021-04-28T09:42:36+00:00+00:00+00:00"	"teacher008"	"teacher"	27	"Yes, it was a bit out of context, sorry!"	"Yes, it was a bit out of context, sorry!"	NA	NA	NA	NA	NA	NA	9
+"2021-04-28T09:42:43+00:00+00:00+00:00"	"teacher008"	"teacher"	28	"Yes, it's great news!"	"Yes, it's great news!"	NA	NA	NA	NA	NA	NA	4
+"2021-04-28T09:43:29+00:00+00:00+00:00"	"student011"	"student"	29	"Is it like a special program for university staff?"	"Is it like a special program for university staff?"	NA	"3c"	"topic development"	NA	NA	NA	9
+"2021-04-28T09:43:55+00:00+00:00+00:00"	"student011"	"student"	30	"Do you know the name of the vaccine?"	"Do you know the name of the vaccine?"	NA	NA	NA	NA	NA	NA	8
+"2021-04-28T09:44:25+00:00+00:00+00:00"	"teacher008"	"teacher"	31	"No, they are rolling it out to everyone who is over 40 at the moment. So of cource, he booked his jab as soon as could!"	"No, they are rolling it out to everyone who is over 40 at the moment. So of cource, he booked his jab as soon as could!"	29	NA	NA	NA	NA	NA	26
+"2021-04-28T09:44:51+00:00+00:00+00:00"	"student011"	"student"	32	"Ah! I see"	"Ah! I see"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T09:44:53+00:00+00:00+00:00"	"teacher008"	"teacher"	33	"No, it could be one of the three vaccines .AstraZeneca, Pfizer or Moderna., but we don't know which one"	"No, it could be one of the three vaccines (AstraZeneca, Pfizer or Moderna), but we don't know which one"	30	NA	NA	NA	NA	NA	19
+"2021-04-28T09:45:02+00:00+00:00+00:00"	"teacher008"	"teacher"	34	"*of course"	"*of course"	31	NA	"repair"	"writing"	NA	NA	2
+"2021-04-28T09:45:12+00:00+00:00+00:00"	"student011"	"student"	35	"So next step is 30-40 years people I think?"	"So the next step is people aged 30-40 I think?"	31	"3d"	"topic development"	NA	NA	NA	9
+"2021-04-28T09:45:35+00:00+00:00+00:00"	"teacher008"	"teacher"	36	"Well, I think it'll be the over 35s first"	"Well, I think it'll be the over 35s first"	NA	NA	NA	NA	NA	NA	9
+"2021-04-28T09:46:14+00:00+00:00+00:00"	"teacher008"	"teacher"	37	"That's what they did with the over 40s. First they invited the over-45s, then everyone who is 44, and now the over 40s"	"That's what they did with the over 40s. First they invited the over-45s, then everyone who is 44, and now the over 40s"	NA	NA	NA	NA	NA	NA	23
+"2021-04-28T09:46:22+00:00+00:00+00:00"	"student011"	"student"	38	"I know that <STUDENT'S SISTER-IN-LAW>'s grandfather has been offered a jab of Pfiser"	"I know that <STUDENT'S SISTER-IN-LAW>'s grandfather has been offered a Pfizer jab"	NA	"3e"	"topic development"	NA	NA	NA	13
+"2021-04-28T09:46:31+00:00+00:00+00:00"	"student011"	"student"	39	"He is 94 now"	"He is 94 now"	NA	NA	NA	NA	NA	NA	4
+"2021-04-28T09:46:40+00:00+00:00+00:00"	"teacher008"	"teacher"	40	"Nice! That's good to know!"	"Nice! That's good to know!"	NA	NA	NA	NA	NA	NA	5
+"2021-04-28T09:47:18+00:00+00:00+00:00"	"teacher008"	"teacher"	41	"How are you guys doing? What's new with you?"	"How are you guys doing? What's new with you?"	NA	"4.0"	"topic opening"	NA	NA	NA	9
+"2021-04-28T09:47:26+00:00+00:00+00:00"	"student011"	"student"	42	"But <STUDENT'S SISTER-IN-LAW> doesn't know what to do because she is not sure if he doesn't have потивопоказаний"	"But <STUDENT'S SISTER-IN-LAW> doesn't know what to do because she is not sure if he has any потивопоказаний"	40	NA	"non-English"	"code switching,lexical resource"	NA	NA	18
+"2021-04-28T09:48:01+00:00+00:00+00:00"	"teacher008"	"teacher"	43	"Ah, let me remember this word!"	"Ah, let me remember this word!"	NA	NA	NA	NA	NA	NA	6
+"2021-04-28T09:48:30+00:00+00:00+00:00"	"teacher008"	"teacher"	44	"It's supposed to be quite safe, the vaccine"	"It's supposed to be quite safe, the vaccine"	NA	NA	NA	NA	NA	NA	8
+"2021-04-28T09:48:54+00:00+00:00+00:00"	"student011"	"student"	45	"Right now it has been announced that from 1st of May we won't have lockdown"	"Right now it has been announced that from the 1st of May we won't have a lockdown anymore"	41	NA	NA	NA	NA	NA	15
+"2021-04-28T09:49:14+00:00+00:00+00:00"	"teacher008"	"teacher"	46	"The word is a contraindication"	"The word is a contraindication"	43	NA	"scaffolding"	"lexical resource"	NA	NA	5
+"2021-04-28T09:49:25+00:00+00:00+00:00"	"student011"	"student"	47	"Oh, thank you"	"Oh, thank you"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T09:49:38+00:00+00:00+00:00"	"student011"	"student"	48	"It's a huge word ."	"It's a huge word )"	NA	NA	NA	NA	NA	NA	5
+"2021-04-28T09:49:42+00:00+00:00+00:00"	"teacher008"	"teacher"	49	"Exactly like in Russian. contra = противо indication = показание"	"Exactly like in Russian. contra = противо indication = показание"	NA	NA	"scaffolding,non-English"	"code switching,lexical resource"	NA	NA	10
+"2021-04-28T09:50:02+00:00+00:00+00:00"	"teacher008"	"teacher"	50	"Yes, but it makes sense if you think about it. Still, you don't have to learn it, it's quite low frequency!"	"Yes, but it makes sense if you think about it. Still, you don't have to learn it, it's quite low frequency!"	NA	NA	NA	NA	NA	NA	21
+"2021-04-28T09:51:31+00:00+00:00+00:00"	"teacher008"	"teacher"	51	"Ok, I see! Is this good news? About the end of the lockdown? Or does it make you feel unsafe?"	"Ok, I see! Is this good news? About the end of the lockdown? Or does it make you feel unsafe?"	45	NA	NA	NA	NA	NA	20
+"2021-04-28T09:54:15+00:00+00:00+00:00"	"student011"	"student"	52	"sorry"	"sorry"	NA	"5.0"	"disruption"	NA	NA	NA	1
+"2021-04-28T09:54:21+00:00+00:00+00:00"	"student011"	"student"	53	"I'm here"	"I'm here"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T09:54:33+00:00+00:00+00:00"	"student011"	"student"	54	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T09:54:33+00:00+00:00+00:00"	"teacher008"	"teacher"	55	"I thought something might be wrong!"	"I thought something might be wrong!"	NA	NA	NA	NA	NA	NA	6
+"2021-04-28T09:54:47+00:00+00:00+00:00"	"student011"	"student"	56	"I'm not sure about my feeleigs"	"I'm not sure about my feelings"	51	NA	NA	NA	NA	NA	6
+"2021-04-28T09:55:04+00:00+00:00+00:00"	"student011"	"student"	57	"ou know that we have Easter next Sunday"	"you know that we have Easter next Sunday"	NA	NA	NA	NA	NA	NA	8
+"2021-04-28T09:55:33+00:00+00:00+00:00"	"teacher008"	"teacher"	58	"Yes, sure"	"Yes, sure"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T09:56:42+00:00+00:00+00:00"	"student011"	"student"	59	"and it's a big holiday here"	"and it's a big holiday here"	NA	NA	NA	NA	NA	NA	6
+"2021-04-28T09:56:58+00:00+00:00+00:00"	"student011"	"student"	60	"so I think it's more like political decision"	"so I think it's more like a political decision"	NA	NA	NA	NA	NA	NA	8
+"2021-04-28T09:57:31+00:00+00:00+00:00"	"student011"	"student"	61	"Because people would like to celebrate and to see their families and friends"	"Because people would like to celebrate and to see their families and friends"	NA	NA	NA	NA	NA	NA	13
+"2021-04-28T09:57:47+00:00+00:00+00:00"	"teacher008"	"teacher"	62	"Oh no, but it means lots of people will go to churches and they might pass the virus to each other :. I haven't thought about it!"	"Oh no, but it means lots of people will go to churches and they might pass the virus to each other :( I haven't thought about it!"	NA	NA	NA	NA	NA	NA	27
+"2021-04-28T09:57:56+00:00+00:00+00:00"	"student011"	"student"	63	"I'm not sure that the situation with Covid is much better now"	"I'm not sure that the situation with Covid is much better now"	NA	NA	NA	NA	NA	NA	12
+"2021-04-28T09:58:10+00:00+00:00+00:00"	"teacher008"	"teacher"	64	"Right, the government wants to be popular instead of doing the right thing!"	"Right, the government wants to be popular instead of doing the right thing!"	60	NA	NA	NA	NA	NA	13
+"2021-04-28T09:58:18+00:00+00:00+00:00"	"teacher008"	"teacher"	65	"Sounds like it to me"	"Sounds like it to me"	NA	NA	NA	NA	NA	NA	5
+"2021-04-28T09:58:31+00:00+00:00+00:00"	"student011"	"student"	66	"It looks that way to me"	"It looks that way to me"	NA	NA	NA	NA	NA	NA	6
+"2021-04-28T09:58:52+00:00+00:00+00:00"	"student011"	"student"	67	"And you know"	"And you know"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T09:58:54+00:00+00:00+00:00"	"teacher008"	"teacher"	68	"Awful :."	"Awful :("	66	NA	NA	NA	NA	NA	2
+"2021-04-28T09:59:55+00:00+00:00+00:00"	"student011"	"student"	69	"I'm sure that after Easter the number of cases will increase"	"I'm sure that after Easter the number of cases will increase"	67	NA	NA	NA	NA	NA	11
+"2021-04-28T10:00:21+00:00+00:00+00:00"	"teacher008"	"teacher"	70	"Yes, I agree with you, unfortunately"	"Yes, I agree with you, unfortunately"	NA	NA	NA	NA	NA	NA	6
+"2021-04-28T10:01:02+00:00+00:00+00:00"	"student011"	"student"	71	"Because Easter it's so big family holiday here"	"Because Easter is such a big family holiday here"	NA	NA	NA	NA	NA	NA	8
+"2021-04-28T10:01:13+00:00+00:00+00:00"	"teacher008"	"teacher"	72	"Have you got any nice plans for the holiday? I do understand that you're probably quite limited in what you can do"	"Have you got any nice plans for the holiday? I do understand that you're probably quite limited in what you can do"	NA	"4a"	"topic development"	NA	NA	NA	22
+"2021-04-28T10:01:21+00:00+00:00+00:00"	"teacher008"	"teacher"	73	"Yes, sure!"	"Yes, sure!"	71	NA	NA	NA	NA	NA	2
+"2021-04-28T10:02:45+00:00+00:00+00:00"	"student011"	"student"	74	"I'm not sure"	"I'm not sure"	72	NA	NA	NA	NA	NA	3
+"2021-04-28T10:03:01+00:00+00:00+00:00"	"student011"	"student"	75	"Yesterday <STUDENT'S HUSBAND>'s mum had a surgery you know"	"Yesterday <STUDENT'S HUSBAND>'s mum had a surgery you know"	NA	NA	NA	NA	NA	NA	9
+"2021-04-28T10:03:18+00:00+00:00+00:00"	"teacher008"	"teacher"	76	"Oh yes, of course! Is she ok?"	"Oh yes, of course! Is she ok?"	NA	NA	NA	NA	NA	NA	7
+"2021-04-28T10:04:18+00:00+00:00+00:00"	"student011"	"student"	77	"And after the surgery it will be a course of treatment"	"And after the surgery there will be a course of treatment"	NA	NA	NA	NA	NA	NA	11
+"2021-04-28T10:04:44+00:00+00:00+00:00"	"student011"	"student"	78	"but it depends of the results of different tests"	"but it depends on the results of different tests"	NA	NA	NA	NA	NA	NA	9
+"2021-04-28T10:04:52+00:00+00:00+00:00"	"teacher008"	"teacher"	79	"Right, I see"	"Right, I see"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T10:05:22+00:00+00:00+00:00"	"student011"	"student"	80	"So we can't plan anything now"	"So we can't plan anything now"	NA	NA	NA	NA	NA	NA	6
+"2021-04-28T10:06:15+00:00+00:00+00:00"	"student011"	"student"	81	"Maybe we will meet with my mum and my brother's family and organize a picnic"	"Maybe we will meet with my mum and my brother's family and organize a picnic"	NA	NA	NA	NA	NA	NA	15
+"2021-04-28T10:06:28+00:00+00:00+00:00"	"teacher008"	"teacher"	82	"I see, it's a difficult time for you! I'm sorry to hear that!"	"I see, it's a difficult time for you! I'm sorry to hear that!"	NA	NA	NA	NA	NA	NA	13
+"2021-04-28T10:06:48+00:00+00:00+00:00"	"student011"	"student"	83	"But we aren't sure 100% now"	"But we aren't 100% sure  now"	NA	NA	NA	NA	NA	NA	6
+"2021-04-28T10:07:02+00:00+00:00+00:00"	"teacher008"	"teacher"	84	"Got that"	"Got that"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:07:34+00:00+00:00+00:00"	"student011"	"student"	85	"It's ok, sometimes it happens, we can't control things like that"	"It's ok, sometimes it happens, we can't control things like that"	82	NA	NA	NA	NA	NA	11
+"2021-04-28T10:07:45+00:00+00:00+00:00"	"teacher008"	"teacher"	86	"Ok, I've got something to listen to for you today, that is the topic we discussed earlier. Eye health!"	"Ok, I've got something to listen to for you today, that is the topic we discussed earlier. Eye health!"	NA	"6.0"	"topic opening"	"listening"	NA	NA	19
+"2021-04-28T10:07:58+00:00+00:00+00:00"	"student011"	"student"	87	"Ok ."	"Ok ."	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:08:00+00:00+00:00+00:00"	"teacher008"	"teacher"	88	"Yes, we wish we could have some control, but we don't!"	"Yes, we wish we could have some control, but we don't!"	85	NA	NA	NA	NA	NA	11
+"2021-04-28T10:08:05+00:00+00:00+00:00"	"teacher008"	"teacher"	89	"Are you here?"	"Are you here?"	NA	"7.0"	"disruption"	NA	NA	NA	3
+"2021-04-28T10:08:12+00:00+00:00+00:00"	"student011"	"student"	90	"I'm here!"	"I'm here!"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:08:44+00:00+00:00+00:00"	"teacher008"	"teacher"	91	"Ok, sure, it just said '<STUDENT> left the room'"	"Ok, sure, it just said '<STUDENT> left the room'"	NA	NA	NA	NA	NA	NA	9
+"2021-04-28T10:08:49+00:00+00:00+00:00"	"student011"	"student"	92	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:08:57+00:00+00:00+00:00"	"student011"	"student"	93	"I don't know why ."	"I don't know why ."	NA	NA	NA	NA	NA	NA	5
+"2021-04-28T10:09:09+00:00+00:00+00:00"	"teacher008"	"teacher"	94	"Not just eye health, but something called 'eye yoga'. Have you ever heard about eye yoga?"	"Not just eye health, but something called 'eye yoga'. Have you ever heard about eye yoga?"	87	"6a"	"eliciting"	NA	NA	NA	16
+"2021-04-28T10:10:26+00:00+00:00+00:00"	"student011"	"student"	95	"I have heart about some eye gymnastic maybe it is something similar ."	"I have heard about some eye gymnastics maybe it is something similar ."	NA	NA	NA	NA	NA	NA	13
+"2021-04-28T10:11:24+00:00+00:00+00:00"	"teacher008"	"teacher"	96	"Yes, it the 'eye exercises' in Ukraine! That's what I thought about too"	"Yes, it the 'eye exercises' in Ukraine! That's what I thought about too"	NA	NA	NA	NA	NA	NA	13
+"2021-04-28T10:11:34+00:00+00:00+00:00"	"teacher008"	"teacher"	97	"hear - hearD - hearD"	"hear - hearD - hearD"	95	"6b"	"repair"	"writing"	NA	NA	5
+"2021-04-28T10:11:54+00:00+00:00+00:00"	"student011"	"student"	98	"I have heard"	"I have heard"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T10:11:59+00:00+00:00+00:00"	"teacher008"	"teacher"	99	"Yes, cool :."	"Yes, cool :)"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T10:12:12+00:00+00:00+00:00"	"teacher008"	"teacher"	100	"Ok, just a couple of words before you listen / watch"	"Ok, just a couple of words before you listen / watch"	NA	"8.0"	"presentation"	"lexical resource"	NA	NA	11
+"2021-04-28T10:12:53+00:00+00:00+00:00"	"teacher008"	"teacher"	101	"If we are experiencing 'eye strain', our eyes are tired and hurt, probably from looking at screens for too long"	"If we are experiencing 'eye strain', our eyes are tired and hurt, probably from looking at screens for too long"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+"2021-04-28T10:13:17+00:00+00:00+00:00"	"student011"	"student"	102	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:13:41+00:00+00:00+00:00"	"teacher008"	"teacher"	103	"Yes, eye strain is not a pleasant feeling! You said you feel it quite often, don't you?"	"Yes, eye strain is not a pleasant feeling! You said you feel it quite often, don't you?"	NA	NA	"scaffolding,eliciting"	"lexical resource,meaning"	NA	NA	17
+"2021-04-28T10:14:53+00:00+00:00+00:00"	"teacher008"	"teacher"	104	"Ok, if we're 'short-sighted', we see objects close to us clearly but have trouble seeing in the distance"	"Ok, if we're 'short-sighted', we see objects close to us clearly but have trouble seeing in the distance"	NA	"8a"	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+"2021-04-28T10:15:12+00:00+00:00+00:00"	"teacher008"	"teacher"	105	"/ˌʃɔːtˈsaɪ.tɪd/"	"/ˌʃɔːtˈsaɪ.tɪd/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+"2021-04-28T10:15:44+00:00+00:00+00:00"	"teacher008"	"teacher"	106	"And if we're 'long-sighted', it's the opposite! We see faraway objects ok, but we have trouble reading a book without glasses"	"And if we're 'long-sighted', it's the opposite! We see faraway objects ok, but we have trouble reading a book without glasses"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	21
+"2021-04-28T10:16:06+00:00+00:00+00:00"	"student011"	"student"	107	"Yes, but now I feel better because of a lence and my glasses"	"Yes, but now I feel better because of a lens and my glasses"	103	NA	NA	NA	NA	NA	13
+"2021-04-28T10:16:36+00:00+00:00+00:00"	"student011"	"student"	108	"I see, thank you"	"I see, thank you"	106	NA	NA	NA	NA	NA	4
+"2021-04-28T10:16:52+00:00+00:00+00:00"	"teacher008"	"teacher"	109	"Yes, because of your contact lens"	"Yes, because of your contact lens"	107	NA	"repair"	"writing"	NA	NA	6
+"2021-04-28T10:16:56+00:00+00:00+00:00"	"teacher008"	"teacher"	110	"That's good!"	"That's good!"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:17:00+00:00+00:00+00:00"	"student011"	"student"	111	"in Ukrainian and Russian we have quite similar expressions"	"in Ukrainian and Russian we have quite similar expressions"	108	NA	NA	NA	NA	NA	9
+"2021-04-28T10:17:22+00:00+00:00+00:00"	"student011"	"student"	112	"my contact lens, yes!"	"my contact lens, yes!"	109	NA	NA	NA	NA	NA	4
+"2021-04-28T10:17:27+00:00+00:00+00:00"	"teacher008"	"teacher"	113	"Yes, of course! You know what, I haven't thought about it :."	"Yes, of course! You know what, I haven't thought about it :)"	111	NA	NA	NA	NA	NA	12
+"2021-04-28T10:18:39+00:00+00:00+00:00"	"teacher008"	"teacher"	114	"Ok, I'm going to send you the link. Could you watch the video .but not read the text under the video. and say whether the doctor from an eye hospital believes eye yoga can fix some eye problems"	"Ok, I'm going to send you the link. Could you watch the video (but not read the text under the video) and say whether the doctor from an eye hospital believes eye yoga can fix some eye problems"	NA	"9.0"	"exercise"	"listening"	"website"	NA	38
+"2021-04-28T10:20:26+00:00+00:00+00:00"	"student011"	"student"	116	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T10:20:49+00:00+00:00+00:00"	"teacher008"	"teacher"	117	"Have you watched it?"	"Have you watched it?"	NA	NA	NA	NA	NA	NA	4
+"2021-04-28T10:23:38+00:00+00:00+00:00"	"student011"	"student"	118	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T10:23:40+00:00+00:00+00:00"	"student011"	"student"	119	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T10:23:51+00:00+00:00+00:00"	"teacher008"	"teacher"	120	"Ok! So what did the doctor think?"	"Ok! So what did the doctor think?"	NA	NA	NA	NA	NA	NA	7
+"2021-04-28T10:24:35+00:00+00:00+00:00"	"student011"	"student"	121	"The doctor said that the exercises can't treat some anatomic eye problems"	"The doctor said that the exercises can't treat some anatomical eye problems"	NA	NA	NA	NA	NA	NA	12
+"2021-04-28T10:25:01+00:00+00:00+00:00"	"teacher008"	"teacher"	122	"Yes, he was quite sceptical about eye yoga, wasn't he? :."	"Yes, he was quite sceptical about eye yoga, wasn't he? :)"	NA	NA	NA	NA	NA	NA	11
+"2021-04-28T10:25:16+00:00+00:00+00:00"	"student011"	"student"	123	"So it looks like eye yoga can just help people to make their eyes more relaxed"	"So it looks like eye yoga can just help people to make their eyes more relaxed"	121	NA	NA	NA	NA	NA	16
+"2021-04-28T10:25:26+00:00+00:00+00:00"	"teacher008"	"teacher"	124	"Exactly!  Well done!"	"Exactly!  Well done!"	NA	NA	NA	NA	NA	NA	4
+"2021-04-28T10:25:33+00:00+00:00+00:00"	"student011"	"student"	125	"Yes, he was."	"Yes, he was."	122	NA	NA	NA	NA	NA	3
+"2021-04-28T10:26:01+00:00+00:00+00:00"	"teacher008"	"teacher"	126	"The eye yoga teacher talked about 'reversing' some eye problems. Do you know 'reverse'? Like when a car reverses"	"The eye yoga teacher talked about 'reversing' some eye problems. Do you know 'reverse'? Like when a car reverses"	NA	"9a"	"eliciting"	"lexical resource,meaning"	NA	NA	19
+"2021-04-28T10:26:32+00:00+00:00+00:00"	"student011"	"student"	127	"to turn?"	"to turn?"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:26:39+00:00+00:00+00:00"	"teacher008"	"teacher"	128	"to turn back"	"to turn back"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	3
+"2021-04-28T10:27:11+00:00+00:00+00:00"	"teacher008"	"teacher"	129	"No, sorry, in case of a car, to 'go back', without turning actually"	"No, sorry, in case of a car, to 'go back', without turning actually"	NA	NA	"scaffolding,repair"	"lexical resource,meaning"	NA	NA	13
+"2021-04-28T10:27:15+00:00+00:00+00:00"	"student011"	"student"	130	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T10:27:49+00:00+00:00+00:00"	"teacher008"	"teacher"	131	"But if there is a problem with someone's eyes and then the problem goes away completely, the problem is reversed"	"But if there is a problem with someone's eyes and then the problem goes away completely, the problem is reversed"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+"2021-04-28T10:27:53+00:00+00:00+00:00"	"student011"	"student"	132	"задний ход"	"задний ход"	130	NA	"non-English"	"code switching,lexical resource"	NA	NA	2
+"2021-04-28T10:27:57+00:00+00:00+00:00"	"student011"	"student"	133	"I see now ."	"I see now ."	NA	NA	NA	NA	NA	NA	4
+"2021-04-28T10:28:22+00:00+00:00+00:00"	"teacher008"	"teacher"	134	"Yes, but it's a verb :."	"Yes, but it's a verb :)"	132	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2021-04-28T10:28:36+00:00+00:00+00:00"	"student011"	"student"	135	"I prefer to believe the doctor not the yoga teacher .."	"I prefer to believe the doctor not the yoga teacher .."	NA	"9b"	NA	NA	NA	NA	11
+"2021-04-28T10:28:39+00:00+00:00+00:00"	"teacher008"	"teacher"	136	"It can be a legal term as well. The Court of Appeal reversed the previous judgment."	"It can be a legal term as well. The Court of Appeal reversed the previous judgment."	134	NA	"scaffolding"	"lexical resource"	NA	NA	16
+"2021-04-28T10:28:43+00:00+00:00+00:00"	"teacher008"	"teacher"	137	"For example"	"For example"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:29:02+00:00+00:00+00:00"	"student011"	"student"	138	"like вернул решение?"	"like вернул решение?"	NA	NA	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	3
+"2021-04-28T10:29:38+00:00+00:00+00:00"	"teacher008"	"teacher"	139	"I don't know what the term is in Russian actually! For example, the court decided that someone was guilty, but then the court of appeal said they were not guilty"	"I don't know what the term is in Russian actually! For example, the court decided that someone was guilty, but then the court of appeal said they were not guilty"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	30
+"2021-04-28T10:29:48+00:00+00:00+00:00"	"teacher008"	"teacher"	140	"Is that it? vernul?"	"Is that it? vernul?"	NA	NA	"enquiry,non-English"	"lexical resource,meaning,code switching"	NA	NA	4
+"2021-04-28T10:30:27+00:00+00:00+00:00"	"student011"	"student"	141	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T10:30:29+00:00+00:00+00:00"	"student011"	"student"	142	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:30:58+00:00+00:00+00:00"	"student011"	"student"	143	"вернул is not a legal term but more literary ."	"вернул is not a legal term but more literary ."	NA	NA	"non-English"	"lexical resource,code switching"	NA	NA	10
+"2021-04-28T10:31:19+00:00+00:00+00:00"	"teacher008"	"teacher"	144	"Got that! I trust your superior knowledge :."	"Got that! I trust your superior knowledge :)"	NA	NA	NA	NA	NA	NA	8
+"2021-04-28T10:31:28+00:00+00:00+00:00"	"student011"	"student"	145	".."	"))"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T10:31:38+00:00+00:00+00:00"	"teacher008"	"teacher"	146	"Ok, are we talking again at 3.20 pm tomorrow? Is that right?"	"Ok, are we talking again at 3.20 pm tomorrow? Is that right?"	NA	"10.0"	"closing"	NA	NA	NA	12
+"2021-04-28T10:31:45+00:00+00:00+00:00"	"student011"	"student"	147	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+"2021-04-28T10:32:12+00:00+00:00+00:00"	"student011"	"student"	148	"thank you for the lesson!"	"thank you for the lesson!"	NA	NA	NA	NA	NA	NA	5
+"2021-04-28T10:32:20+00:00+00:00+00:00"	"teacher008"	"teacher"	149	"Ok, lovely! If you have some time, feel free to watch the video again and read the script, maybe you'll have some questions. But if not, that's fine!"	"Ok, lovely! If you have some time, feel free to watch the video again and read the script, maybe you'll have some questions. But if not, that's fine!"	NA	NA	NA	NA	NA	NA	28
+"2021-04-28T10:32:34+00:00+00:00+00:00"	"student011"	"student"	150	"I will try!"	"I will try!"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T10:32:36+00:00+00:00+00:00"	"teacher008"	"teacher"	151	"It's my pleasure, speak to you tomorrow!"	"It's my pleasure, speak to you tomorrow!"	148	NA	NA	NA	NA	NA	7
+"2021-04-28T10:32:37+00:00+00:00+00:00"	"student011"	"student"	152	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+"2021-04-28T10:32:43+00:00+00:00+00:00"	"student011"	"student"	153	"Have a good day ."	"Have a good day ."	NA	NA	NA	NA	NA	NA	5
+"2021-04-28T10:32:50+00:00+00:00+00:00"	"teacher008"	"teacher"	154	"You too! Bye :.."	"You too! Bye :))"	NA	NA	NA	NA	NA	NA	4
+"2021-04-28T10:32:56+00:00+00:00+00:00"	"student011"	"student"	155	"See you tomorrow"	"See you tomorrow"	NA	NA	NA	NA	NA	NA	3
+"2021-04-28T10:32:59+00:00+00:00+00:00"	"student011"	"student"	156	"bye xx"	"bye xx"	NA	NA	NA	NA	NA	"B2"	2

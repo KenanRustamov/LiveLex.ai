@@ -51,7 +51,7 @@ type AchievementStatus = Omit<Achievement, 'progress'> & {
   progress?: { current: number; target: number };
 };
 
-export default function AnalyticsView({ username, backendUrl }: { username: string; backendUrl: string }) {
+export default function AnalyticsView({ username, backendUrl, onNavigate }: { username: string; backendUrl: string; onNavigate?: (view: string) => void; }) {
   const [loadingStats, setLoadingStats] = useState<boolean>(false);
   const [objectsStats, setObjectsStats] = useState<ObjectStatItem[]>([]);
   const [overallStats, setOverallStats] = useState<OverallStats>({
@@ -244,6 +244,39 @@ export default function AnalyticsView({ username, backendUrl }: { username: stri
 
   return (
     <div className="space-y-4">
+      {/* Practice Option Section */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Choose Practice Mode</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <button 
+              onClick={() => onNavigate?.('camera')}
+              className="p-4 border-2 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-all text-left"
+            >
+              <div className="text-lg font-semibold mb-2">Free Practice</div>
+              <div className="text-sm text-muted-foreground">Practice any words you choose with the camera</div>
+            </button>
+            
+            <button 
+              onClick={() => onNavigate?.('scene-scanning')}
+              className="p-4 border-2 rounded-lg hover:border-green-500 hover:bg-green-50 transition-all text-left"
+            >
+              <div className="text-lg font-semibold mb-2">Scene Scanning</div>
+              <div className="text-sm text-muted-foreground">Scan your environment</div>
+            </button>
+            
+            <button 
+              onClick={() => onNavigate?.('assignments')}
+              className="p-4 border-2 rounded-lg hover:border-purple-500 hover:bg-purple-50 transition-all text-left"
+            >
+              <div className="text-lg font-semibold mb-2">Assignments</div>
+              <div className="text-sm text-muted-foreground">See assigned lessons from your classes</div>
+            </button>
+          </div>
+        </CardContent>
+      </Card>
       {/* Achievements Section */}
       <Card>
         <CardHeader>

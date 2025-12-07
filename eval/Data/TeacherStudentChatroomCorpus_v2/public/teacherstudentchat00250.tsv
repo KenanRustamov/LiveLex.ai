@@ -1,0 +1,139 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-05-21 12:30:35	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-05-21 12:30:47	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:30:50	"teacher008"	"teacher"	3	"How are you doing?"	"How are you doing?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-05-21 12:31:09	"student009"	"student"	4	"I am okay, what about you"	"I am okay, what about you"	NA	NA	NA	NA	NA	NA	6
+2021-05-21 12:31:20	"student009"	"student"	5	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:31:37	"teacher008"	"teacher"	6	"I'm fine, thank you!"	"I'm fine, thank you!"	NA	NA	NA	NA	NA	NA	4
+2021-05-21 12:31:49	"teacher008"	"teacher"	7	"Is it nearly the end of the academic year for you?"	"Is it nearly the end of the academic year for you?"	NA	"2a"	"topic development"	NA	NA	NA	11
+2021-05-21 12:31:54	"student009"	"student"	8	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:32:10	"teacher008"	"teacher"	9	"I had my covid vaccination yesterday, yay!"	"I had my covid vaccination yesterday, yay!"	NA	"2b"	"topic development"	NA	NA	NA	7
+2021-05-21 12:32:20	"teacher008"	"teacher"	10	"Oh cool! I bet you can't wait for holidays?"	"Oh cool! I bet you can't wait for holidays?"	8	NA	NA	NA	NA	NA	9
+2021-05-21 12:32:31	"student009"	"student"	11	"good for you!"	"good for you!"	9	NA	NA	NA	NA	NA	3
+2021-05-21 12:32:39	"student009"	"student"	12	"yes!"	"yes!"	10	NA	NA	NA	NA	NA	1
+2021-05-21 12:33:12	"teacher008"	"teacher"	13	"Thank you"	"Thank you"	11	NA	NA	NA	NA	NA	2
+2021-05-21 12:33:41	"teacher008"	"teacher"	14	"Lovely! How long is it until the holidays? Another week?"	"Lovely! How long is it until the holidays? Another week?"	12	NA	NA	NA	NA	NA	10
+2021-05-21 12:33:48	"student009"	"student"	15	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:34:18	"teacher008"	"teacher"	16	"Right, sure"	"Right, sure"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:34:27	"teacher008"	"teacher"	17	"And when's your <LANGUAGE SCHOOL> test? Is it next week?"	"And when's your <LANGUAGE SCHOOL> test? Is it next week?"	NA	"2c"	"topic development"	NA	NA	NA	10
+2021-05-21 12:34:59	"student009"	"student"	18	"yeah, next Monday and Wednesday are test days"	"yeah, next Monday and Wednesday are test days"	NA	NA	NA	NA	NA	NA	8
+2021-05-21 12:35:27	"student009"	"student"	19	"that’s me from another device"	"that’s me on another device"	NA	"3.0"	"disruption"	NA	NA	NA	5
+2021-05-21 12:35:41	"teacher008"	"teacher"	20	"Two days of test? But when't the day of watching a movie during the last class? :."	"Two days of test? But when't the day of watching a movie during the last class? :)"	18	NA	NA	NA	NA	NA	17
+2021-05-21 12:35:45	"teacher008"	"teacher"	21	"Ok, sure!"	"Ok, sure!"	19	NA	NA	NA	NA	NA	2
+2021-05-21 12:35:51	"teacher008"	"teacher"	22	"*when's"	"*when's"	20	NA	"repair"	"writing"	NA	NA	1
+2021-05-21 12:36:19	"student009"	"student"	23	"well,I am not sure, but I think next week is the pre-final week"	"well, I am not sure, but I think next week is the pre-final week"	20	NA	NA	NA	NA	NA	13
+2021-05-21 12:36:44	"teacher008"	"teacher"	24	"Aah, I see! And then it's probably test feedback and a movie / party"	"Aah, I see! And then it's probably test feedback and a movie / party"	NA	NA	NA	NA	NA	NA	14
+2021-05-21 12:37:42	"teacher008"	"teacher"	25	"What's the word for something that's last but one? .pre-final."	"What's the word for something that's last but one? (pre-final)"	NA	"2d"	"eliciting,revision"	"lexical resource"	NA	NA	10
+2021-05-21 12:37:49	"teacher008"	"teacher"	26	"pe........."	"pe........."	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:38:30	"student009"	"student"	27	"uh"	"uh"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:38:38	"student009"	"student"	28	"I don’t remember"	"I don’t remember"	NA	NA	NA	NA	NA	NA	3
+2021-05-21 12:38:39	"teacher008"	"teacher"	29	"penultimate"	"penultimate"	NA	NA	"scaffolding,revision"	"lexical resource"	NA	NA	1
+2021-05-21 12:38:43	"teacher008"	"teacher"	30	"that's ok"	"that's ok"	28	NA	NA	NA	NA	NA	2
+2021-05-21 12:38:45	"student009"	"student"	31	"remind me olease"	"remind me please"	NA	NA	NA	NA	NA	NA	3
+2021-05-21 12:38:51	"student009"	"student"	32	"*p"	"*p"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-21 12:38:54	"teacher008"	"teacher"	33	"penultimate"	"penultimate"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:39:03	"student009"	"student"	34	"oooh yes"	"oooh yes"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:39:27	"teacher008"	"teacher"	35	"Yes :."	"Yes :)"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:39:33	"teacher008"	"teacher"	36	"a nice word"	"a nice word"	NA	NA	NA	NA	NA	NA	3
+2021-05-21 12:39:44	"teacher008"	"teacher"	37	"Ok, shall we go back to our verb patterns for your test then?"	"Ok, shall we go back to our verb patterns for your test then?"	NA	"4.0"	"exercise"	"lexical resource,grammatical resource"	NA	NA	13
+2021-05-21 12:39:50	"student009"	"student"	38	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:40:02	"teacher008"	"teacher"	39	"Because we arranged .have. another preparation class today, didn't we?"	"Because we arranged (have) another preparation class today, didn't we?"	NA	NA	NA	NA	NA	NA	10
+2021-05-21 12:40:35	"student009"	"student"	40	"having"	"having"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:41:30	"teacher008"	"teacher"	41	"to have!"	"to have!"	NA	NA	"repair"	"grammatical resource,lexical resource"	NA	NA	2
+2021-05-21 12:41:40	"teacher008"	"teacher"	42	"arrange to do something"	"arrange to do something"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	4
+2021-05-21 12:41:56	"teacher008"	"teacher"	43	"Ok, next one"	"Ok, next one"	NA	"4a"	"exercise"	"lexical resource,grammatical resource"	NA	NA	3
+2021-05-21 12:42:07	"teacher008"	"teacher"	44	"You won't persuade me .go. to the concert with you"	"You won't persuade me (go) to the concert with you"	NA	NA	NA	NA	NA	NA	10
+2021-05-21 12:42:15	"student009"	"student"	45	"going"	"going"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:42:31	"teacher008"	"teacher"	46	"to go"	"to go"	NA	NA	"repair"	"grammatical resource,lexical resource"	NA	NA	2
+2021-05-21 12:42:38	"teacher008"	"teacher"	47	"arrange / persuade to do"	"arrange / persuade to do"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	5
+2021-05-21 12:42:48	"student009"	"student"	48	"you see, it is a problem to me."	"you see, it is a problem for me."	NA	NA	NA	NA	NA	NA	8
+2021-05-21 12:43:09	"teacher008"	"teacher"	49	"My Dad let me .stay up. until late"	"My Dad let me (stay up) until late"	NA	"4b"	"exercise"	"lexical resource,grammatical resource"	NA	NA	8
+2021-05-21 12:43:30	"student009"	"student"	50	"stay up"	"stay up"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:43:39	"teacher008"	"teacher"	51	"Yes! And why is it not 'lets'?"	"Yes! And why is it not 'lets'?"	NA	"4c"	"eliciting"	"grammatical resource"	NA	NA	7
+2021-05-21 12:44:54	"student009"	"student"	52	"hmm"	"hmm"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:45:09	"teacher008"	"teacher"	53	"We talked about it last time"	"We talked about it last time"	NA	NA	NA	NA	NA	NA	6
+2021-05-21 12:45:40	"teacher008"	"teacher"	54	"because it's past simple, right? The three forms are let-let-let"	"because it's past simple, right? The three forms are let-let-let"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2021-05-21 12:45:53	"student009"	"student"	55	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:46:14	"teacher008"	"teacher"	56	"No worries!"	"No worries!"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:46:49	"teacher008"	"teacher"	57	"Ok, what's the difference between I remember calling my mum vs. I remember to call my mum"	"Ok, what's the difference between I remember calling my mum vs. I remember to call my mum"	NA	"4d"	"eliciting"	"grammatical resource,lexical resource,meaning"	NA	NA	17
+2021-05-21 12:46:50	"teacher008"	"teacher"	58	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:47:58	"student009"	"student"	59	"maybeee calling my mom is what you always do and remember to call men’s you need to her only now"	"maybeee calling my mom is what you always do and remember to call is you only need to do it now"	NA	NA	NA	NA	NA	NA	20
+2021-05-21 12:49:03	"teacher008"	"teacher"	60	"Hmmm, nearly! I remembered to do something = I thought, oh I should do it and did it!"	"Hmmm, nearly! I remembered to do something = I thought, oh I should do it and did it!"	NA	NA	"repair,scaffolding"	"grammatical resource,lexical resource,meaning"	NA	NA	18
+2021-05-21 12:49:44	"teacher008"	"teacher"	61	"When I was at a supermarket, I remembered to buy a new notebook. .I had needed a notebook and luckily I remembered to buy it!."	"When I was at a supermarket, I remembered to buy a new notebook. (I had needed a notebook and luckily I remembered to buy it!)"	NA	NA	"scaffolding"	"grammatical resource,lexical resource,meaning"	NA	NA	25
+2021-05-21 12:50:24	"teacher008"	"teacher"	62	"but: I remember doing something = I have a memory of how I did it"	"but: I remember doing something = I have a memory of how I did it"	NA	NA	"scaffolding"	"grammatical resource,lexical resource,meaning"	NA	NA	15
+2021-05-21 12:50:47	"teacher008"	"teacher"	63	"I remember calling my mum very clearly, we talked about my sister"	"I remember calling my mum very clearly, we talked about my sister"	NA	NA	"scaffolding"	"grammatical resource,lexical resource,meaning"	NA	NA	12
+2021-05-21 12:51:50	"teacher008"	"teacher"	64	"Does it make sense?"	"Does it make sense?"	NA	NA	NA	NA	NA	NA	4
+2021-05-21 12:51:54	"student009"	"student"	65	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:52:11	"teacher008"	"teacher"	66	"And the same with forget!"	"And the same with forget!"	NA	"4e"	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	5
+2021-05-21 12:52:24	"teacher008"	"teacher"	67	"Don't forget .call. when you get home"	"Don't forget (call) when you get home"	NA	"4f"	"exercise"	"grammatical resource,lexical resource"	NA	NA	7
+2021-05-21 12:52:48	"student009"	"student"	68	"to call"	"to call"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:52:52	"teacher008"	"teacher"	69	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:53:05	"teacher008"	"teacher"	70	"I will never forget .meet. her for the first time"	"I will never forget (meet) her for the first time"	NA	"4g"	"exercise"	"grammatical resource,lexical resource"	NA	NA	10
+2021-05-21 12:53:17	"student009"	"student"	71	"meeting"	"meeting"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:53:22	"teacher008"	"teacher"	72	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:53:30	"teacher008"	"teacher"	73	"Let me see what else is in your book"	"Let me see what else is in your book"	NA	NA	NA	NA	NA	NA	9
+2021-05-21 12:53:56	"teacher008"	"teacher"	74	"Carol pretended .like. the show but I think she was bored."	"Carol pretended (like) the show but I think she was bored."	NA	"4h"	"exercise"	"grammatical resource,lexical resource"	NA	NA	11
+2021-05-21 12:54:27	"student009"	"student"	75	"to like"	"to like"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:54:31	"teacher008"	"teacher"	76	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:54:45	"teacher008"	"teacher"	77	"They're planning .build. a new theatre here"	"They're planning (build) a new theatre here"	NA	"4i"	"exercise"	"grammatical resource,lexical resource"	NA	NA	7
+2021-05-21 12:54:56	"student009"	"student"	78	"to build"	"to build"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:55:09	"teacher008"	"teacher"	79	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:55:35	"teacher008"	"teacher"	80	"I don't know if I can persuade him .try. skiing with me"	"I don't know if I can persuade him (try) skiing with me"	NA	"4j"	"exercise"	"grammatical resource,lexical resource"	NA	NA	12
+2021-05-21 12:55:55	"student009"	"student"	81	"to try"	"to try"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:56:07	"teacher008"	"teacher"	82	"Yes."	"Yes)"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 12:56:18	"teacher008"	"teacher"	83	"I arranged .see. my friend at the weekend"	"I arranged (see) my friend at the weekend"	NA	"4k"	"exercise"	"grammatical resource,lexical resource"	NA	NA	8
+2021-05-21 12:56:28	"student009"	"student"	84	"to see"	"to see"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 12:57:33	"teacher008"	"teacher"	85	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2021-05-21 12:58:11	"teacher008"	"teacher"	86	"Ok, let me see what's the next thing on our to-do list"	"Ok, let me see what's the next thing on our to-do list"	NA	"5.0"	"topic opening,revision"	"grammatical resource"	NA	NA	12
+2021-05-21 13:00:02	"teacher008"	"teacher"	87	"Aha! Future forms, just what we were talking about a couple of weeks ago"	"Aha! Future forms, just what we were talking about a couple of weeks ago"	NA	NA	NA	NA	NA	NA	14
+2021-05-21 13:01:23	"teacher008"	"teacher"	88	"Ok, could you fill in will / shall / going to?"	"Ok, could you fill in will / shall / going to?"	NA	"5a"	"exercise"	"grammatical resource"	NA	NA	11
+2021-05-21 13:01:39	"teacher008"	"teacher"	89	"What ____ we do if the environment gets worse?"	"What ____ we do if the environment gets worse?"	NA	NA	NA	NA	NA	NA	9
+2021-05-21 13:01:51	"student009"	"student"	90	"shall"	"shall"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:03:46	"teacher008"	"teacher"	91	"Hmm, the answer is 'will'. Why not shall, what do you think?"	"Hmm, the answer is 'will'. Why not shall, what do you think?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	12
+2021-05-21 13:04:33	"student009"	"student"	92	"I don’t actually remember if we studied something with shall , so can you remind me please?"	"I don’t actually remember if we studied something with shall, so can you remind me please?"	NA	"6.0"	"enquiry"	"grammatical resource"	NA	NA	17
+2021-05-21 13:05:13	"teacher008"	"teacher"	93	"Yes, of course! It's unit 4 according the english file website"	"Yes, of course! It's unit 4 according the english file website"	NA	NA	NA	NA	NA	NA	11
+2021-05-21 13:05:32	"teacher008"	"teacher"	94	"Shall we do something?' is a suggestion for us to do something"	"Shall we do something?' is a suggestion for us to do something"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	12
+2021-05-21 13:05:38	"teacher008"	"teacher"	95	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:06:20	"teacher008"	"teacher"	96	"but 'will we do?' is an actual question. If the environment gets worse, what will we do? what is there for us to do?"	"but 'will we do?' is an actual question. If the environment gets worse, what will we do? what is there for us to do?"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	24
+2021-05-21 13:06:39	"teacher008"	"teacher"	97	"Shall we go to the cinema at the weekend? .=let's go."	"Shall we go to the cinema at the weekend? (=let's go)"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	11
+2021-05-21 13:07:25	"teacher008"	"teacher"	98	"Will we still go to the party together if we are not friends anymore?"	"Will we still go to the party together if we are not friends anymore?"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	14
+2021-05-21 13:07:45	"teacher008"	"teacher"	99	"Am I explaining it well? Shall we = let's ... will we = actual question"	"Am I explaining it well? Shall we = let's ... will we = actual question"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	15
+2021-05-21 13:07:54	"student009"	"student"	100	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:09:18	"teacher008"	"teacher"	101	"____ we watch this documentary about pollution?"	"____ we watch this documentary about pollution?"	NA	"7.0"	"exercise"	"grammatical resource"	NA	NA	7
+2021-05-21 13:09:40	"student009"	"student"	102	"Shall"	"Shall"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:09:53	"teacher008"	"teacher"	103	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:10:17	"teacher008"	"teacher"	104	"That's the cleaner at the door, I ____ let him in."	"That's the cleaner at the door, I ____ let him in."	NA	"7a"	"exercise"	"grammatical resource"	NA	NA	11
+2021-05-21 13:10:38	"student009"	"student"	105	"will"	"will"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:10:51	"teacher008"	"teacher"	106	"Yes, that's right"	"Yes, that's right"	NA	NA	NA	NA	NA	NA	3
+2021-05-21 13:11:16	"teacher008"	"teacher"	107	"Ok, and then we have first and second conditionals. You haven't actually done third conditionals at <LANGUAGE SCHOOL> this year, have you?"	"Ok, and then we have first and second conditionals. You haven't actually done third conditionals at <LANGUAGE SCHOOL> this year, have you?"	NA	"8.0"	"topic opening,revision"	"grammatical resource"	NA	NA	22
+2021-05-21 13:11:36	"student009"	"student"	108	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:12:41	"teacher008"	"teacher"	109	"Ok, what are the first and the second conditionals about then?"	"Ok, what are the first and the second conditionals about then?"	NA	NA	"eliciting"	"grammatical resource,meaning"	NA	NA	11
+2021-05-21 13:13:01	"teacher008"	"teacher"	110	"Remind me.."	"Remind me.."	NA	NA	NA	NA	NA	NA	2
+2021-05-21 13:14:37	"student009"	"student"	111	"well, first conditional talks about things that might happen"	"well, first conditional talks about things that might happen"	NA	NA	NA	NA	NA	NA	9
+2021-05-21 13:14:48	"teacher008"	"teacher"	112	"Yes, good use of 'might'!"	"Yes, good use of 'might'!"	NA	NA	NA	NA	NA	NA	5
+2021-05-21 13:15:59	"student009"	"student"	113	"and second is about talking about something in the future that won’t be true, maybe my dreams"	"and second is about talking about something in the future that won’t be true, maybe my dreams"	NA	NA	NA	NA	NA	NA	17
+2021-05-21 13:16:40	"teacher008"	"teacher"	114	"Yes, or at present actually. Things that are not true but we could still think about them"	"Yes, or at present actually. Things that are not true but we could still think about them"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	17
+2021-05-21 13:17:22	"teacher008"	"teacher"	115	"I wonder what I ____ do if I ________.be / not. a teacher"	"I wonder what I ____ do if I ________(be / not) a teacher"	NA	"9.0"	"exercise"	"grammatical resource"	NA	NA	13
+2021-05-21 13:17:52	"student009"	"student"	116	"would, wasn’t"	"would, wasn’t"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 13:18:16	"teacher008"	"teacher"	117	"Yes! or 'weren't'"	"Yes! or 'weren't'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2021-05-21 13:18:33	"teacher008"	"teacher"	118	"to highlight how unrealistic it is, we sometimes use 'were' for all persons in the second conditional"	"to highlight how unrealistic it is, we sometimes use 'were' for all persons in the second conditional"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2021-05-21 13:18:59	"teacher008"	"teacher"	119	"If you could choose the subjects to do at school, which subjects would you choose .or not.? give me a full sentence, please"	"If you could choose the subjects to do at school, which subjects would you choose (or not)? give me a full sentence, please"	NA	"9a"	"exercise"	"grammatical resource"	NA	NA	23
+2021-05-21 13:21:18	"student009"	"student"	120	"If I could choose, I would choose PE , Ukrainian .literature and language. , English , but I think it is just my favorite ones, we don’t need all school subjects, but also we need somebody to teach us for example paying bills"	"If I could choose, I would choose PE , Ukrainian (literature and language), English, but I think it is just my favorite ones, we don’t need all school subjects, but also we need somebody to teach us for example how to pay bills"	NA	NA	NA	NA	NA	NA	43
+2021-05-21 13:22:30	"teacher008"	"teacher"	121	"Oh yes, you mean to teach you some practical skills?"	"Oh yes, you mean to teach you some practical skills?"	NA	NA	NA	NA	NA	NA	10
+2021-05-21 13:22:40	"student009"	"student"	122	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:22:42	"teacher008"	"teacher"	123	"to teach someone to do something, actually .the verb pattern."	"to teach someone to do something, actually (the verb pattern)"	NA	NA	"repair"	"lexical resource,grammatical resource"	NA	NA	10
+2021-05-21 13:22:45	"teacher008"	"teacher"	124	"Ok, lovely"	"Ok, lovely"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 13:22:58	"teacher008"	"teacher"	125	"If you could travel anywhere in the world this summer, where would you go?"	"If you could travel anywhere in the world this summer, where would you go?"	NA	"9b"	"exercise"	"grammatical resource"	NA	NA	14
+2021-05-21 13:25:39	"student009"	"student"	126	"If I could travel, of course I would go to Israel and I would be very happy if we traveled to Spain or"	"If I could travel, of course I would go to Israel and I would be very happy if we travelled to Spain or"	NA	NA	NA	NA	NA	NA	23
+2021-05-21 13:26:22	"teacher008"	"teacher"	127	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:27:22	"teacher008"	"teacher"	128	"Ok, if you finish your test at <LANGUAGE SCHOOL> early, what will you do?"	"Ok, if you finish your test at <LANGUAGE SCHOOL> early, what will you do?"	NA	"9c"	"exercise"	"grammatical resource"	NA	NA	14
+2021-05-21 13:27:28	"teacher008"	"teacher"	129	".which conditional is it?."	"(which conditional is it?)"	NA	NA	"eliciting"	"grammatical resource,meaning"	NA	NA	4
+2021-05-21 13:27:45	"student009"	"student"	130	"first"	"first"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:28:10	"student009"	"student"	131	"If I finish early, I think my teacher will let me go home"	"If I finish early, I think my teacher will let me go home"	128	NA	NA	NA	NA	NA	13
+2021-05-21 13:28:40	"teacher008"	"teacher"	132	"Yes, lovely!"	"Yes, lovely!"	NA	NA	NA	NA	NA	NA	2
+2021-05-21 13:28:49	"teacher008"	"teacher"	133	"Present simple + if will"	"Present simple + if will"	NA	NA	NA	NA	NA	NA	5
+2021-05-21 13:29:36	"teacher008"	"teacher"	134	"Ok, <STUDENT>, best of luck for the test! I'll keep my fingers crossed for you!"	"Ok, <STUDENT>, best of luck for the test! I'll keep my fingers crossed for you!"	NA	"10.0"	"closing"	NA	NA	NA	15
+2021-05-21 13:29:44	"teacher008"	"teacher"	135	"And you can tell me all about it next Friday :."	"And you can tell me all about it next Friday :)"	NA	NA	NA	NA	NA	NA	11
+2021-05-21 13:30:15	"student009"	"student"	136	"thank you so much! you really helped me!bye bye"	"thank you so much! you really helped me! bye bye"	NA	NA	NA	NA	NA	NA	9
+2021-05-21 13:30:23	"student009"	"student"	137	":."	":)"	NA	NA	NA	NA	NA	NA	1
+2021-05-21 13:30:28	"teacher008"	"teacher"	138	"Wonderful! Bye <STUDENT>!"	"Wonderful! Bye <STUDENT>!"	NA	NA	NA	NA	NA	"B2"	3

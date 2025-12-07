@@ -1,0 +1,149 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-18 13:30:16	"student009"	"student"	1	"hi, I will be a bit late today , is that okay?"	"hi, I will be a bit late today, is that okay?"	NA	"1.0"	"disruption"	NA	NA	NA	12
+2020-12-18 13:30:51	"teacher008"	"teacher"	3	"Hi <STUDENT>! Do you need more time?"	"Hi <STUDENT>! Do you need more time?"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 13:30:56	"student009"	"student"	4	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:31:05	"teacher008"	"teacher"	5	"Ok, sure, how long do you need?"	"Ok, sure, how long do you need?"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 13:31:09	"student009"	"student"	6	"I am still not at home"	"I am still not at home"	NA	NA	NA	NA	NA	NA	6
+2020-12-18 13:31:40	"student009"	"student"	7	"I think 15 minutes I think"	"I think 15 minutes"	NA	NA	NA	NA	NA	NA	6
+2020-12-18 13:31:45	"student009"	"student"	8	"maybe less"	"maybe less"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 13:31:57	"teacher008"	"teacher"	9	"ok, no worries"	"ok, no worries"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 13:32:00	"teacher008"	"teacher"	10	"travel safe"	"travel safe"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 13:46:22	"student009"	"student"	11	"hi"	"hi"	NA	"2.0"	"opening"	NA	NA	NA	1
+2020-12-18 13:47:13	"teacher008"	"teacher"	12	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 13:47:17	"teacher008"	"teacher"	13	"All ok with you?"	"All ok with you?"	NA	"3.0"	"topic opening"	NA	NA	NA	4
+2020-12-18 13:48:10	"student009"	"student"	14	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:49:16	"teacher008"	"teacher"	15	"Did you get a detention? :))"	"Did you get a detention? :))"	NA	NA	NA	NA	NA	NA	6
+2020-12-18 13:49:19	"student009"	"student"	16	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:49:43	"student009"	"student"	17	"traffic"	"traffic"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:49:48	"student009"	"student"	18	"jams"	"jams"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:49:55	"student009"	"student"	19	"in Kyiv )"	"in Kyiv )"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 13:50:18	"teacher008"	"teacher"	20	"Ah, I see :)"	"Ah, I see :)"	NA	NA	NA	NA	NA	NA	4
+2020-12-18 13:50:21	"teacher008"	"teacher"	21	"do you know"	"do you know"	NA	"3a"	"eliciting"	"lexical resource,meaning"	NA	NA	3
+2020-12-18 13:50:26	"teacher008"	"teacher"	22	"a detention'?"	"a detention'?"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 13:50:30	"student009"	"student"	23	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:51:13	"teacher008"	"teacher"	24	"ok)) Harry Potter got a lot of them, but I'm sure you don't :)"	"ok)) Harry Potter got a lot of them, but I'm sure you don't :)"	NA	NA	NA	NA	NA	NA	14
+2020-12-18 13:51:47	"student009"	"student"	25	"we don't have detentions in my school"	"we don't have detentions in my school"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 13:52:27	"teacher008"	"teacher"	26	"That's good! I hope you haven't got Dolores Umbridge :)"	"That's good! I hope you haven't got Dolores Umbridge :)"	NA	NA	NA	NA	NA	NA	10
+2020-12-18 13:53:03	"student009"	"student"	27	"NO"	"NO"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:53:24	"teacher008"	"teacher"	28	":))"	":))"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:54:02	"teacher008"	"teacher"	29	"Ok, I'm going to be on holiday starting from next week and until January 4, so there will be no chats until then!"	"Ok, I'm going to be on holiday starting from next week and until January 4, so there will be no chats until then!"	NA	"4.0"	"topic opening"	NA	NA	NA	23
+2020-12-18 13:54:16	"teacher008"	"teacher"	30	"But I do understand that the beginning of January is when your holiday is!"	"But I do understand that the beginning of January is when your holiday is!"	NA	NA	NA	NA	NA	NA	14
+2020-12-18 13:54:29	"teacher008"	"teacher"	31	"So you just let me know whether you can make it that week, ok?"	"So you just let me know whether you can make it that week, ok?"	NA	NA	NA	NA	NA	NA	14
+2020-12-18 13:55:02	"student009"	"student"	32	"I think I would be able to do that"	"I think I would be able to do that"	NA	NA	NA	NA	NA	NA	9
+2020-12-18 13:55:50	"teacher008"	"teacher"	33	"Ok, I'll pencil our class in for Tuesday 5 January, but I'll text you before that"	"Ok, I'll pencil our class in for Tuesday 5 January, but I'll text you before that"	NA	NA	NA	NA	NA	NA	16
+2020-12-18 13:56:12	"student009"	"student"	34	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:56:19	"teacher008"	"teacher"	35	"Have you got big plans for your holiday?"	"Have you got big plans for your holiday?"	NA	"5.0"	"topic opening"	NA	NA	NA	8
+2020-12-18 13:56:54	"student009"	"student"	36	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:57:10	"teacher008"	"teacher"	37	"Any plans at all? What are you looking forward to?"	"Any plans at all? What are you looking forward to?"	NA	NA	NA	NA	NA	NA	10
+2020-12-18 13:57:56	"student009"	"student"	38	"maybe I wanna to see my friends"	"maybe I wanna see my friends"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 13:58:21	"teacher008"	"teacher"	39	"Oh yes, I remember, you mentioned that!"	"Oh yes, I remember, you mentioned that!"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 13:59:05	"teacher008"	"teacher"	40	"I'm looking forward to Christmas! Do you know much about Christmas traditions? In the UK / US etc.?"	"I'm looking forward to Christmas! Do you know much about Christmas traditions? In the UK / US etc.?"	NA	"5a"	"eliciting"	"writing,world knowledge"	NA	NA	18
+2020-12-18 13:59:42	"student009"	"student"	41	"Hm"	"Hm"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 13:59:51	"student009"	"student"	42	"maybe some of them"	"maybe some of them"	NA	NA	NA	NA	NA	NA	4
+2020-12-18 14:00:30	"teacher008"	"teacher"	43	"Well, people decorate Christmas trees, eat chocolate from advent calendars and swap presents"	"Well, people decorate Christmas trees, eat chocolate from advent calendars and swap presents"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	13
+2020-12-18 14:00:59	"teacher008"	"teacher"	44	"Do you know maybe any Xmas movies? or stories? or songs?"	"Do you know maybe any Xmas movies? or stories? or songs?"	NA	"5b"	"eliciting"	"writing,world knowledge"	NA	NA	11
+2020-12-18 14:01:48	"student009"	"student"	45	"Homealone"	"Home Alone"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:02:01	"teacher008"	"teacher"	46	"definitely!"	"definitely!"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:02:37	"teacher008"	"teacher"	47	"anything else?"	"anything else?"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 14:02:43	"student009"	"student"	48	"Harry Potter also have a Xmas themes)"	"Harry Potter also has Xmas themes)"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 14:02:56	"student009"	"student"	49	"Grinch"	"The Grinch"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:03:05	"teacher008"	"teacher"	50	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 14:03:24	"teacher008"	"teacher"	51	"If you were Harry, would you prefer Christmas at Hogwarts or in the Burrow?"	"If you were Harry, would you prefer Christmas at Hogwarts or in the Burrow?"	NA	"5c"	"eliciting"	"writing,lexical resource"	NA	NA	14
+2020-12-18 14:04:05	"student009"	"student"	52	"burrow"	"the Burrow"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:04:19	"teacher008"	"teacher"	53	"you know what I'm going to say. Why?"	"you know what I'm going to say. Why?"	NA	NA	"eliciting"	"writing"	NA	NA	8
+2020-12-18 14:05:00	"student009"	"student"	54	"because Weasley became his family"	"because the Weasleys became his family"	NA	NA	NA	NA	NA	NA	5
+2020-12-18 14:05:33	"student009"	"student"	55	"so I think it would be better to go home with Ron"	"so I think it would be better to go home with Ron"	NA	NA	NA	NA	NA	NA	12
+2020-12-18 14:05:52	"teacher008"	"teacher"	56	"Ah, it's better to spend Christmas with your family?"	"Ah, it's better to spend Christmas with your family?"	NA	NA	NA	NA	NA	NA	9
+2020-12-18 14:05:55	"teacher008"	"teacher"	57	"Yes, I agree!"	"Yes, I agree!"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:06:14	"teacher008"	"teacher"	58	"Ok, Christmas songs!"	"Ok, Christmas songs!"	NA	"6.0"	"topic opening"	NA	NA	NA	3
+2020-12-18 14:06:19	"teacher008"	"teacher"	59	"Do you know any?"	"Do you know any?"	NA	NA	"eliciting"	"world knowledge"	NA	NA	4
+2020-12-18 14:07:02	"student009"	"student"	60	"I don't really think so"	"I don't really think so"	NA	NA	NA	NA	NA	NA	5
+2020-12-18 14:07:34	"teacher008"	"teacher"	61	"Well, there are two kinds of Christmas songs. There are pop songs that you can hear at shopping malls, for example"	"Well, there are two kinds of Christmas songs. There are pop songs that you can hear at shopping malls, for example"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	21
+2020-12-18 14:07:57	"teacher008"	"teacher"	62	"Like 'Let it snow', 'All I want for Christmas', 'Last Christmas I gave you my heart'"	"Like 'Let it snow', 'All I want for Christmas', 'Last Christmas I gave you my heart'"	NA	NA	NA	NA	NA	NA	16
+2020-12-18 14:08:03	"teacher008"	"teacher"	63	"Usually about love :)"	"Usually about love :)"	NA	NA	NA	NA	NA	NA	4
+2020-12-18 14:08:09	"student009"	"student"	64	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:08:13	"student009"	"student"	65	"I know them"	"I know them"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:08:26	"teacher008"	"teacher"	66	"But there are also songs about the Christmas story, about how Jesus was born"	"But there are also songs about the Christmas story, about how Jesus was born"	NA	NA	"scaffolding"	"world knowledge,lexical resource"	NA	NA	14
+2020-12-18 14:08:48	"teacher008"	"teacher"	67	"They are sung in churches and in schools in the UK"	"They are sung in churches and in schools in the UK"	NA	NA	"scaffolding"	"world knowledge,lexical resource"	NA	NA	11
+2020-12-18 14:09:06	"teacher008"	"teacher"	68	"For example, my son's favourite that he learned at school is 'Away in the manger'"	"For example, my son's favourite that he learned at school is 'Away in the manger'"	NA	NA	"scaffolding"	"world knowledge,lexical resource"	NA	NA	15
+2020-12-18 14:09:44	"teacher008"	"teacher"	69	"a manger is a box from which horses and cows feed"	"a manger is a box from which horses and cows feed"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-12-18 14:09:51	"teacher008"	"teacher"	70	"Jesus was born in a manger"	"Jesus was born in a manger"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2020-12-18 14:10:09	"teacher008"	"teacher"	71	"It's a really nice song! These church Christmas songs are called 'carols'"	"It's a really nice song! These church Christmas songs are called 'carols'"	NA	NA	"scaffolding"	"world knowledge,lexical resource"	NA	NA	12
+2020-12-18 14:10:26	"student009"	"student"	72	"yeaj"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:10:31	"teacher008"	"teacher"	73	"/ˈkær.əl/"	"/ˈkær.əl/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2020-12-18 14:10:38	"student009"	"student"	74	"can i ask you?"	"can I ask you?"	NA	"7.0"	"topic opening"	NA	NA	NA	4
+2020-12-18 14:10:43	"teacher008"	"teacher"	75	"Yes of course!"	"Yes of course!"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:10:48	"student009"	"student"	76	"does your son speak Russian ?)"	"Does your son speak Russian ?)"	NA	NA	NA	NA	NA	NA	6
+2020-12-18 14:11:35	"teacher008"	"teacher"	77	"Very little Russian, unfortunately! His Dad is English, so we mostly speak English at home. I do try to teach him some Russian and he's even doing a Russian class online once a week now"	"Very little Russian, unfortunately! His Dad is English, so we mostly speak English at home. I do try to teach him some Russian and he's even doing a Russian class online once a week now"	NA	NA	NA	NA	NA	NA	35
+2020-12-18 14:12:03	"teacher008"	"teacher"	78	"But I don't know if he'll ever speak good Russian / Ukrainian! I guess it also depends on whether he would like to when he grows up"	"But I don't know if he'll ever speak good Russian / Ukrainian! I guess it also depends on whether he would like to when he grows up"	NA	NA	NA	NA	NA	NA	27
+2020-12-18 14:12:26	"student009"	"student"	79	"maybe he can speak Russian with your parents"	"Maybe he can speak Russian with your parents"	NA	NA	NA	NA	NA	NA	8
+2020-12-18 14:12:38	"teacher008"	"teacher"	80	"Yes, he does a bit sometimes! over skype"	"Yes, he does a bit sometimes! over skype"	NA	NA	NA	NA	NA	NA	8
+2020-12-18 14:12:38	"student009"	"student"	81	"it is nice to now a lot of languages"	"it is nice to know a lot of languages"	NA	NA	NA	NA	NA	NA	9
+2020-12-18 14:12:45	"teacher008"	"teacher"	82	"definitely!"	"definitely!"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:12:59	"teacher008"	"teacher"	83	"Are there any Christmas carold in Ukraine?"	"Are there any Christmas carold in Ukraine?"	NA	"6a"	"redirection,eliciting"	"world knowledge,code switching"	NA	NA	7
+2020-12-18 14:13:08	"teacher008"	"teacher"	84	"*sorry, carols"	"*sorry, carols"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-12-18 14:13:13	"student009"	"student"	85	"kolyadki"	"kolyadki"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	1
+2020-12-18 14:13:18	"teacher008"	"teacher"	86	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:13:27	"teacher008"	"teacher"	87	"Kolyadki are the Ukrainian equivalent"	"Kolyadki are the Ukrainian equivalent"	NA	NA	"scaffolding,non-English"	"world knowledge,lexical resource,code switching"	NA	NA	5
+2020-12-18 14:13:49	"teacher008"	"teacher"	88	"And do you know that one Ukrainian kolyadka has become popular all over the world as a Christmas carol?"	"And do you know that one Ukrainian kolyadka has become popular all over the world as a Christmas carol?"	NA	"6b"	"eliciting,non-English"	"world knowledge,code switching"	NA	NA	19
+2020-12-18 14:13:58	"student009"	"student"	89	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:14:09	"teacher008"	"teacher"	90	"Yes, of course you do!"	"Yes, of course you do!"	NA	NA	NA	NA	NA	NA	5
+2020-12-18 14:14:10	"student009"	"student"	91	"chervona ruta?)"	"chervona ruta?)"	NA	NA	"non-English"	"code switching"	NA	NA	2
+2020-12-18 14:14:13	"teacher008"	"teacher"	92	"Which one?"	"Which one?"	90	NA	NA	NA	NA	NA	2
+2020-12-18 14:14:22	"teacher008"	"teacher"	93	"Nooo! it's not a kolyadka!"	"Nooo! it's not a kolyadka!"	91	NA	NA	NA	NA	NA	5
+2020-12-18 14:14:26	"student009"	"student"	94	"oyno"	"oy no"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:14:33	"student009"	"student"	95	"not correct name"	"not the correct name"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:14:54	"student009"	"student"	96	"I forgot name but I understand what you are talking about"	"I forgot the name but I understand what you are talking about"	NA	NA	NA	NA	NA	NA	11
+2020-12-18 14:15:33	"student009"	"student"	97	"and Americans say that this song is American"	"and Americans say that this song is American"	NA	NA	NA	NA	NA	NA	8
+2020-12-18 14:15:35	"teacher008"	"teacher"	98	"It's called Carol of the Bells here. I've just sent you a video about it. Could you watch and let me know what it's called in Ukrainian?"	"It's called Carol of the Bells here. I've just sent you a video about it. Could you watch and let me know what it's called in Ukrainian?"	NA	"8.0"	"exercise"	"listening"	NA	NA	27
+2020-12-18 14:15:42	"student009"	"student"	99	"but it is lie"	"but it is a lie"	97	NA	NA	NA	NA	NA	4
+2020-12-18 14:15:58	"teacher008"	"teacher"	100	"No, it's not American, you're right!"	"No, it's not American, you're right!"	NA	NA	NA	NA	NA	NA	6
+2020-12-18 14:17:07	"student009"	"student"	101	"schedryk!!!"	"Shchedryk!!!"	98	NA	"non-English"	"code switching,listening"	NA	NA	1
+2020-12-18 14:17:24	"teacher008"	"teacher"	102	"Yes!!"	"Yes!!"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:17:32	"teacher008"	"teacher"	103	"Have you listened to the whole story?"	"Have you listened to the whole story?"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 14:17:32	"student009"	"student"	104	"I still remember words"	"I still remember the lyrics"	102	NA	NA	NA	NA	NA	4
+2020-12-18 14:17:41	"teacher008"	"teacher"	105	"Yes)) it's beautiful"	"Yes)) it's beautiful"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:17:41	"student009"	"student"	106	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:17:52	"teacher008"	"teacher"	107	"Ok, can you listen to the whole story, please?"	"Ok, can you listen to the whole story, please?"	NA	"8a"	"exercise"	"listening"	NA	NA	9
+2020-12-18 14:17:57	"teacher008"	"teacher"	108	"I mean watch"	"I mean watch"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:20:13	"student009"	"student"	109	"i am here"	"I am here"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:20:29	"teacher008"	"teacher"	110	"Great! How did you like the story?"	"Great! How did you like the story?"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 14:21:06	"student009"	"student"	111	"i remember it from music lesson)"	"I remember it from my music lesson)"	NA	NA	"eliciting"	"listening,writing"	NA	NA	6
+2020-12-18 14:21:33	"teacher008"	"teacher"	112	"Yes, I bet you do!"	"Yes, I bet you do!"	NA	NA	NA	NA	NA	NA	5
+2020-12-18 14:21:52	"teacher008"	"teacher"	113	"I had no idea that Leontovych was assassinated by a Soviet agent!"	"I had no idea that Leontovych was assassinated by a Soviet agent!"	NA	NA	NA	NA	NA	NA	12
+2020-12-18 14:22:03	"student009"	"student"	114	"me too"	"me neither"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 14:22:45	"teacher008"	"teacher"	115	"Do you think the lady who presents the video is English / American / Ukrainian?"	"Do you think the lady who presents the video is English / American / Ukrainian?"	NA	"8b"	"eliciting"	"listening,speaking"	NA	NA	15
+2020-12-18 14:23:10	"student009"	"student"	116	"Ukrainian"	"Ukrainian"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:23:27	"teacher008"	"teacher"	117	"you know what I'm going to say <STUDENT> :)"	"you know what I'm going to say <STUDENT> :)"	NA	NA	NA	NA	NA	NA	9
+2020-12-18 14:23:56	"student009"	"student"	118	"because dhe looks like dhe is Ukrainian"	"because she looks like she is Ukrainian"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 14:24:16	"student009"	"student"	119	"her speaking isnot clearly English or American"	"her speaking is not clearly English or American"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 14:24:29	"student009"	"student"	120	"and the name of the channel"	"and the name of the channel"	NA	NA	NA	NA	NA	NA	6
+2020-12-18 14:24:42	"student009"	"student"	121	"with word KIEV"	"with the word KIEV"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:25:22	"teacher008"	"teacher"	122	"it's Kyivpost, but anyone could work for it, right?"	"it's Kyivpost, but anyone could work for it, right?"	NA	NA	NA	NA	NA	NA	9
+2020-12-18 14:25:28	"teacher008"	"teacher"	123	"Her accent is American, actually"	"Her accent is American, actually"	NA	NA	"scaffolding"	"speaking"	NA	NA	5
+2020-12-18 14:25:42	"student009"	"student"	124	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:25:43	"teacher008"	"teacher"	125	"what do you mean by she looks Ukrainian?"	"what do you mean by she looks Ukrainian?"	118	NA	NA	NA	NA	NA	8
+2020-12-18 14:26:50	"student009"	"student"	126	"like slavik"	"like Slavic"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 14:27:01	"student009"	"student"	127	"slavyani"	"slavyani"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	1
+2020-12-18 14:27:01	"teacher008"	"teacher"	128	"Ok, I see what you mean :)"	"Ok, I see what you mean :)"	NA	NA	NA	NA	NA	NA	7
+2020-12-18 14:27:21	"teacher008"	"teacher"	129	"I agree with you, actually, I think she's Ukrainian because she pronounces Ukrainian names like a native speaker"	"I agree with you, actually, I think she's Ukrainian because she pronounces Ukrainian names like a native speaker"	NA	NA	NA	NA	NA	NA	18
+2020-12-18 14:27:27	"teacher008"	"teacher"	130	"But her English is brilliant!"	"But her English is brilliant!"	NA	NA	NA	NA	NA	NA	5
+2020-12-18 14:27:38	"teacher008"	"teacher"	131	"Slavic"	"Slavic"	126	NA	"repair"	"lexical resource,writing"	NA	NA	1
+2020-12-18 14:27:51	"student009"	"student"	132	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:28:11	"teacher008"	"teacher"	133	"I'll send you another version of the Carol of the Bells, sung acapella"	"I'll send you another version of the Carol of the Bells, sung acapella"	NA	"8c"	"homework"	"listening"	NA	NA	13
+2020-12-18 14:28:16	"teacher008"	"teacher"	134	"do you know 'acapella'?"	"do you know 'acapella'?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+2020-12-18 14:28:24	"student009"	"student"	135	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:28:38	"teacher008"	"teacher"	136	"Sorry, wrong spelling!"	"Sorry, wrong spelling!"	134	NA	"repair"	"writing"	NA	NA	3
+2020-12-18 14:28:41	"teacher008"	"teacher"	137	"a cappella"	"a cappella"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-12-18 14:28:46	"teacher008"	"teacher"	138	"double pp double ll"	"double pp double ll"	NA	NA	"repair"	"writing"	NA	NA	4
+2020-12-18 14:28:52	"teacher008"	"teacher"	139	"what does it mean?"	"what does it mean?"	135	NA	"eliciting"	"lexical resource,meaning"	NA	NA	4
+2020-12-18 14:29:12	"student009"	"student"	140	"like there is no music"	"like there is no music"	NA	NA	NA	NA	NA	NA	5
+2020-12-18 14:29:30	"student009"	"student"	141	"and music is made from sounds that people make"	"and music is made from the sounds that people make"	NA	NA	NA	NA	NA	NA	9
+2020-12-18 14:29:35	"teacher008"	"teacher"	142	"yes, exactly!"	"yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 14:30:02	"teacher008"	"teacher"	143	"Like many music words, it comes from ... which language?"	"Like many music words, it comes from ... which language?"	NA	NA	"eliciting"	"lexical resource,meta knowledge"	NA	NA	10
+2020-12-18 14:31:18	"student009"	"student"	144	"Italian"	"Italian"	NA	NA	NA	NA	NA	NA	1
+2020-12-18 14:31:35	"teacher008"	"teacher"	145	"absolutely, correct!"	"absolutely, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 14:32:27	"teacher008"	"teacher"	146	"Ok, <STUDENT>, I'll let you go. Have a wonderful Christmas and a happy New Year! I'll talk to you on Tuesday January 5 at the usual time (unless you're busy, then you'll let me know)"	"Ok, <STUDENT>, I'll let you go. Have a wonderful Christmas and a happy New Year! I'll talk to you on Tuesday January 5 at the usual time (unless you're busy, then you'll let me know)"	NA	"9.0"	"closing"	NA	NA	NA	35
+2020-12-18 14:32:50	"student009"	"student"	147	"You too!!"	"You too!!"	NA	NA	NA	NA	NA	NA	2
+2020-12-18 14:32:56	"student009"	"student"	148	"bye  bye!"	"bye  bye!"	NA	NA	NA	NA	NA	NA	3
+2020-12-18 14:33:03	"teacher008"	"teacher"	149	"Bye <STUDENT> :)"	"Bye <STUDENT> :)"	NA	NA	NA	NA	NA	"B2"	3

@@ -1,0 +1,178 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-18 07:00:42	"student009"	"student"	1	"hello"	"hello"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-08-18 07:00:52	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:00:56	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-08-18 07:01:00	"student009"	"student"	4	"fine"	"fine"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:01:06	"student009"	"student"	5	"and you?"	"and you?"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:01:12	"teacher008"	"teacher"	6	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:01:34	"teacher008"	"teacher"	7	"Ready for some more Harry Potter stuff?"	"Ready for some more Harry Potter stuff?"	NA	"3.0"	"exercise"	"reading"	"book"	NA	7
+2020-08-18 07:01:54	"student009"	"student"	8	"I need computer again?"	"Do I need my computer again?"	NA	"3a"	"enquiry"	NA	NA	NA	4
+2020-08-18 07:02:02	"teacher008"	"teacher"	9	"Yes, that would be good"	"Yes, that would be good"	NA	NA	NA	NA	NA	NA	5
+2020-08-18 07:02:09	"student009"	"student"	10	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:02:35	"student009"	"student"	11	"wait a minute"	"wait a minute"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:02:42	"teacher008"	"teacher"	12	"Let me know when you're all set up"	"Let me know when you're all set up"	NA	NA	NA	NA	NA	NA	8
+2020-08-18 07:04:56	"teacher008"	"teacher"	13	"1. HP and the Philosopher's Stone"	"1. HP and the Philosopher's Stone"	NA	"3b"	"exercise"	"reading"	NA	NA	6
+2020-08-18 07:05:07	"teacher008"	"teacher"	14	"3. HP and the Prisoner of Azkaban"	"3. HP and the Prisoner of Azkaban"	NA	NA	NA	NA	NA	NA	7
+2020-08-18 07:05:14	"teacher008"	"teacher"	15	"4. HP and the Goblet of Fire"	"4. HP and the Goblet of Fire"	NA	NA	NA	NA	NA	NA	7
+2020-08-18 07:05:24	"teacher008"	"teacher"	16	"5. HP and the Order of the Phoenix"	"5. HP and the Order of the Phoenix"	NA	NA	NA	NA	NA	NA	8
+2020-08-18 07:05:35	"teacher008"	"teacher"	17	"6. HP and the Half-Blood Prince"	"6. HP and the Half-Blood Prince"	NA	NA	NA	NA	NA	NA	6
+2020-08-18 07:05:43	"teacher008"	"teacher"	18	"7. HP and the Deathly Hallows"	"7. HP and the Deathly Hallows"	NA	NA	NA	NA	NA	NA	6
+2020-08-18 07:05:56	"student009"	"student"	19	"hi"	"hi"	"12.0"	NA	NA	NA	NA	NA	1
+2020-08-18 07:06:08	"student009"	"student"	20	"I am ready"	"I am ready"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:06:12	"teacher008"	"teacher"	21	"Hi <STUDENT>, can you see the names of the remaining books above?"	"Hi <STUDENT>, can you see the names of the remaining books above?"	"20, 18"	"3b (continued)"	NA	NA	NA	NA	12
+2020-08-18 07:06:18	"student009"	"student"	22	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:06:24	"teacher008"	"teacher"	23	"You've guessed the Chamber of Secrets last time"	"You've guessed the Chamber of Secrets last time"	NA	NA	NA	NA	NA	NA	8
+2020-08-18 07:06:35	"student009"	"student"	24	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:06:49	"teacher008"	"teacher"	25	"Ready for the next one?"	"Ready for the next one?"	NA	"3c"	"exercise"	"reading"	NA	NA	5
+2020-08-18 07:07:00	"student009"	"student"	26	"yeeees"	"yeeees"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:08:31	"teacher008"	"teacher"	27	"Got it to be the right way up now. Can you see it?"	"Got it to be the right way up now. Can you see it?"	NA	NA	NA	NA	NA	NA	13
+2020-08-18 07:08:37	"teacher008"	"teacher"	28	"on Skype"	"on Skype"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:08:42	"student009"	"student"	29	"Order of the Phoenix&amp;"	"Order of the Phoenix&amp;"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:08:45	"student009"	"student"	30	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:08:58	"teacher008"	"teacher"	31	"Why do you think so?"	"Why do you think so?"	NA	NA	NA	NA	NA	NA	5
+2020-08-18 07:09:25	"student009"	"student"	32	"Lupin, Tonks and Moody"	"Lupin, Tonks and Moody"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:09:42	"teacher008"	"teacher"	33	"Ah, good one!"	"Ah, good one!"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:09:55	"teacher008"	"teacher"	34	"Do you know what's going on?"	"Do you know what's going on?"	NA	"3d"	"exercise"	"reading"	NA	NA	6
+2020-08-18 07:09:58	"student009"	"student"	35	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:10:02	"teacher008"	"teacher"	36	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:10:52	"student009"	"student"	37	"they are going to fly to their staff"	"they are going to fly to their headquarters"	NA	NA	NA	NA	NA	NA	8
+2020-08-18 07:11:18	"teacher008"	"teacher"	38	"What do you mean by 'to their staff'?"	"What do you mean by 'to their staff'?"	NA	"3e"	"eliciting"	"lexical resource"	NA	NA	8
+2020-08-18 07:11:29	"student009"	"student"	39	"flat"	"flat"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:11:36	"student009"	"student"	40	"where they live"	"where they live"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:11:45	"student009"	"student"	41	"and talk"	"and talk"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:11:48	"teacher008"	"teacher"	42	"ah, ok"	"ah, ok"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:12:09	"teacher008"	"teacher"	43	"maybe the 'headquarters' of the Order - where they are based"	"maybe the 'headquarters' of the Order - where they are based"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-08-18 07:12:36	"teacher008"	"teacher"	44	"Staff means the people who work for a company or school for example"	"Staff means the people who work for a company or school for example"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-08-18 07:13:04	"teacher008"	"teacher"	45	"For example, in case of fire, all students and staff should leave the school through the front and back doors"	"For example, in case of fire, all students and staff should leave the school through the front and back doors"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-08-18 07:13:09	"teacher008"	"teacher"	46	"or something like that"	"or something like that"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:13:34	"student009"	"student"	47	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:13:47	"student009"	"student"	48	"am I right?"	"am I right?"	"37.0"	NA	NA	NA	NA	NA	3
+2020-08-18 07:13:57	"teacher008"	"teacher"	49	"Oh yes, sorry, you're right!"	"Oh yes, sorry, you're right!"	NA	NA	NA	NA	NA	NA	5
+2020-08-18 07:14:20	"teacher008"	"teacher"	50	"What's 'Mad-Eye Moody' in the Ukrainian translation?"	"What's 'Mad-Eye Moody' in the Ukrainian translation?"	NA	"3f"	"eliciting"	"code switching,lexical resource"	NA	NA	7
+2020-08-18 07:16:02	"student009"	"student"	51	"I don't really remember"	"I don't really remember"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:16:12	"teacher008"	"teacher"	52	"Ok :) Ready for the next one?"	"Ok :) Ready for the next one?"	NA	"4.0"	"exercise"	"reading"	"book"	NA	7
+2020-08-18 07:16:30	"student009"	"student"	53	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:18:08	"teacher008"	"teacher"	54	"Got it?"	"Got it?"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:19:03	"student009"	"student"	55	"Goblet of fire"	"Goblet of fire"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:19:10	"student009"	"student"	56	"tournamet"	"tournamet"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:19:14	"student009"	"student"	57	"Moody"	"Moody"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:19:32	"teacher008"	"teacher"	58	"well-done!"	"well-done!"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:19:48	"teacher008"	"teacher"	59	"and what's going on in this bit?"	"and what's going on in this bit?"	NA	"4a"	"exercise"	"reading"	NA	NA	7
+2020-08-18 07:20:28	"student009"	"student"	60	"Harry is thinking who and why put his name to the goblet of fire"	"Harry is thinking who and why put his name into the Goblet of Fire"	NA	NA	NA	NA	NA	NA	14
+2020-08-18 07:21:08	"teacher008"	"teacher"	61	"Exactly! Poor Harry :)"	"Exactly! Poor Harry :)"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:21:15	"teacher008"	"teacher"	62	"The next one's coming up!"	"The next one's coming up!"	NA	"5.0"	"exercise"	"reading"	"book"	NA	5
+2020-08-18 07:23:35	"student009"	"student"	63	"Half-Blood prince"	"Half-Blood prince"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:23:45	"student009"	"student"	64	"potion"	"potion"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:23:54	"student009"	"student"	65	"counter-clockwise"	"counter-clockwise"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:24:00	"student009"	"student"	66	"clockwise"	"clockwise"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:24:10	"teacher008"	"teacher"	67	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:24:15	"student009"	"student"	68	"red-faced Hermione"	"red-faced Hermione"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:24:20	"teacher008"	"teacher"	70	"ha-ha, yes"	"ha-ha, yes"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:24:25	"teacher008"	"teacher"	71	"so what's going on?"	"so what's going on?"	NA	"5a"	"exercise"	"reading"	NA	NA	4
+2020-08-18 07:25:40	"student009"	"student"	72	"Harry is making potion, but not really like in the recipe, with Half-Blood prince's ideas"	"Harry is making a potion, but not really like in the recipe, with Half-Blood prince's ideas"	NA	NA	NA	NA	NA	NA	15
+2020-08-18 07:25:53	"teacher008"	"teacher"	73	"Correct, yes!"	"Correct, yes!"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:26:03	"teacher008"	"teacher"	74	"Next one!"	"Next one!"	NA	"6.0"	"exercise"	"reading"	"book"	NA	2
+2020-08-18 07:26:32	"student009"	"student"	75	"LOVE THIS MOMENT"	"LOVE THIS MOMENT"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:26:42	"student009"	"student"	76	"Prisoner of Azkaban"	"Prisoner of Azkaban"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:26:49	"student009"	"student"	77	"my favourite one"	"my favourite one"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:26:52	"student009"	"student"	78	"Lupin"	"Lupin"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:26:54	"teacher008"	"teacher"	79	"I know, so good!!"	"I know, so good!!"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:26:57	"student009"	"student"	80	"chocolate"	"chocolate"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:27:02	"student009"	"student"	81	"Dementor"	"Dementor"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:27:14	"student009"	"student"	82	"Azkaban"	"Azkaban"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:27:29	"teacher008"	"teacher"	83	"absolutely! It's my favourite moment from this book, too. So what's going on?"	"absolutely! It's my favourite moment from this book, too. So what's going on?"	NA	"6a"	"exercise"	"reading"	NA	NA	13
+2020-08-18 07:27:58	"student009"	"student"	84	"Harry felt bad because of Dementor, and Lupin helped him"	"Harry felt unwell because of a dementor, and Lupin helped him"	NA	NA	NA	NA	NA	NA	10
+2020-08-18 07:28:14	"teacher008"	"teacher"	86	"yes :)"	"yes :)"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:28:24	"teacher008"	"teacher"	87	"Next one!"	"Next one!"	NA	"7.0"	"exercise"	"reading"	"book"	NA	2
+2020-08-18 07:28:24	"student009"	"student"	88	"they are in train now"	"they are on a train now"	"84.0"	NA	NA	NA	NA	NA	5
+2020-08-18 07:28:35	"teacher008"	"teacher"	89	"yes, they are on a train"	"yes, they are on a train"	NA	NA	"repair"	"lexical resource"	NA	NA	6
+2020-08-18 07:29:40	"student009"	"student"	90	"Deathly Hallows"	"Deathly Hallows"	"87.0"	NA	NA	NA	NA	NA	2
+2020-08-18 07:29:50	"student009"	"student"	91	"Dobby died"	"Dobby died"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:29:50	"teacher008"	"teacher"	92	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:29:57	"teacher008"	"teacher"	93	"a sad moment!"	"a sad moment!"	NA	NA	NA	NA	NA	NA	3
+2020-08-18 07:30:06	"student009"	"student"	94	":(((("	":(((("	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:30:57	"teacher008"	"teacher"	95	"And the last one, easy-peasy!"	"And the last one, easy-peasy!"	NA	"8.0"	"exercise"	"reading"	"book"	NA	5
+2020-08-18 07:31:28	"student009"	"student"	96	"Philosopher Stone)"	"Philosopher's Stone)"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:31:36	"teacher008"	"teacher"	97	"yes, of course :)"	"yes, of course :)"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:31:40	"teacher008"	"teacher"	98	"and what's going on?"	"and what's going on?"	NA	"8a"	"exercise"	"reading"	NA	NA	4
+2020-08-18 07:31:42	"student009"	"student"	99	"snake"	"snake"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:31:47	"student009"	"student"	100	"Dudley"	"Dudley"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:31:51	"teacher008"	"teacher"	101	"what kind of snake?"	"what kind of snake?"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:32:02	"student009"	"student"	102	"so Ha"	"so Ha"	"98.0"	NA	NA	NA	NA	NA	2
+2020-08-18 07:32:12	"student009"	"student"	103	"boa constrictor"	"a boa constrictor"	"101.0"	NA	NA	NA	NA	NA	2
+2020-08-18 07:32:20	"teacher008"	"teacher"	104	"yes)"	"yes)"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:33:17	"student009"	"student"	105	"so Harry and his aunt's family are in thee zoo"	"so Harry and his aunt's family are at the zoo"	"102.0"	NA	NA	NA	NA	NA	10
+2020-08-18 07:33:42	"teacher008"	"teacher"	107	"true!"	"true!"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:34:02	"student009"	"student"	108	"and he helped the snake"	"and he helped the snake"	NA	NA	NA	NA	NA	NA	5
+2020-08-18 07:34:35	"teacher008"	"teacher"	109	"Yes, correct. Well, you do know your Harry Potter books!"	"Yes, correct. Well, you do know your Harry Potter books!"	NA	"9.0"	"topic opening"	NA	NA	NA	10
+2020-08-18 07:34:51	"student009"	"student"	110	"yes)"	"yes)"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:34:52	"teacher008"	"teacher"	111	"Was it nice to read bits in English?"	"Was it nice to read bits in English?"	NA	"9a"	"topic development"	NA	NA	NA	8
+2020-08-18 07:35:05	"student009"	"student"	112	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:35:16	"student009"	"student"	113	"intresting"	"interesting"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:36:03	"teacher008"	"teacher"	114	"Would you like to look at the photos again and see if there are any bits that are hard to understand? I'll give you 5 min"	"Would you like to look at the photos again and see if there are any bits that are hard to understand? I'll give you 5 min"	NA	"10.0"	"exercise"	"reading,lexical resource"	NA	NA	26
+2020-08-18 07:36:50	"student009"	"student"	115	"snarled"	"snarled"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:36:59	"student009"	"student"	116	"feeble"	"feeble"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:37:24	"student009"	"student"	117	"grunted"	"grunted"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:37:31	"student009"	"student"	118	"lawn"	"lawn"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:38:15	"student009"	"student"	119	"idle"	"idle"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:39:04	"teacher008"	"teacher"	120	"Got it, anything else?"	"Got it, anything else?"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:39:06	"student009"	"student"	121	"shrivelled bean"	"shrivelled bean"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:39:16	"student009"	"student"	122	"hastily"	"hastily"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:39:23	"student009"	"student"	123	"lilac"	"lilac"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:39:51	"student009"	"student"	124	"stirred"	"stirred"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:40:01	"student009"	"student"	125	"palest pink"	"palest pink"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:40:11	"student009"	"student"	126	"demanded"	"demanded"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:40:19	"student009"	"student"	127	"fumes"	"fumes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:40:24	"student009"	"student"	128	"caulldron"	"cauldron"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:40:45	"student009"	"student"	129	"slab"	"slab"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:41:00	"student009"	"student"	130	"crumpled"	"crumpled"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:41:13	"student009"	"student"	131	"piped up"	"piped up"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:41:24	"student009"	"student"	132	"cellar"	"cellar"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:41:42	"student009"	"student"	133	"throeat"	"throat"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:42:01	"student009"	"student"	134	"reddish mound"	"reddish mound"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:42:05	"teacher008"	"teacher"	135	"Tjat"	"Tjat"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:42:19	"student009"	"student"	136	"uncoiling"	"uncoiling"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:42:25	"teacher008"	"teacher"	137	"That's quite a list, let's look at some of them, maybe you can guess the meaning"	"That's quite a list, let's look at some of them, maybe you can guess the meaning"	"135.0"	NA	"repair"	"writing"	NA	NA	16
+2020-08-18 07:42:45	"teacher008"	"teacher"	138	"We talked about 'a cauldron' last time, it's a pan for making potions, remember?"	"We talked about 'a cauldron' last time, it's a pan for making potions, remember?"	NA	"10a"	"eliciting,scaffolding,revision"	"lexical resource"	NA	NA	14
+2020-08-18 07:43:00	"student009"	"student"	139	"ah yes"	"ah yes"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:43:32	"teacher008"	"teacher"	140	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:44:33	"teacher008"	"teacher"	141	"a reddish mound' If we add -ish to words, it means something is not quite like it, but close. For example, my shirt isn't yellow, it's yellowish"	"a reddish mound' If we add -ish to words, it means something is not quite like it, but close. For example, my shirt isn't yellow, it's yellowish"	NA	"10b"	"scaffolding"	"lexical resource"	NA	NA	27
+2020-08-18 07:44:48	"teacher008"	"teacher"	142	"Did you get up early? Well, early-ish, about 8 am"	"Did you get up early? Well, early-ish, about 8 am"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-08-18 07:44:56	"teacher008"	"teacher"	143	"Not quite early, you see?"	"Not quite early, you see?"	NA	NA	NA	NA	NA	NA	5
+2020-08-18 07:45:11	"teacher008"	"teacher"	144	"So if something is 'reddish', it's ?"	"So if something is 'reddish', it's ?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	7
+2020-08-18 07:45:11	"student009"	"student"	145	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:45:49	"teacher008"	"teacher"	146	"what do you think?"	"what do you think?"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:46:00	"teacher008"	"teacher"	147	"what colour?"	"what colour?"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:46:18	"student009"	"student"	148	"pink?"	"pink?"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:46:48	"teacher008"	"teacher"	149	"Kind of! Not quite red, right?"	"Kind of! Not quite red, right?"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2020-08-18 07:46:57	"student009"	"student"	150	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:47:42	"teacher008"	"teacher"	151	"Now, Uncle Vernon looked after his 'lawn'. A lawn is an area of grass that's all cut to the same height"	"Now, Uncle Vernon looked after his 'lawn'. A lawn is an area of grass that's all cut to the same height"	NA	"10c"	"scaffolding"	"lexical resource"	NA	NA	21
+2020-08-18 07:47:58	"teacher008"	"teacher"	152	"with a machine called a lawnmower"	"with a machine called a lawnmower"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-08-18 07:48:59	"teacher008"	"teacher"	153	"Lawns are very important in the English culture. Many people want to create a perfect lawn. But other people say that it's much better for nature to have some flowers there too, not just cut grass, not good for bees!"	"Lawns are very important in the English culture. Many people want to create a perfect lawn. But other people say that it's much better for nature to have some flowers there too, not just cut grass, not good for bees!"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	40
+2020-08-18 07:49:26	"teacher008"	"teacher"	154	"And I just think a lawn is a waste of space, I like to grow fruit and vegetables, not lawn!"	"And I just think a lawn is a waste of space, I like to grow fruit and vegetables, not lawn!"	NA	NA	NA	NA	NA	NA	20
+2020-08-18 07:49:35	"teacher008"	"teacher"	155	"Does it make sense?"	"Does it make sense?"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:49:44	"teacher008"	"teacher"	156	"You can always google pictures of a lawn"	"You can always google pictures of a lawn"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-08-18 07:50:49	"student009"	"student"	157	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:51:10	"teacher008"	"teacher"	158	"Hey <STUDENT>, is everything ok?"	"Hey <STUDENT>, is everything ok?"	NA	"11.0"	"disruption"	NA	NA	NA	5
+2020-08-18 07:51:24	"student009"	"student"	159	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:52:15	"teacher008"	"teacher"	160	"Internet problems?"	"Internet problems?"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:52:24	"student009"	"student"	161	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:52:35	"teacher008"	"teacher"	162	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:53:01	"teacher008"	"teacher"	163	"When I was about 14, 'Harry Potter and the Philosopher's Stone' was the first book I read in English!"	"When I was about 14, 'Harry Potter and the Philosopher's Stone' was the first book I read in English!"	NA	"12.0"	"topic opening"	NA	NA	NA	19
+2020-08-18 07:53:30	"student009"	"student"	164	"that's cool!"	"that's cool!"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:54:03	"teacher008"	"teacher"	165	"I think the first few pages were hard, and I looked up every new word in the dictionary. But then it became much easier because I learned lots of words"	"I think the first few pages were hard, and I looked up every new word in the dictionary. But then it became much easier because I learned lots of words"	NA	NA	"scaffolding"	"reading,meta knowledge"	NA	NA	30
+2020-08-18 07:54:33	"teacher008"	"teacher"	166	"If you get hold of a copy of the book in English, you could give it a try! I bet you can do it!"	"If you get hold of a copy of the book in English, you could give it a try! I bet you can do it!"	NA	NA	NA	NA	NA	NA	24
+2020-08-18 07:56:24	"student009"	"student"	167	"are you here?"	"are you here?"	NA	"12a"	NA	NA	NA	NA	3
+2020-08-18 07:56:32	"teacher008"	"teacher"	168	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:56:54	"teacher008"	"teacher"	169	"What do you think? Do you think you could read the Philosopher's Stone in English?"	"What do you think? Do you think you could read the Philosopher's Stone in English?"	NA	"12b"	"topic development"	NA	NA	NA	15
+2020-08-18 07:57:01	"student009"	"student"	170	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:57:34	"teacher008"	"teacher"	171	"The first couple of books are written in a simpler language and are a great first read"	"The first couple of books are written in a simpler language and are a great first read"	NA	NA	"scaffolding"	"reading,meta knowledge"	NA	NA	17
+2020-08-18 07:57:46	"teacher008"	"teacher"	172	"Or maybe you have read book in English already?"	"Or maybe you have read book in English already?"	NA	"12c"	"topic development"	NA	NA	NA	9
+2020-08-18 07:58:07	"student009"	"student"	173	"😊(*/ω＼*)"	"😊(*/ω＼*)"	NA	NA	NA	NA	NA	NA	1
+2020-08-18 07:58:27	"student009"	"student"	174	"I think I haven't"	"I think I haven't"	NA	NA	NA	NA	NA	NA	4
+2020-08-18 07:58:45	"teacher008"	"teacher"	175	"Something to think about :)"	"Something to think about :)"	NA	NA	NA	NA	NA	NA	5
+2020-08-18 07:59:17	"teacher008"	"teacher"	176	"Ok, <STUDENT>, well done today! Have a nice day and I'll talk to you on Thursday at `10 am"	"Ok, <STUDENT>, well done today! Have a nice day and I'll talk to you on Thursday at `10 am"	NA	"13.0"	"closing"	NA	NA	NA	19
+2020-08-18 07:59:37	"student009"	"student"	177	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-08-18 07:59:38	"teacher008"	"teacher"	178	"* you have read bookS, not book"	"* you have read bookS, not book"	"172.0"	NA	"repair"	"writing"	NA	NA	7
+2020-08-18 07:59:42	"student009"	"student"	179	"goodbye!"	"goodbye!"	"177.0"	NA	NA	NA	NA	NA	1
+2020-08-18 07:59:48	"teacher008"	"teacher"	180	"Take care!"	"Take care!"	NA	NA	NA	NA	NA	"B2"	2

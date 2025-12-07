@@ -1,0 +1,205 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-09 11:11:36	"student012"	"student"	1	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-12-09 11:12:00	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 11:12:05	"teacher008"	"teacher"	3	"How are you? All ok?"	"How are you? All ok?"	NA	"2.0"	"topic opening"	NA	NA	NA	5
+2020-12-09 11:12:28	"student012"	"student"	4	"I'm fine! Thanks"	"I'm fine! Thanks"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:12:30	"student012"	"student"	5	"And you?"	"And you?"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 11:12:44	"teacher008"	"teacher"	6	"All good, thank you"	"All good, thank you"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:12:48	"student012"	"student"	7	"Unfortunately, I haven't done my homework"	"Unfortunately, I haven't done my homework"	NA	"3.0"	"topic opening,homework"	NA	NA	NA	6
+2020-12-09 11:13:02	"teacher008"	"teacher"	8	"Slightly overwhelmed with all the Christmas prep"	"Slightly overwhelmed with all the Christmas prep"	6	"2a"	"topic development"	NA	NA	NA	7
+2020-12-09 11:13:04	"student012"	"student"	9	"We can do it in the chatroom"	"We can do it in the chatroom"	7	NA	NA	NA	NA	NA	7
+2020-12-09 11:13:07	"teacher008"	"teacher"	10	"Oh, no worries!"	"Oh, no worries!"	7	NA	NA	NA	NA	NA	3
+2020-12-09 11:13:10	"teacher008"	"teacher"	11	"Yes, sure"	"Yes, sure"	9	NA	NA	NA	NA	NA	2
+2020-12-09 11:13:22	"student012"	"student"	12	"Do you have a lot of preparations to do?"	"Do you have a lot of preparation to do?"	8	NA	NA	NA	NA	NA	9
+2020-12-09 11:13:59	"teacher008"	"teacher"	13	"It feels like it! There's presents for family and friends to sort, cards to write etc. Cards are really big in this country!"	"It feels like it! There's presents for family and friends to sort, cards to write etc. Cards are really big in this country!"	NA	NA	NA	NA	NA	NA	23
+2020-12-09 11:14:23	"student012"	"student"	14	"Oh yes. The presents"	"Oh yes. Presents"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:14:26	"teacher008"	"teacher"	15	"There's a 'post box' at school, and all children exchange cards and send cards to teachers"	"There's a 'post box' at school, and all children exchange cards and send cards to teachers"	NA	NA	NA	NA	NA	NA	16
+2020-12-09 11:14:29	"student012"	"student"	16	"A disaster really"	"A disaster really"	14	NA	NA	NA	NA	NA	3
+2020-12-09 11:14:33	"teacher008"	"teacher"	17	"There's a lot of peer pressure!"	"There's a lot of peer pressure!"	15	NA	NA	NA	NA	NA	6
+2020-12-09 11:14:47	"student012"	"student"	18	"with my family of God know how many members"	"with my family of God knows how many members"	16	NA	NA	NA	NA	NA	9
+2020-12-09 11:14:57	"student012"	"student"	19	"God knows*"	"God knows*"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-12-09 11:15:15	"student012"	"student"	20	"So <TEACHER'S CHILD> is making one too?"	"So <TEACHER'S CHILD> is making one too?"	15	NA	NA	NA	NA	NA	7
+2020-12-09 11:15:21	"student012"	"student"	21	"Or it's not only one??"	"Or it's not the only one??"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:15:27	"teacher008"	"teacher"	22	"Oh yes, you do have a big family, don't you? I suppose it's a blessing and a challenge at the same time?"	"Oh yes, you do have a big family, don't you? I suppose it's a blessing and a challenge at the same time?"	18	NA	NA	NA	NA	NA	22
+2020-12-09 11:15:51	"student012"	"student"	23	"Exactly. During the holiday season it's a nightmate"	"Exactly. During the holiday season it's a nightmare"	NA	NA	NA	NA	NA	NA	8
+2020-12-09 11:15:56	"student012"	"student"	24	"*nightmare"	"*nightmare"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-09 11:16:01	"teacher008"	"teacher"	25	"A card to each of the three teachers + cards for his school friends"	"A card to each of the three teachers + cards for his school friends"	21	NA	NA	NA	NA	NA	14
+2020-12-09 11:16:08	"student012"	"student"	26	"OMG"	"OMG"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 11:16:24	"student012"	"student"	27	"Can you just make one and copy it? )))))"	"Can you just make one and copy it? )))))"	NA	NA	NA	NA	NA	NA	9
+2020-12-09 11:16:25	"teacher008"	"teacher"	28	"And I've just remembered, a card for his PE teacher!"	"And I've just remembered, a card for his PE teacher!"	NA	NA	NA	NA	NA	NA	10
+2020-12-09 11:16:45	"teacher008"	"teacher"	29	"No, they've got to be handwritten!"	"No, they've got to be handwritten!"	NA	NA	NA	NA	NA	NA	6
+2020-12-09 11:16:51	"student012"	"student"	30	"No way"	"No way"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 11:17:02	"teacher008"	"teacher"	31	"I know. The pressure is real"	"I know. The pressure is real"	NA	NA	NA	NA	NA	NA	6
+2020-12-09 11:17:11	"student012"	"student"	32	"This is intense"	"This is intense"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:18:03	"teacher008"	"teacher"	33	"And you know, it's the peer pressure between parents. Everyone's one-upping each other with presents to teachers. I vowed not to take part, but am crumbling under the pressure"	"And you know, it's the peer pressure between parents. Everyone's one-upping each other with presents to teachers. I vowed not to take part, but am crumbling under the pressure"	NA	NA	NA	NA	NA	NA	29
+2020-12-09 11:18:10	"student012"	"student"	34	"This year I told my family, 'That's enough! I don't have enough money to buy you the presents you don't really need. Let's do Secret Santa this time!'"	"This year I told my family, 'That's enough! I don't have enough money to buy you the presents you don't really need. Let's do Secret Santa this time!'"	NA	"2b"	"topic development"	NA	NA	NA	28
+2020-12-09 11:18:30	"teacher008"	"teacher"	35	"Oh, that's a brilliant idea!"	"Oh, that's a brilliant idea!"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:18:51	"teacher008"	"teacher"	36	"Everyone's probably feeling this way, but someone has to say it!"	"Everyone's probably feeling this way, but someone has to say it!"	NA	NA	NA	NA	NA	NA	11
+2020-12-09 11:18:55	"student012"	"student"	37	"Why would parents do that? Aren't they busy with more important stuff?"	"Why would parents do that? Aren't they busy with more important stuff?"	33	NA	NA	NA	NA	NA	12
+2020-12-09 11:19:25	"student012"	"student"	38	"Thank you! I think so too"	"Thank you! I think so too"	36	NA	NA	NA	NA	NA	6
+2020-12-09 11:19:27	"teacher008"	"teacher"	39	"That's my question as well. How do they have the time and energy for this, as well as the parents' chat?"	"That's my question as well. How do they have the time and energy for this, as well as the parents' chat?"	37	NA	NA	NA	NA	NA	21
+2020-12-09 11:19:41	"student012"	"student"	40	"So I picked a name. I got my younger brother and that's it"	"So I picked a name. I got my younger brother and that's it"	38	NA	NA	NA	NA	NA	13
+2020-12-09 11:19:53	"student012"	"student"	41	"Oh my"	"Oh my"	39	NA	NA	NA	NA	NA	2
+2020-12-09 11:19:58	"student012"	"student"	42	"The parents chats"	"The parents' chats"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:20:07	"teacher008"	"teacher"	43	"Nice! I didn't know you had a brother!"	"Nice! I didn't know you had a brother!"	40	NA	NA	NA	NA	NA	8
+2020-12-09 11:20:15	"student012"	"student"	44	"The viber croud"	"The viber crowd"	42	NA	NA	NA	NA	NA	3
+2020-12-09 11:20:17	"student012"	"student"	45	"crowd"	"crowd"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-09 11:20:20	"teacher008"	"teacher"	46	"The parents' chat is a dragon lair"	"The parents' chat is a dragon lair"	NA	NA	NA	NA	NA	NA	7
+2020-12-09 11:20:20	"student012"	"student"	47	")))))"	")))))"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 11:20:52	"teacher008"	"teacher"	48	"enter at your own risk"	"enter at your own risk"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:21:04	"student012"	"student"	49	"I have a couple a brothers, a couple of sisters, from different mothers and misters))))"	"I have a couple of brothers, a couple of sisters, from different mothers and misters))))"	43	NA	NA	NA	NA	NA	15
+2020-12-09 11:21:24	"teacher008"	"teacher"	50	":)) that's nice!"	":)) that's nice!"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:21:37	"teacher008"	"teacher"	51	"It's only <TEACHER'S SISTER> and me with us, no cousins"	"It's only <TEACHER'S SISTER> and me with us, no cousins"	NA	NA	NA	NA	NA	NA	10
+2020-12-09 11:21:57	"student012"	"student"	52	"I've been told the chats are terrible...horrible places"	"I've been told the chats are terrible...horrible places"	48	NA	NA	NA	NA	NA	8
+2020-12-09 11:22:12	"student012"	"student"	53	"I guess I'll have to see for myself"	"I guess I'll have to see for myself"	NA	NA	NA	NA	NA	NA	8
+2020-12-09 11:22:26	"teacher008"	"teacher"	54	"Yes, cherish the few years before you have to do it :))"	"Yes, cherish the few years before you have to do it :))"	NA	NA	NA	NA	NA	NA	12
+2020-12-09 11:22:34	"student012"	"student"	55	"Sometimes, having just one sibling is a blessing you know)))"	"Sometimes, having just one sibling is a blessing you know)))"	51	NA	NA	NA	NA	NA	10
+2020-12-09 11:23:12	"student012"	"student"	56	"Oh I will definitely cherish these moments of tranquility"	"Oh I will definitely cherish these moments of tranquility"	54	NA	NA	NA	NA	NA	9
+2020-12-09 11:23:19	"teacher008"	"teacher"	57	"I bet, definitely two sides to this particular coin!"	"I bet, definitely two sides to this particular coin!"	55	NA	NA	NA	NA	NA	9
+2020-12-09 11:23:32	"student012"	"student"	58	"Indeed"	"Indeed"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 11:24:06	"teacher008"	"teacher"	59	"Has <STUDENT'S CHILD> got an army of cousins then?"	"Has <STUDENT'S CHILD> got an army of cousins then?"	NA	"2c"	"topic development"	NA	NA	NA	9
+2020-12-09 11:26:51	"student012"	"student"	60	"Sorry, my dad called"	"Sorry, my dad called"	NA	"2d"	"disruption"	NA	NA	NA	4
+2020-12-09 11:27:02	"teacher008"	"teacher"	61	"no problem"	"no problem"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 11:27:32	"student012"	"student"	62	"All my brothers and sisters and younger than me so still no cousins in sight for <STUDENT'S CHILD>))"	"All my brothers and sisters are younger than me so still no cousins in sight for <STUDENT'S CHILD>))"	59	NA	NA	NA	NA	NA	18
+2020-12-09 11:27:37	"student012"	"student"	63	"*are"	"*are"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-09 11:28:07	"teacher008"	"teacher"	64	"Oh I see! Somehow I was under the impression you had an elder sister. Never mind!"	"Oh I see! Somehow I was under the impression you had an elder sister. Never mind!"	62	NA	NA	NA	NA	NA	16
+2020-12-09 11:28:18	"student012"	"student"	65	"She compensates with plenty of friends"	"She compensates with plenty of friends"	62	NA	NA	NA	NA	NA	6
+2020-12-09 11:28:25	"teacher008"	"teacher"	66	"I'm sure!"	"I'm sure!"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 11:28:41	"student012"	"student"	67	"I am the elder sister *cries*"	"I am the elder sister *cries*"	64	NA	NA	NA	NA	NA	6
+2020-12-09 11:28:42	"student012"	"student"	68	")))))"	")))))"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 11:29:02	"teacher008"	"teacher"	69	"Haha, me too! sob sob"	"Haha, me too! sob sob"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:29:13	"student012"	"student"	70	"I sometimes wish I weren't"	"I sometimes wish I weren't"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:29:28	"student012"	"student"	71	"You can relate!"	"You can relate!"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:29:44	"teacher008"	"teacher"	72	"Do you think there's truth to the correlation between birth order and personality?"	"Do you think there's truth to the correlation between birth order and personality?"	NA	"4.0"	"topic opening"	"writing"	NA	NA	13
+2020-12-09 11:31:13	"student012"	"student"	73	"In a way yes"	"In a way yes"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:31:41	"student012"	"student"	74	"In particular, how a person handles stress and responsibility"	"In particular, how a person handles stress and responsibility"	NA	NA	NA	NA	NA	NA	9
+2020-12-09 11:32:24	"teacher008"	"teacher"	75	"I think I know what you mean, but for the sake of writing practice I'm going to ask you to elaborate :)"	"I think I know what you mean, but for the sake of writing practice I'm going to ask you to elaborate :)"	NA	NA	"eliciting"	"writing,discourse management"	NA	NA	22
+2020-12-09 11:34:19	"student012"	"student"	76	"If you're the elder one, you're responsible for yourself as well as for the younger sibling. You shouldn't be but the rough reality of most families is that you are. And it forms you"	"If you're the eldest, you're responsible for yourself as well as for the younger sibling. You shouldn't be but the rough reality of most families is that you are. And it forms you"	NA	NA	NA	NA	NA	NA	34
+2020-12-09 11:35:19	"student012"	"student"	77	"... shapes your personality. You try to be stronger, more determined and set an example"	"... shapes your personality. You try to be stronger, more determined and set an example"	NA	NA	NA	NA	NA	NA	15
+2020-12-09 11:35:30	"teacher008"	"teacher"	78	"Oh yes, I know what you mean! In an ideal world, the eldest would still be able to be a child and not look after the younger siblings, but like you say, the harsh reality"	"Oh yes, I know what you mean! In an ideal world, the eldest would still be able to be a child and not look after the younger siblings, but like you say, the harsh reality"	NA	NA	NA	NA	NA	NA	35
+2020-12-09 11:36:00	"student012"	"student"	79	"Exactly."	"Exactly."	NA	NA	NA	NA	NA	NA	1
+2020-12-09 11:36:11	"student012"	"student"	80	"My mom and step-father worked non-stop"	"My mom and step-father worked non-stop"	NA	NA	NA	NA	NA	NA	6
+2020-12-09 11:36:16	"student012"	"student"	81	"in the 90-s"	"in the 90-s"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:36:42	"teacher008"	"teacher"	82	"I think it's a generational / cultural thing too. I think (and hope) that now elder siblings do not have to look after the younger ones as much"	"I think it's a generational / cultural thing too. I think (and hope) that now elder siblings do not have to look after the younger ones as much"	NA	NA	NA	NA	NA	NA	28
+2020-12-09 11:37:04	"student012"	"student"	83	"I really hope so too"	"I really hope so too"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:37:11	"teacher008"	"teacher"	84	"Yes, this is actually classes as a 'young carer' now, a role a child isn't meant to play!"	"Yes, this is actually classes as a 'young carer' now, a role a child isn't meant to play!"	NA	NA	NA	NA	NA	NA	18
+2020-12-09 11:37:28	"student012"	"student"	85	"I think that a child in their teens is the most vulnerable"	"I think that a child in their teens is the most vulnerable"	NA	NA	NA	NA	NA	NA	12
+2020-12-09 11:38:00	"teacher008"	"teacher"	86	"Definitely, because they are 'supposed' to be responsible by that age"	"Definitely, because they are 'supposed' to be responsible by that age"	NA	NA	NA	NA	NA	NA	11
+2020-12-09 11:38:00	"student012"	"student"	87	"And I was a teenager when I had suddenly been given all this unwanted responsibility"	"And I was a teenager when I had suddenly been given all this unwanted responsibility"	NA	NA	NA	NA	NA	NA	15
+2020-12-09 11:38:45	"student012"	"student"	88	"It was really hard for me and messed up my self-perception"	"It was really hard for me and messed up with my self-perception"	NA	NA	NA	NA	NA	NA	11
+2020-12-09 11:38:57	"student012"	"student"	89	"messed up my self-perception"	"messed up my self-perception"	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2020-12-09 11:39:07	"teacher008"	"teacher"	90	"Yes, I had to look after a 3-year-old <TEACHER'S SISTER> when I was 10, I remember that well. But I would never trust a 10-year-old with a my own 3-year-old"	"Yes, I had to look after a 3-year-old <TEACHER'S SISTER> when I was 10, I remember that well. But I would never trust a 10-year-old with a my own 3-year-old"	88	NA	NA	NA	NA	NA	30
+2020-12-09 11:39:20	"teacher008"	"teacher"	91	"You need a certain level of maturity"	"You need a certain level of maturity"	NA	NA	NA	NA	NA	NA	7
+2020-12-09 11:39:28	"student012"	"student"	92	"Neither would I!"	"Neither would I!"	90	NA	NA	NA	NA	NA	3
+2020-12-09 11:39:50	"teacher008"	"teacher"	93	"But it seemed like a perfectly natural thing to do for my parents"	"But it seemed like a perfectly natural thing to do for my parents"	NA	NA	NA	NA	NA	NA	13
+2020-12-09 11:39:53	"student012"	"student"	94	"Desperate times call for desperate measures I guess"	"Desperate times call for desperate measures I guess"	NA	NA	NA	NA	NA	NA	8
+2020-12-09 11:40:15	"student012"	"student"	95	"Yes. Back then they didn't see it as a problem at all"	"Yes. Back then they didn't see it as a problem at all"	93	NA	NA	NA	NA	NA	12
+2020-12-09 11:41:09	"student012"	"student"	96	"Now that my mom has been a therapist and studied psychology she looks at it differently."	"Now that my mom has been a therapist and studied psychology she looks at it differently."	NA	NA	NA	NA	NA	NA	16
+2020-12-09 11:41:39	"teacher008"	"teacher"	97	"We watched 'Jaws' a few months ago, and I was struck by the fact that, like, an 8-year-old looks after a 4-year-old at the seaside, with a monstrous shark lurking in the water"	"We watched 'Jaws' a few months ago, and I was struck by the fact that, like, an 8-year-old looks after a 4-year-old at the seaside, with a monstrous shark lurking in the water"	NA	NA	NA	NA	NA	NA	33
+2020-12-09 11:41:59	"teacher008"	"teacher"	98	"Yes, I bet!"	"Yes, I bet!"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:42:02	"student012"	"student"	99	"The scariest moment of the movie, right? )))))"	"The scariest moment of the movie, right? )))))"	NA	NA	NA	NA	NA	NA	8
+2020-12-09 11:42:35	"teacher008"	"teacher"	100	"Absolutely! And what do the parents do? They yell at the kids out of the window not to go sailing in a boat!"	"Absolutely! And what do the parents do? They yell at the kids out of the window not to go sailing in a boat!"	NA	NA	NA	NA	NA	NA	23
+2020-12-09 11:44:04	"teacher008"	"teacher"	101	"Even without the shark, if there were two under-tens by the water unsupervised, people would call the police in this country"	"Even without the shark, if there were two under-tens by the water unsupervised, people would call the police in this country"	NA	NA	NA	NA	NA	NA	21
+2020-12-09 11:44:16	"student012"	"student"	102	"Oh well, the standard reaction from a lot of parents: kid in danger... yell at him to make him feel even worse"	"Oh well, the standard reaction from a lot of parents: kid in danger... yell at him to make him feel even worse"	NA	NA	NA	NA	NA	NA	22
+2020-12-09 11:44:40	"teacher008"	"teacher"	103	"But then, we're all 'millenial snowflakes' and 'helicopter parents' and not letting our children experience the world"	"But then, we're all 'millenial snowflakes' and 'helicopter parents' and not letting our children experience the world"	NA	NA	NA	NA	NA	NA	17
+2020-12-09 11:44:51	"teacher008"	"teacher"	104	"Yes, exactly, blame the kid!"	"Yes, exactly, blame the kid!"	102	NA	NA	NA	NA	NA	5
+2020-12-09 11:44:51	"student012"	"student"	105	"This, too."	"This, too."	103	NA	NA	NA	NA	NA	2
+2020-12-09 11:45:03	"student012"	"student"	106	"There should be a balance somewhere))))"	"There should be a balance somewhere))))"	NA	NA	NA	NA	NA	NA	6
+2020-12-09 11:45:14	"student012"	"student"	107	"I don't know where"	"I don't know where"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:45:48	"teacher008"	"teacher"	108	"I think we're doing the right thing though. Not exactly a sphere where we can affor mistakes"	"I think we're doing the right thing though. Not exactly a sphere where we can affor mistakes"	NA	NA	NA	NA	NA	NA	17
+2020-12-09 11:45:56	"teacher008"	"teacher"	109	"*afford"	"*afford"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-09 11:46:25	"student012"	"student"	110	"Petranovska says that it's logical... the helicopter parenting. And that with time it will subside a little"	"Petranovska says that it's logical... the helicopter parenting. And that with time it will subside a little"	108	NA	NA	NA	NA	NA	17
+2020-12-09 11:47:00	"student012"	"student"	111	"It's like the other extreme."	"It's like the other extreme."	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:47:01	"teacher008"	"teacher"	112	"And the people who criticize it have been hardened by life and lash out"	"And the people who criticize it have been hardened by life and lash out"	108	NA	NA	NA	NA	NA	14
+2020-12-09 11:47:15	"teacher008"	"teacher"	113	"Oh, I like her, but I haven't read that bit"	"Oh, I like her, but I haven't read that bit"	110	NA	NA	NA	NA	NA	10
+2020-12-09 11:47:29	"student012"	"student"	114	"It was in one of her streams"	"It was in one of her streams"	NA	NA	NA	NA	NA	NA	7
+2020-12-09 11:47:36	"student012"	"student"	115	"I'll look it up for you"	"I'll look it up for you"	NA	NA	NA	NA	NA	NA	6
+2020-12-09 11:47:42	"teacher008"	"teacher"	116	"Yes, very reasonable"	"Yes, very reasonable"	108	NA	NA	NA	NA	NA	3
+2020-12-09 11:47:47	"teacher008"	"teacher"	117	"Thank you :)"	"Thank you :)"	115	NA	NA	NA	NA	NA	3
+2020-12-09 11:47:49	"student012"	"student"	118	"She is super cool"	"She is super cool"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:47:58	"teacher008"	"teacher"	119	"Oh, she is wonderful!"	"Oh, she is wonderful!"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:48:26	"student012"	"student"	120	"Every mom-to-be should at least read her book on parenting, I think."	"Every mom-to-be should at least read her book on parenting, I think."	NA	NA	NA	NA	NA	NA	12
+2020-12-09 11:48:49	"teacher008"	"teacher"	121	"I completely agree"	"I completely agree"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:49:02	"student012"	"student"	122	"Let me digress a little"	"Let me digress a little"	NA	"5.0"	"topic opening"	"lexical resource"	NA	NA	5
+2020-12-09 11:49:04	"teacher008"	"teacher"	123	"Ok, shall we sink our teeth into some CPE stuff?"	"Ok, shall we sink our teeth into some CPE stuff?"	NA	"6.0"	"topic opening"	"exam prep"	NA	NA	10
+2020-12-09 11:49:08	"teacher008"	"teacher"	124	"Oh, go on :)"	"Oh, go on :)"	122	NA	NA	NA	NA	NA	4
+2020-12-09 11:49:13	"student012"	"student"	125	"I remembered what I've always wanted to ask you"	"I remembered what I've always wanted to ask you"	NA	NA	NA	NA	NA	NA	9
+2020-12-09 11:49:34	"student012"	"student"	126	"What's the English for струя воды из крана?"	"What's the English for струя воды из крана?"	NA	NA	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	8
+2020-12-09 11:50:01	"teacher008"	"teacher"	127	"Hmm, let me think"	"Hmm, let me think"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:50:10	"teacher008"	"teacher"	128	"in what context, please?"	"in what context, please?"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:50:20	"student012"	"student"	129	"<STUDENT'S CHILD> loved watee, spends tones of time in the bathtub"	"<STUDENT'S CHILD> loves water, spends tones of time in the bathtub"	NA	NA	NA	NA	NA	NA	11
+2020-12-09 11:50:24	"student012"	"student"	130	"*water"	"*water"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-09 11:50:35	"teacher008"	"teacher"	131	"the flow of water from the tap"	"the flow of water from the tap"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-12-09 11:50:55	"student012"	"student"	132	"She likes to play with the flow, fill up her little containers"	"She likes to play with the flow, fill up her little containers"	NA	NA	NA	NA	NA	NA	12
+2020-12-09 11:51:01	"student012"	"student"	133	"the flow! thanks"	"the flow! thanks"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 11:51:06	"student012"	"student"	134	"and if it's real strong"	"and if it's real strong"	NA	"5a"	"enquiry"	"lexical resource"	NA	NA	5
+2020-12-09 11:51:11	"student012"	"student"	135	"does it become a jet?"	"does it become a jet?"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:51:16	"teacher008"	"teacher"	136	"Oh lovely, <TEACHER'S CHILD> loves that too"	"Oh lovely, <TEACHER'S CHILD> loves that too"	132	NA	NA	NA	NA	NA	7
+2020-12-09 11:51:27	"teacher008"	"teacher"	137	"Yes, it can be a jet! If it's really forceful"	"Yes, it can be a jet! If it's really forceful"	135	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-12-09 11:51:35	"student012"	"student"	138	"))) I think <TEACHER'S CHILD> and <STUDENT'S CHILD> might get along ))"	"))) I think <TEACHER'S CHILD> and <STUDENT'S CHILD> might get along ))"	136	NA	NA	NA	NA	NA	12
+2020-12-09 11:51:36	"teacher008"	"teacher"	139	"or a drip, if it's the opposite"	"or a drip, if it's the opposite"	137	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-12-09 11:51:52	"student012"	"student"	140	"And what about a stream?"	"And what about a stream?"	NA	"5b"	"enquiry"	"lexical resource"	NA	NA	5
+2020-12-09 11:51:54	"teacher008"	"teacher"	141	"Hopefully they can meet each other one day!"	"Hopefully they can meet each other one day!"	138	NA	NA	NA	NA	NA	8
+2020-12-09 11:51:57	"student012"	"student"	142	"Do you use that one?"	"Do you use that one?"	140	NA	NA	NA	NA	NA	5
+2020-12-09 11:52:01	"teacher008"	"teacher"	143	"Oh yes, a stream, definitely"	"Oh yes, a stream, definitely"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:52:05	"student012"	"student"	144	"Hopefully, yes!"	"Hopefully, yes!"	141	NA	NA	NA	NA	NA	2
+2020-12-09 11:52:26	"teacher008"	"teacher"	145	"I think 'stream' will work better in your sentence, actually"	"I think 'stream' will work better in your sentence, actually"	143	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-12-09 11:52:42	"teacher008"	"teacher"	146	"she like to play with the stream of water coming out of the tap"	"she like to play with the stream of water coming out of the tap"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-12-09 11:52:49	"teacher008"	"teacher"	147	"or faucet, obviously :)"	"or faucet, obviously :)"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 11:52:57	"student012"	"student"	148	"so a drip if it's very weak, then a stream... then maybe a flow and a jet"	"so a drip if it's very weak, then a stream... then maybe a flow and a jet"	NA	NA	NA	NA	NA	NA	17
+2020-12-09 11:53:14	"student012"	"student"	149	"Great!"	"Great!"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 11:53:24	"student012"	"student"	150	"Thank you! A stream it is then."	"Thank you! A stream it is then."	146	NA	NA	NA	NA	NA	7
+2020-12-09 11:53:56	"teacher008"	"teacher"	151	"Yes, makes sense!"	"Yes, makes sense!"	148	NA	NA	NA	NA	NA	3
+2020-12-09 11:54:40	"teacher008"	"teacher"	152	"Ok, we got to the reading part in the test"	"Ok, we got to the reading part in the test"	NA	"6a"	"redirection"	NA	NA	NA	10
+2020-12-09 11:54:45	"student012"	"student"	153	"We discussed it with <STUDENT'S HUSBAND> many times but decided that only a native speaker can really know how and when to  use these terms"	"We discussed it with <STUDENT'S HUSBAND> many times but decided that only a native speaker can really know how and when to  use these terms"	NA	"5c"	"topic development"	"lexical resource"	NA	NA	26
+2020-12-09 11:54:57	"student012"	"student"	154	"Sure."	"Sure."	152	NA	NA	NA	NA	NA	1
+2020-12-09 11:55:04	"student012"	"student"	155	"Let me open the file"	"Let me open the file"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 11:55:18	"teacher008"	"teacher"	156	"Yes, those are tricky little things!"	"Yes, those are tricky little things!"	153	NA	NA	NA	NA	NA	6
+2020-12-09 11:56:04	"student012"	"student"	157	"Ok. Opened it"	"Ok. Opened it"	155	NA	NA	NA	NA	NA	3
+2020-12-09 11:56:22	"teacher008"	"teacher"	158	"Even a 9 at IELTS or a CPE won't give you those, actually. The everyday little words"	"Even a 9 at IELTS or a CPE won't give you those, actually. The everyday little words"	156	NA	NA	NA	NA	NA	17
+2020-12-09 11:56:51	"student012"	"student"	159	"Oh yes!"	"Oh yes!"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 11:57:08	"student012"	"student"	160	"This is harder than any CPE ))))"	"This is harder than any CPE ))))"	NA	NA	NA	NA	NA	NA	7
+2020-12-09 11:57:43	"teacher008"	"teacher"	161	"Thanks, page 8. Lucy gets a new job. The text is quite challenging actually I think, don't be daunted, ok? You don't need to understand every word, just be able to answer the questions. Can you read the text and let me know when you're done? And then we can take the questions one by one"	"Thanks, page 8. Lucy gets a new job. The text is quite challenging actually I think, don't be daunted, ok? You don't need to understand every word, just be able to answer the questions. Can you read the text and let me know when you're done? And then we can take the questions one by one"	157	"6b"	"exercise"	"reading"	NA	NA	56
+2020-12-09 11:58:05	"student012"	"student"	162	"Sure! I'm on it"	"Sure! I'm on it"	NA	NA	NA	NA	NA	NA	4
+2020-12-09 12:04:16	"student012"	"student"	163	"ok ready"	"ok ready"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:04:37	"student012"	"student"	164	"31 C"	"31 C"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:05:25	"teacher008"	"teacher"	165	"Yes, well done! I didn't get that one right, tbh))"	"Yes, well done! I didn't get that one right, tbh))"	NA	NA	NA	NA	NA	NA	10
+2020-12-09 12:05:26	"student012"	"student"	166	"32 C"	"32 C"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:05:38	"teacher008"	"teacher"	167	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 12:06:03	"student012"	"student"	168	"33 D"	"33 D"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:06:06	"teacher008"	"teacher"	169	"yes)"	"yes)"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 12:06:43	"student012"	"student"	170	"34 A"	"34 A"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:07:16	"teacher008"	"teacher"	171	"no, what would be your second choice?"	"no, what would be your second choice?"	NA	"6c"	"eliciting,repair"	"reading"	NA	NA	7
+2020-12-09 12:07:20	"student012"	"student"	172	"B"	"B"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 12:07:24	"teacher008"	"teacher"	173	"yes, B"	"yes, B"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:07:41	"teacher008"	"teacher"	174	"Can you see why?"	"Can you see why?"	NA	NA	"eliciting"	NA	NA	NA	4
+2020-12-09 12:07:41	"student012"	"student"	175	"Yeah, I hesitated with this one"	"Yeah, I hesitated with this one"	173	NA	NA	NA	NA	NA	6
+2020-12-09 12:07:55	"teacher008"	"teacher"	176	"fair enough"	"fair enough"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:09:00	"student012"	"student"	177	"Why... Well, because she bases Lucy's ability to be a successful journalist on her good essays at school"	"Why... Well, because she bases Lucy's ability to be a successful journalist on her good essays at school"	174	NA	NA	NA	NA	NA	18
+2020-12-09 12:09:08	"teacher008"	"teacher"	178	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:09:16	"student012"	"student"	179	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 12:09:17	"student012"	"student"	180	"yay"	"yay"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 12:10:11	"student012"	"student"	181	"35 A"	"35 A"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:10:18	"teacher008"	"teacher"	182	"correct!"	"correct!"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 12:10:50	"student012"	"student"	183	"36 C"	"36 C"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:11:10	"teacher008"	"teacher"	184	"Yes! Very very well done, <STUDENT> :)"	"Yes! Very very well done, <STUDENT> :)"	NA	NA	NA	NA	NA	NA	7
+2020-12-09 12:11:16	"student012"	"student"	185	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-12-09 12:11:16	"teacher008"	"teacher"	186	"and good time, too :)"	"and good time, too :)"	NA	NA	NA	NA	NA	NA	5
+2020-12-09 12:11:20	"student012"	"student"	187	"Still, one mistake"	"Still, one mistake"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 12:11:53	"teacher008"	"teacher"	188	"You don't have to get 100% to pass"	"You don't have to get 100% to pass"	NA	NA	NA	NA	NA	NA	8
+2020-12-09 12:12:05	"teacher008"	"teacher"	189	"There's a range, I'll look it up for you"	"There's a range, I'll look it up for you"	NA	NA	NA	NA	NA	NA	9
+2020-12-09 12:12:06	"student012"	"student"	190	"I know)"	"I know)"	188	NA	NA	NA	NA	NA	2
+2020-12-09 12:12:12	"student012"	"student"	191	"Thank you!"	"Thank you!"	189	NA	NA	NA	NA	NA	2
+2020-12-09 12:12:21	"student012"	"student"	192	"Do I get any homework?"	"Do I get any homework?"	NA	"7.0"	"enquiry,homework"	NA	NA	NA	5
+2020-12-09 12:12:34	"teacher008"	"teacher"	193	"Something like, 70-80% is C, 80-90% is B etc"	"Something like, 70-80% is C, 80-90% is B etc"	191	NA	NA	NA	NA	NA	9
+2020-12-09 12:12:46	"student012"	"student"	194	"I see. Ok!"	"I see. Ok!"	NA	NA	NA	NA	NA	NA	3
+2020-12-09 12:12:57	"teacher008"	"teacher"	195	"But my bands are likely to be off, don't trust that! I'll look it up!"	"But my bands are likely to be off, don't trust that! I'll look it up!"	NA	NA	NA	NA	NA	NA	15
+2020-12-09 12:13:06	"teacher008"	"teacher"	196	"You can finish the reading if you have the time"	"You can finish the reading if you have the time"	192	NA	NA	NA	NA	NA	10
+2020-12-09 12:13:17	"student012"	"student"	197	"No worries. I'm sure your bands are precise"	"No worries. I'm sure your bands are precise"	195	NA	NA	NA	NA	NA	8
+2020-12-09 12:13:25	"student012"	"student"	198	"OK! Deal"	"OK! Deal"	196	NA	NA	NA	NA	NA	2
+2020-12-09 12:13:35	"teacher008"	"teacher"	199	"Noo, it's a while since I took CPE, I'll look it up"	"Noo, it's a while since I took CPE, I'll look it up"	197	NA	NA	NA	NA	NA	12
+2020-12-09 12:13:44	"student012"	"student"	200	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2020-12-09 12:13:49	"student012"	"student"	201	"Have a great day!"	"Have a great day!"	NA	"7a"	"closing"	NA	NA	NA	4
+2020-12-09 12:13:50	"teacher008"	"teacher"	202	"Sure, take care, speak to you next week!"	"Sure, take care, speak to you next week!"	NA	NA	NA	NA	NA	NA	8
+2020-12-09 12:14:16	"student012"	"student"	203	"And a wonderful week... of card signing and gift-wrapping )))"	"And a wonderful week... of card signing and gift-wrapping )))"	NA	NA	NA	NA	NA	NA	10
+2020-12-09 12:14:26	"student012"	"student"	204	"See you soon!"	"See you soon!"	NA	NA	NA	NA	NA	"C2"	3

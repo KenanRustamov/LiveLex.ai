@@ -1,0 +1,171 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-14 07:35:49	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-08-14 07:35:55	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 07:36:07	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-08-14 07:36:18	"student009"	"student"	4	"I am fine"	"I am fine"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 07:36:26	"student009"	"student"	5	"and you?"	"and you?"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 07:36:48	"teacher008"	"teacher"	6	"Fine, thank you!"	"Fine, thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 07:37:02	"teacher008"	"teacher"	7	"I've got something special prepared for you today!"	"I've got something special prepared for you today!"	NA	"3.0"	"topic opening"	NA	NA	NA	8
+2020-08-14 07:37:33	"student009"	"student"	8	"intresting"	"interesting"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:37:38	"teacher008"	"teacher"	9	"I'll have to send you some pictures on Skype, will you be able to switch easily between Skype and the chat? Is your computer working?"	"I'll have to send you some pictures on Skype, will you be able to switch easily between Skype and the chat? Is your computer working?"	NA	"3a"	"topic development"	NA	NA	NA	25
+2020-08-14 07:39:01	"student009"	"student"	10	"yes , but wait a second"	"yes, but wait a second"	NA	NA	NA	NA	NA	NA	6
+2020-08-14 07:39:07	"teacher008"	"teacher"	11	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:39:29	"teacher008"	"teacher"	12	"it's ok, I'm not sending anything yet!"	"it's ok, I'm not sending anything yet!"	NA	NA	NA	NA	NA	NA	7
+2020-08-14 07:39:39	"student009"	"student"	13	"something wrong with skype on my computer"	"something wrong with Skype on my computer"	NA	NA	NA	NA	NA	NA	7
+2020-08-14 07:40:02	"teacher008"	"teacher"	14	"Ah, I see. You could have the chat on your computer and Skype on your phone maybe?"	"Ah, I see. You could have the chat on your computer and Skype on your phone maybe?"	NA	NA	NA	NA	NA	NA	17
+2020-08-14 07:40:29	"student009"	"student"	15	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:40:55	"student009"	"student"	16	"send me a link please"	"send me the link please"	NA	NA	NA	NA	NA	NA	5
+2020-08-14 07:41:24	"teacher008"	"teacher"	17	"to the chatroom?"	"to the chatroom?"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 07:41:26	"teacher008"	"teacher"	18	"https://cainesap.shinyapps.io/chatroom2/"	"https://cainesap.shinyapps.io/chatroom2/"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:42:47	"student009"	"student"	19	"hello"	"hello"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:42:51	"teacher008"	"teacher"	20	"hiya!"	"hiya!"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:42:58	"teacher008"	"teacher"	21	"did it work?"	"did it work?"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 07:43:15	"student009"	"student"	22	"I am from computer now"	"I am on my computer now"	NA	NA	NA	NA	NA	NA	5
+2020-08-14 07:43:24	"teacher008"	"teacher"	23	"you're on your computer now"	"you're on your computer now"	NA	NA	"repair"	"lexical resource"	NA	NA	5
+2020-08-14 07:43:31	"teacher008"	"teacher"	24	"cool! thank you"	"cool! thank you"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 07:43:49	"teacher008"	"teacher"	25	"Ok, some new words before we start! Maybe not all of them are new, we'll see"	"Ok, some new words before we start! Maybe not all of them are new, we'll see"	NA	"4.0"	"presentation"	"lexical resource"	NA	NA	16
+2020-08-14 07:44:26	"student009"	"student"	26	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:44:29	"teacher008"	"teacher"	27	"Ok, I'll be asking some questions, if you don't know the word, just send me a '?'"	"Ok, I'll be asking some questions, if you don't know the word, just send me a '?'"	NA	NA	NA	NA	NA	NA	17
+2020-08-14 07:44:39	"teacher008"	"teacher"	28	"What's the sound that a snake makes?"	"What's the sound that a snake makes?"	NA	"4a"	"eliciting"	"lexical resource"	NA	NA	7
+2020-08-14 07:44:55	"student009"	"student"	29	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:45:05	"teacher008"	"teacher"	30	"a hiss. A snake hisses"	"a hiss. A snake hisses"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-08-14 07:45:48	"teacher008"	"teacher"	31	"Ok, and when a snake moves through the grass, it goes in this special snake way, that we call..."	"Ok, and when a snake moves through the grass, it goes in this special snake way, that we call..."	NA	"4b"	"eliciting"	"lexical resource"	NA	NA	19
+2020-08-14 07:46:14	"student009"	"student"	32	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:46:21	"teacher008"	"teacher"	33	"slithering"	"slithering"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-08-14 07:46:36	"teacher008"	"teacher"	34	"A snake was slithering throught the grass, hissing gently"	"A snake was slithering throught the grass, hissing gently"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-08-14 07:47:23	"teacher008"	"teacher"	35	"Does the word 'slithering' remind you of something?"	"Does the word 'slithering' remind you of something?"	NA	"4c"	"eliciting"	"lexical resource,meaning"	NA	NA	8
+2020-08-14 07:47:31	"student009"	"student"	36	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:47:36	"teacher008"	"teacher"	37	"what?"	"what?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:47:43	"student009"	"student"	38	"Slitherin"	"Slytherin"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:47:54	"teacher008"	"teacher"	39	"Correct! Slytherin, one of the Hogwarts houses"	"Correct! Slytherin, one of the Hogwarts houses"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-08-14 07:48:06	"teacher008"	"teacher"	40	"now you know where it comes from :)"	"now you know where it comes from :)"	NA	NA	NA	NA	NA	NA	8
+2020-08-14 07:48:53	"teacher008"	"teacher"	41	"Ok, next. A big snake that is not poisonous but can use it's body weight to wrap around a small animal and kill it this way..."	"Ok, next. A big snake that is not poisonous but can use it's body weight to wrap around a small animal and kill it this way..."	NA	"4d"	"eliciting"	"lexical resource"	NA	NA	26
+2020-08-14 07:49:43	"student009"	"student"	42	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:50:01	"teacher008"	"teacher"	43	"it's a boa constrictor"	"it's a boa constrictor"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-08-14 07:50:08	"teacher008"	"teacher"	44	"Big beautiful snakes"	"Big beautiful snakes"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 07:50:53	"teacher008"	"teacher"	45	"Ok, next one. Do you know 'hardly' as in 'it's hardly possible' / 'I hardly have any time'"	"Ok, next one. Do you know 'hardly' as in 'it's hardly possible' / 'I hardly have any time'"	NA	"4e"	"eliciting"	"lexical resource"	NA	NA	18
+2020-08-14 07:50:56	"teacher008"	"teacher"	46	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:51:10	"student009"	"student"	47	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:51:23	"teacher008"	"teacher"	48	"it's hardly possible = it's practically impossible"	"it's hardly possible = it's practically impossible"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-08-14 07:51:30	"teacher008"	"teacher"	49	"I can hardly hear you = ?"	"I can hardly hear you = ?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	7
+2020-08-14 07:52:38	"student009"	"student"	50	"I can practically hear you"	"I practically can't hear you"	NA	NA	NA	NA	NA	NA	5
+2020-08-14 07:52:56	"teacher008"	"teacher"	51	"Mmms, it means 'I can't hear you very well at all'"	"Mmms, it means 'I can't hear you very well at all'"	NA	NA	"repair"	"lexical resource,meaning"	NA	NA	11
+2020-08-14 07:53:03	"teacher008"	"teacher"	52	"I practically can't hear you'"	"I practically can't hear you'"	50	NA	"repair"	"lexical resource,meaning"	NA	NA	5
+2020-08-14 07:53:32	"teacher008"	"teacher"	53	"you hardly need me = ?"	"you hardly need me = ?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	6
+2020-08-14 07:53:55	"teacher008"	"teacher"	54	"For example, you can do this task yourself, you hardly need me"	"For example, you can do this task yourself, you hardly need me"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	12
+2020-08-14 07:54:02	"student009"	"student"	55	"you practically don't need me"	"you practically don't need me"	NA	NA	NA	NA	NA	NA	5
+2020-08-14 07:54:08	"teacher008"	"teacher"	56	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 07:54:30	"teacher008"	"teacher"	57	"Ok, next one. A word for a competition, for example in chess"	"Ok, next one. A word for a competition, for example in chess"	NA	"4f"	"eliciting"	"lexical resource"	NA	NA	12
+2020-08-14 07:54:46	"teacher008"	"teacher"	58	"a chess ___"	"a chess ___"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-08-14 07:54:57	"student009"	"student"	59	"player?"	"player?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:55:20	"teacher008"	"teacher"	60	"Now, a big game with several players where you can see who the best one is"	"Now, a big game with several players where you can see who the best one is"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-08-14 07:55:28	"teacher008"	"teacher"	61	"a chess tournament"	"a chess tournament"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-08-14 07:55:33	"student009"	"student"	62	"don't even understand what you meen"	"don't even understand what you meen"	NA	NA	"enquiry"	"lexical resource"	NA	NA	6
+2020-08-14 07:56:22	"teacher008"	"teacher"	63	"Sorry. I mean a big competition where people take part to play against each other, to see who the winner is"	"Sorry. I mean a big competition where people take part to play against each other, to see who the winner is"	NA	NA	"clarification"	"lexical resource"	NA	NA	21
+2020-08-14 07:56:40	"teacher008"	"teacher"	64	"Does it make sense?"	"Does it make sense?"	NA	NA	NA	NA	NA	NA	4
+2020-08-14 07:56:41	"student009"	"student"	65	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:56:47	"student009"	"student"	66	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:56:52	"teacher008"	"teacher"	67	"yes, it's a tournament"	"yes, it's a tournament"	NA	NA	"clarification"	"lexical resource"	NA	NA	4
+2020-08-14 07:57:06	"teacher008"	"teacher"	68	"Have you ever played in a chess tournament? I guess you must have"	"Have you ever played in a chess tournament? I guess you must have"	NA	"4g"	"eliciting"	"lexical resource,meaning"	NA	NA	13
+2020-08-14 07:57:18	"student009"	"student"	69	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 07:57:23	"teacher008"	"teacher"	70	"is it fun?"	"is it fun?"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 07:57:32	"student009"	"student"	71	"not really"	"not really"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 07:57:38	"teacher008"	"teacher"	72	"why not?"	"why not?"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 07:58:33	"student009"	"student"	73	"when somebody , eho is playing better then you is laughing at you-that is not fun"	"when somebody  who is playing better than you is laughing at you, that is not fun"	NA	NA	NA	NA	NA	NA	16
+2020-08-14 07:58:42	"student009"	"student"	74	"*w"	"*w"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-08-14 07:59:22	"teacher008"	"teacher"	75	"Oh no, it sounds terrible!! Respect should come first"	"Oh no, it sounds terrible!! Respect should come first"	NA	NA	NA	NA	NA	NA	9
+2020-08-14 08:01:06	"teacher008"	"teacher"	76	"Ok, a few more words. If we are moving in a circle or turning an object around, we can move around an imaginary clock. If we are moving from 1 to 2 to 3 etc., we are moving CLOCKWISE. And if we're moving from 12 to 11 to 10 etc., we're moving COUNTER_CLOCKWISE"	"Ok, a few more words. If we are moving in a circle or turning an object around, we can move around an imaginary clock. If we are moving from 1 to 2 to 3 etc., we are moving CLOCKWISE. And if we're moving from 12 to 11 to 10 etc., we're moving COUNTER_CLOCKWISE"	NA	"4h"	"scaffolding"	"lexical resource"	NA	NA	53
+2020-08-14 08:02:28	"teacher008"	"teacher"	77	"Do you know what I mean?"	"Do you know what I mean?"	NA	NA	NA	NA	NA	NA	6
+2020-08-14 08:02:32	"student009"	"student"	78	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:02:36	"teacher008"	"teacher"	79	"good"	"good"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:02:58	"teacher008"	"teacher"	80	"Next one! A stick that wizards can use to do magic is called..."	"Next one! A stick that wizards can use to do magic is called..."	NA	"4i"	"eliciting"	"lexical resource"	NA	NA	13
+2020-08-14 08:03:30	"student009"	"student"	81	"magic wand"	"magic wand"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 08:03:35	"teacher008"	"teacher"	82	"correct!"	"correct!"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:04:15	"teacher008"	"teacher"	83	"If a wizard cooks some mixture that has magical powers, this mixture is called..."	"If a wizard cooks some mixture that has magical powers, this mixture is called..."	NA	"4j"	"eliciting"	"lexical resource"	NA	NA	14
+2020-08-14 08:04:34	"student009"	"student"	84	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:04:42	"teacher008"	"teacher"	97	"a potion"	"a potion"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-08-14 08:04:48	"student009"	"student"	98	"oops sorry"	"oops sorry"	NA	"4k"	"disruption"	NA	NA	NA	2
+2020-08-14 08:05:03	"teacher008"	"teacher"	99	"Professor Snape was teaching Potions as you remember"	"Professor Snape was teaching Potions as you remember"	97	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-08-14 08:05:24	"teacher008"	"teacher"	100	"no worries, I know this programme does this if the Internet blips"	"no worries, I know this programme does this if the Internet blips"	98	NA	NA	NA	NA	NA	12
+2020-08-14 08:05:25	"student009"	"student"	101	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:05:39	"teacher008"	"teacher"	102	"Ok, what do we call a big pot for making potions?"	"Ok, what do we call a big pot for making potions?"	NA	"4l"	"eliciting"	"lexical resource"	NA	NA	11
+2020-08-14 08:06:31	"student009"	"student"	103	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:06:39	"teacher008"	"teacher"	104	"a cauldron"	"a cauldron"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-08-14 08:07:16	"teacher008"	"teacher"	105	"A spot in the ground where dead people / animals are buried becomes their ___"	"A spot in the ground where dead people / animals are buried becomes their ___"	NA	"4m"	"eliciting"	"lexical resource"	NA	NA	15
+2020-08-14 08:07:38	"student009"	"student"	106	"can you wait a bit pls"	"can you wait a bit pls"	NA	"4n"	NA	NA	NA	NA	6
+2020-08-14 08:07:43	"teacher008"	"teacher"	107	"yes, sure"	"yes, sure"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 08:10:02	"teacher008"	"teacher"	108	"are you ok?"	"are you ok?"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 08:10:15	"student009"	"student"	109	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:10:30	"student009"	"student"	111	"one more second"	"one more second"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 08:10:37	"teacher008"	"teacher"	112	"no problem"	"no problem"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 08:11:54	"student009"	"student"	113	"Okay"	"Okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:12:14	"teacher008"	"teacher"	114	"Ok, sure!"	"Ok, sure!"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 08:12:28	"teacher008"	"teacher"	115	"So the word for a place where someone is buried is a..."	"So the word for a place where someone is buried is a..."	105	NA	"eliciting"	"lexical resource"	NA	NA	12
+2020-08-14 08:12:59	"student009"	"student"	116	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:13:03	"teacher008"	"teacher"	118	"a grave"	"a grave"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-08-14 08:13:07	"teacher008"	"teacher"	119	"And one last!"	"And one last!"	NA	"4o"	NA	NA	NA	NA	3
+2020-08-14 08:13:18	"teacher008"	"teacher"	120	"Another word for 'disappear'"	"Another word for 'disappear'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-08-14 08:13:26	"teacher008"	"teacher"	121	"to disappear = to vanish"	"to disappear = to vanish"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-08-14 08:14:07	"teacher008"	"teacher"	122	"Vanish' is a word you probably now from a washing product"	"Vanish' is a word you probably now from a washing product"	NA	NA	NA	NA	NA	NA	11
+2020-08-14 08:14:13	"teacher008"	"teacher"	123	"*know"	"*know"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-08-14 08:15:07	"student009"	"student"	124	"yes, I know it"	"yes, I know it"	NA	NA	NA	NA	NA	NA	4
+2020-08-14 08:15:11	"teacher008"	"teacher"	125	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:15:27	"student009"	"student"	126	"I was copying all the words)"	"I was copying all the words)"	114	NA	NA	NA	NA	NA	6
+2020-08-14 08:16:10	"teacher008"	"teacher"	127	"So, the new words are: a boa constrictor (that can hiss and slither), a tournament, a wand (you know that), a potion, a cauldron, to vanish, clockwise / counter-clockwise and a grave"	"So, the new words are: a boa constrictor (that can hiss and slither), a tournament, a wand (you know that), a potion, a cauldron, to vanish, clockwise / counter-clockwise and a grave"	NA	"4p"	"recap"	"lexical resource"	NA	NA	32
+2020-08-14 08:16:19	"teacher008"	"teacher"	128	"Yes, I thought that was you were doing :) good idea"	"Yes, I thought that was you were doing :) good idea"	126	NA	NA	NA	NA	NA	11
+2020-08-14 08:16:27	"teacher008"	"teacher"	129	"Any words that you can't remember the meaning of?"	"Any words that you can't remember the meaning of?"	127	NA	NA	NA	NA	NA	9
+2020-08-14 08:17:00	"student009"	"student"	130	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:17:10	"student009"	"student"	131	"everything is fine"	"everything is fine"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 08:17:13	"teacher008"	"teacher"	132	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:17:34	"teacher008"	"teacher"	133	"Can you guess what these words are all about?"	"Can you guess what these words are all about?"	NA	"5.0"	"exercise"	"reading"	"book"	NA	9
+2020-08-14 08:18:41	"student009"	"student"	134	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:18:53	"teacher008"	"teacher"	135	"The answer is Harry Potter books!"	"The answer is Harry Potter books!"	NA	NA	NA	NA	NA	NA	6
+2020-08-14 08:19:13	"teacher008"	"teacher"	136	"We won't have time for the whole thing I planned but we can continue on Tuesday"	"We won't have time for the whole thing I planned but we can continue on Tuesday"	NA	NA	NA	NA	NA	NA	16
+2020-08-14 08:19:43	"teacher008"	"teacher"	137	"I'm going to send you paragraphs from different Harry Potter books and your challenge will be to identify which book it is"	"I'm going to send you paragraphs from different Harry Potter books and your challenge will be to identify which book it is"	NA	NA	NA	NA	NA	NA	22
+2020-08-14 08:20:06	"student009"	"student"	138	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:20:11	"teacher008"	"teacher"	139	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:20:13	"student009"	"student"	140	"okay then"	"okay then"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 08:20:22	"teacher008"	"teacher"	141	"Did you read them all in Russian?"	"Did you read them all in Russian?"	NA	"5a"	NA	NA	NA	NA	7
+2020-08-14 08:20:32	"student009"	"student"	142	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:20:39	"teacher008"	"teacher"	143	"Ukrainian?"	"Ukrainian?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:20:42	"student009"	"student"	144	"ukrainian"	"Ukrainian"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:20:54	"teacher008"	"teacher"	145	"I heard the Ukrainian translation is really good!"	"I heard the Ukrainian translation is really good!"	NA	NA	NA	NA	NA	NA	8
+2020-08-14 08:21:04	"teacher008"	"teacher"	146	"Ok, the English names are"	"Ok, the English names are"	NA	"5b"	NA	NA	NA	NA	5
+2020-08-14 08:21:09	"student009"	"student"	147	"HArry"	"Harry"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:21:13	"student009"	"student"	148	"Ron"	"Ron"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:21:18	"student009"	"student"	149	"Hermione"	"Hermione"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:21:23	"teacher008"	"teacher"	150	"1. Harry Potter and the Philosopher's Stone"	"1. Harry Potter and the Philosopher's Stone"	NA	NA	NA	NA	NA	NA	7
+2020-08-14 08:21:28	"student009"	"student"	151	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:21:31	"teacher008"	"teacher"	152	"2. HP and the Chamber of Secrets"	"2. HP and the Chamber of Secrets"	NA	NA	NA	NA	NA	NA	7
+2020-08-14 08:21:48	"teacher008"	"teacher"	153	"3. Harry Potter and the Prisoner of Azkaban"	"3. Harry Potter and the Prisoner of Azkaban"	NA	NA	NA	NA	NA	NA	8
+2020-08-14 08:21:58	"teacher008"	"teacher"	154	"4. HP and the Goblet of Fire"	"4. HP and the Goblet of Fire"	NA	NA	NA	NA	NA	NA	7
+2020-08-14 08:22:12	"teacher008"	"teacher"	155	"5. HP and the Order of the Phoenix"	"5. HP and the Order of the Phoenix"	NA	NA	NA	NA	NA	NA	8
+2020-08-14 08:22:23	"teacher008"	"teacher"	156	"6. HP and the Half-Blood Prince"	"6. HP and the Half-Blood Prince"	NA	NA	NA	NA	NA	NA	6
+2020-08-14 08:22:37	"teacher008"	"teacher"	157	"7. HP and the Deathly Hallows"	"7. HP and the Deathly Hallows"	NA	NA	NA	NA	NA	NA	6
+2020-08-14 08:23:23	"student009"	"student"	158	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:23:58	"teacher008"	"teacher"	159	"There you go, the first bit is on Skype for you"	"There you go, the first bit is on Skype for you"	NA	"5c"	"exercise"	"reading"	NA	NA	11
+2020-08-14 08:24:32	"student009"	"student"	160	"chamber of secrets"	"chamber of secrets"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 08:24:43	"teacher008"	"teacher"	161	"Well done! How do you know?"	"Well done! How do you know?"	NA	NA	NA	NA	NA	NA	6
+2020-08-14 08:24:54	"student009"	"student"	162	"Lockarth helps)"	"Lockhart helps)"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 08:25:12	"teacher008"	"teacher"	163	"sure)) do you know what's happening?"	"sure)) do you know what's happening?"	NA	"5d"	"exercise"	"reading"	NA	NA	6
+2020-08-14 08:25:55	"student009"	"student"	164	"I THINK YES"	"I THINK YES"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 08:26:08	"teacher008"	"teacher"	165	"go on :)"	"go on :)"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 08:26:35	"student009"	"student"	166	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:26:52	"teacher008"	"teacher"	167	"I thought you were going to say what you think was happening in that bit of the story"	"I thought you were going to say what you think was happening in that bit of the story"	NA	NA	NA	NA	NA	NA	18
+2020-08-14 08:27:04	"student009"	"student"	168	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:27:14	"student009"	"student"	169	"that's not easy to say"	"that's not easy to say"	NA	NA	NA	NA	NA	NA	5
+2020-08-14 08:27:33	"teacher008"	"teacher"	170	"Have another look, you'll know it"	"Have another look, you'll know it"	NA	NA	NA	NA	NA	NA	6
+2020-08-14 08:27:44	"student009"	"student"	171	"I can't explain"	"I can't explain"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 08:27:52	"student009"	"student"	172	"I know what is it"	"I know what it is"	NA	NA	NA	NA	NA	NA	5
+2020-08-14 08:28:08	"teacher008"	"teacher"	173	"Ok, they are pushing Lockhart down the pipe, right?"	"Ok, they are pushing Lockhart down the pipe, right?"	NA	NA	NA	NA	NA	NA	9
+2020-08-14 08:28:15	"student009"	"student"	174	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:28:44	"teacher008"	"teacher"	175	"and that was how they entered..."	"and that was how they entered..."	NA	NA	NA	NA	NA	NA	6
+2020-08-14 08:28:53	"teacher008"	"teacher"	176	"the chamber of secrets!"	"the chamber of secrets!"	NA	NA	NA	NA	NA	NA	4
+2020-08-14 08:29:09	"student009"	"student"	177	"yes]"	"yes]"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:29:32	"teacher008"	"teacher"	178	"That's right. Ok, the rest of them will be for Tuesday"	"That's right. Ok, the rest of them will be for Tuesday"	NA	"6.0"	"closing"	NA	NA	NA	11
+2020-08-14 08:29:39	"teacher008"	"teacher"	179	"Tuesday 10 am?"	"Tuesday 10 am?"	NA	NA	NA	NA	NA	NA	3
+2020-08-14 08:29:44	"student009"	"student"	180	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:29:47	"student009"	"student"	181	"bye"	"bye"	NA	NA	NA	NA	NA	NA	1
+2020-08-14 08:30:05	"teacher008"	"teacher"	182	"bye <STUDENT>, have a nice weekend"	"bye <STUDENT>, have a nice weekend"	NA	NA	NA	NA	NA	NA	6
+2020-08-14 08:30:13	"student009"	"student"	183	"you too"	"you too"	NA	NA	NA	NA	NA	NA	2
+2020-08-14 08:30:20	"teacher008"	"teacher"	184	"thanks"	"thanks"	NA	NA	NA	NA	NA	"B2"	1

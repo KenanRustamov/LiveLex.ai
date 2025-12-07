@@ -1,0 +1,173 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-24 18:30:56	"teacher001"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-03-24 18:31:27	"student004"	"student"	2	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 18:31:36	"student004"	"student"	3	"How is it going?"	"How is it going?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-03-24 18:31:42	"teacher001"	"teacher"	4	"Any news from your end?"	"Any news from your end?"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 18:31:49	"teacher001"	"teacher"	5	"well I'm OK..."	"well I'm OK..."	NA	NA	NA	NA	NA	NA	3
+2020-03-24 18:32:00	"student004"	"student"	6	"No news... still at home"	"No news... still at home"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 18:32:18	"teacher001"	"teacher"	7	"New developments here...we've been asked to stay indoors ...unsurprisngly"	"New developments here...we've been asked to stay indoors ...unsurprisngly"	NA	"2a"	"topic development"	NA	NA	NA	9
+2020-03-24 18:32:32	"student004"	"student"	8	"Good news!!"	"Good news!!"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 18:32:44	"teacher001"	"teacher"	9	"yes I guess so..and everything's shut basically"	"yes I guess so..and everything's shut basically"	NA	NA	NA	NA	NA	NA	7
+2020-03-24 18:32:49	"student004"	"student"	10	"How many cases so far?"	"How many cases so far?"	NA	"2b"	"topic development"	NA	NA	NA	5
+2020-03-24 18:33:20	"teacher001"	"teacher"	11	"Um...I think several thousand"	"Um...I think several thousand"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 18:33:59	"teacher001"	"teacher"	12	"so it hasn't taken off yet in the same way as in Italy (and Spain:()"	"so it hasn't taken off yet in the same way as in Italy (and Spain:()"	NA	NA	NA	NA	NA	NA	15
+2020-03-24 18:33:59	"student004"	"student"	13	"Can you still go out for a walk?"	"Can you still go out for a walk?"	NA	"2c"	"topic development"	NA	NA	NA	8
+2020-03-24 18:34:35	"teacher001"	"teacher"	14	"yes but the idea is to limit it and to really stay away from people - they left the parks open and people were' flocking to them'"	"yes but the idea is to limit it and to really stay away from people - they left the parks open and people were' flocking to them'"	NA	NA	NA	NA	NA	NA	27
+2020-03-24 18:34:52	"teacher001"	"teacher"	15	"so there were lots of pictures in the news of crowds etc"	"so there were lots of pictures in the news of crowds etc"	NA	NA	NA	NA	NA	NA	12
+2020-03-24 18:34:56	"teacher001"	"teacher"	16	"the morons!"	"the morons!"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 18:35:06	"student004"	"student"	17	"morons??"	"morons??"	NA	"2d"	"enquiry"	"lexical resource,meaning"	NA	NA	1
+2020-03-24 18:35:20	"teacher001"	"teacher"	18	"idiots!"	"idiots!"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 18:35:43	"teacher001"	"teacher"	19	"lots of synonyms for this obviously but 'moron' fairly common"	"lots of synonyms for this obviously but 'moron' fairly common"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+2020-03-24 18:36:04	"student004"	"student"	20	"That's the problem, or at least I think that was the problem in Spain... If they don't shut everything down, people keep meeting and celebrating parties, birthdays..."	"That's the problem, or at least I think that was the problem in Spain... If they don't shut everything down, people keep meeting and celebrating parties, birthdays..."	15	NA	NA	NA	NA	NA	27
+2020-03-24 18:36:07	"teacher001"	"teacher"	21	"not exactly a compliment  but not vulgar by the way"	"not exactly a compliment  but not vulgar by the way"	19	NA	"scaffolding"	"lexical resource,register"	NA	NA	11
+2020-03-24 18:36:25	"student004"	"student"	22	"ahh, thanks"	"ahh, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 18:36:37	"teacher001"	"teacher"	23	"yes I see - you have to really tell people directly i Guess...don't go near anyone"	"yes I see - you have to really tell people directly i Guess...don't go near anyone"	20	NA	NA	NA	NA	NA	16
+2020-03-24 18:36:55	"teacher001"	"teacher"	24	"anywhere"	"anywhere"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 18:37:25	"teacher001"	"teacher"	25	"everyone got a text message from the government saying: STAY AT HOME!"	"everyone got a text message from the government saying: STAY AT HOME!"	NA	NA	NA	NA	NA	NA	12
+2020-03-24 18:37:34	"teacher001"	"teacher"	26	"did that happen in Spain?"	"did that happen in Spain?"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 18:37:37	"student004"	"student"	27	"yes, unfortunately it seems we need that to be sensible"	"yes, unfortunately it seems we need that to be sensible"	23	NA	NA	NA	NA	NA	10
+2020-03-24 18:38:04	"teacher001"	"teacher"	28	"yes (good use of 'sensible' by the way - often a word that non-natives miss)"	"yes (good use of 'sensible' by the way - often a word that non-natives miss)"	NA	"2e"	"scaffolding"	"lexical resource"	NA	NA	15
+2020-03-24 18:38:11	"student004"	"student"	29	"Noo, that's great. The message, I mean"	"Noo, that's great. The message, I mean"	26	NA	NA	NA	NA	NA	7
+2020-03-24 18:38:31	"teacher001"	"teacher"	30	"yes it was a bit weird (but good they can do that)"	"yes it was a bit weird (but good they can do that)"	NA	NA	NA	NA	NA	NA	12
+2020-03-24 18:39:21	"teacher001"	"teacher"	31	"I'm discovering new interests on the internet...."	"I'm discovering new interests on the internet...."	NA	"3.0"	"topic opening"	NA	NA	NA	7
+2020-03-24 18:39:22	"student004"	"student"	32	"About the word 'sensible' I learnt it working in the school there with little children... teachers used to say a lot 'be sensible' haha I liked it!"	"About the word 'sensible' I learnt it working at school with little children... teachers used to say 'be sensible' a lot, haha I liked it!"	28	NA	NA	NA	NA	NA	27
+2020-03-24 18:39:51	"teacher001"	"teacher"	33	"Ah yes I see! Great authentic exposure - yes really common as you'll have seen..."	"Ah yes I see! Great authentic exposure - yes really common as you'll have seen..."	NA	NA	NA	NA	NA	NA	15
+2020-03-24 18:40:18	"student004"	"student"	34	"Which interests have you discovered??"	"Which interests have you discovered??"	31	NA	NA	NA	NA	NA	5
+2020-03-24 18:40:58	"teacher001"	"teacher"	35	"yes ...so I didn't really use to spend much time on the web but now....well just different academic subjects you know"	"yes ...so I didn't really use to spend much time on the web but now....well just different academic subjects you know"	NA	NA	NA	NA	NA	NA	21
+2020-03-24 18:41:14	"teacher001"	"teacher"	36	"so I've realised all the great lectures you can access and so on"	"so I've realised all the great lectures you can access and so on"	NA	NA	NA	NA	NA	NA	13
+2020-03-24 18:41:38	"student004"	"student"	37	"no idea about it... Lectures from University?"	"no idea about it... Lectures from University?"	NA	NA	NA	NA	NA	NA	7
+2020-03-24 18:41:39	"teacher001"	"teacher"	38	"I'm a bit behind the times..I still get (got) books out of the library"	"I'm a bit behind the times..I still get (got) books out of the library"	36	NA	NA	NA	NA	NA	14
+2020-03-24 18:42:17	"teacher001"	"teacher"	39	"yeah you know ...just random stuff downloaded...various university lectures that have been filmed and uploaded"	"yeah you know ...just random stuff downloaded...various university lectures that have been filmed and uploaded"	37	NA	NA	NA	NA	NA	15
+2020-03-24 18:42:19	"student004"	"student"	40	"hehe that's nice"	"hehe that's nice"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 18:42:43	"teacher001"	"teacher"	41	"of variable quality but if you're selective..."	"of variable quality but if you're selective..."	NA	NA	NA	NA	NA	NA	7
+2020-03-24 18:43:03	"student004"	"student"	42	"did you find the on youtube?"	"did you find them on youtube?"	NA	NA	NA	NA	NA	NA	6
+2020-03-24 18:43:08	"teacher001"	"teacher"	43	"yes mainly"	"yes mainly"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 18:43:34	"teacher001"	"teacher"	44	"I think you can just do the equiavalent of a degree course you know"	"I think you can just do the equiavalent of a degree course you know"	NA	NA	NA	NA	NA	NA	14
+2020-03-24 18:43:53	"teacher001"	"teacher"	45	"in e.g. anthropology or philosophy or whatever"	"in e.g. anthropology or philosophy or whatever"	NA	NA	NA	NA	NA	NA	7
+2020-03-24 18:43:54	"student004"	"student"	46	"Interesting... I didn't know that if you want you could go and sit at University there and listen to lectures"	"Interesting... I didn't know that if you want you could go and sit at a university there and listen to lectures"	NA	NA	NA	NA	NA	NA	20
+2020-03-24 18:44:08	"teacher001"	"teacher"	47	"yes well some of them you can"	"yes well some of them you can"	NA	NA	NA	NA	NA	NA	7
+2020-03-24 18:44:20	"teacher001"	"teacher"	48	"We're lucky in CAmbridge of course"	"We're lucky in CAmbridge of course"	NA	"3a"	NA	NA	NA	NA	6
+2020-03-24 18:44:43	"teacher001"	"teacher"	49	"you know the 'SCience Festival' was this month but of course it was basically canacelled"	"you know the 'SCience Festival' was this month but of course it was basically canacelled"	NA	NA	NA	NA	NA	NA	15
+2020-03-24 18:44:45	"student004"	"student"	50	"I was meant to go when I was there but I didn't :( too lazy with the cold"	"I was meant to go when I was there but I didn't :( too lazy with the cold"	NA	NA	NA	NA	NA	NA	18
+2020-03-24 18:45:05	"teacher001"	"teacher"	51	"yeah I understand...!"	"yeah I understand...!"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 18:45:22	"student004"	"student"	52	"I went to the Ideas Festival"	"I went to the Ideas Festival"	NA	NA	NA	NA	NA	NA	6
+2020-03-24 18:45:59	"teacher001"	"teacher"	53	"oh right yes so you know the idea - pretty cool right? Better than anything in Spain (I bet?!)"	"oh right yes so you know the idea - pretty cool right? Better than anything in Spain (I bet?!)"	NA	NA	NA	NA	NA	NA	19
+2020-03-24 18:46:16	"student004"	"student"	54	"Only the last day and I found it very interesting... It's great in Cambridge the amount of interesting free stuff you have (is it correct)"	"Only the last day and I found it very interesting... It's great in Cambridge the amount of interesting free stuff you have (is it correct)"	NA	NA	NA	NA	NA	NA	25
+2020-03-24 18:46:44	"teacher001"	"teacher"	55	"Yes we're lucky - it's great if you have kids"	"Yes we're lucky - it's great if you have kids"	NA	NA	NA	NA	NA	NA	10
+2020-03-24 18:47:37	"teacher001"	"teacher"	56	"the day before it was cancelled I went with my daughter to a talk on sending a rover to MArs (by the woman who designed it) it was great, really inspiring"	"the day before it was cancelled I went with my daughter to a talk on sending a rover to MArs (by the woman who designed it) it was great, really inspiring"	NA	NA	NA	NA	NA	NA	31
+2020-03-24 18:47:42	"student004"	"student"	57	"Yes, it's great if you have kids, if you don't, if you are old or young... there are a lot of options, many more than here I would say"	"Yes, it's great if you have kids, if you don't, if you are old or young... there are a lot of options, many more than here I would say"	NA	NA	NA	NA	NA	NA	29
+2020-03-24 18:48:32	"teacher001"	"teacher"	58	"Yes I guess the flip side is that OXbridge is often criticised for being elitist so they do it out of guilt maybe!"	"Yes I guess the flip side is that OXbridge is often criticised for being elitist so they do it out of guilt maybe!"	NA	NA	NA	NA	NA	NA	23
+2020-03-24 18:48:35	"student004"	"student"	59	"It sounds very good (the talk you mention)"	"It sounds very good (the talk you mention)"	56	NA	NA	NA	NA	NA	8
+2020-03-24 18:49:24	"student004"	"student"	60	"hehe maybe, it doesn't matter the reason!! they do it :)"	"hehe maybe, it doesn't matter the reason!! they do it :)"	58	NA	NA	NA	NA	NA	11
+2020-03-24 18:49:35	"teacher001"	"teacher"	61	"Yeah true!"	"Yeah true!"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 18:49:44	"student004"	"student"	62	"I don't know what is OXbridge"	"I don't know what Oxbridge is"	NA	"3b"	"enquiry"	"lexical resource"	NA	NA	6
+2020-03-24 18:50:00	"teacher001"	"teacher"	63	"Oh sorry...Oxford and Cambridge combined"	"Oh sorry...Oxford and Cambridge combined"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-03-24 18:50:04	"teacher001"	"teacher"	64	"the top two"	"the top two"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 18:50:11	"student004"	"student"	65	"Ahhh"	"Ahhh"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 18:50:15	"teacher001"	"teacher"	67	"a common word"	"a common word"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 18:50:39	"teacher001"	"teacher"	68	"instead of constantly repeating the two names"	"instead of constantly repeating the two names"	NA	NA	NA	NA	NA	NA	7
+2020-03-24 18:50:54	"teacher001"	"teacher"	69	"as they're often talked about together"	"as they're often talked about together"	NA	NA	NA	NA	NA	NA	6
+2020-03-24 18:51:01	"student004"	"student"	70	"So, OXbridge means Oxford and Cambridge but you used is as sigular (is)"	"So, Oxbridge means Oxford and Cambridge but you used it as a singular (is)"	NA	NA	NA	NA	NA	NA	13
+2020-03-24 18:51:07	"teacher001"	"teacher"	71	"(like I just did)"	"(like I just did)"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 18:51:26	"teacher001"	"teacher"	72	"yes that's true"	"yes that's true"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 18:51:34	"teacher001"	"teacher"	73	"it is singular weirdly"	"it is singular weirdly"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 18:51:38	"student004"	"student"	74	"I like it!!"	"I like it!!"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 18:51:57	"teacher001"	"teacher"	75	"Sounds good if you use it"	"Sounds good if you use it"	NA	NA	NA	NA	NA	NA	6
+2020-03-24 18:52:39	"teacher001"	"teacher"	76	"<STUDENT>...going back to the crowds in the park ....in the media the following day there was an ________?"	"<STUDENT>...going back to the crowds in the park ....in the media the following day there was an ________?"	NA	"4.0"	"eliciting,revision"	"lexical resource"	NA	NA	18
+2020-03-24 18:52:55	"teacher001"	"teacher"	77	"a word from yesterday!"	"a word from yesterday!"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 18:53:12	"student004"	"student"	78	"outcry??"	"outcry??"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 18:53:32	"teacher001"	"teacher"	79	"yes exactly! very natural here"	"yes exactly! very natural here"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 18:53:47	"teacher001"	"teacher"	80	"another similar possible word would be 'outrage' by the way"	"another similar possible word would be 'outrage' by the way"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-03-24 18:53:49	"student004"	"student"	81	"yes, I see how to use it! thanks"	"yes, I see how to use it! thanks"	NA	NA	NA	NA	NA	NA	8
+2020-03-24 18:53:56	"teacher001"	"teacher"	82	"a bit stronger perhaps"	"a bit stronger perhaps"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 18:54:03	"student004"	"student"	83	"I've seen that one"	"I've seen that one"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 18:54:15	"teacher001"	"teacher"	84	"more the feeling whereas outcry is more the protest"	"more the feeling whereas outcry is more the protest"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-03-24 18:55:07	"teacher001"	"teacher"	85	"Do you fancy having a go at a CAe exercise?"	"Do you fancy having a go at a CAe exercise?"	NA	"5.0"	"admin"	NA	NA	NA	10
+2020-03-24 18:55:22	"student004"	"student"	86	"Yess"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 18:55:39	"teacher001"	"teacher"	87	"ok ...is page 111 OK? As in you haven't done it before?"	"ok ...is page 111 OK? As in you haven't done it before?"	NA	NA	NA	NA	NA	NA	12
+2020-03-24 18:56:15	"student004"	"student"	88	"Ohh we did it together"	"Ohh we did it together"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 18:56:52	"teacher001"	"teacher"	89	"Oh sorry! |Are you sure? I've got no memory of it!"	"Oh sorry! |Are you sure? I've got no memory of it!"	NA	NA	NA	NA	NA	NA	11
+2020-03-24 18:57:00	"teacher001"	"teacher"	90	"You can suggest one if you like...?"	"You can suggest one if you like...?"	NA	NA	NA	NA	NA	NA	7
+2020-03-24 18:57:09	"student004"	"student"	91	"wait"	"wait"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 18:57:20	"teacher001"	"teacher"	92	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 18:57:42	"student004"	"student"	93	"page 149"	"page 149"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 18:58:16	"teacher001"	"teacher"	94	"ok go for it (are you sure we didn't this one?!)"	"ok go for it (are you sure we didn't this one?!)"	NA	NA	NA	NA	NA	NA	11
+2020-03-24 18:58:25	"teacher001"	"teacher"	95	"do this one"	"do this one"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 18:59:09	"teacher001"	"teacher"	96	"Sorry I should have kept a record (actually I did but I can't find it)"	"Sorry I should have kept a record (actually I did but I can't find it)"	NA	NA	NA	NA	NA	NA	15
+2020-03-24 18:59:32	"student004"	"student"	97	"not sure... my memory is really bad :(. I know we did the other one because I wrote the answers with pencil on the book and I never do it unless I do it with you"	"not sure... my memory is really bad :(. I know we did the other one because I wrote the answers in pencil in the book and I never do it unless I do it with you"	NA	NA	NA	NA	NA	NA	36
+2020-03-24 19:00:05	"teacher001"	"teacher"	98	"OK - how about a part 4? page 150 for example?"	"OK - how about a part 4? page 150 for example?"	NA	"5a"	"exercise"	"lexical resource,grammatical resource"	"textbook"	NA	11
+2020-03-24 19:00:24	"student004"	"student"	99	"ok, 150"	"ok, 150"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 19:00:47	"teacher001"	"teacher"	100	"ok I'll give you  a littel bit longer for each one as they're slightly more complicated perhaps"	"ok I'll give you  a littel bit longer for each one as they're slightly more complicated perhaps"	NA	NA	NA	NA	NA	NA	18
+2020-03-24 19:01:02	"student004"	"student"	101	"Ohh I don't know the meaning of aback"	"Ohh I don't know the meaning of aback"	NA	"5b"	"enquiry"	"lexical resource,meaning"	NA	NA	8
+2020-03-24 19:01:26	"student004"	"student"	102	"I'd never seen this word before"	"I've never seen this word before"	NA	NA	NA	NA	NA	NA	6
+2020-03-24 19:01:53	"teacher001"	"teacher"	103	"Ah yes a tricky one to start! so the word only really exists in the structre you need here ..and it's 'to be taken aback'"	"Ah yes a tricky one to start! so the word only really exists in the structre you need here ..and it's 'to be taken aback'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	25
+2020-03-24 19:02:24	"teacher001"	"teacher"	104	"so changed for this answer it would be...?"	"so changed for this answer it would be...?"	NA	NA	NA	NA	NA	NA	8
+2020-03-24 19:03:17	"student004"	"student"	105	"I was taken aback..."	"I was taken aback..."	NA	NA	NA	NA	NA	NA	4
+2020-03-24 19:03:30	"teacher001"	"teacher"	106	"yes good...by...?"	"yes good...by...?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-03-24 19:03:40	"teacher001"	"teacher"	107	"something!"	"something!"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 19:04:04	"student004"	"student"	108	"by the warmth"	"by the warmth"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 19:04:25	"teacher001"	"teacher"	109	"yes great...a relatively common phrase by the way"	"yes great...a relatively common phrase by the way"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-03-24 19:04:41	"student004"	"student"	110	"uff very new for me :("	"uff very new for me :("	NA	NA	NA	NA	NA	NA	6
+2020-03-24 19:04:47	"teacher001"	"teacher"	111	"you can see the idea right? It's like I took a step back in surpries"	"you can see the idea right? It's like I took a step back in surpries"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-03-24 19:05:04	"teacher001"	"teacher"	112	"surprise...but we don't really think of it like that I guess"	"surprise...but we don't really think of it like that I guess"	NA	NA	"repair"	"writing"	NA	NA	11
+2020-03-24 19:05:17	"teacher001"	"teacher"	113	"I mean we just say it without making that connection"	"I mean we just say it without making that connection"	NA	NA	NA	NA	NA	NA	10
+2020-03-24 19:05:19	"student004"	"student"	114	"Yes, I get it, thanks"	"Yes, I get it, thanks"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 19:05:20	"teacher001"	"teacher"	115	"I never have!"	"I never have!"	113	NA	NA	NA	NA	NA	3
+2020-03-24 19:06:39	"student004"	"student"	116	"Ohh no, I find it difficult to use 'worth'..."	"Ohh no, I find it difficult to use 'worth'..."	NA	"5c"	"enquiry"	"lexical resource,grammatical resource"	NA	NA	9
+2020-03-24 19:06:51	"teacher001"	"teacher"	117	"OK don't panic!"	"OK don't panic!"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 19:07:09	"teacher001"	"teacher"	118	"The structure remember is 'to be worth ____ing something'"	"The structure remember is 'to be worth ____ing something'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-03-24 19:07:30	"teacher001"	"teacher"	119	"Sorry if you didn't want help!"	"Sorry if you didn't want help!"	NA	NA	NA	NA	NA	NA	6
+2020-03-24 19:07:35	"student004"	"student"	120	"Something like... It is not worth"	"Something like... It is not worth"	NA	NA	NA	NA	NA	NA	6
+2020-03-24 19:07:40	"teacher001"	"teacher"	121	"yes good"	"yes good"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 19:07:42	"student004"	"student"	122	"Yes, it helps a lot."	"Yes, it helps a lot."	NA	NA	NA	NA	NA	NA	5
+2020-03-24 19:07:55	"student004"	"student"	123	"It's not worth persuading"	"It's not worth persuading"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 19:08:12	"teacher001"	"teacher"	124	"yes fine but you need the first verb from the original too"	"yes fine but you need the first verb from the original too"	NA	"5d"	"eliciting"	"task achievement"	NA	NA	12
+2020-03-24 19:08:22	"teacher001"	"teacher"	125	"I mean before persuade"	"I mean before persuade"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 19:08:34	"student004"	"student"	126	"ahh I see"	"ahh I see"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 19:09:02	"student004"	"student"	127	"It's not worth trying to persuade"	"It's not worth trying to persuade"	NA	NA	NA	NA	NA	NA	6
+2020-03-24 19:09:07	"teacher001"	"teacher"	128	"yes great"	"yes great"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 19:09:53	"teacher001"	"teacher"	129	"so maybe now you'd say...'Don't bother trying...' or maybe 'there's no point trying.' = both good.."	"so maybe now you'd say...'Don't bother trying...' or maybe 'there's no point trying.' = both good.."	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	16
+2020-03-24 19:09:59	"student004"	"student"	130	"that the job involves traveling"	"that the job involves traveling"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 19:10:21	"teacher001"	"teacher"	131	"yes good"	"yes good"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 19:11:19	"student004"	"student"	132	"I've seen the next structure in other exercises but I don't remember it..."	"I've seen the next structure in other exercises but I don't remember it..."	NA	"6.0"	NA	NA	NA	NA	13
+2020-03-24 19:11:20	"teacher001"	"teacher"	133	"Sorry <STUDENT> not paying attention - maybe better = would involve/involved (travelling) - maybe  they'd be strict on that"	"Sorry <STUDENT> not paying attention - maybe better = would involve/involved (travelling) - maybe  they'd be strict on that"	131	NA	"scaffolding"	"grammatical resource"	NA	NA	20
+2020-03-24 19:11:45	"teacher001"	"teacher"	134	"Ah yes - oh god ....inversion!"	"Ah yes - oh god ....inversion!"	132	NA	NA	NA	NA	NA	6
+2020-03-24 19:12:06	"student004"	"student"	135	"I understand!! the 'would involve...'"	"I understand!! the 'would involve...'"	133	NA	NA	NA	NA	NA	5
+2020-03-24 19:12:19	"teacher001"	"teacher"	136	"ok good"	"ok good"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 19:12:32	"teacher001"	"teacher"	137	"So ..with inversion...hold on a sec"	"So ..with inversion...hold on a sec"	134	NA	NA	NA	NA	NA	6
+2020-03-24 19:13:18	"teacher001"	"teacher"	138	"So with some negative structures you can invert them (change them round) usuallly in more formal use"	"So with some negative structures you can invert them (change them round) usuallly in more formal use"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2020-03-24 19:13:58	"teacher001"	"teacher"	139	"a simple example: I don't only like chocolate I also like cakes (stupid i know sorry)"	"a simple example: I don't only like chocolate I also like cakes (stupid i know sorry)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2020-03-24 19:14:06	"teacher001"	"teacher"	140	"So we invert it and we get..."	"So we invert it and we get..."	NA	NA	NA	NA	NA	NA	7
+2020-03-24 19:14:17	"student004"	"student"	141	"could you give me 2 minutes??"	"could you give me 2 minutes??"	NA	"7.0"	"disruption"	NA	NA	NA	6
+2020-03-24 19:14:20	"teacher001"	"teacher"	142	"Not only do I like chocolate I also like cake"	"Not only do I like chocolate I also like cake"	140	NA	NA	NA	NA	NA	10
+2020-03-24 19:14:24	"teacher001"	"teacher"	143	"yes of course"	"yes of course"	141	NA	NA	NA	NA	NA	3
+2020-03-24 19:17:10	"student004"	"student"	144	"I'm very sorry, I had to go out and clap. We do it every day in Spain since this 'situation' is happening... and I feel very bad if I don't do it"	"I'm very sorry, I had to go out and clap. We do it every day in Spain since this 'situation' first happened... and I feel very bad if I don't do it"	NA	NA	NA	NA	NA	NA	32
+2020-03-24 19:17:33	"teacher001"	"teacher"	145	"Oh wow - at a particular time or..?"	"Oh wow - at a particular time or..?"	NA	NA	NA	NA	NA	NA	8
+2020-03-24 19:19:48	"student004"	"student"	146	"Yes, it's at 7. We do it for doctors, nurses, and people who take care of the ones who are ill. And my neighbours play a few songs for everyone, sing and dance in the balconies... When the show finishes we all applaud. It's nice... before we didn't even know each other"	"Yes, it's at 7. We do it for doctors, nurses, and people who take care of the ones who are ill. And my neighbours play a few songs for everyone, sing and dance on the balconies... When the show finishes we all applaud. It's nice... before we didn't even know each other"	NA	NA	NA	NA	NA	NA	52
+2020-03-24 19:20:24	"teacher001"	"teacher"	147	"I see - that's good - yes a shame it takes something like this I guess but still..."	"I see - that's good - yes a shame it takes something like this I guess but still..."	NA	NA	NA	NA	NA	NA	18
+2020-03-24 19:21:05	"student004"	"student"	148	"Sure, I hope from now we became a bit more sociable (not too much haha)"	"Sure, I hope from now we will become a bit more sociable (not too much haha)"	NA	NA	NA	NA	NA	NA	15
+2020-03-24 19:21:19	"teacher001"	"teacher"	149	"Yeah right! well we'll see..."	"Yeah right! well we'll see..."	NA	NA	NA	NA	NA	NA	5
+2020-03-24 19:21:30	"student004"	"student"	150	"Well, back to the inversion"	"Well, back to the inversion"	142	NA	NA	NA	NA	NA	5
+2020-03-24 19:21:36	"teacher001"	"teacher"	151	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-03-24 19:21:50	"teacher001"	"teacher"	152	"CAn you see my example above - dies it look familiar?"	"CAn you see my example above - dies it look familiar?"	NA	NA	NA	NA	NA	NA	11
+2020-03-24 19:23:17	"student004"	"student"	153	"No, it doesn't sound familiar but I see how it works..."	"No, it doesn't sound familiar but I see how it works..."	NA	NA	NA	NA	NA	NA	11
+2020-03-24 19:23:39	"teacher001"	"teacher"	154	"OK so in CAE they'll definitely test you on this..."	"OK so in CAE they'll definitely test you on this..."	NA	NA	NA	NA	NA	NA	10
+2020-03-24 19:23:55	"teacher001"	"teacher"	155	"So basically adverb phrases can go at the beginning..."	"So basically adverb phrases can go at the beginning..."	NA	"6a"	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-03-24 19:24:17	"teacher001"	"teacher"	156	"So e.g. I have rarely seen  = ?"	"So e.g. I have rarely seen  = ?"	NA	NA	NA	NA	NA	NA	9
+2020-03-24 19:24:37	"student004"	"student"	157	"No idea :("	"No idea :("	NA	NA	NA	NA	NA	NA	3
+2020-03-24 19:25:03	"student004"	"student"	158	"I was about to start like 'had not taken..."	"I was about to start like 'had not taken..."	NA	"6b"	NA	NA	NA	NA	9
+2020-03-24 19:25:07	"teacher001"	"teacher"	159	"THat's OK! so you just have to put the adverb at the beginning ...so : Rarely have I seen...."	"THat's OK! so you just have to put the adverb at the beginning ...so : Rarely have I seen...."	157	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-03-24 19:25:48	"student004"	"student"	160	"But the first word is had, isn't it?"	"But the first word is had, isn't it?"	158	NA	NA	NA	NA	NA	8
+2020-03-24 19:26:18	"teacher001"	"teacher"	161	"yes I see - this is a particularly difficult one actually  - you need to say: (had) it not been for (!)"	"yes I see - this is a particularly difficult one actually  - you need to say: (had) it not been for (!)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2020-03-24 19:27:22	"student004"	"student"	162	"So the answer is 'had it not been for'"	"So the answer is 'had it not been for'"	NA	NA	NA	NA	NA	NA	9
+2020-03-24 19:27:31	"teacher001"	"teacher"	163	"So e.g. in the second conditional a simialr (non inverted ) structure = if it wasn't for you etc..."	"So e.g. in the second conditional a simialr (non inverted ) structure = if it wasn't for you etc..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-03-24 19:28:03	"teacher001"	"teacher"	164	"but in the third conditional this can be inverted giving you...yes: Had it not been for..."	"but in the third conditional this can be inverted giving you...yes: Had it not been for..."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2020-03-24 19:28:25	"student004"	"student"	165	"I see... but really difficult"	"I see... but really difficult"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 19:28:31	"student004"	"student"	166	"for me!"	"for me!"	NA	NA	NA	NA	NA	NA	2
+2020-03-24 19:28:51	"teacher001"	"teacher"	167	"yes this one is to be honest .... I'll think of a way to go over this a bit next time perhaps..."	"yes this one is to be honest .... I'll think of a way to go over this a bit next time perhaps..."	NA	"8.0"	"closing"	NA	NA	NA	22
+2020-03-24 19:29:03	"teacher001"	"teacher"	168	"something to look forward too!"	"something to look forward too!"	NA	NA	NA	NA	NA	NA	5
+2020-03-24 19:29:42	"student004"	"student"	169	"Still a lot to practice..."	"Still a lot to practice..."	NA	NA	NA	NA	NA	NA	5
+2020-03-24 19:30:15	"student004"	"student"	170	"Thank you very much!"	"Thank you very much!"	NA	NA	NA	NA	NA	NA	4
+2020-03-24 19:30:29	"teacher001"	"teacher"	171	"Yes they do include quite a range of stuff in the exam - OK thanks <STUDENT> I guess we'll stop there - I'll speak to you tomorrow take care!"	"Yes they do include quite a range of stuff in the exam - OK thanks <STUDENT> I guess we'll stop there - I'll speak to you tomorrow take care!"	NA	NA	NA	NA	NA	NA	29
+2020-03-24 19:30:38	"teacher001"	"teacher"	172	"no problem bye"	"no problem bye"	NA	NA	NA	NA	NA	NA	3
+2020-03-24 19:30:56	"student004"	"student"	173	"yes, speak to you tomorrow!"	"yes, speak to you tomorrow!"	NA	NA	NA	NA	NA	"C1"	5

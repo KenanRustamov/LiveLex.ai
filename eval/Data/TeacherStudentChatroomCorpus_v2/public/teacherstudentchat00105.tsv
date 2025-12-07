@@ -1,0 +1,174 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-21 06:31:13	"teacher008"	"teacher"	1	"Hi <STUDENT>"	"Hi <STUDENT>"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-08-21 06:31:25	"student010"	"student"	2	"Hello"	"Hello"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:31:33	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-08-21 06:31:38	"student010"	"student"	4	"Fine"	"Fine"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:31:46	"teacher008"	"teacher"	5	"Good to hear"	"Good to hear"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 06:32:08	"teacher008"	"teacher"	6	"What happened on Wednesday then? Was it your Internet connection?"	"What happened on Wednesday then? Was it your Internet connection?"	NA	"2a"	"topic development"	NA	NA	NA	10
+2020-08-21 06:32:31	"student010"	"student"	7	"I think yes"	"I think yes"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 06:32:46	"teacher008"	"teacher"	8	"Did the programme stop working?"	"Did the programme stop working?"	NA	NA	NA	NA	NA	NA	5
+2020-08-21 06:34:08	"student010"	"student"	9	"There was't electricity for a second"	"There was a power cut for a second"	NA	NA	NA	NA	NA	NA	6
+2020-08-21 06:34:30	"student010"	"student"	10	"And then internet crashed"	"And then the Internet crashed"	NA	NA	NA	NA	NA	NA	4
+2020-08-21 06:34:34	"teacher008"	"teacher"	11	"Oh, there was a power cut"	"Oh, there was a power cut"	9	NA	"repair"	"lexical resource"	NA	NA	6
+2020-08-21 06:34:38	"teacher008"	"teacher"	12	"I see!"	"I see!"	10	NA	NA	NA	NA	NA	2
+2020-08-21 06:35:15	"teacher008"	"teacher"	13	"How's life in your other village? Have you found anything exciting with your metal detector yet?"	"How's life in your other village? Have you found anything exciting with your metal detector yet?"	NA	"2b"	"topic development"	NA	NA	NA	16
+2020-08-21 06:35:59	"student010"	"student"	14	"No! Because my dad didn't bring it :("	"No! Because my dad didn't bring it :("	NA	NA	NA	NA	NA	NA	8
+2020-08-21 06:36:28	"teacher008"	"teacher"	15	"Oh no, that's disappointing!"	"Oh no, that's disappointing!"	NA	NA	NA	NA	NA	NA	4
+2020-08-21 06:38:32	"teacher008"	"teacher"	16	"Ok, <STUDENT>, I've got something for you today"	"Ok, <STUDENT>, I've got something for you today"	NA	"3.0"	"topic opening"	NA	NA	NA	8
+2020-08-21 06:38:55	"student010"	"student"	17	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:39:12	"teacher008"	"teacher"	18	"What's the opposite of happy? __happy"	"What's the opposite of happy? __happy"	NA	NA	"eliciting"	"lexical resource"	NA	NA	6
+2020-08-21 06:39:25	"student010"	"student"	19	"Sad"	"Sad"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:39:54	"teacher008"	"teacher"	20	"Yes, sure. But if we use a prefix to turn a word into its opposite. Happy - unhappy"	"Yes, sure. But if we use a prefix to turn a word into its opposite. Happy - unhappy"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-08-21 06:40:08	"student010"	"student"	21	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:40:21	"teacher008"	"teacher"	22	"Friendly - ___friendly"	"Friendly - ___friendly"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-08-21 06:40:32	"student010"	"student"	23	"Un"	"Un"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:40:49	"teacher008"	"teacher"	24	"yes. Healthy -"	"yes. Healthy -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-08-21 06:41:01	"student010"	"student"	25	"Un"	"Un"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:41:26	"teacher008"	"teacher"	26	"yes, could you type the whole word, please?"	"yes, could you type the whole word, please?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	8
+2020-08-21 06:41:35	"student010"	"student"	27	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:41:42	"teacher008"	"teacher"	28	"comfortable -"	"comfortable -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:41:43	"student010"	"student"	29	"Unhealthy"	"Unhealthy"	27	NA	NA	NA	NA	NA	1
+2020-08-21 06:41:51	"teacher008"	"teacher"	30	"great, thanks :)"	"great, thanks :)"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 06:41:55	"student010"	"student"	31	"Uncomfortable"	"Uncomfortable"	28	NA	NA	NA	NA	NA	1
+2020-08-21 06:42:02	"teacher008"	"teacher"	32	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:42:05	"teacher008"	"teacher"	33	"possible -"	"possible -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:42:23	"student010"	"student"	34	"Impossible"	"Impossible"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:42:39	"teacher008"	"teacher"	35	"Ah, well done! You didn't fall into my trap :)"	"Ah, well done! You didn't fall into my trap :)"	NA	NA	NA	NA	NA	NA	10
+2020-08-21 06:42:57	"teacher008"	"teacher"	36	"Un- is a very popular prefix with the opposite meaning, but it's not the only one"	"Un- is a very popular prefix with the opposite meaning, but it's not the only one"	NA	"3a"	"presentation"	"lexical resource"	NA	NA	16
+2020-08-21 06:43:03	"teacher008"	"teacher"	37	"logical -"	"logical -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:43:41	"student010"	"student"	38	"Illogical?"	"Illogical?"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:43:49	"teacher008"	"teacher"	39	"yes, well done!!"	"yes, well done!!"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 06:43:52	"teacher008"	"teacher"	40	"legal -"	"legal -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:44:12	"student010"	"student"	41	"Illegal"	"Illegal"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:44:16	"teacher008"	"teacher"	42	"good"	"good"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:44:23	"teacher008"	"teacher"	43	"regular -"	"regular -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:44:34	"student010"	"student"	44	"Irreagular"	"Irregular"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:44:47	"teacher008"	"teacher"	45	"yes, correct. like irregular verbs"	"yes, correct. like irregular verbs"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-08-21 06:44:51	"teacher008"	"teacher"	46	"rational -"	"rational -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:45:20	"student010"	"student"	47	"Irrational"	"Irrational"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:45:24	"teacher008"	"teacher"	48	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:45:38	"teacher008"	"teacher"	49	"So what do you think is the rule for il- and ir-?"	"So what do you think is the rule for il- and ir-?"	NA	"3b"	"eliciting"	"lexical resource"	NA	NA	12
+2020-08-21 06:46:33	"student010"	"student"	50	"Sorry I mistakenly clicked escape button"	"Sorry I mistakenly clicked the escape button"	NA	"3c"	"disruption"	NA	NA	NA	6
+2020-08-21 06:46:41	"teacher008"	"teacher"	51	"Ah, no worries"	"Ah, no worries"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 06:46:50	"student010"	"student"	52	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:47:13	"teacher008"	"teacher"	53	"What do you think is the rule for il- and ir-?"	"What do you think is the rule for il- and ir-?"	49	NA	NA	NA	NA	NA	11
+2020-08-21 06:47:48	"student010"	"student"	54	"So if the word starts on (L) or (r)?"	"So if the word starts with (L) or (r)?"	NA	NA	NA	NA	NA	NA	9
+2020-08-21 06:48:00	"teacher008"	"teacher"	55	"Correct! You got it"	"Correct! You got it"	NA	NA	NA	NA	NA	NA	4
+2020-08-21 06:48:26	"student010"	"student"	56	"Ok that was easy"	"Ok that was easy"	NA	NA	NA	NA	NA	NA	4
+2020-08-21 06:48:29	"teacher008"	"teacher"	57	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:48:45	"teacher008"	"teacher"	58	"what about polite - ?"	"what about polite - ?"	NA	"3d"	"eliciting"	"lexical resource"	NA	NA	5
+2020-08-21 06:48:54	"student010"	"student"	59	"Impolite"	"Impolite"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:49:06	"teacher008"	"teacher"	60	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:49:09	"teacher008"	"teacher"	61	"probable -"	"probable -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:50:06	"student010"	"student"	62	"Improbable"	"Improbable"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:50:09	"teacher008"	"teacher"	63	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:50:11	"teacher008"	"teacher"	64	"mature -"	"mature -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:50:52	"student010"	"student"	65	"Immature? I'm not sure"	"Immature? I'm not sure"	NA	NA	NA	NA	NA	NA	4
+2020-08-21 06:51:10	"teacher008"	"teacher"	66	"Yes! You have the right instinct for this"	"Yes! You have the right instinct for this"	NA	NA	NA	NA	NA	NA	8
+2020-08-21 06:51:24	"teacher008"	"teacher"	67	"What's the rule for im- do you think?"	"What's the rule for im- do you think?"	NA	"3e"	"eliciting"	"lexical resource"	NA	NA	8
+2020-08-21 06:52:00	"student010"	"student"	68	"If the word starts on m, p"	"If the word starts with m or p"	NA	NA	NA	NA	NA	NA	7
+2020-08-21 06:52:18	"teacher008"	"teacher"	69	"yes, if the word starts with m or p"	"yes, if the word starts with m or p"	NA	NA	"repair,scaffolding"	"lexical resource"	NA	NA	9
+2020-08-21 06:52:59	"teacher008"	"teacher"	70	"M and P and both sounds we make with our lips, and it's easier for us to use im- with them"	"M and P and both sounds we make with our lips, and it's easier for us to use im- with them"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	21
+2020-08-21 06:53:11	"teacher008"	"teacher"	71	"It doesn't always work thought"	"It doesn't always work thought"	NA	"3f"	NA	NA	NA	NA	5
+2020-08-21 06:53:19	"teacher008"	"teacher"	72	"popular - unpopular"	"popular - unpopular"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-08-21 06:53:48	"teacher008"	"teacher"	73	"*though, not 'thought"	"*though, not 'thought"	71	NA	"repair"	"writing"	NA	NA	3
+2020-08-21 06:54:03	"teacher008"	"teacher"	74	"Ok, a few more!"	"Ok, a few more!"	NA	"3g"	NA	NA	NA	NA	4
+2020-08-21 06:54:07	"teacher008"	"teacher"	75	"expensive -"	"expensive -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:54:28	"student010"	"student"	76	"Do you know why class work is 2 words and homework is one word?"	"Do you know why class work is 2 words and homework is one word?"	NA	"3h"	"enquiry"	"lexical resource"	NA	NA	14
+2020-08-21 06:54:50	"teacher008"	"teacher"	77	"Hmm, good question!"	"Hmm, good question!"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 06:55:30	"student010"	"student"	78	"Cheap"	"Cheap"	75	NA	NA	NA	NA	NA	1
+2020-08-21 06:55:38	"teacher008"	"teacher"	79	"I think because 'homework' is word we use much more often, and the parts of the word fused together"	"I think because 'homework' is word we use much more often, and the parts of the word fused together"	77	NA	"scaffolding"	"lexical resource"	NA	NA	19
+2020-08-21 06:55:54	"teacher008"	"teacher"	80	"Haha, cheap is good, but could you use a prefix?"	"Haha, cheap is good, but could you use a prefix?"	78	NA	"eliciting"	"lexical resource"	NA	NA	10
+2020-08-21 06:56:02	"teacher008"	"teacher"	81	"Expensive - __expensive"	"Expensive - __expensive"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-08-21 06:56:10	"teacher008"	"teacher"	82	"I'll help. Inexpensive"	"I'll help. Inexpensive"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-08-21 06:56:25	"student010"	"student"	83	"Inexpansive"	"Inexpensive"	81	NA	NA	NA	NA	NA	1
+2020-08-21 06:56:34	"teacher008"	"teacher"	84	"yes, good!"	"yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 06:56:46	"teacher008"	"teacher"	85	"inexpEnsive"	"inexpEnsive"	83	NA	"repair"	"writing"	NA	NA	1
+2020-08-21 06:56:55	"teacher008"	"teacher"	86	"correct - ?"	"correct - ?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-08-21 06:57:20	"student010"	"student"	87	"Incorrect"	"Incorrect"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:57:24	"teacher008"	"teacher"	88	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:57:28	"teacher008"	"teacher"	89	"sane -"	"sane -"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-08-21 06:57:59	"student010"	"student"	90	"What does it mean"	"What does it mean"	NA	"3i"	"enquiry"	"lexical resource,meaning"	NA	NA	4
+2020-08-21 06:58:50	"teacher008"	"teacher"	91	"Sane = 1. reasonable, sensible 2. not mad, in good mental health"	"Sane = 1. reasonable, sensible 2. not mad, in good mental health"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-08-21 06:59:16	"student010"	"student"	92	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 06:59:41	"teacher008"	"teacher"	93	"For example, during the coronavirus pandemic, gardening, work and exercise keep me sane"	"For example, during the coronavirus pandemic, gardening, work and exercise keep me sane"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2020-08-21 06:59:56	"teacher008"	"teacher"	94	"they stop me from going crazy :)"	"they stop me from going crazy :)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-08-21 06:59:59	"student010"	"student"	95	"So I don't know but I think unsane"	"So I don't know but I think insane"	89	NA	NA	NA	NA	NA	8
+2020-08-21 07:00:05	"teacher008"	"teacher"	96	"insane"	"insane"	NA	NA	"repair"	"lexical resource"	NA	NA	1
+2020-08-21 07:00:21	"teacher008"	"teacher"	97	"What an insane thing to do! = What a crazy thing to do!"	"What an insane thing to do! = What a crazy thing to do!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2020-08-21 07:00:55	"teacher008"	"teacher"	98	"What keeps you sane when you are under stress?"	"What keeps you sane when you are under stress?"	NA	"3j"	"exercise,free practice"	"lexical resource"	NA	NA	9
+2020-08-21 07:01:48	"student010"	"student"	99	"Plasticine"	"Plasticine"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:03:14	"teacher008"	"teacher"	100	"Oh, I can imagine, it does help to de-stress"	"Oh, I can imagine, it does help to de-stress"	NA	NA	NA	NA	NA	NA	9
+2020-08-21 07:03:44	"teacher008"	"teacher"	101	"Nothing like poking in the dirt and planting seeds for me :)"	"Nothing like poking in the dirt and planting seeds for me :)"	NA	NA	NA	NA	NA	NA	12
+2020-08-21 07:04:10	"teacher008"	"teacher"	102	"Oh, my guinea pig is recovering now! We don't have to hand-feed him anymore, his appetite is back!"	"Oh, my guinea pig is recovering now! We don't have to hand-feed him anymore, his appetite is back!"	NA	"4.0"	"topic opening"	NA	NA	NA	18
+2020-08-21 07:04:58	"student010"	"student"	103	"Thats great!"	"That's great!"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:05:41	"teacher008"	"teacher"	104	"Yes, thank you, such a relief!"	"Yes, thank you, such a relief!"	NA	NA	NA	NA	NA	NA	6
+2020-08-21 07:06:10	"teacher008"	"teacher"	105	"Ok, one last word, let me know if you don't know it"	"Ok, one last word, let me know if you don't know it"	NA	"3k"	NA	NA	NA	NA	12
+2020-08-21 07:06:15	"teacher008"	"teacher"	106	"convenient - ?"	"convenient - ?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-08-21 07:07:12	"student010"	"student"	107	"Inconvenient but I forgot what does it mean"	"Inconvenient but I forgot what it means"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	8
+2020-08-21 07:07:19	"teacher008"	"teacher"	108	"well done!"	"well done!"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:08:09	"teacher008"	"teacher"	109	"If something is convenient, it fits with your plans and needs and it can also save you some time"	"If something is convenient, it fits with your plans and needs and it can also save you some time"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2020-08-21 07:08:30	"teacher008"	"teacher"	110	"For example, this bus is convenient becaust it takes me straight to where I want to go"	"For example, this bus is convenient becaust it takes me straight to where I want to go"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2020-08-21 07:09:05	"student010"	"student"	111	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:09:33	"teacher008"	"teacher"	112	"e.g. Is a lesson on Wednesday at 9.30 convenient for you?"	"e.g. Is a lesson on Wednesday at 9.30 convenient for you?"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-08-21 07:09:42	"student010"	"student"	113	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:11:00	"teacher008"	"teacher"	114	"ok, a quick memory test, give me the opposite adjective, please"	"ok, a quick memory test, give me the opposite adjective, please"	NA	"5.0"	"exercise,exercise"	"lexical resource"	NA	NA	11
+2020-08-21 07:11:03	"teacher008"	"teacher"	115	"polite -"	"polite -"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:11:13	"student010"	"student"	116	"Impolite"	"Impolite"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:11:20	"teacher008"	"teacher"	117	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:11:23	"teacher008"	"teacher"	118	"correct -"	"correct -"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:11:30	"student010"	"student"	119	"Incorrect"	"Incorrect"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:11:47	"teacher008"	"teacher"	120	"expensive -"	"expensive -"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:12:09	"student010"	"student"	121	"Inexpansive"	"Inexpensive"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:12:32	"teacher008"	"teacher"	122	"correct prefix, but the spelling is 'inexpEnsive'"	"correct prefix, but the spelling is 'inexpEnsive'"	NA	NA	"repair"	"writing"	NA	NA	7
+2020-08-21 07:12:52	"student010"	"student"	123	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:13:32	"teacher008"	"teacher"	124	"expansive' is actually a different word, it means 'covering a wide area' like 'this house comes with an expansive garden'"	"expansive' is actually a different word, it means 'covering a wide area' like 'this house comes with an expansive garden'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-08-21 07:13:38	"teacher008"	"teacher"	125	"ok, logical -"	"ok, logical -"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 07:13:51	"student010"	"student"	126	"Illogical"	"Illogical"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:13:56	"teacher008"	"teacher"	127	"yes, good"	"yes, good"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:14:00	"teacher008"	"teacher"	128	"rational -"	"rational -"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:14:35	"student010"	"student"	129	"Irrational"	"Irrational"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:14:41	"teacher008"	"teacher"	130	"yes, good!"	"yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:14:43	"teacher008"	"teacher"	131	"mature -"	"mature -"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:15:16	"student010"	"student"	132	"Immature"	"Immature"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:15:24	"teacher008"	"teacher"	133	"sane -"	"sane -"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:15:41	"student010"	"student"	134	"Insane"	"Insane"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:15:47	"teacher008"	"teacher"	135	"yes, well done!"	"yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 07:16:13	"teacher008"	"teacher"	136	"Ok, I'm going to give you a synonym or a definition, and you give me an adjective, please"	"Ok, I'm going to give you a synonym or a definition, and you give me an adjective, please"	NA	"5a"	"exercise,exercise"	"lexical resource"	NA	NA	18
+2020-08-21 07:16:26	"teacher008"	"teacher"	137	"If something's against the law, it's ___"	"If something's against the law, it's ___"	NA	NA	NA	NA	NA	NA	7
+2020-08-21 07:17:06	"student010"	"student"	138	"Illegal"	"Illegal"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:17:11	"teacher008"	"teacher"	139	"yes, good!"	"yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:17:16	"teacher008"	"teacher"	140	"wrong ="	"wrong ="	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:17:39	"student010"	"student"	141	"Incorrect"	"Incorrect"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:17:44	"teacher008"	"teacher"	142	"good!"	"good!"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:17:53	"teacher008"	"teacher"	143	"cheap ="	"cheap ="	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:18:24	"student010"	"student"	144	"Inexpencive"	"Inexpensive"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:18:37	"teacher008"	"teacher"	145	"inexpenSive"	"inexpenSive"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-08-21 07:18:53	"teacher008"	"teacher"	146	"a different letter was wrong this time :)"	"a different letter was wrong this time :)"	NA	NA	NA	NA	NA	NA	8
+2020-08-21 07:19:14	"teacher008"	"teacher"	147	"Ok, let's swap. You give me a definition and I guess the word, ok?"	"Ok, let's swap. You give me a definition and I guess the word, ok?"	NA	"5b"	"exercise,exercise"	"lexical resource"	NA	NA	14
+2020-08-21 07:20:58	"student010"	"student"	148	"Crazy="	"Crazy="	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:21:15	"teacher008"	"teacher"	149	"insane!"	"insane!"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:21:57	"student010"	"student"	150	"Rude="	"Rude="	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:22:14	"teacher008"	"teacher"	151	"impolite"	"impolite"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:22:33	"student010"	"student"	152	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:22:41	"student010"	"student"	153	"Sad="	"Sad="	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:22:56	"teacher008"	"teacher"	154	"unhappy"	"unhappy"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:23:45	"student010"	"student"	155	"When something doesn't suit you"	"When something doesn't suit you"	NA	NA	NA	NA	NA	NA	5
+2020-08-21 07:23:55	"teacher008"	"teacher"	156	"it's inconvenient :)"	"it's inconvenient :)"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 07:24:47	"student010"	"student"	157	"Something unusual"	"Something unusual"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:25:10	"teacher008"	"teacher"	158	"hmm, I'm not sure"	"hmm, I'm not sure"	NA	NA	NA	NA	NA	NA	4
+2020-08-21 07:25:12	"teacher008"	"teacher"	159	"what is it?"	"what is it?"	NA	NA	NA	NA	NA	NA	3
+2020-08-21 07:25:36	"student010"	"student"	160	"Irregular"	"Irregular"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:26:12	"teacher008"	"teacher"	161	"Ah, I see! Yes, but it also means it doesn't happen regularly"	"Ah, I see! Yes, but it also means it doesn't happen regularly"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-08-21 07:26:41	"teacher008"	"teacher"	162	"For example, we used to have Math on Mondays but now it's sometimes Mondays, sometimes Thursdays and sometimes every day!"	"For example, we used to have Math on Mondays but now it's sometimes Mondays, sometimes Thursdays and sometimes every day!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+2020-08-21 07:26:43	"student010"	"student"	163	"😪"	"😪"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:26:44	"teacher008"	"teacher"	164	"it's irregular"	"it's irregular"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	2
+2020-08-21 07:27:01	"teacher008"	"teacher"	165	"Why are you crying?"	"Why are you crying?"	163	NA	NA	NA	NA	NA	4
+2020-08-21 07:27:51	"student010"	"student"	166	"Because I thought it was correct"	"Because I thought it was correct"	NA	NA	NA	NA	NA	NA	6
+2020-08-21 07:28:28	"teacher008"	"teacher"	167	"Oh, you are right in a way! Irregular verbs are unusual, right? They don't follow the rule"	"Oh, you are right in a way! Irregular verbs are unusual, right? They don't follow the rule"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2020-08-21 07:28:39	"student010"	"student"	168	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-21 07:29:01	"teacher008"	"teacher"	169	"I thought the idea of having math irregularly upset you :)"	"I thought the idea of having math irregularly upset you :)"	NA	NA	NA	NA	NA	NA	11
+2020-08-21 07:29:16	"teacher008"	"teacher"	170	"Ok, really well done today, <STUDENT>!"	"Ok, really well done today, <STUDENT>!"	NA	"6.0"	"closing"	NA	NA	NA	6
+2020-08-21 07:29:31	"teacher008"	"teacher"	171	"Enjoy your weekend and I'll talk to you on Wednesday!"	"Enjoy your weekend and I'll talk to you on Wednesday!"	NA	NA	NA	NA	NA	NA	10
+2020-08-21 07:29:51	"student010"	"student"	172	"ok bye!"	"ok bye!"	NA	NA	NA	NA	NA	NA	2
+2020-08-21 07:29:59	"teacher008"	"teacher"	173	"Take care!"	"Take care!"	NA	NA	NA	NA	NA	"B2"	2

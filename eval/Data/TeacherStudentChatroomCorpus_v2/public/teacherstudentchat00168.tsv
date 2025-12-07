@@ -1,0 +1,254 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-16 11:10:29	"student012"	"student"	1	"<STUDENT>"	"<STUDENT>"	NA	"1.0"	"disruption"	NA	NA	NA	1
+2020-12-16 11:10:34	"student012"	"student"	2	"oops"	"oops"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:10:50	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"2.0"	"opening"	NA	NA	NA	2
+2020-12-16 11:10:51	"student012"	"student"	4	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:11:18	"student012"	"student"	5	"I'm sorry for being late"	"I'm sorry for being late"	NA	"3.0"	"topic opening"	NA	NA	NA	5
+2020-12-16 11:11:27	"teacher008"	"teacher"	6	"No worries :)"	"No worries :)"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:11:36	"student012"	"student"	7	"I had a class of Russian with a student and he was half hour late ("	"I had a class of Russian with a student and he was half hour late ("	NA	NA	NA	NA	NA	NA	16
+2020-12-16 11:11:50	"teacher008"	"teacher"	8	"Oh no! Was it an online class?"	"Oh no! Was it an online class?"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 11:11:58	"student012"	"student"	9	"Yes. It was in Skype"	"Yes. It was in Skype"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:12:13	"student012"	"student"	10	"He's in Germany"	"He's in Germany"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:12:28	"student012"	"student"	11	"And forgot about the time difference"	"And forgot about the time difference"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:12:41	"teacher008"	"teacher"	12	"I see! You certainly have an exciting job! (so do I I think :)"	"I see! You certainly have an exciting job! (so do I I think :)"	NA	"3a"	"topic development"	NA	NA	NA	14
+2020-12-16 11:13:21	"student012"	"student"	13	"Depends on the student))"	"Depends on the student))"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:13:46	"teacher008"	"teacher"	14	"I wouldn't even know where to start if I was teaching Russian. I mean, Russian / Ukrainian words just change all the time"	"I wouldn't even know where to start if I was teaching Russian. I mean, Russian / Ukrainian words just change all the time"	NA	NA	NA	NA	NA	NA	23
+2020-12-16 11:14:01	"student012"	"student"	15	"That was me 6 years ago)))"	"That was me 6 years ago)))"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:14:20	"teacher008"	"teacher"	16	"Well, I suppose this is the difference between a professional language teacher and a native speaker of the language"	"Well, I suppose this is the difference between a professional language teacher and a native speaker of the language"	NA	NA	NA	NA	NA	NA	19
+2020-12-16 11:14:21	"student012"	"student"	17	"I also couldn't figure out how to do it"	"I also couldn't figure out how to do it"	15	NA	NA	NA	NA	NA	9
+2020-12-16 11:15:00	"student012"	"student"	18	"I did my homework by the way"	"I did my homework by the way"	NA	"4.0"	"homework"	"reading"	"textbook"	NA	7
+2020-12-16 11:15:12	"student012"	"student"	19	"Right after our last lesson"	"Right after our last lesson"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:15:43	"teacher008"	"teacher"	20	"Oh lovely, I did the reading too :)"	"Oh lovely, I did the reading too :)"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 11:15:45	"student012"	"student"	21	"The task seemed pretty challenging"	"The task seemed pretty challenging"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:16:02	"teacher008"	"teacher"	22	"I've got the answer key, by the way, don't worry, I'm not just checking your answers against mine"	"I've got the answer key, by the way, don't worry, I'm not just checking your answers against mine"	20	NA	NA	NA	NA	NA	18
+2020-12-16 11:16:06	"student012"	"student"	23	"It is actually one of my least favourite tasks"	"It is actually one of my least favourite tasks"	21	NA	NA	NA	NA	NA	9
+2020-12-16 11:16:21	"student012"	"student"	24	"No worries at all)))"	"No worries at all)))"	22	NA	NA	NA	NA	NA	4
+2020-12-16 11:16:22	"teacher008"	"teacher"	25	"Which one? the missing paragraphs one?"	"Which one? the missing paragraphs one?"	23	NA	NA	NA	NA	NA	6
+2020-12-16 11:16:33	"student012"	"student"	26	"Yours are as good as the answer keys"	"Yours are as good as the answer keys"	24	NA	NA	NA	NA	NA	8
+2020-12-16 11:16:50	"student012"	"student"	27	"Yes, the missing paragraphs"	"Yes, the missing paragraphs"	25	NA	NA	NA	NA	NA	4
+2020-12-16 11:17:00	"teacher008"	"teacher"	28	"I wish! I got a couple wrong with the missing paragraphs! Like you say, a tough task"	"I wish! I got a couple wrong with the missing paragraphs! Like you say, a tough task"	26	NA	NA	NA	NA	NA	17
+2020-12-16 11:17:39	"student012"	"student"	29	"This type gets extra difficult starting from the Advanced level"	"This type gets extra difficult starting from the Advanced level"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 11:17:41	"teacher008"	"teacher"	30	"The trouble is, if you get just the one wrong, you're likely to get at least one more wrong too because you might have already used the paragraph you needed"	"The trouble is, if you get just the one wrong, you're likely to get at least one more wrong too because you might have already used the paragraph you needed"	NA	NA	NA	NA	NA	NA	30
+2020-12-16 11:17:52	"student012"	"student"	31	"Exactly"	"Exactly"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:18:13	"teacher008"	"teacher"	32	"Ok, shall we have a look?"	"Ok, shall we have a look?"	NA	"4a"	"exercise,homework"	"reading"	"textbook"	NA	6
+2020-12-16 11:18:22	"student012"	"student"	33	"Yes! Let me open the file"	"Yes! Let me open the file"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:19:21	"student012"	"student"	34	"ready"	"ready"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:19:39	"student012"	"student"	35	"Ok."	"Ok."	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:19:42	"student012"	"student"	36	"37 D"	"37 D"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:19:48	"teacher008"	"teacher"	37	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:19:57	"student012"	"student"	38	"38 H"	"38 H"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:20:03	"teacher008"	"teacher"	39	"yes :)"	"yes :)"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:20:12	"student012"	"student"	40	"39 F"	"39 F"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:20:15	"teacher008"	"teacher"	41	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:20:22	"student012"	"student"	42	"40 ......B"	"40 ......B"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:20:27	"teacher008"	"teacher"	43	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:20:33	"student012"	"student"	44	"41 A"	"41 A"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:20:36	"teacher008"	"teacher"	45	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:20:41	"student012"	"student"	46	"42 E"	"42 E"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:20:45	"teacher008"	"teacher"	47	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:20:49	"student012"	"student"	48	"43 G"	"43 G"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:20:53	"teacher008"	"teacher"	49	"Yaaaay!"	"Yaaaay!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:20:56	"student012"	"student"	50	"WOW"	"WOW"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:20:58	"teacher008"	"teacher"	51	"You did it!!!"	"You did it!!!"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:21:05	"student012"	"student"	52	"I was 100 per cent sure something's wrong"	"I was 100 per cent sure something was wrong"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 11:21:18	"teacher008"	"teacher"	53	"Nope, you crushed it :)"	"Nope, you crushed it :)"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:21:24	"student012"	"student"	54	"Wow"	"Wow"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:21:34	"student012"	"student"	55	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:21:38	"student012"	"student"	56	"I'm happy"	"I'm happy"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:21:45	"teacher008"	"teacher"	57	"Well done! You should be!"	"Well done! You should be!"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:21:50	"student012"	"student"	58	"I do really hate those tasks though"	"I do really hate those tasks though"	NA	"5.0"	"topic opening"	"reading"	NA	NA	7
+2020-12-16 11:22:04	"student012"	"student"	59	"<ANOTHER STUDENT> can tell you how I struggled while completing it"	"<ANOTHER STUDENT> can tell you how I struggled while completing it"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 11:22:17	"teacher008"	"teacher"	60	"Haha, yes. My strategy when I was preparing for CPE was a lot of underlining"	"Haha, yes. My strategy when I was preparing for CPE was a lot of underlining"	NA	NA	"scaffolding"	"reading"	NA	NA	15
+2020-12-16 11:22:29	"teacher008"	"teacher"	61	"with a pencil"	"with a pencil"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:22:41	"student012"	"student"	62	"I need to print it then"	"I need to print it then"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:22:47	"teacher008"	"teacher"	63	"I would underline the words that link the two paragraphs (before and after)"	"I would underline the words that link the two paragraphs (before and after)"	NA	NA	"scaffolding"	"reading"	NA	NA	13
+2020-12-16 11:23:04	"student012"	"student"	64	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:23:11	"student012"	"student"	65	"I do the same just in my head"	"I do the same just in my head"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 11:23:28	"teacher008"	"teacher"	66	"True! You also need to know whether your exam will be paper-based or computer-based"	"True! You also need to know whether your exam will be paper-based or computer-based"	62	"5a"	"topic development"	"reading"	NA	NA	14
+2020-12-16 11:23:46	"teacher008"	"teacher"	67	"Because obviously, there's no use getting used to underlining in  a computer-based exam"	"Because obviously, there's no use getting used to underlining in  a computer-based exam"	NA	NA	NA	NA	NA	NA	14
+2020-12-16 11:24:04	"student012"	"student"	68	"Which one is more common?"	"Which one is more common?"	NA	"5b"	"enquiry"	"exam prep"	NA	NA	5
+2020-12-16 11:24:31	"teacher008"	"teacher"	69	"But I think a computer-based one allows you to drag-and-drop paragraphs, which can also be quite visually helpful"	"But I think a computer-based one allows you to drag-and-drop paragraphs, which can also be quite visually helpful"	67	NA	"scaffolding"	"reading"	NA	NA	18
+2020-12-16 11:25:00	"teacher008"	"teacher"	70	"I don't know what it's like in Kyiv now! I sat the paper-based one, but it was, like 10 years ago now"	"I don't know what it's like in Kyiv now! I sat the paper-based one, but it was, like 10 years ago now"	68	NA	NA	NA	NA	NA	22
+2020-12-16 11:25:01	"student012"	"student"	71	"That would be great if they do it"	"That would be great if they do it"	69	NA	NA	NA	NA	NA	8
+2020-12-16 11:25:21	"teacher008"	"teacher"	72	"It all depends on the exam centre and whether they have enough computers and which model they prefer"	"It all depends on the exam centre and whether they have enough computers and which model they prefer"	70	NA	NA	NA	NA	NA	18
+2020-12-16 11:25:33	"student012"	"student"	73	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:25:50	"student012"	"student"	74	"Which center is the best for this type of exams?"	"Which center is the best for this type of exams?"	NA	"5c"	"enquiry"	"exam prep"	NA	NA	10
+2020-12-16 11:25:54	"student012"	"student"	75	"In your opinion"	"In your opinion"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:26:10	"teacher008"	"teacher"	76	"British Council was the only one that offered CPE at the time, but Grade might do it now too"	"British Council was the only one that offered CPE at the time, but Grade might do it now too"	NA	NA	NA	NA	NA	NA	19
+2020-12-16 11:26:52	"student012"	"student"	77	"Now there are plenty"	"Now there are plenty"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:26:53	"teacher008"	"teacher"	78	"It shouldn't matter, the exam experience should be the same across the world, this is the job of an exam centre"	"It shouldn't matter, the exam experience should be the same across the world, this is the job of an exam centre"	NA	NA	NA	NA	NA	NA	21
+2020-12-16 11:26:58	"student012"	"student"	79	"from what I've managed to find"	"from what I've managed to find"	77	NA	NA	NA	NA	NA	6
+2020-12-16 11:27:21	"student012"	"student"	80	"BC is the optimal choice I guess"	"BC is the optimal choice I guess"	78	NA	NA	NA	NA	NA	7
+2020-12-16 11:27:30	"teacher008"	"teacher"	81	"And Grade or the BC, you will probably get the same speaking examiners because there are very few examiners who are qualified to do CPE (<TEACHER'S HUSBAND> used to do it)"	"And Grade or the BC, you will probably get the same speaking examiners because there are very few examiners who are qualified to do CPE (<TEACHER'S HUSBAND> used to do it)"	78	NA	NA	NA	NA	NA	31
+2020-12-16 11:27:54	"teacher008"	"teacher"	82	"I liked the BC, they had a nice cafe :)"	"I liked the BC, they had a nice cafe :)"	80	NA	NA	NA	NA	NA	10
+2020-12-16 11:27:59	"student012"	"student"	83	"I see."	"I see."	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:28:01	"teacher008"	"teacher"	84	"the one in Podil"	"the one in Podil"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:28:10	"teacher008"	"teacher"	85	"But like I say, they were the only option"	"But like I say, they were the only option"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 11:28:28	"student012"	"student"	86	"Oh nice. A cafe! That's a definitive pro for me"	"Oh nice. A cafe! That's a definitive pro for me"	82	NA	NA	NA	NA	NA	10
+2020-12-16 11:28:46	"teacher008"	"teacher"	87	"A bit of useless trivia: one of the CPE examiners in Kyiv is the wife of Andrei Kurkov, the writer"	"A bit of useless trivia: one of the CPE examiners in Kyiv is the wife of Andrei Kurkov, the writer"	NA	"5d"	"topic development"	NA	NA	NA	20
+2020-12-16 11:29:54	"student012"	"student"	88	"Is he a famous writer?))"	"Is he a famous writer?))"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:30:20	"teacher008"	"teacher"	89	"I've never read him, to be honest! I keep meaning to. But I saw his books in English bookshops"	"I've never read him, to be honest! I keep meaning to. But I saw his books in English bookshops"	NA	NA	NA	NA	NA	NA	19
+2020-12-16 11:30:36	"student012"	"student"	90	"So he writes in English?"	"So he writes in English?"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:30:38	"teacher008"	"teacher"	91	"Is he quite famous in Kyiv?"	"Is he quite famous in Kyiv?"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:30:46	"student012"	"student"	92	"Never heard of him"	"Never heard of him"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:31:11	"teacher008"	"teacher"	93	"Hmm, I presume they are translations, but I might be wrong! His wife is English, so he might be bilingual"	"Hmm, I presume they are translations, but I might be wrong! His wife is English, so he might be bilingual"	90	NA	NA	NA	NA	NA	20
+2020-12-16 11:31:35	"student012"	"student"	94	"I'll look him up"	"I'll look him up"	92	NA	NA	NA	NA	NA	4
+2020-12-16 11:31:52	"teacher008"	"teacher"	95	"This is what Wiki has to say"	"This is what Wiki has to say"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 11:31:53	"teacher008"	"teacher"	96	"Andrey Yuryevich Kurkov is a Ukrainian novelist and an independent thinker who writes in Russian. He is the author of 19 novels, including the bestselling Death and the Penguin, 9 books for children, and about 20 documentary, fiction and TV movie scripts."	"Andrey Yuryevich Kurkov is a Ukrainian novelist and an independent thinker who writes in Russian. He is the author of 19 novels, including the bestselling Death and the Penguin, 9 books for children, and about 20 documentary, fiction and TV movie scripts."	NA	NA	NA	NA	NA	NA	42
+2020-12-16 11:32:09	"teacher008"	"teacher"	97	"An independent thinker! :))"	"An independent thinker! :))"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:32:56	"student012"	"student"	98	"What a biography. Did his wife compose it? ))))"	"What a biography. Did his wife compose it? ))))"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 11:33:07	"teacher008"	"teacher"	99	"I wonder that :))"	"I wonder that :))"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:33:31	"student012"	"student"	100	"Interesting ))"	"Interesting ))"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:33:50	"teacher008"	"teacher"	101	"He's quite prolific it seems. Amazon.uk is offering me lots of books by him, now that I've googled him :)"	"He's quite prolific it seems. Amazon.uk is offering me lots of books by him, now that I've googled him :)"	NA	NA	NA	NA	NA	NA	20
+2020-12-16 11:35:02	"student012"	"student"	102	"Amazon follows you"	"Amazon follows you"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:35:15	"teacher008"	"teacher"	103	"Definitely!"	"Definitely!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:36:32	"student012"	"student"	104	"I saw a funny tik tok video couple of days ago"	"I saw a funny tik tok video a couple of days ago"	NA	"6.0"	"topic opening"	NA	NA	NA	11
+2020-12-16 11:36:45	"teacher008"	"teacher"	105	"Oh, before we continue, I'll just mention that I'll take some time off (or more like <TEACHER'S CHILD> will be off starting from next week) and be back to chats from Monday January 4. I do understand this is bang in the middle of the festive period for you, so do let me know whether you'd like a class on January 6"	"Oh, before we continue, I'll just mention that I'll take some time off (or more like <TEACHER'S CHILD> will be off starting from next week) and be back to chats from Monday January 4. I do understand this is bang in the middle of the festive period for you, so do let me know whether you'd like a class on January 6"	NA	"7.0"	"topic opening"	NA	NA	NA	62
+2020-12-16 11:37:04	"teacher008"	"teacher"	106	"Tik tok! You're way more social media savvy than me!"	"Tik tok! You're way more social media savvy than me!"	104	NA	NA	NA	NA	NA	10
+2020-12-16 11:37:14	"student012"	"student"	107	"I saw it on IG"	"I saw it on IG"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:37:25	"student012"	"student"	108	"Ok sure! Let's try the 6th"	"Ok sure! Let's try the 6th"	105	NA	NA	NA	NA	NA	6
+2020-12-16 11:37:29	"teacher008"	"teacher"	109	"See, I don't even know what IG is :)"	"See, I don't even know what IG is :)"	107	NA	NA	NA	NA	NA	9
+2020-12-16 11:37:36	"student012"	"student"	110	"instagram"	"instagram"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:37:46	"teacher008"	"teacher"	111	"Ah, ok! the Gram :))"	"Ah, ok! the Gram :))"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:37:56	"student012"	"student"	112	"I hate tik tok actually"	"I hate tik tok actually"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:38:00	"teacher008"	"teacher"	113	"Ok, Jan 6th!"	"Ok, Jan 6th!"	108	NA	NA	NA	NA	NA	3
+2020-12-16 11:38:09	"teacher008"	"teacher"	114	"It's quite new, isn't it?"	"It's quite new, isn't it?"	112	NA	NA	NA	NA	NA	5
+2020-12-16 11:38:36	"student012"	"student"	115	"Yes. The audiences there ... it's just sad."	"Yes. The audiences there ... it's just sad."	NA	NA	NA	NA	NA	NA	8
+2020-12-16 11:39:23	"teacher008"	"teacher"	116	"So is the idea that it's videos? Like insta, but videos?"	"So is the idea that it's videos? Like insta, but videos?"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 11:39:40	"teacher008"	"teacher"	117	"Why is it sad?"	"Why is it sad?"	115	NA	NA	NA	NA	NA	4
+2020-12-16 11:39:41	"student012"	"student"	118	"Anyway, the video was about a wife  after seeing her husband leaving his mobile phone on the table and going to the shower, takes the phone and talks to eat"	"Anyway, the video was about a wife who after seeing her husband leave his mobile phone on the table and go to the shower, takes the phone and talks to it"	NA	"6a"	"topic development"	NA	NA	NA	31
+2020-12-16 11:39:46	"student012"	"student"	119	"to it*"	"to it*"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-12-16 11:40:05	"student012"	"student"	120	"very slowly she says"	"very slowly she says"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:40:46	"student012"	"student"	121	"Buy flowers Kyiv' 'buy new Iphone 11 Kyiv centre' 'Beautiful roses Kyiv;"	"Buy flowers Kyiv' 'buy new Iphone 11 Kyiv centre' 'Beautiful roses Kyiv;"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 11:41:00	"student012"	"student"	122	"trying to train the search engines"	"trying to train the search engines"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:41:18	"student012"	"student"	123	"so that later they can show her husband a targeted ad"	"so that later they can show her husband a targeted ad"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 11:41:28	"teacher008"	"teacher"	124	"haha, oh goodness!"	"haha, oh goodness!"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:41:48	"teacher008"	"teacher"	125	"now there's a new way to plant ideas into people's heads"	"now there's a new way to plant ideas into people's heads"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 11:41:57	"student012"	"student"	126	"Smart, right?"	"Smart, right?"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:42:20	"student012"	"student"	127	"Now you know how to plant a gift idea into <TEACHER'S HUSBAND>'s head"	"Now you know how to plant a gift idea into <TEACHER'S HUSBAND>'s head"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 11:42:23	"teacher008"	"teacher"	128	"Devious!"	"Devious!"	126	NA	NA	NA	NA	NA	1
+2020-12-16 11:42:49	"teacher008"	"teacher"	129	"Haha, I just ask :)"	"Haha, I just ask :)"	127	NA	NA	NA	NA	NA	5
+2020-12-16 11:42:55	"student012"	"student"	130	"I'll try it with <STUDENT'S HUSBAND>. See if it works))"	"I'll try it with <STUDENT'S HUSBAND>. See if it works))"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 11:43:07	"teacher008"	"teacher"	131	"Let me know!"	"Let me know!"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:43:16	"student012"	"student"	132	"Asking is always better!"	"Asking is always better!"	129	NA	NA	NA	NA	NA	4
+2020-12-16 11:43:22	"student012"	"student"	133	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:43:30	"student012"	"student"	134	"For the sake of the experiment"	"For the sake of the experiment"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:43:40	"teacher008"	"teacher"	135	"in case he doesn't get the hint :)"	"in case he doesn't get the hint :)"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 11:43:56	"student012"	"student"	136	"<STUDENT'S HUSBAND> is bad at hints"	"<STUDENT'S HUSBAND> is bad at hints"	NA	"6b"	"topic development"	NA	NA	NA	6
+2020-12-16 11:44:22	"student012"	"student"	137	"He's bad even when I directly ask for something particular."	"He's bad even when I directly ask for something particular."	NA	NA	NA	NA	NA	NA	10
+2020-12-16 11:44:36	"teacher008"	"teacher"	138	":))) oh no!"	":))) oh no!"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:44:37	"student012"	"student"	139	"He just forgets what it was right away"	"He just forgets what it was right away"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 11:44:46	"teacher008"	"teacher"	140	"<STUDENT'S CHILD> will have to train him up"	"<STUDENT'S CHILD> will have to train him up"	NA	NA	NA	NA	NA	NA	8
+2020-12-16 11:44:58	"student012"	"student"	141	"The mind of a simultaneous interpreter"	"The mind of a simultaneous interpreter"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:45:00	"student012"	"student"	142	"I guess"	"I guess"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:45:17	"teacher008"	"teacher"	143	"Oh, true, he kind of clears the cash immediately?"	"Oh, true, he kind of clears the cash immediately?"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 11:45:23	"student012"	"student"	144	"<STUDENT'S CHILD> will persevere"	"<STUDENT'S CHILD> will persevere"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:45:39	"student012"	"student"	145	"Exactly. That's how I call it too"	"Exactly. That's what I call it too"	143	NA	NA	NA	NA	NA	7
+2020-12-16 11:45:54	"teacher008"	"teacher"	146	"That's ___ I call it too"	"That's ___ I call it too"	NA	"6c"	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-12-16 11:46:00	"student012"	"student"	147	"what"	"what"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:46:03	"student012"	"student"	148	")) sorry"	")) sorry"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:46:04	"teacher008"	"teacher"	149	"yes :)"	"yes :)"	147	NA	NA	NA	NA	NA	2
+2020-12-16 11:46:21	"teacher008"	"teacher"	150	"no worries! I know it's hard!"	"no worries! I know it's hard!"	148	NA	NA	NA	NA	NA	6
+2020-12-16 11:46:32	"teacher008"	"teacher"	151	"it's still hard for me to think of hair as 'it'"	"it's still hard for me to think of hair as 'it'"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 11:46:40	"teacher008"	"teacher"	152	"I have to make a conscious effort"	"I have to make a conscious effort"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 11:47:01	"student012"	"student"	153	"Old habits die hard"	"Old habits die hard"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:47:22	"teacher008"	"teacher"	154	"definitely!"	"definitely!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:47:26	"student012"	"student"	155	"You want to say 'they'?"	"You want to say 'they'?"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 11:47:47	"teacher008"	"teacher"	156	"Die hard, I wonder if <TEACHER'S HUSBAND>'s going to make me watch it this Xmas. It's a Xmas movie in the UK!"	"Die hard, I wonder if <TEACHER'S HUSBAND>'s going to make me watch it this Xmas. It's a Xmas movie in the UK!"	NA	"6d"	"topic development"	NA	NA	NA	22
+2020-12-16 11:47:51	"teacher008"	"teacher"	157	"Yep!"	"Yep!"	155	NA	NA	NA	NA	NA	1
+2020-12-16 11:48:22	"student012"	"student"	158	"I know. My sis just told me yesterday that they watched it together with her boyfriend and decorated the Xtree"	"I know. My sis just told me yesterday that they watched it together with her boyfriend and decorated the Xtree"	156	NA	NA	NA	NA	NA	20
+2020-12-16 11:48:43	"teacher008"	"teacher"	159	"Oh, where does she live? I forgot"	"Oh, where does she live? I forgot"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 11:48:52	"student012"	"student"	160	"What movie is your Xmas movie?"	"What movie is your Xmas movie?"	NA	"6e"	"topic development"	NA	NA	NA	6
+2020-12-16 11:49:10	"student012"	"student"	161	"She lives in Kyiv now"	"She lives in Kyiv now"	159	NA	NA	NA	NA	NA	5
+2020-12-16 11:49:28	"student012"	"student"	162	"She used to live in London. And before that she'd lived in Boston"	"She used to live in London. And before that she'd lived in Boston"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 11:50:07	"teacher008"	"teacher"	163	"Well, the kiddie ones, like the Grinch and Christmas Chronicles. Love Actually (soppy, I know!) and musicals (poor <TEACHER'S HUSBAND>!)"	"Well, the kiddie ones, like the Grinch and Christmas Chronicles. Love Actually (soppy, I know!) and musicals (poor <TEACHER'S HUSBAND>!)"	160	NA	NA	NA	NA	NA	20
+2020-12-16 11:50:43	"student012"	"student"	164	"Love Actually! My all-time favourite Xmas movie"	"Love Actually! My all-time favourite Xmas movie"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 11:50:59	"teacher008"	"teacher"	165	"Snap! :))"	"Snap! :))"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:51:01	"student012"	"student"	166	"What about Home Alone?"	"What about Home Alone?"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:51:17	"teacher008"	"teacher"	167	"I've never watched it! Weird, I know! Maybe it's time"	"I've never watched it! Weird, I know! Maybe it's time"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 11:51:39	"student012"	"student"	168	"Maybe instead of Diehard?"	"Maybe instead of Die Hard?"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:51:53	"teacher008"	"teacher"	169	"Maybe!"	"Maybe!"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:52:00	"student012"	"student"	170	"The humour is pretty much on the same level"	"The humour is pretty much on the same level"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 11:52:09	"teacher008"	"teacher"	171	"Haha :))) excellent"	"Haha :))) excellent"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:52:33	"teacher008"	"teacher"	172	"Yes, Die Hard for me is Snape crashing a Xmas party"	"Yes, Die Hard for me is Snape crashing a Xmas party"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 11:52:37	"student012"	"student"	173	"The 1 and the 2 are the only good ones"	"The 1 and the 2 are the only good ones"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 11:52:46	"student012"	"student"	174	"ahahaha"	"ahahaha"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 11:52:54	"student012"	"student"	175	"Oh yes, I forgot he was in it"	"Oh yes, I forgot he was in it"	172	NA	NA	NA	NA	NA	8
+2020-12-16 11:53:02	"student012"	"student"	176	"A German guy"	"The German guy"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:53:15	"teacher008"	"teacher"	177	"Yes :) Alan Rickman"	"Yes :) Alan Rickman"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:53:22	"teacher008"	"teacher"	178	"And in Love Actually too, actually!"	"And in Love Actually too, actually!"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 11:53:42	"student012"	"student"	179	"He's adorable"	"He's adorable"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 11:54:00	"teacher008"	"teacher"	180	"I know it's a bit weird to practise speaking in this format, but shall we have a go at a couple of speaking questions from CPE?"	"I know it's a bit weird to practise speaking in this format, but shall we have a go at a couple of speaking questions from CPE?"	NA	"7.0"	"topic opening"	"speaking"	NA	NA	26
+2020-12-16 11:54:09	"teacher008"	"teacher"	181	"C2 Proficiency, I should say"	"C2 Proficiency, I should say"	NA	NA	"repair"	NA	NA	NA	5
+2020-12-16 11:54:13	"teacher008"	"teacher"	182	"He is lovely, yes!"	"He is lovely, yes!"	179	NA	NA	NA	NA	NA	4
+2020-12-16 11:54:23	"student012"	"student"	183	"The way he grunts -- I just love it"	"The way he grunts -- I just love it"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 11:54:57	"teacher008"	"teacher"	184	"He grunts?? Maybe I do have to rewatch Die Hard :))"	"He grunts?? Maybe I do have to rewatch Die Hard :))"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 11:55:37	"student012"	"student"	185	"How about when this Cambridge experiment's over and you have more free time, I'll take some extra lessons in Skype to practise speaking and writing?"	"How about when this Cambridge experiment's over and you have more free time, I'll take some extra lessons in Skype to practise speaking and writing?"	181	NA	NA	NA	NA	NA	25
+2020-12-16 11:56:14	"student012"	"student"	186	"Meanwhile, we can continue with the test part of the exam?"	"Meanwhile, we can continue with the test part of the exam?"	NA	NA	NA	NA	NA	NA	11
+2020-12-16 11:56:25	"teacher008"	"teacher"	187	"Ok sure, we can do that! Even though writing is actually perfect for this format, I do it with other students"	"Ok sure, we can do that! Even though writing is actually perfect for this format, I do it with other students"	NA	NA	NA	NA	NA	NA	21
+2020-12-16 11:56:48	"teacher008"	"teacher"	188	"Would you like a writing homework for the Xmas holiday? (I'm so good at Xmas presents!)"	"Would you like a writing homework for the Xmas holiday? (I'm so good at Xmas presents!)"	NA	"7a"	"topic development,homework"	"writing"	NA	NA	16
+2020-12-16 11:56:55	"student012"	"student"	189	"Oh. Only speaking then, right."	"Oh. Only speaking then, right."	187	NA	NA	NA	NA	NA	5
+2020-12-16 11:57:04	"student012"	"student"	190	"I would!"	"I would!"	188	NA	NA	NA	NA	NA	2
+2020-12-16 11:57:40	"teacher008"	"teacher"	191	"Yes, C2 writing is tough and it pays to start early!"	"Yes, C2 writing is tough and it pays to start early!"	189	NA	NA	NA	NA	NA	11
+2020-12-16 11:58:15	"teacher008"	"teacher"	192	"The main reason it's tough is the time limit: 1 h 30 min to write two essays"	"The main reason it's tough is the time limit: 1 h 30 min to write two essays"	NA	NA	"scaffolding"	"writing"	NA	NA	17
+2020-12-16 11:58:25	"student012"	"student"	193	"I think for me speaking and writing will be tough"	"I think for me speaking and writing will be tough"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 11:58:43	"student012"	"student"	194	"Really? 90 minutes?"	"Really? 90 minutes?"	192	NA	NA	NA	NA	NA	3
+2020-12-16 11:58:58	"student012"	"student"	195	"It is scary"	"It is scary"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 11:59:10	"teacher008"	"teacher"	196	"Well, you're fluent, so not too tough, but at C2 level you obviously aim to impress, not just speak and write"	"Well, you're fluent, so not too tough, but at C2 level you obviously aim to impress, not just speak and write"	NA	NA	NA	NA	NA	NA	21
+2020-12-16 11:59:32	"student012"	"student"	197	"That's the problem ))"	"That's the problem ))"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 11:59:50	"teacher008"	"teacher"	198	"Yes, and each essay should be 280-320 words"	"Yes, and each essay should be 280-320 words"	194	NA	"scaffolding"	"writing"	NA	NA	8
+2020-12-16 11:59:55	"student012"	"student"	199	"Anyway, what would you like me to write about?"	"Anyway, what would you like me to write about?"	NA	"7b"	"enquiry,homework"	"writing"	NA	NA	9
+2020-12-16 12:00:01	"student012"	"student"	200	"OMG"	"OMG"	198	NA	NA	NA	NA	NA	1
+2020-12-16 12:00:33	"student012"	"student"	201	"Maybe passing this exam is not such a good idea after all)))))"	"Maybe taking this exam is not such a good idea after all)))))"	NA	NA	NA	NA	NA	NA	12
+2020-12-16 12:00:40	"teacher008"	"teacher"	202	"Yes, that's another thing to think about in terms of computer-based / paper-based. If you type fast, a computer-based exam could give an advantage"	"Yes, that's another thing to think about in terms of computer-based / paper-based. If you type fast, a computer-based exam could give an advantage"	NA	NA	NA	NA	NA	NA	24
+2020-12-16 12:01:03	"student012"	"student"	203	"I think it's more or less the same speed"	"I think it's more or less the same speed"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 12:01:12	"teacher008"	"teacher"	204	"Well, we can give it a go and practise! You didn't think you'd be good at reading and use of English, remember?"	"Well, we can give it a go and practise! You didn't think you'd be good at reading and use of English, remember?"	NA	NA	NA	NA	NA	NA	22
+2020-12-16 12:02:08	"teacher008"	"teacher"	205	"There are two parts to a writing exam. You have no choice of task in part 1, but in part 2 there are a few options"	"There are two parts to a writing exam. You have no choice of task in part 1, but in part 2 there are a few options"	199	NA	"scaffolding"	"writing"	"textbook"	NA	26
+2020-12-16 12:02:20	"teacher008"	"teacher"	206	"Hold on a sec, I'll email you the paper"	"Hold on a sec, I'll email you the paper"	NA	NA	NA	NA	NA	NA	9
+2020-12-16 12:02:22	"student012"	"student"	207	"Yes-yes. I tend to underestimate myself ))"	"Yes-yes. I tend to underestimate myself ))"	204	NA	NA	NA	NA	NA	7
+2020-12-16 12:02:34	"student012"	"student"	208	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:02:37	"student012"	"student"	209	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:03:42	"teacher008"	"teacher"	210	"There goes, have a quick look please"	"There goes, have a quick look please"	NA	NA	NA	NA	NA	NA	7
+2020-12-16 12:03:55	"student012"	"student"	211	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:03:57	"student012"	"student"	212	"opened it"	"opened it"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:04:01	"teacher008"	"teacher"	213	"Part 1 is a summary task. I would start with Part 2 just this one time"	"Part 1 is a summary task. I would start with Part 2 just this one time"	NA	NA	"scaffolding"	"writing"	NA	NA	16
+2020-12-16 12:04:18	"teacher008"	"teacher"	214	"Because there's a method to the summary task that we won't have time to discuss today"	"Because there's a method to the summary task that we won't have time to discuss today"	NA	NA	NA	NA	NA	NA	16
+2020-12-16 12:04:35	"student012"	"student"	215	"Understood"	"Understood"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:04:40	"student012"	"student"	216	"So Task 2 then"	"So Task 2 then"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 12:04:40	"teacher008"	"teacher"	217	"Could you have a look at Part 2? Which option would you like?"	"Could you have a look at Part 2? Which option would you like?"	NA	NA	NA	NA	NA	NA	13
+2020-12-16 12:06:09	"student012"	"student"	218	"Hard to tell"	"Hard to tell"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:06:14	"student012"	"student"	219	"all of them are terrible"	"all of them are terrible"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:06:20	"teacher008"	"teacher"	220	"I know!! :))))"	"I know!! :))))"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:06:43	"student012"	"student"	221	"4 I guess"	"4 I guess"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:06:53	"teacher008"	"teacher"	222	"Well, I suppose the question is, which one would be easiest to write about and work some good language in?"	"Well, I suppose the question is, which one would be easiest to write about and work some good language in?"	NA	NA	NA	NA	NA	NA	20
+2020-12-16 12:07:25	"student012"	"student"	223	"The only one I can relate to is number 4"	"The only one I can relate to is number 4"	NA	NA	NA	NA	NA	NA	10
+2020-12-16 12:07:31	"teacher008"	"teacher"	224	"I would also go for 4 it was me. Unless I knew lots of good words to describe a building :))"	"I would also go for 4 it was me. Unless I knew lots of good words to describe a building :))"	NA	NA	NA	NA	NA	NA	21
+2020-12-16 12:07:45	"student012"	"student"	225	"or a cartoon book"	"or a cartoon book"	NA	NA	NA	NA	NA	NA	4
+2020-12-16 12:07:47	"student012"	"student"	226	"))))"	"))))"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:08:01	"student012"	"student"	227	"Do I start like"	"Do I start like"	NA	"7c"	"enquiry"	"writing"	NA	NA	4
+2020-12-16 12:08:08	"student012"	"student"	228	"Dear ,,,"	"Dear ,,,"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:08:09	"teacher008"	"teacher"	229	"Yes, you can work in lots of emotion vocab, and stuff like 3rd conditionals (what would have happened if you hadn't decided...)"	"Yes, you can work in lots of emotion vocab, and stuff like 3rd conditionals (what would have happened if you hadn't decided...)"	226	NA	"scaffolding"	"writing,grammatical resource,lexical resource"	NA	NA	22
+2020-12-16 12:08:26	"teacher008"	"teacher"	230	"and inversions! Little did I know at the time that..."	"and inversions! Little did I know at the time that..."	NA	NA	"scaffolding"	"writing,grammatical resource"	NA	NA	10
+2020-12-16 12:08:37	"student012"	"student"	231	"A nice tip! thank you!"	"A nice tip! thank you!"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:09:15	"teacher008"	"teacher"	232	"Yes, absolutely, you need a formal letter"	"Yes, absolutely, you need a formal letter"	228	NA	NA	NA	NA	NA	7
+2020-12-16 12:09:19	"student012"	"student"	233	"So starting with 'Dear sir' will be ok?"	"So starting with 'Dear sir' will be ok?"	NA	NA	"enquiry"	"writing"	NA	NA	8
+2020-12-16 12:09:25	"teacher008"	"teacher"	234	"It's kind of a cross between a letter and an essay"	"It's kind of a cross between a letter and an essay"	232	NA	NA	NA	NA	NA	11
+2020-12-16 12:09:46	"teacher008"	"teacher"	235	"Dear Sir or Madam,"	"Dear Sir or Madam,"	233	NA	"scaffolding"	"writing"	NA	NA	4
+2020-12-16 12:09:53	"student012"	"student"	236	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:09:55	"student012"	"student"	237	"Got it"	"Got it"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:09:58	"student012"	"student"	238	"I'll try"	"I'll try"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:10:21	"student012"	"student"	239	"I'll send it to your emal"	"I'll send it to your email"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:10:24	"student012"	"student"	240	"email"	"email"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-16 12:10:44	"teacher008"	"teacher"	241	"I have decided to take part in ... I have seen the invitation to share... in your magazine"	"I have decided to take part in ... I have seen the invitation to share... in your magazine"	235	NA	"scaffolding"	"writing"	NA	NA	18
+2020-12-16 12:10:58	"teacher008"	"teacher"	242	"Something like that, to start with"	"Something like that, to start with"	NA	NA	NA	NA	NA	NA	6
+2020-12-16 12:11:03	"student012"	"student"	243	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-12-16 12:11:15	"teacher008"	"teacher"	244	"You can do it! :))"	"You can do it! :))"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:11:20	"student012"	"student"	245	"Have a great holiday!"	"Have a great holiday!"	NA	"8.0"	"closing"	NA	NA	NA	4
+2020-12-16 12:11:27	"student012"	"student"	246	"I'll do my best"	"I'll do my best"	244	NA	NA	NA	NA	NA	4
+2020-12-16 12:11:41	"teacher008"	"teacher"	247	"Thank you! You too, have a lovely time with your family!"	"Thank you! You too, have a lovely time with your family!"	245	NA	NA	NA	NA	NA	11
+2020-12-16 12:11:49	"student012"	"student"	248	"Thank you! Bye!"	"Thank you! Bye!"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:12:02	"teacher008"	"teacher"	249	"I'll talk to you in the new year! (we can obviously keep in touch on Messenger in the meantime)"	"I'll talk to you in the new year! (we can obviously keep in touch on Messenger in the meantime)"	NA	NA	NA	NA	NA	NA	19
+2020-12-16 12:12:13	"teacher008"	"teacher"	250	"Bye <STUDENT> :)"	"Bye <STUDENT> :)"	NA	NA	NA	NA	NA	NA	3
+2020-12-16 12:12:14	"student012"	"student"	251	"Sure! See you in 2021"	"Sure! See you in 2021"	NA	NA	NA	NA	NA	NA	5
+2020-12-16 12:12:16	"student012"	"student"	252	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-12-16 12:12:18	"student012"	"student"	253	"Bye)"	"Bye)"	NA	NA	NA	NA	NA	"C2"	1

@@ -1,0 +1,286 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2020-11-18T12:21:20+00:00+00:00+00:00"	"teacher008"	"teacher"	"1"	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2020-11-18T12:21:39+00:00+00:00+00:00"	"student011"	"student"	"2"	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:21:45+00:00+00:00+00:00"	"student011"	"student"	"3"	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+"2020-11-18T12:22:06+00:00+00:00+00:00"	"teacher008"	"teacher"	"4"	"I'm fine, thank you. And how are you? Have you had your flu jab?"	"I'm fine, thank you. And how are you? Have you had your flu jab?"	NA	"2a"	"topic development"	NA	NA	NA	14
+"2020-11-18T12:22:56+00:00+00:00+00:00"	"student011"	"student"	"5"	"Yes, I's done )"	"Yes, it's done )"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:23:11+00:00+00:00+00:00"	"student011"	"student"	"6"	"*It"	"*It"	NA	NA	"repair"	"writing"	NA	NA	1
+"2020-11-18T12:23:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"7"	"Cool! I've got to organize ours too"	"Cool! I've got to organize ours too"	NA	NA	NA	NA	NA	NA	7
+"2020-11-18T12:23:31+00:00+00:00+00:00"	"student011"	"student"	"8"	"jab it's like privivka?"	"is jab like privivka?"	NA	"2b"	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	4
+"2020-11-18T12:23:37+00:00+00:00+00:00"	"teacher008"	"teacher"	"9"	"Yes, that's right!"	"Yes, that's right!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+"2020-11-18T12:23:55+00:00+00:00+00:00"	"student011"	"student"	"10"	"Oh! Super. Did you do it before?"	"Oh! Super. Have you done it before?"	7	NA	NA	NA	NA	NA	7
+"2020-11-18T12:24:02+00:00+00:00+00:00"	"teacher008"	"teacher"	"11"	"The official word is 'vaccination' (as the process) or a vaccine"	"The official word is 'vaccination' (as the process) or a vaccine"	9	NA	"scaffolding"	"lexical resource"	NA	NA	11
+"2020-11-18T12:24:08+00:00+00:00+00:00"	"student011"	"student"	"12"	"Because for us it's the fist time"	"Because for us it's the first time"	10	NA	NA	NA	NA	NA	7
+"2020-11-18T12:24:12+00:00+00:00+00:00"	"student011"	"student"	"13"	"first"	"first"	NA	NA	"repair"	"writing"	NA	NA	1
+"2020-11-18T12:24:24+00:00+00:00+00:00"	"teacher008"	"teacher"	"14"	"Have you had a dose of your flu vaccine? Have you been vaccinated against flu this year?"	"Have you had a dose of your flu vaccine? Have you been vaccinated against flu this year?"	11	NA	"scaffolding"	"lexical resource"	NA	NA	17
+"2020-11-18T12:24:31+00:00+00:00+00:00"	"teacher008"	"teacher"	"15"	"But people just say, have you had a flu jab?"	"But people just say, have you had a flu jab?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+"2020-11-18T12:24:53+00:00+00:00+00:00"	"student011"	"student"	"16"	"wow? something new for me"	"wow! something new for me"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T12:25:03+00:00+00:00+00:00"	"student011"	"student"	"17"	"In all senses ))"	"In all senses ))"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:25:05+00:00+00:00+00:00"	"teacher008"	"teacher"	"18"	"Is it the first time you've had a flu jab?"	"Is it the first time you've had a flu jab?"	12	NA	NA	NA	NA	NA	10
+"2020-11-18T12:25:11+00:00+00:00+00:00"	"teacher008"	"teacher"	"19"	"That's good :)"	"That's good :)"	17	NA	NA	NA	NA	NA	3
+"2020-11-18T12:25:38+00:00+00:00+00:00"	"student011"	"student"	"20"	"Ok, and why I need present perfect here? )"	"Ok, and why do I need present perfect here? )"	18	"2c"	"enquiry"	"grammatical resource"	NA	NA	9
+"2020-11-18T12:25:46+00:00+00:00+00:00"	"teacher008"	"teacher"	"21"	"Well, <TEACHER'S CHILD> gets his at school, and <TEACHER'S HUSBAND>'s company gave him a voucher to pay for a flu jab"	"Well, <TEACHER'S CHILD> gets his at school, and <TEACHER'S HUSBAND>'s company gave him a voucher to pay for a flu jab"	10	NA	NA	NA	NA	NA	21
+"2020-11-18T12:26:08+00:00+00:00+00:00"	"teacher008"	"teacher"	"22"	"It's the first time + present perfect"	"It's the first time + present perfect"	20	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+"2020-11-18T12:26:14+00:00+00:00+00:00"	"student011"	"student"	"23"	"Ah, super!"	"Ah, super!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:26:19+00:00+00:00+00:00"	"teacher008"	"teacher"	"24"	"It's a bit unusual"	"It's a bit unusual"	22	NA	NA	NA	NA	NA	4
+"2020-11-18T12:26:31+00:00+00:00+00:00"	"teacher008"	"teacher"	"25"	"that it's present perfect"	"that it's present perfect"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:26:57+00:00+00:00+00:00"	"teacher008"	"teacher"	"26"	"but it makes sense because it's in the present, something you've just done"	"but it makes sense because it's in the present, something you've just done"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+"2020-11-18T12:27:00+00:00+00:00+00:00"	"student011"	"student"	"27"	"It's the first time + present perfect. Ok, so no past?"	"It's the first time + present perfect. Ok, so no past?"	22	"2d"	"enquiry"	"grammatical resource"	NA	NA	11
+"2020-11-18T12:27:41+00:00+00:00+00:00"	"student011"	"student"	"28"	"And when I use the expression  It's the first time I have to use just present perfect?"	"And when I use the expression  It's the first time, do I have to use just present perfect?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	18
+"2020-11-18T12:27:50+00:00+00:00+00:00"	"teacher008"	"teacher"	"29"	"No! Unless you're talking about the past. It was the first time + past simple / past perfect"	"No! Unless you're talking about the past. It was the first time + past simple / past perfect"	27	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+"2020-11-18T12:27:57+00:00+00:00+00:00"	"teacher008"	"teacher"	"30"	"Yes, that's right"	"Yes, that's right"	28	NA	NA	NA	NA	NA	3
+"2020-11-18T12:28:51+00:00+00:00+00:00"	"teacher008"	"teacher"	"31"	"e.g. My parents took me to a restaurant when I was 16. It was the first time I had tried wine"	"e.g. My parents took me to a restaurant when I was 16. It was the first time I had tried wine"	29	NA	"scaffolding"	"grammatical resource"	NA	NA	21
+"2020-11-18T12:28:54+00:00+00:00+00:00"	"teacher008"	"teacher"	"32"	"in the past"	"in the past"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+"2020-11-18T12:29:29+00:00+00:00+00:00"	"student011"	"student"	"33"	"Ah, Ok! Thank you"	"Ah, Ok! Thank you"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:29:31+00:00+00:00+00:00"	"teacher008"	"teacher"	"34"	"I can't think of anything that I've done for the first time recently :)))"	"I can't think of anything that I've done for the first time recently :)))"	NA	NA	NA	NA	NA	NA	14
+"2020-11-18T12:29:43+00:00+00:00+00:00"	"student011"	"student"	"35"	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:29:49+00:00+00:00+00:00"	"teacher008"	"teacher"	"36"	"It's been the first year that I've worked at home so much"	"It's been the first year that I've worked at home so much"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+"2020-11-18T12:29:49+00:00+00:00+00:00"	"student011"	"student"	"37"	"some new food?"	"some new food?"	35	NA	NA	NA	NA	NA	3
+"2020-11-18T12:29:52+00:00+00:00+00:00"	"teacher008"	"teacher"	"38"	"or something like that!"	"or something like that!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:30:04+00:00+00:00+00:00"	"teacher008"	"teacher"	"39"	"It's the first time I've tried tacos"	"It's the first time I've tried tacos"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+"2020-11-18T12:30:11+00:00+00:00+00:00"	"student011"	"student"	"40"	")"	")"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:30:33+00:00+00:00+00:00"	"student011"	"student"	"41"	"Ok, it's clear. Thank you!"	"Ok, it's clear. Thank you!"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T12:30:46+00:00+00:00+00:00"	"teacher008"	"teacher"	"42"	"I should ask, maybe I'm also eligible for a flu jab voucher like <TEACHER'S HUSBAND>..."	"I should ask, maybe I'm also eligible for a flu jab voucher like <TEACHER'S HUSBAND>..."	NA	"2e"	"topic development"	NA	NA	NA	15
+"2020-11-18T12:30:50+00:00+00:00+00:00"	"teacher008"	"teacher"	"43"	"I want one now!"	"I want one now!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:31:24+00:00+00:00+00:00"	"teacher008"	"teacher"	"44"	"But children, the elderly and pregnant women get a flu jab for free in the UK"	"But children, the elderly and pregnant women get a flu jab for free in the UK"	NA	NA	NA	NA	NA	NA	16
+"2020-11-18T12:31:40+00:00+00:00+00:00"	"teacher008"	"teacher"	"45"	"Because they are more v--------- to flu"	"Because they are more v--------- to flu"	NA	"2f"	"eliciting"	"lexical resource"	NA	NA	7
+"2020-11-18T12:31:55+00:00+00:00+00:00"	"student011"	"student"	"46"	"vulnerable )"	"vulnerable )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:31:59+00:00+00:00+00:00"	"teacher008"	"teacher"	"47"	"Remember the word? meaning that flu can be more serious for them"	"Remember the word? meaning that flu can be more serious for them"	45	NA	"eliciting"	"lexical resource"	NA	NA	12
+"2020-11-18T12:32:04+00:00+00:00+00:00"	"teacher008"	"teacher"	"48"	"Yes! well done :)"	"Yes! well done :)"	46	NA	NA	NA	NA	NA	4
+"2020-11-18T12:32:32+00:00+00:00+00:00"	"student011"	"student"	"49"	"Unfortunately we don't have the same system here in Ukraine"	"Unfortunately we don't have the same system here in Ukraine"	NA	"2g"	"topic development"	NA	NA	NA	10
+"2020-11-18T12:32:37+00:00+00:00+00:00"	"student011"	"student"	"50"	"Even more"	"Even more"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:32:53+00:00+00:00+00:00"	"teacher008"	"teacher"	"51"	"No, it's a shame! It's a good system"	"No, it's a shame! It's a good system"	49	NA	NA	NA	NA	NA	8
+"2020-11-18T12:33:06+00:00+00:00+00:00"	"student011"	"student"	"52"	"You know that <STUDENT'S HUSBAND>'s mum works as a pediatric (?)"	"You know that <STUDENT'S HUSBAND>'s mum works as a pediatric (?)"	50	"2h"	"enquiry"	"lexical resource"	NA	NA	11
+"2020-11-18T12:33:15+00:00+00:00+00:00"	"teacher008"	"teacher"	"53"	"a pediatrician"	"a pediatrician"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+"2020-11-18T12:33:19+00:00+00:00+00:00"	"teacher008"	"teacher"	"54"	"Yes, I remember!"	"Yes, I remember!"	52	NA	NA	NA	NA	NA	3
+"2020-11-18T12:33:22+00:00+00:00+00:00"	"student011"	"student"	"55"	"sure! Thank you )"	"sure! Thank you )"	53	NA	NA	NA	NA	NA	4
+"2020-11-18T12:33:50+00:00+00:00+00:00"	"student011"	"student"	"56"	"Ok, so she needs a flu jab"	"Ok, so she needs a flu jab"	NA	NA	NA	NA	NA	NA	7
+"2020-11-18T12:33:53+00:00+00:00+00:00"	"teacher008"	"teacher"	"57"	"ˌpiː.di.əˈtrɪʃ.ən"	"ˌpiː.di.əˈtrɪʃ.ən"	55	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+"2020-11-18T12:34:10+00:00+00:00+00:00"	"teacher008"	"teacher"	"58"	"Ah, that makes sense! Can she get a free one?"	"Ah, that makes sense! Can she get a free one?"	56	NA	NA	NA	NA	NA	10
+"2020-11-18T12:34:30+00:00+00:00+00:00"	"student011"	"student"	"59"	"And the clinic where she is working has to do it for her for free"	"And the clinic where she is working has to do it for her for free"	NA	NA	NA	NA	NA	NA	15
+"2020-11-18T12:34:48+00:00+00:00+00:00"	"student011"	"student"	"60"	"But they don't have the vaccine"	"But they don't have the vaccine"	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T12:35:06+00:00+00:00+00:00"	"teacher008"	"teacher"	"61"	"Oh no, this is awful!!"	"Oh no, this is awful!!"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T12:35:23+00:00+00:00+00:00"	"student011"	"student"	"62"	"And they've given 500 hrs to each doctor to do it"	"And they've given 500 hrs to each doctor to do it"	NA	NA	NA	NA	NA	NA	11
+"2020-11-18T12:35:53+00:00+00:00+00:00"	"teacher008"	"teacher"	"63"	"Well, that's something I suppose"	"Well, that's something I suppose"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T12:36:04+00:00+00:00+00:00"	"student011"	"student"	"64"	"But today we've spend 1100 for each person"	"But today we've spend 1100 for each person"	NA	NA	NA	NA	NA	NA	8
+"2020-11-18T12:36:15+00:00+00:00+00:00"	"teacher008"	"teacher"	"65"	"Oh my goodness, that's so dear!"	"Oh my goodness, that's so dear!"	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T12:36:27+00:00+00:00+00:00"	"teacher008"	"teacher"	"66"	"It's only about 10-12 pounds here I think"	"It's only about 10-12 pounds here I think"	NA	NA	NA	NA	NA	NA	8
+"2020-11-18T12:36:50+00:00+00:00+00:00"	"student011"	"student"	"67"	"It's a shame/ They've given just half"	"It's a shame/ They've given just half"	64	NA	NA	NA	NA	NA	7
+"2020-11-18T12:37:09+00:00+00:00+00:00"	"student011"	"student"	"68"	"Oh! It's interesting"	"Oh! It's interesting"	66	NA	NA	NA	NA	NA	3
+"2020-11-18T12:37:31+00:00+00:00+00:00"	"teacher008"	"teacher"	"69"	"Yes, awful! Does she work at a state hospital or a private place?"	"Yes, awful! Does she work at a state hospital or a private place?"	67	NA	NA	NA	NA	NA	13
+"2020-11-18T12:37:32+00:00+00:00+00:00"	"student011"	"student"	"70"	"It's a French vaccine as I know"	"It's a French vaccine as I know"	NA	NA	NA	NA	NA	NA	7
+"2020-11-18T12:37:46+00:00+00:00+00:00"	"student011"	"student"	"71"	"At a state ("	"At a state ("	69	NA	NA	NA	NA	NA	4
+"2020-11-18T12:37:53+00:00+00:00+00:00"	"teacher008"	"teacher"	"72"	"Ha, I bet it'll be more expensive after Brexit here too"	"Ha, I bet it'll be more expensive after Brexit here too"	70	NA	NA	NA	NA	NA	11
+"2020-11-18T12:38:09+00:00+00:00+00:00"	"student011"	"student"	"73"	"maybe you are right!"	"maybe you are right!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:38:15+00:00+00:00+00:00"	"teacher008"	"teacher"	"74"	"unfortunately"	"unfortunately"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:39:15+00:00+00:00+00:00"	"student011"	"student"	"75"	"And we haven't done the flu jab for <STUDENT'S CHILD>"	"And we haven't done the flu jab for <STUDENT'S CHILD>"	NA	"2i"	"topic development"	NA	NA	NA	10
+"2020-11-18T12:39:39+00:00+00:00+00:00"	"teacher008"	"teacher"	"76"	"There is a very strong anti-vaccination movement in the UK (and all over the world it seems!). It's not as strong as in Ukraine, but still bad! And now the government is worried that people won't get vaccinated against covid when there is finally a vaccine"	"There is a very strong anti-vaccination movement in the UK (and all over the world it seems!). It's not as strong as in Ukraine, but still bad! And now the government is worried that people won't get vaccinated against covid when there is finally a vaccine"	NA	"2j"	"topic development"	NA	NA	NA	46
+"2020-11-18T12:39:55+00:00+00:00+00:00"	"student011"	"student"	"77"	"We've talked about with <STUDENT'S HUSBAND>'s mum"	"We've talked about it with <STUDENT'S HUSBAND>'s mum"	75	NA	NA	NA	NA	NA	7
+"2020-11-18T12:40:02+00:00+00:00+00:00"	"teacher008"	"teacher"	"78"	"Oh, it's a nose spray for children here, not a jab, thankfully"	"Oh, it's a nose spray for children here, not a jab, thankfully"	75	NA	NA	NA	NA	NA	12
+"2020-11-18T12:40:37+00:00+00:00+00:00"	"student011"	"student"	"79"	"She said that if <STUDENT'S CHILD> contacts just with us and nanny now she maybe doesn't need if"	"She said that if <STUDENT'S CHILD> is in contact just with us and her nanny now, she maybe doesn't need it"	77	NA	NA	NA	NA	NA	18
+"2020-11-18T12:40:56+00:00+00:00+00:00"	"student011"	"student"	"80"	"If all people around would get the flu jab"	"If all people around get the flu jab"	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T12:41:03+00:00+00:00+00:00"	"teacher008"	"teacher"	"81"	"Exactly, she is pretty protected"	"Exactly, she is pretty protected"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T12:41:50+00:00+00:00+00:00"	"student011"	"student"	"82"	"So I'm thinking about."	"So I'm thinking about it."	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:42:03+00:00+00:00+00:00"	"teacher008"	"teacher"	"83"	"If all people around ____ the flu jab"	"If all people around ____ the flu jab"	NA	"2k"	"eliciting,repair"	"grammatical resource"	NA	NA	8
+"2020-11-18T12:42:04+00:00+00:00+00:00"	"student011"	"student"	"84"	"I mean <STUDENT'S CHILD>s flu jab"	"I mean <STUDENT'S CHILD>s flu jab"	82	NA	NA	NA	NA	NA	6
+"2020-11-18T12:42:21+00:00+00:00+00:00"	"student011"	"student"	"85"	"has gone?"	"has gone?"	83	NA	NA	NA	NA	NA	2
+"2020-11-18T12:42:30+00:00+00:00+00:00"	"student011"	"student"	"86"	"Oh have gone"	"Oh have gone"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T12:42:43+00:00+00:00+00:00"	"teacher008"	"teacher"	"87"	"just 'get', not 'would get'. You need a present simple"	"just 'get', not 'would get'. You need a present simple"	NA	NA	"repair"	"grammatical resource"	NA	NA	10
+"2020-11-18T12:42:53+00:00+00:00+00:00"	"teacher008"	"teacher"	"88"	"If everyone gets a flu jab, <STUDENT'S CHILD> won't have to"	"If everyone gets a flu jab, <STUDENT'S CHILD> won't have to"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+"2020-11-18T12:43:07+00:00+00:00+00:00"	"teacher008"	"teacher"	"89"	"If present simple, will"	"If present simple, will"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+"2020-11-18T12:43:11+00:00+00:00+00:00"	"student011"	"student"	"90"	"<TEACHER> : Oh, it's a nose spray for children here, not a jab, thankfully"	"<TEACHER> : Oh, it's a nose spray for children here, not a jab, thankfully"	NA	"2l"	"topic development"	NA	NA	NA	14
+"2020-11-18T12:43:15+00:00+00:00+00:00"	"teacher008"	"teacher"	"91"	"First conditional :)"	"First conditional :)"	89	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+"2020-11-18T12:43:43+00:00+00:00+00:00"	"student011"	"student"	"92"	"What do you mean? I've missed a context, sorry"	"What do you mean? I've missed the context, sorry"	90	NA	"enquiry"	NA	NA	NA	9
+"2020-11-18T12:44:05+00:00+00:00+00:00"	"teacher008"	"teacher"	"93"	"Oh sorry! I mean the flu vaccine for children is in the form of a nose spray, not an injection"	"Oh sorry! I mean the flu vaccine for children is in the form of a nose spray, not an injection"	NA	NA	"clarification"	NA	NA	NA	20
+"2020-11-18T12:44:21+00:00+00:00+00:00"	"student011"	"student"	"94"	"If present simple, will - sure. I've been thinking it's not real )"	"If present simple, will - sure. I've been thinking it's not real )"	89	NA	NA	NA	NA	NA	13
+"2020-11-18T12:44:25+00:00+00:00+00:00"	"teacher008"	"teacher"	"95"	"But other vaccines are injections (jabs)"	"But other vaccines are injections (jabs)"	93	NA	NA	NA	NA	NA	6
+"2020-11-18T12:45:00+00:00+00:00+00:00"	"student011"	"student"	"96"	"Really? It's a spray?"	"Really? It's a spray?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:45:04+00:00+00:00+00:00"	"teacher008"	"teacher"	"97"	"Ah, if it's not real, that's second conditional. If past simple, would"	"Ah, if it's not real, that's second conditional. If past simple, would"	94	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+"2020-11-18T12:45:20+00:00+00:00+00:00"	"teacher008"	"teacher"	"98"	"If everyone got vaccinated, the world would be a safer place"	"If everyone got vaccinated, the world would be a safer place"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+"2020-11-18T12:45:29+00:00+00:00+00:00"	"student011"	"student"	"99"	"I think here we have just injections"	"I think here we have just injections"	96	NA	NA	NA	NA	NA	7
+"2020-11-18T12:45:36+00:00+00:00+00:00"	"teacher008"	"teacher"	"100"	"Yes! So good! Because jabs are distressing to children, of course"	"Yes! So good! Because jabs are distressing to children, of course"	96	NA	NA	NA	NA	NA	11
+"2020-11-18T12:46:59+00:00+00:00+00:00"	"student011"	"student"	"101"	"Ah, ok. Sorry, the conditional aren't my 'silnaya stoorona' )"	"Ah, ok. Sorry, conditionals aren't my 'silnaya storona' )"	98	NA	"non-English"	"code switching,lexical resource"	NA	NA	10
+"2020-11-18T12:47:22+00:00+00:00+00:00"	"teacher008"	"teacher"	"102"	"They are not your strong point? Only for now, we will make them :)"	"They are not your strong point? Only for now, we will make them :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+"2020-11-18T12:47:34+00:00+00:00+00:00"	"student011"	"student"	"103"	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:47:45+00:00+00:00+00:00"	"student011"	"student"	"104"	"Sure! )"	"Sure! )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:47:47+00:00+00:00+00:00"	"teacher008"	"teacher"	"105"	"Ooh, have you had a chance to read about the Queen?"	"Ooh, have you had a chance to read about the Queen?"	NA	"3.0"	"topic opening,homework"	"reading"	NA	NA	11
+"2020-11-18T12:47:53+00:00+00:00+00:00"	"student011"	"student"	"106"	"Yes! )"	"Yes! )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:48:00+00:00+00:00+00:00"	"teacher008"	"teacher"	"107"	"Ah! What did you think?"	"Ah! What did you think?"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T12:48:11+00:00+00:00+00:00"	"student011"	"student"	"108"	"And I have the questions about the glossary )"	"And I have some questions about the glossary )"	NA	"3a"	"enquiry"	"lexical resource"	NA	NA	9
+"2020-11-18T12:48:18+00:00+00:00+00:00"	"teacher008"	"teacher"	"109"	"Yes please!"	"Yes please!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:48:39+00:00+00:00+00:00"	"student011"	"student"	"110"	"tenure"	"tenure"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:49:01+00:00+00:00+00:00"	"student011"	"student"	"111"	"It's like estate, but here it's like a job"	"It's like estate, but here it's like a job"	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T12:49:07+00:00+00:00+00:00"	"student011"	"student"	"112"	"I think"	"I think"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:49:23+00:00+00:00+00:00"	"teacher008"	"teacher"	"113"	"Let me find it in the context, one second"	"Let me find it in the context, one second"	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T12:49:52+00:00+00:00+00:00"	"student011"	"student"	"114"	"The 58-year-old’s primary role during his 15-year tenure at Buckingham Palace was as Queen Elizabeth II’s personal chef, accompanying her on two royal tours of Australia."	"The 58-year-old’s primary role during his 15-year tenure at Buckingham Palace was as Queen Elizabeth II’s personal chef, accompanying her on two royal tours of Australia."	NA	NA	NA	NA	NA	NA	26
+"2020-11-18T12:50:01+00:00+00:00+00:00"	"teacher008"	"teacher"	"115"	"Great, thank you!"	"Great, thank you!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T12:50:21+00:00+00:00+00:00"	"teacher008"	"teacher"	"116"	"Yes, they just mean 'during the 15 years that he worked at Buckingham Palace'"	"Yes, they just mean 'during the 15 years that he worked at Buckingham Palace'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+"2020-11-18T12:50:30+00:00+00:00+00:00"	"student011"	"student"	"117"	"oK! THank you"	"oK! Thank you"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T12:50:38+00:00+00:00+00:00"	"teacher008"	"teacher"	"118"	"You are right, it's legal ownership of some estate"	"You are right, it's legal ownership of some estate"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+"2020-11-18T12:50:49+00:00+00:00+00:00"	"student011"	"student"	"119"	"wilted"	"wilted"	NA	"3b"	"enquiry"	"lexical resource"	NA	NA	1
+"2020-11-18T12:50:55+00:00+00:00+00:00"	"teacher008"	"teacher"	"120"	"Or university professors have tenure, which means they can keep their jobs for life"	"Or university professors have tenure, which means they can keep their jobs for life"	118	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+"2020-11-18T12:51:32+00:00+00:00+00:00"	"teacher008"	"teacher"	"121"	"If you take fresh greens like spinach and fry them lightly and boil or steam, they will wilt"	"If you take fresh greens like spinach and fry them lightly and boil or steam, they will wilt"	119	NA	"scaffolding"	"lexical resource"	NA	NA	18
+"2020-11-18T12:51:34+00:00+00:00+00:00"	"student011"	"student"	"122"	"it's like pripushenniy in Russian? About food"	"it's like pripushenniy in Russian? About food"	NA	NA	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	7
+"2020-11-18T12:51:43+00:00+00:00+00:00"	"teacher008"	"teacher"	"123"	"Of course, they will also wilt in the fridge :)"	"Of course, they will also wilt in the fridge :)"	121	NA	"scaffolding"	"lexical resource"	NA	NA	10
+"2020-11-18T12:51:52+00:00+00:00+00:00"	"teacher008"	"teacher"	"124"	"Yes! something like that!"	"Yes! something like that!"	122	NA	NA	NA	NA	NA	4
+"2020-11-18T12:51:57+00:00+00:00+00:00"	"student011"	"student"	"125"	"thanks )"	"thanks )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:52:00+00:00+00:00+00:00"	"student011"	"student"	"126"	"next one"	"next one"	NA	"3c"	"enquiry"	"lexical resource"	NA	NA	2
+"2020-11-18T12:52:15+00:00+00:00+00:00"	"teacher008"	"teacher"	"127"	"when a plant becomes softer and smaller because it's dying, it's wilting"	"when a plant becomes softer and smaller because it's dying, it's wilting"	125	NA	"scaffolding"	"lexical resource"	NA	NA	12
+"2020-11-18T12:52:19+00:00+00:00+00:00"	"teacher008"	"teacher"	"128"	"flowers wilt"	"flowers wilt"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+"2020-11-18T12:52:21+00:00+00:00+00:00"	"student011"	"student"	"129"	"warrant"	"warrant"	126	NA	NA	NA	NA	NA	1
+"2020-11-18T12:53:18+00:00+00:00+00:00"	"student011"	"student"	"130"	"Although the Queen reportedly had her fish and chips in a panko breadcrumb rather than traditional batter. As for her condiment of choice - Lea &amp; Perrins, HP Sauce, and Heinz ketchup all hold royal warrants."	"Although the Queen reportedly had her fish and chips in a panko breadcrumb rather than traditional batter. As for her condiment of choice - Lea &amp; Perrins, HP Sauce, and Heinz ketchup all hold royal warrants."	NA	NA	NA	NA	NA	NA	36
+"2020-11-18T12:53:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"131"	"Ah, thank you! I've been looking for it"	"Ah, thank you! I've been looking for it"	NA	NA	NA	NA	NA	NA	8
+"2020-11-18T12:53:53+00:00+00:00+00:00"	"teacher008"	"teacher"	"132"	"It means the royals buy from these companies"	"It means the royals buy from these companies"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+"2020-11-18T12:54:22+00:00+00:00+00:00"	"teacher008"	"teacher"	"133"	"If a company holds a royal warrant, this company sells some good to the royals"	"If a company holds a royal warrant, this company sells some good to the royals"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+"2020-11-18T12:54:44+00:00+00:00+00:00"	"teacher008"	"teacher"	"134"	"And this company will put this information on their website etc., because it's quite prestigious"	"And this company will put this information on their website etc., because it's quite prestigious"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+"2020-11-18T12:55:10+00:00+00:00+00:00"	"student011"	"student"	"135"	"Because in the dictionary it's like a document"	"Because in the dictionary it's like a document"	NA	NA	NA	NA	NA	NA	8
+"2020-11-18T12:55:14+00:00+00:00+00:00"	"teacher008"	"teacher"	"136"	"The Queen likes her ketchup! <TEACHER'S CHILD> would approve"	"The Queen likes her ketchup! <TEACHER'S CHILD> would approve"	130	NA	NA	NA	NA	NA	9
+"2020-11-18T12:55:25+00:00+00:00+00:00"	"student011"	"student"	"137"	"order in Russian"	"order in Russian"	135	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+"2020-11-18T12:55:46+00:00+00:00+00:00"	"teacher008"	"teacher"	"138"	"yes, like a search warrant or an arrest warrant"	"yes, like a search warrant or an arrest warrant"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+"2020-11-18T12:55:52+00:00+00:00+00:00"	"student011"	"student"	"139"	"Yes!!"	"Yes!!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:56:04+00:00+00:00+00:00"	"student011"	"student"	"140"	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:56:10+00:00+00:00+00:00"	"student011"	"student"	"141"	"next one )"	"next one )"	NA	"3d"	"enquiry"	"lexical resource"	NA	NA	3
+"2020-11-18T12:56:26+00:00+00:00+00:00"	"student011"	"student"	"142"	"shaving"	"shaving"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:56:35+00:00+00:00+00:00"	"teacher008"	"teacher"	"143"	"In police shows police officers always say, we need to get a search warrant, or something like that :)"	"In police shows police officers always say, we need to get a search warrant, or something like that :)"	139	NA	"scaffolding"	"lexical resource"	NA	NA	19
+"2020-11-18T12:56:48+00:00+00:00+00:00"	"student011"	"student"	"144"	"She is absolutely a chocoholic,' McGrady told Hello! magazine in 2016. 'Anything we put on the menu that had chocolate on, she would choose, especially chocolate perfection pie [a layered chocolate pie with white and dark chocolate and chocolate shavings].'"	"She is absolutely a chocoholic,' McGrady told Hello! magazine in 2016. 'Anything we put on the menu that had chocolate on, she would choose, especially chocolate perfection pie [a layered chocolate pie with white and dark chocolate and chocolate shavings].'"	NA	NA	NA	NA	NA	NA	40
+"2020-11-18T12:57:01+00:00+00:00+00:00"	"teacher008"	"teacher"	"145"	"shaving? it comes from 'shave', like shave a beard or shave your legs"	"shaving? it comes from 'shave', like shave a beard or shave your legs"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+"2020-11-18T12:57:08+00:00+00:00+00:00"	"student011"	"student"	"146"	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T12:57:12+00:00+00:00+00:00"	"teacher008"	"teacher"	"147"	"but in this case, they shave chocolate :)))"	"but in this case, they shave chocolate :)))"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+"2020-11-18T12:57:13+00:00+00:00+00:00"	"student011"	"student"	"148"	"but here.."	"but here.."	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:57:22+00:00+00:00+00:00"	"teacher008"	"teacher"	"149"	"over he cake"	"over he cake"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+"2020-11-18T12:57:23+00:00+00:00+00:00"	"student011"	"student"	"150"	"it's like a cream?"	"is it like a cream?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	4
+"2020-11-18T12:57:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"151"	"*the cake"	"*the cake"	149	NA	"repair"	"writing"	NA	NA	2
+"2020-11-18T12:57:42+00:00+00:00+00:00"	"student011"	"student"	"152"	"Ah! Ok )"	"Ah! Ok )"	149	NA	NA	NA	NA	NA	3
+"2020-11-18T12:57:56+00:00+00:00+00:00"	"teacher008"	"teacher"	"153"	"no, they take a bar of chocolate and shave it with a special tool, to get thin strips"	"no, they take a bar of chocolate and shave it with a special tool, to get thin strips"	150	NA	"scaffolding"	"lexical resource"	NA	NA	18
+"2020-11-18T12:58:21+00:00+00:00+00:00"	"student011"	"student"	"154"	"Ah! Like slice?"	"Ah! Like slice?"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T12:58:23+00:00+00:00+00:00"	"teacher008"	"teacher"	"155"	"also, a pasta with parmesan shavings"	"also, a pasta with parmesan shavings"	153	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2020-11-18T12:58:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"156"	"yes, but a very thin one"	"yes, but a very thin one"	154	NA	NA	NA	NA	NA	6
+"2020-11-18T12:58:34+00:00+00:00+00:00"	"student011"	"student"	"157"	"ok )"	"ok )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T12:58:41+00:00+00:00+00:00"	"student011"	"student"	"158"	"Thank you )"	"Thank you )"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T12:58:57+00:00+00:00+00:00"	"student011"	"student"	"159"	"Salad cream"	"Salad cream"	NA	"3e"	"enquiry"	"lexical resource"	NA	NA	2
+"2020-11-18T12:59:04+00:00+00:00+00:00"	"student011"	"student"	"160"	"I've google it )"	"I've googled it )"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T12:59:15+00:00+00:00+00:00"	"student011"	"student"	"162"	"Just a question/ Is it tasty? )"	"Just a question/ Is it tasty? )"	160	NA	NA	NA	NA	NA	7
+"2020-11-18T12:59:24+00:00+00:00+00:00"	"teacher008"	"teacher"	"163"	"here's Jamie on how to decorate a cake with chocolate shavings"	"here's Jamie on how to decorate a cake with chocolate shavings"	161	NA	NA	NA	NA	NA	11
+"2020-11-18T13:00:02+00:00+00:00+00:00"	"teacher008"	"teacher"	"164"	"Haha, good question! I don't think so! I like mayonnaise sometimes, or just olive oil and lemon juice as salad dressing"	"Haha, good question! I don't think so! I like mayonnaise sometimes, or just olive oil and lemon juice as salad dressing"	162	NA	NA	NA	NA	NA	21
+"2020-11-18T13:00:02+00:00+00:00+00:00"	"student011"	"student"	"165"	"thank you )"	"thank you )"	163	NA	NA	NA	NA	NA	3
+"2020-11-18T13:00:24+00:00+00:00+00:00"	"teacher008"	"teacher"	"166"	"salad cream is like mayonnaise with some extra ingredients I think"	"salad cream is like mayonnaise with some extra ingredients I think"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+"2020-11-18T13:00:34+00:00+00:00+00:00"	"student011"	"student"	"167"	"Ah, ok ) Because we don't nave it here )"	"Ah, ok ) Because we don't have it here )"	NA	NA	NA	NA	NA	NA	10
+"2020-11-18T13:00:43+00:00+00:00+00:00"	"student011"	"student"	"168"	"have"	"have"	NA	NA	"repair"	"writing"	NA	NA	1
+"2020-11-18T13:00:50+00:00+00:00+00:00"	"teacher008"	"teacher"	"169"	"You're not missing out!"	"You're not missing out!"	167	NA	NA	NA	NA	NA	4
+"2020-11-18T13:00:54+00:00+00:00+00:00"	"student011"	"student"	"170"	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:01:11+00:00+00:00+00:00"	"student011"	"student"	"171"	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:01:25+00:00+00:00+00:00"	"student011"	"student"	"172"	"and now I have three sentences"	"and now I have three sentences"	NA	"4.0"	"topic opening"	"reading,lexical resource"	NA	NA	6
+"2020-11-18T13:01:34+00:00+00:00+00:00"	"teacher008"	"teacher"	"173"	"Yes please!"	"Yes please!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:01:35+00:00+00:00+00:00"	"student011"	"student"	"174"	"Which are not clear to me"	"Which are not clear to me"	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T13:01:55+00:00+00:00+00:00"	"student011"	"student"	"175"	"even four )"	"even four )"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T13:01:56+00:00+00:00+00:00"	"student011"	"student"	"176"	"Although the Queen reportedly had her fish and chips in a panko breadcrumb rather than traditional batter. As for her condiment of choice - Lea &amp; Perrins, HP Sauce, and Heinz ketchup all hold royal warrants."	"Although the Queen reportedly had her fish and chips in a panko breadcrumb rather than traditional batter. As for her condiment of choice - Lea &amp; Perrins, HP Sauce, and Heinz ketchup all hold royal warrants."	NA	NA	NA	NA	NA	NA	36
+"2020-11-18T13:02:02+00:00+00:00+00:00"	"student011"	"student"	"177"	"Ah? ok"	"Ah? ok"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:02:09+00:00+00:00+00:00"	"student011"	"student"	"178"	"It/s clear nw"	"It's clear now"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T13:02:27+00:00+00:00+00:00"	"student011"	"student"	"179"	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:02:29+00:00+00:00+00:00"	"student011"	"student"	"180"	"And shellfish and rare meat are also avoided during royal visits or tours – times when the family cannot afford to be out of action with food poisoning. Former royal butler Grant Harold confirmed this rule is sensible when royals are on duty."	"And shellfish and rare meat are also avoided during royal visits or tours – times when the family cannot afford to be out of action with food poisoning. Former royal butler Grant Harold confirmed this rule is sensible when royals are on duty."	NA	"4a"	"enquiry"	"reading,lexical resource"	NA	NA	43
+"2020-11-18T13:02:51+00:00+00:00+00:00"	"student011"	"student"	"181"	"to be out of action with food poisoning."	"to be out of action with food poisoning."	NA	NA	"enquiry"	"lexical resource"	NA	NA	8
+"2020-11-18T13:02:58+00:00+00:00+00:00"	"student011"	"student"	"182"	"I mean this part"	"I mean this part"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T13:03:14+00:00+00:00+00:00"	"teacher008"	"teacher"	"183"	"to be out of action = to not be able to work"	"to be out of action = to not be able to work"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+"2020-11-18T13:03:27+00:00+00:00+00:00"	"student011"	"student"	"184"	"food poisoning"	"food poisoning"	NA	NA	"enquiry"	"lexical resource"	NA	NA	2
+"2020-11-18T13:03:41+00:00+00:00+00:00"	"student011"	"student"	"185"	"like ötravlenie'?"	"like ötravlenie'?"	NA	NA	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	2
+"2020-11-18T13:03:45+00:00+00:00+00:00"	"teacher008"	"teacher"	"186"	"a food poisoning = stomach ache, diarrhea, all this stuff"	"a food poisoning = stomach ache, diarrhea, all this stuff"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+"2020-11-18T13:03:47+00:00+00:00+00:00"	"teacher008"	"teacher"	"187"	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:03:56+00:00+00:00+00:00"	"student011"	"student"	"188"	"ok! It's clear )"	"ok! It's clear )"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T13:04:08+00:00+00:00+00:00"	"teacher008"	"teacher"	"189"	"when the royals are working, they can't have it, so no rare meat for them!"	"when the royals are working, they can't have it, so no rare meat for them!"	NA	NA	"scaffolding"	"lexical resource,meaning,reading"	NA	NA	15
+"2020-11-18T13:04:10+00:00+00:00+00:00"	"student011"	"student"	"190"	"“We did three turkeys for the Queen and her family in the royal dining room, one for the children's nursery and then more for the 100 or so staff, so everyone had a Christmas lunch.'"	"“We did three turkeys for the Queen and her family in the royal dining room, one for the children's nursery and then more for the 100 or so staff, so everyone had a Christmas lunch.'"	NA	"4b"	"enquiry"	"reading"	NA	NA	35
+"2020-11-18T13:05:05+00:00+00:00+00:00"	"student011"	"student"	"191"	"so three turkeys for the Queen and her family"	"so three turkeys for the Queen and her family"	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T13:05:10+00:00+00:00+00:00"	"teacher008"	"teacher"	"192"	"Are you wondering how 100 people shared one turkey?"	"Are you wondering how 100 people shared one turkey?"	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T13:05:12+00:00+00:00+00:00"	"student011"	"student"	"193"	"one for the children's nursery"	"one for the children's nursery"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:05:23+00:00+00:00+00:00"	"student011"	"student"	"194"	"nanny?"	"a nanny?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	1
+"2020-11-18T13:05:39+00:00+00:00+00:00"	"teacher008"	"teacher"	"195"	"It's a room where children live"	"It's a room where children live"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2020-11-18T13:05:47+00:00+00:00+00:00"	"student011"	"student"	"196"	"ah!"	"ah!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:05:48+00:00+00:00+00:00"	"student011"	"student"	"197"	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:05:51+00:00+00:00+00:00"	"teacher008"	"teacher"	"198"	"like, if <STUDENT'S CHILD> has her own room, it's her nursery"	"like, if <STUDENT'S CHILD> has her own room, it's her nursery"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+"2020-11-18T13:06:01+00:00+00:00+00:00"	"student011"	"student"	"199"	"So one is for children"	"So one is for children"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:06:05+00:00+00:00+00:00"	"teacher008"	"teacher"	"200"	"It can also be a word for a kindergarten, confusingly"	"It can also be a word for a kindergarten, confusingly"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+"2020-11-18T13:06:11+00:00+00:00+00:00"	"student011"	"student"	"201"	"And for that 100 people"	"And for those 100 people"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:06:25+00:00+00:00+00:00"	"student011"	"student"	"202"	"more"	"more"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:06:27+00:00+00:00+00:00"	"teacher008"	"teacher"	"203"	"Yes, the math is weird here..."	"Yes, the math is weird here..."	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T13:06:42+00:00+00:00+00:00"	"student011"	"student"	"204"	"more is one ore some number?"	"more is one more than some number?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	6
+"2020-11-18T13:06:50+00:00+00:00+00:00"	"student011"	"student"	"205"	"*or"	"*or"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:06:54+00:00+00:00+00:00"	"teacher008"	"teacher"	"206"	"3 turkeys for the grown-up royals, one for the kids and some more turkeys for the staff"	"3 turkeys for the grown-up royals, one for the kids and some more turkeys for the staff"	NA	NA	NA	NA	NA	NA	17
+"2020-11-18T13:07:10+00:00+00:00+00:00"	"student011"	"student"	"207"	"Ah, ok"	"Ah, ok"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:07:13+00:00+00:00+00:00"	"student011"	"student"	"208"	")"	")"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:07:14+00:00+00:00+00:00"	"teacher008"	"teacher"	"209"	"I hope they mean several more turkeys! I hope 100 people didn't have to share one turkey"	"I hope they mean several more turkeys! I hope 100 people didn't have to share one turkey"	NA	NA	NA	NA	NA	NA	17
+"2020-11-18T13:07:22+00:00+00:00+00:00"	"student011"	"student"	"210"	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:07:32+00:00+00:00+00:00"	"student011"	"student"	"211"	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:07:32+00:00+00:00+00:00"	"student011"	"student"	"212"	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:07:42+00:00+00:00+00:00"	"teacher008"	"teacher"	"213"	"Yes, because it doesn't say 'one more'"	"Yes, because it doesn't say 'one more'"	NA	NA	NA	NA	NA	NA	7
+"2020-11-18T13:07:57+00:00+00:00+00:00"	"student011"	"student"	"214"	"last one"	"last one"	NA	"4c"	"enquiry"	"reading,lexical resource"	NA	NA	2
+"2020-11-18T13:07:57+00:00+00:00+00:00"	"student011"	"student"	"215"	"And they didn’t scrimp on dessert – the Christmas pudding would be “decorated in holly, doused in brandy, and the palace steward would carry it, flaming, into the royal dining room”."	"And they didn’t scrimp on dessert – the Christmas pudding would be “decorated in holly, doused in brandy, and the palace steward would carry it, flaming, into the royal dining room”."	NA	NA	NA	NA	NA	NA	31
+"2020-11-18T13:08:35+00:00+00:00+00:00"	"student011"	"student"	"216"	"scrimp"	"scrimp"	NA	NA	"enquiry"	"lexical resource"	NA	NA	1
+"2020-11-18T13:08:46+00:00+00:00+00:00"	"student011"	"student"	"217"	"in holly, doused in brandy"	"in holly, doused in brandy"	NA	NA	"enquiry"	"lexical resource"	NA	NA	5
+"2020-11-18T13:08:58+00:00+00:00+00:00"	"teacher008"	"teacher"	"218"	"Oh, the Christmas pudding thing? Because there's so much brandy in it, they light it and it's on fire basically when they serve it"	"Oh, the Christmas pudding thing? Because there's so much brandy in it, they light it and it's on fire basically when they serve it"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	24
+"2020-11-18T13:09:48+00:00+00:00+00:00"	"teacher008"	"teacher"	"219"	"if you scrimp, you save money (or some resource)"	"if you scrimp, you save money (or some resource)"	216	NA	"scaffolding"	"lexical resource"	NA	NA	9
+"2020-11-18T13:10:07+00:00+00:00+00:00"	"teacher008"	"teacher"	"220"	"I'm scrimping because I want to save for new shoes"	"I'm scrimping because I want to save for new shoes"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+"2020-11-18T13:10:10+00:00+00:00+00:00"	"teacher008"	"teacher"	"221"	"or something like that"	"or something like that"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T13:10:26+00:00+00:00+00:00"	"student011"	"student"	"222"	"Ah! Thank you!"	"Ah! Thank you!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T13:10:31+00:00+00:00+00:00"	"teacher008"	"teacher"	"223"	"but the royals don't scrimp on dessert, which means that they eat a lot of it, no saving"	"but the royals don't scrimp on dessert, which means that they eat a lot of it, no saving"	NA	NA	"scaffolding"	"lexical resource,reading"	NA	NA	18
+"2020-11-18T13:10:48+00:00+00:00+00:00"	"teacher008"	"teacher"	"224"	"A holly tree is a spiky tree with pretty leaves and red berries"	"A holly tree is a spiky tree with pretty leaves and red berries"	217	NA	"scaffolding"	"lexical resource"	NA	NA	13
+"2020-11-18T13:10:54+00:00+00:00+00:00"	"teacher008"	"teacher"	"225"	"It's used as Christmas decoration"	"It's used as Christmas decoration"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	5
+"2020-11-18T13:11:03+00:00+00:00+00:00"	"student011"	"student"	"226"	"Ah! Sure! I know it! )"	"Ah! Sure! I know it! )"	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T13:11:21+00:00+00:00+00:00"	"student011"	"student"	"227"	"Thank you!!!"	"Thank you!!!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:11:38+00:00+00:00+00:00"	"teacher008"	"teacher"	"229"	"there it is, on top of a Christmas pudding"	"there it is, on top of a Christmas pudding"	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T13:11:38+00:00+00:00+00:00"	"student011"	"student"	"230"	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:11:42+00:00+00:00+00:00"	"student011"	"student"	"231"	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:11:48+00:00+00:00+00:00"	"student011"	"student"	"232"	"it's very popular"	"it's very popular"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T13:12:03+00:00+00:00+00:00"	"student011"	"student"	"233"	"even for prints etc"	"even for prints etc"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T13:12:12+00:00+00:00+00:00"	"teacher008"	"teacher"	"234"	"What did you think in general? Does the Queen eat well? Is it what you expected?"	"What did you think in general? Does the Queen eat well? Is it what you expected?"	NA	"5.0"	"topic opening"	"reading"	NA	NA	16
+"2020-11-18T13:12:22+00:00+00:00+00:00"	"teacher008"	"teacher"	"235"	"yes, definitely, very Christmassy!"	"yes, definitely, very Christmassy!"	233	NA	NA	NA	NA	NA	4
+"2020-11-18T13:12:26+00:00+00:00+00:00"	"student011"	"student"	"236"	"She is not hipster ))"	"She is not a hipster ))"	234	NA	NA	NA	NA	NA	5
+"2020-11-18T13:12:45+00:00+00:00+00:00"	"teacher008"	"teacher"	"237"	"nooo, she is a traditionalist :)"	"nooo, she is a traditionalist :)"	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T13:12:52+00:00+00:00+00:00"	"student011"	"student"	"238"	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:13:19+00:00+00:00+00:00"	"student011"	"student"	"239"	"I've been not surprised"	"I've not been surprised"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T13:13:39+00:00+00:00+00:00"	"student011"	"student"	"240"	"I've not been surprised"	"I've not been surprised"	NA	NA	"repair"	"grammatical resource"	NA	NA	4
+"2020-11-18T13:14:01+00:00+00:00+00:00"	"teacher008"	"teacher"	"241"	"Yes, good correction"	"Yes, good correction"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T13:14:01+00:00+00:00+00:00"	"student011"	"student"	"242"	"These scones with jam etc"	"These scones with jam etc"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:14:18+00:00+00:00+00:00"	"teacher008"	"teacher"	"243"	"Every single day, in every country she's visited :)"	"Every single day, in every country she's visited :)"	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T13:14:23+00:00+00:00+00:00"	"student011"	"student"	"244"	"She likes very traditional meal"	"She likes very traditional meals"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:14:54+00:00+00:00+00:00"	"teacher008"	"teacher"	"245"	"What do you think it's like for a chef to work for her?"	"What do you think it's like for a chef to work for her?"	NA	"5a"	"topic development"	NA	NA	NA	13
+"2020-11-18T13:15:18+00:00+00:00+00:00"	"student011"	"student"	"246"	"But cereal ("	"But cereal ("	244	NA	NA	NA	NA	NA	3
+"2020-11-18T13:15:32+00:00+00:00+00:00"	"teacher008"	"teacher"	"247"	"that she keeps in Tupperware :)))))"	"that she keeps in Tupperware :)))))"	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T13:15:35+00:00+00:00+00:00"	"student011"	"student"	"248"	"Not sounds like royal meal )"	"Doesn't sound like a royal meal )"	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T13:15:53+00:00+00:00+00:00"	"student011"	"student"	"249"	"Tupperware ))))"	"Tupperware ))))"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:15:58+00:00+00:00+00:00"	"student011"	"student"	"250"	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:16:08+00:00+00:00+00:00"	"student011"	"student"	"251"	"it's strange"	"it's strange"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:16:29+00:00+00:00+00:00"	"teacher008"	"teacher"	"252"	"I know, so boring!"	"I know, so boring!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T13:16:52+00:00+00:00+00:00"	"teacher008"	"teacher"	"253"	"But maybe she's like Obama who had 7 identical suits when he was a president"	"But maybe she's like Obama who had 7 identical suits when he was a president"	NA	NA	NA	NA	NA	NA	15
+"2020-11-18T13:17:00+00:00+00:00+00:00"	"teacher008"	"teacher"	"254"	"And wore one every day"	"And wore one every day"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:17:04+00:00+00:00+00:00"	"student011"	"student"	"255"	"but in general I think she eats the food she must eats )"	"but in general I think she eats the food she must eat )"	NA	NA	NA	NA	NA	NA	13
+"2020-11-18T13:17:10+00:00+00:00+00:00"	"teacher008"	"teacher"	"256"	"Just not to have to think about what to wear"	"Just not to have to think about what to wear"	254	NA	NA	NA	NA	NA	10
+"2020-11-18T13:17:30+00:00+00:00+00:00"	"teacher008"	"teacher"	"257"	"Oh, because she is the symbol of the UK?"	"Oh, because she is the symbol of the UK?"	255	NA	NA	NA	NA	NA	9
+"2020-11-18T13:17:39+00:00+00:00+00:00"	"student011"	"student"	"258"	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:17:43+00:00+00:00+00:00"	"student011"	"student"	"259"	"And you know"	"And you know"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T13:18:08+00:00+00:00+00:00"	"student011"	"student"	"260"	"She looks like a very conservative persone"	"She looks like a very conservative person"	NA	NA	NA	NA	NA	NA	7
+"2020-11-18T13:18:30+00:00+00:00+00:00"	"teacher008"	"teacher"	"261"	"Definitely! She basically always wears the same dress, but in different colours, doesn't she?"	"Definitely! She basically always wears the same dress, but in different colours, doesn't she?"	NA	NA	NA	NA	NA	NA	14
+"2020-11-18T13:18:39+00:00+00:00+00:00"	"student011"	"student"	"262"	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:19:20+00:00+00:00+00:00"	"student011"	"student"	"263"	"But she is nice )"	"But she is nice )"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:19:34+00:00+00:00+00:00"	"teacher008"	"teacher"	"264"	"When I was reading it, I thought it had to be so frustrating for an excellent chef to be chopping meat for her dogs or peeling carrots for the horses :)"	"When I was reading it, I thought it had to be so frustrating for an excellent chef to be chopping meat for her dogs or peeling carrots for the horses :)"	245	NA	NA	NA	NA	NA	31
+"2020-11-18T13:19:35+00:00+00:00+00:00"	"student011"	"student"	"265"	"Boring, but nice )"	"Boring, but nice )"	263	NA	NA	NA	NA	NA	4
+"2020-11-18T13:19:50+00:00+00:00+00:00"	"teacher008"	"teacher"	"266"	"that don't even need their carrots to be peeled)))"	"that don't even need their carrots to be peeled)))"	264	NA	NA	NA	NA	NA	9
+"2020-11-18T13:20:01+00:00+00:00+00:00"	"student011"	"student"	"267"	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:20:07+00:00+00:00+00:00"	"teacher008"	"teacher"	"268"	"Definitely! Ooh, now that you have Netflix you can watch the Crown!"	"Definitely! Ooh, now that you have Netflix you can watch the Crown!"	NA	"5b"	"topic development"	NA	NA	NA	12
+"2020-11-18T13:20:21+00:00+00:00+00:00"	"student011"	"student"	"269"	"I think about it )"	"I think about it )"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:20:40+00:00+00:00+00:00"	"student011"	"student"	"270"	"I've started The Queen's Gambit"	"I've started The Queen's Gambit"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:21:09+00:00+00:00+00:00"	"teacher008"	"teacher"	"271"	"Wonderful! We can talk about it next time, we are now on episode 3"	"Wonderful! We can talk about it next time, we are now on episode 3"	NA	NA	NA	NA	NA	NA	14
+"2020-11-18T13:21:12+00:00+00:00+00:00"	"student011"	"student"	"272"	"But today <STUDENT'S HUSBAND> wants to watch the film.."	"But today <STUDENT'S HUSBAND> wants to watch a film.."	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T13:21:14+00:00+00:00+00:00"	"student011"	"student"	"273"	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+"2020-11-18T13:21:21+00:00+00:00+00:00"	"student011"	"student"	"274"	"I don't remember the name"	"I don't remember the name"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:21:55+00:00+00:00+00:00"	"student011"	"student"	"275"	"With Helen Mirren"	"With Helen Mirren"	NA	NA	NA	NA	NA	NA	3
+"2020-11-18T13:22:07+00:00+00:00+00:00"	"teacher008"	"teacher"	"276"	"Oh, she played the Queen too"	"Oh, she played the Queen too"	NA	NA	NA	NA	NA	NA	6
+"2020-11-18T13:22:13+00:00+00:00+00:00"	"teacher008"	"teacher"	"277"	"Is it a new one? I don't know"	"Is it a new one? I don't know"	NA	NA	NA	NA	NA	NA	8
+"2020-11-18T13:22:14+00:00+00:00+00:00"	"student011"	"student"	"278"	"We've seen it on Netflix"	"We've seen it on Netflix"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:22:22+00:00+00:00+00:00"	"teacher008"	"teacher"	"279"	"I suppose there aren't many new films this year!"	"I suppose there aren't many new films this year!"	NA	NA	NA	NA	NA	NA	9
+"2020-11-18T13:22:39+00:00+00:00+00:00"	"student011"	"student"	"280"	"The Good Liar I think"	"The Good Liar I think"	NA	NA	NA	NA	NA	NA	5
+"2020-11-18T13:23:04+00:00+00:00+00:00"	"teacher008"	"teacher"	"281"	"I haven't seen this one, but I think I've heard about it"	"I haven't seen this one, but I think I've heard about it"	NA	NA	NA	NA	NA	NA	12
+"2020-11-18T13:23:23+00:00+00:00+00:00"	"student011"	"student"	"282"	"We will try )"	"We will try )"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T13:23:25+00:00+00:00+00:00"	"teacher008"	"teacher"	"283"	"Ok, I'll let you go! Have a lovely afternoon, speak to you on Friday!"	"Ok, I'll let you go! Have a lovely afternoon, speak to you on Friday!"	NA	"6.0"	NA	NA	NA	NA	14
+"2020-11-18T13:23:33+00:00+00:00+00:00"	"student011"	"student"	"284"	"Thank you! You too!"	"Thank you! You too!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-18T13:23:38+00:00+00:00+00:00"	"student011"	"student"	"285"	"See you!"	"See you!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:23:42+00:00+00:00+00:00"	"teacher008"	"teacher"	"286"	"Bye :)"	"Bye :)"	NA	NA	NA	NA	NA	NA	2
+"2020-11-18T13:23:46+00:00+00:00+00:00"	"student011"	"student"	"287"	"bye )"	"bye )"	NA	NA	NA	NA	NA	"B2"	2

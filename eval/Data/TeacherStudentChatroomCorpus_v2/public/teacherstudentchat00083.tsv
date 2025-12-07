@@ -1,0 +1,138 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-03 06:26:37	"teacher008"	"teacher"	1	"Morning <STUDENT>"	"Morning <STUDENT>"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-07-03 06:28:19	"student010"	"student"	2	"Good morning!"	"Good morning!"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 06:28:49	"teacher008"	"teacher"	3	"We still have a couple of minutes before the class starts, I didn't realize :)"	"We still have a couple of minutes before the class starts, I didn't realize :)"	NA	NA	NA	NA	NA	NA	15
+2020-07-03 06:30:36	"teacher008"	"teacher"	4	"And we can start! How are you today?"	"And we can start! How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	8
+2020-07-03 06:30:59	"student010"	"student"	5	"I'm fine. And you?"	"I'm fine. And you?"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 06:31:23	"teacher008"	"teacher"	6	"Fine, thank you! Just a bit annoyed with the weather"	"Fine, thank you! Just a bit annoyed with the weather"	NA	NA	NA	NA	NA	NA	10
+2020-07-03 06:31:31	"teacher008"	"teacher"	7	"How's your holiday going?"	"How's your holiday going?"	NA	"2a"	"topic development"	NA	NA	NA	4
+2020-07-03 06:32:04	"student010"	"student"	8	"It's cool. I don't need to do homework!"	"It's cool. I don't need to do homework!"	NA	NA	NA	NA	NA	NA	8
+2020-07-03 06:32:30	"teacher008"	"teacher"	9	"Haha, I can imagine!"	"Haha, I can imagine!"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 06:33:00	"teacher008"	"teacher"	10	"What are you doing on holiday then?"	"What are you doing on holiday then?"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 06:35:05	"student010"	"student"	11	"I swim in the swimming pool, play video games, play board games with cousins, read books, play table tennis"	"I swim in the swimming pool, play video games, play board games with my cousins, read books, play table tennis"	NA	NA	NA	NA	NA	NA	19
+2020-07-03 06:35:33	"teacher008"	"teacher"	12	"Sounds perfect!"	"Sounds perfect!"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 06:36:28	"teacher008"	"teacher"	13	"I'm going to take a week off at some point in July, but my husband and I are not sure what to do! Lots of places are still closed"	"I'm going to take a week off at some point in July, but my husband and I are not sure what to do! Lots of places are still closed"	NA	"2b"	"topic development"	NA	NA	NA	29
+2020-07-03 06:36:43	"teacher008"	"teacher"	14	"So it might be a 'staycation'. Do you know this word?"	"So it might be a 'staycation'. Do you know this word?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	11
+2020-07-03 06:36:58	"student010"	"student"	15	"No, I don't"	"No, I don't"	NA	NA	NA	NA	NA	NA	3
+2020-07-03 06:37:26	"teacher008"	"teacher"	16	"You know 'vacation', another word for holiday? More American"	"You know 'vacation', another word for holiday? More American"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-03 06:37:46	"student010"	"student"	17	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 06:38:11	"teacher008"	"teacher"	18	"vacation + stay (at home) = staycation"	"vacation + stay (at home) = staycation"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-07-03 06:38:21	"teacher008"	"teacher"	19	"A holiday when you stay at home!"	"A holiday when you stay at home!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-07-03 06:38:28	"student010"	"student"	20	"Understand"	"Understand"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 06:38:54	"teacher008"	"teacher"	21	"Is the quarantine still going strong in Ukraine?"	"Is the quarantine still going strong in Ukraine?"	NA	"3.0"	"topic opening"	NA	NA	NA	8
+2020-07-03 06:39:29	"teacher008"	"teacher"	22	"Oh, feel free to ask me any questions, new words or anything, ok?"	"Oh, feel free to ask me any questions, new words or anything, ok?"	NA	"4.0"	"topic opening"	NA	NA	NA	13
+2020-07-03 06:40:05	"student010"	"student"	23	"The government opened the underground but now it closed again"	"The government opened the underground but now it closed again"	21	NA	NA	NA	NA	NA	10
+2020-07-03 06:40:18	"student010"	"student"	24	"Ok"	"Ok"	22	NA	NA	NA	NA	NA	1
+2020-07-03 06:40:42	"teacher008"	"teacher"	25	"Closed again? Why is that?"	"Closed again? Why is that?"	23	NA	NA	NA	NA	NA	5
+2020-07-03 06:41:36	"student010"	"student"	26	"Because we have new anti-record of Corona"	"Because we have new anti-record of Corona"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 06:42:03	"teacher008"	"teacher"	27	"Ah, I see..."	"Ah, I see..."	NA	NA	NA	NA	NA	NA	3
+2020-07-03 06:42:19	"student010"	"student"	28	"Yes we had another plans"	"Yes we had other plans"	NA	"3a"	"topic development"	NA	NA	NA	5
+2020-07-03 06:42:32	"teacher008"	"teacher"	29	"I like 'anti-record'! We say 'a spike in new cases' here"	"I like 'anti-record'! We say 'a spike in new cases' here"	26	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-07-03 06:42:48	"teacher008"	"teacher"	30	"Oh, have your plans been disrupted?"	"Oh, have your plans been disrupted?"	28	NA	NA	NA	NA	NA	6
+2020-07-03 06:43:12	"student010"	"student"	31	"What does disrupted mean?"	"What does disrupted mean?"	NA	"3b"	"enquiry"	"lexical resource"	NA	NA	4
+2020-07-03 06:43:50	"teacher008"	"teacher"	32	"It means they were messed up! not completely ruined, but not going well either"	"It means they were messed up! not completely ruined, but not going well either"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-07-03 06:44:03	"student010"	"student"	33	"Oh ok"	"Oh ok"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 06:44:26	"student010"	"student"	34	"So we were going to the USA"	"So we were going to the USA"	NA	"3c"	"topic development"	NA	NA	NA	7
+2020-07-03 06:44:50	"teacher008"	"teacher"	35	"Ooh, I see. I'm guessing that plan might have been ruined :("	"Ooh, I see. I'm guessing that plan might have been ruined :("	NA	NA	NA	NA	NA	NA	12
+2020-07-03 06:45:13	"student010"	"student"	36	"I have cousins there too"	"I have cousins there too"	NA	NA	NA	NA	NA	NA	5
+2020-07-03 06:45:37	"teacher008"	"teacher"	37	"I see, what a shame!"	"I see, what a shame!"	NA	NA	NA	NA	NA	NA	5
+2020-07-03 06:46:08	"teacher008"	"teacher"	38	"I was going to go to Ukraine! I really miss it, but what can we do"	"I was going to go to Ukraine! I really miss it, but what can we do"	NA	NA	NA	NA	NA	NA	16
+2020-07-03 06:46:39	"teacher008"	"teacher"	39	"Was the end of the school year all online learning for you then?"	"Was the end of the school year all online learning for you then?"	NA	"5.0"	"topic opening"	NA	NA	NA	13
+2020-07-03 06:46:55	"student010"	"student"	40	"Yes, it was"	"Yes, it was"	NA	NA	NA	NA	NA	NA	3
+2020-07-03 06:47:04	"teacher008"	"teacher"	41	"How did you like it?"	"How did you like it?"	NA	NA	NA	NA	NA	NA	5
+2020-07-03 06:47:55	"student010"	"student"	42	"It was good because online school was starting at 9:00"	"It was good because online school started at 9:00"	NA	NA	NA	NA	NA	NA	10
+2020-07-03 06:48:20	"teacher008"	"teacher"	43	"What time does it usually start? Normal school I mean"	"What time does it usually start? Normal school I mean"	NA	"5a"	"topic development"	NA	NA	NA	10
+2020-07-03 06:48:51	"student010"	"student"	44	"Ussualy we need to come at 8:00"	"Usualy we need to come at 8:00"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 06:49:04	"teacher008"	"teacher"	45	"Goodness, that's early!"	"Goodness, that's early!"	NA	NA	NA	NA	NA	NA	3
+2020-07-03 06:49:38	"teacher008"	"teacher"	46	"And, with online school, you didn't have to ... (travel to school, what's the word from the last time?)"	"And, with online school, you didn't have to ... (travel to school, what's the word from the last time?)"	NA	"5b"	"eliciting,revision"	"lexical resource"	NA	NA	19
+2020-07-03 06:49:59	"student010"	"student"	47	"Commute"	"Commute"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 06:50:07	"teacher008"	"teacher"	48	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 06:50:50	"teacher008"	"teacher"	49	"How were online classes vs. face-to-face classes?"	"How were online classes vs. face-to-face classes?"	NA	"5c"	"topic development"	NA	NA	NA	7
+2020-07-03 06:51:42	"student010"	"student"	50	"Face-to-face lessons were longer"	"Face-to-face lessons were longer"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 06:52:20	"teacher008"	"teacher"	51	"Oh really? Interesting!"	"Oh really? Interesting!"	NA	NA	NA	NA	NA	NA	3
+2020-07-03 06:52:53	"student010"	"student"	52	"We had pairs of face-to-face lessons"	"We had pairs of face-to-face lessons"	NA	NA	NA	NA	NA	NA	6
+2020-07-03 06:53:03	"teacher008"	"teacher"	53	"How do you mean?"	"How do you mean?"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 06:53:09	"teacher008"	"teacher"	54	"Oh, I know"	"Oh, I know"	NA	NA	NA	NA	NA	NA	3
+2020-07-03 06:53:21	"teacher008"	"teacher"	55	"Double Maths, double Engish and so on"	"Double Maths, double Engish and so on"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 06:53:45	"teacher008"	"teacher"	56	"right?"	"right?"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 06:53:48	"student010"	"student"	57	"Yes you're right"	"Yes you're right"	NA	NA	NA	NA	NA	NA	3
+2020-07-03 06:54:49	"teacher008"	"teacher"	58	"So, what do you hope will happen in September? Would you like some elements of studying from home to remain in place?"	"So, what do you hope will happen in September? Would you like some elements of studying from home to remain in place?"	NA	"5d"	"topic development"	NA	NA	NA	22
+2020-07-03 06:55:40	"student010"	"student"	59	"We are going to have online school"	"We are going to have online school"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 06:56:20	"teacher008"	"teacher"	60	"Oh, do you know for sure? Or is it what you think will happen?"	"Oh, do you know for sure? Or is it what you think will happen?"	NA	NA	NA	NA	NA	NA	14
+2020-07-03 06:57:11	"student010"	"student"	61	"That's what news say"	"That's what it says on the news"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 06:57:38	"teacher008"	"teacher"	62	"Interesting! And for how long?"	"Interesting! And for how long?"	NA	NA	NA	NA	NA	NA	5
+2020-07-03 06:58:18	"teacher008"	"teacher"	63	"I think here in the UK the government is trying to re-open schools in September, but it might not be possible"	"I think here in the UK the government is trying to re-open schools in September, but it might not be possible"	NA	NA	NA	NA	NA	NA	21
+2020-07-03 06:59:40	"student010"	"student"	64	"There are still a lot of sick people"	"There are still a lot of sick people"	NA	NA	NA	NA	NA	NA	8
+2020-07-03 07:00:00	"teacher008"	"teacher"	65	"Yes, true :("	"Yes, true :("	NA	NA	NA	NA	NA	NA	3
+2020-07-03 07:01:02	"student010"	"student"	66	"I've already said about underground"	"I've already said about the underground"	NA	NA	NA	NA	NA	NA	5
+2020-07-03 07:01:14	"teacher008"	"teacher"	67	"Yes, sure, people can't commute"	"Yes, sure, people can't commute"	NA	NA	NA	NA	NA	NA	5
+2020-07-03 07:01:46	"teacher008"	"teacher"	68	"My son is starting school in September. It's going to be weird!"	"My son is starting school in September. It's going to be weird!"	NA	NA	NA	NA	NA	NA	12
+2020-07-03 07:02:49	"student010"	"student"	69	"Do you know that now students in Ukraine learn for 12 years"	"Do you know that now students in Ukraine learn for 12 years"	NA	"5e"	"topic development"	NA	NA	NA	12
+2020-07-03 07:02:51	"student010"	"student"	70	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 07:03:21	"teacher008"	"teacher"	71	"12 years! do they start at 7?"	"12 years! do they start at 7?"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 07:04:28	"student010"	"student"	72	"I'm lucky because I learn for 11"	"I'm lucky because I will only learn for 11"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 07:05:10	"student010"	"student"	73	"And first grade is something like kindergarden"	"And the first grade is something like a kindergarden"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 07:05:42	"teacher008"	"teacher"	74	"Oh, that's similar to the UK. The first grade is called 'reception', and it's a bit like kindergarten"	"Oh, that's similar to the UK. The first grade is called 'reception', and it's a bit like kindergarten"	NA	NA	NA	NA	NA	NA	18
+2020-07-03 07:06:05	"teacher008"	"teacher"	75	"At what age do children start school then?"	"At what age do children start school then?"	NA	NA	NA	NA	NA	NA	8
+2020-07-03 07:06:23	"student010"	"student"	76	"At 6"	"At 6"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 07:06:24	"teacher008"	"teacher"	77	"And why are you only going to be studying for 11 years?"	"And why are you only going to be studying for 11 years?"	NA	"5f"	NA	NA	NA	NA	12
+2020-07-03 07:08:41	"student010"	"student"	78	"It's our old programme and all children who went to school 2 years ago study for 12 years"	"It's our old programme and all children who went to school 2 years ago study for 12 years"	NA	NA	NA	NA	NA	NA	18
+2020-07-03 07:09:28	"teacher008"	"teacher"	79	"I see! It's a new rule then! Very interesting"	"I see! It's a new rule then! Very interesting"	NA	NA	NA	NA	NA	NA	9
+2020-07-03 07:10:10	"student010"	"student"	80	"I went to school at 7"	"I went to school at 7"	NA	"5g"	"topic development"	NA	NA	NA	6
+2020-07-03 07:10:35	"teacher008"	"teacher"	81	"I see, me too! I think 7 is a good age to start school."	"I see, me too! I think 7 is a good age to start school."	NA	NA	NA	NA	NA	NA	14
+2020-07-03 07:11:24	"teacher008"	"teacher"	82	"Because you get 7 years of freeeedom :)"	"Because you get 7 years of freeeedom :)"	NA	NA	NA	NA	NA	NA	8
+2020-07-03 07:11:42	"student010"	"student"	83	"Not really"	"Not really"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 07:11:48	"teacher008"	"teacher"	84	"and, of course, because children are much more mature at 7"	"and, of course, because children are much more mature at 7"	NA	NA	NA	NA	NA	NA	11
+2020-07-03 07:11:51	"teacher008"	"teacher"	85	"not really?"	"not really?"	83	NA	NA	NA	NA	NA	2
+2020-07-03 07:11:58	"teacher008"	"teacher"	86	"kindergarten?"	"kindergarten?"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 07:12:03	"student010"	"student"	87	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 07:12:09	"teacher008"	"teacher"	88	"Yes :("	"Yes :("	NA	NA	NA	NA	NA	NA	2
+2020-07-03 07:12:21	"teacher008"	"teacher"	89	"But maybe you liked your kindergarten?"	"But maybe you liked your kindergarten?"	NA	"5h"	"topic development"	NA	NA	NA	6
+2020-07-03 07:12:27	"teacher008"	"teacher"	90	"I know I didn't!"	"I know I didn't!"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 07:12:35	"student010"	"student"	91	"But I didn't go there"	"But I didn't go there"	NA	NA	NA	NA	NA	NA	5
+2020-07-03 07:12:49	"teacher008"	"teacher"	92	"Ah, so you did get 7 years of freedom?"	"Ah, so you did get 7 years of freedom?"	NA	NA	NA	NA	NA	NA	9
+2020-07-03 07:12:58	"student010"	"student"	93	"Probably only 2 weeks"	"Probably only 2 weeks"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 07:13:18	"teacher008"	"teacher"	94	"2 weeks of freedom or 2 weeks of kindergarten? :)"	"2 weeks of freedom or 2 weeks of kindergarten? :)"	NA	NA	NA	NA	NA	NA	10
+2020-07-03 07:13:40	"student010"	"student"	95	"Of kindergarden"	"Of kindergarden"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 07:13:56	"teacher008"	"teacher"	96	"Sounds good!"	"Sounds good!"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 07:14:09	"student010"	"student"	97	"I went to pre-school"	"I went to pre-school"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 07:14:21	"teacher008"	"teacher"	98	"Oh, it's the same thing, isn't it?"	"Oh, it's the same thing, isn't it?"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 07:14:43	"student010"	"student"	99	"No it doesn't"	"No, it isn't"	NA	NA	NA	NA	NA	NA	3
+2020-07-03 07:14:53	"teacher008"	"teacher"	100	"how is it different?"	"how is it different?"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 07:17:03	"student010"	"student"	101	"Kindergarden is place where adults leave children when they work and pre-school is place where children learn how to write, read"	"A kindergarden is a place where adults leave children while they work and pre-school is a place where children learn how to write and read"	NA	NA	NA	NA	NA	NA	21
+2020-07-03 07:17:21	"teacher008"	"teacher"	102	"Ah, I understand, thanks for that"	"Ah, I understand, thanks for that"	NA	NA	NA	NA	NA	NA	6
+2020-07-03 07:17:58	"student010"	"student"	103	"You're welcome"	"You're welcome"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 07:18:11	"teacher008"	"teacher"	104	"Here in the UK, it's a pre-school or a nursery. I think the only difference is that pre-schools are state-owned and nurseries are private."	"Here in the UK, it's a pre-school or a nursery. I think the only difference is that pre-schools are state-owned and nurseries are private."	NA	NA	NA	NA	NA	NA	24
+2020-07-03 07:19:19	"teacher008"	"teacher"	105	"Quick grammar quiz, <STUDENT>"	"Quick grammar quiz, <STUDENT>"	NA	"6.0"	"exercise"	"grammatical resource"	NA	NA	4
+2020-07-03 07:19:27	"student010"	"student"	106	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 07:19:45	"teacher008"	"teacher"	107	"1. If schools don't re-open in September, I ____ ____"	"1. If schools don't re-open in September, I ____ ____"	NA	NA	NA	NA	NA	NA	10
+2020-07-03 07:19:53	"teacher008"	"teacher"	108	"could you finish the sentence, please?"	"could you finish the sentence, please?"	NA	NA	NA	NA	NA	NA	6
+2020-07-03 07:20:19	"student010"	"student"	109	"I'll stay at home"	"I'll stay at home"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 07:20:29	"teacher008"	"teacher"	110	"great!"	"great!"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 07:20:38	"teacher008"	"teacher"	111	"what about"	"what about"	NA	"6a"	NA	NA	NA	NA	2
+2020-07-03 07:21:20	"teacher008"	"teacher"	112	"If I ____ in the USA now, I ____ eat cheeseburgers for breakfast!"	"If I ____ in the USA now, I ____ eat cheeseburgers for breakfast!"	NA	NA	NA	NA	NA	NA	13
+2020-07-03 07:21:30	"teacher008"	"teacher"	113	"Silly example, I know, just for the grammar"	"Silly example, I know, just for the grammar"	NA	NA	NA	NA	NA	NA	8
+2020-07-03 07:22:53	"student010"	"student"	114	"Have  been/ will"	"Have  been/ will"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 07:23:36	"teacher008"	"teacher"	115	"How about 'If I were in the USA now, I would eat...'?"	"How about 'If I were in the USA now, I would eat...'?"	NA	NA	"repair"	"grammatical resource"	NA	NA	12
+2020-07-03 07:23:48	"teacher008"	"teacher"	116	"Does it sound familiar? It's ok if it doesn't!"	"Does it sound familiar? It's ok if it doesn't!"	NA	NA	NA	NA	NA	NA	9
+2020-07-03 07:24:15	"student010"	"student"	117	"I think it's similar"	"I think it's similar"	NA	NA	NA	NA	NA	NA	4
+2020-07-03 07:25:07	"teacher008"	"teacher"	118	"It's a bit different, but we can look into this next time. It's called second conditionals, for things that are not true at the moment"	"It's a bit different, but we can look into this next time. It's called second conditionals, for things that are not true at the moment"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	25
+2020-07-03 07:25:21	"teacher008"	"teacher"	119	"You've probably heard about it"	"You've probably heard about it"	NA	NA	NA	NA	NA	NA	5
+2020-07-03 07:26:06	"student010"	"student"	120	"I thought that it's third conditional"	"I thought that it's third conditional"	NA	NA	NA	NA	NA	NA	6
+2020-07-03 07:26:31	"student010"	"student"	121	"Oh no"	"Oh no"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 07:26:35	"teacher008"	"teacher"	122	"No worries, we'll play with this grammar next time!"	"No worries, we'll play with this grammar next time!"	NA	NA	NA	NA	NA	NA	9
+2020-07-03 07:27:13	"student010"	"student"	123	"Can you remind please?"	"Can you remind please?"	NA	"6b"	"enquiry"	"grammatical resource"	NA	NA	4
+2020-07-03 07:27:28	"teacher008"	"teacher"	124	"We are almost out of time now, I will next time, ok?"	"We are almost out of time now, I will next time, ok?"	NA	NA	NA	NA	NA	NA	12
+2020-07-03 07:27:38	"student010"	"student"	125	"Oh ok"	"Oh ok"	NA	NA	NA	NA	NA	NA	2
+2020-07-03 07:28:02	"teacher008"	"teacher"	126	"Don't worry about it, I just needed to see what could be new and interesting for you, ok? Your English is very good!"	"Don't worry about it, I just needed to see what could be new and interesting for you, ok? Your English is very good!"	NA	NA	NA	NA	NA	NA	23
+2020-07-03 07:28:21	"teacher008"	"teacher"	127	"Shall we do next Wednesday at 9.30 am?"	"Shall we do next Wednesday at 9.30 am?"	NA	"7.0"	"admin"	NA	NA	NA	8
+2020-07-03 07:28:49	"student010"	"student"	128	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 07:28:49	"student010"	"student"	129	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-03 07:29:25	"teacher008"	"teacher"	130	"Sure. It was lovely to talk to you, have a nice weekend! Until Wednesday!"	"Sure. It was lovely to talk to you, have a nice weekend! Until Wednesday!"	NA	"8.0"	"closing"	NA	NA	NA	14
+2020-07-03 07:30:07	"student010"	"student"	131	"Why until Wednesday?"	"Why until Wednesday?"	NA	NA	"enquiry"	NA	NA	NA	3
+2020-07-03 07:30:27	"teacher008"	"teacher"	132	"Because our next class is on Wednesday!"	"Because our next class is on Wednesday!"	NA	NA	"clarification"	NA	NA	NA	7
+2020-07-03 07:30:49	"teacher008"	"teacher"	133	"I didn't mean the weekend will last until Wednesday"	"I didn't mean the weekend will last until Wednesday"	NA	NA	NA	NA	NA	NA	9
+2020-07-03 07:31:03	"student010"	"student"	134	"But I'm sure it'll be cool!"	"But I'm sure it'll be cool!"	NA	NA	NA	NA	NA	NA	6
+2020-07-03 07:31:35	"student010"	"student"	135	"I'm looking forward to our next lesson"	"I'm looking forward to our next lesson"	NA	NA	NA	NA	NA	NA	7
+2020-07-03 07:31:47	"teacher008"	"teacher"	136	"Me too :) Bye for now!"	"Me too :) Bye for now!"	NA	NA	NA	NA	NA	NA	6
+2020-07-03 07:31:56	"student010"	"student"	137	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

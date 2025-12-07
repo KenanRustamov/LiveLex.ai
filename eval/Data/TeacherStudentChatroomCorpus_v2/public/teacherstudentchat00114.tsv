@@ -1,0 +1,289 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-09-30 11:33:14	"student011"	"student"	1	"Hello, <TEACHER>!"	"Hello, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-09-30 11:33:38	"teacher008"	"teacher"	2	"Hi <STUDENT>! )"	"Hi <STUDENT>! )"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:33:43	"teacher008"	"teacher"	3	"How are you? All good?"	"How are you? All good?"	NA	"2.0"	"topic opening"	NA	NA	NA	5
+2020-09-30 11:33:59	"student011"	"student"	4	"I'm fine, thank you/ How are you?"	"I'm fine, thank you. How are you?"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 11:34:10	"student011"	"student"	5	"How is the weather?"	"How is the weather?"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:34:17	"teacher008"	"teacher"	6	"I'm good, thank you)"	"I'm good, thank you)"	4	NA	NA	NA	NA	NA	4
+2020-09-30 11:34:24	"student011"	"student"	7	"Here we feel like in England today"	"Here we feel like in England today"	5	NA	NA	NA	NA	NA	7
+2020-09-30 11:34:33	"student011"	"student"	8	"Rain rain rain )"	"Rain rain rain )"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:34:57	"student011"	"student"	9	"All the day )"	"All day long )"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:35:04	"teacher008"	"teacher"	10	"Well, it's not too bad at the moment but, according to the forecast, the rain should start this afternoon and not finish for the foreseeable future!"	"Well, it's not too bad at the moment but, according to the forecast, the rain should start this afternoon and not finish for the foreseeable future!"	5	NA	NA	NA	NA	NA	26
+2020-09-30 11:35:23	"teacher008"	"teacher"	11	"Oh no, sounds miserable!"	"Oh no, sounds miserable!"	9	NA	NA	NA	NA	NA	4
+2020-09-30 11:35:45	"student011"	"student"	12	"I like it"	"I like it"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:35:47	"student011"	"student"	13	")"	")"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 11:35:50	"student011"	"student"	14	"sorry )))"	"sorry )))"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:35:54	"teacher008"	"teacher"	15	"miserable weather' is a very common way to describe it"	"miserable weather' is a very common way to describe it"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-09-30 11:36:00	"teacher008"	"teacher"	16	"or 'a miserable day'"	"or 'a miserable day'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-09-30 11:36:29	"student011"	"student"	17	"Maybe if we have rain all the time I have some different opinion"	"Maybe if we had rain all the time I would have a different opinion"	14	NA	NA	NA	NA	NA	13
+2020-09-30 11:36:34	"teacher008"	"teacher"	18	"Do you? Oh yes, you did say, because you can just work or do crafts with <STUDENT'S CHILD> and not feel guilty about not going out?"	"Do you? Oh yes, you did say, because you can just work or do crafts with <STUDENT'S CHILD> and not feel guilty about not going out?"	12	NA	NA	NA	NA	NA	26
+2020-09-30 11:36:48	"teacher008"	"teacher"	19	"It gets really boring really fast here"	"It gets really boring really fast here"	17	NA	NA	NA	NA	NA	7
+2020-09-30 11:36:51	"student011"	"student"	20	"yes, sure"	"yes, sure"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:37:18	"student011"	"student"	21	"And actually I feel better in rainy days than in sub ones"	"And actually I feel better on rainy days than on sunny ones"	NA	"2a"	"topic development"	NA	NA	NA	12
+2020-09-30 11:37:25	"student011"	"student"	22	"sunny, sorry"	"sunny, sorry"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-09-30 11:37:41	"teacher008"	"teacher"	23	"By the way, 'how's the weather?' is fine, but a good way to ask abou the weather is also 'What's the weather like?'"	"By the way, 'how's the weather?' is fine, but a good way to ask abou the weather is also 'What's the weather like?'"	NA	"2b"	"scaffolding"	"lexical resource"	NA	NA	23
+2020-09-30 11:37:42	"student011"	"student"	24	"I think it's because of pleasure"	"I think it's because of pressure"	21	NA	NA	NA	NA	NA	6
+2020-09-30 11:38:09	"teacher008"	"teacher"	25	"For online communication, 'What's the weather like where you are?' (if you're not sure where the person is exactly)"	"For online communication, 'What's the weather like where you are?' (if you're not sure where the person is exactly)"	23	NA	NA	NA	NA	NA	19
+2020-09-30 11:38:24	"student011"	"student"	26	"What's the weather like?' - thank you! I'll try to use that one"	"What's the weather like?' - thank you! I'll try to use that one"	NA	NA	NA	NA	NA	NA	13
+2020-09-30 11:38:45	"teacher008"	"teacher"	27	"on rainy days and on sunny days :)"	"on rainy days and on sunny days :)"	21	NA	"repair"	"writing"	NA	NA	8
+2020-09-30 11:38:49	"teacher008"	"teacher"	28	"no worries"	"no worries"	26	NA	NA	NA	NA	NA	2
+2020-09-30 11:38:56	"student011"	"student"	29	"pleasure - sorry, it's autocorrect ("	"pleasure - sorry, it's autocorrect ("	24	NA	NA	NA	NA	NA	6
+2020-09-30 11:39:09	"teacher008"	"teacher"	30	"the pesky autocorrect!"	"the pesky autocorrect!"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:39:20	"student011"	"student"	31	"I mean preasure"	"I mean pressure"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:39:34	"teacher008"	"teacher"	32	"pressure?"	"pressure?"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-09-30 11:39:39	"student011"	"student"	33	"yes )))"	"yes )))"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:39:40	"teacher008"	"teacher"	34	"Ah, atmospheric pressure?"	"Ah, atmospheric pressure?"	NA	NA	"repair"	"lexical resource"	NA	NA	3
+2020-09-30 11:40:19	"student011"	"student"	35	"atmospheric pressure! Sure! I think I feel better because of it on rainy days"	"atmospheric pressure! Sure! I think I feel better because of it on rainy days"	NA	NA	NA	NA	NA	NA	14
+2020-09-30 11:40:39	"teacher008"	"teacher"	36	"Ah, I'm with you now!!"	"Ah, I'm with you now!!"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 11:40:39	"student011"	"student"	37	"I feel more energetic"	"I feel more energetic"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:41:07	"student011"	"student"	38	"When it's sunny I feel lazy )"	"When it's sunny I feel lazy )"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 11:41:19	"teacher008"	"teacher"	39	"And I think rain can feel really nice and fresh in Kyiv"	"And I think rain can feel really nice and fresh in Kyiv"	NA	NA	NA	NA	NA	NA	12
+2020-09-30 11:41:25	"teacher008"	"teacher"	40	"Oh, I live for sunny days!"	"Oh, I live for sunny days!"	38	NA	NA	NA	NA	NA	6
+2020-09-30 11:41:45	"teacher008"	"teacher"	41	"I really don't like the grey skies"	"I really don't like the grey skies"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 11:41:49	"teacher008"	"teacher"	42	"and constant rain"	"and constant rain"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:43:08	"student011"	"student"	43	"It's quite cold here. It's ok for this season, but it was too warm September and maybe I thought that it will bee the same all autumn )"	"It's quite cold here. It's ok for this season, but it was so warm in September and maybe I thought that it would be the same all autumn )"	NA	"2c"	"topic development"	NA	NA	NA	28
+2020-09-30 11:43:36	"teacher008"	"teacher"	44	"How cold is it?"	"How cold is it?"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:43:56	"student011"	"student"	45	"It's about 13 now"	"It's about 13 now"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:44:37	"teacher008"	"teacher"	46	"Yes, it's about the same here"	"Yes, it's about the same here"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 11:44:51	"student011"	"student"	47	"Yeah, but it's cold ))"	"Yeah, but it's cold ))"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 11:45:01	"teacher008"	"teacher"	48	"Oh I agree! Yuck!"	"Oh I agree! Yuck!"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:45:17	"student011"	"student"	49	"Yuck? )"	"Yuck? )"	NA	"2d"	"enquiry"	"lexical resource,meaning"	NA	NA	2
+2020-09-30 11:45:26	"teacher008"	"teacher"	50	"It's an expression of disgust"	"It's an expression of disgust"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-09-30 11:45:33	"teacher008"	"teacher"	51	"It's what children sometimes say about food))"	"It's what children sometimes say about food))"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-09-30 11:45:36	"student011"	"student"	52	"Ah! )"	"Ah! )"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:45:37	"teacher008"	"teacher"	53	"especially healthy food"	"especially healthy food"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:45:40	"teacher008"	"teacher"	54	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 11:45:43	"student011"	"student"	55	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 11:45:45	"teacher008"	"teacher"	56	"I still say it))"	"I still say it))"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:45:58	"student011"	"student"	57	"about healthy food? )))"	"about healthy food? )))"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:46:05	"teacher008"	"teacher"	58	"Yes, like broccoli"	"Yes, like broccoli"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:46:11	"teacher008"	"teacher"	59	"Broccoli is yucky))"	"Broccoli is yucky))"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:46:17	"teacher008"	"teacher"	60	"I think so, <TEACHER'S CHILD> actually loves it"	"I think so, <TEACHER'S CHILD> actually loves it"	NA	NA	NA	NA	NA	NA	8
+2020-09-30 11:46:30	"student011"	"student"	61	"I like it/ I mean not like like, but it's ok )"	"I like it/ I mean not like like, but it's ok )"	NA	NA	NA	NA	NA	NA	12
+2020-09-30 11:46:50	"student011"	"student"	62	"<TEACHER'S CHILD> loves it? I'm jealous."	"<TEACHER'S CHILD> loves it? I'm jealous."	NA	NA	NA	NA	NA	NA	6
+2020-09-30 11:46:59	"student011"	"student"	63	"<STUDENT'S CHILD> hates it )"	"<STUDENT'S CHILD> hates it )"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 11:47:16	"teacher008"	"teacher"	64	"Ok, we started on some really interesting vocabulary last time, let's just have a quick look back before we proceed to some non-yucky food talk))"	"Ok, we started on some really interesting vocabulary last time, let's just have a quick look back before we proceed to some non-yucky food talk))"	NA	"3.0"	"revision"	"lexical resource"	NA	NA	25
+2020-09-30 11:47:20	"student011"	"student"	65	"When she was younger she loves it, but now.."	"When she was younger, she loved it, but now..."	63	NA	NA	NA	NA	NA	9
+2020-09-30 11:47:25	"teacher008"	"teacher"	66	"He loves it, yes, I'm surprised!"	"He loves it, yes, I'm surprised!"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 11:48:03	"teacher008"	"teacher"	67	"propose a bill; a bill passes / is passed; to amend (a bill); to introduce a law; to veto"	"propose a bill; a bill passes / is passed; to amend (a bill); to introduce a law; to veto"	64	NA	NA	NA	NA	NA	19
+2020-09-30 11:48:07	"teacher008"	"teacher"	68	"Do you remember them all?"	"Do you remember them all?"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 11:48:09	"student011"	"student"	69	"<STUDENT'S CHILD> likes only orange vegetables, she hates greens )"	"<STUDENT'S CHILD> likes only orange vegetables, she hates greens )"	66	NA	NA	NA	NA	NA	10
+2020-09-30 11:48:27	"teacher008"	"teacher"	70	"Aww, is orange still her favourite colour?"	"Aww, is orange still her favourite colour?"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 11:48:34	"student011"	"student"	71	"yes ))"	"yes ))"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:48:48	"student011"	"student"	72	"Vocabulary ) I'm not sure )"	"Vocabulary ) I'm not sure )"	68	NA	NA	NA	NA	NA	6
+2020-09-30 11:49:16	"teacher008"	"teacher"	73	"you're not sure about the word 'vocabulary'?"	"you're not sure about the word 'vocabulary'?"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 11:49:18	"student011"	"student"	74	"But I'm ready to look back )"	"But I'm ready to look back )"	72	NA	NA	NA	NA	NA	7
+2020-09-30 11:49:39	"student011"	"student"	75	"No )) About last chat vocabulary )"	"No )) About the vocabulary from the last chat)"	73	NA	NA	NA	NA	NA	7
+2020-09-30 11:49:57	"teacher008"	"teacher"	76	"ah, got you)))"	"ah, got you)))"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:50:09	"teacher008"	"teacher"	77	"propose a bill; a bill passes / is passed; to amend (a bill); to introduce a law; to veto"	"propose a bill; a bill passes / is passed; to amend (a bill); to introduce a law; to veto"	NA	NA	NA	NA	NA	NA	19
+2020-09-30 11:50:37	"teacher008"	"teacher"	78	"we started talking about some parliamentary procedures, unexpectedly))"	"we started talking about some parliamentary procedures, unexpectedly))"	NA	NA	NA	NA	NA	NA	8
+2020-09-30 11:50:39	"student011"	"student"	79	"amend"	"amend"	NA	"3a"	"enquiry"	"lexical resource,meaning"	NA	NA	1
+2020-09-30 11:50:58	"student011"	"student"	80	"I'm not sure about meaning"	"I'm not sure about the meaning"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	5
+2020-09-30 11:51:00	"teacher008"	"teacher"	81	"amend = to change or correct (a document)"	"amend = to change or correct (a document)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-09-30 11:51:08	"student011"	"student"	82	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:51:41	"teacher008"	"teacher"	83	"əˈmend/"	"əˈmend/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2020-09-30 11:51:57	"teacher008"	"teacher"	84	"can you read transcriptions?"	"can you read transcriptions?"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:51:58	"student011"	"student"	85	"thank you, it's clear now"	"thank you, it's clear now"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 11:52:03	"teacher008"	"teacher"	86	"lovely)"	"lovely)"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 11:52:08	"teacher008"	"teacher"	87	"the noun is amendment"	"the noun is amendment"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-09-30 11:52:19	"student011"	"student"	88	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:52:22	"teacher008"	"teacher"	89	"an amendment to the Constitution, for example"	"an amendment to the Constitution, for example"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-09-30 11:52:37	"student011"	"student"	90	"It's about Russia? ))"	"Is it about Russia? ))"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:52:38	"teacher008"	"teacher"	91	"the famous Second Amendment in the USA"	"the famous Second Amendment in the USA"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-09-30 11:52:56	"teacher008"	"teacher"	92	"it could be! not a lawful amendment but still!"	"it could be! not a lawful amendment but still!"	90	NA	NA	NA	NA	NA	9
+2020-09-30 11:53:13	"student011"	"student"	93	"sure!"	"sure!"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 11:53:22	"teacher008"	"teacher"	94	"the Second Amendment that says people own weapons"	"the Second Amendment that says people own weapons"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	8
+2020-09-30 11:53:27	"teacher008"	"teacher"	95	"you know)"	"you know)"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:53:50	"teacher008"	"teacher"	96	"We actually forgot an important part of the life cycle of a bill!"	"We actually forgot an important part of the life cycle of a bill!"	NA	"3b"	"presentation"	"lexical resource,world knowledge"	NA	NA	13
+2020-09-30 11:53:51	"student011"	"student"	97	"I googled )"	"I googled )"	95	NA	NA	NA	NA	NA	3
+2020-09-30 11:53:53	"teacher008"	"teacher"	98	"Being debated"	"Being debated"	96	NA	NA	NA	NA	NA	2
+2020-09-30 11:54:09	"teacher008"	"teacher"	99	"*people can own weapons"	"*people can own weapons"	94	NA	"repair"	"content"	NA	NA	4
+2020-09-30 11:54:18	"student011"	"student"	100	"sure, in the Parliament!"	"sure, in the Parliament!"	98	NA	NA	NA	NA	NA	4
+2020-09-30 11:54:24	"teacher008"	"teacher"	101	"After the bill is proposed, the Parliament debates it"	"After the bill is proposed, the Parliament debates it"	98	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	9
+2020-09-30 11:54:28	"teacher008"	"teacher"	102	"Yes))"	"Yes))"	100	NA	NA	NA	NA	NA	1
+2020-09-30 11:54:47	"teacher008"	"teacher"	103	"In the UK, there is a very interesting phenomenon in the Parliament. A whip"	"In the UK, there is a very interesting phenomenon in the Parliament. A whip"	NA	"3c"	"presentation"	"lexical resource,world knowledge"	NA	NA	14
+2020-09-30 11:55:06	"teacher008"	"teacher"	104	"A whip is a person in the party who makes sure the party votes in a particular way"	"A whip is a person in the party who makes sure the party votes in a particular way"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	18
+2020-09-30 11:55:40	"teacher008"	"teacher"	105	"This person whips the party to vote for / against a bill"	"This person whips the party to vote for / against a bill"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	12
+2020-09-30 11:55:48	"teacher008"	"teacher"	106	"Have we got the same in Ukraine?"	"Have we got the same in Ukraine?"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 11:55:49	"student011"	"student"	107	"It's a special person?"	"Is it a special person?"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:55:54	"teacher008"	"teacher"	108	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 11:56:10	"teacher008"	"teacher"	109	"a member of parliament"	"a member of parliament"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:56:11	"student011"	"student"	110	"no, I'm not sure, But I think we don't"	"no, I'm not sure, But I think we don't"	106	NA	NA	NA	NA	NA	9
+2020-09-30 11:56:12	"teacher008"	"teacher"	111	"or MP"	"or MP"	109	NA	NA	NA	NA	NA	2
+2020-09-30 11:56:22	"student011"	"student"	112	"we haven't"	"we haven't"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:56:34	"teacher008"	"teacher"	113	"a whip also means a stick with a rope used to hit horses"	"a whip also means a stick with a rope used to hit horses"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	13
+2020-09-30 11:56:39	"teacher008"	"teacher"	114	"to make them do what you want"	"to make them do what you want"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	7
+2020-09-30 11:56:48	"teacher008"	"teacher"	115	"quite a cruel way"	"quite a cruel way"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	4
+2020-09-30 11:56:57	"student011"	"student"	116	"I see now"	"I see now"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 11:57:07	"student011"	"student"	117	"it's interesting!"	"it's interesting!"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:57:18	"teacher008"	"teacher"	118	"Yes, I thought so!"	"Yes, I thought so!"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:57:33	"teacher008"	"teacher"	119	"And if a party is not whipped to vote in one way, it's called a free vote"	"And if a party is not whipped to vote in one way, it's called a free vote"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	17
+2020-09-30 11:57:41	"teacher008"	"teacher"	120	"Every MP can vote as they please"	"Every MP can vote as they please"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	7
+2020-09-30 11:57:51	"teacher008"	"teacher"	121	"But I think they are usually whipped))"	"But I think they are usually whipped))"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	7
+2020-09-30 11:58:05	"student011"	"student"	122	")))\"	")))\"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 11:58:10	"student011"	"student"	123	"It's strange"	"It's strange"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 11:58:21	"teacher008"	"teacher"	124	"It is, isn't it?"	"It is, isn't it?"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 11:58:48	"student011"	"student"	125	"I mean I understand that there are parties and they have to have like party's oppinion"	"I mean I understand that there are parties and they have to have like the party's opinion"	NA	NA	NA	NA	NA	NA	16
+2020-09-30 11:58:55	"student011"	"student"	126	"opinion"	"opinion"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 11:59:40	"student011"	"student"	127	"But it's strange that member of party can't have her or his own  opinion"	"But it's strange that a member of a party can't have her or his own opinion"	NA	NA	NA	NA	NA	NA	15
+2020-09-30 11:59:47	"teacher008"	"teacher"	128	"Yep, the party has to vote as one person"	"Yep, the party has to vote as one person"	NA	NA	NA	NA	NA	NA	9
+2020-09-30 12:00:16	"teacher008"	"teacher"	129	"And if the party is whipped and an MP doesn't listen, they can be thrown out of the party (not the Parliament)"	"And if the party is whipped and an MP doesn't listen, they can be thrown out of the party (not the Parliament)"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	22
+2020-09-30 12:00:17	"student011"	"student"	130	"it looks like strange democraty"	"it looks like a strange democracy"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 12:00:27	"student011"	"student"	131	"democracy"	"democracy"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-09-30 12:00:31	"teacher008"	"teacher"	132	"they become an independent MP then"	"they become an independent MP then"	129	NA	"scaffolding"	"world knowledge"	NA	NA	6
+2020-09-30 12:00:50	"teacher008"	"teacher"	133	"It is strange in the UK because there are only two powerful parties"	"It is strange in the UK because there are only two powerful parties"	131	NA	NA	NA	NA	NA	13
+2020-09-30 12:01:08	"student011"	"student"	134	"Yes, we have same things in the Verhovna Rada"	"Yes, we have the same things in Verhovna Rada"	NA	NA	"non-English"	"code switching"	NA	NA	9
+2020-09-30 12:01:58	"student011"	"student"	135	"I mean If one member of party didn't vote like others"	"I mean If one member of a party doesn't vote like the others"	NA	NA	NA	NA	NA	NA	11
+2020-09-30 12:02:09	"teacher008"	"teacher"	136	"Ah, they can be thrown out?"	"Ah, they can be thrown out?"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:02:26	"student011"	"student"	137	"but I'm not sure that tis rule works all the time"	"but I'm not sure if this rule works all the time"	NA	NA	NA	NA	NA	NA	11
+2020-09-30 12:02:56	"student011"	"student"	138	"Yes, they can, but I think after several cases like that"	"Yes, they can, but I think after several cases like that"	NA	NA	NA	NA	NA	NA	11
+2020-09-30 12:03:07	"teacher008"	"teacher"	139	"So there is something similar to whipping then"	"So there is something similar to whipping then"	NA	NA	NA	NA	NA	NA	8
+2020-09-30 12:03:37	"student011"	"student"	140	"yes, but I'm not sure that it works same way here"	"yes, but I'm not sure that it works in the same way here"	NA	NA	NA	NA	NA	NA	11
+2020-09-30 12:03:54	"teacher008"	"teacher"	141	"I see! I don't know either!"	"I see! I don't know either!"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:04:10	"teacher008"	"teacher"	142	"And finally we've got 'veto', which can be a noun or a verb"	"And finally we've got 'veto', which can be a noun or a verb"	NA	"3d"	"presentation"	"lexical resource"	NA	NA	13
+2020-09-30 12:04:12	"teacher008"	"teacher"	143	"/ˈviː.təʊ/"	"/ˈviː.təʊ/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2020-09-30 12:04:20	"teacher008"	"teacher"	144	"with a long i:"	"with a long i:"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	4
+2020-09-30 12:04:24	"student011"	"student"	145	"I'm not an expert in the Parliament's processes of work"	"I'm not an expert in the Parliament's processes of work"	141	NA	NA	NA	NA	NA	10
+2020-09-30 12:04:40	"teacher008"	"teacher"	146	"Me neither! But it's interesting I think :)"	"Me neither! But it's interesting I think :)"	NA	NA	NA	NA	NA	NA	8
+2020-09-30 12:05:17	"teacher008"	"teacher"	147	"And we can talk about 'having a power of veto over' something"	"And we can talk about 'having a power of veto over' something"	144	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-09-30 12:05:27	"teacher008"	"teacher"	148	"But it's not just about presidents."	"But it's not just about presidents."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-09-30 12:05:39	"student011"	"student"	149	"Yes, actually it's very important to know how to work people who decide about laws in your country. But I don't )"	"Yes, actually it's very important to know how the people who decide about laws in your country work. But I don't )"	146	NA	NA	NA	NA	NA	22
+2020-09-30 12:05:53	"teacher008"	"teacher"	150	"I can say, for example, <TEACHER'S HUSBAND> and <TEACHER'S CHILD> wanted to watch more Star Wars for family movie time, but I vetoed it))"	"I can say, for example, <TEACHER'S HUSBAND> and <TEACHER'S CHILD> wanted to watch more Star Wars for family movie time, but I vetoed it))"	148	NA	"scaffolding"	"lexical resource"	NA	NA	24
+2020-09-30 12:06:20	"student011"	"student"	151	"I'm with you here )"	"I'm with you here )"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 12:06:20	"teacher008"	"teacher"	152	"It is very important, I agree! You do know some things I'm sure))"	"It is very important, I agree! You do know some things I'm sure))"	149	NA	NA	NA	NA	NA	13
+2020-09-30 12:07:26	"student011"	"student"	153	"I'm with you now?"	"I'm with you now?"	NA	"3e"	"enquiry"	"lexical resource"	NA	NA	4
+2020-09-30 12:07:51	"student011"	"student"	154	"Veto is clear for me now, thank you"	"Veto is clear for me now, thank you"	150	NA	NA	NA	NA	NA	8
+2020-09-30 12:08:08	"teacher008"	"teacher"	155	"Hmm, I'm trying to remember where I wrote it. But it means I agree with you)"	"Hmm, I'm trying to remember where I wrote it. But it means I agree with you)"	153	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2020-09-30 12:08:21	"teacher008"	"teacher"	156	"Or it could also mean 'I now understand'"	"Or it could also mean 'I now understand'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-09-30 12:08:29	"teacher008"	"teacher"	157	"what you're saying"	"what you're saying"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	3
+2020-09-30 12:09:07	"teacher008"	"teacher"	158	"Oh, was it about the atmospheric pressure?"	"Oh, was it about the atmospheric pressure?"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 12:09:07	"student011"	"student"	159	"I agree with you)"	"I agree with you)"	NA	NA	"clarification"	NA	NA	NA	4
+2020-09-30 12:09:14	"student011"	"student"	160	"I mean this frase"	"I mean this phrase"	NA	NA	"clarification"	NA	NA	NA	4
+2020-09-30 12:09:32	"student011"	"student"	161	"I agree with you about veto Star Wars"	"I agree with you about vetoing Star Wars"	NA	NA	"clarification"	NA	NA	NA	8
+2020-09-30 12:09:32	"teacher008"	"teacher"	162	"I think at first I didn't understand what you were talking about, but then I did, and I said, 'ah, now I'm with you!'"	"I think at first I didn't understand what you were talking about, but then I did, and I said, 'ah, now I'm with you!'"	158	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	24
+2020-09-30 12:09:49	"teacher008"	"teacher"	163	"Ah, got you, haha, yes!"	"Ah, got you, haha, yes!"	161	NA	NA	NA	NA	NA	5
+2020-09-30 12:09:57	"teacher008"	"teacher"	164	"Does <STUDENT'S HUSBAND> like Star Wars?"	"Does <STUDENT'S HUSBAND> like Star Wars?"	NA	"3f"	"topic development"	NA	NA	NA	6
+2020-09-30 12:10:34	"student011"	"student"	165	"no! And because of it I married him )))))"	"no! And because of it I married him )))))"	NA	NA	NA	NA	NA	NA	9
+2020-09-30 12:10:44	"student011"	"student"	166	"it's a joke )"	"it's a joke )"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:11:01	"teacher008"	"teacher"	167	"))))))))"	"))))))))"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 12:11:21	"teacher008"	"teacher"	168	"Oh no, there's a lot of Star Wars talk in this house"	"Oh no, there's a lot of Star Wars talk in this house"	NA	NA	NA	NA	NA	NA	12
+2020-09-30 12:11:26	"teacher008"	"teacher"	169	"and Star Wars Lego!"	"and Star Wars Lego!"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:11:37	"student011"	"student"	170	"But he loves lego )))))"	"But he loves Lego )))))"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 12:11:42	"teacher008"	"teacher"	172	"I remember)"	"I remember)"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 12:12:03	"student011"	"student"	173	"Lego is nice I think )"	"Lego is nice I think )"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:12:11	"student011"	"student"	174	"I like it )"	"I like it )"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:12:19	"teacher008"	"teacher"	175	"it's lovely! unless you step on it barefoot"	"it's lovely! unless you step on it barefoot"	NA	NA	NA	NA	NA	NA	8
+2020-09-30 12:12:35	"student011"	"student"	176	"sure )"	"sure )"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 12:12:56	"teacher008"	"teacher"	177	"So, something I've dying to talk to you about! Food!"	"So, something I've dying to talk to you about! Food!"	NA	"4.0"	"topic opening"	NA	NA	NA	10
+2020-09-30 12:13:12	"teacher008"	"teacher"	178	"Do you know that Ukrainian food is becoming really popular in the UK?"	"Do you know that Ukrainian food is becoming really popular in the UK?"	NA	NA	NA	NA	NA	NA	13
+2020-09-30 12:13:20	"student011"	"student"	179	"But now we have lots of lego Duplo, it's not so harmful"	"But now we have lots of lego Duplo, it's not so harmful"	176	NA	NA	NA	NA	NA	12
+2020-09-30 12:13:33	"teacher008"	"teacher"	180	"Duplo is great, I bet <STUDENT'S CHILD> loves it!"	"Duplo is great, I bet <STUDENT'S CHILD> loves it!"	NA	NA	NA	NA	NA	NA	9
+2020-09-30 12:13:43	"student011"	"student"	181	"no, I don't! Borshch??"	"no, I don't! Borshch??"	178	NA	NA	NA	NA	NA	4
+2020-09-30 12:13:44	"teacher008"	"teacher"	182	"*I've been dying"	"*I've been dying"	177	NA	"repair"	"grammatical resource"	NA	NA	3
+2020-09-30 12:14:09	"teacher008"	"teacher"	183	"Borshch too! There is this Ukrainian chef who lives in London"	"Borshch too! There is this Ukrainian chef who lives in London"	181	NA	NA	NA	NA	NA	11
+2020-09-30 12:14:25	"teacher008"	"teacher"	184	"She's written a few cookery books and has an Instagram account"	"She's written a few cookery books and has an Instagram account"	NA	NA	NA	NA	NA	NA	11
+2020-09-30 12:14:31	"student011"	"student"	185	"noooo, I don't know/ Who is this man??"	"noooo, I don't know/ Who is this man??"	183	NA	NA	NA	NA	NA	8
+2020-09-30 12:14:39	"student011"	"student"	186	"she!"	"she!"	184	NA	NA	NA	NA	NA	1
+2020-09-30 12:14:41	"teacher008"	"teacher"	187	"And writes for lots of English cooking columns in magazine"	"And writes for lots of English cooking columns in magazine"	184	NA	NA	NA	NA	NA	10
+2020-09-30 12:14:50	"teacher008"	"teacher"	188	"She! Olia Hercules"	"She! Olia Hercules"	186	NA	NA	NA	NA	NA	3
+2020-09-30 12:14:55	"teacher008"	"teacher"	189	"@oliahercules"	"@oliahercules"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 12:15:01	"teacher008"	"teacher"	190	"She is amazing!"	"She is amazing!"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 12:15:04	"student011"	"student"	191	"wow! I'm impressed!"	"wow! I'm impressed!"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 12:15:13	"teacher008"	"teacher"	192	"Me too! I'm in love with her!"	"Me too! I'm in love with her!"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 12:15:19	"student011"	"student"	193	"I will search her!"	"I will search her!"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:15:21	"teacher008"	"teacher"	194	"She is from Kakhovka"	"She is from Kakhovka"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:15:26	"teacher008"	"teacher"	195	"Definitely"	"Definitely"	193	NA	NA	NA	NA	NA	1
+2020-09-30 12:15:33	"teacher008"	"teacher"	196	"So nearly Crimea))"	"So nearly Crimea))"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 12:15:38	"student011"	"student"	197	"She is living in London now?"	"Is she living in London now?"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:15:48	"teacher008"	"teacher"	198	"And she writes so beautifully about Ukrainian cooking!"	"And she writes so beautifully about Ukrainian cooking!"	196	NA	NA	NA	NA	NA	8
+2020-09-30 12:15:51	"teacher008"	"teacher"	199	"Yes"	"Yes"	197	NA	NA	NA	NA	NA	1
+2020-09-30 12:15:57	"student011"	"student"	200	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 12:15:58	"teacher008"	"teacher"	201	"She trained as a chef in one of the best schools"	"She trained as a chef in one of the best schools"	NA	NA	NA	NA	NA	NA	11
+2020-09-30 12:16:17	"teacher008"	"teacher"	202	"and worked with Yottam Ottolenghi, a famous UK restaurateur"	"and worked with Yottam Ottolenghi, a famous UK restaurateur"	NA	NA	NA	NA	NA	NA	9
+2020-09-30 12:16:20	"student011"	"student"	203	"And which recipes are more popular there?"	"And which recipes are more popular there?"	NA	"4a"	"topic development"	NA	NA	NA	7
+2020-09-30 12:16:28	"teacher008"	"teacher"	204	"But then she went back to Ukrainian food"	"But then she went back to Ukrainian food"	202	NA	NA	NA	NA	NA	8
+2020-09-30 12:16:52	"teacher008"	"teacher"	205	"Well, she's published this new book called Summer Kitchens"	"Well, she's published this new book called Summer Kitchens"	203	NA	NA	NA	NA	NA	9
+2020-09-30 12:17:02	"student011"	"student"	206	"Yottam Ottolenghi, I heart about him"	"Yotam Ottolenghi, I heard about him"	202	NA	NA	NA	NA	NA	6
+2020-09-30 12:17:09	"teacher008"	"teacher"	207	"Yes, I bet you did!"	"Yes, I bet you did!"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 12:17:48	"teacher008"	"teacher"	208	"Summer Kitchens is all about Ukrainian summer fruite and vegetables and all the great stuff like courgette caviar)) and vareniki and the pies"	"Summer Kitchens is all about Ukrainian summer fruite and vegetables and all the great stuff like courgette caviar)) and vareniki and the pies"	205	NA	NA	NA	NA	NA	23
+2020-09-30 12:18:03	"student011"	"student"	209	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 12:18:04	"teacher008"	"teacher"	210	"And what's really becoming popular here is Ukrainian pickling"	"And what's really becoming popular here is Ukrainian pickling"	NA	"4b"	"topic development"	NA	NA	NA	9
+2020-09-30 12:18:07	"student011"	"student"	211	"pies?"	"pies?"	208	NA	NA	NA	NA	NA	1
+2020-09-30 12:18:18	"teacher008"	"teacher"	212	"Yes, like fruit pies and cakes"	"Yes, like fruit pies and cakes"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:18:32	"teacher008"	"teacher"	213	"Oh, that honey cake I made at the weeked was from her book!"	"Oh, that honey cake I made at the weeked was from her book!"	NA	NA	NA	NA	NA	NA	13
+2020-09-30 12:18:49	"teacher008"	"teacher"	214	"But I couldn't tell you because I was saving it for the class))"	"But I couldn't tell you because I was saving it for the class))"	NA	NA	NA	NA	NA	NA	13
+2020-09-30 12:18:50	"student011"	"student"	215	"It's interesting/ I thought that foreigners don't like pickled vegetables )"	"It's interesting/ I thought that foreigners don't like pickled vegetables )"	210	NA	NA	NA	NA	NA	11
+2020-09-30 12:19:16	"student011"	"student"	216	"haha ))"	"haha ))"	214	NA	NA	NA	NA	NA	2
+2020-09-30 12:19:20	"teacher008"	"teacher"	217	"But fermented foods especially enjoy a lot of interest"	"But fermented foods especially enjoy a lot of interest"	212	NA	NA	NA	NA	NA	9
+2020-09-30 12:19:31	"teacher008"	"teacher"	218	"You know 'fermented'?"	"You know 'fermented'?"	NA	"4c"	"eliciting"	"lexical resource,meaning"	NA	NA	3
+2020-09-30 12:19:40	"teacher008"	"teacher"	219	"Like sauerkraut"	"Like sauerkraut"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	2
+2020-09-30 12:20:23	"teacher008"	"teacher"	220	"Yes, a lot of foreigners still don't like them, but I think they are developing a taste for them!"	"Yes, a lot of foreigners still don't like them, but I think they are developing a taste for them!"	215	NA	NA	NA	NA	NA	19
+2020-09-30 12:20:28	"student011"	"student"	221	"fermented - like cabbage"	"fermented - like cabbage"	218	NA	NA	NA	NA	NA	4
+2020-09-30 12:20:33	"teacher008"	"teacher"	222	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 12:20:46	"teacher008"	"teacher"	223	"when cabbage is shredded and fermented, it's called 'sauerkraut'"	"when cabbage is shredded and fermented, it's called 'sauerkraut'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2020-09-30 12:20:56	"teacher008"	"teacher"	224	"which is German for 'sour cabbage'"	"which is German for 'sour cabbage'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2020-09-30 12:21:01	"student011"	"student"	225	"But I thought that pickled is not fermented"	"But I thought that pickled is not fermented"	NA	"4d"	"enquiry"	"lexical resource,meaning"	NA	NA	8
+2020-09-30 12:21:21	"teacher008"	"teacher"	226	"It depends I think. If it's pickled with vinegar, it's one thing"	"It depends I think. If it's pickled with vinegar, it's one thing"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-09-30 12:21:29	"student011"	"student"	227	"Ah, I see! Sauerkraut!"	"Ah, I see! Sauerkraut!"	224	NA	NA	NA	NA	NA	4
+2020-09-30 12:21:44	"student011"	"student"	228	"yes, I mean vinegar"	"yes, I mean vinegar"	226	NA	NA	NA	NA	NA	4
+2020-09-30 12:21:45	"teacher008"	"teacher"	229	"But if it's just some salty water and time"	"But if it's just some salty water and time"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2020-09-30 12:21:49	"teacher008"	"teacher"	230	"it's fermented"	"it's fermented"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	2
+2020-09-30 12:21:55	"student011"	"student"	231	"I think it's not too healthy"	"I think it's not too healthy"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:22:09	"teacher008"	"teacher"	232	"It's actually now believed to be healthy"	"It's actually now believed to be healthy"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 12:22:09	"student011"	"student"	233	"But fermented food is really fine"	"But fermented food is really fine"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:22:31	"teacher008"	"teacher"	234	"it's really nice, you mean?"	"it's really nice, you mean?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	5
+2020-09-30 12:22:53	"student011"	"student"	235	"fine with a health I mean"	"fine from the health point of view I mean"	NA	NA	"clarification"	NA	NA	NA	6
+2020-09-30 12:23:00	"teacher008"	"teacher"	236	"Lots of people are getting into kefir here))"	"Lots of people are getting into kefir here))"	232	NA	NA	NA	NA	NA	8
+2020-09-30 12:23:05	"student011"	"student"	237	"Is it ok to say like that?"	"Is it ok to say it like that?"	235	"4e"	"enquiry"	"lexical resource"	NA	NA	7
+2020-09-30 12:23:29	"teacher008"	"teacher"	238	"You would say, 'it's fine from the health point of view'"	"You would say, 'it's fine from the health point of view'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-09-30 12:23:37	"teacher008"	"teacher"	239	"or just 'it's healthy'"	"or just 'it's healthy'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-09-30 12:23:42	"teacher008"	"teacher"	240	"it's a healthy food"	"it's a healthy food"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-09-30 12:23:48	"student011"	"student"	241	"I was surprise last autumn in Italy. Thay have kefir now =in the supermarkets too"	"I was surprised last autumn in Italy. They have kefir now - in supermarkets too"	236	NA	NA	NA	NA	NA	15
+2020-09-30 12:24:15	"teacher008"	"teacher"	242	"Yes! It's ridiculously expensive))"	"Yes! It's ridiculously expensive))"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:24:16	"student011"	"student"	243	"Ok. THank you!!"	"Ok. Thank you!!"	240	NA	NA	NA	NA	NA	3
+2020-09-30 12:24:24	"student011"	"student"	244	"Really?"	"Really?"	242	NA	NA	NA	NA	NA	1
+2020-09-30 12:24:28	"teacher008"	"teacher"	245	"People buy kefir grains on the Internet and make their own"	"People buy kefir grains on the Internet and make their own"	NA	NA	NA	NA	NA	NA	11
+2020-09-30 12:24:38	"teacher008"	"teacher"	246	"Well, it's more expensive than yoghurt"	"Well, it's more expensive than yoghurt"	244	NA	NA	NA	NA	NA	6
+2020-09-30 12:24:48	"student011"	"student"	247	"It's clever, I think )"	"It's clever, I think )"	245	NA	NA	NA	NA	NA	5
+2020-09-30 12:24:59	"teacher008"	"teacher"	248	"And another trendy thing is kombucha"	"And another trendy thing is kombucha"	NA	"4f"	"topic development"	NA	NA	NA	6
+2020-09-30 12:25:04	"teacher008"	"teacher"	249	"Do you know kombucha?"	"Do you know kombucha?"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:25:10	"student011"	"student"	250	"Oh! Here too!"	"Oh! Here too!"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 12:25:19	"teacher008"	"teacher"	251	"Really?"	"Really?"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 12:25:25	"student011"	"student"	252	"All hipsters drink kombucha )"	"All hipsters drink kombucha )"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 12:25:39	"student011"	"student"	253	"And <STUDENT'S HUSBAND> laughs"	"And <STUDENT'S HUSBAND> laughs"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:25:44	"teacher008"	"teacher"	254	"When I was small, my mum had this kombucha thing living in a 3-litre jar"	"When I was small, my mum had this kombucha thing living in a 3-litre jar"	NA	NA	NA	NA	NA	NA	15
+2020-09-30 12:25:51	"teacher008"	"teacher"	255	"it was called 'grib')))"	"it was called 'grib')))"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	4
+2020-09-30 12:25:58	"teacher008"	"teacher"	256	"and we drank it all the time"	"and we drank it all the time"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 12:26:19	"student011"	"student"	257	"Because he had this 'chainiy greeb'at home when he was a child ))"	"Because he had this 'chainiy greeb'at home when he was a child ))"	253	NA	"non-English"	"code switching,lexical resource"	NA	NA	13
+2020-09-30 12:26:22	"teacher008"	"teacher"	258	"But no one knew the word 'kombucha'"	"But no one knew the word 'kombucha'"	256	NA	NA	NA	NA	NA	7
+2020-09-30 12:26:39	"teacher008"	"teacher"	259	"Exactly! chainy grib))))))"	"Exactly! chainy grib))))))"	257	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+2020-09-30 12:26:59	"teacher008"	"teacher"	260	"We drank kombucha before it was cool))"	"We drank kombucha before it was cool))"	NA	NA	NA	NA	NA	NA	7
+2020-09-30 12:27:10	"student011"	"student"	261	"I hadn't, but <STUDENT'S HUSBAND> had )) It's really funny ))"	"I didn't, but <STUDENT'S HUSBAND> did )) It's really funny ))"	257	NA	NA	NA	NA	NA	11
+2020-09-30 12:27:30	"student011"	"student"	262	"Before it's become mainstream ))"	"Before it's become mainstream ))"	262	NA	NA	NA	NA	NA	5
+2020-09-30 12:27:37	"teacher008"	"teacher"	263	"It's also a fermented product"	"It's also a fermented product"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 12:27:43	"teacher008"	"teacher"	264	"exactly)))"	"exactly)))"	262	NA	NA	NA	NA	NA	1
+2020-09-30 12:27:44	"student011"	"student"	265	"sure"	"sure"	263	NA	NA	NA	NA	NA	1
+2020-09-30 12:28:12	"teacher008"	"teacher"	266	"and of course this kombucha mushroom grows, and people just shared it with neighbours and friends))"	"and of course this kombucha mushroom grows, and people just shared it with neighbours and friends))"	NA	NA	NA	NA	NA	NA	16
+2020-09-30 12:28:15	"student011"	"student"	267	"and you know spelt?"	"and you know spelt?"	NA	"4g"	"topic development"	NA	NA	NA	4
+2020-09-30 12:28:24	"teacher008"	"teacher"	268	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-09-30 12:28:38	"student011"	"student"	269	"It's very healthy too now ))"	"It's very healthy too now ))"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:28:46	"teacher008"	"teacher"	270	"Well, I know spelt grain and spelt flour here"	"Well, I know spelt grain and spelt flour here"	NA	NA	NA	NA	NA	NA	9
+2020-09-30 12:28:53	"student011"	"student"	271	"But it's polka from Pushkins poem )"	"But it's polba from Pushkin's poem )"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	7
+2020-09-30 12:28:57	"student011"	"student"	272	"polba"	"polba"	NA	NA	"repair,non-English"	"writing,code switching"	NA	NA	1
+2020-09-30 12:28:58	"teacher008"	"teacher"	273	"Is it also something we all know?"	"Is it also something we all know?"	270	NA	NA	NA	NA	NA	7
+2020-09-30 12:29:05	"teacher008"	"teacher"	274	"aaaaah, I didn't know that!"	"aaaaah, I didn't know that!"	272	NA	NA	NA	NA	NA	5
+2020-09-30 12:29:14	"teacher008"	"teacher"	275	"Yep, from Balda))"	"Yep, from Balda))"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 12:29:17	"student011"	"student"	276	"it's polka, Yeah )"	"it's polba, Yeah )"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	4
+2020-09-30 12:29:31	"student011"	"student"	277	"sorry, polba )"	"sorry, polba )"	NA	NA	"repair,non-English"	"writing,code switching"	NA	NA	3
+2020-09-30 12:29:40	"teacher008"	"teacher"	278	"yes, got you)"	"yes, got you)"	NA	NA	NA	NA	NA	NA	3
+2020-09-30 12:29:40	"student011"	"student"	279	"from Balda, yes )))"	"from Balda, yes )))"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:30:32	"teacher008"	"teacher"	280	"Ah, I've got to let you go! It went fast! We'll read an interview with Olia next time, but if you are curious, do look her up! she is great and I love that she promotes Ukrainian culture here))"	"Ah, I've got to let you go! It went fast! We'll read an interview with Olia next time, but if you are curious, do look her up! she is great and I love that she promotes Ukrainian culture here))"	NA	"5.0"	"closing,homework"	NA	NA	NA	39
+2020-09-30 12:30:34	"student011"	"student"	281	"spelt it's just some old sort of wheat"	"spelt is just some old sort of wheat"	279	NA	NA	NA	NA	NA	8
+2020-09-30 12:31:00	"student011"	"student"	282	"I will!"	"I will!"	280	NA	NA	NA	NA	NA	2
+2020-09-30 12:31:21	"student011"	"student"	283	"I'm impressed!"	"I'm impressed!"	NA	NA	NA	NA	NA	NA	2
+2020-09-30 12:31:31	"teacher008"	"teacher"	285	"Oh, she is so cool!"	"Oh, she is so cool!"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 12:31:33	"student011"	"student"	286	"Thank you for or conversation"	"Thank you for our conversation"	NA	NA	NA	NA	NA	NA	5
+2020-09-30 12:31:44	"teacher008"	"teacher"	287	"It's my pleasure :)"	"It's my pleasure :)"	NA	NA	NA	NA	NA	NA	4
+2020-09-30 12:31:55	"student011"	"student"	288	"Time flies when we talk )"	"Time flies when we talk )"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:32:11	"teacher008"	"teacher"	289	"It certainly does! Take care, bye!"	"It certainly does! Take care, bye!"	NA	NA	NA	NA	NA	NA	6
+2020-09-30 12:32:17	"student011"	"student"	290	"see you! And thank you!"	"see you! And thank you!"	NA	NA	NA	NA	NA	"B2"	5

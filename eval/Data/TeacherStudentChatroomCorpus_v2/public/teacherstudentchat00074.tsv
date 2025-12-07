@@ -1,0 +1,153 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-04-14 13:01:29	"teacher001"	"teacher"	1	"Hey there <STUDENT>..."	"Hey there <STUDENT>..."	NA	"1.0"	"opening"	NA	NA	NA	3
+2020-04-14 13:01:36	"student004"	"student"	2	"Hi <TEACHER>"	"Hi <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 13:01:56	"student004"	"student"	3	"How are you doing?"	"How are you doing?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-04-14 13:02:28	"teacher001"	"teacher"	4	"Yeah i'm good thanks....still deep into lockdown..."	"Yeah i'm good thanks....still deep into lockdown..."	NA	NA	NA	NA	NA	NA	7
+2020-04-14 13:03:00	"teacher001"	"teacher"	5	"how about you?"	"how about you?"	NA	"2a"	"topic development"	NA	NA	NA	3
+2020-04-14 13:03:01	"student004"	"student"	6	"Here the same, it seems it'll get till May :("	"Here the same, it seems it'll last until May :("	4	NA	NA	NA	NA	NA	10
+2020-04-14 13:03:37	"teacher001"	"teacher"	7	"yes i see...another few weeks then...last/go on until May"	"yes i see...another few weeks then...last/go on until May"	NA	NA	"repair"	"lexical resource"	NA	NA	9
+2020-04-14 13:03:52	"student004"	"student"	8	"I'm alright. A bit stressed at the moment. The online version of the training course is a chaos"	"I'm alright. A bit stressed at the moment. The online version of the training course is chaos"	5	NA	NA	NA	NA	NA	18
+2020-04-14 13:03:55	"teacher001"	"teacher"	9	"But the light's at the end of the tunnel right?"	"But the light's at the end of the tunnel right?"	NA	NA	NA	NA	NA	NA	10
+2020-04-14 13:04:22	"student004"	"student"	10	"I don't see much light at the moment to be hones hah"	"I don't see much light at the moment to be honest hah"	NA	NA	NA	NA	NA	NA	12
+2020-04-14 13:04:27	"student004"	"student"	11	"honest"	"honest"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-04-14 13:04:33	"teacher001"	"teacher"	12	"Ah right - yes ... doing everything online is ok in theory maybe but in practice..."	"Ah right - yes ... doing everything online is ok in theory maybe but in practice..."	NA	"2b"	"topic development"	NA	NA	NA	16
+2020-04-14 13:05:01	"teacher001"	"teacher"	13	"the course is chaotic/a mess/a disaster etc"	"the course is chaotic/a mess/a disaster etc"	8	"2c"	"repair,scaffolding"	"lexical resource"	NA	NA	7
+2020-04-14 13:05:21	"student004"	"student"	14	"ok thank you"	"ok thank you"	NA	NA	NA	NA	NA	NA	3
+2020-04-14 13:05:42	"teacher001"	"teacher"	15	"is it live on Zoom or something?"	"is it live on Zoom or something?"	12	NA	NA	NA	NA	NA	7
+2020-04-14 13:06:23	"student004"	"student"	16	"yes, we meet everyday at 9 on Zoom and we are there listening to our teacher until 2pm"	"yes, we meet every day at 9 on Zoom and we are there listening to our teacher until 2pm"	NA	NA	NA	NA	NA	NA	18
+2020-04-14 13:06:49	"student004"	"student"	17	"and after that we have to do a lot of exercises... so a lot of work"	"and after that we have to do a lot of exercises... so a lot of work"	NA	NA	NA	NA	NA	NA	16
+2020-04-14 13:07:00	"teacher001"	"teacher"	18	"Wow..a long time (and mostly the teacher talking?)"	"Wow..a long time (and mostly the teacher talking?)"	NA	"2d"	"topic development"	NA	NA	NA	8
+2020-04-14 13:07:07	"student004"	"student"	19	"far more than when we went to classes"	"far more than when we went to classes"	17	NA	NA	NA	NA	NA	8
+2020-04-14 13:07:21	"teacher001"	"teacher"	20	"yes i see - far from ideal"	"yes i see - far from ideal"	NA	NA	NA	NA	NA	NA	7
+2020-04-14 13:07:53	"student004"	"student"	21	"Teacher talking and students (we're 20 people) asking or interrupting.... it didn't happen before"	"Teacher talking and students (we're 20 people) asking or interrupting.... it didn't happen before"	18	NA	NA	NA	NA	NA	14
+2020-04-14 13:08:25	"student004"	"student"	22	"Maybe it's just the beginning and i'll get better (I hope so)"	"Maybe it's just the beginning and it'll get better (I hope so)"	NA	NA	NA	NA	NA	NA	12
+2020-04-14 13:08:33	"teacher001"	"teacher"	23	"Yes i see- it's tricky to manage the turn-taking  - does the teacher use breakout rooms?"	"Yes i see- it's tricky to manage the turn-taking  - does the teacher use breakout rooms?"	NA	"2e"	"topic development"	NA	NA	NA	17
+2020-04-14 13:08:51	"student004"	"student"	24	"Can I ask you a few things I'm not sure about?"	"Can I ask you a few things I'm not sure about?"	NA	"3.0"	"topic opening"	NA	NA	NA	11
+2020-04-14 13:08:56	"teacher001"	"teacher"	25	"Yes sure..."	"Yes sure..."	NA	NA	NA	NA	NA	NA	2
+2020-04-14 13:09:30	"student004"	"student"	26	"ohh sorry, I didn't see your question... What are breakout rooms?"	"ohh sorry, I didn't see your question... What are breakout rooms?"	23	NA	"enquiry"	"lexical resource,meaning,world knowledge"	NA	NA	11
+2020-04-14 13:10:23	"teacher001"	"teacher"	27	"Ah ...well I've just realised I think they're only available on the Zoom 'Pro' account"	"Ah ...well I've just realised I think they're only available on the Zoom 'Pro' account"	NA	NA	"scaffolding"	"lexical resource,meaning,world knowledge"	NA	NA	15
+2020-04-14 13:10:28	"teacher001"	"teacher"	28	"But"	"But"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:10:50	"student004"	"student"	29	"I see... no we don't have Pro account"	"I see... no we don't have a Pro account"	27	NA	NA	NA	NA	NA	8
+2020-04-14 13:10:56	"teacher001"	"teacher"	30	"they allow you to give people (students) time to work together in separate 'rooms'"	"they allow you to give people (students) time to work together in separate 'rooms'"	28	NA	"scaffolding"	"lexical resource,meaning,world knowledge"	NA	NA	14
+2020-04-14 13:11:12	"teacher001"	"teacher"	31	"the host can enter each room when they like"	"the host can enter each room when they like"	NA	NA	"scaffolding"	"lexical resource,meaning,world knowledge"	NA	NA	9
+2020-04-14 13:11:14	"student004"	"student"	32	"I see, that would be great"	"I see, that would be great"	NA	NA	NA	NA	NA	NA	6
+2020-04-14 13:11:31	"teacher001"	"teacher"	33	"yes it's very effective (i was doing lessons on Zoom for a bit)"	"yes it's very effective (i was doing lessons on Zoom for a bit)"	NA	NA	NA	NA	NA	NA	13
+2020-04-14 13:11:32	"student004"	"student"	34	"no, we all work at the same time so"	"no, we all work at the same time so"	NA	NA	NA	NA	NA	NA	9
+2020-04-14 13:12:33	"student004"	"student"	35	"Well, I'm not sure about the use of 'I' or 'me' in sentences like"	"Well, I'm not sure about the use of 'I' or 'me' in sentences like"	25	NA	"enquiry"	"grammatical resource"	NA	NA	14
+2020-04-14 13:12:45	"teacher001"	"teacher"	36	"Do they use any other functions to allow/control participation? e.g. chatbox/take control of the screen function/whiteboard/screenshare (even?)/ sharing files?"	"Do they use any other functions to allow/control participation? e.g. chatbox/take control of the screen function/whiteboard/screenshare (even?)/ sharing files?"	NA	"2f"	"topic development"	NA	NA	NA	19
+2020-04-14 13:12:54	"teacher001"	"teacher"	37	"Sorry go on..."	"Sorry go on..."	35	NA	NA	NA	NA	NA	3
+2020-04-14 13:14:13	"student004"	"student"	38	"Maria and I went to the park', 'Maria and me....',  'She and me...' , 'she and I...'"	"Maria and I went to the park', 'Maria and me....',  'She and me...' , 'she and I...'"	NA	NA	NA	NA	NA	NA	18
+2020-04-14 13:16:18	"student004"	"student"	39	"My question is about when we use in these type of sentences 'me' or 'I'?"	"My question is about when we use 'me' or 'I' in this type of sentences?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	15
+2020-04-14 13:16:43	"teacher001"	"teacher"	40	"OK so ... basically in normal everyday speaking we often say ... me and Maria/Maria and me = common"	"OK so ... basically in normal everyday speaking we often say ... me and Maria/Maria and me = common"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	19
+2020-04-14 13:17:23	"teacher001"	"teacher"	41	"MAria and I' = more careful and some people feel this is the 'correct' way .... in writing you;d usually  see thi sform"	"MAria and I' = more careful and some people feel this is the 'correct' way .... in writing you;d usually  see thi sform"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	24
+2020-04-14 13:18:17	"student004"	"student"	42	"Then both are correct?"	"Then both are correct?"	NA	"3a"	"enquiry"	"grammatical resource"	NA	NA	4
+2020-04-14 13:19:30	"teacher001"	"teacher"	43	"In a test or if you want to copy a more careful (pedantic?!) native speaker then e.g. my friend and i = the correct option"	"In a test or if you want to copy a more careful (pedantic?!) native speaker then e.g. my friend and i = the correct option"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	25
+2020-04-14 13:20:17	"teacher001"	"teacher"	44	"YOu will here tens of millions of people say the other way too (including me) so in this sense it is correct too yes"	"YOu will here tens of millions of people say the other way too (including me) so in this sense it is correct too yes"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	24
+2020-04-14 13:20:27	"student004"	"student"	45	"Great, clear now... I thought that one was wrong... I was concern about using it wrongly"	"Great, clear now... I thought that one was wrong... I was concerned about using it wrongly"	NA	NA	NA	NA	NA	NA	16
+2020-04-14 13:21:03	"teacher001"	"teacher"	46	"Yes I understand ... they are both absolutely correct in the sense of common use ...but yes one is more informal than the other"	"Yes I understand ... they are both absolutely correct in the sense of common use ...but yes one is more informal than the other"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	24
+2020-04-14 13:21:19	"student004"	"student"	47	"Actually we generally hear 'you and me...'"	"Actually we generally hear 'you and me...'"	NA	"3b"	NA	NA	NA	NA	7
+2020-04-14 13:21:35	"student004"	"student"	48	"You and I...' sounds weird, doesn't it?"	"You and I...' sounds weird, doesn't it?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	7
+2020-04-14 13:21:41	"teacher001"	"teacher"	49	"and SOME people would never say 'me and my friend...'"	"and SOME people would never say 'me and my friend...'"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	10
+2020-04-14 13:22:01	"teacher001"	"teacher"	50	"yes much less common"	"yes much less common"	48	NA	NA	NA	NA	NA	4
+2020-04-14 13:22:42	"student004"	"student"	51	"what about 'you and Maria are good friends'?"	"what about 'you and Maria are good friends'?"	NA	"3c"	"enquiry"	"grammatical resource"	NA	NA	8
+2020-04-14 13:23:06	"student004"	"student"	52	"You and she/her are good friends??"	"You and she/her are good friends??"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	6
+2020-04-14 13:23:26	"teacher001"	"teacher"	53	"OK hold on...let me clear my head!"	"OK hold on...let me clear my head!"	NA	NA	NA	NA	NA	NA	7
+2020-04-14 13:24:39	"teacher001"	"teacher"	54	"so you and maria sounds fine"	"so you and maria sounds fine"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-04-14 13:26:01	"teacher001"	"teacher"	55	"you and he are good friends = sounds better than you and him (it;s the nominative form)"	"you and he are good friends = sounds better than you and him (it;s the nominative form)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2020-04-14 13:26:56	"teacher001"	"teacher"	56	"more correct yes BUT you will hear people say 'you and him for the subject as in 'you and him can go' but less 'correct''"	"more correct yes BUT you will hear people say 'you and him for the subject as in 'you and him can go' but less 'correct''"	NA	NA	"scaffolding"	"grammatical resource,register"	NA	NA	25
+2020-04-14 13:27:04	"student004"	"student"	57	"I see... In Spanish it is a very common structure, maybe not so common in English?"	"I see... In Spanish it is a very common structure, maybe not so common in English?"	NA	"3d"	"enquiry"	"grammatical resource"	NA	NA	16
+2020-04-14 13:27:35	"teacher001"	"teacher"	58	"Yes i think that's right - that's why even though it seems such a simple phrase it's doesn't come easily to me..."	"Yes i think that's right - that's why even though it seems such a simple phrase it's doesn't come easily to me..."	NA	NA	NA	NA	NA	NA	22
+2020-04-14 13:28:06	"student004"	"student"	59	"Yes, that's what I thought"	"Yes, that's what I thought"	NA	NA	NA	NA	NA	NA	5
+2020-04-14 13:28:26	"teacher001"	"teacher"	60	"Hold on ..give me a quick everyday example sentence (transalated from Spanish) if you can..."	"Hold on ..give me a quick everyday example sentence (transalated from Spanish) if you can..."	NA	"3e"	"eliciting"	"grammatical resource"	NA	NA	15
+2020-04-14 13:29:47	"student004"	"student"	61	"Imaging a situation in a classroom. Students have to work in pairs and you say: 'Marian and Pablo will work together'"	"Imaging a situation in the classroom. Students have to work in pairs and you say: 'Marian and Pablo will work together'"	NA	NA	NA	NA	NA	NA	21
+2020-04-14 13:30:22	"student004"	"student"	62	"Now the same without their names 'she and he (you pointing at them) will work together??"	"Now the same without their names 'she and he (you pointing at them) will work together??"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	16
+2020-04-14 13:30:41	"teacher001"	"teacher"	63	"yes i see ... aahhhh"	"yes i see ... aahhhh"	NA	NA	NA	NA	NA	NA	5
+2020-04-14 13:30:43	"student004"	"student"	64	"or she and him??"	"or she and him??"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	4
+2020-04-14 13:31:22	"student004"	"student"	65	"maybe you just say 'you two will work together' (pointing at them)"	"maybe you just say 'you two will work together' (pointing at them)"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	12
+2020-04-14 13:31:49	"teacher001"	"teacher"	66	"she and he would be correct yes but just sounds weird because you'd say 'they'"	"she and he would be correct yes but just sounds weird because you'd say 'they'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-04-14 13:31:56	"teacher001"	"teacher"	67	"!!"	"!!"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:32:21	"student004"	"student"	68	"I see, so let's forget about it... I was translating from Spanish"	"I see, so let's forget about it... I was translating from Spanish"	NA	"3f"	NA	NA	NA	NA	12
+2020-04-14 13:32:24	"student004"	"student"	69	"Sorry!!!"	"Sorry!!!"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:33:00	"teacher001"	"teacher"	70	"no that's OK - it's a fair question...just frustrating somehow"	"no that's OK - it's a fair question...just frustrating somehow"	NA	NA	NA	NA	NA	NA	10
+2020-04-14 13:33:41	"teacher001"	"teacher"	71	"and sorry yes...looking back ...exactly yes 'you two' = again the normal way"	"and sorry yes...looking back ...exactly yes 'you two' = again the normal way"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	13
+2020-04-14 13:33:46	"student004"	"student"	72	"No frustration! I got it :)"	"No frustration! I got it :)"	70	NA	NA	NA	NA	NA	6
+2020-04-14 13:34:18	"student004"	"student"	73	"And another much easier question!!"	"And another much easier question!!"	NA	"4.0"	NA	NA	NA	NA	5
+2020-04-14 13:34:23	"teacher001"	"teacher"	74	"OK..."	"OK..."	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:35:26	"student004"	"student"	75	"Last day (or the last day??) we talk, when we said good by to each other you said 'have a good one'"	"The last time (or the last day??) we talked, when we said good bye to each other you said 'have a good one'"	NA	NA	"enquiry"	"lexical resource"	NA	NA	22
+2020-04-14 13:35:49	"student004"	"student"	76	"what does that sentence mean? Have a good day?"	"what does that sentence mean? Have a good day?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	9
+2020-04-14 13:37:43	"teacher001"	"teacher"	77	"The last time we talked/when we talked the other day......and yes...have a good day is the origin i guess..but we kind of use it indiscriminately to mean e.g. weekend or whatever OR just see you later alternative! informal but normal for many people"	"The last time we talked/when we talked the other day......and yes...have a good day is the origin i guess..but we kind of use it indiscriminately to mean e.g. weekend or whatever OR just see you later alternative! informal but normal for many people"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	43
+2020-04-14 13:38:43	"teacher001"	"teacher"	78	"sorry i'm using such lazy writing there! (ellipsis etc)"	"sorry i'm using such lazy writing there! (ellipsis etc)"	NA	"4a"	NA	NA	NA	NA	9
+2020-04-14 13:38:45	"student004"	"student"	79	"I see, thanks"	"I see, thanks"	77	NA	NA	NA	NA	NA	3
+2020-04-14 13:38:58	"student004"	"student"	80	"no worries!!"	"no worries!!"	78	NA	NA	NA	NA	NA	2
+2020-04-14 13:39:27	"teacher001"	"teacher"	81	"Yes so many little phrases for hello/goodbye i guess! which ones did you pick up?"	"Yes so many little phrases for hello/goodbye i guess! which ones did you pick up?"	NA	"5.0"	"topic opening,eliciting"	"lexical resource"	NA	NA	15
+2020-04-14 13:39:56	"teacher001"	"teacher"	82	"I was always say 'hasta luego' i think in Spanish and never anything else!"	"I was always say 'hasta luego' i think in Spanish and never anything else!"	NA	NA	NA	NA	NA	NA	14
+2020-04-14 13:40:27	"teacher001"	"teacher"	83	"I don't know if that matters or not really!"	"I don't know if that matters or not really!"	NA	NA	NA	NA	NA	NA	9
+2020-04-14 13:40:38	"student004"	"student"	84	"Not many I think... For hello just hi or hello"	"Not many I think... For hello just hi or hello"	81	NA	NA	NA	NA	NA	10
+2020-04-14 13:41:28	"student004"	"student"	85	"and for goodbye see you, bye (never goodbye, I don't know why)"	"and for goodbye see you, bye (never goodbye, I don't know why)"	NA	NA	NA	NA	NA	NA	12
+2020-04-14 13:41:47	"teacher001"	"teacher"	86	"Yes sure well that's fine! 'alright?' is of course very common right?"	"Yes sure well that's fine! 'alright?' is of course very common right?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-04-14 13:41:54	"student004"	"student"	87	"some people say just 'later'?"	"some people say just 'later'?"	NA	"5a"	"enquiry"	"lexical resource"	NA	NA	5
+2020-04-14 13:42:52	"teacher001"	"teacher"	88	"um...'later' by itself is only used by some young people i would say....but possible yes (or 'laters' -= another form used by some young people....god this is making me feel old!)"	"um...'later' by itself is only used by some young people i would say....but possible yes (or 'laters' -= another form used by some young people....god this is making me feel old!)"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	31
+2020-04-14 13:43:11	"student004"	"student"	89	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:43:28	"teacher001"	"teacher"	90	"most common = seeya (as in pronounced like that i mean ...never see YOU if you see what i mean)"	"most common = seeya (as in pronounced like that i mean ...never see YOU if you see what i mean)"	NA	"5b"	"scaffolding"	"lexical resource,speaking"	NA	NA	20
+2020-04-14 13:43:29	"student004"	"student"	91	"and night for goodnight"	"and night for goodnight"	85	NA	NA	NA	NA	NA	4
+2020-04-14 13:44:14	"student004"	"student"	92	"no sorry, I don't understand the explanation of 'seeya'"	"no sorry, I don't understand the explanation of 'seeya'"	90	NA	NA	NA	NA	NA	9
+2020-04-14 13:44:18	"teacher001"	"teacher"	93	"Yes so your idea about 'goodbye' being unusual is correct  - 'bye' by itself = a thousand times more normal ...'goodbye' sounds very final/formal (weird!)"	"Yes so your idea about 'goodbye' being unusual is correct  - 'bye' by itself = a thousand times more normal ...'goodbye' sounds very final/formal (weird!)"	91	NA	"scaffolding"	"lexical resource,register"	NA	NA	26
+2020-04-14 13:45:26	"teacher001"	"teacher"	94	"So obviiously we say 'see you' and miss out the 'later ' at the end VERY often ...BUT many (most!) students pronounce the 'you' with a strong form of the vowel you know?"	"So obviiously we say 'see you' and miss out the 'later ' at the end VERY often ...BUT many (most!) students pronounce the 'you' with a strong form of the vowel you know?"	92	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	33
+2020-04-14 13:45:51	"student004"	"student"	95	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:45:56	"teacher001"	"teacher"	96	"BUt we use the weak form (the 'schwa' remember?) and it sounds weird otherwise"	"BUt we use the weak form (the 'schwa' remember?) and it sounds weird otherwise"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	14
+2020-04-14 13:46:12	"teacher001"	"teacher"	97	"so in writing this is represented as 'ya'"	"so in writing this is represented as 'ya'"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	8
+2020-04-14 13:46:22	"student004"	"student"	98	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:46:54	"teacher001"	"teacher"	99	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:47:22	"student004"	"student"	100	"question if we change the pronunciation the meaning changes?"	"question: if we change the pronunciation, does the meaning change?"	NA	"5c"	"enquiry"	"lexical resource,speaking,meaning"	NA	NA	9
+2020-04-14 13:47:50	"teacher001"	"teacher"	101	"Um...no sorry I didn't mean that ...hold on asec.."	"Um...no sorry I didn't mean that ...hold on asec.."	NA	NA	NA	NA	NA	NA	9
+2020-04-14 13:47:59	"student004"	"student"	102	"Ahhh okk"	"Ahhh ok"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 13:47:59	"student004"	"student"	103	"Ahhh okk"	"Ahhh ok"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 13:48:49	"teacher001"	"teacher"	104	"So non-native don't use weak forms very much it' s true and it basically doesn't matter that much really BUT we do yes and it can change the meaning"	"So non-native don't use weak forms very much it' s true and it basically doesn't matter that much really BUT we do yes and it can change the meaning"	NA	NA	"scaffolding"	"speaking"	NA	NA	29
+2020-04-14 13:49:28	"teacher001"	"teacher"	105	"But we understand that if you use them/don't use them it's not changing the meaning because you only have one form!"	"But we understand that if you use them/don't use them it's not changing the meaning because you only have one form!"	NA	NA	"scaffolding"	"speaking,meaning"	NA	NA	21
+2020-04-14 13:49:39	"teacher001"	"teacher"	106	"you see what  i mean?"	"you see what  i mean?"	NA	NA	NA	NA	NA	NA	6
+2020-04-14 13:49:48	"student004"	"student"	107	"Yes I see"	"Yes I see"	NA	NA	NA	NA	NA	NA	3
+2020-04-14 13:50:33	"student004"	"student"	108	"<TEACHER> : most common = seeya (as in pronounced like that i mean ...never see YOU if you see what i mean)"	"<TEACHER> : most common = seeya (as in pronounced like that i mean ...never see YOU if you see what i mean)"	NA	NA	NA	NA	NA	NA	22
+2020-04-14 13:50:48	"teacher001"	"teacher"	109	"OK! it's just taht for some reason the non-native failure to use the weak vowel in the phrase  'see ya' is particularly noticeable ... but it doesn't really matter!"	"OK! it's just taht for some reason the non-native failure to use the weak vowel in the phrase  'see ya' is particularly noticeable ... but it doesn't really matter!"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	30
+2020-04-14 13:51:01	"student004"	"student"	110	"I got the idea of a different meaning after reading that sentence I copied above"	"I got the idea of a different meaning after reading that sentence I copied above"	108	NA	NA	NA	NA	NA	15
+2020-04-14 13:51:46	"teacher001"	"teacher"	111	"Yes i see what you mean - tricky to talk about pronunciation issues in this format!"	"Yes i see what you mean - tricky to talk about pronunciation issues in this format!"	NA	"5d"	NA	NA	NA	NA	16
+2020-04-14 13:52:02	"teacher001"	"teacher"	112	"I do a lot of pronunciation normally in classes"	"I do a lot of pronunciation normally in classes"	NA	NA	NA	NA	NA	NA	9
+2020-04-14 13:52:07	"student004"	"student"	113	"sure, again we miss the audio!"	"sure, again we miss the audio!"	NA	NA	NA	NA	NA	NA	6
+2020-04-14 13:52:20	"teacher001"	"teacher"	114	"yes oh well"	"yes oh well"	NA	NA	NA	NA	NA	NA	3
+2020-04-14 13:52:45	"student004"	"student"	115	"Then, you suggest that I don't use 'see ya'"	"Then, you suggest that I don't use 'see ya'"	NA	"5e"	"enquiry"	"lexical resource"	NA	NA	9
+2020-04-14 13:52:50	"student004"	"student"	116	"??"	"??"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:53:06	"teacher001"	"teacher"	117	"Oh no - it's fine !"	"Oh no - it's fine !"	NA	NA	"clarification"	NA	NA	NA	6
+2020-04-14 13:53:16	"teacher001"	"teacher"	118	"Keep using it no problem!"	"Keep using it no problem!"	NA	NA	NA	NA	NA	NA	5
+2020-04-14 13:53:25	"student004"	"student"	119	"okkk"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:53:48	"teacher001"	"teacher"	120	"HAve you noticed people saying alright' for 'hello'  a lot?"	"HAve you noticed people saying alright' for 'hello'  a lot?"	NA	"5f"	"topic development,eliciting"	"lexical resource"	NA	NA	11
+2020-04-14 13:53:59	"student004"	"student"	121	"no, never"	"no, never"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 13:54:10	"student004"	"student"	122	"ahh yes"	"ahh yes"	NA	NA	NA	NA	NA	NA	2
+2020-04-14 13:54:11	"teacher001"	"teacher"	123	"Ah interesting! That's what i use very often ..."	"Ah interesting! That's what i use very often ..."	NA	NA	NA	NA	NA	NA	9
+2020-04-14 13:54:29	"student004"	"student"	124	"but I thought it meant Are you alright?"	"but I thought it meant Are you alright?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	8
+2020-04-14 13:54:34	"teacher001"	"teacher"	125	"OK ..this is very common informally (not everyone uses it )"	"OK ..this is very common informally (not everyone uses it )"	123	NA	"scaffolding"	"lexical resource,register"	NA	NA	11
+2020-04-14 13:54:58	"teacher001"	"teacher"	126	"Ah yes i see...it CAN mean this BUT it's just become so generuc"	"Ah yes i see...it CAN mean this BUT it's just become so generuc"	124	NA	NA	NA	NA	NA	13
+2020-04-14 13:55:03	"teacher001"	"teacher"	127	"generic..."	"generic..."	NA	NA	"repair"	"writing"	NA	NA	1
+2020-04-14 13:55:08	"student004"	"student"	128	"ahhh"	"ahhh"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:55:23	"teacher001"	"teacher"	129	"so the other person will just reply 'alright' - you see?!"	"so the other person will just reply 'alright' - you see?!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-04-14 13:55:36	"teacher001"	"teacher"	130	"it's not a real question"	"it's not a real question"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-04-14 13:55:47	"teacher001"	"teacher"	131	"but you CAN answer it a real question if you like!"	"but you CAN answer it a real question if you like!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-04-14 13:55:52	"student004"	"student"	132	"I don't like it! Same in Spain... we could say 'qué tal?' instead of 'hola'"	"I don't like it! Same in Spain... we could say 'qué tal?' instead of 'hola'"	NA	"5g"	"topic development"	"lexical resource,world knowledge"	NA	NA	15
+2020-04-14 13:55:54	"teacher001"	"teacher"	133	"as a real question i mean"	"as a real question i mean"	131	NA	"repair"	"grammatical resource"	NA	NA	6
+2020-04-14 13:56:43	"teacher001"	"teacher"	134	"Yes i see...I always found it intimidating when Spanish people said e.g. Que pasa/que dices ...."	"Yes i see...I always found it intimidating when Spanish people said e.g. Que pasa/que dices ...."	132	NA	NA	NA	NA	NA	16
+2020-04-14 13:56:54	"student004"	"student"	135	"I don't like it because the person who is saying 'qué tal?' usually is not interested in if you are well or not"	"I don't like it because the person who is saying 'qué tal?' usually is not interested in if you are well or not"	132	NA	NA	NA	NA	NA	23
+2020-04-14 13:56:56	"teacher001"	"teacher"	136	"like i had to have some interesting answer"	"like i had to have some interesting answer"	134	NA	NA	NA	NA	NA	8
+2020-04-14 13:57:04	"teacher001"	"teacher"	137	"yes i see!"	"yes i see!"	135	NA	NA	NA	NA	NA	3
+2020-04-14 13:57:52	"teacher001"	"teacher"	138	"What about 'cheers' for 'bye' ? Have you noticed that much?"	"What about 'cheers' for 'bye' ? Have you noticed that much?"	NA	"5h"	"eliciting"	"lexical resource"	NA	NA	11
+2020-04-14 13:57:56	"student004"	"student"	139	"haha I don't think they are expecting an interesting answer... I think it's just a different way of saying hello"	"haha I don't think they are expecting an interesting answer... I think it's just a different way of saying hello"	136	NA	NA	NA	NA	NA	20
+2020-04-14 13:58:08	"teacher001"	"teacher"	140	"OK that's a relief"	"OK that's a relief"	NA	NA	NA	NA	NA	NA	4
+2020-04-14 13:58:12	"student004"	"student"	141	"In Argentina it is worse"	"In Argentina it is worse"	NA	"5i"	"topic development"	"world knowledge"	NA	NA	5
+2020-04-14 13:58:16	"teacher001"	"teacher"	142	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:58:39	"student004"	"student"	143	"they ask ¿qué haces? what are you doing?"	"they ask ¿qué haces? what are you doing?"	NA	NA	NA	NA	NA	NA	8
+2020-04-14 13:58:49	"teacher001"	"teacher"	144	"ok right...yes scary!"	"ok right...yes scary!"	NA	NA	NA	NA	NA	NA	3
+2020-04-14 13:58:59	"student004"	"student"	145	"so I use to explain what I was doing and they don't care haha"	"so I used to explain what I was doing and they didn't care haha"	NA	NA	NA	NA	NA	NA	14
+2020-04-14 13:59:06	"teacher001"	"teacher"	146	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 13:59:20	"student004"	"student"	147	"I used sorry, not anymore"	"I used sorry, not anymore"	145	NA	"repair"	"writing"	NA	NA	5
+2020-04-14 14:00:06	"teacher001"	"teacher"	148	"OK cheers <STUDENT> - have a good one and i'll speak to you on Thursday ok? see ya...."	"OK cheers <STUDENT> - have a good one and i'll speak to you on Thursday ok? see ya...."	NA	"6.0"	"closing"	NA	NA	NA	18
+2020-04-14 14:00:19	"student004"	"student"	149	"Yes, thank you very much"	"Yes, thank you very much"	NA	NA	NA	NA	NA	NA	5
+2020-04-14 14:00:25	"student004"	"student"	150	"have a good one you too"	"have a good one you too"	NA	NA	NA	NA	NA	NA	6
+2020-04-14 14:00:28	"student004"	"student"	151	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-04-14 14:00:30	"teacher001"	"teacher"	152	"no probs"	"no probs"	NA	NA	NA	NA	NA	"C1"	2

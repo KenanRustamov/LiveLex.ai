@@ -1,0 +1,120 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-04-09 10:15:56	"teacher001"	"teacher"	1	"Hi there..."	"Hi there..."	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-04-09 10:16:01	"student007"	"student"	2	"hi"	"hi"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 10:16:38	"teacher001"	"teacher"	3	"Right <STUDENT> - Would you like to try beginning of a main paragraph for the essay question?"	"Right <STUDENT> - Would you like to try beginning of a main paragraph for the essay question?"	NA	"2.0"	"exercise"	"writing"	NA	NA	17
+2020-04-09 10:16:51	"student007"	"student"	4	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 10:17:00	"teacher001"	"teacher"	5	"Choose an advantage of renting  and go for it!"	"Choose an advantage of renting  and go for it!"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	10
+2020-04-09 10:17:17	"teacher001"	"teacher"	6	"How about the financial one you mentioned?"	"How about the financial one you mentioned?"	NA	NA	"scaffolding"	"writing,task achievement"	NA	NA	7
+2020-04-09 10:17:32	"student007"	"student"	7	"yes, that ok"	"yes, that's ok"	NA	NA	NA	NA	NA	NA	3
+2020-04-09 10:17:42	"teacher001"	"teacher"	8	"OK fine...I'll wait"	"OK fine...I'll wait"	NA	NA	NA	NA	NA	NA	3
+2020-04-09 10:20:20	"student007"	"student"	9	"one positive aspect of renting home is that it is easy to rent a high quality house and even cheaper than buy a normal one."	"one positive aspect of renting a home is that it is easy to rent a good house and it would still be cheaper than buying a normal one."	NA	NA	NA	NA	NA	NA	25
+2020-04-09 10:21:01	"teacher001"	"teacher"	10	"OK got that thanks...keep going when you're ready..."	"OK got that thanks...keep going when you're ready..."	NA	NA	NA	NA	NA	NA	8
+2020-04-09 10:25:27	"student007"	"student"	11	"The house prices are sky-high in many well-known urban areas, because they are always the financial or policy centre. for people who are living there, renting is one of the best way to saving money."	"House prices are sky-high in many well-known urban areas because they are financial and political centres. For people who live there, renting is one of the best ways to save money."	NA	NA	NA	NA	NA	NA	35
+2020-04-09 10:27:31	"teacher001"	"teacher"	12	"OK! A big juicy one there....I'll start working on this one if you can continue on the next one (last sentence if you like)"	"OK! A big juicy one there....I'll start working on this one if you can continue on the next one (last sentence if you like)"	NA	"2a"	"eliciting"	"writing,task achievement"	NA	NA	24
+2020-04-09 10:27:44	"student007"	"student"	13	"maybe I can add a city's name.   such as London"	"maybe I can add a name of the city such as London"	11	NA	NA	NA	NA	NA	12
+2020-04-09 10:28:05	"student007"	"student"	14	"okey"	"ok"	12	NA	NA	NA	NA	NA	1
+2020-04-09 10:31:31	"student007"	"student"	15	"in addition, for young working people, they don't have amount of money to buy a house for careers in those cities."	"in addition, young professionals often do not have the amount of money to buy a house to have a career in those cities."	NA	NA	NA	NA	NA	NA	21
+2020-04-09 10:33:37	"teacher001"	"teacher"	16	"Thanks <STUDENT> hold on a sec"	"Thanks <STUDENT> hold on a sec"	NA	NA	NA	NA	NA	NA	6
+2020-04-09 10:33:41	"student007"	"student"	17	"in other word, renting can make life easy to living in such a high prices city"	"in other word, renting can make it easy to live in such expensive cities"	NA	NA	NA	NA	NA	NA	16
+2020-04-09 10:34:02	"student007"	"student"	18	"okey,  I am finished."	"ok,  I am finished."	NA	NA	NA	NA	NA	NA	5
+2020-04-09 10:34:17	"student007"	"student"	19	"I have finished."	"I have finished."	NA	NA	NA	NA	NA	NA	3
+2020-04-09 10:34:43	"teacher001"	"teacher"	20	"Yep thanks...here's your paragraph then: 'One positive aspect of renting home is that it is easy to rent a high quality house and even cheaper than buy a normal one. The house prices are sky-high in many well-known urban areas, because they are always the financial or policy centre. For people who are living there, renting is one of the best way to saving money. In addition, for young working people, they don't have amount of money to buy a house for careers in those cities.'"	"Yep thanks...here's your paragraph then: 'One positive aspect of renting home is that it is easy to rent a high quality house and even cheaper than buy a normal one. The house prices are sky-high in many well-known urban areas, because they are always the financial or policy centre. For people who are living there, renting is one of the best way to saving money. In addition, for young working people, they don't have amount of money to buy a house for careers in those cities.'"	NA	NA	NA	NA	NA	NA	86
+2020-04-09 10:35:36	"teacher001"	"teacher"	21	"Not bad! Can i ask you switch one sentence to a different place??"	"Not bad! Can i ask you switch one sentence to a different place??"	NA	"3.0"	"eliciting"	"discourse management"	NA	NA	13
+2020-04-09 10:36:08	"teacher001"	"teacher"	22	"So again you have 4 sentences. Which one would you move? 1,2,3, or 4?"	"So again you have 4 sentences. Which one would you move? 1,2,3, or 4?"	NA	NA	"eliciting"	"discourse management"	NA	NA	14
+2020-04-09 10:36:54	"student007"	"student"	23	"move 2"	"move 2"	NA	NA	NA	NA	NA	NA	2
+2020-04-09 10:37:07	"teacher001"	"teacher"	24	"To where?"	"To where?"	NA	NA	NA	NA	NA	NA	2
+2020-04-09 10:37:34	"student007"	"student"	25	"before  because..."	"before  because..."	NA	NA	NA	NA	NA	NA	3
+2020-04-09 10:37:55	"student007"	"student"	26	"I am not sure about logic here."	"I am not sure about the logic here."	NA	NA	NA	NA	NA	NA	7
+2020-04-09 10:38:51	"teacher001"	"teacher"	27	"In my English brain <STUDENT> the most logical is: 1. It's cheaper to rent. 2. House prices are sky high. 3. YOung people can't afford to buy. 4. Therefore renting is the only option/a good way to save money."	"In my English brain <STUDENT> the most logical is: 1. It's cheaper to rent. 2. House prices are sky high. 3. YOung people can't afford to buy. 4. Therefore renting is the only option/a good way to save money."	NA	NA	"scaffolding"	"discourse management"	NA	NA	39
+2020-04-09 10:39:08	"teacher001"	"teacher"	28	"IN other words, change 3 and 4"	"IN other words, change 3 and 4"	NA	NA	NA	NA	NA	NA	7
+2020-04-09 10:39:29	"teacher001"	"teacher"	29	"What do you think?"	"What do you think?"	NA	NA	NA	NA	NA	NA	4
+2020-04-09 10:39:56	"student007"	"student"	30	"yes.. I agree with it."	"yes.. I agree with it."	NA	NA	NA	NA	NA	NA	5
+2020-04-09 10:40:18	"student007"	"student"	31	"it make logic more clear."	"it make the logic clearer"	NA	NA	NA	NA	NA	NA	5
+2020-04-09 10:40:29	"teacher001"	"teacher"	32	"OK....anyway lots of good stuff in your paragraph <STUDENT> ...for example:"	"OK....anyway lots of good stuff in your paragraph <STUDENT> ...for example:"	NA	"4.0"	"scaffolding"	"lexical resource,grammatical resource,writing"	NA	NA	11
+2020-04-09 10:40:42	"teacher001"	"teacher"	33	"“one positive aspect of renting a home is that” = good topic sentence chunk! ….“it is easy to rent” = good correct structure with to + infinitive!....  “a high quality house” = nice adjective to use instead of just ‘good’ !"	"“one positive aspect of renting a home is that” = good topic sentence chunk! ….“it is easy to rent” = good correct structure with to + infinitive!....  “a high quality house” = nice adjective to use instead of just ‘good’ !"	NA	NA	NA	NA	NA	NA	42
+2020-04-09 10:41:35	"teacher001"	"teacher"	34	"Two small things though to change...: “one positive aspect of renting ____ home is that it is easy to rent a high quality house…” OK?"	"Two small things though to change...: “one positive aspect of renting ____ home is that it is easy to rent a high quality house…” OK?"	NA	"4a"	"eliciting"	"grammatical resource"	NA	NA	25
+2020-04-09 10:41:58	"teacher001"	"teacher"	35	"Missing word?"	"Missing word?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	2
+2020-04-09 10:42:11	"student007"	"student"	36	"yes.i studied the topic sentence  when you were teaching us on class."	"yes. I studied the topic sentence  when you were teaching us in class."	33	NA	NA	NA	NA	NA	13
+2020-04-09 10:42:35	"student007"	"student"	37	"a"	"a"	35	NA	NA	NA	NA	NA	1
+2020-04-09 10:42:56	"teacher001"	"teacher"	38	"OK thanks great..one more...: “…and even cheaper than _____ a normal one”. What kind of word do you need in the gap? Noun or verb?"	"OK thanks great..one more...: “…and even cheaper than _____ a normal one”. What kind of word do you need in the gap? Noun or verb?"	NA	"4b"	"eliciting"	"grammatical resource"	NA	NA	25
+2020-04-09 10:43:26	"student007"	"student"	39	"buy"	"buy"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 10:43:32	"student007"	"student"	40	"verb"	"verb"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 10:44:14	"teacher001"	"teacher"	41	"So for example: 'Water is cheaper than whisky.' Correct?"	"So for example: 'Water is cheaper than whisky.' Correct?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-04-09 10:44:36	"teacher001"	"teacher"	42	"So what comes after 'than' if you comparing things normally?"	"So what comes after 'than' if you comparing things normally?"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	10
+2020-04-09 10:44:53	"teacher001"	"teacher"	43	"if you ARE comparing things (sorry)"	"if you ARE comparing things (sorry)"	NA	"4c"	"repair"	"grammatical resource"	NA	NA	6
+2020-04-09 10:45:12	"teacher001"	"teacher"	44	"I made the mistake you make by accident when typing quickly!"	"I made the mistake you make by accident when typing quickly!"	NA	NA	NA	NA	NA	NA	11
+2020-04-09 10:46:25	"student007"	"student"	45	"haha.. I can understand, because I always make mistakes on spelling."	"haha.. I can understand, because I always make mistakes in spelling."	NA	NA	NA	NA	NA	NA	11
+2020-04-09 10:46:56	"teacher001"	"teacher"	46	":) Whisky = noun right? So: “…and even cheaper than _____ a normal one”. What kind of word do you need in the gap? Noun or verb?"	":) Whisky = noun right? So: “…and even cheaper than _____ a normal one”. What kind of word do you need in the gap? Noun or verb?"	42	NA	"eliciting"	"grammatical resource"	NA	NA	27
+2020-04-09 10:47:17	"student007"	"student"	47	"I think it is might be Water is cheaper than buying whisky."	"I think it might be water is cheaper than buying whisky."	NA	NA	NA	NA	NA	NA	12
+2020-04-09 10:47:57	"student007"	"student"	48	"..and even cheaper than buying a normal one."	"..and even cheaper than buying a normal one."	NA	NA	NA	NA	NA	NA	8
+2020-04-09 10:48:11	"teacher001"	"teacher"	49	"OK great!"	"OK great!"	NA	NA	NA	NA	NA	NA	2
+2020-04-09 10:48:54	"teacher001"	"teacher"	50	"OK so your next sentence had some great stuff in it…Good words/phrases = sky-high/urban areas/financial centre/people who are living there/"	"OK so your next sentence had some great stuff in it…Good words/phrases = sky-high/urban areas/financial centre/people who are living there/"	NA	"5.0"	"scaffolding"	"lexical resource"	NA	NA	20
+2020-04-09 10:49:09	"teacher001"	"teacher"	51	"Nice!"	"Nice!"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 10:49:33	"student007"	"student"	52	"yes..thanks"	"yes..thanks"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 10:49:41	"teacher001"	"teacher"	53	"One question: Policy centre? How do you mean? Where the government is based? Connected to politics? What’s the adjective? Politics is the noun…"	"One question: Policy centre? How do you mean? Where the government is based? Connected to politics? What’s the adjective? Politics is the noun…"	NA	"5a"	"eliciting"	"lexical resource"	NA	NA	23
+2020-04-09 10:50:04	"teacher001"	"teacher"	54	"And 'policy' is also a noun by the way"	"And 'policy' is also a noun by the way"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-04-09 10:50:54	"student007"	"student"	55	"yes..maybe it is the capital of one country."	"yes..maybe it is the capital of one country."	53	NA	NA	NA	NA	NA	8
+2020-04-09 10:51:44	"teacher001"	"teacher"	56	"OK well...'political' is the adjective...so financial and political centre is grammatically correct anyway"	"OK well...'political' is the adjective...so financial and political centre is grammatically correct anyway"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-04-09 10:51:55	"student007"	"student"	57	"I don't know the word of noun."	"I don't know the noun."	NA	NA	NA	NA	NA	NA	7
+2020-04-09 10:52:07	"teacher001"	"teacher"	58	"One more: “One of the best ____ “(singular or plural noun next)?"	"One more: “One of the best ____ “(singular or plural noun next)?"	NA	"5b"	"eliciting"	"grammatical resource"	NA	NA	12
+2020-04-09 10:52:29	"student007"	"student"	59	"plural"	"plural"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 10:52:29	"teacher001"	"teacher"	60	"Sorry you mean you didn't know the word policy was a noun?"	"Sorry you mean you didn't know the word policy was a noun?"	57	NA	"enquiry"	NA	NA	NA	12
+2020-04-09 10:52:33	"student007"	"student"	61	"ways"	"ways"	59	NA	NA	NA	NA	NA	1
+2020-04-09 10:52:37	"teacher001"	"teacher"	62	"Yes good!"	"Yes good!"	NA	NA	NA	NA	NA	NA	2
+2020-04-09 10:53:03	"student007"	"student"	63	"yes.. but I studied just now is political."	"yes.. but I've learned just now it's political."	60	NA	NA	NA	NA	NA	8
+2020-04-09 10:53:18	"teacher001"	"teacher"	64	"Yes sorry <STUDENT> just to be clear - you know the word  policy means 'plan' right?"	"Yes sorry <STUDENT> just to be clear - you know the word  policy means 'plan' right?"	NA	"5c"	"scaffolding"	"lexical resource"	NA	NA	17
+2020-04-09 10:53:51	"teacher001"	"teacher"	65	"But a specific plan (that a government of company/organisation has)"	"But a specific plan (that a government of company/organisation has)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-04-09 10:53:58	"student007"	"student"	66	"yes..many way to solve problems"	"yes..many ways to solve problems"	NA	NA	NA	NA	NA	NA	5
+2020-04-09 10:54:04	"student007"	"student"	67	"ways"	"ways"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-04-09 10:54:19	"teacher001"	"teacher"	68	"Yes good! So actually a useful word for IELTS"	"Yes good! So actually a useful word for IELTS"	NA	NA	NA	NA	NA	NA	9
+2020-04-09 10:55:10	"teacher001"	"teacher"	69	"So for example: the government should change its energy policy and stop relying on fossil fuels...'"	"So for example: the government should change its energy policy and stop relying on fossil fuels...'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-04-09 10:55:34	"teacher001"	"teacher"	70	"or: 'Most schools nowadays have clear anti-bullying policies...' OK?!"	"or: 'Most schools nowadays have clear anti-bullying policies...' OK?!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-04-09 10:55:34	"student007"	"student"	71	"so..this is a plan"	"so..this is a plan"	NA	NA	NA	NA	NA	NA	4
+2020-04-09 10:56:11	"teacher001"	"teacher"	72	"Yes like a plan or a at least an agreed way of responding to a situation"	"Yes like a plan or a at least an agreed way of responding to a situation"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-04-09 10:56:33	"student007"	"student"	73	"I got it"	"I got it"	NA	NA	NA	NA	NA	NA	3
+2020-04-09 10:57:53	"teacher001"	"teacher"	74	"OK finally for this sentence: One of the best ways to ______ verb or noun next?"	"OK finally for this sentence: One of the best ways to ______ verb or noun next?"	NA	"5d"	"eliciting"	"grammatical resource"	NA	NA	16
+2020-04-09 10:58:11	"student007"	"student"	75	"verb"	"verb"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 10:58:50	"student007"	"student"	76	"like One of the best way to solve this problem."	"like one of the best ways to solve this problem."	NA	NA	NA	NA	NA	NA	10
+2020-04-09 10:59:10	"student007"	"student"	77	"waysssssssss"	"waysssssssss"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-04-09 10:59:32	"teacher001"	"teacher"	78	"OK great! So remember the two little changes you need here?! : 'For people who are living there, renting is one of the best way to saving money.'"	"OK great! So remember the two little changes you need here?! : 'For people who are living there, renting is one of the best way to saving money.'"	NA	"5e"	"eliciting"	"grammatical resource"	NA	NA	28
+2020-04-09 10:59:47	"student007"	"student"	79	"I can't afraid myself of this mistake."	"I can't get rid of this mistake."	77	NA	NA	NA	NA	NA	7
+2020-04-09 11:00:19	"student007"	"student"	80	"so....after 'to' we can use ....ing?"	"so....after 'to' we can use ....ing?"	78	NA	"enquiry"	"grammatical resource"	NA	NA	6
+2020-04-09 11:01:23	"teacher001"	"teacher"	81	"No! this was your original! But you need to change it as you just suggested..."	"No! this was your original! But you need to change it as you just suggested..."	NA	NA	NA	NA	NA	NA	15
+2020-04-09 11:01:59	"teacher001"	"teacher"	82	"So: 'For people who are living there, renting is one of the best wayS to SAVE money.'  = good!"	"So: 'For people who are living there, renting is one of the best wayS to SAVE money.'  = good!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	20
+2020-04-09 11:01:59	"student007"	"student"	83	"ok...For people who are living there, renting is one of the best ways to save money.'"	"ok...For people who live there, renting is one of the best ways to save money.'"	NA	NA	NA	NA	NA	NA	16
+2020-04-09 11:02:07	"teacher001"	"teacher"	84	"Yes exactly good!"	"Yes exactly good!"	NA	NA	NA	NA	NA	NA	3
+2020-04-09 11:02:29	"teacher001"	"teacher"	85	"OK last sentence: Can you change this bit: “they don't have amount of money to buy” to this by adding just one word:   = they don't have _______ money to buy"	"OK last sentence: Can you change this bit: “they don't have amount of money to buy” to this by adding just one word:   = they don't have _______ money to buy"	NA	"6.0"	"eliciting"	"grammatical resource"	NA	NA	33
+2020-04-09 11:03:16	"student007"	"student"	86	"they don't have enough money to buy."	"they don't have enough money to buy."	NA	NA	NA	NA	NA	NA	7
+2020-04-09 11:04:57	"teacher001"	"teacher"	87	"Yes ok good"	"Yes ok good"	NA	NA	NA	NA	NA	NA	3
+2020-04-09 11:05:19	"teacher001"	"teacher"	88	"Or maybe: 'They can't ______ to live there.'?"	"Or maybe: 'They can't ______ to live there.'?"	NA	"6a"	"eliciting"	"lexical resource"	NA	NA	8
+2020-04-09 11:05:42	"student007"	"student"	89	"they can not afraid to live there."	"they cannot afford to live there."	NA	NA	NA	NA	NA	NA	7
+2020-04-09 11:05:59	"teacher001"	"teacher"	90	"you mean 'afford' right?!"	"you mean 'afford' right?!"	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2020-04-09 11:06:34	"student007"	"student"	91	"yes..afford"	"yes..afford"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 11:07:14	"teacher001"	"teacher"	92	"ok! So if you can't afford something then thing is 'unaff_ _ _ _ _ _ '??"	"ok! So if you can't afford something then thing is 'unaff_ _ _ _ _ _ '??"	NA	"6b"	"eliciting"	"lexical resource"	NA	NA	17
+2020-04-09 11:07:21	"teacher001"	"teacher"	93	"do you know this adjective?"	"do you know this adjective?"	NA	NA	NA	NA	NA	NA	5
+2020-04-09 11:08:05	"teacher001"	"teacher"	94	"it ends in '-able'!"	"it ends in '-able'!"	NA	NA	NA	NA	NA	NA	4
+2020-04-09 11:08:13	"student007"	"student"	95	"unaffordable"	"unaffordable"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 11:08:39	"teacher001"	"teacher"	96	"ok great"	"ok great"	NA	NA	NA	NA	NA	NA	2
+2020-04-09 11:09:29	"student007"	"student"	97	"it is unaffordable for young people to live there."	"it is unaffordable for young people to live there."	NA	NA	NA	NA	NA	NA	9
+2020-04-09 11:09:30	"teacher001"	"teacher"	98	"OK <STUDENT> - here's your paragraph with our changes OK? (plus a couple more little ones I've put in sorry!) One positive aspect of renting a home is that it is easy to rent a high quality house and even cheaper than buying a normal one. House prices are sky-high in many well-known urban areas, because they are always the financial or political centre. Young working people don't have enough money to buy a house for careers in those cities. Consequently, for people who are living there, renting is one of the best ways to save money."	"OK <STUDENT> - here's your paragraph with our changes OK? (plus a couple more little ones I've put in sorry!) One positive aspect of renting a home is that it is easy to rent a high quality house and even cheaper than buying a normal one. House prices are sky-high in many well-known urban areas, because they are always the financial or political centre. Young working people don't have enough money to buy a house for careers in those cities. Consequently, for people who are living there, renting is one of the best ways to save money."	NA	"7.0"	"scaffolding"	"lexical resource,grammatical resource,writing"	NA	NA	97
+2020-04-09 11:09:58	"teacher001"	"teacher"	99	"Pretty good overall!"	"Pretty good overall!"	NA	NA	NA	NA	NA	NA	3
+2020-04-09 11:10:39	"student007"	"student"	100	"thanks.."	"thanks.."	NA	NA	NA	NA	NA	NA	1
+2020-04-09 11:11:20	"student007"	"student"	101	"if I hope one day I can write easy like this without mistakes and logic problems."	"I hope one day I can write easily like this without mistakes and logic problems."	NA	NA	NA	NA	NA	NA	16
+2020-04-09 11:11:52	"teacher001"	"teacher"	102	"Yes you're on the right track just keep going! Can i suggest the following words might be useful for a paragraph/topic like this: property'temporary/short-term/unaffordable/housing market /"	"Yes you're on the right track just keep going! Can i suggest the following words might be useful for a paragraph/topic like this: property'temporary/short-term/unaffordable/housing market /"	NA	"7a"	"presentation"	"lexical resource"	NA	NA	26
+2020-04-09 11:12:21	"student007"	"student"	103	"yes !!"	"yes !!"	NA	NA	NA	NA	NA	NA	2
+2020-04-09 11:12:36	"student007"	"student"	104	"it have added to my vocabulary brain."	"I have added these to my vocabulary"	NA	NA	NA	NA	NA	NA	7
+2020-04-09 11:12:45	"teacher001"	"teacher"	105	"especially 'property' actually"	"especially 'property' actually"	NA	NA	NA	NA	NA	NA	3
+2020-04-09 11:13:22	"teacher001"	"teacher"	106	"OK great use of present perfect (i've added them)"	"OK great use of present perfect (i've added them)"	104	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-04-09 11:13:27	"student007"	"student"	107	"it might means wealth I guess"	"it might mean wealth I guess"	105	NA	NA	NA	NA	NA	6
+2020-04-09 11:13:56	"teacher001"	"teacher"	108	"Ah! property is just another word for e.g. buildings/houses/flats etc"	"Ah! property is just another word for e.g. buildings/houses/flats etc"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-04-09 11:14:03	"student007"	"student"	109	"and including houses and others"	"and including houses and other things"	NA	NA	NA	NA	NA	NA	5
+2020-04-09 11:14:14	"teacher001"	"teacher"	110	"Actually 'accommodation' would be good here too maybe right?"	"Actually 'accommodation' would be good here too maybe right?"	NA	"7b"	"scaffolding"	"lexical resource"	NA	NA	9
+2020-04-09 11:14:16	"student007"	"student"	111	"okey...thanks"	"ok...thanks"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 11:14:29	"teacher001"	"teacher"	112	"AND your use of wealth is interesting"	"AND your use of wealth is interesting"	109	"7c"	"scaffolding"	"lexical resource,writing"	NA	NA	7
+2020-04-09 11:14:39	"teacher001"	"teacher"	113	"You could definitely include that somehow!"	"You could definitely include that somehow!"	NA	NA	NA	"lexical resource,writing"	NA	NA	6
+2020-04-09 11:14:55	"teacher001"	"teacher"	114	"or similar words...wealth = adjective or noun?"	"or similar words...wealth = adjective or noun?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	7
+2020-04-09 11:18:14	"teacher001"	"teacher"	115	"OK <STUDENT> I have to go now I'm afraid - I van see you're having internet problems! I'll speak to you tomorrow..bye!"	"OK <STUDENT> I have to go now I'm afraid - I van see you're having internet problems! I'll speak to you tomorrow..bye!"	NA	"8.0"	"closing"	NA	NA	NA	22
+2020-04-09 11:18:54	"student007"	"student"	116	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-09 11:19:03	"teacher001"	"teacher"	117	"ok cheers bye"	"ok cheers bye"	NA	NA	NA	NA	NA	NA	3
+2020-04-09 11:19:08	"student007"	"student"	118	"see you m thanks a lot"	"see you m thanks a lot"	NA	NA	NA	NA	NA	NA	6
+2020-04-09 11:19:12	"student007"	"student"	119	"cheers"	"cheers"	NA	NA	NA	NA	NA	"B1"	1

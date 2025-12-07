@@ -1,0 +1,210 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-01-27 08:03:45	"student011"	"student"	1	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-01-27 08:04:11	"teacher008"	"teacher"	2	"Hello! :)"	"Hello! :)"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:04:16	"teacher008"	"teacher"	3	"How are you doing?"	"How are you doing?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-01-27 08:04:28	"student011"	"student"	4	"Fine thank you!"	"Fine thank you!"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:04:32	"student011"	"student"	5	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:04:43	"student011"	"student"	6	"Sorry, I'm a bit late"	"Sorry, I'm a bit late"	NA	"2a"	"topic development"	NA	NA	NA	5
+2021-01-27 08:05:11	"student011"	"student"	7	"I was putting my new lense on the eye )"	"I was putting my new lens on the eye )"	NA	NA	NA	NA	NA	NA	10
+2021-01-27 08:05:30	"student011"	"student"	8	"Contact lence ))"	"Contact lens ))"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:05:35	"student011"	"student"	9	"*lense"	"*lens"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-01-27 08:05:42	"teacher008"	"teacher"	10	"No worries, do you mean contact lenses?"	"No worries, do you mean contact lenses?"	NA	NA	"scaffolding"	"writing"	NA	NA	7
+2021-01-27 08:05:57	"student011"	"student"	11	"Yes, But I have to wear just one"	"Yes, but I have to wear just the one"	NA	NA	NA	NA	NA	NA	8
+2021-01-27 08:05:58	"student011"	"student"	12	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:05:59	"teacher008"	"teacher"	13	"Yes, I'm with you. I didn't know you wore contacts!"	"Yes, I'm with you. I didn't know you wore contacts!"	NA	NA	NA	NA	NA	NA	10
+2021-01-27 08:06:12	"teacher008"	"teacher"	14	"Oh, I see!"	"Oh, I see!"	11	NA	NA	NA	NA	NA	3
+2021-01-27 08:07:06	"student011"	"student"	15	"I've worn it since last Thursday )"	"I've worn it since last Thursday )"	13	NA	NA	NA	NA	NA	7
+2021-01-27 08:07:31	"teacher008"	"teacher"	16	"I see! Nice present perfect :) How do you like it?"	"I see! Nice present perfect :) How do you like it?"	NA	NA	NA	NA	NA	NA	11
+2021-01-27 08:07:39	"student011"	"student"	17	"So It's ok you didn't know )))"	"So It's ok you didn't know )))"	15	NA	NA	NA	NA	NA	7
+2021-01-27 08:08:05	"teacher008"	"teacher"	18	"Sure :)"	"Sure :)"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:08:16	"student011"	"student"	19	"It's quite strange, but it's ok )"	"It's quite strange, but it's ok )"	16	NA	NA	NA	NA	NA	7
+2021-01-27 08:08:33	"student011"	"student"	20	"Actually it's interesting and it's about our brain"	"Actually it's interesting and it's about our brain"	NA	"2b"	"topic development"	NA	NA	NA	8
+2021-01-27 08:08:49	"teacher008"	"teacher"	21	"Ooh, I love brain stuff, tell me!"	"Ooh, I love brain stuff, tell me!"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:09:23	"student011"	"student"	22	"So the doctor said me that I have a very tiny 'kosoglazie'on my left eye"	"So the doctor told me that I have a very tiny 'kosoglazie' in my left eye"	NA	NA	"non-English"	"code switching"	NA	NA	15
+2021-01-27 08:09:51	"teacher008"	"teacher"	23	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:09:59	"student011"	"student"	24	"But I've had it since I was a child"	"But I've had it since I was a child"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:11:25	"student011"	"student"	25	"So when I need to use that part of me left eye which has to be used for not far destination my brain switch off the part of left eye and I watch just with right one"	"So when I need to use that part of my left eye, which has to be used for objects that are close to me, my brain switches off the part of my left eye and I see with just the right one"	NA	NA	NA	NA	NA	NA	37
+2021-01-27 08:12:07	"teacher008"	"teacher"	26	"How interesting!"	"How interesting!"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:12:19	"student011"	"student"	27	"I could be happen if the person who has this problem is longer than 10"	"It could happen if a person who has this problem is younger than 10"	NA	NA	NA	NA	NA	NA	15
+2021-01-27 08:12:37	"teacher008"	"teacher"	28	"is older than 10 you mean?"	"is older than 10 you mean?"	NA	"2c"	"eliciting,repair"	"lexical resource"	NA	NA	6
+2021-01-27 08:12:56	"student011"	"student"	29	"In this age our brain is very flexible and can do things like that )"	"at this age our brain is very flexible and can do things like that )"	27	NA	NA	NA	NA	NA	15
+2021-01-27 08:13:13	"student011"	"student"	30	"sorry, yonger"	"sorry, younger"	28	NA	NA	NA	NA	NA	2
+2021-01-27 08:13:25	"teacher008"	"teacher"	31	"aah, younger, yes, makes sense!"	"aah, younger, yes, makes sense!"	NA	NA	NA	NA	NA	NA	5
+2021-01-27 08:13:58	"student011"	"student"	32	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:14:01	"student011"	"student"	33	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:14:14	"student011"	"student"	34	"younger"	"younger"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:14:16	"teacher008"	"teacher"	35	"So this is something your brain has been doing since you were a child?"	"So this is something your brain has been doing since you were a child?"	27	NA	NA	NA	NA	NA	14
+2021-01-27 08:14:59	"student011"	"student"	36	"yes, and before even doctors couldn't find the problem"	"yes, and before even doctors couldn't find the problem"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:15:20	"teacher008"	"teacher"	37	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:15:49	"student011"	"student"	38	"But now I feel like my eyes are tired when I'm working with gadgets during the day"	"But now I feel like my eyes are tired when I'm working with gadgets during the day"	NA	NA	NA	NA	NA	NA	17
+2021-01-27 08:16:21	"student011"	"student"	39	"Especially with iPhone"	"Especially with my iPhone"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:16:44	"teacher008"	"teacher"	40	"Is the idea that the contact lense will correct your left eye somehow?"	"Is the idea that the contact lense will correct your left eye somehow?"	NA	NA	NA	NA	NA	NA	13
+2021-01-27 08:16:54	"student011"	"student"	41	"An I feel how my left eye starts 'posit'')"	"And I feel how my left eye starts to 'kosit'')"	NA	NA	"non-English"	"code switching"	NA	NA	9
+2021-01-27 08:18:06	"student011"	"student"	42	"kosit'"	"kosit'"	NA	NA	"repair,non-English"	"code switching,writing"	NA	NA	1
+2021-01-27 08:18:51	"student011"	"student"	43	"Sure, the contact lense has to help with this stuff"	"Sure, the contact lens has to help with this stuff"	40	NA	NA	NA	NA	NA	10
+2021-01-27 08:20:03	"teacher008"	"teacher"	44	"I think we say in this case the eye is 'misaligned'"	"I think we say in this case the eye is 'misaligned'"	NA	"2d"	"scaffolding"	"lexical resource"	NA	NA	11
+2021-01-27 08:20:21	"teacher008"	"teacher"	45	"Ok, have you felt better since you started wearing it?"	"Ok, have you felt better since you started wearing it?"	NA	"2e"	"topic development"	NA	NA	NA	10
+2021-01-27 08:20:28	"student011"	"student"	46	"so the idea is that my brain can control my eyes but when I'm working for a long time the brain is tired and can't control the left eye"	"so the idea is that my brain can control my eyes but when I'm working for a long time the brain is tired and can't control the left eye"	43	NA	NA	NA	NA	NA	29
+2021-01-27 08:20:54	"teacher008"	"teacher"	47	"Ok, and the left eye starts to misbehave! interesting"	"Ok, and the left eye starts to misbehave! interesting"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:21:08	"student011"	"student"	48	"So I have to help my eyes and my brain )"	"So I have to help my eyes and my brain )"	NA	NA	NA	NA	NA	NA	11
+2021-01-27 08:21:31	"teacher008"	"teacher"	49	"Cool, I hope it works!"	"Cool, I hope it works!"	NA	NA	NA	NA	NA	NA	5
+2021-01-27 08:21:45	"student011"	"student"	50	"Ok, have you felt better since you started wearing it?  - Actually, I don't feel it 100%"	"Ok, have you felt better since you started wearing it?  - Actually, I don't feel it 100%"	45	NA	NA	NA	NA	NA	18
+2021-01-27 08:22:01	"teacher008"	"teacher"	51	"You don't feel it works 100%?"	"You don't feel it works 100%?"	NA	NA	"eliciting,repair"	"lexical resource"	NA	NA	6
+2021-01-27 08:22:14	"student011"	"student"	52	"But I use now the lenses which are not 100% for my case"	"But I'm now using the lenses which are not 100% for my case"	NA	NA	NA	NA	NA	NA	13
+2021-01-27 08:22:34	"teacher008"	"teacher"	53	"Yes, makes sense"	"Yes, makes sense"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:22:58	"student011"	"student"	54	"But how the doctor explained we can't start with the right lenses we have to start from like lighter )"	"But as the doctor explained, we can't start with the right lenses we have to start with like lighter ones )"	NA	NA	NA	NA	NA	NA	20
+2021-01-27 08:23:12	"teacher008"	"teacher"	55	"Ok, yes"	"Ok, yes"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:24:13	"teacher008"	"teacher"	56	"Is it difficult to put on your lense?"	"Is it difficult to put on your lense?"	NA	"2f"	"topic development"	NA	NA	NA	8
+2021-01-27 08:24:24	"student011"	"student"	57	"So misaligned is like 'kosit' in Russian?"	"So misaligned is like 'kosit' in Russian?"	44	NA	"non-English,enquiry"	"code switching,lexical resource"	NA	NA	7
+2021-01-27 08:24:45	"student011"	"student"	58	"Is it difficult to put on your lense?  - Oh, I like the question )"	"Is it difficult to put on your lense?  - Oh, I like the question )"	56	NA	NA	NA	NA	NA	16
+2021-01-27 08:24:47	"student011"	"student"	59	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:24:59	"student011"	"student"	60	"There are two types of lenses"	"There are two types of lenses"	NA	NA	NA	NA	NA	NA	6
+2021-01-27 08:25:37	"student011"	"student"	61	"First one you can wear during one month and you can take it away for nights"	"You can wear the first one for one month and you can take it off at night"	NA	NA	NA	NA	NA	NA	16
+2021-01-27 08:25:51	"student011"	"student"	62	"Another is one day lenses"	"The second type is one-day lenses"	NA	NA	NA	NA	NA	NA	5
+2021-01-27 08:26:21	"teacher008"	"teacher"	63	"If something is misaligned, it does not fit together with other parts, for example"	"If something is misaligned, it does not fit together with other parts, for example"	57	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+2021-01-27 08:26:22	"student011"	"student"	64	"You put it in the morning and then you throw it away in the evening"	"You put it on in the morning and then you throw it away in the evening"	62	NA	NA	NA	NA	NA	15
+2021-01-27 08:26:50	"teacher008"	"teacher"	65	"If we align things, we put them together in a straight line"	"If we align things, we put them together in a straight line"	63	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-01-27 08:27:02	"teacher008"	"teacher"	66	"əˈlaɪn"	"əˈlaɪn"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-01-27 08:27:21	"student011"	"student"	67	"So in the clinic I tried do all stuff with the first time of lenses"	"So in the clinic I tried to do all the stuff with the first type of lenses"	64	NA	NA	NA	NA	NA	15
+2021-01-27 08:27:57	"student011"	"student"	68	"It is more difficult to put it on but it's easier to take it away"	"It is more difficult to put it on but it's easier to take it off"	NA	NA	NA	NA	NA	NA	15
+2021-01-27 08:28:18	"teacher008"	"teacher"	69	"You throw them away? They are disposable? Only for one day"	"You throw them away? They are disposable? Only for one day"	64	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-01-27 08:28:27	"teacher008"	"teacher"	70	"I've never heard of disposable lenses"	"I've never heard of disposable lenses"	NA	NA	NA	NA	NA	NA	6
+2021-01-27 08:28:53	"student011"	"student"	71	"But now I use the one day lenses and it better for eyes"	"But now I use the one-day lenses and it's better for my eyes"	NA	NA	NA	NA	NA	NA	13
+2021-01-27 08:29:04	"teacher008"	"teacher"	72	"take it off, right? Like clothes, we put them on and we take them off"	"take it off, right? Like clothes, we put them on and we take them off"	68	NA	"repair,scaffolding"	"lexical resource"	NA	NA	15
+2021-01-27 08:29:07	"student011"	"student"	73	"it's better"	"it's better"	71	NA	"repair"	"writing"	NA	NA	2
+2021-01-27 08:29:19	"student011"	"student"	74	"Ah! Ok! Sure"	"Ah! Ok! Sure"	72	NA	NA	NA	NA	NA	3
+2021-01-27 08:29:26	"student011"	"student"	75	"take it off )"	"take it off )"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:29:52	"student011"	"student"	76	"So! Yes, there are disposable lenses )"	"So! Yes, there are disposable lenses )"	NA	"2g"	"topic development"	NA	NA	NA	7
+2021-01-27 08:30:04	"student011"	"student"	77	"And they are more"	"And they are more"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:30:06	"student011"	"student"	78	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:30:08	"teacher008"	"teacher"	79	"Interesting! You're using disposable lenses then. If we can only use something once and then we have to throw it away (dispose of it), we call the object disposable"	"Interesting! You're using disposable lenses then. If we can only use something once and then we have to throw it away (dispose of it), we call the object disposable"	76	NA	"scaffolding"	"lexical resource"	NA	NA	29
+2021-01-27 08:30:30	"student011"	"student"	80	"they are 'propuskaut bolshy vozduha'"	"they are 'propuskaut bolshy vozduha'"	78	NA	"non-English"	"lexical resource,code switching"	NA	NA	5
+2021-01-27 08:30:49	"teacher008"	"teacher"	81	"Oh, they are more breathable"	"Oh, they are more breathable"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-01-27 08:30:49	"student011"	"student"	82	"And it's easier to put them on but!"	"And it's easier to put them on but!"	NA	NA	NA	NA	NA	NA	8
+2021-01-27 08:30:59	"student011"	"student"	83	"It's harder to take them off!"	"It's harder to take them off!"	NA	NA	NA	NA	NA	NA	6
+2021-01-27 08:31:23	"teacher008"	"teacher"	84	"I see! There's always a catch"	"I see! There's always a catch"	NA	NA	NA	NA	NA	NA	6
+2021-01-27 08:31:29	"student011"	"student"	85	"It takes about 15 minutes from me about 2 days ago"	"It took me about 15 minutes about 2 days ago"	NA	NA	NA	NA	NA	NA	11
+2021-01-27 08:31:34	"student011"	"student"	86	"I was so angry"	"I was so angry"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:31:36	"student011"	"student"	87	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:31:47	"student011"	"student"	88	"There's always a catch ? )"	"There's always a catch ? )"	NA	"2h"	"enquiry"	"lexical resource"	NA	NA	6
+2021-01-27 08:32:35	"teacher008"	"teacher"	89	"It took you about 15 minutes"	"It took you about 15 minutes"	85	NA	"repair"	"grammatical resource"	NA	NA	6
+2021-01-27 08:33:00	"teacher008"	"teacher"	90	"Yes, a catch = something negative"	"Yes, a catch = something negative"	88	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2021-01-27 08:33:36	"student011"	"student"	91	"It took you about 15 minutes  - Sure, thank you"	"It took you about 15 minutes  - Sure, thank you"	89	NA	NA	NA	NA	NA	11
+2021-01-27 08:33:37	"teacher008"	"teacher"	92	"For example, if I tell you, would you like to buy this car, it's a brand new Mercedez and I will sell it to you for 1000 UAH"	"For example, if I tell you, would you like to buy this car, it's a brand new Mercedez and I will sell it to you for 1000 UAH"	90	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	28
+2021-01-27 08:33:55	"teacher008"	"teacher"	93	"You will say, hmmm, this is too good to be true. What's the catch?"	"You will say, hmmm, this is too good to be true. What's the catch?"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+2021-01-27 08:34:03	"student011"	"student"	94	"aha!"	"aha!"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:34:10	"teacher008"	"teacher"	95	"And the catch is, for example, it was stolen)))"	"And the catch is, for example, it was stolen)))"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-01-27 08:34:18	"student011"	"student"	96	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:34:21	"teacher008"	"teacher"	97	"or the doors don't open, or something like that"	"or the doors don't open, or something like that"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-01-27 08:35:00	"teacher008"	"teacher"	98	"You probably know the expression 'catch 22'"	"You probably know the expression 'catch 22'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-01-27 08:35:14	"teacher008"	"teacher"	99	"a situation when you can't escape; whatever you do is wrong"	"a situation when you can't escape; whatever you do is wrong"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-01-27 08:35:24	"student011"	"student"	100	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:35:25	"teacher008"	"teacher"	101	"I'm trying to remember what it is in Russian!"	"I'm trying to remember what it is in Russian!"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:35:32	"teacher008"	"teacher"	102	"It's the name of a novel"	"It's the name of a novel"	NA	NA	NA	NA	NA	NA	6
+2021-01-27 08:35:52	"student011"	"student"	103	"I'v never heard it"	"I'v never heard of it"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:36:13	"teacher008"	"teacher"	104	"For example, our government :)) they are in a bit of a catch 22. If they remove the lockdown, lots of people will die, but if they don't, the economy will collapse"	"For example, our government :)) they are in a bit of a catch 22. If they remove the lockdown, lots of people will die, but if they don't, the economy will collapse"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	32
+2021-01-27 08:36:36	"student011"	"student"	105	"I googled it"	"I googled it"	103	NA	NA	NA	NA	NA	3
+2021-01-27 08:36:41	"student011"	"student"	106	"ulovka 22"	"ulovka 22"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	2
+2021-01-27 08:36:45	"teacher008"	"teacher"	107	"This is what the dictionary says for 'catch 22'"	"This is what the dictionary says for 'catch 22'"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:37:15	"teacher008"	"teacher"	108	"an impossible situation where you are prevented from doing one thing until you have done another thing that you cannot do until you have done the first thing"	"an impossible situation where you are prevented from doing one thing until you have done another thing that you cannot do until you have done the first thing"	NA	NA	"scaffolding"	"lexical resource,meaning"	"dictionary"	NA	28
+2021-01-27 08:37:28	"teacher008"	"teacher"	109	"Ah, yes, probably ulovka"	"Ah, yes, probably ulovka"	106	NA	"non-English"	"code switching,lexical resource"	NA	NA	4
+2021-01-27 08:38:01	"student011"	"student"	110	"But I don't know the novel unfortunatelly"	"But I don't know the novel unfortunatelly"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:38:12	"teacher008"	"teacher"	111	"Neither do I, I haven't read it!"	"Neither do I, I haven't read it!"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:38:36	"teacher008"	"teacher"	112	"But it's a popular expression. Even though catch 22 is paradoxical, it's quite a common situation :)"	"But it's a popular expression. Even though catch 22 is paradoxical, it's quite a common situation :)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2021-01-27 08:39:14	"student011"	"student"	113	"Ah! There is a movie also"	"Ah! There is also a movie"	NA	NA	NA	NA	NA	NA	6
+2021-01-27 08:40:05	"teacher008"	"teacher"	114	"Yes, that's right! I haven't seen that one either :)"	"Yes, that's right! I haven't seen that one either :)"	NA	NA	NA	NA	NA	NA	10
+2021-01-27 08:40:16	"student011"	"student"	115	"George Clooney is the director"	"George Clooney is the director"	NA	NA	NA	NA	NA	NA	5
+2021-01-27 08:40:54	"teacher008"	"teacher"	116	"I see, yes! It might be worth checking out"	"I see, yes! It might be worth checking out"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:41:02	"student011"	"student"	117	"I forgot these two neither and either (("	"I forgot these two, neither and either (("	111	"2i"	"enquiry"	"grammatical resource"	NA	NA	8
+2021-01-27 08:41:37	"teacher008"	"teacher"	118	"I haven't read the book. I haven't seen the movie either / Neither have I seen the movie"	"I haven't read the book. I haven't seen the movie either / Neither have I seen the movie"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2021-01-27 08:41:54	"student011"	"student"	119	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:41:55	"teacher008"	"teacher"	120	"I've read the book. I've seen the movie too."	"I've read the book. I've seen the movie too."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2021-01-27 08:41:57	"student011"	"student"	121	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:42:13	"teacher008"	"teacher"	122	"too = we agree with an affirmative sentence"	"too = we agree with an affirmative sentence"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2021-01-27 08:42:30	"teacher008"	"teacher"	123	"neither / not either = we agree with a negative sentence"	"neither / not either = we agree with a negative sentence"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2021-01-27 08:42:41	"teacher008"	"teacher"	124	"For example. I haven't got a dog. What about you?"	"For example. I haven't got a dog. What about you?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	10
+2021-01-27 08:42:50	"student011"	"student"	125	"Oh! 7.8 on IMDB"	"Oh! 7.8 on IMDB"	NA	"3.0"	"topic opening"	NA	NA	NA	4
+2021-01-27 08:43:01	"student011"	"student"	126	"I mean Catch-22 )"	"I mean Catch-22 )"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:43:07	"teacher008"	"teacher"	127	"Is that good? Is that out of 10?"	"Is that good? Is that out of 10?"	NA	NA	NA	NA	NA	NA	8
+2021-01-27 08:43:27	"student011"	"student"	128	"yes. 7.8 is veeery good"	"yes. 7.8 is veeery good"	NA	NA	NA	NA	NA	NA	5
+2021-01-27 08:43:36	"teacher008"	"teacher"	129	"Ok, cool!"	"Ok, cool!"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:43:47	"student011"	"student"	130	"usually more than 7 or 7.5 are good"	"usually more than 7 or 7.5 is  good"	NA	NA	NA	NA	NA	NA	8
+2021-01-27 08:44:11	"teacher008"	"teacher"	131	"Oh, have you watched Little Miss Sunshine? What did you think?"	"Oh, have you watched Little Miss Sunshine? What did you think?"	NA	"3a"	"topic development"	NA	NA	NA	11
+2021-01-27 08:44:28	"student011"	"student"	132	"you know, my husband checks all the movies on IMDM ))))"	"you know, my husband checks all the movies on IMDM ))))"	130	NA	NA	NA	NA	NA	11
+2021-01-27 08:45:08	"student011"	"student"	133	"unfortunately I haven't"	"unfortunately I haven't"	131	NA	NA	NA	NA	NA	3
+2021-01-27 08:45:11	"teacher008"	"teacher"	134	"Yes, sure, I check the Rotten Tomatoes score :)"	"Yes, sure, I check the Rotten Tomatoes score :)"	132	NA	NA	NA	NA	NA	9
+2021-01-27 08:45:55	"teacher008"	"teacher"	135	"No worries, I just thought you might have. I don't have time to watch movies at all at the moment! We go to bed early, which means we only have time for TV shows!"	"No worries, I just thought you might have. I don't have time to watch movies at all at the moment! We go to bed early, which means we only have time for TV shows!"	133	NA	NA	NA	NA	NA	34
+2021-01-27 08:46:01	"student011"	"student"	136	"But I still want!"	"But I still want to!"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:46:41	"student011"	"student"	137	"What is Rotten Tomatoes? ))"	"What is Rotten Tomatoes? ))"	134	NA	NA	NA	NA	NA	5
+2021-01-27 08:47:13	"student011"	"student"	138	"We were in the cinema!!!! on Monday )"	"We were at the cinema!!!! on Monday )"	NA	"3b"	"topic development"	NA	NA	NA	8
+2021-01-27 08:48:00	"teacher008"	"teacher"	139	"It's a website which collects film reviews and calculates a score based on them. It's like critics' score as opposed to 'normal people' who watch it"	"It's a website which collects film reviews and calculates a score based on them. It's like critics' score as opposed to 'normal people' who watch it"	137	NA	NA	NA	NA	NA	26
+2021-01-27 08:48:08	"teacher008"	"teacher"	140	"No way! Lucky you!"	"No way! Lucky you!"	138	NA	NA	NA	NA	NA	4
+2021-01-27 08:48:09	"student011"	"student"	141	"We finished work earlier and went to the cinema at 16.40"	"We finished work earlier and went to the cinema at 16.40"	NA	NA	NA	NA	NA	NA	11
+2021-01-27 08:48:15	"teacher008"	"teacher"	142	"Is the lockdown finished then?"	"Is the lockdown finished then?"	NA	NA	NA	NA	NA	NA	5
+2021-01-27 08:48:31	"teacher008"	"teacher"	143	"Ah, I'm jealous. What did you see?"	"Ah, I'm jealous. What did you see?"	141	NA	NA	NA	NA	NA	7
+2021-01-27 08:48:48	"student011"	"student"	144	"so there were about 5 people besides us )"	"so there were about 5 people besides us )"	141	NA	NA	NA	NA	NA	9
+2021-01-27 08:49:23	"student011"	"student"	145	"I feel like the cinema is the most safe place now ))"	"I feel like the cinema is the safest place now ))"	NA	NA	NA	NA	NA	NA	12
+2021-01-27 08:49:57	"teacher008"	"teacher"	146	"Niiiice!"	"Niiiice!"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:50:02	"student011"	"student"	147	"Yes, lockdown is finished but we never know when the new one will start ))"	"Yes, the lockdown is finished but we never know when the new one will start ))"	142	NA	NA	NA	NA	NA	15
+2021-01-27 08:50:23	"student011"	"student"	148	"So film"	"So the film"	143	NA	NA	NA	NA	NA	2
+2021-01-27 08:50:26	"teacher008"	"teacher"	149	"Ok, interesting."	"Ok, interesting."	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:50:55	"student011"	"student"	150	"Another round )"	"Another Round )"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:51:34	"teacher008"	"teacher"	151	"Is that the name of the film?"	"Is that the name of the film?"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:51:46	"student011"	"student"	152	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:51:58	"student011"	"student"	153	"It's Danish I think"	"It's Danish I think"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:52:15	"teacher008"	"teacher"	154	"Cool!"	"Cool!"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:52:39	"student011"	"student"	155	"We like it"	"We like it"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:53:04	"student011"	"student"	156	"I would recommend it"	"I would recommend it"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:53:22	"student011"	"student"	157	"I think you can watch it on the Netflix"	"I think you can watch it on Netflix"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:53:32	"student011"	"student"	158	"When you have time"	"When you have the time"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 08:53:41	"teacher008"	"teacher"	159	"Nice, thank you. Whenever we have the time again"	"Nice, thank you. Whenever we have the time again"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:53:49	"student011"	"student"	160	"I know that now it's difficult )"	"I know that now it's difficult )"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:53:56	"teacher008"	"teacher"	161	"School might not re-open here until after Easter!"	"School might not re-open here until after Easter!"	NA	NA	NA	NA	NA	NA	8
+2021-01-27 08:54:06	"student011"	"student"	162	"Oh!!"	"Oh!!"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:54:27	"teacher008"	"teacher"	163	"about 2,5 months"	"about 2,5 months"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:54:37	"teacher008"	"teacher"	164	"*schools"	"*schools"	161	NA	"repair"	"writing"	NA	NA	1
+2021-01-27 08:54:38	"student011"	"student"	165	"OOOOOh!"	"OOOOOh!"	163	NA	NA	NA	NA	NA	1
+2021-01-27 08:54:53	"teacher008"	"teacher"	166	"It's a very very long time :)"	"It's a very very long time :)"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:55:00	"student011"	"student"	167	"yes )"	"yes )"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:55:07	"student011"	"student"	168	"Be strong )"	"Be strong )"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:55:30	"teacher008"	"teacher"	169	"Thank you :) We are mostly ok"	"Thank you :) We are mostly ok"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:55:34	"student011"	"student"	170	"Oh! I have to tell you"	"Oh! I have to tell you"	NA	"3c"	"topic development"	NA	NA	NA	6
+2021-01-27 08:55:58	"student011"	"student"	171	"There are an Ukrainian platform like Netflix"	"There is an Ukrainian platform like Netflix"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:56:04	"teacher008"	"teacher"	172	"But I'm daydreaming about travelling all the time. Even simply catching a train to Cambridge, something I haven't done for nearly a year now!"	"But I'm daydreaming about travelling all the time. Even simply catching a train to Cambridge, something I haven't done for nearly a year now!"	169	NA	NA	NA	NA	NA	24
+2021-01-27 08:56:10	"teacher008"	"teacher"	173	"Oh really?"	"Oh really?"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 08:56:22	"student011"	"student"	174	"It's not so big )"	"It's not as big )"	NA	NA	NA	NA	NA	NA	5
+2021-01-27 08:56:27	"student011"	"student"	175	"But"	"But"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 08:56:50	"student011"	"student"	176	"There are some Ukrainian movies and even with subtitles"	"There are some Ukrainian movies and even with subtitles"	NA	NA	NA	NA	NA	NA	9
+2021-01-27 08:57:12	"student011"	"student"	177	"So maybe it will be useful for you or your students"	"So maybe it will be useful for you or your students"	NA	NA	NA	NA	NA	NA	11
+2021-01-27 08:57:30	"teacher008"	"teacher"	178	"Ooh, sounds nice! But the problem will again be time :("	"Ooh, sounds nice! But the problem will again be time :("	NA	NA	NA	NA	NA	NA	11
+2021-01-27 08:57:34	"student011"	"student"	179	"it calls takflix"	"it's called takflix"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:57:47	"teacher008"	"teacher"	180	"tak like 'yes'?"	"tak like 'yes'?"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:57:59	"student011"	"student"	181	"I see!! But maybe after the lockdown"	"I see!! But maybe after the lockdown"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 08:58:08	"student011"	"student"	182	"yes/ Take like yes )"	"yes/ Tak like yes )"	NA	NA	NA	NA	NA	NA	5
+2021-01-27 08:58:15	"student011"	"student"	183	"It's funny )"	"It's funny )"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 08:58:25	"teacher008"	"teacher"	184	"Got you, thanks for the recommendation!"	"Got you, thanks for the recommendation!"	NA	NA	NA	NA	NA	NA	6
+2021-01-27 08:58:46	"student011"	"student"	185	"I've realized just now that it's like opposite to Net-flix )"	"I've realized just now that it's like the opposite of Net-flix )"	NA	NA	NA	NA	NA	NA	11
+2021-01-27 08:59:13	"teacher008"	"teacher"	186	"We actually watched 'The Servant of the People' on Netflix, long before Zelenskiy ran for a president"	"We actually watched 'The Servant of the People' on Netflix, long before Zelenskiy ran for a president"	NA	"3d"	"topic development"	NA	NA	NA	17
+2021-01-27 08:59:30	"teacher008"	"teacher"	187	"Aaah, I see! Netflix - takflix :)))"	"Aaah, I see! Netflix - takflix :)))"	185	NA	NA	NA	NA	NA	7
+2021-01-27 08:59:39	"student011"	"student"	188	"yes! )))))"	"yes! )))))"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 09:00:13	"student011"	"student"	189	"Actually I've never seen 'The Servant...' )"	"Actually I've never seen 'The Servant...' )"	186	NA	NA	NA	NA	NA	7
+2021-01-27 09:00:19	"student011"	"student"	190	"Is it funny? )"	"Is it funny? )"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 09:01:10	"teacher008"	"teacher"	191	"Well, it won't be the same now I think, after he actually became the president"	"Well, it won't be the same now I think, after he actually became the president"	NA	NA	NA	NA	NA	NA	15
+2021-01-27 09:01:18	"teacher008"	"teacher"	192	"It's quite good, yes!"	"It's quite good, yes!"	NA	NA	NA	NA	NA	NA	4
+2021-01-27 09:01:31	"student011"	"student"	193	"you are right!"	"you are right!"	191	NA	NA	NA	NA	NA	3
+2021-01-27 09:01:55	"teacher008"	"teacher"	194	"He is this hero who uncovers corruption and is not interested in money, just wants to do the right thing etc. etc."	"He is this hero who uncovers corruption and is not interested in money, just wants to do the right thing etc. etc."	NA	NA	NA	NA	NA	NA	22
+2021-01-27 09:02:05	"student011"	"student"	195	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 09:02:11	"teacher008"	"teacher"	196	"It's quite clever"	"It's quite clever"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 09:02:23	"student011"	"student"	197	"yes, now it's different I think )"	"yes, now it's different I think )"	NA	NA	NA	NA	NA	NA	7
+2021-01-27 09:02:28	"teacher008"	"teacher"	198	"Yep"	"Yep"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 09:03:01	"teacher008"	"teacher"	199	"Ok, I've got to let you go! We'll speak again on Friday, right?"	"Ok, I've got to let you go! We'll speak again on Friday, right?"	NA	"4.0"	"closing"	NA	NA	NA	13
+2021-01-27 09:03:19	"student011"	"student"	200	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-01-27 09:03:25	"student011"	"student"	201	"Thank you <TEACHER>!"	"Thank you <TEACHER>!"	NA	NA	NA	NA	NA	NA	3
+2021-01-27 09:03:26	"teacher008"	"teacher"	202	"So I can actually see why people voted for him after this show"	"So I can actually see why people voted for him after this show"	198	NA	NA	NA	NA	NA	13
+2021-01-27 09:03:43	"teacher008"	"teacher"	203	"You're very welcome, it's my pleasure"	"You're very welcome, it's my pleasure"	201	NA	NA	NA	NA	NA	6
+2021-01-27 09:04:13	"student011"	"student"	204	"It was a good example of еру удусешщт сфьзфшт 0"	"It was a good example of"	202	NA	NA	NA	NA	NA	10
+2021-01-27 09:04:23	"student011"	"student"	205	"of the election campaign )"	"of an election campaign )"	NA	NA	"repair"	NA	NA	NA	5
+2021-01-27 09:04:38	"student011"	"student"	206	"Have a good day!"	"Have a good day!"	203	NA	NA	NA	NA	NA	4
+2021-01-27 09:04:43	"student011"	"student"	207	"Bye xxx"	"Bye xxx"	NA	NA	NA	NA	NA	NA	2
+2021-01-27 09:04:47	"teacher008"	"teacher"	208	"Yes, it was a very original election campaign, that's for sure!"	"Yes, it was a very original election campaign, that's for sure!"	NA	NA	NA	NA	NA	NA	11
+2021-01-27 09:04:56	"teacher008"	"teacher"	209	"Thank you, have a lovely day too, bye!"	"Thank you, have a lovely day too, bye!"	NA	NA	NA	NA	NA	"B2"	8

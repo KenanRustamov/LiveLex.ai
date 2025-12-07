@@ -1,0 +1,121 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-08 06:29:49	"teacher008"	"teacher"	1	"Morning <STUDENT>!"	"Morning <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-07-08 06:30:07	"student010"	"student"	2	"Good morning"	"Good morning"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 06:30:18	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-07-08 06:30:30	"student010"	"student"	4	"I'm bad"	"I'm bad"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 06:30:39	"teacher008"	"teacher"	5	"Oh no, what happened?"	"Oh no, what happened?"	NA	NA	NA	NA	NA	NA	4
+2020-07-08 06:31:17	"student010"	"student"	6	"Weather is very cold and it's raining"	"The weather is very cold and it's raining"	NA	NA	NA	NA	NA	NA	7
+2020-07-08 06:31:48	"teacher008"	"teacher"	7	"Snap! It's exactly the same here!"	"Snap! It's exactly the same here!"	NA	NA	NA	NA	NA	NA	6
+2020-07-08 06:32:08	"teacher008"	"teacher"	8	"Well, not very cold for England, but it's been raining since yesterday!"	"Well, not very cold for England, but it's been raining since yesterday!"	NA	NA	NA	NA	NA	NA	12
+2020-07-08 06:32:18	"student010"	"student"	9	"But you're at house!"	"But you're in your house!"	NA	"2a"	"topic development"	NA	NA	NA	4
+2020-07-08 06:32:33	"teacher008"	"teacher"	10	"Yes, what about you?"	"Yes, what about you?"	NA	NA	NA	NA	NA	NA	4
+2020-07-08 06:34:20	"student010"	"student"	11	"We don't have internet in our house so we need to go to uncle's house but he goes to work at 6:00 and I can't get in"	"We don't have an internet connection in our house so we need to go to my uncle's house but he goes to work at 6:00 and I can't get in"	NA	NA	NA	NA	NA	NA	27
+2020-07-08 06:35:19	"teacher008"	"teacher"	12	"Oh, are you outside then? We can have a class in the afternoon instead! I don't want you to stand outside in the rain!"	"Oh, are you outside then? We can have a class in the afternoon instead! I don't want you to stand outside in the rain!"	NA	NA	NA	NA	NA	NA	24
+2020-07-08 06:36:54	"student010"	"student"	13	"I'm in the something like porch"	"I'm in something like a porch"	NA	NA	NA	NA	NA	NA	6
+2020-07-08 06:37:08	"student010"	"student"	14	"I"	"I"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 06:37:34	"teacher008"	"teacher"	15	"It doesn't sound very comfortable for studying. Shall we re-schedule (find a different time for the class)?"	"It doesn't sound very comfortable for studying. Shall we re-schedule (find a different time for the class)?"	NA	"2b"	"topic development"	NA	NA	NA	17
+2020-07-08 06:37:34	"student010"	"student"	16	"It's only cold"	"It's only cold"	NA	NA	NA	NA	NA	NA	3
+2020-07-08 06:38:19	"teacher008"	"teacher"	17	"porch' is the right word I think, yes"	"porch' is the right word I think, yes"	13	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-07-08 06:38:44	"student010"	"student"	18	"I'm sure that on the Friday weather will be fine"	"I'm sure that on Friday the weather will be fine"	NA	NA	NA	NA	NA	NA	10
+2020-07-08 06:39:09	"teacher008"	"teacher"	19	"We can do Friday instead, no problem :)"	"We can do Friday instead, no problem :)"	NA	NA	NA	NA	NA	NA	8
+2020-07-08 06:41:14	"teacher008"	"teacher"	20	"Friday 9.30 am then?"	"Friday 9.30 am then?"	NA	NA	NA	NA	NA	NA	4
+2020-07-08 06:41:18	"student010"	"student"	21	"I'm with dog and cat and it's pretty warm near them:)"	"I'm with my dog and cat and it's pretty warm near them:)"	NA	NA	NA	NA	NA	NA	11
+2020-07-08 06:41:33	"teacher008"	"teacher"	22	"Well, it's up to you! :)"	"Well, it's up to you! :)"	NA	NA	NA	NA	NA	NA	6
+2020-07-08 06:41:52	"teacher008"	"teacher"	23	"Do you know 'up to you"	"Do you know 'up to you"	NA	NA	"eliciting"	"lexical resource"	NA	NA	6
+2020-07-08 06:41:57	"teacher008"	"teacher"	24	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 06:41:58	"student010"	"student"	25	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 06:42:18	"teacher008"	"teacher"	26	"What do you say then? Class or no class?"	"What do you say then? Class or no class?"	NA	NA	NA	NA	NA	NA	9
+2020-07-08 06:43:25	"student010"	"student"	27	"Class mum must be angry if we don't have lesson"	"Class. My mum will be angry if we don't have a lesson"	NA	NA	NA	NA	NA	NA	10
+2020-07-08 06:43:49	"teacher008"	"teacher"	28	"Oh, sorry about that!"	"Oh, sorry about that!"	NA	NA	NA	NA	NA	NA	4
+2020-07-08 06:44:14	"student010"	"student"	29	"Never mind"	"Never mind"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 06:44:18	"teacher008"	"teacher"	30	"Ok <STUDENT>, we'll try to make the best of it!"	"Ok <STUDENT>, we'll try to make the best of it!"	NA	"2c"	"topic development"	NA	NA	NA	10
+2020-07-08 06:44:40	"teacher008"	"teacher"	31	"Do you know 'make the best of' something?"	"Do you know 'make the best of' something?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	8
+2020-07-08 06:45:04	"student010"	"student"	32	"No,I don't"	"No, I don't"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 06:46:03	"teacher008"	"teacher"	33	"It means 'use the resources you have in a bad situation as well as possible'"	"It means 'use the resources you have in a bad situation as well as possible'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-07-08 06:46:20	"student010"	"student"	34	"Oh ok"	"Oh ok"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 06:47:03	"teacher008"	"teacher"	35	"For example, we can't go out because of coronavirus, but we can make the best of staying at home, watch movies, cook nice food, play games etc."	"For example, we can't go out because of coronavirus, but we can make the best of staying at home, watch movies, cook nice food, play games etc."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	27
+2020-07-08 06:47:41	"teacher008"	"teacher"	36	"It's cold and raining and you can't get into the house, but you're making the best of it by snuggling with you cat and dog in the porch and studying!"	"It's cold and raining and you can't get into the house, but you're making the best of it by snuggling with you cat and dog in the porch and studying!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	30
+2020-07-08 06:48:03	"student010"	"student"	37	"Coby that!"	"Copy that!"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 06:48:28	"teacher008"	"teacher"	38	"copy that'? Love it :) Is it from video games?"	"copy that'? Love it :) Is it from video games?"	NA	"2d"	"eliciting"	"lexical resource"	NA	NA	10
+2020-07-08 06:50:00	"student010"	"student"	39	"It's probably from army and it's always in games about army."	"It's probably from the army and it's always in games about the army."	NA	NA	NA	NA	NA	NA	11
+2020-07-08 06:50:11	"teacher008"	"teacher"	40	"Yep, sounds right!"	"Yep, sounds right!"	NA	NA	NA	NA	NA	NA	3
+2020-07-08 06:50:31	"teacher008"	"teacher"	41	"Another one is 'Roger that', it's the same as 'copy that', from military and aviation"	"Another one is 'Roger that', it's the same as 'copy that', from military and aviation"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-07-08 06:50:47	"teacher008"	"teacher"	42	"So how do you play video games if you don't have the Internet?"	"So how do you play video games if you don't have the Internet?"	NA	"3.0"	"topic opening"	NA	NA	NA	13
+2020-07-08 06:52:10	"student010"	"student"	43	"I have some offline games on the computer and I take phone to play Fortnite with cousin"	"I have some offline games on my computer and I take my phone to play Fortnite with my cousin"	NA	NA	NA	NA	NA	NA	17
+2020-07-08 06:52:44	"teacher008"	"teacher"	44	"Makes sense! Has your new laptop arrived yet?"	"Makes sense! Has your new laptop arrived yet?"	NA	"3a"	"topic development"	NA	NA	NA	8
+2020-07-08 06:52:56	"student010"	"student"	45	"To be honest I have only one video game on computer"	"To be honest I only have one video game on my computer"	43	NA	NA	NA	NA	NA	11
+2020-07-08 06:53:22	"teacher008"	"teacher"	46	"GTA?"	"GTA?"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 06:53:37	"student010"	"student"	47	"Yes you're right"	"Yes you're right"	NA	NA	NA	NA	NA	NA	3
+2020-07-08 06:53:42	"teacher008"	"teacher"	48	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 06:54:11	"student010"	"student"	49	"About laptop no, it isn't"	"About the laptop no, it hasn't"	44	NA	NA	NA	NA	NA	5
+2020-07-08 06:54:20	"teacher008"	"teacher"	50	"it hasn't?"	"it hasn't?"	NA	"3b"	"repair"	"grammatical resource"	NA	NA	2
+2020-07-08 06:54:34	"student010"	"student"	51	"Oh yes"	"Oh yes"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 06:54:42	"teacher008"	"teacher"	52	"but not long now, right?"	"but not long now, right?"	49	NA	NA	NA	NA	NA	5
+2020-07-08 06:55:03	"student010"	"student"	53	"I don't know"	"I don't know"	NA	NA	NA	NA	NA	NA	3
+2020-07-08 06:55:25	"teacher008"	"teacher"	54	"Hope it won't be too long!"	"Hope it won't be too long!"	NA	NA	NA	NA	NA	NA	6
+2020-07-08 06:56:41	"student010"	"student"	55	"Yes but my dad'll come to us after 2 weeks"	"Yes but my dad'll come to us in 2 weeks"	NA	"3c"	"topic development"	NA	NA	NA	10
+2020-07-08 06:57:04	"teacher008"	"teacher"	56	"Oh, your Dad will join you? and bring the laptop?"	"Oh, your Dad will join you? and bring the laptop?"	NA	NA	NA	NA	NA	NA	10
+2020-07-08 06:57:23	"student010"	"student"	57	"I think yes"	"I think yes"	NA	NA	NA	NA	NA	NA	3
+2020-07-08 06:57:31	"teacher008"	"teacher"	58	"Fingers crossed!"	"Fingers crossed!"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 06:58:13	"student010"	"student"	59	"He'll bring us home ang guess what!"	"He'll bring us home and guess what!"	NA	NA	NA	NA	NA	NA	7
+2020-07-08 06:58:31	"teacher008"	"teacher"	60	"Ah, you're going back to Kyiv??"	"Ah, you're going back to Kyiv??"	NA	NA	NA	NA	NA	NA	6
+2020-07-08 06:58:44	"teacher008"	"teacher"	61	"There's your new laptop waiting for you there?"	"There's your new laptop waiting for you there?"	59	NA	NA	NA	NA	NA	8
+2020-07-08 06:59:48	"student010"	"student"	62	"It might be but my dad didn't write to me about that"	"It might be but my dad didn't write to me about that"	NA	NA	NA	NA	NA	NA	12
+2020-07-08 07:00:17	"teacher008"	"teacher"	63	"Ah I see... Well, at least you'll have the Internet, right?"	"Ah I see... Well, at least you'll have the Internet, right?"	NA	"3d"	"topic development"	NA	NA	NA	11
+2020-07-08 07:01:05	"student010"	"student"	64	"After we will back to Kyiv we are going to another vilage without internet"	"After we are back to Kyiv we are going to another vilage without the internet"	NA	NA	NA	NA	NA	NA	14
+2020-07-08 07:01:25	"student010"	"student"	65	":("	":("	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:01:40	"teacher008"	"teacher"	66	"Sorry about that! To your other grandmother?"	"Sorry about that! To your other grandmother?"	NA	NA	NA	NA	NA	NA	7
+2020-07-08 07:01:44	"student010"	"student"	67	"😭"	"😭"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:01:56	"student010"	"student"	68	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:02:11	"teacher008"	"teacher"	69	"Oh no! It is hard though, I understand! I'd be lost without the Internet"	"Oh no! It is hard though, I understand! I'd be lost without the Internet"	NA	NA	NA	NA	NA	NA	14
+2020-07-08 07:03:24	"student010"	"student"	70	"You see if we don't go anywhere, we will go to vilage"	"You see if we don't go anywhere, we will go to the vilage"	NA	"3e"	"topic development"	NA	NA	NA	12
+2020-07-08 07:04:00	"teacher008"	"teacher"	71	"Oh I see, because of the quarantine!"	"Oh I see, because of the quarantine!"	NA	NA	NA	NA	NA	NA	7
+2020-07-08 07:04:27	"teacher008"	"teacher"	72	"Yes, it seems everyone's plans have been ruined!"	"Yes, it seems everyone's plans have been ruined!"	NA	NA	NA	NA	NA	NA	8
+2020-07-08 07:05:32	"student010"	"student"	73	"Ussualy we go to the USA or our cousins go to Lebedin with us"	"Usualy we go to the USA or our cousins go to Lebedin with us"	NA	NA	NA	NA	NA	NA	14
+2020-07-08 07:06:08	"teacher008"	"teacher"	74	"You know what, let's look at some of the sentences from today. Many of them are perfectly good, but something's missing. Have a look at this one: To be honest I have only one video game on computer"	"You know what, let's look at some of the sentences from today. Many of them are perfectly good, but something's missing. Have a look at this one: To be honest I have only one video game on computer"	NA	"4.0"	"eliciting"	"grammatical resource"	NA	NA	38
+2020-07-08 07:06:24	"teacher008"	"teacher"	75	"I see, no international travel this year!"	"I see, no international travel this year!"	73	NA	NA	NA	NA	NA	7
+2020-07-08 07:06:49	"teacher008"	"teacher"	76	"To be honest,  I have only one vide game on ___ computer. What goes in the gap?"	"To be honest,  I have only one vide game on ___ computer. What goes in the gap?"	74	NA	"eliciting"	"grammatical resource"	NA	NA	18
+2020-07-08 07:07:07	"student010"	"student"	77	"The"	"The"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:08:07	"teacher008"	"teacher"	78	"Yes, correct! or 'my'"	"Yes, correct! or 'my'"	NA	NA	NA	NA	NA	NA	4
+2020-07-08 07:08:45	"teacher008"	"teacher"	79	"I know you've heard about articles a hundred times, but for speakers of Russian / Ukrainian they are still a bit unnatural"	"I know you've heard about articles a hundred times, but for speakers of Russian / Ukrainian they are still a bit unnatural"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	22
+2020-07-08 07:09:25	"teacher008"	"teacher"	80	"But they do make your sentences sound much more 'English'!"	"But they do make your sentences sound much more 'English'!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-07-08 07:09:30	"student010"	"student"	81	"It's one of my mistakes in assay"	"It's one of my mistakes in essays"	NA	NA	NA	NA	NA	NA	7
+2020-07-08 07:09:42	"teacher008"	"teacher"	82	"Yes, I understand!"	"Yes, I understand!"	NA	NA	NA	NA	NA	NA	3
+2020-07-08 07:10:10	"teacher008"	"teacher"	83	"A lot of the time, you can use my / your / his etc. instead"	"A lot of the time, you can use my / your / his etc. instead"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-07-08 07:10:26	"teacher008"	"teacher"	84	"like 'video games on my computer'"	"like 'video games on my computer'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-07-08 07:10:53	"student010"	"student"	85	"Understand"	"Understand"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:10:55	"teacher008"	"teacher"	86	"In English we say 'my' much more than in Russian / Ukrainian!"	"In English we say 'my' much more than in Russian / Ukrainian!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-07-08 07:11:17	"teacher008"	"teacher"	87	"For example, 'I put ___ hand in ___ pocket'"	"For example, 'I put ___ hand in ___ pocket'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2020-07-08 07:11:30	"teacher008"	"teacher"	88	"What goes in the gaps?"	"What goes in the gaps?"	NA	NA	NA	NA	NA	NA	5
+2020-07-08 07:11:52	"student010"	"student"	89	"My hand in my pocket?"	"My hand in my pocket?"	NA	NA	NA	NA	NA	NA	5
+2020-07-08 07:12:02	"teacher008"	"teacher"	90	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:12:18	"teacher008"	"teacher"	91	"We wouldn't need 'my' in Russian or Ukrainian but we do in English!"	"We wouldn't need 'my' in Russian or Ukrainian but we do in English!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-07-08 07:12:27	"teacher008"	"teacher"	92	"Can you fix this one, please"	"Can you fix this one, please"	NA	"4a"	"eliciting"	"grammatical resource"	NA	NA	6
+2020-07-08 07:12:30	"teacher008"	"teacher"	93	"I'm with dog and cat and it's pretty warm near them"	"I'm with dog and cat and it's pretty warm near them"	NA	NA	NA	NA	NA	NA	11
+2020-07-08 07:12:54	"student010"	"student"	94	"The dog and the cat?"	"The dog and the cat?"	NA	NA	NA	NA	NA	NA	5
+2020-07-08 07:13:37	"teacher008"	"teacher"	95	"Yes, possible! But also 'I'm with my dog and cat'"	"Yes, possible! But also 'I'm with my dog and cat'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-07-08 07:13:53	"teacher008"	"teacher"	96	"Or are they your uncle's?"	"Or are they your uncle's?"	NA	NA	NA	NA	NA	NA	5
+2020-07-08 07:14:24	"student010"	"student"	97	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:14:37	"teacher008"	"teacher"	98	"Ok, then"	"Ok, then"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 07:14:45	"teacher008"	"teacher"	99	"I'm with ___ dog and cat'"	"I'm with ___ dog and cat'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	6
+2020-07-08 07:15:11	"student010"	"student"	100	"Uncle's dog and cat"	"Uncle's dog and cat"	NA	NA	NA	NA	NA	NA	4
+2020-07-08 07:15:34	"teacher008"	"teacher"	101	"Nearly! 'I'm with ___ uncle's dog and cat'"	"Nearly! 'I'm with ___ uncle's dog and cat'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+2020-07-08 07:15:46	"student010"	"student"	102	"The"	"The"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:15:46	"teacher008"	"teacher"	103	"we're not sure whose uncle he is! :)"	"we're not sure whose uncle he is! :)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-07-08 07:16:12	"student010"	"student"	104	"It's strange"	"It's strange"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 07:16:39	"teacher008"	"teacher"	105	"I know :) but still!"	"I know :) but still!"	NA	NA	NA	NA	NA	NA	5
+2020-07-08 07:16:54	"teacher008"	"teacher"	106	"I'm with..."	"I'm with..."	NA	NA	"eliciting"	"grammatical resource"	NA	NA	2
+2020-07-08 07:17:30	"student010"	"student"	107	"My uncle's dog and cat"	"My uncle's dog and cat"	NA	NA	NA	NA	NA	NA	5
+2020-07-08 07:17:34	"teacher008"	"teacher"	108	"yes!!"	"yes!!"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:17:37	"teacher008"	"teacher"	109	"well done!"	"well done!"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 07:17:52	"teacher008"	"teacher"	110	"Ok, now this one, easy 'mum must be angry if we don't have lesson'"	"Ok, now this one, easy 'mum must be angry if we don't have lesson'"	NA	"4b"	"eliciting"	"grammatical resource"	NA	NA	14
+2020-07-08 07:18:17	"student010"	"student"	111	"My mum"	"My mum"	NA	NA	NA	NA	NA	NA	2
+2020-07-08 07:18:23	"teacher008"	"teacher"	112	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-08 07:19:09	"teacher008"	"teacher"	113	"Family members (my Mum, my uncle), pets (my cat), belongings (my computer), body parts ('my head hurts') - we always need to say whose they are"	"Family members (my Mum, my uncle), pets (my cat), belongings (my computer), body parts ('my head hurts') - we always need to say whose they are"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	26
+2020-07-08 07:19:39	"teacher008"	"teacher"	114	"Which is easy, because you can use my / his / your etc. and not think about articles!"	"Which is easy, because you can use my / his / your etc. and not think about articles!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2020-07-08 07:20:54	"student010"	"student"	115	"Only 10 minutes left!"	"Only 10 minutes left!"	NA	"5.0"	"topic opening"	NA	NA	NA	4
+2020-07-08 07:21:10	"teacher008"	"teacher"	116	"I know, we can finish early if you are getting cold?"	"I know, we can finish early if you are getting cold?"	NA	NA	NA	NA	NA	NA	11
+2020-07-08 07:21:14	"student010"	"student"	117	"I'm really cold"	"I'm really cold"	NA	NA	NA	NA	NA	NA	3
+2020-07-08 07:21:56	"teacher008"	"teacher"	118	"Oh, poor <STUDENT>! Go get somewhere warm! I'll see you on Friday 9.30 am. Well done today, you've been very brave!"	"Oh, poor <STUDENT>! Go get somewhere warm! I'll see you on Friday 9.30 am. Well done today, you've been very brave!"	NA	"6.0"	"closing"	NA	NA	NA	21
+2020-07-08 07:22:34	"student010"	"student"	119	"Bye! See you on Friday"	"Bye! See you on Friday"	NA	NA	NA	NA	NA	NA	5
+2020-07-08 07:22:42	"teacher008"	"teacher"	120	"Bye! Take care"	"Bye! Take care"	NA	NA	NA	NA	NA	"B2"	3

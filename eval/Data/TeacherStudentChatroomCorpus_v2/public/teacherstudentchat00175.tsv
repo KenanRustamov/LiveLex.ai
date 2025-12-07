@@ -1,0 +1,100 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-01-07 13:29:50	"student015"	"student"	1	"Hello, <TEACHER>"	"Hello, <TEACHER>"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-01-07 13:30:03	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-01-07 13:30:06	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-01-07 13:30:47	"student015"	"student"	4	"I'm fine."	"I'm fine."	NA	NA	NA	NA	NA	NA	2
+2021-01-07 13:30:59	"student015"	"student"	5	"It's so cold in Beijing now."	"It's so cold in Beijing now."	NA	NA	NA	NA	NA	NA	6
+2021-01-07 13:31:09	"teacher008"	"teacher"	6	"Oh really? How cold?"	"Oh really? How cold?"	NA	NA	NA	NA	NA	NA	4
+2021-01-07 13:31:24	"teacher008"	"teacher"	7	"It's quite cold in England at the moment, -2 at night"	"It's quite cold in England at the moment, -2 at night"	NA	NA	NA	NA	NA	NA	11
+2021-01-07 13:32:02	"student015"	"student"	8	"It's -10 now"	"It's -10 now"	NA	NA	NA	NA	NA	NA	3
+2021-01-07 13:32:14	"teacher008"	"teacher"	9	"Oh goodness! That's proper cold!"	"Oh goodness! That's proper cold!"	NA	NA	NA	NA	NA	NA	5
+2021-01-07 13:32:22	"teacher008"	"teacher"	10	"like in Ukraine :)"	"like in Ukraine :)"	NA	NA	NA	NA	NA	NA	4
+2021-01-07 13:32:50	"teacher008"	"teacher"	11	"Is there central heating in Beijing? There isn't in Shanghai, but then it doesn't get as cold in Shanghai"	"Is there central heating in Beijing? There isn't in Shanghai, but then it doesn't get as cold in Shanghai"	NA	"2a"	"topic development"	NA	NA	NA	19
+2021-01-07 13:33:33	"student015"	"student"	12	"Yes. In Beijing we have central heating."	"Yes. In Beijing we have central heating."	NA	NA	NA	NA	NA	NA	7
+2021-01-07 13:33:53	"teacher008"	"teacher"	13	"Oh good!"	"Oh good!"	NA	NA	NA	NA	NA	NA	2
+2021-01-07 13:34:07	"student015"	"student"	14	"Actually it's depends on the area in China."	"Actually it depends on the area in China."	NA	NA	NA	NA	NA	NA	8
+2021-01-07 13:34:21	"teacher008"	"teacher"	15	"There's been a change in the UK since we last spoke. We're now under a complete lockdown, and school are closed"	"There's been a change in the UK since we last spoke. We're now under a complete lockdown, and school are closed"	NA	"2b"	"topic development"	NA	NA	NA	21
+2021-01-07 13:34:33	"teacher008"	"teacher"	16	"Yes, China is so vast and diverse!"	"Yes, China is so vast and diverse!"	14	NA	NA	NA	NA	NA	7
+2021-01-07 13:35:47	"student015"	"student"	17	"Oh, sorry for that."	"Oh, sorry about that."	15	NA	NA	NA	NA	NA	4
+2021-01-07 13:36:45	"teacher008"	"teacher"	18	"That's ok, thank you. It's necessary!"	"That's ok, thank you. It's necessary!"	NA	NA	NA	NA	NA	NA	6
+2021-01-07 13:37:10	"student015"	"student"	19	"Yes, it's nevessary."	"Yes, it's necessary."	NA	NA	NA	NA	NA	NA	3
+2021-01-07 13:37:26	"teacher008"	"teacher"	20	"It means my 5-year-old son is at home at the moment. I'll try to keep most of my classes, but it will depend on my husband's work too. It's a bit crazy at the moment!"	"It means my 5-year-old son is at home at the moment. I'll try to keep most of my classes, but it will depend on my husband's work too. It's a bit crazy at the moment!"	NA	"2c"	"topic development"	NA	NA	NA	35
+2021-01-07 13:37:51	"teacher008"	"teacher"	21	"Anyway, we're good for classes next week, but I might cancel some in the future. I'll try to cancel as few classes as possible!"	"Anyway, we're good for classes next week, but I might cancel some in the future. I'll try to cancel as few classes as possible!"	NA	NA	NA	NA	NA	NA	24
+2021-01-07 13:38:12	"student015"	"student"	22	"It's OK."	"It's OK."	NA	NA	NA	NA	NA	NA	2
+2021-01-07 13:38:25	"teacher008"	"teacher"	23	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-01-07 13:39:06	"teacher008"	"teacher"	24	"Ok, let's revise a few words from Monday"	"Ok, let's revise a few words from Monday"	NA	"3.0"	"exercise,revision"	"lexical resource"	NA	NA	8
+2021-01-07 13:39:14	"student015"	"student"	25	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-07 13:39:51	"teacher008"	"teacher"	26	"brave, courageous, courage, intelligent, kind-hearted, bright, humble, patient, smart, ambitious, an achiever, cunning"	"brave, courageous, courage, intelligent, kind-hearted, bright, humble, patient, smart, ambitious, an achiever, cunning"	NA	NA	NA	NA	NA	NA	13
+2021-01-07 13:40:03	"teacher008"	"teacher"	27	"First question. Which two words are nouns?"	"First question. Which two words are nouns?"	NA	"3a"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	7
+2021-01-07 13:41:11	"student015"	"student"	28	"courage"	"courage"	NA	NA	NA	NA	NA	NA	1
+2021-01-07 13:41:53	"student015"	"student"	29	"achiever?"	"achiever?"	NA	NA	NA	NA	NA	NA	1
+2021-01-07 13:42:00	"teacher008"	"teacher"	30	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2021-01-07 13:42:24	"teacher008"	"teacher"	31	"An achiever = someone for whom achievement is important and they are ready to work hard to achieve what they want"	"An achiever = someone for whom achievement is important and they are ready to work hard to achieve what they want"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	21
+2021-01-07 13:42:40	"teacher008"	"teacher"	32	"Ok, which word is a British synonym to 'intelligent'?"	"Ok, which word is a British synonym to 'intelligent'?"	NA	"3b"	"eliciting"	"lexical resource,meaning"	NA	NA	9
+2021-01-07 13:42:54	"student015"	"student"	33	"bright"	"bright"	NA	NA	NA	NA	NA	NA	1
+2021-01-07 13:43:07	"teacher008"	"teacher"	34	"Yes! And an American one?"	"Yes! And an American one?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	5
+2021-01-07 13:43:21	"student015"	"student"	35	"smart"	"smart"	NA	NA	NA	NA	NA	NA	1
+2021-01-07 13:43:34	"teacher008"	"teacher"	36	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-01-07 13:44:15	"teacher008"	"teacher"	37	"and which one means 'clever and sometimes doing dishonest things'?"	"and which one means 'clever and sometimes doing dishonest things'?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	10
+2021-01-07 13:45:19	"student015"	"student"	38	"ambitious and cunning"	"ambitious and cunning"	NA	NA	NA	NA	NA	NA	3
+2021-01-07 13:45:48	"student015"	"student"	39	"If pick one, then I will pick cunning"	"If I have to pick one, then I will pick cunning"	NA	NA	NA	NA	NA	NA	8
+2021-01-07 13:46:20	"teacher008"	"teacher"	40	"Yes, true! 'ambitious' doesn't mean a person is ready to do dishonest things"	"Yes, true! 'ambitious' doesn't mean a person is ready to do dishonest things"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2021-01-07 13:46:42	"teacher008"	"teacher"	41	"Ok, well done! Have you got any questions about the meaning of any of these words?"	"Ok, well done! Have you got any questions about the meaning of any of these words?"	NA	NA	NA	NA	NA	NA	16
+2021-01-07 13:47:12	"student015"	"student"	42	"This words are OK for me."	"These words are OK for me."	NA	NA	NA	NA	NA	NA	6
+2021-01-07 13:47:19	"student015"	"student"	43	"These"	"These"	NA	NA	"repair"	"lexical resource"	NA	NA	1
+2021-01-07 13:47:36	"teacher008"	"teacher"	44	"great!"	"great!"	NA	NA	NA	NA	NA	NA	1
+2021-01-07 13:48:05	"teacher008"	"teacher"	45	"Oh, did you have a chance to do the quiz I sent you? Where did the Hat sort you, if it's ok for me to ask?"	"Oh, did you have a chance to do the quiz I sent you? Where did the Hat sort you, if it's ok for me to ask?"	NA	"4.0"	"topic opening"	"lexical resource,reading"	NA	NA	26
+2021-01-07 13:48:43	"student015"	"student"	46	"Yes. It told me: you are a Gryffindor."	"Yes. It told me: you are a Gryffindor."	NA	NA	NA	NA	NA	NA	8
+2021-01-07 13:49:36	"teacher008"	"teacher"	47	"Ah! Congratulations! It's what you hoped for, isn't it?"	"Ah! Congratulations! It's what you hoped for, isn't it?"	NA	NA	NA	NA	NA	NA	9
+2021-01-07 13:49:49	"teacher008"	"teacher"	48	"Or did you hope to be a Hufflepuff?"	"Or did you hope to be a Hufflepuff?"	NA	NA	NA	NA	NA	NA	8
+2021-01-07 13:49:59	"student015"	"student"	49	"Yes. I like it very much,"	"Yes. I like it very much"	NA	NA	NA	NA	NA	NA	6
+2021-01-07 13:50:21	"teacher008"	"teacher"	50	"I bet! I wish I was a Gryffindor :)"	"I bet! I wish I was a Gryffindor :)"	NA	NA	NA	NA	NA	NA	9
+2021-01-07 13:51:22	"student015"	"student"	51	"I thought the sorting hat may put me to Hufflepuff."	"I thought the sorting hat may put me into Hufflepuff."	NA	NA	NA	NA	NA	NA	10
+2021-01-07 13:51:37	"student015"	"student"	52	"But the result is Gryffindor."	"But the result is Gryffindor."	NA	NA	NA	NA	NA	NA	5
+2021-01-07 13:51:59	"teacher008"	"teacher"	53	"Well, Hufflepuff is a fine house"	"Well, Hufflepuff is a fine house"	NA	NA	NA	NA	NA	NA	6
+2021-01-07 13:52:16	"student015"	"student"	54	"Yes, I think so."	"Yes, I think so."	NA	NA	NA	NA	NA	NA	4
+2021-01-07 13:53:00	"teacher008"	"teacher"	55	"What qualities do you think are important in a friend? (to use the new words)"	"What qualities do you think are important in a friend? (to use the new words)"	NA	"5.0"	"exercise,free practice"	"lexical resource,writing"	NA	NA	15
+2021-01-07 13:53:11	"teacher008"	"teacher"	58	"sorry, something went wrong!"	"sorry, something went wrong!"	NA	"6.0"	"disruption"	NA	NA	NA	4
+2021-01-07 13:53:57	"teacher008"	"teacher"	59	"For example, I would like to be friends with a courageous person, because they will probably be doing lots of new and interesting things!"	"For example, I would like to be friends with a courageous person, because they will probably be doing lots of new and interesting things!"	55	NA	"scaffolding"	"lexical resource,writing"	NA	NA	24
+2021-01-07 13:56:33	"student015"	"student"	60	"I would like to be friends with someone that we can understand each other, beacause It's great to share your idea with someone who can know you."	"I would like to be friends with someone I can understand and who can understand me, because it's great to share your ideas with someone who can know you."	NA	NA	NA	NA	NA	NA	27
+2021-01-07 14:00:11	"teacher008"	"teacher"	64	"I am back! Something went wrong with the programme, or maybe with my laptop or the connection, sorry"	"I am back! Something went wrong with the programme, or maybe with my laptop or the connection, sorry"	NA	"7.0"	"disruption"	NA	NA	NA	18
+2021-01-07 14:00:39	"student015"	"student"	69	"Hello"	"Hello"	NA	NA	NA	NA	NA	NA	1
+2021-01-07 14:00:50	"teacher008"	"teacher"	70	"Hello!"	"Hello!"	NA	NA	NA	NA	NA	NA	1
+2021-01-07 14:00:58	"teacher008"	"teacher"	71	"Yaay! it's working"	"Yaay! it's working"	NA	NA	NA	NA	NA	NA	3
+2021-01-07 14:01:05	"teacher008"	"teacher"	72	"not sure what happened there"	"not sure what happened there"	NA	NA	NA	NA	NA	NA	5
+2021-01-07 14:01:12	"student015"	"student"	73	"Looks like something's wrong."	"Looks like something's wrong."	NA	NA	NA	NA	NA	NA	4
+2021-01-07 14:01:19	"student015"	"student"	74	"It's OK now."	"It's OK now."	NA	NA	NA	NA	NA	NA	3
+2021-01-07 14:01:34	"teacher008"	"teacher"	75	"I've got your answer about a good friend, thank you!"	"I've got your answer about a good friend, thank you!"	60	NA	NA	NA	NA	NA	10
+2021-01-07 14:01:56	"teacher008"	"teacher"	76	"Yes, someone who can understand you"	"Yes, someone who can understand you"	NA	NA	NA	NA	NA	NA	6
+2021-01-07 14:02:18	"teacher008"	"teacher"	77	"What about a good leader? What should they be like?"	"What about a good leader? What should they be like?"	NA	"5a"	"exercise,free practice"	"lexical resource,writing"	NA	NA	10
+2021-01-07 14:03:31	"student015"	"student"	78	"I think a good leader must be very passion."	"I think a good leader must be very passionate."	NA	NA	NA	NA	NA	NA	9
+2021-01-07 14:03:42	"teacher008"	"teacher"	79	"very passionate?"	"very passionate?"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+2021-01-07 14:03:51	"student015"	"student"	80	"Yes, passionate"	"Yes, passionate"	NA	NA	NA	NA	NA	NA	2
+2021-01-07 14:03:58	"teacher008"	"teacher"	81	"the adjective is passionate, feeling very strongly about things"	"the adjective is passionate, feeling very strongly about things"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-01-07 14:04:03	"teacher008"	"teacher"	82	"Ok, interesting! Why?"	"Ok, interesting! Why?"	NA	NA	"eliciting"	"writing"	NA	NA	3
+2021-01-07 14:06:44	"teacher008"	"teacher"	83	"Ah, you seem to still be having problems with the chatroom..."	"Ah, you seem to still be having problems with the chatroom..."	NA	"8.0"	"disruption"	NA	NA	NA	11
+2021-01-07 14:07:01	"student015"	"student"	84	"I think a good leader must be very passionate, because the person who is passion can give you confidence."	"I think a good leader must be very passionate, because a person who is passionate can give you confidence."	82	NA	NA	NA	NA	NA	19
+2021-01-07 14:07:28	"student015"	"student"	85	"sorry, passionate"	"sorry, passionate"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+2021-01-07 14:07:57	"teacher008"	"teacher"	86	"Oh, I see. A passionate person can inspire others, right?"	"Oh, I see. A passionate person can inspire others, right?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-01-07 14:08:39	"student015"	"student"	87	"Yes, inspire is better."	"Yes, inspire is better."	NA	NA	NA	NA	NA	NA	4
+2021-01-07 14:08:58	"teacher008"	"teacher"	88	"Yes, I know what you mean!"	"Yes, I know what you mean!"	NA	NA	NA	NA	NA	NA	6
+2021-01-07 14:09:16	"teacher008"	"teacher"	89	"What about your profession? What qualities should a person have to be good at it?"	"What about your profession? What qualities should a person have to be good at it?"	NA	"5b"	"exercise,free practice"	"lexical resource,writing"	NA	NA	15
+2021-01-07 14:11:06	"student015"	"student"	90	"As a computer engineer, I think the most important quality is to be patient."	"As a computer engineer, I think the most important quality is to be patient."	NA	NA	NA	NA	NA	NA	14
+2021-01-07 14:11:46	"teacher008"	"teacher"	91	"Ok, interesting! Is it because things always go wrong with computers? :)"	"Ok, interesting! Is it because things always go wrong with computers? :)"	NA	NA	NA	NA	NA	NA	12
+2021-01-07 14:12:03	"student015"	"student"	92	"Because if you are impatient, you can make mistakes easily."	"Because if you are impatient, you can make mistakes easily."	NA	NA	NA	NA	NA	NA	10
+2021-01-07 14:12:24	"teacher008"	"teacher"	93	"Yes, makes sense! You need a lot of attention to detail"	"Yes, makes sense! You need a lot of attention to detail"	NA	NA	NA	NA	NA	NA	11
+2021-01-07 14:13:24	"student015"	"student"	94	"Yes, exactly"	"Yes, exactly"	NA	NA	NA	NA	NA	NA	2
+2021-01-07 14:14:45	"teacher008"	"teacher"	95	"Would you say you are a patient person? I think I would get too frustrated if I had to work with computers. I am patient with people (I'd like to think), but I don't think I'd be patient with computer code!"	"Would you say you are a patient person? I think I would get too frustrated if I had to work with computers. I am patient with people (I'd like to think), but I don't think I'd be patient with computer code!"	NA	NA	NA	NA	NA	NA	41
+2021-01-07 14:20:13	"student015"	"student"	96	"Actually I think I'm a patient person. If I work on computer code, I must concentrate on it all the time. If I'm disturbed, I will spend some time to re-concentrate on it again."	"Actually I think I'm a patient person. If I work on the computer code, I must concentrate on it all the time. If I'm disturbed, I will spend some time to re-concentrate on it again."	NA	NA	NA	NA	NA	NA	34
+2021-01-07 14:21:13	"teacher008"	"teacher"	97	"I see! That's a great ability!"	"I see! That's a great ability!"	NA	NA	NA	NA	NA	NA	6
+2021-01-07 14:22:28	"teacher008"	"teacher"	98	"Which do you think is more important, being humble or being ambitious? Can someone be humble and ambitious at the same time?"	"Which do you think is more important, being humble or being ambitious? Can someone be humble and ambitious at the same time?"	NA	"5c"	"exercise,free practice"	"lexical resource,writing"	NA	NA	22
+2021-01-07 14:22:28	"student015"	"student"	100	"Thanks."	"Thanks."	97	NA	NA	NA	NA	NA	1
+2021-01-07 14:23:20	"teacher008"	"teacher"	104	"Oh goodness, the same problem again! Sorry about that"	"Oh goodness, the same problem again! Sorry about that"	NA	"9.0"	"disruption"	NA	NA	NA	9
+2021-01-07 14:23:34	"teacher008"	"teacher"	105	"is it working now?"	"is it working now?"	NA	NA	NA	NA	NA	NA	4
+2021-01-07 14:23:40	"teacher008"	"teacher"	106	"oh yes, it is!"	"oh yes, it is!"	NA	NA	NA	NA	NA	NA	4
+2021-01-07 14:28:24	"student015"	"student"	107	"I think being humble is more important than being anbitious. Because humble can let you stay in a peaceful mind, and it's a good element in success to keep your mind peaceful."	"I think being humble is more important than being anbitious. Because being humble can let you stay in a peaceful state of mind, and it's a good element of success, to keep your mind peaceful."	98	NA	NA	NA	NA	NA	32
+2021-01-07 14:29:14	"teacher008"	"teacher"	108	"That's an interesting thought!"	"That's an interesting thought!"	NA	NA	NA	NA	NA	NA	4
+2021-01-07 14:31:57	"student015"	"student"	109	"The chatroom is not Ok today."	"The chatroom is not Ok today."	106	"10.0"	"disruption"	NA	NA	NA	6
+2021-01-07 14:33:04	"teacher008"	"teacher"	110	"No, it's not working at all! I just dropped you an email"	"No, it's not working at all! I just dropped you an email"	NA	NA	NA	NA	NA	NA	12
+2021-01-07 14:33:18	"teacher008"	"teacher"	111	"So about all this, I'm not sure what's going on! Maybe the server..."	"So about all this, I'm not sure what's going on! Maybe the server..."	NA	NA	NA	NA	NA	NA	13
+2021-01-07 14:35:45	"teacher008"	"teacher"	112	"I will talk to you on Monday, hope we can have a good class then!"	"I will talk to you on Monday, hope we can have a good class then!"	NA	NA	NA	NA	NA	"B2"	15

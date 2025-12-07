@@ -1,0 +1,141 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-05-27 12:07:32	"student012"	"student"	1	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-05-27 12:07:44	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:07:47	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-05-27 12:07:50	"student012"	"student"	4	"How are you?"	"How are you?"	NA	"3.0"	"topic opening"	NA	NA	NA	3
+2021-05-27 12:08:06	"student012"	"student"	5	"I'm good. It's raining cats and dogs right now in Kyiv"	"I'm good. It's raining cats and dogs right now in Kyiv"	3	NA	NA	NA	NA	NA	11
+2021-05-27 12:08:11	"teacher008"	"teacher"	6	"Good, thank you!"	"Good, thank you!"	4	NA	NA	NA	NA	NA	3
+2021-05-27 12:08:40	"teacher008"	"teacher"	7	"Oh really? It's been raining here for days, I'm so fed up with it!"	"Oh really? It's been raining here for days, I'm so fed up with it!"	5	NA	NA	NA	NA	NA	14
+2021-05-27 12:08:55	"teacher008"	"teacher"	8	"But they're promising ___ sun for the weekend!"	"But they're promising ___ sun for the weekend!"	NA	"2a"	"eliciting,revision"	"grammatical resource"	NA	NA	8
+2021-05-27 12:08:59	"student012"	"student"	9	"Does it generally rain often where you live?"	"Does it generally rain often where you live?"	7	NA	NA	NA	NA	NA	8
+2021-05-27 12:09:00	"teacher008"	"teacher"	10	"the / a / 0 article?"	"the / a / 0 article?"	8	NA	"eliciting,revision"	"grammatical resource"	NA	NA	6
+2021-05-27 12:09:04	"student012"	"student"	11	"Yaya!"	"Yay!"	8	NA	NA	NA	NA	NA	1
+2021-05-27 12:09:11	"student012"	"student"	12	"the sun"	"the sun"	10	NA	NA	NA	NA	NA	2
+2021-05-27 12:09:19	"student012"	"student"	13	"oh no"	"oh no"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:09:22	"student012"	"student"	14	"sun"	"sun"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2021-05-27 12:09:27	"teacher008"	"teacher"	15	"No, we're the 'dry counties' of the east!"	"No, we're the 'dry counties' of the east!"	9	NA	NA	NA	NA	NA	8
+2021-05-27 12:09:50	"student012"	"student"	16	"That's great"	"That's great"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:10:00	"teacher008"	"teacher"	17	"Yes, exactly, 0 article because I mean 'sunshine', don't I"	"Yes, exactly, 0 article because I mean 'sunshine', don't I"	14	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2021-05-27 12:10:47	"teacher008"	"teacher"	18	"So basically, all the rain and wind move in from the Atlantic, Ireland and the west of the country get hit worst but it loses a lot of its force by the time it gets to the east"	"So basically, all the rain and wind move in from the Atlantic, Ireland and the west of the country get hit worst but it loses a lot of its force by the time it gets to the east"	16	NA	NA	NA	NA	NA	38
+2021-05-27 12:10:48	"student012"	"student"	19	"Yes! I remembered"	"Yes! I remembered"	17	NA	NA	NA	NA	NA	3
+2021-05-27 12:11:00	"student012"	"student"	20	"but only after I wrote 'the sun')))"	"but only after I wrote 'the sun')))"	NA	NA	NA	NA	NA	NA	7
+2021-05-27 12:11:10	"teacher008"	"teacher"	21	"It? they? the rain and wind, so they! sorry!"	"It? they? the rain and wind, so they! sorry!"	18	NA	"repair"	"grammatical resource"	NA	NA	9
+2021-05-27 12:11:19	"teacher008"	"teacher"	22	"It still counts!"	"It still counts!"	20	NA	NA	NA	NA	NA	3
+2021-05-27 12:11:27	"student012"	"student"	23	"Haha I didn't even notice)"	"Haha I didn't even notice)"	21	NA	NA	NA	NA	NA	5
+2021-05-27 12:11:30	"student012"	"student"	24	"No worries"	"No worries"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:11:37	"teacher008"	"teacher"	25	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:11:50	"student012"	"student"	26	"Which part of England is hit the most then?"	"Which part of England is hit the most then?"	NA	"2b"	"topic development"	NA	NA	NA	9
+2021-05-27 12:12:05	"student012"	"student"	27	"I mean, has the heaviest rains"	"I mean, has the heaviest rains"	NA	NA	NA	NA	NA	NA	6
+2021-05-27 12:12:36	"teacher008"	"teacher"	28	"The west, definitely! That's where storms are the worst. And Wales, too. Wales is the rainiest part of the UK I think"	"The west, definitely! That's where storms are the worst. And Wales, too. Wales is the rainiest part of the UK I think"	NA	NA	NA	NA	NA	NA	22
+2021-05-27 12:12:52	"student012"	"student"	29	"Noted"	"Noted"	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:13:33	"teacher008"	"teacher"	30	"I've been so fed up with all the rain, but then, my Italian student just told me it had rained non-stop in Italy as well, so I'm a bit more reconciled with it now :)"	"I've been so fed up with all the rain, but then, my Italian student just told me it had rained non-stop in Italy as well, so I'm a bit more reconciled with it now :)"	NA	NA	NA	NA	NA	NA	35
+2021-05-27 12:13:41	"student012"	"student"	31	"Noted - not my travel destination then))"	"Noted - not my travel destination then))"	29	NA	NA	NA	NA	NA	7
+2021-05-27 12:14:06	"teacher008"	"teacher"	32	"Haha, well, it's supposed to be beautiful, but I've never been. Very green (because of all the rain)"	"Haha, well, it's supposed to be beautiful, but I've never been. Very green (because of all the rain)"	NA	NA	NA	NA	NA	NA	18
+2021-05-27 12:14:10	"teacher008"	"teacher"	33	"like Ireland :)"	"like Ireland :)"	NA	NA	NA	NA	NA	NA	3
+2021-05-27 12:14:38	"teacher008"	"teacher"	34	"I still don't dare travel to Scotland even though it's supposed to be breathtakingly beautiful, for the same reason"	"I still don't dare travel to Scotland even though it's supposed to be breathtakingly beautiful, for the same reason"	NA	NA	NA	NA	NA	NA	19
+2021-05-27 12:14:40	"student012"	"student"	35	"Sure. Must be good for the plants"	"Sure. Must be good for plants"	NA	NA	NA	NA	NA	NA	7
+2021-05-27 12:14:52	"teacher008"	"teacher"	36	"That's it!"	"That's it!"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:15:48	"teacher008"	"teacher"	37	"Ok, unfortunately, I've got to tell you that we're closing down the teaching program on June 18. Also, I will be taking next week off (<TEACHER'S CHILD>'s going to be on holiday), which leaves us two classes between June 7 and 18"	"Ok, unfortunately, I've got to tell you that we're closing down the teaching program on June 18. Also, I will be taking next week off (<TEACHER'S CHILD>'s going to be on holiday), which leaves us two classes between June 7 and 18"	NA	"4.0"	"topic opening"	NA	NA	NA	42
+2021-05-27 12:16:17	"student012"	"student"	38	"Oh no!"	"Oh no!"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:16:41	"teacher008"	"teacher"	39	"We will get on with the writing now, but for the other two, please let me know if there's something you'd particularly like to do!"	"We will get on with the writing now, but for the other two, please let me know if there's something you'd particularly like to do!"	NA	NA	NA	NA	NA	NA	25
+2021-05-27 12:17:05	"student012"	"student"	40	"Are you OK with them closing the program?"	"Are you OK with them closing the program?"	38	NA	NA	NA	NA	NA	8
+2021-05-27 12:17:26	"student012"	"student"	41	"Yes, the writing... )) Let's try"	"Yes, the writing... )) Let's try"	39	NA	NA	NA	NA	NA	6
+2021-05-27 12:17:56	"teacher008"	"teacher"	42	"Yes, it's a shame for me too, it's been such fun! And we're very grateful to our volunteer students like yourself :)"	"Yes, it's a shame for me too, it's been such fun! And we're very grateful to our volunteer students like yourself :)"	40	NA	NA	NA	NA	NA	22
+2021-05-27 12:18:39	"student012"	"student"	43	"It has been a blast!"	"It has been a blast!"	NA	NA	NA	NA	NA	NA	5
+2021-05-27 12:18:49	"teacher008"	"teacher"	44	"It certainly has!!"	"It certainly has!!"	NA	NA	NA	NA	NA	NA	3
+2021-05-27 12:19:14	"student012"	"student"	45	"I'm really going to miss our classes"	"I'm really going to miss our classes"	NA	NA	NA	NA	NA	NA	7
+2021-05-27 12:19:18	"student012"	"student"	46	"You're the best teacher"	"You're the best teacher"	NA	NA	NA	NA	NA	NA	4
+2021-05-27 12:19:35	"teacher008"	"teacher"	47	"Aww, thank you! Yes, me too! I love our conversations!"	"Aww, thank you! Yes, me too! I love our conversations!"	NA	NA	NA	NA	NA	NA	10
+2021-05-27 12:20:43	"student012"	"student"	48	"Well! I hope we'll continue conversing from time to time but on Facebook in a more relaxed setting, preferably an essay-free one))))))"	"Well! I hope we'll continue conversing from time to time but on Facebook in a more relaxed setting, preferably an essay-free one))))))"	NA	NA	NA	NA	NA	NA	22
+2021-05-27 12:21:20	"teacher008"	"teacher"	49	"Definitely!! I promise no essays on Facebook :))"	"Definitely!! I promise no essays on Facebook :))"	NA	NA	NA	NA	NA	NA	8
+2021-05-27 12:21:22	"student012"	"student"	50	"Joking ^.^"	"Joking ^.^"	48	NA	NA	NA	NA	NA	2
+2021-05-27 12:21:45	"student012"	"student"	51	"Yay!)))"	"Yay!)))"	49	NA	NA	NA	NA	NA	1
+2021-05-27 12:21:59	"student012"	"student"	52	"Ok. Then it's time to finally write it"	"Ok. Then it's time to finally write it"	NA	"5.0"	"exercise"	"writing"	"textbook, student's writing"	NA	8
+2021-05-27 12:22:07	"teacher008"	"teacher"	53	"And we do hope to go to Kyiv at some point! Maybe next Easter..."	"And we do hope to go to Kyiv at some point! Maybe next Easter..."	51	"4a"	"topic development"	NA	NA	NA	14
+2021-05-27 12:22:35	"student012"	"student"	54	"Oh! That's fantastic news. If you do come, I really hope to meet you all"	"Oh! That's fantastic news. If you do come, I really hope to meet you all"	NA	NA	NA	NA	NA	NA	15
+2021-05-27 12:22:56	"teacher008"	"teacher"	55	"Yep! Have you got the writing paper handy? Could you re-read the two paragraphs about advertising? And I'll retrieve the sentences you wrote last time"	"Yep! Have you got the writing paper handy? Could you re-read the two paragraphs about advertising? And I'll retrieve the sentences you wrote last time"	52	NA	NA	NA	NA	NA	25
+2021-05-27 12:23:08	"teacher008"	"teacher"	56	"That would be great!"	"That would be great!"	54	NA	NA	NA	NA	NA	4
+2021-05-27 12:24:14	"student012"	"student"	57	"ready with the papee"	"ready with the paper"	55	NA	NA	NA	NA	NA	4
+2021-05-27 12:24:16	"student012"	"student"	58	"paper"	"paper"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-27 12:24:28	"teacher008"	"teacher"	59	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:25:03	"teacher008"	"teacher"	60	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil.  1) Some people think ads are fun and can brighten up both city and rural landscapes, can be informative and help  2) Others think their ubiquity is annoying even dangerous at times, especially towards vulnerable groups of people  3) I think ads are OK when there's an option to mute or cancel them. In real world it's almost impossible to achieve. Thus, I only support ads on the internet"	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil.  1) Some people think ads are fun and can brighten up both city and rural landscapes, can be informative and help  2) Others think their ubiquity is annoying even dangerous at times, especially towards vulnerable groups of people  3) I think ads are OK when there's an option to mute or cancel them. In real world it's almost impossible to achieve. Thus, I only support ads on the internet"	NA	"5a"	"exercise"	"writing,content,discourse management"	"student's writing, textbook"	NA	92
+2021-05-27 12:25:13	"student012"	"student"	61	"I'm terribly sorry to ask for the millionth (?) time but could you possible tell me again the pages and the book's name"	"I'm terribly sorry to ask for the millionth (?) time but could you possiblyt tell me again the pages and the name of the book"	NA	"5b"	"enquiry"	NA	NA	NA	23
+2021-05-27 12:25:21	"teacher008"	"teacher"	62	"This was the plan from the last time"	"This was the plan from the last time"	60	NA	NA	NA	NA	NA	8
+2021-05-27 12:25:22	"student012"	"student"	63	"possibly*"	"possibly*"	61	NA	"repair"	"writing"	NA	NA	1
+2021-05-27 12:25:36	"student012"	"student"	64	"Did I write this?"	"Did I write this?"	62	NA	NA	NA	NA	NA	4
+2021-05-27 12:25:39	"student012"	"student"	65	"Whoa"	"Whoa"	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:25:45	"teacher008"	"teacher"	66	"No worries! It's the writing sample paper pdf that I emailed you last time!"	"No worries! It's the writing sample paper pdf that I emailed you last time!"	61	NA	NA	NA	NA	NA	14
+2021-05-27 12:25:52	"teacher008"	"teacher"	67	"So it should be in your inbox"	"So it should be in your inbox"	NA	NA	NA	NA	NA	NA	7
+2021-05-27 12:26:00	"teacher008"	"teacher"	68	"Right? As I keep saying :))"	"Right? As I keep saying :))"	65	NA	NA	NA	NA	NA	6
+2021-05-27 12:27:00	"student012"	"student"	69	"Ok I've got it"	"Ok I've got it"	67	NA	NA	NA	NA	NA	4
+2021-05-27 12:27:16	"teacher008"	"teacher"	70	"Lovely! Could you re-read the paragraphs about advertising, please?"	"Lovely! Could you re-read the paragraphs about advertising, please?"	NA	"5c"	"exercise"	"writing"	NA	NA	9
+2021-05-27 12:27:22	"student012"	"student"	71	"So I read again. Then try to write an essay including my previous sentences"	"So I read again. Then try to write an essay including my previous sentences"	NA	NA	NA	NA	NA	NA	14
+2021-05-27 12:27:30	"student012"	"student"	72	"Ok, sure"	"Ok, sure"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:28:29	"teacher008"	"teacher"	73	"Yes! I think this first sentence could be a good start, what do you think?"	"Yes! I think this first sentence could be a good start, what do you think?"	NA	"5d"	"exercise"	"writing"	"student's writing, textbook"	NA	15
+2021-05-27 12:28:41	"teacher008"	"teacher"	74	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil."	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil."	NA	NA	NA	NA	NA	NA	20
+2021-05-27 12:29:10	"student012"	"student"	75	"Agree"	"Agree"	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:29:14	"teacher008"	"teacher"	76	"Feel free to add a couple of sentences for the intro"	"Feel free to add a couple of sentences for the intro"	NA	NA	NA	NA	NA	NA	11
+2021-05-27 12:29:17	"student012"	"student"	77	"One quick question"	"One quick question"	NA	"5e"	"enquiry"	"writing,content"	NA	NA	3
+2021-05-27 12:29:20	"teacher008"	"teacher"	78	"Sure"	"Sure"	76	NA	NA	NA	NA	NA	1
+2021-05-27 12:29:40	"student012"	"student"	79	"WHat do you think the author means by 'digital advertising' in the second article?"	"What do you think the author means by 'digital advertising' in the second article?"	NA	NA	"enquiry"	"writing,content"	NA	NA	14
+2021-05-27 12:29:54	"student012"	"student"	80	"Digital billboards"	"Digital billboards"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:30:02	"student012"	"student"	81	"or internet ads"	"or internet ads"	NA	NA	NA	NA	NA	NA	3
+2021-05-27 12:30:29	"student012"	"student"	82	"I mean, digital billboards on the streets"	"I mean, digital billboards on the streets"	NA	NA	NA	NA	NA	NA	7
+2021-05-27 12:30:45	"teacher008"	"teacher"	83	"That's a good question, I've been thinking myself! I think they mean digital billboards, because it needs to correlate with the first paragraph"	"That's a good question, I've been thinking myself! I think they mean digital billboards, because it needs to correlate with the first paragraph"	NA	NA	"scaffolding"	"writing,content"	NA	NA	23
+2021-05-27 12:30:59	"teacher008"	"teacher"	84	"and the contrast is, posters in the past vs. digital billboards now"	"and the contrast is, posters in the past vs. digital billboards now"	NA	NA	"scaffolding"	"writing,content"	NA	NA	12
+2021-05-27 12:31:04	"teacher008"	"teacher"	85	"or at least it must be!"	"or at least it must be!"	NA	NA	NA	NA	NA	NA	6
+2021-05-27 12:31:11	"student012"	"student"	86	"Ok. So it probably correlates with the previous artcile"	"Ok. So it probably correlates with the previous article"	NA	NA	NA	NA	NA	NA	9
+2021-05-27 12:31:20	"student012"	"student"	87	"article"	"article"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-27 12:31:33	"teacher008"	"teacher"	88	"Yes, it should! Two views of the same thing"	"Yes, it should! Two views of the same thing"	NA	NA	NA	NA	NA	NA	9
+2021-05-27 12:32:12	"student012"	"student"	89	"If that's not the case then I would have argued differently. Hence the question"	"If that's not the case then I would have argued differently. Hence the question"	NA	NA	NA	NA	NA	NA	14
+2021-05-27 12:32:36	"teacher008"	"teacher"	90	"So let's stick to the idea of digital billboards"	"So let's stick to the idea of digital billboards"	NA	NA	NA	NA	NA	NA	9
+2021-05-27 12:32:40	"teacher008"	"teacher"	91	"Aha, I see! How?"	"Aha, I see! How?"	89	"5f"	"eliciting"	"writing,content"	NA	NA	4
+2021-05-27 12:32:41	"student012"	"student"	92	"Yes."	"Yes."	90	NA	NA	NA	NA	NA	1
+2021-05-27 12:32:51	"student012"	"student"	93	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:33:06	"student012"	"student"	94	"I need to thinl"	"I need to think"	NA	NA	NA	NA	NA	NA	4
+2021-05-27 12:33:09	"student012"	"student"	95	"think"	"think"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-27 12:34:00	"teacher008"	"teacher"	96	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:34:43	"student012"	"student"	97	"Something about that there's no escape from the advertising frenzy, neither online, not offline. And you'll have to become immune at some point and maybe teach your children to do the same, see through things"	"Something about the fact that there's no escape from the advertising frenzy, neither online, nor offline. And you'll have to become immune at some point and maybe teach your children to do the same, see through things"	NA	NA	NA	NA	NA	NA	35
+2021-05-27 12:34:54	"student012"	"student"	98	"neither ... nor"	"neither ... nor"	NA	NA	"repair"	"writing"	NA	NA	3
+2021-05-27 12:36:20	"teacher008"	"teacher"	99	"Yes, I see!"	"Yes, I see!"	NA	NA	NA	NA	NA	NA	3
+2021-05-27 12:37:04	"teacher008"	"teacher"	100	"Your original point was that we have no choice when exposed to billboards, we can't block them like on the Internet"	"Your original point was that we have no choice when exposed to billboards, we can't block them like on the Internet"	NA	NA	NA	NA	NA	NA	21
+2021-05-27 12:37:37	"student012"	"student"	101	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:37:49	"teacher008"	"teacher"	102	"Shall we go at paragraphs one by one, and then you choose which idea you'd like to express? or potentially both"	"Shall we go at paragraphs one by one, and then you choose which idea you'd like to express? or potentially both"	NA	"5g"	"exercise"	"writing"	NA	NA	21
+2021-05-27 12:38:00	"student012"	"student"	103	"That's if we think about digital boards on the streets"	"That's if we think about digital boards on the streets"	101	NA	NA	NA	NA	NA	10
+2021-05-27 12:38:18	"student012"	"student"	104	"I'd like to continue expressing the first one"	"I'd like to continue expressing the first one"	102	NA	NA	NA	NA	NA	8
+2021-05-27 12:38:40	"student012"	"student"	105	"So I have to write by hand the whole essay now, right?"	"So I have to write by hand the whole essay now, right?"	NA	NA	NA	NA	NA	NA	12
+2021-05-27 12:38:48	"teacher008"	"teacher"	106	"I think it's a very promising one, easy to write about!"	"I think it's a very promising one, easy to write about!"	104	NA	NA	NA	NA	NA	11
+2021-05-27 12:39:13	"student012"	"student"	107	"Yes, much easier."	"Yes, much easier."	NA	NA	NA	NA	NA	NA	3
+2021-05-27 12:39:19	"teacher008"	"teacher"	108	"Can you type it here, please, sentence by sentence? You've got the first sentence!"	"Can you type it here, please, sentence by sentence? You've got the first sentence!"	105	NA	NA	NA	NA	NA	14
+2021-05-27 12:39:34	"student012"	"student"	109	"Here? OK!"	"Here? OK!"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 12:39:39	"teacher008"	"teacher"	110	"And I'll be saving them for you"	"And I'll be saving them for you"	NA	NA	NA	NA	NA	NA	7
+2021-05-27 12:39:55	"student012"	"student"	111	"in 2 mins I'll start, Ok?"	"in 2 mins I'll start, Ok?"	NA	NA	NA	NA	NA	NA	6
+2021-05-27 12:40:24	"teacher008"	"teacher"	112	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:43:45	"student012"	"student"	113	"Ok. Ready to start"	"Ok. Ready to start"	NA	"5h"	"exercise"	"writing"	NA	NA	4
+2021-05-27 12:43:55	"teacher008"	"teacher"	114	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2021-05-27 12:44:00	"teacher008"	"teacher"	115	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil."	"Since the dawn of advertising people have been debating over whether the ads are an abomination or a necessary evil."	NA	NA	NA	NA	NA	NA	20
+2021-05-27 12:44:08	"teacher008"	"teacher"	116	"the first sentence again"	"the first sentence again"	NA	NA	NA	NA	NA	NA	4
+2021-05-27 12:48:09	"student012"	"student"	117	"It is hard to imagine a single day when you're not bombarded with advertisements, in one way or another."	"It is hard to imagine a single day when you're not bombarded with advertisements, in one way or another."	NA	NA	NA	NA	NA	NA	19
+2021-05-27 12:48:32	"teacher008"	"teacher"	118	"Yes, 'bombarded with' = lovely!"	"Yes, 'bombarded with' = lovely!"	NA	NA	NA	NA	NA	NA	5
+2021-05-27 12:52:00	"student012"	"student"	119	"You may think it's necessary or you may be appalled - one thing is clear, there's little you can do about it. However, this is only partly true for the virtual world."	"You may think it's necessary or you may be appalled - one thing is clear, there's little you can do about it. However, this is only partly true for the virtual world."	NA	NA	NA	NA	NA	NA	32
+2021-05-27 12:55:22	"teacher008"	"teacher"	120	"Right, I'm just thinking... are we still in the introduction part?"	"Right, I'm just thinking... are we still in the introduction part?"	NA	NA	"eliciting"	"writing,discourse management"	NA	NA	11
+2021-05-27 12:57:05	"teacher008"	"teacher"	121	"There's surely more than one way about it, but shall we say for now,  1)a general introduction 2) opinion 1 3) opinion 2 4) your opinion"	"There's surely more than one way about it, but shall we say for now,  1)a general introduction 2) opinion 1 3) opinion 2 4) your opinion"	NA	NA	"scaffolding"	"writing,discourse management"	NA	NA	27
+2021-05-27 12:57:19	"student012"	"student"	122	"I'm positive that even the biggest and most loyal fans of the advertising world, who consider ads to be fun, informative and overall a charming addition to both city and rural landscapes - even those people have an ad-blocker installed on their Pcs."	"I'm positive that even the biggest and most loyal fans of the advertising world, who consider ads to be fun, informative and overall a charming addition to both city and rural landscapes - even those people have an ad-blocker installed on their PCs."	119	NA	NA	NA	NA	NA	43
+2021-05-27 12:58:06	"student012"	"student"	123	"Maybe omit 'even those people'?"	"Maybe omit 'even those people'?"	NA	NA	"repair"	"grammatical resource"	NA	NA	5
+2021-05-27 12:58:14	"teacher008"	"teacher"	124	"Ok, that's a great sentence, but you are going back to billboards, aren't you??"	"Ok, that's a great sentence, but you are going back to billboards, aren't you??"	NA	"5i"	"eliciting,repair"	"writing,content"	NA	NA	14
+2021-05-27 12:58:50	"teacher008"	"teacher"	125	"yes, a comma after landscapes and 'have an ad-blocker...'"	"yes, a comma after landscapes and 'have an ad-blocker...'"	123	NA	"repair"	"grammatical resource"	NA	NA	9
+2021-05-27 12:59:05	"student012"	"student"	126	"I'm trying to continue what I wrote last time."	"I'm trying to continue what I wrote last time."	124	NA	NA	NA	NA	NA	9
+2021-05-27 12:59:31	"student012"	"student"	127	"Or we're doing a new version?"	"Or we're doing a new version?"	NA	NA	NA	NA	NA	NA	6
+2021-05-27 12:59:57	"student012"	"student"	128	"So I need more introduction then, right?"	"So I need more introduction then, right?"	NA	NA	NA	NA	NA	NA	7
+2021-05-27 13:00:03	"teacher008"	"teacher"	129	"No, you're right, we're building on the old one!"	"No, you're right, we're building on the old one!"	127	NA	NA	NA	NA	NA	9
+2021-05-27 13:00:35	"teacher008"	"teacher"	130	"I would say so, and then proceed to the next paragraph that can start with a topic sentence"	"I would say so, and then proceed to the next paragraph that can start with a topic sentence"	128	NA	"scaffolding"	"writing,discourse management"	NA	NA	18
+2021-05-27 13:00:40	"teacher008"	"teacher"	131	"Boring, but well-structured!"	"Boring, but well-structured!"	NA	NA	NA	NA	NA	NA	3
+2021-05-27 13:01:01	"teacher008"	"teacher"	132	"Ah, I've got to let you go! Shall we continue in two weeks' time?"	"Ah, I've got to let you go! Shall we continue in two weeks' time?"	NA	"6.0"	"closing"	NA	NA	NA	14
+2021-05-27 13:01:18	"student012"	"student"	133	"Sure. I'll try to maybe write it on my own"	"Sure. I'll try to maybe write it on my own"	NA	NA	NA	NA	NA	NA	10
+2021-05-27 13:01:37	"teacher008"	"teacher"	134	"Sure, feel free to email it to me then!"	"Sure, feel free to email it to me then!"	NA	NA	NA	NA	NA	NA	9
+2021-05-27 13:01:43	"student012"	"student"	135	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 13:01:58	"teacher008"	"teacher"	136	"Ok, lovely. Thursday June 10, same time?"	"Ok, lovely. Thursday June 10, same time?"	NA	NA	NA	NA	NA	NA	7
+2021-05-27 13:02:08	"student012"	"student"	137	"That's right!"	"That's right!"	NA	NA	NA	NA	NA	NA	2
+2021-05-27 13:02:33	"teacher008"	"teacher"	138	"Great! Looking forward to it!"	"Great! Looking forward to it!"	NA	NA	NA	NA	NA	NA	5
+2021-05-27 13:02:35	"student012"	"student"	139	"See you soon!"	"See you soon!"	NA	NA	NA	NA	NA	NA	3
+2021-05-27 13:02:41	"teacher008"	"teacher"	140	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"C2"	1

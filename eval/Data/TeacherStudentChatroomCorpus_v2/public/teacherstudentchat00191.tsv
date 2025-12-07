@@ -1,0 +1,125 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-02 13:31:52	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-02-02 13:32:02	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 13:32:07	"teacher008"	"teacher"	3	"How is it going?"	"How is it going?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-02-02 13:32:19	"student009"	"student"	4	"I am fine, and you?"	"I am fine, and you?"	NA	NA	NA	NA	NA	NA	5
+2021-02-02 13:32:38	"teacher008"	"teacher"	5	"I'm fine too, thank you"	"I'm fine too, thank you"	NA	NA	NA	NA	NA	NA	5
+2021-02-02 13:32:43	"teacher008"	"teacher"	6	"How's school?"	"How's school?"	NA	"2a"	"topic development"	NA	NA	NA	2
+2021-02-02 13:32:58	"student009"	"student"	7	"boring"	"boring"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:33:03	"student009"	"student"	8	"as always"	"as always"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 13:33:11	"teacher008"	"teacher"	9	"Of course!"	"Of course!"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 13:34:13	"teacher008"	"teacher"	10	"I'm actually quite excited because the books that I ordered have just arrived. Have you heard of 'His Dark Materials'?"	"I'm actually quite excited because the books that I ordered have just arrived. Have you heard of 'His Dark Materials'?"	NA	"2b"	"topic development"	NA	NA	NA	20
+2021-02-02 13:34:25	"student009"	"student"	11	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:35:28	"student009"	"student"	12	"what is it about?"	"what is it about?"	NA	NA	NA	NA	NA	NA	4
+2021-02-02 13:35:34	"teacher008"	"teacher"	13	"Well, it's a TV show on the BBC based on three novels. My husband and I have watched the show and we are now going to read the books while waiting for season 3"	"Well, it's a TV show on the BBC based on three novels. My husband and I have watched the show and we are now going to read the books while waiting for season 3"	NA	NA	NA	NA	NA	NA	34
+2021-02-02 13:36:05	"teacher008"	"teacher"	14	"I think you would like it! It's a fantasy world, a bit like Harry Potter (but a very different world)"	"I think you would like it! It's a fantasy world, a bit like Harry Potter (but a very different world)"	NA	NA	NA	NA	NA	NA	20
+2021-02-02 13:36:45	"teacher008"	"teacher"	15	"In this world, people have animal companions that are like their souls, they are always with them"	"In this world, people have animal companions that are like their souls, they are always with them"	NA	NA	NA	NA	NA	NA	17
+2021-02-02 13:36:52	"student009"	"student"	16	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:36:54	"teacher008"	"teacher"	17	"Is you Internet connection ok?"	"Is you Internet connection ok?"	NA	"3.0"	"disruption"	NA	NA	NA	5
+2021-02-02 13:36:58	"student009"	"student"	18	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:37:28	"teacher008"	"teacher"	19	"And it's about this girl Lyra, who is your age probably"	"And it's about this girl Lyra, who is your age probably"	16	NA	NA	NA	NA	NA	11
+2021-02-02 13:37:42	"teacher008"	"teacher"	20	"Anyway, I think you would enjoy the show and the books"	"Anyway, I think you would enjoy the show and the books"	NA	NA	NA	NA	NA	NA	11
+2021-02-02 13:37:53	"teacher008"	"teacher"	21	"Have you seen / read anything exciting recently?"	"Have you seen / read anything exciting recently?"	NA	"4.0"	"topic opening"	NA	NA	NA	8
+2021-02-02 13:38:15	"student009"	"student"	22	"I have read Taras Bulba"	"I have read Taras Bulba"	NA	NA	NA	NA	NA	NA	5
+2021-02-02 13:38:44	"student009"	"student"	23	"I didn't really like it"	"I didn't really like it"	NA	NA	NA	NA	NA	NA	5
+2021-02-02 13:38:47	"teacher008"	"teacher"	24	"Ah, that's an interesting one! How did you like it?"	"Ah, that's an interesting one! How did you like it?"	22	NA	NA	NA	NA	NA	10
+2021-02-02 13:38:50	"teacher008"	"teacher"	25	"Why not?"	"Why not?"	23	NA	NA	NA	NA	NA	2
+2021-02-02 13:39:39	"student009"	"student"	26	"I don't like that it is really cruel"	"I don't like that it is really cruel"	NA	NA	NA	NA	NA	NA	8
+2021-02-02 13:39:47	"student009"	"student"	27	"especially Taras"	"especially Taras"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 13:40:07	"teacher008"	"teacher"	28	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:41:08	"teacher008"	"teacher"	29	"He killed his son, didn't he?"	"He killed his son, didn't he?"	NA	NA	NA	NA	NA	NA	6
+2021-02-02 13:41:50	"student009"	"student"	30	"and his relationships with his wife the most thing I hate"	"and his relationships with his wife, the thing I hate the most"	NA	NA	NA	NA	NA	NA	11
+2021-02-02 13:41:52	"student009"	"student"	31	"yes"	"yes"	29	NA	NA	NA	NA	NA	1
+2021-02-02 13:42:09	"teacher008"	"teacher"	32	"Oh really? What happened with his wife, remind me please"	"Oh really? What happened with his wife, remind me please"	30	NA	NA	NA	NA	NA	10
+2021-02-02 13:44:48	"student009"	"student"	33	"he didn't hear her, hr didn't even try to listeb to her, she asked him not to take his sons eith him to Sech, she was crying, because they only came from Bursa(school)"	"He didn't hear her, he didn't even try to listen to her. She asked him not to take his sons with him to Sech, she was crying, because they only just came home from the bursa (school)"	NA	NA	"non-English"	"code switching"	NA	NA	33
+2021-02-02 13:45:36	"teacher008"	"teacher"	34	"Oh, but he didn't listen to her because she was only a woman?"	"Oh, but he didn't listen to her because she was only a woman?"	NA	NA	NA	NA	NA	NA	13
+2021-02-02 13:45:45	"student009"	"student"	35	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:46:18	"teacher008"	"teacher"	36	"Yes, this is horrible, but a good reminder of what life was like for women for most of history!"	"Yes, this is horrible, but a good reminder of what life was like for women for most of history!"	NA	NA	NA	NA	NA	NA	19
+2021-02-02 13:47:31	"teacher008"	"teacher"	37	"To be honest, I stopped reading 'old' authors because, like yourself, I find it very upsetting to read about how powerless women used to be!"	"To be honest, I stopped reading 'old' authors because, like yourself, I find it very upsetting to read about how powerless women used to be!"	NA	"4a"	"topic development"	NA	NA	NA	25
+2021-02-02 13:47:46	"student009"	"student"	38	"yeah!"	"yeah!"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:48:24	"teacher008"	"teacher"	39	"I prefer to read modern authors, especially female"	"I prefer to read modern authors, especially female"	NA	NA	NA	NA	NA	NA	8
+2021-02-02 13:48:44	"teacher008"	"teacher"	40	"But you don't have this luxury because you have to read for school, don't you?"	"But you don't have this luxury because you have to read for school, don't you?"	NA	NA	NA	NA	NA	NA	15
+2021-02-02 13:49:28	"student009"	"student"	41	"at least there is no a lot of sexism in women's books as in men's"	"at least there is not as much sexism in women's books as in men's"	NA	NA	NA	NA	NA	NA	15
+2021-02-02 13:49:46	"teacher008"	"teacher"	42	"Yes, definitely!"	"Yes, definitely!"	39	NA	NA	NA	NA	NA	2
+2021-02-02 13:50:02	"teacher008"	"teacher"	43	"Did you read Taras Bulba for your literature class at school?"	"Did you read Taras Bulba for your literature class at school?"	NA	"4b"	"topic development"	NA	NA	NA	11
+2021-02-02 13:50:25	"student009"	"student"	44	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:50:44	"teacher008"	"teacher"	45	"I hated Taras Bulba too, by the way. All these descriptions of people killed, very cruel like you say"	"I hated Taras Bulba too, by the way. All these descriptions of people killed, very cruel like you say"	NA	"4c"	"topic development"	NA	NA	NA	19
+2021-02-02 13:50:55	"teacher008"	"teacher"	46	"Did you tell you teacher that you didn't like it?"	"Did you tell you teacher that you didn't like it?"	44	NA	NA	NA	NA	NA	10
+2021-02-02 13:52:24	"teacher008"	"teacher"	47	"*your"	"*your"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-02 13:52:35	"student009"	"student"	48	"in my essay"	"in my essay"	NA	NA	NA	NA	NA	NA	3
+2021-02-02 13:52:49	"teacher008"	"teacher"	49	"Well done! :)"	"Well done! :)"	NA	NA	NA	NA	NA	NA	3
+2021-02-02 13:52:58	"student009"	"student"	50	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:53:20	"student009"	"student"	51	"well the only thibg I loved about hime that he is very smart"	"well the only thing I loved about him was that he is very smart"	45	NA	NA	NA	NA	NA	13
+2021-02-02 13:53:34	"student009"	"student"	52	"sorry for typos"	"sorry for the typos"	NA	NA	NA	NA	NA	NA	3
+2021-02-02 13:53:42	"teacher008"	"teacher"	53	"no worries"	"no worries"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 13:53:52	"teacher008"	"teacher"	54	"Was he smart? I can't remember!"	"Was he smart? I can't remember!"	NA	NA	NA	NA	NA	NA	6
+2021-02-02 13:54:33	"student009"	"student"	55	"he could get anything he wanted"	"he could get anything he wanted"	NA	NA	NA	NA	NA	NA	6
+2021-02-02 13:54:54	"teacher008"	"teacher"	56	"I see! Would you say he was quite cunning?"	"I see! Would you say he was quite cunning?"	NA	NA	NA	NA	NA	NA	9
+2021-02-02 13:55:32	"student009"	"student"	57	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 13:56:48	"teacher008"	"teacher"	58	"Ok, cool. Let"	"Ok, cool. Let"	NA	NA	NA	NA	NA	NA	3
+2021-02-02 13:57:19	"teacher008"	"teacher"	59	"Let's go back to what you read about the brain last time. Do you remember what that article said? In a few words"	"Let's go back to what you read about the brain last time. Do you remember what that article said? In a few words"	NA	"5.0"	"revision"	"lexical resource,reading"	NA	NA	23
+2021-02-02 13:58:27	"student009"	"student"	60	"about dopemine, how teenagers brain is different and about braincells"	"about dopamine, how teenagers' brain is different and about brain cells"	NA	NA	NA	NA	NA	NA	10
+2021-02-02 13:58:50	"student009"	"student"	61	"and hemispheres"	"and hemispheres"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 13:59:00	"teacher008"	"teacher"	62	"Yes, that's right, dopamine"	"Yes, that's right, dopamine"	60	NA	"repair"	"writing"	NA	NA	4
+2021-02-02 14:00:22	"teacher008"	"teacher"	63	"Our mission of today is to put some bits of information we know about teenagers into a small article, 'What a teenager wants the world to know about them'"	"Our mission of today is to put some bits of information we know about teenagers into a small article, 'What a teenager wants the world to know about them'"	NA	"6.0"	"exercise"	"lexical resource,writing"	NA	NA	29
+2021-02-02 14:00:28	"teacher008"	"teacher"	64	"For example"	"For example"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 14:01:15	"teacher008"	"teacher"	65	"1. Teenagers need more sleep than adults. Moreover, they often need to sleep in the morning and feel awake at night, sometimes until late at night. It is very important to let a young person get enough sleep."	"1. Teenagers need more sleep than adults. Moreover, they often need to sleep in the morning and feel awake at night, sometimes until late at night. It is very important to let a young person get enough sleep."	NA	NA	"scaffolding"	"writing"	NA	NA	38
+2021-02-02 14:01:23	"teacher008"	"teacher"	66	"That's my idea."	"That's my idea."	NA	NA	NA	NA	NA	NA	3
+2021-02-02 14:01:45	"teacher008"	"teacher"	67	"We've got an article and you, a brand new teenager as of January 18!"	"We've got an article and you, a brand new teenager as of <STUDENT'S BIRTHDAY>!"	NA	NA	NA	NA	NA	NA	14
+2021-02-02 14:02:03	"student009"	"student"	68	"heh"	"heh"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:02:11	"teacher008"	"teacher"	69	"What would you like the world (maybe adults) to know?"	"What would you like the world (maybe adults) to know?"	NA	"6a"	"eliciting"	"writing"	NA	NA	10
+2021-02-02 14:02:28	"teacher008"	"teacher"	70	"*the article, I mean the text about the brain"	"*the article, I mean the text about the brain"	67	NA	"clarification"	NA	NA	NA	9
+2021-02-02 14:03:37	"student009"	"student"	71	"adults should stop grounding kids for their marks"	"Adults should stop grounding kids for their marks"	69	NA	NA	NA	NA	NA	8
+2021-02-02 14:04:35	"teacher008"	"teacher"	72	"Ok! Good one! Why?))"	"Ok! Good one! Why?))"	NA	NA	"eliciting"	"writing"	NA	NA	4
+2021-02-02 14:05:12	"student009"	"student"	73	"bad marks doesn't mean that your child us stupid"	"Bad marks don't mean that your child is stupid"	NA	NA	NA	NA	NA	NA	9
+2021-02-02 14:05:34	"teacher008"	"teacher"	74	"Cool, go on!"	"Cool, go on!"	NA	NA	NA	NA	NA	NA	3
+2021-02-02 14:05:35	"student009"	"student"	75	"omg my Ipad just came"	"omg my Ipad just came"	NA	"7.0"	"disruption"	NA	NA	NA	5
+2021-02-02 14:05:50	"teacher008"	"teacher"	76	"OMG!"	"OMG!"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:06:00	"student009"	"student"	77	"with delivery"	"with delivery"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 14:06:21	"teacher008"	"teacher"	78	"I'll do you a deal. You don't look at your new ipad for 25 minutes and I don't look at my new book :)"	"I'll do you a deal. You don't look at your new ipad for 25 minutes and I don't look at my new book :)"	NA	NA	NA	NA	NA	NA	24
+2021-02-02 14:06:42	"teacher008"	"teacher"	79	"You chose the ipad then? not the iphone?"	"You chose the ipad then? not the iphone?"	NA	NA	NA	NA	NA	NA	8
+2021-02-02 14:07:09	"student009"	"student"	80	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:07:13	"student009"	"student"	81	"okay"	"okay"	78	NA	NA	NA	NA	NA	1
+2021-02-02 14:07:32	"teacher008"	"teacher"	82	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:07:52	"teacher008"	"teacher"	83	"Bad marks ___ mean that your child is stupid"	"Bad marks ___ mean that your child is stupid"	NA	"6b"	"eliciting,repair"	"grammatical resource"	NA	NA	9
+2021-02-02 14:08:02	"student009"	"student"	84	"don't"	"don't"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:08:06	"teacher008"	"teacher"	85	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:08:21	"teacher008"	"teacher"	86	"And even if they were stupid, how can grounding help with that? :))"	"And even if they were stupid, how can grounding help with that? :))"	NA	"6c"	"exercise"	"writing"	NA	NA	13
+2021-02-02 14:08:30	"student009"	"student"	87	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:08:52	"student009"	"student"	88	"that yoyr child's life, he ir she choose"	"that's your child's life, he or she chooses"	NA	NA	NA	NA	NA	NA	8
+2021-02-02 14:09:58	"teacher008"	"teacher"	89	"What do they choose?"	"What do they choose?"	NA	NA	"eliciting"	"writing"	NA	NA	4
+2021-02-02 14:10:16	"teacher008"	"teacher"	90	"By the way, you can just refer to a child as 'they'. But he or she is good too"	"By the way, you can just refer to a child as 'they'. But he or she is good too"	NA	"6d"	"scaffolding"	"grammatical resource"	NA	NA	19
+2021-02-02 14:11:14	"student009"	"student"	91	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:12:08	"teacher008"	"teacher"	92	"It's important to leave room to make mistakes (and get bad marks). Nobody is perfect."	"It's important to leave room to make mistakes (and get bad marks). Nobody is perfect."	88	NA	NA	NA	NA	NA	15
+2021-02-02 14:12:20	"teacher008"	"teacher"	93	"That's my idea, to add to yours maybe"	"That's my idea, to add to yours maybe"	NA	NA	NA	NA	NA	NA	8
+2021-02-02 14:12:45	"student009"	"student"	94	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:13:39	"teacher008"	"teacher"	95	"Ok! That's a very good point. Another point?"	"Ok! That's a very good point. Another point?"	NA	"6e"	"eliciting"	"writing"	NA	NA	8
+2021-02-02 14:15:02	"student009"	"student"	96	"parents must not to bite theur children"	"Parents must not beat their children"	NA	NA	NA	NA	NA	NA	7
+2021-02-02 14:15:16	"teacher008"	"teacher"	97	"Bite? like a dog?"	"Bite? like a dog?"	NA	NA	"eliciting,repair"	"lexical resource"	NA	NA	4
+2021-02-02 14:15:19	"student009"	"student"	98	"that's awful and that won't help"	"that's awful and that won't help"	96	NA	NA	NA	NA	NA	6
+2021-02-02 14:15:21	"student009"	"student"	99	"oy"	"oy"	97	NA	NA	NA	NA	NA	1
+2021-02-02 14:15:26	"student009"	"student"	100	"not bite"	"not bite"	NA	NA	NA	NA	NA	NA	2
+2021-02-02 14:15:31	"student009"	"student"	101	"hit"	"hit"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:15:34	"teacher008"	"teacher"	102	"hit? beat?"	"hit? beat?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-02-02 14:15:54	"student009"	"student"	103	"hir"	"hit"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:15:54	"teacher008"	"teacher"	104	"Yes, definitely! This is a crime!"	"Yes, definitely! This is a crime!"	98	NA	NA	NA	NA	NA	6
+2021-02-02 14:16:29	"student009"	"student"	105	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:17:13	"teacher008"	"teacher"	106	"Parents must not hit (without to, right? no to after must)"	"Parents must not hit (without to, right? no to after must)"	96	NA	"repair"	"lexical resource,grammatical resource"	NA	NA	11
+2021-02-02 14:17:59	"student009"	"student"	107	"if you want to educate yoyr kid, you need to educate yourself, because children are little mirrors of yoy"	"If you want to educate your kid, you need to educate yourself, because children are little mirrors of you"	NA	NA	NA	NA	NA	NA	19
+2021-02-02 14:18:04	"student009"	"student"	108	"okue"	"okie"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:18:09	"student009"	"student"	109	"okie"	"okie"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-02 14:18:43	"teacher008"	"teacher"	110	"Exactly. Parents need to lead by example"	"Exactly. Parents need to lead by example"	NA	NA	NA	NA	NA	NA	7
+2021-02-02 14:19:14	"teacher008"	"teacher"	111	"And hitting is not education, it's violence!"	"And hitting is not education, it's violence!"	NA	NA	NA	NA	NA	NA	7
+2021-02-02 14:19:23	"student009"	"student"	112	"yesss"	"yesss"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:20:18	"teacher008"	"teacher"	113	"Ok, that's a very important point. Anything you'd like to add?"	"Ok, that's a very important point. Anything you'd like to add?"	NA	"6f"	"eliciting"	"writing"	NA	NA	11
+2021-02-02 14:20:46	"student009"	"student"	114	"hmm"	"hmm"	NA	NA	NA	NA	NA	NA	1
+2021-02-02 14:21:44	"student009"	"student"	115	"parents should explain why something is bad to theur kid, not just to forbid"	"Parents should explain why something is bad to their kid, not just forbid"	NA	NA	NA	NA	NA	NA	14
+2021-02-02 14:21:55	"teacher008"	"teacher"	116	"Ok, sure. Why is that?"	"Ok, sure. Why is that?"	NA	NA	"eliciting"	"writing"	NA	NA	5
+2021-02-02 14:22:50	"student009"	"student"	117	"kid will want it much more than, and secretly they can for example color their hair"	"The kid will want it much more then, and secretly they can for example dye their hair"	NA	NA	NA	NA	NA	NA	16
+2021-02-02 14:23:56	"teacher008"	"teacher"	118	"Ok, I see! We say it becomes a 'forbidden fruit'. Something that is forbidden becomes even more desirable"	"Ok, I see! We say it becomes a 'forbidden fruit'. Something that is forbidden becomes even more desirable"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2021-02-02 14:25:08	"teacher008"	"teacher"	119	"Why is an explanation better then?"	"Why is an explanation better then?"	117	NA	"eliciting"	"writing"	NA	NA	6
+2021-02-02 14:26:22	"student009"	"student"	120	"then child can understand why it would be bad for them, and they will choose"	"Then the child can understand why it would be bad for them, and they will choose"	NA	NA	NA	NA	NA	NA	15
+2021-02-02 14:27:24	"teacher008"	"teacher"	121	"Yes, exactly. But then all that dopamine will make them do risky things!"	"Yes, exactly. But then all that dopamine will make them do risky things!"	NA	NA	NA	NA	NA	NA	13
+2021-02-02 14:31:11	"teacher008"	"teacher"	122	"Ok, <STUDENT>. It's been lovely (and very interesting!) to talk to you. I'll let you go and enjoy your new iPad! Will same time next week suit you?"	"Ok, <STUDENT>. It's been lovely (and very interesting!) to talk to you. I'll let you go and enjoy your new iPad! Will same time next week suit you?"	NA	"8.0"	"closing"	NA	NA	NA	28
+2021-02-02 14:31:24	"student009"	"student"	123	"thank you, bye!"	"thank you, bye!"	NA	NA	NA	NA	NA	NA	3
+2021-02-02 14:31:32	"teacher008"	"teacher"	124	"Bye! :)"	"Bye! :)"	NA	NA	NA	NA	NA	"B2"	2

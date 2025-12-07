@@ -1,0 +1,158 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-23 13:15:43	"teacher001"	"teacher"	1	"Hi <STUDENT> - are you there?!"	"Hi <STUDENT> - are you there?!"	NA	"1.0"	"opening"	NA	NA	NA	6
+2020-03-23 13:16:31	"student004"	"student"	2	"Hi <TEACHER>"	"Hi <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:16:44	"teacher001"	"teacher"	3	"Hi, how are you doing?"	"Hi, how are you doing?"	NA	"2.0"	"topic opening"	NA	NA	NA	5
+2020-03-23 13:17:10	"student004"	"student"	4	"How do you say 'passing the days'??"	"How do you say 'passing the days'??"	NA	"2a"	"enquiry"	"lexical resource"	NA	NA	7
+2020-03-23 13:17:28	"student004"	"student"	5	"Do you have an expression for that?"	"Do you have an expression for that?"	NA	NA	NA	NA	NA	NA	7
+2020-03-23 13:17:52	"teacher001"	"teacher"	6	"Um...not really I guess the translation could be ...e.g. 'surviving' or 'getting by'"	"Um...not really I guess the translation could be ...e.g. 'surviving' or 'getting by'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-03-23 13:18:39	"student004"	"student"	7	"Exactly that... surviving"	"Exactly that... surviving"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:18:44	"student004"	"student"	8	"How about you?"	"How about you?"	NA	"2b"	"topic development"	NA	NA	NA	3
+2020-03-23 13:19:25	"teacher001"	"teacher"	9	"Well...surviving I guess! I'm at home now and basically 'social distancing' is the new norm"	"Well...surviving I guess! I'm at home now and basically 'social distancing' is the new norm"	NA	NA	NA	NA	NA	NA	15
+2020-03-23 13:19:32	"teacher001"	"teacher"	10	"So pretty limited"	"So pretty limited"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:19:48	"teacher001"	"teacher"	11	"also I hurt my knee which is annoying (poor me)"	"also I hurt my knee which is annoying (poor me)"	NA	"2c"	"topic development"	NA	NA	NA	10
+2020-03-23 13:19:49	"student004"	"student"	12	"Finally!!"	"Finally!!"	9	NA	NA	NA	NA	NA	1
+2020-03-23 13:19:55	"teacher001"	"teacher"	13	"Yes finally"	"Yes finally"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:20:04	"teacher001"	"teacher"	14	"although not enforced as yet...."	"although not enforced as yet...."	NA	NA	NA	NA	NA	NA	5
+2020-03-23 13:20:15	"student004"	"student"	15	"ohh yes, poor you! Is it serious?"	"ohh yes, poor you! Is it serious?"	11	NA	NA	NA	NA	NA	7
+2020-03-23 13:20:43	"teacher001"	"teacher"	16	"well I hope not - I've had a couple of operations before (sports injuries) but it might not be tat bad ...just gotta wait and see"	"well I hope not - I've had a couple of operations before (sports injuries) but it might not be tat bad ...just gotta wait and see"	NA	NA	NA	NA	NA	NA	26
+2020-03-23 13:21:02	"teacher001"	"teacher"	17	"but I go a bit crazy without movement you know"	"but I go a bit crazy without movement you know"	NA	NA	NA	NA	NA	NA	10
+2020-03-23 13:21:04	"student004"	"student"	18	"Hope you get better soon"	"Hope you get better soon"	NA	NA	NA	NA	NA	NA	5
+2020-03-23 13:21:44	"teacher001"	"teacher"	19	"yeah thanks - it's OK - mind over matter - I;m serious you know? It's a good mental test"	"yeah thanks - it's OK - mind over matter - I;m serious you know? It's a good mental test"	NA	NA	NA	NA	NA	NA	19
+2020-03-23 13:21:56	"teacher001"	"teacher"	20	"as in it's the way you look at things right?"	"as in it's the way you look at things right?"	NA	NA	NA	NA	NA	NA	10
+2020-03-23 13:21:57	"student004"	"student"	21	"Yes, I know what you mean... I feel the same. I just went to exercise a bit inside my building but we're not suppose to..."	"Yes, I know what you mean... I feel the same. I just went to exercise a bit inside my building but we're not supposed to..."	17	"2d"	"topic development"	NA	NA	NA	25
+2020-03-23 13:22:08	"teacher001"	"teacher"	22	"not even inside?"	"not even inside?"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:22:36	"teacher001"	"teacher"	23	"you mean on the stairs or something?"	"you mean on the stairs or something?"	NA	NA	NA	NA	NA	NA	7
+2020-03-23 13:24:16	"student004"	"student"	24	"no :(. I don't understand why not. I just talked to one of my neighbours and he told me (in a good way) that if I do it, everyone would do it too. And I really think that we could plan a half and hour-walk for everyone during the day..."	"no :(. I don't understand why not. I just talked to one of my neighbours and he told me (in a good way) that if I did it, everyone would do it too. And I really think that we could plan a half-hour walk for everyone during the day..."	NA	NA	NA	NA	NA	NA	50
+2020-03-23 13:24:33	"student004"	"student"	25	"half-and-hour-walk?"	"a half-hour walk?"	NA	"2e"	"enquiry"	"lexical resource"	NA	NA	1
+2020-03-23 13:24:59	"teacher001"	"teacher"	26	"a half-hour walk (you mean 30 minutes right?)"	"a half-hour walk (you mean 30 minutes right?)"	NA	NA	NA	NA	NA	NA	8
+2020-03-23 13:25:15	"student004"	"student"	27	"hehe I see"	"hehe I see"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:25:42	"teacher001"	"teacher"	28	"and how about a simlar phrase for 90 minutes? can iyou try it?"	"and how about a simlar phrase for 90 minutes? can iyou try it?"	NA	"2f"	"eliciting,revision"	"lexical resource"	NA	NA	13
+2020-03-23 13:26:23	"student004"	"student"	29	"we could have a ninety-minute walk"	"we could have a ninety-minute walk"	NA	NA	NA	NA	NA	NA	6
+2020-03-23 13:26:35	"student004"	"student"	30	"??"	"??"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:26:37	"teacher001"	"teacher"	31	"yes fine thanks just checking!"	"yes fine thanks just checking!"	NA	NA	NA	NA	NA	NA	5
+2020-03-23 13:27:00	"teacher001"	"teacher"	32	"yes you'd think there'd be a way to manage soemthing"	"yes you'd think there'd be a way to manage soemthing"	24	NA	NA	NA	NA	NA	10
+2020-03-23 13:27:05	"student004"	"student"	33	"Thank you!! it's so different in Spanish"	"Thank you!! it's so different in Spanish"	31	NA	NA	NA	NA	NA	7
+2020-03-23 13:27:27	"teacher001"	"teacher"	34	"sure i remember having problems the other way round"	"sure i remember having problems the other way round"	NA	NA	NA	NA	NA	NA	9
+2020-03-23 13:27:59	"teacher001"	"teacher"	35	"Hey <STUDENT>...are you still planning (or did you do) to do a CAE exam?"	"Hey <STUDENT>...are you still planning (or did you do) to do a CAE exam?"	NA	"3.0"	"topic opening"	NA	NA	NA	14
+2020-03-23 13:27:59	"student004"	"student"	36	"I'm sure... I think it's important that we go out a bit for our mental and fisical health"	"I'm sure... I think it's important that we go out a bit for our mental and physical health"	32	NA	NA	NA	NA	NA	18
+2020-03-23 13:28:22	"student004"	"student"	37	"Fisical health is not right, how do you say it?"	"Physical health' is not right, how do you say it?"	NA	"2g"	"enquiry"	"lexical resource"	NA	NA	10
+2020-03-23 13:28:37	"teacher001"	"teacher"	38	"Yes I agree - mental health is important - oh sure physical!"	"Yes I agree - mental health is important - oh sure physical!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-03-23 13:29:06	"teacher001"	"teacher"	39	"although often when we mean physical health we just say 'health' of course"	"although often when we mean physical health we just say 'health' of course"	NA	NA	NA	NA	NA	NA	13
+2020-03-23 13:29:18	"teacher001"	"teacher"	40	"shows you the bias towards that side of things"	"shows you the bias towards that side of things"	NA	NA	NA	NA	NA	NA	9
+2020-03-23 13:31:01	"student004"	"student"	41	"About the CAE exam, a month ago I decided to postpone it. I was doing too many things and I was very stressed... I couldn't sleep well. So I decided to postpone what wasn't urgent"	"About the CAE exam, a month ago I decided to postpone it. I was doing too many things and I was very stressed... I couldn't sleep well. So I decided to postpone what wasn't urgent"	35	NA	NA	NA	NA	NA	35
+2020-03-23 13:31:48	"teacher001"	"teacher"	42	"yes I see - sounds like it was a good idea - I guess it's not possible to do the exams at the moment anyway..."	"yes I see - sounds like it was a good idea - I guess it's not possible to do the exams at the moment anyway..."	NA	NA	NA	NA	NA	NA	25
+2020-03-23 13:32:04	"student004"	"student"	43	"I suddenly now I have soooo much free time... haha live is showing us that we shouldn't plan so much"	"And suddenly now I have soooo much free time... haha life is showing us that we shouldn't plan so much"	NA	NA	NA	NA	NA	NA	20
+2020-03-23 13:32:39	"teacher001"	"teacher"	44	"yes that's true....I guess we've been pampered for decades"	"yes that's true....I guess we've been pampered for decades"	NA	"3a"	"topic development"	NA	NA	NA	9
+2020-03-23 13:32:48	"student004"	"student"	45	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:33:12	"teacher001"	"teacher"	46	"we can't cope without our routines..."	"we can't cope without our routines..."	NA	NA	NA	NA	NA	NA	6
+2020-03-23 13:33:26	"teacher001"	"teacher"	47	"and the state doing lots of things for us"	"and the state doing lots of things for us"	NA	NA	NA	NA	NA	NA	9
+2020-03-23 13:33:39	"student004"	"student"	48	"But it'd be great (if you want) to keep looking at CAE exercises"	"But it'd be great (if you want) to keep looking at CAE exercises"	NA	"3b"	"topic development"	NA	NA	NA	13
+2020-03-23 13:33:44	"teacher001"	"teacher"	49	"not that I'm complaining exactly!"	"not that I'm complaining exactly!"	47	NA	NA	NA	NA	NA	5
+2020-03-23 13:33:54	"teacher001"	"teacher"	50	"Yes of course we can do that if you like..."	"Yes of course we can do that if you like..."	48	NA	NA	NA	NA	NA	10
+2020-03-23 13:34:11	"student004"	"student"	51	"Sure!! thanks"	"Sure!! thanks"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:34:15	"teacher001"	"teacher"	52	"I have the book with me - do you want to have a go now? PAge 130 for example?"	"I have the book with me - do you want to have a go now? PAge 130 for example?"	NA	"4.0"	"exercise"	"exam prep"	"textbook"	NA	19
+2020-03-23 13:34:21	"student004"	"student"	53	"me too :)"	"me too :)"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:35:23	"student004"	"student"	54	"No idea about 17"	"No idea about 17"	NA	NA	NA	NA	NA	NA	4
+2020-03-23 13:35:54	"teacher001"	"teacher"	55	"ah ok - it's an adjective meanign they had influence - does that help?"	"ah ok - it's an adjective meanign they had influence - does that help?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-03-23 13:36:27	"student004"	"student"	56	"let me think..."	"let me think..."	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:37:15	"student004"	"student"	57	"influential??"	"influential??"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:37:17	"teacher001"	"teacher"	58	"adjective endings.....-ive/-ous--ial ...choose one of these!"	"adjective endings.....-ive/-ous--ial ...choose one of these!"	55	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-03-23 13:37:27	"teacher001"	"teacher"	59	"Yes you've got it - well done"	"Yes you've got it - well done"	57	NA	NA	NA	NA	NA	7
+2020-03-23 13:37:34	"student004"	"student"	60	"great clues! thank you"	"great clues! thank you"	NA	NA	NA	NA	NA	NA	4
+2020-03-23 13:37:46	"teacher001"	"teacher"	61	"and you didn't say influencial which is a common Spanish mistake"	"and you didn't say influencial which is a common Spanish mistake"	NA	NA	NA	NA	NA	NA	11
+2020-03-23 13:37:57	"student004"	"student"	62	"18 inspiration"	"18 inspiration"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:38:03	"teacher001"	"teacher"	63	"yes good"	"yes good"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:38:16	"student004"	"student"	64	"19 generosity"	"19 generosity"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:38:24	"teacher001"	"teacher"	65	"great"	"great"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:38:53	"student004"	"student"	66	"20 restless??"	"20 restless??"	NA	"4a"	"enquiry"	NA	NA	NA	2
+2020-03-23 13:39:28	"teacher001"	"teacher"	67	"yes right idea for the meaning = good BUT you need a noun i.e. the thing that led him..."	"yes right idea for the meaning = good BUT you need a noun i.e. the thing that led him..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	19
+2020-03-23 13:40:06	"teacher001"	"teacher"	68	"add a noun ending to your adjective"	"add a noun ending to your adjective"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-03-23 13:40:28	"student004"	"student"	69	"ness?"	"ness?"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:40:37	"teacher001"	"teacher"	70	"yes that's right!"	"yes that's right!"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:40:46	"student004"	"student"	71	"REALLY??"	"REALLY??"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:40:59	"student004"	"student"	72	"restlessness??"	"restlessness??"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:41:19	"student004"	"student"	73	"I didn't know that word exists"	"I didn't know that word existed"	NA	NA	NA	NA	NA	NA	6
+2020-03-23 13:41:25	"teacher001"	"teacher"	74	"yes really...e.g. hopelessness/restlessness/homelessness etc"	"yes really...e.g. hopelessness/restlessness/homelessness etc"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-03-23 13:41:43	"teacher001"	"teacher"	75	"fearlessness!"	"fearlessness!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-03-23 13:42:52	"teacher001"	"teacher"	76	"Remember that with the schwa sound it's quick when people say it - maybe looks more weird that it sounds..."	"Remember that with the schwa sound it's quick when people say it - maybe looks more weird that it sounds..."	NA	"5.0"	"presentation"	"speaking"	NA	NA	20
+2020-03-23 13:43:05	"teacher001"	"teacher"	77	"or maybe not to you I don;t know!"	"or maybe not to you I don;t know!"	NA	NA	NA	NA	NA	NA	8
+2020-03-23 13:44:11	"student004"	"student"	78	"I guessed it because yesterday I listened to a Esther Perel podcast called 'sexlessness'. Do you know her? She is great, I think... she is a therapist"	"I guessed it because yesterday I listened to an Esther Perel podcast called 'sexlessness'. Do you know her? She is great, I think... she is a therapist"	75	NA	NA	NA	NA	NA	27
+2020-03-23 13:44:42	"teacher001"	"teacher"	79	"no i don't actually - but there you go - good extensive listening"	"no i don't actually - but there you go - good extensive listening"	NA	NA	"scaffolding"	"meta knowledge"	NA	NA	13
+2020-03-23 13:45:17	"student004"	"student"	80	"Yes, I see how important is to keep listening and reading things in English"	"Yes, I see how important it is to keep listening and reading things in English"	NA	NA	NA	NA	NA	NA	14
+2020-03-23 13:45:30	"student004"	"student"	81	"Well, I'll continue"	"Well, I'll continue"	NA	"4b"	NA	NA	NA	NA	3
+2020-03-23 13:45:34	"teacher001"	"teacher"	82	"yes it's the one thing really you can do"	"yes it's the one thing really you can do"	80	NA	NA	NA	NA	NA	9
+2020-03-23 13:45:38	"student004"	"student"	83	"21 medical"	"21 medical"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:45:49	"teacher001"	"teacher"	84	"yes good"	"yes good"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:46:22	"student004"	"student"	85	"22 admiration"	"22 admiration"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:46:27	"teacher001"	"teacher"	86	"fine"	"fine"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:46:50	"student004"	"student"	87	"23 enthusiasm"	"23 enthusiasm"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:47:07	"teacher001"	"teacher"	88	"yes good"	"yes good"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:48:36	"student004"	"student"	89	"no idea about 24 (is this sentence correct? is there a better way of saying that I don't know the answer??)"	"no idea about 24 (is this sentence correct? is there a better way of saying that I don't know the answer??)"	NA	"6.0"	"enquiry"	"lexical resource"	NA	NA	21
+2020-03-23 13:49:45	"teacher001"	"teacher"	90	"Um you 'no idea about' is fine and common don't worry...apart from that...I haven't got a clue"	"Um you 'no idea about' is fine and common don't worry...apart from that...I haven't got a clue"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-03-23 13:49:55	"teacher001"	"teacher"	91	"is common"	"is common"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:49:59	"student004"	"student"	92	"okk"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:50:24	"teacher001"	"teacher"	93	"yes I guessed 24 would be tough - it's ;outcry' - have you seen that before?"	"yes I guessed 24 would be tough - it's ;outcry' - have you seen that before?"	89	"4b (continued)"	"scaffolding"	"lexical resource"	NA	NA	16
+2020-03-23 13:50:54	"student004"	"student"	94	"no, never"	"no, never"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:51:08	"teacher001"	"teacher"	95	"it's like protest/controversy/opposition"	"it's like protest/controversy/opposition"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-03-23 13:51:22	"teacher001"	"teacher"	96	"as  the noun form of 'cry out' (in pain/anger etc)"	"as  the noun form of 'cry out' (in pain/anger etc)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-03-23 13:51:32	"teacher001"	"teacher"	97	"bit Germanic I guess!"	"bit Germanic I guess!"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	4
+2020-03-23 13:51:56	"student004"	"student"	98	"I understan, thanks"	"I understand, thanks"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:52:01	"teacher001"	"teacher"	99	"There are lots of verbs/nouns with 'out' that don't come so easilly to mind for you perhaps"	"There are lots of verbs/nouns with 'out' that don't come so easilly to mind for you perhaps"	NA	"7.0"	"presentation"	"lexical resource"	NA	NA	17
+2020-03-23 13:52:15	"student004"	"student"	100	"I'm sure..."	"I'm sure..."	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:52:22	"teacher001"	"teacher"	101	"as in some will be in your passive knowledge but perhaps not used so much"	"as in some will be in your passive knowledge but perhaps not used so much"	NA	NA	NA	NA	NA	NA	15
+2020-03-23 13:52:43	"teacher001"	"teacher"	102	"in my experience with e.g. Italians/Spanish/French etc"	"in my experience with e.g. Italians/Spanish/French etc"	NA	NA	NA	NA	NA	NA	7
+2020-03-23 13:52:50	"teacher001"	"teacher"	103	"for obvious reasons"	"for obvious reasons"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:53:34	"student004"	"student"	104	"Can you give an example? I can't think of any"	"Can you give an example? I can't think of any"	NA	NA	"enquiry"	"lexical resource"	NA	NA	10
+2020-03-23 13:53:47	"teacher001"	"teacher"	105	"yes sure ..hold on..."	"yes sure ..hold on..."	NA	NA	NA	NA	NA	NA	4
+2020-03-23 13:54:02	"teacher001"	"teacher"	106	"so verbs first ...maybe a bit easier cos there are more perhaps"	"so verbs first ...maybe a bit easier cos there are more perhaps"	NA	NA	NA	NA	NA	NA	12
+2020-03-23 13:54:26	"teacher001"	"teacher"	107	"so if I run faster than you ...I _______ you (one-word verb answer)"	"so if I run faster than you ...I _______ you (one-word verb answer)"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	13
+2020-03-23 13:54:31	"teacher001"	"teacher"	108	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:55:00	"student004"	"student"	109	"pass"	"pass"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:55:08	"student004"	"student"	110	"overtake"	"overtake"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:55:26	"student004"	"student"	111	"? not sure"	"? not sure"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 13:55:43	"teacher001"	"teacher"	112	"Ah well possible I guess - as in the moment itself - but more generally we can say 'outrun'"	"Ah well possible I guess - as in the moment itself - but more generally we can say 'outrun'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	19
+2020-03-23 13:56:03	"teacher001"	"teacher"	113	"by the way overtake good idea and very common (but still only for the moment itself)"	"by the way overtake good idea and very common (but still only for the moment itself)"	110	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-03-23 13:56:15	"student004"	"student"	114	"Another new word for me!!"	"Another new word for me!!"	112	NA	NA	NA	NA	NA	5
+2020-03-23 13:56:31	"teacher001"	"teacher"	115	"lots of Spanish speakers just say pass - good to have thought of overtake = very natural"	"lots of Spanish speakers just say pass - good to have thought of overtake = very natural"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-03-23 13:56:46	"teacher001"	"teacher"	116	"but yes 'outrun' = normal too so good to know"	"but yes 'outrun' = normal too so good to know"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-03-23 13:57:00	"teacher001"	"teacher"	117	"What about e.g. score more points than?"	"What about e.g. score more points than?"	NA	"7a"	"scaffolding,eliciting"	"lexical resource"	NA	NA	7
+2020-03-23 13:58:01	"student004"	"student"	118	"no idea"	"no idea"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 13:58:06	"teacher001"	"teacher"	119	"outscore!"	"outscore!"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:58:18	"teacher001"	"teacher"	120	"and: fight harder than?"	"and: fight harder than?"	NA	"7b"	"scaffolding,eliciting"	"lexical resource"	NA	NA	4
+2020-03-23 13:58:29	"student004"	"student"	121	"outfight??"	"outfight??"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:58:33	"teacher001"	"teacher"	122	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 13:58:45	"teacher001"	"teacher"	123	"be more than (in number)"	"be more than (in number)"	NA	"7c"	"scaffolding,eliciting"	"lexical resource"	NA	NA	5
+2020-03-23 13:58:47	"student004"	"student"	124	"but I don't know how to use these words!!"	"but I don't know how to use these words!!"	NA	"7d"	"enquiry"	"lexical resource"	NA	NA	9
+2020-03-23 13:59:48	"student004"	"student"	125	"For example, can I say 'My team outscored more points than yours'?"	"For example, can I say 'My team outscored yours'?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	12
+2020-03-23 13:59:51	"teacher001"	"teacher"	126	"Well for example....if Mnachester UNIted beat Barcelona 5-0 then the sports report might say that they outfought, outran, outmuscled, outscored, outplayed Barcelona"	"Well for example....if Mnachester UNIted beat Barcelona 5-0 then the sports report might say that they outfought, outran, outmuscled, outscored, outplayed Barcelona"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+2020-03-23 14:00:06	"teacher001"	"teacher"	127	"any combination of these verbs!"	"any combination of these verbs!"	NA	NA	NA	NA	NA	NA	5
+2020-03-23 14:00:15	"teacher001"	"teacher"	128	"and others too!"	"and others too!"	NA	NA	NA	NA	NA	NA	3
+2020-03-23 14:00:21	"student004"	"student"	129	"i see"	"i see"	NA	NA	NA	NA	NA	NA	2
+2020-03-23 14:00:46	"teacher001"	"teacher"	130	"bit more formal than some phrases but still you'll hear these words a fair bit"	"bit more formal than some phrases but still you'll hear these words a fair bit"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	15
+2020-03-23 14:00:57	"student004"	"student"	131	"So the example I wrote is not correct, is it?"	"So the example I wrote is not correct, is it?"	125	NA	NA	NA	NA	NA	10
+2020-03-23 14:01:40	"teacher001"	"teacher"	132	"by the way 'outnumber' was the last one - this is really common...as in e.g. males outnumber females in senior managemnt roles (or whatever!)"	"by the way 'outnumber' was the last one - this is really common...as in e.g. males outnumber females in senior managemnt roles (or whatever!)"	123	NA	"scaffolding"	"lexical resource"	NA	NA	24
+2020-03-23 14:02:16	"teacher001"	"teacher"	133	"sorry  - which example are you saying wasn't correct?"	"sorry  - which example are you saying wasn't correct?"	131	NA	NA	NA	NA	NA	10
+2020-03-23 14:02:28	"student004"	"student"	134	"I'll try to correct it... My team outscored yours last night"	"I'll try to correct it... My team outscored yours last night"	131	NA	NA	NA	NA	NA	11
+2020-03-23 14:02:49	"student004"	"student"	135	"Before your examples, I wrote one"	"Before your examples, I wrote one"	133	NA	NA	NA	NA	NA	6
+2020-03-23 14:02:52	"teacher001"	"teacher"	136	"Oh sorry I see it now!"	"Oh sorry I see it now!"	NA	NA	NA	NA	NA	NA	6
+2020-03-23 14:03:20	"teacher001"	"teacher"	137	"Yes you just need to say 'outscore' because this already includes the idea of 'points'"	"Yes you just need to say 'outscore' because this already includes the idea of 'points'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-03-23 14:03:34	"teacher001"	"teacher"	138	"this is why it's quite efficent you see!"	"this is why it's quite efficent you see!"	NA	NA	NA	NA	NA	NA	8
+2020-03-23 14:03:39	"teacher001"	"teacher"	139	"German!"	"German!"	NA	NA	NA	NA	NA	NA	1
+2020-03-23 14:03:42	"student004"	"student"	140	"Now I got it... I think"	"Now I got it... I think"	NA	NA	NA	NA	NA	NA	6
+2020-03-23 14:04:05	"student004"	"student"	141	"haha yes"	"haha yes"	139	NA	NA	NA	NA	NA	2
+2020-03-23 14:04:24	"teacher001"	"teacher"	142	"OK one more ...so Apple has sold more devices than anyone else = Apple has hugely  _______ other tech companies"	"OK one more ...so Apple has sold more devices than anyone else = Apple has hugely  _______ other tech companies"	NA	"7e"	"scaffolding,eliciting"	"lexical resource"	NA	NA	21
+2020-03-23 14:05:08	"student004"	"student"	143	"In Germany then can still go out for walks with one person... I think they are much more sensible than Spanish people..."	"In Germany they can still go out for walks with another person... I think they are much more sensible than Spanish people..."	NA	"8.0"	"topic opening"	NA	NA	NA	22
+2020-03-23 14:05:51	"teacher001"	"teacher"	144	"yes I guess if you pick a limited number (or just one) of people and then stick with them it would be ok right?"	"yes I guess if you pick a limited number (or just one) of people and then stick with them it would be ok right?"	NA	NA	NA	NA	NA	NA	24
+2020-03-23 14:06:27	"teacher001"	"teacher"	145	"I feel bad because my daughter won't be able to play with her friends for months potentially"	"I feel bad because my daughter won't be able to play with her friends for months potentially"	NA	NA	NA	NA	NA	NA	17
+2020-03-23 14:06:56	"teacher001"	"teacher"	146	"this is the same in Spain right? As in kids can't play with anyone?"	"this is the same in Spain right? As in kids can't play with anyone?"	NA	NA	NA	NA	NA	NA	14
+2020-03-23 14:07:25	"teacher001"	"teacher"	147	"Sorry I got sucked into the madness of the 'situation'"	"Sorry I got sucked into the madness of the 'situation'"	NA	NA	NA	NA	NA	NA	10
+2020-03-23 14:07:39	"student004"	"student"	148	"I actually don't know, maybe it's the right way to stop the virus but it's very hard for everyone..."	"I actually don't know, maybe it's the right way to stop the virus but it's very hard for everyone..."	NA	NA	NA	NA	NA	NA	19
+2020-03-23 14:08:19	"teacher001"	"teacher"	149	"yes - it'll be very difficult I'm sure - maybe people will start rebelling after a while I don;t know"	"yes - it'll be very difficult I'm sure - maybe people will start rebelling after a while I don;t know"	NA	NA	NA	NA	NA	NA	20
+2020-03-23 14:08:52	"teacher001"	"teacher"	150	"You know it's weird in the uK because we have no history of the state really being able to tell us what to do do you see?"	"You know it's weird in the uK because we have no history of the state really being able to tell us what to do do you see?"	NA	NA	NA	NA	NA	NA	27
+2020-03-23 14:09:18	"student004"	"student"	151	"About your daughter and children in general, I know it's really hard but then I think of children who live in Siria for example where they can leave their houses because there are bombs and I think that we are lucky..."	"About your daughter and children in general, I know it's really hard but then I think of children who live in Syria for example where they can't leave their houses because there are bombs and I think that we are lucky..."	145	NA	NA	NA	NA	NA	41
+2020-03-23 14:09:29	"teacher001"	"teacher"	152	"so e.g. the realtionship with the police is kind of contractual"	"so e.g. the realtionship with the police is kind of contractual"	150	NA	NA	NA	NA	NA	11
+2020-03-23 14:09:55	"teacher001"	"teacher"	153	"No of course you're right...it's all relative!"	"No of course you're right...it's all relative!"	151	NA	NA	NA	NA	NA	7
+2020-03-23 14:10:13	"teacher001"	"teacher"	154	"I should take my own advice and change my perspective!"	"I should take my own advice and change my perspective!"	NA	NA	NA	NA	NA	NA	10
+2020-03-23 14:11:55	"student004"	"student"	155	"No, I think it's very normal... we are all confused and we all have contradictory ideas about everything at the moment... It's a very new situation but I think it'll take longer enough (unfortunately) to clarify our ideas"	"No, I think it's very normal... we are all confused and we all have contradictory ideas about everything at the moment... It's a very new situation but I think it'll last long enough (unfortunately) to clarify our ideas"	NA	NA	NA	NA	NA	NA	38
+2020-03-23 14:12:24	"student004"	"student"	156	"Sorry, about Apple"	"Sorry, about Apple"	142	NA	NA	NA	NA	NA	3
+2020-03-23 14:12:36	"student004"	"student"	157	"I don't know the answer!"	"I don't know the answer!"	NA	NA	NA	NA	NA	"C1"	5

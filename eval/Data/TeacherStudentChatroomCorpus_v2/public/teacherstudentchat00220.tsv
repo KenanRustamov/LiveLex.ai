@@ -1,0 +1,233 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-03-22 11:32:07	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-03-22 11:32:28	"teacher008"	"teacher"	2	"Hiya!"	"Hiya!"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:32:34	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-03-22 11:33:45	"student011"	"student"	4	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 11:33:48	"student011"	"student"	5	"How are you?"	"How are you?"	NA	"2a"	"topic development"	NA	NA	NA	3
+2021-03-22 11:33:56	"student011"	"student"	6	"<TEACHER'S CHILD> is at school now?"	"<TEACHER'S CHILD> is at school now?"	NA	NA	NA	NA	NA	NA	6
+2021-03-22 11:34:14	"teacher008"	"teacher"	7	"Yes, he is! It's the last week before Easter holidays"	"Yes, he is! It's the last week before Easter holidays"	NA	NA	NA	NA	NA	NA	10
+2021-03-22 11:35:15	"student011"	"student"	8	"Ah! I see"	"Ah! I see"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 11:35:50	"student011"	"student"	9	"The holidays are long? Or just one more day off?"	"Are the holidays going to be long? Or just one more day off?"	NA	NA	NA	NA	NA	NA	10
+2021-03-22 11:36:06	"teacher008"	"teacher"	10	"My sister told me it was snowing in Kyiv this morning!"	"My sister told me it was snowing in Kyiv this morning!"	NA	"2b"	"topic development"	NA	NA	NA	11
+2021-03-22 11:36:32	"student011"	"student"	11	"Yes! It is dark day with the snow ."	"Yes! It is a dark day with some snow ."	NA	NA	NA	NA	NA	NA	9
+2021-03-22 11:36:54	"student011"	"student"	12	"A typical spring day ....."	"A typical spring day ....."	NA	NA	NA	NA	NA	NA	5
+2021-03-22 11:37:07	"teacher008"	"teacher"	13	"Two weeks :. He's very looking forward to it. I'll let you know about lessons during the holiday period later on, ok? Just working on my timetable at the moment"	"Two weeks :. He's very looking forward to it. I'll let you know about lessons during the holiday period later on, ok? Just working on my timetable at the moment"	"9.0"	NA	NA	NA	NA	NA	30
+2021-03-22 11:37:50	"student011"	"student"	14	"Ah! It is like spring vacation here in Ukraine"	"Ah! It is like a spring vacation here in Ukraine"	NA	NA	NA	NA	NA	NA	9
+2021-03-22 11:37:57	"teacher008"	"teacher"	15	"Yes, indeed, typical spring! It's not warm here either, but it's not nearly as cold!"	"Yes, indeed, typical spring! It's not warm here either, but it's not nearly as cold!"	"12.0"	NA	NA	NA	NA	NA	15
+2021-03-22 11:38:00	"teacher008"	"teacher"	16	"Yes, that's right!"	"Yes, that's right!"	"14.0"	NA	NA	NA	NA	NA	3
+2021-03-22 11:38:01	"student011"	"student"	17	"But we have just 1 week I think"	"But we have just 1 week I think"	NA	NA	NA	NA	NA	NA	8
+2021-03-22 11:38:42	"student011"	"student"	18	"You know we have a new lockdown now"	"You know we have a new lockdown now"	NA	"2c"	"topic development"	NA	NA	NA	8
+2021-03-22 11:38:53	"teacher008"	"teacher"	19	"English children only get 6 weeks in the summer, but Easter and Christmas holidays are two weeks"	"English children only get 6 weeks in the summer, but Easter and Christmas holidays are two weeks"	"17.0"	NA	NA	NA	NA	NA	17
+2021-03-22 11:39:00	"teacher008"	"teacher"	20	"Yes, you told me! One second"	"Yes, you told me! One second"	"18.0"	NA	NA	NA	NA	NA	6
+2021-03-22 11:39:20	"student011"	"student"	21	"And I think it's firs week of the spring vacations for kids"	"And I think it's the first week of the spring vacations for kids"	"19.0"	NA	NA	NA	NA	NA	12
+2021-03-22 11:39:51	"student011"	"student"	22	"Usually they have one week but now I think they have one more because of Covid"	"Usually they have one week but now I think they have one more because of Covid"	NA	NA	NA	NA	NA	NA	16
+2021-03-22 11:39:54	"teacher008"	"teacher"	23	"Easter holiday in Ukraine = 1 week; in the UK = 2 weeks. Could you make a sentence comparing Easter holidays in Ukraine and the UK?"	"Easter holiday in Ukraine = 1 week; in the UK = 2 weeks. Could you make a sentence comparing Easter holidays in Ukraine and the UK?"	NA	"3.0"	"exercise,revision"	"grammatical resource"	NA	NA	26
+2021-03-22 11:40:23	"student011"	"student"	24	"Ok ."	"Ok ."	NA	NA	NA	NA	NA	NA	2
+2021-03-22 11:41:05	"student011"	"student"	25	"Easter holiday.s?. in the UK is .are?. longer than in Ukraine"	"Easter holiday(s?) in the UK is (are?) longer than in Ukraine"	NA	NA	NA	NA	NA	NA	11
+2021-03-22 11:41:34	"student011"	"student"	26	"Can I use vacations like kanikuly?"	"Can I use vacations like kanikuly?"	NA	"3a"	"enquiry"	"lexical resource"	NA	NA	6
+2021-03-22 11:41:59	"teacher008"	"teacher"	27	"Yes, sure! We can stick to holidays .plural. for now. Vacation is an American word!"	"Yes, sure! We can stick to holidays .plural. for now. Vacation is an American word!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2021-03-22 11:42:03	"student011"	"student"	28	"Because here we don't call it Easter holidays it doesn't depend on Easter really ."	"Because here we don't call it Easter holidays it doesn't depend on Easter really ."	NA	NA	NA	NA	NA	NA	15
+2021-03-22 11:42:16	"teacher008"	"teacher"	29	"British people go on holiday while Americans go on vacation :."	"British people go on holiday while Americans go on vacation :."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-22 11:42:30	"student011"	"student"	30	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:42:31	"teacher008"	"teacher"	31	"Yes, true! just as an example"	"Yes, true! just as an example"	"28.0"	NA	NA	NA	NA	NA	6
+2021-03-22 11:42:46	"student011"	"student"	32	"the have different places to rest ."	"they have different places to rest ."	"30.0"	NA	NA	NA	NA	NA	7
+2021-03-22 11:42:54	"student011"	"student"	33	"*they"	"*they"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-22 11:42:57	"teacher008"	"teacher"	34	"Ok, what about: Easter holidays in Ukraine are not ___ ___ ___ in the UK"	"Ok, what about: Easter holidays in Ukraine are not ___ ___ ___ in the UK"	NA	"3b"	"exercise,revision"	"grammatical resource"	NA	NA	15
+2021-03-22 11:43:09	"student011"	"student"	35	"as long as"	"as long as"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 11:43:13	"teacher008"	"teacher"	36	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:43:54	"teacher008"	"teacher"	37	"And to express that Easter holidays in Ukraine are 1/2 of Easter holidays in the UK... Easter holidays in Ukraine are ___ as long as in the UK"	"And to express that Easter holidays in Ukraine are 1/2 of Easter holidays in the UK... Easter holidays in Ukraine are ___ as long as in the UK"	NA	"3c"	"exercise,revision"	"grammatical resource,lexical resource"	NA	NA	28
+2021-03-22 11:44:26	"student011"	"student"	38	"not"	"not"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:44:43	"teacher008"	"teacher"	39	"Yes, but I mean to express taht it's 1/2"	"Yes, but I mean to express taht it's 1/2"	NA	NA	"eliciting"	"grammatical resource,lexical resource"	NA	NA	9
+2021-03-22 11:45:04	"teacher008"	"teacher"	40	"Easter holidays in Ukraine are half as long as in the UK, remember this one?"	"Easter holidays in Ukraine are half as long as in the UK, remember this one?"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	15
+2021-03-22 11:45:07	"student011"	"student"	41	"Ah"	"Ah"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:45:09	"student011"	"student"	42	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:45:24	"teacher008"	"teacher"	43	"No worries"	"No worries"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 11:45:24	"student011"	"student"	44	"I didn't catch it"	"I didn't catch it"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 11:45:36	"student011"	"student"	45	"No, I don't unfortunately ."	"No, I don't unfortunately ."	NA	NA	NA	NA	NA	NA	5
+2021-03-22 11:45:46	"teacher008"	"teacher"	46	"And the other way round! Easter holidays in the UK are ___ as long as in Ukraine .x2."	"And the other way round! Easter holidays in the UK are ___ as long as in Ukraine .x2."	NA	"3d"	"exercise"	"grammatical resource,lexical resource"	NA	NA	18
+2021-03-22 11:46:02	"student011"	"student"	47	"twice as long as?"	"twice as long as?"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 11:46:07	"teacher008"	"teacher"	48	"Yaay, well done!"	"Yaay, well done!"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 11:46:41	"teacher008"	"teacher"	49	"Nothing like a bit of grammar revision on Monday :."	"Nothing like a bit of grammar revision on Monday :."	NA	"3e"	NA	NA	NA	NA	10
+2021-03-22 11:47:04	"student011"	"student"	50	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:47:18	"student011"	"student"	51	"it's like a cup of coffee in the morning .."	"it's like a cup of coffee in the morning .."	NA	NA	NA	NA	NA	NA	10
+2021-03-22 11:47:24	"student011"	"student"	52	"bodrit'...."	"bodrit'...."	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	1
+2021-03-22 11:47:27	"teacher008"	"teacher"	53	"Ok, so what's going on with the lockdown?"	"Ok, so what's going on with the lockdown?"	NA	"4.0"	"topic opening"	NA	NA	NA	8
+2021-03-22 11:47:30	"teacher008"	"teacher"	54	"Definitely!"	"Definitely!"	"52.0"	NA	NA	NA	NA	NA	1
+2021-03-22 11:47:53	"student011"	"student"	55	"it wakes up?"	"it wakes me up?"	NA	"3f"	"enquiry"	"lexical resource"	NA	NA	3
+2021-03-22 11:47:54	"teacher008"	"teacher"	56	"What are you allowed to do?"	"What are you allowed to do?"	"53.0"	NA	NA	NA	NA	NA	6
+2021-03-22 11:47:58	"student011"	"student"	57	"bodrit ."	"bodrit ."	"55.0"	NA	"non-English"	"code switching,lexical resource"	NA	NA	2
+2021-03-22 11:48:00	"student011"	"student"	58	"Ok"	"Ok"	"56.0"	NA	NA	NA	NA	NA	1
+2021-03-22 11:48:05	"teacher008"	"teacher"	59	"Yes, it wakes you up!"	"Yes, it wakes you up!"	"56.0"	NA	"scaffolding,repair"	"lexical resource"	NA	NA	5
+2021-03-22 11:48:23	"student011"	"student"	60	"Actually I can go to my work and I like it .."	"Actually I can go to work and I like it .."	"58.0"	NA	NA	NA	NA	NA	12
+2021-03-22 11:48:24	"student011"	"student"	61	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:48:44	"teacher008"	"teacher"	62	"A good expression is to 'blow the cobwebs away'"	"A good expression is to 'blow the cobwebs away'"	"59.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-03-22 11:48:47	"student011"	"student"	63	"It's no so strict as you had"	"It's no as strict as you had"	"60.0"	NA	NA	NA	NA	NA	7
+2021-03-22 11:49:04	"student011"	"student"	64	"So the shops and the restaurants don't work"	"So shops and restaurants don't work"	NA	NA	NA	NA	NA	NA	8
+2021-03-22 11:49:10	"teacher008"	"teacher"	65	"You know 'cobwebs', things that spiders make?"	"You know 'cobwebs', things that spiders make?"	"62.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2021-03-22 11:49:26	"teacher008"	"teacher"	66	"It's not ___ strict as you have"	"It's not ___ strict as you have"	NA	"4a"	"eliciting,repair"	"grammatical resource"	NA	NA	7
+2021-03-22 11:49:41	"student011"	"student"	67	"But you still can order the food from the restaurant and pick it up"	"But you still can order food from restaurants and pick it up"	"64.0"	NA	NA	NA	NA	NA	14
+2021-03-22 11:49:56	"student011"	"student"	68	"Also essentials work too of course"	"Also essentials work too of course"	NA	NA	NA	NA	NA	NA	6
+2021-03-22 11:50:04	"teacher008"	"teacher"	69	"Ok, sure, that makes sense!"	"Ok, sure, that makes sense!"	NA	NA	NA	NA	NA	NA	5
+2021-03-22 11:50:13	"student011"	"student"	70	"Food shops, pharmacies"	"Food shops, pharmacies"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 11:50:37	"teacher008"	"teacher"	71	"Right, sure! Are people allowed to meet?"	"Right, sure! Are people allowed to meet?"	NA	NA	NA	NA	NA	NA	7
+2021-03-22 11:50:47	"student011"	"student"	72	"And beauty sphere is open"	"And the beauty sphere is open"	NA	NA	NA	NA	NA	NA	5
+2021-03-22 11:51:52	"student011"	"student"	73	"On Saturday I made my eyebrows at G.Bar ."	"On Saturday I had my eyebrows done at G.Bar ."	NA	NA	NA	NA	NA	NA	9
+2021-03-22 11:52:01	"teacher008"	"teacher"	74	"Ok, I see! It's all closed here"	"Ok, I see! It's all closed here"	NA	NA	NA	NA	NA	NA	7
+2021-03-22 11:52:24	"teacher008"	"teacher"	75	"The UK lockdown is ___ stricter than the Ukrainian one"	"The UK lockdown is ___ stricter than the Ukrainian one"	NA	"4b"	"eliciting"	"grammatical resource,lexical resource"	NA	NA	10
+2021-03-22 11:52:32	"student011"	"student"	76	"And I'm going to the face massage on Wednesday morning"	"And I'm going to the face massage on Wednesday morning"	"74.0"	NA	NA	NA	NA	NA	10
+2021-03-22 11:52:55	"student011"	"student"	77	"The UK lockdown is much stricter than the Ukrainian one"	"The UK lockdown is much stricter than the Ukrainian one"	"75.0"	NA	NA	NA	NA	NA	10
+2021-03-22 11:52:57	"teacher008"	"teacher"	78	"Naughty naughty you! We're not allowed any of that!"	"Naughty naughty you! We're not allowed any of that!"	"76.0"	NA	NA	NA	NA	NA	9
+2021-03-22 11:53:11	"student011"	"student"	79	"And about meeting people"	"And about meeting people"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 11:53:19	"teacher008"	"teacher"	80	"Yes, well done! which means that... The Ukrainian lockdown is __ __ ___ ___ the UK one"	"Yes, well done! which means that... The Ukrainian lockdown is __ __ ___ ___ the UK one"	"77.0"	"4c"	"eliciting"	"grammatical resource,lexical resource"	NA	NA	17
+2021-03-22 11:53:49	"student011"	"student"	81	"Actually we don't have any restrictions during any our lockdowns ."	"Actually we haven't had any restrictions during any of our lockdowns ."	"79.0"	NA	NA	NA	NA	NA	11
+2021-03-22 11:54:25	"student011"	"student"	82	"Maybe the government understand that it wouldn't work here in Ukraine ... I don't know ."	"Maybe the government understand that it wouldn't work here in Ukraine ... I don't know ."	NA	NA	NA	NA	NA	NA	16
+2021-03-22 11:54:37	"teacher008"	"teacher"	83	"Yes, I suppose the government can't afford to furlough people"	"Yes, I suppose the government can't afford to furlough people"	NA	NA	NA	NA	NA	NA	10
+2021-03-22 11:54:46	"student011"	"student"	84	"The Ukrainian lockdown is not as strict as the UK one"	"The Ukrainian lockdown is not as strict as the UK one"	"80.0"	NA	NA	NA	NA	NA	11
+2021-03-22 11:54:58	"student011"	"student"	85	"to furlough?"	"to furlough?"	"83.0"	"4d"	"enquiry"	"lexical resource,meaning"	NA	NA	2
+2021-03-22 11:55:11	"teacher008"	"teacher"	86	"Here, people who can't work because of covid receive 80% of their salaries from the government. It's called furlough"	"Here, people who can't work because of covid receive 80% of their salaries from the government. It's called furlough"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2021-03-22 11:55:24	"teacher008"	"teacher"	87	"No one knew this word until a year ago!"	"No one knew this word until a year ago!"	NA	NA	NA	NA	NA	NA	9
+2021-03-22 11:55:45	"teacher008"	"teacher"	88	"Well, maybe except for economists"	"Well, maybe except for economists"	NA	NA	NA	NA	NA	NA	5
+2021-03-22 11:55:47	"student011"	"student"	89	"Ah"	"Ah"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 11:56:08	"student011"	"student"	90	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 11:56:22	"student011"	"student"	91	"Yes, unfortunately we don't have it here"	"Yes, unfortunately we don't have it here"	NA	NA	NA	NA	NA	NA	7
+2021-03-22 11:56:45	"student011"	"student"	92	"except FOR? ."	"except FOR? ."	NA	"4e"	"enquiry"	"lexical resource"	NA	NA	3
+2021-03-22 11:56:54	"student011"	"student"	93	"I have t0 remember ."	"I have to remember ."	NA	NA	NA	NA	NA	NA	5
+2021-03-22 11:56:57	"student011"	"student"	94	"to"	"to"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-22 11:57:48	"teacher008"	"teacher"	95	"Sorry, my laptop's being slow again!"	"Sorry, my laptop's being slow again!"	NA	"5.0"	"disruption"	NA	NA	NA	6
+2021-03-22 11:57:59	"student011"	"student"	96	"it's ok ."	"it's ok ."	NA	NA	NA	NA	NA	NA	3
+2021-03-22 11:58:03	"student011"	"student"	97	"don't worry"	"don't worry"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 11:58:14	"teacher008"	"teacher"	98	"except for, yes"	"except for, yes"	"92.0"	NA	NA	NA	NA	NA	3
+2021-03-22 11:58:23	"teacher008"	"teacher"	99	"Just trying to write the transcription for you"	"Just trying to write the transcription for you"	"91.0"	NA	NA	NA	NA	NA	8
+2021-03-22 11:58:37	"student011"	"student"	100	"I saw <TEACHER'S HUSBAND> had posted something about laptops for you ..."	"I saw <TEACHER'S HUSBAND> had posted something about laptops for you ..."	"97.0"	NA	NA	NA	NA	NA	12
+2021-03-22 11:58:38	"teacher008"	"teacher"	101	"/ˈfɜː.ləʊ/"	"/ˈfɜː.ləʊ/"	"99.0"	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-03-22 11:58:43	"teacher008"	"teacher"	102	"Got it at last!"	"Got it at last!"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 11:59:33	"teacher008"	"teacher"	103	"Oh sorry, missed your response about 'the lockdown is not as strict as' - correct!"	"Oh sorry, missed your response about 'the lockdown is not as strict as' - correct!"	"84.0"	NA	NA	NA	NA	NA	15
+2021-03-22 11:59:54	"teacher008"	"teacher"	104	"Yes, and of course, if there's no furlough money, I suppose they can't close businesses!"	"Yes, and of course, if there's no furlough money, I suppose they can't close businesses!"	"102.0"	NA	NA	NA	NA	NA	15
+2021-03-22 11:59:55	"student011"	"student"	105	"it happens here in the chat"	"it happens here in the chat"	"103.0"	NA	NA	NA	NA	NA	6
+2021-03-22 12:00:15	"student011"	"student"	106	"But they did"	"But they did"	"104.0"	NA	NA	NA	NA	NA	3
+2021-03-22 12:00:27	"teacher008"	"teacher"	107	"Oh yes, restaurants, of course!"	"Oh yes, restaurants, of course!"	NA	NA	NA	NA	NA	NA	5
+2021-03-22 12:01:33	"student011"	"student"	108	"The shop and the restaurants have huge losses here"	"Shops and restaurants have huge losses here"	NA	NA	NA	NA	NA	NA	9
+2021-03-22 12:01:38	"student011"	"student"	109	"losses? Damages?"	"losses? Damages?"	NA	"4f"	"enquiry"	"lexical resource"	NA	NA	2
+2021-03-22 12:01:49	"student011"	"student"	110	"*shops"	"*shops"	"108.0"	NA	"repair"	"writing"	NA	NA	1
+2021-03-22 12:01:55	"teacher008"	"teacher"	111	"Yes, correct, losses!"	"Yes, correct, losses!"	"109.0"	NA	NA	NA	NA	NA	3
+2021-03-22 12:02:27	"student011"	"student"	112	"And what about beauty there in the UK?"	"And what about beauty there in the UK?"	NA	"6.0"	"topic opening"	NA	NA	NA	8
+2021-03-22 12:02:32	"teacher008"	"teacher"	113	"Damage can also be used to talk about business, let me have a think about what the difference is!"	"Damage can also be used to talk about business, let me have a think about what the difference is!"	"111.0"	NA	NA	NA	NA	NA	19
+2021-03-22 12:02:43	"student011"	"student"	114	"Did you have a chance to cut your hair?"	"Did you have a chance to have your hair cut?"	"112.0"	NA	NA	NA	NA	NA	9
+2021-03-22 12:03:03	"teacher008"	"teacher"	115	"Oh, everything's closed! I haven't been able to have a haircut since before Christmas, and they will only re-open in mid-April"	"Oh, everything's closed! I haven't been able to have a haircut since before Christmas, and they will only re-open in mid-April"	NA	NA	NA	NA	NA	NA	21
+2021-03-22 12:03:15	"student011"	"student"	116	"Ah, I see"	"Ah, I see"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:03:17	"teacher008"	"teacher"	117	"No nail, eyebrow, massage appointments etc. etc."	"No nail, eyebrow, massage appointments etc. etc."	NA	NA	NA	NA	NA	NA	7
+2021-03-22 12:03:26	"student011"	"student"	118	"But I like long hair ."	"But I like long hair ."	NA	NA	NA	NA	NA	NA	6
+2021-03-22 12:04:21	"teacher008"	"teacher"	119	"Oh no, I really need a haircut!"	"Oh no, I really need a haircut!"	NA	NA	NA	NA	NA	NA	7
+2021-03-22 12:04:33	"student011"	"student"	120	"I hear that the quality of beauty services abroad not as high as here in Ukraine"	"I hear that the quality of beauty services abroad is not as high as here in Ukraine"	NA	"6a"	"topic development"	NA	NA	NA	16
+2021-03-22 12:04:45	"student011"	"student"	121	"What do you think if compare?"	"What do you think, if you compare?"	NA	NA	NA	NA	NA	NA	6
+2021-03-22 12:05:24	"teacher008"	"teacher"	122	"Ok, damages .plural. is the money that that a person or organization is ordered by a court of law to pay to another person or organization because they are responsible for harming them in some way"	"Ok, damages .plural. is the money that that a person or organization is ordered by a court of law to pay to another person or organization because they are responsible for harming them in some way"	"113.0"	NA	"scaffolding"	"lexical resource,meaning"	"dictionary"	NA	36
+2021-03-22 12:05:29	"teacher008"	"teacher"	123	"dictionary definition"	"dictionary definition"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:06:10	"student011"	"student"	124	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:06:17	"student011"	"student"	125	"it's not losses"	"it's not losses"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:06:24	"teacher008"	"teacher"	126	"For example, Meghan Markle took one of the British newspapers to court for printing her private letter. She won the case, and now this newspaper has to pay her damages"	"For example, Meghan Markle took one of the British newspapers to court for printing her private letter. She won the case, and now this newspaper has to pay her damages"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	30
+2021-03-22 12:06:27	"student011"	"student"	127	"more like kompensacia"	"more like kompensacia"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+2021-03-22 12:06:34	"teacher008"	"teacher"	128	"No, it's different! Yes, that's right"	"No, it's different! Yes, that's right"	"125, 127"	NA	NA	NA	NA	NA	6
+2021-03-22 12:06:43	"student011"	"student"	129	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:06:54	"teacher008"	"teacher"	130	"No problem"	"No problem"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:07:09	"teacher008"	"teacher"	131	"Beauty services! Yes, so much better and more affordable in Ukraine!"	"Beauty services! Yes, so much better and more affordable in Ukraine!"	"121.0"	NA	NA	NA	NA	NA	11
+2021-03-22 12:07:24	"student011"	"student"	132	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:08:03	"teacher008"	"teacher"	133	"In my opinion :."	"In my opinion :."	NA	NA	NA	NA	NA	NA	4
+2021-03-22 12:08:21	"student011"	"student"	134	"I think it's a good chance to have a good job for Ukrainian beauty specialists if they move to the UK for example"	"I think it's a good chance to have a good job for Ukrainian beauty specialists if they move to the UK for example"	NA	NA	NA	NA	NA	NA	23
+2021-03-22 12:08:30	"teacher008"	"teacher"	135	"But then, the whole beauty philosophy is different in the UK"	"But then, the whole beauty philosophy is different in the UK"	NA	"6b"	"topic development"	NA	NA	NA	11
+2021-03-22 12:08:36	"student011"	"student"	136	"good and good"	"good and good"	"134.0"	NA	NA	NA	NA	NA	3
+2021-03-22 12:08:42	"student011"	"student"	137	"..."	"..."	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:08:52	"teacher008"	"teacher"	138	"Yes, true!"	"Yes, true!"	"134.0"	NA	NA	NA	NA	NA	2
+2021-03-22 12:08:57	"student011"	"student"	139	"What do you mean?"	"What do you mean?"	"135.0"	NA	NA	NA	NA	NA	4
+2021-03-22 12:09:32	"student011"	"student"	140	"About philosophy ."	"About philosophy ."	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:10:10	"teacher008"	"teacher"	141	"Well, I'm thinking what's the best way to describe it"	"Well, I'm thinking what's the best way to describe it"	NA	NA	NA	NA	NA	NA	10
+2021-03-22 12:11:02	"teacher008"	"teacher"	142	"For example, I know lots of women who don't wear much make-up and don't invest in beauty treatments very much"	"For example, I know lots of women who don't wear much make-up and don't invest in beauty treatments very much"	NA	NA	NA	NA	NA	NA	20
+2021-03-22 12:11:22	"teacher008"	"teacher"	143	"here in the UK"	"here in the UK"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 12:11:26	"teacher008"	"teacher"	144	"But not in Ukraine!"	"But not in Ukraine!"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 12:11:28	"student011"	"student"	145	"Ah I see"	"Ah I see"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:11:47	"student011"	"student"	146	"Actually I've change my philosophy too"	"Actually I've changed my philosophy too"	NA	"6c"	"topic development"	NA	NA	NA	6
+2021-03-22 12:11:57	"teacher008"	"teacher"	147	"Obviously, there are lots of very fashion- and make-up-conscious people here"	"Obviously, there are lots of very fashion- and make-up-conscious people here"	"145.0"	NA	NA	NA	NA	NA	11
+2021-03-22 12:12:25	"student011"	"student"	148	"I prefer now don't spend money for the nails for example but to spend the sum on the face massage"	"I prefer now not to spend money on my nails for example but to spend the sum on a face massage instead"	"146.0"	NA	NA	NA	NA	NA	20
+2021-03-22 12:12:27	"teacher008"	"teacher"	149	"I think it also depends on where I live :. Maybe it would be different for me if I lived in London, not in the countryside"	"I think it also depends on where I live :. Maybe it would be different for me if I lived in London, not in the countryside"	"147.0"	NA	NA	NA	NA	NA	26
+2021-03-22 12:12:45	"student011"	"student"	150	"don't meant it's the same sum"	"I don't meant it's the same sum"	"148.0"	NA	NA	NA	NA	NA	6
+2021-03-22 12:12:52	"student011"	"student"	151	"but ..."	"but ..."	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:12:57	"student011"	"student"	153	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:13:14	"student011"	"student"	154	"but I just try to 眉spokoit'myself ."	"but I'm just trying to 眉spokoit' myself ."	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	7
+2021-03-22 12:13:21	"teacher008"	"teacher"	155	"Yes, I get it! You prefer to invest in in healthy skin rather than make-up, is this what you're saying?"	"Yes, I get it! You prefer to invest in in healthy skin rather than make-up, is this what you're saying?"	NA	NA	NA	NA	NA	NA	20
+2021-03-22 12:13:49	"student011"	"student"	156	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:14:05	"student011"	"student"	157	"it's true!"	"it's true!"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:15:21	"student011"	"student"	158	"make culm"	"make myself calm"	"154.0"	NA	NA	NA	NA	NA	2
+2021-03-22 12:15:27	"teacher008"	"teacher"	159	"I would say there is less pressure on women here to wear make-up etc."	"I would say there is less pressure on women here to wear make-up etc."	"157.0"	NA	NA	NA	NA	NA	14
+2021-03-22 12:15:39	"student011"	"student"	160	"make calm?"	"make calm?"	NA	"6d"	"enquiry"	"lexical resource"	NA	NA	2
+2021-03-22 12:15:57	"student011"	"student"	161	"But I think it's a tree now"	"But I think it's a tree now"	NA	NA	NA	NA	NA	NA	7
+2021-03-22 12:16:11	"teacher008"	"teacher"	162	"For example, when I used to come to work without much make-up in Ukraine, my colleagues would sometimes comment that I should have worn some :. Which would be extremely rude here, but is quite normal in Ukraine, isn't it?"	"For example, when I used to come to work without much make-up in Ukraine, my colleagues would sometimes comment that I should have worn some :. Which would be extremely rude here, but is quite normal in Ukraine, isn't it?"	"159.0"	NA	NA	NA	NA	NA	40
+2021-03-22 12:16:32	"teacher008"	"teacher"	163	"Hmm, you're trying to comfort yourself?"	"Hmm, you're trying to comfort yourself?"	"160.0"	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-03-22 12:16:45	"teacher008"	"teacher"	164	"I think 'comfort' is a better verb here"	"I think 'comfort' is a better verb here"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-03-22 12:17:04	"student011"	"student"	165	"so here in Ukraine .I mean Kyiv maybe .. lot's of girls have less make-up, don't wear heels and skirts atc"	"so here in Ukraine, I mean Kyiv maybe .. lots of girls wear less make-up, don't wear heels and skirts etc."	"162.0"	NA	NA	NA	NA	NA	21
+2021-03-22 12:17:07	"student011"	"student"	166	"etc"	"etc."	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:17:21	"teacher008"	"teacher"	167	"Ok! Things are changing then!"	"Ok! Things are changing then!"	NA	NA	NA	NA	NA	NA	5
+2021-03-22 12:17:34	"student011"	"student"	168	"comfort! Yes!"	"comfort! Yes!"	"164.0"	NA	NA	NA	NA	NA	2
+2021-03-22 12:17:47	"student011"	"student"	169	"I'm pretty sure"	"I'm pretty sure"	"167.0"	NA	NA	NA	NA	NA	3
+2021-03-22 12:17:53	"teacher008"	"teacher"	170	"This is connected with gender stereotypes, of course"	"This is connected with gender stereotypes, of course"	NA	NA	NA	NA	NA	NA	8
+2021-03-22 12:17:57	"student011"	"student"	171	"it's like worldwide trend"	"it's like a worldwide trend"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 12:18:39	"student011"	"student"	172	"But I still like make-up ...00"	"But I still like make-up ...00"	NA	NA	NA	NA	NA	NA	6
+2021-03-22 12:19:08	"teacher008"	"teacher"	173	"It's a cool trend, I like it! More casual"	"It's a cool trend, I like it! More casual"	"171.0"	NA	NA	NA	NA	NA	9
+2021-03-22 12:19:26	"teacher008"	"teacher"	174	"I like wearing some make-up too :."	"I like wearing some make-up too :."	"172.0"	NA	NA	NA	NA	NA	7
+2021-03-22 12:19:44	"teacher008"	"teacher"	175	"Ok, speaking of make-up and fashion and British women, Alexa Chung!"	"Ok, speaking of make-up and fashion and British women, Alexa Chung!"	NA	"7.0"	"topic opening,homework"	"listening"	NA	NA	11
+2021-03-22 12:19:55	"student011"	"student"	176	"Actually, <STUDENT'S CHILD> was very surprised .and happy. that I have a pair of heeled shoes ."	"Actually, <STUDENT'S CHILD> was very surprised (and happy) that I have a pair of high-heeled shoes ."	NA	"6e"	"topic development"	NA	NA	NA	17
+2021-03-22 12:19:56	"teacher008"	"teacher"	177	"We haven't got much time, but we can at least start"	"We haven't got much time, but we can at least start"	"175.0"	NA	NA	NA	NA	NA	11
+2021-03-22 12:20:09	"teacher008"	"teacher"	178	"Haha, like Barbie?"	"Haha, like Barbie?"	"176.0"	NA	NA	NA	NA	NA	3
+2021-03-22 12:20:14	"student011"	"student"	179	"Yes ....."	"Yes ....."	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:20:30	"teacher008"	"teacher"	180	"Brilliant..."	"Brilliant..."	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:20:36	"student011"	"student"	181	"A let her even wear them ."	"I even let her wear them ."	NA	NA	NA	NA	NA	NA	7
+2021-03-22 12:20:44	"student011"	"student"	182	"I let her.."	"I let her.."	NA	NA	"repair"	"writing"	NA	NA	3
+2021-03-22 12:21:06	"teacher008"	"teacher"	183	"Ok, what did you think of the interview in general? Have you been following Alexa and her work for a long time?"	"Ok, what did you think of the interview in general? Have you been following Alexa and her work for a long time?"	"177.0"	NA	NA	NA	NA	NA	22
+2021-03-22 12:21:32	"student011"	"student"	184	"But it's funny because she didn't know that I have heeled shoes"	"But it's funny because she didn't know that I had high-heeled shoes"	"182.0"	NA	NA	NA	NA	NA	12
+2021-03-22 12:21:40	"student011"	"student"	185	"I like Alexa"	"I like Alexa"	"183.0"	NA	NA	NA	NA	NA	3
+2021-03-22 12:22:01	"student011"	"student"	186	"She is a beautiful and smart woman I think"	"She is a beautiful and smart woman I think"	NA	NA	NA	NA	NA	NA	9
+2021-03-22 12:22:12	"student011"	"student"	187	"I like the voice and pronunciation"	"I like the voice and pronunciation"	NA	NA	NA	NA	NA	NA	6
+2021-03-22 12:22:31	"student011"	"student"	188	"It's just about my feelings about her ."	"It's just about my feelings about her ."	NA	NA	NA	NA	NA	NA	8
+2021-03-22 12:22:44	"student011"	"student"	189	"Ah! And of course I really love her style"	"Ah! And of course I really love her style"	NA	NA	NA	NA	NA	NA	9
+2021-03-22 12:22:50	"teacher008"	"teacher"	190	"Yes, she's got a very posh accent :."	"Yes, she's got a very posh accent :."	"187.0"	NA	NA	NA	NA	NA	8
+2021-03-22 12:23:19	"student011"	"student"	191	"I think the interview is very useful for me but not like instruction how to built the businnes"	"I think the interview is very useful for me but not like an instruction in how to build a business"	NA	NA	NA	NA	NA	NA	18
+2021-03-22 12:23:27	"teacher008"	"teacher"	192	"Speaking of high-heeled shoes, people just call them 'heels' for short"	"Speaking of high-heeled shoes, people just call them 'heels' for short"	"184.0"	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-22 12:23:28	"student011"	"student"	193	"but more like the motivation"	"but more like motivation"	"191.0"	NA	NA	NA	NA	NA	5
+2021-03-22 12:23:44	"teacher008"	"teacher"	194	"Yes, and inspiration!"	"Yes, and inspiration!"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:23:48	"teacher008"	"teacher"	195	"Business and fashion"	"Business and fashion"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:23:51	"student011"	"student"	196	"Yes, she's got a very posh accent :. I like it! Really!"	"Yes, she's got a very posh accent :. I like it! Really!"	"190.0"	NA	NA	NA	NA	NA	12
+2021-03-22 12:24:18	"student011"	"student"	197	"I feel like I have same thoughts"	"I feel like I have the same thoughts"	"195.0"	NA	NA	NA	NA	NA	7
+2021-03-22 12:24:34	"teacher008"	"teacher"	198	"Very easy to understand! You will like Lisa Eldridge and her make-up tutorials too, she's got a very similar accent :."	"Very easy to understand! You will like Lisa Eldridge and her make-up tutorials too, she's got a very similar accent :."	"196.0"	NA	"reference"	"listening"	"website"	NA	21
+2021-03-22 12:24:34	"student011"	"student"	199	"And same hesitations"	"And same hesitations"	"197.0"	NA	NA	NA	NA	NA	3
+2021-03-22 12:24:51	"student011"	"student"	200	"Oh! We had a synonim og hesitations I think before"	"Oh! We had a synonym for hesitations I think before"	NA	"7a"	"enquiry"	"lexical resource"	NA	NA	10
+2021-03-22 12:25:22	"teacher008"	"teacher"	201	"I remember! Hesitations is very good here, actually, as a noun"	"I remember! Hesitations is very good here, actually, as a noun"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-03-22 12:25:36	"teacher008"	"teacher"	202	"We spoke about the verb 'dither'"	"We spoke about the verb 'dither'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-03-22 12:25:57	"teacher008"	"teacher"	203	"Do I buy a dress from Alexa Chung or do I buy one from H&amp;M? I'm dithering!"	"Do I buy a dress from Alexa Chung or do I buy one from H&amp;M? I'm dithering!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2021-03-22 12:26:00	"student011"	"student"	204	"Actually even 1 or 2 years ago I thought that the motivation videos are useless"	"Actually even 1 or 2 years ago I thought that motivation videos were useless"	NA	"7b"	"topic development"	NA	NA	NA	15
+2021-03-22 12:26:05	"teacher008"	"teacher"	205	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:26:14	"student011"	"student"	206	"But now I think it depends on the message"	"But now I think it depends on the message"	NA	NA	NA	NA	NA	NA	9
+2021-03-22 12:26:20	"student011"	"student"	207	"And the form"	"And the form"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:26:40	"teacher008"	"teacher"	208	"Yes, this is really her story, isn't it? Rather than just a silly motivational video"	"Yes, this is really her story, isn't it? Rather than just a silly motivational video"	NA	NA	NA	NA	NA	NA	15
+2021-03-22 12:26:50	"student011"	"student"	209	"dither! Yes!"	"dither! Yes!"	"203.0"	NA	NA	NA	NA	NA	2
+2021-03-22 12:27:11	"teacher008"	"teacher"	210	"What are you dithering about? Whether to branch out into a fashion business? :."	"What are you dithering about? Whether to branch out into a fashion business? :."	NA	NA	"eliciting"	"lexical resource"	NA	NA	14
+2021-03-22 12:27:24	"student011"	"student"	211	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:27:28	"student011"	"student"	212	"k today"	"today"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:28:05	"student011"	"student"	213	"today I was speaking with my friend from Switzerland"	"today I was speaking with my friend from Switzerland"	NA	NA	NA	NA	NA	NA	9
+2021-03-22 12:29:05	"student011"	"student"	214	"And I told her that I'm dithering about the money I should to give for charity"	"And I told her that I'm dithering about the money I should give to charity"	NA	NA	NA	NA	NA	NA	16
+2021-03-22 12:29:33	"student011"	"student"	215	"Because I understand that I can't help everyone and I have dithering about it"	"Because I understand that I can't help everyone and I have been dithering about it"	NA	NA	NA	NA	NA	NA	14
+2021-03-22 12:29:45	"student011"	"student"	216	"Oh, no"	"Oh, no"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:29:53	"teacher008"	"teacher"	217	"Oh yes, this is difficult!"	"Oh yes, this is difficult!"	"215.0"	NA	NA	NA	NA	NA	5
+2021-03-22 12:29:58	"student011"	"student"	218	"I'm dithering about"	"I'm dithering about"	"216.0"	NA	NA	NA	NA	NA	3
+2021-03-22 12:30:53	"student011"	"student"	219	"dithering about it or dithering about it"	"dithering about it or dithering about it"	NA	NA	"enquiry"	"lexical resource,grammatical resource"	NA	NA	7
+2021-03-22 12:30:56	"student011"	"student"	220	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-03-22 12:31:05	"teacher008"	"teacher"	221	"I always think, I will give to charities that are important to me, and some other charities are important to other people, and they will give to them. But there are a lot of charities that are important to me!"	"I always think, I will give to charities that are important to me, and some other charities are important to other people, and they will give to them. But there are a lot of charities that are important to me!"	"217.0"	NA	NA	NA	NA	NA	40
+2021-03-22 12:31:31	"student011"	"student"	222	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:31:31	"teacher008"	"teacher"	223	"just 'I'm dithering about it'"	"just 'I'm dithering about it'"	"219.0"	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	5
+2021-03-22 12:31:43	"student011"	"student"	224	"Ok! Thank you!"	"Ok! Thank you!"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:31:53	"teacher008"	"teacher"	225	"No worries!"	"No worries!"	NA	NA	NA	NA	NA	NA	2
+2021-03-22 12:32:22	"teacher008"	"teacher"	226	"Ok, we've got to wrap up for today! It went too fast as usual! We can work on the words from the interview on Friday, ok?"	"Ok, we've got to wrap up for today! It went too fast as usual! We can work on the words from the interview on Friday, ok?"	NA	"8.0"	"closing"	NA	NA	NA	26
+2021-03-22 12:32:51	"student011"	"student"	227	"ok! Thank you!!"	"ok! Thank you!!"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:32:56	"student011"	"student"	228	"I like our chats"	"I like our chats"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 12:33:07	"student011"	"student"	229	"the time flies ."	"time flies ."	NA	NA	NA	NA	NA	NA	4
+2021-03-22 12:33:13	"teacher008"	"teacher"	230	"Me too :. always a pleasure!"	"Me too :. always a pleasure!"	NA	NA	NA	NA	NA	NA	6
+2021-03-22 12:33:23	"student011"	"student"	231	"Have a good day"	"Have a good day"	NA	NA	NA	NA	NA	NA	4
+2021-03-22 12:33:28	"student011"	"student"	232	"bye bye xx"	"bye bye xx"	NA	NA	NA	NA	NA	NA	3
+2021-03-22 12:33:33	"teacher008"	"teacher"	233	"Thank you! You too! Speak to you on Friday :."	"Thank you! You too! Speak to you on Friday :."	NA	NA	NA	NA	NA	"B2"	10

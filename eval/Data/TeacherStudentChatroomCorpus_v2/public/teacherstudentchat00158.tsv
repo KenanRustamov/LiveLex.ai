@@ -1,0 +1,118 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-03 13:30:42	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-12-03 13:31:01	"student015"	"student"	2	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	NA	NA	NA	NA	NA	2
+2020-12-03 13:31:15	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-12-03 13:31:53	"student015"	"student"	4	"I'm fine. In weekdays I do my work as normal."	"I'm fine. On weekdays I do my work as normal."	NA	NA	NA	NA	NA	NA	10
+2020-12-03 13:32:30	"teacher008"	"teacher"	5	"Ok! Do you go to work or work from home?"	"Ok! Do you go to work or work from home?"	NA	"2a"	"topic development"	NA	NA	NA	10
+2020-12-03 13:33:17	"student015"	"student"	6	"I go to work at my office."	"I go to work at my office."	NA	NA	NA	NA	NA	NA	7
+2020-12-03 13:33:50	"teacher008"	"teacher"	7	"I see! Did you have to work from home when the pandemic was bad in China?"	"I see! Did you have to work from home when the pandemic was bad in China?"	NA	NA	NA	NA	NA	NA	16
+2020-12-03 13:35:06	"student015"	"student"	8	"Yes. I worked from home from Jan to April in this year."	"Yes. I worked from home from Jan to April this year."	NA	NA	NA	NA	NA	NA	12
+2020-12-03 13:35:41	"teacher008"	"teacher"	9	"I see! Do you prefer working from home or at the office?"	"I see! Do you prefer working from home or at the office?"	NA	"2b"	"topic development"	NA	NA	NA	12
+2020-12-03 13:36:23	"student015"	"student"	10	"I think working at the office is better."	"I think working at the office is better."	NA	NA	NA	NA	NA	NA	8
+2020-12-03 13:37:00	"teacher008"	"teacher"	11	"Why do you think so/"	"Why do you think so/"	NA	NA	NA	NA	NA	NA	5
+2020-12-03 13:37:01	"teacher008"	"teacher"	12	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-12-03 13:38:44	"student015"	"student"	13	"Working at the office can let you have a feeling of working atmosphere."	"Working at the office can let you have a feeling of working atmosphere."	NA	NA	NA	NA	NA	NA	13
+2020-12-03 13:39:34	"teacher008"	"teacher"	14	"Yes, it can be easier to focus"	"Yes, it can be easier to focus"	NA	NA	NA	NA	NA	NA	7
+2020-12-03 13:39:54	"teacher008"	"teacher"	15	"Are there any benefit to working from home in your opinion?"	"Are there any benefit to working from home in your opinion?"	NA	NA	NA	NA	NA	NA	11
+2020-12-03 13:40:05	"student015"	"student"	16	"It's more efficient, and it's more convenient to communicate with your partner"	"It's more efficient, and it's more convenient to communicate with your partner"	14	NA	NA	NA	NA	NA	12
+2020-12-03 13:40:42	"teacher008"	"teacher"	17	"Do you mean in the office?"	"Do you mean in the office?"	NA	NA	NA	NA	NA	NA	6
+2020-12-03 13:41:17	"student015"	"student"	18	"Working from home also has some positive poits."	"Working from home also has some positive points."	15	NA	NA	NA	NA	NA	8
+2020-12-03 13:41:27	"teacher008"	"teacher"	19	"Ok, for example?"	"Ok, for example?"	NA	NA	NA	NA	NA	NA	3
+2020-12-03 13:43:01	"student015"	"student"	20	"Like we can save time for travelling to the office. In big cities such as Beijing, we always waste a lot of time to travel between our home from the office."	"Like we can save time on travelling to the office. In big cities such as Beijing, we always waste a lot of time to travel between our home and the office."	NA	NA	NA	NA	NA	NA	31
+2020-12-03 13:43:23	"teacher008"	"teacher"	21	"Yes, very good point! The word for it is 'to commute'"	"Yes, very good point! The word for it is 'to commute'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-12-03 13:43:32	"teacher008"	"teacher"	22	"to commute = to travel to work / school"	"to commute = to travel to work / school"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2020-12-03 13:43:48	"teacher008"	"teacher"	23	"a commute is a journey to work /school"	"a commute is a journey to work /school"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-12-03 13:43:49	"student015"	"student"	24	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 13:43:57	"teacher008"	"teacher"	25	"and a commuter is a person who commutes"	"and a commuter is a person who commutes"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-12-03 13:44:16	"teacher008"	"teacher"	26	"How long does your commute take?"	"How long does your commute take?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	6
+2020-12-03 13:45:49	"student015"	"student"	27	"I live near from my office, I spend an hour everyday from commuting."	"I live near my office, I spend an hour commuting every day."	NA	NA	NA	NA	NA	NA	13
+2020-12-03 13:46:09	"teacher008"	"teacher"	28	"An hour! That's still a lot!"	"An hour! That's still a lot!"	NA	NA	NA	NA	NA	NA	6
+2020-12-03 13:46:21	"teacher008"	"teacher"	29	"I spend an hour ON commuting"	"I spend an hour ON commuting"	27	NA	"repair"	"lexical resource"	NA	NA	6
+2020-12-03 13:46:29	"teacher008"	"teacher"	30	"we spend time / money / energy on something"	"we spend time / money / energy on something"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-12-03 13:46:31	"student015"	"student"	31	"ON"	"ON"	NA	NA	NA	NA	NA	NA	1
+2020-12-03 13:46:34	"student015"	"student"	32	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 13:47:11	"teacher008"	"teacher"	33	"My husband used to commute to Cambridge, it took him about an hour. But he hasn't been at work since March! He's been working from home this whole time because of covid restrictions"	"My husband used to commute to Cambridge, it took him about an hour. But he hasn't been at work since March! He's been working from home this whole time because of covid restrictions"	NA	"2c"	"topic development"	NA	NA	NA	33
+2020-12-03 13:47:31	"teacher008"	"teacher"	34	"And I always work from home. I used to occasionally go to Cambridge for meetings but I haven't since the lockdown"	"And I always work from home. I used to occasionally go to Cambridge for meetings but I haven't since the lockdown"	NA	NA	NA	NA	NA	NA	21
+2020-12-03 13:48:15	"student015"	"student"	35	"When you work from home I think you may need to have the meeting online."	"When you work from home I think you may need to have meetings online."	NA	NA	NA	NA	NA	NA	15
+2020-12-03 13:49:27	"teacher008"	"teacher"	36	"Yes, people use things like Microsoft Teams for that"	"Yes, people use things like Microsoft Teams for that"	NA	NA	NA	NA	NA	NA	9
+2020-12-03 13:49:46	"teacher008"	"teacher"	37	"Thank you for sending me your homework. Your essay is really good!!"	"Thank you for sending me your homework. Your essay is really good!!"	NA	"3.0"	"topic opening"	"writing"	"student's writing"	NA	12
+2020-12-03 13:50:04	"student015"	"student"	38	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 13:50:55	"teacher008"	"teacher"	39	"The grammar is really good. How long did it take you to write it?"	"The grammar is really good. How long did it take you to write it?"	NA	NA	NA	NA	NA	NA	14
+2020-12-03 13:51:07	"student015"	"student"	40	"Since I graduated from college, I have forgotten a lot of English works."	"Since I graduated from college, I have forgotten a lot of English."	38	NA	NA	NA	NA	NA	13
+2020-12-03 13:52:30	"student015"	"student"	41	"Because you teach me a lot during the last lesson, so it didn't take me too much time. It's less than 30 minutes."	"You taught me a lot during the last lesson, so it didn't take me too much time. It was less than 30 minutes."	39	NA	NA	NA	NA	NA	23
+2020-12-03 13:53:00	"teacher008"	"teacher"	42	"I see, because we worked on some sentences last time, makes sense. Still, the result to be proud of!"	"I see, because we worked on some sentences last time, makes sense. Still, the result to be proud of!"	NA	NA	NA	NA	NA	NA	19
+2020-12-03 13:53:22	"teacher008"	"teacher"	43	"Are you looking forward to your weekend?"	"Are you looking forward to your weekend?"	NA	"4.0"	"topic opening,revision"	"grammatical resource"	NA	NA	7
+2020-12-03 13:54:22	"student015"	"student"	44	"Yes. I have something to learn for my PHD exams."	"Yes. I have something to learn for my PHD exams."	NA	NA	NA	NA	NA	NA	10
+2020-12-03 13:55:16	"student015"	"student"	45	"Weekends are the best time for my study."	"Weekends are the best time for me to study."	NA	NA	NA	NA	NA	NA	8
+2020-12-03 13:55:22	"teacher008"	"teacher"	46	"Ok, could you tell me a few things about this weekend using the future forms we've been talking about?"	"Ok, could you tell me a few things about this weekend using the future forms we've been talking about?"	NA	"4a"	"eliciting,revision"	"grammatical resource"	NA	NA	19
+2020-12-03 13:55:41	"student015"	"student"	47	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 13:55:41	"teacher008"	"teacher"	48	"I see! Weekends are the best time for you to study"	"I see! Weekends are the best time for you to study"	45	NA	"repair"	"lexical resource"	NA	NA	11
+2020-12-03 13:57:41	"student015"	"student"	49	"I will have a lesson on Machine learning course online on this Saturday."	"I'm having a lesson on machine learning online this Saturday."	48	NA	NA	NA	NA	NA	13
+2020-12-03 13:58:24	"teacher008"	"teacher"	50	"Ok, and if you're talking about a plan..."	"Ok, and if you're talking about a plan..."	NA	NA	"eliciting,revision"	"grammatical resource"	NA	NA	8
+2020-12-03 13:59:09	"student015"	"student"	51	"And then I go to the National Libarary at 10 a.m on Sunday."	"And then I'm going to the National Library at 10 a.m on Sunday."	49	NA	NA	NA	NA	NA	13
+2020-12-03 14:00:34	"teacher008"	"teacher"	52	"Ok, both these sentences sound like your plans to me. Could you try and use Present Continous (be + Ving) or 'be going to' in them?"	"Ok, both these sentences sound like your plans to me. Could you try and use Present Continous (be + Ving) or 'be going to' in them?"	NA	NA	"scaffolding,eliciting,revision"	"grammatical resource"	NA	NA	26
+2020-12-03 14:02:28	"student015"	"student"	53	"I'm going to study my English at 10 a.m on Sunday in the National Library."	"I'm going to study English at 10 a.m on Sunday at the National Library."	NA	NA	NA	NA	NA	NA	15
+2020-12-03 14:02:49	"teacher008"	"teacher"	54	"Ok, yes! Good grammar!"	"Ok, yes! Good grammar!"	NA	NA	NA	NA	NA	NA	4
+2020-12-03 14:03:04	"teacher008"	"teacher"	55	"Is there an English class at the National Library?"	"Is there an English class at the National Library?"	NA	NA	NA	NA	NA	NA	9
+2020-12-03 14:04:14	"student015"	"student"	56	"Not exactly. The National Library is the place where I study with my frinds."	"Not exactly. The National Library is the place where I study with my friends."	NA	NA	NA	NA	NA	NA	14
+2020-12-03 14:04:24	"student015"	"student"	57	"friends"	"friends"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-03 14:05:14	"teacher008"	"teacher"	58	"Oh, what a lovely idea! Do you get together to speak English?"	"Oh, what a lovely idea! Do you get together to speak English?"	56	NA	NA	NA	NA	NA	12
+2020-12-03 14:06:26	"student015"	"student"	59	"Yes. We always spent some time on practicing spoken English."	"Yes. We always spend some time on practising spoken English."	NA	NA	NA	NA	NA	NA	10
+2020-12-03 14:07:28	"teacher008"	"teacher"	60	"Sounds wonderful!"	"Sounds wonderful!"	NA	NA	NA	NA	NA	NA	2
+2020-12-03 14:07:42	"teacher008"	"teacher"	61	"Is there going to be a good game on this weekend?"	"Is there going to be a good game on this weekend?"	NA	"4b"	"eliciting,revision"	"grammatical resource"	NA	NA	11
+2020-12-03 14:07:47	"teacher008"	"teacher"	62	"I mean football"	"I mean football"	NA	NA	NA	NA	NA	NA	3
+2020-12-03 14:08:10	"student015"	"student"	63	"And last days I found a grammer book there, it was good for me to study English."	"And recently I've found a grammar book there, it is good for me to study English."	60	NA	NA	NA	NA	NA	17
+2020-12-03 14:09:05	"teacher008"	"teacher"	64	"Yes, lovely"	"Yes, lovely"	NA	NA	NA	NA	NA	NA	2
+2020-12-03 14:09:17	"teacher008"	"teacher"	65	"Oh, before we move on."	"Oh, before we move on."	NA	"5.0"	NA	NA	NA	NA	5
+2020-12-03 14:09:33	"student015"	"student"	66	"No, This weekends there is no match about Liverpool FC."	"No, this weekend there is no Liverpool FC match."	62	NA	NA	NA	NA	NA	10
+2020-12-03 14:09:45	"teacher008"	"teacher"	67	"Remember we said last time that we always use 'ON' with an expression that has 'day' in it"	"Remember we said last time that we always use 'ON' with an expression that has 'day' in it"	65	NA	"revision"	"lexical resource"	NA	NA	18
+2020-12-03 14:09:51	"student015"	"student"	68	"I mean in Chinese Timezone."	"I mean in Chinese timezone."	66	NA	NA	NA	NA	NA	5
+2020-12-03 14:10:03	"teacher008"	"teacher"	69	"Do you only watch Liverpool FC games?"	"Do you only watch Liverpool FC games?"	NA	NA	NA	NA	NA	NA	7
+2020-12-03 14:10:40	"teacher008"	"teacher"	70	"on Christmas Day; on Sunday; on Monday morning; on weekdays; on my birthday"	"on Christmas Day; on Sunday; on Monday morning; on weekdays; on my birthday"	67	NA	NA	NA	NA	NA	13
+2020-12-03 14:11:12	"student015"	"student"	71	"Most time I just watch LFC's games."	"Most of the time I just watch LFC's games."	69	NA	NA	NA	NA	NA	7
+2020-12-03 14:11:18	"student015"	"student"	72	"Yes, ON"	"Yes, ON"	70	NA	NA	NA	NA	NA	2
+2020-12-03 14:11:18	"teacher008"	"teacher"	73	"But with days of the week, we can also do without 'on'. This Saturday, I'm going to watch a movie"	"But with days of the week, we can also do without 'on'. This Saturday, I'm going to watch a movie"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-12-03 14:11:44	"teacher008"	"teacher"	74	"Yes, ON, or 'this / last' without ON"	"Yes, ON, or 'this / last' without ON"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-12-03 14:11:58	"teacher008"	"teacher"	75	"My parcel arrived last Monday"	"My parcel arrived last Monday"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-12-03 14:12:08	"teacher008"	"teacher"	76	"or My parcel arrived on Monday"	"or My parcel arrived on Monday"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-12-03 14:12:14	"student015"	"student"	77	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 14:13:38	"teacher008"	"teacher"	78	"Ok, sure"	"Ok, sure"	NA	NA	NA	NA	NA	NA	2
+2020-12-03 14:13:52	"student015"	"student"	79	"So 'on this Monday' is wrong."	"So 'on this Monday' is wrong."	NA	NA	NA	NA	NA	NA	6
+2020-12-03 14:13:52	"teacher008"	"teacher"	80	"Yes, I remember now that LFC are your team!"	"Yes, I remember now that LFC are your team!"	71	NA	NA	NA	NA	NA	9
+2020-12-03 14:14:01	"teacher008"	"teacher"	81	"Yes, that's right!"	"Yes, that's right!"	79	NA	NA	NA	NA	NA	3
+2020-12-03 14:14:10	"teacher008"	"teacher"	82	"just 'this Monday' or 'on Monday'"	"just 'this Monday' or 'on Monday'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-12-03 14:14:27	"student015"	"student"	83	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 14:14:36	"teacher008"	"teacher"	84	"For example, with 'on your birthday': What do you usually do on your birthday?"	"For example, with 'on your birthday': What do you usually do on your birthday?"	NA	"5a"	"eliciting"	"lexical resource"	NA	NA	14
+2020-12-03 14:15:58	"student015"	"student"	85	"Recent years I often go to my parents' place to eat noodles on my birthday."	"In the last few years, I often go to my parents' place to eat noodles on my birthday."	NA	NA	NA	NA	NA	NA	15
+2020-12-03 14:16:27	"teacher008"	"teacher"	86	"Sounds lovely)) 'in the recent years'"	"Sounds lovely)) 'in the recent years'"	NA	NA	NA	NA	NA	NA	6
+2020-12-03 14:16:46	"student015"	"student"	87	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 14:16:54	"teacher008"	"teacher"	88	"By birthday is at the beginning of spring, and I love to go on a city break on my birthday"	"By birthday is at the beginning of spring, and I love to go on a city break on my birthday"	NA	NA	NA	NA	NA	NA	20
+2020-12-03 14:17:35	"teacher008"	"teacher"	89	"*sorry, 'my birthday'"	"*sorry, 'my birthday'"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-12-03 14:17:54	"teacher008"	"teacher"	90	"Ok, let's do a couple of questions from B2 speaking, shall we?"	"Ok, let's do a couple of questions from B2 speaking, shall we?"	NA	"6.0"	"exercise"	"speaking"	NA	NA	12
+2020-12-03 14:18:01	"student015"	"student"	91	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 14:18:14	"teacher008"	"teacher"	92	"Do you prefer to spend time on your own or with other people?"	"Do you prefer to spend time on your own or with other people?"	NA	NA	NA	NA	NA	NA	13
+2020-12-03 14:18:48	"student015"	"student"	93	"Well, I prefer to spend time on my own mostly."	"Well, I prefer to spend time on my own mostly."	NA	NA	NA	NA	NA	NA	10
+2020-12-03 14:19:18	"teacher008"	"teacher"	94	"Ok, why?"	"Ok, why?"	NA	NA	"eliciting"	"task achievement"	NA	NA	2
+2020-12-03 14:20:48	"student015"	"student"	95	"I like stay alone, because I can read books or do something silently."	"I like to stay alone, because I can read books or do something in silence."	NA	NA	NA	NA	NA	NA	13
+2020-12-03 14:21:54	"teacher008"	"teacher"	96	"Ok, cool. I like to stay alone / I like staying alone"	"Ok, cool. I like to stay alone / I like staying alone"	NA	NA	"repair"	"lexical resource"	NA	NA	12
+2020-12-03 14:22:09	"teacher008"	"teacher"	97	"Ok, next question!"	"Ok, next question!"	NA	"6a"	"exercise"	"speaking"	NA	NA	3
+2020-12-03 14:22:15	"teacher008"	"teacher"	98	"Tell us about a film that you like"	"Tell us about a film that you like"	NA	NA	NA	NA	NA	NA	8
+2020-12-03 14:22:19	"student015"	"student"	99	"Nowadays there are too much noise around us, finding a place where we can think about ourself is difficult."	"Nowadays there is too much noise around us, finding a place where we can think by ourselves is difficult."	96	NA	NA	NA	NA	NA	19
+2020-12-03 14:22:38	"student015"	"student"	100	"Beatiful Mind"	"A Beautiful Mind"	98	NA	NA	NA	NA	NA	2
+2020-12-03 14:23:33	"teacher008"	"teacher"	101	"Ok, thanks. 'think by ourselves'"	"Ok, thanks. 'think by ourselves'"	99	NA	"repair"	"lexical resource"	NA	NA	5
+2020-12-03 14:23:44	"teacher008"	"teacher"	102	"Beautiful Mind! Excellent choice!"	"Beautiful Mind! Excellent choice!"	100	NA	NA	NA	NA	NA	4
+2020-12-03 14:23:50	"teacher008"	"teacher"	103	"You know what I'm going to say :)"	"You know what I'm going to say :)"	NA	NA	NA	NA	NA	NA	8
+2020-12-03 14:23:52	"teacher008"	"teacher"	104	"Why?"	"Why?"	NA	NA	"eliciting"	"task achievement"	NA	NA	1
+2020-12-03 14:26:28	"student015"	"student"	105	"It tells us a story about Jone Nash, a famous mathematic scientist. During this moive we can learn that the family's help is the greatest power to let us overcome difficuties."	"It tells us a story about John Nash, a famous mathematician. During this movie we can learn that  family's help is the greatest power that can help us overcome difficuties."	NA	NA	NA	NA	NA	NA	31
+2020-12-03 14:27:23	"teacher008"	"teacher"	106	"Ok! Overcome difficulties is a very good expression"	"Ok! Overcome difficulties is a very good expression"	NA	NA	NA	NA	NA	NA	8
+2020-12-03 14:27:26	"student015"	"student"	107	"Sorry, John Nash."	"Sorry, John Nash."	105	NA	"repair"	"writing"	NA	NA	3
+2020-12-03 14:27:53	"teacher008"	"teacher"	108	"the word for a mathematic scientist is a mathematician"	"the word for a mathematic scientist is a mathematician"	105	NA	"repair"	"lexical resource"	NA	NA	9
+2020-12-03 14:28:01	"teacher008"	"teacher"	109	"with the stress on 'ti'"	"with the stress on 'ti'"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	5
+2020-12-03 14:28:09	"teacher008"	"teacher"	110	"a mathemaTIcian"	"a mathemaTIcian"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	2
+2020-12-03 14:28:20	"student015"	"student"	111	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 14:29:22	"teacher008"	"teacher"	112	"OK, great work today, thank you!"	"OK, great work today, thank you!"	NA	"7.0"	"closing"	NA	NA	NA	6
+2020-12-03 14:29:36	"teacher008"	"teacher"	113	"Hope you enjoy your weekend! I'll speak to you on Monday"	"Hope you enjoy your weekend! I'll speak to you on Monday"	NA	NA	NA	NA	NA	NA	11
+2020-12-03 14:29:44	"student015"	"student"	114	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 14:29:46	"student015"	"student"	115	"Ok."	"Ok."	NA	NA	NA	NA	NA	NA	1
+2020-12-03 14:30:23	"teacher008"	"teacher"	116	"Bye <STUDENT>!"	"Bye <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-12-03 14:30:28	"student015"	"student"	117	"Bye"	"Bye"	NA	NA	NA	NA	NA	"B2"	1

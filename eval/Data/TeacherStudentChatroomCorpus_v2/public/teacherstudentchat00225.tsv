@@ -1,0 +1,219 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-04-12 09:33:11	"student011"	"student"	1	"Hi there ."	"Hi there ."	NA	"1.0"	"opening"	NA	NA	NA	3
+2021-04-12 09:33:18	"teacher008"	"teacher"	2	"Hiya!"	"Hiya!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 09:33:24	"teacher008"	"teacher"	3	"How are you this morning?"	"How are you this morning?"	NA	"2.0"	"topic opening"	NA	NA	NA	5
+2021-04-12 09:34:34	"student011"	"student"	4	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 09:34:42	"student011"	"student"	5	"No pilates unfortunately"	"No pilates unfortunately"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 09:34:51	"teacher008"	"teacher"	6	"Oh no, why not?"	"Oh no, why not?"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 09:34:57	"student011"	"student"	7	"I haven't had pilates today .."	"I haven't had pilates today .."	5	NA	"repair"	"grammatical resource"	NA	NA	6
+2021-04-12 09:35:19	"student011"	"student"	8	"Maybe you know it's lockdown in France too"	"Maybe you know there's a lockdown in France too"	6	NA	NA	NA	NA	NA	8
+2021-04-12 09:35:56	"student011"	"student"	9	"So my fitness teacher don't have a nanny now and she couldn't do the lesson"	"So my fitness teacher doesn't have a nanny now and she couldn't do the lesson"	NA	NA	NA	NA	NA	NA	15
+2021-04-12 09:36:09	"student011"	"student"	10	"Because of her little daughter"	"Because of her little daughter"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 09:36:13	"teacher008"	"teacher"	11	"Oh yes, it seems Europe including Ukraine is where the UK was in January :."	"Oh yes, it seems Europe including Ukraine is where the UK was in January :."	8	NA	NA	NA	NA	NA	15
+2021-04-12 09:36:31	"student011"	"student"	12	"Sometimes she can ask her mom to be with the daughter but not today"	"Sometimes she can ask her mom to be with the daughter but not today"	10	NA	NA	NA	NA	NA	14
+2021-04-12 09:36:39	"student011"	"student"	13	"So she canceled"	"So she cancelled"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 09:36:48	"teacher008"	"teacher"	14	"Right, I see! Are there going to be any classes at all?"	"Right, I see! Are there going to be any classes at all?"	NA	NA	NA	NA	NA	NA	12
+2021-04-12 09:37:26	"teacher008"	"teacher"	15	"Have you ever tried Youtube yoga classes?"	"Have you ever tried Youtube yoga classes?"	NA	NA	NA	NA	NA	NA	7
+2021-04-12 09:37:51	"student011"	"student"	16	"No, no, she will try to manage it, and she even did last week, but today it .vyiavylos. too hard"	"No, no, she will try to manage it, and she even did last week, but today it .vyiavylos. too hard"	14	NA	"non-English"	"code switching,lexical resource"	NA	NA	20
+2021-04-12 09:39:04	"student011"	"student"	17	"I never trie, I'm not so self-discipline person . And I like to have feedback"	"I've never tried, I'm not such a self-disciplined person . And I like to have feedback"	16	NA	NA	NA	NA	NA	15
+2021-04-12 09:39:05	"teacher008"	"teacher"	18	"it proved too hard, sure"	"it proved too hard, sure"	16	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-04-12 09:39:31	"teacher008"	"teacher"	19	"Yes, makes sense! You're a very self-disciplined person!"	"Yes, makes sense! You're a very self-disciplined person!"	17	NA	NA	NA	NA	NA	8
+2021-04-12 09:39:49	"student011"	"student"	20	"It was a Ukrainian word . Sorry, maybe I confused you a bit"	"It was a Ukrainian word . Sorry, maybe I confused you a bit"	16	"2a"	"topic development"	"lexical resource"	NA	NA	13
+2021-04-12 09:40:19	"teacher008"	"teacher"	21	"vyiavylos?"	"vyiavylos?"	NA	NA	"non-English"	"code switching"	NA	NA	1
+2021-04-12 09:40:22	"teacher008"	"teacher"	22	"No, I understand!"	"No, I understand!"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 09:40:23	"student011"	"student"	23	"Haha, sometimes maybe, but not when we talk about sport .."	"Haha, sometimes maybe, but not when we talk about sport .."	19	NA	NA	NA	NA	NA	11
+2021-04-12 09:40:34	"teacher008"	"teacher"	24	"Fair enough!"	"Fair enough!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 09:41:13	"teacher008"	"teacher"	25	"Today's a big day for the UK because Prince Harry is coming back"	"Today's a big day for the UK because Prince Harry is coming back"	NA	"3.0"	"topic opening"	NA	NA	NA	13
+2021-04-12 09:41:13	"student011"	"student"	26	"But today I had a little walk about 40 mins from my home to the office"	"But today I had a little walk about 40 mins from my home to the office"	23	NA	NA	NA	NA	NA	16
+2021-04-12 09:41:18	"student011"	"student"	27	"the weather is nice"	"the weather is nice"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 09:41:30	"teacher008"	"teacher"	28	"I'm joking, because shops and pubs are reopening!"	"I'm joking, because shops and pubs are reopening!"	25	NA	NA	NA	NA	NA	8
+2021-04-12 09:41:35	"student011"	"student"	29	"And there aren't lots of people on the street"	"And there aren't lots of people on the street"	27	NA	NA	NA	NA	NA	9
+2021-04-12 09:41:50	"student011"	"student"	30	"hahaha"	"hahaha"	28	NA	NA	NA	NA	NA	1
+2021-04-12 09:41:57	"teacher008"	"teacher"	31	"Oh, that's good! People must be following the rules then"	"Oh, that's good! People must be following the rules then"	29	NA	NA	NA	NA	NA	10
+2021-04-12 09:42:18	"teacher008"	"teacher"	32	"But Prince Harry is coming back too, for his grandfather's funeral"	"But Prince Harry is coming back too, for his grandfather's funeral"	30	NA	NA	NA	NA	NA	11
+2021-04-12 09:42:22	"student011"	"student"	33	"Yeah, it's a sad reason for Harry to be there again"	"Yeah, it's a sad reason for Harry to be there again"	NA	NA	NA	NA	NA	NA	11
+2021-04-12 09:43:13	"teacher008"	"teacher"	34	"Yes, true! And now the newspapers are discussing what a horrible person Meghan is for not coming, but she is very pregnant and shouldn't be flying, especially during the pandemic"	"Yes, true! And now the newspapers are discussing what a horrible person Meghan is for not coming, but she is very pregnant and shouldn't be flying, especially during the pandemic"	NA	"3a"	"topic development"	NA	NA	NA	30
+2021-04-12 09:43:46	"student011"	"student"	35	"ok! Shops and pubs are reopening! Are you going to go to the shopping or to  cafe or are you decide not to hurry?"	"ok! Shops and pubs are reopening! Are you going to go shopping or to a cafe or have you decided not to hurry?"	28	"3b"	"topic development"	NA	NA	NA	25
+2021-04-12 09:44:23	"teacher008"	"teacher"	36	"Oh, sorry, I should have said. Only 'beer gardens' have re-opened, the outside areas in pubs"	"Oh, sorry, I should have said. Only 'beer gardens' have re-opened, the outside areas in pubs"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2021-04-12 09:44:44	"student011"	"student"	37	"Oh! Agree, it's too dangerous for her and for the baby. But I thinker's a good .совпадение. for her too ."	"Oh! Agree, it's too dangerous for her and for the baby. But I think it's a good .совпадение. for her too ."	34	NA	"non-English"	"code switching,lexical resource"	NA	NA	21
+2021-04-12 09:44:52	"teacher008"	"teacher"	38	"No, I'm not planning to go anywhere! I'm just shopping online. But I'm very looking forward to have a haircut at last!"	"No, I'm not planning to go anywhere! I'm just shopping online. But I'm very looking forward to have a haircut at last!"	36	NA	NA	NA	NA	NA	22
+2021-04-12 09:45:20	"teacher008"	"teacher"	39	"Yes, it's a coincidence"	"Yes, it's a coincidence"	37	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2021-04-12 09:45:32	"student011"	"student"	40	"Do you know what kind of haircut you would like?"	"Do you know what kind of haircut you would like?"	38	"3c"	"topic development"	NA	NA	NA	10
+2021-04-12 09:45:49	"teacher008"	"teacher"	41	"Oh, the same, just 3 inches shorter!"	"Oh, the same, just 3 inches shorter!"	NA	NA	NA	NA	NA	NA	7
+2021-04-12 09:46:20	"teacher008"	"teacher"	42	"What's that? about 7-8 cm, but you've got to be able to say it in inches at hairdresser's here"	"What's that? about 7-8 cm, but you've got to be able to say it in inches at hairdresser's here"	NA	NA	NA	NA	NA	NA	19
+2021-04-12 09:46:22	"student011"	"student"	43	"So, no new red color or something else? ..."	"So, no new red color or something else? ..."	NA	NA	NA	NA	NA	NA	9
+2021-04-12 09:46:35	"teacher008"	"teacher"	44	"No, nothing radical! :..."	"No, nothing radical! :..."	NA	NA	NA	NA	NA	NA	4
+2021-04-12 09:46:48	"teacher008"	"teacher"	45	"I like my hair low-maintenance :."	"I like my hair low-maintenance :."	NA	NA	NA	NA	NA	NA	6
+2021-04-12 09:46:57	"student011"	"student"	46	"ok . I don't like experiments with my hair too"	"ok . I don't like experiments with my hair either"	NA	NA	NA	NA	NA	NA	10
+2021-04-12 09:47:02	"teacher008"	"teacher"	47	"Do you know 'maintenance'?"	"Do you know 'maintenance'?"	NA	"4.0"	"eliciting"	"lexical resource,meaning"	NA	NA	4
+2021-04-12 09:47:24	"teacher008"	"teacher"	48	"Neither do I!"	"Neither do I!"	46	NA	NA	NA	NA	NA	3
+2021-04-12 09:47:39	"student011"	"student"	49	"I know there is kind of women who like to face new periods of their life with a new hairstyle"	"I know there is a kind of women who like to face new periods of their life with a new hairstyle"	NA	NA	NA	NA	NA	NA	20
+2021-04-12 09:47:45	"student011"	"student"	50	"But I don't ."	"But I don't ."	NA	NA	NA	NA	NA	NA	4
+2021-04-12 09:48:09	"student011"	"student"	51	"No, I don't know the expression"	"No, I don't know the expression"	47	NA	NA	NA	NA	NA	6
+2021-04-12 09:48:46	"teacher008"	"teacher"	52	"And if you shart dyeing your hair, you have to do it regularly. The verb is 'dye' .dyeing; dyed."	"And if you start dyeing your hair, you have to do it regularly. The verb is 'dye' .dyeing; dyed."	50	"3d"	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2021-04-12 09:49:07	"teacher008"	"teacher"	53	"to dye your hair = to change its colour"	"to dye your hair = to change its colour"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-04-12 09:49:16	"teacher008"	"teacher"	54	"e.g. She dyed her hair red"	"e.g. She dyed her hair red"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-04-12 09:49:48	"teacher008"	"teacher"	55	"Sorry, back to maintenance!"	"Sorry, back to maintenance!"	51	NA	NA	NA	NA	NA	4
+2021-04-12 09:49:50	"teacher008"	"teacher"	56	"/ˈmeɪn.tən.əns/"	"/ˈmeɪn.tən.əns/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-04-12 09:50:06	"teacher008"	"teacher"	57	"the work you need to do to keep something in good condition"	"the work you need to do to keep something in good condition"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-04-12 09:50:22	"teacher008"	"teacher"	58	"for example, car maintenance, house maintenance, road maintenance"	"for example, car maintenance, house maintenance, road maintenance"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-04-12 09:50:57	"student011"	"student"	59	"Ah! Sure! About to dye"	"Ah! Sure! About to dye"	54	NA	NA	NA	NA	NA	5
+2021-04-12 09:51:27	"student011"	"student"	60	"like ухаживать? следить?"	"like ухаживать? следить?"	58	NA	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	3
+2021-04-12 09:51:31	"teacher008"	"teacher"	61	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 09:51:42	"teacher008"	"teacher"	62	"Something can be 'high maintenance' or 'low maintenance'"	"Something can be 'high maintenance' or 'low maintenance'"	NA	"4a"	"scaffolding"	"lexical resource"	NA	NA	8
+2021-04-12 09:52:02	"teacher008"	"teacher"	63	"For example, an old car might be quite high maintenance because you have to take it to a mechanic a lot"	"For example, an old car might be quite high maintenance because you have to take it to a mechanic a lot"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	21
+2021-04-12 09:52:06	"teacher008"	"teacher"	64	"or an old house"	"or an old house"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 09:52:53	"teacher008"	"teacher"	65	"A short haircut and dyed hair is high maintenance because you have to go to the hairdresser's every 4 weeks!"	"A short haircut and dyed hair is high maintenance because you have to go to the hairdresser's every 4 weeks!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2021-04-12 09:53:53	"student011"	"student"	66	"Ш ыуу"	"Ш ыуу"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 09:53:55	"teacher008"	"teacher"	67	"But 'maintenance' is a noun, by the way"	"But 'maintenance' is a noun, by the way"	65	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-04-12 09:54:00	"student011"	"student"	68	"sorry ."	"sorry ."	66	NA	"repair"	"writing"	NA	NA	2
+2021-04-12 09:54:01	"student011"	"student"	69	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 09:54:25	"teacher008"	"teacher"	70	"The verb is to 'maintain'"	"The verb is to 'maintain'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-04-12 09:54:26	"student011"	"student"	71	"Ok, so my hair is low maintenance ."	"Ok, so my hair is low maintenance ."	NA	NA	NA	NA	NA	NA	8
+2021-04-12 09:54:27	"teacher008"	"teacher"	72	"/meɪnˈteɪn/"	"/meɪnˈteɪn/"	70	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-04-12 09:54:42	"teacher008"	"teacher"	73	"Yes, mine too! That's the way I like it :."	"Yes, mine too! That's the way I like it :."	71	NA	NA	NA	NA	NA	10
+2021-04-12 09:54:44	"student011"	"student"	74	"I don't dye it and don't cut it ....."	"I don't dye it and don't cut it ....."	NA	NA	NA	NA	NA	NA	9
+2021-04-12 09:55:21	"student011"	"student"	75	"but my is extremely low maintenance .."	"but mine is extremely low maintenance .."	NA	NA	NA	NA	NA	NA	7
+2021-04-12 09:55:31	"student011"	"student"	76	"Ok, but you know"	"Ok, but you know"	NA	"4b"	"topic development"	NA	NA	NA	4
+2021-04-12 09:55:40	"teacher008"	"teacher"	77	"Yes, well done with the correct pronoun! hair = it"	"Yes, well done with the correct pronoun! hair = it"	74	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	10
+2021-04-12 09:55:44	"student011"	"student"	78	"now I have some white hair"	"now I have some white hair"	76	NA	NA	NA	NA	NA	6
+2021-04-12 09:56:00	"teacher008"	"teacher"	79	"Ah, me too! it's 'grey hair' in English"	"Ah, me too! it's 'grey hair' in English"	NA	NA	"repair"	"lexical resource"	NA	NA	8
+2021-04-12 09:56:05	"student011"	"student"	80	"And I have to do something with it I think"	"And I have to do something with it I think"	78	NA	NA	NA	NA	NA	10
+2021-04-12 09:56:05	"teacher008"	"teacher"	81	"Annoying!"	"Annoying!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 09:56:29	"student011"	"student"	82	"Ah! Ok! I remember that it's something different in English .."	"Ah! Ok! I remember that it's something different in English .."	79	NA	NA	NA	NA	NA	11
+2021-04-12 09:56:41	"student011"	"student"	83	"So&lt; I have grey hair"	"So&lt; I have grey hair"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 09:56:41	"teacher008"	"teacher"	84	"Well, you have your lovely sister-in-law to consult with :."	"Well, you have your lovely sister-in-law to consult with :."	NA	NA	NA	NA	NA	NA	10
+2021-04-12 09:56:55	"student011"	"student"	85	"I like women who don't dye it"	"I like women who don't dye it"	83	NA	NA	NA	NA	NA	7
+2021-04-12 09:57:17	"student011"	"student"	86	"But I think it doesn't look so cool on me"	"But I think it doesn't look as cool on me"	NA	NA	NA	NA	NA	NA	10
+2021-04-12 09:57:19	"student011"	"student"	87	"."	"."	NA	NA	NA	NA	NA	NA	1
+2021-04-12 09:57:55	"teacher008"	"teacher"	88	"Yes, it's brave, not to dye it! But I'm like you, not sure about myself :."	"Yes, it's brave, not to dye it! But I'm like you, not sure about myself :."	NA	NA	NA	NA	NA	NA	16
+2021-04-12 09:58:40	"student011"	"student"	89	"She actually dyed my hair about 2 months ago"	"She actually dyed my hair about 2 months ago"	84	NA	NA	NA	NA	NA	9
+2021-04-12 09:59:21	"student011"	"student"	90	"But the .краска. was like very health and not too strong"	"But the .краска. was like very healthy and not too strong"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	11
+2021-04-12 10:00:05	"teacher008"	"teacher"	91	"Ok, I see! The hair dye"	"Ok, I see! The hair dye"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-04-12 10:00:15	"student011"	"student"	92	"So it looked like the grey hair become less grey but not totally dried? ."	"So it looked like the grey hair became less grey but not totally dyed? ."	90	NA	NA	NA	NA	NA	15
+2021-04-12 10:00:25	"student011"	"student"	93	"sorry dyed?"	"sorry dyed?"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 10:00:45	"teacher008"	"teacher"	94	"Yes, the grey hair became less grey, makes sense!"	"Yes, the grey hair became less grey, makes sense!"	92	NA	NA	NA	NA	NA	9
+2021-04-12 10:00:55	"student011"	"student"	95	"But it was ok, the color was so natural like my real hair"	"But it was ok, the color was so natural like my real hair"	NA	NA	NA	NA	NA	NA	13
+2021-04-12 10:01:57	"teacher008"	"teacher"	96	"Ah, it's nice to have a hair stylist in the family! :."	"Ah, it's nice to have a hair stylist in the family! :."	NA	NA	NA	NA	NA	NA	12
+2021-04-12 10:02:06	"student011"	"student"	97	"An I like that two months ago it looks like before but not like I have ti run to hairdresser .."	"And I like that two months ago it looks like before but not like I have to run to the hairdresser's .."	NA	NA	NA	NA	NA	NA	21
+2021-04-12 10:02:33	"teacher008"	"teacher"	99	"Sounds perfect!"	"Sounds perfect!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 10:02:45	"teacher008"	"teacher"	100	"and low maintenance :."	"and low maintenance :."	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:02:48	"student011"	"student"	101	"But now my grey hair become 100% grey again . And I don't like it ..."	"But now my grey hair became 100% grey again . And I don't like it ..."	NA	NA	NA	NA	NA	NA	16
+2021-04-12 10:03:20	"student011"	"student"	103	"Sorry for the long story about my grey hair .."	"Sorry for the long story about my grey hair .."	NA	NA	NA	NA	NA	NA	10
+2021-04-12 10:03:45	"teacher008"	"teacher"	104	"No, I hear you! I'm at the beginning of this journey myself..."	"No, I hear you! I'm at the beginning of this journey myself..."	NA	NA	NA	NA	NA	NA	12
+2021-04-12 10:04:03	"teacher008"	"teacher"	105	"By the way, 'high maintenance' can be a way to describe a person. Not a very nice way!"	"By the way, 'high maintenance' can be a way to describe a person. Not a very nice way!"	NA	"4c"	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2021-04-12 10:05:04	"teacher008"	"teacher"	106	"If you need to do a lot of emotional work to get on with a person, they are probably high maintenance'"	"If you need to do a lot of emotional work to get on with a person, they are probably high maintenance'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	21
+2021-04-12 10:05:54	"student011"	"student"	107	"Ah, I see"	"Ah, I see"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 10:05:58	"student011"	"student"	108	"Let me think"	"Let me think"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 10:06:10	"student011"	"student"	109	"we have an expression in Russian"	"we have an expression in Russian"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 10:06:18	"student011"	"student"	110	"Ah! Toxic people ."	"Ah! Toxic people ."	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:06:32	"teacher008"	"teacher"	111	"Financially, too. If a wife is used to a certain level of luxury, and the husband has to provide it .a stereotype."	"Financially, too. If a wife is used to a certain level of luxury, and the husband has to provide it .a stereotype."	106	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	22
+2021-04-12 10:07:05	"teacher008"	"teacher"	112	"Hmm, I think it's a bit different from a 'toxic' person, even though they can go together"	"Hmm, I think it's a bit different from a 'toxic' person, even though they can go together"	110	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2021-04-12 10:07:23	"teacher008"	"teacher"	113	"Toxic' is also a way to describe a person in English!"	"Toxic' is also a way to describe a person in English!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-04-12 10:07:54	"student011"	"student"	114	"Aha, so toxic is a bigger problem thought ."	"Aha, so toxic is a bigger problem"	NA	NA	NA	NA	NA	NA	9
+2021-04-12 10:08:20	"teacher008"	"teacher"	115	"Well, toxic describes a negative effect a person has on others"	"Well, toxic describes a negative effect a person has on others"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-04-12 10:08:37	"student011"	"student"	116	"Ah, I see what do you mean"	"Ah, I see what you mean"	NA	NA	NA	NA	NA	NA	7
+2021-04-12 10:09:03	"student011"	"student"	117	"Like it's two different method to describe a person"	"Like it's two different ways to describe a person"	NA	NA	NA	NA	NA	NA	9
+2021-04-12 10:09:09	"student011"	"student"	118	"methods"	"methods"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-04-12 10:09:26	"teacher008"	"teacher"	119	"But a 'high maintenance' person requires a lot of attention, money etc."	"But a 'high maintenance' person requires a lot of attention, money etc."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-04-12 10:09:42	"student011"	"student"	120	"I see, thank you"	"I see, thank you"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:09:59	"student011"	"student"	121	"could be a baby a hight maintenance?"	"could a baby be high maintenance?"	NA	"4d"	"enquiry"	"lexical resource"	NA	NA	7
+2021-04-12 10:10:02	"teacher008"	"teacher"	122	"Yes, it can be about one and the same .unpleasant. person"	"Yes, it can be about one and the same .unpleasant. person"	117	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-04-12 10:10:32	"teacher008"	"teacher"	123	"I've just been thinking about that. All babies are high maintenance by definition, aren't they? :."	"I've just been thinking about that. All babies are high maintenance by definition, aren't they? :."	121	NA	NA	NA	NA	NA	16
+2021-04-12 10:10:54	"teacher008"	"teacher"	124	"But a way to describe a 'fussy' baby, who cries a lot, is 'high-need'"	"But a way to describe a 'fussy' baby, who cries a lot, is 'high-need'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2021-04-12 10:11:16	"student011"	"student"	125	"Agree! But I mean if it is ok to use the expression when I talk about babies? ."	"Agree! But I mean if it is ok to use the expression when I talk about babies? ."	123	NA	NA	NA	NA	NA	18
+2021-04-12 10:11:57	"student011"	"student"	126	"Oh, fussy"	"Oh, fussy"	124	NA	NA	NA	NA	NA	2
+2021-04-12 10:12:07	"student011"	"student"	127	"I didn't hear the word before"	"I haven't heard the word before"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 10:12:17	"teacher008"	"teacher"	128	"Well, 'high maintenance' is quite negative. Fussy goes well with 'baby', and 'high-need'"	"Well, 'high maintenance' is quite negative. Fussy goes well with 'baby', and 'high-need'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2021-04-12 10:12:31	"student011"	"student"	129	"But you know it looks like the name of one Ukrainian musician ."	"But you know it looks like the name of one Ukrainian musician ."	127	NA	NA	NA	NA	NA	13
+2021-04-12 10:12:45	"teacher008"	"teacher"	130	"No, which one?"	"No, which one?"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 10:12:58	"student011"	"student"	131	"but I think he's fozzy"	"but I think he's fozzy"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 10:13:13	"teacher008"	"teacher"	132	"Haha, I see! I didn't know that"	"Haha, I see! I didn't know that"	NA	NA	NA	NA	NA	NA	7
+2021-04-12 10:13:13	"student011"	"student"	133	"You know he band TNMK?"	"You know he band TNMK?"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 10:13:22	"teacher008"	"teacher"	134	"Yes, I do!"	"Yes, I do!"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 10:13:39	"student011"	"student"	135	"So one of them is Fogod and other is Fozzy"	"So one of them is Fogod and the other is Fozzy"	NA	NA	NA	NA	NA	NA	10
+2021-04-12 10:13:55	"student011"	"student"	136	"it's not their real names .."	"they're not their real names .."	NA	NA	NA	NA	NA	NA	6
+2021-04-12 10:14:19	"student011"	"student"	137	"I don't know how to call it in English ."	"I don't know what to call it in English ."	NA	"4e"	"enquiry"	"lexical resource"	NA	NA	10
+2021-04-12 10:14:30	"teacher008"	"teacher"	138	"Their stage names!"	"Their stage names!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-04-12 10:14:34	"student011"	"student"	139	"прозвище, псевдоним, кличка ."	"прозвище, псевдоним, кличка ."	137	NA	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	4
+2021-04-12 10:14:40	"teacher008"	"teacher"	140	"Actors and musicians have stage names"	"Actors and musicians have stage names"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-04-12 10:14:48	"teacher008"	"teacher"	141	"And writers have pen names :."	"And writers have pen names :."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-04-12 10:14:59	"student011"	"student"	142	"Aha! So it's their stage names ."	"Aha! So these are their stage names ."	NA	NA	NA	NA	NA	NA	7
+2021-04-12 10:15:14	"student011"	"student"	143	"Oh, it's nice ."	"Oh, it's nice ."	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:15:28	"teacher008"	"teacher"	144	"Nice and easy :."	"Nice and easy :."	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:15:39	"teacher008"	"teacher"	145	"There's also the word 'pseudonym'"	"There's also the word 'pseudonym'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-04-12 10:16:06	"teacher008"	"teacher"	146	"/ˈsjuː.də.nɪm/"	"/ˈsjuː.də.nɪm/"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-04-12 10:16:12	"teacher008"	"teacher"	147	"you don't pronounce the 'p'"	"you don't pronounce the 'p'"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	5
+2021-04-12 10:16:19	"teacher008"	"teacher"	148	"like in 'psychology'"	"like in 'psychology'"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	3
+2021-04-12 10:16:35	"student011"	"student"	149	"Ok! Thank you"	"Ok! Thank you"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 10:16:43	"student011"	"student"	150	"But it's more formal?"	"But it's more formal?"	NA	NA	"enquiry"	"lexical resource,register"	NA	NA	4
+2021-04-12 10:16:48	"teacher008"	"teacher"	151	"Yes!"	"Yes!"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	1
+2021-04-12 10:17:22	"teacher008"	"teacher"	152	"But it's easy for you because it's like in Russian :. except for the pronunciation"	"But it's easy for you because it's like in Russian :. except for the pronunciation"	NA	NA	NA	NA	NA	NA	15
+2021-04-12 10:17:24	"student011"	"student"	153	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 10:17:27	"student011"	"student"	154	"Actually"	"Actually"	NA	"5.0"	"topic opening"	NA	NA	NA	1
+2021-04-12 10:17:51	"student011"	"student"	155	"It's <TEACHER'S CHILD>'s first day at school after the holiday?"	"Is it <TEACHER'S CHILD>'s first day at school after the holiday?"	NA	NA	NA	NA	NA	NA	10
+2021-04-12 10:18:00	"student011"	"student"	156	"Is it ."	"Is it ."	NA	NA	"repair"	"grammatical resource"	NA	NA	3
+2021-04-12 10:18:23	"teacher008"	"teacher"	157	"Yes! He's back at school. He was looking forward to it!"	"Yes! He's back at school. He was looking forward to it!"	155	NA	NA	NA	NA	NA	11
+2021-04-12 10:19:09	"student011"	"student"	158	"Oh! It's so good"	"Oh! It's so good"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:19:15	"student011"	"student"	159	"I didn't like the school ."	"I didn't like school ."	NA	NA	NA	NA	NA	NA	6
+2021-04-12 10:19:24	"teacher008"	"teacher"	160	"Also, the school has changed their catering company, and their new lunch menu looks amazing!"	"Also, the school has changed their catering company, and their new lunch menu looks amazing!"	NA	"5a"	"topic development"	NA	NA	NA	15
+2021-04-12 10:19:38	"student011"	"student"	161	"more healthy?"	"more healthy?"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 10:19:40	"teacher008"	"teacher"	162	"You didn't like school when you were small?"	"You didn't like school when you were small?"	159	NA	NA	NA	NA	NA	8
+2021-04-12 10:20:18	"teacher008"	"teacher"	163	"Well, not necessarily more healthy :. He's having a hot dog today and a pizza tomorrow... But it sounds so good! And the desserts too"	"Well, not necessarily more healthy :. He's having a hot dog today and a pizza tomorrow... But it sounds so good! And the desserts too"	161	NA	NA	NA	NA	NA	25
+2021-04-12 10:20:25	"student011"	"student"	164	"Is Jamie Oliver cook for them?"	"Is Jamie Oliver cooking for them?"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 10:20:55	"student011"	"student"	165	"I like hot dogs .."	"I like hot dogs .."	163	NA	NA	NA	NA	NA	5
+2021-04-12 10:20:59	"teacher008"	"teacher"	166	"They have an Italian day, a Mexican day, a British day, and a Middle Eastern day. Very cool!"	"They have an Italian day, a Mexican day, a British day, and a Middle Eastern day. Very cool!"	163	NA	NA	NA	NA	NA	18
+2021-04-12 10:21:07	"student011"	"student"	167	"But I eat them not very often ."	"But I don't eat them very often ."	165	NA	NA	NA	NA	NA	8
+2021-04-12 10:21:14	"teacher008"	"teacher"	168	"Haha, I think his days of cooking school dinners are well past him!"	"Haha, I think his days of cooking school dinners are well past him!"	164	NA	NA	NA	NA	NA	13
+2021-04-12 10:21:23	"student011"	"student"	169	"Oh! Wow! It's a cool idea!"	"Oh! Wow! It's a cool idea!"	166	NA	NA	NA	NA	NA	6
+2021-04-12 10:21:38	"teacher008"	"teacher"	170	"It is, isn't it?"	"It is, isn't it?"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:21:58	"student011"	"student"	171	"Actually"	"Actually"	NA	"5b"	"topic development"	NA	NA	NA	1
+2021-04-12 10:22:02	"teacher008"	"teacher"	172	"The menu looks really nice, I just hope the food will be nice too"	"The menu looks really nice, I just hope the food will be nice too"	170	NA	NA	NA	NA	NA	14
+2021-04-12 10:22:33	"student011"	"student"	173	"On last Friday we ordered two burgers and fried mozzarella ."	"Last Friday we ordered two burgers and some fried mozzarella ."	171	NA	NA	NA	NA	NA	11
+2021-04-12 10:22:51	"teacher008"	"teacher"	174	"You've making me hungry now!"	"You've making me hungry now!"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 10:22:52	"student011"	"student"	175	"<STUDENT'S CHILD> tried all the food and she liked it ....."	"<STUDENT'S CHILD> tried all the food and she liked it ....."	NA	NA	NA	NA	NA	NA	11
+2021-04-12 10:23:17	"teacher008"	"teacher"	176	"Good! Does she like fries?"	"Good! Does she like fries?"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 10:23:39	"student011"	"student"	177	"She's never eaten . tsss.. ."	"She's never eaten them. tsss.. ."	NA	NA	NA	NA	NA	NA	6
+2021-04-12 10:24:12	"student011"	"student"	178	"we ordered just burgers without fries .."	"we ordered just the burgers without fries .."	NA	NA	NA	NA	NA	NA	7
+2021-04-12 10:24:19	"teacher008"	"teacher"	179	"Haha, I see! <TEACHER'S CHILD> loves fries from KFC :."	"Haha, I see! <TEACHER'S CHILD> loves fries from KFC :."	NA	NA	NA	NA	NA	NA	10
+2021-04-12 10:24:22	"student011"	"student"	180	"Foxy parents .."	"Foxy parents .."	178	NA	NA	NA	NA	NA	3
+2021-04-12 10:24:49	"teacher008"	"teacher"	181	"Haha, yes!"	"Haha, yes!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 10:25:52	"student011"	"student"	182	"And when she was trying the burger she was asking me about hot dog"	"And when she was trying the burger she was asking me about a hot dog"	NA	NA	NA	NA	NA	NA	14
+2021-04-12 10:26:01	"student011"	"student"	183	"so it's our next goal"	"so it's our next goal"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 10:26:08	"student011"	"student"	184	"to order hot dogs .."	"to order hot dogs .."	NA	NA	NA	NA	NA	NA	5
+2021-04-12 10:26:16	"teacher008"	"teacher"	185	"I love a good hot dog, and so does <TEACHER'S CHILD>!"	"I love a good hot dog, and so does <TEACHER'S CHILD>!"	NA	NA	NA	NA	NA	NA	11
+2021-04-12 10:26:40	"student011"	"student"	186	"We have a special restaurant here in kies"	"We have a special restaurant here in Kyiv"	NA	NA	NA	NA	NA	NA	8
+2021-04-12 10:26:43	"student011"	"student"	187	"Kyiv"	"Kyiv"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-04-12 10:27:02	"student011"	"student"	188	"It calls Dogs and Tails"	"It's called Dogs and Tails"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 10:27:10	"teacher008"	"teacher"	189	"I keep reading about some cool food delivery company in Kyiv, that makes mini-burgers"	"I keep reading about some cool food delivery company in Kyiv, that makes mini-burgers"	NA	NA	NA	NA	NA	NA	14
+2021-04-12 10:27:21	"teacher008"	"teacher"	190	"It ___ called Dogs and Tails"	"It ___ called Dogs and Tails"	188	"5c"	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2021-04-12 10:27:23	"student011"	"student"	191	"The price is quite big but the quality is good"	"The price is quite big but the quality is good"	188	NA	NA	NA	NA	NA	10
+2021-04-12 10:27:36	"student011"	"student"	192	"It os called"	"It is called"	190	NA	NA	NA	NA	NA	3
+2021-04-12 10:27:39	"student011"	"student"	193	"is"	"is"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-04-12 10:27:40	"teacher008"	"teacher"	194	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 10:27:45	"student011"	"student"	195	"Of course ."	"Of course ."	NA	NA	NA	NA	NA	NA	3
+2021-04-12 10:28:06	"teacher008"	"teacher"	196	"And the question is: ____ is it called?   - Dogs and Tails"	"And the question is: ____ is it called?   - Dogs and Tails"	NA	"5d"	"eliciting"	"grammatical resource"	NA	NA	14
+2021-04-12 10:28:52	"student011"	"student"	197	"They have lots of types of sausages and hot dogs"	"They have lots of types of sausages and hot dogs"	191	NA	NA	NA	NA	NA	10
+2021-04-12 10:29:08	"student011"	"student"	198	"How is it called?"	"What is it called?"	196	NA	NA	NA	NA	NA	4
+2021-04-12 10:29:22	"teacher008"	"teacher"	199	"What is it called?"	"What is it called?"	NA	NA	"repair"	"grammatical resource"	NA	NA	4
+2021-04-12 10:29:34	"student011"	"student"	200	"I feel hungry too now .."	"I feel hungry too now .."	197	NA	NA	NA	NA	NA	6
+2021-04-12 10:29:46	"teacher008"	"teacher"	201	"It's a bit hard to get used to for speakers of Russian"	"It's a bit hard to get used to for speakers of Russian"	199	NA	NA	NA	NA	NA	12
+2021-04-12 10:29:48	"student011"	"student"	202	"Ah! I thought it could be what"	"Ah! I thought it could be what"	NA	NA	NA	NA	NA	NA	7
+2021-04-12 10:29:50	"student011"	"student"	203	".."	".."	NA	NA	NA	NA	NA	NA	1
+2021-04-12 10:29:59	"teacher008"	"teacher"	204	"Yes, that was a good thought :."	"Yes, that was a good thought :."	NA	NA	NA	NA	NA	NA	7
+2021-04-12 10:29:59	"student011"	"student"	205	"So what is it called?"	"So what is it called?"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 10:30:04	"teacher008"	"teacher"	206	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 10:30:13	"teacher008"	"teacher"	207	"And the indirect question?"	"And the indirect question?"	NA	"5e"	"eliciting,revision"	"grammatical resource"	NA	NA	4
+2021-04-12 10:30:20	"teacher008"	"teacher"	208	"I don't know ___ ___ ___ called."	"I don't know ___ ___ ___ called."	NA	NA	"eliciting,revision"	"grammatical resource"	NA	NA	7
+2021-04-12 10:30:35	"student011"	"student"	209	"What it is called"	"What it is called"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:31:07	"teacher008"	"teacher"	210	"Yes! Sorry, it's not an indirect question. An indirect one would be 'Could you tell me what it is called?' , but the grammar is the same"	"Yes! Sorry, it's not an indirect question. An indirect one would be 'Could you tell me what it is called?' , but the grammar is the same"	207	NA	"repair"	"content"	NA	NA	27
+2021-04-12 10:31:24	"teacher008"	"teacher"	211	"Ok, I've got to let you go! We'll do the new topic with the videos on Friday then!"	"Ok, I've got to let you go! We'll do the new topic with the videos on Friday then!"	NA	"6.0"	"closing"	NA	NA	NA	18
+2021-04-12 10:31:24	"student011"	"student"	212	"I see! No worries"	"I see! No worries"	210	NA	NA	NA	NA	NA	4
+2021-04-12 10:31:46	"student011"	"student"	213	"Thank you! It was pleasant to chat with you as usual ."	"Thank you! It was pleasant to chat with you as usual ."	211	NA	NA	NA	NA	NA	12
+2021-04-12 10:31:59	"student011"	"student"	214	"Have a good afternoon"	"Have a good afternoon"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 10:32:02	"teacher008"	"teacher"	215	"Today's new words: to dye .dyeing, dyed., high / low maintenance, a coincidence... hmmm, there was something else!"	"Today's new words: to dye .dyeing, dyed., high / low maintenance, a coincidence... hmmm, there was something else!"	NA	"7.0"	"recap"	"lexical resource"	NA	NA	18
+2021-04-12 10:32:08	"teacher008"	"teacher"	216	"Thank you, it's my pleasure :."	"Thank you, it's my pleasure :."	213	NA	NA	NA	NA	NA	6
+2021-04-12 10:32:21	"student011"	"student"	217	"I will see through the chat ."	"I will look through the chat ."	215	NA	NA	NA	NA	NA	7
+2021-04-12 10:32:26	"student011"	"student"	218	"bye xx"	"bye xx"	216	NA	NA	NA	NA	NA	2
+2021-04-12 10:32:41	"teacher008"	"teacher"	219	"Cool, have a nice afternoon too! Bye :."	"Cool, have a nice afternoon too! Bye :."	NA	NA	NA	NA	NA	NA	8
+2021-04-12 10:32:42	"student011"	"student"	220	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	"B2"	2

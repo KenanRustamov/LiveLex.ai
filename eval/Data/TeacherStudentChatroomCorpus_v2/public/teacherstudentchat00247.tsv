@@ -1,0 +1,121 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-05-14 12:31:24	"student009"	"student"	1	"hi! sorry I will be a bit late today"	"hi! sorry I will be a bit late today"	NA	"1.0"	"opening"	NA	NA	NA	9
+2021-05-14 12:31:35	"teacher008"	"teacher"	2	"Hi, ok, no worries"	"Hi, ok, no worries"	NA	NA	NA	NA	NA	NA	4
+2021-05-14 12:39:22	"student009"	"student"	3	"Hi again"	"Hi again"	NA	"1a"	NA	NA	NA	NA	2
+2021-05-14 12:39:50	"teacher008"	"teacher"	4	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 12:39:54	"teacher008"	"teacher"	5	"How's it going?"	"How's it going?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-05-14 12:40:35	"student009"	"student"	6	"I am fine"	"I am fine"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 12:41:47	"teacher008"	"teacher"	7	"Anything new happening? How's school? <LANGUAGE SCHOOL>? Your business?"	"Anything new happening? How's school? <LANGUAGE SCHOOL>? Your business?"	NA	NA	NA	NA	NA	NA	9
+2021-05-14 12:41:48	"student009"	"student"	8	"I didn't come back home when the lesson started"	"I wasn't home yet when the lesson started"	NA	"2a"	"topic development"	NA	NA	NA	9
+2021-05-14 12:42:08	"teacher008"	"teacher"	9	"Yes, I figured you weren't home yet. But you're home now, aren't you?"	"Yes, I figured you weren't home yet. But you're home now, aren't you?"	NA	NA	"repair"	"lexical resource,grammatical resource"	NA	NA	13
+2021-05-14 12:42:17	"student009"	"student"	10	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 12:43:52	"student009"	"student"	11	"IH is fine, test is coming, school is also good, but as always I am very tired, and in our buisness we tried barter.maybe on English it is a different word."	"<LANGUAGE SCHOOL> is fine, a test is coming, school is also good, but as always I am very tired, and in our buisness we tried barter (maybe in English it is a different word)"	7	"2b"	"enquiry"	"lexical resource"	NA	NA	31
+2021-05-14 12:44:40	"teacher008"	"teacher"	12	"Oh yes, it's still barter in English! What are you exchanging your products for?"	"Oh yes, it's still barter in English! What are you exchanging your products for?"	NA	"2c"	"scaffolding,topic development"	"lexical resource"	NA	NA	14
+2021-05-14 12:44:49	"teacher008"	"teacher"	13	"And do you need any help with preparing for your test?"	"And do you need any help with preparing for your test?"	NA	"2d"	"topic development"	NA	NA	NA	11
+2021-05-14 12:45:40	"student009"	"student"	14	"we exchanged our products for piar.i think."	"we exchanged our products for PR (I think)"	12	"2e"	"enquiry"	"lexical resource"	NA	NA	7
+2021-05-14 12:46:01	"student009"	"student"	15	"I think it would be great"	"I think it would be great"	13	NA	NA	NA	NA	NA	6
+2021-05-14 12:46:02	"teacher008"	"teacher"	16	"PR? Do you mean some marketing?"	"PR? Do you mean some marketing?"	14	NA	"scaffolding"	"lexical resource,writing"	NA	NA	6
+2021-05-14 12:46:34	"student009"	"student"	17	"yes, PR"	"yes, PR"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 12:47:08	"teacher008"	"teacher"	18	"PR = public relations"	"PR = public relations"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2021-05-14 12:47:17	"student009"	"student"	19	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 12:48:02	"teacher008"	"teacher"	20	"You don't feel that the definition fits?"	"You don't feel that the definition fits?"	NA	NA	NA	NA	NA	NA	7
+2021-05-14 12:48:35	"student009"	"student"	21	"like we sent a girl our accessories and she made advert for our shop in stories"	"like we sent a girl our accessories and she made an advert for our shop in stories"	NA	NA	NA	NA	NA	NA	16
+2021-05-14 12:48:54	"student009"	"student"	22	"in Russian it fits"	"in Russian it fits"	NA	NA	NA	NA	NA	NA	4
+2021-05-14 12:49:40	"teacher008"	"teacher"	23	"Oh yes, I know what you mean."	"Oh yes, I know what you mean."	NA	NA	NA	NA	NA	NA	7
+2021-05-14 12:49:56	"teacher008"	"teacher"	24	"This is called"	"This is called"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 12:50:11	"teacher008"	"teacher"	25	"sorry, this is called endorsement in English"	"sorry, this is called endorsement in English"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-05-14 12:50:27	"student009"	"student"	26	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 12:50:36	"teacher008"	"teacher"	27	"She is going to endorse your product"	"She is going to endorse your product"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-05-14 12:51:06	"teacher008"	"teacher"	28	"For example, if you see celebrities on TV advertising products, this endorsement"	"For example, if you see celebrities on TV advertising products, this endorsement"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2021-05-14 12:51:15	"student009"	"student"	29	".she already did it."	"(she already did it)"	27	NA	NA	NA	NA	NA	4
+2021-05-14 12:51:19	"teacher008"	"teacher"	30	"But it doesn't have to be a celebrity"	"But it doesn't have to be a celebrity"	28	NA	NA	NA	NA	NA	8
+2021-05-14 12:51:27	"teacher008"	"teacher"	31	"Ok, sure"	"Ok, sure"	29	NA	NA	NA	NA	NA	2
+2021-05-14 12:51:55	"teacher008"	"teacher"	32	"Good marketing move!"	"Good marketing move!"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 12:52:02	"student009"	"student"	33	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 12:52:06	"student009"	"student"	34	"now we"	"now we"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 12:52:18	"student009"	"student"	35	"have more followers"	"have more followers"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 12:52:40	"teacher008"	"teacher"	36	"Nice, it's working then!"	"Nice, it's working then!"	NA	NA	NA	NA	NA	NA	4
+2021-05-14 12:53:54	"teacher008"	"teacher"	37	"Ok, can you tell me more about your test, please? What would you like us to focus on?"	"Ok, can you tell me more about your test, please? What would you like us to focus on?"	NA	"3.0"	"topic opening"	NA	NA	NA	18
+2021-05-14 12:54:36	"student009"	"student"	38	"we have to repeat all our units"	"we have to revise all our units"	NA	NA	NA	NA	NA	NA	7
+2021-05-14 12:54:41	"student009"	"student"	39	"44470.0"	"44470.0"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 12:54:56	"student009"	"student"	40	"and I can send you the photo of it"	"and I can send you the photo of it"	NA	NA	NA	NA	NA	NA	9
+2021-05-14 12:55:28	"student009"	"student"	41	"of our book*"	"of our book*"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 12:55:36	"teacher008"	"teacher"	42	"Oh, I see, it's the final test, isn't it? Makes sense, it's May!"	"Oh, I see, it's the final test, isn't it? Makes sense, it's May!"	39	NA	NA	NA	NA	NA	13
+2021-05-14 12:55:44	"teacher008"	"teacher"	43	"Ok, please!"	"Ok, please!"	41	NA	NA	NA	NA	NA	2
+2021-05-14 12:55:48	"student009"	"student"	44	"I want to focus on grammar and vocabulary"	"I want to focus on grammar and vocabulary"	NA	NA	NA	NA	NA	NA	8
+2021-05-14 12:56:00	"student009"	"student"	45	"wait 2 minutes"	"wait 2 minutes"	43	NA	NA	NA	NA	NA	3
+2021-05-14 12:57:25	"student009"	"student"	46	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 12:57:44	"student009"	"student"	47	"did you receive it?"	"did you receive it?"	NA	NA	NA	NA	NA	NA	4
+2021-05-14 12:58:27	"teacher008"	"teacher"	48	"Is it on Skype? One moment"	"Is it on Skype? One moment"	NA	NA	NA	NA	NA	NA	6
+2021-05-14 12:58:38	"student009"	"student"	49	"yeah, on Skype"	"yeah, on Skype"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 12:59:09	"teacher008"	"teacher"	50	"Aha, cool. Hold on a moment"	"Aha, cool. Hold on a moment"	NA	NA	NA	NA	NA	NA	6
+2021-05-14 13:01:07	"teacher008"	"teacher"	51	"Well, I found some extra practice online. How about you tell me which area of grammar is most difficult for you? If you open the book and look at the list of units, you should see the grammar points for each one"	"Well, I found some extra practice online. How about you tell me which area of grammar is most difficult for you? If you open the book and look at the list of units, you should see the grammar points for each one"	NA	"3a"	"topic development"	NA	NA	NA	42
+2021-05-14 13:01:55	"student009"	"student"	52	"okie, wait"	"okie, wait"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 13:06:27	"student009"	"student"	53	"prepositions, conditionals, verb patterns,phrasal verbs,passive ans have smth done"	"prepositions, conditionals, verb patterns, phrasal verbs, passive and have smth done"	NA	NA	NA	NA	NA	NA	9
+2021-05-14 13:06:38	"student009"	"student"	54	"in grammar"	"in grammar"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 13:06:56	"teacher008"	"teacher"	55	"Ok, cool!"	"Ok, cool!"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 13:07:26	"student009"	"student"	56	"and I will just study vocabulary by myself"	"and I will just study vocabulary by myself"	NA	NA	NA	NA	NA	NA	8
+2021-05-14 13:07:56	"teacher008"	"teacher"	57	"Sure. Ok, can you tell me the difference between 'I cut my hair yesterday"	"Sure. Ok, can you tell me the difference between 'I cut my hair yesterday"	NA	"4.0"	"eliciting"	"grammatical resource,meaning"	NA	NA	14
+2021-05-14 13:08:08	"teacher008"	"teacher"	58	"and 'I had my hair cut yesterday'"	"and 'I had my hair cut yesterday'"	NA	NA	NA	NA	NA	NA	7
+2021-05-14 13:08:50	"student009"	"student"	59	"yes, I cut my hair-I do it by myself, I had my hair cut-somebody did it for me"	"yes, I cut my hair - I did it by myself, I had my hair cut - somebody did it for me"	NA	NA	NA	NA	NA	NA	18
+2021-05-14 13:09:24	"teacher008"	"teacher"	60	"Yes, cool! Ok, I will give you some examples with 'do it myself / yourself' and you change them into 'someone else does it for you'"	"Yes, cool! Ok, I will give you some examples with 'do it myself / yourself' and you change them into 'someone else does it for you'"	NA	"4a"	"exercise"	"grammatical resource"	NA	NA	26
+2021-05-14 13:09:39	"teacher008"	"teacher"	61	"Before the race I really need to fix my bike!"	"Before the race I really need to fix my bike!"	NA	NA	NA	NA	NA	NA	10
+2021-05-14 13:10:24	"student009"	"student"	62	"I need my bike be fixed"	"I need my bike fixed"	NA	NA	NA	NA	NA	NA	6
+2021-05-14 13:10:46	"teacher008"	"teacher"	63	"You can just get rid of 'be'. I need my bike fixed"	"You can just get rid of 'be'. I need my bike fixed"	NA	NA	"repair"	"grammatical resource"	NA	NA	12
+2021-05-14 13:11:16	"student009"	"student"	64	"I can use ir, but I don't need to, right?"	"I can use it, but I don't need to, right?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	10
+2021-05-14 13:11:25	"student009"	"student"	65	"*it"	"*it"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-14 13:11:28	"teacher008"	"teacher"	66	"No, don't use it!"	"No, don't use it!"	64	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2021-05-14 13:11:57	"teacher008"	"teacher"	67	"Ok, next one! I'm cutting my hair short next time!"	"Ok, next one! I'm cutting my hair short next time!"	NA	"4b"	"exercise"	"grammatical resource"	NA	NA	10
+2021-05-14 13:12:57	"student009"	"student"	68	"I'm having my hair cut shorter next time"	"I'm having my hair cut shorter next time"	NA	NA	NA	NA	NA	NA	8
+2021-05-14 13:13:13	"teacher008"	"teacher"	69	"Yes, well done! Jumping from tense to tense here, for practice"	"Yes, well done! Jumping from tense to tense here, for practice"	NA	NA	NA	NA	NA	NA	11
+2021-05-14 13:13:58	"teacher008"	"teacher"	70	"Tell the manager to clean the swimming pool. .but he is a manager, not a cleaner, he's not going to do it himself!."	"Tell the manager to clean the swimming pool. (but he is a manager, not a cleaner, he's not going to do it himself!)"	NA	"4c"	"exercise"	"grammatical resource"	NA	NA	23
+2021-05-14 13:14:00	"teacher008"	"teacher"	71	"or herself"	"or herself"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 13:15:00	"student009"	"student"	72	"I don't understand the exercise, sorry"	"I don't understand the exercise, sorry"	NA	NA	"enquiry"	NA	NA	NA	6
+2021-05-14 13:15:12	"student009"	"student"	73	"what I have to do?"	"what do I have to do?"	NA	NA	NA	NA	NA	NA	5
+2021-05-14 13:16:08	"teacher008"	"teacher"	74	"Same exercise! In my sentence I'm telling the manager he needs to clean the swimming pool"	"Same exercise! In my sentence I'm telling the manager he needs to clean the swimming pool"	NA	NA	"clarification"	NA	NA	NA	16
+2021-05-14 13:16:26	"teacher008"	"teacher"	75	"But we don't mean that he should do it himself! he can get someone to do it"	"But we don't mean that he should do it himself! he can get someone to do it"	NA	NA	"clarification"	NA	NA	NA	17
+2021-05-14 13:16:39	"teacher008"	"teacher"	76	"Tell the manager to ___ the swimming pool ____."	"Tell the manager to ___ the swimming pool ____."	NA	NA	"eliciting"	"grammatical resource"	NA	NA	9
+2021-05-14 13:17:11	"student009"	"student"	77	"make, cleaned"	"have, cleaned"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 13:17:37	"teacher008"	"teacher"	78	"to have the swimming pool cleaned"	"to have the swimming pool cleaned"	NA	NA	"repair"	"grammatical resource"	NA	NA	6
+2021-05-14 13:17:42	"teacher008"	"teacher"	79	"same structure, right?"	"same structure, right?"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 13:17:53	"student009"	"student"	80	"mmm"	"mmm"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 13:17:57	"student009"	"student"	81	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 13:18:35	"teacher008"	"teacher"	82	"I can't repair the washing machine on Sunday"	"I can't repair the washing machine on Sunday"	NA	"4d"	"exercise"	"grammatical resource"	NA	NA	8
+2021-05-14 13:18:59	"student009"	"student"	83	"I can't"	"I can't"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 13:19:20	"student009"	"student"	84	"have my washing machine cleaned on Sunday"	"have my washing machine cleaned on Sunday"	NA	NA	NA	NA	NA	NA	7
+2021-05-14 13:19:33	"teacher008"	"teacher"	85	"Yes, the structure is right! 'repaired'"	"Yes, the structure is right! 'repaired'"	NA	NA	"repair"	"lexical resource"	NA	NA	6
+2021-05-14 13:20:12	"teacher008"	"teacher"	86	"Tomorrow I'm taking some photos"	"Tomorrow I'm taking some photos"	NA	"4e"	"exercise"	"grammatical resource"	NA	NA	5
+2021-05-14 13:20:28	"student009"	"student"	87	"oops, sorry for repaired"	"oops, sorry about repaired"	85	NA	NA	NA	NA	NA	4
+2021-05-14 13:20:52	"student009"	"student"	88	"Tomorrow I am having my photos taken"	"Tomorrow I am having my photos taken"	86	NA	NA	NA	NA	NA	7
+2021-05-14 13:21:24	"teacher008"	"teacher"	89	"Yes, well done! In the first sentence I'm going to take some photos myself, in the second someone is taking photos of me"	"Yes, well done! In the first sentence I'm going to take some photos myself, in the second someone is taking photos of me"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2021-05-14 13:22:06	"teacher008"	"teacher"	90	"When's your test, by the way? Next week?"	"When's your test, by the way? Next week?"	NA	"5.0"	"topic development"	NA	NA	NA	8
+2021-05-14 13:22:48	"student009"	"student"	91	"no, I think in ten days"	"no, I think in ten days"	NA	NA	NA	NA	NA	NA	6
+2021-05-14 13:23:06	"teacher008"	"teacher"	92	"Oops, sorry, I'm back!"	"Oops, sorry, I'm back!"	NA	"6.0"	"disruption"	NA	NA	NA	4
+2021-05-14 13:23:31	"teacher008"	"teacher"	93	"Ok, we can do some more preparation next Friday then, that's good!"	"Ok, we can do some more preparation next Friday then, that's good!"	91	NA	NA	NA	NA	NA	12
+2021-05-14 13:24:18	"student009"	"student"	94	"okay, thank you very very much!"	"okay, thank you very very much!"	NA	NA	NA	NA	NA	NA	6
+2021-05-14 13:24:20	"teacher008"	"teacher"	95	"Ok, I'm looking at verb patterns now"	"Ok, I'm looking at verb patterns now"	NA	"7.0"	"exercise"	"grammatical resource,lexical resource"	NA	NA	7
+2021-05-14 13:24:27	"teacher008"	"teacher"	96	"We still have 5 minutes!"	"We still have 5 minutes!"	NA	NA	NA	NA	NA	NA	5
+2021-05-14 13:25:00	"teacher008"	"teacher"	97	"We arranged .go. to the theatre. .to go / going / go?."	"We arranged (go) to the theatre. (to go / going / go?)"	NA	NA	NA	NA	NA	NA	12
+2021-05-14 13:25:19	"student009"	"student"	98	"going"	"going"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 13:25:44	"teacher008"	"teacher"	99	"Noo, to go"	"Noo, to go"	NA	NA	"repair"	"grammatical resource,lexical resource"	NA	NA	3
+2021-05-14 13:25:49	"teacher008"	"teacher"	100	"arrange to do something"	"arrange to do something"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	4
+2021-05-14 13:26:09	"teacher008"	"teacher"	101	"There isn't much logic to verb patterns I'm afraid, you just need to learn them like vocabulary"	"There isn't much logic to verb patterns I'm afraid, you just need to learn them like vocabulary"	NA	NA	"scaffolding"	"grammatical resource,lexical resource,meta knowledge"	NA	NA	17
+2021-05-14 13:26:21	"student009"	"student"	102	"okay."	"okay."	NA	NA	NA	NA	NA	NA	1
+2021-05-14 13:26:36	"teacher008"	"teacher"	103	"I feel like .eat. a tub of ice cream and .watch. a movie!"	"I feel like (eat) a tub of ice cream and (watch) a movie!"	NA	"7a"	"exercise"	"grammatical resource,lexical resource"	NA	NA	13
+2021-05-14 13:27:08	"student009"	"student"	104	"eating,watching"	"eating, watching"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 13:27:23	"teacher008"	"teacher"	105	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 13:27:47	"teacher008"	"teacher"	106	"Tim invited .us / visit. him in Scotland"	"Tim invited (us / visit) him in Scotland"	NA	"7b"	"exercise"	"grammatical resource,lexical resource"	NA	NA	8
+2021-05-14 13:28:26	"student009"	"student"	107	"us to visit"	"us to visit"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 13:28:31	"teacher008"	"teacher"	108	"Yes! well done"	"Yes! well done"	NA	NA	NA	NA	NA	NA	3
+2021-05-14 13:28:55	"teacher008"	"teacher"	109	"My dad let me .stay up. and watch a film"	"My dad let me (stay up) and watch a film"	NA	"7c"	"exercise"	"grammatical resource,lexical resource"	NA	NA	10
+2021-05-14 13:30:13	"student009"	"student"	110	"stay up"	"stay up"	NA	NA	NA	NA	NA	NA	2
+2021-05-14 13:30:26	"student009"	"student"	111	"there is a mistake, my dad letS me.."	"there is a mistake, my dad letS me.."	NA	"7d"	NA	NA	NA	NA	8
+2021-05-14 13:30:33	"teacher008"	"teacher"	112	"Yes, there is no 'to' after 'let' and 'make'. And help sometimes!"	"Yes, there is no 'to' after 'let' and 'make'. And help sometimes!"	110	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	12
+2021-05-14 13:30:53	"teacher008"	"teacher"	113	"Nope! The three forms are let-let-let. It's past simple :."	"Nope! The three forms are let-let-let. It's past simple :)"	111	NA	"repair,scaffolding"	"grammatical resource"	NA	NA	10
+2021-05-14 13:31:00	"teacher008"	"teacher"	114	"but I like that you're alert :."	"but I like that you're alert :)"	NA	NA	NA	NA	NA	NA	7
+2021-05-14 13:31:10	"teacher008"	"teacher"	115	"Ok, lovely, we'll practise some more next week!"	"Ok, lovely, we'll practise some more next week!"	NA	"8.0"	"closing"	NA	NA	NA	8
+2021-05-14 13:31:37	"student009"	"student"	116	"okay, thank you for your help again!"	"okay, thank you for your help again!"	NA	NA	NA	NA	NA	NA	7
+2021-05-14 13:31:42	"student009"	"student"	117	"goodbye!"	"goodbye!"	NA	NA	NA	NA	NA	NA	1
+2021-05-14 13:32:07	"teacher008"	"teacher"	118	"Bye, no worries, it's my pleasure!"	"Bye, no worries, it's my pleasure!"	NA	NA	NA	NA	NA	NA	6
+2021-05-14 13:32:10	"teacher008"	"teacher"	119	"Have a nice weekend!"	"Have a nice weekend!"	NA	NA	NA	NA	NA	NA	4
+2021-05-14 13:32:50	"student009"	"student"	120	"You too!"	"You too!"	NA	NA	NA	NA	NA	"B2"	2

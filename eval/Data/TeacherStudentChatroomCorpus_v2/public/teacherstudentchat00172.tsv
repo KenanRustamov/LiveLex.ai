@@ -1,0 +1,144 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-01-04 13:30:31	"student015"	"student"	1	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-01-04 13:30:35	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-01-04 13:30:39	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-01-04 13:30:44	"student015"	"student"	4	"Long time no see."	"Long time no see."	2	NA	NA	NA	NA	NA	4
+2021-01-04 13:30:48	"student015"	"student"	5	"I'm fine."	"I'm fine."	NA	NA	NA	NA	NA	NA	2
+2021-01-04 13:31:29	"teacher008"	"teacher"	6	"Yes, it's been a while. Good to speak to you again!"	"Yes, it's been a while. Good to speak to you again!"	NA	NA	NA	NA	NA	NA	11
+2021-01-04 13:31:38	"student015"	"student"	7	"Me too!"	"Good to speak to you too!"	NA	NA	NA	NA	NA	NA	2
+2021-01-04 13:32:10	"teacher008"	"teacher"	8	"Did you celebrate New Year? Or is it not a celebration in China and you're waiting for Chinese New Year to celebrate?"	"Did you celebrate New Year? Or is it not a celebration in China and you're waiting for Chinese New Year to celebrate?"	NA	"2a"	"topic development"	NA	NA	NA	22
+2021-01-04 13:33:12	"student015"	"student"	9	"Yes. We didn't celebrate the New Year, but we have 3 days holiday."	"Yes. We didn't celebrate the New Year, but we had a 3-day holiday."	NA	NA	NA	NA	NA	NA	13
+2021-01-04 13:33:38	"student015"	"student"	10	"In China, we just celebrate the Chinese New Year."	"In China, we just celebrate the Chinese New Year."	NA	NA	NA	NA	NA	NA	9
+2021-01-04 13:34:31	"teacher008"	"teacher"	11	"Ok, I see, it makes sense! Did you have a nice break over the New Year in this case?"	"Ok, I see, it makes sense! Did you have a nice break over the New Year in this case?"	NA	"2b"	"topic development"	NA	NA	NA	19
+2021-01-04 13:36:06	"student015"	"student"	12	"I didn't go out because the holiday was not long."	"I didn't go out because the holiday was not long."	NA	NA	NA	NA	NA	NA	10
+2021-01-04 13:36:24	"teacher008"	"teacher"	13	"Oh, it wasn't long enough, I see!"	"Oh, it wasn't long enough, I see!"	NA	NA	NA	NA	NA	NA	7
+2021-01-04 13:36:37	"student015"	"student"	14	"But I went to the gym."	"But I went to the gym."	NA	NA	NA	NA	NA	NA	6
+2021-01-04 13:37:06	"teacher008"	"teacher"	15	"We had a long holiday, but we didn't go out because we are under yet another lockdown. The virus situation is really bad in the UK at the moment!"	"We had a long holiday, but we didn't go out because we are under yet another lockdown. The virus situation is really bad in the UK at the moment!"	NA	"2c"	"topic development"	NA	NA	NA	29
+2021-01-04 13:37:23	"student015"	"student"	16	"Sorry to hear that."	"Sorry to hear that."	NA	NA	NA	NA	NA	NA	4
+2021-01-04 13:38:28	"teacher008"	"teacher"	17	"Thank you. We deserve it for not acting as efficiently and responsibly as you did in China!"	"Thank you. We deserve it for not acting as efficiently and responsibly as you did in China!"	NA	NA	NA	NA	NA	NA	17
+2021-01-04 13:38:32	"student015"	"student"	18	"Hope the pandemic would go away soon."	"Hope the pandemic will go away soon."	NA	NA	NA	NA	NA	NA	7
+2021-01-04 13:39:13	"teacher008"	"teacher"	19	"Yes, me too! The UK now has two vaccines, they are trying to vaccinate as fast as possible"	"Yes, me too! The UK now has two vaccines, they are trying to vaccinate as fast as possible"	NA	NA	NA	NA	NA	NA	18
+2021-01-04 13:40:25	"student015"	"student"	20	"Yes. I hear that the vaccines are more efficient"	"Yes. I hear that the vaccines are more efficient"	NA	NA	NA	NA	NA	NA	9
+2021-01-04 13:40:26	"student015"	"student"	21	"."	"."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:40:49	"teacher008"	"teacher"	22	"How's your book going? Have you been reading more in English?"	"How's your book going? Have you been reading more in English?"	NA	"3.0"	"topic opening"	"reading"	NA	NA	11
+2021-01-04 13:41:13	"student015"	"student"	23	"Yes. I still read the book."	"Yes. I'm still reading the book."	NA	NA	NA	NA	NA	NA	6
+2021-01-04 13:41:54	"teacher008"	"teacher"	24	"Ok, are you enjoying it? Which bit are you reading about at the moment?"	"Ok, are you enjoying it? Which bit are you reading about at the moment?"	NA	NA	NA	NA	NA	NA	14
+2021-01-04 13:43:25	"student015"	"student"	25	"Yes. But I can't remember the names from it."	"Yes. But I can't remember the names from it."	NA	NA	NA	NA	NA	NA	9
+2021-01-04 13:43:35	"student015"	"student"	26	"They have a match."	"They're having a match."	NA	NA	NA	NA	NA	NA	4
+2021-01-04 13:44:01	"teacher008"	"teacher"	27	"Oh, a quidditch match? where they fly on brooms?"	"Oh, a quidditch match? where they fly on brooms?"	NA	NA	NA	NA	NA	NA	9
+2021-01-04 13:44:11	"student015"	"student"	28	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:44:17	"teacher008"	"teacher"	29	"Ah, exciting!"	"Ah, exciting!"	NA	NA	NA	NA	NA	NA	2
+2021-01-04 13:45:37	"teacher008"	"teacher"	30	"Ok, I thought we could practise a bit of vocabulary using some ideas from Harry Potter. In particular, personality adjectives (the adjectives that describe what kind of person someone is)"	"Ok, I thought we could practise a bit of vocabulary using some ideas from Harry Potter. In particular, personality adjectives (the adjectives that describe what kind of person someone is)"	NA	"3a"	"topic development"	"lexical resource"	NA	NA	30
+2021-01-04 13:45:58	"teacher008"	"teacher"	31	"You know how the Sorting Hat puts students into four different houses at Hogwarts?"	"You know how the Sorting Hat puts students into four different houses at Hogwarts?"	NA	NA	NA	NA	NA	NA	14
+2021-01-04 13:46:21	"teacher008"	"teacher"	32	"Can you remember what kind of students get into Gryffindor, Harry Potter's house?"	"Can you remember what kind of students get into Gryffindor, Harry Potter's house?"	NA	"3b"	"eliciting"	"lexical resource"	NA	NA	13
+2021-01-04 13:46:31	"student015"	"student"	33	"Yes. I remenber that."	"Yes. I remenber that."	NA	NA	NA	NA	NA	NA	4
+2021-01-04 13:48:02	"teacher008"	"teacher"	34	"Ok, so what kind of person does one need to be to get into Gryffindor?"	"Ok, so what kind of person does one need to be to get into Gryffindor?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	15
+2021-01-04 13:49:41	"student015"	"student"	35	"Sorry. Is it brave?"	"Sorry. Is it brave?"	NA	NA	NA	NA	NA	NA	4
+2021-01-04 13:49:57	"teacher008"	"teacher"	36	"Yes, that's what I am looking for!"	"Yes, that's what I am looking for!"	NA	NA	NA	NA	NA	NA	7
+2021-01-04 13:50:16	"teacher008"	"teacher"	37	"brave is a good adjective, or another one is 'courageous'"	"brave is a good adjective, or another one is 'courageous'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-01-04 13:50:34	"teacher008"	"teacher"	38	"brave' and 'courageous' are synonyms"	"brave' and 'courageous' are synonyms"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-01-04 13:50:48	"student015"	"student"	39	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:51:21	"teacher008"	"teacher"	40	"Do you know the noun for 'courageous'? The quality of being courageous"	"Do you know the noun for 'courageous'? The quality of being courageous"	NA	"3c"	"eliciting"	"lexical resource"	NA	NA	12
+2021-01-04 13:51:54	"teacher008"	"teacher"	41	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:51:57	"student015"	"student"	42	"couragement?"	"courage?"	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:52:03	"teacher008"	"teacher"	43	"ah, nearly"	"ah, nearly"	NA	NA	NA	NA	NA	NA	2
+2021-01-04 13:52:04	"teacher008"	"teacher"	44	"courage"	"courage"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2021-01-04 13:52:11	"student015"	"student"	45	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:52:15	"teacher008"	"teacher"	46	"an uncountable noun"	"an uncountable noun"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-01-04 13:52:47	"teacher008"	"teacher"	47	"Ok, so students who get sorted into Gryffindor are brave / courageous, well done!"	"Ok, so students who get sorted into Gryffindor are brave / courageous, well done!"	NA	NA	"recap"	"lexical resource"	NA	NA	14
+2021-01-04 13:52:57	"teacher008"	"teacher"	48	"What about Ravenclaw? if you remember"	"What about Ravenclaw? if you remember"	NA	"3d"	"eliciting"	"lexical resource"	NA	NA	6
+2021-01-04 13:54:22	"student015"	"student"	49	"clever?"	"clever?"	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:54:53	"teacher008"	"teacher"	50	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2021-01-04 13:55:06	"teacher008"	"teacher"	51	"Do you know any synonyms for 'clever'?"	"Do you know any synonyms for 'clever'?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	7
+2021-01-04 13:55:11	"teacher008"	"teacher"	52	"clever = ?"	"clever = ?"	NA	NA	NA	NA	NA	NA	3
+2021-01-04 13:55:45	"student015"	"student"	53	"intellegent?"	"intellegent?"	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:55:53	"teacher008"	"teacher"	54	"yes, well done!"	"yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2021-01-04 13:56:14	"teacher008"	"teacher"	55	"There's also 'bright' in British English and 'smart' in American English"	"There's also 'bright' in British English and 'smart' in American English"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-01-04 13:56:26	"teacher008"	"teacher"	56	"e.g. she is a very bright student!"	"e.g. she is a very bright student!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-01-04 13:56:46	"student015"	"student"	57	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 13:56:50	"teacher008"	"teacher"	58	"Ok, well done!"	"Ok, well done!"	NA	NA	NA	NA	NA	NA	3
+2021-01-04 13:57:08	"teacher008"	"teacher"	59	"What about Slytherin?"	"What about Slytherin?"	NA	"3e"	"eliciting"	"lexical resource"	NA	NA	3
+2021-01-04 13:58:28	"student015"	"student"	60	"Sorry. I can't remember."	"Sorry. I can't remember."	NA	NA	NA	NA	NA	NA	4
+2021-01-04 13:58:58	"teacher008"	"teacher"	61	"no worries, Slytherin students are supposed to have big career goals"	"no worries, Slytherin students are supposed to have big career goals"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-01-04 13:59:06	"teacher008"	"teacher"	62	"they are ambitious"	"they are ambitious"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-01-04 13:59:12	"student015"	"student"	63	"But may be honest?"	"But maybe honest?"	60	NA	NA	NA	NA	NA	4
+2021-01-04 13:59:20	"student015"	"student"	64	"Oh,yes"	"Oh,yes"	62	NA	NA	NA	NA	NA	1
+2021-01-04 13:59:39	"teacher008"	"teacher"	65	"Ah, I think you're thinking about Hufflepuff where everyone is honest and nice"	"Ah, I think you're thinking about Hufflepuff where everyone is honest and nice"	63	NA	NA	NA	NA	NA	13
+2021-01-04 14:00:00	"teacher008"	"teacher"	66	"Slytherin is the house of Draco Malfoy, ambitious and sometimes actually dishonest"	"Slytherin is the house of Draco Malfoy, ambitious and sometimes actually dishonest"	NA	NA	NA	NA	NA	NA	12
+2021-01-04 14:00:21	"student015"	"student"	67	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:00:26	"teacher008"	"teacher"	68	"If a person is clever and can get what they want in a dishonest way, we can call them 'cunning'"	"If a person is clever and can get what they want in a dishonest way, we can call them 'cunning'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+2021-01-04 14:00:53	"student015"	"student"	69	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:01:14	"teacher008"	"teacher"	70	"In European fairy tales, a fox is often cunning. Clever and dishonest. Is there an animal in Chinese stories that is associated with being cunning?"	"In European fairy tales, a fox is often cunning. Clever and dishonest. Is there an animal in Chinese stories that is associated with being cunning?"	NA	NA	"scaffolding,eliciting"	"lexical resource,meaning"	NA	NA	25
+2021-01-04 14:01:40	"student015"	"student"	71	"I think you China also it's fox."	"I think in China also it's a fox."	NA	NA	NA	NA	NA	NA	7
+2021-01-04 14:02:03	"student015"	"student"	72	"In China"	"In China"	NA	NA	"repair"	"writing"	NA	NA	2
+2021-01-04 14:02:06	"teacher008"	"teacher"	73	"Ok, fair enough! A fox it is!"	"Ok, fair enough! A fox it is!"	NA	NA	NA	NA	NA	NA	7
+2021-01-04 14:02:37	"teacher008"	"teacher"	74	"I think it's because foxes are so clever and they can steal chickens from farms, so farmers think they are cunning"	"I think it's because foxes are so clever and they can steal chickens from farms, so farmers think they are cunning"	NA	NA	NA	NA	NA	NA	21
+2021-01-04 14:03:30	"student015"	"student"	75	"Yes. In Chinese history books, there are a lot of stories about foxes."	"Yes. In Chinese history books, there are a lot of stories about foxes."	NA	NA	NA	NA	NA	NA	13
+2021-01-04 14:03:40	"teacher008"	"teacher"	76	"Would you say 'ambitious' is a positive or negative quality?"	"Would you say 'ambitious' is a positive or negative quality?"	NA	"4.0"	"eliciting"	"lexical resource,meaning"	NA	NA	10
+2021-01-04 14:03:51	"teacher008"	"teacher"	77	"Ah, interesting! I didn't know that!"	"Ah, interesting! I didn't know that!"	75	NA	NA	NA	NA	NA	6
+2021-01-04 14:05:10	"student015"	"student"	78	"I think ambitious is a negative quality in this place."	"I think ambitious is a negative quality in this case."	76	NA	NA	NA	NA	NA	10
+2021-01-04 14:06:22	"teacher008"	"teacher"	79	"I see what you mean, maybe in the context of Slytherin. But generally in English 'ambitious' is positive, actually"	"I see what you mean, maybe in the context of Slytherin. But generally in English 'ambitious' is positive, actually"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2021-01-04 14:06:42	"student015"	"student"	80	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:06:47	"teacher008"	"teacher"	81	"If a person is ambitious, they want to achieve goals in life, maybe in their career"	"If a person is ambitious, they want to achieve goals in life, maybe in their career"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2021-01-04 14:07:29	"teacher008"	"teacher"	82	"And they are comfortable with becoming leaders, for example"	"And they are comfortable with becoming leaders, for example"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-01-04 14:07:37	"student015"	"student"	83	"So it's a good word to describe people."	"So it's a good word to describe people."	NA	NA	NA	NA	NA	NA	8
+2021-01-04 14:07:47	"teacher008"	"teacher"	84	"Yes, I would say so!"	"Yes, I would say so!"	NA	NA	NA	NA	NA	NA	5
+2021-01-04 14:08:01	"teacher008"	"teacher"	85	"The noun is 'ambition', what you want to achieve"	"The noun is 'ambition', what you want to achieve"	NA	"4a"	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-01-04 14:08:25	"teacher008"	"teacher"	86	"For example, it's your ambition to become a PhD student at Fudan University, isn't it?"	"For example, it's your ambition to become a PhD student at Fudan University, isn't it?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	15
+2021-01-04 14:09:02	"student015"	"student"	87	"Yes! It's my ambition."	"Yes! It's my ambition."	NA	NA	NA	NA	NA	NA	4
+2021-01-04 14:10:25	"teacher008"	"teacher"	88	"Yes! So you're an ambitious person :)"	"Yes! So you're an ambitious person :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-01-04 14:10:56	"teacher008"	"teacher"	89	"Ok, we've got one last house left. Hufflepuff students tend to be honest as you said and also...??"	"Ok, we've got one last house left. Hufflepuff students tend to be honest as you said and also...??"	NA	"5.0"	"eliciting"	"lexical resource"	NA	NA	18
+2021-01-04 14:10:57	"student015"	"student"	90	"Is there a word to describe the negative means of ambition in English?"	"Is there a word to describe the negative meaning of ambition in English?"	NA	"4b"	"enquiry"	"lexical resource"	NA	NA	13
+2021-01-04 14:11:16	"teacher008"	"teacher"	91	"Good question, let me have a think!"	"Good question, let me have a think!"	NA	NA	NA	NA	NA	NA	7
+2021-01-04 14:12:57	"student015"	"student"	92	"I'm not sure, but In China I think ambition is to describe good goals, someone is ambitious may tell a negtive quality."	"I'm not sure, but in China I think ambition is to describe good goals, someone who is ambitious may have a negative quality."	NA	NA	NA	NA	NA	NA	22
+2021-01-04 14:13:59	"student015"	"student"	93	"And Hufflepuff students tend to be honest and loyalty, I think."	"And Hufflepuff students tend to be honest and loyal, I think."	89	NA	NA	NA	NA	NA	11
+2021-01-04 14:14:04	"teacher008"	"teacher"	94	"I see! I meant 'ambitious' in a very positive way when I said you were ambitious"	"I see! I meant 'ambitious' in a very positive way when I said you were ambitious"	92	NA	NA	NA	NA	NA	16
+2021-01-04 14:14:24	"student015"	"student"	95	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:14:30	"teacher008"	"teacher"	96	"I think 'ambitious' can be positive or negative depending on a situation"	"I think 'ambitious' can be positive or negative depending on a situation"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-01-04 14:14:51	"student015"	"student"	97	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:14:52	"teacher008"	"teacher"	98	"For example, schools try to support girls to be more ambitious"	"For example, schools try to support girls to be more ambitious"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-01-04 14:15:01	"teacher008"	"teacher"	99	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:15:40	"teacher008"	"teacher"	100	"You can also desribe an ambitious person as 'an achiever'. Someone for whom achievement is very important"	"You can also desribe an ambitious person as 'an achiever'. Someone for whom achievement is very important"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2021-01-04 14:15:54	"teacher008"	"teacher"	101	"it can sometimes be an unpleasant quality!"	"it can sometimes be an unpleasant quality!"	NA	NA	NA	NA	NA	NA	7
+2021-01-04 14:17:14	"student015"	"student"	102	"Yes. In China there are words to describe people is positively ambitious or negtively ambitious."	"Yes. In China there are words to describe people as positively ambitious or negatively ambitious."	NA	NA	NA	NA	NA	NA	15
+2021-01-04 14:17:58	"student015"	"student"	103	"But when I translate them to English, they are both the same word 'ambitious'."	"But when I translate them into English, they are both the same word 'ambitious'."	NA	NA	NA	NA	NA	NA	14
+2021-01-04 14:18:00	"teacher008"	"teacher"	104	"Oh, I know! Someone who is ambitious in a negative way is 'vain'"	"Oh, I know! Someone who is ambitious in a negative way is 'vain'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2021-01-04 14:18:14	"student015"	"student"	105	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:18:45	"teacher008"	"teacher"	106	"Someone who seeks status, likes to talk about themselves all the time, likes to be praised"	"Someone who seeks status, likes to talk about themselves all the time, likes to be praised"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2021-01-04 14:18:48	"teacher008"	"teacher"	107	"is vain"	"is vain"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	2
+2021-01-04 14:19:11	"teacher008"	"teacher"	108	"Someone who places to much importance on their achievements or appearance, actually"	"Someone who places to much importance on their achievements or appearance, actually"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-01-04 14:19:33	"student015"	"student"	109	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:19:42	"teacher008"	"teacher"	110	"an example from the dictionary: He was very vain about his hair and clothes"	"an example from the dictionary: He was very vain about his hair and clothes"	NA	NA	"scaffolding"	"lexical resource"	"dictionary"	NA	14
+2021-01-04 14:19:53	"teacher008"	"teacher"	111	"*sorry, too much importance"	"*sorry, too much importance"	108	NA	"repair"	"writing"	NA	NA	4
+2021-01-04 14:19:57	"student015"	"student"	112	"So vain is an always negtive word."	"So vain is an always negative word."	NA	"4c"	"enquiry"	"lexical resource,meaning"	NA	NA	7
+2021-01-04 14:20:18	"teacher008"	"teacher"	113	"Yes, that's right! Vain is always negative, and ambitious is quite positive"	"Yes, that's right! Vain is always negative, and ambitious is quite positive"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-01-04 14:20:27	"student015"	"student"	114	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:20:56	"teacher008"	"teacher"	115	"Ok, back to Hufflepuff! Loyalty is a noun, the adjective is...? you need to lose two letters"	"Ok, back to Hufflepuff! Loyalty is a noun, the adjective is...? you need to lose two letters"	NA	"5a"	"redirection,eliciting"	"lexical resource"	NA	NA	17
+2021-01-04 14:21:19	"student015"	"student"	116	"loyal"	"loyal"	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:22:11	"teacher008"	"teacher"	117	"Yes, cool!"	"Yes, cool!"	NA	NA	NA	NA	NA	NA	2
+2021-01-04 14:22:25	"teacher008"	"teacher"	118	"And they are also supposed to be kind-hearted"	"And they are also supposed to be kind-hearted"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-01-04 14:22:30	"teacher008"	"teacher"	119	"and patient"	"and patient"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-01-04 14:22:53	"teacher008"	"teacher"	120	"and the opposite of vain = humble"	"and the opposite of vain = humble"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-01-04 14:22:58	"student015"	"student"	121	"So they are all nice people in Hufflepuff."	"So they are all nice people in Hufflepuff."	NA	NA	NA	NA	NA	NA	8
+2021-01-04 14:23:28	"teacher008"	"teacher"	122	"If a person is humble, they don't like to talk about their success or achievements"	"If a person is humble, they don't like to talk about their success or achievements"	120	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2021-01-04 14:23:45	"teacher008"	"teacher"	123	"Yes, they are basically nice people in Hufflepuff, yes :)"	"Yes, they are basically nice people in Hufflepuff, yes :)"	121	NA	NA	NA	NA	NA	10
+2021-01-04 14:23:52	"student015"	"student"	124	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:24:26	"teacher008"	"teacher"	125	"Which house do you think you would be sorted into? :) and I'll tell you mine"	"Which house do you think you would be sorted into? :) and I'll tell you mine"	NA	"6.0"	"topic opening"	"lexical resource"	NA	NA	16
+2021-01-04 14:26:25	"student015"	"student"	126	"I think I should be in Hufflepuff. But I like to be in Gryffindor."	"I think I should be in Hufflepuff. But I'd like to be in Gryffindor."	NA	NA	NA	NA	NA	NA	14
+2021-01-04 14:27:58	"teacher008"	"teacher"	127	"Oh, that's very nice! I'd love to be in Gryffindor too, but the Pottermore quiz sorted me into Ravenclaw. I'll send you a link to the quiz if you'd like, it's fun!"	"Oh, that's very nice! I'd love to be in Gryffindor too, but the Pottermore quiz sorted me into Ravenclaw. I'll send you a link to the quiz if you'd like, it's fun!"	NA	NA	"reference"	NA	"website"	NA	32
+2021-01-04 14:28:11	"teacher008"	"teacher"	128	"Do you think courage is important then?"	"Do you think courage is important then?"	NA	"6a"	"topic development"	"lexical resource"	NA	NA	7
+2021-01-04 14:29:02	"student015"	"student"	129	"Yes. I want the link."	"Yes. I want the link."	127	NA	NA	NA	NA	NA	5
+2021-01-04 14:29:17	"teacher008"	"teacher"	130	"Yes, sure, I'll pop it into an email to you"	"Yes, sure, I'll pop it into an email to you"	NA	NA	NA	NA	NA	NA	10
+2021-01-04 14:29:18	"student015"	"student"	131	"And yes, I think courage is important."	"And yes, I think courage is important."	128	NA	NA	NA	NA	NA	7
+2021-01-04 14:29:23	"teacher008"	"teacher"	132	"why?"	"why?"	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:30:33	"student015"	"student"	133	"We always want to do something which makes us curious, and in this case, we should have courage to try."	"We always want to do something which makes us curious, and in this case, we should have the courage to try."	NA	NA	NA	NA	NA	NA	20
+2021-01-04 14:31:25	"teacher008"	"teacher"	134	"Yes, good point! We need to be courageous to try new things!"	"Yes, good point! We need to be courageous to try new things!"	NA	NA	NA	NA	NA	NA	12
+2021-01-04 14:31:44	"student015"	"student"	135	"And people are always afraid of unknown things."	"And people are always afraid of unknown things."	NA	NA	NA	NA	NA	NA	8
+2021-01-04 14:32:52	"teacher008"	"teacher"	136	"Ok, thank you. The new words for today are courageous, courage, bright / smart, humble, kind-hearted, patient, ambitious, an achiever and vain (maybe not all of them are new). If you are learning them, could you make sure you check the pronunciation, please?"	"Ok, thank you. The new words for today are courageous, courage, bright / smart, humble, kind-hearted, patient, ambitious, an achiever and vain (maybe not all of them are new). If you are learning them, could you make sure you check the pronunciation, please?"	NA	"7.0"	"recap,homework"	"lexical resource"	NA	NA	43
+2021-01-04 14:32:59	"teacher008"	"teacher"	137	"Yes, I agree with you!"	"Yes, I agree with you!"	135	NA	NA	NA	NA	NA	5
+2021-01-04 14:33:21	"student015"	"student"	138	"OK. I will heck the pronunciation."	"OK. I will check the pronunciation."	136	NA	NA	NA	NA	NA	6
+2021-01-04 14:33:24	"teacher008"	"teacher"	139	"Sorry for keeping you for a few extra minutes, I'll let you go now!"	"Sorry for keeping you for a few extra minutes, I'll let you go now!"	NA	"8.0"	"closing"	NA	NA	NA	14
+2021-01-04 14:33:24	"student015"	"student"	140	"check"	"check"	138	NA	"repair"	"writing"	NA	NA	1
+2021-01-04 14:33:32	"teacher008"	"teacher"	141	"Speak to you on Thursday :)"	"Speak to you on Thursday :)"	139	NA	NA	NA	NA	NA	6
+2021-01-04 14:33:34	"student015"	"student"	142	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2021-01-04 14:33:37	"student015"	"student"	143	"OK."	"OK."	NA	NA	NA	NA	NA	"B2"	1

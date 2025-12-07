@@ -1,0 +1,127 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-01-29 16:01:48	"teacher001"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-01-29 16:02:26	"student004"	"student"	2	"Hi <TEACHER>"	"Hi <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 16:03:04	"teacher001"	"teacher"	3	"So, this'll be our last lesson for a bit - I hope you continue to study for the CAE exam!"	"So, this'll be our last lesson for a bit - I hope you continue to study for the CAE exam!"	NA	"2.0"	"topic opening"	NA	NA	NA	20
+2020-01-29 16:03:40	"student004"	"student"	4	"I know, unfortunately no more lessons for a while..."	"I know, unfortunately no more lessons for a while..."	NA	NA	NA	NA	NA	NA	9
+2020-01-29 16:04:24	"student004"	"student"	5	"Are you happy to work again on the teacher training corse?"	"Are you happy to work on the teacher training course again?"	NA	"3.0"	"topic opening"	NA	NA	NA	11
+2020-01-29 16:04:28	"student004"	"student"	6	"course"	"course"	NA	"3a"	"repair"	"writing"	NA	NA	1
+2020-01-29 16:05:16	"teacher001"	"teacher"	7	"Yes I am to be honest - it's good to do something a bit different (a change is as good as a rest as we say) - and , although itisn't the main aim, it helps develop your own teaching too of course!"	"Yes I am to be honest - it's good to do something a bit different (a change is as good as a rest as we say) - and , although itisn't the main aim, it helps develop your own teaching too of course!"	NA	NA	NA	NA	NA	NA	43
+2020-01-29 16:06:29	"student004"	"student"	8	"What do you mean when you say that it helps your own teaching?"	"What do you mean when you say that it helps your own teaching?"	NA	"3b"	"eliciting"	NA	NA	NA	13
+2020-01-29 16:08:16	"teacher001"	"teacher"	9	"Well, because you have to think a lot about why the trainees' teaching is good or bad, and all thhose considerations stay with you when you teach yourself you see? So you are quicker to recognize what might work better or e.g. different ways of doing things."	"Well, because you have to think a lot about why the trainees' teaching is good or bad, and all thhose considerations stay with you when you teach yourself you see? So you are quicker to recognize what might work better or e.g. different ways of doing things."	NA	NA	NA	NA	NA	NA	47
+2020-01-29 16:09:49	"student004"	"student"	10	"I see. I can imagine the amount of useful information you get form observing other teacher and students"	"I see. I can imagine the amount of useful information you get from observing other teacher and students"	NA	NA	NA	NA	NA	NA	18
+2020-01-29 16:10:45	"teacher001"	"teacher"	11	"Yes you're right - I guess you have time to think about things more because you're not just focused on what you're doing you know? Actually, I’ll tell you a big reason: because you see everything much more from the students’ point of view, which really helps you to appreciate how to make lessons as effective as possible."	"Yes you're right - I guess you have time to think about things more because you're not just focused on what you're doing you know? Actually, I’ll tell you a big reason: because you see everything much more from the students’ point of view, which really helps you to appreciate how to make lessons as effective as possible."	NA	NA	NA	NA	NA	NA	58
+2020-01-29 16:11:48	"student004"	"student"	12	"That's great!"	"That's great!"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 16:11:54	"teacher001"	"teacher"	13	"But of course my main job is to help trainees pass the course!!"	"But of course my main job is to help trainees pass the course!!"	NA	NA	NA	NA	NA	NA	13
+2020-01-29 16:12:08	"teacher001"	"teacher"	14	"What do you do to keep up with your English <STUDENT>? Do you watch series/films for example?"	"What do you do to keep up with your English <STUDENT>? Do you watch series/films for example?"	NA	"4.0"	"topic opening"	NA	NA	NA	17
+2020-01-29 16:12:22	"student004"	"student"	15	"The other part is a side effect ;)"	"The other part is a side effect ;)"	13	NA	NA	NA	NA	NA	8
+2020-01-29 16:12:36	"teacher001"	"teacher"	16	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:13:35	"student004"	"student"	17	"Yes, I listen to podcasts and watch movies and series in English but not as much as I should... I don't have time to do everything I want"	"Yes, I listen to podcasts and watch movies and series in English but not as much as I should... I don't have time to do everything I want"	14	NA	NA	NA	NA	NA	28
+2020-01-29 16:14:55	"student004"	"student"	18	"I also teach. I only have 2 students but I'm in touch with English almost everyday..."	"I also teach. I only have 2 students but I'm in touch with English almost everyday..."	14	NA	NA	NA	NA	NA	16
+2020-01-29 16:15:06	"teacher001"	"teacher"	19	"No of course - never enough time....I was thinking that part of the difficulty with e.g. the CAE exam is getting familiar with the range of language they test you on. Sometimes watching/listening to more formal stuff can be helpful"	"No of course - never enough time....I was thinking that part of the difficulty with e.g. the CAE exam is getting familiar with the range of language they test you on. Sometimes watching/listening to more formal stuff can be helpful"	17	NA	NA	NA	NA	NA	40
+2020-01-29 16:15:15	"student004"	"student"	20	"English language I mean"	"the English language I mean"	18	"4a"	"repair"	"discourse management"	NA	NA	4
+2020-01-29 16:15:45	"teacher001"	"teacher"	21	"e.g. factual programmes"	"e.g. factual programmes"	19	NA	NA	NA	NA	NA	3
+2020-01-29 16:15:58	"teacher001"	"teacher"	22	"or topic-specific stuff"	"or topic-specific stuff"	NA	NA	NA	NA	NA	NA	3
+2020-01-29 16:16:00	"student004"	"student"	23	"Factual??"	"Factual??"	21	NA	"enquiry"	"lexical resource"	NA	NA	1
+2020-01-29 16:16:20	"student004"	"student"	24	"Documentaries for example?"	"Documentaries for example?"	21	NA	NA	NA	NA	NA	3
+2020-01-29 16:16:23	"teacher001"	"teacher"	25	"yes, because e.g. documentaries often use more formal language"	"yes, because e.g. documentaries often use more formal language"	NA	NA	NA	NA	NA	NA	9
+2020-01-29 16:16:29	"student004"	"student"	26	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:16:51	"teacher001"	"teacher"	27	"or current affairs (if you're into that)"	"or current affairs (if you're into that)"	22	NA	NA	NA	NA	NA	7
+2020-01-29 16:16:58	"teacher001"	"teacher"	28	"not only poilitics!"	"not only poilitics!"	NA	NA	NA	NA	NA	NA	3
+2020-01-29 16:17:01	"teacher001"	"teacher"	29	"politics"	"politics"	NA	"4b"	"repair"	"writing"	NA	NA	1
+2020-01-29 16:17:12	"student004"	"student"	30	"current affairs?"	"current affairs?"	27	"4c"	"enquiry"	"lexical resource"	NA	NA	2
+2020-01-29 16:17:29	"teacher001"	"teacher"	31	"ah is that a new phrase for you?"	"ah is that a new phrase for you?"	NA	NA	NA	NA	NA	NA	8
+2020-01-29 16:18:13	"student004"	"student"	32	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:18:53	"teacher001"	"teacher"	33	"OK well the 'news' is more what's just happened obviously (in the very recent past - especially nowadays but..."	"OK well the 'news' is more what's just happened obviously (in the very recent past - especially nowadays but..."	NA	"4d"	"presentation"	"lexical resource"	NA	NA	19
+2020-01-29 16:19:10	"teacher001"	"teacher"	34	"the wider issues might be written about in a range of formats..."	"the wider issues might be written about in a range of formats..."	NA	NA	NA	NA	NA	NA	12
+2020-01-29 16:19:42	"teacher001"	"teacher"	35	"e.g. Time magazine isn't exactly news - it reflects on the relevant issues of the day (hence 'current')"	"e.g. Time magazine isn't exactly news - it reflects on the relevant issues of the day (hence 'current')"	NA	NA	NA	NA	NA	NA	18
+2020-01-29 16:19:55	"teacher001"	"teacher"	36	"and I guess some newspaper content..."	"and I guess some newspaper content..."	NA	NA	NA	NA	NA	NA	6
+2020-01-29 16:20:07	"teacher001"	"teacher"	37	"like weekly columnists etc"	"like weekly columnists etc"	NA	NA	NA	NA	NA	NA	4
+2020-01-29 16:20:13	"student004"	"student"	38	"I understand"	"I understand"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 16:20:46	"teacher001"	"teacher"	39	"So they might cover e.g. social/environmental/political/cultural topics"	"So they might cover e.g. social/environmental/political/cultural topics"	NA	NA	NA	NA	NA	NA	7
+2020-01-29 16:20:58	"teacher001"	"teacher"	40	"and you'll come across loads of useful language!"	"and you'll come across loads of useful language!"	NA	NA	NA	NA	NA	NA	8
+2020-01-29 16:22:07	"teacher001"	"teacher"	41	"so you teach English? That's great - do you enjoy it?!"	"so you teach English? That's great - do you enjoy it?!"	18	"5.0"	"topic opening"	NA	NA	NA	11
+2020-01-29 16:22:09	"student004"	"student"	42	"I know, I should watch a documentary and read an article everyday. Maybe a month before the exam I'll try to do it but it takes a lot of time and energy"	"I know, I should watch a documentary and read an article everyday. Maybe a month before the exam I'll try to do it but it takes a lot of time and energy"	40	NA	NA	NA	NA	NA	32
+2020-01-29 16:22:47	"teacher001"	"teacher"	43	"yeah sure -try to pick things you're interested in anyway right?!"	"yeah sure -try to pick things you're interested in anyway right?!"	NA	NA	NA	NA	NA	NA	11
+2020-01-29 16:23:57	"student004"	"student"	44	"Yes, I've been teaching for a few years. I should teach Spanish instead but people I know need help with English haha"	"Yes, I've been teaching for a few years. I should teach Spanish instead but the people I know need help with English haha"	41	NA	NA	NA	NA	NA	22
+2020-01-29 16:24:29	"student004"	"student"	45	"I love teaching, I really enjoy it"	"I love teaching, I really enjoy it"	NA	NA	NA	NA	NA	NA	7
+2020-01-29 16:25:26	"teacher001"	"teacher"	46	"OK that's  good to hear - I basically enjoy it too (although I've been doing it for a long time now! Also, I kind of envy you you're small classes!"	"OK that's  good to hear - I basically enjoy it too (although I've been doing it for a long time now! Also, I kind of envy you you're small classes!"	NA	NA	NA	NA	NA	NA	31
+2020-01-29 16:25:43	"teacher001"	"teacher"	47	"And long-term students I guess?"	"And long-term students I guess?"	NA	NA	NA	NA	NA	NA	5
+2020-01-29 16:27:54	"student004"	"student"	48	"I understand what you say, I think I enjoy it a lot because it's not my profession. I kind of do it as a hobby"	"I understand what you say, I think I enjoy it a lot because it's not my profession. I kind of do it as a hobby"	46	NA	NA	NA	NA	NA	25
+2020-01-29 16:28:40	"student004"	"student"	49	"About my students, yes they have been coming to classes for a year or so"	"About my students, yes they have been coming to classes for a year or so"	47	NA	NA	NA	NA	NA	15
+2020-01-29 16:29:23	"teacher001"	"teacher"	50	"Ah yes I see what you mean - my problem is that I can't imagine working a 9 to 5 job (you know what I mean?) so the only thing that appeals to me is e.g. being a film director or writer!"	"Ah yes I see what you mean - my problem is that I can't imagine working a 9 to 5 job (you know what I mean?) so the only thing that appeals to me is e.g. being a film director or writer!"	NA	NA	NA	NA	NA	NA	42
+2020-01-29 16:29:59	"teacher001"	"teacher"	51	"We get increasingly short term students which is fine but it's more tiring/stressful"	"We get increasingly short term students which is fine but it's more tiring/stressful"	NA	NA	NA	NA	NA	NA	13
+2020-01-29 16:31:30	"student004"	"student"	52	"Could you work in a School? I don't know how to say it..."	"Could you work at a school? I don't know how to say it..."	NA	"6.0"	"topic opening"	NA	NA	NA	13
+2020-01-29 16:31:50	"student004"	"student"	53	"Not in a Language school but in a Primary or Secondary school"	"Not at a language school but at a primary or secondary school"	NA	NA	NA	NA	NA	NA	12
+2020-01-29 16:31:56	"teacher001"	"teacher"	54	"do you mean mainstream education i.e. a primary or secondary school?"	"do you mean mainstream education i.e. a primary or secondary school?"	52	NA	NA	NA	NA	NA	11
+2020-01-29 16:32:07	"teacher001"	"teacher"	55	"yes OK!"	"yes OK!"	53	NA	NA	NA	NA	NA	2
+2020-01-29 16:32:12	"student004"	"student"	56	"Exactly"	"Exactly"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:32:28	"teacher001"	"teacher"	57	"more informally you could just say 'normal' school"	"more informally you could just say 'normal' school"	53	"6a"	"scaffolding"	"lexical resource"	NA	NA	8
+2020-01-29 16:32:36	"teacher001"	"teacher"	58	"with kids'"	"with kids'"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 16:32:40	"student004"	"student"	59	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:32:59	"student004"	"student"	60	"I guess you prefer working with adults"	"I guess you prefer working with adults"	NA	"6b"	"topic development"	NA	NA	NA	7
+2020-01-29 16:33:05	"teacher001"	"teacher"	61	"um....I think I prefer adults to be honest"	"um....I think I prefer adults to be honest"	59	NA	NA	NA	NA	NA	8
+2020-01-29 16:33:08	"teacher001"	"teacher"	62	"yes!"	"yes!"	60	NA	NA	NA	NA	NA	1
+2020-01-29 16:33:10	"student004"	"student"	63	"hah"	"hah"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:33:29	"teacher001"	"teacher"	64	"Nothing against kids per se but....a lot of its crowd control!"	"Nothing against kids per se but....a lot of its crowd control!"	NA	NA	NA	NA	NA	NA	11
+2020-01-29 16:34:08	"teacher001"	"teacher"	65	"maybe in a private school....."	"maybe in a private school....."	NA	NA	NA	NA	NA	NA	5
+2020-01-29 16:34:24	"student004"	"student"	66	"And maybe it is more interesting to work with foreigners, or not?"	"And maybe it is more interesting to work with foreigners, or not?"	NA	NA	NA	NA	NA	NA	12
+2020-01-29 16:34:30	"teacher001"	"teacher"	67	"I don't know the reputation of private schools in Spain?"	"I don't know the reputation of private schools in Spain?"	65	NA	NA	NA	NA	NA	10
+2020-01-29 16:34:45	"teacher001"	"teacher"	68	"Um...yes I think maybe you're right about foreigners yes"	"Um...yes I think maybe you're right about foreigners yes"	66	NA	NA	NA	NA	NA	9
+2020-01-29 16:36:11	"student004"	"student"	69	"I really enjoy going to English classes in England for example. There you can meet people from so many different countries and see how they are like..."	"I really enjoy going to English classes in England for example. There you can meet people from so many different countries and see what they are like..."	NA	"6c"	"topic development"	NA	NA	NA	27
+2020-01-29 16:36:34	"teacher001"	"teacher"	70	"Yes! I certainly feel like I've learned a lot about the world from teaching so many people from everywhere (and without having to go there!)"	"Yes! I certainly feel like I've learned a lot about the world from teaching so many people from everywhere (and without having to go there!)"	NA	NA	NA	NA	NA	NA	25
+2020-01-29 16:36:35	"student004"	"student"	71	"what they are like"	"what they are like"	69	"6d"	"repair"	"grammatical resource"	NA	NA	4
+2020-01-29 16:36:44	"teacher001"	"teacher"	72	"good correction!"	"good correction!"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 16:36:54	"teacher001"	"teacher"	73	"a hell of a lot actually"	"a hell of a lot actually"	70	NA	NA	NA	NA	NA	6
+2020-01-29 16:37:38	"teacher001"	"teacher"	74	"<STUDENT> would you like to have a quick go at e.g. page 147 from your book before we finish!?"	"<STUDENT> would you like to have a quick go at e.g. page 147 from your book before we finish!?"	NA	"7.0"	"exercise"	NA	"textbook"	NA	19
+2020-01-29 16:37:45	"teacher001"	"teacher"	75	"<STUDENT> (sorry)"	"<STUDENT> (sorry)"	NA	"7a"	"repair"	"writing"	NA	NA	2
+2020-01-29 16:38:13	"student004"	"student"	76	"Sure"	"Sure"	74	NA	NA	NA	NA	NA	1
+2020-01-29 16:38:23	"teacher001"	"teacher"	77	"ok..."	"ok..."	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:39:20	"student004"	"student"	78	"1d"	"1d"	74	NA	NA	NA	NA	NA	1
+2020-01-29 16:40:20	"teacher001"	"teacher"	79	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:41:47	"student004"	"student"	80	"no idea about number 2 but I would say A"	"no idea about number 2 but I would say A"	74	NA	NA	NA	NA	NA	10
+2020-01-29 16:42:19	"teacher001"	"teacher"	81	"so the meaning is like 'ignore'/ 'fail to notice/recognise' - does that help?"	"so the meaning is like 'ignore'/ 'fail to notice/recognise' - does that help?"	NA	"7b"	"scaffolding"	"lexical resource"	NA	NA	13
+2020-01-29 16:43:43	"student004"	"student"	82	"I don't know the meaning of the words"	"I don't know the meaning of the words"	NA	NA	NA	NA	NA	NA	8
+2020-01-29 16:43:54	"teacher001"	"teacher"	83	"oversee = supervise and overgrown makes no sense here so...'overlook' is the one you want!"	"oversee = supervise and overgrown makes no sense here so...'overlook' is the one you want!"	NA	"7c"	"scaffolding"	"lexical resource"	NA	NA	15
+2020-01-29 16:44:36	"student004"	"student"	84	"Doesn't 'over' mean something like more that it should?"	"Doesn't 'over' mean something like more that it should?"	NA	NA	NA	NA	NA	NA	9
+2020-01-29 16:45:20	"teacher001"	"teacher"	85	"yes i see what you mean - often that's true..."	"yes i see what you mean - often that's true..."	NA	NA	NA	NA	NA	NA	10
+2020-01-29 16:46:01	"teacher001"	"teacher"	86	"i'm trying to think of different examples..."	"i'm trying to think of different examples..."	NA	NA	NA	NA	NA	NA	7
+2020-01-29 16:46:01	"student004"	"student"	87	"If I have to make up a word that means 'ignore' using the word 'look', I would thing of something with 'under' but never 'over'"	"If I have to make up a word that means 'ignore' using the word 'look', I would thing of something with 'under' but never 'over'"	83	NA	NA	NA	NA	NA	25
+2020-01-29 16:46:14	"teacher001"	"teacher"	88	"yes I understand!"	"yes I understand!"	NA	NA	NA	NA	NA	NA	3
+2020-01-29 16:46:43	"student004"	"student"	89	"Do you know why I'm confused?"	"Do you know why I'm confused?"	NA	NA	NA	NA	NA	NA	6
+2020-01-29 16:46:43	"teacher001"	"teacher"	90	"I guess it's like you look beyond you see? As in ignoring what's right in front of you (e.g. down on the ground)"	"I guess it's like you look beyond you see? As in ignoring what's right in front of you (e.g. down on the ground)"	84	NA	NA	NA	NA	NA	23
+2020-01-29 16:47:34	"teacher001"	"teacher"	91	"so if you look over someone's head you're not looking at their head"	"so if you look over someone's head you're not looking at their head"	NA	NA	NA	NA	NA	NA	13
+2020-01-29 16:47:42	"teacher001"	"teacher"	92	"but above their head"	"but above their head"	NA	NA	NA	NA	NA	NA	4
+2020-01-29 16:47:55	"student004"	"student"	93	"I see what you mean"	"I see what you mean"	NA	NA	NA	NA	NA	NA	5
+2020-01-29 16:48:23	"student004"	"student"	94	"So 2B"	"So 2B"	74	NA	NA	NA	NA	NA	2
+2020-01-29 16:48:27	"teacher001"	"teacher"	95	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:49:12	"teacher001"	"teacher"	96	"Worth remembering  by the way i.e. not very obscure...quite normal"	"Worth remembering  by the way i.e. not very obscure...quite normal"	94	NA	NA	NA	NA	NA	11
+2020-01-29 16:49:20	"student004"	"student"	97	"I don't know number 3 either :("	"I don't know number 3 either :("	74	NA	NA	NA	NA	NA	7
+2020-01-29 16:49:33	"student004"	"student"	98	"ranks?"	"ranks?"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:49:39	"student004"	"student"	99	"rows?"	"rows?"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:50:18	"teacher001"	"teacher"	100	"first answer = good yes - go with your instinct!"	"first answer = good yes - go with your instinct!"	NA	NA	NA	NA	NA	NA	10
+2020-01-29 16:50:40	"student004"	"student"	101	"okk"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:50:45	"teacher001"	"teacher"	102	"same meaning as 'rows' really but collocates with 'join'"	"same meaning as 'rows' really but collocates with 'join'"	98	NA	NA	NA	NA	NA	9
+2020-01-29 16:51:22	"teacher001"	"teacher"	103	"you could say 'join the row' but it sounds literal"	"you could say 'join the row' but it sounds literal"	NA	NA	NA	NA	NA	NA	10
+2020-01-29 16:51:37	"student004"	"student"	104	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 16:52:01	"student004"	"student"	105	"4c"	"4c"	74	NA	NA	NA	NA	NA	1
+2020-01-29 16:52:09	"teacher001"	"teacher"	106	"yes good!"	"yes good!"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 16:53:06	"student004"	"student"	107	"5d"	"5d"	74	NA	NA	NA	NA	NA	1
+2020-01-29 16:54:46	"teacher001"	"teacher"	108	"5 is tricky - you need an adjective after utterly e.g. utterly confused (!) - same with b and c BUT virtually + e.g. no fat /all the people etc = good"	"5 is tricky - you need an adjective after utterly e.g. utterly confused (!) - same with b and c BUT virtually + e.g. no fat /all the people etc = good"	NA	"7d"	"scaffolding"	"lexical resource"	NA	NA	32
+2020-01-29 16:55:35	"student004"	"student"	109	"so the answer is virtually?"	"so the answer is virtually?"	NA	NA	NA	NA	NA	NA	5
+2020-01-29 16:55:42	"teacher001"	"teacher"	110	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:55:57	"student004"	"student"	111	"ahhh"	"ahhh"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:56:32	"student004"	"student"	112	"6d"	"6d"	74	NA	NA	NA	NA	NA	1
+2020-01-29 16:56:44	"teacher001"	"teacher"	113	"yep!"	"yep!"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:57:02	"student004"	"student"	114	"77b"	"77b"	74	NA	NA	NA	NA	NA	1
+2020-01-29 16:57:15	"teacher001"	"teacher"	115	"well done!"	"well done!"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 16:57:22	"student004"	"student"	116	"8c"	"8c"	74	NA	NA	NA	NA	NA	1
+2020-01-29 16:57:37	"teacher001"	"teacher"	117	"OK great  - a clear pass at CAE!"	"OK great  - a clear pass at CAE!"	NA	NA	NA	NA	NA	NA	9
+2020-01-29 16:57:44	"student004"	"student"	118	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2020-01-29 16:58:02	"student004"	"student"	119	"The beginning was terrible!!"	"The beginning was terrible!!"	NA	NA	NA	NA	NA	NA	4
+2020-01-29 16:58:34	"teacher001"	"teacher"	120	"Well I forgive you the 'ranks' one - but not the 'overlook'! :)"	"Well I forgive you the 'ranks' one - but not the 'overlook'! :)"	NA	NA	NA	NA	NA	NA	13
+2020-01-29 16:59:01	"student004"	"student"	121	"oh thank you!"	"oh thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-01-29 16:59:42	"teacher001"	"teacher"	122	"OK <STUDENT> thanks for today - I'll be in touch later next month OK?"	"OK <STUDENT> thanks for today - I'll be in touch later next month OK?"	NA	"8.0"	"closing"	NA	NA	NA	14
+2020-01-29 16:59:55	"teacher001"	"teacher"	123	"Keep studying!"	"Keep studying!"	NA	NA	NA	NA	NA	NA	2
+2020-01-29 17:00:12	"student004"	"student"	124	"Great! Thank you very much. Good luck with the future teachers ;)"	"Great! Thank you very much. Good luck with the future teachers ;)"	NA	NA	NA	NA	NA	NA	12
+2020-01-29 17:00:24	"teacher001"	"teacher"	125	"OK cheers bye bye"	"OK cheers bye bye"	NA	NA	NA	NA	NA	NA	4
+2020-01-29 17:00:29	"student004"	"student"	126	"Bye bye"	"Bye bye"	NA	NA	NA	NA	NA	"C1"	2

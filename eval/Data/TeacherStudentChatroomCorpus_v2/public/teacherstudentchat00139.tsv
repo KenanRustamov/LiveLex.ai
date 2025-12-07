@@ -1,0 +1,310 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2020-11-13T12:22:06+00:00+00:00+00:00"	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2020-11-13T12:22:10+00:00+00:00+00:00"	"student011"	"student"	2	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+"2020-11-13T12:22:13+00:00+00:00+00:00"	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	1	NA	NA	NA	NA	NA	2
+"2020-11-13T12:22:23+00:00+00:00+00:00"	"teacher008"	"teacher"	4	"All good, thank you. And you?"	"All good, thank you. And you?"	2	NA	NA	NA	NA	NA	6
+"2020-11-13T12:23:04+00:00+00:00+00:00"	"student011"	"student"	5	"Fine, Thank you"	"Fine, Thank you"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T12:23:33+00:00+00:00+00:00"	"student011"	"student"	6	"Yesterday my back hurt again, but today it seems better"	"Yesterday my back hurt again, but today it seems better"	NA	"2a"	"topic development"	NA	NA	NA	10
+"2020-11-13T12:23:35+00:00+00:00+00:00"	"teacher008"	"teacher"	7	"Have you had a good week?"	"Have you had a good week?"	5	"2b"	"topic development"	NA	NA	NA	6
+"2020-11-13T12:23:47+00:00+00:00+00:00"	"student011"	"student"	8	"And I've done my yoga"	"And I've done my yoga"	6	NA	NA	NA	NA	NA	5
+"2020-11-13T12:23:55+00:00+00:00+00:00"	"teacher008"	"teacher"	9	"Oh no, not again! It thought it was getting better!"	"Oh no, not again! I thought it was getting better!"	6	NA	NA	NA	NA	NA	10
+"2020-11-13T12:24:04+00:00+00:00+00:00"	"teacher008"	"teacher"	10	"*I"	"*I"	NA	NA	"repair"	"writing"	NA	NA	1
+"2020-11-13T12:24:08+00:00+00:00+00:00"	"student011"	"student"	11	"Oh, it's a good question ))))"	"Oh, it's a good question ))))"	7	NA	NA	NA	NA	NA	6
+"2020-11-13T12:24:34+00:00+00:00+00:00"	"teacher008"	"teacher"	12	"Did the doctor say it was to do with you lifting <STUDENT'S CHILD>?"	"Did the doctor say it was to do with you lifting <STUDENT'S CHILD>?"	9	NA	NA	NA	NA	NA	13
+"2020-11-13T12:24:54+00:00+00:00+00:00"	"student011"	"student"	13	"I think I've had a good week, but you know, it's strange times now"	"I think I've had a good week, but you know, these are strange times now"	11	NA	NA	NA	NA	NA	14
+"2020-11-13T12:25:19+00:00+00:00+00:00"	"student011"	"student"	14	"On one side you think that it's OK if nothing has happened"	"On the one hand, you think that it's OK if nothing has happened"	NA	NA	NA	NA	NA	NA	12
+"2020-11-13T12:25:40+00:00+00:00+00:00"	"teacher008"	"teacher"	15	"Definitely! We've had a good week too, only leaving the house to take <TEACHER'S CHILD> to school and pick him up again"	"Definitely! We've had a good week too, only leaving the house to take <TEACHER'S CHILD> to school and pick him up again"	13	NA	NA	NA	NA	NA	22
+"2020-11-13T12:25:47+00:00+00:00+00:00"	"student011"	"student"	16	"On the other you think that before it was more possibilities etc )"	"On the other, you think that before there were more possibilities etc )"	14	NA	NA	NA	NA	NA	13
+"2020-11-13T12:25:51+00:00+00:00+00:00"	"teacher008"	"teacher"	17	"which is not what we're used to!"	"which is not what we're used to!"	15	NA	NA	NA	NA	NA	7
+"2020-11-13T12:25:58+00:00+00:00+00:00"	"teacher008"	"teacher"	18	"I know what you mean!"	"I know what you mean!"	16	NA	NA	NA	NA	NA	5
+"2020-11-13T12:26:13+00:00+00:00+00:00"	"teacher008"	"teacher"	19	"The expressions are 'on the one hand' and 'on the other hand'"	"The expressions are 'on the one hand' and 'on the other hand'"	NA	"2c"	"repair"	"lexical resource"	NA	NA	12
+"2020-11-13T12:26:22+00:00+00:00+00:00"	"student011"	"student"	20	"Sure!!"	"Sure!!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:26:25+00:00+00:00+00:00"	"teacher008"	"teacher"	21	"On the hand, we're all safe and healthy for now"	"On the hand, we're all safe and healthy for now"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+"2020-11-13T12:26:27+00:00+00:00+00:00"	"student011"	"student"	22	"O meant this one )"	"I meant this one )"	20	NA	NA	NA	NA	NA	5
+"2020-11-13T12:26:33+00:00+00:00+00:00"	"student011"	"student"	23	"*I"	"*I"	NA	NA	"repair"	"writing"	NA	NA	1
+"2020-11-13T12:26:45+00:00+00:00+00:00"	"teacher008"	"teacher"	24	"On the other hand, we're very limited in what we can do!"	"On the other hand, we're very limited in what we can do!"	21	NA	"scaffolding"	"lexical resource"	NA	NA	12
+"2020-11-13T12:26:59+00:00+00:00+00:00"	"student011"	"student"	25	"Agree"	"Agree"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:27:07+00:00+00:00+00:00"	"student011"	"student"	26	"About the doctor"	"About the doctor"	12	NA	NA	NA	NA	NA	3
+"2020-11-13T12:27:09+00:00+00:00+00:00"	"teacher008"	"teacher"	27	"Sorry 'on the one hand'!"	"Sorry 'on the one hand'!"	21	NA	"repair"	"writing"	NA	NA	5
+"2020-11-13T12:27:12+00:00+00:00+00:00"	"teacher008"	"teacher"	28	"yes, go on"	"yes, go on"	26	NA	NA	NA	NA	NA	3
+"2020-11-13T12:27:41+00:00+00:00+00:00"	"student011"	"student"	29	"Yes, maybe my back has been hurt because of lifting <STUDENT'S CHILD>"	"Yes, maybe my back has been hurting because of lifting <STUDENT'S CHILD>"	NA	NA	NA	NA	NA	NA	12
+"2020-11-13T12:28:12+00:00+00:00+00:00"	"student011"	"student"	30	"And yesterday we went to the park"	"And yesterday we went to the park"	NA	"3.0"	"topic opening"	NA	NA	NA	7
+"2020-11-13T12:28:36+00:00+00:00+00:00"	"student011"	"student"	31	"It's about 30 mins from our new flat"	"It's about 30 mins from our new flat"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T12:29:02+00:00+00:00+00:00"	"teacher008"	"teacher"	32	"Ah, good Present Perfect Continuous, but one tiny thing is missing! 'my back has been hurt...'"	"Ah, good Present Perfect Continuous, but one tiny thing is missing! 'my back has been hurt...'"	29	"2d"	"eliciting,repair"	"grammatical resource"	NA	NA	16
+"2020-11-13T12:29:11+00:00+00:00+00:00"	"student011"	"student"	33	"Usually I try to go to the park during the working week because there aren't people there"	"Usually I try to go to the park during the working week because there aren't many people there"	31	NA	NA	NA	NA	NA	17
+"2020-11-13T12:29:15+00:00+00:00+00:00"	"teacher008"	"teacher"	34	"Mariinsky?"	"Mariinsky?"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:29:39+00:00+00:00+00:00"	"student011"	"student"	35	"Yes, Mariinsky"	"Yes, Mariinsky"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:29:52+00:00+00:00+00:00"	"teacher008"	"teacher"	36	"Definitely, on week days!"	"Definitely, on week days!"	33	NA	"scaffolding"	"lexical resource"	NA	NA	4
+"2020-11-13T12:29:58+00:00+00:00+00:00"	"teacher008"	"teacher"	37	"Nice!"	"Nice!"	35	NA	NA	NA	NA	NA	1
+"2020-11-13T12:30:27+00:00+00:00+00:00"	"student011"	"student"	38	"we have another good park nearly, but <STUDENT'S CHILD> has decided to go to Park Slavy with the nanny"	"we have another good park nearby, but <STUDENT'S CHILD> has decided to go to Park Slavy with the nanny"	NA	NA	NA	NA	NA	NA	19
+"2020-11-13T12:30:33+00:00+00:00+00:00"	"student011"	"student"	39	"*<STUDENT'S CHILD>"	"*<STUDENT'S CHILD>"	NA	NA	"repair"	"writing"	NA	NA	2
+"2020-11-13T12:30:49+00:00+00:00+00:00"	"student011"	"student"	40	"And with us she prefers to go to Mariinsky )))"	"And with us she prefers to go to Mariinsky )))"	NA	NA	NA	NA	NA	NA	10
+"2020-11-13T12:30:59+00:00+00:00+00:00"	"teacher008"	"teacher"	41	"It's nice to have a choice :)"	"It's nice to have a choice :)"	NA	NA	NA	NA	NA	NA	7
+"2020-11-13T12:31:13+00:00+00:00+00:00"	"student011"	"student"	42	"on week days! I meant this expression )"	"on week days! I meant this expression )"	36	NA	NA	NA	NA	NA	8
+"2020-11-13T12:31:36+00:00+00:00+00:00"	"teacher008"	"teacher"	43	"yes, on week days vs at the weekend :)"	"yes, on week days vs at the weekend :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+"2020-11-13T12:31:41+00:00+00:00+00:00"	"student011"	"student"	44	"I feel not comfortable there even on week days"	"I don't feel comfortable there even on week days"	NA	"3a"	"topic development"	NA	NA	NA	9
+"2020-11-13T12:31:53+00:00+00:00+00:00"	"teacher008"	"teacher"	45	"Is it quite busy?"	"Is it quite busy?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:32:13+00:00+00:00+00:00"	"student011"	"student"	46	"Because we still have lots of people who let the children to play with others"	"Because we still have lots of people who let their children play with others"	NA	NA	NA	NA	NA	NA	15
+"2020-11-13T12:32:41+00:00+00:00+00:00"	"student011"	"student"	47	"But I prefer not to contact with people"	"But I prefer not to have any contact with people"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T12:32:59+00:00+00:00+00:00"	"teacher008"	"teacher"	48	"Oh, I see! That's a problem!"	"Oh, I see! That's a problem!"	NA	NA	NA	NA	NA	NA	6
+"2020-11-13T12:33:34+00:00+00:00+00:00"	"student011"	"student"	49	"Yes//"	"Yes//"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:34:01+00:00+00:00+00:00"	"student011"	"student"	50	"OK!"	"OK!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:34:09+00:00+00:00+00:00"	"student011"	"student"	51	"About your question"	"About your question"	32	NA	NA	NA	NA	NA	3
+"2020-11-13T12:34:15+00:00+00:00+00:00"	"student011"	"student"	52	"Ah, good Present Perfect Continuous, but one tiny thing is missing! 'my back has been hurt...'"	"Ah, good Present Perfect Continuous, but one tiny thing is missing! 'my back has been hurt...'"	NA	NA	NA	NA	NA	NA	16
+"2020-11-13T12:34:20+00:00+00:00+00:00"	"teacher008"	"teacher"	53	"You know what, let's dive into our writing exercise, because I've prepared something I hope you will find interesting for later and want to save some time for that"	"You know what, let's dive into our writing exercise, because I've prepared something I hope you will find interesting for later and want to save some time for that"	NA	"4.0"	"exercise"	"writing"	"student's writing"	NA	29
+"2020-11-13T12:34:23+00:00+00:00+00:00"	"student011"	"student"	54	"Let me think )"	"Let me think )"	52	NA	NA	NA	NA	NA	4
+"2020-11-13T12:34:27+00:00+00:00+00:00"	"teacher008"	"teacher"	55	"Yes, go on!"	"Yes, go on!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T12:35:05+00:00+00:00+00:00"	"student011"	"student"	56	"has beeb hurting"	"has been hurting"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T12:35:08+00:00+00:00+00:00"	"student011"	"student"	57	"been"	"been"	NA	NA	"repair"	"writing"	NA	NA	1
+"2020-11-13T12:35:10+00:00+00:00+00:00"	"student011"	"student"	58	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:35:12+00:00+00:00+00:00"	"teacher008"	"teacher"	59	"Correct! :)"	"Correct! :)"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:35:15+00:00+00:00+00:00"	"teacher008"	"teacher"	60	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:35:24+00:00+00:00+00:00"	"teacher008"	"teacher"	61	"excellent use though :)"	"excellent use though :)"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:35:29+00:00+00:00+00:00"	"student011"	"student"	62	")"	")"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:35:54+00:00+00:00+00:00"	"student011"	"student"	63	"And let's dive to the exercise )"	"And let's dive into the exercise )"	53	NA	NA	NA	NA	NA	7
+"2020-11-13T12:35:59+00:00+00:00+00:00"	"teacher008"	"teacher"	64	"Ok, as Zuma says in Paw Patrol, let's dive in! :))"	"Ok, as Zuma says in Paw Patrol, let's dive in! :))"	NA	NA	NA	NA	NA	NA	11
+"2020-11-13T12:36:05+00:00+00:00+00:00"	"student011"	"student"	65	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:36:12+00:00+00:00+00:00"	"student011"	"student"	66	"Zuma is our favorite"	"Zuma is our favorite"	NA	"5.0"	"topic opening"	NA	NA	NA	4
+"2020-11-13T12:36:19+00:00+00:00+00:00"	"student011"	"student"	67	"You know )"	"You know )"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T12:36:24+00:00+00:00+00:00"	"teacher008"	"teacher"	68	"Mine too! But <TEACHER'S CHILD> likes Sky and Chase"	"Mine too! But <TEACHER'S CHILD> likes Sky and Chase"	66	NA	NA	NA	NA	NA	9
+"2020-11-13T12:36:40+00:00+00:00+00:00"	"teacher008"	"teacher"	69	"Oh, because he wears orange?"	"Oh, because he wears orange?"	67	NA	NA	NA	NA	NA	5
+"2020-11-13T12:36:41+00:00+00:00+00:00"	"student011"	"student"	70	"<STUDENT'S CHILD> likes Zuma because it's orange"	"<STUDENT'S CHILD> likes Zuma because he wears orange"	69	NA	NA	NA	NA	NA	7
+"2020-11-13T12:36:52+00:00+00:00+00:00"	"teacher008"	"teacher"	71	"Yep, makes perfect sense :))"	"Yep, makes perfect sense :))"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:36:55+00:00+00:00+00:00"	"student011"	"student"	72	"I mean orange clothes )"	"I mean orange clothes )"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:37:18+00:00+00:00+00:00"	"teacher008"	"teacher"	73	"Ok, this is our old text"	"Ok, this is our old text"	NA	"4a"	"redirection"	NA	NA	NA	6
+"2020-11-13T12:37:20+00:00+00:00+00:00"	"teacher008"	"teacher"	74	"Dear <TEACHER>,  Thank you for your question. We completely understand you, and let me assure you that our teaching method is all about communication - it's the communicative method. All our teachers use it to help students communicate easily. On our lesson you will speak a lot and to learn some words and expressions which are really very useful in your usual life here in Ukraine At the same time you will learn some grammar basics and letters, but we are sure that it will be fun because of our method of teaching and our experienced teachers"	"Dear <TEACHER>,  Thank you for your question. We completely understand you, and let me assure you that our teaching method is all about communication - it's the communicative method. All our teachers use it to help students communicate easily. On our lesson you will speak a lot and to learn some words and expressions which are really very useful in your usual life here in Ukraine At the same time you will learn some grammar basics and letters, but we are sure that it will be fun because of our method of teaching and our experienced teachers"	NA	NA	NA	NA	NA	NA	98
+"2020-11-13T12:37:22+00:00+00:00+00:00"	"student011"	"student"	75	"And one more thing"	"And one more thing"	NA	"5a"	"topic development"	NA	NA	NA	4
+"2020-11-13T12:37:27+00:00+00:00+00:00"	"student011"	"student"	76	"Sorry"	"Sorry"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:37:27+00:00+00:00+00:00"	"teacher008"	"teacher"	77	"Yes, sure!"	"Yes, sure!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:37:35+00:00+00:00+00:00"	"student011"	"student"	78	"I have to tell you"	"I have to tell you"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:37:41+00:00+00:00+00:00"	"teacher008"	"teacher"	79	"Please :)"	"Please :)"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:38:09+00:00+00:00+00:00"	"student011"	"student"	80	"Why every time the don't use Zuma for clothing prints?!!!"	"Why do they never use Zuma for clothing prints?!!!"	NA	NA	NA	NA	NA	NA	10
+"2020-11-13T12:38:28+00:00+00:00+00:00"	"student011"	"student"	81	"Chase, Yellow one and Marshal"	"Chase, the yellow one and Marshall"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:38:29+00:00+00:00+00:00"	"teacher008"	"teacher"	82	"It's always Sky or Chase, right??"	"It's always Sky or Chase, right??"	NA	NA	NA	NA	NA	NA	6
+"2020-11-13T12:38:33+00:00+00:00+00:00"	"student011"	"student"	83	"Sometimes Sky"	"Sometimes Sky"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:38:56+00:00+00:00+00:00"	"teacher008"	"teacher"	84	"I know, Zuma's so cool!"	"I know, Zuma's so cool!"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:38:58+00:00+00:00+00:00"	"student011"	"student"	85	"I hate it )"	"I hate it )"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:39:20+00:00+00:00+00:00"	"teacher008"	"teacher"	86	"I see why! We've got a toy Zuma but it was hard to find it!"	"I see why! We've got a toy Zuma but it was hard to find it!"	NA	NA	NA	NA	NA	NA	15
+"2020-11-13T12:39:22+00:00+00:00+00:00"	"student011"	"student"	87	"I mean that they don't use Zuma print )"	"I mean that they don't use Zuma prints )"	NA	NA	NA	NA	NA	NA	9
+"2020-11-13T12:40:02+00:00+00:00+00:00"	"teacher008"	"teacher"	88	"Have you managed to buy an advent calendar?"	"Have you managed to buy an advent calendar?"	NA	"5b"	"topic development"	NA	NA	NA	8
+"2020-11-13T12:40:03+00:00+00:00+00:00"	"student011"	"student"	89	"It's not so big problem with toys, but with clothes or duvets, for example"	"It's not such a big problem with toys, but with clothes or duvets, for example"	87	NA	NA	NA	NA	NA	14
+"2020-11-13T12:40:10+00:00+00:00+00:00"	"student011"	"student"	90	"no!!!"	"no!!!"	88	NA	NA	NA	NA	NA	1
+"2020-11-13T12:40:36+00:00+00:00+00:00"	"student011"	"student"	91	"Bu <STUDENT'S FRIEND> has written some reviews from Amason"	"But <STUDENT'S FRIEND> has read some reviews from Amazon"	NA	NA	NA	NA	NA	NA	9
+"2020-11-13T12:40:51+00:00+00:00+00:00"	"student011"	"student"	92	"And lots of people don/t like it"	"And lots of people don't like it"	NA	NA	NA	NA	NA	NA	7
+"2020-11-13T12:41:04+00:00+00:00+00:00"	"teacher008"	"teacher"	93	"oh, the advent calendar?"	"oh, the advent calendar?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:41:06+00:00+00:00+00:00"	"teacher008"	"teacher"	94	"Hmm"	"Hmm"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:41:20+00:00+00:00+00:00"	"student011"	"student"	95	"Because it is too cheap and the quality isn/t high"	"Because it is too cheap and the quality isn't high"	NA	NA	NA	NA	NA	NA	10
+"2020-11-13T12:41:31+00:00+00:00+00:00"	"teacher008"	"teacher"	96	"Are there any in Ukraine? Now that Christmas is on the 25th of December, there should be some!"	"Are there any in Ukraine? Now that Christmas is on the 25th of December, there should be some!"	NA	NA	NA	NA	NA	NA	18
+"2020-11-13T12:41:55+00:00+00:00+00:00"	"student011"	"student"	97	"So maybe we will think about LOL advent calendar"	"So maybe we will think about a LOL advent calendar"	95	NA	NA	NA	NA	NA	9
+"2020-11-13T12:42:10+00:00+00:00+00:00"	"teacher008"	"teacher"	98	"what's LOL?"	"what's LOL?"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:42:12+00:00+00:00+00:00"	"student011"	"student"	99	"I don't like LOLs, but the calendar looks great"	"I don't like LOLs, but the calendar looks great"	NA	NA	NA	NA	NA	NA	9
+"2020-11-13T12:42:29+00:00+00:00+00:00"	"student011"	"student"	100	"LOL! Oh! You are happy if you don/t know"	"LOL! Oh! You are happy if you don't know"	NA	NA	NA	NA	NA	NA	9
+"2020-11-13T12:42:31+00:00+00:00+00:00"	"student011"	"student"	101	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:42:40+00:00+00:00+00:00"	"teacher008"	"teacher"	102	"Haha)) doesn't sound good!"	"Haha)) doesn't sound good!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:43:04+00:00+00:00+00:00"	"student011"	"student"	104	"lolsurprise.com"	"lolsurprise.com"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:43:20+00:00+00:00+00:00"	"teacher008"	"teacher"	105	"Aah, yes, I was happily unaware of that!"	"Aah, yes, I was happily unaware of that!"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T12:43:45+00:00+00:00+00:00"	"student011"	"student"	106	"But advent calendar is nice"	"But the advent calendar is nice"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:43:58+00:00+00:00+00:00"	"teacher008"	"teacher"	107	"That's something then!"	"That's something then!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T12:44:02+00:00+00:00+00:00"	"student011"	"student"	108	"A doll with some clothes"	"A doll with some clothes"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:44:16+00:00+00:00+00:00"	"teacher008"	"teacher"	109	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:44:31+00:00+00:00+00:00"	"student011"	"student"	110	"sorry"	"sorry"	NA	"6.0"	"disruption"	NA	NA	NA	1
+"2020-11-13T12:44:35+00:00+00:00+00:00"	"student011"	"student"	111	"I have a call"	"I have a call"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:44:42+00:00+00:00+00:00"	"teacher008"	"teacher"	112	"No worries"	"No worries"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:44:43+00:00+00:00+00:00"	"student011"	"student"	113	"one moment"	"one moment"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:48:57+00:00+00:00+00:00"	"student011"	"student"	114	"I'm here"	"I'm here"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:49:04+00:00+00:00+00:00"	"student011"	"student"	115	"I'm very soryy"	"I'm very sorry"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T12:49:07+00:00+00:00+00:00"	"student011"	"student"	116	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:49:20+00:00+00:00+00:00"	"teacher008"	"teacher"	117	"No worries, it happens! you have to take urgents calls :)"	"No worries, it happens! you have to take urgents calls :)"	NA	NA	NA	NA	NA	NA	11
+"2020-11-13T12:49:25+00:00+00:00+00:00"	"student011"	"student"	118	"Ready for the exercises )"	"Ready for the exercises )"	NA	"4b"	"redirection"	NA	NA	NA	5
+"2020-11-13T12:49:36+00:00+00:00+00:00"	"teacher008"	"teacher"	119	"this is our old text"	"this is our old text"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:49:38+00:00+00:00+00:00"	"teacher008"	"teacher"	120	"Dear <TEACHER>,  Thank you for your question. We completely understand you, and let me assure you that our teaching method is all about communication - it's the communicative method. All our teachers use it to help students communicate easily. On our lesson you will speak a lot and to learn some words and expressions which are really very useful in your usual life here in Ukraine At the same time you will learn some grammar basics and letters, but we are sure that it will be fun because of our method of teaching and our experienced teachers"	"Dear <TEACHER>,  Thank you for your question. We completely understand you, and let me assure you that our teaching method is all about communication - it's the communicative method. All our teachers use it to help students communicate easily. On our lesson you will speak a lot and to learn some words and expressions which are really very useful in your usual life here in Ukraine At the same time you will learn some grammar basics and letters, but we are sure that it will be fun because of our method of teaching and our experienced teachers"	NA	NA	NA	NA	NA	NA	98
+"2020-11-13T12:49:43+00:00+00:00+00:00"	"student011"	"student"	121	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:50:23+00:00+00:00+00:00"	"teacher008"	"teacher"	122	"Ooops, sorry, it's not the original version, I added the corrections we made last time, actually"	"Ooops, sorry, it's not the original version, I added the corrections we made last time, actually"	119	NA	"repair"	"content"	NA	NA	16
+"2020-11-13T12:50:27+00:00+00:00+00:00"	"teacher008"	"teacher"	123	"as you can see"	"as you can see"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:50:33+00:00+00:00+00:00"	"student011"	"student"	124	"I see )"	"I see )"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T12:50:35+00:00+00:00+00:00"	"teacher008"	"teacher"	125	"let me assure you that...'"	"let me assure you that...'"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:50:40+00:00+00:00+00:00"	"student011"	"student"	126	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:50:51+00:00+00:00+00:00"	"student011"	"student"	127	"I remember the word"	"I remember the word"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:50:58+00:00+00:00+00:00"	"teacher008"	"teacher"	128	"But that's not a problem! Let's start with sentence 4 then"	"But that's not a problem! Let's start with sentence 4 then"	NA	"4c"	"exercise"	"writing"	NA	NA	11
+"2020-11-13T12:51:28+00:00+00:00+00:00"	"teacher008"	"teacher"	129	"First thing, I would go for 'during lessons'"	"First thing, I would go for 'during lessons'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+"2020-11-13T12:51:37+00:00+00:00+00:00"	"teacher008"	"teacher"	130	"or 'in the lessons'"	"or 'in the lessons'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+"2020-11-13T12:51:37+00:00+00:00+00:00"	"student011"	"student"	131	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:51:54+00:00+00:00+00:00"	"student011"	"student"	132	"During lessons"	"During lessons"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:52:03+00:00+00:00+00:00"	"student011"	"student"	133	"I don't need an article?"	"I don't need an article?"	NA	"4d"	"enquiry"	"grammatical resource"	NA	NA	5
+"2020-11-13T12:52:09+00:00+00:00+00:00"	"teacher008"	"teacher"	134	"you will speak a lot and to learn some words' Can you find a word that shouldn't be here?"	"you will speak a lot and to learn some words' Can you find a word that shouldn't be here?"	NA	"4e"	"eliciting,repair"	"grammatical resource"	NA	NA	19
+"2020-11-13T12:52:25+00:00+00:00+00:00"	"student011"	"student"	135	"to! I don't need to"	"to! I don't need to"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:52:34+00:00+00:00+00:00"	"teacher008"	"teacher"	136	"No, no article is fine because we're not talking about some concrete lessons"	"No, no article is fine because we're not talking about some concrete lessons"	133	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+"2020-11-13T12:52:38+00:00+00:00+00:00"	"teacher008"	"teacher"	137	"lessons in general"	"lessons in general"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+"2020-11-13T12:52:45+00:00+00:00+00:00"	"teacher008"	"teacher"	138	"Correct!"	"Correct!"	135	NA	NA	NA	NA	NA	1
+"2020-11-13T12:53:10+00:00+00:00+00:00"	"teacher008"	"teacher"	139	"usual life': I think you mean 'everyday life'"	"usual life': I think you mean 'everyday life'"	NA	"4f"	"repair"	"lexical resource"	NA	NA	8
+"2020-11-13T12:53:14+00:00+00:00+00:00"	"student011"	"student"	140	"Ok! And in the lessons I need the?"	"Ok! And in the lessons I need the?"	137	NA	"enquiry"	"grammatical resource"	NA	NA	8
+"2020-11-13T12:53:15+00:00+00:00+00:00"	"teacher008"	"teacher"	141	"that would be a good expression"	"that would be a good expression"	139	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2020-11-13T12:53:34+00:00+00:00+00:00"	"student011"	"student"	142	"Yes, I mean everyday life"	"Yes, I mean everyday life"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:54:29+00:00+00:00+00:00"	"student011"	"student"	143	"So"	"So"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:54:48+00:00+00:00+00:00"	"teacher008"	"teacher"	144	"Good question about 'in the lessons'! I intuitively want 'the' there. I think because it sounds like a place, and we usually use 'the' with places (at the hospital / supermarket, in the street)"	"Good question about 'in the lessons'! I intuitively want 'the' there. I think because it sounds like a place, and we usually use 'the' with places (at the hospital / supermarket, in the street)"	140	NA	"scaffolding"	"grammatical resource"	NA	NA	34
+"2020-11-13T12:55:06+00:00+00:00+00:00"	"student011"	"student"	145	"During lessons you will speak a lot and learn some words and expressions which are really very useful in your everyday life here in Ukraine"	"During lessons you will speak a lot and learn some words and expressions which are really very useful in your everyday life here in Ukraine"	143	NA	NA	NA	NA	NA	25
+"2020-11-13T12:55:27+00:00+00:00+00:00"	"student011"	"student"	146	"Ah! More like a place! Ok!"	"Ah! More like a place! Ok!"	144	NA	NA	NA	NA	NA	6
+"2020-11-13T12:55:42+00:00+00:00+00:00"	"teacher008"	"teacher"	147	"Yes, that sounds good!"	"Yes, that sounds good!"	145	NA	NA	NA	NA	NA	4
+"2020-11-13T12:55:54+00:00+00:00+00:00"	"teacher008"	"teacher"	148	"I would just go with 'really useful'"	"I would just go with 'really useful'"	145	NA	"repair"	"lexical resource"	NA	NA	7
+"2020-11-13T12:55:58+00:00+00:00+00:00"	"teacher008"	"teacher"	149	"but good!"	"but good!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:56:08+00:00+00:00+00:00"	"teacher008"	"teacher"	150	"And the last sentence is absolutely fine :)"	"And the last sentence is absolutely fine :)"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T12:56:25+00:00+00:00+00:00"	"student011"	"student"	151	"Ah, really useful Ok!"	"Ah, really useful Ok!"	148	NA	NA	NA	NA	NA	4
+"2020-11-13T12:56:32+00:00+00:00+00:00"	"student011"	"student"	152	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:57:01+00:00+00:00+00:00"	"teacher008"	"teacher"	153	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:57:31+00:00+00:00+00:00"	"teacher008"	"teacher"	154	"Ok, something new for today, and something to do with your favourite English person!"	"Ok, something new for today, and something to do with your favourite English person!"	NA	"5.0"	"topic opening"	"grammatical resource"	NA	NA	14
+"2020-11-13T12:57:43+00:00+00:00+00:00"	"student011"	"student"	155	"you? )"	"you? )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:57:45+00:00+00:00+00:00"	"teacher008"	"teacher"	156	"Who do you think I mean?)"	"Who do you think I mean?)"	154	NA	NA	NA	NA	NA	6
+"2020-11-13T12:57:56+00:00+00:00+00:00"	"teacher008"	"teacher"	157	"Aww, thank you! I'm Ukrainian though!))"	"Aww, thank you! I'm Ukrainian though!))"	155	NA	NA	NA	NA	NA	6
+"2020-11-13T12:58:03+00:00+00:00+00:00"	"student011"	"student"	158	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:58:08+00:00+00:00+00:00"	"teacher008"	"teacher"	159	"So it can't be me!"	"So it can't be me!"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:58:12+00:00+00:00+00:00"	"student011"	"student"	160	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:58:35+00:00+00:00+00:00"	"teacher008"	"teacher"	161	"it's a famous person"	"it's a famous person"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:58:52+00:00+00:00+00:00"	"student011"	"student"	162	"The Queen, James Bond, Mr Bean?"	"The Queen, James Bond, Mr Bean?"	NA	NA	NA	NA	NA	NA	6
+"2020-11-13T12:58:59+00:00+00:00+00:00"	"student011"	"student"	163	")"	")"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T12:59:10+00:00+00:00+00:00"	"student011"	"student"	164	"Santa? )"	"Santa? )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:59:12+00:00+00:00+00:00"	"teacher008"	"teacher"	165	"Got it! The Queen!"	"Got it! The Queen!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T12:59:18+00:00+00:00+00:00"	"teacher008"	"teacher"	166	"Santa, haha))"	"Santa, haha))"	164	NA	NA	NA	NA	NA	2
+"2020-11-13T12:59:21+00:00+00:00+00:00"	"student011"	"student"	167	"He is not English )"	"He is not English )"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T12:59:26+00:00+00:00+00:00"	"student011"	"student"	168	"ok )"	"ok )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T12:59:28+00:00+00:00+00:00"	"teacher008"	"teacher"	169	"No, it can't be Santa"	"No, it can't be Santa"	NA	NA	"presentation"	"grammatical resource"	NA	NA	5
+"2020-11-13T12:59:56+00:00+00:00+00:00"	"teacher008"	"teacher"	170	"This is the situation when we don't know exactly and we have to guess (well, you have to guess, I know my person)"	"This is the situation when we don't know exactly and we have to guess (well, you have to guess, I know my person)"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	23
+"2020-11-13T13:00:18+00:00+00:00+00:00"	"student011"	"student"	171	"ok )"	"ok )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:00:26+00:00+00:00+00:00"	"teacher008"	"teacher"	172	"And when we're guessing, we are very sure that some things are not true"	"And when we're guessing, we are very sure that some things are not true"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	14
+"2020-11-13T13:00:32+00:00+00:00+00:00"	"teacher008"	"teacher"	173	"like Santa, he is not English"	"like Santa, he is not English"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	6
+"2020-11-13T13:00:39+00:00+00:00+00:00"	"teacher008"	"teacher"	174	"we are sure it's not true"	"we are sure it's not true"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	6
+"2020-11-13T13:00:46+00:00+00:00+00:00"	"teacher008"	"teacher"	175	"it CAN'T be Santa"	"it CAN'T be Santa"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	4
+"2020-11-13T13:00:52+00:00+00:00+00:00"	"teacher008"	"teacher"	176	"or me)"	"or me)"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	2
+"2020-11-13T13:01:02+00:00+00:00+00:00"	"teacher008"	"teacher"	177	"But it COULD be James Bond"	"But it COULD be James Bond"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	6
+"2020-11-13T13:01:10+00:00+00:00+00:00"	"teacher008"	"teacher"	178	"or it MIGHT be the Queen"	"or it MIGHT be the Queen"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	6
+"2020-11-13T13:01:21+00:00+00:00+00:00"	"student011"	"student"	179	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:01:22+00:00+00:00+00:00"	"teacher008"	"teacher"	180	"or it MAY BE Mr Bean"	"or it MAY BE Mr Bean"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	6
+"2020-11-13T13:01:48+00:00+00:00+00:00"	"teacher008"	"teacher"	181	"they are all good options, but we are not sure: could / might / may"	"they are all good options, but we are not sure: could / might / may"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	15
+"2020-11-13T13:01:57+00:00+00:00+00:00"	"student011"	"student"	182	"or it should be the Queen if we are talking about someone very British )"	"or it must be the Queen if we are talking about someone very British )"	NA	NA	NA	NA	NA	NA	15
+"2020-11-13T13:02:21+00:00+00:00+00:00"	"teacher008"	"teacher"	183	"Yes, if we're very sure, we say, Ah, I know! It MUST be the Queen!"	"Yes, if we're very sure, we say, Ah, I know! It MUST be the Queen!"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	15
+"2020-11-13T13:02:26+00:00+00:00+00:00"	"teacher008"	"teacher"	184	"MUST = very very sure"	"MUST = very very sure"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	5
+"2020-11-13T13:02:52+00:00+00:00+00:00"	"teacher008"	"teacher"	185	"CAN'T = sure that it's not"	"CAN'T = sure that it's not"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	6
+"2020-11-13T13:02:55+00:00+00:00+00:00"	"student011"	"student"	186	"ah Ok!"	"ah OK!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:02:58+00:00+00:00+00:00"	"teacher008"	"teacher"	187	"MUST = sure that it is"	"MUST = sure that it is"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	6
+"2020-11-13T13:03:06+00:00+00:00+00:00"	"teacher008"	"teacher"	188	"could / might  / may = in the middle"	"could / might  / may = in the middle"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	10
+"2020-11-13T13:03:14+00:00+00:00+00:00"	"teacher008"	"teacher"	189	"not very sure"	"not very sure"	NA	NA	"presentation"	"grammatical resource,meaning"	NA	NA	3
+"2020-11-13T13:03:27+00:00+00:00+00:00"	"teacher008"	"teacher"	190	"As you can see, they're followed by an infinitive"	"As you can see, they're followed by an infinitive"	NA	NA	"presentation"	"grammatical resource"	NA	NA	9
+"2020-11-13T13:03:33+00:00+00:00+00:00"	"teacher008"	"teacher"	191	"It could be the Queen"	"It could be the Queen"	NA	NA	"presentation"	"grammatical resource"	NA	NA	5
+"2020-11-13T13:03:52+00:00+00:00+00:00"	"student011"	"student"	192	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:03:55+00:00+00:00+00:00"	"teacher008"	"teacher"	193	"And they are called 'modals of deduction' in grammar"	"And they are called 'modals of deduction' in grammar"	NA	NA	"presentation"	"grammatical resource"	NA	NA	9
+"2020-11-13T13:04:07+00:00+00:00+00:00"	"teacher008"	"teacher"	194	"Deduction, as the method that Sherlock Holmes used"	"Deduction, as the method that Sherlock Holmes used"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	8
+"2020-11-13T13:04:25+00:00+00:00+00:00"	"student011"	"student"	195	"sure!"	"sure!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:04:31+00:00+00:00+00:00"	"teacher008"	"teacher"	196	"when he didn't know for sure, but had some information to work with))"	"when he didn't know for sure, but had some information to work with))"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	13
+"2020-11-13T13:04:47+00:00+00:00+00:00"	"student011"	"student"	197	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:05:07+00:00+00:00+00:00"	"teacher008"	"teacher"	198	"I'll give you some exercises for modals of deduction as homework, but I'm sure we can practising straightaway"	"I'll give you some exercises for modals of deduction as homework, but I'm sure we can practising straightaway"	NA	NA	NA	NA	NA	NA	18
+"2020-11-13T13:05:18+00:00+00:00+00:00"	"student011"	"student"	199	"and what about should?"	"and what about should?"	NA	"5a"	"enquiry"	"grammatical resource,meaning"	NA	NA	4
+"2020-11-13T13:05:45+00:00+00:00+00:00"	"teacher008"	"teacher"	200	"Good question! Should is more like 'have to'"	"Good question! Should is more like 'have to'"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	8
+"2020-11-13T13:06:12+00:00+00:00+00:00"	"teacher008"	"teacher"	201	"For example, the Queen should veto stupid things that the government comes up with"	"For example, the Queen should veto stupid things that the government comes up with"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	14
+"2020-11-13T13:06:18+00:00+00:00+00:00"	"teacher008"	"teacher"	202	"should = she has to"	"should = she has to"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	5
+"2020-11-13T13:06:21+00:00+00:00+00:00"	"student011"	"student"	203	"Ok, no should for deduction?"	"Ok, no should for deduction?"	NA	NA	"enquiry"	"grammatical resource,meaning"	NA	NA	5
+"2020-11-13T13:06:24+00:00+00:00+00:00"	"teacher008"	"teacher"	204	"(she never does, by the way)"	"(she never does, by the way)"	201	NA	NA	NA	NA	NA	6
+"2020-11-13T13:06:36+00:00+00:00+00:00"	"teacher008"	"teacher"	205	"No, should is not for deduction!"	"No, should is not for deduction!"	203	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	6
+"2020-11-13T13:06:40+00:00+00:00+00:00"	"student011"	"student"	206	"the Queen you mean?"	"the Queen you mean?"	204	NA	NA	NA	NA	NA	4
+"2020-11-13T13:06:44+00:00+00:00+00:00"	"teacher008"	"teacher"	207	"It's more for, I should eat less cake))"	"It's more for, I should eat less cake))"	205	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	8
+"2020-11-13T13:06:54+00:00+00:00+00:00"	"teacher008"	"teacher"	208	"No, she never vetoes anything!"	"No, she never vetoes anything!"	206	NA	NA	NA	NA	NA	5
+"2020-11-13T13:07:05+00:00+00:00+00:00"	"student011"	"student"	209	"I should eat cake! )"	"I should eat cake! )"	207	NA	NA	NA	NA	NA	5
+"2020-11-13T13:07:26+00:00+00:00+00:00"	"teacher008"	"teacher"	210	"Oh, I agree! I might bake a cake this weekend"	"Oh, I agree! I might bake a cake this weekend"	NA	NA	NA	NA	NA	NA	10
+"2020-11-13T13:07:34+00:00+00:00+00:00"	"student011"	"student"	211	"Ah, I see, Yes!"	"Ah, I see, Yes!"	208	NA	NA	NA	NA	NA	4
+"2020-11-13T13:07:38+00:00+00:00+00:00"	"teacher008"	"teacher"	212	"I might = I haven't decided yet, maybe yes, maybe no"	"I might = I haven't decided yet, maybe yes, maybe no"	210	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	11
+"2020-11-13T13:07:42+00:00+00:00+00:00"	"student011"	"student"	213	"She is a symbol )"	"She is a symbol )"	211	NA	NA	NA	NA	NA	5
+"2020-11-13T13:07:55+00:00+00:00+00:00"	"teacher008"	"teacher"	214	"Oh yes, she is not a political force!"	"Oh yes, she is not a political force!"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T13:08:19+00:00+00:00+00:00"	"teacher008"	"teacher"	215	"Anyway, I found an interesting interview with a man who worked at Buckingham palace as one of the Queen's chefs"	"Anyway, I found an interesting interview with a man who worked at Buckingham palace as one of the Queen's chefs"	NA	"6.0"	"topic opening"	"reading"	NA	NA	20
+"2020-11-13T13:08:29+00:00+00:00+00:00"	"student011"	"student"	216	"super!"	"super!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:08:42+00:00+00:00+00:00"	"student011"	"student"	217	"The Queen and the food"	"The Queen and food"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:08:49+00:00+00:00+00:00"	"teacher008"	"teacher"	218	"That's it!"	"That's it!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:08:51+00:00+00:00+00:00"	"student011"	"student"	219	"What can be better?"	"What can be better?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T13:09:01+00:00+00:00+00:00"	"teacher008"	"teacher"	220	"He writes about what she eats regularly"	"He writes about what she eats regularly"	NA	NA	NA	NA	NA	NA	7
+"2020-11-13T13:09:08+00:00+00:00+00:00"	"teacher008"	"teacher"	221	"haha, the food!"	"haha, food!"	217	NA	NA	NA	NA	NA	3
+"2020-11-13T13:09:33+00:00+00:00+00:00"	"student011"	"student"	222	"I mean the Queen + the food"	"I mean the Queen + food"	NA	NA	NA	NA	NA	NA	7
+"2020-11-13T13:09:40+00:00+00:00+00:00"	"student011"	"student"	223	"It's a good mix )"	"It's a good mix )"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:10:07+00:00+00:00+00:00"	"teacher008"	"teacher"	224	"What do you think she might eat? Considering she is one of the richest people in the world! A good opportunity to use: She might / could / may like ... etc."	"What do you think she might eat? Considering she is one of the richest people in the world! A good opportunity to use: She might / could / may like ... etc."	NA	"6a"	"eliciting"	"grammatical resource"	NA	NA	32
+"2020-11-13T13:10:26+00:00+00:00+00:00"	"student011"	"student"	225	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:10:40+00:00+00:00+00:00"	"teacher008"	"teacher"	226	"Ah, yes, got you!"	"Ah, yes, got you!"	223	NA	NA	NA	NA	NA	4
+"2020-11-13T13:10:53+00:00+00:00+00:00"	"teacher008"	"teacher"	227	"*one of the richest women in the world, not people"	"*one of the richest women in the world, not people"	224	NA	"repair"	"content"	NA	NA	10
+"2020-11-13T13:11:04+00:00+00:00+00:00"	"student011"	"student"	228	"She might like tee ))"	"She might like tea ))"	225	NA	NA	NA	NA	NA	5
+"2020-11-13T13:11:14+00:00+00:00+00:00"	"student011"	"student"	229	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:11:20+00:00+00:00+00:00"	"student011"	"student"	230	"I like my joke )))"	"I like my joke )))"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:11:29+00:00+00:00+00:00"	"student011"	"student"	231	"About stereotypes"	"About stereotypes"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:11:33+00:00+00:00+00:00"	"student011"	"student"	232	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:11:37+00:00+00:00+00:00"	"student011"	"student"	233	"one more"	"one more"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:11:38+00:00+00:00+00:00"	"teacher008"	"teacher"	234	"There's a possibility!"	"There's a possibility!"	228	NA	NA	NA	NA	NA	3
+"2020-11-13T13:12:00+00:00+00:00+00:00"	"student011"	"student"	235	"She may like porridge ))))"	"She may like porridge ))))"	233	NA	NA	NA	NA	NA	5
+"2020-11-13T13:12:01+00:00+00:00+00:00"	"teacher008"	"teacher"	236	"But, if we're pretty sure, we can say, 'she __ like tea!'"	"But, if we're pretty sure, we can say, 'she __ like tea!'"	234	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+"2020-11-13T13:12:04+00:00+00:00+00:00"	"student011"	"student"	237	"Sorry )"	"Sorry )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:12:17+00:00+00:00+00:00"	"student011"	"student"	238	"She must like tea )"	"She must like tea )"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:12:24+00:00+00:00+00:00"	"teacher008"	"teacher"	239	"That's it! Great!"	"That's it! Great!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T13:12:38+00:00+00:00+00:00"	"student011"	"student"	240	"She must like porridge )"	"She must like porridge )"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:12:39+00:00+00:00+00:00"	"teacher008"	"teacher"	241	"Modal verbs are great for expressing these things!"	"Modal verbs are great for expressing these things!"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T13:13:53+00:00+00:00+00:00"	"teacher008"	"teacher"	243	"Do you think she eats English food or tries things from different places in the world?"	"Do you think she eats English food or tries things from different places in the world?"	NA	"6b"	"eliciting"	"grammatical resource"	NA	NA	16
+"2020-11-13T13:13:59+00:00+00:00+00:00"	"student011"	"student"	244	"She must like some traditional British food like puddings or stew"	"She must like some traditional British food like puddings or stew"	NA	NA	NA	NA	NA	NA	11
+"2020-11-13T13:14:18+00:00+00:00+00:00"	"teacher008"	"teacher"	245	"Ah, good sentence, excellent student! :)))"	"Ah, good sentence, excellent student! :)))"	NA	NA	NA	NA	NA	NA	6
+"2020-11-13T13:14:34+00:00+00:00+00:00"	"student011"	"student"	246	")"	")"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:14:58+00:00+00:00+00:00"	"student011"	"student"	247	"She may like something not very traditional"	"She may like something not very traditional"	NA	NA	NA	NA	NA	NA	7
+"2020-11-13T13:15:08+00:00+00:00+00:00"	"student011"	"student"	248	"Let me think"	"Let me think"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T13:15:09+00:00+00:00+00:00"	"student011"	"student"	249	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:15:33+00:00+00:00+00:00"	"student011"	"student"	250	"Maybe borchsh? )"	"Maybe borchsh? )"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T13:15:49+00:00+00:00+00:00"	"teacher008"	"teacher"	251	"Haha, you never know, she may like borshch!!"	"Haha, you never know, she may like borshch!!"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T13:15:54+00:00+00:00+00:00"	"teacher008"	"teacher"	252	"Goodness, I can't spell it"	"Goodness, I can't spell it"	NA	"6c"	NA	NA	NA	NA	5
+"2020-11-13T13:15:57+00:00+00:00+00:00"	"teacher008"	"teacher"	253	"borchsh?"	"borchsh?"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:16:00+00:00+00:00+00:00"	"teacher008"	"teacher"	254	"shch"	"shch"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:16:02+00:00+00:00+00:00"	"teacher008"	"teacher"	255	"chsh"	"chsh"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:16:04+00:00+00:00+00:00"	"teacher008"	"teacher"	256	"???"	"???"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:16:16+00:00+00:00+00:00"	"student011"	"student"	257	"Ah! Borshch )"	"Ah! Borshch )"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T13:16:24+00:00+00:00+00:00"	"teacher008"	"teacher"	258	"Thank you)"	"Thank you)"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:16:32+00:00+00:00+00:00"	"teacher008"	"teacher"	259	"Maybe Olia Hercules can convert her))"	"Maybe Olia Hercules can convert her))"	NA	NA	NA	NA	NA	NA	6
+"2020-11-13T13:16:37+00:00+00:00+00:00"	"student011"	"student"	260	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:16:38+00:00+00:00+00:00"	"student011"	"student"	261	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:16:41+00:00+00:00+00:00"	"student011"	"student"	262	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:16:46+00:00+00:00+00:00"	"teacher008"	"teacher"	263	"Ok, a few words that will help you read the story later"	"Ok, a few words that will help you read the story later"	NA	"7.0"	"scaffolding"	"lexical resource,reading"	NA	NA	12
+"2020-11-13T13:17:00+00:00+00:00+00:00"	"teacher008"	"teacher"	264	"All good guesses about the Queen!"	"All good guesses about the Queen!"	NA	"6d"	NA	NA	NA	NA	6
+"2020-11-13T13:17:06+00:00+00:00+00:00"	"student011"	"student"	265	"She might. like some cakes I think"	"She might like some cakes I think"	NA	NA	NA	NA	NA	NA	7
+"2020-11-13T13:17:12+00:00+00:00+00:00"	"teacher008"	"teacher"	266	"HRH = Her Royal Highness"	"HRH = Her Royal Highness"	263	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+"2020-11-13T13:17:21+00:00+00:00+00:00"	"student011"	"student"	267	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:17:25+00:00+00:00+00:00"	"teacher008"	"teacher"	268	"which is a proper way to talk about the Queen)))"	"which is a proper way to talk about the Queen)))"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+"2020-11-13T13:17:55+00:00+00:00+00:00"	"teacher008"	"teacher"	269	"Yes, she might like sweet things! Or alternatively, she might be more into savoury stuff"	"Yes, she might like sweet things! Or alternatively, she might be more into savoury stuff"	265	NA	NA	NA	NA	NA	15
+"2020-11-13T13:18:38+00:00+00:00+00:00"	"teacher008"	"teacher"	270	"savoury (adj.) is a way to describe the taste of things like sausages, bacon, good soup..."	"savoury (adj.) is a way to describe the taste of things like sausages, bacon, good soup..."	NA	"7a"	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+"2020-11-13T13:19:04+00:00+00:00+00:00"	"student011"	"student"	271	"I like it"	"I like it"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T13:19:13+00:00+00:00+00:00"	"student011"	"student"	272	"Cheese biscuits"	"Cheese biscuits"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:19:23+00:00+00:00+00:00"	"student011"	"student"	273	"My mum bakes goon ones"	"My mum bakes goon ones"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:19:25+00:00+00:00+00:00"	"teacher008"	"teacher"	274	"something salty and spicy"	"something salty and spicy"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T13:19:25+00:00+00:00+00:00"	"student011"	"student"	275	"good"	"good"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:19:29+00:00+00:00+00:00"	"teacher008"	"teacher"	276	"and not sweet"	"and not sweet"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T13:19:35+00:00+00:00+00:00"	"student011"	"student"	277	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:19:51+00:00+00:00+00:00"	"teacher008"	"teacher"	278	"Yes, you prefer savoury to sweet, if I remember correctly :)"	"Yes, you prefer savoury to sweet, if I remember correctly :)"	NA	NA	NA	NA	NA	NA	11
+"2020-11-13T13:20:13+00:00+00:00+00:00"	"student011"	"student"	279	"yes, but now I need some sweets )"	"yes, but now I need some sweets )"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T13:20:17+00:00+00:00+00:00"	"student011"	"student"	280	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:20:18+00:00+00:00+00:00"	"teacher008"	"teacher"	281	"Ok! Tupperware = a brand of plastic containers"	"Ok! Tupperware = a brand of plastic containers"	NA	"7b"	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+"2020-11-13T13:20:26+00:00+00:00+00:00"	"student011"	"student"	282	"ok! I see"	"ok! I see"	NA	NA	NA	NA	NA	NA	3
+"2020-11-13T13:20:33+00:00+00:00+00:00"	"teacher008"	"teacher"	283	"I've always preferred sweets))"	"I've always preferred sweets))"	280	NA	NA	NA	NA	NA	4
+"2020-11-13T13:20:52+00:00+00:00+00:00"	"student011"	"student"	284	"Now I'm with you )))"	"Now I'm with you )))"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:20:53+00:00+00:00+00:00"	"teacher008"	"teacher"	285	"a carbohydrate"	"a carbohydrate"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+"2020-11-13T13:20:59+00:00+00:00+00:00"	"student011"	"student"	286	"soda? )"	"soda? )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:21:14+00:00+00:00+00:00"	"teacher008"	"teacher"	287	"One of the three nutrients in food. Fats, proteins and carbohydrates"	"One of the three nutrients in food. Fats, proteins and carbohydrates"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+"2020-11-13T13:21:20+00:00+00:00+00:00"	"teacher008"	"teacher"	288	"Mmm, no, not soda"	"Mmm, no, not soda"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T13:21:21+00:00+00:00+00:00"	"student011"	"student"	289	"Ah!"	"Ah!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:21:24+00:00+00:00+00:00"	"student011"	"student"	290	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:21:38+00:00+00:00+00:00"	"teacher008"	"teacher"	291	"carbohydrates = sugar, pasta, biscuits"	"carbohydrates = sugar, pasta, biscuits"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+"2020-11-13T13:21:43+00:00+00:00+00:00"	"student011"	"student"	292	"I like carbohydrates )"	"I like carbohydrates )"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T13:21:50+00:00+00:00+00:00"	"student011"	"student"	293	"My favorites"	"My favorites"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:21:50+00:00+00:00+00:00"	"teacher008"	"teacher"	294	"Yes! They give us energy!"	"Yes! They give us energy!"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:22:11+00:00+00:00+00:00"	"student011"	"student"	295	"kasha )"	"kasha )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:22:28+00:00+00:00+00:00"	"student011"	"student"	296	"buns )"	"buns )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:22:30+00:00+00:00+00:00"	"teacher008"	"teacher"	297	"Oh, if you do get Netflix, you should watch 'Salt Fat Acid Heat'"	"Oh, if you do get Netflix, you should watch 'Salt Fat Acid Heat'"	NA	NA	NA	NA	NA	NA	13
+"2020-11-13T13:22:34+00:00+00:00+00:00"	"teacher008"	"teacher"	298	"All the food, mmm!"	"All the food, mmm!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-13T13:22:42+00:00+00:00+00:00"	"teacher008"	"teacher"	299	"Yes, definitely!"	"Yes, definitely!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:23:10+00:00+00:00+00:00"	"teacher008"	"teacher"	300	"Ok, I'll leave you with these words. Let me send you the homework links"	"Ok, I'll leave you with these words. Let me send you the homework links"	NA	"7c"	"homework"	NA	NA	NA	14
+"2020-11-13T13:23:24+00:00+00:00+00:00"	"student011"	"student"	301	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:23:25+00:00+00:00+00:00"	"teacher008"	"teacher"	302	"Actually, I'll send them to you in Messenger because you know how this chat is with links"	"Actually, I'll send them to you in Messenger because you know how this chat is with links"	NA	NA	NA	NA	NA	NA	17
+"2020-11-13T13:23:29+00:00+00:00+00:00"	"student011"	"student"	303	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:23:29+00:00+00:00+00:00"	"teacher008"	"teacher"	304	"a bit rubbish"	"a bit rubbish"	302	NA	NA	NA	NA	NA	3
+"2020-11-13T13:23:45+00:00+00:00+00:00"	"student011"	"student"	305	"Sure! Thank you very much"	"Sure! Thank you very much"	NA	NA	NA	NA	NA	NA	5
+"2020-11-13T13:23:51+00:00+00:00+00:00"	"student011"	"student"	306	"Have a good weekend!"	"Have a good weekend!"	NA	"8.0"	"closing"	NA	NA	NA	4
+"2020-11-13T13:23:55+00:00+00:00+00:00"	"teacher008"	"teacher"	307	"I was surprised about what the Queen eats, so I hope you'll enjoy the text!"	"I was surprised about what the Queen eats, so I hope you'll enjoy the text!"	305	NA	NA	NA	NA	NA	15
+"2020-11-13T13:23:55+00:00+00:00+00:00"	"student011"	"student"	308	"Bye )"	"Bye )"	NA	NA	NA	NA	NA	NA	2
+"2020-11-13T13:24:02+00:00+00:00+00:00"	"teacher008"	"teacher"	309	"You too, have a lovely weekend, thank you!"	"You too, have a lovely weekend, thank you!"	NA	NA	NA	NA	NA	NA	8
+"2020-11-13T13:24:03+00:00+00:00+00:00"	"teacher008"	"teacher"	310	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-13T13:24:07+00:00+00:00+00:00"	"student011"	"student"	311	"Sure! )"	"Sure! )"	NA	NA	NA	NA	NA	"B2"	2
