@@ -1,9 +1,8 @@
-from __future__ import annotations
-from typing import Optional, Any
 from datetime import datetime
 from pydantic import Field
 from beanie import Document
 from app.schemas.plan import Plan
+from typing import Optional, Any, List, Dict
 
 
 class SessionDoc(Document):
@@ -84,14 +83,6 @@ class PerformanceMetricDoc(Document):
         indexes = ["session_id", "username", "operation_type", "timestamp"]
 
 
-class AssignmentDoc(Document):
-    title: str
-    words: list[str] = Field(default_factory=list)
-    teacher_id: str
-    created_at: datetime = Field(default_factory=datetime.utcnow)
 
-    class Settings:
-        name = "assignments"
-        indexes = ["teacher_id"]
 
 

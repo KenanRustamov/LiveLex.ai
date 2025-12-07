@@ -34,6 +34,7 @@ export default function TeacherDashboard() {
     const [teacherCode, setTeacherCode] = useState<string | null>(null);
     const [students, setStudents] = useState<any[]>([]);
     const [assignments, setAssignments] = useState<any[]>([]);
+    const [scenes, setScenes] = useState<any[]>([]);
     const [classAnalytics, setClassAnalytics] = useState<any>(null);
     const [loading, setLoading] = useState(true);
 
@@ -41,7 +42,15 @@ export default function TeacherDashboard() {
     const [isDetailsOpen, setIsDetailsOpen] = useState(false);
     const [newAssignmentTitle, setNewAssignmentTitle] = useState("");
     const [newAssignmentWords, setNewAssignmentWords] = useState("");
+    const [newAssignmentSceneId, setNewAssignmentSceneId] = useState<string>("none");
+    const [newAssignmentDiscoveredCount, setNewAssignmentDiscoveredCount] = useState<number>(0);
     const [creating, setCreating] = useState(false);
+
+    // Scene Creation State
+    const [newSceneName, setNewSceneName] = useState("");
+    const [newSceneDesc, setNewSceneDesc] = useState("");
+    const [newSceneWords, setNewSceneWords] = useState("");
+    const [creatingScene, setCreatingScene] = useState(false);
 
     // Analytics Modal State
     const [selectedStudent, setSelectedStudent] = useState<any | null>(null);
@@ -73,6 +82,13 @@ export default function TeacherDashboard() {
                         setAssignments(assignmentsData);
                     }
 
+                    // Fetch scenes
+                    const resScenes = await fetch(`${backendUrl}/v1/scenes?email=${session.user.email}`);
+                    if (resScenes.ok) {
+                        const scenesData = await resScenes.json();
+                        setScenes(scenesData);
+                    }
+
                     // Fetch class analytics
                     const resAnalytics = await fetch(`${backendUrl}/v1/auth/teacher/analytics?email=${session.user.email}`);
                     if (resAnalytics.ok) {
@@ -97,36 +113,80 @@ export default function TeacherDashboard() {
             const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
             const wordsList = newAssignmentWords.split('\n').filter(w => w.trim() !== '');
 
+            const payload: any = {
+                email: session?.user?.email,
+                title: newAssignmentTitle,
+                words: wordsList,
+                include_discovered_count: newAssignmentDiscoveredCount
+            };
+
+            if (newAssignmentSceneId && newAssignmentSceneId !== "none") {
+                payload.scene_id = newAssignmentSceneId;
+            }
+
             const res = await fetch(`${backendUrl}/v1/assignments`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    email: session?.user?.email,
-                    title: newAssignmentTitle,
-                    words: wordsList
-                })
+                body: JSON.stringify(payload)
             });
 
             if (res.ok) {
                 const data = await res.json();
-                // Refresh list locally
+                // Refresh list locally (approximate)
                 const newAssignment = {
                     id: data.id,
                     title: newAssignmentTitle,
                     words: wordsList,
+                    scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : null,
+                    include_discovered_count: newAssignmentDiscoveredCount,
                     created_at: new Date().toISOString()
                 };
                 setAssignments([newAssignment, ...assignments]);
 
-                // Close and reset
-                setIsDetailsOpen(false);
+                // Reset form
                 setNewAssignmentTitle("");
                 setNewAssignmentWords("");
+                setNewAssignmentSceneId("none");
+                setNewAssignmentDiscoveredCount(0);
             }
         } catch (error) {
             console.error("Failed to create assignment", error);
         } finally {
             setCreating(false);
+        }
+    };
+
+    const handleCreateScene = async () => {
+        if (!newSceneName || !newSceneDesc) return;
+        setCreatingScene(true);
+        try {
+            const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
+            const wordsList = newSceneWords.split('\n').filter(w => w.trim() !== '');
+
+            const res = await fetch(`${backendUrl}/v1/scenes`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    email: session?.user?.email,
+                    name: newSceneName,
+                    description: newSceneDesc,
+                    teacher_words: wordsList
+                })
+            });
+
+            if (res.ok) {
+                const data = await res.json();
+                setScenes([...scenes, data]);
+
+                // Reset form
+                setNewSceneName("");
+                setNewSceneDesc("");
+                setNewSceneWords("");
+            }
+        } catch (error) {
+            console.error("Failed to create scene", error);
+        } finally {
+            setCreatingScene(false);
         }
     };
 
@@ -150,6 +210,7 @@ export default function TeacherDashboard() {
                             <nav className="hidden md:flex items-center bg-white rounded-full px-1 py-1 shadow-sm">
                                 <TabsList className="bg-transparent">
                                     <TabsTrigger value="dashboard" className="rounded-full data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">Dashboard</TabsTrigger>
+                                    <TabsTrigger value="scenes" className="rounded-full data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">Scenes</TabsTrigger>
                                     <TabsTrigger value="assignments" className="rounded-full data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">Assignments</TabsTrigger>
                                 </TabsList>
                             </nav>
@@ -195,9 +256,10 @@ export default function TeacherDashboard() {
 
                     {/* Mobile Tabs (visible only on small screens) */}
                     <div className="md:hidden">
-                        <TabsList className="grid w-full grid-cols-2">
-                            <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
-                            <TabsTrigger value="assignments">Assignments</TabsTrigger>
+                        <TabsList className="grid w-full grid-cols-3">
+                            <TabsTrigger value="dashboard">Overview</TabsTrigger>
+                            <TabsTrigger value="scenes">Scenes</TabsTrigger>
+                            <TabsTrigger value="assignments">Work</TabsTrigger>
                         </TabsList>
                     </div>
 
@@ -330,9 +392,90 @@ export default function TeacherDashboard() {
                         </div>
                     </TabsContent>
 
-                    <TabsContent value="assignments" className="animate-in fade-in-50 duration-500">
+                    <TabsContent value="scenes" className="animate-in fade-in-50 duration-500">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <Card className="rounded-[2rem] border-none shadow-sm">
+                                <CardHeader>
+                                    <CardTitle>Create Scene</CardTitle>
+                                    <CardDescription>Define a new context for learning.</CardDescription>
+                                </CardHeader>
+                                <CardContent>
+                                    <div className="space-y-4">
+                                        <div className="space-y-2">
+                                            <Label htmlFor="sceneName">Scene Name</Label>
+                                            <Input
+                                                id="sceneName"
+                                                placeholder="e.g., The Kitchen"
+                                                value={newSceneName}
+                                                onChange={(e) => setNewSceneName(e.target.value)}
+                                                className="rounded-xl"
+                                            />
+                                        </div>
+                                        <div className="space-y-2">
+                                            <Label htmlFor="sceneDesc">Description</Label>
+                                            <Textarea
+                                                id="sceneDesc"
+                                                placeholder="Describe the environment to help the AI understand the context."
+                                                value={newSceneDesc}
+                                                onChange={(e) => setNewSceneDesc(e.target.value)}
+                                                className="min-h-[100px] rounded-xl"
+                                            />
+                                        </div>
+                                        <Button
+                                            onClick={handleCreateScene}
+                                            disabled={creatingScene}
+                                            className="w-full rounded-xl h-12 text-md"
+                                        >
+                                            {creatingScene ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : <Plus className="mr-2 h-4 w-4" />}
+                                            Create Scene
+                                        </Button>
+                                    </div>
+                                </CardContent>
+                            </Card>
+
+                            <Card className="rounded-[2rem] border-none shadow-sm">
+                                <CardHeader>
+                                    <CardTitle>Your Scenes</CardTitle>
+                                    <CardDescription>Manage environments.</CardDescription>
+                                </CardHeader>
+                                <CardContent>
+                                    {scenes.length === 0 ? (
+                                        <div className="h-40 flex items-center justify-center text-muted-foreground text-sm border-2 border-dashed rounded-xl">
+                                            No scenes created yet.
+                                        </div>
+                                    ) : (
+                                        <div className="space-y-3">
+                                            {scenes.map((scene: any) => (
+                                                <div key={scene.id} className="p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow">
+                                                    <div>
+                                                        <div className="flex justify-between items-center mb-2">
+                                                            <h3 className="font-bold text-gray-800">{scene.name}</h3>
+                                                            <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
+                                                                {scene.teacher_words?.length || 0} Target Words
+                                                            </span>
+                                                        </div>
+                                                        <p className="text-sm text-muted-foreground line-clamp-2 mb-2">
+                                                            {scene.description}
+                                                        </p>
+                                                        <div className="flex gap-1 flex-wrap">
+                                                            {scene.teacher_words?.slice(0, 3).map((w: string, i: number) => (
+                                                                <span key={i} className="text-xs bg-secondary px-2 py-1 rounded-full text-secondary-foreground">{w}</span>
+                                                            ))}
+                                                            {(scene.teacher_words?.length || 0) > 3 && <span className="text-xs text-muted-foreground pl-1">...</span>}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
+                                </CardContent>
+                            </Card>
+                        </div>
+                    </TabsContent>
+
+                    <TabsContent value="assignments" className="animate-in fade-in-50 duration-500">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <Card className="rounded-[2rem] border-none shadow-sm h-fit">
                                 <CardHeader>
                                     <CardTitle>Create Assignment</CardTitle>
                                     <CardDescription>Create a new vocabulary list.</CardDescription>
@@ -349,16 +492,56 @@ export default function TeacherDashboard() {
                                                 className="rounded-xl"
                                             />
                                         </div>
+
+                                        {/* Scene Context Selector */}
                                         <div className="space-y-2">
-                                            <Label htmlFor="words">Words (one per line)</Label>
-                                            <Textarea
-                                                id="words"
-                                                placeholder="Hola&#10;Gracias"
-                                                value={newAssignmentWords}
-                                                onChange={(e) => setNewAssignmentWords(e.target.value)}
-                                                className="min-h-[150px] rounded-xl"
-                                            />
+                                            <Label htmlFor="sceneSelect">Context (Optional)</Label>
+                                            <select
+                                                id="sceneSelect"
+                                                className="flex h-10 w-full rounded-xl border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                                                value={newAssignmentSceneId}
+                                                onChange={(e) => setNewAssignmentSceneId(e.target.value)}
+                                            >
+                                                <option value="none">No Scene Context</option>
+                                                {scenes.map((s) => (
+                                                    <option key={s.id} value={s.id}>{s.name}</option>
+                                                ))}
+                                            </select>
                                         </div>
+
+                                        <div className="grid grid-cols-2 gap-4">
+                                            <div className="space-y-2 col-span-2">
+                                                <Label htmlFor="words">Words (one per line)</Label>
+                                                <Textarea
+                                                    id="words"
+                                                    placeholder="Hola&#10;Gracias"
+                                                    value={newAssignmentWords}
+                                                    onChange={(e) => setNewAssignmentWords(e.target.value)}
+                                                    className="min-h-[100px] rounded-xl"
+                                                />
+                                            </div>
+
+                                            {newAssignmentSceneId !== "none" && (
+                                                <div className="space-y-2 col-span-2 bg-blue-50 p-3 rounded-xl">
+                                                    <Label htmlFor="discoveredCount" className="text-blue-900">Include Student Discovered Words</Label>
+                                                    <div className="flex items-center gap-3">
+                                                        <Input
+                                                            id="discoveredCount"
+                                                            type="number"
+                                                            min="0"
+                                                            max="10"
+                                                            value={newAssignmentDiscoveredCount}
+                                                            onChange={(e) => setNewAssignmentDiscoveredCount(parseInt(e.target.value) || 0)}
+                                                            className="rounded-xl w-20 bg-white"
+                                                        />
+                                                        <span className="text-xs text-blue-700">
+                                                            Randomly adds words the student found in this scene to their list.
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            )}
+                                        </div>
+
                                         <Button
                                             onClick={handleCreateAssignment}
                                             disabled={creating}
@@ -387,9 +570,18 @@ export default function TeacherDashboard() {
                                                 <div key={assignment.id} className="p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow">
                                                     <div className="flex justify-between items-start">
                                                         <div>
-                                                            <h3 className="font-bold text-gray-800">{assignment.title}</h3>
+                                                            <div className="flex items-center gap-2">
+                                                                <h3 className="font-bold text-gray-800">{assignment.title}</h3>
+                                                                {assignment.scene_id && (
+                                                                    <span className="text-[10px] bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
+                                                                        Context Aware
+                                                                    </span>
+                                                                )}
+                                                            </div>
                                                             <p className="text-sm text-muted-foreground mt-1">
-                                                                {assignment.words.length} words • {new Date(assignment.created_at).toLocaleDateString()}
+                                                                {assignment.words.length} words
+                                                                {assignment.include_discovered_count > 0 && ` + ${assignment.include_discovered_count} discovered`}
+                                                                • {new Date(assignment.created_at).toLocaleDateString()}
                                                             </p>
                                                             <div className="flex gap-1 mt-2 flex-wrap">
                                                                 {assignment.words.slice(0, 5).map((w: string, i: number) => (
@@ -429,4 +621,3 @@ export default function TeacherDashboard() {
         </div>
     );
 }
-
