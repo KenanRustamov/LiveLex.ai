@@ -15,7 +15,7 @@ export default function MobileShell() {
     () => process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000',
     []
   );
-  const [tab, setTab] = useState<'camera' | 'profile' | 'analytics'>('camera'); // default to camera
+  const [tab, setTab] = useState<'camera' | 'profile' | 'analytics' | 'assignments'>('camera'); // default to camera
 
   const { data: session } = useSession();
   const [username, setUsername] = useState(session?.user?.name || session?.user?.email || 'User');
@@ -45,6 +45,7 @@ export default function MobileShell() {
   const [enrolledTeacher, setEnrolledTeacher] = useState<string | null>(null);
   const [joining, setJoining] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [assignments, setAssignments] = useState<any[]>([]);
 
   useEffect(() => {
     if (session?.user?.email) {
@@ -53,12 +54,14 @@ export default function MobileShell() {
         .then(res => res.json())
         .then(data => {
           if (data.enrolled_class_code) {
-            // If enrolled, we might want to show the teacher's name.
-            // For now, let's just show "Joined". Or we can fetch teacher details.
-            // The current /me response has enrolled_class_code but not teacher name.
-            // We'll just show "Joined" and the code for now.
             setClassCode(data.enrolled_class_code);
-            setEnrolledTeacher("Teacher"); // Or fetch teacher name if we want
+            setEnrolledTeacher("Teacher");
+
+            // Fetch assignments if enrolled
+            fetch(`${backendUrl}/v1/assignments?email=${session?.user?.email}`)
+              .then(r => r.json())
+              .then(d => setAssignments(d))
+              .catch(e => console.error("Failed to fetch assignments", e));
           }
         })
         .catch(err => console.error("Failed to fetch enrollment", err));
@@ -129,7 +132,7 @@ export default function MobileShell() {
     } catch { }
   };
 
-  const tabBtn = (name: 'camera' | 'profile' | 'analytics', label: string) => (
+  const tabBtn = (name: 'camera' | 'profile' | 'analytics' | 'assignments', label: string) => (
     <Button
       onClick={() => setTab(name)}
       variant={tab === name ? 'default' : 'outline'}
@@ -147,6 +150,39 @@ export default function MobileShell() {
           {tab === 'camera' && <CameraView key={JSON.stringify(settings)} settings={settings} username={username} />}
 
           {tab === 'analytics' && <AnalyticsView username={username} backendUrl={backendUrl} />}
+
+          {tab === 'assignments' && (
+            <Card>
+              <CardHeader>
+                <CardTitle className="text-base">Assignments</CardTitle>
+              </CardHeader>
+              <CardContent>
+                {assignments.length === 0 ? (
+                  <p className="text-sm text-muted-foreground text-center py-8">
+                    No assignments yet.
+                  </p>
+                ) : (
+                  <div className="space-y-4">
+                    {assignments.map((assignment: any) => (
+                      <div key={assignment.id} className="p-3 border rounded-lg bg-gray-50 dark:bg-gray-800">
+                        <h3 className="font-medium text-sm">{assignment.title}</h3>
+                        <div className="mt-2 flex flex-wrap gap-1">
+                          {assignment.words.map((w: string, i: number) => (
+                            <span key={i} className="text-xs bg-white dark:bg-black border px-1.5 py-0.5 rounded">
+                              {w}
+                            </span>
+                          ))}
+                        </div>
+                        <p className="text-xs text-muted-foreground mt-2">
+                          {new Date(assignment.created_at).toLocaleDateString()}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </CardContent>
+            </Card>
+          )}
 
           {tab === 'profile' && (
             <Card>
@@ -272,10 +308,11 @@ export default function MobileShell() {
       </section>
 
       <nav className="sticky bottom-0 bg-white/80 backdrop-blur border-t">
-        <div className="mx-auto max-w-md w-full px-6 py-3 flex items-center justify-between gap-2">
+        <div className="mx-auto max-w-md w-full px-6 py-3 flex items-center justify-between gap-1 overflow-x-auto">
           {tabBtn('camera', 'Camera')}
+          {tabBtn('assignments', 'Tasks')}
+          {tabBtn('analytics', 'Stats')}
           {tabBtn('profile', 'Profile')}
-          {tabBtn('analytics', 'Analytics')}
         </div>
       </nav>
     </main>

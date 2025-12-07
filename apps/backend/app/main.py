@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 from app.db.init import init_db
-from app.routers import audio, base, auth
+from app.routers import audio, base, auth, assignments
 
 app = FastAPI(title="AI Glasses Backend", version="0.1.0")
 
@@ -25,3 +25,4 @@ async def health():
 app.include_router(audio.router, prefix="/v1")
 app.include_router(base.router, prefix="/v1")
 app.include_router(auth.router, prefix="/v1")
+app.include_router(assignments.router, prefix="/v1")
