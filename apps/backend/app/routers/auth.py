@@ -133,7 +133,7 @@ async def join_class(request: dict):
     # Link them
     await student.update({"$set": {
         "teacher_id": str(teacher.id),
-        "enrolled_class_code": code
+        "class_code": code
     }})
     
     return {"status": "success", "teacher_name": teacher.name}

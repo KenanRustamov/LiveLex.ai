@@ -59,7 +59,7 @@ function float32ToWavBlob(audio: Float32Array, sampleRate = 16000): Blob {
   return new Blob([buffer], { type: 'audio/wav' });
 }
 
-export default function CameraView({ settings, username }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[], proficiencyLevel: number;}, username: string }) {
+export default function CameraView({ settings, username, onClose }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[], proficiencyLevel: number; }, username: string, onClose?: () => void }) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -104,7 +104,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
     try {
       if (audioCtxRef.current && audioCtxRef.current.state !== 'closed') {
         // Ensure resumed if previously suspended
-        audioCtxRef.current.resume().catch(() => {});
+        audioCtxRef.current.resume().catch(() => { });
         return;
       }
       const AnyAudioCtx = (window as any).AudioContext || (window as any).webkitAudioContext;
@@ -162,7 +162,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
       if (wsRef.current && (wsRef.current.readyState === WebSocket.OPEN || wsRef.current.readyState === WebSocket.CONNECTING)) return;
       const ws = new WebSocket(`${wsUrl}/v1/ws`);
       ws.onopen = () => {
-        ws.send(JSON.stringify({ type: 'control', payload: { action: 'set_username', username }}));
+        ws.send(JSON.stringify({ type: 'control', payload: { action: 'set_username', username } }));
         ws.send(JSON.stringify({ type: 'control', payload: { action: 'start' } }));
       };
       ws.onmessage = (evt) => {
@@ -219,7 +219,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
               const feedback: string = msg.payload?.feedback ?? '';
               const objectIndex: number = msg.payload?.object_index ?? -1;
               const correctWord: string = msg.payload?.correct_word ?? '';
-              
+
               if (objectIndex >= 0) {
                 setEvaluationResults(prev => {
                   const next = new Map(prev);
@@ -261,14 +261,14 @@ export default function CameraView({ settings, username }: { settings: { sourceL
             default:
               break;
           }
-        } catch {}
+        } catch { }
       };
-      ws.onerror = () => {};
+      ws.onerror = () => { };
       ws.onclose = () => {
         wsRef.current = null;
       };
       wsRef.current = ws;
-    } catch {}
+    } catch { }
   }, [wsUrl, username, playAudioFromBase64]);
 
   const closeWs = useCallback(() => {
@@ -277,7 +277,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
         wsRef.current.close();
       }
       wsRef.current = null;
-    } catch {}
+    } catch { }
   }, []);
 
   // Start the camera with constraints
@@ -319,7 +319,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
       // Bind the stream and wait for video to be ready
       video.srcObject = stream;
       console.log('Video srcObject set, waiting for metadata...');
-      
+
       // Wait for the video to load metadata before playing
       await new Promise<void>((resolve, reject) => {
         const timeout = setTimeout(() => {
@@ -327,7 +327,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
           video.removeEventListener('error', onError);
           reject(new Error('Video metadata loading timeout'));
         }, 5000);
-        
+
         const onLoadedMetadata = () => {
           clearTimeout(timeout);
           video.removeEventListener('loadedmetadata', onLoadedMetadata);
@@ -344,7 +344,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
         };
         video.addEventListener('loadedmetadata', onLoadedMetadata);
         video.addEventListener('error', onError);
-        
+
         // If metadata is already loaded, resolve immediately
         if (video.readyState >= HTMLMediaElement.HAVE_METADATA) {
           clearTimeout(timeout);
@@ -506,7 +506,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
           }
         }));
       }
-    } catch {}
+    } catch { }
   }, [backendUrl, facing]);
 
   useEffect(() => {
@@ -630,7 +630,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
           setAudioBlob(null);
         }
       }
-    } catch (_) {}
+    } catch (_) { }
   }, [audioBlob, backendUrl]);
 
   // VAD integration: enable only while lesson is in progress (plan present and no summary yet),
@@ -687,7 +687,7 @@ export default function CameraView({ settings, username }: { settings: { sourceL
             }
           }));
         }
-      } catch {}
+      } catch { }
     } else {
       // HTTP fallback for audio only
       try {
@@ -698,26 +698,26 @@ export default function CameraView({ settings, username }: { settings: { sourceL
           const { text } = await res.json();
           setTranscripts(prev => [...prev, { speaker: 'User', text }]);
         }
-      } catch {}
+      } catch { }
     }
   }, [backendUrl, captureSceneDataUrl, settings.actions, settings.location, settings.sourceLanguage, settings.targetLanguage]);
 
   const vad = useVadPredefined(vadEnabled, {
     onSpeechStart: () => {
       if (isTtsPlaying) return; // extra guard
-      try { console.log('[VAD] onSpeechStart'); } catch {}
+      try { console.log('[VAD] onSpeechStart'); } catch { }
       // We rely on MicVAD's internal preSpeechPadMs to include leading audio,
       // so we don't need to manually start a separate MediaRecorder here.
       setSpeechReal(false);
     },
     onSpeechRealStart: () => {
       if (isTtsPlaying) return;
-      try { console.log('[VAD] onSpeechRealStart'); } catch {}
+      try { console.log('[VAD] onSpeechRealStart'); } catch { }
       setSpeechReal(true);
     },
     onSpeechEnd: async (audio?: Float32Array) => {
       if (isTtsPlaying) return;
-      try { console.log('[VAD] onSpeechEnd, audioLen=', audio?.length ?? null); } catch {}
+      try { console.log('[VAD] onSpeechEnd, audioLen=', audio?.length ?? null); } catch { }
       if (audio && audio.length > 0) {
         const blob = float32ToWavBlob(audio);
         await sendAudioBlobWithOptionalImage(blob);
@@ -783,9 +783,9 @@ export default function CameraView({ settings, username }: { settings: { sourceL
             setPlanReceived(false);
 
             if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
-              wsRef.current.send(JSON.stringify({ 
-                type: 'control', 
-                payload: { action: 'reset_lesson' } 
+              wsRef.current.send(JSON.stringify({
+                type: 'control',
+                payload: { action: 'reset_lesson' }
               }));
             }
 
@@ -799,129 +799,129 @@ export default function CameraView({ settings, username }: { settings: { sourceL
         />
       ) : (
         <div className={`${fullscreen ? 'fixed inset-0 z-50 bg-black overflow-hidden m-0' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]'}`}>
-        {fullscreen && (
-          <div className="absolute top-3 right-3 z-50">
-            <Button
-              onClick={() => setFullscreen(false)}
-              variant="secondary"
-              className="text-xs px-2 py-1"
-              title="Exit Fullscreen"
-            >
-              Exit
-            </Button>
-          </div>
-        )}
-        <video
-          ref={videoRef}
-          className={`h-full w-full object-cover ${facing === 'user' ? 'scale-x-[-1]' : ''}`}
-          playsInline
-          muted
-          autoPlay
-        />
-        {!running && (
-          <div 
-            className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-20"
-            onClick={startCamera}
-          >
-            <div className="text-white text-lg font-medium mb-2">Camera Not Active</div>
-            <Button onClick={(e) => { e.stopPropagation(); startCamera(); }} variant="default" className="text-sm">
-              Start Camera
-            </Button>
-            <div className="text-white/70 text-xs mt-3 text-center px-4">
-              Click anywhere to start the camera and grant permissions
+          {fullscreen && (
+            <div className="absolute top-3 right-3 z-50">
+              <Button
+                onClick={() => setFullscreen(false)}
+                variant="secondary"
+                className="text-xs px-2 py-1"
+                title="Exit Fullscreen"
+              >
+                Exit
+              </Button>
             </div>
-          </div>
-        )}
-        {showCapturePrompt && !isPlanLoading && (
-          <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
-            <div className="text-white text-sm text-center drop-shadow">
-              Please capture the scene.
-            </div>
-          </div>
-        )}
-        {isRecording && !speechReal && (
-          <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
-            <StatusBadge status="detecting" />
-          </div>
-        )}
-        {isRecording && speechReal && (
-          <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
-            <StatusBadge status="recording" />
-          </div>
-        )}
-        {showListening && (
-          <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
-            <StatusBadge status="listening" />
-          </div>
-        )}
-        
-        {/* Plan overlay left */}
-        {planObjects && planObjects.length > 0 && (
-          <div className="absolute left-3 top-3 z-10 w-[70%] max-w-xs pointer-events-auto">
-            <PlanChecklist
-              items={planObjects}
-              currentIndex={currentIndex}
-              completed={completed}
-              onToggle={toggleItem}
-              variant="overlay"
-            />
-          </div>
-        )}
-
-        {/* Controls overlay */}
-        <div className="absolute inset-x-0 bottom-0 p-3 flex flex-wrap items-center justify-center gap-2">
-          <Button onClick={captureFrame} variant="default" className="text-xs" disabled={!running} title="Capture">Capture</Button>
-          {planObjects && (
-            <Button onClick={() => { setPlanObjects(null); setPlanMessage(null); setShowCapturePrompt(true); }} variant="outline" className="text-xs" title="Retake">Retake</Button>
           )}
-          <Button
-            onClick={() => {
-              try {
-                if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
-                  wsRef.current.send(JSON.stringify({ type: 'control', payload: { action: 'end_session' } }));
-                }
-              } catch {}
-            }}
-            variant="destructive"
-            className="text-xs"
-            disabled={!running}
-            title="End Session"
-          >
-            End Session
-          </Button>
-        </div>
-        {isPlanLoading && (
-          <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
-            <OverlayCard className="flex items-center gap-2 px-3 py-1.5 text-xs">
-              <DotsScaleIcon size={14} className="text-white" />
-              <span>Analyzing Scene</span>
-            </OverlayCard>
+          <video
+            ref={videoRef}
+            className={`h-full w-full object-cover ${facing === 'user' ? 'scale-x-[-1]' : ''}`}
+            playsInline
+            muted
+            autoPlay
+          />
+          {!running && (
+            <div
+              className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-20"
+              onClick={startCamera}
+            >
+              <div className="text-white text-lg font-medium mb-2">Camera Not Active</div>
+              <Button onClick={(e) => { e.stopPropagation(); startCamera(); }} variant="default" className="text-sm">
+                Start Camera
+              </Button>
+              <div className="text-white/70 text-xs mt-3 text-center px-4">
+                Click anywhere to start the camera and grant permissions
+              </div>
+            </div>
+          )}
+          {showCapturePrompt && !isPlanLoading && (
+            <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
+              <div className="text-white text-sm text-center drop-shadow">
+                Please capture the scene.
+              </div>
+            </div>
+          )}
+          {isRecording && !speechReal && (
+            <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
+              <StatusBadge status="detecting" />
+            </div>
+          )}
+          {isRecording && speechReal && (
+            <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
+              <StatusBadge status="recording" />
+            </div>
+          )}
+          {showListening && (
+            <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
+              <StatusBadge status="listening" />
+            </div>
+          )}
+
+          {/* Plan overlay left */}
+          {planObjects && planObjects.length > 0 && (
+            <div className="absolute left-3 top-3 z-10 w-[70%] max-w-xs pointer-events-auto">
+              <PlanChecklist
+                items={planObjects}
+                currentIndex={currentIndex}
+                completed={completed}
+                onToggle={toggleItem}
+                variant="overlay"
+              />
+            </div>
+          )}
+
+          {/* Controls overlay */}
+          <div className="absolute inset-x-0 bottom-0 p-3 flex flex-wrap items-center justify-center gap-2">
+            <Button onClick={captureFrame} variant="default" className="text-xs" disabled={!running} title="Capture">Capture</Button>
+            {planObjects && (
+              <Button onClick={() => { setPlanObjects(null); setPlanMessage(null); setShowCapturePrompt(true); }} variant="outline" className="text-xs" title="Retake">Retake</Button>
+            )}
+            <Button
+              onClick={() => {
+                try {
+                  if (wsRef.current && wsRef.current.readyState === WebSocket.OPEN) {
+                    wsRef.current.send(JSON.stringify({ type: 'control', payload: { action: 'end_session' } }));
+                  }
+                } catch { }
+              }}
+              variant="destructive"
+              className="text-xs"
+              disabled={!running}
+              title="End Session"
+            >
+              End Session
+            </Button>
           </div>
-        )}
-        {capturePreviewUrl && (
-          <button
-            type="button"
-            onClick={() => {
-              if (!capturePreviewUrl) return;
-              window.open(capturePreviewUrl, '_blank');
-            }}
-            className="absolute bottom-4 left-4 flex h-20 w-20 items-center justify-center overflow-hidden rounded-lg border-2 border-white/80 bg-black/60 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/60"
-            title="View last capture"
-          >
-            <img
-              src={capturePreviewUrl}
-              alt="Capture preview"
-              className="h-full w-full object-cover"
-            />
-          </button>
-        )}
-        {(transcripts.length > 0 || !!llmStreaming) && (
-          <TranscriptOverlay transcripts={transcripts} streamingText={llmStreaming} className="absolute right-4 top-4" />
-        )}
+          {isPlanLoading && (
+            <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
+              <OverlayCard className="flex items-center gap-2 px-3 py-1.5 text-xs">
+                <DotsScaleIcon size={14} className="text-white" />
+                <span>Analyzing Scene</span>
+              </OverlayCard>
+            </div>
+          )}
+          {capturePreviewUrl && (
+            <button
+              type="button"
+              onClick={() => {
+                if (!capturePreviewUrl) return;
+                window.open(capturePreviewUrl, '_blank');
+              }}
+              className="absolute bottom-4 left-4 flex h-20 w-20 items-center justify-center overflow-hidden rounded-lg border-2 border-white/80 bg-black/60 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/60"
+              title="View last capture"
+            >
+              <img
+                src={capturePreviewUrl}
+                alt="Capture preview"
+                className="h-full w-full object-cover"
+              />
+            </button>
+          )}
+          {(transcripts.length > 0 || !!llmStreaming) && (
+            <TranscriptOverlay transcripts={transcripts} streamingText={llmStreaming} className="absolute right-4 top-4" />
+          )}
           <canvas ref={canvasRef} className="hidden" />
           <p className="text-xs text-gray-500">
           </p>
-      </div>
+        </div>
       )}
     </div>
   );
