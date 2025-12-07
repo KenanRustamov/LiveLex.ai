@@ -137,3 +137,25 @@ async def join_class(request: dict):
     }})
     
     return {"status": "success", "teacher_name": teacher.name}
+
+@router.get("/auth/teacher/students")
+async def get_teacher_students(email: str):
+    """Get all students enrolled in the teacher's class."""
+    if not email:
+        raise HTTPException(status_code=400, detail="Email is required")
+        
+    teacher = await UserDataDoc.find_one(UserDataDoc.email == email)
+    if not teacher:
+        raise HTTPException(status_code=404, detail="Teacher not found")
+        
+    # Find students linked to this teacher
+    students = await UserDataDoc.find(UserDataDoc.teacher_id == str(teacher.id)).to_list()
+    
+    return [
+        {
+            "name": s.name,
+            "email": s.email,
+            "profile_image": s.profile_image
+        }
+        for s in students
+    ]

@@ -17,6 +17,7 @@ import { Loader2 } from 'lucide-react';
 export default function TeacherDashboard() {
     const { data: session } = useSession();
     const [teacherCode, setTeacherCode] = useState<string | null>(null);
+    const [students, setStudents] = useState<any[]>([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -24,13 +25,22 @@ export default function TeacherDashboard() {
             if (session?.user?.email) {
                 try {
                     const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
+                    // Fetch profile
                     const res = await fetch(`${backendUrl}/v1/auth/me?email=${session.user.email}`);
                     if (res.ok) {
                         const data = await res.json();
                         setTeacherCode(data.teacher_code);
                     }
+
+                    // Fetch students
+                    const resStudents = await fetch(`${backendUrl}/v1/auth/teacher/students?email=${session.user.email}`);
+                    if (resStudents.ok) {
+                        const studentsData = await resStudents.json();
+                        setStudents(studentsData);
+                    }
+
                 } catch (error) {
-                    console.error("Failed to fetch profile", error);
+                    console.error("Failed to fetch data", error);
                 } finally {
                     setLoading(false);
                 }
@@ -97,8 +107,27 @@ export default function TeacherDashboard() {
                             <CardTitle>Students</CardTitle>
                             <CardDescription>Overview of enrolled students.</CardDescription>
                         </CardHeader>
-                        <CardContent className="h-40 flex items-center justify-center text-muted-foreground text-sm">
-                            No students enrolled yet.
+                        <CardContent className="min-h-[160px]">
+                            {students.length === 0 ? (
+                                <div className="h-full flex items-center justify-center text-muted-foreground text-sm">
+                                    No students enrolled yet.
+                                </div>
+                            ) : (
+                                <div className="space-y-4">
+                                    {students.map((student, idx) => (
+                                        <div key={idx} className="flex items-center gap-3">
+                                            <Avatar className="w-8 h-8">
+                                                <AvatarImage src={student.profile_image} />
+                                                <AvatarFallback>{student.name?.[0]}</AvatarFallback>
+                                            </Avatar>
+                                            <div>
+                                                <p className="text-sm font-medium">{student.name}</p>
+                                                <p className="text-xs text-muted-foreground">{student.email}</p>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
                         </CardContent>
                     </Card>
                     <Card>
