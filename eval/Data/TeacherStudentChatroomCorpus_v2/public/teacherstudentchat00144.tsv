@@ -1,0 +1,135 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-19 13:29:43	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-19 13:31:04	"student015"	"student"	2	"Hello, I have downloaded the PDF"	"Hello, I have downloaded the PDF"	NA	NA	NA	NA	NA	NA	6
+2020-11-19 13:31:16	"student015"	"student"	3	"Thanks a lot."	"Thanks a lot."	NA	NA	NA	NA	NA	NA	3
+2020-11-19 13:32:26	"teacher008"	"teacher"	4	"Great, we'll be using it later on"	"Great, we'll be using it later on"	NA	NA	NA	NA	NA	NA	7
+2020-11-19 13:32:29	"teacher008"	"teacher"	5	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-19 13:32:37	"student015"	"student"	6	"OK, I'm fine."	"OK, I'm fine."	NA	NA	NA	NA	NA	NA	3
+2020-11-19 13:32:59	"teacher008"	"teacher"	7	"Are you having a good week?"	"Are you having a good week?"	NA	NA	NA	NA	NA	NA	6
+2020-11-19 13:33:31	"student015"	"student"	8	"Yes. it was still a busy week for me."	"Yes, it has still been a busy week for me."	NA	NA	NA	NA	NA	NA	9
+2020-11-19 13:33:53	"student015"	"student"	9	"This week is so cold in Beijing."	"This week is so cold in Beijing."	NA	NA	NA	NA	NA	NA	7
+2020-11-19 13:34:38	"teacher008"	"teacher"	10	"Oh really? Is there any snow?"	"Oh really? Is there any snow?"	NA	NA	NA	NA	NA	NA	6
+2020-11-19 13:35:39	"student015"	"student"	11	"No. It's not cold enough to have a snow day, but it was rained Yesterday."	"No. It's not cold enough to have a snow day, but it rained yesterday."	NA	NA	NA	NA	NA	NA	15
+2020-11-19 13:36:02	"teacher008"	"teacher"	12	"Oh, it rained yesterday, I see"	"Oh, it rained yesterday, I see"	NA	NA	"repair"	"grammatical resource"	NA	NA	6
+2020-11-19 13:36:12	"student015"	"student"	13	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:36:24	"teacher008"	"teacher"	14	"It's getting a bit cold in the UK too, we've had a very mild November until now"	"It's getting a bit cold in the UK too, we've had a very mild November until now"	NA	NA	NA	NA	NA	NA	17
+2020-11-19 13:36:46	"teacher008"	"teacher"	15	"Are you reading anything interesting? Or are you too busy?"	"Are you reading anything interesting? Or are you too busy?"	NA	"3.0"	"topic opening"	"reading"	NA	NA	10
+2020-11-19 13:37:19	"student015"	"student"	16	"I'm still reading 'Harry Potter'."	"I'm still reading 'Harry Potter'."	NA	NA	NA	NA	NA	NA	5
+2020-11-19 13:37:58	"teacher008"	"teacher"	17	"Sure! How is it going? What are you reading about at the moment?"	"Sure! How is it going? What are you reading about at the moment?"	NA	NA	NA	NA	NA	NA	13
+2020-11-19 13:39:22	"student015"	"student"	18	"I start my reading from the first book. Harry is now at magic school."	"I've started reading from the first book. Harry is now at the school of magic."	NA	NA	NA	NA	NA	NA	14
+2020-11-19 13:40:05	"teacher008"	"teacher"	19	"Ah, at Hogwarts, that's right"	"Ah, at Hogwarts, that's right"	NA	NA	NA	NA	NA	NA	5
+2020-11-19 13:40:27	"student015"	"student"	20	"Because I watched the movies before, so I think it's not hard to me."	"I watched the movies before, so I think it's not hard to me."	18	NA	NA	NA	NA	NA	14
+2020-11-19 13:40:30	"student015"	"student"	21	"Yes."	"Yes."	19	NA	NA	NA	NA	NA	1
+2020-11-19 13:41:16	"teacher008"	"teacher"	22	"That's good! It's good to start reading in English with something that's a bit easier and quite familiar too"	"That's good! It's good to start reading in English with something that's a bit easier and quite familiar too"	NA	NA	"scaffolding"	"reading,meta knowledge"	NA	NA	19
+2020-11-19 13:42:12	"teacher008"	"teacher"	23	"If you continue to other Harry Potter books, they actually become pretty complicated in terms of language, so you'll have a good chance to build up to that"	"If you continue to other Harry Potter books, they actually become pretty complicated in terms of language, so you'll have a good chance to build up to that"	NA	NA	"scaffolding"	NA	NA	NA	28
+2020-11-19 13:42:30	"student015"	"student"	24	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:43:08	"teacher008"	"teacher"	25	"Because I watched the movies before, so I think it's not hard for me. Because ... so Do you think you need both of them, because and so?"	"Because I watched the movies before, so I think it's not hard for me. Because ... so Do you think you need both of them, because and so?"	NA	"3a"	"eliciting,repair"	"grammatical resource"	NA	NA	28
+2020-11-19 13:43:39	"student015"	"student"	26	"Just one of them."	"Just one of them."	NA	NA	NA	NA	NA	NA	4
+2020-11-19 13:44:15	"teacher008"	"teacher"	27	"Yes, which one would you go for?"	"Yes, which one would you go for?"	NA	NA	NA	NA	NA	NA	7
+2020-11-19 13:44:20	"student015"	"student"	28	"I think it likes Chinese english, haha"	"I think it's like Chinese English, haha"	26	NA	NA	NA	NA	NA	7
+2020-11-19 13:44:35	"student015"	"student"	29	"so"	"so"	27	NA	NA	NA	NA	NA	1
+2020-11-19 13:44:37	"teacher008"	"teacher"	30	"oh, is this how it works in Chinese? Sure"	"oh, is this how it works in Chinese? Sure"	28	NA	NA	NA	NA	NA	9
+2020-11-19 13:44:40	"teacher008"	"teacher"	31	"Yes, good idea!"	"Yes, good idea!"	29	NA	NA	NA	NA	NA	3
+2020-11-19 13:45:17	"teacher008"	"teacher"	32	"or you could keep 'because', but probably swap clauses so that you're not starting with it"	"or you could keep 'because', but probably swap clauses so that you're not starting with it"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2020-11-19 13:45:27	"student015"	"student"	33	"Chinse must have because and so at the same time in this condition."	"Chinese must have because and so at the same time in this case."	30	NA	NA	NA	NA	NA	13
+2020-11-19 13:45:39	"student015"	"student"	34	"Let me try."	"Let me try."	32	NA	NA	NA	NA	NA	3
+2020-11-19 13:45:42	"teacher008"	"teacher"	35	"I think it's not hard for me because I watched the movies"	"I think it's not hard for me because I watched the movies"	NA	NA	NA	NA	NA	NA	12
+2020-11-19 13:45:52	"teacher008"	"teacher"	36	"Sorry, go on!"	"Sorry, go on!"	34	NA	NA	NA	NA	NA	3
+2020-11-19 13:46:23	"student015"	"student"	37	"I know now. Thanks"	"I know now. Thanks"	35	NA	NA	NA	NA	NA	4
+2020-11-19 13:46:37	"teacher008"	"teacher"	38	"Sorry, I should have let you do this"	"Sorry, I should have let you do this"	NA	NA	NA	NA	NA	NA	8
+2020-11-19 13:46:54	"teacher008"	"teacher"	41	"You'll have more opportunities to practice I'm sure!"	"You'll have more opportunities to practice I'm sure!"	NA	NA	NA	NA	NA	NA	8
+2020-11-19 13:47:11	"student015"	"student"	42	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:47:47	"teacher008"	"teacher"	43	"So, as you can probably guess from the pdf I sent you, we're going to do some B2 writing today!"	"So, as you can probably guess from the pdf I sent you, we're going to do some B2 writing today!"	NA	"4.0"	"topic opening"	"writing,exam prep"	NA	NA	20
+2020-11-19 13:48:12	"student015"	"student"	44	"Yes, great!"	"Yes, great!"	NA	NA	NA	NA	NA	NA	2
+2020-11-19 13:48:22	"teacher008"	"teacher"	45	"Or better, we're going to prepare to do it, and then you will write the essay as homework if that's ok"	"Or better, we're going to prepare to do it, and then you will write the essay as homework if that's ok"	NA	NA	NA	NA	NA	NA	21
+2020-11-19 13:48:46	"student015"	"student"	46	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:49:12	"teacher008"	"teacher"	49	"In a B2 exam, there are two parts to writing. In part 1, you can't choose the task, you have to do the task they give you"	"In a B2 exam, there are two parts to writing. In part 1, you can't choose the task, you have to do the task they give you"	NA	"4a"	"scaffolding"	"writing"	NA	NA	27
+2020-11-19 13:49:27	"teacher008"	"teacher"	50	"In part 2, you can choose the task that you like best, usually out of 3"	"In part 2, you can choose the task that you like best, usually out of 3"	NA	NA	"scaffolding"	"writing"	NA	NA	16
+2020-11-19 13:49:57	"student015"	"student"	51	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:49:58	"teacher008"	"teacher"	52	"There is a time limit, 1 hour and 20 minutes for everything"	"There is a time limit, 1 hour and 20 minutes for everything"	NA	NA	"scaffolding"	"writing"	NA	NA	12
+2020-11-19 13:50:30	"teacher008"	"teacher"	53	"But it's best to aim at about 30-35 minutes for each task, so that you have a chance to go back and check your work at the end"	"But it's best to aim at about 30-35 minutes for each task, so that you have a chance to go back and check your work at the end"	NA	NA	"scaffolding"	"writing"	NA	NA	28
+2020-11-19 13:50:46	"teacher008"	"teacher"	54	"And a word limit of 140-190 words"	"And a word limit of 140-190 words"	NA	NA	"scaffolding"	"writing"	NA	NA	7
+2020-11-19 13:50:59	"student015"	"student"	55	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:52:03	"teacher008"	"teacher"	56	"If you do a computer-based test, the program calculates the words for you. But if you choose a paper-based test, you have to count them yourself to make sure your writing is not too short or not too long (you would lose points for either, too short or too long)"	"If you do a computer-based test, the program calculates the words for you. But if you choose a paper-based test, you have to count them yourself to make sure your writing is not too short or not too long (you would lose points for either, too short or too long)"	NA	NA	"scaffolding"	"writing"	NA	NA	50
+2020-11-19 13:53:04	"teacher008"	"teacher"	57	"So I would recommend counting the words when you practice, too"	"So I would recommend counting the words when you practice, too"	NA	NA	"scaffolding"	"writing"	NA	NA	11
+2020-11-19 13:53:27	"teacher008"	"teacher"	58	"And also setting a time limit for yourself, just to get an idea of how fast you have to write in the real test"	"And also setting a time limit for yourself, just to get an idea of how fast you have to write in the real test"	NA	NA	"scaffolding"	"writing"	NA	NA	24
+2020-11-19 13:53:52	"student015"	"student"	59	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:54:45	"student015"	"student"	60	"So in the real exam, is conputer-based or paper-based?"	"So is the real exam computer-based or paper-based?"	NA	"4b"	"enquiry"	"exam prep"	NA	NA	9
+2020-11-19 13:54:52	"teacher008"	"teacher"	61	"Is this similar to the English tests you've done before? Maybe gao kao?"	"Is this similar to the English tests you've done before? Maybe gao kao?"	NA	"4c"	"topic development"	NA	NA	NA	13
+2020-11-19 13:55:41	"teacher008"	"teacher"	62	"You can choose a computer- or a paper-based exam. The tasks are exactly the same. It also depends on the exam centre, some of them only offer computer-based tests, for example, or only paper-based ones"	"You can choose a computer- or a paper-based exam. The tasks are exactly the same. It also depends on the exam centre, some of them only offer computer-based tests, for example, or only paper-based ones"	60	NA	"scaffolding"	"exam prep"	NA	NA	35
+2020-11-19 13:56:10	"student015"	"student"	63	"Yes. I had a lot of writing in exams which may be need about 300 words."	"Yes. I had a lot of writing in exams which was maybe about 300 words."	61	NA	NA	NA	NA	NA	16
+2020-11-19 13:56:45	"teacher008"	"teacher"	64	"Ok, I see, so you're used to counting words, that's good. Yes, you basically need to write about 300 words, between the two parts"	"Ok, I see, so you're used to counting words, that's good. Yes, you basically need to write about 300 words, between the two parts"	NA	NA	NA	NA	NA	NA	24
+2020-11-19 13:57:15	"teacher008"	"teacher"	65	"Ok, can you have a look at task 1 in the pdf, please? The one about the environment"	"Ok, can you have a look at task 1 in the pdf, please? The one about the environment"	NA	"5.0"	"exercise"	"writing"	NA	NA	18
+2020-11-19 13:57:24	"student015"	"student"	66	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:58:53	"student015"	"student"	67	"I finished."	"I finished."	NA	NA	NA	NA	NA	NA	2
+2020-11-19 13:58:58	"teacher008"	"teacher"	68	"Great!"	"Great!"	NA	NA	NA	NA	NA	NA	1
+2020-11-19 13:59:17	"teacher008"	"teacher"	69	"So the question is, do you think these problems can be solved?"	"So the question is, do you think these problems can be solved?"	NA	NA	NA	NA	NA	NA	12
+2020-11-19 13:59:36	"teacher008"	"teacher"	70	"It is very important to answer this question rather than just describe the problems"	"It is very important to answer this question rather than just describe the problems"	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	14
+2020-11-19 14:00:20	"teacher008"	"teacher"	71	"And also, the task says that you have to write about 1) transport 2) rivers and seas 3) your own idea"	"And also, the task says that you have to write about 1) transport 2) rivers and seas 3) your own idea"	NA	NA	NA	NA	NA	NA	21
+2020-11-19 14:00:29	"student015"	"student"	72	"In this part, must I need a yes or no answer?"	"In this part, do I need a yes or no answer?"	NA	"5a"	"enquiry"	"writing,task achievement"	NA	NA	11
+2020-11-19 14:01:00	"teacher008"	"teacher"	75	"Well, you need to say, yes, I think these problems can be solved because..."	"Well, you need to say, yes, I think these problems can be solved because..."	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	14
+2020-11-19 14:01:01	"teacher008"	"teacher"	76	"or"	"or"	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:01:15	"teacher008"	"teacher"	77	"no, I think it is too late to solve these problems because"	"no, I think it is too late to solve these problems because"	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	12
+2020-11-19 14:01:25	"teacher008"	"teacher"	78	"You need to explain why you think so"	"You need to explain why you think so"	NA	NA	"scaffolding"	"task achievement,writing"	NA	NA	8
+2020-11-19 14:01:49	"student015"	"student"	79	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:02:11	"teacher008"	"teacher"	80	"Basically, the task has already given you a plan for the essay"	"Basically, the task has already given you a plan for the essay"	NA	"5b"	"scaffolding"	"writing,discourse management"	NA	NA	12
+2020-11-19 14:02:24	"student015"	"student"	81	"Yes. I think these problems can be solved."	"Yes. I think these problems can be solved."	79	NA	NA	NA	NA	NA	8
+2020-11-19 14:02:42	"teacher008"	"teacher"	82	"1. Short introduction. Maybe about how people are trying to solve environment problems"	"1. Short introduction. Maybe about how people are trying to solve environment problems"	NA	NA	"scaffolding"	"writing,discourse management"	NA	NA	13
+2020-11-19 14:02:59	"student015"	"student"	83	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:03:02	"teacher008"	"teacher"	84	"2. Transport: can problems created by transport be solved? why?"	"2. Transport: can problems created by transport be solved? why?"	NA	NA	"scaffolding"	"writing,discourse management"	NA	NA	10
+2020-11-19 14:03:19	"teacher008"	"teacher"	85	"3. Seas and river: can problems with seas and rivers be solved? why?"	"3. Seas and river: can problems with seas and rivers be solved? why?"	NA	NA	"scaffolding"	"writing,discourse management"	NA	NA	13
+2020-11-19 14:03:29	"teacher008"	"teacher"	86	"4. Your idea: problems and solutions"	"4. Your idea: problems and solutions"	NA	NA	"scaffolding"	"writing,discourse management"	NA	NA	6
+2020-11-19 14:03:51	"teacher008"	"teacher"	87	"140-190 is actually not a lot, so it's important to get straight to the point"	"140-190 is actually not a lot, so it's important to get straight to the point"	NA	NA	"scaffolding"	"writing,discourse management"	NA	NA	15
+2020-11-19 14:04:12	"teacher008"	"teacher"	88	"140-190 words I mean"	"140-190 words I mean"	NA	NA	NA	NA	NA	NA	4
+2020-11-19 14:04:38	"student015"	"student"	89	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:04:46	"student015"	"student"	90	"I know the structure"	"I know the structure"	NA	NA	NA	NA	NA	NA	4
+2020-11-19 14:04:48	"teacher008"	"teacher"	91	"Let's prepare a bit. What environmental problems created by transport can you think of?"	"Let's prepare a bit. What environmental problems created by transport can you think of?"	NA	"6.0"	"eliciting"	"task achievement,lexical resource"	NA	NA	14
+2020-11-19 14:04:56	"teacher008"	"teacher"	92	"Lovely!"	"Lovely!"	90	NA	NA	NA	NA	NA	1
+2020-11-19 14:06:43	"student015"	"student"	93	"Too many cars can generate too much CO2 gas. And the CO2 can break the air condition."	"Too many cars can generate too much CO2 gas. And the CO2 can pollute the air."	NA	NA	NA	NA	NA	NA	17
+2020-11-19 14:07:33	"teacher008"	"teacher"	94	"Ok, good!"	"Ok, good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-19 14:07:46	"teacher008"	"teacher"	95	"do you know the word for CO2?"	"do you know the word for CO2?"	NA	"6a"	"eliciting"	"lexical resource"	NA	NA	7
+2020-11-19 14:07:53	"teacher008"	"teacher"	96	"carbon dioxide, right?"	"carbon dioxide, right?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-11-19 14:08:12	"student015"	"student"	97	"Yes. But I don’t know how to write."	"Yes. But I don’t know how to write it."	95	NA	NA	NA	NA	NA	8
+2020-11-19 14:08:28	"teacher008"	"teacher"	98	"carbon dioxide, a good word to learn"	"carbon dioxide, a good word to learn"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-11-19 14:08:34	"student015"	"student"	99	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:08:56	"teacher008"	"teacher"	100	"also, break the air condition = I see what you mean, but this is not how we say it. Let's try"	"also, break the air condition = I see what you mean, but this is not how we say it. Let's try"	NA	"6b"	"repair"	"lexical resource"	NA	NA	21
+2020-11-19 14:09:16	"teacher008"	"teacher"	101	"The carbon dioxide pollutes the air / creates air pollution"	"The carbon dioxide pollutes the air / creates air pollution"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-11-19 14:09:41	"student015"	"student"	102	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:10:04	"teacher008"	"teacher"	103	"also, there is carbon dioxide in the air naturally, right? And this is not a problem, the problem is when there is too much of it"	"also, there is carbon dioxide in the air naturally, right? And this is not a problem, the problem is when there is too much of it"	NA	NA	NA	NA	NA	NA	26
+2020-11-19 14:10:30	"teacher008"	"teacher"	104	"too much carbon dioxide = excessive carbon dioxide"	"too much carbon dioxide = excessive carbon dioxide"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-11-19 14:10:45	"teacher008"	"teacher"	105	"excessive = good B2 word :)"	"excessive = good B2 word :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-19 14:11:02	"student015"	"student"	106	"OK. Thanks"	"OK. Thanks"	NA	NA	NA	NA	NA	NA	2
+2020-11-19 14:11:22	"teacher008"	"teacher"	107	"Lovely, could you re-write your sentences using some of my suggestions, please?"	"Lovely, could you re-write your sentences using some of my suggestions, please?"	NA	"6c"	"eliciting"	"writing,lexical resource"	NA	NA	12
+2020-11-19 14:15:03	"student015"	"student"	108	"There are environmental problems created by transport. For example, excessive carbon dioside which generated by too many cars can creates air pollution."	"There are environmental problems created by transport. For example, excessive carbon dioxide generated by too many cars can create air pollution."	NA	NA	NA	NA	NA	NA	22
+2020-11-19 14:15:53	"student015"	"student"	109	"create"	"create"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-19 14:16:09	"teacher008"	"teacher"	110	"Good! And a good correction, create"	"Good! And a good correction, create"	NA	NA	NA	NA	NA	NA	6
+2020-11-19 14:16:18	"teacher008"	"teacher"	111	"dioXide, with an X"	"dioXide, with an X"	108	NA	"repair"	"writing"	NA	NA	4
+2020-11-19 14:16:28	"student015"	"student"	112	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:16:58	"teacher008"	"teacher"	113	"Very good grammar, actually. One tiny thing: For example, excessive carbon dioxide which __ generated by too many cars can create air pollution"	"Very good grammar, actually. One tiny thing: For example, excessive carbon dioxide which __ generated by too many cars can create air pollution"	NA	"6d"	"eliciting,repair"	"grammatical resource"	NA	NA	23
+2020-11-19 14:17:39	"student015"	"student"	114	"is"	"is"	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:17:44	"teacher008"	"teacher"	115	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-11-19 14:17:59	"teacher008"	"teacher"	116	"And do you think this problem can be solved?"	"And do you think this problem can be solved?"	NA	"6e"	"eliciting"	"task achievement,writing"	NA	NA	9
+2020-11-19 14:18:12	"student015"	"student"	117	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:19:27	"teacher008"	"teacher"	118	"Ok, why do you think so?"	"Ok, why do you think so?"	NA	NA	"eliciting"	"task achievement,writing"	NA	NA	6
+2020-11-19 14:22:32	"student015"	"student"	119	"We can call on people to use public buses or subway to travel. And if someone really want to drive a car then they can drive electric cars."	"We can call on people to use public buses or subway to travel. And if someone really wants to drive a car, then they can drive electric cars."	NA	NA	NA	NA	NA	NA	28
+2020-11-19 14:23:25	"teacher008"	"teacher"	120	"Excellent!"	"Excellent!"	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:23:42	"teacher008"	"teacher"	121	"And if someone really ____ to drive a car"	"And if someone really ____ to drive a car"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	9
+2020-11-19 14:24:13	"student015"	"student"	122	"needs"	"needs"	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:24:45	"teacher008"	"teacher"	123	"wants is fine, you just forgot the ending -s"	"wants is fine, you just forgot the ending -s"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-11-19 14:24:52	"teacher008"	"teacher"	124	"Great sentences!"	"Great sentences!"	NA	NA	NA	NA	NA	NA	2
+2020-11-19 14:25:24	"teacher008"	"teacher"	125	"What about seas and rivers? What are some problems with them?"	"What about seas and rivers? What are some problems with them?"	NA	"7.0"	"exercise"	"writing"	NA	NA	11
+2020-11-19 14:26:59	"student015"	"student"	126	"Yes. There are a lot of plastic rubbish in the seas and rivers, if fish eat these things they will die."	"Yes. There is a lot of plastic rubbish in seas and rivers. If fish eat these things, they will die."	NA	NA	NA	NA	NA	NA	21
+2020-11-19 14:27:28	"teacher008"	"teacher"	127	"Yes, true"	"Yes, true"	NA	NA	NA	NA	NA	NA	2
+2020-11-19 14:27:36	"teacher008"	"teacher"	128	"There __ a lot of plastic rubbish"	"There __ a lot of plastic rubbish"	NA	"7a"	"eliciting,repair"	"grammatical resource"	NA	NA	7
+2020-11-19 14:27:45	"student015"	"student"	129	"is?"	"is?"	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:27:59	"teacher008"	"teacher"	130	"Yes, definitely. Rubbish is an uncountable singular noun"	"Yes, definitely. Rubbish is an uncountable singular noun"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-11-19 14:28:06	"student015"	"student"	131	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:28:09	"teacher008"	"teacher"	132	"which means we can't use it in the plural"	"which means we can't use it in the plural"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-11-19 14:29:14	"teacher008"	"teacher"	133	"Ok, great work today! The homework, as I'm sure you've guessed, will be to write this part 1 essay, ok? You can send it to me before our Monday class if you have a chance, so that I can have a look at it and prepare for the class"	"Ok, great work today! The homework, as I'm sure you've guessed, will be to write this part 1 essay, ok? You can send it to me before our Monday class if you have a chance, so that I can have a look at it and prepare for the class"	NA	"8.0"	"homework"	NA	NA	NA	49
+2020-11-19 14:29:33	"student015"	"student"	134	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:29:55	"student015"	"student"	135	"Thanks a lot. I will send to your email."	"Thanks a lot. I will send it to your email."	NA	NA	NA	NA	NA	NA	9
+2020-11-19 14:30:33	"teacher008"	"teacher"	136	"Lovely, thank you! Have a good weekend!"	"Lovely, thank you! Have a good weekend!"	NA	"9.0"	"closing"	NA	NA	NA	7
+2020-11-19 14:31:04	"student015"	"student"	137	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:31:24	"teacher008"	"teacher"	139	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	NA	1
+2020-11-19 14:31:37	"student015"	"student"	140	"See you next Monday"	"See you next Monday"	NA	NA	NA	NA	NA	NA	4
+2020-11-19 14:31:42	"student015"	"student"	141	"Bye"	"Bye"	NA	NA	NA	NA	NA	"B2"	1

@@ -1,0 +1,157 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-06 13:42:41	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-11-06 13:43:29	"student009"	"student"	2	"I've just bought airpods for my money )"	"I've just bought airpods with my money )"	NA	"2.0"	"topic opening"	NA	NA	NA	8
+2020-11-06 13:43:58	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	1	NA	NA	NA	NA	NA	2
+2020-11-06 13:44:05	"teacher008"	"teacher"	4	"Congratulations!"	"Congratulations!"	2	NA	NA	NA	NA	NA	1
+2020-11-06 13:44:12	"student009"	"student"	5	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 13:44:15	"teacher008"	"teacher"	6	"You bought them with your pocket money you mean?"	"You bought them with your pocket money you mean?"	NA	NA	"repair"	"lexical resource"	NA	NA	9
+2020-11-06 13:44:21	"student009"	"student"	7	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 13:44:35	"teacher008"	"teacher"	8	"Very cool!"	"Very cool!"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 13:45:03	"student009"	"student"	9	"yeah:)"	"yeah:)"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 13:45:46	"teacher008"	"teacher"	10	"Do you listen to music? or maybe podcasts / audiobooks?"	"Do you listen to music? or maybe podcasts / audiobooks?"	NA	"2a"	"topic development"	NA	NA	NA	10
+2020-11-06 13:46:21	"student009"	"student"	11	"I listen to music, and it is betrer to talk to friends with them"	"I listen to music, and it is better to talk to friends with them"	NA	NA	NA	NA	NA	NA	14
+2020-11-06 13:46:56	"student009"	"student"	12	"*better"	"*better"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-06 13:47:02	"teacher008"	"teacher"	13	"Do you mean when you video call your friends?"	"Do you mean when you video call your friends?"	NA	NA	NA	NA	NA	NA	9
+2020-11-06 13:47:14	"student009"	"student"	14	"not only video call"	"not only video call"	NA	NA	NA	NA	NA	NA	4
+2020-11-06 13:47:22	"student009"	"student"	15	"just to talk with them"	"just to talk with them"	NA	NA	NA	NA	NA	NA	5
+2020-11-06 13:48:14	"teacher008"	"teacher"	16	"Why do you need airpods to talk to your friends? :)"	"Why do you need airpods to talk to your friends? :)"	NA	NA	NA	NA	NA	NA	11
+2020-11-06 13:48:43	"student009"	"student"	17	"it is easier"	"it is easier"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 13:48:49	"student009"	"student"	18	"for example"	"for example"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 13:49:14	"student009"	"student"	19	"I want to play or just to talk to my friends"	"I want to play or just to talk to my friends"	NA	NA	NA	NA	NA	NA	11
+2020-11-06 13:49:25	"student009"	"student"	20	"and I need headphones"	"and I need headphones"	NA	NA	NA	NA	NA	NA	4
+2020-11-06 13:49:39	"student009"	"student"	21	"but I also need to charge my phone"	"but I also need to charge my phone"	NA	NA	NA	NA	NA	NA	8
+2020-11-06 13:50:16	"student009"	"student"	22	"I can't do that in the same time"	"I can't do that at the same time"	NA	NA	NA	NA	NA	NA	8
+2020-11-06 13:50:23	"student009"	"student"	23	"but now I can"	"but now I can"	NA	NA	NA	NA	NA	NA	4
+2020-11-06 13:51:02	"teacher008"	"teacher"	24	"Oh, I see, that makes sense. You don't have to carry your phone around all the time now?"	"Oh, I see, that makes sense. You don't have to carry your phone around all the time now?"	NA	NA	NA	NA	NA	NA	18
+2020-11-06 13:53:37	"student009"	"student"	25	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 13:54:22	"teacher008"	"teacher"	26	"Ok, <STUDENT>. What's the word for something we do all the time because we're used to it? It's a h----"	"Ok, <STUDENT>. What's the word for something we do all the time because we're used to it? It's a h----"	NA	"3.0"	"eliciting,revision"	"lexical resource"	NA	NA	20
+2020-11-06 13:54:51	"student009"	"student"	27	"thw hole for the charger and headphones is the dame"	"the port for the charger and headphones is the same"	25	NA	NA	NA	NA	NA	10
+2020-11-06 13:54:55	"student009"	"student"	28	"*same"	"*same"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-06 13:55:08	"student009"	"student"	29	"there can't be to things inside of it)"	"there can't be two things in it)"	NA	NA	NA	NA	NA	NA	8
+2020-11-06 13:55:21	"student009"	"student"	30	"habit"	"habit"	26	NA	NA	NA	NA	NA	1
+2020-11-06 13:56:17	"teacher008"	"teacher"	31	"Aah, now I'm with you re: headphones / charger"	"Aah, now I'm with you re: headphones / charger"	29	NA	NA	NA	NA	NA	9
+2020-11-06 13:56:28	"student009"	"student"	32	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 13:56:28	"teacher008"	"teacher"	33	"Yes, a habit"	"Yes, a habit"	30	NA	NA	NA	NA	NA	3
+2020-11-06 13:56:58	"teacher008"	"teacher"	34	"Remember we were talking about 'used to do' vs. 'be used to doing'?"	"Remember we were talking about 'used to do' vs. 'be used to doing'?"	NA	"4.0"	"topic opening"	"grammatical resource"	NA	NA	13
+2020-11-06 13:57:10	"teacher008"	"teacher"	35	"I used to do it = I did it in the past, but no more"	"I used to do it = I did it in the past, but no more"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-11-06 13:57:21	"student009"	"student"	36	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 13:57:21	"teacher008"	"teacher"	37	"I'm used to doing it = it's my habit, I do it all the time"	"I'm used to doing it = it's my habit, I do it all the time"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-11-06 13:57:36	"student009"	"student"	38	"I remember"	"I remember"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 13:58:01	"teacher008"	"teacher"	39	"Ok, can you change these sentences using 'used to do' and 'be used to doing', please?"	"Ok, can you change these sentences using 'used to do' and 'be used to doing', please?"	NA	"4a"	"exercise,exercise"	"grammatical resource"	NA	NA	16
+2020-11-06 13:58:13	"teacher008"	"teacher"	40	"or 'get used to doing'"	"or 'get used to doing'"	NA	NA	NA	NA	NA	NA	5
+2020-11-06 13:58:33	"teacher008"	"teacher"	41	"I think I will very soon develop a habit of wearing my aipods all the time!"	"I think I will very soon develop a habit of wearing my aipods all the time!"	NA	NA	NA	NA	NA	NA	16
+2020-11-06 13:58:56	"student009"	"student"	42	"I used to use usual headphones"	"I used to use usual headphones"	NA	NA	NA	NA	NA	NA	6
+2020-11-06 13:59:02	"student009"	"student"	43	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 13:59:41	"student009"	"student"	44	"But now I think I will get used to using them all the time"	"But now I think I will get used to using them all the time"	NA	NA	NA	NA	NA	NA	14
+2020-11-06 13:59:55	"teacher008"	"teacher"	45	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:00:28	"teacher008"	"teacher"	46	"this one is about me"	"this one is about me"	NA	"4b"	NA	NA	NA	NA	5
+2020-11-06 14:00:30	"teacher008"	"teacher"	47	"In the past, I walked everywhere. But recently I have developed a habit of cycling to places."	"In the past, I walked everywhere. But recently I have developed a habit of cycling to places."	NA	NA	NA	NA	NA	NA	17
+2020-11-06 14:00:45	"student009"	"student"	48	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:01:00	"teacher008"	"teacher"	49	"could you change it, please?"	"could you change it, please?"	NA	NA	NA	NA	NA	NA	5
+2020-11-06 14:01:22	"student009"	"student"	50	"I used to walk everywhere"	"I used to walk everywhere"	NA	NA	NA	NA	NA	NA	5
+2020-11-06 14:01:38	"student009"	"student"	51	"But now I used to cycling everywhere"	"But now I'm used to cycling everywhere"	NA	NA	NA	NA	NA	NA	7
+2020-11-06 14:01:57	"teacher008"	"teacher"	52	"The first one is correct, but something's missing in the second one"	"The first one is correct, but something's missing in the second one"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	12
+2020-11-06 14:02:16	"student009"	"student"	53	"I am used!"	"I am used!"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:02:32	"teacher008"	"teacher"	54	"Yes! :)"	"Yes! :)"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:02:35	"teacher008"	"teacher"	55	"Next one"	"Next one"	NA	"4c"	NA	NA	NA	NA	2
+2020-11-06 14:02:37	"teacher008"	"teacher"	56	"In the past, I was often late for things. But now I’m in the habit of leaving the house early and arriving on time."	"In the past, I was often late for things. But now I’m in the habit of leaving the house early and arriving on time."	NA	NA	NA	NA	NA	NA	24
+2020-11-06 14:03:00	"student009"	"student"	57	"I used to be late for things"	"I used to be late for things"	NA	NA	NA	NA	NA	NA	7
+2020-11-06 14:03:30	"student009"	"student"	58	"But now I am used to leaving the house early"	"But now I am used to leaving the house early"	NA	NA	NA	NA	NA	NA	10
+2020-11-06 14:03:48	"teacher008"	"teacher"	59	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:03:50	"teacher008"	"teacher"	60	"another one"	"another one"	NA	"4d"	NA	NA	NA	NA	2
+2020-11-06 14:03:51	"teacher008"	"teacher"	61	"In the past, I ate a lot of chocolate. And I’m still in the habit of eating chocolate every day!"	"In the past, I ate a lot of chocolate. And I’m still in the habit of eating chocolate every day!"	NA	NA	NA	NA	NA	NA	20
+2020-11-06 14:04:11	"student009"	"student"	62	"I used to eat a lot of chocolate"	"I used to eat a lot of chocolate"	NA	NA	NA	NA	NA	NA	8
+2020-11-06 14:04:41	"student009"	"student"	63	"And I am still used to eating chocolate every day!"	"And I am still used to eating chocolate every day!"	NA	NA	NA	NA	NA	NA	10
+2020-11-06 14:05:10	"teacher008"	"teacher"	64	"uh-uh! Caught you!"	"uh-uh! Caught you!"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:05:36	"student009"	"student"	65	"where"	"where"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:05:40	"teacher008"	"teacher"	66	"The situation hasn't changed, has it? So we can't use 'I used to eat chocolate' because I still eat loads of it!"	"The situation hasn't changed, has it? So we can't use 'I used to eat chocolate' because I still eat loads of it!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	22
+2020-11-06 14:06:01	"student009"	"student"	67	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:06:57	"teacher008"	"teacher"	68	"We can say, I've always been eating a lot of chocolate / I'm used to eating lots of chocolate"	"We can say, I've always been eating a lot of chocolate / I'm used to eating lots of chocolate"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-11-06 14:07:05	"teacher008"	"teacher"	69	"It started in the past and it's still true!"	"It started in the past and it's still true!"	NA	NA	NA	NA	NA	NA	9
+2020-11-06 14:08:13	"teacher008"	"teacher"	70	"What about your habits? I bet you've got a lot of positive habits because you're very organized and get so many things done!"	"What about your habits? I bet you've got a lot of positive habits because you're very organized and get so many things done!"	NA	"5.0"	"exercise,free practice"	"grammatical resource"	NA	NA	23
+2020-11-06 14:09:04	"student009"	"student"	71	"I am used to using my phone to much wgen I am doing my homework"	"I am used to using my phone too much when I am doing my homework"	NA	NA	NA	NA	NA	NA	15
+2020-11-06 14:09:28	"student009"	"student"	72	"It is a bad habjt"	"It is a bad habit"	NA	NA	NA	NA	NA	NA	5
+2020-11-06 14:10:10	"teacher008"	"teacher"	73	"Ah, yes, it's a big distraction!"	"Ah, yes, it's a big distraction!"	NA	NA	NA	NA	NA	NA	6
+2020-11-06 14:10:13	"student009"	"student"	74	"I am used"	"I am used"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:10:18	"student009"	"student"	75	"oy"	"oy"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:10:34	"student009"	"student"	76	"I am used to making"	"I am used to making"	NA	NA	NA	NA	NA	NA	5
+2020-11-06 14:10:39	"teacher008"	"teacher"	77	"That's because phones are so good at getting our attention!"	"That's because phones are so good at getting our attention!"	73	NA	NA	NA	NA	NA	10
+2020-11-06 14:11:18	"student009"	"student"	78	"myself writing all the homework to my dairy (schoil dairy )"	"myself write down all the homework in my diary (school diary )"	76	NA	NA	NA	NA	NA	11
+2020-11-06 14:11:39	"student009"	"student"	79	"oops"	"oops"	NA	NA	"repair"	"lexical resource"	NA	NA	1
+2020-11-06 14:11:44	"student009"	"student"	80	"not dairy"	"not diary"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+2020-11-06 14:11:47	"teacher008"	"teacher"	81	"Aha, that sounds like a very positive habit!"	"Aha, that sounds like a very positive habit!"	78	NA	NA	NA	NA	NA	8
+2020-11-06 14:11:48	"student009"	"student"	82	"diary"	"diary"	80	NA	"repair"	"lexical resource"	NA	NA	1
+2020-11-06 14:11:50	"teacher008"	"teacher"	83	"diary)))"	"diary)))"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-11-06 14:11:59	"student009"	"student"	84	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:12:03	"teacher008"	"teacher"	85	"yes, dairy products are those that are made of milk)"	"yes, diary products are those that are made of milk)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-11-06 14:12:23	"student009"	"student"	86	"but everyone are asking about the homework every day"	"but everyone is asking about homework every day"	81	NA	NA	NA	NA	NA	9
+2020-11-06 14:12:29	"teacher008"	"teacher"	87	"you're used to writing your homework ___ in your diary"	"you're used to writing your homework ___ in your diary"	NA	"5a"	"eliciting,repair"	"lexical resource"	NA	NA	10
+2020-11-06 14:12:30	"student009"	"student"	88	"I know"	"I know"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:12:49	"student009"	"student"	89	"out ?"	"out ?"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:12:52	"teacher008"	"teacher"	90	"down"	"down"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-11-06 14:12:57	"teacher008"	"teacher"	91	"write something down"	"write something down"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:13:03	"student009"	"student"	92	"aaaa"	"aaaah"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:13:09	"student009"	"student"	93	"I understand"	"I understand"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:13:13	"teacher008"	"teacher"	94	"I'm sure you've heard it before"	"I'm sure you've heard it before"	NA	NA	NA	NA	NA	NA	6
+2020-11-06 14:13:36	"student009"	"student"	95	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:14:01	"teacher008"	"teacher"	96	"What are some other good habits that you have? Oh maybe a new habit that you've developed?"	"What are some other good habits that you have? Oh maybe a new habit that you've developed?"	NA	"5b"	"exercise,free practice"	"grammatical resource"	NA	NA	17
+2020-11-06 14:14:13	"teacher008"	"teacher"	97	"I got used to recycling, for example"	"I got used to recycling, for example"	NA	NA	NA	NA	NA	NA	7
+2020-11-06 14:14:58	"student009"	"student"	98	"I used to bring a lot of seashells from the sea on the holidays , but now I don't"	"I used to bring a lot of seashells from the sea from holidays, but now I don't"	NA	NA	NA	NA	NA	NA	19
+2020-11-06 14:15:22	"teacher008"	"teacher"	99	"Aww, I still do that! :)"	"Aww, I still do that! :)"	NA	NA	NA	NA	NA	NA	6
+2020-11-06 14:15:28	"teacher008"	"teacher"	100	"Good example!"	"Good example!"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:16:59	"student009"	"student"	101	"I am used to going to slepp"	"I am used to going to sleep"	NA	NA	NA	NA	NA	NA	7
+2020-11-06 14:17:09	"student009"	"student"	102	"*sleep very lately"	"*sleep very late"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-11-06 14:17:19	"teacher008"	"teacher"	103	"Very late?"	"Very late?"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+2020-11-06 14:17:23	"teacher008"	"teacher"	104	"lately = recently"	"lately = recently"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-11-06 14:17:31	"student009"	"student"	105	"late"	"late"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:17:43	"student009"	"student"	106	"I didn't know"	"I didn't know"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:18:12	"teacher008"	"teacher"	107	"Ah, yes, it's a teenage thing :)"	"Ah, yes, it's a teenage thing :)"	102	NA	NA	NA	NA	NA	7
+2020-11-06 14:18:21	"teacher008"	"teacher"	108	"I'm old, so I go to sleep early :)"	"I'm old, so I go to sleep early :)"	NA	NA	NA	NA	NA	NA	9
+2020-11-06 14:18:51	"teacher008"	"teacher"	109	"I'm used to getting 8 hours of sleep. If I don't get enough sleep, I'm tired and grumpy the next day!"	"I'm used to getting 8 hours of sleep. If I don't get enough sleep, I'm tired and grumpy the next day!"	NA	NA	NA	NA	NA	NA	21
+2020-11-06 14:18:57	"student009"	"student"	110	"you're not old"	"you're not old"	108	NA	NA	NA	NA	NA	3
+2020-11-06 14:19:28	"teacher008"	"teacher"	111	"No, not very old yet, thank you :)"	"No, not very old yet, thank you :)"	NA	NA	NA	NA	NA	NA	8
+2020-11-06 14:20:09	"student009"	"student"	112	"heh"	"heh"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:20:21	"teacher008"	"teacher"	113	"What about recycling? Do you think recycling can become a habit for people in Ukraine?"	"What about recycling? Do you think recycling can become a habit for people in Ukraine?"	NA	"5c"	"exercise,free practice"	"grammatical resource"	NA	NA	15
+2020-11-06 14:20:28	"student009"	"student"	114	"7-8 hours it is not enough for me((("	"7-8 hours is not enough for me((("	109	NA	NA	NA	NA	NA	8
+2020-11-06 14:20:36	"student009"	"student"	115	"I think it can"	"I think it can"	113	NA	NA	NA	NA	NA	4
+2020-11-06 14:20:47	"student009"	"student"	116	"and I would love it so much"	"and I would love it so much"	NA	NA	NA	NA	NA	NA	7
+2020-11-06 14:20:51	"teacher008"	"teacher"	117	"No, you probably need 9-10 hours of sleep, right?"	"No, you probably need 9-10 hours of sleep, right?"	114	NA	NA	NA	NA	NA	9
+2020-11-06 14:21:12	"student009"	"student"	118	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:21:46	"teacher008"	"teacher"	119	"Definitely! I know people didn't use to recycle, but maybe this situation has changed?"	"Definitely! I know people didn't use to recycle, but maybe this situation has changed?"	116	NA	NA	NA	NA	NA	14
+2020-11-06 14:22:57	"student009"	"student"	120	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:23:36	"student009"	"student"	126	"For example , in Italy there are a lot of different bins for recycling"	"For example , in Italy there are a lot of different bins for recycling"	NA	NA	NA	NA	NA	NA	14
+2020-11-06 14:24:16	"teacher008"	"teacher"	127	"Yes, sure. Are there recycling bins in Ukraine now? I haven't been there for about 4 years now!"	"Yes, sure. Are there recycling bins in Ukraine now? I haven't been there for about 4 years now!"	NA	NA	NA	NA	NA	NA	18
+2020-11-06 14:24:33	"student009"	"student"	128	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:24:38	"student009"	"student"	129	"that's a lot"	"that's a lot"	127	NA	NA	NA	NA	NA	3
+2020-11-06 14:24:43	"student009"	"student"	130	"I saw some"	"I saw some"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:24:52	"student009"	"student"	131	"It is not enough"	"It is not enough"	NA	NA	NA	NA	NA	NA	4
+2020-11-06 14:25:10	"teacher008"	"teacher"	132	"They are not available everywhere?"	"They are not available everywhere?"	NA	NA	NA	NA	NA	NA	5
+2020-11-06 14:25:21	"student009"	"student"	133	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:25:52	"teacher008"	"teacher"	134	"I see! That's a shame! Hopefully, this can change soon!"	"I see! That's a shame! Hopefully, this can change soon!"	NA	NA	NA	NA	NA	NA	10
+2020-11-06 14:26:23	"student009"	"student"	135	"nea r my house there some bins like 'plastic paper wood and glass' and 'organical'"	"near my house there are some bins like 'plastic paper wood and glass' and 'organic'"	NA	NA	NA	NA	NA	NA	15
+2020-11-06 14:26:33	"student009"	"student"	136	"I hipe too"	"I hope too"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:26:38	"student009"	"student"	137	"*hope"	"*hope"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-06 14:26:55	"teacher008"	"teacher"	138	"aha, organic waste"	"aha, organic waste"	135	NA	"repair"	"lexical resource"	NA	NA	3
+2020-11-06 14:27:30	"student009"	"student"	139	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:28:06	"teacher008"	"teacher"	140	"Just to go back for a moment"	"Just to go back for a moment"	NA	"6.0"	"revision"	"lexical resource"	NA	NA	7
+2020-11-06 14:28:12	"student009"	"student"	141	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:28:25	"teacher008"	"teacher"	142	"I'm __ the habit ___ having a cup of coffee every morning'"	"I'm __ the habit ___ having a cup of coffee every morning'"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	12
+2020-11-06 14:28:55	"student009"	"student"	143	"in , of?"	"in , of?"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:29:01	"teacher008"	"teacher"	144	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:29:30	"teacher008"	"teacher"	145	"I ____ a habit of drinking a cup of coffee' = got used to doing it"	"I ____ a habit of drinking a cup of coffee' = got used to doing it"	NA	"6a"	"eliciting,revision"	"lexical resource"	NA	NA	16
+2020-11-06 14:29:37	"teacher008"	"teacher"	146	"we need a verb in the gap"	"we need a verb in the gap"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	7
+2020-11-06 14:29:54	"student009"	"student"	147	"have"	"have"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:30:05	"student009"	"student"	148	"oy no"	"oy no"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:30:14	"student009"	"student"	149	"used to have"	"used to have"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:30:34	"teacher008"	"teacher"	150	"ah, I'm actually looking for a verb to go with 'habit'"	"ah, I'm actually looking for a verb to go with 'habit'"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	11
+2020-11-06 14:30:47	"teacher008"	"teacher"	151	"We can start a habit / develop a habit or have a habit"	"We can start a habit / develop a habit or have a habit"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-11-06 14:31:02	"teacher008"	"teacher"	152	"start and develop - if it's a new habit"	"start and develop - if it's a new habit"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-11-06 14:31:06	"student009"	"student"	153	"have goes with habit"	"have goes with habit"	NA	NA	NA	NA	NA	NA	4
+2020-11-06 14:31:14	"teacher008"	"teacher"	154	"Yes, it does!"	"Yes, it does!"	NA	NA	NA	NA	NA	NA	3
+2020-11-06 14:31:30	"student009"	"student"	155	"here it is bot to start of develop"	"here it is not to start or develop"	NA	NA	NA	NA	NA	NA	8
+2020-11-06 14:31:35	"student009"	"student"	156	"*not"	"*not"	NA	NA	NA	NA	NA	NA	1
+2020-11-06 14:31:45	"teacher008"	"teacher"	157	"Yes, correct! Either of them would work"	"Yes, correct! Either of them would work"	NA	NA	NA	NA	NA	NA	7
+2020-11-06 14:31:58	"teacher008"	"teacher"	158	"Ok, <STUDENT>, I'll let you go. Have a lovely weekend!"	"Ok, <STUDENT>, I'll let you go. Have a lovely weekend!"	NA	"7.0"	"closing"	NA	NA	NA	10
+2020-11-06 14:32:07	"teacher008"	"teacher"	159	"Talk to you on Tuesday"	"Talk to you on Tuesday"	NA	NA	NA	NA	NA	NA	5
+2020-11-06 14:32:15	"student009"	"student"	160	"okie, bye!"	"okie, bye!"	NA	NA	NA	NA	NA	NA	2
+2020-11-06 14:32:25	"teacher008"	"teacher"	161	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

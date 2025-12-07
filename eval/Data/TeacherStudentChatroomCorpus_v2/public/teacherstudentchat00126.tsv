@@ -1,0 +1,199 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2020-10-22T12:27:52+00:00+00:00+00:00"	"teacher008"	"teacher"	"1"	"Hello <STUDENT>!"	"Hello <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2020-10-22T12:28:00+00:00+00:00+00:00"	"student015"	"student"	"2"	"Hi, <TEACHER>"	"Hi, <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T12:28:12+00:00+00:00+00:00"	"student015"	"student"	"3"	"Nice to meet you again"	"Nice to speak to you again"	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T12:28:26+00:00+00:00+00:00"	"teacher008"	"teacher"	"4"	"Nice to talk to you again :)"	"Nice to talk to you again :)"	NA	NA	"repair"	"lexical resource"	NA	NA	7
+"2020-10-22T12:28:29+00:00+00:00+00:00"	"teacher008"	"teacher"	"5"	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+"2020-10-22T12:28:37+00:00+00:00+00:00"	"student015"	"student"	"6"	"It’s good"	"I'm good"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T12:29:09+00:00+00:00+00:00"	"student015"	"student"	"7"	"I have done the precise you sent to me"	"I have done the exercise you sent me"	NA	"2a"	"topic development,homework"	NA	NA	NA	9
+"2020-10-22T12:29:13+00:00+00:00+00:00"	"teacher008"	"teacher"	"8"	"What's the weather like in Beijing now?"	"What's the weather like in Beijing now?"	NA	"2b"	"topic development"	NA	NA	NA	7
+"2020-10-22T12:29:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"9"	"Oh, good, we'll have a look at it in a moment, thank you"	"Oh, good, we'll have a look at it in a moment, thank you"	7	NA	NA	NA	NA	NA	13
+"2020-10-22T12:29:36+00:00+00:00+00:00"	"student015"	"student"	"10"	"It's dark, and windy now."	"It's dark and windy now."	8	NA	NA	NA	NA	NA	5
+"2020-10-22T12:30:05+00:00+00:00+00:00"	"teacher008"	"teacher"	"11"	"Oh yes, sure, it's nighttime already!"	"Oh yes, sure, it's nighttime already!"	NA	NA	NA	NA	NA	NA	6
+"2020-10-22T12:30:12+00:00+00:00+00:00"	"student015"	"student"	"12"	"I think I have something want to ask you"	"I think I have something I want to ask you"	NA	"3.0"	"topic opening"	NA	NA	NA	9
+"2020-10-22T12:30:18+00:00+00:00+00:00"	"teacher008"	"teacher"	"13"	"Yes please!"	"Yes please!"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T12:31:00+00:00+00:00+00:00"	"student015"	"student"	"14"	"About the Toefl exam"	"About the TOEFL exam"	NA	NA	"enquiry"	"exam prep"	NA	NA	4
+"2020-10-22T12:31:09+00:00+00:00+00:00"	"teacher008"	"teacher"	"15"	"Ok, yes"	"Ok, yes"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T12:31:54+00:00+00:00+00:00"	"student015"	"student"	"16"	"If do a Toefl exam is the best choice to learn English after graduate"	"Is doing a TOEFL exam the best choice to learn English after graduation?"	NA	NA	"enquiry"	"exam prep"	NA	NA	14
+"2020-10-22T12:32:59+00:00+00:00+00:00"	"teacher008"	"teacher"	"17"	"Good question! Preparing for an exam is definitely a good way to learn English. It would really push and motivate you."	"Good question! Preparing for an exam is definitely a good way to learn English. It would really push and motivate you."	NA	NA	"scaffolding"	"exam prep,meta knowledge"	NA	NA	21
+"2020-10-22T12:33:22+00:00+00:00+00:00"	"teacher008"	"teacher"	"18"	"Do you need TOEFL for a particular purpose? There are a few English exams to choose from"	"Do you need TOEFL for a particular purpose? There are a few English exams to choose from"	NA	"3a"	"topic development"	NA	NA	NA	17
+"2020-10-22T12:34:03+00:00+00:00+00:00"	"teacher008"	"teacher"	"19"	"As you know, TOEFL is American and would probably be good if you are planning to move to the USA"	"As you know, TOEFL is American and would probably be good if you are planning to move to the USA"	NA	NA	"scaffolding"	"exam prep"	NA	NA	20
+"2020-10-22T12:34:34+00:00+00:00+00:00"	"teacher008"	"teacher"	"20"	"IELTS is another English exam, and that is good for Australia, Canada and the UK"	"IELTS is another English exam, and that is good for Australia, Canada and the UK"	NA	NA	"scaffolding"	"exam prep"	NA	NA	15
+"2020-10-22T12:34:35+00:00+00:00+00:00"	"student015"	"student"	"21"	"I do not have a particular purpose. I just think that I really don’t how to get motive to learn English"	"I do not have a particular purpose. I just think that I really don’t know how to motivate myself to learn English"	18	NA	NA	NA	NA	NA	21
+"2020-10-22T12:34:44+00:00+00:00+00:00"	"teacher008"	"teacher"	"22"	"Right, I see"	"Right, I see"	NA	NA	NA	NA	NA	NA	3
+"2020-10-22T12:34:56+00:00+00:00+00:00"	"teacher008"	"teacher"	"23"	"One second, I'll just check one thing"	"One second, I'll just check one thing"	NA	NA	NA	NA	NA	NA	7
+"2020-10-22T12:35:08+00:00+00:00+00:00"	"student015"	"student"	"24"	"Ok."	"Ok."	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T12:35:48+00:00+00:00+00:00"	"teacher008"	"teacher"	"25"	"Right, as I thought, TOEFL and IELTS are only valid for two years. The purpose of these exams is usually visa applications."	"Right, as I thought, TOEFL and IELTS are only valid for two years. The purpose of these exams is usually visa applications."	NA	NA	"scaffolding"	"exam prep"	NA	NA	22
+"2020-10-22T12:36:12+00:00+00:00+00:00"	"teacher008"	"teacher"	"26"	"However, there are other exams that you can take that do not expire after two years"	"However, there are other exams that you can take that do not expire after two years"	NA	NA	"scaffolding"	"exam prep"	NA	NA	16
+"2020-10-22T12:36:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"27"	"So the certificate you receive will be valid forever"	"So the certificate you receive will be valid forever"	NA	NA	"scaffolding"	"exam prep"	NA	NA	9
+"2020-10-22T12:36:44+00:00+00:00+00:00"	"teacher008"	"teacher"	"28"	"Cambridge has a whole range of these exams, for example"	"Cambridge has a whole range of these exams, for example"	NA	NA	"scaffolding"	"exam prep"	NA	NA	10
+"2020-10-22T12:37:27+00:00+00:00+00:00"	"student015"	"student"	"29"	"Can I participate these exams in China?"	"Can I take these exams in China?"	NA	"3b"	"enquiry"	"exam prep"	NA	NA	7
+"2020-10-22T12:37:48+00:00+00:00+00:00"	"teacher008"	"teacher"	"30"	"Cambridge B2 First is a good exam to start with. It will really push you in all the four skills (reading, writing, speaking and listening)"	"Cambridge B2 First is a good exam to start with. It will really push you in all the four skills (reading, writing, speaking and listening)"	28	NA	"scaffolding"	"exam prep"	NA	NA	25
+"2020-10-22T12:38:00+00:00+00:00+00:00"	"student015"	"student"	"31"	"Great"	"Great"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T12:38:12+00:00+00:00+00:00"	"student015"	"student"	"32"	"I will check it later"	"I will check it later"	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T12:38:18+00:00+00:00+00:00"	"teacher008"	"teacher"	"33"	"Well, the IELTS market in China is huge. This is why my husband and I were in China, he was an IELTS examiner then"	"Well, the IELTS market in China is huge. This is why my husband and I were in China, he was an IELTS examiner then"	29	NA	NA	NA	NA	NA	24
+"2020-10-22T12:38:35+00:00+00:00+00:00"	"teacher008"	"teacher"	"35"	"Oh, the links don't really work in this chat, I'll email it to you"	"Oh, the links don't really work in this chat, I'll email it to you"	NA	NA	NA	NA	NA	NA	14
+"2020-10-22T12:38:36+00:00+00:00+00:00"	"student015"	"student"	"36"	"Wow"	"Wow"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T12:38:54+00:00+00:00+00:00"	"student015"	"student"	"37"	"thanks a lot"	"thanks a lot"	NA	NA	NA	NA	NA	NA	3
+"2020-10-22T12:39:34+00:00+00:00+00:00"	"teacher008"	"teacher"	"38"	"It should be possible to take other Cambridge exams too, especially in Beijing and Shanghai. I'm sure there are lots of exam centres"	"It should be possible to take other Cambridge exams too, especially in Beijing and Shanghai. I'm sure there are lots of exam centres"	33	NA	NA	NA	NA	NA	23
+"2020-10-22T12:40:03+00:00+00:00+00:00"	"student015"	"student"	"39"	"Ok. I think it can help me."	"Ok. I think it can help me."	NA	NA	NA	NA	NA	NA	7
+"2020-10-22T12:40:36+00:00+00:00+00:00"	"teacher008"	"teacher"	"40"	"For a lot of people, this is how they learn, by moving from one exam to the next. For example, after B2 you can prepare for and take C1."	"For a lot of people, this is how they learn, by moving from one exam to the next. For example, after B2 you can prepare for and take C1."	NA	"3c"	"scaffolding"	"meta knowledge,exam prep"	NA	NA	29
+"2020-10-22T12:40:38+00:00+00:00+00:00"	"student015"	"student"	"41"	"You know, In China, most of the time learning English is to do exams."	"You know, in China, most of the time people learn English to do exams."	NA	NA	NA	NA	NA	NA	14
+"2020-10-22T12:40:53+00:00+00:00+00:00"	"teacher008"	"teacher"	"42"	"Things like IELTS or local exams?"	"Things like IELTS or local exams?"	NA	NA	NA	NA	NA	NA	6
+"2020-10-22T12:41:11+00:00+00:00+00:00"	"student015"	"student"	"43"	"local exams in school"	"local exams at school"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T12:41:19+00:00+00:00+00:00"	"teacher008"	"teacher"	"44"	"If you would like, I can prepare some exam materials for B2 for the next time, so that you get a taste for it"	"If you would like, I can prepare some exam materials for B2 for the next time, so that you get a taste for it"	NA	NA	NA	NA	NA	NA	24
+"2020-10-22T12:41:32+00:00+00:00+00:00"	"teacher008"	"teacher"	"45"	"Oh, gaokao?"	"Oh, gaokao?"	43	NA	"non-English"	"code switching"	NA	NA	2
+"2020-10-22T12:41:35+00:00+00:00+00:00"	"student015"	"student"	"46"	"Wow. It’s great!"	"Wow. That would be great!"	44	NA	NA	NA	NA	NA	3
+"2020-10-22T12:41:40+00:00+00:00+00:00"	"student015"	"student"	"47"	"yes. like gaokao"	"yes, like gaokao"	45	NA	"non-English"	"code switching"	NA	NA	3
+"2020-10-22T12:42:04+00:00+00:00+00:00"	"teacher008"	"teacher"	"48"	"Ok, sure, I'll prepare some B2 stuff for the next time"	"Ok, sure, I'll prepare some B2 stuff for the next time"	46	NA	NA	NA	NA	NA	11
+"2020-10-22T12:42:52+00:00+00:00+00:00"	"student015"	"student"	"49"	"Thank you vary much!"	"Thank you very much!"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T12:43:12+00:00+00:00+00:00"	"student015"	"student"	"50"	"And I have another question,haha"	"And I have another question, haha"	NA	"4.0"	"topic opening"	NA	NA	NA	5
+"2020-10-22T12:43:25+00:00+00:00+00:00"	"teacher008"	"teacher"	"51"	"Cambridge is trying to make their exams as real-life as possible, which means that preparing for an exam does help with real life English speaking situations"	"Cambridge is trying to make their exams as real-life as possible, which means that preparing for an exam does help with real life English speaking situations"	49	NA	"scaffolding"	"exam prep,meta knowledge"	NA	NA	26
+"2020-10-22T12:43:33+00:00+00:00+00:00"	"teacher008"	"teacher"	"52"	"Yes, of course"	"Yes, of course"	50	NA	NA	NA	NA	NA	3
+"2020-10-22T12:44:35+00:00+00:00+00:00"	"student015"	"student"	"53"	"I really like reading fiction books. In English, I know there are a lot of good books, but I have difficult to read them."	"I really like reading fiction books. I know there are a lot of good books in English, but it's difficult for me to read them."	NA	NA	NA	NA	NA	NA	24
+"2020-10-22T12:45:06+00:00+00:00+00:00"	"teacher008"	"teacher"	"54"	"Ooh, you're a good student, <STUDENT> :) who loves books"	"Ooh, you're a good student, <STUDENT> :) who loves books"	NA	NA	NA	NA	NA	NA	10
+"2020-10-22T12:45:16+00:00+00:00+00:00"	"teacher008"	"teacher"	"55"	"Have you tried to read any English books?"	"Have you tried to read any English books?"	NA	NA	NA	NA	NA	NA	8
+"2020-10-22T12:45:21+00:00+00:00+00:00"	"student015"	"student"	"56"	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T12:45:26+00:00+00:00+00:00"	"teacher008"	"teacher"	"57"	"What kind of books do you like in general?"	"What kind of books do you like in general?"	NA	NA	NA	NA	NA	NA	9
+"2020-10-22T12:46:32+00:00+00:00+00:00"	"student015"	"student"	"58"	"like &lt;And then There Were None&gt;"	"like And Then There Were None"	NA	NA	NA	NA	NA	NA	6
+"2020-10-22T12:47:36+00:00+00:00+00:00"	"student015"	"student"	"59"	"I think knowing a language can brodern diff cultures i can know."	"I think knowing a language can help me learn about different cultures"	NA	NA	NA	NA	NA	NA	12
+"2020-10-22T12:47:47+00:00+00:00+00:00"	"student015"	"student"	"60"	"I like fiction books"	"I like fiction books"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T12:47:57+00:00+00:00+00:00"	"teacher008"	"teacher"	"61"	"by Agatha Christie?"	"by Agatha Christie?"	58	NA	NA	NA	NA	NA	3
+"2020-10-22T12:48:11+00:00+00:00+00:00"	"student015"	"student"	"62"	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T12:48:27+00:00+00:00+00:00"	"teacher008"	"teacher"	"63"	"Mmm, yes, good one"	"Mmm, yes, good one"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T12:48:56+00:00+00:00+00:00"	"teacher008"	"teacher"	"64"	"I think one of the problems with older books in a foreign language is that they are written in an old-fashioned language"	"I think one of the problems with older books in a foreign language is that they are written in an old-fashioned language"	NA	"4a"	"scaffolding"	"reading,meta knowledge"	NA	NA	22
+"2020-10-22T12:49:17+00:00+00:00+00:00"	"teacher008"	"teacher"	"65"	"which is probably more complicated than the modern version"	"which is probably more complicated than the modern version"	NA	NA	"scaffolding"	"reading,meta knowledge"	NA	NA	9
+"2020-10-22T12:49:54+00:00+00:00+00:00"	"teacher008"	"teacher"	"66"	"I would say, a good one to start reading in English is Ernest Hemingway"	"I would say, a good one to start reading in English is Ernest Hemingway"	NA	NA	"reference"	"reading"	"book"	NA	14
+"2020-10-22T12:49:54+00:00+00:00+00:00"	"student015"	"student"	"67"	"So English have and old-fashioned type?"	"So there is an old-fashioned version of English?"	65	NA	"enquiry"	"world knowledge"	NA	NA	6
+"2020-10-22T12:50:10+00:00+00:00+00:00"	"student015"	"student"	"68"	"the old man and the sea?"	"The Old Man and the Sea?"	66	NA	NA	NA	NA	NA	6
+"2020-10-22T12:50:41+00:00+00:00+00:00"	"teacher008"	"teacher"	"69"	"Yes, The Old Man and the Sea and his novels too"	"Yes, The Old Man and the Sea and his novels too"	NA	NA	NA	NA	NA	NA	11
+"2020-10-22T12:50:52+00:00+00:00+00:00"	"teacher008"	"teacher"	"70"	"His language is not very flowery"	"His language is not very flowery"	NA	NA	NA	NA	NA	NA	6
+"2020-10-22T12:51:10+00:00+00:00+00:00"	"teacher008"	"teacher"	"71"	"Do you know 'flowery'? Lengthy with a lot of descriptive words"	"Do you know 'flowery'? Lengthy with a lot of descriptive words"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+"2020-10-22T12:51:14+00:00+00:00+00:00"	"student015"	"student"	"72"	"Ok. But I think these are too basic, I already know the details about it."	"Ok. But I think these are too basic, I already know the details about them."	NA	NA	NA	NA	NA	NA	15
+"2020-10-22T12:51:44+00:00+00:00+00:00"	"student015"	"student"	"73"	"Don’t know yet."	"Don’t know yet."	71	NA	NA	NA	NA	NA	3
+"2020-10-22T12:51:58+00:00+00:00+00:00"	"teacher008"	"teacher"	"74"	"What about his novels? I like Fiesta / the sun also rises"	"What about his novels? I like Fiesta / the sun also rises"	72	NA	NA	NA	NA	NA	12
+"2020-10-22T12:52:29+00:00+00:00+00:00"	"student015"	"student"	"75"	"I know the sun also rises."	"I know The Sun Also Rises."	NA	NA	NA	NA	NA	NA	6
+"2020-10-22T12:52:40+00:00+00:00+00:00"	"student015"	"student"	"76"	"So I can try Fiesta"	"So I can try Fiesta"	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T12:52:52+00:00+00:00+00:00"	"teacher008"	"teacher"	"77"	"Have you read it in Chinese?"	"Have you read it in Chinese?"	75	NA	NA	NA	NA	NA	6
+"2020-10-22T12:53:01+00:00+00:00+00:00"	"student015"	"student"	"78"	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T12:53:11+00:00+00:00+00:00"	"teacher008"	"teacher"	"79"	"Sorry, I know 'Chinese' is not the accurate name of the language. I should have said Mandarin, right?"	"Sorry, I know 'Chinese' is not the accurate name of the language. I should have said Mandarin, right?"	NA	"4b"	"topic development"	NA	NA	NA	18
+"2020-10-22T12:53:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"80"	"It might be useful to read it in English as well"	"It might be useful to read it in English as well"	78	NA	NA	NA	NA	NA	11
+"2020-10-22T12:53:48+00:00+00:00+00:00"	"teacher008"	"teacher"	"81"	"What do you find difficult about reading English books?"	"What do you find difficult about reading English books?"	NA	"4c"	"topic development"	"meta knowledge"	NA	NA	9
+"2020-10-22T12:53:54+00:00+00:00+00:00"	"student015"	"student"	"82"	"Actually 'Chinese' is good for us in my opinion."	"Actually 'Chinese' is a good for us in my opinion."	79	NA	NA	NA	NA	NA	9
+"2020-10-22T12:54:15+00:00+00:00+00:00"	"student015"	"student"	"83"	"the words I do not know"	"the words I do not know"	81	NA	NA	NA	NA	NA	6
+"2020-10-22T12:54:31+00:00+00:00+00:00"	"teacher008"	"teacher"	"84"	"Ok, I'll stick with Chinese!"	"Ok, I'll stick with Chinese!"	82	NA	NA	NA	NA	NA	5
+"2020-10-22T12:54:44+00:00+00:00+00:00"	"teacher008"	"teacher"	"85"	"Got you"	"Got you"	83	NA	NA	NA	NA	NA	2
+"2020-10-22T12:55:47+00:00+00:00+00:00"	"student015"	"student"	"86"	"If I keep looking up the dictionary, I wll feel that this book is not very exciting. But I believe it’s my problems."	"If I keep looking them up in the dictionary, I wll feel that this book is not very exciting. But I believe it’s my problem."	NA	NA	NA	NA	NA	NA	23
+"2020-10-22T12:55:47+00:00+00:00+00:00"	"teacher008"	"teacher"	"87"	"I always recommend the first Harry Potter book to my students. It's written in (comparatively) simple language because the first couple of books were aimed at children, but the plot is really dynamic and it's easy to read"	"I always recommend the first Harry Potter book to my students. It's written in (comparatively) simple language because the first couple of books were aimed at children, but the plot is really dynamic and it's easy to read"	NA	"4d"	"reference"	"reading"	"book"	NA	38
+"2020-10-22T12:57:03+00:00+00:00+00:00"	"student015"	"student"	"88"	"Yes, I think Harry Potter books is a good choice. Although I have seen the Chinese version."	"Yes, I think Harry Potter books are a good choice. Although I have read the Chinese version."	NA	NA	NA	NA	NA	NA	17
+"2020-10-22T12:57:20+00:00+00:00+00:00"	"teacher008"	"teacher"	"89"	"Ah, I see what you're saying. I think the secret to reading a book in English is looking up new words in the first 2-3 chapters, writing them down and remembering them, and then it does get easier! By the middle of the book you will probably find you don't need the dictionary at all!"	"Ah, I see what you're saying. I think the secret to reading a book in English is looking up new words in the first 2-3 chapters, writing them down and remembering them, and then it does get easier! By the middle of the book you will probably find you don't need the dictionary at all!"	86	"4e"	"scaffolding"	"reading,meta knowledge"	NA	NA	55
+"2020-10-22T12:57:45+00:00+00:00+00:00"	"student015"	"student"	"90"	"Really?"	"Really?"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T12:57:52+00:00+00:00+00:00"	"teacher008"	"teacher"	"91"	"Yes, and it if you start with the first two HP books, by the third book the text becomes more complicated, but you will be ready for it!"	"Yes, and if you start with the first two HP books, by the third book the text becomes more complicated, but you will be ready for it!"	NA	NA	NA	NA	NA	NA	28
+"2020-10-22T12:57:57+00:00+00:00+00:00"	"teacher008"	"teacher"	"92"	"Yes, I promise :)"	"Yes, I promise :)"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T12:58:06+00:00+00:00+00:00"	"student015"	"student"	"93"	"I think your advice it really help me!!!"	"I think your advice is really helpful!!!"	NA	NA	NA	NA	NA	NA	8
+"2020-10-22T12:58:23+00:00+00:00+00:00"	"teacher008"	"teacher"	"94"	"Give it a go and let me know how it is, ok?"	"Give it a go and let me know how it is, ok?"	NA	NA	NA	NA	NA	NA	12
+"2020-10-22T12:58:32+00:00+00:00+00:00"	"student015"	"student"	"95"	"This things block me for a long time."	"These things block me for a long time."	93	NA	NA	NA	NA	NA	8
+"2020-10-22T12:58:44+00:00+00:00+00:00"	"student015"	"student"	"96"	"Ok. Thanks"	"Ok. Thanks"	94	NA	NA	NA	NA	NA	2
+"2020-10-22T12:59:19+00:00+00:00+00:00"	"teacher008"	"teacher"	"97"	"That's actually what teachers call it, 'blocking words'. But every book has a limited number of these blocking words, and once you've learned them, they won't block you anymore"	"That's actually what teachers call it, 'blocking words'. But every book has a limited number of these blocking words, and once you've learned them, they won't block you anymore"	95	NA	"scaffolding"	"reading,meta knowledge"	NA	NA	29
+"2020-10-22T13:00:33+00:00+00:00+00:00"	"student015"	"student"	"98"	"Thanks a lot. It really helps me a lot to ask questions to native English teacher."	"Thanks a lot. It really helps me a lot to ask a native speaker English teacher some questions."	NA	NA	NA	NA	NA	NA	16
+"2020-10-22T13:01:25+00:00+00:00+00:00"	"teacher008"	"teacher"	"99"	"You're very welcome. I'm not a native speaker of English, by the way. I come from Ukraine"	"You're very welcome. I'm not a native speaker of English, by the way. I come from Ukraine"	NA	"5.0"	"topic opening"	NA	NA	NA	17
+"2020-10-22T13:02:04+00:00+00:00+00:00"	"teacher008"	"teacher"	"100"	"So I know from experience that reading a book in English gets easier if you learn all the words at the beginning :)"	"So I know from experience that reading a book in English gets easier if you learn all the words at the beginning :)"	NA	NA	"scaffolding"	"reading,meta knowledge"	NA	NA	23
+"2020-10-22T13:02:07+00:00+00:00+00:00"	"student015"	"student"	"101"	"Wow. I know your country."	"Wow. I know your country."	99	NA	NA	NA	NA	NA	5
+"2020-10-22T13:02:39+00:00+00:00+00:00"	"teacher008"	"teacher"	"102"	"Do you? Have you been to Ukraine?"	"Do you? Have you been to Ukraine?"	NA	NA	NA	NA	NA	NA	7
+"2020-10-22T13:03:09+00:00+00:00+00:00"	"teacher008"	"teacher"	"103"	"I live in England now"	"I live in England now"	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T13:03:43+00:00+00:00+00:00"	"student015"	"student"	"104"	"No. In China, many people are saying that Ukraine produces beautiful girl."	"No. In China, many people say that Ukraine produces beautiful girls."	NA	NA	NA	NA	NA	NA	12
+"2020-10-22T13:04:33+00:00+00:00+00:00"	"student015"	"student"	"105"	"And I know football team comse from Ukraine, but I do't know the name in Engilsh."	"And I know a football team that comes from Ukraine, but I don't know the name in Engilsh."	NA	NA	NA	NA	NA	NA	16
+"2020-10-22T13:04:41+00:00+00:00+00:00"	"teacher008"	"teacher"	"106"	"Haha, well, stereotypes"	"Haha, well, stereotypes"	104	NA	NA	NA	NA	NA	3
+"2020-10-22T13:05:00+00:00+00:00+00:00"	"teacher008"	"teacher"	"107"	"Oh my, I really don't know much about football! Dynamo Kyiv?"	"Oh my, I really don't know much about football! Dynamo Kyiv?"	105	NA	NA	NA	NA	NA	11
+"2020-10-22T13:05:32+00:00+00:00+00:00"	"student015"	"student"	"108"	"I really don’t know how to read the English name,haha"	"I really don’t know how to read the English name, haha"	NA	NA	NA	NA	NA	NA	10
+"2020-10-22T13:05:44+00:00+00:00+00:00"	"teacher008"	"teacher"	"109"	"No problem))"	"No problem))"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T13:06:07+00:00+00:00+00:00"	"student015"	"student"	"110"	"I'm a big fan of Liverpool FC."	"I'm a big fan of Liverpool FC."	NA	"5a"	"topic development"	NA	NA	NA	7
+"2020-10-22T13:06:19+00:00+00:00+00:00"	"teacher008"	"teacher"	"111"	"Ah, Liverpool!"	"Ah, Liverpool!"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T13:06:46+00:00+00:00+00:00"	"teacher008"	"teacher"	"112"	"I love the city of Liverpool, but sorry, I know so little about football!"	"I love the city of Liverpool, but sorry, I know so little about football!"	NA	NA	NA	NA	NA	NA	14
+"2020-10-22T13:07:03+00:00+00:00+00:00"	"student015"	"student"	"113"	"Ok."	"Ok."	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:07:08+00:00+00:00+00:00"	"teacher008"	"teacher"	"114"	"Do you watch a lot of football?"	"Do you watch a lot of football?"	NA	NA	NA	NA	NA	NA	7
+"2020-10-22T13:07:19+00:00+00:00+00:00"	"student015"	"student"	"115"	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:07:30+00:00+00:00+00:00"	"teacher008"	"teacher"	"116"	"Do you play it too?"	"Do you play it too?"	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T13:07:52+00:00+00:00+00:00"	"student015"	"student"	"117"	"And I see an video about Ukraine nuclear meltdown."	"And I watched a TV series about a nuclear disaster in Ukraine."	NA	"5b"	"topic development"	NA	NA	NA	9
+"2020-10-22T13:08:32+00:00+00:00+00:00"	"student015"	"student"	"118"	"Sorry, I do not know what's the name of it"	"Sorry, I do not know what it is called"	NA	NA	NA	NA	NA	NA	10
+"2020-10-22T13:08:41+00:00+00:00+00:00"	"teacher008"	"teacher"	"119"	"Chernobyl?"	"Chernobyl?"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:09:12+00:00+00:00+00:00"	"teacher008"	"teacher"	"120"	"Yes, it was a tragedy."	"Yes, it was a tragedy."	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T13:09:31+00:00+00:00+00:00"	"student015"	"student"	"121"	"Like me check the name"	"Let me check the name"	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T13:10:23+00:00+00:00+00:00"	"student015"	"student"	"122"	"Чорнобильськая катастрофа"	"Чорнобильськая катастрофа"	NA	NA	"non-English"	"code switching"	NA	NA	2
+"2020-10-22T13:10:36+00:00+00:00+00:00"	"student015"	"student"	"123"	"From HBO"	"From HBO"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T13:11:04+00:00+00:00+00:00"	"teacher008"	"teacher"	"124"	"yes, this is the Ukrainian spelling"	"yes, this is the Ukrainian spelling"	122	NA	NA	NA	NA	NA	6
+"2020-10-22T13:11:08+00:00+00:00+00:00"	"student015"	"student"	"125"	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:11:28+00:00+00:00+00:00"	"student015"	"student"	"126"	"So way you go to the UK"	"So why did you move to the UK?"	NA	"5c"	"topic development"	NA	NA	NA	7
+"2020-10-22T13:11:32+00:00+00:00+00:00"	"student015"	"student"	"127"	"why"	"why"	NA	NA	"repair"	"writing"	NA	NA	1
+"2020-10-22T13:11:38+00:00+00:00+00:00"	"teacher008"	"teacher"	"128"	"Have you watched the TV series about Chernobyl?"	"Have you watched the TV series about Chernobyl?"	125	NA	NA	NA	NA	NA	8
+"2020-10-22T13:11:49+00:00+00:00+00:00"	"student015"	"student"	"129"	"yes, exactly"	"yes, exactly"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T13:12:35+00:00+00:00+00:00"	"student015"	"student"	"130"	"My English is so pool, I can not express myself fluently"	"My English is so poor, I can't express myself fluently"	NA	NA	NA	NA	NA	NA	11
+"2020-10-22T13:13:11+00:00+00:00+00:00"	"teacher008"	"teacher"	"131"	"Well, I was an English teacher in Ukraine and I met my husband there (he was also an English teacher, we worked together). Then he was offered a job in Shanghai, so we moved there and that's where our son was born. And then we moved to the UK, where we are now both working for the University of Cambridge"	"Well, I was an English teacher in Ukraine and I met my husband there (he was also an English teacher, we worked together). Then he was offered a job in Shanghai, so we moved there and that's where our son was born. And then we moved to the UK, where we are now both working for the University of Cambridge"	127	NA	NA	NA	NA	NA	60
+"2020-10-22T13:13:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"132"	"Your English is not bad at all!"	"Your English is not bad at all!"	130	NA	NA	NA	NA	NA	7
+"2020-10-22T13:13:40+00:00+00:00+00:00"	"teacher008"	"teacher"	"133"	"a TV show or a TV series, yes"	"a TV show or a TV series, yes"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+"2020-10-22T13:13:54+00:00+00:00+00:00"	"teacher008"	"teacher"	"134"	"Chernobyl is a mini-series actually"	"Chernobyl is a mini-series actually"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+"2020-10-22T13:13:54+00:00+00:00+00:00"	"student015"	"student"	"135"	"TV series"	"TV series"	NA	NA	NA	NA	NA	NA	2
+"2020-10-22T13:14:10+00:00+00:00+00:00"	"teacher008"	"teacher"	"136"	"It only has one season consisting of several episodes"	"It only has one season consisting of several episodes"	134	NA	"scaffolding"	"lexical resource"	NA	NA	9
+"2020-10-22T13:14:28+00:00+00:00+00:00"	"student015"	"student"	"137"	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:14:46+00:00+00:00+00:00"	"teacher008"	"teacher"	"138"	"But yes, we call it 'Chernobyl tragedy' in Ukraine. It happened a year before I was born"	"But yes, we call it 'Chernobyl tragedy' in Ukraine. It happened a year before I was born"	NA	"5d"	"topic development"	NA	NA	NA	17
+"2020-10-22T13:15:26+00:00+00:00+00:00"	"student015"	"student"	"139"	"There are a lot of heros in the tragedy."	"There are a lot of heroes in the tragedy."	NA	NA	NA	NA	NA	NA	9
+"2020-10-22T13:15:46+00:00+00:00+00:00"	"teacher008"	"teacher"	"140"	"And you're very ambitious with your English, which means it will get better :)"	"And you're very ambitious with your English, which means it will get better :)"	132	NA	NA	NA	NA	NA	14
+"2020-10-22T13:16:19+00:00+00:00+00:00"	"teacher008"	"teacher"	"141"	"Yes, there were some true heroes who sacrificed their health to save the people"	"Yes, there were some true heroes who sacrificed their health to save the people"	139	NA	NA	NA	NA	NA	14
+"2020-10-22T13:16:32+00:00+00:00+00:00"	"student015"	"student"	"142"	"I like men dig coal before."	"I like the men who were coal miners."	NA	NA	NA	NA	NA	NA	6
+"2020-10-22T13:16:37+00:00+00:00+00:00"	"teacher008"	"teacher"	"143"	"And there was also the dishonest government who let people down!"	"And there was also the dishonest government who let people down!"	141	NA	NA	NA	NA	NA	11
+"2020-10-22T13:16:50+00:00+00:00+00:00"	"teacher008"	"teacher"	"144"	"Miners? A person who digs for coal is a miner"	"Miners? A person who digs for coal is a miner"	142	NA	"scaffolding"	"lexical resource"	NA	NA	10
+"2020-10-22T13:16:55+00:00+00:00+00:00"	"student015"	"student"	"145"	"They know they will die, but they do not afraid."	"They know they will die, but they are not afraid."	142	NA	NA	NA	NA	NA	10
+"2020-10-22T13:17:07+00:00+00:00+00:00"	"teacher008"	"teacher"	"146"	"Yes, they are not afraid"	"Yes, they are not afraid"	NA	NA	"repair"	"grammatical resource"	NA	NA	5
+"2020-10-22T13:17:10+00:00+00:00+00:00"	"student015"	"student"	"147"	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:17:25+00:00+00:00+00:00"	"teacher008"	"teacher"	"148"	"Well, I think they were afraid, but they knew they had to do it anyway"	"Well, I think they were afraid, but they knew they had to do it anyway"	NA	NA	NA	NA	NA	NA	15
+"2020-10-22T13:17:45+00:00+00:00+00:00"	"teacher008"	"teacher"	"149"	"actually, to dig for coal = to mine coal"	"actually, to dig for coal = to mine coal"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+"2020-10-22T13:18:00+00:00+00:00+00:00"	"student015"	"student"	"150"	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:18:03+00:00+00:00+00:00"	"teacher008"	"teacher"	"151"	"The place underground where coal and other things are mined is called a mine"	"The place underground where coal and other things are mined is called a mine"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+"2020-10-22T13:18:24+00:00+00:00+00:00"	"student015"	"student"	"152"	"I think I know, haha."	"I think I know, haha."	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T13:18:43+00:00+00:00+00:00"	"teacher008"	"teacher"	"153"	"So 'mine' can be a verb and a noun. An action of digging for coal etc. and a place where it happens"	"So 'mine' can be a verb and a noun. An action of digging for coal etc. and a place where it happens"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+"2020-10-22T13:18:51+00:00+00:00+00:00"	"student015"	"student"	"154"	"In my subject, we often talk about data mining. hah"	"In my subject, we often talk about data mining. hah"	NA	"5e"	"topic development"	"lexical resource"	NA	NA	10
+"2020-10-22T13:19:12+00:00+00:00+00:00"	"teacher008"	"teacher"	"155"	"Ah, good one! Of course!"	"Ah, good one! Of course!"	NA	NA	NA	NA	NA	NA	5
+"2020-10-22T13:19:25+00:00+00:00+00:00"	"teacher008"	"teacher"	"156"	"Does it mean you find the data?"	"Does it mean you find the data?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	7
+"2020-10-22T13:20:11+00:00+00:00+00:00"	"student015"	"student"	"157"	"NO. it;s means find something valuble from the data."	"NO. it means to find something valuable from the data."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+"2020-10-22T13:20:18+00:00+00:00+00:00"	"student015"	"student"	"158"	"Maybe huge of data"	"Maybe a huge amount of data"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+"2020-10-22T13:20:33+00:00+00:00+00:00"	"teacher008"	"teacher"	"159"	"Got you. Like people mine the ground for coal / salt / gold etc."	"Got you. Like people mine the ground for coal / salt / gold etc."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+"2020-10-22T13:20:34+00:00+00:00+00:00"	"student015"	"student"	"160"	"valuable"	"valuable"	157	NA	"repair"	"writing"	NA	NA	1
+"2020-10-22T13:20:43+00:00+00:00+00:00"	"student015"	"student"	"161"	"Yes!"	"Yes!"	159	NA	NA	NA	NA	NA	1
+"2020-10-22T13:20:43+00:00+00:00+00:00"	"teacher008"	"teacher"	"162"	"Got you! Interesting!"	"Got you! Interesting!"	NA	NA	NA	NA	NA	NA	3
+"2020-10-22T13:21:10+00:00+00:00+00:00"	"student015"	"student"	"163"	"So nowadays we call it data Science."	"So nowadays we call it data science."	NA	NA	"scaffolding"	"lexical resource,meaning,world knowledge"	NA	NA	7
+"2020-10-22T13:21:15+00:00+00:00+00:00"	"teacher008"	"teacher"	"164"	"There are a lot of miners' cities in China if I'm not mistaken. Is that right?"	"There are a lot of miners' cities in China if I'm not mistaken. Is that right?"	NA	"5f"	"topic development"	"lexical resource"	NA	NA	16
+"2020-10-22T13:21:26+00:00+00:00+00:00"	"student015"	"student"	"165"	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:21:28+00:00+00:00+00:00"	"teacher008"	"teacher"	"166"	"I see! We're learning from each other :)"	"I see! We're learning from each other :)"	NA	NA	NA	NA	NA	NA	8
+"2020-10-22T13:21:33+00:00+00:00+00:00"	"teacher008"	"teacher"	"167"	"Same in Ukraine!"	"Same in Ukraine!"	NA	NA	NA	NA	NA	NA	3
+"2020-10-22T13:21:37+00:00+00:00+00:00"	"student015"	"student"	"168"	"Shanxi is the bigest"	"Shanxi is the biggest"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T13:22:37+00:00+00:00+00:00"	"teacher008"	"teacher"	"169"	"There used to be mines and miners in the UK, but now the UK is importing all its fossil fuels I think. Maybe apart from natural gas. And now it wants to only be using the renewables!"	"There used to be mines and miners in the UK, but now the UK is importing all its fossil fuels I think. Maybe apart from natural gas. And now it wants to only be using the renewables!"	NA	NA	NA	NA	NA	NA	37
+"2020-10-22T13:23:04+00:00+00:00+00:00"	"student015"	"student"	"170"	"Sorry you are not in Shanghai anymore. I will go to Shanghai to be a research assistant."	"Sorry you are not in Shanghai anymore. I'm going to Shanghai to be a research assistant."	NA	"6.0"	"topic opening"	NA	NA	NA	17
+"2020-10-22T13:23:24+00:00+00:00+00:00"	"teacher008"	"teacher"	"171"	"I know! Such a gorgeous city! Have you been there before?"	"I know! Such a gorgeous city! Have you been there before?"	NA	NA	NA	NA	NA	NA	11
+"2020-10-22T13:23:36+00:00+00:00+00:00"	"teacher008"	"teacher"	"172"	"And when are you going to Shanghai?"	"And when are you going to Shanghai?"	NA	NA	NA	NA	NA	NA	7
+"2020-10-22T13:23:40+00:00+00:00+00:00"	"student015"	"student"	"173"	"Yes."	"Yes."	171	NA	NA	NA	NA	NA	1
+"2020-10-22T13:24:27+00:00+00:00+00:00"	"student015"	"student"	"174"	"Probably in November"	"Probably in November"	172	NA	NA	NA	NA	NA	3
+"2020-10-22T13:24:35+00:00+00:00+00:00"	"teacher008"	"teacher"	"175"	"Exciting!"	"Exciting!"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:24:42+00:00+00:00+00:00"	"student015"	"student"	"176"	"I'm working on the application things."	"I'm working on the application"	NA	NA	NA	NA	NA	NA	6
+"2020-10-22T13:24:54+00:00+00:00+00:00"	"teacher008"	"teacher"	"177"	"Good luck with that!"	"Good luck with that!"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T13:25:16+00:00+00:00+00:00"	"teacher008"	"teacher"	"178"	"What are you most looking forward to about your move?"	"What are you most looking forward to about your move?"	NA	"6a"	"topic development"	NA	NA	NA	10
+"2020-10-22T13:25:16+00:00+00:00+00:00"	"student015"	"student"	"179"	"But the school's procedures are too slow"	"But the school's procedures are too slow"	176	NA	NA	NA	NA	NA	7
+"2020-10-22T13:25:19+00:00+00:00+00:00"	"student015"	"student"	"180"	"Thanks"	"Thanks"	177	NA	NA	NA	NA	NA	1
+"2020-10-22T13:25:29+00:00+00:00+00:00"	"teacher008"	"teacher"	"181"	"Oh, I know! In all countries I think"	"Oh, I know! In all countries I think"	179	NA	NA	NA	NA	NA	8
+"2020-10-22T13:25:58+00:00+00:00+00:00"	"student015"	"student"	"182"	"Next year, I will be a PHD in Fudan university"	"Next year, I will be a PHD at Fudan university"	178	NA	NA	NA	NA	NA	10
+"2020-10-22T13:26:15+00:00+00:00+00:00"	"teacher008"	"teacher"	"183"	"Amazing!"	"Amazing!"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:26:42+00:00+00:00+00:00"	"student015"	"student"	"184"	"Thanks"	"Thanks"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:27:53+00:00+00:00+00:00"	"teacher008"	"teacher"	"185"	"Oh, I've got to say. I'm going to take the next week off. It's my son's first school holiday! So I can't offer you a class next week, but we can resume classes in November. In fact, if you have the time and wish so, I can offer you two classes a week in November"	"Oh, I've got to say. I'm going to take the next week off. It's my son's first school holiday! So I can't offer you a class next week, but we can resume classes in November. In fact, if you have the time and wish so, I can offer you two classes a week in November"	NA	"7.0"	"topic opening"	NA	NA	NA	55
+"2020-10-22T13:28:11+00:00+00:00+00:00"	"student015"	"student"	"186"	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+"2020-10-22T13:28:23+00:00+00:00+00:00"	"student015"	"student"	"187"	"Thanks a lot"	"Thanks a lot"	185	NA	NA	NA	NA	NA	3
+"2020-10-22T13:28:32+00:00+00:00+00:00"	"student015"	"student"	"188"	"Good luck for you son"	"Good luck to you son"	185	NA	NA	NA	NA	NA	5
+"2020-10-22T13:28:36+00:00+00:00+00:00"	"teacher008"	"teacher"	"189"	"Would you be interested in classes twice a week?"	"Would you be interested in classes twice a week?"	NA	NA	"enquiry"	NA	NA	NA	9
+"2020-10-22T13:28:38+00:00+00:00+00:00"	"teacher008"	"teacher"	"190"	"Thank you :)"	"Thank you :)"	188	NA	NA	NA	NA	NA	3
+"2020-10-22T13:28:51+00:00+00:00+00:00"	"student015"	"student"	"191"	"Ok. I think no problem"	"Ok. I think no problem"	189	NA	NA	NA	NA	NA	5
+"2020-10-22T13:29:09+00:00+00:00+00:00"	"teacher008"	"teacher"	"192"	"Ok, lovely, I'll email you the times to choose from later on then."	"Ok, lovely, I'll email you the times to choose from later on then."	NA	NA	NA	NA	NA	NA	13
+"2020-10-22T13:29:32+00:00+00:00+00:00"	"teacher008"	"teacher"	"193"	"Good luck with your application, hope it'll all happen fast for you!"	"Good luck with your application, hope it'll all happen fast for you!"	NA	NA	NA	NA	NA	NA	12
+"2020-10-22T13:29:32+00:00+00:00+00:00"	"student015"	"student"	"194"	"Ok. We can depend on your time"	"Ok. We can, depending on your time"	191	NA	NA	NA	NA	NA	7
+"2020-10-22T13:29:40+00:00+00:00+00:00"	"teacher008"	"teacher"	"195"	"Ok, thank you"	"Ok, thank you"	NA	NA	NA	NA	NA	NA	3
+"2020-10-22T13:29:41+00:00+00:00+00:00"	"student015"	"student"	"196"	"Really thanks a lot"	"Really thanks a lot"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T13:29:48+00:00+00:00+00:00"	"teacher008"	"teacher"	"197"	"You're very welcome!"	"You're very welcome!"	NA	NA	NA	NA	NA	NA	3
+"2020-10-22T13:29:56+00:00+00:00+00:00"	"teacher008"	"teacher"	"198"	"Take care <STUDENT>, bye!"	"Take care <STUDENT>, bye!"	NA	NA	NA	NA	NA	NA	4
+"2020-10-22T13:30:00+00:00+00:00+00:00"	"student015"	"student"	"199"	"Bye"	"Bye"	NA	NA	NA	NA	NA	"B2"	1

@@ -1,0 +1,239 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2020-11-17T13:30:34+00:00+00:00+00:00"	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+"2020-11-17T13:30:46+00:00+00:00+00:00"	"teacher008"	"teacher"	2	"Hi <STUDENT> !"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:30:49+00:00+00:00+00:00"	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+"2020-11-17T13:30:57+00:00+00:00+00:00"	"student009"	"student"	4	"I am fine"	"I am fine"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:31:03+00:00+00:00+00:00"	"student009"	"student"	5	"and you?"	"and you?"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:31:09+00:00+00:00+00:00"	"teacher008"	"teacher"	6	"Fine, thank you!"	"Fine, thank you!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:31:22+00:00+00:00+00:00"	"teacher008"	"teacher"	7	"Did you meet the puppy on Friday? Has it got a name yet?"	"Did you meet the puppy on Friday? Has it got a name yet?"	NA	"2a"	"topic development"	NA	NA	NA	13
+"2020-11-17T13:31:40+00:00+00:00+00:00"	"student009"	"student"	8	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:31:43+00:00+00:00+00:00"	"student009"	"student"	9	"i did"	"i did"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:31:54+00:00+00:00+00:00"	"student009"	"student"	10	"his name is <DOG'S NAME>"	"his name is <DOG'S NAME>"	NA	NA	NA	NA	NA	NA	5
+"2020-11-17T13:32:11+00:00+00:00+00:00"	"student009"	"student"	11	"it is Azerbaijanian name"	"it is an Azerbaijani name"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:32:18+00:00+00:00+00:00"	"student009"	"student"	12	"i think"	"I think"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:32:35+00:00+00:00+00:00"	"teacher008"	"teacher"	13	"Tjat"	"Tjat"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:32:38+00:00+00:00+00:00"	"teacher008"	"teacher"	14	"Sorry!"	"Sorry!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:32:45+00:00+00:00+00:00"	"teacher008"	"teacher"	15	"That's a nice name!"	"That's a nice name!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:32:49+00:00+00:00+00:00"	"teacher008"	"teacher"	16	"Was he super cute?"	"Was he super cute?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:32:54+00:00+00:00+00:00"	"student009"	"student"	17	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:33:28+00:00+00:00+00:00"	"student009"	"student"	18	"he was biting my leg a lot )"	"he was biting my leg a lot )"	NA	NA	NA	NA	NA	NA	8
+"2020-11-17T13:33:30+00:00+00:00+00:00"	"teacher008"	"teacher"	19	"I heard there's now a 'weekend lockdown' in force in Kyiv, is that right?"	"I heard there's now a 'weekend lockdown' in force in Kyiv, is that right?"	NA	"2b"	"topic development"	NA	NA	NA	14
+"2020-11-17T13:33:41+00:00+00:00+00:00"	"student009"	"student"	20	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:33:41+00:00+00:00+00:00"	"teacher008"	"teacher"	21	"Ah, puppies do that, don't they :)"	"Ah, puppies do that, don't they :)"	18	NA	NA	NA	NA	NA	7
+"2020-11-17T13:34:05+00:00+00:00+00:00"	"student009"	"student"	22	"I don't really know anything about that"	"I don't really know anything about that"	20	NA	NA	NA	NA	NA	7
+"2020-11-17T13:34:17+00:00+00:00+00:00"	"teacher008"	"teacher"	23	"Is it not affecting your life very much?"	"Is it not affecting your life very much?"	NA	NA	NA	NA	NA	NA	8
+"2020-11-17T13:34:24+00:00+00:00+00:00"	"student009"	"student"	24	"about lockdown"	"about the lockdown"	22	NA	NA	NA	NA	NA	2
+"2020-11-17T13:34:31+00:00+00:00+00:00"	"student009"	"student"	25	"no"	"no"	23	NA	NA	NA	NA	NA	1
+"2020-11-17T13:34:38+00:00+00:00+00:00"	"student009"	"student"	26	"on this weekend no"	"not this weekend"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:35:30+00:00+00:00+00:00"	"teacher008"	"teacher"	27	"Fair enough! Are your extra classes still open? The acting, the English, the coding and logic?"	"Fair enough! Are your extra classes still open? The acting, the English, the coding and logic?"	NA	NA	NA	NA	NA	NA	16
+"2020-11-17T13:35:58+00:00+00:00+00:00"	"student009"	"student"	28	"we had logic online this time"	"we had logic online this time"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T13:36:20+00:00+00:00+00:00"	"student009"	"student"	29	"they rent university , and it was closed"	"they rent some classrooms at a university, and it was closed"	NA	NA	NA	NA	NA	NA	8
+"2020-11-17T13:36:44+00:00+00:00+00:00"	"student009"	"student"	30	"so we had online because of that"	"so we had it online because of that"	NA	NA	NA	NA	NA	NA	7
+"2020-11-17T13:36:55+00:00+00:00+00:00"	"teacher008"	"teacher"	41	"oh, they are renting a classroom at  a university?"	"oh, they are renting a classroom at  a university?"	NA	NA	"repair"	"lexical resource"	NA	NA	10
+"2020-11-17T13:36:58+00:00+00:00+00:00"	"student009"	"student"	42	"ooops"	"ooops"	NA	"2c"	"disruption"	NA	NA	NA	1
+"2020-11-17T13:37:01+00:00+00:00+00:00"	"student009"	"student"	43	"yes"	"yes"	41	NA	NA	NA	NA	NA	1
+"2020-11-17T13:37:14+00:00+00:00+00:00"	"student009"	"student"	44	"a lot of classrooms"	"a lot of classrooms"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:37:21+00:00+00:00+00:00"	"teacher008"	"teacher"	45	"No worries, this chatroom does that when there's a glitch with the Internet"	"No worries, this chatroom does that when there's a glitch with the Internet"	42	NA	NA	NA	NA	NA	13
+"2020-11-17T13:37:38+00:00+00:00+00:00"	"student009"	"student"	46	"IT IS SNOWWW"	"IT IS SNOWWWING"	NA	"3.0"	"topic opening"	NA	NA	NA	3
+"2020-11-17T13:37:40+00:00+00:00+00:00"	"teacher008"	"teacher"	47	"Cool! Are you still enjoying acting?"	"Cool! Are you still enjoying acting?"	44	NA	NA	NA	NA	NA	6
+"2020-11-17T13:37:47+00:00+00:00+00:00"	"student009"	"student"	48	"it is snowing right now!!!"	"it is snowing right now!!!"	46	NA	NA	NA	NA	NA	5
+"2020-11-17T13:37:49+00:00+00:00+00:00"	"teacher008"	"teacher"	49	"Oh really??????"	"Oh really??????"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:37:51+00:00+00:00+00:00"	"student009"	"student"	51	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:37:59+00:00+00:00+00:00"	"teacher008"	"teacher"	52	"Oh my God, I'm so jealous!!"	"Oh my God, I'm so jealous!!"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T13:38:03+00:00+00:00+00:00"	"teacher008"	"teacher"	53	"It must be beautiful"	"It must be beautiful"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:38:11+00:00+00:00+00:00"	"student009"	"student"	54	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:38:19+00:00+00:00+00:00"	"student009"	"student"	55	"that's because of rain"	"that's because of the rain"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:38:31+00:00+00:00+00:00"	"teacher008"	"teacher"	56	"Is it sub zero? It is going to set?"	"Is it sub zero? It is going to set?"	NA	NA	NA	NA	NA	NA	9
+"2020-11-17T13:38:34+00:00+00:00+00:00"	"student009"	"student"	57	"firstly it was rain"	"at first it rained"	55	NA	NA	NA	NA	NA	4
+"2020-11-17T13:38:47+00:00+00:00+00:00"	"student009"	"student"	58	"but now it is snowing"	"but now it is snowing"	NA	NA	NA	NA	NA	NA	5
+"2020-11-17T13:38:56+00:00+00:00+00:00"	"teacher008"	"teacher"	59	"aha, but then the situation changed, so you need ____, not firstly :)"	"aha, but then the situation changed, so you need ____, not firstly :)"	NA	"3a"	"eliciting,repair"	"lexical resource"	NA	NA	13
+"2020-11-17T13:38:59+00:00+00:00+00:00"	"student009"	"student"	60	"so it is not like really good snow"	"so it is not like a really good snow"	58	NA	NA	NA	NA	NA	8
+"2020-11-17T13:40:10+00:00+00:00+00:00"	"student009"	"student"	61	"mmm"	"mmm"	59	NA	NA	NA	NA	NA	1
+"2020-11-17T13:40:12+00:00+00:00+00:00"	"teacher008"	"teacher"	62	"Can you remember what we use if the situation changes? __ ___"	"Can you remember what we use if the situation changes? __ ___"	NA	NA	"eliciting"	"lexical resource"	NA	NA	12
+"2020-11-17T13:40:16+00:00+00:00+00:00"	"teacher008"	"teacher"	63	"at first!"	"at first!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+"2020-11-17T13:40:26+00:00+00:00+00:00"	"student009"	"student"	64	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:40:29+00:00+00:00+00:00"	"teacher008"	"teacher"	65	"Could you make a full sentence, please, about the rain and the snow"	"Could you make a full sentence, please, about the rain and the snow"	NA	NA	"eliciting"	"lexical resource"	NA	NA	13
+"2020-11-17T13:41:22+00:00+00:00+00:00"	"student009"	"student"	66	"at first it was raining ,but now it is snowing"	"at first it was raining, but now it is snowing"	NA	NA	NA	NA	NA	NA	10
+"2020-11-17T13:41:33+00:00+00:00+00:00"	"teacher008"	"teacher"	67	"Perfect :)"	"Perfect :)"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:41:42+00:00+00:00+00:00"	"teacher008"	"teacher"	68	"It must look magical!"	"It must look magical!"	NA	"3b"	"topic development"	NA	NA	NA	4
+"2020-11-17T13:41:51+00:00+00:00+00:00"	"student009"	"student"	69	"a bit"	"a bit"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:41:58+00:00+00:00+00:00"	"student009"	"student"	70	"for you yes)"	"for you yes)"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:42:24+00:00+00:00+00:00"	"student009"	"student"	71	"for me it is a bit usual thing for November"	"for me it is a bit of a usual thing for November"	NA	NA	NA	NA	NA	NA	10
+"2020-11-17T13:42:34+00:00+00:00+00:00"	"teacher008"	"teacher"	72	"Oh yes, I really hope we'll get at least a day of snow this winter"	"Oh yes, I really hope we'll get at least a day of snow this winter"	NA	NA	NA	NA	NA	NA	15
+"2020-11-17T13:42:44+00:00+00:00+00:00"	"teacher008"	"teacher"	73	"I know :)"	"I know :)"	71	NA	NA	NA	NA	NA	3
+"2020-11-17T13:43:00+00:00+00:00+00:00"	"student009"	"student"	74	"my dad isn't really happy about that"	"my dad isn't really happy about that"	NA	NA	NA	NA	NA	NA	7
+"2020-11-17T13:43:10+00:00+00:00+00:00"	"teacher008"	"teacher"	75	"Even though we're much further north than Kyiv!"	"Even though we're much further north than Kyiv!"	72	NA	NA	NA	NA	NA	8
+"2020-11-17T13:43:15+00:00+00:00+00:00"	"teacher008"	"teacher"	76	"No, why not?"	"No, why not?"	74	NA	NA	NA	NA	NA	3
+"2020-11-17T13:43:27+00:00+00:00+00:00"	"student009"	"student"	77	"he washed his car today"	"he washed his car today"	NA	NA	NA	NA	NA	NA	5
+"2020-11-17T13:43:45+00:00+00:00+00:00"	"student009"	"student"	78	"it is not clean anymore)"	"it is not clean anymore)"	NA	NA	NA	NA	NA	NA	5
+"2020-11-17T13:44:35+00:00+00:00+00:00"	"teacher008"	"teacher"	79	"It must be disappointing for him!"	"It must be disappointing for him!"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T13:44:43+00:00+00:00+00:00"	"student009"	"student"	80	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:44:57+00:00+00:00+00:00"	"teacher008"	"teacher"	81	"Speaking of magic, shall we do a bit of HP stuff today?"	"Speaking of magic, shall we do a bit of HP stuff today?"	NA	"4.0"	"topic opening"	"lexical resource"	NA	NA	12
+"2020-11-17T13:45:27+00:00+00:00+00:00"	"student009"	"student"	82	"I don't mind)"	"I don't mind)"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:45:32+00:00+00:00+00:00"	"teacher008"	"teacher"	83	"Good!"	"Good!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:45:54+00:00+00:00+00:00"	"teacher008"	"teacher"	84	"So, as you know, there are 4 houses in Hogwarts"	"So, as you know, there are 4 houses in Hogwarts"	NA	NA	NA	NA	NA	NA	10
+"2020-11-17T13:46:02+00:00+00:00+00:00"	"student009"	"student"	85	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:46:04+00:00+00:00+00:00"	"teacher008"	"teacher"	86	"And how do students get into those houses?"	"And how do students get into those houses?"	NA	NA	NA	NA	NA	NA	8
+"2020-11-17T13:46:14+00:00+00:00+00:00"	"student009"	"student"	87	"magic hat"	"magic hat"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:46:38+00:00+00:00+00:00"	"teacher008"	"teacher"	88	"Yes, it's called the Sorting Hat"	"Yes, it's called the Sorting Hat"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T13:46:46+00:00+00:00+00:00"	"teacher008"	"teacher"	89	"because it sorts students into houses"	"because it sorts students into houses"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T13:47:31+00:00+00:00+00:00"	"teacher008"	"teacher"	90	"What kind of students got sorted into Gryffindor?"	"What kind of students got sorted into Gryffindor?"	NA	"4a"	"eliciting"	"lexical resource"	NA	NA	8
+"2020-11-17T13:47:43+00:00+00:00+00:00"	"student009"	"student"	91	"brave"	"brave"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:48:44+00:00+00:00+00:00"	"teacher008"	"teacher"	92	"Yes! Do you know of any other ways to say 'brave' in English?"	"Yes! Do you know of any other ways to say 'brave' in English?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	13
+"2020-11-17T13:48:54+00:00+00:00+00:00"	"student009"	"student"	93	"um"	"um"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:49:12+00:00+00:00+00:00"	"student009"	"student"	94	"i forgot ("	"I forgot ("	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:49:30+00:00+00:00+00:00"	"teacher008"	"teacher"	95	"There's also 'courageous'"	"There's also 'courageous'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+"2020-11-17T13:49:31+00:00+00:00+00:00"	"teacher008"	"teacher"	96	"kəˈreɪ.dʒəs"	"kəˈreɪ.dʒəs"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+"2020-11-17T13:49:54+00:00+00:00+00:00"	"student009"	"student"	97	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:49:55+00:00+00:00+00:00"	"teacher008"	"teacher"	98	"courageous = adjective;  courage = noun"	"courageous = adjective;  courage = noun"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+"2020-11-17T13:50:13+00:00+00:00+00:00"	"student009"	"student"	99	"I know it"	"I know it"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:50:20+00:00+00:00+00:00"	"teacher008"	"teacher"	100	"For example, it takes a lot of courage to stand up to a person in power"	"For example, it takes a lot of courage to stand up to a person in power"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+"2020-11-17T13:50:31+00:00+00:00+00:00"	"teacher008"	"teacher"	101	"Ok, what's the noun for 'brave' then?"	"Ok, what's the noun for 'brave' then?"	NA	"4b"	"eliciting"	"lexical resource"	NA	NA	7
+"2020-11-17T13:50:40+00:00+00:00+00:00"	"teacher008"	"teacher"	102	"brave = adj.; ?? = noun"	"brave = adj.; ?? = noun"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T13:50:47+00:00+00:00+00:00"	"student009"	"student"	103	"bravery"	"bravery"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:50:54+00:00+00:00+00:00"	"teacher008"	"teacher"	104	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:51:04+00:00+00:00+00:00"	"teacher008"	"teacher"	105	"and what's the opposite of courage and bravery?"	"and what's the opposite of courage and bravery?"	NA	"4c"	"eliciting"	"lexical resource"	NA	NA	8
+"2020-11-17T13:51:12+00:00+00:00+00:00"	"student009"	"student"	106	"i know it from IH"	"i know it from <LANGUAGE SCHOOL>"	104	NA	NA	NA	NA	NA	5
+"2020-11-17T13:51:21+00:00+00:00+00:00"	"teacher008"	"teacher"	107	"good :)"	"good :)"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:51:26+00:00+00:00+00:00"	"student009"	"student"	108	"bn"	"bn"	105	NA	NA	NA	NA	NA	1
+"2020-11-17T13:51:29+00:00+00:00+00:00"	"student009"	"student"	111	"oy"	"oy"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:51:34+00:00+00:00+00:00"	"student009"	"student"	112	"hmmmm"	"hmmmm"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:52:18+00:00+00:00+00:00"	"teacher008"	"teacher"	113	"the behaviour of someone who is not brave and tries to avoid danger"	"the behaviour of someone who is not brave and tries to avoid danger"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	13
+"2020-11-17T13:52:25+00:00+00:00+00:00"	"teacher008"	"teacher"	114	"cowardice"	"cowardice"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+"2020-11-17T13:52:27+00:00+00:00+00:00"	"teacher008"	"teacher"	115	"ˈkaʊ.ə.dɪs"	"ˈkaʊ.ə.dɪs"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+"2020-11-17T13:52:28+00:00+00:00+00:00"	"student009"	"student"	116	"i know fear"	"I know fear"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:52:34+00:00+00:00+00:00"	"teacher008"	"teacher"	117	"also a noun"	"also a noun"	115	NA	NA	NA	NA	NA	3
+"2020-11-17T13:52:46+00:00+00:00+00:00"	"student009"	"student"	118	"i didn't know iy"	"I didn't know it"	116	NA	NA	NA	NA	NA	4
+"2020-11-17T13:53:11+00:00+00:00+00:00"	"teacher008"	"teacher"	119	"Yes, fear is an emotion we feel. But when we feel fear, we can be brave and still do something that frightens us"	"Yes, fear is an emotion we feel. But when we feel fear, we can be brave and still do something that frightens us"	NA	NA	NA	NA	NA	NA	23
+"2020-11-17T13:53:20+00:00+00:00+00:00"	"teacher008"	"teacher"	120	"or we can be 'cowardly' and not do it"	"or we can be 'cowardly' and not do it"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+"2020-11-17T13:53:26+00:00+00:00+00:00"	"teacher008"	"teacher"	121	"cowardly = adjective"	"cowardly = adjective"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+"2020-11-17T13:53:50+00:00+00:00+00:00"	"teacher008"	"teacher"	122	"Obviously, some people call it 'cautious' :)"	"Obviously, some people call it 'cautious' :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+"2020-11-17T13:54:13+00:00+00:00+00:00"	"teacher008"	"teacher"	123	"and a person who is not brave, is a coward"	"and a person who is not brave, is a coward"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+"2020-11-17T13:54:29+00:00+00:00+00:00"	"teacher008"	"teacher"	124	"no one likes being called a coward :)"	"no one likes being called a coward :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+"2020-11-17T13:54:43+00:00+00:00+00:00"	"student009"	"student"	125	"yeaaah"	"yeaaah"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:54:48+00:00+00:00+00:00"	"teacher008"	"teacher"	126	"Is there anyone in the HP stories that you would call a coward?"	"Is there anyone in the HP stories that you would call a coward?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	13
+"2020-11-17T13:54:54+00:00+00:00+00:00"	"student009"	"student"	127	"makes sense"	"makes sense"	125	NA	NA	NA	NA	NA	2
+"2020-11-17T13:55:30+00:00+00:00+00:00"	"student009"	"student"	128	"tail"	"tail"	126	NA	NA	NA	NA	NA	1
+"2020-11-17T13:55:51+00:00+00:00+00:00"	"teacher008"	"teacher"	129	"oh, Wormtail?"	"oh, Wormtail?"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T13:55:56+00:00+00:00+00:00"	"teacher008"	"teacher"	130	"absolutely, I agree!"	"absolutely, I agree!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T13:56:07+00:00+00:00+00:00"	"student009"	"student"	131	"Peter( i think) Petigru"	"Peter (I think) Pettigrew"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:56:11+00:00+00:00+00:00"	"student009"	"student"	132	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:56:23+00:00+00:00+00:00"	"teacher008"	"teacher"	133	"yep, I'm with you!"	"yep, I'm with you!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T13:56:25+00:00+00:00+00:00"	"student009"	"student"	134	"how to spell his surname?"	"how to spell his surname?"	NA	NA	"enquiry"	"writing"	NA	NA	5
+"2020-11-17T13:56:41+00:00+00:00+00:00"	"teacher008"	"teacher"	135	"Peter Pettigrew I think"	"Peter Pettigrew I think"	NA	NA	"scaffolding"	"writing"	NA	NA	4
+"2020-11-17T13:57:02+00:00+00:00+00:00"	"student009"	"student"	136	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T13:57:38+00:00+00:00+00:00"	"teacher008"	"teacher"	137	"also, if you're brave enough to do something, we can say that you 'dare' do it"	"also, if you're brave enough to do something, we can say that you 'dare' do it"	NA	"4d"	"scaffolding"	"lexical resource"	NA	NA	16
+"2020-11-17T13:58:19+00:00+00:00+00:00"	"teacher008"	"teacher"	138	"For example, nobody likes how this teacher talks to the class, but nobody dares stand up to her"	"For example, nobody likes how this teacher talks to the class, but nobody dares stand up to her"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+"2020-11-17T13:58:38+00:00+00:00+00:00"	"teacher008"	"teacher"	139	"Or 'I wanted to know how old he was but I didn't dare ask'"	"Or 'I wanted to know how old he was but I didn't dare ask'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+"2020-11-17T13:58:54+00:00+00:00+00:00"	"teacher008"	"teacher"	140	"and the adjective is 'daring'"	"and the adjective is 'daring'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+"2020-11-17T13:59:08+00:00+00:00+00:00"	"teacher008"	"teacher"	141	"brave / courageous / daring"	"brave / courageous / daring"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+"2020-11-17T13:59:14+00:00+00:00+00:00"	"teacher008"	"teacher"	142	"very close meaning"	"very close meaning"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T14:01:03+00:00+00:00+00:00"	"teacher008"	"teacher"	143	"Ok, that's for Gryffindor qualities then"	"Ok, that's for Gryffindor qualities then"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T14:01:14+00:00+00:00+00:00"	"teacher008"	"teacher"	144	"What about Ravenclaw? What are students like there?"	"What about Ravenclaw? What are students like there?"	NA	"4e"	"eliciting"	"lexical resource"	NA	NA	8
+"2020-11-17T14:01:22+00:00+00:00+00:00"	"student009"	"student"	145	"smart"	"smart"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:01:44+00:00+00:00+00:00"	"teacher008"	"teacher"	146	"Ok! Any synonyms to smart?"	"Ok! Any synonyms to smart?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	5
+"2020-11-17T14:01:55+00:00+00:00+00:00"	"student009"	"student"	147	"clever"	"clever"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:02:06+00:00+00:00+00:00"	"teacher008"	"teacher"	148	"Yes, and..."	"Yes, and..."	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+"2020-11-17T14:02:16+00:00+00:00+00:00"	"teacher008"	"teacher"	149	"i.........."	"i.........."	NA	NA	"eliciting"	"lexical resource"	NA	NA	1
+"2020-11-17T14:02:21+00:00+00:00+00:00"	"student009"	"student"	150	"intelligent!"	"intelligent!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:02:28+00:00+00:00+00:00"	"teacher008"	"teacher"	151	"Yes :)"	"Yes :)"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T14:02:29+00:00+00:00+00:00"	"student009"	"student"	152	"i was typing"	"I was typing"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T14:02:52+00:00+00:00+00:00"	"teacher008"	"teacher"	153	"Well done :)"	"Well done :)"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T14:03:04+00:00+00:00+00:00"	"teacher008"	"teacher"	154	"Ok, what about Slytherin?"	"Ok, what about Slytherin?"	NA	"4f"	"eliciting"	"lexical resource"	NA	NA	4
+"2020-11-17T14:03:35+00:00+00:00+00:00"	"student009"	"student"	155	"they are also clever, but not like ravenclaw"	"they are also clever, but not like Ravenclaw"	NA	NA	NA	NA	NA	NA	8
+"2020-11-17T14:03:46+00:00+00:00+00:00"	"student009"	"student"	156	"I forgot the words:("	"I forgot the words:("	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T14:03:56+00:00+00:00+00:00"	"teacher008"	"teacher"	157	"ok, they are amitious, right?"	"ok, they are amitious, right?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+"2020-11-17T14:04:04+00:00+00:00+00:00"	"student009"	"student"	158	"yesss"	"yesss"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:04:23+00:00+00:00+00:00"	"teacher008"	"teacher"	159	"oh sorry, *ambitious"	"oh sorry, *ambitious"	157	NA	"repair"	"writing"	NA	NA	3
+"2020-11-17T14:04:34+00:00+00:00+00:00"	"teacher008"	"teacher"	160	"which is generally a good quality :)"	"which is generally a good quality :)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+"2020-11-17T14:04:40+00:00+00:00+00:00"	"student009"	"student"	161	"i noticed ypur mistake"	"I noticed your mistake"	159	NA	NA	NA	NA	NA	4
+"2020-11-17T14:04:43+00:00+00:00+00:00"	"teacher008"	"teacher"	162	"when you want to achieve something in life"	"when you want to achieve something in life"	160	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+"2020-11-17T14:04:47+00:00+00:00+00:00"	"teacher008"	"teacher"	163	"well done :)"	"well done :)"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T14:04:47+00:00+00:00+00:00"	"student009"	"student"	164	"I am on Slytherin"	"I am in Slytherin"	NA	"4g"	"topic development"	NA	NA	NA	4
+"2020-11-17T14:05:15+00:00+00:00+00:00"	"teacher008"	"teacher"	165	"what do you mean? (I'm going to ask you what you mean to get longer sentences out of you :))"	"what do you mean? (I'm going to ask you what you mean to get longer sentences out of you :))"	NA	NA	"eliciting"	NA	NA	NA	20
+"2020-11-17T14:06:03+00:00+00:00+00:00"	"student009"	"student"	166	"Slytherin is my favorite house, so I think sorting hat should sort me there)"	"Slytherin is my favorite house, so I think the Sorting Hat should sort me there)"	NA	NA	NA	NA	NA	NA	14
+"2020-11-17T14:06:19+00:00+00:00+00:00"	"student009"	"student"	167	"(also i like Draco , but it doesn't matter)"	"(also I like Draco , but it doesn't matter)"	NA	NA	NA	NA	NA	NA	9
+"2020-11-17T14:06:42+00:00+00:00+00:00"	"teacher008"	"teacher"	168	"Ah, good sentence, thank you! And very interesting!"	"Ah, good sentence, thank you! And very interesting!"	166	NA	NA	NA	NA	NA	8
+"2020-11-17T14:06:53+00:00+00:00+00:00"	"teacher008"	"teacher"	169	"I'll give you some more words, and you tell me why :)"	"I'll give you some more words, and you tell me why :)"	NA	"4h"	"scaffolding"	"lexical resource"	NA	NA	12
+"2020-11-17T14:07:47+00:00+00:00+00:00"	"teacher008"	"teacher"	170	"cunning = adjective; clever at getting what you want, sometimes by tricking people"	"cunning = adjective; clever at getting what you want, sometimes by tricking people"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+"2020-11-17T14:07:54+00:00+00:00+00:00"	"teacher008"	"teacher"	171	"like a cunning fox from fairy tales"	"like a cunning fox from fairy tales"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+"2020-11-17T14:08:21+00:00+00:00+00:00"	"student009"	"student"	172	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:08:37+00:00+00:00+00:00"	"student009"	"student"	173	"i wanted to say it"	"I wanted to say it"	NA	NA	NA	NA	NA	NA	5
+"2020-11-17T14:09:00+00:00+00:00+00:00"	"teacher008"	"teacher"	174	"Yes! So why would you like to be in Slytherin?"	"Yes! So why would you like to be in Slytherin?"	NA	"4i"	"topic development"	NA	NA	NA	10
+"2020-11-17T14:09:07+00:00+00:00+00:00"	"student009"	"student"	175	"we forgot about Hufflepuff"	"we forgot about Hufflepuff"	NA	"4j"	"topic development"	NA	NA	NA	4
+"2020-11-17T14:09:14+00:00+00:00+00:00"	"teacher008"	"teacher"	176	"Ok, Hufflepuff!"	"Ok, Hufflepuff!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T14:09:23+00:00+00:00+00:00"	"teacher008"	"teacher"	177	"Who is in Hufflepuff?"	"Who is in Hufflepuff?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+"2020-11-17T14:09:29+00:00+00:00+00:00"	"student009"	"student"	178	"I think I am a bit cunning"	"I think I am a bit cunning"	174	NA	NA	NA	NA	NA	7
+"2020-11-17T14:09:29+00:00+00:00+00:00"	"teacher008"	"teacher"	179	"what kind of people, I mean"	"what kind of people, I mean"	177	NA	"eliciting"	"lexical resource"	NA	NA	6
+"2020-11-17T14:09:44+00:00+00:00+00:00"	"teacher008"	"teacher"	180	"Ok! cool!"	"Ok! cool!"	178	NA	NA	NA	NA	NA	2
+"2020-11-17T14:09:46+00:00+00:00+00:00"	"student009"	"student"	181	"friendly"	"friendly"	179	NA	NA	NA	NA	NA	1
+"2020-11-17T14:10:03+00:00+00:00+00:00"	"teacher008"	"teacher"	182	"Yes, friendly and kind!"	"Yes, friendly and kind!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T14:10:59+00:00+00:00+00:00"	"student009"	"student"	183	"and I like Slytherin because everyone think people tgere are a bit scary"	"and I like Slytherin because everyone thinks people there are a bit scary"	180	NA	NA	NA	NA	NA	13
+"2020-11-17T14:11:00+00:00+00:00+00:00"	"teacher008"	"teacher"	184	"an adjective that often describes Hufflepuff students is 'humble'"	"an adjective that often describes Hufflepuff students is 'humble'"	182	NA	"scaffolding"	"lexical resource"	NA	NA	9
+"2020-11-17T14:11:19+00:00+00:00+00:00"	"teacher008"	"teacher"	185	"ˈhʌm.bəl"	"ˈhʌm.bəl"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+"2020-11-17T14:11:23+00:00+00:00+00:00"	"teacher008"	"teacher"	186	"which means"	"which means"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T14:11:37+00:00+00:00+00:00"	"teacher008"	"teacher"	187	"not proud or arrogant or believing you're too important"	"not proud or arrogant or believing you're too important"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	9
+"2020-11-17T14:12:01+00:00+00:00+00:00"	"teacher008"	"teacher"	188	"He's very humble about his success"	"He's very humble about his success"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2020-11-17T14:12:13+00:00+00:00+00:00"	"teacher008"	"teacher"	189	"means he doesn't talk about it very much, for example"	"means he doesn't talk about it very much, for example"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+"2020-11-17T14:12:25+00:00+00:00+00:00"	"teacher008"	"teacher"	190	"Not many people have this lovely quality :)"	"Not many people have this lovely quality :)"	NA	NA	NA	NA	NA	NA	8
+"2020-11-17T14:12:40+00:00+00:00+00:00"	"teacher008"	"teacher"	191	"Ok, so why is Slytherin your favourite house?"	"Ok, so why is Slytherin your favourite house?"	NA	"4k"	"redirection"	NA	NA	NA	8
+"2020-11-17T14:13:21+00:00+00:00+00:00"	"student009"	"student"	192	"i've just type it"	"I've just typed it"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T14:13:46+00:00+00:00+00:00"	"teacher008"	"teacher"	193	"oh sorry, I missed that!"	"oh sorry, I missed that!"	NA	NA	NA	NA	NA	NA	5
+"2020-11-17T14:14:19+00:00+00:00+00:00"	"teacher008"	"teacher"	194	"so everyone is a bit afraid of Slytherin people, and you feel it puts them in a powerful position?"	"so everyone is a bit afraid of Slytherin people, and you feel it puts them in a powerful position?"	NA	NA	NA	NA	NA	NA	19
+"2020-11-17T14:14:30+00:00+00:00+00:00"	"student009"	"student"	195	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:14:40+00:00+00:00+00:00"	"teacher008"	"teacher"	196	"Ok))"	"Ok))"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:14:47+00:00+00:00+00:00"	"student009"	"student"	197	"like a dark side of Hogwarts"	"like a dark side of Hogwarts"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T14:15:09+00:00+00:00+00:00"	"teacher008"	"teacher"	198	"Haha, I see! What do you like about Draco then?"	"Haha, I see! What do you like about Draco then?"	NA	NA	NA	NA	NA	NA	10
+"2020-11-17T14:15:40+00:00+00:00+00:00"	"student009"	"student"	199	"he is handsome)"	"he is handsome)"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T14:16:03+00:00+00:00+00:00"	"teacher008"	"teacher"	200	"haha, fair enough! anything else?"	"haha, fair enough! anything else?"	NA	NA	NA	NA	NA	NA	5
+"2020-11-17T14:16:20+00:00+00:00+00:00"	"student009"	"student"	201	"and he is a boy, who didn't have a choice"	"and he is a boy who didn't have a choice"	NA	NA	NA	NA	NA	NA	10
+"2020-11-17T14:16:33+00:00+00:00+00:00"	"student009"	"student"	202	"like Harry, but in another way"	"like Harry, but in another way"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T14:16:38+00:00+00:00+00:00"	"teacher008"	"teacher"	203	"how do you mean?"	"how do you mean?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T14:16:42+00:00+00:00+00:00"	"student009"	"student"	204	"I am very sprry to him"	"I am very sorry for him"	NA	NA	NA	NA	NA	NA	6
+"2020-11-17T14:16:44+00:00+00:00+00:00"	"teacher008"	"teacher"	205	"That's an interesting idea!"	"That's an interesting idea!"	202	NA	NA	NA	NA	NA	4
+"2020-11-17T14:16:55+00:00+00:00+00:00"	"teacher008"	"teacher"	206	"ah, you're sorry for him"	"ah, you're sorry for him"	204	NA	"repair"	"lexical resource"	NA	NA	5
+"2020-11-17T14:17:58+00:00+00:00+00:00"	"teacher008"	"teacher"	207	"But yes, he was conflicted, right? He didn't believe everything his family did was a good thing but he thought he had to be loyal to them"	"But yes, he was conflicted, right? He didn't believe everything his family did was a good thing but he thought he had to be loyal to them"	NA	NA	NA	NA	NA	NA	27
+"2020-11-17T14:18:47+00:00+00:00+00:00"	"teacher008"	"teacher"	208	"Ok, I've got a sorting quiz for you! I'm sure you've done them before, but I hope it'll be fun"	"Ok, I've got a sorting quiz for you! I'm sure you've done them before, but I hope it'll be fun"	NA	"5.0"	"exercise,free practice"	"lexical resource,reading"	"website"	NA	20
+"2020-11-17T14:18:58+00:00+00:00+00:00"	"teacher008"	"teacher"	210	"can you open this link?"	"can you open this link?"	NA	NA	NA	NA	NA	NA	5
+"2020-11-17T14:19:58+00:00+00:00+00:00"	"student009"	"student"	211	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:20:22+00:00+00:00+00:00"	"teacher008"	"teacher"	212	"I just re-sent it to you on Skype"	"I just re-sent it to you on Skype"	NA	NA	NA	NA	NA	NA	8
+"2020-11-17T14:20:34+00:00+00:00+00:00"	"student009"	"student"	213	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:21:01+00:00+00:00+00:00"	"teacher008"	"teacher"	214	"let me know what you get :)"	"let me know what you get :)"	NA	NA	NA	NA	NA	NA	7
+"2020-11-17T14:21:02+00:00+00:00+00:00"	"student009"	"student"	215	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:21:19+00:00+00:00+00:00"	"student009"	"student"	216	"do I have to start it now?"	"do I have to start it now?"	NA	NA	NA	NA	NA	NA	7
+"2020-11-17T14:21:34+00:00+00:00+00:00"	"teacher008"	"teacher"	217	"yes please!"	"yes please!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T14:24:05+00:00+00:00+00:00"	"student009"	"student"	218	"ravenclaw:("	"Ravenclaw:("	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:24:26+00:00+00:00+00:00"	"teacher008"	"teacher"	219	"Haha, I thought you'd get Ravenclaw, to be honest :)"	"Haha, I thought you'd get Ravenclaw, to be honest :)"	NA	NA	NA	NA	NA	NA	10
+"2020-11-17T14:24:35+00:00+00:00+00:00"	"student009"	"student"	220	"why?"	"why?"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:24:44+00:00+00:00+00:00"	"teacher008"	"teacher"	221	"because you're smart :)"	"because you're smart :)"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T14:25:02+00:00+00:00+00:00"	"teacher008"	"teacher"	222	"I wanted to be a Gryffindor! I find courage very important!"	"I wanted to be a Gryffindor! I find courage very important!"	NA	NA	NA	NA	NA	NA	11
+"2020-11-17T14:25:06+00:00+00:00+00:00"	"student009"	"student"	223	"it is easy to understand what to answer to be at Slytherin"	"it is easy to understand what to answer to be at Slytherin"	NA	NA	NA	NA	NA	NA	12
+"2020-11-17T14:25:17+00:00+00:00+00:00"	"teacher008"	"teacher"	224	"But I'm a Hufflepuff according to this quiz"	"But I'm a Hufflepuff according to this quiz"	222	NA	NA	NA	NA	NA	8
+"2020-11-17T14:25:24+00:00+00:00+00:00"	"teacher008"	"teacher"	225	"Yes, it's pretty transparent"	"Yes, it's pretty transparent"	223	NA	NA	NA	NA	NA	4
+"2020-11-17T14:25:27+00:00+00:00+00:00"	"teacher008"	"teacher"	227	"still fun"	"still fun"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T14:25:43+00:00+00:00+00:00"	"student009"	"student"	228	"I think you are on Hufflepuff too)"	"I think you are in Hufflepuff too)"	224	NA	NA	NA	NA	NA	7
+"2020-11-17T14:26:02+00:00+00:00+00:00"	"teacher008"	"teacher"	229	"And, if we were sorted by the real Sorting Hat, we'd have a chance to influence its decision"	"And, if we were sorted by the real Sorting Hat, we'd have a chance to influence its decision"	NA	NA	NA	NA	NA	NA	18
+"2020-11-17T14:26:11+00:00+00:00+00:00"	"teacher008"	"teacher"	230	"why am I a Hufflepuff?"	"why am I a Hufflepuff?"	228	NA	NA	NA	NA	NA	5
+"2020-11-17T14:26:21+00:00+00:00+00:00"	"teacher008"	"teacher"	231	"*in Hufflepuff"	"*in Hufflepuff"	NA	NA	"repair"	"writing"	NA	NA	2
+"2020-11-17T14:26:24+00:00+00:00+00:00"	"student009"	"student"	232	"you are really kind"	"you are really kind"	NA	NA	NA	NA	NA	NA	4
+"2020-11-17T14:26:36+00:00+00:00+00:00"	"teacher008"	"teacher"	233	"aww, thank you!"	"aww, thank you!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-17T14:26:49+00:00+00:00+00:00"	"teacher008"	"teacher"	234	"And the patron of Hufflepuff is Helga, a bit like me"	"And the patron of Hufflepuff is Helga, a bit like me"	NA	NA	NA	NA	NA	NA	11
+"2020-11-17T14:27:00+00:00+00:00+00:00"	"student009"	"student"	235	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:27:01+00:00+00:00+00:00"	"teacher008"	"teacher"	236	"Helga is an old form of <TEACHER'S NAME>, I mean"	"Helga is an old form of <TEACHER'S NAME>, I mean"	NA	NA	NA	NA	NA	NA	10
+"2020-11-17T14:27:26+00:00+00:00+00:00"	"student009"	"student"	237	"how can we influence ?"	"how can we influence?"	229	NA	NA	NA	NA	NA	5
+"2020-11-17T14:27:56+00:00+00:00+00:00"	"teacher008"	"teacher"	238	"Well, you know how the Sorting Hat wanted to put Harry in Slytherin? But he wanted to be in Gryffindor, and the Hat listened to him"	"Well, you know how the Sorting Hat wanted to put Harry in Slytherin? But he wanted to be in Gryffindor, and the Hat listened to him"	NA	NA	NA	NA	NA	NA	26
+"2020-11-17T14:28:07+00:00+00:00+00:00"	"student009"	"student"	239	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:28:37+00:00+00:00+00:00"	"teacher008"	"teacher"	240	"Ok, our words for today: brave - bravery; courageous - courage; to dare (verb) - daring"	"Ok, our words for today: brave - bravery; courageous - courage; to dare (verb) - daring"	NA	"6.0"	"recap"	"lexical resource"	NA	NA	16
+"2020-11-17T14:28:43+00:00+00:00+00:00"	"student009"	"student"	241	"but not everybody just can say that i want to be in Gryffindor"	"but not everybody can just say that they want to be in Gryffindor"	238	NA	NA	NA	NA	NA	13
+"2020-11-17T14:28:47+00:00+00:00+00:00"	"teacher008"	"teacher"	242	"humble"	"humble"	240	NA	NA	NA	NA	NA	1
+"2020-11-17T14:28:53+00:00+00:00+00:00"	"student009"	"student"	243	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:29:16+00:00+00:00+00:00"	"teacher008"	"teacher"	244	"Yes, that's true! It's only because Harry was actually brave, right?"	"Yes, that's true! It's only because Harry was actually brave, right?"	241	NA	NA	NA	NA	NA	11
+"2020-11-17T14:29:22+00:00+00:00+00:00"	"teacher008"	"teacher"	245	"Any other words?"	"Any other words?"	243	NA	NA	NA	NA	NA	3
+"2020-11-17T14:29:45+00:00+00:00+00:00"	"student009"	"student"	246	"ambitious"	"ambitious"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:29:50+00:00+00:00+00:00"	"teacher008"	"teacher"	247	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:29:52+00:00+00:00+00:00"	"teacher008"	"teacher"	248	"and cunning"	"and cunning"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T14:30:34+00:00+00:00+00:00"	"teacher008"	"teacher"	249	"Ok, I will let you go! Have a good afternoon, speak to you on Friday!"	"Ok, I will let you go! Have a good afternoon, speak to you on Friday!"	NA	"7.0"	"closing"	NA	NA	NA	15
+"2020-11-17T14:30:43+00:00+00:00+00:00"	"student009"	"student"	250	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:30:46+00:00+00:00+00:00"	"student009"	"student"	251	"you too"	"you too"	NA	NA	NA	NA	NA	NA	2
+"2020-11-17T14:30:49+00:00+00:00+00:00"	"student009"	"student"	252	"bye"	"bye"	NA	NA	NA	NA	NA	NA	1
+"2020-11-17T14:31:14+00:00+00:00+00:00"	"teacher008"	"teacher"	253	"bye :)"	"bye :)"	NA	NA	NA	NA	NA	"B2"	2

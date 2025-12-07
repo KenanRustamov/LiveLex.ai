@@ -1,0 +1,103 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-25 16:03:03	"student007"	"student"	1	"Good afternoon <TEACHER>"	"Good afternoon <TEACHER>"	NA	"1.0"	"opening"	NA	NA	NA	3
+2020-03-25 16:03:09	"student007"	"student"	2	"I am <STUDENT>"	"I am <STUDENT>"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 16:03:29	"teacher001"	"teacher"	3	"hi <STUDENT> sorry give me 5 minutes ok"	"hi <STUDENT> sorry give me 5 minutes ok"	NA	NA	NA	NA	NA	NA	8
+2020-03-25 16:03:35	"student007"	"student"	4	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:12:26	"student007"	"student"	5	"hi"	"hi"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:12:46	"teacher001"	"teacher"	6	"hi there sorry  a few more minutes really sorry"	"hi there sorry  a few more minutes really sorry"	NA	NA	NA	NA	NA	NA	10
+2020-03-25 16:13:05	"student007"	"student"	7	"ok, it is does not matter."	"ok, it doesn't matter."	NA	NA	NA	NA	NA	NA	6
+2020-03-25 16:17:57	"teacher001"	"teacher"	8	"<STUDENT> while you're waiting go online and search internet images for  'ielts pie chart france' look at the black and white one not the colour one"	"<STUDENT> while you're waiting go online and search internet images for  'ielts pie chart france' look at the black and white one not the colour one"	NA	NA	"topic opening"	NA	NA	NA	27
+2020-03-25 16:18:19	"teacher001"	"teacher"	9	"the site is ielts.org can you find it?"	"the site is ielts.org can you find it?"	NA	NA	NA	NA	NA	NA	8
+2020-03-25 16:18:45	"student007"	"student"	10	"ok, I attempt to find it now."	"ok, I'll attempt to find it now."	NA	NA	NA	NA	NA	NA	7
+2020-03-25 16:21:15	"teacher001"	"teacher"	11	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:23:58	"student007"	"student"	12	"Could you inform to me the title of the pie chart?"	"Could you tell me the title of the pie chart?"	NA	NA	"enquiry"	NA	NA	NA	11
+2020-03-25 16:25:15	"student007"	"student"	13	"does it is 'English proficiency increases in France'?"	"Is it 'English proficiency increases in France'?"	NA	NA	"enquiry"	NA	NA	NA	8
+2020-03-25 16:25:22	"teacher001"	"teacher"	14	"hold on <STUDENT> - i've realised i can email you the link - OK?"	"hold on <STUDENT> - i've realised i can email you the link - OK?"	NA	NA	NA	NA	NA	NA	14
+2020-03-25 16:26:12	"student007"	"student"	15	"okey, that is a great way."	"ok, that is a great way."	NA	NA	NA	NA	NA	NA	6
+2020-03-25 16:27:16	"teacher001"	"teacher"	16	"yes sorry I was being stupid! have you got it - it's just an image in a word document"	"yes sorry I was being stupid! have you got it - it's just an image in a word document"	NA	NA	NA	NA	NA	NA	19
+2020-03-25 16:28:07	"student007"	"student"	17	"wait a minutes,i will check the email."	"wait a minute,I will check my email."	NA	NA	NA	NA	NA	NA	7
+2020-03-25 16:30:19	"teacher001"	"teacher"	18	"i've resent it - i may have made a mistake the first time - do you have it now?"	"i've resent it - i may have made a mistake the first time - do you have it now?"	NA	NA	NA	NA	NA	NA	19
+2020-03-25 16:30:31	"student007"	"student"	19	"yes, i have it."	"yes, I have it."	NA	NA	NA	NA	NA	NA	4
+2020-03-25 16:30:36	"teacher001"	"teacher"	20	"ok great"	"ok great"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 16:30:55	"student007"	"student"	21	"no problem."	"no problem."	NA	NA	NA	NA	NA	NA	2
+2020-03-25 16:32:32	"teacher001"	"teacher"	22	"OK let's go - sorry for delay...<STUDENT>: can you tell me in one sentence only about natrual gas in Australia in 1980 please? Do not mentino any other fuel of France OK? just a simple sentence explaining that data point!"	"OK let's go - sorry for delay...<STUDENT>: can you tell me in one sentence only about natrual gas in Australia in 1980 please? Do not mentino any other fuel of France OK? just a simple sentence explaining that data point!"	NA	"2.0"	"exercise"	"writing"	"website (ielts.org)"	NA	40
+2020-03-25 16:33:17	"teacher001"	"teacher"	23	"any other fuel or anything about france i meant ..,ONLY gas in Australia in one year"	"any other fuel or anything about france i meant ..,ONLY gas in Australia in one year"	NA	NA	"clarification"	NA	NA	NA	16
+2020-03-25 16:33:35	"teacher001"	"teacher"	24	"no comparisons!"	"no comparisons!"	NA	NA	"clarification"	NA	NA	NA	2
+2020-03-25 16:34:22	"student007"	"student"	25	"the title is 'Units of electricity by fuel source in Australia' right?"	"the title is 'Units of electricity by fuel source in Australia', right?"	NA	"2a"	"enquiry"	NA	NA	NA	12
+2020-03-25 16:35:14	"student007"	"student"	29	"ok, just now my internet had slow speed, now it has recovered"	"ok, just now my internet was slow, now it has recovered"	NA	"2b"	"disruption"	NA	NA	NA	12
+2020-03-25 16:35:42	"teacher001"	"teacher"	30	"that's right - the original top sentnece includes  the phrase 'electricity production' if that helps"	"that's right - the original top sentnece includes  the phrase 'electricity production' if that helps"	25	NA	NA	NA	NA	NA	16
+2020-03-25 16:36:09	"teacher001"	"teacher"	31	"electricity production by fuel source'"	"electricity production by fuel source'"	NA	NA	NA	NA	NA	NA	5
+2020-03-25 16:38:17	"student007"	"student"	32	"The pie chart illustrates information about the how much electricity were produced by fuel source in Australia in 1980."	"The pie chart illustrates the information on how much electricity was produced by fuel source in Australia in 1980."	24	NA	NA	NA	NA	NA	19
+2020-03-25 16:39:44	"student007"	"student"	33	"OR the pie chart shows Information about the amount of electricity production by fuel source in Australia in 1980."	"OR the pie chart shows the information about the amount of electricity produced by fuel source in Australia in 1980."	NA	NA	NA	NA	NA	NA	19
+2020-03-25 16:39:59	"teacher001"	"teacher"	34	"OK thanks <STUDENT> - you've written an introduction there and it's not bad - we'l lcome back to that later and i'll give you specific feedback on that sentence BUT for now could you write a sentence telling me what you can about: natural gas/Australia/1980 - what can you tell me about that specific point in the context of the chart?"	"OK thanks <STUDENT> - you've written an introduction there and it's not bad - we'l lcome back to that later and i'll give you specific feedback on that sentence BUT for now could you write a sentence telling me what you can about: natural gas/Australia/1980 - what can you tell me about that specific point in the context of the chart?"	NA	"3.0"	"exercise"	"writing,task achievement"	NA	NA	61
+2020-03-25 16:40:23	"teacher001"	"teacher"	35	"only that point nothing else"	"only that point nothing else"	NA	NA	NA	NA	NA	NA	5
+2020-03-25 16:42:06	"student007"	"student"	36	"fossil fuels"	"fossil fuels"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 16:42:34	"student007"	"student"	37	"Australian"	"Australian"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:43:18	"teacher001"	"teacher"	38	"so for example: In 1980.....?"	"so for example: In 1980.....?"	NA	NA	NA	NA	NA	NA	5
+2020-03-25 16:43:43	"teacher001"	"teacher"	39	"you just need to use the keywords 'gas/20 units' etc ok?"	"you just need to use the keywords 'gas/20 units' etc ok?"	NA	NA	NA	NA	NA	NA	11
+2020-03-25 16:44:45	"student007"	"student"	40	"in 1980 how much fossil fuels were Australian produced pre gas per units"	"how much fossil fuel did Australia produce per unit in 1980?"	NA	NA	NA	NA	NA	NA	13
+2020-03-25 16:45:57	"teacher001"	"teacher"	41	"OK <STUDENT> thanks....hold on"	"OK <STUDENT> thanks....hold on"	NA	NA	NA	NA	NA	NA	4
+2020-03-25 16:46:06	"student007"	"student"	42	"ok.."	"ok.."	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:47:09	"teacher001"	"teacher"	43	"So <STUDENT> it's true that the chart tells you that Australia produced '100 units of electricity' in 1980. And the chart tells you how it produced that electricity right?"	"So <STUDENT> it's true that the chart tells you that Australia produced '100 units of electricity' in 1980. And the chart tells you how it produced that electricity right?"	NA	"3a"	"scaffolding"	"writing,task achievement"	NA	NA	29
+2020-03-25 16:48:01	"teacher001"	"teacher"	44	"In other words it tells you the fuels that it used to produce the electricity...."	"In other words it tells you the fuels that it used to produce the electricity...."	NA	NA	"scaffolding"	"task achievement"	NA	NA	15
+2020-03-25 16:48:24	"student007"	"student"	45	"oh, i understand"	"oh, I understand"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 16:48:29	"teacher001"	"teacher"	46	"And it tells you the proportion of electricity that that each fuel provided"	"And it tells you the proportion of electricity that that each fuel provided"	NA	NA	"scaffolding"	"task achievement"	NA	NA	13
+2020-03-25 16:48:34	"teacher001"	"teacher"	47	"OK good!"	"OK good!"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 16:48:53	"teacher001"	"teacher"	48	"Do you want to try the sentence again?"	"Do you want to try the sentence again?"	NA	NA	"eliciting"	"task achievement"	NA	NA	8
+2020-03-25 16:49:00	"student007"	"student"	49	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:49:07	"teacher001"	"teacher"	50	"ok..."	"ok..."	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:51:25	"student007"	"student"	51	"Australia produced 100 units of electricity in 1980 were engaged in by 4 groups:coal, oil,natural gas and hydro power."	"In 1980 Australia produced 100 units of electricity in 4 groups: coal, oil,natural gas and hydro power."	NA	NA	NA	NA	NA	NA	19
+2020-03-25 16:52:39	"teacher001"	"teacher"	52	"OK thanks <STUDENT>.....so this is a general sentence ok fine BUT what about GAS (just gas!) and 20 units - tell me that! Just that!"	"OK thanks <STUDENT>.....so this is a general sentence ok fine BUT what about GAS (just gas!) and 20 units - tell me that! Just that!"	NA	NA	"eliciting"	"task achievement"	NA	NA	25
+2020-03-25 16:52:49	"teacher001"	"teacher"	53	"in 1980 in Australia"	"in 1980 in Australia"	NA	NA	NA	NA	NA	NA	4
+2020-03-25 16:53:35	"teacher001"	"teacher"	54	"But sorry <STUDENT>  -your idea in that sentence was OK..."	"But sorry <STUDENT>  -your idea in that sentence was OK..."	51	NA	NA	NA	NA	NA	11
+2020-03-25 16:53:40	"student007"	"student"	55	"emmmm...in 1980 in Australia the GAS was 20 percent"	"emmmm...in 1980 in Australia the GAS was 20 percent"	53	NA	NA	NA	NA	NA	9
+2020-03-25 16:53:48	"teacher001"	"teacher"	56	"OK thanks"	"OK thanks"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 16:54:19	"teacher001"	"teacher"	57	"so let's think about the language we can use here to describe proportions - this is a common idea in task 1"	"so let's think about the language we can use here to describe proportions - this is a common idea in task 1"	NA	"4.0"	"presentation"	"lexical resource"	NA	NA	22
+2020-03-25 16:54:58	"student007"	"student"	58	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:55:17	"teacher001"	"teacher"	59	"so if i say for example - there are 10 students in the class and 4 of them are female ...we can say that: Females __________ for ________ of the class. (Any ideas?)"	"so if i say for example - there are 10 students in the class and 4 of them are female ...we can say that: Females __________ for ________ of the class. (Any ideas?)"	NA	NA	"eliciting"	"lexical resource"	NA	NA	33
+2020-03-25 16:56:20	"student007"	"student"	60	"no..I do not have ideas."	"no..I do not have ideas."	NA	NA	NA	NA	NA	NA	5
+2020-03-25 16:56:35	"teacher001"	"teacher"	61	"That's OK! no problem...just wanted to give you a chance"	"That's OK! no problem...just wanted to give you a chance"	NA	NA	NA	NA	NA	NA	10
+2020-03-25 16:56:58	"teacher001"	"teacher"	62	"So we can say: females account for 40% of the class. OK? Have you seen this before?"	"So we can say: females account for 40% of the class. OK? Have you seen this before?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-03-25 16:57:21	"student007"	"student"	63	"wow,,.yes"	"wow, yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:57:28	"teacher001"	"teacher"	64	"OK great hold on"	"OK great hold on"	NA	NA	NA	NA	NA	NA	4
+2020-03-25 16:57:31	"student007"	"student"	65	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 16:58:02	"teacher001"	"teacher"	66	"ok well...'account for' just means something like 'is reposnsible for' if you see what I mean"	"ok well...'account for' just means something like 'is reposnsible for' if you see what I mean"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-03-25 16:58:10	"student007"	"student"	67	"I have not seen it before"	"I have not seen it before"	NA	NA	NA	NA	NA	NA	6
+2020-03-25 16:58:13	"teacher001"	"teacher"	68	"you can't say that though!"	"you can't say that though!"	NA	NA	NA	NA	NA	NA	5
+2020-03-25 16:58:38	"teacher001"	"teacher"	69	"OK another way of saying that would be: Females make up 40% of the class."	"OK another way of saying that would be: Females make up 40% of the class."	NA	"4a"	"presentation"	"lexical resource"	NA	NA	15
+2020-03-25 16:58:48	"teacher001"	"teacher"	70	"IS this one new for you too?"	"IS this one new for you too?"	NA	NA	NA	NA	NA	NA	7
+2020-03-25 16:58:58	"student007"	"student"	71	"I think so"	"I think so"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 16:59:24	"teacher001"	"teacher"	72	"OK - well you've got to start somewhere! I think these two structures will help you get a better score"	"OK - well you've got to start somewhere! I think these two structures will help you get a better score"	NA	NA	NA	NA	NA	NA	20
+2020-03-25 16:59:42	"student007"	"student"	73	"Both of them are new and wonderful for me."	"Both of them are new to me and wonderful."	NA	NA	NA	NA	NA	NA	9
+2020-03-25 16:59:58	"student007"	"student"	74	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 17:00:40	"teacher001"	"teacher"	75	"ok...so in the context of the pie charts we're looking at now we can say: Natural gas ______ for _____ of electricity in Australia in 1980'?"	"ok...so in the context of the pie charts we're looking at now we can say: Natural gas ______ for _____ of electricity in Australia in 1980'?"	NA	NA	"scaffolding,eliciting"	"writing,lexical resource"	NA	NA	26
+2020-03-25 17:01:51	"student007"	"student"	76	"Natural gas account for 20% of the electricity in Australia in 1980."	"Natural gas accounted for 20% of electricity in Australia in 1980."	NA	NA	NA	NA	NA	NA	12
+2020-03-25 17:02:14	"teacher001"	"teacher"	77	"yes that's great! What verb tense do you need?"	"yes that's great! What verb tense do you need?"	NA	NA	NA	NA	NA	NA	9
+2020-03-25 17:02:46	"student007"	"student"	78	"Natural gas made up 20% of electricity in Australia in 1980."	"Natural gas made up 20% of electricity in Australia in 1980."	NA	NA	NA	NA	NA	NA	11
+2020-03-25 17:03:00	"teacher001"	"teacher"	79	"Yes perfect! Good past simple too"	"Yes perfect! Good past simple too"	NA	NA	NA	NA	NA	NA	6
+2020-03-25 17:04:05	"teacher001"	"teacher"	80	"Account for in the past = accounted for"	"Account for in the past = accounted for"	76	NA	"repair"	"grammatical resource"	NA	NA	8
+2020-03-25 17:04:17	"student007"	"student"	81	"so...Natural gas accounted for 20 % of electricity in Australia in 1980."	"so...Natural gas accounted for 20 % of electricity in Australia in 1980."	NA	NA	NA	NA	NA	NA	12
+2020-03-25 17:04:34	"student007"	"student"	82	"ok..thanks"	"ok..thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 17:04:39	"student007"	"student"	83	"I got it"	"I got it"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 17:04:41	"teacher001"	"teacher"	84	"Yes that's great - that would look good in an answer"	"Yes that's great - that would look good in an answer"	NA	NA	NA	NA	NA	NA	11
+2020-03-25 17:04:44	"teacher001"	"teacher"	85	"ok fine"	"ok fine"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 17:05:08	"teacher001"	"teacher"	86	"So....that's one way to explain that data point....hold on"	"So....that's one way to explain that data point....hold on"	NA	"4b"	"presentation"	"grammatical resource"	NA	NA	9
+2020-03-25 17:05:42	"student007"	"student"	87	"it make me easy to describe the data."	"it makes it easy for me to describe the data."	NA	NA	NA	NA	NA	NA	8
+2020-03-25 17:06:18	"teacher001"	"teacher"	88	"Yes that's right.....Another way for this chart could be: 20% of electricity _________  produced _____ natural gas. (Any ideas?"	"Yes that's right.....Another way for this chart could be: 20% of electricity _________  produced _____ natural gas. (Any ideas?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	20
+2020-03-25 17:06:19	"student007"	"student"	89	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 17:08:03	"student007"	"student"	90	"20% of electricity had the same produced as natural gas."	"20% of electricity was produced from natural gas."	NA	NA	NA	NA	NA	NA	10
+2020-03-25 17:09:28	"teacher001"	"teacher"	91	"Ummmm...not sure I follow you idea there <STUDENT>....So we can say: Natural gas produced 20% of electricity in Australia in 1980 right?  So as a passive we can change it round and say: 20% of electricity was.....?"	"Ummmm...not sure I follow you idea there <STUDENT>....So we can say: Natural gas produced 20% of electricity in Australia in 1980 right?  So as a passive we can change it round and say: 20% of electricity was.....?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	38
+2020-03-25 17:10:58	"student007"	"student"	92	"20% of electricity was were produced in Australia in 1980."	"20% of electricity was produced in Australia in 1980."	NA	NA	NA	NA	NA	NA	10
+2020-03-25 17:11:52	"teacher001"	"teacher"	93	"yes thanks - (20% of electricity was produced from/by natural gas = both correct"	"yes thanks - (20% of electricity was produced from/by natural gas = both correct"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-03-25 17:12:04	"teacher001"	"teacher"	94	"Is that ok?"	"Is that ok?"	NA	NA	NA	NA	NA	NA	3
+2020-03-25 17:12:21	"student007"	"student"	95	"yes, that is ok"	"yes, that is ok"	NA	NA	NA	NA	NA	NA	4
+2020-03-25 17:12:23	"teacher001"	"teacher"	96	"Have you studied the passive before very much?"	"Have you studied the passive before very much?"	NA	NA	NA	NA	NA	NA	8
+2020-03-25 17:12:48	"student007"	"student"	97	"not very much.."	"not very much.."	NA	NA	NA	NA	NA	NA	3
+2020-03-25 17:13:29	"teacher001"	"teacher"	98	"OK well..it's not always essential but it can give you another option - an easy way (hopefully) of using different structures for variety"	"OK well..it's not always essential but it can give you another option - an easy way (hopefully) of using different structures for variety"	NA	NA	"scaffolding"	"writing"	NA	NA	23
+2020-03-25 17:14:26	"teacher001"	"teacher"	99	"Can i give you a synonym for produce (in the context of energy)? The verb is 'generate' - is that new for you?"	"Can i give you a synonym for produce (in the context of energy)? The verb is 'generate' - is that new for you?"	NA	"5.0"	"presentation"	"lexical resource"	NA	NA	23
+2020-03-25 17:14:32	"student007"	"student"	100	"ok..thanks"	"ok..thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-25 17:15:11	"student007"	"student"	102	"I will practice it after class."	"I will practice it after class."	NA	NA	NA	NA	NA	NA	6
+2020-03-25 17:16:11	"teacher001"	"teacher"	103	"OK great thanks <STUDENT> - so let's have a break OK? See you back here in 15 minutes ok? Remember to log out!"	"OK great thanks <STUDENT> - so let's have a break OK? See you back here in 15 minutes ok? Remember to log out!"	NA	"6.0"	"closing"	NA	NA	NA	23
+2020-03-25 17:16:22	"teacher001"	"teacher"	104	"Sorry we're runnign a bit late"	"Sorry we're runnign a bit late"	NA	NA	NA	NA	NA	NA	6
+2020-03-25 17:16:22	"student007"	"student"	105	"yes,,see you"	"yes, see you"	NA	NA	NA	NA	NA	NA	2
+2020-03-25 17:16:28	"teacher001"	"teacher"	106	"ok bye for now"	"ok bye for now"	NA	NA	NA	NA	NA	"B1"	4

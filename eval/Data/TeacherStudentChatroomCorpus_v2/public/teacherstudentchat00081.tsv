@@ -1,0 +1,130 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-01 06:28:12	"teacher008"	"teacher"	1	"Hi <STUDENT>, is this you?"	"Hi <STUDENT>, is this you?"	NA	"1.0"	"opening"	NA	NA	NA	5
+2020-07-01 06:28:44	"student010"	"student"	2	"Hello! Yes,it's me"	"Hello! Yes, it's me"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 06:28:57	"teacher008"	"teacher"	3	"Oh great, good to have you here :)"	"Oh great, good to have you here :)"	NA	NA	NA	NA	NA	NA	8
+2020-07-01 06:29:10	"teacher008"	"teacher"	4	"How are you? Not too early in the morning for you?"	"How are you? Not too early in the morning for you?"	NA	"2.0"	"topic opening"	NA	NA	NA	11
+2020-07-01 06:29:45	"student010"	"student"	5	"No, I got up at 7:30"	"No, I got up at 7:30"	NA	NA	NA	NA	NA	NA	6
+2020-07-01 06:30:11	"teacher008"	"teacher"	6	"Cool! Country life?"	"Cool! Country life?"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 06:30:27	"student010"	"student"	7	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 06:30:45	"teacher008"	"teacher"	8	"are you enjoying a break from Kyiv?"	"are you enjoying a break from Kyiv?"	NA	"2a"	"topic development"	NA	NA	NA	7
+2020-07-01 06:31:27	"student010"	"student"	9	"Yes. I have cousins here"	"Yes. I have cousins here"	NA	NA	NA	NA	NA	NA	5
+2020-07-01 06:32:16	"teacher008"	"teacher"	10	"Sounds nice. It's nice to have the full summer as a holiday. English kids only get 6 weeks!"	"Sounds nice. It's nice to have the full summer as a holiday. English kids only get 6 weeks!"	NA	"2b"	"topic development"	"world knowledge"	NA	NA	18
+2020-07-01 06:32:55	"student010"	"student"	11	"Oh! Really?"	"Oh! Really?"	NA	NA	NA	NA	NA	NA	2
+2020-07-01 06:33:19	"teacher008"	"teacher"	12	"Yes! From about July 20 to the beginning of September"	"Yes! From about July 20 to the beginning of September"	NA	NA	NA	NA	NA	NA	10
+2020-07-01 06:33:57	"student010"	"student"	13	"That's a pitty"	"That's a pity"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 06:34:22	"teacher008"	"teacher"	14	"I know! I can't get used to it"	"I know! I can't get used to it"	NA	NA	NA	NA	NA	NA	8
+2020-07-01 06:34:58	"teacher008"	"teacher"	15	"Oh, <ANOTHER STUDENT>'s been having classes too as you probably realized yesterday"	"Oh, <ANOTHER STUDENT>'s been having classes too as you probably realized yesterday"	NA	"3.0"	"topic opening"	NA	NA	NA	12
+2020-07-01 06:35:25	"teacher008"	"teacher"	16	"Quick question. Which book did you use with <ANOTHER TEACHER>?"	"Quick question. Which book did you use with <ANOTHER TEACHER>?"	NA	"4.0"	"topic opening"	NA	NA	NA	10
+2020-07-01 06:35:40	"student010"	"student"	17	"Live beat 4"	"Live beat 4"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 06:35:58	"teacher008"	"teacher"	18	"Aha, thanks for this"	"Aha, thanks for this"	NA	NA	NA	NA	NA	NA	4
+2020-07-01 06:36:42	"student010"	"student"	19	"You're welcome"	"You're welcome"	NA	NA	NA	NA	NA	NA	2
+2020-07-01 06:36:43	"teacher008"	"teacher"	20	"<STUDENT>, I thought of a quick game to get to know each other, you might know this one from IH. It's called 2 truths one lie. Does it ring a bell?"	"<STUDENT>, I thought of a quick game to get to know each other, you might know this one from IH. It's called 2 truths one lie. Does it ring a bell?"	NA	"5.0"	"topic opening"	NA	NA	NA	31
+2020-07-01 06:37:34	"student010"	"student"	21	"I'm not sure if we played this game"	"I'm not sure if we played this game"	NA	NA	NA	NA	NA	NA	8
+2020-07-01 06:38:13	"student010"	"student"	22	"Or maybe I forgot"	"Or maybe I forgot"	NA	NA	NA	NA	NA	NA	4
+2020-07-01 06:38:15	"teacher008"	"teacher"	23	"No problem. It goes like this, I tell you three things, two of which are true and one is a lie. You ask me questions to identify which one is wrong. Ok?"	"No problem. It goes like this, I tell you three things, two of which are true and one is a lie. You ask me questions to identify which one is wrong. Ok?"	NA	"5a"	"topic development"	NA	NA	NA	32
+2020-07-01 06:38:29	"student010"	"student"	24	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 06:38:37	"teacher008"	"teacher"	25	"Cool, here goes"	"Cool, here goes"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 06:39:01	"teacher008"	"teacher"	26	"1. I grow lots of food in my garden.  2. I live in Cambridge.  3. I have two pet guinea pigs."	"1. I grow lots of food in my garden.  2. I live in Cambridge.  3. I have two pet guinea pigs."	NA	NA	NA	NA	NA	NA	23
+2020-07-01 06:40:19	"student010"	"student"	27	"What are pigs names?"	"What are the pigs' names?"	NA	"5b"	"topic development"	NA	NA	NA	4
+2020-07-01 06:40:29	"teacher008"	"teacher"	28	"Bubble and Squeak :)"	"Bubble and Squeak :)"	NA	NA	NA	NA	NA	NA	4
+2020-07-01 06:42:04	"student010"	"student"	29	"So if I'm sure that i know which one is lie what should I do?"	"So if I'm sure that i know which one is a lie, what should I do?"	NA	"5c"	"topic development"	NA	NA	NA	15
+2020-07-01 06:42:18	"teacher008"	"teacher"	30	"Just tell me!"	"Just tell me!"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 06:42:24	"student010"	"student"	31	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 06:42:49	"student010"	"student"	32	"Do you live in flat?"	"Do you live in a flat?"	NA	"5d"	"topic development"	NA	NA	NA	5
+2020-07-01 06:42:59	"teacher008"	"teacher"	33	"No, I live in a house"	"No, I live in a house"	NA	NA	NA	NA	NA	NA	6
+2020-07-01 06:44:37	"student010"	"student"	34	"So all vegetables are from your garden?"	"So are all the vegetables from your garden?"	NA	NA	NA	NA	NA	NA	7
+2020-07-01 06:44:54	"teacher008"	"teacher"	35	"Some of them :)"	"Some of them :)"	NA	NA	NA	NA	NA	NA	4
+2020-07-01 06:46:02	"teacher008"	"teacher"	36	"What do you think then?"	"What do you think then?"	NA	"5e"	"topic development"	NA	NA	NA	5
+2020-07-01 06:46:11	"student010"	"student"	37	"Ok. About pigs. When did you buy them"	"Ok. About the pigs. When did you buy them"	NA	"5f"	"topic development"	NA	NA	NA	8
+2020-07-01 06:46:13	"student010"	"student"	38	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 06:46:46	"teacher008"	"teacher"	39	"I didn't buy them, I adopted them. Some people were giving them away"	"I didn't buy them, I adopted them. Some people were giving them away"	NA	NA	NA	NA	NA	NA	13
+2020-07-01 06:49:31	"student010"	"student"	40	"I think it's impossible. They might be very expencive"	"I think it's impossible. They might be very expensive"	NA	NA	NA	NA	NA	NA	9
+2020-07-01 06:50:01	"teacher008"	"teacher"	41	"You know 'guinea pig'? They are not real pigs!"	"You know 'guinea pig'? They are not real pigs!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-01 06:50:19	"teacher008"	"teacher"	42	"They are small pet animals, a bit bigger than a hamster but not as big as a rabbit"	"They are small pet animals, a bit bigger than a hamster but not as big as a rabbit"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-07-01 06:50:52	"teacher008"	"teacher"	43	"They are not expensive :)"	"They are not expensive :)"	NA	NA	NA	NA	NA	NA	5
+2020-07-01 06:52:25	"student010"	"student"	44	"I think that number 3 is lie"	"I think that number 3 is a lie"	NA	"5g"	"topic development"	NA	NA	NA	7
+2020-07-01 06:52:56	"teacher008"	"teacher"	45	"Nope, numbers 1 and 3 are true!"	"Nope, numbers 1 and 3 are true!"	NA	NA	NA	NA	NA	NA	7
+2020-07-01 06:54:05	"student010"	"student"	46	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 06:54:06	"teacher008"	"teacher"	47	"I don't live in Cambridge, though. I live in a little town called March, it takes about 30 minutes to get to Cambridge by train"	"I don't live in Cambridge, though. I live in a little town called March, it takes about 30 minutes to get to Cambridge by train"	NA	NA	NA	NA	NA	NA	25
+2020-07-01 06:54:55	"student010"	"student"	48	"So is it my turn now?"	"So is it my turn now?"	NA	"6.0"	"topic opening"	NA	NA	NA	6
+2020-07-01 06:54:59	"teacher008"	"teacher"	49	"My husband and I both work in Cambridge, but I work from home and, before the quarantine, he used to... What's the word for 'travel to work'?"	"My husband and I both work in Cambridge, but I work from home and, before the quarantine, he used to... What's the word for 'travel to work'?"	47	"5h"	"eliciting"	"lexical resource"	NA	NA	27
+2020-07-01 06:55:07	"teacher008"	"teacher"	50	"Your turn in a minute!"	"Your turn in a minute!"	48	NA	NA	NA	NA	NA	5
+2020-07-01 06:56:03	"teacher008"	"teacher"	51	"Do you know the word for 'travel to work regularly'?"	"Do you know the word for 'travel to work regularly'?"	49	NA	"eliciting"	"lexical resource"	NA	NA	10
+2020-07-01 06:56:35	"student010"	"student"	52	"Travel to work? I have no idea"	"Travel to work? I have no idea"	NA	NA	NA	NA	NA	NA	7
+2020-07-01 06:56:42	"teacher008"	"teacher"	53	"Commute"	"Commute"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-07-01 06:57:04	"teacher008"	"teacher"	54	"He commutes to work (or at least he did before the quarantine)"	"He commutes to work (or at least he did before the quarantine)"	NA	NA	NA	NA	NA	NA	12
+2020-07-01 06:57:29	"student010"	"student"	55	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 06:57:34	"teacher008"	"teacher"	56	"Do you commute to school in Kyiv or are do you walk?"	"Do you commute to school in Kyiv or are do you walk?"	NA	"5i"	"eliciting"	"lexical resource"	NA	NA	12
+2020-07-01 06:57:57	"student010"	"student"	57	"I commute to school"	"I commute to school"	NA	NA	NA	NA	NA	NA	4
+2020-07-01 06:57:57	"teacher008"	"teacher"	58	"sorry, 'or do you walk?', without 'are'"	"sorry, 'or do you walk?', without 'are'"	56	NA	"repair"	"writing"	NA	NA	7
+2020-07-01 06:58:09	"teacher008"	"teacher"	59	"Ok, do you commute by underground?"	"Ok, do you commute by underground?"	57	NA	NA	NA	NA	NA	6
+2020-07-01 06:58:39	"student010"	"student"	60	"No, I don't"	"No, I don't"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 06:58:55	"teacher008"	"teacher"	61	"by car?"	"by car?"	NA	NA	NA	NA	NA	NA	2
+2020-07-01 06:59:51	"student010"	"student"	62	"Yes, it takes about 5 minutes to get to school by car"	"Yes, it takes about 5 minutes to get to school by car"	NA	NA	NA	NA	NA	NA	12
+2020-07-01 07:00:05	"teacher008"	"teacher"	63	"Aha, so you have a short commute"	"Aha, so you have a short commute"	NA	NA	NA	NA	NA	NA	7
+2020-07-01 07:00:47	"teacher008"	"teacher"	64	"The people who travel to work every day are called 'commuters'"	"The people who travel to work every day are called 'commuters'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-07-01 07:01:23	"teacher008"	"teacher"	65	"Ok, <STUDENT>, now is your turn. Could you come up with 2 truths and a lie for me, please? I'll give you a couple of minutes"	"Ok, <STUDENT>, now is your turn. Could you come up with 2 truths and a lie for me, please? I'll give you a couple of minutes"	NA	"6a"	"topic development"	NA	NA	NA	26
+2020-07-01 07:01:34	"student010"	"student"	66	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:02:51	"student010"	"student"	67	"1.We have 3 cats and 1 dog. 2.We have pool"	"1.We have 3 cats and 1 dog. 2.We have a pool"	NA	NA	NA	NA	NA	NA	10
+2020-07-01 07:03:51	"teacher008"	"teacher"	68	"Ok, and the third one?"	"Ok, and the third one?"	NA	NA	NA	NA	NA	NA	5
+2020-07-01 07:04:06	"student010"	"student"	69	"And 3 we have tractor"	"And 3 we have a tractor"	NA	NA	NA	NA	NA	NA	5
+2020-07-01 07:04:17	"teacher008"	"teacher"	70	"Cool, thank you"	"Cool, thank you"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 07:04:25	"teacher008"	"teacher"	71	"I'm going to adopt your strategy"	"I'm going to adopt your strategy"	NA	"6b"	"topic development"	NA	NA	NA	6
+2020-07-01 07:04:32	"teacher008"	"teacher"	72	"Do you live in a house?"	"Do you live in a house?"	NA	NA	NA	NA	NA	NA	6
+2020-07-01 07:04:40	"student010"	"student"	73	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:05:09	"teacher008"	"teacher"	74	"Does your family have a farm?"	"Does your family have a farm?"	NA	NA	NA	NA	NA	NA	6
+2020-07-01 07:05:14	"student010"	"student"	75	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:05:37	"teacher008"	"teacher"	76	"But do you grow a lot of crops?"	"But do you grow a lot of crops?"	NA	NA	NA	NA	NA	NA	8
+2020-07-01 07:06:08	"student010"	"student"	77	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:06:17	"teacher008"	"teacher"	78	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:06:28	"teacher008"	"teacher"	79	"Can you swim?"	"Can you swim?"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 07:06:34	"student010"	"student"	80	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:06:50	"teacher008"	"teacher"	81	"Oh, do you mean a 'pool table' or a 'swimming pool'?"	"Oh, do you mean a 'pool table' or a 'swimming pool'?"	NA	NA	"enquiry"	NA	NA	NA	11
+2020-07-01 07:07:05	"student010"	"student"	82	"Swimming pool"	"Swimming pool"	NA	NA	"clarification"	NA	NA	NA	2
+2020-07-01 07:07:41	"teacher008"	"teacher"	83	"Got that"	"Got that"	NA	NA	NA	NA	NA	NA	2
+2020-07-01 07:08:13	"teacher008"	"teacher"	84	"What are your cats and dog's names?"	"What are your cats and dog's names?"	NA	"6c"	"topic development"	NA	NA	NA	7
+2020-07-01 07:09:56	"student010"	"student"	85	"Cats names: Byca, Macia,Alica. Dog name is Gerda"	"Cats names: Byca, Macia,Alica. Dog name is Gerda"	NA	NA	NA	NA	NA	NA	8
+2020-07-01 07:10:34	"teacher008"	"teacher"	86	"Well, well, number 1 certainly sounds true"	"Well, well, number 1 certainly sounds true"	NA	"6d"	"topic development"	NA	NA	NA	7
+2020-07-01 07:11:13	"teacher008"	"teacher"	87	"But, as you say you don't grow many crops, I think you have a swimming pool instead of a tractor!"	"But, as you say you don't grow many crops, I think you have a swimming pool instead of a tractor!"	NA	NA	NA	NA	NA	NA	20
+2020-07-01 07:11:17	"teacher008"	"teacher"	88	"Am I right?"	"Am I right?"	NA	NA	NA	NA	NA	NA	3
+2020-07-01 07:11:56	"student010"	"student"	89	"So you think that number 3 is lie?"	"So you think that number 3 is a lie?"	NA	NA	NA	NA	NA	NA	8
+2020-07-01 07:12:01	"teacher008"	"teacher"	90	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:12:17	"student010"	"student"	91	"You're right!"	"You're right!"	NA	NA	NA	NA	NA	NA	2
+2020-07-01 07:12:22	"teacher008"	"teacher"	92	"Yay!"	"Yay!"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:13:07	"teacher008"	"teacher"	93	"Do your family grow some fruit and vegetables, though?"	"Do your family grow some fruit and vegetables, though?"	NA	"7.0"	"topic opening"	NA	NA	NA	9
+2020-07-01 07:13:36	"student010"	"student"	94	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:13:57	"teacher008"	"teacher"	95	"Which ones are your favourite?"	"Which ones are your favourite?"	NA	NA	NA	NA	NA	NA	5
+2020-07-01 07:14:29	"student010"	"student"	96	"Vegetable?"	"Vegetables?"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:14:34	"teacher008"	"teacher"	97	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:14:41	"teacher008"	"teacher"	98	"or fruit"	"or fruit"	NA	NA	NA	NA	NA	NA	2
+2020-07-01 07:14:42	"student010"	"student"	99	"Tomato"	"Tomato"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:14:55	"teacher008"	"teacher"	100	"Ah, I miss Ukrainian tomatoes, they are the best!"	"Ah, I miss Ukrainian tomatoes, they are the best!"	NA	NA	NA	NA	NA	NA	9
+2020-07-01 07:16:00	"teacher008"	"teacher"	101	"<STUDENT>, how do you like a 'chat' lesson? Is it a bit weird? Have you chatted in English before?"	"<STUDENT>, how do you like a 'chat' lesson? Is it a bit weird? Have you chatted in English before?"	NA	"8.0"	"topic opening"	NA	NA	NA	19
+2020-07-01 07:17:11	"student010"	"student"	102	"Yes it's a bit weird. I've never chat in English before"	"Yes it's a bit weird. I've never chatted in English before"	NA	NA	NA	NA	NA	NA	11
+2020-07-01 07:17:50	"teacher008"	"teacher"	103	"Ok, interesting! I hope it will be useful though"	"Ok, interesting! I hope it will be useful though"	NA	NA	NA	NA	NA	NA	9
+2020-07-01 07:18:21	"teacher008"	"teacher"	104	"Do you chat with people when you play video games maybe? I think you mentioned that you were into video games"	"Do you chat with people when you play video games maybe? I think you mentioned that you were into video games"	NA	"8a"	"topic development"	NA	NA	NA	21
+2020-07-01 07:20:54	"student010"	"student"	105	"I play on Europe servers. There are a lot of German people and chat in English with them"	"I play on European servers. There are a lot of German people and I chat in English with them"	NA	NA	NA	NA	NA	NA	18
+2020-07-01 07:21:15	"teacher008"	"teacher"	106	"Ah, so you do have some experience of chatting in English!"	"Ah, so you do have some experience of chatting in English!"	NA	NA	NA	NA	NA	NA	11
+2020-07-01 07:21:45	"teacher008"	"teacher"	107	"Which games do you play? My husband is really into video games, but I only play some Lego games with my son (he's nearly 5)"	"Which games do you play? My husband is really into video games, but I only play some Lego games with my son (he's nearly 5)"	NA	"9.0"	"topic opening"	NA	NA	NA	25
+2020-07-01 07:22:53	"student010"	"student"	108	"My favourite games are GTA5 and Fortnite"	"My favourite games are GTA5 and Fortnite"	NA	NA	NA	NA	NA	NA	7
+2020-07-01 07:24:04	"teacher008"	"teacher"	109	"I see! My favourite is Lego superheroes. Beginner level, I know :)"	"I see! My favourite is Lego superheroes. Beginner level, I know :)"	NA	NA	NA	NA	NA	NA	12
+2020-07-01 07:24:42	"student010"	"student"	110	"Does your husband play on Xbox, doesn't he?"	"Does your husband play on Xbox?"	NA	"9a"	"topic development"	NA	NA	NA	8
+2020-07-01 07:24:58	"teacher008"	"teacher"	111	"No, he plays on his desktop"	"No, he plays on his desktop"	NA	NA	NA	NA	NA	NA	6
+2020-07-01 07:25:24	"teacher008"	"teacher"	112	"He's playing the new Assassin's Creed now"	"He's playing the new Assassin's Creed now"	NA	NA	NA	NA	NA	NA	7
+2020-07-01 07:25:44	"teacher008"	"teacher"	113	"well, not right now, but you know what I mean"	"well, not right now, but you know what I mean"	NA	NA	NA	NA	NA	NA	10
+2020-07-01 07:25:59	"teacher008"	"teacher"	114	"Do you play on an Xbox?"	"Do you play on an Xbox?"	NA	"9b"	"topic development"	NA	NA	NA	6
+2020-07-01 07:26:44	"student010"	"student"	115	"I played on it but now I'm waiting for my gaming laptop"	"I played on it but now I'm waiting for my gaming laptop"	NA	NA	NA	NA	NA	NA	12
+2020-07-01 07:27:14	"teacher008"	"teacher"	116	"Ooh, exciting! Will it be delivered to where you are in the village or do you have to wait until Kyiv?"	"Ooh, exciting! Will it be delivered to where you are in the village or do you have to wait until Kyiv?"	NA	NA	NA	NA	NA	NA	21
+2020-07-01 07:28:14	"student010"	"student"	117	"It'll be delivered in 2 weeks"	"It'll be delivered in 2 weeks"	NA	NA	NA	NA	NA	NA	6
+2020-07-01 07:28:26	"teacher008"	"teacher"	118	"I bet you can't wait!"	"I bet you can't wait!"	NA	NA	NA	NA	NA	NA	5
+2020-07-01 07:29:10	"student010"	"student"	119	"Yes, you're right. I spent 1000 dollars on it"	"Yes, you're right. I spent 1000 dollars on it"	NA	NA	NA	NA	NA	NA	9
+2020-07-01 07:29:14	"teacher008"	"teacher"	120	"Anyway, <STUDENT>, we've got to discuss our schedule. How many classes per week do you think you can take up?"	"Anyway, <STUDENT>, we've got to discuss our schedule. How many classes per week do you think you can take up?"	NA	"10.0"	"topic opening"	NA	NA	NA	20
+2020-07-01 07:29:25	"teacher008"	"teacher"	121	"Wow! It's got to be good then!"	"Wow! It's got to be good then!"	119	NA	NA	NA	NA	NA	7
+2020-07-01 07:30:14	"student010"	"student"	122	"I loved our lesson so I think 2 lessons per week will be fine"	"I loved our lesson so I think 2 lessons per week will be fine"	120	NA	NA	NA	NA	NA	14
+2020-07-01 07:30:41	"teacher008"	"teacher"	123	"Oh, lovely, glad to hear that! Same time on Friday then?"	"Oh, lovely, glad to hear that! Same time on Friday then?"	NA	NA	NA	NA	NA	NA	11
+2020-07-01 07:30:53	"student010"	"student"	124	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-01 07:31:14	"teacher008"	"teacher"	125	"Sure, see you at 9.30 am on Friday. Have a nice day!"	"Sure, see you at 9.30 am on Friday. Have a nice day!"	NA	"11.0"	"closing"	NA	NA	NA	12
+2020-07-01 07:31:24	"student010"	"student"	126	"You too"	"You too"	NA	NA	NA	NA	NA	NA	2
+2020-07-01 07:31:42	"teacher008"	"teacher"	127	"You can just close the program"	"You can just close the program"	NA	NA	NA	NA	NA	NA	6
+2020-07-01 07:31:46	"teacher008"	"teacher"	128	"Bye :)"	"Bye :)"	NA	NA	NA	NA	NA	NA	2
+2020-07-01 07:31:54	"student010"	"student"	129	"Bye"	"Bye"	NA	NA	NA	NA	NA	"B2"	1

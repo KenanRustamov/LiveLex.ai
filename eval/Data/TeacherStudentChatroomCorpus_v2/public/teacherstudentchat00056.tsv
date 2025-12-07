@@ -1,0 +1,135 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-04-03 11:33:35	"teacher001"	"teacher"	1	"Hi <STUDENT> are you there?"	"Hi <STUDENT> are you there?"	NA	"1.0"	"opening"	NA	NA	NA	5
+2020-04-03 11:33:50	"student004"	"student"	2	"Hi <TEACHER>"	"Hi <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 11:34:05	"student004"	"student"	3	"Are you alright?"	"Are you alright?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-04-03 11:34:55	"teacher001"	"teacher"	4	"Hello - they've changed the settings for the timeout but it's still not working well enough obviously - I''ll follow this up again!  yes I'm fine thanks and you?"	"Hello - they've changed the settings for the timeout but it's still not working well enough obviously - I''ll follow this up again!  yes I'm fine thanks and you?"	NA	"2a"	"topic development"	NA	NA	NA	30
+2020-04-03 11:35:48	"student004"	"student"	5	"I don't know what's exactly the problem..."	"I don't know what the problem is exactly..."	NA	NA	NA	NA	NA	NA	7
+2020-04-03 11:36:33	"teacher001"	"teacher"	6	"well basically it's supposed to start again after 10 mins of inactivity - it seemed to work yesterday ..."	"well basically it's supposed to start again after 10 mins of inactivity - it seemed to work yesterday ..."	NA	NA	NA	NA	NA	NA	19
+2020-04-03 11:36:46	"student004"	"student"	7	"Yes, I'm good... we have good news on the islands... less cases!! so hopefully soon we'll be able to enjoy outside"	"Yes, I'm good... we have some good news on the islands... fewer cases!! so hopefully soon we'll be able to enjoy the outside"	4	"2b"	"topic development"	NA	NA	NA	21
+2020-04-03 11:37:07	"teacher001"	"teacher"	8	"I don't know what's exactly the problem...= I don't know what the problem is (sorry couldn't stop myself)"	"I don't know what's exactly the problem...= I don't know what the problem is (sorry couldn't stop myself)"	5	"2c"	"repair"	"grammatical resource"	NA	NA	18
+2020-04-03 11:37:28	"teacher001"	"teacher"	9	"OK that is good news - I hope the rules change soon then"	"OK that is good news - I hope the rules change soon then"	7	NA	NA	NA	NA	NA	13
+2020-04-03 11:38:17	"student004"	"student"	10	"Ohh yes, thank you. Please don't stop your self from correcting me!! I really appreciate it when you do it !"	"Ohh yes, thank you. Please don't stop yourself from correcting me!! I really appreciate it when you do it !"	8	NA	NA	NA	NA	NA	21
+2020-04-03 11:38:18	"teacher001"	"teacher"	11	"I saw that things were calming down a bit...I think in some ways the world has handled/is handling this pretty well..."	"I saw that things were calming down a bit...I think in some ways the world has handled/is handling this pretty well..."	9	NA	NA	NA	NA	NA	21
+2020-04-03 11:38:27	"student004"	"student"	12	"yourself"	"yourself"	10	NA	"repair"	"writing"	NA	NA	1
+2020-04-03 11:38:30	"teacher001"	"teacher"	13	"ok ok I will"	"ok ok I will"	10	NA	NA	NA	NA	NA	4
+2020-04-03 11:38:40	"teacher001"	"teacher"	14	"yes good correction"	"yes good correction"	12	NA	NA	NA	NA	NA	3
+2020-04-03 11:38:50	"teacher001"	"teacher"	15	"sorry about my typos"	"sorry about my typos"	NA	"2d"	NA	NA	NA	NA	4
+2020-04-03 11:39:12	"student004"	"student"	16	"no worries"	"no worries"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 11:40:07	"teacher001"	"teacher"	17	"Yes as i say ..in the movie version we'd 've  the total breakdown of law and order but in reality..."	"Yes as i say ..in the movie version we'd 've  the total breakdown of law and order but in reality..."	11	"2e"	NA	NA	NA	NA	21
+2020-04-03 11:40:16	"teacher001"	"teacher"	18	"we'd've' had i meant"	"we'd've' had i meant"	NA	NA	"repair"	"grammatical resource"	NA	NA	4
+2020-04-03 11:40:45	"teacher001"	"teacher"	19	"I know it's not exactly the plague though...."	"I know it's not exactly the plague though...."	17	NA	NA	NA	NA	NA	8
+2020-04-03 11:41:26	"student004"	"student"	20	"I think I know what you mean but is 'in the movie version' a sentence or a expression?"	"I think I know what you mean but is 'in the movie version' a sentence or a expression?"	NA	"2f"	"enquiry"	"lexical resource"	NA	NA	18
+2020-04-03 11:42:49	"teacher001"	"teacher"	21	"um...well not exactly a set expression but natural and easily understood ...i.e. i'f we were in a movie' but maybe a bit snappier..."	"um...well not exactly a set expression but natural and easily understood ...i.e. i'f we were in a movie' but maybe a bit snappier..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	23
+2020-04-03 11:43:30	"teacher001"	"teacher"	22	"if they made a film of this stuff / about this it would...etc"	"if they made a film of this stuff / about this it would...etc"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-04-03 11:43:30	"student004"	"student"	23	"I understand, I like it!"	"I understand, I like it!"	NA	NA	NA	NA	NA	NA	5
+2020-04-03 11:43:41	"teacher001"	"teacher"	24	"ok..."	"ok..."	NA	NA	NA	NA	NA	NA	1
+2020-04-03 11:44:09	"teacher001"	"teacher"	25	"I'm trying to make myself just use natural speech with a student of your level"	"I'm trying to make myself just use natural speech with a student of your level"	NA	"2g"	"topic development"	"meta knowledge"	NA	NA	15
+2020-04-03 11:44:28	"teacher001"	"teacher"	26	"which sounds like a contradiction i know"	"which sounds like a contradiction i know"	NA	NA	NA	NA	NA	NA	7
+2020-04-03 11:45:13	"student004"	"student"	27	"I think it's a good idea!! So many new things for me :)"	"I think it's a good idea!! So many new things for me :)"	NA	NA	NA	NA	NA	NA	13
+2020-04-03 11:45:28	"teacher001"	"teacher"	28	"OK yes good ....<STUDENT> listen ..making comparisons ...I wanted to focus on that a bit ok?"	"OK yes good ....<STUDENT> listen ..making comparisons ...I wanted to focus on that a bit ok?"	NA	"3.0"	"presentation"	"grammatical resource,lexical resource"	NA	NA	16
+2020-04-03 11:45:37	"student004"	"student"	29	"Yes but"	"Yes but"	NA	"4.0"	"enquiry"	NA	NA	NA	2
+2020-04-03 11:45:56	"student004"	"student"	30	"a question about yesterday, can I?"	"a question about yesterday, can I?"	NA	NA	NA	NA	NA	NA	6
+2020-04-03 11:46:12	"teacher001"	"teacher"	31	"yes of  c urse go ahead"	"yes of  c urse go ahead"	NA	NA	NA	NA	NA	NA	7
+2020-04-03 11:47:53	"student004"	"student"	32	"I don't know the difference between 'set about' and 'set in'. Do both mean 'start or begin'?? Another question I just realise I'm not sure about the difference between 'begin' and 'start'... Sorry, maybe too much?"	"I don't know the difference between 'set about' and 'set in'. Do both mean 'start or begin'?? Another question I just realised I'm not sure about is the difference between 'begin' and 'start'... Sorry, maybe too much?"	NA	"4a"	"enquiry"	"lexical resource"	NA	NA	36
+2020-04-03 11:48:35	"teacher001"	"teacher"	33	"no that's ok! hold on a sec...."	"no that's ok! hold on a sec...."	NA	NA	NA	NA	NA	NA	7
+2020-04-03 11:49:51	"teacher001"	"teacher"	34	"I can't think of any significant difference re start and begin hold on"	"I can't think of any significant difference re start and begin hold on"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2020-04-03 11:50:12	"teacher001"	"teacher"	35	"both similar in terms of register (formality) and collocation"	"both similar in terms of register (formality) and collocation"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	9
+2020-04-03 11:50:42	"teacher001"	"teacher"	36	"one difference however that occurs to me is e.g. 'start' is for causation"	"one difference however that occurs to me is e.g. 'start' is for causation"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-04-03 11:50:55	"teacher001"	"teacher"	37	"e.g. 'start a fire' not 'begin'"	"e.g. 'start a fire' not 'begin'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-04-03 11:51:01	"teacher001"	"teacher"	38	"ok?"	"ok?"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 11:51:10	"student004"	"student"	39	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 11:51:42	"teacher001"	"teacher"	40	"When i say 'similar' and 'no significant difference' by the way I mean NO, NO difference at all! except that last point..."	"When i say 'similar' and 'no significant difference' by the way I mean NO, NO difference at all! except that last point..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+2020-04-03 11:52:04	"teacher001"	"teacher"	41	"Hey did you see the abbreviation there before (meaning about?)"	"Hey did you see the abbreviation there before (meaning about?)"	NA	"4b"	NA	NA	NA	NA	10
+2020-04-03 11:52:14	"teacher001"	"teacher"	42	"meaning 'about'"	"meaning 'about'"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-04-03 11:52:21	"student004"	"student"	43	"That's enough for me, I thought that maybe there were important differences I didn't know"	"That's enough for me, I thought that maybe there were important differences I didn't know"	40	NA	NA	NA	NA	NA	15
+2020-04-03 11:52:42	"teacher001"	"teacher"	44	"no - it feels like maybe there must be but no!"	"no - it feels like maybe there must be but no!"	NA	NA	NA	NA	NA	NA	11
+2020-04-03 11:52:53	"student004"	"student"	45	"Great, thanks"	"Great, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 11:52:57	"teacher001"	"teacher"	46	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 11:53:09	"teacher001"	"teacher"	47	"and...set about and set in..hold on"	"and...set about and set in..hold on"	NA	"4c"	"scaffolding"	"lexical resource"	NA	NA	6
+2020-04-03 11:54:34	"teacher001"	"teacher"	48	"set about = start doing something, often with energy/determination i.e. set about dealing with a problem or (humurously) set about eating a large cake - you see?)"	"set about = start doing something, often with energy/determination i.e. set about dealing with a problem or (humurously) set about eating a large cake - you see?)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	27
+2020-04-03 11:55:00	"teacher001"	"teacher"	49	"so a PERSON sets about doing something"	"so a PERSON sets about doing something"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-04-03 11:56:10	"teacher001"	"teacher"	50	"but 'set in' = intranstive e.g. cold weather sets in AND also likely to continue for a while remember"	"but 'set in' = intranstive e.g. cold weather sets in AND also likely to continue for a while remember"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2020-04-03 11:56:29	"teacher001"	"teacher"	51	"So you can't set in something"	"So you can't set in something"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-04-03 11:57:09	"teacher001"	"teacher"	52	"OK?"	"OK?"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 11:57:47	"student004"	"student"	53	"Yes, very clear now (I think). Thank youu"	"Yes, very clear now (I think). Thank you"	NA	NA	NA	NA	NA	NA	8
+2020-04-03 11:57:56	"teacher001"	"teacher"	54	"no probs"	"no probs"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 11:58:17	"teacher001"	"teacher"	55	"Before i forget <STUDENT> - did you see the abbreviation 're' before?"	"Before i forget <STUDENT> - did you see the abbreviation 're' before?"	NA	"4d"	"eliciting"	"lexical resource"	NA	NA	12
+2020-04-03 11:58:25	"student004"	"student"	56	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 11:58:44	"teacher001"	"teacher"	57	"I can't think of any significant difference re start and begin"	"I can't think of any significant difference re start and begin"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-04-03 11:58:50	"teacher001"	"teacher"	58	"see it?!"	"see it?!"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 11:59:06	"student004"	"student"	59	"yes, I didn't notice it before"	"yes, I didn't notice it before"	NA	NA	NA	NA	NA	NA	6
+2020-04-03 11:59:23	"teacher001"	"teacher"	60	"`any ideas?"	"`any ideas?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	2
+2020-04-03 12:00:15	"student004"	"student"	61	"no idea, I think it means 'between'. Is it a latin word or English?"	"no idea, I think it means 'between'. Is it a Latin word or English?"	NA	NA	NA	NA	NA	NA	14
+2020-04-03 12:01:01	"teacher001"	"teacher"	62	"English! Imagine a letter and at the top it says 'Re: Job application 12755''"	"English! Imagine a letter and at the top it says 'Re: Job application 12755''"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-04-03 12:01:21	"teacher001"	"teacher"	63	"It's short for....'regarding' or 'with regard to'"	"It's short for....'regarding' or 'with regard to'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-04-03 12:01:42	"student004"	"student"	64	"reference"	"reference"	62	NA	NA	NA	NA	NA	1
+2020-04-03 12:01:48	"teacher001"	"teacher"	65	"Some people say it too (like e.g. and i.e.) so it sounds like 'ree' of course"	"Some people say it too (like e.g. and i.e.) so it sounds like 'ree' of course"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	16
+2020-04-03 12:01:49	"student004"	"student"	66	"ahhh ok"	"ahhh ok"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 12:01:54	"teacher001"	"teacher"	67	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:02:10	"teacher001"	"teacher"	68	"good idea ...reference would be 'Ref:'"	"good idea ...reference would be 'Ref:'"	64	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-04-03 12:02:24	"student004"	"student"	69	"okk"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:02:44	"teacher001"	"teacher"	70	"sorry not 'of course' for the pronunciation exactly!"	"sorry not 'of course' for the pronunciation exactly!"	65	NA	"repair"	"content"	NA	NA	8
+2020-04-03 12:02:50	"teacher001"	"teacher"	71	"it's arbitrary"	"it's arbitrary"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	2
+2020-04-03 12:02:57	"teacher001"	"teacher"	72	"unlike e.g and i.e."	"unlike e.g and i.e."	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	4
+2020-04-03 12:03:24	"teacher001"	"teacher"	73	"Any other questions <STUDENT>?"	"Any other questions <STUDENT>?"	NA	"4e"	NA	NA	NA	NA	4
+2020-04-03 12:03:35	"student004"	"student"	74	"No, thanks"	"No, thanks"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 12:03:48	"student004"	"student"	75	"We can continue with your plan :)"	"We can continue with your plan :)"	NA	NA	NA	NA	NA	NA	7
+2020-04-03 12:05:17	"teacher001"	"teacher"	76	"OK.....so imagine: comparing 2 tablets let's say (!)  Samsung = £100 and ipad = £825 (not exactly right I know but...so my question is : how can you compare those two things for example? A simple sentence...?)"	"OK.....so imagine: comparing 2 tablets let's say (!)  Samsung = £100 and ipad = £825 (not exactly right I know but...so my question is : how can you compare those two things for example? A simple sentence...?)"	NA	"5.0"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	38
+2020-04-03 12:06:37	"student004"	"student"	77	"The Samsung tablet (is it correct) is cheaper than the ipad"	"The Samsung tablet (is it correct) is cheaper than the ipad"	NA	NA	NA	NA	NA	NA	11
+2020-04-03 12:07:16	"student004"	"student"	78	"The ipad is considerable or much more expensive than the tablet"	"The ipad is considerably or much more expensive than the tablet"	NA	NA	NA	NA	NA	NA	11
+2020-04-03 12:07:37	"student004"	"student"	79	"considerably"	"considerably"	NA	NA	"repair"	"lexical resource"	NA	NA	1
+2020-04-03 12:08:32	"teacher001"	"teacher"	80	"OK thanks so : The Samsung tablet (is it correct - yes!) ) is cheaper than the ipad  : The ipad is considerable= considerablY / much more expensive than the ipad"	"OK thanks so : The Samsung tablet (is it correct - yes!) ) is cheaper than the ipad  : The ipad is considerable= considerablY / much more expensive than the ipad"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	32
+2020-04-03 12:08:58	"student004"	"student"	81	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:09:28	"teacher001"	"teacher"	82	"Considerably = correct of course ...a little bit formal - other formal options = signifcantly etc less formal options might include.....??"	"Considerably = correct of course ...a little bit formal - other formal options = signifcantly etc less formal options might include.....??"	NA	"5a"	"scaffolding,eliciting"	"lexical resource,register"	NA	NA	21
+2020-04-03 12:10:32	"student004"	"student"	83	"meaning considerably/significantly??"	"meaning considerably/significantly??"	NA	NA	"eliciting"	"lexical resource,register"	NA	NA	2
+2020-04-03 12:10:36	"teacher001"	"teacher"	84	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:10:54	"student004"	"student"	85	"I don't know"	"I don't know"	NA	NA	NA	NA	NA	NA	3
+2020-04-03 12:11:14	"teacher001"	"teacher"	86	"OK so, you know 'far' of course ..this is really common"	"OK so, you know 'far' of course ..this is really common"	NA	"5b"	"scaffolding"	"lexical resource"	NA	NA	11
+2020-04-03 12:11:45	"student004"	"student"	87	"yess"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:11:53	"teacher001"	"teacher"	88	"apart from 'a lot more' of course  (=the number one in informal frequency i guess)"	"apart from 'a lot more' of course  (=the number one in informal frequency i guess)"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	16
+2020-04-03 12:11:59	"student004"	"student"	89	"is far more expensive or far cheaper than"	"is far more expensive or far cheaper than"	NA	NA	NA	NA	NA	NA	8
+2020-04-03 12:12:09	"student004"	"student"	90	"??"	"??"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:12:25	"teacher001"	"teacher"	91	"Yes correct.....and how about 'way' ? as in 'it's way more expensive'  -"	"Yes correct.....and how about 'way' ? as in 'it's way more expensive'  -"	NA	"5c"	"scaffolding"	"lexical resource"	NA	NA	14
+2020-04-03 12:12:50	"student004"	"student"	92	"Yes, I know them all but I don't use them (I should)"	"Yes, I know them all but I don't use them (I should)"	NA	NA	NA	NA	NA	NA	12
+2020-04-03 12:13:45	"teacher001"	"teacher"	93	"OK yes I understand - this is kind of why I wanted o focus on it because with the CAE questions the tendency/temptation is to stick with basic structures"	"OK yes I understand - this is kind of why I wanted o focus on it because with the CAE questions the tendency/temptation is to stick with basic structures"	NA	NA	"scaffolding"	"lexical resource,exam prep"	NA	NA	29
+2020-04-03 12:13:57	"teacher001"	"teacher"	94	"OK and a couple more hold on..."	"OK and a couple more hold on..."	NA	"5d"	NA	NA	NA	NA	7
+2020-04-03 12:14:58	"teacher001"	"teacher"	95	"so I reckon that the negative forms probably come less quickly to your mind when speaking too ...for example: 'The Samsung tablet is nowhere ________  _________ expensive _______ the ipad'?"	"so I reckon that the negative forms probably come less quickly to your mind when speaking too ...for example: 'The Samsung tablet is nowhere ________  _________ expensive _______ the ipad'?"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	31
+2020-04-03 12:15:56	"student004"	"student"	96	"near as as"	"near as as"	NA	NA	NA	NA	NA	NA	3
+2020-04-03 12:16:21	"teacher001"	"teacher"	97	"OK good - do you use this one when  speaking?"	"OK good - do you use this one when  speaking?"	NA	NA	NA	NA	NA	NA	11
+2020-04-03 12:16:29	"student004"	"student"	98	"no, never"	"no, never"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 12:16:51	"teacher001"	"teacher"	99	"OK! common though ...so if you did it would sound good!"	"OK! common though ...so if you did it would sound good!"	NA	NA	NA	NA	NA	NA	11
+2020-04-03 12:17:27	"teacher001"	"teacher"	100	"What about the slightly more basic: 'x isn't as expensive/good/whatever as y'?"	"What about the slightly more basic: 'x isn't as expensive/good/whatever as y'?"	NA	"5e"	"scaffolding,eliciting"	"lexical resource,grammatical resource"	NA	NA	12
+2020-04-03 12:17:58	"student004"	"student"	101	"yes, the basic is the only one I use"	"yes, the basic is the only one I use"	NA	NA	NA	NA	NA	NA	9
+2020-04-03 12:18:02	"student004"	"student"	102	"as...as"	"as...as"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:18:40	"student004"	"student"	103	"what I don't use is 'nowhere near as...as'"	"what I don't use is 'nowhere near as...as'"	NA	NA	NA	NA	NA	NA	8
+2020-04-03 12:19:04	"teacher001"	"teacher"	104	"ok i see yes...and remember the 'weak form' : e.g. əztʃɪːəz"	"ok i see yes...and remember the 'weak form' : e.g. əztʃɪːəz"	NA	"5f"	"scaffolding"	"lexical resource,speaking"	NA	NA	11
+2020-04-03 12:19:19	"teacher001"	"teacher"	105	"sorry: əztʃɪːpəz"	"sorry: əztʃɪːpəz"	NA	NA	"repair"	NA	NA	NA	2
+2020-04-03 12:19:28	"student004"	"student"	106	"what??"	"what??"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:19:37	"teacher001"	"teacher"	107	"Ha hold on"	"Ha hold on"	NA	NA	NA	NA	NA	NA	3
+2020-04-03 12:19:47	"teacher001"	"teacher"	108	"you know the 'scwha' right?"	"you know the 'scwha' right?"	NA	NA	"eliciting"	"speaking"	NA	NA	5
+2020-04-03 12:19:57	"teacher001"	"teacher"	109	"the weak vowel sound?"	"the weak vowel sound?"	NA	NA	"eliciting"	"speaking"	NA	NA	4
+2020-04-03 12:20:10	"student004"	"student"	110	"no, I don't"	"no, I don't"	NA	NA	NA	NA	NA	NA	3
+2020-04-03 12:20:51	"student004"	"student"	111	"I'm totally lost right now haha"	"I'm totally lost right now haha"	NA	NA	NA	NA	NA	NA	6
+2020-04-03 12:21:18	"teacher001"	"teacher"	112	"Oh sorry ....Um... difficult without audio! You know...an unstressed vowel in English is usually the same sound ...like in the phrase 'fish and chips' how do English people say 'and' in that phrase"	"Oh sorry ....Um... difficult without audio! You know...an unstressed vowel in English is usually the same sound ...like in the phrase 'fish and chips' how do English people say 'and' in that phrase"	NA	NA	"scaffolding"	"speaking"	NA	NA	33
+2020-04-03 12:21:47	"teacher001"	"teacher"	113	"Not like this right: /ænd/"	"Not like this right: /ænd/"	NA	NA	"scaffolding"	"speaking"	NA	NA	5
+2020-04-03 12:22:05	"teacher001"	"teacher"	114	"we say: /ən/ !"	"we say: /ən/ !"	NA	NA	"scaffolding"	"speaking"	NA	NA	4
+2020-04-03 12:22:19	"teacher001"	"teacher"	115	"Can you hear it in your head??"	"Can you hear it in your head??"	NA	NA	NA	NA	NA	NA	7
+2020-04-03 12:22:42	"teacher001"	"teacher"	116	"like: 'fishenchips'!"	"like: 'fishenchips'!"	NA	NA	NA	NA	NA	NA	2
+2020-04-03 12:23:19	"student004"	"student"	117	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-04-03 12:24:19	"teacher001"	"teacher"	118	"And e.g. how do we normally say the word 'are'? We don't say 'ahhhh' like we are at the dentist ..we just say the tiny sound /ə/ for the whole word ...like in : Howəyou?"	"And e.g. how do we normally say the word 'are'? We don't say 'ahhhh' like we are at the dentist ..we just say the tiny sound /ə/ for the whole word ...like in : Howəyou?"	NA	NA	"scaffolding"	"speaking"	NA	NA	35
+2020-04-03 12:25:38	"teacher001"	"teacher"	119	"OK sorry ..so ...the phrase e.g. 'it is not as cheap as' when said quickly is like:    'snotəzcheapəz' - that's what i meant ...."	"OK sorry ..so ...the phrase e.g. 'it is not as cheap as' when said quickly is like:    'snotəzcheapəz' - that's what i meant ...."	NA	NA	"scaffolding"	"speaking"	NA	NA	27
+2020-04-03 12:25:58	"teacher001"	"teacher"	120	"Sorry , have i lost you?!"	"Sorry , have i lost you?!"	NA	NA	NA	NA	NA	NA	6
+2020-04-03 12:26:16	"teacher001"	"teacher"	121	"Difficult to make this clear in this format!"	"Difficult to make this clear in this format!"	NA	NA	NA	NA	NA	NA	8
+2020-04-03 12:26:31	"student004"	"student"	122	"haha no, I finally know what you wanted to say earlier"	"haha no, I finally know what you wanted to say earlier"	NA	NA	NA	NA	NA	NA	11
+2020-04-03 12:26:45	"teacher001"	"teacher"	123	"ok thank god"	"ok thank god"	NA	NA	NA	NA	NA	NA	3
+2020-04-03 12:27:13	"student004"	"student"	124	"Sure, very difficult to talk about pronunciation not having the possibility of hearing"	"Sure, very difficult to talk about pronunciation without having an opportunity to hear it"	NA	NA	NA	NA	NA	NA	13
+2020-04-03 12:27:39	"teacher001"	"teacher"	125	"yes of course..."	"yes of course..."	NA	NA	NA	NA	NA	NA	3
+2020-04-03 12:27:58	"student004"	"student"	126	"Very clear now! thanks"	"Very clear now! thanks"	NA	NA	NA	NA	NA	NA	4
+2020-04-03 12:28:29	"teacher001"	"teacher"	127	"OK cheers - well i guess our time is basically up...it seemedto go quickly today (maybe not for you!)"	"OK cheers - well i guess our time is basically up...it seemedto go quickly today (maybe not for you!)"	NA	"6.0"	"closing"	NA	NA	NA	19
+2020-04-03 12:29:11	"student004"	"student"	128	"Yes, very quickly!!"	"Yes, very quickly!!"	NA	NA	NA	NA	NA	NA	3
+2020-04-03 12:29:21	"student004"	"student"	129	"Thank a lot!"	"Thank a lot!"	NA	NA	NA	NA	NA	NA	3
+2020-04-03 12:29:41	"teacher001"	"teacher"	130	"No probs - I'll emial you re(!) next week in a bit ok?"	"No probs - I'll emial you re(!) next week in a bit ok?"	NA	NA	NA	NA	NA	NA	13
+2020-04-03 12:29:46	"student004"	"student"	131	"See you next week! Have a good weekend"	"See you next week! Have a good weekend"	NA	NA	NA	NA	NA	NA	8
+2020-04-03 12:29:51	"teacher001"	"teacher"	132	"OK cheers and you"	"OK cheers and you"	NA	NA	NA	NA	NA	NA	4
+2020-04-03 12:30:07	"student004"	"student"	133	"yes, please. Whenever is good for you after 4"	"yes, please. Whenever is good for you after 4"	130	NA	NA	NA	NA	NA	9
+2020-04-03 12:30:12	"student004"	"student"	134	"Bye bye"	"Bye bye"	NA	NA	NA	NA	NA	"C1"	2

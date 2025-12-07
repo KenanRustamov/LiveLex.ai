@@ -1,0 +1,136 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-27 15:17:24	"teacher001"	"teacher"	1	"Welcome back <STUDENT>..."	"Welcome back <STUDENT>..."	NA	"1.0"	"opening"	NA	NA	NA	3
+2020-03-27 15:17:29	"student007"	"student"	2	"hi"	"hi"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:18:10	"student007"	"student"	3	"I am back."	"I am back."	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:18:18	"teacher001"	"teacher"	4	"OK great so...one second"	"OK great so...one second"	NA	NA	NA	NA	NA	NA	4
+2020-03-27 15:18:33	"student007"	"student"	5	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:20:35	"teacher001"	"teacher"	6	"The essay title was basically: 'The government spends too much on midlife..' right? so rephrase that (more or less) with the following keywords. (Millions/every year/saving widlife)"	"The essay title was basically: 'The government spends too much on midlife..' right? so rephrase that (more or less) with the following keywords. (Millions/every year/saving widlife)"	NA	"2.0"	"exercise"	"writing"	NA	NA	26
+2020-03-27 15:20:52	"teacher001"	"teacher"	7	"DO NOT mention the government!"	"DO NOT mention the government!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-03-27 15:21:29	"teacher001"	"teacher"	8	"sorry 'wildlife' both times!"	"sorry 'wildlife' both times!"	6	NA	"repair"	"writing"	NA	NA	4
+2020-03-27 15:22:42	"student007"	"student"	9	"Saving wildlife is spent millions every year."	"Millions are spent on saving wildlife every year."	7	NA	NA	NA	NA	NA	7
+2020-03-27 15:24:44	"teacher001"	"teacher"	10	"the thing that is spent - is it wildlife?!"	"the thing that is spent - is it wildlife?!"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	9
+2020-03-27 15:24:58	"teacher001"	"teacher"	11	"What can be spent?"	"What can be spent?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	4
+2020-03-27 15:25:41	"student007"	"student"	12	"wildlife protection is spent million every year."	"Millions are spent on wildlife protection every year."	NA	NA	NA	NA	NA	NA	7
+2020-03-27 15:26:49	"teacher001"	"teacher"	13	"Ok <STUDENT>...this is really important...let's take this slowly ....i know this is difficult and VERY different from CHinese....hold on"	"Ok <STUDENT>...this is really important...let's take this slowly ....i know this is difficult and VERY different from CHinese....hold on"	NA	"2a"	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-03-27 15:27:17	"student007"	"student"	14	"ok..I will try"	"ok..I will try"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:27:37	"teacher001"	"teacher"	15	"People spend money. (people = agent...the agent does the action) ok?"	"People spend money. (people = agent...the agent does the action) ok?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-03-27 15:27:51	"student007"	"student"	16	"yes, it is ok"	"yes, it is ok"	NA	NA	NA	NA	NA	NA	4
+2020-03-27 15:28:04	"teacher001"	"teacher"	17	"OK fine...so we can also say: MOney....?"	"OK fine...so we can also say: MOney....?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2020-03-27 15:29:36	"student007"	"student"	18	"money should be on wildlife protection?"	"money should be spent on wildlife protection?"	NA	NA	NA	NA	NA	NA	6
+2020-03-27 15:29:43	"student007"	"student"	19	"spent"	"spent"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:29:49	"teacher001"	"teacher"	20	"OK good yes"	"OK good yes"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:29:56	"teacher001"	"teacher"	21	"hold on.."	"hold on.."	NA	NA	NA	NA	NA	NA	2
+2020-03-27 15:30:13	"teacher001"	"teacher"	22	"So : people spend money' in the passive = Money is spent"	"So : people spend money' in the passive = Money is spent"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-03-27 15:30:55	"teacher001"	"teacher"	23	"and in our example now: 'Millions are spent on wildlife protection every year.' = good yes"	"and in our example now: 'Millions are spent on wildlife protection every year.' = good yes"	NA	NA	"scaffolding"	"grammatical resource,writing"	NA	NA	16
+2020-03-27 15:32:32	"teacher001"	"teacher"	24	"OK <STUDENT> thanks ...let's a little change now OK?"	"OK <STUDENT> thanks ...let's a little change now OK?"	NA	"3.0"	"presentation"	"writing"	NA	NA	9
+2020-03-27 15:32:38	"student007"	"student"	25	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:33:29	"teacher001"	"teacher"	26	"Did we practice essay introductions yet? I don't think so...right?"	"Did we practice essay introductions yet? I don't think so...right?"	NA	NA	NA	NA	NA	NA	10
+2020-03-27 15:34:43	"student007"	"student"	27	"we lean taks 1 's introduction in class"	"we learned about task 1 introduction in class"	NA	NA	NA	NA	NA	NA	8
+2020-03-27 15:35:18	"teacher001"	"teacher"	28	"Ah yes that's right - let's have a little think about essay introductions OK?"	"Ah yes that's right - let's have a little think about essay introductions OK?"	NA	"3a"	"presentation"	"writing,discourse management"	NA	NA	14
+2020-03-27 15:35:35	"student007"	"student"	29	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:35:57	"teacher001"	"teacher"	30	"OK great so <STUDENT> I'm going to suggest the following to practise for effective intros..."	"OK great so <STUDENT> I'm going to suggest the following to practise for effective intros..."	NA	NA	"presentation"	"writing"	NA	NA	15
+2020-03-27 15:36:09	"teacher001"	"teacher"	31	"Two sentences only!"	"Two sentences only!"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:36:41	"student007"	"student"	32	"we have learn  It is often argued that the most effective way to lead a healthy lifestyle is regular exercise."	"we have learned  \"It is often argued that the most effective way to lead a healthy lifestyle is regular exercise\""	27	NA	NA	NA	NA	NA	21
+2020-03-27 15:36:45	"teacher001"	"teacher"	33	"the first one is the 'background' sentence and the second is the 'thesis' sentence (thesis just means your idea basically)"	"the first one is the 'background' sentence and the second is the 'thesis' sentence (thesis just means your idea basically)"	31	NA	"presentation"	"writing,discourse management"	NA	NA	20
+2020-03-27 15:37:06	"student007"	"student"	34	"something like that.."	"something like that.."	32	NA	NA	NA	NA	NA	3
+2020-03-27 15:37:15	"teacher001"	"teacher"	35	"Are yes that's right! Did i describe it as a background and thesis sentence before?"	"Are yes that's right! Did i describe it as a background and thesis sentence before?"	NA	NA	NA	NA	NA	NA	15
+2020-03-27 15:37:31	"student007"	"student"	36	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:37:40	"student007"	"student"	37	"Although I strongly agree with that exercise plays a major/crucial/significant/ role."	"Although I strongly agree with the idea that exercise plays a major/crucial/significant/ role."	NA	NA	NA	NA	NA	NA	11
+2020-03-27 15:37:52	"teacher001"	"teacher"	38	"OK fine so...let's try te same model for this essay about wildlife OK?"	"OK fine so...let's try te same model for this essay about wildlife OK?"	NA	NA	NA	NA	NA	NA	13
+2020-03-27 15:37:58	"student007"	"student"	39	"does it is this?"	"is this it?"	37	NA	NA	NA	NA	NA	4
+2020-03-27 15:38:01	"student007"	"student"	40	"ok"	"ok"	38	NA	NA	NA	NA	NA	1
+2020-03-27 15:38:09	"teacher001"	"teacher"	41	"Yes that's right"	"Yes that's right"	39	NA	NA	NA	NA	NA	3
+2020-03-27 15:38:33	"teacher001"	"teacher"	42	"OK so the original essay question today was : IT is often said that the government spends too much on projects to protect wildlife and that other problems are more important. Do you agree?"	"OK so the original essay question today was : IT is often said that the government spends too much on projects to protect wildlife and that other problems are more important. Do you agree?"	NA	"3b"	"exercise"	"writing"	NA	NA	34
+2020-03-27 15:38:49	"teacher001"	"teacher"	43	"Let's try an intro for this question together OK?"	"Let's try an intro for this question together OK?"	NA	NA	NA	NA	NA	NA	9
+2020-03-27 15:39:20	"student007"	"student"	44	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:39:53	"teacher001"	"teacher"	45	"OK so one thing we can do is to think of synonyms for the keywords in the question (you know what synonyms are right?)"	"OK so one thing we can do is to think of synonyms for the keywords in the question (you know what synonyms are right?)"	NA	"3b"	"scaffolding"	"writing,lexical resource"	NA	NA	24
+2020-03-27 15:40:48	"teacher001"	"teacher"	46	"Words that mean the same thing. So 'large' is a synonym of 'big'."	"Words that mean the same thing. So 'large' is a synonym of 'big'."	NA	NA	"scaffolding"	"lexical resource,meta knowledge"	NA	NA	13
+2020-03-27 15:40:52	"student007"	"student"	47	"maybe it like protect wildlife = wildlife protection"	"maybe it like protect wildlife = wildlife protection"	NA	NA	NA	NA	NA	NA	8
+2020-03-27 15:41:04	"teacher001"	"teacher"	48	"Yes that's a great example!"	"Yes that's a great example!"	NA	NA	NA	NA	NA	NA	5
+2020-03-27 15:41:34	"teacher001"	"teacher"	49	"Can you try some more for some of the other words - you can choose simple synonyms if you like ..that's fine"	"Can you try some more for some of the other words - you can choose simple synonyms if you like ..that's fine"	NA	NA	"eliciting"	"lexical resource"	NA	NA	22
+2020-03-27 15:42:50	"student007"	"student"	50	"spend = waste"	"spend = waste"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:43:11	"teacher001"	"teacher"	51	"Yes OK good if you mean it negatively...keep going..."	"Yes OK good if you mean it negatively...keep going..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-03-27 15:43:15	"student007"	"student"	52	"important = necessary"	"important = necessary"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:43:30	"teacher001"	"teacher"	53	"ok great"	"ok great"	NA	NA	NA	NA	NA	NA	2
+2020-03-27 15:43:35	"teacher001"	"teacher"	54	"more more!"	"more more!"	NA	NA	NA	NA	NA	NA	2
+2020-03-27 15:43:35	"student007"	"student"	55	"problem = issus"	"problem = issue"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:43:42	"teacher001"	"teacher"	56	"fine"	"fine"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:44:01	"student007"	"student"	57	"I think that all"	"I think that's all"	NA	NA	NA	NA	NA	NA	4
+2020-03-27 15:44:08	"teacher001"	"teacher"	58	"yes that was good thanks"	"yes that was good thanks"	NA	NA	NA	NA	NA	NA	5
+2020-03-27 15:45:50	"student007"	"student"	59	"so.. just replace those words into question?"	"so.. should I just replace those words in the question?"	NA	"3c"	"enquiry"	"writing,lexical resource"	NA	NA	7
+2020-03-27 15:46:11	"teacher001"	"teacher"	60	"So we can say for example: 'Many people argue that millions _____  ______ on wildlife protection and it is _______ to spend more on other ________. I strongly with this idea and I will explain why in this essay.'"	"So we can say for example: 'Many people argue that millions _____  ______ on wildlife protection and it is _______ to spend more on other ________. I strongly with this idea and I will explain why in this essay.'"	NA	NA	"scaffolding,eliciting"	"writing,lexical resource"	NA	NA	40
+2020-03-27 15:46:31	"teacher001"	"teacher"	61	"Use your words to complete this introduction!"	"Use your words to complete this introduction!"	NA	NA	NA	NA	NA	NA	7
+2020-03-27 15:46:44	"teacher001"	"teacher"	62	"I mean the synonyms you suggested before"	"I mean the synonyms you suggested before"	NA	NA	"clarification"	NA	NA	NA	7
+2020-03-27 15:48:03	"student007"	"student"	63	"Many people argue that millions are spent on wildlife protection and it necessary to spend money on other issues."	"Many people argue that millions are spent on wildlife protection and it is necessary to spend money on other issues."	NA	NA	NA	NA	NA	NA	19
+2020-03-27 15:48:43	"teacher001"	"teacher"	64	"OK yes that's great ....what about your synonym for 'spend'? IN this example you've used spend twice"	"OK yes that's great ....what about your synonym for 'spend'? IN this example you've used spend twice"	NA	NA	"eliciting"	"task achievement,lexical resource"	NA	NA	17
+2020-03-27 15:50:22	"student007"	"student"	65	"Many people argue that millions are wasted on wildlife protection and it is necessary to spend money on other issues."	"Many people argue that millions are wasted on wildlife protection and it is necessary to spend money on other issues."	NA	NA	NA	NA	NA	NA	20
+2020-03-27 15:51:03	"teacher001"	"teacher"	66	"OK that's a great intro <STUDENT> - this model should make it easier for you to write more or less any essay for IELTS OK?"	"OK that's a great intro <STUDENT> - this model should make it easier for you to write more or less any essay for IELTS OK?"	NA	NA	"recap"	"writing"	NA	NA	25
+2020-03-27 15:51:44	"student007"	"student"	67	"ok. that great, I like using it every times."	"ok. that's great, I like using it"	NA	NA	NA	NA	NA	NA	9
+2020-03-27 15:51:50	"teacher001"	"teacher"	68	"Can i give you another essay question and ask you to try writing another two-sentence introduction?"	"Can i give you another essay question and ask you to try writing another two-sentence introduction?"	NA	"4.0"	"exercise"	"writing"	NA	NA	16
+2020-03-27 15:51:56	"teacher001"	"teacher"	69	"Are you ready?"	"Are you ready?"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:52:06	"student007"	"student"	70	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:53:23	"teacher001"	"teacher"	71	"In some cities and towns the volume of traffic is a problem. What are the causes of this and what actions can be taken to solve it?"	"In some cities and towns the volume of traffic is a problem. What are the causes of this and what actions can be taken to solve it?"	NA	NA	NA	NA	NA	NA	27
+2020-03-27 15:53:50	"teacher001"	"teacher"	72	"You can check synonyms with me first if you like <STUDENT> or just write the intro - I don;t mind you decide!"	"You can check synonyms with me first if you like <STUDENT> or just write the intro - I don;t mind you decide!"	NA	"4a"	"scaffolding"	"lexical resource"	NA	NA	22
+2020-03-27 15:54:12	"teacher001"	"teacher"	73	"Maybe just go for it OK?"	"Maybe just go for it OK?"	NA	NA	NA	NA	NA	NA	6
+2020-03-27 15:54:15	"student007"	"student"	74	"yes I want to check firstly."	"yes I want to check first"	72	NA	NA	NA	NA	NA	6
+2020-03-27 15:54:32	"teacher001"	"teacher"	75	"Oh OK fine - yes check with me first then!"	"Oh OK fine - yes check with me first then!"	NA	NA	NA	NA	NA	NA	10
+2020-03-27 15:55:10	"student007"	"student"	76	"towns = outskirts"	"towns = outskirts"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:56:11	"teacher001"	"teacher"	77	"Um...well 'the outskirts of a town/city' just means around the edge of a town/city NOT the town/city itself so no, this is not good here I''m afriad"	"Um...well 'the outskirts of a town/city' just means around the edge of a town/city NOT the town/city itself so no, this is not good here I''m afriad"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	27
+2020-03-27 15:56:15	"student007"	"student"	78	"problem = question"	"problem = question"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:56:36	"student007"	"student"	79	"town = village"	"town = village"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:56:53	"teacher001"	"teacher"	80	"What's bigger - a town or a village?"	"What's bigger - a town or a village?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	8
+2020-03-27 15:57:04	"student007"	"student"	81	"country"	"country"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:57:23	"student007"	"student"	82	"I am not sure which one is bigger."	"I am not sure which one is bigger."	NA	NA	NA	NA	NA	NA	8
+2020-03-27 15:57:43	"teacher001"	"teacher"	83	"A village is a very small place, often in the countryside!"	"A village is a very small place, often in the countryside!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-03-27 15:57:46	"student007"	"student"	84	"maybe it is town"	"maybe it is town"	82	NA	NA	NA	NA	NA	4
+2020-03-27 15:57:53	"teacher001"	"teacher"	85	"yes town!"	"yes town!"	NA	NA	NA	NA	NA	NA	2
+2020-03-27 15:58:05	"teacher001"	"teacher"	86	"<STUDENT> do you know the adjective 'rural'?"	"<STUDENT> do you know the adjective 'rural'?"	NA	"4b"	"eliciting"	"lexical resource,meaning"	NA	NA	7
+2020-03-27 15:58:18	"student007"	"student"	87	"yes, rural area"	"yes, rural area"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 15:58:37	"teacher001"	"teacher"	88	"OK great phrase yes! So, what's the opposite of 'rural'?!"	"OK great phrase yes! So, what's the opposite of 'rural'?!"	NA	NA	"eliciting"	"lexical resource"	NA	NA	10
+2020-03-27 15:59:03	"teacher001"	"teacher"	89	"It begins with 'u'!"	"It begins with 'u'!"	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+2020-03-27 15:59:14	"teacher001"	"teacher"	90	"urb...?"	"urb...?"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:59:29	"student007"	"student"	91	"unban"	"urban"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:59:32	"teacher001"	"teacher"	92	"urba..????"	"urba..????"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:59:37	"student007"	"student"	93	"urban"	"urban"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 15:59:50	"student007"	"student"	94	"unban areas"	"urban areas"	NA	NA	NA	NA	NA	NA	2
+2020-03-27 15:59:56	"teacher001"	"teacher"	95	"yes that's it..and you can add you 'areas' idea = perfect"	"yes that's it..and you can add you 'areas' idea = perfect"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-03-27 16:00:04	"teacher001"	"teacher"	96	"so 'urban areas' = good"	"so 'urban areas' = good"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-03-27 16:00:11	"student007"	"student"	97	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 16:00:46	"teacher001"	"teacher"	98	"what about 'solve' - can you change that?"	"what about 'solve' - can you change that?"	NA	"4c"	"eliciting"	"lexical resource"	NA	NA	8
+2020-03-27 16:00:57	"student007"	"student"	99	"cause = reason.   action = approach"	"cause = reason.   action = approach"	NA	NA	NA	NA	NA	NA	8
+2020-03-27 16:01:23	"student007"	"student"	100	"solve = address"	"solve = address"	98	NA	NA	NA	NA	NA	3
+2020-03-27 16:01:41	"teacher001"	"teacher"	101	"OK good ideas yes thanks!"	"OK good ideas yes thanks!"	NA	NA	NA	NA	NA	NA	5
+2020-03-27 16:02:18	"teacher001"	"teacher"	102	"OK so are you ready to have a go at the intro now?"	"OK so are you ready to have a go at the intro now?"	NA	"4d"	"exercise"	"writing"	NA	NA	13
+2020-03-27 16:02:27	"student007"	"student"	103	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 16:02:37	"teacher001"	"teacher"	104	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 16:03:00	"teacher001"	"teacher"	105	"Sorry <STUDENT> - maybe use 'issue' and not 'question'!"	"Sorry <STUDENT> - maybe use 'issue' and not 'question'!"	78	NA	"repair"	"lexical resource"	NA	NA	9
+2020-03-27 16:05:27	"student007"	"student"	106	"it is argued that many traffic issues on the cities and urban areas."	"it is argued that there are many traffic issues in urban areas."	104	NA	NA	NA	NA	NA	13
+2020-03-27 16:06:54	"teacher001"	"teacher"	107	"OK thanks <STUDENT>... this is a fact rather than an opinion in the essay title OK?"	"OK thanks <STUDENT>... this is a fact rather than an opinion in the essay title OK?"	NA	NA	"eliciting,repair"	"meaning"	NA	NA	16
+2020-03-27 16:07:08	"student007"	"student"	108	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 16:07:18	"teacher001"	"teacher"	109	"So let's just say: ''There are many traffic issues in urban areas'"	"So let's just say: ''There are many traffic issues in urban areas'"	NA	NA	"scaffolding"	NA	NA	NA	12
+2020-03-27 16:07:30	"teacher001"	"teacher"	110	"(Cities are urban areas too)"	"(Cities are urban areas too)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-03-27 16:07:37	"student007"	"student"	111	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-27 16:07:43	"teacher001"	"teacher"	112	"So OK that's a background sentence"	"So OK that's a background sentence"	NA	"4e"	"eliciting"	"writing,task achievement,discourse management"	NA	NA	6
+2020-03-27 16:07:58	"teacher001"	"teacher"	113	"Your thesis sentence next!"	"Your thesis sentence next!"	NA	NA	NA	NA	NA	NA	4
+2020-03-27 16:08:10	"teacher001"	"teacher"	114	"The one where you give your own idea right?"	"The one where you give your own idea right?"	NA	NA	"scaffolding"	"discourse management"	NA	NA	9
+2020-03-27 16:08:28	"teacher001"	"teacher"	115	"And here it's what you think the causes/solutinos are!"	"And here it's what you think the causes/solutinos are!"	NA	NA	"scaffolding"	"discourse management"	NA	NA	9
+2020-03-27 16:08:44	"teacher001"	"teacher"	116	"Tell me what you think first <STUDENT> just in easy language just a quick idea OK?"	"Tell me what you think first <STUDENT> just in easy language just a quick idea OK?"	NA	NA	NA	NA	NA	NA	16
+2020-03-27 16:09:02	"teacher001"	"teacher"	117	"OF you've already started the intro sentnce don't worry finish that first"	"OF you've already started the intro sentnce don't worry finish that first"	NA	NA	NA	NA	NA	NA	12
+2020-03-27 16:09:04	"student007"	"student"	118	"okey, money should be spent on public transport."	"ok, money should be spent on public transport."	116	NA	NA	NA	NA	NA	8
+2020-03-27 16:09:19	"teacher001"	"teacher"	119	"OK great thanks that's fine..one more idea?"	"OK great thanks that's fine..one more idea?"	NA	NA	NA	NA	NA	NA	7
+2020-03-27 16:10:07	"student007"	"student"	120	"renewable new electricity cars."	"renewable electricity cars."	NA	NA	NA	NA	NA	NA	4
+2020-03-27 16:10:40	"student007"	"student"	121	"no. nono.."	"no. nono.."	NA	NA	NA	NA	NA	NA	2
+2020-03-27 16:10:43	"teacher001"	"teacher"	122	"OK but how would that reduce the number of cars?"	"OK but how would that reduce the number of cars?"	120	NA	NA	NA	NA	NA	10
+2020-03-27 16:10:53	"teacher001"	"teacher"	123	"Yes I think you see the problem maybe?"	"Yes I think you see the problem maybe?"	121	NA	NA	NA	NA	NA	8
+2020-03-27 16:11:28	"student007"	"student"	124	"come up with ways to limit cars on the roads."	"come up with ways to limit cars on the roads."	NA	NA	NA	NA	NA	NA	10
+2020-03-27 16:11:40	"teacher001"	"teacher"	125	"yes good - how?"	"yes good - how?"	NA	NA	NA	NA	NA	NA	4
+2020-03-27 16:12:04	"student007"	"student"	126	"introduce a law"	"introduce a law"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 16:12:24	"teacher001"	"teacher"	127	"OK fine so just directly banning some cars or whatever right? OK yes"	"OK fine so just directly banning some cars or whatever right? OK yes"	NA	NA	NA	NA	NA	NA	13
+2020-03-27 16:12:44	"student007"	"student"	128	"to ban too many cars on the roads everyday."	"to ban too many cars on the roads everyday."	NA	NA	NA	NA	NA	NA	9
+2020-03-27 16:13:19	"teacher001"	"teacher"	129	"OK great ...<STUDENT> let me ask you to finish that intro (with the second sentence) and tell me on Monday OK?"	"OK great ...<STUDENT> let me ask you to finish that intro (with the second sentence) and tell me on Monday OK?"	NA	"5.0"	"closing,homework"	NA	NA	NA	21
+2020-03-27 16:13:42	"student007"	"student"	130	"OK，no problem"	"OK, no problem"	NA	NA	NA	NA	NA	NA	2
+2020-03-27 16:13:58	"teacher001"	"teacher"	131	"You've done really well <STUDENT>....it takes a lot of concentration in this format ...well done"	"You've done really well <STUDENT>....it takes a lot of concentration in this format ...well done"	NA	NA	NA	NA	NA	NA	15
+2020-03-27 16:14:01	"student007"	"student"	132	"have a good weekend!!!"	"have a good weekend!!!"	NA	NA	NA	NA	NA	NA	4
+2020-03-27 16:14:13	"teacher001"	"teacher"	133	"OK thanks a lot and you if you can bye bye"	"OK thanks a lot and you if you can bye bye"	NA	NA	NA	NA	NA	NA	11
+2020-03-27 16:14:14	"student007"	"student"	134	"thanks a lot"	"thanks a lot"	NA	NA	NA	NA	NA	NA	3
+2020-03-27 16:14:23	"student007"	"student"	135	"bey"	"bye"	NA	NA	NA	NA	NA	"B1"	1

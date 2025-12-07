@@ -1,0 +1,175 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-14 13:30:36	"student015"	"student"	1	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-12-14 13:30:55	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 13:31:03	"teacher008"	"teacher"	3	"Oh sorry, I forgot to enter my username"	"Oh sorry, I forgot to enter my username"	NA	NA	NA	NA	NA	NA	8
+2020-12-14 13:31:24	"teacher008"	"teacher"	4	"How are you? How was your weekend at your parents'?"	"How are you? How was your weekend at your parents'?"	NA	"2.0"	"topic opening"	NA	NA	NA	10
+2020-12-14 13:31:39	"student015"	"student"	5	"It's great, thanks."	"It was great, thanks."	NA	NA	NA	NA	NA	NA	3
+2020-12-14 13:32:18	"teacher008"	"teacher"	6	"Tell me a bit about it, please! In the past tense :)"	"Tell me a bit about it, please! In the past tense :)"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	12
+2020-12-14 13:32:27	"student015"	"student"	7	"I sent you my homework used my yahoo email."	"I sent you my homework from my yahoo email."	NA	"3.0"	"topic opening"	NA	NA	NA	9
+2020-12-14 13:32:30	"student015"	"student"	8	"OK."	"OK."	6	NA	NA	NA	NA	NA	1
+2020-12-14 13:32:53	"teacher008"	"teacher"	9	"Yes, I saw it, we'll get to it in a minute, thank you"	"Yes, I saw it, we'll get to it in a minute, thank you"	7	NA	NA	NA	NA	NA	13
+2020-12-14 13:33:34	"student015"	"student"	10	"I went home at Friday night, and my Mom cooked a lot of delicious food as usual."	"I went home on Friday night, and my Mom cooked a lot of delicious food as usual."	8	NA	NA	NA	NA	NA	17
+2020-12-14 13:33:53	"student015"	"student"	11	"sorry, On Friday night."	"sorry, On Friday night."	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2020-12-14 13:34:02	"teacher008"	"teacher"	12	"Good correction, well done!"	"Good correction, well done!"	NA	NA	NA	NA	NA	NA	4
+2020-12-14 13:34:21	"teacher008"	"teacher"	13	"Oh, sounds wonderful!"	"Oh, sounds wonderful!"	10	NA	NA	NA	NA	NA	3
+2020-12-14 13:35:17	"student015"	"student"	14	"And I talked a lot with my parents about things like how is my work going, if it's cold in Beijing."	"And I talked a lot with my parents about things like how my work is going, if it's cold in Beijing."	NA	NA	NA	NA	NA	NA	21
+2020-12-14 13:35:44	"teacher008"	"teacher"	15	"I see! Sound like you had a lovely time!"	"I see! Sound like you had a lovely time!"	NA	NA	NA	NA	NA	NA	9
+2020-12-14 13:35:53	"teacher008"	"teacher"	16	"*sounds"	"*sounds"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-14 13:36:32	"student015"	"student"	17	"Yes. My parents are always happy when they see me at home."	"Yes. My parents are always happy when they see me at home."	15	NA	NA	NA	NA	NA	12
+2020-12-14 13:36:40	"teacher008"	"teacher"	18	"Yes, I bet!"	"Yes, I bet!"	NA	NA	NA	NA	NA	NA	3
+2020-12-14 13:36:50	"teacher008"	"teacher"	19	"Is it far away from Beijing?"	"Is it far away from Beijing?"	NA	"2a"	"topic development"	NA	NA	NA	6
+2020-12-14 13:37:05	"student015"	"student"	20	"Not so far."	"Not so far."	NA	NA	NA	NA	NA	NA	3
+2020-12-14 13:37:48	"student015"	"student"	21	"About 200 kilometers."	"About 200 kilometers."	NA	NA	NA	NA	NA	NA	3
+2020-12-14 13:37:50	"teacher008"	"teacher"	22	"And you have your amazingly fast trains in China"	"And you have your amazingly fast trains in China"	NA	NA	NA	NA	NA	NA	9
+2020-12-14 13:38:27	"student015"	"student"	23	"My hometown is not so big to have a fast train."	"My hometown is not big enough to have a fast train."	NA	NA	NA	NA	NA	NA	11
+2020-12-14 13:38:43	"teacher008"	"teacher"	24	"Oh, your hometown is not big enough to have a fast train?"	"Oh, your hometown is not big enough to have a fast train?"	NA	NA	"repair"	"lexical resource"	NA	NA	12
+2020-12-14 13:38:46	"teacher008"	"teacher"	25	"That's a shame"	"That's a shame"	NA	NA	NA	NA	NA	NA	3
+2020-12-14 13:39:12	"student015"	"student"	26	"it's just a normal train which spends about two hours."	"it's just a normal train which takes about two hours."	NA	NA	NA	NA	NA	NA	10
+2020-12-14 13:39:43	"teacher008"	"teacher"	27	"Fair enough, I see!"	"Fair enough, I see!"	NA	NA	NA	NA	NA	NA	4
+2020-12-14 13:39:45	"student015"	"student"	28	"But it's going to be a fast train in about two years."	"But there is going to be a fast train in about two years."	NA	NA	NA	NA	NA	NA	12
+2020-12-14 13:40:23	"teacher008"	"teacher"	29	"Good news! Could you combine 'there is' and 'going to' in this sentence, please?"	"Good news! Could you combine 'there is' and 'going to' in this sentence, please?"	NA	"2b"	"eliciting,repair"	"grammatical resource"	NA	NA	14
+2020-12-14 13:40:36	"teacher008"	"teacher"	30	"But ___ ___ ___ to be a fast train in about two years"	"But ___ ___ ___ to be a fast train in about two years"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	13
+2020-12-14 13:41:21	"student015"	"student"	31	"There is going to have a fast train in my howntown in about two years."	"There is going to be a fast train in my hometown in about two years."	NA	NA	NA	NA	NA	NA	15
+2020-12-14 13:41:37	"teacher008"	"teacher"	32	"Nearly. There is going to be a fast train..."	"Nearly. There is going to be a fast train..."	NA	NA	"repair"	"grammatical resource"	NA	NA	9
+2020-12-14 13:42:07	"teacher008"	"teacher"	33	"What do you think will change for people in your hometown when there is a fast train?"	"What do you think will change for people in your hometown when there is a fast train?"	NA	"2c"	"topic development"	NA	NA	NA	17
+2020-12-14 13:42:21	"student015"	"student"	34	"OK. I thought i was wrong."	"OK. I thought I was wrong."	32	NA	NA	NA	NA	NA	6
+2020-12-14 13:43:26	"student015"	"student"	35	"It will be convenient to travel to Beijing which will spend about 40 mins."	"It will be convenient to travel to Beijing, which will take about 40 mins."	33	NA	NA	NA	NA	NA	14
+2020-12-14 13:43:40	"teacher008"	"teacher"	36	"Nice!"	"Nice!"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 13:44:09	"student015"	"student"	37	"But the price of the houses in my hometown will be higher."	"But the price of houses in my hometown will be higher."	NA	NA	NA	NA	NA	NA	12
+2020-12-14 13:44:14	"teacher008"	"teacher"	38	"So people could live in your hometown and commute to work in Beijing!"	"So people could live in your hometown and commute to work in Beijing!"	36	NA	NA	NA	NA	NA	13
+2020-12-14 13:44:30	"teacher008"	"teacher"	39	"Ah, yes, this is always the consequence of better transport connection!"	"Ah, yes, this is always the consequence of better transport connection!"	37	NA	NA	NA	NA	NA	11
+2020-12-14 13:45:46	"student015"	"student"	40	"Beijing is so big, and most conpanies are in the centre of it."	"Beijing is so big, and most conpanies are in the centre of it."	38	NA	NA	NA	NA	NA	13
+2020-12-14 13:46:08	"teacher008"	"teacher"	41	"So the commute will actually take longer than 40 minutes?"	"So the commute will actually take longer than 40 minutes?"	NA	NA	NA	NA	NA	NA	10
+2020-12-14 13:46:58	"student015"	"student"	42	"So the commute will depends which area of your company located."	"So the commute will depend on which area your company is located in."	NA	NA	NA	NA	NA	NA	11
+2020-12-14 13:47:51	"student015"	"student"	43	"the commute time will depend on the position of your company."	"the commute time will depend on the position of your company."	NA	NA	NA	NA	NA	NA	11
+2020-12-14 13:48:07	"teacher008"	"teacher"	44	"Yes, it makes sense!"	"Yes, it makes sense!"	NA	NA	NA	NA	NA	NA	4
+2020-12-14 13:48:42	"teacher008"	"teacher"	45	"The verb we use here is 'take'. Something takes 40 minutes"	"The verb we use here is 'take'. Something takes 40 minutes"	NA	"2d"	"scaffolding"	"lexical resource"	NA	NA	11
+2020-12-14 13:48:53	"teacher008"	"teacher"	46	"The train takes two hours. The commute takes forty minutes"	"The train takes two hours. The commute takes forty minutes"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-12-14 13:49:04	"teacher008"	"teacher"	47	"Doing this work will take me two weeks"	"Doing this work will take me two weeks"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-12-14 13:49:24	"teacher008"	"teacher"	48	"It sometimes takes an author years to write a novel"	"It sometimes takes an author years to write a novel"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-12-14 13:49:39	"teacher008"	"teacher"	49	"How long does it take you to get to work?"	"How long does it take you to get to work?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-12-14 13:49:47	"student015"	"student"	50	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 13:50:19	"student015"	"student"	51	"It takes me 20 minutes to get to work."	"It takes me 20 minutes to get to work."	NA	NA	NA	NA	NA	NA	9
+2020-12-14 13:50:57	"teacher008"	"teacher"	52	"Ok, great!"	"Ok, great!"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 13:51:13	"teacher008"	"teacher"	53	"Ok, you did another excellent job with your homework!"	"Ok, you did another excellent job with your homework!"	9	"3a"	"redirection"	"writing"	"student's writing"	NA	9
+2020-12-14 13:51:20	"teacher008"	"teacher"	54	"Hi David,  It sounds great that your friends are going to have a holiday in my city. As you know, Beijing is the capital of China, so it’s an excellent choice for a holiday. There are a lot of places where they may want to visit, let me introduce some of them. If they want to experience the culture of China, they should go to somewhere like The Palace Museum and Nanluoguxiang where they can see the Chinese historical royal buildings and  eat the classic Chinese food. Also they can visit the Great Wall which is the symbol of Chinese history. And in the Great Wall, they can see the beatiful scenery of Beijing. By the way, because Beijing is one of the biggest cities in China, during the holiday, I think they can travel by subway. In Beijing Subway is so convinient that they can travel to almost all places they want. At last, hope they would have a great time in Beijing, if they have any problem, they can connect with me.     Thanks,     <STUDENT>"	"Hi David,  It sounds great that your friends are going to have a holiday in my city. As you know, Beijing is the capital of China, so it’s an excellent choice for a holiday. There are a lot of places where they may want to visit, let me introduce some of them. If they want to experience the culture of China, they should go to somewhere like The Palace Museum and Nanluoguxiang where they can see the Chinese historical royal buildings and  eat the classic Chinese food. Also they can visit the Great Wall which is the symbol of Chinese history. And in the Great Wall, they can see the beatiful scenery of Beijing. By the way, because Beijing is one of the biggest cities in China, during the holiday, I think they can travel by subway. In Beijing Subway is so convinient that they can travel to almost all places they want. At last, hope they would have a great time in Beijing, if they have any problem, they can connect with me.     Thanks,     <STUDENT>"	NA	NA	NA	NA	"student's writing"	NA	186
+2020-12-14 13:51:29	"teacher008"	"teacher"	55	"This is a really good informal letter!"	"This is a really good informal letter!"	NA	NA	NA	NA	NA	NA	7
+2020-12-14 13:51:43	"student015"	"student"	56	"Thanks."	"Thanks."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 13:51:58	"teacher008"	"teacher"	57	"There are just a couple of problems with prepositions, one moment"	"There are just a couple of problems with prepositions, one moment"	NA	"3b"	"scaffolding"	"writing,lexical resource"	"student's writing"	NA	11
+2020-12-14 13:52:19	"student015"	"student"	58	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 13:52:29	"teacher008"	"teacher"	59	"I think 'classic Chinese food' is a good choice, because it can be a bit confusing with snacks, as we discovered last time!"	"I think 'classic Chinese food' is a good choice, because it can be a bit confusing with snacks, as we discovered last time!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	23
+2020-12-14 13:52:47	"student015"	"student"	60	"Yes. I think so."	"Yes. I think so."	NA	NA	NA	NA	NA	NA	4
+2020-12-14 13:53:11	"teacher008"	"teacher"	61	"And ___ the Great Wall, they can see the beautiful scenery of Beijing"	"And ___ the Great Wall, they can see the beautiful scenery of Beijing"	NA	NA	NA	NA	NA	NA	13
+2020-12-14 13:53:22	"teacher008"	"teacher"	62	"I would say, FROM the Great Wall"	"I would say, FROM the Great Wall"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-12-14 13:53:40	"teacher008"	"teacher"	63	"They have to climb to the Wall, and then see it from the wall"	"They have to climb to the Wall, and then see it from the wall"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-12-14 13:53:43	"student015"	"student"	64	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 13:54:30	"teacher008"	"teacher"	65	"they should go to somewhere like The Palace Museum and Nanluoguxiang"	"they should go to somewhere like The Palace Museum and Nanluoguxiang"	NA	"3c"	NA	NA	NA	NA	11
+2020-12-14 13:54:46	"teacher008"	"teacher"	66	"they should go somewhere, without 'to'"	"they should go somewhere, without 'to'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-12-14 13:55:08	"student015"	"student"	67	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 13:55:10	"teacher008"	"teacher"	68	"if you use the name of a place, you need 'to'. They should go to The Palace Museum"	"if you use the name of a place, you need 'to'. They should go to The Palace Museum"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-12-14 13:55:19	"teacher008"	"teacher"	69	"but 'somewhere' swallows 'to'"	"but 'somewhere' swallows 'to'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-12-14 13:55:54	"student015"	"student"	70	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 13:56:08	"teacher008"	"teacher"	71	"There is a wrong spelling of 'convenient', but you spelled it correctly earlier on in the chat :) 'convenient'"	"There is a wrong spelling of 'convenient', but you spelled it correctly earlier on in the chat :) 'convenient'"	NA	"3d"	"scaffolding"	"lexical resource,writing"	NA	NA	19
+2020-12-14 13:56:23	"teacher008"	"teacher"	72	"But great writing overall, and you answered all the questions in the task. Yay!"	"But great writing overall, and you answered all the questions in the task. Yay!"	NA	NA	NA	NA	NA	NA	14
+2020-12-14 13:57:27	"teacher008"	"teacher"	73	"I've got a B2 task for you to practise today. A multiple choice one. I'm going to copy the text here, and then I'm going to give you options for every question"	"I've got a B2 task for you to practise today. A multiple choice one. I'm going to copy the text here, and then I'm going to give you options for every question"	NA	"4.0"	"exercise"	"exam prep,lexical resource,grammatical resource"	"website"	NA	32
+2020-12-14 13:57:53	"student015"	"student"	74	"OK. Thanks a lot."	"OK. Thanks a lot."	NA	NA	NA	NA	NA	NA	4
+2020-12-14 13:57:57	"teacher008"	"teacher"	75	"It's called 'The Netherlands'. What is the word for a nationality, someone who comes from the Netherlands. Do you remember?"	"It's called 'The Netherlands'. What is the word for a nationality, someone who comes from the Netherlands. Do you remember?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	20
+2020-12-14 13:59:06	"student015"	"student"	76	"Sorry, i can’t remember clearly."	"Sorry, I can’t remember clearly."	NA	NA	NA	NA	NA	NA	5
+2020-12-14 13:59:21	"teacher008"	"teacher"	77	"No worries. Dutch. Someone who comes from this country is Dutch."	"No worries. Dutch. Someone who comes from this country is Dutch."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-12-14 13:59:29	"teacher008"	"teacher"	78	"Also, Dutch food etc."	"Also, Dutch food etc."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-12-14 13:59:41	"teacher008"	"teacher"	79	"It's a bit unusual, because the words are so different"	"It's a bit unusual, because the words are so different"	NA	NA	NA	NA	NA	NA	10
+2020-12-14 14:00:02	"teacher008"	"teacher"	80	"Anyway, have a quick look through the text, and I'll send you the options for question 1"	"Anyway, have a quick look through the text, and I'll send you the options for question 1"	NA	"4a"	NA	NA	NA	NA	17
+2020-12-14 14:00:04	"teacher008"	"teacher"	81	"Welcome to the Netherlands, a tiny country that only extends, at its broadest, 312 km north to south, and 264 km east to west - (1) ... the land area increases slightly each year as a (2) ... of continuous land reclamation and drainage. With a lot of heart and much to offer, 'Holland,' as it is (3) ... known to most of us abroad - a name stemming (4) ... its once most prominent provinces - has more going on per kilometre than most countries, and more English-speaking natives. You'll be impressed by its (5) ... cities and charmed by its countryside and villages, full of contrasts. From the exciting variety (6) ... offer, you could choose a romantic canal boat tour in Amsterdam, a Royal Tour by coach in The Hague, or a hydrofoil tour around the biggest harbour in the world - Rotterdam. In season you could visit the dazzling bulb fields, enjoy a full day on a boat, or take a bike tour through the pancake-flat countryside spiced with windmills. The possibilities are countless and the nationwide tourist office, which is on hand to give you information and (7) ... reservations. You'll have (8) ... language problems here, as the Dutch are true linguists and English is spoken here almost universally."	"Welcome to the Netherlands, a tiny country that only extends, at its broadest, 312 km north to south, and 264 km east to west - (1) ... the land area increases slightly each year as a (2) ... of continuous land reclamation and drainage. With a lot of heart and much to offer, 'Holland,' as it is (3) ... known to most of us abroad - a name stemming (4) ... its once most prominent provinces - has more going on per kilometre than most countries, and more English-speaking natives. You'll be impressed by its (5) ... cities and charmed by its countryside and villages, full of contrasts. From the exciting variety (6) ... offer, you could choose a romantic canal boat tour in Amsterdam, a Royal Tour by coach in The Hague, or a hydrofoil tour around the biggest harbour in the world - Rotterdam. In season you could visit the dazzling bulb fields, enjoy a full day on a boat, or take a bike tour through the pancake-flat countryside spiced with windmills. The possibilities are countless and the nationwide tourist office, which is on hand to give you information and (7) ... reservations. You'll have (8) ... language problems here, as the Dutch are true linguists and English is spoken here almost universally."	NA	NA	NA	NA	NA	NA	215
+2020-12-14 14:00:42	"teacher008"	"teacher"	82	"1. A) so B) despite C) in spite of D) although"	"1. A) so B) despite C) in spite of D) although"	NA	NA	NA	NA	NA	NA	11
+2020-12-14 14:02:56	"student015"	"student"	83	"1 B?"	"1 B?"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:03:19	"teacher008"	"teacher"	84	"No, what would be your second choice?"	"No, what would be your second choice?"	NA	NA	"eliciting,repair"	"lexical resource,grammatical resource"	NA	NA	7
+2020-12-14 14:03:42	"student015"	"student"	85	"D"	"D"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:04:05	"teacher008"	"teacher"	86	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:04:07	"teacher008"	"teacher"	87	"although"	"although"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:04:34	"teacher008"	"teacher"	88	"the country is this big, although we can't say exactly because the area increases each year"	"the country is this big, although we can't say exactly because the area increases each year"	NA	NA	NA	NA	NA	NA	16
+2020-12-14 14:04:45	"teacher008"	"teacher"	89	"despite / in spite of only work with a noun"	"despite / in spite of only work with a noun"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	10
+2020-12-14 14:04:57	"teacher008"	"teacher"	90	"despite the fact that... / in spite of the fact that..."	"despite the fact that... / in spite of the fact that..."	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	11
+2020-12-14 14:05:14	"student015"	"student"	91	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:05:39	"student015"	"student"	92	"I thought b,c,d were all right."	"I thought b,c,d were all right."	NA	NA	NA	NA	NA	NA	6
+2020-12-14 14:06:18	"student015"	"student"	93	"Now I know the difference of them."	"Now I know the difference between them."	NA	NA	NA	NA	NA	NA	7
+2020-12-14 14:06:21	"teacher008"	"teacher"	94	"I see! You were right in that you need to contrast the two pars of the sentences"	"I see! You were right in that you need to contrast the two parts of the sentences"	NA	NA	NA	NA	NA	NA	17
+2020-12-14 14:07:36	"teacher008"	"teacher"	95	"2. A) whole B) consequently C) rule D) result"	"2. A) whole B) consequently C) rule D) result"	NA	"4b"	NA	NA	NA	NA	9
+2020-12-14 14:07:49	"student015"	"student"	96	"D"	"D"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:08:36	"teacher008"	"teacher"	97	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:08:38	"teacher008"	"teacher"	98	"3. A) regularly B) occasionally C) commonly D) unusually"	"3. A) regularly B) occasionally C) commonly D) unusually"	NA	NA	NA	NA	NA	NA	9
+2020-12-14 14:09:22	"student015"	"student"	99	"C"	"C"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:09:36	"teacher008"	"teacher"	100	"correct! commonly known is an expression"	"correct! commonly known is an expression"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-12-14 14:09:37	"teacher008"	"teacher"	101	"4. A) in B) from C) on D) of"	"4. A) in B) from C) on D) of"	NA	NA	NA	NA	NA	NA	9
+2020-12-14 14:10:04	"student015"	"student"	102	"B"	"B"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:10:57	"teacher008"	"teacher"	103	"Correct! stem from"	"Correct! stem from"	NA	NA	NA	NA	NA	NA	3
+2020-12-14 14:11:00	"teacher008"	"teacher"	104	"5. A) historic B) historical C) historically D) historian"	"5. A) historic B) historical C) historically D) historian"	NA	NA	NA	NA	NA	NA	9
+2020-12-14 14:11:42	"student015"	"student"	105	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:11:55	"teacher008"	"teacher"	106	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:11:57	"teacher008"	"teacher"	107	"well done"	"well done"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:12:06	"teacher008"	"teacher"	108	"6. A) at B) in C) on D) for"	"6. A) at B) in C) on D) for"	NA	NA	NA	NA	NA	NA	9
+2020-12-14 14:13:07	"student015"	"student"	109	"Don’t know, guess B?"	"Don’t know, I guess B?"	NA	NA	NA	NA	NA	NA	4
+2020-12-14 14:13:25	"teacher008"	"teacher"	110	"The expression is 'on offer'"	"The expression is 'on offer'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-12-14 14:13:36	"teacher008"	"teacher"	111	"Something can be 'on offer' in a shop, for example"	"Something can be 'on offer' in a shop, for example"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-12-14 14:14:02	"teacher008"	"teacher"	112	"7. A) sit B) catch C) do D) make"	"7. A) sit B) catch C) do D) make"	NA	NA	NA	NA	NA	NA	9
+2020-12-14 14:15:18	"student015"	"student"	113	"D"	"D"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:15:29	"teacher008"	"teacher"	114	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:15:36	"teacher008"	"teacher"	115	"make a reservation = book"	"make a reservation = book"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-12-14 14:15:51	"teacher008"	"teacher"	116	"We can book a table at a restaurant / make a reservation at a restaurant"	"We can book a table at a restaurant / make a reservation at a restaurant"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-12-14 14:16:00	"teacher008"	"teacher"	117	"Ok, one last!"	"Ok, one last!"	NA	NA	NA	NA	NA	NA	3
+2020-12-14 14:16:01	"student015"	"student"	118	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:16:01	"teacher008"	"teacher"	119	"8. A) few B) a few C) little D) a little"	"8. A) few B) a few C) little D) a little"	NA	NA	NA	NA	NA	NA	11
+2020-12-14 14:16:41	"student015"	"student"	120	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:16:58	"teacher008"	"teacher"	121	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-12-14 14:17:13	"teacher008"	"teacher"	122	"What's the difference between 'few' and 'a few' here?"	"What's the difference between 'few' and 'a few' here?"	NA	"4c"	"eliciting"	"lexical resource,grammatical resource"	NA	NA	9
+2020-12-14 14:18:10	"student015"	"student"	123	"Because English is well used in the place, there is no problems ..."	"Because English is widely used in the place, there are no problems ..."	NA	NA	NA	NA	NA	NA	13
+2020-12-14 14:18:55	"teacher008"	"teacher"	124	"Exactly! 'few' means not many here"	"Exactly! 'few' means not many here"	NA	NA	"scaffolding"	"lexical resource,grammatical resource,meaning"	NA	NA	6
+2020-12-14 14:19:02	"teacher008"	"teacher"	125	"But 'a few' means 'some'"	"But 'a few' means 'some'"	NA	NA	"scaffolding"	"lexical resource,grammatical resource,meaning"	NA	NA	5
+2020-12-14 14:19:21	"student015"	"student"	126	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:19:32	"teacher008"	"teacher"	127	"For example, 'I have few friends' means I don't have enough friends"	"For example, 'I have few friends' means I don't have enough friends"	NA	NA	"scaffolding"	"lexical resource,grammatical resource,meaning"	NA	NA	12
+2020-12-14 14:19:37	"student015"	"student"	128	"so a few &gt;= a little ?"	"so a few &gt;= a little ?"	NA	"4d"	"enquiry"	"lexical resource,grammatical resource,meaning"	NA	NA	7
+2020-12-14 14:19:53	"teacher008"	"teacher"	129	"But 'I have A few friends' means I have some friends, there's a positive meaning"	"But 'I have A few friends' means I have some friends, there's a positive meaning"	127	NA	"scaffolding"	"lexical resource,grammatical resource,meaning"	NA	NA	15
+2020-12-14 14:20:07	"teacher008"	"teacher"	130	"There is a difference between 'few' and 'little'!"	"There is a difference between 'few' and 'little'!"	128	NA	NA	NA	NA	NA	8
+2020-12-14 14:20:17	"student015"	"student"	131	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:20:17	"teacher008"	"teacher"	132	"But it's about whether the noun is countable or uncountable"	"But it's about whether the noun is countable or uncountable"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-12-14 14:20:28	"teacher008"	"teacher"	133	"I have a few friends and a little money"	"I have a few friends and a little money"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-12-14 14:20:39	"teacher008"	"teacher"	134	"friends = countable noun, money = uncountable noun"	"friends = countable noun, money = uncountable noun"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-12-14 14:20:50	"student015"	"student"	135	"a few != some?"	"a few != some?"	NA	"4e"	"enquiry"	"grammatical resource"	NA	NA	4
+2020-12-14 14:20:56	"teacher008"	"teacher"	136	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:21:02	"student015"	"student"	137	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:21:11	"teacher008"	"teacher"	138	"I have some friends and some money :) 'some' works for both countable and uncountable"	"I have some friends and some money :) 'some' works for both countable and uncountable"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-12-14 14:22:13	"teacher008"	"teacher"	139	"Can you fill in the gaps, please? I have a ___ books. I like a ___ milk in my tea. I feel a ___ upset. It only costs a ___ pounds."	"Can you fill in the gaps, please? I have a ___ books. I like a ___ milk in my tea. I feel a ___ upset. It only costs a ___ pounds."	NA	"4f"	"eliciting"	"grammatical resource,lexical resource"	NA	NA	31
+2020-12-14 14:22:18	"teacher008"	"teacher"	140	"few / little"	"few / little"	NA	NA	NA	NA	NA	NA	3
+2020-12-14 14:22:45	"student015"	"student"	141	"few,little,little,few"	"few,little,little,few"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:23:18	"teacher008"	"teacher"	142	"Yes, absolutely correct!"	"Yes, absolutely correct!"	NA	NA	NA	NA	NA	NA	3
+2020-12-14 14:23:29	"teacher008"	"teacher"	143	"As you can see, 'upset' is an adjective, not a noun"	"As you can see, 'upset' is an adjective, not a noun"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	11
+2020-12-14 14:23:46	"teacher008"	"teacher"	144	"But we use 'little' here too"	"But we use 'little' here too"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	6
+2020-12-14 14:24:01	"student015"	"student"	145	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:24:21	"teacher008"	"teacher"	146	"Ok, great"	"Ok, great"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:24:52	"student015"	"student"	147	"Can you tell me the difference between 'historic' and 'historical'?"	"Can you tell me the difference between 'historic' and 'historical'?"	NA	"5.0"	"enquiry"	"lexical resource"	NA	NA	10
+2020-12-14 14:25:06	"teacher008"	"teacher"	148	"One of my friends is Dutch, and he hates it when people call his country 'Holland'. He always corrects people that it's 'the Netherlands' :)"	"One of my friends is Dutch, and he hates it when people call his country 'Holland'. He always corrects people that it's 'the Netherlands' :)"	146	"4g"	NA	NA	NA	NA	25
+2020-12-14 14:25:13	"teacher008"	"teacher"	149	"Very good question, one second!"	"Very good question, one second!"	147	NA	NA	NA	NA	NA	5
+2020-12-14 14:25:44	"teacher008"	"teacher"	150	"historic = important in history"	"historic = important in history"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-12-14 14:26:02	"teacher008"	"teacher"	151	"It was a historic day in the history of my country (because something really important happened)"	"It was a historic day in the history of my country (because something really important happened)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2020-12-14 14:26:06	"teacher008"	"teacher"	152	"a historic vote"	"a historic vote"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-12-14 14:26:10	"teacher008"	"teacher"	153	"historic election"	"historic election"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-12-14 14:26:52	"teacher008"	"teacher"	154	"historical = connected with a study of history"	"historical = connected with a study of history"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-12-14 14:27:15	"teacher008"	"teacher"	155	"a historical document (we learn a lot of history from it)"	"a historical document (we learn a lot of history from it)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-12-14 14:27:23	"teacher008"	"teacher"	156	"a historical novel (a novel about history)"	"a historical novel (a novel about history)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-12-14 14:27:34	"student015"	"student"	157	"So historic means important in history, historical just means history?"	"So historic means important in history, historical just means history?"	NA	"5a"	"enquiry"	"lexical resource,meaning"	NA	NA	10
+2020-12-14 14:28:14	"teacher008"	"teacher"	158	"Yes, historical is about history as a study of the past"	"Yes, historical is about history as a study of the past"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-12-14 14:28:21	"teacher008"	"teacher"	159	"let me think of more examples"	"let me think of more examples"	NA	NA	NA	NA	NA	NA	6
+2020-12-14 14:28:28	"student015"	"student"	160	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:29:59	"teacher008"	"teacher"	161	"If we say a city is historic, a lot of important things happened there"	"If we say a city is historic, a lot of important things happened there"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	14
+2020-12-14 14:30:24	"teacher008"	"teacher"	162	"Cambridge is a historic city, the home of the famous university."	"Cambridge is a historic city, the home of the famous university."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-12-14 14:30:58	"teacher008"	"teacher"	163	"But my little town is not historic. It has never been an important place. It has some historical buildings (from the past)"	"But my little town is not historic. It has never been an important place. It has some historical buildings (from the past)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	22
+2020-12-14 14:31:14	"student015"	"student"	164	"Yes. we stress the important means of the city if we say the city is historic"	"Yes. We stress the importance of the city if we say the city is historic"	NA	NA	NA	NA	NA	NA	16
+2020-12-14 14:31:30	"teacher008"	"teacher"	165	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:31:45	"teacher008"	"teacher"	166	"Is your hometown historic? Was it important in history?"	"Is your hometown historic? Was it important in history?"	NA	"5b"	"eliciting"	"lexical resource,meaning"	NA	NA	9
+2020-12-14 14:31:58	"student015"	"student"	167	"I think I understand the difference."	"I think I understand the difference."	165	NA	NA	NA	NA	NA	6
+2020-12-14 14:32:21	"student015"	"student"	168	"No. My hometown is a small city."	"No. My hometown is a small city."	NA	NA	NA	NA	NA	NA	7
+2020-12-14 14:32:35	"teacher008"	"teacher"	169	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:33:06	"teacher008"	"teacher"	170	"Ok, lovely, I'll let you go now. Speak to you on Thursday, have a lovely week! Well done today!"	"Ok, lovely, I'll let you go now. Speak to you on Thursday, have a lovely week! Well done today!"	NA	"6.0"	"closing"	NA	NA	NA	19
+2020-12-14 14:33:30	"student015"	"student"	171	"OK. Thanks."	"OK. Thanks."	NA	NA	NA	NA	NA	NA	2
+2020-12-14 14:33:41	"student015"	"student"	172	"See you on Thursday."	"See you on Thursday."	NA	NA	NA	NA	NA	NA	4
+2020-12-14 14:33:54	"teacher008"	"teacher"	173	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	NA	1
+2020-12-14 14:34:00	"student015"	"student"	174	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

@@ -1,0 +1,165 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-10 12:00:15	"student014"	"student"	1	"Hello!"	"Hello!"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-11-10 12:01:01	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 12:01:04	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-10 12:01:22	"student014"	"student"	4	"Great, thank you! How about you?"	"Great, thank you! How about you?"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 12:01:59	"teacher008"	"teacher"	5	"All good, thanks. It's been unseasonally warm here"	"All good, thanks. It's been unseasonally warm here"	NA	NA	NA	NA	NA	NA	8
+2020-11-10 12:02:24	"student014"	"student"	6	"Really? Here it is quite cold..."	"Really? Here it is quite cold..."	NA	NA	NA	NA	NA	NA	6
+2020-11-10 12:02:59	"teacher008"	"teacher"	7	"Oh interesting! Maybe our warmth will soon reach you guys, or maybe vice versa, we'll get your cold weather"	"Oh interesting! Maybe our warmth will soon reach you guys, or maybe vice versa, we'll get your cold weather"	NA	NA	NA	NA	NA	NA	19
+2020-11-10 12:04:09	"student014"	"student"	8	"We shall see...I hope it will get a bit warmer, it really went from summer to winter weather  in a matter of days"	"We shall see...I hope it will get a bit warmer, it really went from summer to winter weather  in a matter of days"	NA	NA	NA	NA	NA	NA	24
+2020-11-10 12:04:33	"teacher008"	"teacher"	9	"How's the lockdown going for you? Are there any aspects you're enjoying or is a survival for you, with two young kids and working from home?"	"How's the lockdown going for you? Are there any aspects you're enjoying or is a survival for you, with two young kids and working from home?"	NA	"2a"	"topic development"	NA	NA	NA	26
+2020-11-10 12:05:27	"teacher008"	"teacher"	10	"I wonder if the climate in Austria is less affected by the ocean, with it being landlocked, so you're getting more of a contrast of seasons"	"I wonder if the climate in Austria is less affected by the ocean, with it being landlocked, so you're getting more of a contrast of seasons"	8	NA	NA	NA	NA	NA	26
+2020-11-10 12:05:39	"student014"	"student"	11	"Well...currently it is mostly a curfew, at least the children go to the childminer in the morning."	"Well...currently it is mostly a curfew, at least the children go to the childminder in the morning."	9	NA	NA	NA	NA	NA	17
+2020-11-10 12:06:12	"student014"	"student"	12	"So, currently I am doing fine...I hope they'll let the childminer work, though, because the few hours of silence during the morning make a big difference."	"So, currently I am doing fine...I hope they'll let the childminder work, though, because the few hours of silence during the morning make a big difference."	NA	NA	NA	NA	NA	NA	26
+2020-11-10 12:06:23	"teacher008"	"teacher"	13	"Ah, I see! That's good. It's a childminDer. Someone who minds other people's children, as in looks after them"	"Ah, I see! That's good. It's a childminDer. Someone who minds other people's children, as in looks after them"	NA	"2b"	"repair,scaffolding"	"writing,lexical resource"	NA	NA	19
+2020-11-10 12:07:12	"student014"	"student"	14	"Well...yes, Austria has a bit more of a continental climate...but Graz is relatively close to Slovinia and the sea, so it shoud have the best weather."	"Well...yes, Austria has a bit more of a continental climate...but Graz is relatively close to Slovenia and the sea, so it shoud have the best weather."	10	NA	NA	NA	NA	NA	26
+2020-11-10 12:07:16	"teacher008"	"teacher"	15	"a few hours of quiet, yes"	"a few hours of quiet, yes"	12	NA	"repair"	"lexical resource"	NA	NA	6
+2020-11-10 12:07:19	"student014"	"student"	16	"At least, this is what they told me."	"At least, this is what they told me."	14	NA	NA	NA	NA	NA	8
+2020-11-10 12:08:01	"student014"	"student"	17	"Oh! I must have read it wrong the first time: I was wondering about what 'miner' and 'keeping children' had in common..."	"Oh! I must have read it wrong the first time: I was wondering about what 'miner' and 'looking after children' had in common..."	13	NA	NA	NA	NA	NA	22
+2020-11-10 12:08:11	"student014"	"student"	18	"Thank you for catching it :) Childminder it is, then!"	"Thank you for catching it :) Childminder it is, then!"	NA	NA	NA	NA	NA	NA	10
+2020-11-10 12:08:54	"teacher008"	"teacher"	19	"You sound a bit disappointed in the weather :)  I bet it's quite an adjustment for you. It still is for me!"	"You sound a bit disappointed in the weather :)  I bet it's quite an adjustment for you. It still is for me!"	16	NA	NA	NA	NA	NA	23
+2020-11-10 12:09:10	"teacher008"	"teacher"	20	"Yes, no miners! :)"	"Yes, no miners! :)"	17	NA	NA	NA	NA	NA	4
+2020-11-10 12:09:48	"student014"	"student"	21	"Haha...well, actually my hometown is quite a rainy place...but in Trieste I got used to a very nice weather."	"Haha...well, actually my hometown is quite a rainy place...but in Trieste I got used to very nice weather."	19	NA	NA	NA	NA	NA	19
+2020-11-10 12:10:09	"student014"	"student"	22	"How was the week of vacation? I guess the warm weather was a plus for you!"	"How was the week of vacation? I guess the warm weather was a plus for you!"	NA	"3.0"	"topic opening"	NA	NA	NA	16
+2020-11-10 12:10:46	"teacher008"	"teacher"	23	"It rained for most of the week (of course!) But we had a lovely relaxing time, thank you"	"It rained for most of the week (of course!) But we had a lovely relaxing time, thank you"	NA	NA	NA	NA	NA	NA	18
+2020-11-10 12:11:01	"teacher008"	"teacher"	24	"The warm weather has only just started, really"	"The warm weather has only just started, really"	NA	NA	NA	NA	NA	NA	8
+2020-11-10 12:11:13	"teacher008"	"teacher"	25	"Did you move to Graz for your job / research then?"	"Did you move to Graz for your job / research then?"	NA	"4.0"	"topic opening"	NA	NA	NA	11
+2020-11-10 12:11:20	"student014"	"student"	26	"Oh...well, then who knows how long it will last..."	"Oh...well, then who knows how long it will last..."	24	NA	NA	NA	NA	NA	9
+2020-11-10 12:11:49	"student014"	"student"	27	"Yes, I moved here for my job: it is a very good position...and it is relatively close to my home region: without the corona it takes less about three hours by car"	"Yes, I moved here for my job: it is a very good position...and it is relatively close to my home region: without the corona it takes less than about three hours by car"	25	NA	NA	NA	NA	NA	32
+2020-11-10 12:13:07	"teacher008"	"teacher"	28	"Sure. Could you fill in the gap: If it wasn't __ corona, it would take less than 3 hours"	"Sure. Could you fill in the gap: If it wasn't __ corona, it would take less than 3 hours"	NA	"4a"	"eliciting"	"lexical resource"	NA	NA	19
+2020-11-10 12:13:20	"student014"	"student"	29	"for"	"for"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 12:13:28	"student014"	"student"	30	"I think..."	"I think..."	NA	NA	NA	NA	NA	NA	2
+2020-11-10 12:13:29	"teacher008"	"teacher"	31	"Yes, cool. Just checking :)"	"Yes, cool. Just checking :)"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 12:14:45	"teacher008"	"teacher"	32	"Mind you, every time the weather is particularly warm, which I love, there is always a thought at the back of my mind, is it actually the result of climate change and not something to be particularly happy about?"	"Mind you, every time the weather is particularly warm, which I love, there is always a thought at the back of my mind, is it actually the result of climate change and not something to be particularly happy about?"	26	"3a"	NA	NA	NA	NA	39
+2020-11-10 12:16:07	"student014"	"student"	33	"I agree with you on that one. Climate is more concerned on the weather over time...so a single day of warm could just be okay..."	"I agree with you on that one. Climate is more concerning than weather over time...so a single day of warm could just be okay..."	NA	NA	NA	NA	NA	NA	25
+2020-11-10 12:16:35	"teacher008"	"teacher"	34	"Yes, but when there is a pattern, there is something to worry about"	"Yes, but when there is a pattern, there is something to worry about"	NA	NA	NA	NA	NA	NA	13
+2020-11-10 12:16:38	"student014"	"student"	35	"The problem is that it happens so often and that the temperature is so high."	"The problem is that it happens so often and that the temperature is so high."	33	NA	NA	NA	NA	NA	15
+2020-11-10 12:17:47	"student014"	"student"	36	"Indeed...climate change, unfortunately, is a complex problem: everyone should mint it."	"Indeed...climate change, unfortunately, is a complex problem: everyone should mind it."	34	NA	NA	NA	NA	NA	11
+2020-11-10 12:17:53	"student014"	"student"	37	"*mind it..."	"*mind it..."	NA	NA	"repair"	"writing"	NA	NA	2
+2020-11-10 12:18:10	"teacher008"	"teacher"	38	"Yes, well, hopefully, it's not too late to act on this one!"	"Yes, well, hopefully, it's not too late to act on this one!"	NA	NA	NA	NA	NA	NA	12
+2020-11-10 12:18:23	"student014"	"student"	39	"I hope it too!"	"I hope so too!"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 12:18:33	"teacher008"	"teacher"	40	"It hope __ too"	"It hope __ too"	NA	"5.0"	"eliciting,repair"	"grammatical resource"	NA	NA	4
+2020-11-10 12:18:41	"student014"	"student"	41	"that"	"that"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 12:18:46	"teacher008"	"teacher"	42	"so"	"so"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-11-10 12:19:32	"student014"	"student"	43	"Okay...I agree that 'I hope so too' sounds better, but I wouldn't know why. Is it just how the verb 'hope' works?"	"Okay...I agree that 'I hope so too' sounds better, but I wouldn't know why. Is it just how the verb 'hope' works?"	NA	"5a"	"enquiry"	"grammatical resource,lexical resource"	NA	NA	22
+2020-11-10 12:19:37	"teacher008"	"teacher"	44	"Just thinking how to explain it best"	"Just thinking how to explain it best"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 12:19:38	"student014"	"student"	45	"(for this particular case)"	"(for this particular case)"	43	NA	NA	NA	NA	NA	4
+2020-11-10 12:19:45	"teacher008"	"teacher"	46	"One second"	"One second"	44	NA	NA	NA	NA	NA	2
+2020-11-10 12:20:40	"teacher008"	"teacher"	47	"Hope doesn't take a direct object"	"Hope doesn't take a direct object"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	6
+2020-11-10 12:20:52	"teacher008"	"teacher"	48	"which makes it an 'intransitive' verb"	"which makes it an 'intransitive' verb"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	6
+2020-11-10 12:21:12	"teacher008"	"teacher"	49	"I hope for the best"	"I hope for the best"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	5
+2020-11-10 12:21:17	"teacher008"	"teacher"	50	"we need 'for' here"	"we need 'for' here"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	4
+2020-11-10 12:21:29	"teacher008"	"teacher"	51	"Alternatively, we need a clause"	"Alternatively, we need a clause"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	5
+2020-11-10 12:21:40	"teacher008"	"teacher"	52	"I hope that we will be able to avert climate change"	"I hope that we will be able to avert climate change"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	11
+2020-11-10 12:22:03	"student014"	"student"	53	"I see! Wow, this is definitely an italian-related mistake, since in italian 'to hope' is transitive."	"I see! Wow, this is definitely an Italian-related mistake, since in Italian 'to hope' is transitive."	NA	NA	NA	NA	NA	NA	16
+2020-11-10 12:22:25	"student014"	"student"	54	"I hope that I learn how to use the verb to hope"	"I hope that I learn how to use the verb to hope"	NA	NA	NA	NA	NA	NA	12
+2020-11-10 12:22:31	"teacher008"	"teacher"	55	"Aha, that will be it then, it's language 1 interference for you"	"Aha, that will be it then, it's language 1 interference for you"	53	NA	NA	NA	NA	NA	12
+2020-11-10 12:22:44	"teacher008"	"teacher"	56	"Exactly!"	"Exactly!"	54	NA	NA	NA	NA	NA	1
+2020-11-10 12:23:06	"teacher008"	"teacher"	57	"And of course, it can be a noun as you know"	"And of course, it can be a noun as you know"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	11
+2020-11-10 12:23:10	"student014"	"student"	58	"I hope to learn this.' would also be incorrect, right?"	"I hope to learn this.' would also be incorrect, right?"	NA	"5b"	"enquiry"	"lexical resource,grammatical resource"	NA	NA	10
+2020-11-10 12:23:22	"student014"	"student"	59	"I mean, 'to learn' would be the direct object in that case"	"I mean, 'to learn' would be the direct object in that case"	NA	NA	NA	NA	NA	NA	12
+2020-11-10 12:23:24	"teacher008"	"teacher"	60	"Oh yes, I hope to do something - perfectly fine"	"Oh yes, I hope to do something - perfectly fine"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	10
+2020-11-10 12:23:50	"teacher008"	"teacher"	61	"no, a direct object would be a noun or something that can function as a noun"	"no, a direct object would be a noun or something that can function as a noun"	59	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2020-11-10 12:23:56	"teacher008"	"teacher"	62	"read a book"	"read a book"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2020-11-10 12:24:01	"teacher008"	"teacher"	63	"book - direct object"	"book - direct object"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 12:24:21	"student014"	"student"	64	"okay...I don't know why I included anything answering to 'what?/who?' under the definition of direct noun."	"okay...I don't know why I included anything answering to 'what?/who?' under the definition of direct object."	NA	NA	NA	NA	NA	NA	16
+2020-11-10 12:24:36	"teacher008"	"teacher"	65	"Remember we were talking about the British vs. US use of write?"	"Remember we were talking about the British vs. US use of write?"	NA	"5c"	"revision,scaffolding"	"lexical resource,grammatical resource"	NA	NA	12
+2020-11-10 12:25:07	"teacher008"	"teacher"	66	"In British English, I write a letter to my teacher. A letter = direct ofject; to my teacher = indirect object"	"In British English, I write a letter to my teacher. A letter = direct ofject; to my teacher = indirect object"	NA	NA	"revision,scaffolding"	"lexical resource,grammatical resource"	NA	NA	21
+2020-11-10 12:25:52	"student014"	"student"	67	"Yes, I remember vaguely: in the US people omit the 'to', but I can't exactly remember in which case."	"Yes, I remember vaguely: in the US people omit the 'to', but I can't exactly remember in which case."	NA	NA	NA	NA	NA	NA	19
+2020-11-10 12:26:48	"teacher008"	"teacher"	68	"You know what, you're actually right. 'to learn' is an infinitive object"	"You know what, you're actually right. 'to learn' is an infinitive object"	64	NA	NA	NA	NA	NA	12
+2020-11-10 12:27:48	"teacher008"	"teacher"	69	"Now that I think about it"	"Now that I think about it"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 12:28:35	"teacher008"	"teacher"	70	"In US English, you can say, I'll write you a letter. or She hasn't written me"	"In US English, you can say, I'll write you a letter. or She hasn't written me"	67	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	16
+2020-11-10 12:28:49	"teacher008"	"teacher"	71	"In UK English: She hasn't written to me"	"In UK English: She hasn't written to me"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	8
+2020-11-10 12:28:52	"student014"	"student"	72	"I'll write to you a letter."	"I'll write to you a letter."	NA	NA	NA	NA	NA	NA	6
+2020-11-10 12:29:03	"teacher008"	"teacher"	73	"I'll write a letter to you"	"I'll write a letter to you"	NA	NA	"repair"	"lexical resource,grammatical resource"	NA	NA	6
+2020-11-10 12:29:16	"teacher008"	"teacher"	74	"direct object before the indirect one :)"	"direct object before the indirect one :)"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	7
+2020-11-10 12:29:23	"student014"	"student"	75	"Indeed...ordering problem there."	"Indeed...ordering problem there."	NA	NA	NA	NA	NA	NA	3
+2020-11-10 12:29:44	"student014"	"student"	76	"About the 'I hope to learn'...so would it be correct to use hope + infinitive object?"	"About the 'I hope to learn'...so would it be correct to use hope + infinitive object?"	69	NA	"enquiry"	"lexical resource,grammatical resource"	NA	NA	16
+2020-11-10 12:29:52	"teacher008"	"teacher"	77	"Yes, of course"	"Yes, of course"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 12:30:23	"teacher008"	"teacher"	78	"hope to Verb; hope for Noun; hope that Clause"	"hope to Verb; hope for Noun; hope that Clause"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	9
+2020-11-10 12:30:52	"student014"	"student"	79	"Okay, I'll write that down. Thank you!"	"Okay, I'll write that down. Thank you!"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 12:31:13	"teacher008"	"teacher"	80	"hope for the best (not a noun, but a very common expression)"	"hope for the best (not a noun, but a very common expression)"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	12
+2020-11-10 12:32:09	"student014"	"student"	81	"I see, I would add that 'hope for the best' is a common expression given the current times."	"I see, I would add that 'hope for the best' is a common expression given the current times."	NA	NA	NA	NA	NA	NA	18
+2020-11-10 12:32:27	"teacher008"	"teacher"	82	"Ok, shall we have another look at your writing? I've got one last remark for the piece about Elon Musk"	"Ok, shall we have another look at your writing? I've got one last remark for the piece about Elon Musk"	NA	"6.0"	"topic opening"	"writing"	"student's writing"	NA	20
+2020-11-10 12:32:49	"student014"	"student"	83	"Yes, please!"	"Yes, please!"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 12:33:05	"teacher008"	"teacher"	84	"This is about a parallel structure again"	"This is about a parallel structure again"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 12:33:22	"teacher008"	"teacher"	85	"it definitely is a must-read for anyone interested into  this incredible person or SpaceX/Tesla fan"	"it definitely is a must-read for anyone interested into  this incredible person or SpaceX/Tesla fan"	NA	NA	NA	NA	NA	NA	16
+2020-11-10 12:33:36	"teacher008"	"teacher"	86	"First of all, interested"	"First of all, interested"	NA	NA	"repair"	"lexical resource"	NA	NA	4
+2020-11-10 12:33:39	"teacher008"	"teacher"	87	"in"	"in"	NA	NA	"repair"	"lexical resource"	NA	NA	1
+2020-11-10 12:33:44	"teacher008"	"teacher"	88	"Sorry, interested in"	"Sorry, interested in"	NA	NA	"repair"	"lexical resource"	NA	NA	3
+2020-11-10 12:34:15	"teacher008"	"teacher"	89	"But more importantly, the parallel structure doesn't work here"	"But more importantly, the parallel structure doesn't work here"	NA	"6a"	"topic development,repair"	"grammatical resource"	NA	NA	9
+2020-11-10 12:34:26	"teacher008"	"teacher"	90	"It's a must-read for anyone interested in this person"	"It's a must-read for anyone interested in this person"	NA	NA	NA	NA	NA	NA	9
+2020-11-10 12:34:29	"student014"	"student"	91	"interested into' okay...I think I mixed it up with expressions such as 'I'm into math'"	"interested into' okay...I think I mixed it up with expressions such as 'I'm into math'"	88	NA	NA	NA	NA	NA	15
+2020-11-10 12:34:35	"teacher008"	"teacher"	92	"First part is fine"	"First part is fine"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 12:34:38	"teacher008"	"teacher"	93	"But"	"But"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 12:34:55	"teacher008"	"teacher"	94	"It's a must-read for anyone SpaceX / Tesla fan"	"It's a must-read for anyone SpaceX / Tesla fan"	NA	NA	NA	NA	NA	NA	9
+2020-11-10 12:35:01	"teacher008"	"teacher"	95	"wouldn't work grammatically"	"wouldn't work grammatically"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 12:35:09	"teacher008"	"teacher"	96	"and we need both parts to work"	"and we need both parts to work"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 12:35:38	"student014"	"student"	97	"Hmmm..."	"Hmmm..."	NA	NA	NA	NA	NA	NA	1
+2020-11-10 12:35:45	"student014"	"student"	98	"It's a must-read for every SpaceX / Tesla fan"	"It's a must-read for every SpaceX / Tesla fan"	NA	NA	NA	NA	NA	NA	9
+2020-11-10 12:36:01	"student014"	"student"	99	"that is how I would correct that part...but then, would the parallel structure work?"	"that is how I would correct that part...but then, would the parallel structure work?"	NA	NA	NA	NA	NA	NA	14
+2020-11-10 12:36:08	"student014"	"student"	100	"I guess not..."	"I guess not..."	NA	NA	NA	NA	NA	NA	3
+2020-11-10 12:36:18	"teacher008"	"teacher"	101	"You can still make it work for both parts"	"You can still make it work for both parts"	NA	NA	NA	NA	NA	NA	9
+2020-11-10 12:36:42	"teacher008"	"teacher"	102	"It's a must-read for anyone __ ___ interested in... or Space X / Tesla fan"	"It's a must-read for anyone __ ___ interested in... or Space X / Tesla fan"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	15
+2020-11-10 12:36:54	"student014"	"student"	103	"who is"	"who is"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 12:37:00	"teacher008"	"teacher"	104	"Yes!! correct"	"Yes!! correct"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 12:37:24	"teacher008"	"teacher"	105	"Do you see how it would make both parts agree grammatically?"	"Do you see how it would make both parts agree grammatically?"	NA	NA	NA	NA	NA	NA	11
+2020-11-10 12:38:12	"student014"	"student"	106	"Yes, it is apparent once we split the sentence into two parts..."	"Yes, it is apparent once we split the sentence into two parts..."	NA	NA	NA	NA	NA	NA	12
+2020-11-10 12:38:26	"teacher008"	"teacher"	107	"Last but not least"	"Last but not least"	NA	"6b"	NA	NA	NA	NA	4
+2020-11-10 12:38:34	"student014"	"student"	108	"anyone who is insterested in... anyone who is (a) Tesla fan"	"anyone who is insterested in... anyone who is (a) Tesla fan"	106	NA	NA	NA	NA	NA	11
+2020-11-10 12:38:45	"student014"	"student"	109	"I guess that a is missing?"	"I guess that a is missing?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	6
+2020-11-10 12:38:53	"teacher008"	"teacher"	110	"Correct! I was just typing about that :)"	"Correct! I was just typing about that :)"	NA	NA	NA	NA	NA	NA	8
+2020-11-10 12:39:05	"teacher008"	"teacher"	111	"You definitely need an 'a'"	"You definitely need an 'a'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-11-10 12:40:03	"student014"	"student"	112	"Lesson learned: from now on I will try to split parallel structures and check them separately."	"Lesson learned: from now on I will try to split parallel structures and check them separately."	NA	NA	NA	NA	NA	NA	16
+2020-11-10 12:40:34	"student014"	"student"	113	"Otherwise I find it difficult to find this sort of problems."	"Otherwise I find it difficult to find this sort of problems."	NA	NA	NA	NA	NA	NA	11
+2020-11-10 12:41:15	"teacher008"	"teacher"	114	"Ok! I'm sure you will soon develop a feel for that"	"Ok! I'm sure you will soon develop a feel for that"	NA	NA	NA	NA	NA	NA	11
+2020-11-10 12:41:50	"teacher008"	"teacher"	115	"Ok, the next bit presents a similar challenge. Not a parallel structure, but also a grammatical agreement problem"	"Ok, the next bit presents a similar challenge. Not a parallel structure, but also a grammatical agreement problem"	NA	"6c"	"topic development"	"grammatical resource"	NA	NA	18
+2020-11-10 12:42:07	"teacher008"	"teacher"	116	"I found this book interesting, though being packed with ideas, it sometimes makes it hard to read/follow  and some concept are, I believe, oversimplified."	"I found this book interesting, though being packed with ideas, it sometimes makes it hard to read/follow  and some concept are, I believe, oversimplified."	NA	NA	NA	NA	NA	NA	25
+2020-11-10 12:42:30	"teacher008"	"teacher"	117	"Being packed with ideas, it sometimes makes it hard to follow..."	"Being packed with ideas, it sometimes makes it hard to follow..."	NA	NA	NA	NA	NA	NA	11
+2020-11-10 12:43:36	"student014"	"student"	118	"Being packed with ideas makes it sometimes hard to follow."	"Being packed with ideas makes it sometimes hard to follow."	NA	NA	NA	NA	NA	NA	10
+2020-11-10 12:43:53	"student014"	"student"	119	"Would that be better? Even though i don't really like the expression 'being packed with ideas'"	"Would that be better? Even though i don't really like the expression 'being packed with ideas'"	NA	NA	NA	NA	NA	NA	16
+2020-11-10 12:44:42	"teacher008"	"teacher"	120	"Very good correction! You've made 'being packed with ideas' the subject"	"Very good correction! You've made 'being packed with ideas' the subject"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-10 12:44:56	"teacher008"	"teacher"	121	"Otherwise, being packed with ideas doesn't agree with 'it'"	"Otherwise, being packed with ideas doesn't agree with 'it'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-11-10 12:45:16	"teacher008"	"teacher"	122	"because you mean 'the book', not 'it' from the clause 'it makes it hard to read'"	"because you mean 'the book', not 'it' from the clause 'it makes it hard to read'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2020-11-10 12:46:02	"teacher008"	"teacher"	123	"How would you correct this sentence? 'Having lost my glasses, it was hard for me to read'"	"How would you correct this sentence? 'Having lost my glasses, it was hard for me to read'"	NA	"6d"	"eliciting"	"grammatical resource"	NA	NA	17
+2020-11-10 12:47:28	"student014"	"student"	124	"Mmm...I am thinking"	"Mmm...I am thinking"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 12:47:58	"teacher008"	"teacher"	125	"Let me know if you don't see the problem with it :)"	"Let me know if you don't see the problem with it :)"	NA	NA	NA	NA	NA	NA	12
+2020-11-10 12:48:20	"student014"	"student"	126	"Changing the second part to 'made it hard for me to read' is an option, probably..."	"Changing the second part to 'made it hard for me to read' is an option, probably..."	NA	NA	NA	NA	NA	NA	16
+2020-11-10 12:48:34	"student014"	"student"	127	"The 'it' is not referring to 'having lost my glasses' (which is the subject)"	"The 'it' is not referring to 'having lost my glasses' (which is the subject)"	NA	NA	NA	NA	NA	NA	14
+2020-11-10 12:48:47	"teacher008"	"teacher"	128	"Yes, definitely"	"Yes, definitely"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 12:49:13	"student014"	"student"	130	"But I can't think of what would be the correct word instead of 'it'"	"But I can't think of what would be the correct word instead of 'it'"	NA	NA	NA	NA	NA	NA	14
+2020-11-10 12:49:35	"teacher008"	"teacher"	131	"But if you wanted to keep 'having lost my glasses', it would be something like 'Having lost my glasses, I was struggling to read'"	"But if you wanted to keep 'having lost my glasses', it would be something like 'Having lost my glasses, I was struggling to read'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	24
+2020-11-10 12:49:44	"teacher008"	"teacher"	132	"Because I lost my glasses, not 'it'"	"Because I lost my glasses, not 'it'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-11-10 12:50:07	"teacher008"	"teacher"	133	"You need the same subject in them"	"You need the same subject in them"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-11-10 12:50:13	"student014"	"student"	134	"I see...so there was not way to simply 'correct' the word 'it'."	"I see...so there was no way to simply 'correct' the word 'it'."	NA	NA	NA	NA	NA	NA	12
+2020-11-10 12:50:43	"teacher008"	"teacher"	135	"No, you'd need to re-structure it"	"No, you'd need to re-structure it"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 12:50:55	"teacher008"	"teacher"	136	"It's a very common higher-level learner mistake"	"It's a very common higher-level learner mistake"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 12:51:44	"student014"	"student"	137	"I see...well, it looks rather difficult to find"	"I see...well, it looks rather difficult to find"	NA	NA	NA	NA	NA	NA	8
+2020-11-10 12:51:56	"teacher008"	"teacher"	138	"I do agree with actually about the fact that 'being packed with ideas' is not the best choice of phrase"	"I do agree with actually about the fact that 'being packed with ideas' is not the best choice of phrase"	NA	"6e"	"topic development"	"lexical resource"	NA	NA	20
+2020-11-10 12:52:07	"teacher008"	"teacher"	139	"*with you"	"*with you"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-11-10 12:52:19	"teacher008"	"teacher"	140	"I'll have a quick look to see if I can find an exercise for you"	"I'll have a quick look to see if I can find an exercise for you"	137	NA	NA	NA	NA	NA	15
+2020-11-10 12:52:41	"student014"	"student"	141	"Great, thank you!"	"Great, thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 12:53:29	"teacher008"	"teacher"	142	"I might prepare it for the next time if you don't mind"	"I might prepare it for the next time if you don't mind"	NA	NA	NA	NA	NA	NA	12
+2020-11-10 12:53:42	"teacher008"	"teacher"	143	"What would you suggest instead of 'packed with ideas'?"	"What would you suggest instead of 'packed with ideas'?"	139	NA	NA	NA	NA	NA	9
+2020-11-10 12:54:58	"student014"	"student"	144	"Mmm...good question...I guess 'full of ideas' would sound better."	"Mmm...good question...I guess 'full of ideas' would sound better."	NA	NA	"eliciting"	"lexical resource"	NA	NA	9
+2020-11-10 12:55:15	"student014"	"student"	145	"But I don't think it would be the best option."	"But I don't think it would be the best option."	NA	NA	NA	NA	NA	NA	10
+2020-11-10 12:55:56	"teacher008"	"teacher"	146	"hmm, 'full of ideas' sounds more like praise, doesn't it?"	"hmm, 'full of ideas' sounds more like praise, doesn't it?"	NA	NA	NA	NA	NA	NA	10
+2020-11-10 12:56:37	"teacher008"	"teacher"	147	"the book can be hard to follow due to a plethora of ideas"	"the book can be hard to follow due to a plethora of ideas"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-11-10 12:56:40	"student014"	"student"	148	"Yes..."	"Yes..."	NA	NA	NA	NA	NA	NA	1
+2020-11-10 12:56:46	"teacher008"	"teacher"	149	"or 'an abundance of ideas'"	"or 'an abundance of ideas'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-11-10 12:56:54	"teacher008"	"teacher"	150	"just as an example"	"just as an example"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 12:57:28	"teacher008"	"teacher"	151	"Also, we could streamline the sentence a bit"	"Also, we could streamline the sentence a bit"	NA	"6f"	"topic development"	"writing"	NA	NA	8
+2020-11-10 12:57:46	"student014"	"student"	153	"The abundance of ideas made the book difficult to follow."	"The abundance of ideas made the book difficult to follow."	NA	NA	NA	NA	NA	NA	10
+2020-11-10 12:58:01	"teacher008"	"teacher"	154	"I found this book interesting, though occasionally hard to follow due to an abundance of ideas"	"I found this book interesting, though occasionally hard to follow due to an abundance of ideas"	NA	NA	"scaffolding"	"writing,grammatical resource"	NA	NA	16
+2020-11-10 12:58:25	"teacher008"	"teacher"	155	"Sorry, my Internet connection is a bit wobbly, resulting in double turns"	"Sorry, my Internet connection is a bit wobbly, resulting in double turns"	NA	"7.0"	"disruption"	NA	NA	NA	12
+2020-11-10 12:59:04	"student014"	"student"	156	"Don't worry, my connection is also wobbly..."	"Don't worry, my connection is also wobbly..."	NA	NA	NA	NA	NA	NA	7
+2020-11-10 13:00:20	"student014"	"student"	157	"I found this book interesting, though the abundance of ideas made it at times hard to follow.'"	"I found this book interesting, though the abundance of ideas made it at times hard to follow.'"	154	NA	NA	NA	NA	NA	17
+2020-11-10 13:00:24	"teacher008"	"teacher"	158	"Ok, we will continue our quest for better ways to write in English next time if it's ok with you! Pretty much an endless process :)"	"Ok, we will continue our quest for better ways to write in English next time if it's ok with you! Pretty much an endless process :)"	NA	"8.0"	"closing"	NA	NA	NA	26
+2020-11-10 13:00:34	"teacher008"	"teacher"	159	"I like it, yes!!"	"I like it, yes!!"	157	NA	NA	NA	NA	NA	4
+2020-11-10 13:00:44	"teacher008"	"teacher"	160	"Very concise, too"	"Very concise, too"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:00:56	"student014"	"student"	161	"I agree, an endless process. Thank you for your time and help!"	"I agree, an endless process. Thank you for your time and help!"	158	NA	NA	NA	NA	NA	12
+2020-11-10 13:01:07	"teacher008"	"teacher"	162	"It's my pleasure!"	"It's my pleasure!"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:01:14	"student014"	"student"	163	"Next week, same time, same place?"	"Next week, same time, same place?"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 13:01:30	"teacher008"	"teacher"	164	"Yes, barring any disasters :)"	"Yes, barring any disasters :)"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 13:01:36	"teacher008"	"teacher"	165	"Speak to you then!"	"Speak to you then!"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 13:01:45	"student014"	"student"	166	"Yes, thank you! Bye bye!"	"Yes, thank you! Bye bye!"	NA	NA	NA	NA	NA	"C2"	5

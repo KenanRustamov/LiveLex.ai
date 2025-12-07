@@ -1,0 +1,225 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-04-12 12:13:07	"student012"	"student"	1	"<STUDENT>"	"<STUDENT>"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-04-12 12:13:18	"student012"	"student"	2	"<STUDENT> here..."	"<STUDENT> here..."	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:13:24	"student012"	"student"	3	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:15:04	"teacher008"	"teacher"	4	"Hi <STUDENT>! :."	"Hi <STUDENT>! :."	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:15:33	"student012"	"student"	5	"Sorry for being late"	"Sorry for being late"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-04-12 12:16:02	"student012"	"student"	6	"This is what happens when you try to arrange your lunch in advance"	"This is what happens when you try to arrange your lunch in advance"	NA	NA	NA	NA	NA	NA	13
+2021-04-12 12:16:03	"teacher008"	"teacher"	7	"Haha, you know what song's been in my head all day? 'How do you solve a problem like Maria? How do you catch a cloud and pin it down?'"	"Haha, you know what song's been in my head all day? 'How do you solve a problem like Maria? How do you catch a cloud and pin it down?'"	NA	"3.0"	"topic opening"	NA	NA	NA	29
+2021-04-12 12:16:08	"teacher008"	"teacher"	8	"from the Sound of Music"	"from the Sound of Music"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:16:13	"student012"	"student"	9	"You still wait for 2+ hours"	"You still wait for 2+ hours"	6	NA	NA	NA	NA	NA	6
+2021-04-12 12:16:14	"teacher008"	"teacher"	10	"Don't worry!"	"Don't worry!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:16:18	"teacher008"	"teacher"	11	"What did you have?"	"What did you have?"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 12:16:18	"student012"	"student"	12	"I'm so pissed"	"I'm so pissed"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:16:42	"student012"	"student"	13	"Really. Never heard that song"	"Really. Never heard that song"	8	NA	NA	NA	NA	NA	5
+2021-04-12 12:16:44	"teacher008"	"teacher"	14	"Oh sorry, I can imagine! Super annoying!"	"Oh sorry, I can imagine! Super annoying!"	12	NA	NA	NA	NA	NA	7
+2021-04-12 12:16:47	"student012"	"student"	15	"I'll google"	"I'll google"	13	NA	NA	NA	NA	NA	2
+2021-04-12 12:16:53	"teacher008"	"teacher"	16	"You should, it's lovely!"	"You should, it's lovely!"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 12:17:02	"student012"	"student"	17	"Sounds lovely indeed"	"Sounds lovely indeed"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:17:03	"teacher008"	"teacher"	18	"It's <TEACHER'S CHILD>'s favourite"	"It's <TEACHER'S CHILD>'s favourite"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 12:17:13	"student012"	"student"	19	"Bless him!"	"Bless him!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:17:24	"student012"	"student"	20	"Did I used it correctly?"	"Did I use it correctly?"	NA	"3a"	"enquiry"	"lexical resource"	NA	NA	5
+2021-04-12 12:17:38	"teacher008"	"teacher"	21	"It's when nuns in the convent try to decide what to do with Maria who is a bit too liverly for the setting :."	"It's when nuns in the convent try to decide what to do with Maria who is a bit too liverly for the setting :."	19	NA	NA	NA	NA	NA	24
+2021-04-12 12:17:41	"teacher008"	"teacher"	22	"yes, absolutely!"	"yes, absolutely!"	20	NA	NA	NA	NA	NA	2
+2021-04-12 12:18:07	"teacher008"	"teacher"	23	"He doesn't like 'lame girl stuff' anymore .school!., unless it's to do with Julie Andrews :.."	"He doesn't like 'lame girl stuff' anymore .school!., unless it's to do with Julie Andrews :.."	21	NA	NA	NA	NA	NA	16
+2021-04-12 12:18:12	"teacher008"	"teacher"	24	"Sorry, lively!"	"Sorry, lively!"	21	NA	"repair"	"writing"	NA	NA	2
+2021-04-12 12:18:16	"student012"	"student"	25	"Haha. the song's about me."	"Haha. the song's about me."	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:18:46	"teacher008"	"teacher"	26	"I think that's why it's been on my mind, it fits! :."	"I think that's why it's been on my mind, it fits! :."	NA	NA	NA	NA	NA	NA	12
+2021-04-12 12:19:15	"student012"	"student"	27	"Let me check if it's on Apple Music"	"Let me check if it's on Apple Music"	NA	NA	NA	NA	NA	NA	8
+2021-04-12 12:19:23	"teacher008"	"teacher"	28	"It will be :."	"It will be :."	NA	NA	NA	NA	NA	NA	4
+2021-04-12 12:19:35	"teacher008"	"teacher"	29	"How's life in general? Was your lunch worth waiting for?"	"How's life in general? Was your lunch worth waiting for?"	NA	"4.0"	"topic opening"	NA	NA	NA	10
+2021-04-12 12:19:46	"teacher008"	"teacher"	30	"It might be called 'Maria'"	"It might be called 'Maria'"	28	NA	NA	NA	NA	NA	5
+2021-04-12 12:20:10	"student012"	"student"	31	"Maria by Julie Andrews?"	"Maria by Julie Andrews?"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 12:20:58	"student012"	"student"	32	"found it"	"found it"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:21:12	"teacher008"	"teacher"	33	"Maria from the Sound of Music, it's not actually her singing, it's about her :."	"Maria from the Sound of Music, it's not actually her singing, it's about her :."	31	NA	NA	NA	NA	NA	15
+2021-04-12 12:21:42	"student012"	"student"	34	"She's always late for everything except for every meal"	"She's always late for everything except for every meal"	32	NA	NA	NA	NA	NA	9
+2021-04-12 12:21:49	"student012"	"student"	35	"So me"	"So me"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:21:50	"student012"	"student"	36	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:22:14	"teacher008"	"teacher"	37	"Hahaha... careful, it's a proper earworm!"	"Hahaha... careful, it's a proper earworm!"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 12:23:08	"student012"	"student"	38	"I'm fine. It has been a busy weekend. <STUDENT'S HUSBAND> worked and I handled <STUDENT'S CHILD> singlehandedly ........."	"I'm fine. It has been a busy weekend. <STUDENT'S HUSBAND> worked and I handled <STUDENT'S CHILD> singlehandedly ........."	29	NA	NA	NA	NA	NA	18
+2021-04-12 12:23:26	"student012"	"student"	39	"Such a lovely song"	"Such a lovely song"	37	NA	NA	NA	NA	NA	4
+2021-04-12 12:23:29	"teacher008"	"teacher"	40	"Yes, doesn't sound very relaxing!"	"Yes, doesn't sound very relaxing!"	38	NA	NA	NA	NA	NA	5
+2021-04-12 12:23:29	"student012"	"student"	41	"Thank you!"	"Thank you!"	39	NA	NA	NA	NA	NA	2
+2021-04-12 12:23:43	"teacher008"	"teacher"	42	"It is, isn't it? You're most welcome :."	"It is, isn't it? You're most welcome :."	NA	NA	NA	NA	NA	NA	8
+2021-04-12 12:23:50	"student012"	"student"	43	"How are things with you? How was your Easter celebration?"	"How are things with you? How was your Easter celebration?"	NA	"4a"	"topic development"	NA	NA	NA	10
+2021-04-12 12:24:07	"teacher008"	"teacher"	44	"Good, thank you! I even made hot cross buns"	"Good, thank you! I even made hot cross buns"	NA	NA	NA	NA	NA	NA	9
+2021-04-12 12:24:21	"student012"	"student"	45	"one a penny, two a penny"	"one-a-penny, two-a-penny"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 12:24:28	"teacher008"	"teacher"	46	"We had a lovely but all-too-short spell of summery weather, and now we are back to winter!"	"We had a lovely but all-too-short spell of summery weather, and now we are back to winter!"	NA	NA	NA	NA	NA	NA	17
+2021-04-12 12:24:47	"teacher008"	"teacher"	47	"That's it :. I was too lazy and unreligious to make crosses on them, I'm afraid"	"That's it :. I was too lazy and unreligious to make crosses on them, I'm afraid"	45	NA	NA	NA	NA	NA	16
+2021-04-12 12:25:14	"student012"	"student"	48	"So buns without crosses then?"	"So buns without crosses then?"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:25:24	"teacher008"	"teacher"	49	"Just hot buns, that's it...."	"Just hot buns, that's it...."	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:25:35	"student012"	"student"	50	"Hot bunsss -- even better"	"Hot bunsss -- even better"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:25:55	"teacher008"	"teacher"	51	"That's it!"	"That's it!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:26:00	"student012"	"student"	52	"Did you hunt the eggs?"	"Did you hunt the eggs?"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:26:04	"teacher008"	"teacher"	53	"Did I tell you that <TEACHER'S CHILD> attends a church school?"	"Did I tell you that <TEACHER'S CHILD> attends a church school?"	NA	"4b"	"topic development"	NA	NA	NA	11
+2021-04-12 12:26:20	"student012"	"student"	54	"No, you didn't. How does he find it?"	"No, you didn't. How does he find it?"	NA	NA	NA	NA	NA	NA	8
+2021-04-12 12:26:24	"teacher008"	"teacher"	55	"<TEACHER'S CHILD> did! Easter bunny had paid a nice visit :."	"<TEACHER'S CHILD> did! Easter bunny had paid a nice visit :."	52	NA	NA	NA	NA	NA	11
+2021-04-12 12:26:40	"student012"	"student"	56	"Attaboy!"	"Attaboy!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:26:56	"teacher008"	"teacher"	57	"Well, there's an interesting system in the UK. Lots of schools are 'faith schools'"	"Well, there's an interesting system in the UK. Lots of schools are 'faith schools'"	54	NA	"scaffolding"	"world knowledge"	NA	NA	14
+2021-04-12 12:27:41	"teacher008"	"teacher"	58	"In that they are state schools that teach the national curriculum, but they have some degree of affiliation with the church, I'm not entirely sure how it works"	"In that they are state schools that teach the national curriculum, but they have some degree of affiliation with the church, I'm not entirely sure how it works"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	28
+2021-04-12 12:28:11	"student012"	"student"	59	"I see."	"I see."	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:28:13	"teacher008"	"teacher"	60	"The church might run a trust that helps the school with the funding, for example, or the land might belong to the church"	"The church might run a trust that helps the school with the funding, for example, or the land might belong to the church"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	23
+2021-04-12 12:28:19	"student012"	"student"	61	"Do they have any religious studies?"	"Do they have any religious studies?"	NA	"4c"	"topic development"	NA	NA	NA	6
+2021-04-12 12:28:47	"teacher008"	"teacher"	62	"Yes, they have a subject called 'religious education'"	"Yes, they have a subject called 'religious education'"	NA	NA	NA	NA	NA	NA	8
+2021-04-12 12:29:04	"teacher008"	"teacher"	63	"Mind you, RE doesn't include much education about Islam or Buddhism, for example"	"Mind you, RE doesn't include much education about Islam or Buddhism, for example"	NA	NA	NA	NA	NA	NA	13
+2021-04-12 12:29:27	"teacher008"	"teacher"	64	"Annoyingly, church schools are often better!"	"Annoyingly, church schools are often better!"	NA	"4d"	"topic development"	NA	NA	NA	6
+2021-04-12 12:29:45	"teacher008"	"teacher"	65	"Which is supposed to be the case with <TEACHER'S CHILD>'s school .it's also the closest."	"Which is supposed to be the case with <TEACHER'S CHILD>'s school .it's also the closest."	NA	NA	NA	NA	NA	NA	15
+2021-04-12 12:30:18	"teacher008"	"teacher"	66	"It's still quite an alien concept to me, though"	"It's still quite an alien concept to me, though"	NA	NA	NA	NA	NA	NA	9
+2021-04-12 12:31:04	"student012"	"student"	67	"Doesn't seem pretty fair to other religions, does it?"	"Doesn't seem very fair to other religions, does it?"	63	NA	NA	NA	NA	NA	9
+2021-04-12 12:31:17	"student012"	"student"	68	"Well. what can you do if it's better and the closest"	"Well. what can you do if it's better and the closest"	66	NA	NA	NA	NA	NA	11
+2021-04-12 12:31:27	"teacher008"	"teacher"	69	"They do a lot for religious holidays too. Just before the lockdown, <TEACHER'S CHILD> was talking a lot about baby Jesus being born, and when he went back after the lockdown, Jesus was about to die on the cross..."	"They do a lot for religious holidays too. Just before the lockdown, <TEACHER'S CHILD> was talking a lot about baby Jesus being born, and when he went back after the lockdown, Jesus was about to die on the cross..."	67	NA	NA	NA	NA	NA	39
+2021-04-12 12:31:31	"student012"	"student"	70	"It's 2 out of 3"	"It's 2 out of 3"	68	NA	NA	NA	NA	NA	5
+2021-04-12 12:31:38	"teacher008"	"teacher"	71	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:32:38	"student012"	"student"	72	"A life of Jesus. Lockdown edition"	"The life of Jesus. Lockdown edition"	69	NA	NA	NA	NA	NA	6
+2021-04-12 12:32:55	"teacher008"	"teacher"	73	"Haha, that's it!...."	"Haha, that's it!...."	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:33:05	"teacher008"	"teacher"	74	"How's your lockdown going?"	"How's your lockdown going?"	NA	"5.0"	"topic opening"	NA	NA	NA	4
+2021-04-12 12:34:30	"student012"	"student"	75	"Life has surely gotten more inconvenient"	"Life has surely gotten more inconvenient"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 12:34:49	"student012"	"student"	76	"Everyday I need to think how to deliver our nanny to <STUDENT'S CHILD> or <STUDENT'S CHILD> to nanny"	"Every day I need to think how to deliver our nanny to <STUDENT'S CHILD> or <STUDENT'S CHILD> to her nanny"	NA	NA	NA	NA	NA	NA	18
+2021-04-12 12:35:09	"teacher008"	"teacher"	77	"Oh, what a pain! Because taxis are in short supply?"	"Oh, what a pain! Because taxis are in short supply?"	NA	NA	NA	NA	NA	NA	10
+2021-04-12 12:35:33	"student012"	"student"	78	"and super expensive.."	"and super expensive.."	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:35:46	"teacher008"	"teacher"	79	"I know <ANOTHER STUDENT> said they use taxis for the nanny"	"I know <ANOTHER STUDENT> said they use taxis for the nanny"	NA	NA	NA	NA	NA	NA	11
+2021-04-12 12:35:47	"student012"	"student"	80	"It's a pain really"	"It's a pain really"	78	NA	NA	NA	NA	NA	4
+2021-04-12 12:35:52	"teacher008"	"teacher"	81	"Goodness, yes!"	"Goodness, yes!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:36:03	"teacher008"	"teacher"	82	"Does she live far away, the nanny?"	"Does she live far away, the nanny?"	NA	NA	NA	NA	NA	NA	7
+2021-04-12 12:36:04	"student012"	"student"	83	"They have been using the taxis for almost a year now I think"	"They have been using the taxis for almost a year now I think"	79	NA	NA	NA	NA	NA	13
+2021-04-12 12:36:17	"student012"	"student"	84	"The nanny lives in Obolon"	"The nanny lives in Obolon"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:36:35	"student012"	"student"	85	"which is bad even without the lockdown"	"which is bad even without the lockdown"	NA	NA	NA	NA	NA	NA	7
+2021-04-12 12:37:07	"teacher008"	"teacher"	86	"Right, yes!"	"Right, yes!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:37:07	"student012"	"student"	87	"The fees are now up tp 400 UAH per 7 km"	"The fees are now up to 400 UAH per 7 km"	NA	NA	NA	NA	NA	NA	11
+2021-04-12 12:37:44	"teacher008"	"teacher"	88	"Oh my goodness, it's crazy! It used to be 200 UAH from Obolon where we lived to Borispol"	"Oh my goodness, it's crazy! It used to be 200 UAH from Obolon where we lived to Borispol"	NA	NA	NA	NA	NA	NA	18
+2021-04-12 12:38:29	"student012"	"student"	89	"So we wait to get a better bargain. And as a result instead of starting her work at 10 am our nanny started at 11:30"	"So we wait to get a better bargain. And as a result instead of starting her work at 10 am our nanny started at 11:30"	NA	NA	NA	NA	NA	NA	25
+2021-04-12 12:39:01	"student012"	"student"	90	"Some people argue there was a fare of 1000 to Borispol from Obolon"	"Some people argue there was a fare of 1000 to Borispol from Obolon"	NA	NA	NA	NA	NA	NA	13
+2021-04-12 12:39:13	"student012"	"student"	91	"Can you believe it!"	"Can you believe it!"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 12:40:01	"teacher008"	"teacher"	92	"Wow, yes!"	"Wow, yes!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:40:15	"teacher008"	"teacher"	93	"Ah, tough! Hope it gets better soon for you guys!"	"Ah, tough! Hope it gets better soon for you guys!"	NA	NA	NA	NA	NA	NA	10
+2021-04-12 12:40:25	"student012"	"student"	94	"Thank you! I hope so too"	"Thank you! I hope so too"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 12:40:39	"student012"	"student"	95	"How is your lockdown going?"	"How is your lockdown going?"	NA	"5a"	"topic development"	NA	NA	NA	5
+2021-04-12 12:40:43	"teacher008"	"teacher"	96	"Ok, could you please download the pdf I emailed you earlier today?"	"Ok, could you please download the pdf I emailed you earlier today?"	NA	"6.0"	"exercise"	NA	NA	NA	12
+2021-04-12 12:40:48	"student012"	"student"	97	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:41:10	"teacher008"	"teacher"	98	"Oh, we're on to the next stage starting from today! Shops have re-opened after, hmmm, nearly 4 months I think!"	"Oh, we're on to the next stage starting from today! Shops have re-opened after, hmmm, nearly 4 months I think!"	95	NA	NA	NA	NA	NA	20
+2021-04-12 12:41:12	"student012"	"student"	99	"I have it"	"I have it"	97	NA	NA	NA	NA	NA	3
+2021-04-12 12:41:28	"student012"	"student"	100	"Yay! Congratulations!"	"Yay! Congratulations!"	98	NA	NA	NA	NA	NA	2
+2021-04-12 12:41:30	"teacher008"	"teacher"	101	"As well as beer gardens in pubs and hairdressers"	"As well as beer gardens in pubs and hairdressers"	NA	NA	NA	NA	NA	NA	9
+2021-04-12 12:41:37	"student012"	"student"	102	"Poor businesses"	"Poor businesses"	NA	"5b"	"topic development"	NA	NA	NA	2
+2021-04-12 12:41:39	"teacher008"	"teacher"	103	"Thank you :."	"Thank you :."	100	NA	NA	NA	NA	NA	3
+2021-04-12 12:41:46	"student012"	"student"	104	"It's such a shame"	"It's such a shame"	102	NA	NA	NA	NA	NA	4
+2021-04-12 12:42:08	"student012"	"student"	105	"Finally, a place for Liverpool fans to meet up..."	"Finally, a place for Liverpool fans to meet up..."	101	NA	NA	NA	NA	NA	9
+2021-04-12 12:42:09	"teacher008"	"teacher"	106	"Well, yes, but there is a furlough scheme, employees received 80% of their wages"	"Well, yes, but there is a furlough scheme, employees received 80% of their wages"	104	NA	NA	NA	NA	NA	14
+2021-04-12 12:42:14	"teacher008"	"teacher"	107	"Still, poor businesses!"	"Still, poor businesses!"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:42:48	"teacher008"	"teacher"	108	"Why Liverpool fans? Have I missed another football event?"	"Why Liverpool fans? Have I missed another football event?"	105	NA	NA	NA	NA	NA	9
+2021-04-12 12:42:51	"student012"	"student"	109	"People usually think if it's a business, you you swamped with money"	"People usually think if it's a business, you are swamped with money"	107	NA	NA	NA	NA	NA	12
+2021-04-12 12:42:59	"student012"	"student"	110	"you are*"	"you are*"	NA	NA	"repair"	"writing"	NA	NA	2
+2021-04-12 12:43:22	"student012"	"student"	111	"And can sustain yourself forever"	"And can sustain yourself forever"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:43:29	"teacher008"	"teacher"	112	"Oh yes, it's been super tough!"	"Oh yes, it's been super tough!"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 12:43:41	"student012"	"student"	113	"Not at all. I just heard they are crazy hardcore fans"	"Not at all. I just heard they are crazy hardcore fans"	108	NA	NA	NA	NA	NA	11
+2021-04-12 12:44:13	"student012"	"student"	114	"I have the book now"	"I have the book now"	99	NA	NA	NA	NA	NA	5
+2021-04-12 12:44:14	"teacher008"	"teacher"	115	"Yes, I think there's a stereotype in Ukraine, because in the 90s businesses did better than the public sector"	"Yes, I think there's a stereotype in Ukraine, because in the 90s businesses did better than the public sector"	112	NA	NA	NA	NA	NA	19
+2021-04-12 12:44:22	"student012"	"student"	116	"What page should I go to?"	"What page should I go to?"	114	NA	NA	NA	NA	NA	6
+2021-04-12 12:44:32	"teacher008"	"teacher"	117	"Cool! Could you go to page 14, please? You might have to rotate it"	"Cool! Could you go to page 14, please? You might have to rotate it"	NA	NA	NA	NA	NA	NA	14
+2021-04-12 12:44:40	"student012"	"student"	118	"Yes. I agree. it's more stereotypical of Ukraine"	"Yes. I agree. it's more stereotypical of Ukraine"	115	NA	NA	NA	NA	NA	8
+2021-04-12 12:45:23	"student012"	"student"	119	"Got it"	"Got it"	117	NA	NA	NA	NA	NA	2
+2021-04-12 12:45:25	"teacher008"	"teacher"	120	"Soap operas?"	"Soap operas?"	NA	"6a"	"exercise"	"grammatical resource"	NA	NA	2
+2021-04-12 12:45:47	"student012"	"student"	121	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:46:05	"teacher008"	"teacher"	122	"Cool. You know what to do - a multiple choice :."	"Cool. You know what to do - a multiple choice :."	NA	NA	NA	NA	NA	NA	11
+2021-04-12 12:46:40	"student012"	"student"	123	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:46:45	"student012"	"student"	124	"let's do it"	"let's do it"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:46:57	"student012"	"student"	125	"1. capturing"	"1. capturing"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:47:12	"student012"	"student"	126	"Or should I write the letters?"	"Or should I write the letters?"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 12:47:43	"teacher008"	"teacher"	127	"Either way! Letter are good"	"Either way! Letter are good"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 12:47:50	"teacher008"	"teacher"	128	"1. yes!"	"1. yes!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:47:51	"student012"	"student"	129	"1. B"	"1. B"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:48:18	"student012"	"student"	130	"2. A"	"2. A"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:48:58	"student012"	"student"	131	"3. A"	"3. A"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:49:08	"teacher008"	"teacher"	132	"Yes, keep going and then we'll have a look"	"Yes, keep going and then we'll have a look"	NA	NA	NA	NA	NA	NA	9
+2021-04-12 12:49:19	"student012"	"student"	133	"4. A"	"4. A"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:50:11	"student012"	"student"	134	"5. B"	"5. B"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:50:39	"student012"	"student"	135	"6. D"	"6. D"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:51:13	"student012"	"student"	136	"7. B"	"7. B"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:51:39	"student012"	"student"	137	"8. C"	"8. C"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:52:02	"student012"	"student"	138	"done"	"done"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:52:08	"teacher008"	"teacher"	139	"All correct apart from 2 and 3! Could you look back and give me your second choice, please?"	"All correct apart from 2 and 3! Could you look back and give me your second choice, please?"	NA	"6b"	"eliciting,repair"	"grammatical resource"	NA	NA	18
+2021-04-12 12:52:16	"teacher008"	"teacher"	140	"for 2 and 3 I mean"	"for 2 and 3 I mean"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 12:52:36	"student012"	"student"	141	"I knew it!"	"I knew it!"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:52:40	"student012"	"student"	142	"one sec"	"one sec"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:53:02	"student012"	"student"	143	"2 established"	"2 established"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 12:53:11	"student012"	"student"	144	"dismissed"	"dismissed"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:53:24	"student012"	"student"	145	"3 dismissed -- which was what I originally wrote"	"3 dismissed -- which was what I originally wrote"	NA	NA	NA	NA	NA	NA	9
+2021-04-12 12:53:53	"teacher008"	"teacher"	146	"Dismissed - yes!"	"Dismissed - yes!"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:53:59	"teacher008"	"teacher"	147	"and 2 is emerged"	"and 2 is emerged"	NA	NA	"repair"	"grammatical resource"	NA	NA	4
+2021-04-12 12:54:33	"teacher008"	"teacher"	148	"emerge as a genre', 'emerge on the scene' etc."	"emerge as a genre', 'emerge on the scene' etc."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-04-12 12:54:40	"teacher008"	"teacher"	149	"as in first appear"	"as in first appear"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+2021-04-12 12:54:59	"student012"	"student"	150	"right"	"right"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:55:01	"student012"	"student"	151	"Understood"	"Understood"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:55:38	"teacher008"	"teacher"	152	"I like the expression from the example, 'beyond dispute'!"	"I like the expression from the example, 'beyond dispute'!"	NA	"6c"	"scaffolding"	"lexical resource"	NA	NA	9
+2021-04-12 12:56:17	"teacher008"	"teacher"	153	"It's often 'beyond doubt', with 'beyond dispute' being quite low frequency, I would say"	"It's often 'beyond doubt', with 'beyond dispute' being quite low frequency, I would say"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2021-04-12 12:56:28	"teacher008"	"teacher"	154	"Are there any expressions that caught your eye?"	"Are there any expressions that caught your eye?"	NA	"6d"	"eliciting"	"lexical resource"	NA	NA	8
+2021-04-12 12:56:34	"student012"	"student"	155	"A nice one to broaden your vocabulary!"	"A nice one to broaden your vocabulary!"	153	NA	NA	NA	NA	NA	7
+2021-04-12 12:56:44	"teacher008"	"teacher"	156	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 12:57:46	"student012"	"student"	157	"tightly-knit neighbourhoods"	"tightly-knit neighbourhoods"	154	NA	NA	NA	NA	NA	2
+2021-04-12 12:58:37	"teacher008"	"teacher"	158	"Yes, a good one! You can use 'tightly-knit' to describe an .extended. family or a team, too!"	"Yes, a good one! You can use 'tightly-knit' to describe an .extended. family or a team, too!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2021-04-12 12:58:43	"student012"	"student"	159	"I immediately thought of Santa Barbara and my grandma's viewing sessions with her girlfriends"	"I immediately thought of Santa Barbara and my grandma's viewing sessions with her girlfriends"	NA	NA	NA	NA	NA	NA	14
+2021-04-12 12:59:39	"teacher008"	"teacher"	160	"Haha, yes, I was telling <TEACHER'S HUSBAND> not so long ago about the 'babushkas on a bench' culture, and rushing home for the 5 pm soap :.."	"Haha, yes, I was telling <TEACHER'S HUSBAND> not so long ago about the 'babushkas on a bench' culture, and rushing home for the 5 pm soap :.."	NA	NA	NA	NA	NA	NA	27
+2021-04-12 12:59:53	"student012"	"student"	161	"Yes! That's it!"	"Yes! That's it!"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 12:59:58	"student012"	"student"	162	"Prosto Maria"	"Prosto Maria"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:00:10	"student012"	"student"	163	"The rich cry too"	"The rich cry too"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 13:00:12	"student012"	"student"	164	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:00:29	"student012"	"student"	165	"The Wild Rose"	"The Wild Rose"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 13:00:35	"teacher008"	"teacher"	166	"Dinastiya!!"	"Dinastiya!!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:00:39	"student012"	"student"	167	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:00:42	"teacher008"	"teacher"	168	"Tropicanka!"	"Tropicanka!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:00:47	"student012"	"student"	169	"The jems"	"The jems"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:01:05	"teacher008"	"teacher"	170	"We certainly seem to have graduated from similar childhoods :."	"We certainly seem to have graduated from similar childhoods :."	NA	NA	NA	NA	NA	NA	10
+2021-04-12 13:01:41	"teacher008"	"teacher"	171	"Ok, have you got 5 minutes for the next task? Or shall I let you go?"	"Ok, have you got 5 minutes for the next task? Or shall I let you go?"	NA	"7.0"	"exercise"	"grammatical resource"	NA	NA	16
+2021-04-12 13:01:54	"student012"	"student"	172	"I've got 5 min yes"	"I've got 5 min yes"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 13:02:04	"teacher008"	"teacher"	173	"Lovely! Part 2 then :."	"Lovely! Part 2 then :."	NA	NA	NA	NA	NA	NA	5
+2021-04-12 13:02:09	"student012"	"student"	174	"We certainly do...."	"We certainly do...."	170	NA	NA	NA	NA	NA	3
+2021-04-12 13:02:29	"student012"	"student"	175	"about a robot?"	"about a robot?"	173	NA	NA	NA	NA	NA	3
+2021-04-12 13:02:43	"teacher008"	"teacher"	176	"Yes, that's the one!"	"Yes, that's the one!"	NA	NA	NA	NA	NA	NA	4
+2021-04-12 13:03:15	"student012"	"student"	177	"9. enough"	"9. enough"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:03:43	"student012"	"student"	178	"10. incapable"	"10. incapable"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:04:02	"student012"	"student"	179	"11. looming ?"	"11. looming ?"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 13:04:48	"student012"	"student"	180	"12. themselves ?"	"12. themselves ?"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 13:05:06	"student012"	"student"	181	"13. with"	"13. with"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:05:20	"student012"	"student"	182	"14. extent"	"14. extent"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:05:41	"student012"	"student"	183	"15. ahead"	"15. ahead"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:06:31	"student012"	"student"	184	"16. 16. giving"	"16. 16. giving"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 13:06:53	"student012"	"student"	185	"that's it"	"that's it"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:06:53	"teacher008"	"teacher"	186	"Yes, well done! except for 11 and 12, which are both prepositions :."	"Yes, well done! except for 11 and 12, which are both prepositions :."	NA	"7a"	"eliciting,repair"	"grammatical resource,lexical resource"	NA	NA	13
+2021-04-12 13:07:16	"student012"	"student"	187	"Riiiiight"	"Riiiiight"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:07:18	"student012"	"student"	188	"11. ON"	"11. ON"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:07:27	"teacher008"	"teacher"	189	"Yes..."	"Yes..."	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:07:38	"student012"	"student"	190	"How could I...."	"How could I...."	NA	NA	NA	NA	NA	NA	3
+2021-04-12 13:07:42	"teacher008"	"teacher"	191	"and make...."	"and make...."	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:07:48	"student012"	"student"	192	"up?"	"up?"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:08:04	"teacher008"	"teacher"	193	"I know, it was one of those you'd pick up when checking your answers, 11"	"I know, it was one of those you'd pick up when checking your answers, 11"	190	NA	NA	NA	NA	NA	15
+2021-04-12 13:08:09	"teacher008"	"teacher"	194	"Yes! to up"	"Yes! to up"	192	NA	NA	NA	NA	NA	3
+2021-04-12 13:08:17	"teacher008"	"teacher"	195	"I mean, yes to 'up'"	"I mean, yes to 'up'"	NA	NA	NA	NA	NA	NA	5
+2021-04-12 13:08:17	"student012"	"student"	196	"Yay!"	"Yay!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:08:21	"teacher008"	"teacher"	197	"Yay!"	"Yay!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:08:23	"teacher008"	"teacher"	198	"Well done!"	"Well done!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:08:42	"student012"	"student"	199	"Yes. I would have probably given it more thought at a real exam"	"Yes. I would have probably given it more thought at a real exam"	193	NA	NA	NA	NA	NA	13
+2021-04-12 13:08:55	"teacher008"	"teacher"	200	"I sent you a link to where I get all these goodies from. I wonder if you'd like / will have the time to do a listening test"	"I sent you a link to where I get all these goodies from. I wonder if you'd like / will have the time to do a listening test"	NA	"8.0"	"homework"	"listening"	"website"	NA	28
+2021-04-12 13:08:58	"student012"	"student"	201	"Thank you <TEACHER>!"	"Thank you <TEACHER>!"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 13:09:08	"student012"	"student"	202	"I can try"	"I can try"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 13:09:19	"teacher008"	"teacher"	203	"You're very welcome, my pleasure :."	"You're very welcome, my pleasure :."	201	NA	NA	NA	NA	NA	6
+2021-04-12 13:09:29	"teacher008"	"teacher"	204	"No pressure!"	"No pressure!"	202	NA	NA	NA	NA	NA	2
+2021-04-12 13:09:30	"student012"	"student"	205	"Let me know which listening task you'd like me to do"	"Let me know which listening task you'd like me to do"	NA	NA	NA	NA	NA	NA	11
+2021-04-12 13:09:54	"teacher008"	"teacher"	206	"Any of them! I think one is for the paper-based test and one for the computer-based one"	"Any of them! I think one is for the paper-based test and one for the computer-based one"	NA	NA	NA	NA	NA	NA	17
+2021-04-12 13:10:16	"teacher008"	"teacher"	207	"But they are the same lenght and level of difficulty"	"But they are the same lenght and level of difficulty"	NA	NA	NA	NA	NA	NA	10
+2021-04-12 13:10:26	"student012"	"student"	208	"Ok then. I'll chose and let you know"	"Ok then. I'll choose and let you know"	NA	NA	NA	NA	NA	NA	8
+2021-04-12 13:10:30	"student012"	"student"	209	"Thanks again!"	"Thanks again!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:10:35	"student012"	"student"	210	"choose"	"choose"	208	NA	"repair"	"writing"	NA	NA	1
+2021-04-12 13:10:44	"teacher008"	"teacher"	211	"There's an answer key, feel free to check yourself!"	"There's an answer key, feel free to check yourself!"	NA	NA	NA	NA	NA	NA	9
+2021-04-12 13:10:57	"student012"	"student"	212	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:11:06	"student012"	"student"	213	"See you next week!"	"See you next week!"	NA	"9.0"	"closing"	NA	NA	NA	4
+2021-04-12 13:11:06	"teacher008"	"teacher"	214	"Ok, have a lovely week, I'll speak to you next Monday :."	"Ok, have a lovely week, I'll speak to you next Monday :."	NA	NA	NA	NA	NA	NA	12
+2021-04-12 13:11:24	"teacher008"	"teacher"	215	"Bye :."	"Bye :."	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:11:25	"student012"	"student"	216	"You too!"	"You too!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:11:29	"student012"	"student"	223	"oops"	"oops"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:11:36	"student012"	"student"	224	"a glitch"	"a glitch"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:11:44	"teacher008"	"teacher"	225	"Haha, it's a special feature of this chatroom"	"Haha, it's a special feature of this chatroom"	NA	NA	NA	NA	NA	NA	8
+2021-04-12 13:11:53	"student012"	"student"	226	"Imagine me shouting off the balcony"	"Imagine me shouting off the balcony"	NA	NA	NA	NA	NA	NA	6
+2021-04-12 13:11:58	"student012"	"student"	227	"You too!"	"You too!"	NA	NA	NA	NA	NA	NA	2
+2021-04-12 13:12:06	"teacher008"	"teacher"	228	":... You toooo!"	":... You toooo!"	NA	NA	NA	NA	NA	NA	3
+2021-04-12 13:12:17	"student012"	"student"	229	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	NA	1
+2021-04-12 13:12:22	"teacher008"	"teacher"	230	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"C2"	1

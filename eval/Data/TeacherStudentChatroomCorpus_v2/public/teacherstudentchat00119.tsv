@@ -1,0 +1,147 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-10-13 12:50:54	"student009"	"student"	1	"hi again"	"hi again"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-10-13 12:51:11	"teacher008"	"teacher"	2	"Hi <STUDENT>! :)"	"Hi <STUDENT>! :)"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 12:51:16	"teacher008"	"teacher"	3	"All ok with you?"	"All ok with you?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-10-13 12:51:27	"student009"	"student"	4	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 12:51:54	"teacher008"	"teacher"	5	"It's nearly holiday time, isn't it?"	"It's nearly holiday time, isn't it?"	NA	"2a"	"topic development"	NA	NA	NA	6
+2020-10-13 12:52:07	"student009"	"student"	6	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 12:52:20	"student009"	"student"	7	"tomorrow is a day of"	"tomorrow is a day off"	NA	NA	NA	NA	NA	NA	5
+2020-10-13 12:52:43	"student009"	"student"	8	"and holidays will start on the 22 of October"	"and holidays will start on the 22 of October"	NA	NA	NA	NA	NA	NA	9
+2020-10-13 12:52:48	"teacher008"	"teacher"	9	"Oh yes, I know. It's a combined church holiday and the Day of the Army, right?"	"Oh yes, I know. It's a combined church holiday and the Day of the Army, right?"	7	NA	NA	NA	NA	NA	16
+2020-10-13 12:52:49	"student009"	"student"	10	"*off"	"*off"	7	NA	"repair"	"writing"	NA	NA	1
+2020-10-13 12:52:55	"student009"	"student"	11	"yes"	"yes"	9	NA	NA	NA	NA	NA	1
+2020-10-13 12:53:07	"student009"	"student"	12	"day of kozaki"	"the day of the kozaki"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+2020-10-13 12:53:35	"teacher008"	"teacher"	13	"the day of Cossacks? really?"	"the day of Cossacks? really?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-10-13 12:53:43	"teacher008"	"teacher"	14	"I thought it was to do with the modern army!"	"I thought it was to do with the modern army!"	NA	NA	NA	NA	NA	NA	10
+2020-10-13 12:53:52	"student009"	"student"	15	"and the day of defender of Ukraine"	"and the Day of the Defender of Ukraine"	NA	NA	NA	NA	NA	NA	7
+2020-10-13 12:54:00	"student009"	"student"	16	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 12:54:29	"student009"	"student"	17	"and we must to congratulate our boys today"	"and we must congratulate our boys today"	NA	NA	NA	NA	NA	NA	8
+2020-10-13 12:55:01	"teacher008"	"teacher"	18	"Oh no, but they are not the Cossacks :)"	"Oh no, but they are not the Cossacks :)"	NA	NA	NA	NA	NA	NA	9
+2020-10-13 12:55:28	"student009"	"student"	19	"future defenders of Ukraine"	"future defenders of Ukraine"	NA	NA	NA	NA	NA	NA	4
+2020-10-13 12:55:52	"teacher008"	"teacher"	20	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 12:56:09	"teacher008"	"teacher"	21	"a quick memory test: some of the words from the past lessons"	"a quick memory test: some of the words from the past lessons"	NA	"3.0"	"exercise,exercise,revision"	"lexical resource"	NA	NA	12
+2020-10-13 12:56:49	"teacher008"	"teacher"	22	"penultimate (adjective), to expel, to stand up for something / to someone, at ease, up my street, get into something"	"penultimate (adjective), to expel, to stand up for something / to someone, at ease, up my street, get into something"	NA	NA	NA	NA	NA	NA	20
+2020-10-13 12:57:28	"teacher008"	"teacher"	23	"Now, which one means 'to tell a student they can't be in this school anymore'?"	"Now, which one means 'to tell a student they can't be in this school anymore'?"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	15
+2020-10-13 12:57:39	"student009"	"student"	24	"when we wanted to say something nice to them, I was trying to make everybody calm, but one boy threw his pencilcase to me"	"when we wanted to say something nice to them, I was trying to make everybody calm, but one boy threw his pencilcase at me"	20	"2b"	"topic development"	NA	NA	NA	24
+2020-10-13 12:57:57	"student009"	"student"	25	"I don't remember ("	"I don't remember ("	23	NA	NA	NA	NA	NA	4
+2020-10-13 12:58:00	"teacher008"	"teacher"	26	"Whaat? That's awful!"	"Whaat? That's awful!"	24	NA	NA	NA	NA	NA	3
+2020-10-13 12:58:26	"teacher008"	"teacher"	27	"Are you in charge of events like this because you are the head girl?"	"Are you in charge of events like this because you are the head girl?"	NA	NA	NA	NA	NA	NA	14
+2020-10-13 12:58:37	"student009"	"student"	28	"I was upset with that, but he said sorry and he saod that he wanted to throw it to his friend"	"I was upset with that, but he said sorry and he said that he wanted to throw it to his friend"	26	NA	NA	NA	NA	NA	21
+2020-10-13 12:58:40	"student009"	"student"	29	"yes"	"yes"	27	NA	NA	NA	NA	NA	1
+2020-10-13 12:59:02	"student009"	"student"	30	"but to be honest it made me cry"	"but to be honest it made me cry"	NA	NA	NA	NA	NA	NA	8
+2020-10-13 12:59:04	"teacher008"	"teacher"	31	"Oh, that makes it a little better that he said sorry, doesn' tit?"	"Oh, that makes it a little better that he said sorry, doesn' tit?"	28	NA	NA	NA	NA	NA	13
+2020-10-13 12:59:12	"student009"	"student"	32	"yes, it is"	"yes, it does"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 12:59:16	"teacher008"	"teacher"	33	"Oh no, I can imagine!"	"Oh no, I can imagine!"	30	NA	NA	NA	NA	NA	5
+2020-10-13 12:59:39	"student009"	"student"	34	"because I am doing everything for our class"	"because I am doing everything for our class"	NA	"2c"	"topic development"	NA	NA	NA	8
+2020-10-13 12:59:41	"student009"	"student"	35	"for them"	"for them"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 12:59:51	"student009"	"student"	36	"and they don't appreciate it"	"and they don't appreciate it"	NA	NA	NA	NA	NA	NA	5
+2020-10-13 13:00:28	"teacher008"	"teacher"	37	"Yes, I see, you are in a very difficult position in this role! Have you talked to your class teacher about it?"	"Yes, I see, you are in a very difficult position in this role! Have you talked to your class teacher about it?"	NA	NA	NA	NA	NA	NA	22
+2020-10-13 13:00:42	"student009"	"student"	38	"she saw me crying"	"she saw me crying"	NA	NA	NA	NA	NA	NA	4
+2020-10-13 13:00:59	"teacher008"	"teacher"	39	"You can't be expected to discipline everyone and look after them, you are not a grown-up!"	"You can't be expected to discipline everyone and look after them, you are not a grown-up!"	NA	NA	NA	NA	NA	NA	16
+2020-10-13 13:01:19	"student009"	"student"	40	"and my friend <STUDENT'S FRIEND> accidentally hit my leg on the PE lesson"	"and my friend <STUDENT'S FRIEND> accidentally hit my leg in the PE lesson"	NA	NA	NA	NA	NA	NA	13
+2020-10-13 13:01:26	"student009"	"student"	41	"maybe"	"maybe"	39	NA	NA	NA	NA	NA	1
+2020-10-13 13:01:36	"student009"	"student"	42	"so today is"	"so today is"	40	NA	NA	NA	NA	NA	3
+2020-10-13 13:01:39	"student009"	"student"	43	"bad day"	"a bad day"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:01:46	"student009"	"student"	44	"*a"	"*a"	NA	NA	"repair"	"grammatical resource"	NA	NA	1
+2020-10-13 13:02:02	"teacher008"	"teacher"	45	"Oh, school is tough!"	"Oh, school is tough!"	43	NA	NA	NA	NA	NA	4
+2020-10-13 13:02:09	"student009"	"student"	46	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:02:22	"teacher008"	"teacher"	47	"Is your Mum home when you get back?"	"Is your Mum home when you get back?"	NA	"2d"	"topic development"	NA	NA	NA	8
+2020-10-13 13:02:32	"student009"	"student"	48	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:02:51	"teacher008"	"teacher"	49	"Oh, I see, so you can't talk to her until later?"	"Oh, I see, so you can't talk to her until later?"	NA	NA	NA	NA	NA	NA	11
+2020-10-13 13:03:13	"student009"	"student"	50	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:03:20	"student009"	"student"	51	"she is in the salon now"	"she is in the salon now"	NA	NA	NA	NA	NA	NA	6
+2020-10-13 13:03:53	"student009"	"student"	52	"I've told my dad about is"	"I've told my dad about it"	NA	NA	NA	NA	NA	NA	6
+2020-10-13 13:03:58	"student009"	"student"	53	"*t"	"*t"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-10-13 13:04:04	"teacher008"	"teacher"	54	"Oh good"	"Oh good"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:05:04	"teacher008"	"teacher"	55	"Ok, <STUDENT>, I'm going to give you the words and their meanings, and you try and match them, ok?"	"Ok, <STUDENT>, I'm going to give you the words and their meanings, and you try and match them, ok?"	NA	"3a"	"exercise,exercise,revision"	"lexical resource"	NA	NA	19
+2020-10-13 13:05:06	"teacher008"	"teacher"	56	"penultimate (adjective), to expel, to stand up for something / to someone, at ease, up my street, get into something"	"penultimate (adjective), to expel, to stand up for something / to someone, at ease, up my street, get into something"	NA	NA	NA	NA	NA	NA	20
+2020-10-13 13:05:22	"student009"	"student"	57	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:05:27	"teacher008"	"teacher"	58	"1. to make a student leave school (because of bad behaviour, for example)"	"1. to make a student leave school (because of bad behaviour, for example)"	NA	"3b"	"eliciting"	"lexical resource"	NA	NA	13
+2020-10-13 13:05:46	"student009"	"student"	59	"to expel"	"to expel"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:05:52	"teacher008"	"teacher"	60	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:06:15	"teacher008"	"teacher"	61	"For example, this boy was _____ from school for bad behaviour"	"For example, this boy was _____ from school for bad behaviour"	NA	NA	"eliciting"	"lexical resource"	NA	NA	11
+2020-10-13 13:06:33	"student009"	"student"	62	"expelled"	"expelled"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:06:45	"teacher008"	"teacher"	63	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:06:56	"teacher008"	"teacher"	64	"Does your school ever expel students?"	"Does your school ever expel students?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	6
+2020-10-13 13:07:04	"student009"	"student"	65	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:07:36	"student009"	"student"	66	"my school wanted to expel one boy from another class"	"my school wanted to expel one boy from another class"	NA	NA	NA	NA	NA	NA	10
+2020-10-13 13:07:40	"teacher008"	"teacher"	67	"It was from our HP words. HP nearly got expelled from Hogwarts several times :)"	"It was from our HP words. HP nearly got expelled from Hogwarts several times :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-10-13 13:07:49	"teacher008"	"teacher"	68	"and what happened?"	"and what happened?"	66	NA	NA	NA	NA	NA	3
+2020-10-13 13:08:03	"student009"	"student"	69	"he is still in our school"	"he is still in our school"	NA	NA	NA	NA	NA	NA	6
+2020-10-13 13:08:15	"teacher008"	"teacher"	70	"ah, ok :)"	"ah, ok :)"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:08:23	"teacher008"	"teacher"	71	"he is still __ our school"	"he is still __ our school"	NA	NA	"eliciting,repair"	"lexical resource"	NA	NA	6
+2020-10-13 13:08:23	"student009"	"student"	72	"but now they want to expel one of my classmates"	"but now they want to expel one of my classmates"	70	NA	NA	NA	NA	NA	10
+2020-10-13 13:08:52	"teacher008"	"teacher"	73	"Do you think they should expel your classmate? Or do you think they should fight for them / support them to do better?"	"Do you think they should expel your classmate? Or do you think they should fight for them / support them to do better?"	NA	NA	NA	NA	NA	NA	23
+2020-10-13 13:08:59	"student009"	"student"	74	"he is those friend who my classmate threw a pencilcase to"	"he is that friend who my classmate threw a pencilcase to"	NA	NA	NA	NA	NA	NA	11
+2020-10-13 13:09:21	"teacher008"	"teacher"	75	"I see, so he must get into trouble a lot!"	"I see, so he must get into trouble a lot!"	NA	NA	NA	NA	NA	NA	10
+2020-10-13 13:09:41	"student009"	"student"	76	"well, his behavior is really bad, but he is a bit nice as a person"	"well, his behavior is really bad, but he is a bit nice as a person"	NA	NA	NA	NA	NA	NA	15
+2020-10-13 13:09:55	"student009"	"student"	77	"he invited me to his birthday last week"	"he invited me to his birthday last week"	NA	NA	NA	NA	NA	NA	8
+2020-10-13 13:10:01	"teacher008"	"teacher"	78	"That's sweet!"	"That's sweet!"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:10:48	"teacher008"	"teacher"	79	"Ok, next word! the last but one ="	"Ok, next word! the last but one ="	NA	"3c"	"eliciting"	"lexical resource"	NA	NA	8
+2020-10-13 13:11:07	"student009"	"student"	80	"penultimate"	"penultimate"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:11:15	"teacher008"	"teacher"	81	"well done!"	"well done!"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:11:27	"teacher008"	"teacher"	82	"For example, y is the penultimate letter of the alphabet"	"For example, y is the penultimate letter of the alphabet"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-10-13 13:12:20	"teacher008"	"teacher"	83	"next one: to defend an idea / a person who is being attacked / criticized"	"next one: to defend an idea / a person who is being attacked / criticized"	NA	"3d"	"eliciting"	"lexical resource"	NA	NA	15
+2020-10-13 13:12:40	"student009"	"student"	84	"stand for"	"stand up for"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:12:47	"teacher008"	"teacher"	85	"stand __ for"	"stand __ for"	NA	NA	"eliciting,repair"	"lexical resource"	NA	NA	3
+2020-10-13 13:12:53	"student009"	"student"	86	"up"	"up"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:13:08	"teacher008"	"teacher"	87	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:13:26	"teacher008"	"teacher"	88	"For example, some teachers wanted to expel this boy, but others stood up for him"	"For example, some teachers wanted to expel this boy, but others stood up for him"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-10-13 13:13:35	"teacher008"	"teacher"	89	"because he was a nice person deep down"	"because he was a nice person deep down"	NA	NA	NA	NA	NA	NA	8
+2020-10-13 13:13:43	"teacher008"	"teacher"	90	"or something like that"	"or something like that"	NA	NA	NA	NA	NA	NA	4
+2020-10-13 13:14:26	"teacher008"	"teacher"	91	"Ok, if you're feeling nice and relaxed, you're feeling ___ ___"	"Ok, if you're feeling nice and relaxed, you're feeling ___ ___"	NA	"3e"	"eliciting"	"lexical resource"	NA	NA	11
+2020-10-13 13:14:46	"student009"	"student"	92	"at ease"	"at ease"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:14:51	"teacher008"	"teacher"	93	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:15:21	"teacher008"	"teacher"	94	"What helps you feel at ease when you have a new teacher or a new class, like your drama class?"	"What helps you feel at ease when you have a new teacher or a new class, like your drama class?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	20
+2020-10-13 13:15:57	"student009"	"student"	95	"hugging my big toys"	"hugging my big toys"	NA	NA	NA	NA	NA	NA	4
+2020-10-13 13:16:42	"teacher008"	"teacher"	96	"Aww, your cuddly toys?"	"Aww, your cuddly toys?"	NA	NA	NA	NA	NA	NA	4
+2020-10-13 13:16:50	"student009"	"student"	97	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:16:58	"teacher008"	"teacher"	98	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:17:22	"teacher008"	"teacher"	99	"and if you are starting to enjoy something and are doing more and more of it, you ___ ____ something"	"and if you are starting to enjoy something and are doing more and more of it, you ___ ____ something"	NA	"3f"	"eliciting"	"lexical resource"	NA	NA	20
+2020-10-13 13:17:52	"student009"	"student"	100	"get into something"	"get into something"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:18:06	"teacher008"	"teacher"	101	"Yes! Are you getting into acting and drama then?"	"Yes! Are you getting into acting and drama then?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	9
+2020-10-13 13:18:40	"student009"	"student"	102	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:18:51	"teacher008"	"teacher"	103	"Ok, can you give me a full sentence, please?"	"Ok, can you give me a full sentence, please?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	9
+2020-10-13 13:19:07	"student009"	"student"	104	"last week we made a video congratulations on acting"	"last week we made a congratulatory video in the acting class"	NA	NA	NA	NA	NA	NA	9
+2020-10-13 13:19:36	"teacher008"	"teacher"	105	"Ok, how do you mean?"	"Ok, how do you mean?"	NA	NA	NA	NA	NA	NA	5
+2020-10-13 13:19:57	"student009"	"student"	106	"and my PE teacher today said that she saw me on this video 'was it you?'"	"and my PE teacher today said that she saw me in this video, 'was it you?'"	NA	NA	NA	NA	NA	NA	16
+2020-10-13 13:20:17	"teacher008"	"teacher"	107	"Did you upload it to Youtube or something?"	"Did you upload it to Youtube or something?"	NA	NA	NA	NA	NA	NA	8
+2020-10-13 13:20:17	"student009"	"student"	108	"it was teachers day"	"it was Teacher's day"	NA	NA	NA	NA	NA	NA	4
+2020-10-13 13:20:25	"student009"	"student"	109	"to facebook"	"to facebook"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:20:33	"teacher008"	"teacher"	110	"Oh I see! So you are getting into it then!"	"Oh I see! So you are getting into it then!"	NA	NA	NA	NA	NA	NA	10
+2020-10-13 13:21:11	"teacher008"	"teacher"	111	"Ok, one last! if something is the type of thing that you like / are interested in, it is __ ___ ___"	"Ok, one last! if something is the type of thing that you like / are interested in, it is __ ___ ___"	NA	"3g"	"eliciting"	"lexical resource"	NA	NA	22
+2020-10-13 13:21:42	"student009"	"student"	112	"up my street"	"up my street"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:21:50	"teacher008"	"teacher"	113	"Yes, sure!"	"Yes, sure!"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:22:27	"teacher008"	"teacher"	114	"Ok, a quick practice. Let's use these words and phrases to ask each other questions (and answer them)"	"Ok, a quick practice. Let's use these words and phrases to ask each other questions (and answer them)"	NA	"4.0"	"exercise,free practice,revision"	"lexical resource"	NA	NA	18
+2020-10-13 13:22:34	"teacher008"	"teacher"	115	"I'll start"	"I'll start"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:22:45	"teacher008"	"teacher"	116	"What was your penultimate lesson at school today?"	"What was your penultimate lesson at school today?"	NA	"4a"	NA	NA	NA	NA	8
+2020-10-13 13:23:09	"student009"	"student"	117	"it was PE"	"it was PE"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:23:32	"teacher008"	"teacher"	118	"Of course it was, like the previous Tuesday, I remember now!"	"Of course it was, like the previous Tuesday, I remember now!"	NA	NA	NA	NA	NA	NA	11
+2020-10-13 13:23:35	"teacher008"	"teacher"	119	"Ok, your turn"	"Ok, your turn"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:24:41	"student009"	"student"	120	"have you ever got into something ?"	"have you ever got into something ?"	NA	"4b"	NA	NA	NA	NA	7
+2020-10-13 13:25:20	"teacher008"	"teacher"	121	"Definitely, so many things! I think the latest thing I got into is gardening"	"Definitely, so many things! I think the latest thing I got into is gardening"	NA	NA	NA	NA	NA	NA	14
+2020-10-13 13:25:30	"student009"	"student"	122	"oh yes"	"oh yes"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:25:36	"student009"	"student"	123	"I remember that)"	"I remember that)"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:25:37	"teacher008"	"teacher"	124	"But I've told you all about that))"	"But I've told you all about that))"	NA	NA	NA	NA	NA	NA	7
+2020-10-13 13:25:53	"student009"	"student"	125	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:26:02	"teacher008"	"teacher"	126	"Are animated films up your street?"	"Are animated films up your street?"	NA	"4c"	NA	NA	NA	NA	6
+2020-10-13 13:26:15	"student009"	"student"	127	"yed, they are"	"yes, they are"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:26:41	"teacher008"	"teacher"	128	"Which one is your favourite?"	"Which one is your favourite?"	NA	NA	NA	NA	NA	NA	5
+2020-10-13 13:27:29	"student009"	"student"	129	"not easy to say"	"not easy to say"	NA	NA	NA	NA	NA	NA	4
+2020-10-13 13:28:09	"teacher008"	"teacher"	130	"I like animations for kids, but not for adults. My favourite is Finding Dori))"	"I like animations for kids, but not for adults. My favourite is Finding Dori))"	NA	NA	NA	NA	NA	NA	14
+2020-10-13 13:28:18	"student009"	"student"	131	"oh yeah"	"oh yeah"	NA	NA	NA	NA	NA	NA	2
+2020-10-13 13:28:23	"student009"	"student"	132	"it is nice!"	"it is nice!"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:28:43	"student009"	"student"	133	"what is wrong with the animations for the adults?"	"what is wrong with animations for the adults?"	NA	NA	NA	NA	NA	NA	9
+2020-10-13 13:28:47	"teacher008"	"teacher"	134	"Two more ways to say something is exactly what you like: my cup of tea, my jam"	"Two more ways to say something is exactly what you like: my cup of tea, my jam"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-10-13 13:28:56	"teacher008"	"teacher"	135	"Don't know, I just prefer actors!"	"Don't know, I just prefer actors!"	133	NA	NA	NA	NA	NA	6
+2020-10-13 13:29:18	"teacher008"	"teacher"	136	"Nothing's wrong, they can be really talented"	"Nothing's wrong, they can be really talented"	NA	NA	NA	NA	NA	NA	7
+2020-10-13 13:29:28	"teacher008"	"teacher"	137	"They are just not my cup of tea :)))"	"They are just not my cup of tea :)))"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-10-13 13:29:42	"student009"	"student"	138	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:29:43	"teacher008"	"teacher"	139	"Have you heard this one? 'my cup of tea' / 'not my cup of tea'?"	"Have you heard this one? 'my cup of tea' / 'not my cup of tea'?"	NA	NA	NA	NA	NA	NA	15
+2020-10-13 13:29:50	"student009"	"student"	140	"nope"	"nope"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:29:52	"teacher008"	"teacher"	141	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:30:12	"teacher008"	"teacher"	142	"All fun ways to say the same thing)"	"All fun ways to say the same thing)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-10-13 13:31:06	"teacher008"	"teacher"	143	"Ok, <STUDENT>, thanks for today, I've got to let you go! Hope you'll feel better soon and have a nice relaxing day tomorrow!"	"Ok, <STUDENT>, thanks for today, I've got to let you go! Hope you'll feel better soon and have a nice relaxing day tomorrow!"	NA	"5.0"	"closing"	NA	NA	NA	23
+2020-10-13 13:31:24	"student009"	"student"	144	"thank you too!"	"thank you too!"	NA	NA	NA	NA	NA	NA	3
+2020-10-13 13:31:28	"student009"	"student"	145	"bye!"	"bye!"	NA	NA	NA	NA	NA	NA	1
+2020-10-13 13:31:54	"teacher008"	"teacher"	146	"Take care!"	"Take care!"	NA	NA	NA	NA	NA	"B2"	2

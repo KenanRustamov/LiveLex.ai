@@ -1,0 +1,157 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-04-27 09:14:13	"student012"	"student"	1	"Hello <TEACHER>!"	"Hello <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-04-27 09:14:19	"student012"	"student"	2	"Sorry for being late!"	"Sorry for being late!"	NA	NA	NA	NA	NA	NA	4
+2021-04-27 09:14:40	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	"1.0"	NA	NA	NA	NA	NA	2
+2021-04-27 09:14:47	"teacher008"	"teacher"	4	"No problem"	"No problem"	"2.0"	NA	NA	NA	NA	NA	2
+2021-04-27 09:14:52	"teacher008"	"teacher"	5	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-04-27 09:14:58	"student012"	"student"	6	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2021-04-27 09:15:07	"student012"	"student"	7	"Today I'm very sleepy"	"Today I'm very sleepy"	"5.0"	NA	NA	NA	NA	NA	4
+2021-04-27 09:15:16	"teacher008"	"teacher"	8	"Oh no, not a good night?"	"Oh no, not a good night?"	NA	NA	NA	NA	NA	NA	6
+2021-04-27 09:15:24	"student012"	"student"	9	"<STUDENT'S CHILD> didn't let me sleep through the night"	"<STUDENT'S CHILD> didn't let me sleep through the night"	"7.0"	NA	NA	NA	NA	NA	9
+2021-04-27 09:15:28	"student012"	"student"	10	"Yep."	"Yep."	"8.0"	NA	NA	NA	NA	NA	1
+2021-04-27 09:15:38	"teacher008"	"teacher"	11	"Oh, I'm sorry to hear that!"	"Oh, I'm sorry to hear that!"	NA	NA	NA	NA	NA	NA	6
+2021-04-27 09:15:49	"student012"	"student"	12	"So everything I do feels like a slow-motion video.."	"So everything I do feels like a slow-motion video.."	"12.0"	NA	NA	NA	NA	NA	9
+2021-04-27 09:15:57	"student012"	"student"	13	"That's OK"	"That's OK"	"11.0"	NA	NA	NA	NA	NA	2
+2021-04-27 09:16:22	"teacher008"	"teacher"	14	"Yes, I know the feeling. Very hard!"	"Yes, I know the feeling. Very hard!"	NA	NA	NA	NA	NA	NA	7
+2021-04-27 09:16:46	"teacher008"	"teacher"	15	"Are you nearly out of the lockdown?"	"Are you nearly out of the lockdown?"	NA	"2a"	"topic development"	NA	NA	NA	7
+2021-04-27 09:16:49	"student012"	"student"	16	"Another thing that's bugging me is how cold it is inside the house as compared to the outside ..."	"Another thing that's bugging me is how cold it is inside the house as compared to the outside ..."	NA	"2b"	"topic development"	NA	NA	NA	19
+2021-04-27 09:17:14	"student012"	"student"	17	"Not yet, unfortunately."	"Not yet, unfortunately."	"15.0"	NA	NA	NA	NA	NA	3
+2021-04-27 09:17:21	"student012"	"student"	18	"Maybe after all the May holidays"	"Maybe after all the May holidays"	NA	NA	NA	NA	NA	NA	6
+2021-04-27 09:17:22	"teacher008"	"teacher"	19	"Oh yes, it's definitely a phenomenon of this time of the year, isn't it?"	"Oh yes, it's definitely a phenomenon of this time of the year, isn't it?"	"16.0"	NA	NA	NA	NA	NA	14
+2021-04-27 09:17:31	"student012"	"student"	20	"TRUE"	"TRUE"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 09:17:33	"teacher008"	"teacher"	21	"Oh really? I thought it was the end of April"	"Oh really? I thought it was the end of April"	"18.0"	NA	NA	NA	NA	NA	10
+2021-04-27 09:17:42	"student012"	"student"	22	"Every fall and spring..."	"Every fall and spring..."	"20.0"	NA	NA	NA	NA	NA	4
+2021-04-27 09:18:04	"student012"	"student"	23	"The will probably prolong it"	"They will probably prolong it"	"21.0"	NA	NA	NA	NA	NA	5
+2021-04-27 09:18:14	"student012"	"student"	24	"That's what I've been told"	"That's what I've been told"	NA	NA	NA	NA	NA	NA	5
+2021-04-27 09:18:23	"teacher008"	"teacher"	25	"What are May holidays like in Ukraine these days? If I remember correctly, it's not the 1,2 and 9 of May anymore!"	"What are May holidays like in Ukraine these days? If I remember correctly, it's not the 1,2 and 9 of May anymore!"	NA	"2c"	"topic development"	NA	NA	NA	22
+2021-04-27 09:18:49	"student012"	"student"	26	"I'm happy we're out of Kyiv from May 7 to 11"	"I'm happy we're out of Kyiv from May 7 to 11"	NA	"2d"	"topic development"	NA	NA	NA	11
+2021-04-27 09:19:00	"teacher008"	"teacher"	27	"Right, I see! That would make most sense, it can't have made enough of a difference yet"	"Right, I see! That would make most sense, it can't have made enough of a difference yet"	"24.0"	NA	NA	NA	NA	NA	17
+2021-04-27 09:19:08	"teacher008"	"teacher"	28	"Nice! Where are you going?"	"Nice! Where are you going?"	"26.0"	NA	NA	NA	NA	NA	5
+2021-04-27 09:19:21	"student012"	"student"	29	"Not far. We're going to Vinnitsa"	"Not far. We're going to Vinnitsa"	NA	NA	NA	NA	NA	NA	6
+2021-04-27 09:19:30	"student012"	"student"	30	"The good part is it's not a red zone"	"The good part is it's not a red zone"	NA	NA	NA	NA	NA	NA	9
+2021-04-27 09:19:39	"student012"	"student"	31	"And there are shops and cafes open"	"And there are shops and cafes open"	NA	NA	NA	NA	NA	NA	7
+2021-04-27 09:20:00	"teacher008"	"teacher"	32	"Oh yes, you go there every now and then, don't you? Have you got family there?"	"Oh yes, you go there every now and then, don't you? Have you got family there?"	NA	NA	NA	NA	NA	NA	16
+2021-04-27 09:20:03	"teacher008"	"teacher"	33	"Nice!"	"Nice!"	"31.0"	NA	NA	NA	NA	NA	1
+2021-04-27 09:20:13	"student012"	"student"	34	"And the restrictions are not so tight. They don;t have high numbers of the infected, luckily."	"And the restrictions are not so tight. They don't have high numbers of the infected, luckily."	NA	NA	NA	NA	NA	NA	16
+2021-04-27 09:20:48	"student012"	"student"	35	"My in-laws live there"	"My in-laws live there"	"32.0"	NA	NA	NA	NA	NA	4
+2021-04-27 09:20:56	"student012"	"student"	36	"Did I use it correctly?"	"Did I use it correctly?"	NA	"2e"	"enquiry"	"lexical resource"	NA	NA	5
+2021-04-27 09:21:10	"teacher008"	"teacher"	37	"in-laws'? Absolutely"	"in-laws'? Absolutely"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:21:17	"student012"	"student"	38	"Overall, Kyiv is a good place to be on May holidays, actually. The city is empty"	"Overall, Kyiv is a good place to be on May holidays, actually. The city is empty"	NA	"2f"	"topic development"	NA	NA	NA	16
+2021-04-27 09:21:38	"student012"	"student"	39	"Thanks."	"Thanks."	"37.0"	NA	NA	NA	NA	NA	1
+2021-04-27 09:22:31	"teacher008"	"teacher"	40	"Haha, yes, that must be true. Now that I'm thinking about it, I probably never spent May holidays in Kyiv. But I contributed to making it emptier! :."	"Haha, yes, that must be true. Now that I'm thinking about it, I probably never spent May holidays in Kyiv. But I contributed to making it emptier! :."	"38.0"	NA	NA	NA	NA	NA	28
+2021-04-27 09:22:44	"teacher008"	"teacher"	41	"while living there I mean"	"while living there I mean"	NA	NA	NA	NA	NA	NA	5
+2021-04-27 09:22:52	"student012"	"student"	42	"Right! You did good job..."	"Right! You did a good job..."	NA	NA	NA	NA	NA	NA	5
+2021-04-27 09:23:03	"teacher008"	"teacher"	43	"I tried! :.."	"I tried! :.."	NA	NA	NA	NA	NA	NA	3
+2021-04-27 09:23:46	"teacher008"	"teacher"	44	"How much time have you got today? Until 1 pm?"	"How much time have you got today? Until 1 pm?"	NA	"3.0"	"topic opening"	NA	NA	NA	10
+2021-04-27 09:23:58	"student012"	"student"	45	"Yes, until 1 pm"	"Yes, until 1 pm"	NA	NA	NA	NA	NA	NA	4
+2021-04-27 09:24:10	"student012"	"student"	46	"sorry again for being late"	"sorry again for being late"	NA	NA	NA	NA	NA	NA	5
+2021-04-27 09:24:23	"student012"	"student"	47	"Maybe some grammar tests?"	"Maybe some grammar tests?"	NA	NA	NA	NA	NA	NA	4
+2021-04-27 09:25:25	"teacher008"	"teacher"	48	"No worries! I was planning to continue with 'speaking' questions, this time from the last part. They are more abstract than the questions from part 1 we tried last time, and we could brainstorm some nice vocabulary for them"	"No worries! I was planning to continue with 'speaking' questions, this time from the last part. They are more abstract than the questions from part 1 we tried last time, and we could brainstorm some nice vocabulary for them"	NA	NA	NA	NA	NA	NA	39
+2021-04-27 09:26:24	"student012"	"student"	49	"Oh no"	"Oh no"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:26:41	"student012"	"student"	50	"I'm afraid I'm too tired to be creative today"	"I'm afraid I'm too tired to be creative today"	NA	NA	NA	NA	NA	NA	9
+2021-04-27 09:27:04	"teacher008"	"teacher"	51	"Ok, fair enough!"	"Ok, fair enough!"	NA	NA	NA	NA	NA	NA	3
+2021-04-27 09:27:16	"teacher008"	"teacher"	52	"Let me re-plan quickly :."	"Let me re-plan quickly :."	NA	NA	NA	NA	NA	NA	5
+2021-04-27 09:27:43	"student012"	"student"	53	"No problem."	"No problem."	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:27:48	"student012"	"student"	54	"We can just talk if you want"	"We can just talk if you want"	NA	NA	NA	NA	NA	NA	7
+2021-04-27 09:28:11	"teacher008"	"teacher"	55	"Ok, in this case let's take a bit of break from C2 proficiency, and do a bit of 'everyday English'"	"Ok, in this case let's take a bit of break from C2 proficiency, and do a bit of 'everyday English'"	NA	"4.0"	"topic opening"	"reading,lexical resource"	NA	NA	20
+2021-04-27 09:28:19	"student012"	"student"	56	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 09:28:59	"teacher008"	"teacher"	57	"I've been looking for some interesting real-life .as opposed to coming from a textbook. expressions, for you and my other C2 student"	"I've been looking for some interesting real-life (as opposed to coming from a textbook) expressions, for you and my other C2 student"	NA	NA	NA	NA	NA	NA	22
+2021-04-27 09:29:19	"teacher008"	"teacher"	58	"And I turned to the comments to 'a most commented-on article' from the Guardian"	"And I turned to the comments to 'a most commented-on article' from the Guardian"	NA	NA	NA	NA	NA	NA	14
+2021-04-27 09:29:27	"teacher008"	"teacher"	59	"from a couple of months ago, admittedly"	"from a couple of months ago, admittedly"	NA	NA	NA	NA	NA	NA	7
+2021-04-27 09:29:57	"student012"	"student"	60	"I've got the book ready just in case .C2 Proficiency."	"I've got the book ready just in case (C2 Proficiency)"	NA	"3a"	"topic development"	NA	NA	NA	10
+2021-04-27 09:30:10	"student012"	"student"	61	"Cool. What was the article about?"	"Cool. What was the article about?"	"59.0"	NA	NA	NA	NA	NA	6
+2021-04-27 09:31:00	"teacher008"	"teacher"	62	"The article was on a very English topic of class, as in working class, middle class and upper class. It's not something we think about a lot in Ukraine I would say, but it's certainly on the minds of English people .very anachronistic, I know."	"The article was on a very English topic of class, as in working class, middle class and upper class. It's not something we think about a lot in Ukraine I would say, but it's certainly on the minds of English people (very anachronistic, I know)"	NA	NA	NA	NA	NA	NA	45
+2021-04-27 09:31:13	"teacher008"	"teacher"	63	"Oh, which book have you got?"	"Oh, which book have you got?"	"60.0"	NA	NA	NA	NA	NA	6
+2021-04-27 09:31:38	"student012"	"student"	64	"168194-c2-proficiency-teachers-handbook-2"	"168194-c2-proficiency-teachers-handbook-2"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 09:31:51	"teacher008"	"teacher"	65	"Ah, ok, I'm with you, sorry"	"Ah, ok, I'm with you, sorry"	NA	NA	NA	NA	NA	NA	6
+2021-04-27 09:32:10	"student012"	"student"	66	"Although classes exist in Ukraine too, I think"	"Although classes exist in Ukraine too, I think"	"62.0"	NA	NA	NA	NA	NA	8
+2021-04-27 09:32:37	"teacher008"	"teacher"	67	"Yes, in what way?"	"Yes, in what way?"	NA	NA	NA	NA	NA	NA	4
+2021-04-27 09:33:51	"teacher008"	"teacher"	68	"The article discusses the tendency that some people in very middle-class jobs .a solicitor, for example. have, to claim that they are working class, e.g. because there granddad was a farmer"	"The article discusses the tendency that some people in very middle-class jobs .a solicitor, for example. have, to claim that they are working class, e.g. because there granddad was a farmer"	"62.0"	NA	NA	NA	NA	NA	31
+2021-04-27 09:34:30	"student012"	"student"	69	"Could you maybe send me the link after the class?"	"Could you maybe send me the link after the class?"	NA	NA	NA	NA	NA	NA	10
+2021-04-27 09:35:19	"student012"	"student"	70	"In many ways. Although I was told the middle class does not exist in Ukraine. Only working and upper"	"In many ways. Although I was told the middle class does not exist in Ukraine. Only working and upper"	"67.0"	NA	NA	NA	NA	NA	19
+2021-04-27 09:35:44	"student012"	"student"	71	"They way people live, the economical divide .if I could say so."	"The way people live, the economic divide (if I could say so)"	NA	NA	NA	NA	NA	NA	12
+2021-04-27 09:36:00	"student012"	"student"	72	"economic* maybe"	"economic* maybe"	"71.0"	"4a"	"repair"	"lexical resource"	NA	NA	2
+2021-04-27 09:36:35	"teacher008"	"teacher"	73	"Yes, very good correction! economic = related to the economy vs. economical = saving you money and resources"	"Yes, very good correction! economic = related to the economy vs. economical = saving you money and resources"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2021-04-27 09:36:58	"teacher008"	"teacher"	74	"an economical car is cheap to run, for example"	"an economical car is cheap to run, for example"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-04-27 09:36:59	"student012"	"student"	75	"yes yes"	"yes yes"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:37:03	"student012"	"student"	76	"Slipped my mind"	"Slipped my mind"	NA	NA	NA	NA	NA	NA	3
+2021-04-27 09:37:08	"teacher008"	"teacher"	77	"No worries"	"No worries"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:37:37	"teacher008"	"teacher"	78	"Well, in Ukraine there's definitely a political / financial elite"	"Well, in Ukraine there's definitely a political / financial elite"	NA	"4b"	"topic development"	NA	NA	NA	10
+2021-04-27 09:37:57	"teacher008"	"teacher"	79	"But in the UK, the upper class basically means the aristocracy"	"But in the UK, the upper class basically means the aristocracy"	NA	NA	NA	NA	NA	NA	11
+2021-04-27 09:38:03	"student012"	"student"	80	"definitely"	"definitely"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 09:38:46	"teacher008"	"teacher"	81	"You can't become upper class, only be born into it. Even if you marry into an upper-class family, arguably, you will still be seen as an odd one out or whatever"	"You can't become upper class, only be born into it. Even if you marry into an upper-class family, arguably, you will still be seen as an odd one out or whatever"	NA	NA	NA	NA	NA	NA	31
+2021-04-27 09:39:02	"teacher008"	"teacher"	82	"like Meghan Markle :. pretty feudal stuff"	"like Meghan Markle :) pretty feudal stuff"	NA	NA	NA	NA	NA	NA	7
+2021-04-27 09:39:04	"student012"	"student"	83	"Nice inclusion.."	"Nice inclusion.."	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:39:13	"teacher008"	"teacher"	84	"No inclusion at all :..."	"No inclusion at all :..."	NA	NA	NA	NA	NA	NA	5
+2021-04-27 09:39:23	"student012"	"student"	85	"It's sad"	"It's sad"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:39:49	"teacher008"	"teacher"	86	"It's horrible in my opinion, but this is 'good old England' to many here"	"It's horrible in my opinion, but this is 'good old England' to many here"	NA	NA	NA	NA	NA	NA	14
+2021-04-27 09:40:55	"student012"	"student"	87	"Right. People are very reluctant to change"	"Right. People are very reluctant to change"	NA	NA	NA	NA	NA	NA	7
+2021-04-27 09:40:58	"teacher008"	"teacher"	88	"The distinction between working and middle class is much more fluid. Many people are born in working class families, but they put themselves through university, get a nice middle class job and socially climb"	"The distinction between working and middle class is much more fluid. Many people are born in working class families, but they put themselves through university, get a nice middle class job and socially climb"	NA	NA	NA	NA	NA	NA	34
+2021-04-27 09:41:49	"teacher008"	"teacher"	89	"Definitely. It's obvious from the popularity of shows like 'Downton Abbey' just how strong this spirit still is"	"Definitely. It's obvious from the popularity of shows like 'Downton Abbey' just how strong this spirit still is"	"87.0"	NA	NA	NA	NA	NA	18
+2021-04-27 09:42:33	"teacher008"	"teacher"	90	"Anyway, to the yummy .languagewise. comments on the article! I'll send you the article later on, if you're curious"	"Anyway, to the yummy (languagewise) comments on the article! I'll send you the article later on, if you're curious"	NA	"5.0"	"exercise"	"reading,lexical resource"	NA	NA	19
+2021-04-27 09:42:55	"student012"	"student"	91	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:43:18	"teacher008"	"teacher"	92	"I predict this will open a right can of worms.... I think part of the issue is that we don't live in an age any more where whether you are working class or middle class is a very clear cut and obvious thing. Fifty years ago you could have told by someone's dress, address, and job title. now, not so much. Being 'working class' no longer means you're going down the pit each day, and being middle class no longer means having a house in the suburbs and going to work in a suit, so it's no surprise that class has become less solidly defined and more about self perception."	"I predict this will open a right can of worms.... I think part of the issue is that we don't live in an age any more where whether you are working class or middle class is a very clear cut and obvious thing. Fifty years ago you could have told by someone's dress, address, and job title. now, not so much. Being 'working class' no longer means you're going down the pit each day, and being middle class no longer means having a house in the suburbs and going to work in a suit, so it's no surprise that class has become less solidly defined and more about self perception."	NA	NA	NA	NA	"website"	NA	110
+2021-04-27 09:43:32	"teacher008"	"teacher"	93	"Are there any expressions that catch your eye?"	"Are there any expressions that catch your eye?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	8
+2021-04-27 09:45:13	"student012"	"student"	94	"a can of worms haha"	"a can of worms haha"	NA	NA	NA	NA	NA	NA	5
+2021-04-27 09:45:29	"student012"	"student"	95	"solidly defined"	"solidly defined"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:45:38	"student012"	"student"	96	"a clear cut"	"a clear cut"	NA	NA	NA	NA	NA	NA	3
+2021-04-27 09:46:14	"teacher008"	"teacher"	97	"Yes, my choices too!"	"Yes, my choices too!"	NA	NA	NA	NA	NA	NA	4
+2021-04-27 09:46:32	"teacher008"	"teacher"	98	"Yes, 'to open a can of worms', very intuitive, isn't it? :.."	"Yes, 'to open a can of worms', very intuitive, isn't it? :.."	NA	"5a"	"scaffolding"	"lexical resource"	NA	NA	12
+2021-04-27 09:46:49	"student012"	"student"	99	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 09:46:57	"student012"	"student"	100	"Very graphic ..."	"Very graphic ..."	NA	NA	NA	NA	NA	NA	3
+2021-04-27 09:47:32	"teacher008"	"teacher"	101	"Yep, if you've ever been fishing :.."	"Yep, if you've ever been fishing :.."	NA	NA	NA	NA	NA	NA	7
+2021-04-27 09:47:55	"teacher008"	"teacher"	102	"a clear cut .e.g. distinction. - also a very good expression!"	"a clear cut .e.g. distinction. - also a very good expression!"	NA	"5b"	"scaffolding"	"lexical resource"	NA	NA	11
+2021-04-27 09:47:55	"student012"	"student"	103	"Oh, couple of times. I watched my grandpa fish"	"Oh, a couple of times. I watched my grandpa fish"	"101.0"	NA	NA	NA	NA	NA	9
+2021-04-27 09:48:16	"student012"	"student"	104	"And he did have the can"	"And he did have the can"	NA	NA	NA	NA	NA	NA	6
+2021-04-27 09:48:28	"teacher008"	"teacher"	105	"I actually never have, basically because of the image of the can of worms :...."	"I actually never have, basically because of the image of the can of worms :...."	NA	NA	NA	NA	NA	NA	15
+2021-04-27 09:48:38	"student012"	"student"	106	"hahah"	"hahah"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 09:48:53	"student012"	"student"	107	"You knew right away it wasn't worth it"	"You knew right away it wasn't worth it"	NA	NA	NA	NA	NA	NA	8
+2021-04-27 09:49:02	"teacher008"	"teacher"	108	"That's it! :..."	"That's it! :..."	NA	NA	NA	NA	NA	NA	3
+2021-04-27 09:49:05	"student012"	"student"	109	"Never understood fishing.."	"Never understood fishing.."	NA	NA	NA	NA	NA	NA	3
+2021-04-27 09:49:47	"teacher008"	"teacher"	110	"Oh, it's a sport here in the UK. In that, you don't keep the fish, you take it off the hook, put some antiseptic on and release it"	"Oh, it's a sport here in the UK. In that, you don't keep the fish, you take it off the hook, put some antiseptic on and release it"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	28
+2021-04-27 09:49:57	"teacher008"	"teacher"	111	"Oh, I forgot: you take a selfie with it first"	"Oh, I forgot: you take a selfie with it first"	NA	NA	NA	NA	NA	NA	10
+2021-04-27 09:50:10	"teacher008"	"teacher"	112	"Do you know the word for it? Fishing as a sport rather than fishing for food"	"Do you know the word for it? Fishing as a sport rather than fishing for food"	NA	"5c"	"eliciting"	"lexical resource"	NA	NA	16
+2021-04-27 09:50:44	"student012"	"student"	113	"Free fishing?....."	"Free fishing?....."	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:51:03	"teacher008"	"teacher"	114	"angling!"	"angling!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2021-04-27 09:51:15	"teacher008"	"teacher"	115	"and the person who does it is an angler"	"and the person who does it is an angler"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-04-27 09:51:40	"student012"	"student"	116	"Interesting"	"Interesting"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 09:51:43	"teacher008"	"teacher"	117	"My friend's partner is a passionate angler, and he always corrects people if they say 'fishing' :..."	"My friend's partner is a passionate angler, and he always corrects people if they say 'fishing' :..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2021-04-27 09:51:56	"student012"	"student"	118	"Do all of the anglers take pictures with the fish?"	"Do all anglers take pictures with the fish?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	10
+2021-04-27 09:52:59	"teacher008"	"teacher"	119	"Well, I can't say for all of them, but this seems to be the point... You catch a giant carp, take a picture holding it up gingerly and post it on anglers' forums"	"Well, I can't say for all of them, but this seems to be the point... You catch a giant carp, take a picture holding it up gingerly and post it on anglers' forums"	NA	NA	NA	NA	NA	NA	33
+2021-04-27 09:54:08	"teacher008"	"teacher"	120	"And they scoff at local Poles who catch carp for their Christmas dinner..."	"And they scoff at local Poles who catch carp for their Christmas dinner..."	NA	NA	NA	NA	NA	NA	13
+2021-04-27 09:54:26	"teacher008"	"teacher"	121	"Ok, the next part of the same comment"	"Ok, the next part of the same comment"	NA	"6.0"	"exercise"	"reading,lexical resource"	NA	NA	8
+2021-04-27 09:54:31	"teacher008"	"teacher"	122	"I've heard some .usually very middle class. people argue that anyone who works for a living and gets a salary is 'working class', which misses the whole point of the traditional definitions... The reasons that middle class people would try to play up proletarian origins seem accurate. I'd also add that people adjust their own perception based on what others around them think. Class, after all, being a social concept. If you are someone who works in an environment where everyone seems more or less privileged than you have been, that changes your perception of your own origins. I felt very middle class at school, because I probably was compared to many kids I went to school with. When I went to university, everyone was middle class and many were positively posh. Then I went into a career where my own background, whilst undoubtedly middle class, was humble compared to many people I worked with. Of COURSE that changes your perception of what your own class background is."	"I've heard some (usually very middle class) people argue that anyone who works for a living and gets a salary is 'working class', which misses the whole point of the traditional definitions... The reasons that middle class people would try to play up proletarian origins seem accurate. I'd also add that people adjust their own perception based on what others around them think. Class, after all, being a social concept. If you are someone who works in an environment where everyone seems more or less privileged than you have been, that changes your perception of your own origins. I felt very middle class at school, because I probably was compared to many kids I went to school with. When I went to university, everyone was middle class and many were positively posh. Then I went into a career where my own background, whilst undoubtedly middle class, was humble compared to many people I worked with. Of COURSE that changes your perception of what your own class background is."	NA	NA	NA	NA	"website"	NA	168
+2021-04-27 09:56:25	"student012"	"student"	123	"play up proletarian origins"	"play up proletarian origins"	NA	NA	NA	NA	NA	NA	4
+2021-04-27 09:56:54	"student012"	"student"	124	"positively posh"	"positively posh"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 09:58:19	"teacher008"	"teacher"	125	"Yes, play up / play down .downplay. - great phrasal verbs!"	"Yes, play up / play down (downplay) - great phrasal verbs!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-04-27 09:58:45	"teacher008"	"teacher"	126	"Well, downplay isn't a pharasal verb, but play down certainly is, with the same meaning"	"Well, downplay isn't a pharasal verb, but play down certainly is, with the same meaning"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2021-04-27 09:59:08	"teacher008"	"teacher"	127	"I wouldn't say 'positively posh' is a set collocation, but it does sound nice :."	"I wouldn't say 'positively posh' is a set collocation, but it does sound nice :."	"124.0"	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2021-04-27 10:00:11	"student012"	"student"	128	"Oh yes. It reminded me of Posh Spice.."	"Oh yes. It reminded me of Posh Spice.."	NA	NA	NA	NA	NA	NA	8
+2021-04-27 10:00:45	"teacher008"	"teacher"	129	"Ok, I'll send you the article if you're curious, and we can continue with the comments next week .even though I guess we'll need to adjust the date and time because of holidays!.. I really appreciate you showing up despite being exhausted! Hope you can have a power nap and a restful night!"	"Ok, I'll send you the article if you're curious, and we can continue with the comments next week .even though I guess we'll need to adjust the date and time because of holidays!.. I really appreciate you showing up despite being exhausted! Hope you can have a power nap and a restful night!"	NA	"7.0"	"closing,homework"	NA	NA	NA	53
+2021-04-27 10:01:08	"teacher008"	"teacher"	130	"Oh yes, 'posh' is such an interesting word, usually meaning 'expensive and middle-class' in England"	"Oh yes, 'posh' is such an interesting word, usually meaning 'expensive and middle-class' in England"	"6a"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2021-04-27 10:01:39	"teacher008"	"teacher"	131	"Some holiday places, shops and supermarkets can be described as posh"	"Some holiday places, shops and supermarkets can be described as posh"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-04-27 10:01:44	"teacher008"	"teacher"	132	"a posh accent, too!"	"a posh accent, too!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+2021-04-27 10:02:58	"teacher008"	"teacher"	133	"i.e. revealing that the person went to a posh school, comes from a posh family, etc. :."	"i.e. revealing that the person went to a posh school, comes from a posh family, etc. :."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2021-04-27 10:03:06	"student012"	"student"	134	"Probably many brand try to use it in their slogans"	"Probably many brands try to use it in their slogans"	NA	NA	NA	NA	NA	NA	10
+2021-04-27 10:03:13	"student012"	"student"	135	"The word 'posh' I mean"	"The word 'posh' I mean"	NA	NA	NA	NA	NA	NA	5
+2021-04-27 10:04:09	"teacher008"	"teacher"	136	"Hmm, I would say it's more of a word that people who are not posh use to describe things that are expensive and of very high quality"	"Hmm, I would say it's more of a word that people who are not posh use to describe things that are expensive and of very high quality"	NA	NA	"repair,scaffolding"	"lexical resource,meaning"	NA	NA	27
+2021-04-27 10:04:09	"student012"	"student"	137	"Thank you for the lesson. Sorry I'm not myself today.."	"Thank you for the lesson. Sorry I'm not myself today.."	"129.0"	NA	NA	NA	NA	NA	10
+2021-04-27 10:04:22	"student012"	"student"	138	"Oh really"	"Oh really"	"136.0"	NA	NA	NA	NA	NA	2
+2021-04-27 10:04:33	"teacher008"	"teacher"	139	"No worries at all, sorry you're not feeling well!"	"No worries at all, sorry you're not feeling well!"	"137.0"	NA	NA	NA	NA	NA	9
+2021-04-27 10:04:34	"student012"	"student"	140	"So posh people don't say they are posh"	"So posh people don't say they are posh"	"138.0"	NA	NA	NA	NA	NA	8
+2021-04-27 10:04:35	"student012"	"student"	141	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 10:04:41	"teacher008"	"teacher"	142	"Exactly!!"	"Exactly!!"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 10:04:53	"student012"	"student"	143	"Got it!"	"Got it!"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 10:04:57	"student012"	"student"	144	"It's funny"	"It's funny"	NA	NA	NA	NA	NA	NA	2
+2021-04-27 10:05:07	"teacher008"	"teacher"	145	"You can actually hear a lot of people saying 'I know I sound posh, but I'm not posh!'"	"You can actually hear a lot of people saying 'I know I sound posh, but I'm not posh!'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2021-04-27 10:05:20	"student012"	"student"	146	"ahha"	"ahha"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 10:05:26	"teacher008"	"teacher"	147	"meaning that they speak in a posh accent, but .they think!. they are very humble :...."	"meaning that they speak in a posh accent, but (they think!) they are very humble :)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2021-04-27 10:05:35	"student012"	"student"	148	"is posh close to snob?"	"is posh close to snob?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	5
+2021-04-27 10:06:24	"teacher008"	"teacher"	149	"Hmmm, good question! 'a snob' implies looking down on others, which maybe true or not for someone who is posh!"	"Hmmm, good question! 'a snob' implies looking down on others, which maybe true or not for someone who is posh!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+2021-04-27 10:07:00	"teacher008"	"teacher"	150	"I've got to dig up some nice English satire, which is often aimed at posh people, to give you a better idea! I'll have a good think!"	"I've got to dig up some nice English satire, which is often aimed at posh people, to give you a better idea! I'll have a good think!"	NA	NA	NA	NA	NA	NA	27
+2021-04-27 10:07:20	"student012"	"student"	151	"Deal!"	"Deal!"	NA	NA	NA	NA	NA	NA	1
+2021-04-27 10:07:40	"student012"	"student"	152	"Ok <TEACHER>! I'm going to leave. Thank you again!"	"Ok <TEACHER>! I'm going to leave. Thank you again!"	NA	"7a"	NA	NA	NA	NA	9
+2021-04-27 10:07:43	"teacher008"	"teacher"	153	"I'm aware that I've been describing 'posh' by repeating 'posh posh posh'"	"I'm aware that I've been describing 'posh' by repeating 'posh posh posh'"	"151.0"	NA	NA	NA	NA	NA	12
+2021-04-27 10:07:50	"teacher008"	"teacher"	154	"Sure! Talk to you soon!"	"Sure! Talk to you soon!"	"152.0"	NA	NA	NA	NA	NA	5
+2021-04-27 10:08:02	"student012"	"student"	155	"haha. No that's fine"	"haha. No that's fine"	"153.0"	NA	NA	NA	NA	NA	4
+2021-04-27 10:08:09	"student012"	"student"	156	"See you! Take care"	"See you! Take care"	"154.0"	NA	NA	NA	NA	"C2"	4

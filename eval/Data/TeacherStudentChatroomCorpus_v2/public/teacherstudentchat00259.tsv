@@ -1,0 +1,151 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-06-17 12:17:50	"student012"	"student"	1	"Hello!"	"Hello!"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-06-17 12:18:02	"student012"	"student"	2	"Sorry for being late"	"Sorry for being late"	NA	NA	NA	NA	NA	NA	4
+2021-06-17 12:18:25	"student012"	"student"	3	"I really needed to have my lunch. I was starving)))"	"I really needed to have my lunch. I was starving)))"	NA	NA	NA	NA	NA	NA	10
+2021-06-17 12:18:57	"teacher008"	"teacher"	4	"Hi <STUDENT>!"	"Hi <STUDENT>!"	"1.0"	NA	NA	NA	NA	NA	2
+2021-06-17 12:19:03	"teacher008"	"teacher"	5	"No worries, totally understand :)"	"No worries, totally understand :)"	"3.0"	NA	NA	NA	NA	NA	5
+2021-06-17 12:19:07	"teacher008"	"teacher"	6	"What did you have?"	"What did you have?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-06-17 12:19:47	"student012"	"student"	7	"I've had schnitzel with nut salad and fries"	"I've had a schnitzel with some nut salad and fries"	NA	NA	NA	NA	NA	NA	8
+2021-06-17 12:20:17	"teacher008"	"teacher"	8	"Oh goodness, it sounds so nice! I haven't had a schnitzel for ages"	"Oh goodness, it sounds so nice! I haven't had a schnitzel for ages"	NA	NA	NA	NA	NA	NA	13
+2021-06-17 12:20:24	"student012"	"student"	9	"It was extraordinary. I have finally found the perfect glovo restaurant"	"It was extraordinary. I have finally found the perfect Glovo restaurant"	NA	NA	NA	NA	NA	NA	11
+2021-06-17 12:20:35	"teacher008"	"teacher"	10	"glovo?"	"glovo?"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:20:50	"student012"	"student"	11	"Glovo is a delivery service. Like Uber Eats"	"Glovo is a delivery service. Like Uber Eats"	NA	NA	NA	NA	NA	NA	8
+2021-06-17 12:21:02	"teacher008"	"teacher"	12	"Aah, I see!"	"Aah, I see!"	NA	NA	NA	NA	NA	NA	3
+2021-06-17 12:21:15	"student012"	"student"	13	"There are plenty of restaurants to choose from"	"There are plenty of restaurants to choose from"	NA	NA	NA	NA	NA	NA	8
+2021-06-17 12:21:39	"teacher008"	"teacher"	14	"Sounds great!"	"Sounds great!"	NA	NA	NA	NA	NA	NA	2
+2021-06-17 12:21:43	"student012"	"student"	15	"Having tried quite a few. I've finally managed to find a good one with great lunch options"	"Having tried quite a few, I've finally managed to find a good one with great lunch options"	NA	NA	NA	NA	NA	NA	17
+2021-06-17 12:22:02	"teacher008"	"teacher"	16	"When we finally go to Ukraine, I'll be asking you for some tips :)"	"When we finally go to Ukraine, I'll be asking you for some tips :)"	NA	NA	NA	NA	NA	NA	14
+2021-06-17 12:22:39	"student012"	"student"	17	"Sure! I just wanted to write that I'll give you явки и пароли once you arrive"	"Sure! I just wanted to write that I'll give you явки и пароли once you arrive"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	16
+2021-06-17 12:22:53	"student012"	"student"	18	"Dunno how to say this in English))"	"Dunno how to say this in English))"	NA	"2a"	"enquiry"	"lexical resource"	NA	NA	7
+2021-06-17 12:23:28	"teacher008"	"teacher"	19	"Haha, yes please! Well, the names...  I don't think there's an idiom. At least I can't think of one"	"Haha, yes please! Well, the names...  I don't think there's an idiom. At least I can't think of one"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2021-06-17 12:24:03	"teacher008"	"teacher"	20	"What's the covid situation like at the moment? Infections are going up again here :("	"What's the covid situation like at the moment? Infections are going up again here :("	NA	"3.0"	"topic opening"	NA	NA	NA	15
+2021-06-17 12:24:55	"student012"	"student"	21	"1188 cases for the past 24 hours"	"1188 cases in the past 24 hours"	NA	NA	NA	NA	NA	NA	7
+2021-06-17 12:25:14	"student012"	"student"	22	"I guess the stats are good"	"I guess the stats are good"	NA	NA	NA	NA	NA	NA	6
+2021-06-17 12:25:19	"teacher008"	"teacher"	23	"In Kyiv? or in Ukraine?"	"In Kyiv? or in Ukraine?"	NA	NA	NA	NA	NA	NA	5
+2021-06-17 12:25:20	"student012"	"student"	24	"is good?"	"is good?"	NA	"3a"	"enquiry"	"grammatical resource"	NA	NA	2
+2021-06-17 12:25:24	"student012"	"student"	25	"in Ukraine"	"in Ukraine"	"23.0"	NA	NA	NA	NA	NA	2
+2021-06-17 12:25:37	"student012"	"student"	26	"in Kyiv -- 251"	"in Kyiv -- 251"	NA	NA	NA	NA	NA	NA	4
+2021-06-17 12:25:50	"teacher008"	"teacher"	27	"statistics = plural noun"	"statistics = plural noun"	"24.0"	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	4
+2021-06-17 12:25:56	"student012"	"student"	28	"Thanks"	"Thanks"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:26:05	"teacher008"	"teacher"	29	"Oh, that's good! It's around 9000 in the UK, sadly"	"Oh, that's good! It's around 9000 in the UK, sadly"	"26.0"	NA	NA	NA	NA	NA	10
+2021-06-17 12:26:24	"teacher008"	"teacher"	30	"mainly among younger people who haven't got the protection of two vaccines yet"	"mainly among younger people who haven't got the protection of two vaccines yet"	NA	NA	NA	NA	NA	NA	13
+2021-06-17 12:26:30	"student012"	"student"	31	"what about other nouns like this. For example, logistics?"	"what about other nouns like this. For example, logistics?"	NA	"3b"	"enquiry"	"grammatical resource,lexical resource"	NA	NA	9
+2021-06-17 12:26:45	"student012"	"student"	32	"Sad("	"Sad("	"30.0"	NA	NA	NA	NA	NA	1
+2021-06-17 12:26:56	"student012"	"student"	33	"Ours might be higher of course"	"Ours might be higher of course"	NA	NA	NA	NA	NA	NA	6
+2021-06-17 12:27:10	"student012"	"student"	34	"Who knows how they make up the stats"	"Who knows how they make up the stats"	NA	NA	NA	NA	NA	NA	8
+2021-06-17 12:27:22	"teacher008"	"teacher"	35	"logistics is plural too!"	"logistics is plural too!"	"31.0"	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	4
+2021-06-17 12:27:32	"student012"	"student"	36	"mathematics too?"	"mathematics too?"	NA	NA	"enquiry"	"grammatical resource,lexical resource"	NA	NA	2
+2021-06-17 12:27:55	"teacher008"	"teacher"	37	"Yes, sure, depends on how accessible the testing is and how it's all accounted for as you say"	"Yes, sure, depends on how accessible the testing is and how it's all accounted for as you say"	"34.0"	NA	NA	NA	NA	NA	18
+2021-06-17 12:28:31	"teacher008"	"teacher"	38	"Actually no, mathematics is uncountable"	"Actually no, mathematics is uncountable"	"36.0"	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	5
+2021-06-17 12:29:03	"student012"	"student"	39	"Now you can easily get vaccinated here. All the elderly have been vaccinated"	"Now you can easily get vaccinated here. All the elderly have been vaccinated"	NA	"3c"	"topic development"	NA	NA	NA	13
+2021-06-17 12:29:37	"student012"	"student"	40	"Hmm, so apparently there's no single rule for nouns ending in -ics"	"Hmm, so apparently there's no single rule for nouns ending in -ics"	"38.0"	NA	NA	NA	NA	NA	12
+2021-06-17 12:29:42	"teacher008"	"teacher"	41	"Oh, that's brilliant!"	"Oh, that's brilliant!"	"39.0"	NA	NA	NA	NA	NA	3
+2021-06-17 12:30:00	"student012"	"student"	42	"How has your vaccination been?"	"How has your vaccination been?"	NA	"3d"	"topic development"	NA	NA	NA	5
+2021-06-17 12:30:14	"student012"	"student"	43	"Did you feel anything odd?"	"Did you feel anything odd?"	NA	NA	NA	NA	NA	NA	5
+2021-06-17 12:30:16	"teacher008"	"teacher"	44	"Yes, like economics etc."	"Yes, like economics etc."	"40.0"	NA	NA	NA	NA	NA	4
+2021-06-17 12:30:36	"student012"	"student"	45	"Right. Thank you!"	"Right. Thank you!"	NA	NA	NA	NA	NA	NA	3
+2021-06-17 12:30:51	"teacher008"	"teacher"	46	"The main side effect was pain in my arm! and maybe tiredness, but nothing major"	"The main side effect was pain in my arm! and maybe tiredness, but nothing major"	"43.0"	NA	NA	NA	NA	NA	15
+2021-06-17 12:31:32	"teacher008"	"teacher"	47	"I'm still waiting to be invited for the second dose, it'll probably be a couple of months now"	"I'm still waiting to be invited for the second dose, it'll probably be a couple of months now"	NA	NA	NA	NA	NA	NA	18
+2021-06-17 12:32:01	"student012"	"student"	48	"Great! It's good that you took it lightly (if I can put it like that)))"	"Great! It's good that you took it lightly (if I can put it like that)))"	"46.0"	NA	NA	NA	NA	NA	15
+2021-06-17 12:32:43	"teacher008"	"teacher"	49	"Yes, indeed, thank you! <TEACHER'S HUSBAND> felt quite ill after his, actually (but it was a different vaccine)"	"Yes, indeed, thank you! <TEACHER'S HUSBAND> felt quite ill after his, actually (but it was a different vaccine)"	NA	NA	NA	NA	NA	NA	18
+2021-06-17 12:33:27	"teacher008"	"teacher"	50	"You will probably be fine if you decide to get a jab because you should still have antibodies, right? I think that's the logic"	"You will probably be fine if you decide to get a jab because you should still have antibodies, right? I think that's the logic"	NA	"3e"	"topic development"	NA	NA	NA	24
+2021-06-17 12:33:40	"student012"	"student"	51	"Oh really. Which one was it?"	"Oh really. Which one was it?"	"49.0"	NA	NA	NA	NA	NA	6
+2021-06-17 12:34:13	"teacher008"	"teacher"	52	"He had the AstraZeneca one and I had the Pfizer"	"He had the AstraZeneca one and I had the Pfizer"	NA	NA	NA	NA	NA	NA	10
+2021-06-17 12:35:08	"student012"	"student"	53	"I didn't know that. However, I think if I still have any antibodies there are like 5 of them left"	"I didn't know that. However, I think if I still have any antibodies there are like 5 of them left"	"50.0"	NA	NA	NA	NA	NA	20
+2021-06-17 12:35:10	"student012"	"student"	54	"))))))"	"))))))"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:35:34	"teacher008"	"teacher"	55	"5 tiny antibodies!))))"	"5 tiny antibodies!))))"	NA	NA	NA	NA	NA	NA	3
+2021-06-17 12:35:56	"student012"	"student"	56	"Exactly!"	"Exactly!"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:36:09	"teacher008"	"teacher"	57	":)))"	":)))"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:36:36	"student012"	"student"	58	"So what do you plan to do with all the time free from the Cambridge experiment?"	"So what do you plan to do with all the time free from the Cambridge experiment?"	NA	"4.0"	"topic opening"	NA	NA	NA	16
+2021-06-17 12:36:57	"teacher008"	"teacher"	59	"Ok, what shall we do for our last class? a bit of grammar and vocabulary from the book? revisiting writing? anything else?"	"Ok, what shall we do for our last class? a bit of grammar and vocabulary from the book? revisiting writing? anything else?"	NA	"5.0"	"topic opening"	NA	NA	NA	22
+2021-06-17 12:37:16	"student012"	"student"	60	"Maybe let's just talk? =)"	"Maybe let's just talk? =)"	NA	NA	NA	NA	NA	NA	5
+2021-06-17 12:38:28	"teacher008"	"teacher"	61	"Well, I'm still working until the beginning of August, then <TEACHER'S CHILD> will be on holiday, then, in September, I'll have a baby! That's the plan :)"	"Well, I'm still working until the beginning of August, then <TEACHER'S CHILD> will be on holiday, then, in September, I'll have a baby! That's the plan :)"	"58.0"	NA	NA	NA	NA	NA	27
+2021-06-17 12:38:55	"teacher008"	"teacher"	62	"We can just talk if you promise to ask me grammar / vocabulary questions every now and then :) we need our teaching points for the chat!"	"We can just talk if you promise to ask me grammar / vocabulary questions every now and then :) we need our teaching points for the chat!"	"60.0"	NA	NA	NA	NA	NA	27
+2021-06-17 12:39:50	"student012"	"student"	63	"WOWWWW Amazing news! Congratulations!"	"WOWWWW Amazing news! Congratulations!"	"61.0"	NA	NA	NA	NA	NA	4
+2021-06-17 12:40:24	"teacher008"	"teacher"	64	"Thank you :))) we're full of joyful anticipation :)"	"Thank you :))) we're full of joyful anticipation :)"	NA	NA	NA	NA	NA	NA	9
+2021-06-17 12:40:37	"student012"	"student"	65	"This makes me so happy!"	"This makes me so happy!"	NA	NA	NA	NA	NA	NA	5
+2021-06-17 12:40:48	"teacher008"	"teacher"	66	"Aww, thank you!"	"Aww, thank you!"	NA	NA	NA	NA	NA	NA	3
+2021-06-17 12:41:24	"teacher008"	"teacher"	67	"We're actually going to pick up a pram tonight. Do you know the difference between a pram and a pushchair?"	"We're actually going to pick up a pram tonight. Do you know the difference between a pram and a pushchair?"	NA	"4a"	"eliciting"	"lexical resource,meaning"	NA	NA	20
+2021-06-17 12:41:30	"student012"	"student"	68	"Do you know the gender? Or you want a surprise?"	"Do you know the gender? Or you want a surprise?"	NA	"4b"	"topic development"	NA	NA	NA	10
+2021-06-17 12:41:51	"student012"	"student"	69	"A pushchair is for the older babies?"	"A pushchair is for older babies?"	"67.0"	NA	NA	NA	NA	NA	7
+2021-06-17 12:41:54	"teacher008"	"teacher"	70	"No surprises, please! It's a little boy :)"	"No surprises, please! It's a little boy :)"	"68.0"	NA	NA	NA	NA	NA	8
+2021-06-17 12:42:01	"student012"	"student"	71	"YAY!!"	"YAY!!"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:42:06	"teacher008"	"teacher"	72	"<TEACHER'S CHILD>'s delighted because girls are lame, apparently"	"<TEACHER'S CHILD>'s delighted because girls are lame, apparently"	NA	NA	NA	NA	NA	NA	8
+2021-06-17 12:42:09	"teacher008"	"teacher"	73	"if you're 5"	"if you're 5"	NA	NA	NA	NA	NA	NA	3
+2021-06-17 12:42:21	"student012"	"student"	74	"Thank you for sharing. It has really lifted my spirits"	"Thank you for sharing. It has really lifted my spirits"	NA	NA	NA	NA	NA	NA	10
+2021-06-17 12:42:28	"student012"	"student"	75	"ahahaha"	"ahahaha"	"73.0"	NA	NA	NA	NA	NA	1
+2021-06-17 12:42:47	"student012"	"student"	76	"I think boys think like this right until the puberty hits"	"I think boys think like this right until puberty hits"	NA	NA	NA	NA	NA	NA	11
+2021-06-17 12:42:48	"student012"	"student"	77	"haahaha"	"haahaha"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:43:18	"teacher008"	"teacher"	78	"Yes, pretty much I think!"	"Yes, pretty much I think!"	NA	NA	NA	NA	NA	NA	5
+2021-06-17 12:43:41	"teacher008"	"teacher"	79	"Yes, a pram is short for a perambulator (such a charming word) and is horizontal"	"Yes, a pram is short for a perambulator (such a charming word) and is horizontal"	"69.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2021-06-17 12:43:56	"teacher008"	"teacher"	80	"I mean the baby lies horizontally in them"	"I mean the baby lies horizontally in them"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2021-06-17 12:44:09	"teacher008"	"teacher"	81	"And a pushchair is like a chair that can be pushed :))"	"And a pushchair is like a chair that can be pushed :))"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-06-17 12:45:14	"student012"	"student"	82	"A charming word indeed))))"	"A charming word indeed))))"	"79.0"	NA	NA	NA	NA	NA	4
+2021-06-17 12:46:26	"teacher008"	"teacher"	83	"Yes, I'm just thinking of other words for baby / child gear that might be of interest to you. Although you probably know them all..."	"Yes, I'm just thinking of other words for baby / child gear that might be of interest to you. Although you probably know them all..."	NA	"5.0"	"topic opening"	"lexical resource"	NA	NA	25
+2021-06-17 12:47:05	"student012"	"student"	84	"Actually, not much. What is the word for пеленальный столик?"	"Actually, not many. What is the word for пеленальный столик?"	NA	"5a"	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	10
+2021-06-17 12:47:17	"teacher008"	"teacher"	85	"That's a good one! A changing table"	"That's a good one! A changing table"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-06-17 12:47:45	"teacher008"	"teacher"	86	"Because you change a nappy / diaper, but colloquially, you change the baby :)"	"Because you change a nappy / diaper, but colloquially, you change the baby :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2021-06-17 12:47:57	"teacher008"	"teacher"	87	"Even though we wouldn't change our babies for the world! :)"	"Even though we wouldn't change our babies for the world! :)"	NA	NA	NA	NA	NA	NA	11
+2021-06-17 12:48:33	"teacher008"	"teacher"	88	"or better probably, get the baby changed"	"or better probably, get the baby changed"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-06-17 12:49:04	"teacher008"	"teacher"	89	"What do you call a chair where a baby / toddler is secured and elevated and where you feed them?"	"What do you call a chair where a baby / toddler is secured and elevated and where you feed them?"	NA	"5b"	"eliciting"	"lexical resource"	NA	NA	20
+2021-06-17 12:49:04	"student012"	"student"	90	"And highchair is that feeding table, right?"	"And a high chair is that feeding table, right?"	NA	"5c"	"enquiry"	"lexical resource"	NA	NA	7
+2021-06-17 12:49:27	"teacher008"	"teacher"	91	"Yep, a high chair :)"	"Yep, a high chair :)"	"89, 90"	NA	NA	NA	NA	NA	5
+2021-06-17 12:49:40	"student012"	"student"	92	"And the bed is called a craddle?"	"And the bed is called a cradle?"	NA	"5d"	"enquiry"	"lexical resource"	NA	NA	7
+2021-06-17 12:49:48	"student012"	"student"	93	"cradle"	"cradle"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-06-17 12:50:03	"teacher008"	"teacher"	94	"Hmm, a cot, more often"	"Hmm, a cot, more often"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-06-17 12:50:10	"student012"	"student"	95	"A cot. Right"	"A cot. Right"	NA	NA	NA	NA	NA	NA	3
+2021-06-17 12:50:13	"teacher008"	"teacher"	96	"There's an American word for it, I'm trying to remember"	"There's an American word for it, I'm trying to remember"	NA	NA	NA	NA	NA	NA	10
+2021-06-17 12:50:15	"teacher008"	"teacher"	97	"a crib!"	"a crib!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-06-17 12:50:24	"teacher008"	"teacher"	98	"a crib AmE = a cot BrE"	"a crib AmE = a cot BrE"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-06-17 12:50:29	"student012"	"student"	99	"I just remembered that song, you know. Rockabye baby"	"I just remembered that song, you know. Rockabye baby"	NA	NA	NA	NA	NA	NA	9
+2021-06-17 12:50:46	"student012"	"student"	100	"There's a word 'cradle' in it"	"There's a word 'cradle' in it"	NA	NA	NA	NA	NA	NA	6
+2021-06-17 12:51:08	"teacher008"	"teacher"	101	"I think a cradle is a smaller cot that can swing"	"I think a cradle is a smaller cot that can swing"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-06-17 12:51:15	"student012"	"student"	102	"Oh, I see."	"Oh, I see."	NA	NA	NA	NA	NA	NA	3
+2021-06-17 12:51:33	"teacher008"	"teacher"	103	"also a Moses basket (for newborns)"	"also a Moses basket (for newborns)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-06-17 12:51:39	"student012"	"student"	104	"And how do you call a беговел?"	"And what do you call a беговел?"	NA	"5e"	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	7
+2021-06-17 12:51:48	"student012"	"student"	105	"Got it"	"Got it"	"103.0"	NA	NA	NA	NA	NA	2
+2021-06-17 12:51:59	"teacher008"	"teacher"	106	"Hmm, I'm not sure what it is!"	"Hmm, I'm not sure what it is!"	"104.0"	NA	NA	NA	NA	NA	7
+2021-06-17 12:52:05	"teacher008"	"teacher"	107	"I'll google some pictures"	"I'll google some pictures"	NA	NA	NA	NA	NA	NA	4
+2021-06-17 12:52:34	"teacher008"	"teacher"	108	"Haha, I've been wondering what the Russian for this was!"	"Haha, I've been wondering what the Russian for this was!"	NA	NA	NA	NA	NA	NA	10
+2021-06-17 12:52:38	"teacher008"	"teacher"	109	"a balance bike!"	"a balance bike!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-06-17 12:53:01	"teacher008"	"teacher"	110	"___ do you call it?"	"___ do you call it?"	NA	"5f"	"eliciting,repair"	"grammatical resource"	NA	NA	5
+2021-06-17 12:53:09	"student012"	"student"	111	"What))"	"What))"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:53:11	"student012"	"student"	112	"Sorry"	"Sorry"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:53:16	"student012"	"student"	113	"a balance bike!"	"a balance bike!"	"109.0"	NA	NA	NA	NA	NA	3
+2021-06-17 12:53:17	"student012"	"student"	114	"cool"	"cool"	NA	NA	NA	NA	NA	NA	1
+2021-06-17 12:53:27	"student012"	"student"	115	"Беговел is funny"	"Беговел is funny"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+2021-06-17 12:53:51	"teacher008"	"teacher"	116	"Can <STUDENT'S CHILD> ride a balance bike?"	"Can <STUDENT'S CHILD> ride a balance bike?"	NA	"5g"	"eliciting"	"lexical resource"	NA	NA	7
+2021-06-17 12:54:07	"teacher008"	"teacher"	117	"I know, I had images of crosstrainers in my head :))"	"I know, I had images of crosstrainers in my head :))"	"115.0"	NA	NA	NA	NA	NA	11
+2021-06-17 12:54:16	"teacher008"	"teacher"	118	"Oops, did I misspell her name again?"	"Oops, did I misspell her name again?"	NA	"5h"	"enquiry"	"writing"	NA	NA	7
+2021-06-17 12:56:15	"teacher008"	"teacher"	119	"And what do you call an enclosed playspace for a child? like манеж"	"And what do you call an enclosed playspace for a child? like манеж"	NA	"5i"	"eliciting,non-English"	"lexical resource,code switching"	NA	NA	13
+2021-06-17 12:56:39	"student012"	"student"	120	"She only rides the scooter"	"She only rides the scooter"	"116.0"	NA	NA	NA	NA	NA	5
+2021-06-17 12:56:47	"student012"	"student"	121	"No all correct!"	"No, all correct!"	"118.0"	NA	NA	NA	NA	NA	3
+2021-06-17 12:56:58	"teacher008"	"teacher"	122	"Ooh, very cool!"	"Ooh, very cool!"	"120.0"	NA	NA	NA	NA	NA	3
+2021-06-17 12:57:13	"teacher008"	"teacher"	123	"Phew! I've been in doubt"	"Phew! I've been in doubt"	"121.0"	NA	NA	NA	NA	NA	5
+2021-06-17 12:57:16	"student012"	"student"	124	"манеж - don't know"	"манеж - don't know"	"119.0"	NA	"non-English"	"code switching,lexical resource"	NA	NA	4
+2021-06-17 12:57:23	"teacher008"	"teacher"	125	"a playpen"	"a playpen"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-06-17 12:57:32	"student012"	"student"	126	"haha interesting"	"haha interesting"	NA	NA	NA	NA	NA	NA	2
+2021-06-17 12:57:40	"student012"	"student"	127	"why -pen though?"	"why -pen though?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	3
+2021-06-17 12:58:20	"teacher008"	"teacher"	128	"I think it comes from a pen where animals are kept"	"I think it comes from a pen where animals are kept"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-06-17 12:58:29	"teacher008"	"teacher"	129	"a sheep pen, a pig pen"	"a sheep pen, a pig pen"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-06-17 12:58:55	"teacher008"	"teacher"	130	"like an area with a fence around it, but open air"	"like an area with a fence around it, but open air"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-06-17 12:58:55	"student012"	"student"	131	"Oh yes, children can act like animals"	"Oh yes, children can act like animals"	NA	NA	NA	NA	NA	NA	7
+2021-06-17 12:59:03	"student012"	"student"	132	"Makes sense))"	"Makes sense))"	NA	NA	NA	NA	NA	NA	2
+2021-06-17 12:59:13	"teacher008"	"teacher"	133	"herd them into playpens :))"	"herd them into playpens :))"	NA	NA	NA	NA	NA	NA	5
+2021-06-17 13:01:18	"teacher008"	"teacher"	134	"Ok, on this unethical note, I've got to thank you for your wonderful contribution to this research project :) And it's been such a pleasure to talk to you here, thank you very much!"	"Ok, on this unethical note, I've got to thank you for your wonderful contribution to this research project :) And it's been such a pleasure to talk to you here, thank you very much!"	NA	"6.0"	"closing"	NA	NA	NA	34
+2021-06-17 13:02:03	"student012"	"student"	135	"Thank you very very much for everything, <TEACHER>!"	"Thank you very very much for everything, <TEACHER>!"	NA	NA	NA	NA	NA	NA	8
+2021-06-17 13:02:11	"student012"	"student"	136	"I learnt a lot."	"I learnt a lot."	NA	NA	NA	NA	NA	NA	4
+2021-06-17 13:02:30	"student012"	"student"	137	"Still need to work on my essay writing skills and low self-esteem though, haha"	"Still need to work on my essay writing skills and low self-esteem though, haha"	NA	NA	NA	NA	NA	NA	14
+2021-06-17 13:02:49	"student012"	"student"	138	"I really hope to see you soon and stay in touch"	"I really hope to see you soon and stay in touch"	NA	NA	NA	NA	NA	NA	11
+2021-06-17 13:02:50	"teacher008"	"teacher"	139	"You're very welcome! I'm so glad it's been of value to you! And let's keep in touch in the future!"	"You're very welcome! I'm so glad it's been of value to you! And let's keep in touch in the future!"	NA	NA	NA	NA	NA	NA	20
+2021-06-17 13:03:10	"teacher008"	"teacher"	140	"Yes, your English is brilliant, it's time to go out an shine! :)"	"Yes, your English is brilliant, it's time to go out an shine! :)"	"137.0"	NA	NA	NA	NA	NA	13
+2021-06-17 13:03:22	"student012"	"student"	141	"Sure! I'll be happy to meet you in Kyiv and treat you to a cup of tea or matcha latte))"	"Sure! I'll be happy to meet you in Kyiv and treat you to a cup of tea or matcha latte))"	"139.0"	NA	NA	NA	NA	NA	20
+2021-06-17 13:03:36	"student012"	"student"	142	"Thank you! It means a lot!"	"Thank you! It means a lot!"	"140.0"	NA	NA	NA	NA	NA	6
+2021-06-17 13:03:56	"teacher008"	"teacher"	143	"Ooh, yes, only hipster stuff for me in Kyiv, no tea! :))"	"Ooh, yes, only hipster stuff for me in Kyiv, no tea! :))"	"141.0"	NA	NA	NA	NA	NA	12
+2021-06-17 13:04:09	"student012"	"student"	144	"Will do!"	"Will do!"	NA	NA	NA	NA	NA	NA	2
+2021-06-17 13:04:29	"student012"	"student"	145	"Take care and all the best to you!!!"	"Take care and all the best to you!!!"	NA	NA	NA	NA	NA	NA	8
+2021-06-17 13:04:37	"teacher008"	"teacher"	146	":)) All the best, thank you and good bye!"	":)) All the best, thank you and good bye!"	NA	NA	NA	NA	NA	NA	9
+2021-06-17 13:04:45	"teacher008"	"teacher"	147	"Thank you :)"	"Thank you :)"	NA	NA	NA	NA	NA	NA	3
+2021-06-17 13:04:47	"student012"	"student"	148	"Good bye! (*love emodji*)"	"Good bye! (*love emoji*)"	NA	NA	NA	NA	NA	NA	4
+2021-06-17 13:05:08	"teacher008"	"teacher"	149	"Love emoji back! bye <STUDENT>! :)"	"Love emoji back! bye <STUDENT>! :)"	NA	NA	NA	NA	NA	NA	6
+2021-06-17 13:05:13	"student012"	"student"	150	"bye bye"	"bye bye"	NA	NA	NA	NA	NA	"C2"	2

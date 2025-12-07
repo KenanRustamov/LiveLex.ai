@@ -1,0 +1,211 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-05 08:02:47	"student011"	"student"	1	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-02-05 08:02:50	"student011"	"student"	2	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-02-05 08:03:50	"teacher008"	"teacher"	3	"Morning!"	"Morning!"	1	NA	NA	NA	NA	NA	1
+2021-02-05 08:04:00	"teacher008"	"teacher"	4	"Fine, thank you. And how are you?"	"Fine, thank you. And how are you?"	2	NA	NA	NA	NA	NA	7
+2021-02-05 08:04:11	"student011"	"student"	5	"I'm ok, thank you"	"I'm ok, thank you"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:04:30	"student011"	"student"	6	"At home, but with the nanny ))"	"At home, but with the nanny ))"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:04:43	"teacher008"	"teacher"	7	"Are you hiding in your bedroom? :)"	"Are you hiding in your bedroom? :)"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:04:59	"student011"	"student"	8	"yes )"	"yes )"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:05:22	"teacher008"	"teacher"	9	"Cool :)"	"Cool :)"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:05:29	"teacher008"	"teacher"	10	"Have you got any nice plans for the weekend?"	"Have you got any nice plans for the weekend?"	NA	"2a"	"topic development"	NA	NA	NA	9
+2021-02-05 08:05:49	"student011"	"student"	11	"Yes, we have"	"Yes, we have"	NA	NA	NA	NA	NA	NA	3
+2021-02-05 08:06:43	"teacher008"	"teacher"	12	"Ooh, what are you going to do? I'm going to live through you :)"	"Ooh, what are you going to do? I'm going to live through you :)"	NA	NA	NA	NA	NA	NA	14
+2021-02-05 08:06:45	"student011"	"student"	13	"We are going to meet with <STUDENT'S FRIEND> and <STUDENT'S FRIEND'S CHILD> (and <STUDENT'S FRIEND1>) in the park"	"We are going to meet with <STUDENT'S FRIEND> and <STUDENT'S FRIEND'S CHILD> (and <STUDENT'S FRIEND1>) in the park"	NA	NA	NA	NA	NA	NA	18
+2021-02-05 08:07:16	"student011"	"student"	14	"haha live through me )) It's nice. Sounds like a movie."	"haha live through me )) It's nice. Sounds like a movie."	12	"2b"	"topic development"	"lexical resource"	NA	NA	11
+2021-02-05 08:07:47	"student011"	"student"	15	"<STUDENT'S CHILD> meets children not often now"	"<STUDENT'S CHILD> doesn't meet other children very often now"	13	NA	NA	NA	NA	NA	7
+2021-02-05 08:07:58	"teacher008"	"teacher"	16	"Yes, the full expresson is 'to live vicariously through someone'"	"Yes, the full expresson is 'to live vicariously through someone'"	14	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-02-05 08:08:05	"student011"	"student"	17	"And we would like to show her <STUDENT'S FRIEND'S CHILD> )) haha"	"And we would like to show her <STUDENT'S FRIEND'S CHILD> )) haha"	15	NA	NA	NA	NA	NA	12
+2021-02-05 08:08:18	"teacher008"	"teacher"	18	"For example, some parents live vicariously through their children"	"For example, some parents live vicariously through their children"	16	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-02-05 08:08:36	"teacher008"	"teacher"	19	"People in lockdown can live vicariously through their friends who are not in a lockdown :)"	"People in lockdown can live vicariously through their friends who are not in a lockdown :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2021-02-05 08:09:00	"student011"	"student"	20	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:09:02	"teacher008"	"teacher"	21	"Ok, <STUDENT'S CHILD> doesn't meet other children very often"	"Ok, <STUDENT'S CHILD> doesn't meet other children very often"	15	"2c"	"repair"	"grammatical resource"	NA	NA	9
+2021-02-05 08:09:51	"student011"	"student"	22	"so 'meets not often' is not good phrase?"	"so 'meets not often' is not good phrase?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	8
+2021-02-05 08:10:39	"student011"	"student"	23	"I'm still afraid to let her go to the kindergarden"	"I'm still afraid to let her go to the kindergarden"	17	NA	NA	NA	NA	NA	10
+2021-02-05 08:10:40	"teacher008"	"teacher"	24	"Nooo, she doesn't meet ..."	"Nooo, she doesn't meet ..."	22	NA	NA	NA	NA	NA	5
+2021-02-05 08:10:58	"teacher008"	"teacher"	25	"Yes, I can see why!"	"Yes, I can see why!"	23	NA	NA	NA	NA	NA	5
+2021-02-05 08:11:16	"teacher008"	"teacher"	26	"What are they saying about vaccines in Ukraine?"	"What are they saying about vaccines in Ukraine?"	NA	"3.0"	"topic opening"	NA	NA	NA	8
+2021-02-05 08:11:22	"student011"	"student"	27	"So I sighed one more application"	"So I signed one more application"	25	NA	NA	NA	NA	NA	6
+2021-02-05 08:11:31	"student011"	"student"	28	"oh! Don't ask"	"oh! Don't ask"	26	NA	NA	NA	NA	NA	3
+2021-02-05 08:12:02	"teacher008"	"teacher"	30	"Oh really? That bad?"	"Oh really? That bad?"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:12:12	"student011"	"student"	31	"They say that it's a hard process and they try doi"	"They say that it's a hard process and they try"	NA	NA	NA	NA	NA	NA	11
+2021-02-05 08:12:22	"student011"	"student"	32	"doing all their best"	"doing all their best"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:12:27	"student011"	"student"	33	"and bla bla bla"	"and bla bla bla"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:12:30	"student011"	"student"	34	"So"	"So"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:13:19	"student011"	"student"	35	"One of my French friends has published the information about the vactination in the whole word"	"One of my French friends has published the information about vaccination in the whole world"	NA	NA	NA	NA	NA	NA	16
+2021-02-05 08:13:25	"student011"	"student"	36	"*world"	"*world"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-05 08:14:03	"student011"	"student"	37	"It's based on The Economist research"	"It's based on The Economist research"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:14:17	"student011"	"student"	38	"So for Ukraine it's 2023"	"So for Ukraine it's 2023"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:14:41	"student011"	"student"	39	"the last country in Europe"	"the last country in Europe"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:14:45	"teacher008"	"teacher"	40	"People will only be vaccinated by 2023?"	"People will only be vaccinated by 2023?"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:14:51	"student011"	"student"	41	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:14:59	"teacher008"	"teacher"	42	"Oh no :((( it's so sad!"	"Oh no :((( it's so sad!"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:15:12	"student011"	"student"	43	"It's just the magazine research"	"It's just the magazine research"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:15:56	"student011"	"student"	44	"But I think it's quite plausible?"	"But I think it's quite plausible?"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:16:03	"student011"	"student"	45	"Is it right word? )"	"Is it the right word? )"	NA	"3a"	"enquiry"	"lexical resource"	NA	NA	5
+2021-02-05 08:16:13	"teacher008"	"teacher"	46	"Yes, this is a very good word!!"	"Yes, this is a very good word!!"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:16:15	"student011"	"student"	47	"I've googled it ))"	"I've googled it ))"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:16:45	"teacher008"	"teacher"	48	"ˈplɔː.zə.bəl"	"ˈplɔː.zə.bəl"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-02-05 08:17:00	"teacher008"	"teacher"	49	"Yes, 2023 sounds quite plausible, unfortunately"	"Yes, 2023 sounds quite plausible, unfortunately"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:17:21	"student011"	"student"	50	"yes ("	"yes ("	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:17:37	"student011"	"student"	51	"I'm quite tired of it"	"I'm quite tired of it"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:17:41	"student011"	"student"	52	"from it? )"	"from it? )"	NA	"3b"	"enquiry"	"lexical resource"	NA	NA	3
+2021-02-05 08:17:44	"teacher008"	"teacher"	53	"I bet you are!"	"I bet you are!"	51	NA	NA	NA	NA	NA	4
+2021-02-05 08:17:45	"teacher008"	"teacher"	54	"of it"	"of it"	52	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-02-05 08:18:40	"student011"	"student"	55	"I mean that now we don't have the lockdown but I'm still not sure if I can go to the restaurant or to let <STUDENT'S CHILD> go to the kindergarten etc"	"I mean that now we don't have the lockdown but I'm still not sure if I can go to the restaurant or let <STUDENT'S CHILD> go to the kindergarten etc"	53	NA	NA	NA	NA	NA	31
+2021-02-05 08:19:16	"teacher008"	"teacher"	56	"Yes, and it's hard to imagine this could continue for two more years"	"Yes, and it's hard to imagine this could continue for two more years"	NA	NA	NA	NA	NA	NA	13
+2021-02-05 08:19:17	"student011"	"student"	57	"When it's restricted you know that you have to follow the rules"	"When it's restricted you know that you have to follow the rules"	NA	NA	NA	NA	NA	NA	12
+2021-02-05 08:19:35	"student011"	"student"	58	"But when you have to choose it's sooo difficult ("	"But when you have to choose it's sooo difficult ("	NA	NA	NA	NA	NA	NA	10
+2021-02-05 08:19:41	"teacher008"	"teacher"	59	"Yep, I know exactly what you mean!!"	"Yep, I know exactly what you mean!!"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:20:09	"student011"	"student"	60	"Do you know Lyudmila Petranovska?"	"Do you know Lyudmila Petranovska?"	NA	"4.0"	"topic opening"	NA	NA	NA	5
+2021-02-05 08:20:24	"student011"	"student"	61	"She is Russian therapist"	"She is a Russian therapist"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:20:31	"teacher008"	"teacher"	62	"Yes, of course! I have a lot of respect for her work"	"Yes, of course! I have a lot of respect for her work"	NA	NA	NA	NA	NA	NA	12
+2021-02-05 08:20:38	"student011"	"student"	63	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:20:47	"student011"	"student"	64	"so"	"so"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:21:23	"student011"	"student"	65	"I washed her webinar about children's development"	"I watched her webinar about children's development"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:21:40	"student011"	"student"	66	"I'm not sure if I have right translation )"	"I'm not sure if I have the right translation )"	NA	"4a"	"enquiry"	"lexical resource"	NA	NA	9
+2021-02-05 08:21:51	"student011"	"student"	67	"*watched"	"*watched"	65	NA	"repair"	"writing"	NA	NA	1
+2021-02-05 08:21:55	"teacher008"	"teacher"	68	"it's the right translation!"	"it's the right translation!"	68	NA	NA	NA	NA	NA	4
+2021-02-05 08:23:10	"student011"	"student"	69	"And she told that for children from 3 to 7 it's better to be among the group of children )"	"And she said that for children from 3 to 7 it's better to be in a group of children )"	65	NA	NA	NA	NA	NA	20
+2021-02-05 08:23:33	"student011"	"student"	70	"And I've started to think about it and what I can to do now ))"	"And I've started to think about it and what I can to do now ))"	NA	NA	NA	NA	NA	NA	15
+2021-02-05 08:23:48	"student011"	"student"	71	"I hate this thoughts )"	"I hate these thoughts )"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:24:05	"student011"	"student"	72	"you would like to do something but you can't"	"you would like to do something but you can't"	NA	NA	NA	NA	NA	NA	9
+2021-02-05 08:24:21	"teacher008"	"teacher"	73	"Really? I'm surprised she said that"	"Really? I'm surprised she said that"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:24:48	"student011"	"student"	74	"Actually you can, but you are afraid because of the Covid risks"	"Actually you can, but you are afraid because of the Covid risks"	72	NA	NA	NA	NA	NA	12
+2021-02-05 08:25:31	"student011"	"student"	75	"Really? I'm surprised she said that  - yes! I think you told me it's from 5, doesn't it?"	"Really? I'm surprised she said that  - yes! I think you told me it's from 5, isn't it?"	73	NA	NA	NA	NA	NA	19
+2021-02-05 08:25:47	"student011"	"student"	76	"*isn't it?"	"*isn't it?"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2021-02-05 08:25:48	"teacher008"	"teacher"	77	"As you know, I've been studying developmental psychology, and Petranovskaya worked with the institute where I study"	"As you know, I've been studying developmental psychology, and Petranovskaya worked with the institute where I study"	75	NA	NA	NA	NA	NA	17
+2021-02-05 08:26:11	"student011"	"student"	78	"Ah! Interesting"	"Ah! Interesting"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:26:24	"student011"	"student"	79	"She is like an expert there?"	"She is like an expert there?"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:26:55	"teacher008"	"teacher"	80	"She worked with the Russian campus, so I always thought their ideas were aligned"	"She worked with the Russian campus, so I always thought their ideas were aligned"	NA	NA	NA	NA	NA	NA	14
+2021-02-05 08:27:25	"student011"	"student"	81	"aligned - same?"	"aligned - same?"	NA	"4b"	"enquiry"	"lexical resource,meaning"	NA	NA	3
+2021-02-05 08:28:22	"student011"	"student"	82	"I'm sorry Can you give me 2 mins?"	"I'm sorry Can you give me 2 mins?"	NA	"5.0"	"disruption"	NA	NA	NA	8
+2021-02-05 08:28:35	"student011"	"student"	83	"Just a small pause"	"Just a small pause"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:28:35	"teacher008"	"teacher"	84	"I don't think there is a definite age! It's nice for a child to have some friends, but the main idea is that they should have enough adults in her life. <STUDENT'S CHILD> is a very lucky girl, with her parents, her nanny, her grandparents, aunts, uncles and an older cousin :)"	"I don't think there is a definite age! It's nice for a child to have some friends, but the main idea is that they should have enough adults in her life. <STUDENT'S CHILD> is a very lucky girl, with her parents, her nanny, her grandparents, aunts, uncles and an older cousin :)"	80	NA	NA	NA	NA	NA	52
+2021-02-05 08:29:24	"teacher008"	"teacher"	85	"Yes, if two or more things are aligned, they are in the same line. Remember we talked about the words aligned / misaligned? I can't remember what the topic was now!"	"Yes, if two or more things are aligned, they are in the same line. Remember we talked about the words aligned / misaligned? I can't remember what the topic was now!"	81	NA	"scaffolding"	"lexical resource"	NA	NA	31
+2021-02-05 08:29:43	"teacher008"	"teacher"	86	"Yes, of course"	"Yes, of course"	83	NA	NA	NA	NA	NA	3
+2021-02-05 08:30:50	"student011"	"student"	87	"I'm here"	"I'm here"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:30:52	"student011"	"student"	88	"sorry )"	"sorry )"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:31:15	"teacher008"	"teacher"	89	"No problem"	"No problem"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:31:32	"student011"	"student"	90	"Remember we talked about the words aligned / misaligned? - actually no ( sorry"	"Remember we talked about the words aligned / misaligned? - actually no ( sorry"	85	NA	NA	NA	NA	NA	14
+2021-02-05 08:31:55	"teacher008"	"teacher"	91	"Sorry, it could have been with another student, I can't remember, one sec"	"Sorry, it could have been with another student, I can't remember, one sec"	NA	NA	NA	NA	NA	NA	13
+2021-02-05 08:32:20	"student011"	"student"	92	"but the main idea is that they should have enough adults in her life. <STUDENT'S CHILD> is a very lucky girl, with her parents, her nanny, her grandparents, aunts, uncles and an older cousin :)  - oh, thank you! I like the idea and I feed better now ))"	"but the main idea is that they should have enough adults in her life. <STUDENT'S CHILD> is a very lucky girl, with her parents, her nanny, her grandparents, aunts, uncles and an older cousin :)  - oh, thank you! I like the idea and I feel better now ))"	84	NA	NA	NA	NA	NA	50
+2021-02-05 08:32:24	"student011"	"student"	93	"feel"	"feel"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-05 08:32:52	"teacher008"	"teacher"	94	"If you put two things in a straight line, you align them /əˈlaɪn/"	"If you put two things in a straight line, you align them /əˈlaɪn/"	91	NA	"scaffolding"	"lexical resource,meaning,speaking"	NA	NA	13
+2021-02-05 08:33:09	"student011"	"student"	95	"Sorry, it could have been with another student, I can't remember, one sec  - maybe I've forgotten the word ) It could be me )"	"Sorry, it could have been with another student, I can't remember, one sec  - maybe I've forgotten the word ) It could be me )"	91	NA	NA	NA	NA	NA	26
+2021-02-05 08:33:36	"teacher008"	"teacher"	96	"Yoga instructors talk about alignment a lot. For example, your knee should be aligned with your second toe in some poses etc."	"Yoga instructors talk about alignment a lot. For example, your knee should be aligned with your second toe in some poses etc."	94	NA	"scaffolding"	"lexical resource"	NA	NA	22
+2021-02-05 08:34:00	"student011"	"student"	97	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:34:43	"teacher008"	"teacher"	98	"And it can also mean 'agree'"	"And it can also mean 'agree'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2021-02-05 08:34:45	"teacher008"	"teacher"	99	"The country's leading intellectuals tend to be aligned with the opposition."	"The country's leading intellectuals tend to be aligned with the opposition."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-02-05 08:34:53	"teacher008"	"teacher"	100	"an example from the dictionary"	"an example from the dictionary"	NA	NA	"reference"	NA	"dictionary"	NA	5
+2021-02-05 08:35:14	"teacher008"	"teacher"	101	"The opposite is misaligned. If the wheels of a car are misaligned, it's not very nice to drive"	"The opposite is misaligned. If the wheels of a car are misaligned, it's not very nice to drive"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2021-02-05 08:35:17	"student011"	"student"	102	"aha! Thank you"	"aha! Thank you"	NA	NA	NA	NA	NA	NA	3
+2021-02-05 08:36:12	"teacher008"	"teacher"	103	"Yes, speaking of children, I feel very lucky that <TEACHER'S CHILD> is so young. He loves the lockdowns and just 'hanging out with mum and dad'. If he was a teenager, it would be a different story!"	"Yes, speaking of children, I feel very lucky that <TEACHER'S CHILD> is so young. He loves the lockdowns and just 'hanging out with mum and dad'. If he was a teenager, it would be a different story!"	NA	"6.0"	"topic opening"	NA	NA	NA	37
+2021-02-05 08:37:06	"student011"	"student"	104	"Ыгку"	"Ыгку"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:37:08	"student011"	"student"	105	"Sure"	"Sure"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-02-05 08:37:38	"student011"	"student"	106	"I can't imagine what to do with a teenager in the same situation )"	"I can't imagine what to do with a teenager in the same situation )"	NA	NA	NA	NA	NA	NA	14
+2021-02-05 08:38:19	"teacher008"	"teacher"	107	"I know, it would be crazy! By March, <TEACHER'S CHILD> will have been home 9 months out of 12!"	"I know, it would be crazy! By March, <TEACHER'S CHILD> will have been home 9 months out of 12!"	NA	NA	NA	NA	NA	NA	19
+2021-02-05 08:38:37	"student011"	"student"	108	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:38:54	"student011"	"student"	109	"it's better don't think about )"	"it's better not to think about it )"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:38:58	"teacher008"	"teacher"	110	"Yes, the first lockdown started in March. Nearly 12 months"	"Yes, the first lockdown started in March. Nearly 12 months"	NA	NA	NA	NA	NA	NA	10
+2021-02-05 08:39:04	"student011"	"student"	111	"I mean don't count )"	"I mean don't count )"	109	NA	NA	NA	NA	NA	5
+2021-02-05 08:39:10	"teacher008"	"teacher"	112	"It's better not to think about it, yes"	"It's better not to think about it, yes"	NA	NA	NA	NA	NA	NA	8
+2021-02-05 08:39:40	"student011"	"student"	113	"Yeah! It's about a year from the first lockdown"	"Yeah! It's about a year since the first lockdown"	110	NA	NA	NA	NA	NA	9
+2021-02-05 08:39:54	"teacher008"	"teacher"	114	"Ok, let's think about something fun! We started talking about bookshops last time"	"Ok, let's think about something fun! We started talking about bookshops last time"	NA	"7.0"	"topic opening"	NA	NA	NA	13
+2021-02-05 08:40:04	"student011"	"student"	115	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:40:08	"teacher008"	"teacher"	116	"Have you got a favourite bookshop? In Kyiv or abroad?"	"Have you got a favourite bookshop? In Kyiv or abroad?"	NA	NA	NA	NA	NA	NA	10
+2021-02-05 08:40:27	"student011"	"student"	117	"hm, it's a difficult question"	"hmm, it's a difficult question"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:40:50	"student011"	"student"	118	"We don't have lots of bookshops here in Kiev"	"We don't have many bookshops here in Kiev"	NA	NA	NA	NA	NA	NA	9
+2021-02-05 08:41:03	"student011"	"student"	119	"there are lots of online bookshops"	"there are lots of online bookshops"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:41:34	"student011"	"student"	120	"But it's too expensive to rent a place for a shop here in Kyov"	"But it's too expensive to rent a place for a shop here in Kyiv"	NA	NA	NA	NA	NA	NA	14
+2021-02-05 08:42:13	"student011"	"student"	121	"So usually the boys in 'real' bookshops cost more and peal prefer to buy them online"	"So usually the books in 'real' bookshops cost more and people prefer to buy them online"	NA	NA	NA	NA	NA	NA	16
+2021-02-05 08:42:15	"teacher008"	"teacher"	122	"Ah yes, it's easier for them to operate online then?"	"Ah yes, it's easier for them to operate online then?"	120	NA	NA	NA	NA	NA	10
+2021-02-05 08:42:49	"teacher008"	"teacher"	123	"Yes, I see!"	"Yes, I see!"	121	NA	NA	NA	NA	NA	3
+2021-02-05 08:42:50	"student011"	"student"	124	"And bookshops are closing"	"And bookshops are closing"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:43:06	"student011"	"student"	125	"is it right expression? I'm not sure"	"is it the right expression? I'm not sure"	NA	"7a"	"enquiry"	"lexical resource"	NA	NA	7
+2021-02-05 08:43:34	"teacher008"	"teacher"	126	"That's a shame! And I suppose, if the rent is so expensive, they haven't got any space to put small cafes in bookshops, for example"	"That's a shame! And I suppose, if the rent is so expensive, they haven't got any space to put small cafes in bookshops, for example"	124	NA	NA	NA	NA	NA	25
+2021-02-05 08:43:43	"teacher008"	"teacher"	127	"Yes, it is the right expression!"	"Yes, it is the right expression!"	125	NA	NA	NA	NA	NA	6
+2021-02-05 08:44:04	"student011"	"student"	128	"So it's like ф vicious circle"	"So it's like a vicious circle"	126	NA	NA	NA	NA	NA	6
+2021-02-05 08:44:09	"student011"	"student"	129	"a vicious circle"	"a vicious circle"	NA	NA	"repair"	"writing"	NA	NA	3
+2021-02-05 08:44:18	"teacher008"	"teacher"	130	"Yes, another good expression :)"	"Yes, another good expression :)"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:44:32	"student011"	"student"	131	"I've googled it )"	"I've googled it )"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:44:36	"teacher008"	"teacher"	132	"Books are too expensive, people don't buy them and bookshops go out of business"	"Books are too expensive, people don't buy them and bookshops go out of business"	125	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2021-02-05 08:44:44	"student011"	"student"	133	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:45:05	"teacher008"	"teacher"	134	"Do many people read e-books?"	"Do many people read e-books?"	NA	"7b"	"topic development"	NA	NA	NA	5
+2021-02-05 08:45:06	"student011"	"student"	135	"So we have several chains of bookshops"	"So we have several chains of bookshops"	133	"7c"	"topic development"	NA	NA	NA	7
+2021-02-05 08:45:37	"student011"	"student"	136	"Bukva'"	"Bukva'"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:45:46	"student011"	"student"	137	"Bookling'"	"Bookling'"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:46:08	"student011"	"student"	138	"Booking is more about English language books"	"Booking is more about English language books"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:46:21	"student011"	"student"	139	"But I hate the service"	"But I hate the service"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:46:33	"teacher008"	"teacher"	140	"And most importantly, there is Petrivka :)))"	"And most importantly, there is Petrivka :)))"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:46:39	"student011"	"student"	141	"They never know what they have in the shop )))"	"They never know what they have in the shop )))"	139	NA	NA	NA	NA	NA	10
+2021-02-05 08:46:49	"teacher008"	"teacher"	142	"Oh, that's silly!"	"Oh, that's silly!"	NA	NA	NA	NA	NA	NA	3
+2021-02-05 08:47:15	"student011"	"student"	143	"And most importantly, there is Petrivka :)))  - Yes! But I haven't been there for 100 years )"	"And most importantly, there is Petrivka :)))  - Yes! But I haven't been there for 100 years )"	140	NA	NA	NA	NA	NA	19
+2021-02-05 08:47:28	"student011"	"student"	144	"Can I say like this in English?"	"Can I say like this in English?"	NA	"7d"	"enquiry"	"lexical resource"	NA	NA	7
+2021-02-05 08:47:49	"teacher008"	"teacher"	145	"Yes, you can!"	"Yes, you can!"	NA	NA	NA	NA	NA	NA	3
+2021-02-05 08:48:07	"student011"	"student"	146	"<TEACHER> : Oh, that's silly!  - yes! I know better than a shop assistant! I hate it )"	"<TEACHER> : Oh, that's silly!  - yes! I know better than a shop assistant! I hate it )"	142	NA	NA	NA	NA	NA	19
+2021-02-05 08:48:14	"teacher008"	"teacher"	147	"Yes, I think Petrivka is an equivalent of English independent book sellers"	"Yes, I think Petrivka is an equivalent of English independent book sellers"	143	NA	NA	NA	NA	NA	12
+2021-02-05 08:49:05	"teacher008"	"teacher"	148	"I don't know the statistics, but I suspect most people in the UK buy books off Amazon. It's cheap, convenient and there is an almost unlimited choice."	"I don't know the statistics, but I suspect most people in the UK buy books off Amazon. It's cheap, convenient and there is an almost unlimited choice."	NA	"7e"	"topic development"	NA	NA	NA	27
+2021-02-05 08:50:08	"student011"	"student"	149	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:50:13	"teacher008"	"teacher"	150	"Then there are big chains like Waterstones (I'm sure you've seen Waterstones). They are nice, and the big ones have cafes and children departments are fun, children can play and read books there. There is a very nice one in Cambridge"	"Then there are big chains like Waterstones (I'm sure you've seen Waterstones). They are nice, and the big ones have cafes and children departments are fun, children can play and read books there. There is a very nice one in Cambridge"	NA	NA	NA	NA	NA	NA	41
+2021-02-05 08:50:50	"teacher008"	"teacher"	151	"But just yesterday, I read something disappointing about how staff is treated at Waterstones! So we might buy less from them"	"But just yesterday, I read something disappointing about how staff is treated at Waterstones! So we might buy less from them"	NA	NA	NA	NA	NA	NA	21
+2021-02-05 08:50:55	"student011"	"student"	152	"Wow, I like it. We need the same here"	"Wow, I like it. We need the same here"	150	NA	NA	NA	NA	NA	9
+2021-02-05 08:51:40	"teacher008"	"teacher"	153	"We buy from Blackwells, their online service is very good and they are not Amazon!"	"We buy from Blackwells, their online service is very good and they are not Amazon!"	NA	NA	NA	NA	NA	NA	15
+2021-02-05 08:51:57	"teacher008"	"teacher"	154	"Yes, you'd love it! You should visit a big Waterstones next time you're in the UK"	"Yes, you'd love it! You should visit a big Waterstones next time you're in the UK"	152	NA	NA	NA	NA	NA	16
+2021-02-05 08:52:38	"teacher008"	"teacher"	155	"And also, there are small independent bookshops (or small chains). Life is hard for them, but they sometimes have amazing books!"	"And also, there are small independent bookshops (or small chains). Life is hard for them, but they sometimes have amazing books!"	153	NA	NA	NA	NA	NA	21
+2021-02-05 08:52:48	"student011"	"student"	156	"Maybe it's a good idea for business here in kyiv"	"Maybe it's a good idea for a business here in Kyiv"	154	NA	NA	NA	NA	NA	10
+2021-02-05 08:52:51	"teacher008"	"teacher"	157	"sometimes antiquarian"	"sometimes antiquarian"	155	NA	NA	NA	NA	NA	2
+2021-02-05 08:52:57	"teacher008"	"teacher"	158	"Maybe!!"	"Maybe!!"	156	NA	NA	NA	NA	NA	1
+2021-02-05 08:53:16	"student011"	"student"	159	"After the Covid era ))"	"After the Covid era ))"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:53:29	"teacher008"	"teacher"	160	"Yes, and I know who can do it :)"	"Yes, and I know who can do it :)"	NA	NA	NA	NA	NA	NA	9
+2021-02-05 08:53:44	"student011"	"student"	161	"I meran a cafe plus a bookshop plus a children space"	"I mean a cafe plus a bookshop plus some space for children"	NA	NA	NA	NA	NA	NA	11
+2021-02-05 08:53:52	"teacher008"	"teacher"	162	"Yes, perfect!"	"Yes, perfect!"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:54:17	"teacher008"	"teacher"	163	"In China there is a cafe in every bookshop!"	"In China there is a cafe in every bookshop!"	NA	NA	NA	NA	NA	NA	9
+2021-02-05 08:54:28	"student011"	"student"	164	"I like the idea"	"I like the idea"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:54:36	"teacher008"	"teacher"	165	"People meet there, read together, hold club meetings etc."	"People meet there, read together, hold club meetings etc."	NA	NA	NA	NA	NA	NA	9
+2021-02-05 08:54:51	"student011"	"student"	166	"Because cafes are veeeery popular here"	"Because cafes are veeeery popular here"	NA	NA	NA	NA	NA	NA	6
+2021-02-05 08:55:04	"teacher008"	"teacher"	167	"And of course, if there's a cafe, you can invite bands / poets / musicians / writers to play / give talks"	"And of course, if there's a cafe, you can invite bands / poets / musicians / writers to play / give talks"	NA	NA	NA	NA	NA	NA	22
+2021-02-05 08:55:04	"student011"	"student"	168	"Not now but before"	"Not now but before"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 08:55:06	"student011"	"student"	169	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:55:19	"teacher008"	"teacher"	170	"Yes, Kyiv is full of quirky little cafes!"	"Yes, Kyiv is full of quirky little cafes!"	NA	NA	NA	NA	NA	NA	8
+2021-02-05 08:55:28	"student011"	"student"	171	"I need to do a research )"	"I need to do some research )"	NA	NA	NA	NA	NA	NA	7
+2021-02-05 08:55:41	"student011"	"student"	172	"quirky? )"	"quirky? )"	170	"7f"	"enquiry"	"lexical resource"	NA	NA	2
+2021-02-05 08:55:47	"teacher008"	"teacher"	173	"Ok, just a few words, and I'll leave you with another video for homework"	"Ok, just a few words, and I'll leave you with another video for homework"	NA	"8.0"	"presentation"	"lexical resource"	NA	NA	14
+2021-02-05 08:55:55	"student011"	"student"	174	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:56:07	"teacher008"	"teacher"	175	"Yes, if something is quirky, it's unusual in an attractive way"	"Yes, if something is quirky, it's unusual in an attractive way"	172	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-02-05 08:56:14	"teacher008"	"teacher"	176	"a quirky little cafe / bookshop"	"a quirky little cafe / bookshop"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2021-02-05 08:56:26	"student011"	"student"	177	"ok! I see! Thank you!"	"ok! I see! Thank you!"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 08:56:29	"teacher008"	"teacher"	178	"She likes to dress in a quirky way"	"She likes to dress in a quirky way"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2021-02-05 08:56:30	"teacher008"	"teacher"	179	"etc."	"etc."	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:56:56	"teacher008"	"teacher"	180	"a similar word that also means 'old-fashioned' is quaint"	"a similar word that also means 'old-fashioned' is quaint"	NA	"8a"	"presentation"	"lexical resource"	NA	NA	9
+2021-02-05 08:57:05	"teacher008"	"teacher"	181	"unusual and old-fashioned"	"unusual and old-fashioned"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	3
+2021-02-05 08:57:07	"student011"	"student"	182	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:57:12	"teacher008"	"teacher"	183	"a quaint old cottage"	"a quaint old cottage"	NA	NA	"presentation"	"lexical resource"	NA	NA	4
+2021-02-05 08:57:22	"teacher008"	"teacher"	184	"but quaint is not always positive"	"but quaint is not always positive"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	6
+2021-02-05 08:57:40	"teacher008"	"teacher"	185	"If you say, 'What a quaint idea!', you don't approve of the idea"	"If you say, 'What a quaint idea!', you don't approve of the idea"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	13
+2021-02-05 08:57:51	"student011"	"student"	186	"aha!"	"aha!"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:57:59	"teacher008"	"teacher"	187	"it's strange, maybe in an old-fashioned or bad way"	"it's strange, maybe in an old-fashioned or bad way"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	9
+2021-02-05 08:58:06	"teacher008"	"teacher"	188	"Ok, one more word!"	"Ok, one more word!"	NA	"8b"	"presentation"	"lexical resource"	NA	NA	4
+2021-02-05 08:58:12	"teacher008"	"teacher"	189	"tumbleweed"	"tumbleweed"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 08:58:58	"teacher008"	"teacher"	190	"It's a plant. When it dies, it breaks off the ground and the wind rolls it around like a ball"	"It's a plant. When it dies, it breaks off the ground and the wind rolls it around like a ball"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	20
+2021-02-05 08:59:19	"student011"	"student"	191	"perekatipole )"	"perekatipole )"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	2
+2021-02-05 08:59:25	"teacher008"	"teacher"	192	"exactly :)"	"exactly :)"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 08:59:51	"teacher008"	"teacher"	193	"Also, if you post something on the Internet, but there is not response and no likes, it's tumbleweed"	"Also, if you post something on the Internet, but there is not response and no likes, it's tumbleweed"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	18
+2021-02-05 09:00:07	"teacher008"	"teacher"	194	"Like this plant rolls around in an empty space, with no people"	"Like this plant rolls around in an empty space, with no people"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	12
+2021-02-05 09:00:18	"student011"	"student"	195	"oh, interesting"	"oh, interesting"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 09:00:39	"teacher008"	"teacher"	196	"Or if a shop is empty, the owner (in the video) says, Tumbleweed!"	"Or if a shop is empty, the owner (in the video) says, Tumbleweed!"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	13
+2021-02-05 09:00:47	"teacher008"	"teacher"	197	"Like, this place is so empty"	"Like, this place is so empty"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	6
+2021-02-05 09:01:02	"student011"	"student"	198	"ok! I see!"	"ok! I see!"	NA	NA	NA	NA	NA	NA	3
+2021-02-05 09:01:33	"teacher008"	"teacher"	199	"And finally, forlorn"	"And finally, forlorn"	NA	"8c"	"presentation"	"lexical resource"	NA	NA	3
+2021-02-05 09:01:43	"teacher008"	"teacher"	200	"and adjective that means 'sad and lonely'"	"and adjective that means 'sad and lonely'"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	7
+2021-02-05 09:02:03	"student011"	"student"	201	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 09:02:15	"teacher008"	"teacher"	202	"/fəˈlɔːn/"	"/fəˈlɔːn/"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	1
+2021-02-05 09:02:20	"teacher008"	"teacher"	203	"It's quite poetic :)"	"It's quite poetic :)"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 09:02:25	"student011"	"student"	204	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-05 09:03:02	"teacher008"	"teacher"	205	"Ok, I'll send you the homework then! I hope you enjoy it, and we will speak again on Monday!"	"Ok, I'll send you the homework then! I hope you enjoy it, and we will speak again on Monday!"	NA	"9.0"	"homework,closing"	"listening"	"website"	NA	19
+2021-02-05 09:03:31	"student011"	"student"	206	"hank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 09:03:38	"student011"	"student"	207	"Have a good weekend!"	"Have a good weekend!"	NA	NA	NA	NA	NA	NA	4
+2021-02-05 09:03:39	"teacher008"	"teacher"	208	"Have a lovely weekend :)"	"Have a lovely weekend :)"	NA	NA	NA	NA	NA	NA	5
+2021-02-05 09:03:43	"teacher008"	"teacher"	209	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-02-05 09:03:48	"student011"	"student"	210	"bye bye xxx"	"bye bye xxx"	NA	NA	NA	NA	NA	NA	3
+2021-02-05 09:04:06	"teacher008"	"teacher"	211	"bye xx"	"bye xx"	NA	NA	NA	NA	NA	"B2"	2

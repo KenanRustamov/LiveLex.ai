@@ -1,0 +1,226 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-11 12:22:29	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-11 12:22:38	"teacher008"	"teacher"	2	"Hiya!"	"Hiya!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:22:40	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-11 12:23:35	"student011"	"student"	4	"Fine, Thank you"	"Fine, Thank you"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 12:24:00	"teacher008"	"teacher"	5	"How's your week going?Anything exciting?"	"How's your week going?Anything exciting?"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 12:24:06	"student011"	"student"	6	"First yoga after the break  )"	"First yoga after the break  )"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 12:24:49	"teacher008"	"teacher"	7	"Cool! I'm glad you're feeling better!"	"Cool! I'm glad you're feeling better!"	NA	NA	NA	NA	NA	NA	6
+2020-11-11 12:24:59	"student011"	"student"	8	"You know that my back hurt"	"You know that my back hurt"	NA	NA	NA	NA	NA	NA	6
+2020-11-11 12:25:01	"teacher008"	"teacher"	9	"Could you make a full sentence, please?"	"Could you make a full sentence, please?"	NA	"2a"	"eliciting"	"grammatical resource"	NA	NA	7
+2020-11-11 12:25:13	"teacher008"	"teacher"	10	"I_ __ my first yoga after the break'"	"I_ __ my first yoga after the break'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+2020-11-11 12:25:25	"teacher008"	"teacher"	11	"I know! How's your back now?"	"I know! How's your back now?"	8	NA	NA	NA	NA	NA	6
+2020-11-11 12:25:27	"student011"	"student"	12	"I've had my first yoga today )"	"I've had my first yoga today )"	10	NA	NA	NA	NA	NA	7
+2020-11-11 12:26:17	"teacher008"	"teacher"	13	"Well done :)"	"Well done :)"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 12:26:33	"student011"	"student"	14	"How are you?"	"How are you?"	NA	"2b"	"topic development"	NA	NA	NA	3
+2020-11-11 12:27:16	"teacher008"	"teacher"	15	"Same old, same old! Nothing much seems to be happening, but I'm enjoying work and <TEACHER'S CHILD>'s enjoying school, so I'm pretty happy :)"	"Same old, same old! Nothing much seems to be happening, but I'm enjoying work and <TEACHER'S CHILD>'s enjoying school, so I'm pretty happy :)"	NA	NA	NA	NA	NA	NA	24
+2020-11-11 12:28:37	"student011"	"student"	16	"I'm happy for you"	"I'm happy for you"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:28:40	"teacher008"	"teacher"	17	"I know you've been working on some present perfect (+ continuous) exercises, so I thought we could practise them a bit"	"I know you've been working on some present perfect (+ continuous) exercises, so I thought we could practise them a bit"	NA	"3.0"	"exercise"	"grammatical resource"	NA	NA	21
+2020-11-11 12:28:43	"teacher008"	"teacher"	18	"Thank you :)"	"Thank you :)"	16	NA	NA	NA	NA	NA	3
+2020-11-11 12:28:46	"student011"	"student"	19	"Is it right expression?"	"Is it the right expression?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	4
+2020-11-11 12:28:56	"teacher008"	"teacher"	20	"Yes, definitely!"	"Yes, definitely!"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:29:07	"student011"	"student"	21	"Sure, we can )"	"Sure, we can )"	17	NA	NA	NA	NA	NA	4
+2020-11-11 12:29:16	"teacher008"	"teacher"	22	"So we've got 'since ' and 'for' with perfect tenses"	"So we've got 'since ' and 'for' with perfect tenses"	NA	"3a"	"scaffolding,revision"	"grammatical resource"	NA	NA	10
+2020-11-11 12:29:21	"teacher008"	"teacher"	23	"since + a moment in time"	"since + a moment in time"	NA	NA	"scaffolding,revision"	"grammatical resource"	NA	NA	6
+2020-11-11 12:29:27	"teacher008"	"teacher"	24	"for + a period of time"	"for + a period of time"	NA	NA	"scaffolding,revision"	"grammatical resource"	NA	NA	6
+2020-11-11 12:29:36	"teacher008"	"teacher"	25	"since March"	"since March"	NA	NA	"scaffolding,revision"	"grammatical resource"	NA	NA	2
+2020-11-11 12:29:40	"teacher008"	"teacher"	26	"for 7 months"	"for 7 months"	NA	NA	"scaffolding,revision"	"grammatical resource"	NA	NA	3
+2020-11-11 12:29:43	"teacher008"	"teacher"	27	"you know that :)"	"you know that :)"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:31:08	"student011"	"student"	28	"Thank you for the revition"	"Thank you for the revision"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 12:31:27	"student011"	"student"	29	"I really need it all the time ))"	"I really need it all the time ))"	NA	NA	NA	NA	NA	NA	8
+2020-11-11 12:31:39	"teacher008"	"teacher"	30	"No worries) Yes, that's how we learn!"	"No worries) Yes, that's how we learn!"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 12:31:44	"student011"	"student"	31	"*revition"	"*revision"	28	NA	"repair"	"writing"	NA	NA	1
+2020-11-11 12:31:47	"teacher008"	"teacher"	32	"revision"	"revision"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-11 12:31:51	"student011"	"student"	33	"*reviision )"	"*revision )"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:31:57	"student011"	"student"	34	"Yes!!!! ))))"	"Yes!!!! ))))"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:32:07	"student011"	"student"	35	"revision )"	"revision )"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:32:39	"teacher008"	"teacher"	36	"How about we each write down three hobbies / activities/ things we've been doing and ask each how long we have been doing them. I'll start"	"How about we each write down three hobbies / activities/ things we've been doing and ask each how long we have been doing them. I'll start"	NA	"3b"	"exercise"	"grammatical resource"	NA	NA	26
+2020-11-11 12:33:02	"student011"	"student"	37	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:33:14	"teacher008"	"teacher"	38	"yoga. Can you ask me, 'How long __ ___ ___ ___ yoga?' (the verb is do)"	"yoga. Can you ask me, 'How long __ ___ ___ ___ yoga?' (the verb is do)"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	16
+2020-11-11 12:34:06	"student011"	"student"	39	"How long have you done yoga?"	"How long have you been doing yoga?"	NA	NA	NA	NA	NA	NA	6
+2020-11-11 12:34:31	"student011"	"student"	40	"the yoga?"	"the yoga?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	2
+2020-11-11 12:34:35	"student011"	"student"	41	"your yoga? )"	"your yoga? )"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	3
+2020-11-11 12:34:45	"teacher008"	"teacher"	42	"Ok, but continuous would be a bit more natural here"	"Ok, but continuous would be a bit more natural here"	39	NA	"repair,scaffolding"	"grammatical resource"	NA	NA	10
+2020-11-11 12:34:50	"teacher008"	"teacher"	43	"do yoga, just yoga)"	"do yoga, just yoga)"	41	NA	NA	NA	NA	NA	4
+2020-11-11 12:35:11	"student011"	"student"	44	"Ah, that's why I need 4 words )"	"Ah, that's why I need 4 words )"	42	NA	NA	NA	NA	NA	8
+2020-11-11 12:35:18	"teacher008"	"teacher"	45	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:35:40	"student011"	"student"	46	"And I've started thinking about article )"	"And I've started thinking about the article )"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 12:35:50	"student011"	"student"	47	"Ok! So"	"Ok! So"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:36:06	"teacher008"	"teacher"	48	"The continuous tense really stresses this 'how long' aspect of the question. Something has been going on for a long time!"	"The continuous tense really stresses this 'how long' aspect of the question. Something has been going on for a long time!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	21
+2020-11-11 12:36:13	"student011"	"student"	49	"How long have you been doing yoga?"	"How long have you been doing yoga?"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 12:36:14	"teacher008"	"teacher"	50	"No worries :)"	"No worries :)"	46	NA	NA	NA	NA	NA	3
+2020-11-11 12:36:32	"teacher008"	"teacher"	51	"Yes, correct, thank you! I've been doing yoga for nearly 7 years now"	"Yes, correct, thank you! I've been doing yoga for nearly 7 years now"	49	NA	NA	NA	NA	NA	13
+2020-11-11 12:36:37	"teacher008"	"teacher"	52	"Your turn, please :)"	"Your turn, please :)"	NA	"3c"	"exercise"	"grammatical resource"	NA	NA	4
+2020-11-11 12:38:01	"teacher008"	"teacher"	53	"I mean, any activity / hobby I can ask a question about)"	"I mean, any activity / hobby I can ask a question about)"	NA	NA	NA	NA	NA	NA	12
+2020-11-11 12:38:17	"student011"	"student"	54	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:38:23	"student011"	"student"	55	"To be mum )"	"To be a mum )"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:38:31	"teacher008"	"teacher"	56	"Ah, good one!"	"Ah, good one!"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 12:38:37	"teacher008"	"teacher"	57	"How long have you been a mum for?"	"How long have you been a mum for?"	NA	NA	NA	NA	NA	NA	8
+2020-11-11 12:39:21	"student011"	"student"	58	"I've been a mum for three or four years )"	"I've been a mum for three or four years )"	NA	NA	NA	NA	NA	NA	10
+2020-11-11 12:39:41	"student011"	"student"	59	"It depends if we count the pregnancy or no )"	"It depends if we count the pregnancy or not )"	NA	NA	NA	NA	NA	NA	10
+2020-11-11 12:39:53	"teacher008"	"teacher"	60	"Sure! We can't really use a continuous here, right?"	"Sure! We can't really use a continuous here, right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-11-11 12:40:04	"teacher008"	"teacher"	61	"I think we should count pregnancy))"	"I think we should count pregnancy))"	59	NA	NA	NA	NA	NA	6
+2020-11-11 12:40:13	"student011"	"student"	62	"And why we don't?"	"And why can't we?"	60	"3d"	"enquiry"	"grammatical resource"	NA	NA	4
+2020-11-11 12:40:23	"teacher008"	"teacher"	63	"because 'be' can't be used in a continuous tense in the same way"	"because 'be' can't be used in a continuous tense in the same way"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-11-11 12:41:13	"teacher008"	"teacher"	64	"You've been running a business for X years. But: You've been the director of a business for X years"	"You've been running a business for X years. But: You've been the director of a business for X years"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-11-11 12:41:30	"student011"	"student"	65	"And when can we use be in continuous?"	"And when can we use be in continuous?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	8
+2020-11-11 12:41:32	"teacher008"	"teacher"	66	"run = can be used in continuous; be (a director) = not used in continuous"	"run = can be used in continuous; be (a director) = not used in continuous"	64	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-11-11 12:41:58	"student011"	"student"	67	"Or we can't ever?"	"Or we can't ever?"	65	NA	NA	NA	NA	NA	4
+2020-11-11 12:42:27	"teacher008"	"teacher"	68	"We don't really! 'Be' is one of the verbs we don't use in continuous tenses"	"We don't really! 'Be' is one of the verbs we don't use in continuous tenses"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-11-11 12:43:11	"student011"	"student"	69	"Ah! Ok!"	"Ah! Ok!"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:43:36	"teacher008"	"teacher"	70	"Ok! my example"	"Ok! my example"	NA	"3e"	"exercise"	"grammatical resource"	NA	NA	3
+2020-11-11 12:43:43	"teacher008"	"teacher"	71	"garden (as a verb)"	"garden (as a verb)"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:43:44	"student011"	"student"	72	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:45:56	"teacher008"	"teacher"	73	"Are you thinking about the question? It's so hard to know in this chat!"	"Are you thinking about the question? It's so hard to know in this chat!"	NA	NA	NA	NA	NA	NA	14
+2020-11-11 12:46:03	"student011"	"student"	74	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:46:05	"student011"	"student"	75	"Sorry"	"Sorry"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:46:08	"student011"	"student"	76	"One moment"	"One moment"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:46:19	"teacher008"	"teacher"	77	"no problem"	"no problem"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:46:39	"student011"	"student"	78	"How long have you had your garden?"	"How long have you had your garden?"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 12:46:44	"student011"	"student"	79	"Ah"	"Ah"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:47:05	"student011"	"student"	80	"Or How long have you been gardening?"	"Or How long have you been gardening?"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 12:47:32	"teacher008"	"teacher"	81	"Yes! Both correct :)"	"Yes! Both correct :)"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:47:50	"teacher008"	"teacher"	82	"I've been gardening for 3 years now. And I've had my garden for 3 years"	"I've been gardening for 3 years now. And I've had my garden for 3 years"	NA	NA	NA	NA	NA	NA	15
+2020-11-11 12:48:06	"student011"	"student"	83	"Super )"	"Super )"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 12:48:30	"student011"	"student"	84	"Actually I've been gardening since this summer"	"Actually I've been gardening since this summer"	NA	"3f"	NA	NA	NA	NA	7
+2020-11-11 12:48:35	"teacher008"	"teacher"	85	"Does it all make sense? This use of perfect tenses"	"Does it all make sense? This use of perfect tenses"	83	NA	NA	NA	NA	NA	10
+2020-11-11 12:49:07	"teacher008"	"teacher"	86	"Oh really? I didn't know you had a garden!"	"Oh really? I didn't know you had a garden!"	84	NA	NA	NA	NA	NA	9
+2020-11-11 12:49:30	"student011"	"student"	87	"I have a microgreen rug at my flat )"	"I have a microgreen rug at my flat )"	NA	NA	NA	NA	NA	NA	9
+2020-11-11 12:49:43	"teacher008"	"teacher"	88	"Ah wonderful! Indoor gardening!"	"Ah wonderful! Indoor gardening!"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:49:53	"teacher008"	"teacher"	89	"Which microgreens have you been growing?"	"Which microgreens have you been growing?"	NA	NA	NA	NA	NA	NA	6
+2020-11-11 12:50:00	"student011"	"student"	90	"A tiny garden )"	"A tiny garden )"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:50:14	"student011"	"student"	91	"Now it's onion"	"Now it's onions"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 12:50:20	"teacher008"	"teacher"	92	"a tiny garden is still a garden!"	"a tiny garden is still a garden!"	90	NA	NA	NA	NA	NA	7
+2020-11-11 12:50:27	"teacher008"	"teacher"	93	"lovely!"	"lovely!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:50:32	"student011"	"student"	94	"But before it was sunflower"	"But before it was sunflowers"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 12:50:40	"student011"	"student"	95	"And something else"	"And something else"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 12:50:52	"student011"	"student"	96	"Actually It wasn't my idea"	"Actually It wasn't my idea"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 12:50:54	"teacher008"	"teacher"	97	"My sunflower microgreen has sprouted! You were right, I just had to wait"	"My sunflower microgreen has sprouted! You were right, I just had to wait"	NA	NA	NA	NA	NA	NA	13
+2020-11-11 12:51:10	"student011"	"student"	98	"Nice!"	"Nice!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:51:12	"teacher008"	"teacher"	99	"But waiting is not one of my strenghts :)"	"But waiting is not one of my strenghts :)"	NA	NA	NA	NA	NA	NA	9
+2020-11-11 12:51:18	"student011"	"student"	100	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:51:34	"student011"	"student"	101	"Actually same story with the onion"	"Actually same story with the onions"	NA	NA	NA	NA	NA	NA	6
+2020-11-11 12:51:42	"student011"	"student"	102	"But I like the taste"	"But I like the taste"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 12:52:02	"teacher008"	"teacher"	103	"Yes, microgreens do have a really intense taste!"	"Yes, microgreens do have a really intense taste!"	NA	NA	NA	NA	NA	NA	8
+2020-11-11 12:52:09	"student011"	"student"	104	"It's not so strong like usual onion"	"It's not as strong as a usual onion"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 12:52:26	"student011"	"student"	105	"But it's still onion )"	"But it's still an onion )"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 12:52:28	"teacher008"	"teacher"	106	"ah, it's not as strong as the usual onion?"	"ah, it's not as strong as the usual onion?"	NA	NA	"repair"	"grammatical resource"	NA	NA	9
+2020-11-11 12:52:34	"student011"	"student"	107	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:52:40	"student011"	"student"	108	"not as strong as"	"not as strong as"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:52:55	"teacher008"	"teacher"	109	"Interesting! Maybe it's the other way around with onions, microgreens are less intense than the mature vegetables"	"Interesting! Maybe it's the other way around with onions, microgreens are less intense than the mature vegetables"	105	NA	NA	NA	NA	NA	17
+2020-11-11 12:53:24	"student011"	"student"	110	"other way around?"	"other way around?"	NA	"3g"	"enquiry"	"lexical resource"	NA	NA	3
+2020-11-11 12:53:34	"student011"	"student"	111	"Like naoborot in Russian?"	"Like naoborot in Russian?"	NA	NA	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	4
+2020-11-11 12:53:39	"teacher008"	"teacher"	112	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:53:43	"teacher008"	"teacher"	113	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:53:55	"student011"	"student"	114	"I like the expression"	"I like the expression"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:54:07	"teacher008"	"teacher"	115	"Oh, I've got two expressions with since and for for you"	"Oh, I've got two expressions with since and for for you"	NA	"4.0"	"presentation"	"grammatical resource,lexical resource"	NA	NA	11
+2020-11-11 12:54:12	"teacher008"	"teacher"	116	"As a bonus :)"	"As a bonus :)"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:54:14	"student011"	"student"	117	"6 words instead 1 in Russian )"	"6 words instead of 1 in Russian )"	114	NA	NA	NA	NA	NA	7
+2020-11-11 12:54:21	"teacher008"	"teacher"	118	"because you've been such a good student :)))"	"because you've been such a good student :)))"	116	NA	NA	NA	NA	NA	8
+2020-11-11 12:54:27	"student011"	"student"	119	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 12:54:36	"teacher008"	"teacher"	120	"You can also say 'vice versa'"	"You can also say 'vice versa'"	117	"3h"	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-11 12:54:41	"teacher008"	"teacher"	121	"a bit of Latin never hurts"	"a bit of Latin never hurts"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-11 12:55:19	"teacher008"	"teacher"	122	"ˌvaɪs ˈvɜː.sə"	"ˌvaɪs ˈvɜː.sə"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	2
+2020-11-11 12:55:21	"student011"	"student"	123	"I's vice versa with onion?"	"It's vice versa with onions?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	5
+2020-11-11 12:55:44	"student011"	"student"	124	"I like Latin ) Per aspera ad astra )))"	"I like Latin ) Per aspera ad astra )))"	NA	NA	"non-English"	"code switching"	NA	NA	9
+2020-11-11 12:56:06	"teacher008"	"teacher"	125	"that's it! I bet you studied Latin at law school?"	"that's it! I bet you studied Latin at law school?"	NA	NA	NA	NA	NA	NA	10
+2020-11-11 12:56:32	"teacher008"	"teacher"	126	"Hmm, it's more like, 'When we go away, our neighbours look after our guinea pigs, and vice versa'"	"Hmm, it's more like, 'When we go away, our neighbours look after our guinea pigs, and vice versa'"	123	NA	"scaffolding"	"lexical resource"	NA	NA	18
+2020-11-11 12:56:47	"student011"	"student"	127	"Yes, I studied but not for a long time"	"Yes, I studied it but not for a long time"	125	NA	NA	NA	NA	NA	9
+2020-11-11 12:56:48	"teacher008"	"teacher"	128	"vice versa' = when they go away, we look after their guinea pigs"	"vice versa' = when they go away, we look after their guinea pigs"	126	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-11-11 12:56:54	"teacher008"	"teacher"	129	"they also have guinea pigs)"	"they also have guinea pigs)"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 12:57:07	"teacher008"	"teacher"	130	"It's also 'naoborot', but used a bit differently"	"It's also 'naoborot', but used a bit differently"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	8
+2020-11-11 12:57:28	"student011"	"student"	131	"Oh, no! Thea are so popular there in the UK )"	"Oh, no! They are so popular there in the UK )"	NA	"3i"	NA	NA	NA	NA	11
+2020-11-11 12:57:33	"student011"	"student"	132	"*they"	"*they"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-11 12:57:51	"teacher008"	"teacher"	133	"Hmm, we got them because of our neighbours, to be honest"	"Hmm, we got them because of our neighbours, to be honest"	NA	NA	NA	NA	NA	NA	11
+2020-11-11 12:58:08	"student011"	"student"	134	"Ok, So I have a sentence and then I add and vice versa"	"Ok, so I have a sentence and then I add and vice versa"	130	NA	NA	NA	NA	NA	13
+2020-11-11 12:58:12	"teacher008"	"teacher"	135	"We've been looking after their piggies and fell in love with them :)"	"We've been looking after their piggies and fell in love with them :)"	133	NA	NA	NA	NA	NA	13
+2020-11-11 12:58:31	"student011"	"student"	136	"So romantic story )"	"Such a romantic story )"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 12:58:35	"teacher008"	"teacher"	137	"And then our neighbours' friend was giving away her guinea pigs and we adopted them"	"And then our neighbours' friend was giving away her guinea pigs and we adopted them"	135	NA	NA	NA	NA	NA	15
+2020-11-11 12:58:43	"teacher008"	"teacher"	138	"That's it, it's a love story :))))"	"That's it, it's a love story :))))"	136	NA	NA	NA	NA	NA	7
+2020-11-11 12:59:03	"teacher008"	"teacher"	139	"Yes, correct about vice versa!"	"Yes, correct about vice versa!"	134	NA	NA	NA	NA	NA	5
+2020-11-11 12:59:08	"student011"	"student"	140	"Give away?"	"Give away?"	NA	"3j"	"enquiry"	"lexical resource,meaning"	NA	NA	2
+2020-11-11 12:59:28	"teacher008"	"teacher"	141	"Yes, they didn't want them anymore and were giving them away (for free)"	"Yes, they didn't want them anymore and were giving them away (for free)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+2020-11-11 12:59:37	"student011"	"student"	142	"otdat'or vybrosit'?"	"otdat'or vybrosit'?"	NA	NA	"enquiry,non-English"	"lexical resource,meaning,code switching"	NA	NA	2
+2020-11-11 12:59:42	"teacher008"	"teacher"	143	"give away something vs. sell someting"	"give away something vs. sell someting"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2020-11-11 12:59:53	"teacher008"	"teacher"	144	"hmm, otdat' :)"	"hmm, otdat' :)"	142	NA	"scaffolding,non-English"	"lexical resource,meaning,code switching"	NA	NA	3
+2020-11-11 13:00:01	"student011"	"student"	145	"Ah! Ok )"	"Ah! Ok )"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 13:00:05	"student011"	"student"	146	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:00:41	"teacher008"	"teacher"	147	"Anyway, your bonus!!"	"Anyway, your bonus!!"	NA	"4a"	"redirection"	"grammatical resource,lexical resource"	NA	NA	3
+2020-11-11 13:00:53	"student011"	"student"	148	"I;m ready"	"I'm ready"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:00:55	"teacher008"	"teacher"	149	"It's been ages since (I did something)"	"It's been ages since (I did something)"	NA	NA	"presentation"	"grammatical resource,lexical resource"	NA	NA	7
+2020-11-11 13:01:12	"teacher008"	"teacher"	150	"It's been ages since I last went to a cinema!"	"It's been ages since I last went to a cinema!"	NA	NA	"presentation"	"grammatical resource,lexical resource"	NA	NA	10
+2020-11-11 13:01:36	"student011"	"student"	151	"It's been ages since I last went abroad"	"It's been ages since I last went abroad"	NA	NA	NA	NA	NA	NA	8
+2020-11-11 13:01:53	"teacher008"	"teacher"	152	"(it wasn't really years, only a few months, but 'ages' just stresses that it was really long)"	"(it wasn't really years, only a few months, but 'ages' just stresses that it was really long)"	NA	NA	"presentation"	"grammatical resource,lexical resource"	NA	NA	17
+2020-11-11 13:01:57	"teacher008"	"teacher"	153	"Yes, good!"	"Yes, good!"	151	NA	NA	NA	NA	NA	2
+2020-11-11 13:02:01	"teacher008"	"teacher"	154	"Another one!"	"Another one!"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:02:09	"teacher008"	"teacher"	155	"I haven't done something for ages!"	"I haven't done something for ages!"	NA	NA	"presentation"	"grammatical resource,lexical resource"	NA	NA	6
+2020-11-11 13:02:18	"teacher008"	"teacher"	156	"I haven't been to the cinema for ages!"	"I haven't been to the cinema for ages!"	NA	NA	"presentation"	"grammatical resource,lexical resource"	NA	NA	8
+2020-11-11 13:03:01	"student011"	"student"	157	"I haven't eaten chupa chups foe ages )))"	"I haven't eaten chupa chups for ages )))"	NA	NA	NA	NA	NA	NA	8
+2020-11-11 13:03:05	"student011"	"student"	158	"*for"	"*for"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-11 13:03:12	"teacher008"	"teacher"	159	"Covid provides so many opportunities to practise this, haha"	"Covid provides so many opportunities to practise this, haha"	NA	NA	NA	NA	NA	NA	9
+2020-11-11 13:03:23	"teacher008"	"teacher"	160	"Haha, would you like to?"	"Haha, would you like to?"	157	NA	NA	NA	NA	NA	5
+2020-11-11 13:03:24	"student011"	"student"	161	"haha"	"haha"	159	NA	NA	NA	NA	NA	1
+2020-11-11 13:03:33	"teacher008"	"teacher"	162	"I haven't been out with friends for ages!"	"I haven't been out with friends for ages!"	NA	NA	"presentation"	"grammatical resource,lexical resource"	NA	NA	8
+2020-11-11 13:03:43	"teacher008"	"teacher"	163	"It's been ages since I last went to a mall"	"It's been ages since I last went to a mall"	NA	NA	"presentation"	"grammatical resource,lexical resource"	NA	NA	10
+2020-11-11 13:03:49	"teacher008"	"teacher"	164	"and so on :)))"	"and so on :)))"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 13:03:58	"student011"	"student"	165	"Actually I used to like it before"	"Actually I used to like it before"	160	NA	NA	NA	NA	NA	7
+2020-11-11 13:04:15	"student011"	"student"	166	"But now.. I/m not sure"	"But now.. I'm not sure"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 13:04:18	"teacher008"	"teacher"	167	"chupa chups? I liked it when I was very young!"	"chupa chups? I liked it when I was very young!"	NA	NA	NA	NA	NA	NA	10
+2020-11-11 13:04:29	"student011"	"student"	168	"Me too )"	"Me too )"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 13:04:52	"teacher008"	"teacher"	169	"And one more quick exercise!"	"And one more quick exercise!"	NA	"5.0"	"exercise,exercise"	"grammatical resource"	NA	NA	5
+2020-11-11 13:04:59	"student011"	"student"	170	"But I don't buy it for <STUDENT'S CHILD>"	"But I don't buy it for <STUDENT'S CHILD>"	168	NA	NA	NA	NA	NA	8
+2020-11-11 13:05:12	"student011"	"student"	171	"Maybe I should do"	"Maybe I should do"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 13:05:14	"teacher008"	"teacher"	172	"Present Perfect Continous to explain reasons for things in the present"	"Present Perfect Continous to explain reasons for things in the present"	169	NA	NA	NA	NA	NA	11
+2020-11-11 13:05:21	"student011"	"student"	173	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 13:05:24	"teacher008"	"teacher"	174	"No, because you don't want to pay the dentist)))"	"No, because you don't want to pay the dentist)))"	171	NA	NA	NA	NA	NA	9
+2020-11-11 13:05:37	"student011"	"student"	175	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 13:06:10	"teacher008"	"teacher"	176	"He must be ill, he hasn't been eating!"	"He must be ill, he hasn't been eating!"	173	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-11-11 13:06:31	"teacher008"	"teacher"	177	"First we say what we see (he must be ill), then we say why we think so"	"First we say what we see (he must be ill), then we say why we think so"	NA	NA	NA	NA	NA	NA	17
+2020-11-11 13:06:42	"student011"	"student"	178	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 13:07:56	"teacher008"	"teacher"	179	"She is so angry! Her son has been missing school and she had no idea"	"She is so angry! Her son has been missing school and she had no idea"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-11-11 13:08:15	"student011"	"student"	180	"I'm hungry, I haven't had my lunch"	"I'm hungry, I haven't had my lunch"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 13:08:23	"teacher008"	"teacher"	181	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:08:37	"teacher008"	"teacher"	182	"I'll let you go have lunch in a minute :)"	"I'll let you go have lunch in a minute :)"	NA	NA	NA	NA	NA	NA	10
+2020-11-11 13:08:46	"student011"	"student"	183	"ok ))"	"ok ))"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:08:49	"teacher008"	"teacher"	184	"Can you finish these sentences?"	"Can you finish these sentences?"	NA	"5a"	"exercise,exercise"	"grammatical resource"	NA	NA	5
+2020-11-11 13:08:59	"student011"	"student"	185	"It wasn't a hint )"	"It wasn't a hint )"	183	NA	NA	NA	NA	NA	5
+2020-11-11 13:09:06	"teacher008"	"teacher"	186	"I know))"	"I know))"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:09:17	"teacher008"	"teacher"	187	"Her make-up is all smudged because ..."	"Her make-up is all smudged because ..."	184	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2020-11-11 13:09:34	"student011"	"student"	188	"smudged"	"smudged"	NA	"5b"	"enquiry"	"lexical resource,meaning"	NA	NA	1
+2020-11-11 13:10:05	"student011"	"student"	189	"like after rain?"	"like after the rain?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	3
+2020-11-11 13:10:31	"teacher008"	"teacher"	190	"Oh sorry, yes! or if you do your make-up and then rub on it"	"Oh sorry, yes! or if you do your make-up and then rub on it"	NA	NA	"scaffolding"	NA	NA	NA	14
+2020-11-11 13:10:39	"teacher008"	"teacher"	191	"or something like that"	"or something like that"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 13:11:59	"teacher008"	"teacher"	192	"Sometimes we smudge make-up on purpose. For example, my eyeliner has two parts, the actual pencil and a smudger, so that the line is not so strong"	"Sometimes we smudge make-up on purpose. For example, my eyeliner has two parts, the actual pencil and a smudger, so that the line is not so strong"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	27
+2020-11-11 13:12:09	"student011"	"student"	193	"Her make-up is all smudged because she's been crying for two hours"	"Her make-up is all smudged because she's been crying for two hours"	187	NA	NA	NA	NA	NA	12
+2020-11-11 13:12:18	"teacher008"	"teacher"	194	"Yes! Very good!"	"Yes! Very good!"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 13:12:21	"teacher008"	"teacher"	195	"Next one!"	"Next one!"	NA	"5c"	"eliciting"	"grammatical resource"	NA	NA	2
+2020-11-11 13:12:44	"teacher008"	"teacher"	196	"The police are arresting the head of the bank because..."	"The police are arresting the head of the bank because..."	NA	NA	NA	NA	NA	NA	10
+2020-11-11 13:14:14	"student011"	"student"	197	"she's been paying for her new house from the bank account"	"she's been paying for her new house from the bank account"	NA	NA	NA	NA	NA	NA	11
+2020-11-11 13:14:51	"teacher008"	"teacher"	198	"Well done! I like that the head of the bank is 'she')) most people would say 'he')))"	"Well done! I like that the head of the bank is 'she')) most people would say 'he')))"	NA	NA	NA	NA	NA	NA	17
+2020-11-11 13:15:23	"teacher008"	"teacher"	199	"Oh, if you buy a house but only pay part of the sum and then pay little bits every month for years"	"Oh, if you buy a house but only pay part of the sum and then pay little bits every month for years"	NA	"5d"	"scaffolding"	"lexical resource,meaning"	NA	NA	22
+2020-11-11 13:15:26	"teacher008"	"teacher"	200	"like us))"	"like us))"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:15:31	"teacher008"	"teacher"	201	"it's called 'a mortgage'"	"it's called 'a mortgage'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+2020-11-11 13:15:57	"teacher008"	"teacher"	202	"ˈmɔː.ɡɪdʒ"	"ˈmɔː.ɡɪdʒ"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2020-11-11 13:16:30	"student011"	"student"	203	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:16:37	"teacher008"	"teacher"	204	"I don't know if this is what you meant ))"	"I don't know if this is what you meant ))"	NA	NA	NA	NA	NA	NA	10
+2020-11-11 13:16:45	"student011"	"student"	205	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 13:16:59	"teacher008"	"teacher"	206	"ah, sorry! well, you have a new word then"	"ah, sorry! well, you have a new word then"	NA	NA	NA	NA	NA	NA	9
+2020-11-11 13:17:06	"student011"	"student"	207	"I meant that she used bank money"	"I meant that she used bank money"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 13:17:10	"student011"	"student"	208	"Not her"	"Not her own"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:17:30	"teacher008"	"teacher"	209	"Yes, I got that! She used the bank money to pay her mortgage, right?"	"Yes, I got that! She used the bank money to pay her mortgage, right?"	NA	NA	NA	NA	NA	NA	14
+2020-11-11 13:17:46	"teacher008"	"teacher"	210	"I just saw an opportunity for a new word))"	"I just saw an opportunity for a new word))"	NA	NA	NA	NA	NA	NA	9
+2020-11-11 13:17:57	"student011"	"student"	211	"yes! Even not mortgage"	"yes! Even not a mortgage"	NA	NA	NA	NA	NA	NA	4
+2020-11-11 13:18:17	"student011"	"student"	212	"Just to pay for the house )"	"Just to pay for the house )"	NA	NA	NA	NA	NA	NA	7
+2020-11-11 13:18:22	"teacher008"	"teacher"	213	"Aha, I know what made me think it was mortgage!"	"Aha, I know what made me think it was a mortgage!"	NA	"5e"	"scaffolding"	"grammatical resource,meaning"	NA	NA	10
+2020-11-11 13:18:27	"teacher008"	"teacher"	214	"The continuous!"	"The continuous!"	NA	NA	NA	NA	NA	NA	2
+2020-11-11 13:18:40	"student011"	"student"	215	"Aaah"	"Aaah"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 13:18:49	"teacher008"	"teacher"	216	"she has paid for her house (the full sum) vs. she has been paying for her house (in bits)"	"she has paid for her house (the full sum) vs. she has been paying for her house (in bits)"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	19
+2020-11-11 13:19:08	"student011"	"student"	217	"claer"	"clear"	NA	NA	NA	NA	NA	NA	1
+2020-11-11 13:19:29	"student011"	"student"	218	"So here maybe better to use just Present Perfect"	"So here maybe it's better to use just Present Perfect"	NA	NA	NA	NA	NA	NA	9
+2020-11-11 13:19:34	"teacher008"	"teacher"	219	"Ah, I've got to let you go! Great work today on the perfect tenses!"	"Ah, I've got to let you go! Great work today on the perfect tenses!"	NA	"6.0"	"closing"	NA	NA	NA	14
+2020-11-11 13:19:45	"teacher008"	"teacher"	220	"Yes, if you mean she paid it all in one go!"	"Yes, if you mean she paid it all in one go!"	218	NA	NA	NA	NA	NA	11
+2020-11-11 13:19:51	"student011"	"student"	221	"Thank you"	"Thank you"	219	NA	NA	NA	NA	NA	2
+2020-11-11 13:20:04	"student011"	"student"	222	"See you on Friday then )"	"See you on Friday then )"	NA	NA	NA	NA	NA	NA	6
+2020-11-11 13:20:15	"teacher008"	"teacher"	223	"Yes, until Friday! Take care!"	"Yes, until Friday! Take care!"	NA	NA	NA	NA	NA	NA	5
+2020-11-11 13:20:33	"student011"	"student"	224	"You too! Bye"	"You too! Bye"	NA	NA	NA	NA	NA	NA	3
+2020-11-11 13:20:41	"teacher008"	"teacher"	225	"Bye :)"	"Bye :)"	NA	NA	NA	NA	NA	"B2"	2

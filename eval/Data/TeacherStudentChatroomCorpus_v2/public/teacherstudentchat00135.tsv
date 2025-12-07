@@ -1,0 +1,200 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-10 13:31:30	"student009"	"student"	1	"hello"	"hello"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-11-10 13:31:42	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 13:31:44	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-10 13:31:55	"student009"	"student"	4	"fine! and you?"	"fine! and you?"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:32:21	"teacher008"	"teacher"	5	"All good, thank you!"	"All good, thank you!"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 13:32:25	"student009"	"student"	6	"I forgot to tell you abput nice thing!"	"I forgot to tell you about a nice thing!"	NA	"2a"	"topic development"	NA	NA	NA	8
+2020-11-10 13:32:38	"teacher008"	"teacher"	7	"Go on!"	"Go on!"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 13:33:38	"student009"	"student"	8	"I setted up a little business with my friend <STUDENT'S FRIEND>!"	"I set up a little business with my friend <STUDENT'S FRIEND>!"	NA	NA	NA	NA	NA	NA	11
+2020-11-10 13:34:00	"teacher008"	"teacher"	9	"Seriously? Oh wow!"	"Seriously? Oh wow!"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:34:13	"teacher008"	"teacher"	10	"set-set-set, irregular verb"	"set-set-set, irregular verb"	8	"2b"	"scaffolding"	"lexical resource"	NA	NA	3
+2020-11-10 13:34:18	"student009"	"student"	11	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:34:19	"teacher008"	"teacher"	12	"so 'I __ up a business'"	"so 'I __ up a business'"	NA	NA	"eliciting,repair"	"lexical resource"	NA	NA	6
+2020-11-10 13:34:28	"student009"	"student"	13	"i set up a business"	"I set up a business"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 13:34:43	"teacher008"	"teacher"	14	"yes, or even better 'I've set up a business'"	"yes, or even better 'I've set up a business'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-11-10 13:34:49	"teacher008"	"teacher"	15	"anyway, what's your business?"	"anyway, what's your business?"	9	NA	NA	NA	NA	NA	4
+2020-11-10 13:35:05	"student009"	"student"	16	"we are selling some accessories"	"we are selling some accessories"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 13:35:24	"student009"	"student"	17	"our Instagram is blueberry___accessories"	"our Instagram is <INSTAGRAM ACCOUNT>"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 13:35:34	"teacher008"	"teacher"	18	"Ok, I'll check it out :)"	"Ok, I'll check it out :)"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 13:35:47	"teacher008"	"teacher"	19	"What kind of accessories? Hats, jewellery, scarves?"	"What kind of accessories? Hats, jewellery, scarves?"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 13:35:51	"student009"	"student"	20	"accessories from beads"	"accessories from beads"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:35:57	"student009"	"student"	21	"jewellery"	"jewellery"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:36:28	"teacher008"	"teacher"	22	"Cool! Do you make them yourselves?"	"Cool! Do you make them yourselves?"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 13:36:56	"student009"	"student"	23	"in future we also want to sell some scrunches"	"in future we also want to sell some scrunchies"	NA	NA	NA	NA	NA	NA	9
+2020-11-10 13:37:10	"student009"	"student"	24	"*scrunchies"	"*scrunchies"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-10 13:37:18	"teacher008"	"teacher"	25	"yes, good correction!"	"yes, good correction!"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:37:23	"teacher008"	"teacher"	26	"Exciting!"	"Exciting!"	23	NA	NA	NA	NA	NA	1
+2020-11-10 13:37:34	"teacher008"	"teacher"	27	"So where does your supply come from?"	"So where does your supply come from?"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 13:38:16	"student009"	"student"	28	"my friend make them, and I post to Instagram and tiktok, it is like an advertisement"	"my friend makes them, and I post to Instagram and TikTok, it is like an advertisement"	NA	NA	NA	NA	NA	NA	16
+2020-11-10 13:38:36	"student009"	"student"	29	"what do you mean?"	"what do you mean?"	27	"2c"	"enquiry"	"lexical resource,meaning"	NA	NA	4
+2020-11-10 13:39:01	"teacher008"	"teacher"	30	"That's what I meant, where your supply of products comes from. Your friend makes them)"	"That's what I meant, where your supply of products comes from. Your friend makes them)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	15
+2020-11-10 13:39:12	"student009"	"student"	31	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:39:19	"teacher008"	"teacher"	32	"Exciting! So you're in charge of marketing and the actual transactions?"	"Exciting! So you're in charge of marketing and the actual transactions?"	28	NA	NA	NA	NA	NA	11
+2020-11-10 13:39:27	"student009"	"student"	33	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:39:37	"teacher008"	"teacher"	34	"Wonderful!"	"Wonderful!"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:39:59	"teacher008"	"teacher"	35	"And how is it going? Are you making sales?"	"And how is it going? Are you making sales?"	NA	NA	NA	NA	NA	NA	9
+2020-11-10 13:40:11	"student009"	"student"	36	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:41:00	"teacher008"	"teacher"	37	"Lovely! exciting for you both, right?"	"Lovely! exciting for you both, right?"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 13:41:04	"student009"	"student"	38	"yed"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:41:12	"teacher008"	"teacher"	39	"cool"	"cool"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:41:27	"student009"	"student"	40	"but now I in minus I think"	"but now I am in the red I think"	NA	"2d"	"topic development"	NA	NA	NA	7
+2020-11-10 13:41:35	"teacher008"	"teacher"	41	"what do you mean?"	"what do you mean?"	NA	NA	"enquiry"	NA	NA	NA	4
+2020-11-10 13:41:53	"student009"	"student"	42	"like we bought se beads for 300hrn"	"like we bought me some beads for 300 hrn"	NA	NA	"clarification"	NA	NA	NA	7
+2020-11-10 13:42:04	"student009"	"student"	43	"me*"	"me*"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-10 13:42:29	"student009"	"student"	44	"and now we both recieved abought 150hrb"	"and now we both received about 150 hrn"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 13:42:31	"student009"	"student"	45	"*n"	"*n"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-10 13:43:24	"teacher008"	"teacher"	46	"ah, I see"	"ah, I see"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:43:35	"teacher008"	"teacher"	47	"the expressions are 'make a loss' vs. 'made a profit'"	"the expressions are 'make a loss' vs. 'made a profit'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-11-10 13:43:50	"student009"	"student"	48	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:43:51	"teacher008"	"teacher"	49	"So far, you've made a loss, but this is to be expected for a new business!"	"So far, you've made a loss, but this is to be expected for a new business!"	NA	NA	NA	NA	NA	NA	16
+2020-11-10 13:43:58	"student009"	"student"	50	"yed"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:44:05	"teacher008"	"teacher"	51	"You can't expect to make a lot of profit straightaway I guess"	"You can't expect to make a lot of profit straightaway I guess"	NA	NA	NA	NA	NA	NA	12
+2020-11-10 13:44:55	"student009"	"student"	52	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:44:59	"teacher008"	"teacher"	53	"And if you have put 300 UAH into your business and then earned 300 UAH back, you have broken even"	"And if you have put 300 UAH into your business and then earned 300 UAH back, you have broken even"	NA	"2e"	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+2020-11-10 13:45:10	"student009"	"student"	54	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:45:15	"teacher008"	"teacher"	55	"to break even = to get the money you invested back but not to make a profit"	"to break even = to get the money you invested back but not to make a profit"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2020-11-10 13:45:54	"student009"	"student"	56	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 13:46:00	"student009"	"student"	57	"thanks)"	"thanks)"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:46:25	"teacher008"	"teacher"	58	"there was another business word, it's on the tip of my tongue, one second!"	"there was another business word, it's on the tip of my tongue, one second!"	NA	"2f"	NA	NA	NA	NA	14
+2020-11-10 13:46:59	"teacher008"	"teacher"	59	"that's it, revenue!"	"that's it, revenue!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-11-10 13:47:09	"teacher008"	"teacher"	60	"The stress is on the first syllable"	"The stress is on the first syllable"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	7
+2020-11-10 13:47:14	"teacher008"	"teacher"	61	"rEvenue"	"rEvenue"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2020-11-10 13:47:21	"teacher008"	"teacher"	62	"this is all the money your business earns"	"this is all the money your business earns"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-11-10 13:47:28	"teacher008"	"teacher"	63	"but not all of it is profit"	"but not all of it is profit"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-11-10 13:47:34	"teacher008"	"teacher"	64	"some of it is covering your costs"	"some of it is covering your costs"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	7
+2020-11-10 13:48:19	"teacher008"	"teacher"	65	"For example, you have bought materials for 150 UAH and you've earned 200 UAH. Your revenue is 200 UAH"	"For example, you have bought materials for 150 UAH and you've earned 200 UAH. Your revenue is 200 UAH"	NA	"2g"	"exercise,exercise"	"lexical resource"	NA	NA	19
+2020-11-10 13:48:25	"teacher008"	"teacher"	66	"What's your profit?"	"What's your profit?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	3
+2020-11-10 13:48:59	"student009"	"student"	67	"50 UAH"	"50 UAH"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 13:49:16	"teacher008"	"teacher"	68	"Correct! Simple math + English :)"	"Correct! Simple math + English :)"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 13:49:40	"teacher008"	"teacher"	69	"If your costs are 150 UAH and you've earned 100 UAH, you've ....."	"If your costs are 150 UAH and you've earned 100 UAH, you've ....."	NA	NA	"eliciting"	"lexical resource"	NA	NA	13
+2020-11-10 13:50:28	"teacher008"	"teacher"	70	"made a ___"	"made a ___"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-11-10 13:50:39	"student009"	"student"	71	"made a loss of 50 uah?"	"made a loss of 50 uah?"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 13:51:27	"teacher008"	"teacher"	72	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:51:44	"teacher008"	"teacher"	73	"And if your costs are 150 UAH and you've earned 150 UAH?"	"And if your costs are 150 UAH and you've earned 150 UAH?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	12
+2020-11-10 13:52:12	"student009"	"student"	74	"you broke even"	"you broke even"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:52:38	"teacher008"	"teacher"	75	"correct, you've broken even :)"	"correct, you've broken even :)"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 13:52:54	"teacher008"	"teacher"	76	"Well, anyway, I wish you to make a profit and also have fun!"	"Well, anyway, I wish you to make a profit and also have fun!"	NA	NA	NA	NA	NA	NA	13
+2020-11-10 13:53:08	"student009"	"student"	77	"thanks!"	"thanks!"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:54:16	"teacher008"	"teacher"	78	"So you know how this time of the year is a bit unexciting in the UK. The weather is often pretty awful and the nights are drawing in"	"So you know how this time of the year is a bit unexciting in the UK. The weather is often pretty awful and the nights are drawing in"	NA	"3.0"	"presentation"	"world knowledge"	NA	NA	28
+2020-11-10 13:54:33	"teacher008"	"teacher"	79	"But! There are some festivals that people celebrate, to cheer themselves u"	"But! There are some festivals that people celebrate, to cheer themselves u"	NA	NA	NA	NA	NA	NA	12
+2020-11-10 13:54:34	"teacher008"	"teacher"	80	"up"	"up"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-10 13:54:54	"teacher008"	"teacher"	81	"Obviously, there's Halloween. But I wonder if you know about some other festivals in the UK?"	"Obviously, there's Halloween. But I wonder if you know about some other festivals in the UK?"	NA	NA	"eliciting"	"world knowledge"	NA	NA	16
+2020-11-10 13:55:08	"student009"	"student"	82	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:55:54	"teacher008"	"teacher"	83	"Do you know about Bonfire Night?"	"Do you know about Bonfire Night?"	NA	NA	"eliciting"	"world knowledge"	NA	NA	6
+2020-11-10 13:56:08	"student009"	"student"	84	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:56:43	"teacher008"	"teacher"	85	"No worries. It's on November 5. There are usually fireworks and a bonfire"	"No worries. It's on November 5. There are usually fireworks and a bonfire"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	13
+2020-11-10 13:57:02	"student009"	"student"	86	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 13:57:15	"student009"	"student"	87	"whst do you"	"what do you"	NA	"3a"	"enquiry"	"world knowledge"	NA	NA	3
+2020-11-10 13:57:23	"student009"	"student"	88	"celebrate this day?"	"celebrate on this day?"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 13:58:17	"teacher008"	"teacher"	89	"Back in 1606 there was an idea to burn down the Houses of Parliament because some people were dissatisfied with the government"	"Back in 1606 there was an idea to burn down the Houses of Parliament because some people were dissatisfied with the government"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	22
+2020-11-10 13:58:26	"teacher008"	"teacher"	90	"It was called the Gunpowder Plot"	"It was called the Gunpowder Plot"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	6
+2020-11-10 13:58:50	"teacher008"	"teacher"	91	"They made a tunnel underneath the Houses of Parliament and put the gunpowder in it"	"They made a tunnel underneath the Houses of Parliament and put the gunpowder in it"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	15
+2020-11-10 13:59:14	"teacher008"	"teacher"	92	"And a man called Guy Fawkes was supposed to light that gunpowder and blow up the parliament"	"And a man called Guy Fawkes was supposed to light that gunpowder and blow up the parliament"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	17
+2020-11-10 13:59:24	"teacher008"	"teacher"	93	"But he was caught and couldn't do that"	"But he was caught and couldn't do that"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	8
+2020-11-10 13:59:45	"student009"	"student"	94	"his real name is guy ? :/"	"his real name was Guy ? :/"	NA	"3b"	"enquiry"	"world knowledge"	NA	NA	7
+2020-11-10 13:59:55	"teacher008"	"teacher"	95	"And the government wanted people to celebrate this fact"	"And the government wanted people to celebrate this fact"	93	NA	"scaffolding"	"world knowledge"	NA	NA	9
+2020-11-10 13:59:59	"teacher008"	"teacher"	96	"and they still do :)"	"and they still do :)"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	5
+2020-11-10 14:00:02	"teacher008"	"teacher"	97	"Yes, a real person!"	"Yes, a real person!"	94	NA	NA	NA	NA	NA	4
+2020-11-10 14:00:10	"student009"	"student"	98	"hah"	"hah"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:00:14	"student009"	"student"	99	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:00:26	"teacher008"	"teacher"	100	"Oh, I see, yes, Guy is not a very common name, but there are people called Guy"	"Oh, I see, yes, Guy is not a very common name, but there are people called Guy"	NA	NA	"scaffolding"	"world knowledge,lexical resource"	NA	NA	17
+2020-11-10 14:00:44	"student009"	"student"	101	"oh yes"	"oh yes"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 14:00:50	"student009"	"student"	102	"i see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 14:01:23	"teacher008"	"teacher"	103	"And usually there is a big bonfire and fireworks"	"And usually there is a big bonfire and fireworks"	96	NA	"scaffolding"	"world knowledge"	NA	NA	9
+2020-11-10 14:01:29	"teacher008"	"teacher"	104	"But guess what, not this year of course"	"But guess what, not this year of course"	NA	NA	NA	NA	NA	NA	8
+2020-11-10 14:01:40	"student009"	"student"	105	"sad"	"sad"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:01:41	"teacher008"	"teacher"	106	"Still, people buy fireworks and sparkles"	"Still, people buy fireworks and sparkles"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 14:01:50	"teacher008"	"teacher"	107	"We had a bonfire in our garden and ate pizza"	"We had a bonfire in our garden and ate pizza"	NA	NA	NA	NA	NA	NA	10
+2020-11-10 14:02:34	"student009"	"student"	108	"good idea for the situation with corona)"	"good idea for the situation with corona)"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 14:02:53	"teacher008"	"teacher"	109	"But I actually wanted to tell you about a different festival tht is widely celebrated in the UK around this time!"	"But I actually wanted to tell you about a different festival that is widely celebrated in the UK around this time!"	NA	"4.0"	"presentation"	"world knowledge"	NA	NA	21
+2020-11-10 14:02:59	"teacher008"	"teacher"	110	"It's called Diwali"	"It's called Diwali"	NA	NA	NA	NA	NA	NA	3
+2020-11-10 14:03:05	"teacher008"	"teacher"	111	"Have you heard of Diwali?"	"Have you heard of Diwali?"	NA	NA	"eliciting"	"world knowledge"	NA	NA	5
+2020-11-10 14:03:12	"student009"	"student"	112	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:03:36	"teacher008"	"teacher"	113	"It's an important Indian festival"	"It's an important Indian festival"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	5
+2020-11-10 14:03:46	"teacher008"	"teacher"	114	"Why do you think it's celebrated in the UK?"	"Why do you think it's celebrated in the UK?"	NA	NA	"eliciting"	"world knowledge"	NA	NA	9
+2020-11-10 14:04:05	"student009"	"student"	115	"something connected to history ?"	"something connected to history?"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 14:04:15	"teacher008"	"teacher"	116	"definitely"	"definitely"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:04:30	"teacher008"	"teacher"	117	"There are a lot of people from India in the UK!"	"There are a lot of people from India in the UK!"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	11
+2020-11-10 14:04:35	"teacher008"	"teacher"	118	"Again, do you know why?"	"Again, do you know why?"	NA	NA	"eliciting"	"world knowledge"	NA	NA	5
+2020-11-10 14:04:58	"student009"	"student"	119	"not really"	"not really"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 14:05:17	"teacher008"	"teacher"	120	"Ok, no problem. India was under the British rule for a long long time"	"Ok, no problem. India was under the British rule for a long long time"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	14
+2020-11-10 14:05:26	"teacher008"	"teacher"	121	"1757-1947"	"1757-1947"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	1
+2020-11-10 14:05:47	"teacher008"	"teacher"	122	"Nearly 200 years"	"Nearly 200 years"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	3
+2020-11-10 14:06:29	"teacher008"	"teacher"	123	"And a lot of people from India moved to the UK. Just like a lot of people from the UK lived in India at the time."	"And a lot of people from India moved to the UK. Just like a lot of people from the UK lived in India at the time."	NA	NA	"scaffolding"	"world knowledge"	NA	NA	26
+2020-11-10 14:06:32	"student009"	"student"	124	"190 years"	"190 years"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 14:06:41	"teacher008"	"teacher"	125	"that's right"	"that's right"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 14:07:03	"teacher008"	"teacher"	126	"Indian food and Indian cultures are very important in the UK"	"Indian food and Indian cultures are very important in the UK"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	11
+2020-11-10 14:07:10	"teacher008"	"teacher"	127	"*culture"	"*culture"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-10 14:07:15	"teacher008"	"teacher"	128	"well, food is part of culture"	"well, food is part of culture"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	6
+2020-11-10 14:07:38	"teacher008"	"teacher"	129	"But in every little town, there is at least one Indian restaurant. British people love Indian food!"	"But in every little town, there is at least one Indian restaurant. British people love Indian food!"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	17
+2020-11-10 14:08:34	"student009"	"student"	130	"cool"	"cool"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:09:21	"teacher008"	"teacher"	131	"And people who came to the UK from India as well as their families are now an important part of the population."	"And people who came to the UK from India as well as their families are now an important part of the population."	NA	NA	"scaffolding"	"world knowledge"	NA	NA	22
+2020-11-10 14:10:48	"teacher008"	"teacher"	132	"I bet their celebration of Diwali will also be different this year, but still!"	"I bet their celebration of Diwali will also be different this year, but still!"	NA	NA	NA	NA	NA	NA	14
+2020-11-10 14:10:49	"student009"	"student"	133	"a history + English lesson)"	"a history + English lesson)"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 14:11:00	"teacher008"	"teacher"	134	"Hope you don't mind :)"	"Hope you don't mind :)"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 14:11:03	"student009"	"student"	135	"what do you do on Diwali?"	"what do you do on Diwali?"	NA	"4a"	"enquiry"	"world knowledge"	NA	NA	6
+2020-11-10 14:11:22	"student009"	"student"	136	"of course no!it is interesting and nice to know"	"of course not! it is interesting and nice to know"	134	NA	NA	NA	NA	NA	9
+2020-11-10 14:11:54	"teacher008"	"teacher"	137	"Well, we don't celebrate it because we are an English-Ukrainian family. And our town is so small that not much is done, but a lot happens in bigger places where there are bigger Indian communities"	"Well, we don't celebrate it because we are an English-Ukrainian family. And our town is so small that not much is done, but a lot happens in bigger places where there are bigger Indian communities"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	35
+2020-11-10 14:12:02	"teacher008"	"teacher"	138	"We're going to read about it in a minute"	"We're going to read about it in a minute"	NA	"5.0"	"exercise"	"reading"	NA	NA	9
+2020-11-10 14:12:10	"teacher008"	"teacher"	139	"Just a few words to get us started"	"Just a few words to get us started"	NA	"5a"	"presentation"	"lexical resource"	NA	NA	8
+2020-11-10 14:12:51	"student009"	"student"	140	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:12:54	"teacher008"	"teacher"	141	"the word for a light inside a container (glass for example) that has a handle for holding it"	"the word for a light inside a container (glass for example) that has a handle for holding it"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+2020-11-10 14:13:04	"teacher008"	"teacher"	142	"a lantern"	"a lantern"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-11-10 14:13:16	"teacher008"	"teacher"	143	"the stress is on the first syllable, lAntern"	"the stress is on the first syllable, lAntern"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	8
+2020-11-10 14:14:42	"teacher008"	"teacher"	144	"next one"	"next one"	NA	"5b"	"presentation"	"lexical resource"	NA	NA	2
+2020-11-10 14:14:57	"teacher008"	"teacher"	145	"If two things happen at the same time, they coincide"	"If two things happen at the same time, they coincide"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+2020-11-10 14:15:04	"teacher008"	"teacher"	146	"cOincide"	"cOincide"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2020-11-10 14:15:07	"teacher008"	"teacher"	147	"with each other"	"with each other"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-11-10 14:15:42	"teacher008"	"teacher"	148	"For example, I organized my holiday so that coincided with my son's"	"For example, I organized my holiday so that coincided with my son's"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-11-10 14:16:28	"teacher008"	"teacher"	149	"In the text it will say that Diwali needs to coincide with the new moon"	"In the text it will say that Diwali needs to coincide with the new moon"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-11-10 14:16:35	"teacher008"	"teacher"	150	"which is why the exact date changes"	"which is why the exact date changes"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 14:16:41	"teacher008"	"teacher"	151	"Are all these clear for now?"	"Are all these clear for now?"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 14:16:57	"student009"	"student"	152	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:17:22	"teacher008"	"teacher"	153	"You probably know the noun for coincide"	"You probably know the noun for coincide"	NA	NA	"eliciting"	"lexical resource"	NA	NA	7
+2020-11-10 14:17:24	"teacher008"	"teacher"	154	"??"	"??"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:17:55	"teacher008"	"teacher"	155	"He said it at the same time as I did. It was a ....."	"He said it at the same time as I did. It was a ....."	NA	NA	"eliciting"	"lexical resource"	NA	NA	14
+2020-11-10 14:18:13	"student009"	"student"	156	"coincidence"	"coincidence"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:18:22	"teacher008"	"teacher"	157	"Well done:)"	"Well done:)"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 14:18:29	"teacher008"	"teacher"	158	"And one last!"	"And one last!"	NA	"5c"	"presentation"	"lexical resource"	NA	NA	3
+2020-11-10 14:18:47	"teacher008"	"teacher"	159	"Do you know what a henna tattoo is? I wonder if they are popular in Ukraine"	"Do you know what a henna tattoo is? I wonder if they are popular in Ukraine"	NA	NA	"eliciting"	"lexical resource"	NA	NA	16
+2020-11-10 14:19:01	"teacher008"	"teacher"	160	"Henna is this orange plant-based paint"	"Henna is this orange plant-based paint"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2020-11-10 14:19:35	"student009"	"student"	161	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:20:30	"teacher008"	"teacher"	162	"So people do temporary tattoos with it. They wash away with time"	"So people do temporary tattoos with it. They wash away with time"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2020-11-10 14:20:37	"teacher008"	"teacher"	163	"Do people do this in Ukraine?"	"Do people do this in Ukraine?"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 14:20:41	"teacher008"	"teacher"	164	"often on their hands and arms"	"often on their hands and arms"	162	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2020-11-10 14:21:08	"student009"	"student"	165	"sometimes yes"	"sometimes yes"	163	NA	NA	NA	NA	NA	2
+2020-11-10 14:21:18	"student009"	"student"	166	"they do"	"they do"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 14:22:04	"teacher008"	"teacher"	167	"Cool! Ok, I'll send you the link to the text. Have a read and say what Diwali is a celebration of, ok?"	"Cool! Ok, I'll send you the link to the text. Have a read and say what Diwali is a celebration of, ok?"	NA	"5d"	"exercise"	"reading"	"website"	NA	22
+2020-11-10 14:22:14	"teacher008"	"teacher"	168	"https://learnenglishteens.britishcouncil.org/uk-now/read-uk/diwali"	"https://learnenglishteens.britishcouncil.org/uk-now/read-uk/diwali"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:22:26	"teacher008"	"teacher"	169	"Does the link work?"	"Does the link work?"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 14:26:53	"student009"	"student"	170	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:26:58	"student009"	"student"	171	"I am here again"	"I am here again"	NA	"5e"	NA	NA	NA	NA	4
+2020-11-10 14:27:10	"teacher008"	"teacher"	172	"Ok! Have you had a chance to read the text?"	"Ok! Have you had a chance to read the text?"	NA	NA	NA	NA	NA	NA	10
+2020-11-10 14:27:16	"student009"	"student"	173	"I've just finished reading"	"I've just finished reading"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 14:27:32	"student009"	"student"	174	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:27:44	"teacher008"	"teacher"	175	"Ok :) so what does it celebrate?"	"Ok :) so what does it celebrate?"	NA	NA	"eliciting"	"reading"	NA	NA	7
+2020-11-10 14:28:21	"student009"	"student"	176	"it is a festival of light"	"it is a festival of light"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 14:28:48	"student009"	"student"	177	"it is similar to Easter for me"	"it is similar to Easter for me"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 14:28:59	"teacher008"	"teacher"	178	"Oh interesting, why did you think so?"	"Oh interesting, why did you think so?"	NA	NA	"eliciting"	"reading"	NA	NA	7
+2020-11-10 14:29:11	"student009"	"student"	179	"like"	"like"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:29:47	"student009"	"student"	180	"it is a bit about religion"	"it is a bit about religion"	NA	NA	NA	NA	NA	NA	6
+2020-11-10 14:30:10	"teacher008"	"teacher"	181	"yes, it's a religious festival"	"yes, it's a religious festival"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 14:30:22	"student009"	"student"	182	"everyone are cleaning their houses"	"everyone is cleaning their houses"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 14:30:32	"teacher008"	"teacher"	183	"Yes, definitely!"	"Yes, definitely!"	NA	NA	NA	NA	NA	NA	2
+2020-11-10 14:30:45	"teacher008"	"teacher"	184	"*everyone is.."	"*everyone is.."	182	NA	"repair"	"grammatical resource"	NA	NA	2
+2020-11-10 14:30:49	"student009"	"student"	185	"they both have a symbols"	"they both have a symbol"	183	NA	NA	NA	NA	NA	5
+2020-11-10 14:30:57	"student009"	"student"	186	"oops"	"oops"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:31:02	"teacher008"	"teacher"	187	"And like Easter, it's about joy and hope and forgiveness, right?"	"And like Easter, it's about joy and hope and forgiveness, right?"	NA	NA	NA	NA	NA	NA	11
+2020-11-10 14:31:10	"student009"	"student"	188	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:31:26	"teacher008"	"teacher"	189	"Ah, that's an interesting discussion, but I've got to let you go!"	"Ah, that's an interesting discussion, but I've got to let you go!"	NA	"6.0"	"closing"	NA	NA	NA	12
+2020-11-10 14:31:33	"student009"	"student"	190	"and light is a symbol of Diwali"	"and light is a symbol of Diwali"	188	NA	NA	NA	NA	NA	7
+2020-11-10 14:31:46	"student009"	"student"	191	"and an egg is a symbol of Easter"	"and an egg is a symbol of Easter"	NA	NA	NA	NA	NA	NA	8
+2020-11-10 14:31:54	"student009"	"student"	192	"okie, goodbye !"	"okie, goodbye !"	189	NA	NA	NA	NA	NA	3
+2020-11-10 14:31:59	"teacher008"	"teacher"	193	"For homework, could you think about a festival that you really like? Ukrainian, or maybe something you saw in Israel or Italy or wherever"	"For homework, could you think about a festival that you really like? Ukrainian, or maybe something you saw in Israel or Italy or wherever"	NA	"6a"	"homework"	NA	NA	NA	24
+2020-11-10 14:32:10	"teacher008"	"teacher"	194	"and tell me about it next time"	"and tell me about it next time"	NA	NA	NA	NA	NA	NA	7
+2020-11-10 14:32:14	"teacher008"	"teacher"	195	"Ok?"	"Ok?"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:32:20	"student009"	"student"	196	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-11-10 14:32:28	"teacher008"	"teacher"	197	"Ok, lovely. Take care :)"	"Ok, lovely. Take care :)"	NA	NA	NA	NA	NA	NA	5
+2020-11-10 14:32:30	"student009"	"student"	198	"have a nice day!"	"have a nice day!"	NA	NA	NA	NA	NA	NA	4
+2020-11-10 14:32:40	"teacher008"	"teacher"	199	"Thanks, you too :)"	"Thanks, you too :)"	NA	NA	NA	NA	NA	"B2"	4

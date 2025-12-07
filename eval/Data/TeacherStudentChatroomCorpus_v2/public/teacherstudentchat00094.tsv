@@ -1,0 +1,152 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-31 07:33:05	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-07-31 07:33:21	"student009"	"student"	2	"hello agaib"	"hello again"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:33:25	"student009"	"student"	3	"*n"	"*n"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-07-31 07:34:02	"teacher008"	"teacher"	4	"Hi, how are you?"	"Hi, how are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-07-31 07:34:22	"student009"	"student"	5	"I am fine , and you?"	"I am fine , and you?"	NA	NA	NA	NA	NA	NA	6
+2020-07-31 07:35:07	"teacher008"	"teacher"	6	"Fine, thank you."	"Fine, thank you."	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:35:30	"teacher008"	"teacher"	7	"A heatwave is here, and I'm very looking forward to going to the lake this weekend!"	"A heatwave is here, and I'm very looking forward to going to the lake this weekend!"	NA	"2a"	"topic development"	NA	NA	NA	16
+2020-07-31 07:36:36	"teacher008"	"teacher"	8	"Are you still in Kovel? Have you got any nice plans for the weekend?"	"Are you still in Kovel? Have you got any nice plans for the weekend?"	NA	"2b"	"topic development"	NA	NA	NA	14
+2020-07-31 07:37:29	"student009"	"student"	9	"In Kiyv , themost of lakes are dirty"	"In Kiyv, most lakes are dirty"	7	NA	NA	NA	NA	NA	8
+2020-07-31 07:37:46	"student009"	"student"	10	"I am in Kiyv now"	"I am in Kiyv now"	8	NA	NA	NA	NA	NA	5
+2020-07-31 07:38:08	"teacher008"	"teacher"	11	"What about the Dnipro? Hydropark?"	"What about the Dnipro? Hydropark?"	9	NA	NA	NA	NA	NA	5
+2020-07-31 07:38:23	"student009"	"student"	12	"it is dirty"	"it is dirty"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:38:37	"teacher008"	"teacher"	13	"Such a shame :("	"Such a shame :("	NA	NA	NA	NA	NA	NA	4
+2020-07-31 07:38:49	"teacher008"	"teacher"	14	"Nowhere to swim in Kyiv then?"	"Nowhere to swim in Kyiv then?"	NA	NA	NA	NA	NA	NA	6
+2020-07-31 07:39:20	"student009"	"student"	15	"pool is okay)"	"pool is okay)"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:39:29	"teacher008"	"teacher"	16	"Haha, well, yes!"	"Haha, well, yes!"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:39:56	"teacher008"	"teacher"	17	"We live just an hour away from the sea, but it's the North Sea, so a bit too chilly to swim"	"We live just an hour away from the sea, but it's the North Sea, so a bit too chilly to swim"	NA	NA	NA	NA	NA	NA	21
+2020-07-31 07:42:08	"teacher008"	"teacher"	18	"What have you been up to? Have you had a good week?"	"What have you been up to? Have you had a good week?"	NA	"3.0"	"topic development"	NA	NA	NA	12
+2020-07-31 07:42:44	"student009"	"student"	19	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:42:53	"student009"	"student"	20	"it was really interesting week"	"it was a really interesting week"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:43:03	"teacher008"	"teacher"	21	"Oh really?"	"Oh really?"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:43:19	"student009"	"student"	22	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:44:20	"student009"	"student"	23	"on monday we went to the quest room"	"on Monday we went to the quest room"	NA	"3a"	"topic development"	NA	NA	NA	8
+2020-07-31 07:44:43	"teacher008"	"teacher"	24	"Is it one of those where you have to escape?"	"Is it one of those where you have to escape?"	NA	NA	NA	NA	NA	NA	10
+2020-07-31 07:44:45	"student009"	"student"	25	"*Monday"	"*Monday"	23	NA	"repair"	"writing"	NA	NA	1
+2020-07-31 07:44:51	"student009"	"student"	26	"yes"	"yes"	24	NA	NA	NA	NA	NA	1
+2020-07-31 07:44:57	"teacher008"	"teacher"	27	"Did you manage?"	"Did you manage?"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:45:06	"student009"	"student"	28	"nope:("	"nope:("	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:45:16	"teacher008"	"teacher"	29	"No?"	"No?"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:45:33	"student009"	"student"	30	"we need only 10 minutes and we could have done it"	"we needed an extra 10 minutes and we could have done it"	NA	NA	NA	NA	NA	NA	11
+2020-07-31 07:46:11	"teacher008"	"teacher"	31	"Oh no! I see! What was the quest like? Did you have to crack a code or something?"	"Oh no! I see! What was the quest like? Did you have to crack a code or something?"	NA	"3b"	"topic development"	NA	NA	NA	18
+2020-07-31 07:46:18	"student009"	"student"	32	"but we had only 1 hour"	"but we had only 1 hour"	30	NA	NA	NA	NA	NA	6
+2020-07-31 07:46:47	"student009"	"student"	33	"the name of the quest was titanic"	"the name of the quest was titanic"	31	NA	NA	NA	NA	NA	7
+2020-07-31 07:46:59	"student009"	"student"	34	"we had to ran away"	"we had to run away"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:47:52	"teacher008"	"teacher"	35	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:48:17	"student009"	"student"	36	"we needed help a lot of times"	"we needed help a lot of times"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 07:48:43	"teacher008"	"teacher"	37	"Interesting"	"Interesting"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:49:00	"student009"	"student"	38	"On Tuesday we were in aquapark"	"On Tuesday we were in aquapark"	NA	"3c"	"topic development"	NA	NA	NA	6
+2020-07-31 07:49:15	"teacher008"	"teacher"	39	"Ooh, sounds lovely!"	"Ooh, sounds lovely!"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:49:45	"student009"	"student"	40	"there not a lot of slides"	"there weren't many slides"	NA	NA	NA	NA	NA	NA	6
+2020-07-31 07:49:50	"student009"	"student"	41	"only 7"	"only 7"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:49:58	"teacher008"	"teacher"	42	"7 is a lot! :)"	"7 is a lot! :)"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:50:18	"student009"	"student"	43	"for Kiyv not"	"for Kiyv not"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:50:25	"teacher008"	"teacher"	44	"Fair enough"	"Fair enough"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:50:28	"student009"	"student"	45	"and we were on 5"	"and we were on 5"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:51:00	"teacher008"	"teacher"	46	"There weren't ___ slides. 'a lot of' - for affirmative sentences, but what goes in a negative sentence?"	"There weren't ___ slides. 'a lot of' - for affirmative sentences, but what goes in a negative sentence?"	NA	"3d"	"eliciting,repair"	"grammatical resource"	NA	NA	18
+2020-07-31 07:51:23	"student009"	"student"	47	"to much?"	"too much?"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:51:31	"teacher008"	"teacher"	48	"or many"	"or many"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:51:39	"teacher008"	"teacher"	49	"There weren't many slides"	"There weren't many slides"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2020-07-31 07:51:55	"teacher008"	"teacher"	50	"He's got a lot of friends. He hasn't got many friends."	"He's got a lot of friends. He hasn't got many friends."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-07-31 07:52:21	"student009"	"student"	51	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:52:26	"teacher008"	"teacher"	52	"Did you do anything special on Wednesday too?"	"Did you do anything special on Wednesday too?"	NA	"3e"	NA	NA	NA	NA	8
+2020-07-31 07:52:42	"student009"	"student"	53	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:52:53	"student009"	"student"	54	"we swam in the pool"	"we swam in the pool"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:53:04	"student009"	"student"	55	"beach day)"	"beach day)"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:53:21	"teacher008"	"teacher"	56	"Ah lovely!"	"Ah lovely!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 07:53:57	"teacher008"	"teacher"	57	"So I guess at the weekend you will just take it easy after a busy week?"	"So I guess at the weekend you will just take it easy after a busy week?"	NA	"3f"	"topic development"	NA	NA	NA	16
+2020-07-31 07:54:05	"student009"	"student"	58	"yesterday we bought a lot of clothes"	"yesterday we bought a lot of clothes"	NA	"3g"	"topic development"	NA	NA	NA	7
+2020-07-31 07:54:27	"student009"	"student"	59	"and we were on carting"	"and we went karting"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 07:54:39	"teacher008"	"teacher"	60	"Wow, you are making the most of your holiday!"	"Wow, you are making the most of your holiday!"	NA	NA	NA	NA	NA	NA	9
+2020-07-31 07:55:10	"student009"	"student"	61	"and we skated"	"and we skated"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:55:44	"teacher008"	"teacher"	62	"It reminds me of Dreamtown in Kyiv"	"It reminds me of Dreamtown in Kyiv"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 07:55:46	"student009"	"student"	63	"and today we aee going to Kreschatik"	"and today we are going to Kreschatik"	NA	"3h"	"topic development"	NA	NA	NA	7
+2020-07-31 07:55:59	"teacher008"	"teacher"	64	"Ah, I'm jealous!"	"Ah, I'm jealous!"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 07:55:59	"student009"	"student"	65	"yes, but it is no it"	"yes, but it is not it"	NA	NA	NA	NA	NA	NA	6
+2020-07-31 07:56:23	"student009"	"student"	66	"it will be like a little excursion"	"it will be like a little excursion"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 07:56:51	"teacher008"	"teacher"	67	"oh, like a tour of Khreschatik?"	"oh, like a tour of Khreschatik?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-07-31 07:57:20	"student009"	"student"	68	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 07:57:44	"student009"	"student"	69	"it all were for my friend from Kovel"	"it was all for my friend from Kovel"	NA	"3i"	"topic development"	NA	NA	NA	8
+2020-07-31 07:58:18	"teacher008"	"teacher"	70	"Ah, I see. They came back with you?"	"Ah, I see. They came back with you?"	NA	NA	NA	NA	NA	NA	8
+2020-07-31 07:58:32	"student009"	"student"	71	"she was in Kiyv the first time five years ago and she only visited dreamtown"	"she was in Kiyv for the first time five years ago and she only visited Dreamtown"	NA	NA	NA	NA	NA	NA	15
+2020-07-31 07:58:50	"student009"	"student"	72	"yes"	"yes"	70	NA	NA	NA	NA	NA	1
+2020-07-31 07:58:56	"teacher008"	"teacher"	73	"Haha, I used to live next ot Dreamtown. It's definitely not enough!"	"Haha, I used to live next ot Dreamtown. It's definitely not enough!"	71	NA	NA	NA	NA	NA	12
+2020-07-31 08:00:52	"student009"	"student"	74	"and tomorrow we are traveling to Kovel again"	"and tomorrow we are travelling to Kovel again"	NA	NA	NA	NA	NA	NA	8
+2020-07-31 08:00:52	"teacher008"	"teacher"	75	"Ok, <STUDENT>, remember Annabel and her friends who tried to vote for her in the talent show?"	"Ok, <STUDENT>, remember Annabel and her friends who tried to vote for her in the talent show?"	NA	"4.0"	"topic opening"	"lexical resource"	NA	NA	17
+2020-07-31 08:00:58	"student009"	"student"	76	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:01:14	"teacher008"	"teacher"	77	"Will you be staying in Kovel again"	"Will you be staying in Kovel again"	74	NA	NA	NA	NA	NA	7
+2020-07-31 08:01:15	"teacher008"	"teacher"	78	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:01:17	"student009"	"student"	79	"on Sunday we will be in Lviv on a wedding"	"on Sunday we will be in Lviv for a wedding"	NA	"5.0"	"topic development"	NA	NA	NA	10
+2020-07-31 08:01:37	"student009"	"student"	80	"it the first time when I am traveling to Lviv"	"it will be the first time I've been to Lviv"	NA	NA	NA	NA	NA	NA	10
+2020-07-31 08:01:40	"teacher008"	"teacher"	81	"Oh wow! Are you sure you would like three classes next week? Sounds like you are super busy"	"Oh wow! Are you sure you would like three classes next week? Sounds like you are super busy"	NA	"5a"	"topic development"	NA	NA	NA	18
+2020-07-31 08:01:47	"student009"	"student"	82	"only for a night"	"only for a night"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 08:01:54	"teacher008"	"teacher"	83	"You will love it, Lviv is beautiful!"	"You will love it, Lviv is beautiful!"	80	NA	NA	NA	NA	NA	7
+2020-07-31 08:02:03	"teacher008"	"teacher"	84	"Have you been to a wedding before?"	"Have you been to a wedding before?"	NA	"5b"	"topic development"	NA	NA	NA	7
+2020-07-31 08:02:16	"student009"	"student"	85	"yeah, I know it"	"yeah, I know it"	83	NA	NA	NA	NA	NA	4
+2020-07-31 08:02:19	"student009"	"student"	86	"yes"	"yes"	84	NA	NA	NA	NA	NA	1
+2020-07-31 08:02:34	"student009"	"student"	87	"on my uncles wedding"	"at my uncle's wedding"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 08:03:12	"teacher008"	"teacher"	88	"I hope you enjoy it"	"I hope you enjoy it"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 08:03:29	"student009"	"student"	89	"thanks"	"thanks"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:04:22	"teacher008"	"teacher"	90	"Before you travel, it's very important to ___ ___ your phone so that the batter doesn't run too low"	"Before you travel, it's very important to ___ ___ your phone so that the batter doesn't run too low"	NA	"4a"	"eliciting"	"lexical resource"	NA	NA	19
+2020-07-31 08:04:30	"teacher008"	"teacher"	91	"What phrasal verb goes in the gap?"	"What phrasal verb goes in the gap?"	NA	NA	NA	NA	NA	NA	7
+2020-07-31 08:05:29	"student009"	"student"	92	"charge on"	"charge up"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:05:32	"student009"	"student"	93	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:05:40	"teacher008"	"teacher"	94	"Nearly! Charge up"	"Nearly! Charge up"	NA	NA	"scaffolding"	NA	NA	NA	3
+2020-07-31 08:06:28	"teacher008"	"teacher"	95	"If you forget to charge up your phone, it can ___ ___ (go black and stop working)"	"If you forget to charge up your phone, it can ___ ___ (go black and stop working)"	NA	"4b"	"eliciting"	"lexical resource"	NA	NA	17
+2020-07-31 08:07:03	"student009"	"student"	96	":("	":("	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:07:12	"teacher008"	"teacher"	97	"switch off"	"switch off"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-07-31 08:07:16	"teacher008"	"teacher"	98	"remember?"	"remember?"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:07:20	"student009"	"student"	99	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:07:44	"teacher008"	"teacher"	100	"To charge up your phone, you need to ___ it ___ (connect to the source of electricity)"	"To charge up your phone, you need to ___ it ___ (connect to the source of electricity)"	NA	"4c"	"eliciting"	"lexical resource"	NA	NA	17
+2020-07-31 08:08:06	"student009"	"student"	102	"uh"	"uh"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:08:20	"teacher008"	"teacher"	103	"plug it __"	"plug it __"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 08:08:34	"student009"	"student"	104	"in"	"in"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:09:00	"teacher008"	"teacher"	105	"yes!  and the opposite of plug it in - ?"	"yes!  and the opposite of plug it in - ?"	NA	NA	"eliciting"	"lexical resource"	NA	NA	11
+2020-07-31 08:09:09	"student009"	"student"	106	"out"	"out"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:09:12	"teacher008"	"teacher"	107	"When it's all charged up, you can ___ it"	"When it's all charged up, you can ___ it"	NA	NA	"eliciting"	"lexical resource"	NA	NA	9
+2020-07-31 08:09:18	"teacher008"	"teacher"	108	"No, one word"	"No, one word"	NA	NA	"eliciting"	"lexical resource"	NA	NA	3
+2020-07-31 08:09:21	"teacher008"	"teacher"	109	"unplug"	"unplug"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-07-31 08:09:46	"student009"	"student"	110	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:10:15	"teacher008"	"teacher"	111	"If you see a missed call from your Mum on your phone, you might want to ___ her ____ (return the call)"	"If you see a missed call from your Mum on your phone, you might want to ___ her ____ (return the call)"	NA	"4d"	"eliciting"	"lexical resource"	NA	NA	22
+2020-07-31 08:10:47	"student009"	"student"	112	"call back"	"call back"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-07-31 08:11:00	"teacher008"	"teacher"	113	"yes, good!"	"yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:11:47	"teacher008"	"teacher"	114	"Ok, now we have 'get cut off', 'put someone through' and 'get through'"	"Ok, now we have 'get cut off', 'put someone through' and 'get through'"	NA	"4e"	"scaffolding"	"lexical resource"	NA	NA	13
+2020-07-31 08:12:15	"teacher008"	"teacher"	115	"I was talking to her, but suddenly we ___ ___ ___ (I couldn't hear her anymore)"	"I was talking to her, but suddenly we ___ ___ ___ (I couldn't hear her anymore)"	NA	NA	"eliciting"	"lexical resource"	NA	NA	16
+2020-07-31 08:12:26	"teacher008"	"teacher"	116	"Can you choose one?"	"Can you choose one?"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 08:12:49	"student009"	"student"	117	"got cut off"	"got cut off"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 08:12:56	"teacher008"	"teacher"	118	"yes, good!"	"yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:13:33	"teacher008"	"teacher"	119	"I called the school office and asked, 'Could you ___ me ___ to Mr Jones?'"	"I called the school office and asked, 'Could you ___ me ___ to Mr Jones?'"	NA	"4f"	"eliciting"	"lexical resource"	NA	NA	15
+2020-07-31 08:14:04	"student009"	"student"	120	"get through"	"get through"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:14:20	"teacher008"	"teacher"	121	"Could you put me through to ..."	"Could you put me through to ..."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-07-31 08:14:24	"teacher008"	"teacher"	122	"is the expression"	"is the expression"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-07-31 08:14:43	"teacher008"	"teacher"	123	"I keep calling the doctor's but I can't __ ___. The line is busy"	"I keep calling the doctor's but I can't __ ___. The line is busy"	NA	"4g"	"scaffolding"	"lexical resource"	NA	NA	14
+2020-07-31 08:14:52	"student009"	"student"	124	"get through"	"get through"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:15:28	"teacher008"	"teacher"	125	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-07-31 08:16:11	"teacher008"	"teacher"	126	"Do you remember the story about Annabel's friends? Could you try to write down what you remember using the phrasal verbs? I'll give you a couple of minutes"	"Do you remember the story about Annabel's friends? Could you try to write down what you remember using the phrasal verbs? I'll give you a couple of minutes"	NA	"4h"	"exercise"	"lexical resource"	NA	NA	28
+2020-07-31 08:18:38	"student009"	"student"	127	"Annabel's friends wanted her to win on the show"	"Annabel's friends wanted her to win on the show"	NA	NA	NA	NA	NA	NA	9
+2020-07-31 08:19:01	"teacher008"	"teacher"	128	"yes, true"	"yes, true"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:19:15	"student009"	"student"	129	"they tried to call them , but they couldn't get through"	"they tried to call them , but they couldn't get through"	NA	NA	NA	NA	NA	NA	11
+2020-07-31 08:19:57	"teacher008"	"teacher"	130	"good!"	"good!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:22:04	"student009"	"student"	131	"one of her friends needed to charge up her phone"	"one of her friends needed to charge up her phone"	NA	NA	NA	NA	NA	NA	10
+2020-07-31 08:22:17	"student009"	"student"	132	"and she pluged it in"	"and she plugged it in"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 08:22:39	"student009"	"student"	133	"they called all their classmates"	"they called all their classmates"	NA	NA	NA	NA	NA	NA	5
+2020-07-31 08:22:52	"teacher008"	"teacher"	134	"she plugged it in, double GG"	"she plugged it in, double GG"	132	NA	"repair"	"writing"	NA	NA	6
+2020-07-31 08:23:00	"student009"	"student"	135	"to vote for Annavel"	"to vote for Annabel"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 08:23:04	"student009"	"student"	136	"*b"	"*b"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-07-31 08:25:08	"student009"	"student"	137	"and then the TV and lights switched off"	"and then the TV and lights switched off"	NA	NA	NA	NA	NA	NA	8
+2020-07-31 08:25:19	"teacher008"	"teacher"	138	"yes, true!"	"yes, true!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:25:34	"student009"	"student"	139	"when they turned on the TV , Annabel won"	"when they turned on the TV , Annabel won"	NA	NA	NA	NA	NA	NA	9
+2020-07-31 08:25:41	"teacher008"	"teacher"	140	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:26:33	"student009"	"student"	141	"but then, somebody called them back, and told them that Annabel wasn't Annabelle"	"but then, somebody called them back, and told them that Annabel wasn't Annabelle"	NA	NA	NA	NA	NA	NA	13
+2020-07-31 08:26:54	"student009"	"student"	142	"she got a pseudonym Belle E I think"	"she took on a pseudonym, Belle E I think"	NA	NA	NA	NA	NA	NA	8
+2020-07-31 08:26:58	"teacher008"	"teacher"	143	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-31 08:27:10	"teacher008"	"teacher"	144	"Well done! She took a stage name, or pseudonym"	"Well done! She took a stage name, or pseudonym"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-07-31 08:27:18	"teacher008"	"teacher"	145	"Very well done, <STUDENT>!"	"Very well done, <STUDENT>!"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 08:27:25	"student009"	"student"	146	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:29:24	"teacher008"	"teacher"	147	"Ok, considering you are going to have a very eventful weekend, let's pospone our class until Wednesday 10.30, ok? I can't do Tuesday morning again, I'm afraid."	"Ok, considering you are going to have a very eventful weekend, let's pospone our class until Wednesday 10.30, ok? I can't do Tuesday morning again, I'm afraid."	NA	"6.0"	"topic opening"	NA	NA	NA	27
+2020-07-31 08:29:45	"student009"	"student"	148	"uh , okay then"	"uh , okay then"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 08:30:11	"teacher008"	"teacher"	149	"Ok, lovely. Have a great time in Lviv!"	"Ok, lovely. Have a great time in Lviv!"	NA	"6a"	"closing"	NA	NA	NA	8
+2020-07-31 08:30:20	"student009"	"student"	150	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	NA	2
+2020-07-31 08:30:40	"student009"	"student"	151	"have a nice day☀️)"	"have a nice day☀️)"	NA	NA	NA	NA	NA	NA	4
+2020-07-31 08:30:48	"teacher008"	"teacher"	152	"Thank you :) take care!"	"Thank you :) take care!"	NA	NA	NA	NA	NA	"B2"	5

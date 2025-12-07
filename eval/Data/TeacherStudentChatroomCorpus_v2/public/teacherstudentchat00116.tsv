@@ -1,0 +1,251 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-10-02 12:30:39	"teacher008"	"teacher"	207	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-10-02 12:31:02	"student009"	"student"	208	"hello <TEACHER>"	"hello <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 12:31:13	"student009"	"student"	209	"who is the <ANOTHER STUDENT>?"	"who is <ANOTHER STUDENT>?"	NA	"2.0"	"topic opening"	NA	NA	NA	5
+2020-10-02 12:31:27	"teacher008"	"teacher"	210	"It's another student, <ANOTHER STUDENT>)"	"It's another student, <ANOTHER STUDENT>)"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 12:31:38	"student009"	"student"	211	"why is she here?"	"why is she here?"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 12:31:49	"teacher008"	"teacher"	212	"I just finished a class with her, but the chat is still here"	"I just finished a class with her, but the chat is still here"	NA	NA	NA	NA	NA	NA	13
+2020-10-02 12:31:57	"student009"	"student"	213	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:31:59	"student009"	"student"	214	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:32:07	"student009"	"student"	215	"where is she from?"	"where is she from?"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 12:32:11	"teacher008"	"teacher"	216	"Kyiv"	"Kyiv"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:32:28	"teacher008"	"teacher"	217	"I think she left now, or maybe she forgot to shut the program"	"I think she left now, or maybe she forgot to shut the program"	NA	NA	NA	NA	NA	NA	13
+2020-10-02 12:32:28	"student009"	"student"	218	"from <LANGUAGE SCHOOL>?"	"from <LANGUAGE SCHOOL>?"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 12:32:35	"student009"	"student"	219	"maybe"	"maybe"	217	NA	NA	NA	NA	NA	1
+2020-10-02 12:32:54	"student009"	"student"	220	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:33:00	"teacher008"	"teacher"	221	"Well, she used to take classes at <LANGUAGE SCHOOL> actually, but she is my grown-up student"	"Well, she used to take classes at <LANGUAGE SCHOOL> actually, but she is my grown-up student"	218	NA	NA	NA	NA	NA	16
+2020-10-02 12:33:24	"student009"	"student"	222	"really?how old is she?"	"really? how old is she?"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 12:33:33	"teacher008"	"teacher"	223	"about my age)"	"about my age)"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 12:33:46	"student009"	"student"	224	"that's nice"	"that's nice"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 12:34:18	"teacher008"	"teacher"	225	"yes, it's nice that so many people of different ages take part in this research!"	"yes, it's nice that so many people of different ages take part in this research!"	NA	NA	NA	NA	NA	NA	15
+2020-10-02 12:34:25	"student009"	"student"	226	"but I don't know how old are you hehe"	"but I don't know how old you are, hehe"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 12:35:01	"teacher008"	"teacher"	227	"By the way, have you mentioned at school or at <LANGUAGE SCHOOL> that you've been helping science by taking part in a research by the University of Cambridge?"	"By the way, have you mentioned at school or at <LANGUAGE SCHOOL> that you've been helping science by taking part in a research by the University of Cambridge?"	NA	"2a"	"topic development"	NA	NA	NA	28
+2020-10-02 12:35:14	"student009"	"student"	228	"no, I didn't"	"no, I haven't"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 12:35:22	"student009"	"student"	229	"nobody asked so"	"nobody asked so"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 12:35:36	"teacher008"	"teacher"	230	"well, it's not a secret, feel free to mention it if you want to))"	"well, it's not a secret, feel free to mention it if you want to))"	NA	NA	NA	NA	NA	NA	14
+2020-10-02 12:35:41	"student009"	"student"	231	"how is research ?"	"how is the research?"	NA	"2b"	"topic development"	NA	NA	NA	4
+2020-10-02 12:36:03	"student009"	"student"	232	"yeah, but there is no reason to tell someone about that"	"yeah, but there is no reason to tell someone about that"	230	NA	NA	NA	NA	NA	11
+2020-10-02 12:36:29	"teacher008"	"teacher"	233	"I actually don't know! I'm providing the material for it and helping analize it initially, but I don't know what's happening. There is a big research team!"	"I actually don't know! I'm providing the material for it and helping analize it initially, but I don't know what's happening. There is a big research team!"	231	NA	NA	NA	NA	NA	27
+2020-10-02 12:36:38	"student009"	"student"	234	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:37:00	"teacher008"	"teacher"	235	"sorry, analyze with a 'y'"	"sorry, analyze with a 'y'"	233	NA	"repair"	"writing"	NA	NA	5
+2020-10-02 12:37:18	"student009"	"student"	236	"you don't even know how long you will be going to teach students"	"you don't even know how long you will be going to teach students"	NA	NA	NA	NA	NA	NA	13
+2020-10-02 12:37:21	"student009"	"student"	237	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:37:31	"teacher008"	"teacher"	238	"I don't!"	"I don't!"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 12:37:40	"teacher008"	"teacher"	239	"But we can enjoy it while it lasts :)"	"But we can enjoy it while it lasts :)"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 12:37:43	"student009"	"student"	240	"interesting"	"interesting"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:37:49	"teacher008"	"teacher"	241	"How are you, <STUDENT>?"	"How are you, <STUDENT>?"	NA	"3.0"	"topic opening"	NA	NA	NA	4
+2020-10-02 12:37:49	"student009"	"student"	242	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:38:12	"student009"	"student"	243	"I am fine"	"I am fine"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 12:38:27	"student009"	"student"	244	"but a bit upset"	"but a bit upset"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 12:38:42	"teacher008"	"teacher"	245	"oh really? what's wrong?"	"oh really? what's wrong?"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 12:38:51	"student009"	"student"	246	"by the way"	"by the way"	NA	"3a"	"topic opening"	NA	NA	NA	3
+2020-10-02 12:39:15	"student009"	"student"	247	"happy teachers day( it is going to be on that sunday)!"	"Happy Teacher's Day ( it is going to be this Sunday)!"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 12:39:46	"teacher008"	"teacher"	248	"Oh thank you, sweetie! I've forgotten about that!"	"Oh thank you, sweetie! I've forgotten about that!"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 12:39:52	"student009"	"student"	249	"heh)"	"heh)"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:40:00	"student009"	"student"	250	"you are welcome"	"you are welcome"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 12:40:30	"student009"	"student"	251	"so I am the leader of my class"	"so I am the leader of my class"	245	NA	NA	NA	NA	NA	8
+2020-10-02 12:40:41	"student009"	"student"	252	"it is like the president or mayor"	"it is like the president or mayor"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 12:41:09	"teacher008"	"teacher"	253	"oh like a head girl?"	"oh like a head girl?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-10-02 12:41:14	"student009"	"student"	254	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:41:31	"teacher008"	"teacher"	255	"wow, amazing! Not an easy role, is it?"	"wow, amazing! Not an easy role, is it?"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 12:41:51	"student009"	"student"	256	"so somebody has got to made some decorations"	"so somebody had got to make some decorations"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 12:42:06	"teacher008"	"teacher"	257	"for Teacher's Day?"	"for Teacher's Day?"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 12:42:12	"student009"	"student"	258	"and nobody of course wasn't going to do it"	"and nobody of course was going to do it"	256	NA	NA	NA	NA	NA	9
+2020-10-02 12:42:16	"student009"	"student"	259	"yel"	"yep"	257	NA	NA	NA	NA	NA	1
+2020-10-02 12:42:21	"student009"	"student"	260	"*p"	"*p"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-10-02 12:43:04	"teacher008"	"teacher"	261	"and it puts you in a difficult position because you feel as a head girl you're responsible for it?"	"and it puts you in a difficult position because you feel as a head girl you're responsible for it?"	258	NA	NA	NA	NA	NA	19
+2020-10-02 12:43:40	"student009"	"student"	262	"so yesterday I have bought some balloons and paper"	"so yesterday I have bought some balloons and paper"	258	NA	NA	NA	NA	NA	9
+2020-10-02 12:44:04	"student009"	"student"	263	"so today I woke up earlier to make decorations"	"so today I woke up earlier to make the decorations"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 12:44:50	"teacher008"	"teacher"	264	"a lot of extra work for you!"	"a lot of extra work for you!"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 12:44:55	"student009"	"student"	265	"I made title 'happy teachers day' from paper"	"I made a title 'happy teacher's day' from the paper"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 12:45:00	"student009"	"student"	266	"yes"	"yes"	263	NA	NA	NA	NA	NA	1
+2020-10-02 12:45:14	"student009"	"student"	267	"and my friend also helped me"	"and my friend also helped me"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 12:45:27	"teacher008"	"teacher"	268	"that's nice"	"that's nice"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 12:46:28	"student009"	"student"	269	"so on the brake we inflated the balloons and glued  letters with the tape"	"so during the break we inflated the balloons and taped the letters on"	NA	NA	NA	NA	NA	NA	15
+2020-10-02 12:46:40	"teacher008"	"teacher"	270	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:47:21	"student009"	"student"	271	"while we were inflating , some boys disturbed us"	"while we were inflating the balloons, some boys disturbed us"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 12:47:42	"student009"	"student"	272	"I asked them not to do this"	"I asked them not to do this"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 12:48:04	"student009"	"student"	273	"some of them listened, but one of them maybe don'"	"some of them listened, but one of them maybe doesn't"	NA	NA	NA	NA	NA	NA	10
+2020-10-02 12:48:13	"student009"	"student"	275	"*don't like me"	"*doesn't like me"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-10-02 12:49:06	"student009"	"student"	276	"so he continued doing this because he wanted to drive me wild(that's easy to do)"	"so he continued doing this because he wanted to drive me mad (that's easy to do)"	NA	NA	NA	NA	NA	NA	15
+2020-10-02 12:49:28	"teacher008"	"teacher"	277	"Oh poor <STUDENT>, it doesn't sound good!"	"Oh poor <STUDENT>, it doesn't sound good!"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 12:51:16	"student009"	"student"	278	"we finished decorating , but after that on one  of the next breaks, everybody was 'having a fun' with the balloons"	"we finished decorating, but after that during one of the next breaks, everybody was 'having fun' with the balloons"	NA	NA	NA	NA	NA	NA	22
+2020-10-02 12:51:36	"student009"	"student"	279	"I tried to stop them"	"I tried to stop them"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 12:51:49	"teacher008"	"teacher"	280	"Did the balloons pop?"	"Did the balloons pop?"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 12:53:07	"student009"	"student"	281	"but I've got to call our class teacher and I asked her to stop them"	"but I had to call our class teacher and I asked her to stop them"	279	NA	NA	NA	NA	NA	15
+2020-10-02 12:53:21	"student009"	"student"	282	"yes, the big part"	"yes, a big part of them"	280	NA	NA	NA	NA	NA	4
+2020-10-02 12:53:42	"student009"	"student"	283	"they poped them not accidentally !"	"they popped them not accidentally !"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 12:53:50	"student009"	"student"	284	"just to have some fun"	"just to have some fun"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 12:54:49	"teacher008"	"teacher"	285	"I see. It was hard work and a lot of preparation for you and your friend and they decided to play with the balloons and destroyed them?"	"I see. It was hard work and a lot of preparation for you and your friend and they decided to play with the balloons and destroyed them?"	NA	NA	NA	NA	NA	NA	27
+2020-10-02 12:54:51	"student009"	"student"	286	"and they made some letters fell ( l and ya)"	"and they made some letters fall off ( l and ya)"	NA	NA	NA	NA	NA	NA	10
+2020-10-02 12:54:58	"student009"	"student"	287	"yes"	"yes"	285	NA	NA	NA	NA	NA	1
+2020-10-02 12:55:09	"teacher008"	"teacher"	288	"Very very upsetting! I can imagine"	"Very very upsetting! I can imagine"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 12:55:42	"student009"	"student"	289	"I was very sad and angry"	"I was very sad and angry"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 12:56:03	"teacher008"	"teacher"	290	"I see why!"	"I see why!"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 12:56:31	"student009"	"student"	291	"but one boy named <STUDENT'S CLASSMATE> swept all poped balloons away"	"but one boy named <STUDENT'S CLASSMATE> swept all popped balloons away"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 12:56:42	"teacher008"	"teacher"	292	"Do you have school on Saturdays?"	"Do you have school on Saturdays?"	NA	"3b"	"topic development"	NA	NA	NA	6
+2020-10-02 12:56:51	"student009"	"student"	293	"and I am really thankful to him"	"and I am really thankful to him"	291	NA	NA	NA	NA	NA	7
+2020-10-02 12:56:55	"student009"	"student"	294	"no"	"no"	292	NA	NA	NA	NA	NA	1
+2020-10-02 12:57:02	"teacher008"	"teacher"	295	"ah, so some people saw that it was hard on you"	"ah, so some people saw that it was hard on you"	293	NA	NA	NA	NA	NA	11
+2020-10-02 12:57:31	"student009"	"student"	296	"but my friend <STUDENT'S FRIEND> made me angry like nobody"	"but my friend <STUDENT'S FRIEND> made me angry like nobody else"	NA	"3c"	"topic development"	NA	NA	NA	10
+2020-10-02 12:57:42	"teacher008"	"teacher"	297	"Did you still have the Teacher's Day celebration, even if the decorations were damaged?"	"Did you still have the Teacher's Day celebration, even if the decorations were damaged?"	NA	"3d"	"topic development"	NA	NA	NA	14
+2020-10-02 12:57:51	"student009"	"student"	298	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:58:07	"student009"	"student"	299	"I glued the letters on their place"	"I glued the letters back in their places"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 12:58:20	"student009"	"student"	301	"and some balloons were alive"	"and some balloons were alive"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 12:58:32	"teacher008"	"teacher"	302	"what do you mean?"	"what do you mean?"	NA	"3e"	"eliciting"	"lexical resource"	NA	NA	4
+2020-10-02 12:58:41	"student009"	"student"	303	"by what?"	"by what?"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 12:58:51	"teacher008"	"teacher"	304	"the balloons were alive"	"the balloons were alive"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 12:58:57	"teacher008"	"teacher"	305	"I hope they weren't!))"	"I hope they weren't!))"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 12:59:02	"student009"	"student"	306	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 12:59:28	"student009"	"student"	307	"I mean they didn't pop all the balloons,but the biggest part"	"I mean they didn't pop all the balloons, but most of them"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:00:01	"teacher008"	"teacher"	308	"aah, some of the balloons were ok then)"	"aah, some of the balloons were ok then)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-10-02 13:00:52	"student009"	"student"	309	"so while we were decorating , and one boy wanted to drive me wuld, I've told him to stop,when my friend <STUDENT'S FRIEND> said"	"so while we were decorating and one boy wanted to drive me mad, I told him to stop, when my friend <STUDENT'S FRIEND> said"	296	NA	NA	NA	NA	NA	24
+2020-10-02 13:01:04	"student009"	"student"	310	"Relax! '"	"Relax! '"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:01:15	"student009"	"student"	311	"like I am doing something bad"	"like I was doing something bad"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:01:58	"teacher008"	"teacher"	312	"ah, you feel like she didn't support you?"	"ah, you feel like she didn't support you?"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:02:11	"student009"	"student"	313	"I felt like I want to punch her"	"I felt like I wanted to punch her"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:02:26	"teacher008"	"teacher"	314	"yes, I can imagine"	"yes, I can imagine"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:02:37	"student009"	"student"	315	"because she is not really good friend"	"because she is not really a good friend"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:02:53	"teacher008"	"teacher"	317	"I hope you and her can work it out!"	"I hope you and her can work it out!"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 13:02:57	"student009"	"student"	318	"and after that I don't want to be friend to her"	"and after that I don't want to be friends with her"	315	NA	NA	NA	NA	NA	11
+2020-10-02 13:03:29	"student009"	"student"	319	"when she said me something , and I didn't respond she said 'What happened ?'"	"when she told me something and I didn't respond, she said, 'What happened ?'"	NA	NA	NA	NA	NA	NA	15
+2020-10-02 13:03:43	"student009"	"student"	321	"seriously ?"	"seriously?"	317	NA	NA	NA	NA	NA	2
+2020-10-02 13:04:08	"teacher008"	"teacher"	322	"sounds like a bad miscommunication between you and <STUDENT'S FRIEND>!"	"sounds like a bad miscommunication between you and <STUDENT'S FRIEND>!"	NA	NA	NA	NA	NA	NA	10
+2020-10-02 13:04:15	"student009"	"student"	323	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:04:43	"student009"	"student"	324	"do you want to know why I don't really like her as a friend ?"	"do you want to know why I don't really like her as a friend ?"	NA	"3f"	"topic development"	NA	NA	NA	15
+2020-10-02 13:04:52	"teacher008"	"teacher"	325	"why?"	"why?"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:05:42	"student009"	"student"	326	"it happened  in May(quarantine )"	"it happened  in May (quarantine)"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:06:03	"student009"	"student"	331	"morning, everything was fine"	"in the morning, everything was fine"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:06:11	"student009"	"student"	333	"in the*"	"in the*"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+2020-10-02 13:06:20	"student009"	"student"	334	"we were chatting"	"we were chatting"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 13:06:32	"student009"	"student"	335	"but about at 12 o'clock"	"but at about 12 o'clock"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 13:06:52	"student009"	"student"	337	"when I asked her something"	"when I asked her something"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 13:07:02	"student009"	"student"	339	"she didn't say anything"	"she didn't say anything"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:07:37	"student009"	"student"	340	"I called her, asking what happened"	"I called her, asking what happened"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:07:48	"student009"	"student"	341	"but she didn't respond"	"but she didn't respond"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:08:19	"teacher008"	"teacher"	342	"do you know what was wrong?"	"do you know what was wrong?"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:08:20	"student009"	"student"	343	"she blocked me on Instagram and TikTok"	"she blocked me on Instagram and TikTok"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:08:31	"teacher008"	"teacher"	346	"goodness!"	"goodness!"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:08:36	"student009"	"student"	347	"so we didn't talk for long"	"so we didn't talk for a long time"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:08:45	"student009"	"student"	348	"and on July"	"and in July"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 13:09:38	"student009"	"student"	349	"I asked our friend to ask her what happend"	"I asked our friend to ask her what had happened"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 13:10:15	"student009"	"student"	350	"and after that she typed my on Instagram 'hi, maybe lets talk?'"	"and after that she messaged me on  Instagram with 'hi, maybe let's talk?'"	NA	NA	NA	NA	NA	NA	12
+2020-10-02 13:10:27	"student009"	"student"	351	"I agreed"	"I agreed"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:10:27	"teacher008"	"teacher"	352	"ok, she made an attempt then"	"ok, she made an attempt then"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:10:55	"student009"	"student"	353	"she said, that it was a bad situation ( like it is also my fault!)"	"she said that it was a bad situation (like it was also my fault!)"	NA	NA	NA	NA	NA	NA	15
+2020-10-02 13:11:04	"student009"	"student"	354	"so reason was"	"so the reason was"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 13:11:43	"student009"	"student"	355	"she had one thing to do on quarantine , she was doing some research on internet etc."	"she had one thing to do during the quarantine, she was doing some research on the Internet etc."	NA	NA	NA	NA	NA	NA	17
+2020-10-02 13:12:02	"student009"	"student"	356	"so she didn't have time to talk t"	"so she didn't have time to talk"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:12:15	"student009"	"student"	357	"to me"	"to me"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:12:33	"student009"	"student"	358	"(but we talked every day)"	"(but we talked every day)"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 13:12:56	"student009"	"student"	359	"so she wasn't even intrested to call me"	"so she wasn't even interested in calling me"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:13:04	"teacher008"	"teacher"	360	"I see, it doesn't sound like a good enough reason for you?"	"I see, it doesn't sound like a good enough reason for you?"	NA	NA	NA	NA	NA	NA	12
+2020-10-02 13:13:18	"teacher008"	"teacher"	361	"and she didn't communicate that she was busy very well, did she?"	"and she didn't communicate that she was busy very well, did she?"	NA	NA	NA	NA	NA	NA	12
+2020-10-02 13:13:48	"student009"	"student"	362	"and she said we had some disagreements( but we didn't !)"	"and she said we had some disagreements( but we didn't !)"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:14:20	"student009"	"student"	363	"she wasn't really busy, we communicated every day"	"she wasn't really busy, we communicated every day"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:14:52	"teacher008"	"teacher"	364	"Oh, I see! It's pretty complicated"	"Oh, I see! It's pretty complicated"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:15:07	"student009"	"student"	365	"I've told' why you couldn't just to tell me about it?"	"I said, 'why couldn't you just tell me about it?"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:15:38	"student009"	"student"	366	"the worst for me was that she didn't even say anything"	"the worst for me was that she didn't even say anything"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:15:51	"student009"	"student"	367	"tell without to"	"tell without to"	365	NA	"repair"	"lexical resource"	NA	NA	3
+2020-10-02 13:15:53	"teacher008"	"teacher"	368	"Yes, a lack of communication is the worst"	"Yes, a lack of communication is the worst"	366	NA	NA	NA	NA	NA	8
+2020-10-02 13:16:04	"teacher008"	"teacher"	369	"yes, good correction"	"yes, good correction"	367	NA	NA	NA	NA	NA	3
+2020-10-02 13:16:43	"student009"	"student"	370	"and ahe said ' I thought it is going to be better if I won't say anything '"	"and she said, 'I thought it would be better if I didn't say anything '"	366	NA	NA	NA	NA	NA	18
+2020-10-02 13:17:00	"student009"	"student"	371	"she didn't want to be friend until the September"	"she didn't want to be friends until September"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 13:17:25	"student009"	"student"	372	"she said' maybe lets have a brake till the September ?'"	"she said, 'Maybe let's have a break until September?'"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:17:30	"student009"	"student"	373	"I agreed"	"I agreed"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:18:03	"teacher008"	"teacher"	374	"She might not enjoy chatting online? Some people prefer face-to-face communication"	"She might not enjoy chatting online? Some people prefer face-to-face communication"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:18:09	"student009"	"student"	375	"and on the first day of school we talked to each other a bit"	"and on the first day of school we talked to each other a bit"	373	NA	NA	NA	NA	NA	14
+2020-10-02 13:18:13	"student009"	"student"	376	"no"	"no"	374	NA	NA	NA	NA	NA	1
+2020-10-02 13:18:22	"student009"	"student"	377	"it wasn't her reason"	"it wasn't her reason"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:19:07	"student009"	"student"	378	"but after that everything got on well"	"but after that we got on well"	375	NA	NA	NA	NA	NA	7
+2020-10-02 13:19:14	"student009"	"student"	379	"but today"	"but today"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:19:25	"teacher008"	"teacher"	380	"After that you and <STUDENT'S FRIEND> got on well you mean?"	"After that you and <STUDENT'S FRIEND> got on well you mean?"	378	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-10-02 13:19:46	"student009"	"student"	381	"I didn't like her behavior at all"	"I didn't like her behavior at all"	379	NA	NA	NA	NA	NA	7
+2020-10-02 13:19:50	"student009"	"student"	382	"yes"	"yes"	380	NA	NA	NA	NA	NA	1
+2020-10-02 13:20:41	"teacher008"	"teacher"	383	"I see! You wanted her stand up to those boys"	"I see! You wanted her stand up to those boys"	NA	NA	NA	NA	NA	NA	10
+2020-10-02 13:20:54	"teacher008"	"teacher"	384	"Do you remember 'stand up to someone'?"	"Do you remember 'stand up to someone'?"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	7
+2020-10-02 13:21:31	"student009"	"student"	385	"first, the baloons , second, when  i said something jokingly, she looked at me like I am a stupido and said something about me to my friend <STUDENT'S FRIEND1>"	"first, the balloons, second, when I said something jokingly, she looked at me like I was stupid and said something about me to my friend <STUDENT'S FRIEND1>"	383	NA	NA	NA	NA	NA	30
+2020-10-02 13:21:39	"student009"	"student"	387	"yes, I remember"	"yes, I remember"	384	NA	NA	NA	NA	NA	3
+2020-10-02 13:22:28	"student009"	"student"	388	"by the way, today my Ukrainian teacher had a good mood"	"by the way, today my Ukrainian teacher was in a good mood"	NA	"4.0"	"topic opening"	NA	NA	NA	11
+2020-10-02 13:22:38	"student009"	"student"	389	"so I have a good mark togay"	"so I got a good mark today"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:22:42	"teacher008"	"teacher"	390	"Does it mean you god a good mark?"	"Does it mean you got a good mark?"	388	NA	NA	NA	NA	NA	8
+2020-10-02 13:22:42	"student009"	"student"	391	"*d"	"*d"	389	NA	"repair"	"writing"	NA	NA	1
+2020-10-02 13:22:46	"teacher008"	"teacher"	392	"Haha, good! :)"	"Haha, good! :)"	390	NA	NA	NA	NA	NA	3
+2020-10-02 13:22:52	"student009"	"student"	393	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:22:58	"teacher008"	"teacher"	394	"Maybe you just got a good mark because you deserved it?"	"Maybe you just got a good mark because you deserved it?"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:23:09	"student009"	"student"	395	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:23:18	"teacher008"	"teacher"	396	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:23:25	"student009"	"student"	397	"do you want a funny fact?"	"do you want a funny fact?"	NA	"5.0"	"topic opening"	NA	NA	NA	6
+2020-10-02 13:23:29	"teacher008"	"teacher"	398	"Go on!"	"Go on!"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:24:02	"student009"	"student"	399	"on Sunday I have got 2 classes: logical math and programming"	"on Sunday I have got 2 classes, logical math and programming"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:24:18	"student009"	"student"	400	"but my classmate invite me on his birthday"	"but my classmate invited me to his birthday"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:24:52	"student009"	"student"	401	"so I am going to miss the programming class!"	"so I am going to miss the programming class!"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 13:24:58	"teacher008"	"teacher"	402	"they invited you __ their birthday"	"they invited you __ their birthday"	400	NA	"eliciting,repair"	"lexical resource"	NA	NA	6
+2020-10-02 13:25:05	"student009"	"student"	403	"to?"	"to?"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:25:08	"teacher008"	"teacher"	404	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:25:22	"teacher008"	"teacher"	405	"but 'on my birthday', as you remember"	"but 'on my birthday', as you remember"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-10-02 13:25:28	"teacher008"	"teacher"	406	"invite to a party etc."	"invite to a party etc."	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-10-02 13:25:53	"student009"	"student"	407	"but my teacher is going to give me a homework for that)"	"but my teacher is going to give me a homework for that)"	401	NA	NA	NA	NA	NA	12
+2020-10-02 13:26:00	"student009"	"student"	408	"so everything is fine"	"so everything is fine"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:26:10	"teacher008"	"teacher"	409	"good!"	"good!"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:26:17	"student009"	"student"	410	"there is also a funny story from yesterday"	"there is also a funny story from yesterday"	NA	"6.0"	"topic opening"	NA	NA	NA	8
+2020-10-02 13:27:14	"student009"	"student"	411	"because of the teachers day, we had some cakes for all of our teachers"	"because of the teacher's day, we had some cakes for all our teachers"	NA	NA	NA	NA	NA	NA	14
+2020-10-02 13:27:27	"teacher008"	"teacher"	412	"lucky teachers!"	"lucky teachers!"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:27:41	"student009"	"student"	413	"we gave our PE teacher a cake"	"we gave our PE teacher a cake"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:28:08	"student009"	"student"	414	"one of the boys in our class asked us 'can i eat it?'"	"one of the boys in our class asked us, 'Can i eat it?'"	NA	NA	NA	NA	NA	NA	13
+2020-10-02 13:28:25	"student009"	"student"	416	"we jokingly said 'yes, you can'"	"we jokingly said, 'yes, you can'"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:28:32	"teacher008"	"teacher"	417	"and did he??"	"and did he??"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 13:28:45	"student009"	"student"	418	"he opened it and started to eat it!"	"he opened it and started to eat it!"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:28:58	"teacher008"	"teacher"	419	"Oh nooo!"	"Oh nooo!"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:29:08	"student009"	"student"	420	"I said ' what are you doing?!'"	"I said ' what are you doing?!'"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:29:21	"student009"	"student"	421	"he said I thought it wasn't a joke..."	"he said I thought it wasn't a joke..."	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:29:43	"student009"	"student"	422	"so he ran to our class and has taken the new one"	"so he ran to our classroom and brought a new one"	NA	NA	NA	NA	NA	NA	12
+2020-10-02 13:29:49	"teacher008"	"teacher"	423	"oh bless)) he must have been hungry!"	"oh bless)) he must have been hungry!"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:30:00	"student009"	"student"	424	"but out teacher said 'no, thank you'"	"but out teacher said 'no, thank you'"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:30:05	"teacher008"	"teacher"	425	"That's a lovely story!)))"	"That's a lovely story!)))"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:30:16	"student009"	"student"	426	"so he ran there the second time"	"so he ran there the second time"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:30:21	"student009"	"student"	427	"and aft"	"and aft"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:30:30	"student009"	"student"	428	"er the lesson"	"er the lesson"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 13:30:58	"student009"	"student"	429	"our teacher gave each of us a piece of this cake)"	"our teacher gave each of us a piece of this cake)"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:31:02	"student009"	"student"	430	"wow"	"wow"	NA	"7.0"	"topic opening"	NA	NA	NA	1
+2020-10-02 13:31:22	"student009"	"student"	431	"I've talked all the lesson"	"I've talked all the lesson"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 13:31:35	"teacher008"	"teacher"	432	"It's ok, I like to hear your news!"	"It's ok, I like to hear your news!"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:31:36	"student009"	"student"	433	"I just like to tell you about my life)"	"I just like to tell you about my life)"	NA	NA	NA	NA	NA	NA	9
+2020-10-02 13:31:45	"student009"	"student"	434	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:31:58	"teacher008"	"teacher"	435	"And it's quite impressive that you can do it all in English!"	"And it's quite impressive that you can do it all in English!"	NA	NA	NA	NA	NA	NA	12
+2020-10-02 13:32:08	"teacher008"	"teacher"	436	"We'll do some more structured stuff next time"	"We'll do some more structured stuff next time"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:32:12	"student009"	"student"	437	"yay"	"yay"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:32:40	"student009"	"student"	438	"I think I am going to have some more storys)"	"I think I am going to have some more stories)"	NA	NA	NA	NA	NA	NA	10
+2020-10-02 13:32:43	"teacher008"	"teacher"	439	"Speaking of next time, I'm going to take most of next week off to redecorate, so I'm cancelling classes until the week after"	"Speaking of next time, I'm going to take most of next week off to redecorate, so I'm cancelling classes until the week after"	NA	"8.0"	"closing"	NA	NA	NA	23
+2020-10-02 13:33:05	"teacher008"	"teacher"	440	"I have an idea!"	"I have an idea!"	NA	"8a"	"homework"	NA	NA	NA	4
+2020-10-02 13:33:14	"student009"	"student"	441	"so what does it mean?"	"so what does it mean?"	439	NA	NA	NA	NA	NA	5
+2020-10-02 13:33:26	"student009"	"student"	442	"what idea?"	"what idea?"	440	NA	NA	NA	NA	NA	2
+2020-10-02 13:33:31	"teacher008"	"teacher"	443	"If you have more stories to tell, maybe you can type them before the class, as homework, and then copy the text here"	"If you have more stories to tell, maybe you can type them before the class, as homework, and then copy the text here"	NA	NA	NA	NA	NA	NA	23
+2020-10-02 13:33:37	"teacher008"	"teacher"	444	"If you want to! You don't have to!"	"If you want to! You don't have to!"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:33:45	"student009"	"student"	445	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:33:49	"student009"	"student"	446	"nice idea"	"nice idea"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:34:06	"student009"	"student"	447	"I am going to try doing that"	"I am going to try doing that"	NA	NA	NA	NA	NA	NA	7
+2020-10-02 13:34:13	"teacher008"	"teacher"	448	"and then you will still tell me what's going on in your life, but we'll also have time for other things)"	"and then you will still tell me what's going on in your life, but we'll also have time for other things)"	NA	NA	NA	NA	NA	NA	21
+2020-10-02 13:34:18	"teacher008"	"teacher"	449	"Wonderful!"	"Wonderful!"	447	NA	NA	NA	NA	NA	1
+2020-10-02 13:34:24	"student009"	"student"	450	"yay"	"yay"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:34:43	"student009"	"student"	451	"okay, thank you so much for the lesson"	"okay, thank you so much for the lesson"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:34:47	"teacher008"	"teacher"	452	"I'm going to schedule the next class for October 14 (Wednesday), ok?"	"I'm going to schedule the next class for October 14 (Wednesday), ok?"	441	NA	NA	NA	NA	NA	12
+2020-10-02 13:34:54	"student009"	"student"	453	"oh no"	"oh no"	NA	NA	NA	NA	NA	NA	2
+2020-10-02 13:35:07	"teacher008"	"teacher"	454	"But if I finish what I need to do early and can do next Friday, I'll let you know, ok?"	"But if I finish what I need to do early and can do next Friday, I'll let you know, ok?"	452	NA	NA	NA	NA	NA	20
+2020-10-02 13:35:16	"teacher008"	"teacher"	455	"No?"	"No?"	453	NA	NA	NA	NA	NA	1
+2020-10-02 13:35:18	"student009"	"student"	456	"I can do it on Tuesday and Friday"	"I can do it on Tuesday and Friday"	NA	NA	NA	NA	NA	NA	8
+2020-10-02 13:35:35	"teacher008"	"teacher"	457	"Sorry, my bad!"	"Sorry, my bad!"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 13:35:41	"student009"	"student"	458	"Monday and Wednesday - <LANGUAGE SCHOOL>"	"Monday and Wednesday - <LANGUAGE SCHOOL>"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:35:52	"teacher008"	"teacher"	459	"44117.0"	"44117.0"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:35:54	"student009"	"student"	460	"Thursday - acting"	"Thursday - acting"	NA	NA	NA	NA	NA	NA	3
+2020-10-02 13:35:56	"teacher008"	"teacher"	461	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:36:05	"teacher008"	"teacher"	462	"Sorry, I've made a mistake"	"Sorry, I've made a mistake"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 13:36:07	"student009"	"student"	463	"in two weeks, yes?"	"in two weeks, yes?"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:36:14	"teacher008"	"teacher"	464	"Yes, Tuesday in two weeks"	"Yes, Tuesday in two weeks"	NA	NA	NA	NA	NA	NA	5
+2020-10-02 13:36:21	"student009"	"student"	465	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2020-10-02 13:36:22	"teacher008"	"teacher"	466	"but if I can do next Friday, I'll let you know"	"but if I can do next Friday, I'll let you know"	NA	NA	NA	NA	NA	NA	11
+2020-10-02 13:36:41	"teacher008"	"teacher"	467	"Ok, have a lovely weekend! And write down your stories for me if you want to :)"	"Ok, have a lovely weekend! And write down your stories for me if you want to :)"	NA	NA	NA	NA	NA	NA	17
+2020-10-02 13:36:41	"student009"	"student"	468	"okay, have a nice day, goodbye!"	"okay, have a nice day, goodbye!"	NA	NA	NA	NA	NA	NA	6
+2020-10-02 13:36:50	"student009"	"student"	469	"text me in Skype"	"text me on Skype"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:36:58	"teacher008"	"teacher"	470	"Bye <STUDENT>, take care!"	"Bye <STUDENT>, take care!"	NA	NA	NA	NA	NA	NA	4
+2020-10-02 13:37:03	"student009"	"student"	471	"bye!"	"bye!"	NA	NA	NA	NA	NA	"B2"	1

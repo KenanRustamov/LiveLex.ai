@@ -1,0 +1,256 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-27 12:23:45	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-27 12:23:51	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:23:57	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-27 12:24:07	"student011"	"student"	4	"Fine, Thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 12:24:12	"student011"	"student"	5	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 12:24:30	"teacher008"	"teacher"	6	"I'm fine too, thank you"	"I'm fine too, thank you"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 12:24:42	"teacher008"	"teacher"	7	"Have you managed to grab a Black Friday bargain?"	"Have you managed to grab a Black Friday bargain?"	NA	"2a"	"topic development"	NA	NA	NA	9
+2020-11-27 12:25:16	"student011"	"student"	8	"Ok ) I've just told to <STUDENT'S FRIEND> and <STUDENT'S FRIEND1> that I'm very disappointed )"	"Ok ) I've just told <STUDENT'S FRIEND> and <STUDENT'S FRIEND1> that I'm very disappointed )"	NA	NA	NA	NA	NA	NA	16
+2020-11-27 12:25:40	"teacher008"	"teacher"	9	"Oh no! Why is that?"	"Oh no! Why is that?"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 12:25:54	"student011"	"student"	10	"No sales for the stuff what I would like to buy"	"No sales for the stuff that I would like to buy"	NA	NA	NA	NA	NA	NA	11
+2020-11-27 12:26:28	"student011"	"student"	11	"I would like to buy a pair of leggings for my yoga"	"I would like to buy a pair of leggings for my yoga"	NA	NA	NA	NA	NA	NA	12
+2020-11-27 12:26:30	"teacher008"	"teacher"	12	"Sorry to hear that! Very disappointing indeed! What did you want?"	"Sorry to hear that! Very disappointing indeed! What did you want?"	12	NA	NA	NA	NA	NA	11
+2020-11-27 12:26:46	"student011"	"student"	13	"And some presents for New ear"	"And some presents for the New Year"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 12:26:49	"student011"	"student"	14	"Year"	"Year"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-27 12:27:11	"student011"	"student"	15	"For my niece a home robe"	"For my niece a home robe"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 12:27:18	"teacher008"	"teacher"	16	"That's a shame!"	"That's a shame!"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 12:28:02	"student011"	"student"	17	"or a gown?"	"or a gown?"	NA	"2b"	"enquiry"	"lexical resource"	NA	NA	3
+2020-11-27 12:28:17	"student011"	"student"	18	"And some LOL thongs for <STUDENT'S CHILD>"	"And some LOL things for <STUDENT'S CHILD>"	NA	NA	NA	NA	NA	NA	7
+2020-11-27 12:28:23	"teacher008"	"teacher"	19	"a robe or a dressing gown, I don't think there's much of a difference!"	"a robe or a dressing gown, I don't think there's much of a difference!"	17	NA	"scaffolding"	"lexical resource"	NA	NA	14
+2020-11-27 12:28:30	"student011"	"student"	20	"It's so expensive!"	"They're so expensive!"	18	NA	NA	NA	NA	NA	3
+2020-11-27 12:28:44	"teacher008"	"teacher"	21	"I think it's usually a robe in a hotel or sauna"	"I think it's usually a robe in a hotel or sauna"	19	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-11-27 12:29:00	"teacher008"	"teacher"	22	"The LOL stuff?"	"The LOL stuff?"	20	NA	NA	NA	NA	NA	3
+2020-11-27 12:29:14	"student011"	"student"	23	"The LOL stuff )"	"The LOL stuff )"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 12:29:16	"student011"	"student"	24	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:29:48	"student011"	"student"	25	"She wants one from Saint Nicolas and another one from Sanya )"	"She wants one from Saint Nicholas and another one from Santa )"	NA	NA	NA	NA	NA	NA	12
+2020-11-27 12:29:52	"student011"	"student"	26	"Santa"	"Santa"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-27 12:30:02	"teacher008"	"teacher"	27	"I've got to start buying Christmas presents. Some of my friends are really organized and have everything already but I haven't got a single one!"	"I've got to start buying Christmas presents. Some of my friends are really organized and have everything already but I haven't got a single one!"	NA	"2c"	"topic development"	NA	NA	NA	25
+2020-11-27 12:30:15	"student011"	"student"	28	"Me too"	"Me neither"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:30:20	"teacher008"	"teacher"	29	"Oh, there's now a Saint Nicholas day in Ukraine, right?"	"Oh, there's now a Saint Nicholas day in Ukraine, right?"	NA	"2d"	"topic development"	NA	NA	NA	10
+2020-11-27 12:30:49	"student011"	"student"	30	"I have now only advent calendar )"	"I only have an advent calendar now )"	28	NA	NA	NA	NA	NA	7
+2020-11-27 12:31:12	"student011"	"student"	31	"And it's funny because <STUDENT'S CHILD> has noticed it in the wardrobe )"	"And it's funny because <STUDENT'S CHILD> has noticed it in the wardrobe )"	NA	NA	NA	NA	NA	NA	13
+2020-11-27 12:31:16	"teacher008"	"teacher"	32	"Oh, you've found an advent calendar?"	"Oh, you've found an advent calendar?"	30	NA	NA	NA	NA	NA	6
+2020-11-27 12:31:31	"teacher008"	"teacher"	33	"Oops))"	"Oops))"	31	NA	NA	NA	NA	NA	1
+2020-11-27 12:31:43	"student011"	"student"	34	"I've bought that one with LOL )"	"I've bought that one with LOL )"	NA	NA	NA	NA	NA	NA	7
+2020-11-27 12:32:40	"student011"	"student"	35	"First Window with a doll and others with some stuff like clothes and accessories"	"There is a doll in the first window and some stuff like clothes and accessories in the others"	NA	NA	NA	NA	NA	NA	14
+2020-11-27 12:32:57	"teacher008"	"teacher"	36	"Oh wow, that's very cool!"	"Oh wow, that's very cool!"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 12:33:07	"teacher008"	"teacher"	38	"<TEACHER'S CHILD>'s just going to have a plain chocolate one"	"<TEACHER'S CHILD>'s just going to have a plain chocolate one"	NA	NA	NA	NA	NA	NA	10
+2020-11-27 12:33:22	"student011"	"student"	39	"We have a Saint Nicolas day here it becomes more and more popular"	"We have Saint Nicholas day here. It's becoming more and more popular"	29	NA	NA	NA	NA	NA	13
+2020-11-27 12:33:49	"teacher008"	"teacher"	40	"I nearly bought a cheese advent calendar for <TEACHER'S HUSBAND> and me, but I'm not going to have enough patience to only eat one piece a day :))"	"I nearly bought a cheese advent calendar for <TEACHER'S HUSBAND> and me, but I'm not going to have enough patience to only eat one piece a day :))"	38	NA	NA	NA	NA	NA	28
+2020-11-27 12:33:59	"student011"	"student"	41	"hahaha"	"hahaha"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:34:06	"student011"	"student"	42	"Same story with me"	"Same story with me"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 12:34:07	"teacher008"	"teacher"	43	"Yes, I remember from working with children 5 years ago"	"Yes, I remember from working with children 5 years ago"	39	NA	NA	NA	NA	NA	10
+2020-11-27 12:34:21	"teacher008"	"teacher"	44	"It _______ more and more popular"	"It _______ more and more popular"	NA	"2e"	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-11-27 12:34:30	"student011"	"student"	45	"I thought about some advent calendar for me or for me and <STUDENT'S HUSBAND>"	"I thought about some advent calendar for me or for me and <STUDENT'S HUSBAND>"	42	NA	NA	NA	NA	NA	14
+2020-11-27 12:35:34	"student011"	"student"	46	"But as a _____ person I've started to think how to use it"	"But as a _____ person I've started to think how to use it"	NA	"2f"	"enquiry"	"lexical resource"	NA	NA	13
+2020-11-27 12:35:52	"student011"	"student"	47	"It has become?"	"It has become?"	44	NA	NA	NA	NA	NA	3
+2020-11-27 12:35:52	"teacher008"	"teacher"	48	"what kind of person?))"	"what kind of person?))"	46	NA	NA	NA	NA	NA	4
+2020-11-27 12:36:02	"student011"	"student"	49	"practichniy )"	"practichniy )"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	2
+2020-11-27 12:36:23	"teacher008"	"teacher"	50	"Hmm, I was thinking 'It is becoming', because you're describing a process"	"Hmm, I was thinking 'It is becoming', because you're describing a process"	47	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-11-27 12:36:25	"teacher008"	"teacher"	51	"practical!"	"practical!"	49	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-11-27 12:36:42	"student011"	"student"	52	"I thought about beauty advent calender"	"I thought about a beauty advent calender"	45	NA	NA	NA	NA	NA	6
+2020-11-27 12:36:56	"teacher008"	"teacher"	53	"That sounds nice!"	"That sounds nice!"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 12:37:06	"student011"	"student"	54	"but there are lots of stuff like red lipstick etc which I don't need"	"but there is lots of stuff like red lipstick etc. which I don't need"	NA	NA	NA	NA	NA	NA	14
+2020-11-27 12:37:16	"teacher008"	"teacher"	55	"Do you know what's popular in the UK? Advent calendars for pets!"	"Do you know what's popular in the UK? Advent calendars for pets!"	NA	NA	NA	NA	NA	NA	12
+2020-11-27 12:37:36	"student011"	"student"	56	"Then I've thinking about a chocolate advent calendar"	"Then I've been thinking about a chocolate advent calendar"	54	NA	NA	NA	NA	NA	8
+2020-11-27 12:38:11	"student011"	"student"	57	"And it seems like we won't be able to eat just one thing per day )"	"And it seems like we won't be able to eat just one thing per day )"	NA	NA	NA	NA	NA	NA	16
+2020-11-27 12:38:54	"teacher008"	"teacher"	58	"Yes, you know what I mean? Children have much better self-control in a way!"	"Yes, you know what I mean? Children have much better self-control in a way!"	NA	NA	NA	NA	NA	NA	14
+2020-11-27 12:39:04	"student011"	"student"	59	"Oh! I've seen that stuff on the UK websites and on the instagram"	"Oh! I've seen that stuff on UK websites and on Instagram"	55	NA	NA	NA	NA	NA	13
+2020-11-27 12:39:19	"teacher008"	"teacher"	60	"We'd just sit down one night with wine and crackers and eat all the cheese from the calendar)))"	"We'd just sit down one night with wine and crackers and eat all the cheese from the calendar)))"	58	NA	NA	NA	NA	NA	18
+2020-11-27 12:39:36	"student011"	"student"	61	"Children have us for the control )"	"Children have us for the control )"	58	NA	NA	NA	NA	NA	7
+2020-11-27 12:40:09	"teacher008"	"teacher"	62	"That's true)))"	"That's true)))"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:40:30	"student011"	"student"	63	"Ok, so"	"Ok, so"	NA	"2g"	"topic development"	NA	NA	NA	2
+2020-11-27 12:41:04	"student011"	"student"	64	"Now in Ukraine we have Saint Nicolas day, two Christmas and two New Year ) It's amazing! ))))"	"Now in Ukraine we have Saint Nicholas day, two Christmasses and two New Years ) It's amazing! ))))"	NA	NA	NA	NA	NA	NA	18
+2020-11-27 12:41:17	"student011"	"student"	65	"*Nes Years"	"*New Years"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-11-27 12:41:23	"student011"	"student"	66	"New ) Sorry"	"New ) Sorry"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-11-27 12:41:28	"teacher008"	"teacher"	67	"Oh my goodness! Is that a bit too many holidays?"	"Oh my goodness! Is that a bit too many holidays?"	64	NA	NA	NA	NA	NA	10
+2020-11-27 12:41:38	"student011"	"student"	68	"Yes! ))"	"Yes! ))"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:42:21	"teacher008"	"teacher"	69	"But you can't skip Saint Nicholas day, especially when <STUDENT'S CHILD> starts school because all children will get presents)))"	"But you can't skip Saint Nicholas day, especially when <STUDENT'S CHILD> starts school because all children will get presents)))"	NA	NA	NA	NA	NA	NA	19
+2020-11-27 12:42:34	"student011"	"student"	70	"Yes )"	"Yes )"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:43:05	"teacher008"	"teacher"	71	"We don't do New Year presents anymore, just Christmas. But I cook lots of Ukrainian food on New Year, and sometimes we watch a Soviet movie, subtitled"	"We don't do New Year presents anymore, just Christmas. But I cook lots of Ukrainian food on New Year, and sometimes we watch a Soviet movie, subtitled"	NA	"2h"	NA	NA	NA	NA	27
+2020-11-27 12:43:11	"student011"	"student"	72	"Actually, it's ok, because now she knows about Saint Nicolas day and New Year"	"Actually, it's ok, because now she knows about Saint Nicholas day and New Year"	70	NA	NA	NA	NA	NA	14
+2020-11-27 12:43:18	"teacher008"	"teacher"	73	"But I'm careful about this now"	"But I'm careful about this now"	71	NA	NA	NA	NA	NA	6
+2020-11-27 12:43:23	"student011"	"student"	74	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:43:43	"teacher008"	"teacher"	75	"We watched 'The Irony of Fate' a couple of years ago"	"We watched 'The Irony of Fate' a couple of years ago"	NA	NA	NA	NA	NA	NA	11
+2020-11-27 12:43:54	"student011"	"student"	76	"Actually yesterday I had a funny picture from <STUDENT'S HUSBAND>"	"Actually yesterday I had a funny picture from <STUDENT'S HUSBAND>"	NA	"2i"	"topic development"	NA	NA	NA	10
+2020-11-27 12:43:56	"teacher008"	"teacher"	77	"I'm not sure it's the best translation, do you know what I mean?"	"I'm not sure it's the best translation, do you know what I mean?"	75	NA	NA	NA	NA	NA	13
+2020-11-27 12:44:03	"teacher008"	"teacher"	78	"And I didn't like it!"	"And I didn't like it!"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 12:44:07	"student011"	"student"	79	"About Irony Sudby"	"About Irony Sudby"	76	NA	"non-English"	"code switching,lexical resource"	NA	NA	3
+2020-11-27 12:44:17	"teacher008"	"teacher"	80	"Oh, like a meme?"	"Oh, like a meme?"	76	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-11-27 12:44:25	"student011"	"student"	81	"The Irony of Fate' sure!"	"The Irony of Fate' sure!"	77	NA	NA	NA	NA	NA	5
+2020-11-27 12:44:26	"student011"	"student"	82	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:44:32	"student011"	"student"	83	"It's something like"	"It's something like"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 12:45:23	"student011"	"student"	84	"Have you noticed that the teacher of Russian told 'I need edit'my new dress'"	"Have you noticed that the teacher of Russian said, 'I need odet'my new dress'?"	NA	NA	"non-English"	"code switching"	NA	NA	14
+2020-11-27 12:45:28	"student011"	"student"	85	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:45:44	"student011"	"student"	86	"I need 'odet'"	"I need 'odet'"	84	NA	"repair,non-English"	"writing,code switching"	NA	NA	3
+2020-11-27 12:46:01	"student011"	"student"	87	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:46:02	"teacher008"	"teacher"	88	"True!!! I've noticed that before!!"	"True!!! I've noticed that before!!"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 12:46:13	"student011"	"student"	89	"I think me too"	"I think me too"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 12:46:22	"student011"	"student"	90	"But it's really funny )"	"But it's really funny )"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 12:46:29	"teacher008"	"teacher"	91	"It is!"	"It is!"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:46:41	"teacher008"	"teacher"	92	"I really didn't like it last time, it's so sexist!"	"I really didn't like it last time, it's so sexist!"	78	NA	NA	NA	NA	NA	10
+2020-11-27 12:46:47	"student011"	"student"	93	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:46:55	"student011"	"student"	94	"And about the translation"	"And about the translation"	81	NA	NA	NA	NA	NA	4
+2020-11-27 12:47:06	"student011"	"student"	95	"I completely agree with you"	"I completely agree with you"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 12:47:08	"teacher008"	"teacher"	96	"Like, the protagonist is telling Nadya that she is basically a failure because she didn't get married by 34"	"Like, the protagonist is telling Nadya that she is basically a failure because she didn't get married by 34"	93	NA	NA	NA	NA	NA	19
+2020-11-27 12:47:11	"student011"	"student"	97	"it's so strange"	"it's so strange"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 12:47:13	"teacher008"	"teacher"	98	"And she agrees!"	"And she agrees!"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 12:47:24	"student011"	"student"	99	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:47:50	"student011"	"student"	100	"And I know that lots of people don't like the movie because of Zhenya"	"And I know that lots of people don't like the movie because of Zhenya"	NA	NA	NA	NA	NA	NA	14
+2020-11-27 12:48:09	"student011"	"student"	101	"He doesn't look like a hero )"	"He doesn't look like a hero )"	NA	NA	NA	NA	NA	NA	7
+2020-11-27 12:48:23	"student011"	"student"	102	"But for me he is ok"	"But for me he is ok"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 12:48:30	"teacher008"	"teacher"	103	"Well, he is nice, he is supposed to be an 'intelligent'"	"Well, he is nice, he is supposed to be an 'intelligent'"	NA	NA	"non-English"	"code switching"	NA	NA	11
+2020-11-27 12:48:39	"student011"	"student"	104	"He is just 'usual person' )"	"He is just a 'usual person' )"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 12:48:50	"teacher008"	"teacher"	105	"But, for example, she asks him to leave several times and he just refuses!"	"But, for example, she asks him to leave several times and he just refuses!"	NA	NA	NA	NA	NA	NA	14
+2020-11-27 12:48:53	"student011"	"student"	106	"an 'usual person'"	"a 'usual person'"	104	NA	"repair"	"grammatical resource"	NA	NA	3
+2020-11-27 12:49:10	"teacher008"	"teacher"	107	"This is really weird"	"This is really weird"	105	NA	NA	NA	NA	NA	4
+2020-11-27 12:49:12	"student011"	"student"	108	"Yes! Agree"	"Yes! Agree"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:49:30	"teacher008"	"teacher"	109	"Good correction, you need an article there, but it's actually 'a'"	"Good correction, you need an article there, but it's actually 'a'"	106	"2j"	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-27 12:49:34	"student011"	"student"	110	"Especially now lots of things in the movie aren't ok"	"Especially now lots of things in the movie aren't ok"	108	NA	NA	NA	NA	NA	10
+2020-11-27 12:49:35	"teacher008"	"teacher"	111	"a usual person"	"a usual person"	109	NA	NA	NA	NA	NA	3
+2020-11-27 12:50:33	"teacher008"	"teacher"	112	"ˈjuː.ʒu.əl"	"ˈjuː.ʒu.əl"	NA	NA	"scaffolding"	"speaking"	NA	NA	1
+2020-11-27 12:50:50	"teacher008"	"teacher"	113	"because it actually starts with a consonant /j/"	"because it actually starts with a consonant /j/"	NA	NA	"scaffolding"	"speaking"	NA	NA	8
+2020-11-27 12:51:19	"student011"	"student"	114	"Here in Ukraine we haven't watch that movies since 2014 I think"	"Here in Ukraine we haven't watched those movies since 2014 I think"	NA	"2k"	"topic development"	NA	NA	NA	12
+2020-11-27 12:51:42	"student011"	"student"	115	"because it actually starts with a consonant /j/  - ok! Thank you It's clear!"	"because it actually starts with a consonant /j/  - ok! Thank you It's clear!"	113	NA	NA	NA	NA	NA	15
+2020-11-27 12:52:15	"teacher008"	"teacher"	116	"I ___ ____ it for years until I watched it with <TEACHER'S HUSBAND> two years ago (not watch)"	"I ___ ____ it for years until I watched it with <TEACHER'S HUSBAND> two years ago (not watch)"	NA	"2l"	"eliciting"	"grammatical resource"	NA	NA	18
+2020-11-27 12:52:21	"teacher008"	"teacher"	117	"what tense do you think goes here?"	"what tense do you think goes here?"	NA	NA	NA	NA	NA	NA	7
+2020-11-27 12:52:35	"student011"	"student"	118	"At first we had a ban for soviet movies on TV"	"At first we had a ban on Soviet movies on TV"	114	NA	NA	NA	NA	NA	11
+2020-11-27 12:52:57	"teacher008"	"teacher"	119	"Oh, I didn't know that! Because I don't watch TV I suppose"	"Oh, I didn't know that! Because I don't watch TV I suppose"	NA	NA	NA	NA	NA	NA	12
+2020-11-27 12:53:28	"student011"	"student"	120	"I hadn't had it for years until I watched it with <TEACHER'S HUSBAND> two years ago (not watch)"	"I hadn't watched it for years until I watched it with <TEACHER'S HUSBAND> two years ago (not watch)"	117	NA	NA	NA	NA	NA	18
+2020-11-27 12:53:34	"student011"	"student"	121	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:53:40	"student011"	"student"	122	"hadn't watched"	"hadn't watched"	NA	NA	"repair"	"lexical resource"	NA	NA	2
+2020-11-27 12:53:45	"teacher008"	"teacher"	123	"Yes, well done! :)"	"Yes, well done! :)"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 12:53:50	"teacher008"	"teacher"	124	"nice Past Perfect"	"nice Past Perfect"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 12:53:52	"student011"	"student"	125	"We too"	"Neither do we"	119	NA	NA	NA	NA	NA	2
+2020-11-27 12:54:06	"student011"	"student"	126	"We don't have a TV at home"	"We don't have a TV at home"	NA	NA	NA	NA	NA	NA	7
+2020-11-27 12:54:29	"teacher008"	"teacher"	127	"We have a TV but only for streaming services))"	"We have a TV but only for streaming services))"	NA	NA	NA	NA	NA	NA	9
+2020-11-27 12:54:56	"student011"	"student"	128	"But I mean that because of the ban lots of people who watched that stuff just stoped watching it"	"But I mean that because of the ban lots of people who watched that stuff just stopped watching it"	118	NA	NA	NA	NA	NA	19
+2020-11-27 12:55:05	"teacher008"	"teacher"	129	"As much as I love to chat, let's have a look at your homework! Well done you for doing extra homework, by the way!"	"As much as I love to chat, let's have a look at your homework! Well done you for doing extra homework, by the way!"	NA	"3.0"	"topic opening"	"writing"	"student's writing"	NA	24
+2020-11-27 12:55:12	"teacher008"	"teacher"	130	"Ah, it worked then, the ban"	"Ah, it worked then, the ban"	128	NA	NA	NA	NA	NA	6
+2020-11-27 12:55:20	"student011"	"student"	131	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:55:49	"student011"	"student"	132	"thank you )"	"thank you )"	129	NA	NA	NA	NA	NA	3
+2020-11-27 12:55:49	"teacher008"	"teacher"	133	"I think it's important, to stop doing the same stuff as people across the border"	"I think it's important, to stop doing the same stuff as people across the border"	130	NA	NA	NA	NA	NA	15
+2020-11-27 12:55:59	"student011"	"student"	134	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:56:08	"student011"	"student"	135	"Sorry one more thing"	"Sorry one more thing"	NA	"4.0"	"topic opening"	NA	NA	NA	4
+2020-11-27 12:56:13	"teacher008"	"teacher"	136	"Go on!"	"Go on!"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:56:25	"student011"	"student"	137	"I've just remembered it"	"I've just remembered it"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 12:57:03	"student011"	"student"	138	"My student <STUDENT'S STUDENT> has sent me a link to watch a very interesting lecture about Ukrainian"	"My student <STUDENT'S STUDENT> has sent me a link to watch a very interesting lecture about Ukrainian"	NA	NA	NA	NA	NA	NA	17
+2020-11-27 12:57:14	"student011"	"student"	139	"I can send you that one"	"I can send you that one"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 12:57:22	"teacher008"	"teacher"	140	"Ooh, thank you, I'd love that!"	"Ooh, thank you, I'd love that!"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 12:57:47	"teacher008"	"teacher"	141	"Could you send it to me on Messenger?"	"Could you send it to me on Messenger?"	NA	NA	NA	NA	NA	NA	8
+2020-11-27 12:57:58	"student011"	"student"	142	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:58:00	"teacher008"	"teacher"	143	"later on)"	"later on)"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:58:03	"teacher008"	"teacher"	144	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:58:06	"teacher008"	"teacher"	145	"Hello <TEACHER>,  Thank you for your interest to our school. We provide Ukrainian and Russian lessons for students with any level of knowledge. The price per individual one hour lesson is 500 uah. Usually we offer a trial lessons for a new student. It could be 30 minutes free trial lesson or 1 hour lessons for usual price 500 uah. Please, let us know what option is more preferable for you and which language do you prefer to learn.  We have to inform you that because of the Covid situation we provide only online classes. But they still are as much effective as the lessons at school. As for our teacher and the teaching method. We assure you that our teachers as much experienced as students’ needs oriented. In our lessons we use the comunicative method which means that our goal is to teach you how to speak with Ukrainian or Russian speaking people an understand them. Despite of it we assure we will help you also with the grammar, reading etc. If you have any other questions please do not hesitate to contact us. Best regards, <STUDENT> from <STUDENT'S COMPANY> Team"	"Hello <TEACHER>,  Thank you for your interest to our school. We provide Ukrainian and Russian lessons for students with any level of knowledge. The price per individual one hour lesson is 500 uah. Usually we offer a trial lessons for a new student. It could be 30 minutes free trial lesson or 1 hour lessons for usual price 500 uah. Please, let us know what option is more preferable for you and which language do you prefer to learn.  We have to inform you that because of the Covid situation we provide only online classes. But they still are as much effective as the lessons at school. As for our teacher and the teaching method. We assure you that our teachers as much experienced as students’ needs oriented. In our lessons we use the comunicative method which means that our goal is to teach you how to speak with Ukrainian or Russian speaking people an understand them. Despite of it we assure we will help you also with the grammar, reading etc. If you have any other questions please do not hesitate to contact us. Best regards, <STUDENT> from <STUDENT'S COMPANY> Team"	NA	"3a"	"topic development"	"writing"	"student's writing"	NA	194
+2020-11-27 12:58:09	"student011"	"student"	146	"Ok! Sorry! Let's start )"	"Ok! Sorry! Let's start )"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 12:58:15	"teacher008"	"teacher"	147	"No worries"	"No worries"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:58:34	"teacher008"	"teacher"	148	"Ah, it's annoying that there is no formatting in this chat"	"Ah, it's annoying that there is no formatting in this chat"	NA	NA	NA	NA	NA	NA	11
+2020-11-27 12:58:49	"student011"	"student"	149	"Yes! )"	"Yes! )"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 12:58:54	"teacher008"	"teacher"	150	"Very good and the message is clear!"	"Very good and the message is clear!"	NA	NA	NA	NA	NA	NA	7
+2020-11-27 12:59:09	"teacher008"	"teacher"	151	"Let's look at some bits that are wrong"	"Let's look at some bits that are wrong"	NA	"3b"	"topic development"	"writing"	NA	NA	8
+2020-11-27 12:59:22	"student011"	"student"	152	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 12:59:33	"teacher008"	"teacher"	153	"when we compare two things with an adjective, we use (not) as ... as"	"when we compare two things with an adjective, we use (not) as ... as"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-11-27 12:59:45	"teacher008"	"teacher"	154	"LOL stuff is as expensive as Lego"	"LOL stuff is as expensive as Lego"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-11-27 12:59:54	"teacher008"	"teacher"	155	"or 'not as expensive as Lego'"	"or 'not as expensive as Lego'"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 13:00:28	"student011"	"student"	156	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:01:14	"teacher008"	"teacher"	157	"So you know what to do with ' our teachers as much experienced as students’ needs oriented'"	"So you know what to do with ' our teachers as much experienced as students’ needs oriented'"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	17
+2020-11-27 13:01:19	"teacher008"	"teacher"	158	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:01:39	"student011"	"student"	159	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:01:55	"student011"	"student"	160	"without much?"	"without much?"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:02:02	"teacher008"	"teacher"	161	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 13:02:05	"student011"	"student"	162	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:02:08	"student011"	"student"	163	"it's funny"	"it's funny"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:02:18	"teacher008"	"teacher"	164	"But they still are as much effective as the lessons at school"	"But they still are as much effective as the lessons at school"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	12
+2020-11-27 13:02:19	"student011"	"student"	165	"at first I've written like that"	"at first I've wrote it like that"	163	NA	NA	NA	NA	NA	6
+2020-11-27 13:02:24	"teacher008"	"teacher"	166	"and same here)"	"and same here)"	164	NA	NA	NA	NA	NA	3
+2020-11-27 13:02:42	"student011"	"student"	167	"as effective as the lessons at school"	"as effective as the lessons at school"	NA	NA	NA	NA	NA	NA	7
+2020-11-27 13:02:54	"teacher008"	"teacher"	168	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:03:03	"student011"	"student"	169	"they still are"	"they still are"	NA	"3c"	"enquiry"	"grammatical resource"	NA	NA	3
+2020-11-27 13:03:09	"student011"	"student"	170	"or they are still"	"or they are still"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 13:03:10	"student011"	"student"	171	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:03:23	"teacher008"	"teacher"	172	"they are still"	"they are still"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2020-11-27 13:03:33	"student011"	"student"	173	"sure!"	"sure!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:03:35	"student011"	"student"	174	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:03:42	"student011"	"student"	175	"And one more question"	"And one more question"	NA	"3d"	"enquiry"	"grammatical resource"	NA	NA	4
+2020-11-27 13:03:47	"teacher008"	"teacher"	176	"Yes, of course!"	"Yes, of course!"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 13:04:04	"student011"	"student"	177	"as much doesn't have any sense?"	"as much doesn't make any sense?"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	6
+2020-11-27 13:04:57	"teacher008"	"teacher"	178	"It does! I'm thinking of an example"	"It does! I'm thinking of an example"	NA	NA	NA	NA	NA	NA	7
+2020-11-27 13:05:03	"student011"	"student"	179	"ok )"	"ok )"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:05:19	"teacher008"	"teacher"	180	"I have as much milk as yogurt"	"I have as much milk as yogurt"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-11-27 13:05:37	"teacher008"	"teacher"	181	"milk and yogurt are uncountable nounds, so they work with much"	"milk and yogurt are uncountable nounds, so they work with much"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-27 13:05:49	"teacher008"	"teacher"	182	"he has as much money as I do"	"he has as much money as I do"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-11-27 13:06:00	"teacher008"	"teacher"	183	"but!"	"but!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:06:12	"teacher008"	"teacher"	184	"Teacher X has as many students as teacher Y."	"Teacher X has as many students as teacher Y."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-11-27 13:06:20	"teacher008"	"teacher"	185	"because students are countable"	"because students are countable"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	4
+2020-11-27 13:06:30	"student011"	"student"	186	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:06:38	"teacher008"	"teacher"	187	"*nouns"	"*nouns"	181	NA	"repair"	"writing"	NA	NA	1
+2020-11-27 13:06:47	"student011"	"student"	188	"but I can't use it with abstract things"	"but I can't use it with abstract things"	NA	"3e"	"enquiry"	"grammatical resource"	NA	NA	8
+2020-11-27 13:06:57	"student011"	"student"	189	"like experience"	"like experience"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:07:14	"student011"	"student"	190	"or students orienting )"	"or student-oriented )"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 13:07:28	"teacher008"	"teacher"	191	"You can! I have as much love for my niece as for my nephew))"	"You can! I have as much love for my niece as for my nephew))"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-11-27 13:07:34	"teacher008"	"teacher"	192	"a bit of a silly sentence"	"a bit of a silly sentence"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 13:07:51	"student011"	"student"	193	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:07:57	"teacher008"	"teacher"	194	"I have so much more love for strawberries than for onions))"	"I have so much more love for strawberries than for onions))"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-27 13:08:19	"teacher008"	"teacher"	195	"but you don't need 'much' with an adjective in an 'as...as' comparison"	"but you don't need 'much' with an adjective in an 'as...as' comparison"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-11-27 13:08:30	"student011"	"student"	196	"Ah! Ok"	"Ah! Ok"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:08:33	"teacher008"	"teacher"	197	"Ah, I think I know where the confusion is coming from!"	"Ah, I think I know where the confusion is coming from!"	NA	"3f"	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-27 13:08:48	"teacher008"	"teacher"	198	"Online lessons are much more effective than face-to-face"	"Online lessons are much more effective than face-to-face"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-11-27 13:08:54	"student011"	"student"	199	"So I need much when I talk about nouns"	"So I need much when I talk about nouns"	195	NA	NA	NA	NA	NA	9
+2020-11-27 13:09:02	"teacher008"	"teacher"	200	"you can 'much' to modify 'more' in this structure"	"you can 'much' to modify 'more' in this structure"	198	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-11-27 13:09:14	"student011"	"student"	201	"Ahh"	"Ahh"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:09:15	"teacher008"	"teacher"	202	"or 'less'"	"or 'less'"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:09:16	"student011"	"student"	203	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:09:20	"teacher008"	"teacher"	204	"much more / much less"	"much more / much less"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2020-11-27 13:09:21	"student011"	"student"	205	"much more!"	"much more!"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:09:26	"teacher008"	"teacher"	206	"much more expensive"	"much more expensive"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 13:09:30	"teacher008"	"teacher"	207	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:09:57	"student011"	"student"	208	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:10:01	"student011"	"student"	209	"it's clear now"	"it's clear now"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 13:10:36	"teacher008"	"teacher"	210	"While we are on this topic, you can also use 'twice / half / three times' etc. with as... as"	"While we are on this topic, you can also use 'twice / half / three times' etc. with as... as"	NA	"3g"	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	20
+2020-11-27 13:10:49	"student011"	"student"	211	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:10:52	"student011"	"student"	212	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:11:05	"student011"	"student"	213	"I've forgot this stuff unfortunately"	"I've forgotten this stuff unfortunately"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 13:11:12	"student011"	"student"	214	"But now it's better )"	"But now it's better )"	NA	NA	NA	NA	NA	NA	5
+2020-11-27 13:11:23	"teacher008"	"teacher"	215	"If LOL dolls are 20 pounds but Lego is 10 pounds, LOL dolls are twice as expensive as Lego"	"If LOL dolls are 20 pounds but Lego is 10 pounds, LOL dolls are twice as expensive as Lego"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2020-11-27 13:11:30	"teacher008"	"teacher"	216	"and Lego is half as expensive as LOL"	"and Lego is half as expensive as LOL"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-11-27 13:11:50	"teacher008"	"teacher"	217	"No worries, I'll send you some exercises to practise at home"	"No worries, I'll send you some exercises to practise at home"	214	NA	NA	NA	NA	NA	11
+2020-11-27 13:12:12	"student011"	"student"	218	"Maybe I need some homework for practicing that stuff )"	"Maybe I need some homework for practising this stuff )"	NA	NA	NA	NA	NA	NA	10
+2020-11-27 13:12:22	"student011"	"student"	219	"Oh, Thank you )"	"Oh, Thank you )"	217	NA	NA	NA	NA	NA	4
+2020-11-27 13:12:43	"teacher008"	"teacher"	220	"Houses in Cambridge are twice as expensive as in March :)"	"Houses in Cambridge are twice as expensive as in March :)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-11-27 13:12:51	"student011"	"student"	221	")"	")"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:12:52	"teacher008"	"teacher"	222	"or even 'three times'"	"or even 'three times'"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 13:13:09	"student011"	"student"	223	"But you have a garden )"	"But you have a garden )"	NA	NA	NA	NA	NA	NA	6
+2020-11-27 13:13:52	"teacher008"	"teacher"	224	"Exactly! A garden that is three times as big as in one of those new Cambridge houses)))"	"Exactly! A garden that is three times as big as in one of those new Cambridge houses)))"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2020-11-27 13:14:00	"student011"	"student"	225	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:14:16	"teacher008"	"teacher"	226	"Ok, let's see what else we've got time for!"	"Ok, let's see what else we've got time for!"	NA	"5.0"	"topic opening"	"writing"	"student's writing"	NA	9
+2020-11-27 13:14:32	"teacher008"	"teacher"	227	"Oh, the very first sentence, Thanks for your interest IN our school"	"Oh, the very first sentence, Thanks for your interest IN our school"	NA	NA	NA	NA	NA	NA	12
+2020-11-27 13:14:33	"student011"	"student"	228	"You are an expert in making examples )"	"You are an expert in making examples )"	225	NA	NA	NA	NA	NA	8
+2020-11-27 13:14:58	"student011"	"student"	229	"interest for"	"interest for"	227	NA	NA	NA	NA	NA	2
+2020-11-27 13:15:03	"student011"	"student"	230	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:15:13	"teacher008"	"teacher"	231	"interest in!"	"interest in!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-11-27 13:15:17	"teacher008"	"teacher"	232	"same as 'interested in'"	"same as 'interested in'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-11-27 13:15:28	"student011"	"student"	233	"Ah! Yes/ Sorry )"	"Ah! Yes/ Sorry )"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 13:15:37	"teacher008"	"teacher"	234	"I'm interested in insects"	"I'm interested in insects"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-11-27 13:15:42	"teacher008"	"teacher"	235	"or something like that"	"or something like that"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 13:15:47	"teacher008"	"teacher"	236	"(I'm not!)"	"(I'm not!)"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:15:56	"student011"	"student"	237	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:15:57	"student011"	"student"	238	"me too"	"me neither"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:17:18	"teacher008"	"teacher"	239	"Oh, and a quick one on saying how long things take"	"Oh, and a quick one on saying how long things take"	NA	"5a"	"scaffolding"	"lexical resource"	NA	NA	11
+2020-11-27 13:17:39	"teacher008"	"teacher"	240	"if you're using one-hour as an adjective, you need a hyphen - - -"	"if you're using one-hour as an adjective, you need a hyphen - - -"	NA	NA	"scaffolding"	"lexical resource,writing"	NA	NA	14
+2020-11-27 13:17:42	"teacher008"	"teacher"	241	"one-hour"	"one-hour"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:18:04	"teacher008"	"teacher"	242	"that little '-' is a hypen"	"that little '-' is a hypen"	NA	NA	"scaffolding"	"writing"	NA	NA	6
+2020-11-27 13:18:16	"student011"	"student"	243	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:18:20	"teacher008"	"teacher"	244	"Also, in an adjective of this kind, all words are singular"	"Also, in an adjective of this kind, all words are singular"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-11-27 13:18:37	"teacher008"	"teacher"	245	"The lesson is 30 minutes. But! It's a 30-minute lesson"	"The lesson is 30 minutes. But! It's a 30-minute lesson"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-11-27 13:18:52	"teacher008"	"teacher"	246	"We lose the 's' and add a '-'"	"We lose the 's' and add a '-'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-11-27 13:19:06	"teacher008"	"teacher"	247	"Same with distances. A 5-mile walk"	"Same with distances. A 5-mile walk"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-11-27 13:19:25	"student011"	"student"	248	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:19:27	"student011"	"student"	249	"I see!"	"I see!"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:20:55	"teacher008"	"teacher"	250	"Ah, I'm afraid that's all we have time for today! We'll look into this more next time, and I do remember about your questions!"	"Ah, I'm afraid that's all we have time for today! We'll look into this more next time, and I do remember about your questions!"	NA	"6.0"	"closing"	NA	NA	NA	24
+2020-11-27 13:21:06	"student011"	"student"	251	"Thank you!!"	"Thank you!!"	NA	NA	NA	NA	NA	NA	2
+2020-11-27 13:21:14	"teacher008"	"teacher"	252	"My pleasure :)"	"My pleasure :)"	NA	NA	NA	NA	NA	NA	3
+2020-11-27 13:21:14	"student011"	"student"	253	"Have a good weekand"	"Have a good weekand"	NA	NA	NA	NA	NA	NA	4
+2020-11-27 13:21:20	"student011"	"student"	254	"bye!"	"bye!"	NA	NA	NA	NA	NA	NA	1
+2020-11-27 13:21:29	"teacher008"	"teacher"	255	"Thank you! You too, have a relaxing weekend!"	"Thank you! You too, have a relaxing weekend!"	NA	NA	NA	NA	NA	NA	8
+2020-11-27 13:21:31	"teacher008"	"teacher"	256	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	"B2"	1

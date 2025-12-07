@@ -1,0 +1,233 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-09-25 11:32:44	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-09-25 11:33:53	"student011"	"student"	2	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:34:21	"teacher008"	"teacher"	3	"Sorry about the delay. How are you today?"	"Sorry about the delay. How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	8
+2020-09-25 11:35:04	"student011"	"student"	4	"I'm fine"	"I'm fine"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:35:11	"student011"	"student"	5	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:35:25	"student011"	"student"	6	"I had a joga lesson today"	"I had a yoga lesson today"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 11:35:34	"student011"	"student"	7	")"	")"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 11:35:40	"student011"	"student"	8	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:36:11	"teacher008"	"teacher"	9	"Ooh, exciting! How did you like it?"	"Ooh, exciting! How did you like it?"	6	NA	NA	NA	NA	NA	7
+2020-09-25 11:36:16	"teacher008"	"teacher"	10	"it's 'yoga' by the way"	"it's 'yoga' by the way"	6	NA	"repair"	"writing"	NA	NA	5
+2020-09-25 11:36:38	"student011"	"student"	11	"I like it, but I think that pilates is easier for me"	"I liked it, but I think that pilates is easier for me"	9	NA	NA	NA	NA	NA	12
+2020-09-25 11:36:49	"teacher008"	"teacher"	12	"I've never tried pilates"	"I've never tried pilates"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 11:37:02	"teacher008"	"teacher"	13	"Have you tried yoga before?"	"Have you tried yoga before?"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 11:37:17	"student011"	"student"	14	"Maybe you know, I have a friend and she is from Kyiv"	"Maybe you know, I have a friend and she is from Kyiv"	NA	"2a"	"topic development"	NA	NA	NA	12
+2020-09-25 11:37:45	"student011"	"student"	15	"And about 3 or 4 years ago she moved to Nizza"	"And about 3 or 4 years ago she moved to Nice"	NA	NA	NA	NA	NA	NA	11
+2020-09-25 11:38:03	"student011"	"student"	16	"She is a dancer and fitness couch"	"She is a dancer and fitness coach"	NA	NA	NA	NA	NA	NA	7
+2020-09-25 11:38:08	"teacher008"	"teacher"	17	"No, I don't think I know her!"	"No, I don't think I know her!"	NA	NA	NA	NA	NA	NA	7
+2020-09-25 11:38:29	"student011"	"student"	18	"Her husband is <STUDENT'S HUSBAND'S> friend"	"Her husband is <STUDENT'S HUSBAND'S> friend"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 11:38:36	"teacher008"	"teacher"	19	"ah, I see!"	"ah, I see!"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:38:47	"student011"	"student"	20	"So I know her because of Ihor"	"So I know her through Ihor"	NA	NA	NA	NA	NA	NA	7
+2020-09-25 11:39:07	"student011"	"student"	21	"And now she does online sessions"	"And now she does online sessions"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 11:39:23	"teacher008"	"teacher"	22	"ah, brilliant!"	"ah, brilliant!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:39:32	"student011"	"student"	23	"Sometimes it's yoga, sometimes it's pilates"	"Sometimes it's yoga, sometimes it's pilates"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 11:39:54	"student011"	"student"	24	"And I decide to join"	"And I decided to join"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 11:40:04	"student011"	"student"	25	"Two times per week"	"Two times per week"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 11:40:08	"student011"	"student"	26	"I like it"	"I like it"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:40:31	"teacher008"	"teacher"	27	"I started doing yoga in Kyiv back in 2014. It was not an easy year as you remember and I really appreciated the relaxing effects of yoga. And I have been practicing ever since!"	"I started doing yoga in Kyiv back in 2014. It was not an easy year as you remember and I really appreciated the relaxing effects of yoga. And I have been practicing ever since!"	NA	NA	NA	NA	NA	NA	34
+2020-09-25 11:40:48	"student011"	"student"	28	"And even bought a fitness mat, ball and top for sessions )"	"And even bought a fitness mat, a ball and a top for sessions )"	26	NA	NA	NA	NA	NA	12
+2020-09-25 11:41:05	"teacher008"	"teacher"	29	"Do you practice at home?"	"Do you practice at home?"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 11:41:19	"student011"	"student"	30	"Do you practice yourself now?"	"Do you practice yourself now?"	27	NA	NA	NA	NA	NA	5
+2020-09-25 11:41:37	"student011"	"student"	31	"Yes, I practice at home usually"	"Yes, I practice at home usually"	29	NA	NA	NA	NA	NA	6
+2020-09-25 11:41:48	"student011"	"student"	32	"One time at the office ))"	"One time at the office ))"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 11:42:26	"teacher008"	"teacher"	33	"I do, yes, I follow a couple of yoga youtube channels and do the sessions from there"	"I do, yes, I follow a couple of yoga youtube channels and do the sessions from there"	31	NA	NA	NA	NA	NA	17
+2020-09-25 11:42:54	"student011"	"student"	34	"Is it hard?"	"Is it hard?"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:43:12	"student011"	"student"	35	"Because I thought about more yoga or pilates"	"Because I thought about more yoga or pilates"	NA	NA	NA	NA	NA	NA	8
+2020-09-25 11:43:22	"teacher008"	"teacher"	36	"Just to note, practice as a verb is an American spelling, the British one is practise"	"Just to note, practice as a verb is an American spelling, the British one is practise"	NA	"2b"	"scaffolding"	"lexical resource,writing"	NA	NA	16
+2020-09-25 11:43:38	"teacher008"	"teacher"	37	"I should have used 'practise', sorry!"	"I should have used 'practise', sorry!"	NA	NA	"repair,scaffolding"	"lexical resource,writing"	NA	NA	6
+2020-09-25 11:43:49	"student011"	"student"	38	"For example, two times with this girl <YOGA INSTRUCTOR> and one time myself"	"For example, two times with this girl <YOGA INSTRUCTOR> and one time myself"	35	NA	NA	NA	NA	NA	13
+2020-09-25 11:43:59	"teacher008"	"teacher"	39	"And the noun is practice. as in 'regular yoga practice is wonderful for you'"	"And the noun is practice. as in 'regular yoga practice is wonderful for you'"	37	NA	"scaffolding"	"lexical resource,writing"	NA	NA	14
+2020-09-25 11:44:22	"student011"	"student"	40	"Should I use practice too?"	"Should I use practice too?"	NA	NA	"enquiry"	"lexical resource,writing"	NA	NA	5
+2020-09-25 11:44:29	"teacher008"	"teacher"	41	"I like that I can choose easier or harder sessions"	"I like that I can choose easier or harder sessions"	34	NA	NA	NA	NA	NA	10
+2020-09-25 11:44:45	"teacher008"	"teacher"	42	"It depends whether you want to spell it in a British or American way))"	"It depends whether you want to spell it in a British or American way))"	40	NA	"scaffolding"	"lexical resource,writing"	NA	NA	14
+2020-09-25 11:44:46	"student011"	"student"	43	"practise."	"practise."	NA	"2c"	"disruption"	NA	NA	NA	1
+2020-09-25 11:45:05	"student011"	"student"	44	"ahaha, it's autocorrect"	"ahaha, it's autocorrect"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:45:43	"student011"	"student"	45	"actually"	"actually"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 11:45:54	"teacher008"	"teacher"	46	"It's actually a good thing about this programme, there is no autocorrect, so we have spell everything out ourselves :)"	"It's actually a good thing about this programme, there is no autocorrect, so we have spell everything out ourselves :)"	NA	NA	NA	NA	NA	NA	20
+2020-09-25 11:46:06	"teacher008"	"teacher"	47	"*have to spell"	"*have to spell"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-09-25 11:46:15	"student011"	"student"	48	"<TEACHER>! Did you see an advert with yoga from IKEA?"	"<TEACHER>! Did you see an advert with yoga from IKEA?"	NA	"2d"	"topic development"	NA	NA	NA	10
+2020-09-25 11:46:29	"student011"	"student"	49	"did you watch? hm"	"did you watch? hm"	NA	NA	"enquiry"	"lexical resource"	NA	NA	4
+2020-09-25 11:46:29	"teacher008"	"teacher"	50	"No!"	"No!"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 11:46:32	"teacher008"	"teacher"	51	"Tell me"	"Tell me"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:46:43	"teacher008"	"teacher"	52	"Both are good, did you see and did you watch"	"Both are good, did you see and did you watch"	49	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-09-25 11:46:58	"teacher008"	"teacher"	53	"and Have you seen?"	"and Have you seen?"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	4
+2020-09-25 11:47:04	"teacher008"	"teacher"	54	"would be even better"	"would be even better"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	4
+2020-09-25 11:47:18	"student011"	"student"	55	"but I have autocorrect here/ Maybe it's because of my laptop"	"but I have autocorrect here. Maybe it's because of my laptop"	47	NA	NA	NA	NA	NA	11
+2020-09-25 11:47:39	"student011"	"student"	56	"Thank you )"	"Thank you )"	54	NA	NA	NA	NA	NA	3
+2020-09-25 11:47:49	"student011"	"student"	57	"Ok, You have to see it"	"Ok, You have to see it"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 11:47:51	"teacher008"	"teacher"	58	"Really? That's weird! I've got to ask my supervisor about this"	"Really? That's weird! I've got to ask my supervisor about this"	55	NA	NA	NA	NA	NA	11
+2020-09-25 11:47:57	"student011"	"student"	59	"I really like the idea"	"I really like the idea"	57	NA	NA	NA	NA	NA	5
+2020-09-25 11:48:05	"teacher008"	"teacher"	60	"Ok! I'll check it out!"	"Ok! I'll check it out!"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 11:48:41	"teacher008"	"teacher"	61	"Is you laptop a Mac?"	"Is you laptop a Mac?"	58	NA	NA	NA	NA	NA	5
+2020-09-25 11:48:49	"student011"	"student"	62	"Yes, Mac!"	"Yes, Mac!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:49:03	"teacher008"	"teacher"	63	"Hmm, I'll ask"	"Hmm, I'll ask"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:49:33	"teacher008"	"teacher"	64	"By the way, these are great Present Perfect situations"	"By the way, these are great Present Perfect situations"	NA	"3.0"	"presentation"	"grammatical resource"	NA	NA	9
+2020-09-25 11:49:43	"teacher008"	"teacher"	65	"I have been doing yoga since 2014"	"I have been doing yoga since 2014"	NA	NA	NA	NA	NA	NA	7
+2020-09-25 11:49:44	"student011"	"student"	66	"thank you! It's interesting. No all words, I think, but sometimes"	"thank you! It's interesting. Not all words, I think, but sometimes"	63	NA	NA	NA	NA	NA	11
+2020-09-25 11:49:52	"teacher008"	"teacher"	67	"ok, interesting!"	"ok, interesting!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:50:46	"teacher008"	"teacher"	68	"The most important thing about Present Perfect is the word 'present'. It's a present tense. I still do yoga!"	"The most important thing about Present Perfect is the word 'present'. It's a present tense. I still do yoga!"	65	NA	NA	NA	NA	NA	19
+2020-09-25 11:50:51	"student011"	"student"	69	"Ok, small practice. I have been doing yoga since August )))"	"Ok, small practice. I have been doing yoga since August )))"	NA	"3a"	"exercise"	"grammatical resource"	NA	NA	11
+2020-09-25 11:50:59	"teacher008"	"teacher"	70	"exactly?"	"exactly?"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 11:51:03	"teacher008"	"teacher"	71	"exactly!"	"exactly!"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-09-25 11:51:09	"student011"	"student"	72	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 11:51:35	"teacher008"	"teacher"	73	"They have been married for 5 years. vs. They were married for 5 years."	"They have been married for 5 years. vs. They were married for 5 years."	NA	"3b"	"eliciting"	"grammatical resource,meaning"	NA	NA	14
+2020-09-25 11:51:39	"teacher008"	"teacher"	74	"What's the difference/"	"What's the difference/"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:51:40	"teacher008"	"teacher"	75	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 11:51:52	"student011"	"student"	76	"And if I'm not doing now It's 'have done'"	"And if I'm not doing now It's 'have done'"	72	NA	NA	NA	NA	NA	9
+2020-09-25 11:52:09	"student011"	"student"	77	"have been married - ah. yes"	"have been married - ah. yes"	75	NA	NA	NA	NA	NA	6
+2020-09-25 11:52:12	"student011"	"student"	78	"this for"	"this is for"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:52:23	"student011"	"student"	79	"They are not married now"	"They are not married now"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 11:52:30	"teacher008"	"teacher"	80	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:52:46	"teacher008"	"teacher"	81	"and if 'they were married'?"	"and if 'they were married'?"	NA	NA	"eliciting"	"grammatical resource,meaning"	NA	NA	5
+2020-09-25 11:52:57	"student011"	"student"	82	"we don't know?"	"we don't know?"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:53:15	"student011"	"student"	83	"I mean about now"	"I mean about now"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 11:53:28	"teacher008"	"teacher"	84	"Mmm, no, they probably got a divorce or someone died"	"Mmm, no, they probably got a divorce or someone died"	NA	NA	NA	NA	NA	NA	10
+2020-09-25 11:53:47	"student011"	"student"	85	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 11:54:15	"teacher008"	"teacher"	86	"like Nicole Kidman and Tom Cruise! they were married"	"like Nicole Kidman and Tom Cruise! they were married"	NA	NA	NA	NA	NA	NA	9
+2020-09-25 11:54:22	"student011"	"student"	87	"So 'have been married'- they are not merried now"	"So 'have been married'- they are not married now"	NA	NA	"enquiry"	"grammatical resource,meaning"	NA	NA	9
+2020-09-25 11:54:35	"student011"	"student"	88	"were married - same?"	"were married - same?"	NA	NA	"enquiry"	"grammatical resource,meaning"	NA	NA	4
+2020-09-25 11:54:51	"teacher008"	"teacher"	89	"Oooh, sorry, let's go back"	"Oooh, sorry, let's go back"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 11:55:03	"teacher008"	"teacher"	90	"I can see where we slipped"	"I can see where we slipped"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 11:55:22	"teacher008"	"teacher"	91	"have been married - present perfect. It's a present tense, they are still married at present!"	"have been married - present perfect. It's a present tense, they are still married at present!"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	16
+2020-09-25 11:55:34	"student011"	"student"	92	"ah!"	"ah!"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 11:55:49	"teacher008"	"teacher"	93	"You and <STUDENT'S HUSBAND> have been married for a few years"	"You and <STUDENT'S HUSBAND> have been married for a few years"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	11
+2020-09-25 11:56:06	"teacher008"	"teacher"	94	"<TEACHER'S HUSBAND> and me have been married for x years (Who remembers?)"	"<TEACHER'S HUSBAND> and me have been married for x years (Who remembers?)"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	12
+2020-09-25 11:56:12	"teacher008"	"teacher"	95	"Kidman and Cruise were married!"	"Kidman and Cruise were married!"	NA	NA	"scaffolding"	"grammatical resource,meaning"	NA	NA	5
+2020-09-25 11:56:13	"student011"	"student"	96	"hahaha"	"hahaha"	94	NA	NA	NA	NA	NA	1
+2020-09-25 11:56:22	"student011"	"student"	97	"Who remembers ))"	"Who remembers ))"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 11:56:24	"teacher008"	"teacher"	98	"and just about celebrity couple!"	"and just about celebrity couple!"	95	NA	NA	NA	NA	NA	5
+2020-09-25 11:56:28	"teacher008"	"teacher"	99	"I don't!"	"I don't!"	97	NA	NA	NA	NA	NA	2
+2020-09-25 11:57:00	"student011"	"student"	100	"just about celebrity couple?"	"just about celebrity couple?"	NA	"3c"	"enquiry"	NA	NA	NA	4
+2020-09-25 11:57:12	"teacher008"	"teacher"	101	"*just about every celebrity couple"	"*just about every celebrity couple"	NA	NA	"repair"	"lexical resource"	NA	NA	5
+2020-09-25 11:57:26	"teacher008"	"teacher"	102	"I certainly haven't got autocorrection, sorry :)"	"I certainly haven't got autocorrection, sorry :)"	NA	NA	NA	NA	NA	NA	7
+2020-09-25 11:57:36	"teacher008"	"teacher"	103	"I mean that celebrity couples get divorced a lot"	"I mean that celebrity couples get divorced a lot"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-09-25 11:57:45	"student011"	"student"	104	"aaah! Sure!"	"aaah! Sure!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 11:58:29	"student011"	"student"	105	"but recently I've written an article"	"but recently I've written an article"	NA	"4.0"	"topic opening"	NA	NA	NA	6
+2020-09-25 11:59:32	"student011"	"student"	106	"Ukraine is a country with very high level of marriage and because to it the rate of divorces is very high too"	"Ukraine is a country with a very high level of marriages and because of it the rate of divorces is very high too"	NA	NA	NA	NA	NA	NA	22
+2020-09-25 12:00:10	"teacher008"	"teacher"	107	"Yes! Why do you think it is?"	"Yes! Why do you think it is?"	NA	NA	NA	NA	NA	NA	7
+2020-09-25 12:01:06	"student011"	"student"	108	"Because of society"	"Because of society"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:01:27	"student011"	"student"	109	"public opinion"	"public opinion"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:01:36	"teacher008"	"teacher"	110	"the pressure to get married?"	"the pressure to get married?"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 12:01:48	"student011"	"student"	111	"People think that they have to be merried"	"People think that they have to be married"	NA	NA	NA	NA	NA	NA	8
+2020-09-25 12:02:19	"student011"	"student"	112	"And even more, they 'have'di it at 20 or 25"	"And even more, they 'have' to do it at 20 or 25"	NA	NA	NA	NA	NA	NA	10
+2020-09-25 12:02:32	"teacher008"	"teacher"	113	"Oh yes, ridiculous!"	"Oh yes, ridiculous!"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:02:42	"student011"	"student"	114	"Yes, I think it's because of pressure"	"Yes, I think it's because of the pressure"	110	NA	NA	NA	NA	NA	7
+2020-09-25 12:02:43	"teacher008"	"teacher"	115	"I hope this is changing now, but these changes are so slow!"	"I hope this is changing now, but these changes are so slow!"	NA	NA	NA	NA	NA	NA	12
+2020-09-25 12:03:21	"teacher008"	"teacher"	117	"The UK has quite a high rate of failed marriages too, but I think people are more careful here because it's much harder to get a divorce than, for example, in Ukraine"	"The UK has quite a high rate of failed marriages too, but I think people are more careful here because it's much harder to get a divorce than, for example, in Ukraine"	NA	NA	NA	NA	NA	NA	32
+2020-09-25 12:03:35	"student011"	"student"	118	"I it's clear that then they become older and understand that they have to divorce"	"it's clear that then they become older and understand that they have to divorce"	112	NA	NA	NA	NA	NA	15
+2020-09-25 12:03:51	"teacher008"	"teacher"	120	"In Ukraine you just go to the registry office and get divorced within a month, no questions asked, if there are no children involved"	"In Ukraine you just go to the registry office and get divorced within a month, no questions asked, if there are no children involved"	117	NA	NA	NA	NA	NA	24
+2020-09-25 12:04:04	"teacher008"	"teacher"	121	"Exactly! This is what happened to me"	"Exactly! This is what happened to me"	118	NA	NA	NA	NA	NA	7
+2020-09-25 12:04:39	"teacher008"	"teacher"	122	"But in the UK they are only now introducing the law that will allow people to get a divorce if they just don't love each other anymore"	"But in the UK they are only now introducing the law that will allow people to get a divorce if they just don't love each other anymore"	120	NA	NA	NA	NA	NA	27
+2020-09-25 12:04:42	"student011"	"student"	123	"<TEACHER>! I was shocked at first ))"	"<TEACHER>! I was shocked at first ))"	121	NA	NA	NA	NA	NA	7
+2020-09-25 12:04:51	"teacher008"	"teacher"	124	"surely you knew that?"	"surely you knew that?"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 12:05:05	"teacher008"	"teacher"	125	"I mean that I was married before"	"I mean that I was married before"	NA	NA	NA	NA	NA	NA	7
+2020-09-25 12:05:05	"student011"	"student"	126	"And than I've remembered about your first marriage )"	"And then I remembered about your first marriage )"	123	NA	NA	NA	NA	NA	9
+2020-09-25 12:05:48	"teacher008"	"teacher"	127	"the key word is 'was' - past simple, I left it in the past :)"	"the key word is 'was' - past simple, I left it in the past :)"	125	NA	NA	NA	NA	NA	15
+2020-09-25 12:06:17	"teacher008"	"teacher"	128	"So in the UK it's much harder to make a divorce, which is why people take the decision to get married a bit more seriously I think"	"So in the UK it's much harder to make a divorce, which is why people take the decision to get married a bit more seriously I think"	NA	NA	NA	NA	NA	NA	27
+2020-09-25 12:06:20	"student011"	"student"	129	"they are only now introducing the law - means, that the law works now?"	"they are only now introducing the law - means, that the law works now?"	NA	"4a"	"enquiry"	"lexical resource,meaning"	NA	NA	14
+2020-09-25 12:06:27	"teacher008"	"teacher"	130	"*sorry, get a divorce!"	"*sorry, get a divorce!"	128	NA	"repair"	"lexical resource"	NA	NA	4
+2020-09-25 12:06:41	"teacher008"	"teacher"	131	"I'm not sure if it works yet!"	"I'm not sure if it works yet!"	129	NA	NA	NA	NA	NA	7
+2020-09-25 12:07:06	"teacher008"	"teacher"	132	"It might only be a proposal that needs to get the approval of the Parliament"	"It might only be a proposal that needs to get the approval of the Parliament"	NA	NA	NA	NA	NA	NA	15
+2020-09-25 12:07:10	"teacher008"	"teacher"	133	"I'm not sure!"	"I'm not sure!"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:07:29	"student011"	"student"	134	"to introduce a law - can I have something like description?"	"to introduce a law - can I have something like a description?"	NA	"4b"	"enquiry"	"lexical resource,meaning"	NA	NA	11
+2020-09-25 12:07:49	"student011"	"student"	135	"Ah, a proposal, I see"	"Ah, a proposal, I see"	132	NA	NA	NA	NA	NA	5
+2020-09-25 12:08:22	"student011"	"student"	136	"An when it works? Which verb is right?"	"And when it works? Which verb is right?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	8
+2020-09-25 12:08:23	"teacher008"	"teacher"	137	"Yes, sure, if the govenment introduces a new law, the law is active now"	"Yes, sure, if the govenment introduces a new law, the law is active now"	134	NA	NA	NA	NA	NA	14
+2020-09-25 12:08:47	"teacher008"	"teacher"	138	"I'm not sure whether it is a law or just a proposal at this stage!"	"I'm not sure whether it is a law or just a proposal at this stage!"	NA	NA	NA	NA	NA	NA	15
+2020-09-25 12:08:55	"teacher008"	"teacher"	139	"But I remember reading about it on the news"	"But I remember reading about it on the news"	NA	NA	NA	NA	NA	NA	9
+2020-09-25 12:09:05	"student011"	"student"	140	"Ok! I see"	"Ok! I see"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:09:13	"student011"	"student"	141	"I mean in general"	"I mean in general"	NA	"4c"	"enquiry"	"lexical resource"	NA	NA	4
+2020-09-25 12:09:39	"student011"	"student"	142	"Which verbs work with a law in different stages?"	"Which verbs work with a law in different stages?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	9
+2020-09-25 12:10:36	"teacher008"	"teacher"	143	"Ok, let's see. A proposed law that will be debated in Parliament is called a bill"	"Ok, let's see. A proposed law that will be debated in Parliament is called a bill"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	16
+2020-09-25 12:11:00	"student011"	"student"	144	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:11:21	"teacher008"	"teacher"	145	"Someone (a member of Parliament, or MP) proposes a bill"	"Someone (a member of Parliament, or MP) proposes a bill"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	10
+2020-09-25 12:11:29	"teacher008"	"teacher"	146	"Then the Parliament votes on it"	"Then the Parliament votes on it"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	6
+2020-09-25 12:11:39	"teacher008"	"teacher"	147	"The bill either passes or doesn't pass"	"The bill either passes or doesn't pass"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	7
+2020-09-25 12:11:59	"teacher008"	"teacher"	148	"Or sometimes it passes the House of Commons but not the House of Lords like the Brexit bill"	"Or sometimes it passes the House of Commons but not the House of Lords like the Brexit bill"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	18
+2020-09-25 12:12:41	"student011"	"student"	149	"I se"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:12:44	"student011"	"student"	150	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:12:48	"teacher008"	"teacher"	151	"It's the same in the US, a bill is proposed to Congress"	"It's the same in the US, a bill is proposed to Congress"	NA	NA	NA	"lexical resource,world knowledge"	NA	NA	12
+2020-09-25 12:12:49	"student011"	"student"	152	"*see"	"*see"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-09-25 12:13:02	"teacher008"	"teacher"	153	"And if it's passed, the bill becomes a law"	"And if it's passed, the bill becomes a law"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	9
+2020-09-25 12:13:09	"teacher008"	"teacher"	154	"and the govenment introduces a new law"	"and the govenment introduces a new law"	NA	NA	"scaffolding"	"lexical resource,world knowledge"	NA	NA	7
+2020-09-25 12:13:34	"teacher008"	"teacher"	155	"Does it work in a similar way in Ukraine?"	"Does it work in a similar way in Ukraine?"	NA	"4d"	"exercise,free practice"	"lexical resource,world knowledge"	NA	NA	9
+2020-09-25 12:13:41	"student011"	"student"	156	"It's clear now!"	"It's clear now!"	154	NA	NA	NA	NA	NA	3
+2020-09-25 12:13:57	"student011"	"student"	157	"Yes, something like this"	"Yes, something like this"	155	NA	NA	NA	NA	NA	4
+2020-09-25 12:14:09	"student011"	"student"	158	"First stage is a bill"	"The first stage is a bill"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 12:14:39	"teacher008"	"teacher"	159	"Sometimes the bill gets amended (+changed)"	"Sometimes the bill gets amended (+changed)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-09-25 12:14:47	"student011"	"student"	160	"and then the Parlament passes it"	"and then the Parlament passes it"	158	NA	NA	NA	NA	NA	6
+2020-09-25 12:14:58	"student011"	"student"	161	"Or the bill passes?"	"Or the bill passes?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	4
+2020-09-25 12:15:05	"teacher008"	"teacher"	162	"Amend' is a formal word for change. We amend a schedule / a document / a bill"	"Amend' is a formal word for change. We amend a schedule / a document / a bill"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-09-25 12:15:52	"teacher008"	"teacher"	163	"The Parliament passes a bill, a bill is passed"	"The Parliament passes a bill, a bill is passed"	161	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2020-09-25 12:15:59	"student011"	"student"	164	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:16:11	"teacher008"	"teacher"	165	"But informally people say, the bill passed / didn't pass / was thrown out"	"But informally people say, the bill passed / didn't pass / was thrown out"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	14
+2020-09-25 12:16:48	"student011"	"student"	166	"Ok, so the Parliament passes the bill and then it becomes a law after it will be signed by the President"	"Ok, so the Parliament passes the bill and then it becomes a law after it is signed by the President"	NA	NA	NA	NA	NA	NA	21
+2020-09-25 12:17:21	"teacher008"	"teacher"	167	"Aha, yes"	"Aha, yes"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:17:41	"teacher008"	"teacher"	168	"Interesting, I don't think the Prime Minister signs it. The Queen probably does!"	"Interesting, I don't think the Prime Minister signs it. The Queen probably does!"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	13
+2020-09-25 12:17:53	"teacher008"	"teacher"	169	"But she will sign anything, it's a formality"	"But she will sign anything, it's a formality"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	8
+2020-09-25 12:18:11	"student011"	"student"	170	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 12:18:28	"teacher008"	"teacher"	171	"The Prime Minister can get their party to vote in a certain way"	"The Prime Minister can get their party to vote in a certain way"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	13
+2020-09-25 12:18:58	"teacher008"	"teacher"	172	"But of course, the President has to sign a new law, it's coming back to me! Interesting differences"	"But of course, the President has to sign a new law, it's coming back to me! Interesting differences"	NA	NA	NA	NA	NA	NA	18
+2020-09-25 12:19:10	"student011"	"student"	173	"In Ukraine usually the President signs the laws, but sometimes it happens that no"	"In Ukraine usually the President signs the laws, but sometimes it happens so that he doesn't"	NA	NA	NA	NA	NA	NA	14
+2020-09-25 12:19:55	"teacher008"	"teacher"	174	"he doesn't?"	"he doesn't?"	NA	NA	"repair"	"grammatical resource"	NA	NA	2
+2020-09-25 12:20:37	"student011"	"student"	175	"sure sometimes he doesn't"	"sure sometimes he doesn't"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 12:20:54	"student011"	"student"	176	"But I think it happens rare"	"But I think it happens rarely"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 12:20:54	"teacher008"	"teacher"	177	"Quick question: have you got to stop at 3.30 or can we run 5 minutes late? because we didn't start on time (my fault)"	"Quick question: have you got to stop at 3.30 or can we run 5 minutes late? because we didn't start on time (my fault)"	NA	"5.0"	"enquiry"	NA	NA	NA	24
+2020-09-25 12:21:06	"teacher008"	"teacher"	178	"So the President can veto a law?"	"So the President can veto a law?"	175	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-09-25 12:21:33	"student011"	"student"	179	"It's better to stop at 3.30 because I have a meeting at that time"	"It's better to stop at 3.30 because I have a meeting at that time"	177	NA	NA	NA	NA	NA	14
+2020-09-25 12:21:41	"teacher008"	"teacher"	180	"Sure, got that"	"Sure, got that"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:22:08	"teacher008"	"teacher"	181	"The PM (Prime Minister) can't veto things. The Queen can but she never does, unfortunately :)"	"The PM (Prime Minister) can't veto things. The Queen can but she never does, unfortunately :)"	178	NA	"scaffolding"	"world knowledge"	NA	NA	16
+2020-09-25 12:22:25	"student011"	"student"	182	"Sure, He can and sometimes he does, but I think it's more like excception"	"Sure, He can and sometimes he does, but I think it's more like an exception"	178	NA	NA	NA	NA	NA	14
+2020-09-25 12:22:36	"teacher008"	"teacher"	183	"ah, interesting!"	"ah, interesting!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:22:56	"student011"	"student"	184	"People still love the Queen in the UK?"	"Do people still love the Queen in the UK?"	NA	"6.0"	"topic opening"	NA	NA	NA	8
+2020-09-25 12:23:07	"student011"	"student"	185	"What do you think?"	"What do you think?"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 12:23:07	"student011"	"student"	186	")"	")"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 12:23:12	"teacher008"	"teacher"	187	"Hmm, some do!"	"Hmm, some do!"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:23:19	"teacher008"	"teacher"	188	"I think most people love her :)"	"I think most people love her :)"	NA	NA	NA	NA	NA	NA	7
+2020-09-25 12:23:30	"teacher008"	"teacher"	189	"Have you seen The Crown?"	"Have you seen The Crown?"	NA	"6a"	"topic development"	NA	NA	NA	5
+2020-09-25 12:23:36	"student011"	"student"	190	"I love her like a person"	"I love her as a person"	188	NA	NA	NA	NA	NA	6
+2020-09-25 12:23:43	"teacher008"	"teacher"	191	"a TV show about the Queen"	"a TV show about the Queen"	189	NA	NA	NA	NA	NA	6
+2020-09-25 12:23:43	"student011"	"student"	192	"I mean her image"	"I mean her image"	190	NA	NA	NA	NA	NA	4
+2020-09-25 12:23:51	"teacher008"	"teacher"	193	"She's pretty cool!"	"She's pretty cool!"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:24:58	"student011"	"student"	194	"No, I've never seen"	"No, I've never seen it"	191	NA	NA	NA	NA	NA	4
+2020-09-25 12:25:20	"teacher008"	"teacher"	195	"You will like it if you like the Queen. The first two seasons were really good!"	"You will like it if you like the Queen. The first two seasons were really good!"	NA	NA	NA	NA	NA	NA	16
+2020-09-25 12:25:48	"student011"	"student"	196	"But I think than institution of monarchy is a bit old-fashioned"	"But I think that the institution of monarchy is a bit old-fashioned"	192	NA	NA	NA	NA	NA	11
+2020-09-25 12:25:54	"teacher008"	"teacher"	197	"And you like Churchill, he is there too. But you don't like TV shows, do you?"	"And you like Churchill, he is there too. But you don't like TV shows, do you?"	NA	NA	NA	NA	NA	NA	16
+2020-09-25 12:27:02	"student011"	"student"	198	"I'm not sure. I usually don't watch them because of <STUDENT'S HUSBAND>. We like to watch something together but he does not  like the series"	"I'm not sure. I usually don't watch them because of <STUDENT'S HUSBAND>. We like to watch something together but he does not  like series"	NA	NA	NA	NA	NA	NA	26
+2020-09-25 12:27:15	"teacher008"	"teacher"	199	"Oh yes, when things get really messy in this country, I wish the Queen could do something about it! But I probably wouldn't like her decisions if she could make any :)"	"Oh yes, when things get really messy in this country, I wish the Queen could do something about it! But I probably wouldn't like her decisions if she could make any :)"	NA	NA	NA	NA	NA	NA	32
+2020-09-25 12:27:29	"student011"	"student"	200	"So I'm not sure if I like or does not )))"	"So I'm not sure if I like them or not )))"	198	NA	NA	NA	NA	NA	11
+2020-09-25 12:27:35	"teacher008"	"teacher"	201	"Ah, I see. Do you watch a lot of movies?"	"Ah, I see. Do you watch a lot of movies?"	NA	"6b"	"topic development"	NA	NA	NA	10
+2020-09-25 12:28:07	"student011"	"student"	202	"We try"	"We try"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:28:24	"student011"	"student"	203	"We like to go to the cinema, but now you know"	"We like to go to the cinema, but now you know"	NA	NA	NA	NA	NA	NA	11
+2020-09-25 12:28:29	"teacher008"	"teacher"	204	"Good for you! We used to, we've got to start doing it again!"	"Good for you! We used to, we've got to start doing it again!"	202	NA	NA	NA	NA	NA	13
+2020-09-25 12:28:33	"student011"	"student"	205	"It's not a very good idea"	"It's not a very good idea"	203	NA	NA	NA	NA	NA	6
+2020-09-25 12:29:04	"student011"	"student"	206	"But actually we did it one time during carantee"	"But actually we did it once during the lockdown"	NA	NA	NA	NA	NA	NA	9
+2020-09-25 12:29:06	"teacher008"	"teacher"	207	"Oh yes, not great! Were you upset about the cancellation of James Bond this year?"	"Oh yes, not great! Were you upset about the cancellation of James Bond this year?"	NA	"6c"	"topic development"	NA	NA	NA	15
+2020-09-25 12:29:12	"teacher008"	"teacher"	208	"a quarantine"	"a quarantine"	206	NA	"repair"	"writing"	NA	NA	2
+2020-09-25 12:29:24	"teacher008"	"teacher"	209	"Well, it wasn't cancelled"	"Well, it wasn't cancelled"	207	NA	NA	NA	NA	NA	4
+2020-09-25 12:29:30	"student011"	"student"	210	"I haven't hear about it!!!"	"I haven't heard about it!!!"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 12:29:32	"teacher008"	"teacher"	211	"I remember you like Dan Craig"	"I remember you like Dan Craig"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 12:29:42	"student011"	"student"	212	"I like him"	"I like him"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:29:52	"teacher008"	"teacher"	213	"did I spell his name correctly?"	"did I spell his name correctly?"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 12:30:05	"teacher008"	"teacher"	214	"It wasn't cancelled, just postponed!"	"It wasn't cancelled, just postponed!"	NA	NA	NA	NA	NA	NA	5
+2020-09-25 12:30:10	"student011"	"student"	215	"We have watched a movie with him this year"	"We have watched a movie with him this year"	NA	NA	NA	NA	NA	NA	9
+2020-09-25 12:30:16	"student011"	"student"	216	"in the winter"	"in the winter"	NA	NA	NA	NA	NA	NA	3
+2020-09-25 12:30:22	"teacher008"	"teacher"	217	"Ah, we ended up talking about laws and bill and parliaments instead of food!"	"Ah, we ended up talking about laws and bill and parliaments instead of food!"	NA	"7.0"	"closing"	NA	NA	NA	14
+2020-09-25 12:30:30	"student011"	"student"	218	"I don't remember in English"	"I don't remember in English"	216	NA	NA	NA	NA	NA	5
+2020-09-25 12:30:33	"teacher008"	"teacher"	220	"I promise food next time! and more present perfect"	"I promise food next time! and more present perfect"	217	NA	NA	NA	NA	NA	9
+2020-09-25 12:30:36	"student011"	"student"	221	"knifes///"	"knives///"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 12:30:44	"teacher008"	"teacher"	222	"Knives out!"	"Knives out!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:30:49	"teacher008"	"teacher"	223	"Have you seen it?"	"Have you seen it?"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 12:30:56	"student011"	"student"	224	"Yes, I like it!!"	"Yes, I like it!!"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 12:31:03	"student011"	"student"	225	"liked? )"	"liked? )"	NA	NA	"enquiry"	"grammatical resource"	NA	NA	2
+2020-09-25 12:31:03	"teacher008"	"teacher"	226	"Really good, isn't it!"	"Really good, isn't it!"	NA	NA	NA	NA	NA	NA	4
+2020-09-25 12:31:05	"teacher008"	"teacher"	227	"So clever!"	"So clever!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:31:11	"teacher008"	"teacher"	228	"Right, I've got to let you go!"	"Right, I've got to let you go!"	220	NA	NA	NA	NA	NA	7
+2020-09-25 12:31:16	"student011"	"student"	229	"Sure"	"Sure"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 12:31:18	"student011"	"student"	230	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:31:27	"teacher008"	"teacher"	231	"Have a lovely afternoon, thank you!"	"Have a lovely afternoon, thank you!"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 12:31:28	"student011"	"student"	232	"Food for the next time )"	"Food for the next time )"	NA	NA	NA	NA	NA	NA	6
+2020-09-25 12:31:33	"teacher008"	"teacher"	233	"Definitely!"	"Definitely!"	NA	NA	NA	NA	NA	NA	1
+2020-09-25 12:31:40	"student011"	"student"	234	"You too!!"	"You too!!"	NA	NA	NA	NA	NA	NA	2
+2020-09-25 12:31:46	"student011"	"student"	235	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	"B2"	2

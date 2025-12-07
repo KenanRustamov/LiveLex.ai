@@ -1,0 +1,157 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-03-12 13:31:01	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-03-12 13:31:13	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 13:31:16	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-03-12 13:31:37	"student009"	"student"	4	"feeling angry"	"feeling angry"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 13:31:54	"teacher008"	"teacher"	5	"Oh really? Why?"	"Oh really? Why?"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 13:32:28	"student009"	"student"	6	"because my math teacher gave me 2!!! for nothing!!!"	"because my math teacher gave me 2!!! for nothing!!!"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 13:32:52	"student009"	"student"	7	", by the way, how are you?."	"by the way, how are you?."	NA	"2a"	"topic development"	NA	NA	NA	7
+2021-03-12 13:33:03	"teacher008"	"teacher"	8	"Whaat? Aren't you really good at math?"	"Whaat? Aren't you really good at math?"	6	NA	NA	NA	NA	NA	7
+2021-03-12 13:33:11	"teacher008"	"teacher"	9	"Ok, thank you! :."	"Ok, thank you! :."	7	NA	NA	NA	NA	NA	4
+2021-03-12 13:33:25	"student009"	"student"	10	"so on the lesson my deskmate asked me something on a paper"	"so in the lesson my deskmate asked me something on a piece of paper"	8	NA	NA	NA	NA	NA	12
+2021-03-12 13:33:47	"teacher008"	"teacher"	11	"Oh, your deskmate wrote you a note?"	"Oh, your deskmate wrote you a note?"	NA	NA	"repair"	"lexical resource"	NA	NA	7
+2021-03-12 13:34:25	"student009"	"student"	12	"and I didn't have time to do one math problem ,but I understood that I will do it fast"	"and I didn't have the time to do one math problem, but I thought that I would do it fast"	NA	NA	NA	NA	NA	NA	19
+2021-03-12 13:34:31	"student009"	"student"	13	"yes"	"yes"	11	NA	NA	NA	NA	NA	1
+2021-03-12 13:36:10	"student009"	"student"	14	"and I wrote a respond, but he also wrote smth funny that I quietly laughed at"	"and I wrote a response, but he also wrote smth funny that I quietly laughed at"	NA	NA	NA	NA	NA	NA	16
+2021-03-12 13:36:34	"student009"	"student"	15	"than she told me to show my classwork"	"then she told me to show her my classwork"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 13:37:03	"teacher008"	"teacher"	16	"Oh no!!"	"Oh no!!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 13:37:04	"student009"	"student"	17	"there was everything except one problem"	"there was everything except for one problem"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 13:37:36	"student009"	"student"	18	"I said that I didn't have time to write it, and she said she is giving me 2!!!"	"I said that I didn't have the time to write it, and she said she was giving me 2!!!"	NA	NA	NA	NA	NA	NA	18
+2021-03-12 13:37:53	"teacher008"	"teacher"	19	"Noooo!!!!"	"Noooo!!!!"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:38:10	"student009"	"student"	20	"we all hate her and we understand that she is not very good person"	"we all hate her and we understand that she is not a very good person"	NA	NA	NA	NA	NA	NA	14
+2021-03-12 13:38:24	"student009"	"student"	21	"I thought that she is not serious"	"I thought that she was not serious"	NA	NA	NA	NA	NA	NA	7
+2021-03-12 13:38:40	"student009"	"student"	22	"I showed her after the lesson ALL done correctly"	"I showed her after the lesson that everything was done correctly"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 13:38:54	"teacher008"	"teacher"	23	"I guess she decided to teach you a lesson for laughing with your friend, but so unfair"	"I guess she decided to teach you a lesson for laughing with your friend, but so unfair"	NA	NA	NA	NA	NA	NA	17
+2021-03-12 13:39:18	"student009"	"student"	24	"she said she was giving me 2 anyways"	"she said she was giving me 2 anyway"	22	NA	NA	NA	NA	NA	8
+2021-03-12 13:39:23	"student009"	"student"	25	"I laughed a bit"	"I laughed a bit"	23	NA	NA	NA	NA	NA	4
+2021-03-12 13:39:50	"student009"	"student"	26	"that was REALLY funny"	"that was REALLY funny"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 13:40:19	"teacher008"	"teacher"	27	"Oops, I hope the chatroom is not acting up again!"	"Oops, I hope the chatroom is not acting up again!"	NA	"3.0"	"disruption"	NA	NA	NA	10
+2021-03-12 13:40:54	"teacher008"	"teacher"	28	"Are you ok there? Is the program working for you?"	"Are you ok there? Is the program working for you?"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 13:41:23	"student009"	"student"	29	"to be honest we didn't really wnt to sit together, we are sitting like this only becuse of her and our class teacher, but our class teacher knew what she is doing , she knew we can laugh"	"to be honest we didn't really want to sit together, we are sitting like this only becuse of her and our class teacher, but our class teacher knew what she was doing, she knew we could laugh"	NA	"2b"	"topic development"	NA	NA	NA	38
+2021-03-12 13:42:19	"student009"	"student"	30	"math teacher said that i will answer on the next lesson and MAYBE she will correct it"	"The math teacher said that I would answer in the next lesson and MAYBE she would correct it"	NA	NA	NA	NA	NA	NA	17
+2021-03-12 13:43:05	"teacher008"	"teacher"	31	"Wow, I see! So you all hate your math teacher? She is new, isn't she?"	"Wow, I see! So you all hate your math teacher? She is new, isn't she?"	NA	NA	NA	NA	NA	NA	15
+2021-03-12 13:43:28	"student009"	"student"	32	"I was really sad about it, than she told smth to my class teacher and I heard a piece of what she said ' maybe she is going to lie, don't believe her'"	"I was really sad about it, then she said smth to my class teacher and I heard a piece of what she said, 'maybe she is going to lie, don't believe her'"	30	NA	NA	NA	NA	NA	33
+2021-03-12 13:43:34	"student009"	"student"	33	"yes she is new"	"yes she is new"	31	NA	NA	NA	NA	NA	4
+2021-03-12 13:44:34	"student009"	"student"	34	"omg"	"omg"	NA	"4.0"	"disruption"	NA	NA	NA	1
+2021-03-12 13:44:55	"student009"	"student"	35	"phew"	"phew"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:45:09	"teacher008"	"teacher"	36	"Oh no, the chatroom's gone crazy! It's been weird all day today"	"Oh no, the chatroom's gone crazy! It's been weird all day today"	NA	NA	NA	NA	NA	NA	12
+2021-03-12 13:46:06	"student009"	"student"	37	"so I asked my teacher for help , because she mustn't give me a mark for laughing"	"so I asked my teacher for help, because she mustn't give me a mark for laughing"	33	NA	NA	NA	NA	NA	17
+2021-03-12 13:46:18	"teacher008"	"teacher"	38	"Yes, it's not about your math ability!"	"Yes, it's not about your math ability!"	NA	NA	NA	NA	NA	NA	7
+2021-03-12 13:46:25	"student009"	"student"	39	"she literally said not to smile to one of our boys"	"she literally said not to smile to one of our boys"	NA	NA	NA	NA	NA	NA	11
+2021-03-12 13:46:43	"student009"	"student"	40	"even if he was wearing a mask all the time"	"even if he was wearing a mask all the time"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 13:47:31	"teacher008"	"teacher"	41	"Yes, I see. Unfair!"	"Yes, I see. Unfair!"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 13:47:52	"student009"	"student"	42	"I don't undeerstand her, she has a granddaughter from our school just in another 7 class"	"I don't understand her, she has a granddaughter in our school just in another 7th class"	NA	NA	NA	NA	NA	NA	16
+2021-03-12 13:48:25	"teacher008"	"teacher"	43	"Ok, sounds like you've had a tough day! I've got something fun for you for today, and then you can relax and play Minecraft .it's Minecraft night, isn't it?."	"Ok, sounds like you've had a tough day! I've got something fun for you for today, and then you can relax and play Minecraft .it's Minecraft night, isn't it?."	NA	"5.0"	"topic opening"	NA	NA	NA	29
+2021-03-12 13:48:49	"student009"	"student"	44	"and our class teacher told about it my deskmate's mom, she was really sad about it"	"and our class teacher told my deskmate's mom about it, she was really sad about it"	42	NA	NA	NA	NA	NA	16
+2021-03-12 13:49:10	"student009"	"student"	45	"well it was, now I play roblox more."	"well it was, now I play roblox more."	43	NA	NA	NA	NA	NA	8
+2021-03-12 13:49:25	"teacher008"	"teacher"	46	"Ok, sure!"	"Ok, sure!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 13:50:03	"teacher008"	"teacher"	47	"Ok, at my son's school, they are celebrating World Book Day today!"	"Ok, at my son's school, they are celebrating World Book Day today!"	NA	NA	NA	NA	NA	NA	12
+2021-03-12 13:50:18	"student009"	"student"	48	"nice"	"nice"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:50:18	"teacher008"	"teacher"	49	"They are all dressing up as their favourite book characters including teachers"	"They are all dressing up as their favourite book characters including teachers"	NA	NA	NA	NA	NA	NA	12
+2021-03-12 13:50:31	"student009"	"student"	50	"I ht"	"I hate"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 13:50:55	"student009"	"student"	51	"I hate our school for nor having such celebrations"	"I hate our school for nor having such celebrations"	NA	NA	NA	NA	NA	NA	9
+2021-03-12 13:51:18	"teacher008"	"teacher"	52	"Well, it's called World Book Day, but I've never heard about it in Ukraine."	"Well, it's called World Book Day, but I've never heard about it in Ukraine."	NA	NA	NA	NA	NA	NA	14
+2021-03-12 13:51:31	"teacher008"	"teacher"	53	"He went as Toothless from How to Train Your Dragon"	"He went as Toothless from How to Train Your Dragon"	NA	NA	NA	NA	NA	NA	10
+2021-03-12 13:51:44	"teacher008"	"teacher"	54	"We love How to Train Your Dragon books"	"We love How to Train Your Dragon books"	NA	NA	NA	NA	NA	NA	8
+2021-03-12 13:52:15	"teacher008"	"teacher"	55	"And we started talking about books last time, didn't we?"	"And we started talking about books last time, didn't we?"	NA	"5a"	"topic development,revision"	"lexical resource"	NA	NA	10
+2021-03-12 13:52:33	"teacher008"	"teacher"	56	"We said that some of books are fiction and others are non-fiction"	"We said that some of books are fiction and others are non-fiction"	NA	NA	"revision,scaffolding"	"lexical resource"	NA	NA	12
+2021-03-12 13:52:47	"teacher008"	"teacher"	57	"Do you remember what fiction / non-fiction means?"	"Do you remember what fiction / non-fiction means?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	8
+2021-03-12 13:52:48	"student009"	"student"	58	"we did"	"we did"	56	NA	NA	NA	NA	NA	2
+2021-03-12 13:54:41	"student009"	"student"	59	"fiction is based on reality and non-ficition is not as I remember"	"fiction is based on reality and non-ficition is not as I remember"	57	NA	NA	NA	NA	NA	12
+2021-03-12 13:55:12	"teacher008"	"teacher"	60	"It's exactly the opposite :."	"It's exactly the opposite :."	NA	NA	"repair"	"lexical resource,meaning"	NA	NA	5
+2021-03-12 13:55:32	"teacher008"	"teacher"	61	"Fiction is made up stories, and non-fiction is based on what really happened / what's happening"	"Fiction is made up stories, and non-fiction is based on what really happened / what's happening"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2021-03-12 13:56:07	"teacher008"	"teacher"	62	"Ok, I'm going to give you a type of writing and you say whether you think it's fiction or non-fiction, ok?"	"Ok, I'm going to give you a type of writing and you say whether you think it's fiction or non-fiction, ok?"	NA	"5b"	"eliciting"	"lexical resource"	NA	NA	21
+2021-03-12 13:56:13	"teacher008"	"teacher"	63	"a fantasy story"	"a fantasy story"	NA	NA	NA	NA	NA	NA	3
+2021-03-12 13:56:40	"student009"	"student"	64	"fiction"	"fiction"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:56:46	"teacher008"	"teacher"	65	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:56:52	"teacher008"	"teacher"	66	"a memoir"	"a memoir"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 13:57:04	"student009"	"student"	67	"non-fiction"	"non-fiction"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:57:12	"teacher008"	"teacher"	68	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:57:27	"teacher008"	"teacher"	69	"a biography, e.g. a book about the life of Winston Churchill"	"a biography, e.g. a book about the life of Winston Churchill"	NA	NA	NA	NA	NA	NA	11
+2021-03-12 13:57:45	"student009"	"student"	70	"non-fiction"	"non-fiction"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:58:15	"teacher008"	"teacher"	71	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:58:18	"teacher008"	"teacher"	72	"poetry"	"poetry"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:58:46	"student009"	"student"	73	"fiction"	"fiction"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:59:02	"teacher008"	"teacher"	74	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:59:04	"teacher008"	"teacher"	75	"a novel"	"a novel"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 13:59:33	"student009"	"student"	76	"fiction"	"fiction"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 13:59:52	"teacher008"	"teacher"	77	"Yes, that's right. You know 'novel' then?"	"Yes, that's right. You know 'novel' then?"	NA	"5c"	"eliciting"	"lexical resource,meaning"	NA	NA	7
+2021-03-12 14:00:35	"teacher008"	"teacher"	78	"a long story about imaginary characters / events"	"a long story about imaginary characters / events"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2021-03-12 14:00:38	"student009"	"student"	79	"yes I think"	"yes I think"	77	NA	NA	NA	NA	NA	3
+2021-03-12 14:00:52	"teacher008"	"teacher"	80	"Yes, it's called 'roman' in Russian"	"Yes, it's called 'roman' in Russian"	NA	NA	"non-English,scaffolding"	"lexical resource,meaning,code switching"	NA	NA	6
+2021-03-12 14:01:22	"teacher008"	"teacher"	81	"Ok, finally, a book about the human brain works"	"Ok, finally, a book about the human brain works"	76	NA	NA	NA	NA	NA	9
+2021-03-12 14:01:43	"student009"	"student"	82	"non-fiction"	"non-fiction"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:01:51	"teacher008"	"teacher"	83	"Yes, sure!"	"Yes, sure!"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 14:02:25	"teacher008"	"teacher"	84	"Ok, I'm going to give you a piece of poetry in a minute, can you please try to guess which book it's from .I think you know it. and who's singing it in the book"	"Ok, I'm going to give you a piece of poetry in a minute, can you please try to guess which book it's from .I think you know it. and who's singing it in the book"	NA	"6.0"	"exercise"	"reading"	"book"	NA	35
+2021-03-12 14:02:34	"teacher008"	"teacher"	85	"But first, a couple of new words"	"But first, a couple of new words"	NA	"6a"	"presentation"	"lexical resource"	NA	NA	7
+2021-03-12 14:02:47	"teacher008"	"teacher"	86	"greedy"	"greedy"	NA	NA	"presentation"	"lexical resource"	NA	NA	1
+2021-03-12 14:02:52	"teacher008"	"teacher"	87	"an adjective"	"an adjective"	NA	NA	"presentation"	"lexical resource"	NA	NA	2
+2021-03-12 14:03:05	"teacher008"	"teacher"	88	"if someone is greedy, they want a lot more food / money / things than they need"	"if someone is greedy, they want a lot more food / money / things than they need"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	17
+2021-03-12 14:03:40	"teacher008"	"teacher"	89	"Ok?"	"Ok?"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:03:44	"student009"	"student"	90	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:03:53	"teacher008"	"teacher"	91	"And one more"	"And one more"	NA	"6b"	"presentation"	"lexical resource"	NA	NA	3
+2021-03-12 14:03:56	"teacher008"	"teacher"	92	"a nincompoop"	"a nincompoop"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 14:04:05	"teacher008"	"teacher"	93	"Have you ever heard this word?"	"Have you ever heard this word?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	6
+2021-03-12 14:05:12	"student009"	"student"	94	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:05:46	"teacher008"	"teacher"	95	"It means a silly and stupid person"	"It means a silly and stupid person"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	7
+2021-03-12 14:05:49	"teacher008"	"teacher"	96	"ˈnɪŋ.kəm.puːp"	"ˈnɪŋ.kəm.puːp"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	1
+2021-03-12 14:05:56	"teacher008"	"teacher"	97	"It's not a compliment :."	"It's not a compliment :."	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	5
+2021-03-12 14:06:36	"student009"	"student"	98	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:06:40	"teacher008"	"teacher"	99	"Ok, are you ready for the piece of poetry?"	"Ok, are you ready for the piece of poetry?"	NA	"6c"	"exercise"	"reading"	"book"	NA	9
+2021-03-12 14:07:05	"student009"	"student"	100	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:07:08	"teacher008"	"teacher"	101	"Augustus Gloop! Augustus Gloop! The great big greedy nincompoop! How long could we allow this beast To gorge and guzzle, feed and feast On everything he wanted to? Great Scott! It simply wouldn't do! However long this pig might live, We're positive he'd never give Even the smallest bit of fun Or happiness to anyone."	"Augustus Gloop! Augustus Gloop! The great big greedy nincompoop! How long could we allow this beast To gorge and guzzle, feed and feast On everything he wanted to? Great Scott! It simply wouldn't do! However long this pig might live, We're positive he'd never give Even the smallest bit of fun Or happiness to anyone."	NA	NA	NA	NA	NA	NA	55
+2021-03-12 14:07:56	"student009"	"student"	102	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:08:21	"student009"	"student"	103	"I can't even guess"	"I can't even guess"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 14:08:57	"teacher008"	"teacher"	104	"It's a book that you know and love! You said so :. But I think you must have read a Russian or Ukrainian translation"	"It's a book that you know and love! You said so :. But I think you must have read a Russian or Ukrainian translation"	NA	NA	NA	NA	NA	NA	24
+2021-03-12 14:09:25	"student009"	"student"	105	"of course I read a translation"	"of course I read a translation"	NA	NA	NA	NA	NA	NA	6
+2021-03-12 14:09:44	"teacher008"	"teacher"	106	"any ideas?"	"any ideas?"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 14:10:23	"student009"	"student"	107	"no"	"no"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:10:38	"teacher008"	"teacher"	108	"Oompa-Loompas sing it in...."	"Oompa-Loompas sing it in...."	NA	NA	NA	NA	NA	NA	4
+2021-03-12 14:11:20	"student009"	"student"	109	"Ohhh"	"Ohhh"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:11:28	"teacher008"	"teacher"	110	"Charlie and the Chocolate Factory!"	"Charlie and the Chocolate Factory!"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 14:11:32	"student009"	"student"	111	"Charlie and the chocolate"	"Charlie and the chocolate"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 14:11:41	"teacher008"	"teacher"	112	"Yeah, you've got it :."	"Yeah, you've got it :."	NA	NA	NA	NA	NA	NA	5
+2021-03-12 14:11:44	"student009"	"student"	113	"oh you were first"	"oh you were first"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 14:12:02	"teacher008"	"teacher"	114	"No, I know that you know, I should have let you ansewr"	"No, I know that you know, I should have let you ansewr"	NA	NA	NA	NA	NA	NA	12
+2021-03-12 14:12:06	"teacher008"	"teacher"	115	"*answer"	"*answer"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-03-12 14:12:54	"teacher008"	"teacher"	116	"Remember Oompa-Loompas sang a song about each of the 'bad' children?"	"Remember Oompa-Loompas sang a song about each of the 'bad' children?"	NA	NA	NA	NA	NA	NA	11
+2021-03-12 14:12:59	"student009"	"student"	117	"that's okay"	"that's okay"	114	NA	NA	NA	NA	NA	2
+2021-03-12 14:13:03	"student009"	"student"	118	"nevermind"	"never mind"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:13:07	"student009"	"student"	119	"yeah I do"	"yeah I do"	116	NA	NA	NA	NA	NA	3
+2021-03-12 14:13:40	"teacher008"	"teacher"	120	"Ok, but this next song is not about one of the children. I'll give you a couple more words, and you can guess what it is about"	"Ok, but this next song is not about one of the children. I'll give you a couple more words, and you can guess what it is about"	NA	"7.0"	"presentation"	"lexical resource"	NA	NA	27
+2021-03-12 14:14:52	"teacher008"	"teacher"	121	"1. to rot .verb. If something like a piece of fruit or maybe something made of wood rots, it goes black and soft and is ruined"	"1. to rot .verb. If something like a piece of fruit or maybe something made of wood rots, it goes black and soft and is ruined"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	26
+2021-03-12 14:15:13	"teacher008"	"teacher"	122	"The reason we put food in the fridge is so that it doesn't rot .go bad."	"The reason we put food in the fridge is so that it doesn't rot .go bad."	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	16
+2021-03-12 14:15:36	"teacher008"	"teacher"	123	"the adjective is 'rotten'"	"the adjective is 'rotten'"	NA	NA	"presentation"	"lexical resource"	NA	NA	4
+2021-03-12 14:15:55	"teacher008"	"teacher"	124	"She bought a bag of apples, but three of them were rotten"	"She bought a bag of apples, but three of them were rotten"	NA	NA	"presentation"	"lexical resource"	NA	NA	12
+2021-03-12 14:16:06	"teacher008"	"teacher"	125	"Ok?"	"Ok?"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:16:13	"student009"	"student"	126	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:16:50	"teacher008"	"teacher"	127	"Ok, and one more word"	"Ok, and one more word"	NA	"7a"	"presentation"	"lexical resource"	NA	NA	5
+2021-03-12 14:16:53	"teacher008"	"teacher"	128	"to clutter up"	"to clutter up"	NA	NA	"presentation"	"lexical resource"	NA	NA	3
+2021-03-12 14:17:08	"teacher008"	"teacher"	129	"If you clutter something up, you fill it with lots of things and it looks untidy"	"If you clutter something up, you fill it with lots of things and it looks untidy"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	16
+2021-03-12 14:17:24	"teacher008"	"teacher"	130	"His old house was all cluttered with old newspapers and rubbish"	"His old house was all cluttered with old newspapers and rubbish"	NA	NA	"presentation"	"lexical resource"	NA	NA	11
+2021-03-12 14:17:58	"student009"	"student"	131	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:18:21	"teacher008"	"teacher"	132	"Ok, a piece of another song from the Oompa-Loompas. Can you guess what it is about? What has this effect on children?"	"Ok, a piece of another song from the Oompa-Loompas. Can you guess what it is about? What has this effect on children?"	NA	"8.0"	"exercise"	"reading"	"book"	NA	22
+2021-03-12 14:18:25	"teacher008"	"teacher"	133	"IT ROTS THE SENSES IN THE HEAD! IT KILLS IMAGINATION DEAD! IT CLOGS AND CLUTTERS UP THE MIND! IT MAKES A CHILD SO DULL AND BLIND HE CAN NO LONGER UNDERSTAND A FANTASY, A FAIRYLAND! HIS BRAIN BECOMES AS SOFT AS CHEESE! HIS POWERS OF THINKING RUST AND FREEZE! HE CANNOT THINK — HE ONLY SEES!"	"IT ROTS THE SENSES IN THE HEAD! IT KILLS IMAGINATION DEAD! IT CLOGS AND CLUTTERS UP THE MIND! IT MAKES A CHILD SO DULL AND BLIND HE CAN NO LONGER UNDERSTAND A FANTASY, A FAIRYLAND! HIS BRAIN BECOMES AS SOFT AS CHEESE! HIS POWERS OF THINKING RUST AND FREEZE! HE CANNOT THINK — HE ONLY SEES!"	NA	NA	NA	NA	NA	NA	56
+2021-03-12 14:19:28	"student009"	"student"	134	"maybe about hte TV?"	"maybe about TV?"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 14:19:39	"teacher008"	"teacher"	135	"Yessss! You've got it"	"Yessss! You've got it"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 14:19:41	"teacher008"	"teacher"	136	"3. The most important thing we’ve learned, So far as children are concerned, Is never, NEVER, NEVER let Them near your television set — Or better still, just don’t install The idiotic thing at all. In almost every house we’ve been, We’ve watched them gaping at the screen."	"3. The most important thing we’ve learned, So far as children are concerned, Is never, NEVER, NEVER let Them near your television set — Or better still, just don’t install The idiotic thing at all. In almost every house we’ve been, We’ve watched them gaping at the screen."	NA	NA	NA	NA	NA	NA	48
+2021-03-12 14:20:07	"teacher008"	"teacher"	137	"It sounds like Roald Dahl really didn't like TV :."	"It sounds like Roald Dahl really didn't like TV :."	NA	NA	NA	NA	NA	NA	10
+2021-03-12 14:20:35	"student009"	"student"	138	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:20:55	"teacher008"	"teacher"	139	"It's good that he didn't know about mobile phones :."	"It's good that he didn't know about mobile phones :."	NA	NA	NA	NA	NA	NA	10
+2021-03-12 14:21:29	"teacher008"	"teacher"	140	"And then, in the rest of the poem, the Oompa-Loompas talk about how books are much better than TV"	"And then, in the rest of the poem, the Oompa-Loompas talk about how books are much better than TV"	NA	NA	NA	NA	NA	NA	19
+2021-03-12 14:21:47	"teacher008"	"teacher"	141	"So of course, I'm curious to know if you agree with Oompa-Loompas and Roald Dahl :."	"So of course, I'm curious to know if you agree with Oompa-Loompas and Roald Dahl :."	NA	"8a"	"eliciting"	"writing,reading"	NA	NA	16
+2021-03-12 14:22:12	"student009"	"student"	142	"I disagree"	"I disagree"	NA	NA	NA	NA	NA	NA	2
+2021-03-12 14:23:09	"teacher008"	"teacher"	143	"Tell me more, please!"	"Tell me more, please!"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 14:23:41	"student009"	"student"	144	"of course TV can be bad for your eyes, but not brain! and also, books are not always good for your eyes too!"	"of course TV can be bad for your eyes, but not the brain! and also, books are not always good for your eyes too!"	NA	NA	NA	NA	NA	NA	23
+2021-03-12 14:23:52	"student009"	"student"	145	"so it is stupid"	"so it is stupid"	NA	NA	NA	NA	NA	NA	4
+2021-03-12 14:24:31	"teacher008"	"teacher"	146	"Yes, the best for your eyes is being outdoors and never reading off paper or screens :."	"Yes, the best for your eyes is being outdoors and never reading off paper or screens :."	NA	NA	NA	NA	NA	NA	17
+2021-03-12 14:24:38	"teacher008"	"teacher"	147	"But what about the brain?"	"But what about the brain?"	NA	NA	"eliciting"	"writing"	NA	NA	5
+2021-03-12 14:27:12	"student009"	"student"	148	"books also ot the best for your brain, because the author can make you think what's on his mind, for example , Roald Dahl and TV's"	"books also are not the best for your brain, because the author can make you think what's on his mind, for example, Roald Dahl and TV"	NA	NA	NA	NA	NA	NA	26
+2021-03-12 14:28:52	"teacher008"	"teacher"	149	"Haha, yes! They can influence you. I suppose, if you read a lot, then there are lots of ideas to choose from, so that you're not just influenced by the one"	"Haha, yes! They can influence you. I suppose, if you read a lot, then there are lots of ideas to choose from, so that you're not just influenced by the one"	NA	NA	NA	NA	NA	NA	31
+2021-03-12 14:29:31	"student009"	"student"	150	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:29:49	"teacher008"	"teacher"	151	"But I agree with you, I think both books and TV are here to be enjoyed and learn from. It's good to have a choice!"	"But I agree with you, I think both books and TV are here to be enjoyed and learn from. It's good to have a choice!"	NA	NA	NA	NA	NA	NA	25
+2021-03-12 14:30:43	"teacher008"	"teacher"	152	"Ok, thank you <STUDENT>, I'll let you go enjoy your Friday afternoon!"	"Ok, thank you <STUDENT>, I'll let you go enjoy your Friday afternoon!"	NA	"9.0"	"closing"	NA	NA	NA	12
+2021-03-12 14:31:11	"teacher008"	"teacher"	153	"I hope you liked a bit of Roald Dahl in English :."	"I hope you liked a bit of Roald Dahl in English :."	NA	NA	NA	NA	NA	NA	12
+2021-03-12 14:32:08	"student009"	"student"	154	"okie"	"okie"	NA	NA	NA	NA	NA	NA	1
+2021-03-12 14:32:20	"student009"	"student"	155	"thank you , bye bye!"	"thank you, bye bye!"	NA	NA	NA	NA	NA	NA	5
+2021-03-12 14:32:28	"teacher008"	"teacher"	157	"Bye :."	"Bye :."	NA	NA	NA	NA	NA	"B2"	2

@@ -1,0 +1,128 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-04-30 12:32:10	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2021-04-30 12:32:47	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2021-04-30 12:32:50	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-04-30 12:32:57	"student009"	"student"	4	"I am fine"	"I am fine"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 12:33:02	"student009"	"student"	5	"and you?"	"and you?"	NA	NA	NA	NA	NA	NA	2
+2021-04-30 12:33:13	"teacher008"	"teacher"	6	"Good, thank you"	"Good, thank you"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 12:33:28	"teacher008"	"teacher"	7	"Are you looking forward to the Easter holiday?"	"Are you looking forward to the Easter holiday?"	NA	"2a"	"topic development"	NA	NA	NA	8
+2021-04-30 12:34:00	"student009"	"student"	8	"well, I am looking forward it just to eat some nice food"	"well, I am looking forward just to eating some nice food"	NA	NA	NA	NA	NA	NA	12
+2021-04-30 12:34:21	"teacher008"	"teacher"	9	"Nice! Like what for example?"	"Nice! Like what for example?"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 12:34:50	"student009"	"student"	10	"kulichi."	"kulichi."	NA	NA	NA	NA	NA	NA	1
+2021-04-30 12:35:09	"teacher008"	"teacher"	11	"Haha, yes, I can imagine :."	"Haha, yes, I can imagine :)"	NA	NA	NA	NA	NA	NA	6
+2021-04-30 12:36:12	"teacher008"	"teacher"	12	"Ok, remember our phrases from the previous lesson? The most annoying / frustrating / exciting / interesting thing about .... is..."	"Ok, remember our phrases from the previous lesson? The most annoying / frustrating / exciting / interesting thing about .... is..."	NA	"3.0"	"revision,exercise"	"writing,grammatical resource,lexical resource"	NA	NA	21
+2021-04-30 12:36:22	"student009"	"student"	13	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 12:36:24	"teacher008"	"teacher"	14	"The thing I hate / love / enjoy most about .... is ...."	"The thing I hate / love / enjoy most about .... is ...."	NA	NA	"scaffolding,revision"	"lexical resource,grammatical resource"	NA	NA	13
+2021-04-30 12:36:41	"teacher008"	"teacher"	15	"The upside / downside .of something. is that...."	"The upside / downside (of something) is that...."	NA	NA	"scaffolding,revision"	"lexical resource,grammatical resource"	NA	NA	8
+2021-04-30 12:36:52	"teacher008"	"teacher"	16	"One of the advantages / disadvantages is that..."	"One of the advantages / disadvantages is that..."	NA	NA	"scaffolding,revision"	"lexical resource,grammatical resource"	NA	NA	8
+2021-04-30 12:37:28	"teacher008"	"teacher"	17	"Can you make several sentences about what's going on for you? Maybe Easter, or something about school - whatever you want!"	"Can you make several sentences about what's going on for you? Maybe Easter, or something about school - whatever you want!"	NA	"3a"	"exercise,eliciting"	"writing,lexical resource,grammatical resource"	NA	NA	21
+2021-04-30 12:38:10	"student009"	"student"	18	"The thing I dislike that every year on Easter we visit my grandma and we eat to much food!"	"The thing I dislike is that every year at Easter we visit my grandma and we eat too much food!"	NA	NA	NA	NA	NA	NA	19
+2021-04-30 12:38:28	"student009"	"student"	19	"is that*"	"is that*"	NA	NA	"repair"	"writing"	NA	NA	2
+2021-04-30 12:39:19	"teacher008"	"teacher"	20	"Ok, sure! I can see how it can be frustrating. *at Easter"	"Ok, sure! I can see how it can be frustrating. *at Easter"	NA	NA	"repair"	"lexical resource"	NA	NA	12
+2021-04-30 12:40:19	"student009"	"student"	21	"One of the disadvantages is that I can't eat only the top part of kulich and I dislike raisins"	"One of the disadvantages is that I can't eat only the top part of kulich and I dislike raisins"	NA	NA	NA	NA	NA	NA	19
+2021-04-30 12:40:35	"teacher008"	"teacher"	22	"Aah, I see! You only like the icing?"	"Aah, I see! You only like the icing?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-04-30 12:40:45	"student009"	"student"	23	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 12:41:08	"teacher008"	"teacher"	24	"You wouldn't like many English desserts then. There are often quite a lot of raisins and sultanas in them!"	"You wouldn't like many English desserts then. There are often quite a lot of raisins and sultanas in them!"	NA	NA	NA	NA	NA	NA	19
+2021-04-30 12:42:08	"student009"	"student"	25	"for me kulich is dry without icing, especially with raisins"	"for me kulich is dry without the icing, especially with raisins"	NA	NA	NA	NA	NA	NA	10
+2021-04-30 12:42:51	"teacher008"	"teacher"	26	"Yes, my solution has always been butter :."	"Yes, my solution has always been butter :)"	NA	NA	NA	NA	NA	NA	8
+2021-04-30 12:43:10	"teacher008"	"teacher"	27	"I mean, I just spread lots of butter on slices of kulich"	"I mean, I just spread lots of butter on slices of kulich"	NA	NA	NA	NA	NA	NA	12
+2021-04-30 12:43:16	"student009"	"student"	28	"The thing I am worried about is that I don't really believe in God and I have to celebrate Easter"	"The thing I am worried about is that I don't really believe in God and I have to celebrate Easter"	NA	"3b"	NA	NA	NA	NA	20
+2021-04-30 12:43:24	"student009"	"student"	29	"nice"	"nice"	27	NA	NA	NA	NA	NA	1
+2021-04-30 12:43:33	"student009"	"student"	30	"I think I should try"	"I think I should try that"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 12:43:43	"teacher008"	"teacher"	31	"Yes, I recommend!"	"Yes, I recommend!"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 12:44:32	"teacher008"	"teacher"	32	"Yes, I get that too! We're not very religious, and yet Christmas and Easter are celebrated. It's part of a tradition!"	"Yes, I get that too! We're not very religious, and yet Christmas and Easter are celebrated. It's part of a tradition!"	28	NA	NA	NA	NA	NA	21
+2021-04-30 12:45:24	"teacher008"	"teacher"	33	"*We're not very religious either, I meant"	"*We're not very religious either, I meant"	NA	NA	"repair"	NA	NA	NA	7
+2021-04-30 12:46:44	"student009"	"student"	34	"like I am not atheist, maybe you don't know but there is such a thing like agnostic-that means that you don't really know is there is a God or not"	"like I am not an atheist, maybe you don't know but there is such a thing as an agnostic, that means that you don't really know whether there is a god or not"	32	NA	NA	NA	NA	NA	30
+2021-04-30 12:47:40	"teacher008"	"teacher"	35	"Yes, I know of course. You're leaving some room for what you can't prove / disprove"	"Yes, I know of course. You're leaving some room for what you can't prove / disprove"	NA	NA	NA	NA	NA	NA	16
+2021-04-30 12:48:01	"teacher008"	"teacher"	36	"...you don't really know _____ ____ _____ a God or not"	"...you don't really know _____ ____ _____ a God or not"	NA	"3c"	"eliciting,repair"	"grammatical resource"	NA	NA	11
+2021-04-30 12:48:20	"student009"	"student"	37	"yeah, I think it is about me"	"yeah, I think it is about me"	35	NA	NA	NA	NA	NA	7
+2021-04-30 12:48:22	"student009"	"student"	38	"oy"	"oy"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 12:48:27	"student009"	"student"	39	"forgot to type if"	"forgot to type if"	36	NA	NA	NA	NA	NA	4
+2021-04-30 12:48:39	"student009"	"student"	40	"if there  is"	"if there  is"	NA	NA	NA	NA	NA	NA	4
+2021-04-30 12:48:51	"teacher008"	"teacher"	41	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 12:49:20	"teacher008"	"teacher"	42	"Good writing <STUDENT>, well done!"	"Good writing <STUDENT>, well done!"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 12:49:37	"teacher008"	"teacher"	43	"How many days off are you having? Just next Monday?"	"How many days off are you having? Just next Monday?"	NA	"4.0"	"topic opening"	NA	NA	NA	10
+2021-04-30 12:49:50	"student009"	"student"	44	"and Tuesday I think"	"and Tuesday I think"	NA	NA	NA	NA	NA	NA	4
+2021-04-30 12:49:55	"student009"	"student"	45	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 12:50:07	"student009"	"student"	46	"we come to school on Wednesday"	"we go back to school on Wednesday"	NA	NA	NA	NA	NA	NA	6
+2021-04-30 12:50:30	"teacher008"	"teacher"	47	"That's an upside to the whole Easter thing, isn't it? :."	"That's an upside to the whole Easter thing, isn't it? :)"	NA	NA	NA	NA	NA	NA	11
+2021-04-30 12:50:44	"student009"	"student"	48	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 12:51:04	"teacher008"	"teacher"	49	"We're having a holiday too, it's called a bank holiday Monday. The first and the last Mondays in May are bank holidays"	"We're having a holiday too, it's called a bank holiday Monday. The first and the last Mondays in May are bank holidays"	NA	"4a"	"topic development"	NA	NA	NA	22
+2021-04-30 12:51:14	"student009"	"student"	50	"but it is not only because of Easter, tomorrow is the first of May"	"but it is not only because of Easter, tomorrow is the first of May"	48	NA	NA	NA	NA	NA	14
+2021-04-30 12:51:27	"teacher008"	"teacher"	51	"Oh yes, sure! Labour Day"	"Oh yes, sure! Labour Day"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 12:53:12	"teacher008"	"teacher"	52	"Ok, I'd like us to talk about food today, but not the traditional type like kulichi :."	"Ok, I'd like us to talk about food today, but not the traditional type like kulichi :)"	NA	"5.0"	"topic opening"	NA	NA	NA	17
+2021-04-30 12:53:55	"teacher008"	"teacher"	53	"As you probably know, the food industry is both creating and facing many environmental problems"	"As you probably know, the food industry is both creating and facing many environmental problems"	NA	NA	NA	NA	NA	NA	15
+2021-04-30 12:54:22	"teacher008"	"teacher"	54	"Do you know much about this? How food production may be harmful to the environment?"	"Do you know much about this? How food production may be harmful to the environment?"	NA	"5a"	"eliciting"	"lexical resource,writing,world knowledge"	NA	NA	15
+2021-04-30 12:54:56	"student009"	"student"	55	"well, not much"	"well, not much"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 12:55:51	"teacher008"	"teacher"	56	"Well, to create fields to grow food for humans and animals, people cut down forests, which is very bad for the planet"	"Well, to create fields to grow food for humans and animals, people cut down forests, which is very bad for the planet"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	22
+2021-04-30 12:56:08	"student009"	"student"	57	"yeah"	"yeah"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 12:57:11	"teacher008"	"teacher"	58	"Also, the livestock people farm .livestock = cows, sheep, pigs etc.. require a lot of fresh water and resources and create a lot of gases that are harmful for the environment"	"Also, the livestock people farm .livestock = cows, sheep, pigs etc.. require a lot of fresh water and resources and create a lot of gases that are harmful for the environment"	NA	NA	"scaffolding"	"world knowledge,lexical resource,meaning"	NA	NA	31
+2021-04-30 12:57:16	"teacher008"	"teacher"	59	"Just some of the problems!"	"Just some of the problems!"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 12:58:06	"teacher008"	"teacher"	60	"And of course, some people believe it's cruel to farm and kill animals"	"And of course, some people believe it's cruel to farm and kill animals"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	13
+2021-04-30 12:58:29	"teacher008"	"teacher"	61	"Finally, the number of people on this planet is still growing, and we will need to feed more and more people."	"Finally, the number of people on this planet is still growing, and we will need to feed more and more people."	NA	NA	NA	NA	NA	NA	21
+2021-04-30 12:58:57	"teacher008"	"teacher"	62	"I wonder if you've ever heard of any 'foods of the future'? Something that might be a solution?"	"I wonder if you've ever heard of any 'foods of the future'? Something that might be a solution?"	NA	"5b"	"eliciting"	"world knowledge,lexical resource"	NA	NA	18
+2021-04-30 12:59:38	"student009"	"student"	63	"I didn't hear about it, but I am intrested in what you will tell me"	"I haven't heard about it, but I am interested in what you will tell me"	NA	NA	NA	NA	NA	NA	15
+2021-04-30 12:59:48	"teacher008"	"teacher"	64	"Ok sure :."	"Ok sure :)"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 13:00:00	"teacher008"	"teacher"	65	"Just a few words before we start!"	"Just a few words before we start!"	NA	"6.0"	"presentation"	"lexical resource"	NA	NA	7
+2021-04-30 13:00:24	"teacher008"	"teacher"	66	"I mean, before I give you a link"	"I mean, before I give you a link"	NA	NA	NA	NA	NA	NA	8
+2021-04-30 13:00:57	"teacher008"	"teacher"	67	"So again, livestock .plural noun. = all the animals that are farmed for food"	"So again, livestock (plural noun) = all the animals that are farmed for food"	NA	NA	"presentation"	"lexical resource,meaning"	NA	NA	14
+2021-04-30 13:01:25	"teacher008"	"teacher"	68	"For example, I have a productive kitchen garden, but I haven't got any livestock, not even chickens :."	"For example, I have a productive kitchen garden, but I haven't got any livestock, not even chickens :)"	NA	NA	"presentation"	NA	NA	NA	18
+2021-04-30 13:02:47	"teacher008"	"teacher"	69	"Ok, maybe you know the name for very simple .biologically. plants that grow in or near water?"	"Ok, maybe you know the name for very simple (biologically) plants that grow in or near water?"	NA	"6a"	"presentation,eliciting"	"lexical resource"	NA	NA	17
+2021-04-30 13:03:06	"student009"	"student"	70	"no."	"no."	NA	NA	NA	NA	NA	NA	1
+2021-04-30 13:03:33	"teacher008"	"teacher"	71	"It's called 'alga' /ˈæl·ɡə/"	"It's called 'alga'  /ˈæl·ɡə/"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	4
+2021-04-30 13:03:49	"teacher008"	"teacher"	72	"or 'algae' /ˈæl·dʒi/ in plural"	"or 'algae' /ˈæl·dʒi/ in plural"	NA	NA	"presentation"	"lexical resource,speaking"	NA	NA	5
+2021-04-30 13:04:05	"teacher008"	"teacher"	73	"Seaweed is a type of algae! Have you ever tried seaweed?"	"Seaweed is a type of algae! Have you ever tried seaweed?"	NA	NA	NA	NA	NA	NA	11
+2021-04-30 13:04:24	"student009"	"student"	74	"I think yes"	"I think yes"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 13:04:46	"teacher008"	"teacher"	75	"Well, nori in sushi is made out of seaweed I think"	"Well, nori in sushi is made out of seaweed I think"	NA	NA	NA	NA	NA	NA	11
+2021-04-30 13:05:02	"teacher008"	"teacher"	76	"Algae can be very nutritious!"	"Algae can be very nutritious!"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 13:06:35	"teacher008"	"teacher"	77	"Ok, lovely. I'm going to send you a link to the article. It's a list of futuristic foods and ways of eating. Not all of them are foods! Could you read quickly and write here, which of them are new foods"	"Ok, lovely. I'm going to send you a link to the article. It's a list of futuristic foods and ways of eating. Not all of them are foods! Could you read quickly and write here, which of them are new foods"	NA	"7.0"	"exercise"	"reading,lexical resource,writing"	"website"	NA	41
+2021-04-30 13:06:45	"teacher008"	"teacher"	78	"https://brightside.me/wonder-curiosities/10-high-tech-foods-we-will-be-eating-in-the-future-414010/"	"https://brightside.me/wonder-curiosities/10-high-tech-foods-we-will-be-eating-in-the-future-414010/"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 13:08:53	"student009"	"student"	79	"coffe cubes"	"coffee cubes"	NA	NA	NA	NA	NA	NA	2
+2021-04-30 13:08:58	"student009"	"student"	80	"coffee*"	"coffee*"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-04-30 13:09:11	"student009"	"student"	81	"DNA-based diet"	"DNA-based diet"	NA	NA	NA	NA	NA	NA	2
+2021-04-30 13:09:31	"student009"	"student"	82	"edible water bottles"	"edible water bottles"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 13:09:42	"student009"	"student"	83	"Self-decomposing food packages"	"Self-decomposing food packages"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 13:09:54	"student009"	"student"	84	"3D-printed living food"	"3D-printed living food"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 13:10:08	"student009"	"student"	85	"Algae: growing your own food when breathing"	"Algae: growing your own food when breathing"	NA	NA	NA	NA	NA	NA	7
+2021-04-30 13:12:34	"teacher008"	"teacher"	86	"Ok, anything else?"	"Ok, anything else?"	NA	"7a"	"eliciting"	"reading,writing"	NA	NA	3
+2021-04-30 13:12:55	"student009"	"student"	87	"other isn't new"	"the others aren't new"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 13:13:51	"teacher008"	"teacher"	88	"What about the lab-grown meat? That's pretty new, isn't it?"	"What about the lab-grown meat? That's pretty new, isn't it?"	NA	NA	NA	NA	NA	NA	10
+2021-04-30 13:14:32	"student009"	"student"	89	"I think it is sold in some shops"	"I think it is sold in some shops"	NA	NA	NA	NA	NA	NA	8
+2021-04-30 13:14:50	"teacher008"	"teacher"	90	"Really? The future is here!"	"Really? The future is here!"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 13:15:06	"teacher008"	"teacher"	91	"Which of them do you think is the most promising / exciting food?"	"Which of them do you think is the most promising / exciting food?"	NA	"7b"	"eliciting"	"writing"	NA	NA	13
+2021-04-30 13:15:06	"student009"	"student"	92	"like it is not very good"	"like it is not very good"	90	NA	NA	NA	NA	NA	6
+2021-04-30 13:15:28	"student009"	"student"	93	"GOOD meat from lab is new"	"GOOD meat from a lab is new"	NA	NA	NA	NA	NA	NA	6
+2021-04-30 13:16:04	"teacher008"	"teacher"	94	"Well, they are working on it! In fact, I've read that in Israel there is a restaurant that grows its own chicken meat in a lab, and it tastes like good chicken! But no chickens are killed"	"Well, they are working on it! In fact, I've read that in Israel there is a restaurant that grows its own chicken meat in a lab, and it tastes like good chicken! But no chickens are killed"	NA	NA	NA	NA	NA	NA	37
+2021-04-30 13:16:11	"teacher008"	"teacher"	95	"Yes, I suppose"	"Yes, I suppose"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 13:16:25	"teacher008"	"teacher"	96	"Ok, which one do you think is the most promising technology?"	"Ok, which one do you think is the most promising technology?"	91	NA	"redirection"	NA	NA	NA	11
+2021-04-30 13:17:02	"student009"	"student"	97	"chewable coffee"	"chewable coffee"	NA	NA	NA	NA	NA	NA	2
+2021-04-30 13:17:27	"teacher008"	"teacher"	98	"Ok, you know what I'm going to say - why?"	"Ok, you know what I'm going to say - why?"	NA	NA	"eliciting"	"writing"	NA	NA	10
+2021-04-30 13:18:22	"student009"	"student"	99	"懈because even now there are a lot of different coffee candies"	"懈because even now there are a lot of different coffee candies"	NA	NA	NA	NA	NA	NA	11
+2021-04-30 13:19:15	"teacher008"	"teacher"	100	"Ok, would you be excited to try chewable coffee?"	"Ok, would you be excited to try chewable coffee?"	NA	NA	NA	NA	NA	NA	9
+2021-04-30 13:19:30	"student009"	"student"	101	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 13:19:33	"student009"	"student"	102	"why not"	"why not"	NA	NA	NA	NA	NA	NA	2
+2021-04-30 13:19:43	"student009"	"student"	103	"maybe it would tasty"	"maybe it would be tasty"	NA	NA	NA	NA	NA	NA	4
+2021-04-30 13:19:47	"teacher008"	"teacher"	104	"What about insects?"	"What about insects?"	NA	NA	"eliciting"	"writing"	NA	NA	3
+2021-04-30 13:19:51	"student009"	"student"	105	"be tasty"	"be tasty"	103	NA	"repair"	"writing"	NA	NA	2
+2021-04-30 13:19:55	"student009"	"student"	106	"NO"	"NO"	104	NA	NA	NA	NA	NA	1
+2021-04-30 13:20:01	"teacher008"	"teacher"	107	"No?"	"No?"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 13:20:07	"student009"	"student"	108	"I would never try them"	"I would never try them"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 13:20:37	"teacher008"	"teacher"	109	"They are eaten in lots of parts of the world, but I'm with you here. I'm not used to food like this either!"	"They are eaten in lots of parts of the world, but I'm with you here. I'm not used to food like this either!"	NA	NA	NA	NA	NA	NA	23
+2021-04-30 13:20:38	"student009"	"student"	110	"of course in China or other countries insects can be eaten"	"of course in China or other countries insects can be eaten"	NA	NA	NA	NA	NA	NA	11
+2021-04-30 13:20:48	"teacher008"	"teacher"	111	"What about algae-based foods?"	"What about algae-based foods?"	NA	NA	"eliciting"	"writing"	NA	NA	4
+2021-04-30 13:21:50	"student009"	"student"	112	"It is strange"	"It is strange"	NA	NA	NA	NA	NA	NA	3
+2021-04-30 13:22:00	"student009"	"student"	113	"I don't thinl it is possible"	"I don't think it is possible"	NA	NA	NA	NA	NA	NA	6
+2021-04-30 13:22:24	"teacher008"	"teacher"	114	"Well, it's already happening!"	"Well, it's already happening!"	NA	NA	NA	NA	NA	NA	4
+2021-04-30 13:22:47	"teacher008"	"teacher"	115	"Ok, what do you think food will be like when you are a grown-up? What might change / stay the same?"	"Ok, what do you think food will be like when you are a grown-up? What might change / stay the same?"	NA	"7c"	"eliciting"	"writing"	NA	NA	21
+2021-04-30 13:23:12	"student009"	"student"	116	"woah"	"woah"	NA	NA	NA	NA	NA	NA	1
+2021-04-30 13:23:34	"student009"	"student"	117	"that's not a easy question for me to answer"	"that's not an easy question for me to answer"	NA	NA	NA	NA	NA	NA	9
+2021-04-30 13:24:43	"student009"	"student"	118	"of course something will change"	"of course something will change"	NA	NA	NA	NA	NA	NA	5
+2021-04-30 13:24:57	"student009"	"student"	119	"but I don't know wyat exactly"	"but I don't know what exactly"	NA	NA	NA	NA	NA	NA	6
+2021-04-30 13:25:02	"student009"	"student"	120	"what*"	"what*"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-04-30 13:25:26	"teacher008"	"teacher"	121	"No, that's why we use modal verbs like 'might' and 'may'. To show that we don't know for sure"	"No, that's why we use modal verbs like 'might' and 'may'. To show that we don't know for sure"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	19
+2021-04-30 13:26:14	"teacher008"	"teacher"	122	"For example, today many more people are vegetarian and vegan than even 20 years ago. Do you think this trend might continue? Do you think people might like lab-grown meat one day?"	"For example, today many more people are vegetarian and vegan than even 20 years ago. Do you think this trend might continue? Do you think people might like lab-grown meat one day?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	32
+2021-04-30 13:27:01	"student009"	"student"	123	"maybe, but being vegan and vegeterian is really good!"	"maybe, but being vegan and vegeterian is really good!"	NA	NA	NA	NA	NA	NA	9
+2021-04-30 13:27:59	"teacher008"	"teacher"	124	"I agree, and it's a new trend for the western world. That's what I'm talking about, things are changing already!"	"I agree, and it's a new trend for the western world. That's what I'm talking about, things are changing already!"	NA	NA	NA	NA	NA	NA	20
+2021-04-30 13:30:05	"teacher008"	"teacher"	125	"Ok, thanks for today. I hope you enjoy some aspects of the upcoming holiday and raisins don't ruin it all for you! I'll speak to you next Friday :."	"Ok, thanks for today. I hope you enjoy some aspects of the upcoming holiday and raisins don't ruin it all for you! I'll speak to you next Friday :)"	NA	"8.0"	"closing"	NA	NA	NA	29
+2021-04-30 13:31:02	"student009"	"student"	126	"Thank you ! bye"	"Thank you ! bye"	NA	NA	NA	NA	NA	NA	4
+2021-04-30 13:31:07	"teacher008"	"teacher"	127	"Bye :."	"Bye :)"	NA	NA	NA	NA	NA	"B2"	2

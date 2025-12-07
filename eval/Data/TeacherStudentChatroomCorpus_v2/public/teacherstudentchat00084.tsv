@@ -1,0 +1,189 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-07 06:58:17	"student009"	"student"	1	"Hi"	"Hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-07-07 07:05:14	"student009"	"student"	2	"<TEACHER>?"	"<TEACHER>?"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:06:01	"teacher008"	"teacher"	3	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:06:06	"teacher008"	"teacher"	4	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-07-07 07:06:13	"student009"	"student"	5	"Fine"	"Fine"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:06:18	"student009"	"student"	6	"and you?"	"and you?"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:06:25	"teacher008"	"teacher"	7	"Fine, thank you!"	"Fine, thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:06:31	"teacher008"	"teacher"	8	"Did you have a good weekend?"	"Did you have a good weekend?"	NA	"2a"	"topic development"	NA	NA	NA	6
+2020-07-07 07:06:42	"student009"	"student"	9	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:06:53	"teacher008"	"teacher"	10	"I suppose it doesn't matter because you are on holiday!"	"I suppose it doesn't matter because you are on holiday!"	NA	NA	NA	NA	NA	NA	10
+2020-07-07 07:07:06	"student009"	"student"	11	"yup:)"	"yup:)"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:07:17	"teacher008"	"teacher"	12	"Great!"	"Great!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:08:02	"teacher008"	"teacher"	13	"You can't click on a link if I send it here, can you?"	"You can't click on a link if I send it here, can you?"	NA	"3.0"	"enquiry"	NA	NA	NA	13
+2020-07-07 07:08:20	"student009"	"student"	14	"I can't"	"I can't"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:08:56	"teacher008"	"teacher"	15	"I see, I'll send it to you on Skype then"	"I see, I'll send it to you on Skype then"	NA	NA	NA	NA	NA	NA	10
+2020-07-07 07:09:20	"student009"	"student"	16	"Right now?"	"Right now?"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:09:25	"teacher008"	"teacher"	17	"I found some pictures of mystery objects. Please look at the first one but don't look at the comments, ok?"	"I found some pictures of mystery objects. Please look at the first one but don't look at the comments, ok?"	NA	"4.0"	"topic opening,exercise"	"grammatical resource"	"website"	NA	20
+2020-07-07 07:09:28	"teacher008"	"teacher"	18	"Yes!"	"Yes!"	16	NA	NA	NA	NA	NA	1
+2020-07-07 07:09:44	"student009"	"student"	19	"Okay"	"Okay"	17	NA	NA	NA	NA	NA	1
+2020-07-07 07:10:08	"teacher008"	"teacher"	20	"Have you got it?"	"Have you got it?"	NA	NA	NA	NA	NA	NA	4
+2020-07-07 07:10:26	"student009"	"student"	21	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:10:53	"teacher008"	"teacher"	22	"Can you see the first picture? What do you think it could be?"	"Can you see the first picture? What do you think it could be?"	NA	NA	NA	NA	NA	NA	13
+2020-07-07 07:11:13	"student009"	"student"	23	"hmm"	"hmm"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:11:37	"student009"	"student"	24	"It looks like some food I think"	"It looks like some food I think"	NA	NA	NA	NA	NA	NA	7
+2020-07-07 07:11:51	"teacher008"	"teacher"	25	"It does, doesn't it?"	"It does, doesn't it?"	NA	NA	NA	NA	NA	NA	4
+2020-07-07 07:11:59	"teacher008"	"teacher"	26	"It's magnified of course"	"It's magnified of course"	NA	NA	NA	NA	NA	NA	4
+2020-07-07 07:12:15	"student009"	"student"	27	"magnified?"	"magnified?"	NA	"4a"	"enquiry"	"lexical resource"	NA	NA	1
+2020-07-07 07:12:35	"teacher008"	"teacher"	28	"magnify = make an image bigger"	"magnify = make an image bigger"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-07-07 07:12:59	"teacher008"	"teacher"	29	"a magnifying glass is what we use to have a good look at really small objects"	"a magnifying glass is what we use to have a good look at really small objects"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-07-07 07:13:32	"student009"	"student"	30	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:13:35	"student009"	"student"	31	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:14:00	"teacher008"	"teacher"	32	"What food do you think it might be?"	"What food do you think it might be?"	NA	"4b"	"topic development"	NA	NA	NA	8
+2020-07-07 07:14:36	"student009"	"student"	33	"the thing in the middle looks like a piece of apple"	"the thing in the middle looks like a piece of apple"	NA	NA	NA	NA	NA	NA	11
+2020-07-07 07:15:08	"student009"	"student"	34	"but I don't think it is"	"but I don't think it is"	NA	NA	NA	NA	NA	NA	6
+2020-07-07 07:15:30	"teacher008"	"teacher"	40	"Aha, so it could be... Could you make a sentence with one of the modals we talked about last time?"	"Aha, so it could be... Could you make a sentence with one of the modals we talked about last time?"	NA	"4c"	"eliciting"	"grammatical resource"	NA	NA	20
+2020-07-07 07:16:08	"student009"	"student"	41	"the thing in the middle could be a piece of apple"	"the thing in the middle could be a piece of apple"	NA	NA	NA	NA	NA	NA	11
+2020-07-07 07:16:18	"teacher008"	"teacher"	42	"Good one!"	"Good one!"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:16:35	"teacher008"	"teacher"	43	"Click on the answer underneath the picture, please :)"	"Click on the answer underneath the picture, please :)"	NA	"4d"	"topic development"	NA	NA	NA	9
+2020-07-07 07:16:53	"student009"	"student"	44	"sushi!"	"sushi!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:17:15	"teacher008"	"teacher"	45	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:17:16	"student009"	"student"	46	"I love sushi"	"I love sushi"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:17:37	"teacher008"	"teacher"	47	"Me too! It's much more popular in Ukraine than in the UK"	"Me too! It's much more popular in Ukraine than in the UK"	NA	"4e"	"topic development"	"world knowledge"	NA	NA	12
+2020-07-07 07:18:01	"student009"	"student"	48	"Really?Why?"	"Really?Why?"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:18:43	"teacher008"	"teacher"	49	"I'm not sure! But there are so many sushi restaurants in Kyiv and only a few in Cambridge, for example"	"I'm not sure! But there are so many sushi restaurants in Kyiv and only a few in Cambridge, for example"	NA	NA	NA	NA	NA	NA	20
+2020-07-07 07:19:25	"student009"	"student"	50	"Can I ask you a question?"	"Can I ask you a question?"	NA	"5.0"	"topic opening"	NA	NA	NA	6
+2020-07-07 07:19:27	"teacher008"	"teacher"	51	"It's becoming more popular now, though"	"It's becoming more popular now, though"	49	NA	NA	NA	NA	NA	6
+2020-07-07 07:19:32	"teacher008"	"teacher"	52	"Yes sure!"	"Yes sure!"	50	NA	NA	NA	NA	NA	2
+2020-07-07 07:20:03	"student009"	"student"	53	"what fast food restaurants are popular in UK?"	"what fast food restaurants are popular in the UK?"	NA	NA	"enquiry"	"world knowledge"	NA	NA	8
+2020-07-07 07:20:14	"teacher008"	"teacher"	54	"Good question!"	"Good question!"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:20:37	"teacher008"	"teacher"	55	"McDonalds and KFC are here of course"	"McDonalds and KFC are here of course"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	7
+2020-07-07 07:21:07	"teacher008"	"teacher"	56	"But traditional English 'fast food' or takeaway food is fish and chips"	"But traditional English 'fast food' or takeaway food is fish and chips"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	12
+2020-07-07 07:21:38	"teacher008"	"teacher"	57	"There are lots of fish-and-chips shops in every town, or 'chippies'"	"There are lots of fish-and-chips shops in every town, or 'chippies'"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	11
+2020-07-07 07:22:01	"student009"	"student"	58	"I heard something about fish and chips"	"I heard something about fish and chips"	NA	NA	NA	NA	NA	NA	7
+2020-07-07 07:22:25	"teacher008"	"teacher"	59	"Yes, it"	"Yes, it"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:22:27	"teacher008"	"teacher"	60	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:22:56	"teacher008"	"teacher"	61	"It's white fish deep fried in some batter and chunky chips. Quite nice but not everyday food for me!"	"It's white fish deep fried in some batter and chunky chips. Quite nice but not everyday food for me!"	NA	NA	"scaffolding"	"world knowledge"	NA	NA	19
+2020-07-07 07:23:29	"student009"	"student"	62	"why batter, but not butter?"	"why batter, but not butter?"	NA	"5a"	"enquiry"	"lexical resource"	NA	NA	5
+2020-07-07 07:24:03	"teacher008"	"teacher"	63	"Then there are lots of places where you can get a coffee and a nice sandwich, such as Costa, Starbucks, Pret-a-Manger"	"Then there are lots of places where you can get a coffee and a nice sandwich, such as Costa, Starbucks, Pret-a-Manger"	61	"5b"	"scaffolding"	"world knowledge"	NA	NA	21
+2020-07-07 07:24:32	"student009"	"student"	64	"I know Starbucks!"	"I know Starbucks!"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:24:50	"student009"	"student"	65	"I want to drink some coffee there one day"	"I want to have a coffee there one day"	NA	NA	NA	NA	NA	NA	9
+2020-07-07 07:24:51	"teacher008"	"teacher"	66	"Oh, batter is what you make out of flour, egg, maybe a bit of milk or water, or even beer. Then you put the fish in the batter and fry it"	"Oh, batter is what you make out of flour, egg, maybe a bit of milk or water, or even beer. Then you put the fish in the batter and fry it"	62	NA	"scaffolding"	"lexical resource"	NA	NA	31
+2020-07-07 07:25:25	"teacher008"	"teacher"	67	"You also make some batter to make pancakes!"	"You also make some batter to make pancakes!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2020-07-07 07:25:29	"student009"	"student"	68	"Oohh"	"Oohh"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:26:27	"teacher008"	"teacher"	69	"Is there Starbucks in Kyiv?"	"Is there Starbucks in Kyiv?"	65	NA	NA	NA	NA	NA	5
+2020-07-07 07:26:34	"student009"	"student"	70	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:26:49	"teacher008"	"teacher"	71	"But I bet you've seen it in Israel?"	"But I bet you've seen it in Israel?"	NA	NA	NA	NA	NA	NA	8
+2020-07-07 07:27:28	"student009"	"student"	72	"No, there is not Starbucks in Israel and Ukraine:("	"No, there is no Starbucks in Israel and Ukraine:("	NA	NA	NA	NA	NA	NA	9
+2020-07-07 07:27:58	"teacher008"	"teacher"	73	"Ah well, I'm sure you will one day!"	"Ah well, I'm sure you will one day!"	NA	NA	NA	NA	NA	NA	8
+2020-07-07 07:28:07	"teacher008"	"teacher"	74	"What is fast food like in Israel?"	"What is fast food like in Israel?"	NA	"6.0"	"topic opening,enquiry"	"world knowledge"	NA	NA	7
+2020-07-07 07:28:26	"teacher008"	"teacher"	75	"I know about Kyiv! McDonalds and Domashnya Kukhnya!"	"I know about Kyiv! McDonalds and Domashnya Kukhnya!"	NA	NA	NA	NA	NA	NA	8
+2020-07-07 07:28:44	"student009"	"student"	76	"McDonalds is the good one"	"McDonalds is the good one"	NA	NA	NA	NA	NA	NA	5
+2020-07-07 07:28:53	"student009"	"student"	77	"but for example"	"but for example"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:29:40	"student009"	"student"	78	"their burger is like our double burger!"	"their burger is like our double burger!"	NA	NA	NA	NA	NA	NA	7
+2020-07-07 07:30:16	"teacher008"	"teacher"	79	"Do you mean burgers in Israeli McDonalds are bigger than in Ukrainian ones?"	"Do you mean burgers in Israeli McDonalds are bigger than in Ukrainian ones?"	NA	NA	NA	NA	NA	NA	13
+2020-07-07 07:30:52	"student009"	"student"	80	"and they don't eat cheese with meat, so when I made a burger for myself with meat and cheese, they gave me it without any cheese!"	"and they don't eat cheese with meat, so when I made a burger for myself with meat and cheese, they gave it to me without any cheese!"	NA	NA	NA	NA	NA	NA	26
+2020-07-07 07:30:59	"student009"	"student"	81	"yes, it is"	"yes, it is"	79	NA	NA	NA	NA	NA	3
+2020-07-07 07:31:13	"teacher008"	"teacher"	82	"Sure, it's not kosher, right?"	"Sure, it's not kosher, right?"	80	NA	NA	NA	NA	NA	5
+2020-07-07 07:31:19	"student009"	"student"	83	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:31:31	"teacher008"	"teacher"	84	"Interesting!"	"Interesting!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:31:49	"teacher008"	"teacher"	85	"Oh, something interesting I found the other day"	"Oh, something interesting I found the other day"	NA	"7.0"	"topic opening"	NA	NA	NA	8
+2020-07-07 07:32:22	"teacher008"	"teacher"	86	"There is a chef from Ukraine, and she is taking Instagram by storm in this country!"	"There is a chef from Ukraine, and she is taking Instagram by storm in this country!"	NA	NA	NA	NA	NA	NA	16
+2020-07-07 07:32:42	"student009"	"student"	87	"It is raining now"	"It is raining now"	NA	"8.0"	"topic opening"	NA	NA	NA	4
+2020-07-07 07:32:56	"teacher008"	"teacher"	88	"She has written three (I think) amazing cookbooks about Ukrainian cooking in English"	"She has written three (I think) amazing cookbooks about Ukrainian cooking in English"	86	NA	NA	NA	NA	NA	13
+2020-07-07 07:33:13	"student009"	"student"	89	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:33:28	"teacher008"	"teacher"	90	"I really recommend her Instagram account, @oliahercules"	"I really recommend her Instagram account, @oliahercules"	NA	NA	"reference"	NA	"social media account"	NA	7
+2020-07-07 07:33:52	"student009"	"student"	91	"okay, wait a minute and I will find her"	"okay, wait a minute and I will find her"	NA	NA	NA	NA	NA	NA	9
+2020-07-07 07:34:01	"teacher008"	"teacher"	92	"It's beautiful (and yummy!) and will be great for your English because it's all your familiar foods but in English"	"It's beautiful (and yummy!) and will be great for your English because it's all your familiar foods but in English"	NA	NA	NA	NA	NA	NA	20
+2020-07-07 07:34:45	"student009"	"student"	93	"I am her subscriber now"	"I am her subscriber now"	NA	NA	NA	NA	NA	NA	5
+2020-07-07 07:35:03	"teacher008"	"teacher"	94	"Me too! Hope you'll enjoy it :)"	"Me too! Hope you'll enjoy it :)"	NA	NA	NA	NA	NA	NA	7
+2020-07-07 07:35:10	"teacher008"	"teacher"	95	"Is it raining in Kyiv then?"	"Is it raining in Kyiv then?"	87	NA	NA	NA	NA	NA	6
+2020-07-07 07:35:22	"student009"	"student"	96	"I am not in Kyiv now"	"I am not in Kyiv now"	NA	NA	NA	NA	NA	NA	6
+2020-07-07 07:35:27	"teacher008"	"teacher"	97	"It's going to rain here too later. I'm so fed up with the rain and storms!"	"It's going to rain here too later. I'm so fed up with the rain and storms!"	NA	NA	NA	NA	NA	NA	16
+2020-07-07 07:35:32	"teacher008"	"teacher"	98	"Oh, where are you?"	"Oh, where are you?"	96	NA	NA	NA	NA	NA	4
+2020-07-07 07:35:49	"student009"	"student"	99	"I am in Vinnytsa now"	"I am in Vinnytsa now"	NA	NA	NA	NA	NA	NA	5
+2020-07-07 07:36:09	"teacher008"	"teacher"	100	"Ah, I heard it's really nice, but I've never been"	"Ah, I heard it's really nice, but I've never been"	NA	NA	NA	NA	NA	NA	10
+2020-07-07 07:36:29	"student009"	"student"	101	"My cousins, grandma, aunt and aunt's husband live here"	"My cousins, grandma, aunt and aunt's husband live here"	NA	NA	NA	NA	NA	NA	9
+2020-07-07 07:36:51	"teacher008"	"teacher"	102	"I see! Are you in the city or the country?"	"I see! Are you in the city or the country?"	NA	"8a"	"topic development"	NA	NA	NA	10
+2020-07-07 07:37:14	"student009"	"student"	103	"what do you mean?"	"what do you mean?"	NA	"8b"	"enquiry"	"lexical resource"	NA	NA	4
+2020-07-07 07:37:38	"teacher008"	"teacher"	104	"Are you in Vinnytsa the city or in a village near it?"	"Are you in Vinnytsa the city or in a village near it?"	NA	NA	NA	NA	NA	NA	12
+2020-07-07 07:38:02	"student009"	"student"	105	"city"	"city"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:38:06	"teacher008"	"teacher"	106	"country = countryside (in this case)"	"country = countryside (in this case)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-07-07 07:38:17	"student009"	"student"	107	"okay then"	"okay then"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:38:31	"teacher008"	"teacher"	108	"I see! Is it very different from Kyiv?"	"I see! Is it very different from Kyiv?"	NA	"8c"	"topic development"	NA	NA	NA	8
+2020-07-07 07:38:53	"student009"	"student"	109	"I think yes"	"I think yes"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:39:05	"teacher008"	"teacher"	110	"In what way?"	"In what way?"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:39:06	"student009"	"student"	111	"Kyiv is bigger"	"Kyiv is bigger"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:39:14	"teacher008"	"teacher"	112	"sure)"	"sure)"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:39:50	"student009"	"student"	113	"and in Vinnytsa there are more old people (like my grandma)"	"and in Vinnytsa there are more old people (like my grandma)"	NA	NA	NA	NA	NA	NA	11
+2020-07-07 07:40:32	"teacher008"	"teacher"	114	"Oh interesting! Young people probably move to Kyiv and then retire somewhere quieter, right?"	"Oh interesting! Young people probably move to Kyiv and then retire somewhere quieter, right?"	NA	NA	NA	NA	NA	NA	14
+2020-07-07 07:40:51	"student009"	"student"	115	"and think there are more transport in Vinnytsa"	"and think there is more transport in Vinnytsa"	NA	NA	NA	NA	NA	NA	8
+2020-07-07 07:40:57	"student009"	"student"	116	"yes, maybe"	"yes, maybe"	114	NA	NA	NA	NA	NA	2
+2020-07-07 07:41:14	"teacher008"	"teacher"	117	"You mean there is more public transport?"	"You mean there is more public transport?"	115	NA	"repair"	"lexical resource"	NA	NA	7
+2020-07-07 07:41:35	"student009"	"student"	118	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:42:29	"student009"	"student"	119	"in Vinnytsa the most part of people don't have their own car"	"in Vinnytsa most people don't have their own car"	NA	NA	NA	NA	NA	NA	12
+2020-07-07 07:42:34	"teacher008"	"teacher"	120	"And Vinnytsa's got the famous fountains"	"And Vinnytsa's got the famous fountains"	NA	NA	NA	NA	NA	NA	6
+2020-07-07 07:42:49	"student009"	"student"	121	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:42:58	"teacher008"	"teacher"	122	"I see! It's probably better for the environment, to use public transport"	"I see! It's probably better for the environment, to use public transport"	119	"8d"	"topic development"	NA	NA	NA	12
+2020-07-07 07:43:00	"student009"	"student"	123	"I saw one of th"	"I saw one of them"	121	NA	NA	NA	NA	NA	5
+2020-07-07 07:43:09	"student009"	"student"	124	"why?"	"why?"	122	NA	NA	NA	NA	NA	1
+2020-07-07 07:43:49	"teacher008"	"teacher"	125	"Well, if everyone owns a car and drives around, there are more emissions per person than if everyone shares a bus"	"Well, if everyone owns a car and drives around, there are more emissions per person than if everyone shares a bus"	NA	NA	NA	NA	NA	NA	21
+2020-07-07 07:44:02	"teacher008"	"teacher"	126	"or trolleybus! Trolleybuses are very green"	"or trolleybus! Trolleybuses are very green"	NA	NA	NA	NA	NA	NA	6
+2020-07-07 07:44:10	"student009"	"student"	127	"oh, I see"	"oh, I see"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:44:41	"teacher008"	"teacher"	128	"are there any trolleybuses?"	"are there any trolleybuses?"	NA	NA	NA	NA	NA	NA	4
+2020-07-07 07:44:57	"student009"	"student"	129	"of couse"	"of course"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:45:07	"student009"	"student"	130	"course *"	"course *"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-07-07 07:45:12	"teacher008"	"teacher"	131	"Cool!"	"Cool!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:45:19	"student009"	"student"	132	"there are a lot of them"	"there are a lot of them"	NA	NA	NA	NA	NA	NA	6
+2020-07-07 07:45:27	"student009"	"student"	133	"we also use them"	"we also use them"	NA	NA	NA	NA	NA	NA	4
+2020-07-07 07:45:55	"teacher008"	"teacher"	134	"Yes, they are supposed to be more green because they use electricity, not petrol"	"Yes, they are supposed to be more green because they use electricity, not petrol"	NA	NA	NA	NA	NA	NA	14
+2020-07-07 07:46:58	"student009"	"student"	135	"I like that idea"	"I like that idea"	NA	NA	NA	NA	NA	NA	4
+2020-07-07 07:47:05	"teacher008"	"teacher"	136	"Me too!"	"Me too!"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:47:56	"teacher008"	"teacher"	137	"I know you probably didn't have a chance to revise the new words from the last time, but I did prepare a little something to practise them for you!"	"I know you probably didn't have a chance to revise the new words from the last time, but I did prepare a little something to practise them for you!"	NA	"9.0"	"exercise,revision"	"lexical resource"	NA	NA	29
+2020-07-07 07:48:30	"student009"	"student"	138	"that's okay"	"that's okay"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:48:32	"teacher008"	"teacher"	139	"The words are debunk, deduce - deduction, exploration, abandon and evidence"	"The words are debunk, deduce - deduction, exploration, abandon and evidence"	NA	NA	NA	NA	NA	NA	11
+2020-07-07 07:48:44	"teacher008"	"teacher"	140	"Could you fill in the gaps, please?"	"Could you fill in the gaps, please?"	NA	NA	NA	NA	NA	NA	7
+2020-07-07 07:48:59	"student009"	"student"	141	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:49:00	"teacher008"	"teacher"	142	"To ____ what happened that night, the police have to look at the ____: a fresh scratch on the car, a broken lock, some footprints on the carpet."	"To ____ what happened that night, the police have to look at the ____: a fresh scratch on the car, a broken lock, some footprints on the carpet."	NA	NA	NA	NA	NA	NA	28
+2020-07-07 07:50:06	"student009"	"student"	143	"abandon and deduction ?"	"abandon and deduction ?"	NA	NA	NA	NA	NA	NA	4
+2020-07-07 07:50:21	"teacher008"	"teacher"	144	"Mmm, not quite"	"Mmm, not quite"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:50:51	"student009"	"student"	145	"both are not okay, or the one?"	"both are not okay, or the one?"	NA	NA	NA	NA	NA	NA	7
+2020-07-07 07:50:57	"teacher008"	"teacher"	146	"first gap: understand something from looking at the facts"	"first gap: understand something from looking at the facts"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	9
+2020-07-07 07:51:07	"teacher008"	"teacher"	147	"none"	"none"	145	NA	NA	NA	NA	NA	1
+2020-07-07 07:51:08	"student009"	"student"	148	"debunk?"	"debunk?"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:51:14	"teacher008"	"teacher"	149	"Nope!"	"Nope!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:51:27	"student009"	"student"	150	"deduce"	"deduce"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:51:31	"teacher008"	"teacher"	151	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:51:37	"teacher008"	"teacher"	152	"and second gap?"	"and second gap?"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:52:05	"student009"	"student"	153	"evidence?"	"evidence?"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:52:09	"teacher008"	"teacher"	154	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:52:20	"teacher008"	"teacher"	155	"another one"	"another one"	NA	"9a"	"exercise,revision"	"lexical resource"	NA	NA	2
+2020-07-07 07:52:23	"teacher008"	"teacher"	156	"People used to believe the earth was flat, but that theory has been _____"	"People used to believe the earth was flat, but that theory has been _____"	NA	NA	NA	NA	NA	NA	14
+2020-07-07 07:53:14	"student009"	"student"	157	"debunked"	"debunked"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:53:22	"teacher008"	"teacher"	158	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:53:48	"teacher008"	"teacher"	159	"As a baby he was ____ by his mother and left at the fire station"	"As a baby he was ____ by his mother and left at the fire station"	NA	"9b"	"exercise,revision"	"lexical resource"	NA	NA	15
+2020-07-07 07:54:11	"student009"	"student"	160	"abandoned"	"abandoned"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:54:18	"teacher008"	"teacher"	161	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:54:46	"teacher008"	"teacher"	162	"The 20th century was the beginning of space _____ ."	"The 20th century was the beginning of space _____ ."	NA	"9c"	"exercise,revision"	"lexical resource"	NA	NA	10
+2020-07-07 07:55:05	"student009"	"student"	163	"exploration?"	"exploration?"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:55:12	"teacher008"	"teacher"	164	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:55:27	"teacher008"	"teacher"	165	"another one, some words might repeat"	"another one, some words might repeat"	NA	"9d"	"exercise,revision"	"lexical resource"	NA	NA	6
+2020-07-07 07:55:47	"teacher008"	"teacher"	166	"We were sinking fast, and the captain commanded to _____ ship."	"We were sinking fast, and the captain commanded to _____ ship."	NA	NA	NA	NA	NA	NA	11
+2020-07-07 07:56:19	"student009"	"student"	167	"abandon"	"abandon"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:56:34	"teacher008"	"teacher"	168	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 07:57:13	"teacher008"	"teacher"	169	"Abandon ship' is also an idiom, it means to leave a failing project / bad situation before it gets worse"	"Abandon ship' is also an idiom, it means to leave a failing project / bad situation before it gets worse"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+2020-07-07 07:57:56	"teacher008"	"teacher"	170	"Ok, another one"	"Ok, another one"	NA	"9e"	"exercise,revision"	"lexical resource"	NA	NA	3
+2020-07-07 07:58:09	"teacher008"	"teacher"	171	"Wildfires and storms could be ____ of climate change."	"Wildfires and storms could be ____ of climate change."	NA	NA	NA	NA	NA	NA	9
+2020-07-07 07:58:49	"student009"	"student"	172	"evidence"	"evidence"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 07:59:03	"teacher008"	"teacher"	173	"yes, well done!"	"yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 07:59:17	"teacher008"	"teacher"	174	"And the one from today"	"And the one from today"	NA	"9f"	"exercise,revision"	"lexical resource"	NA	NA	5
+2020-07-07 07:59:35	"teacher008"	"teacher"	175	"The print in the old book was so small, she couldn't read without a ____ ____."	"The print in the old book was so small, she couldn't read without a ____ ____."	NA	NA	NA	NA	NA	NA	16
+2020-07-07 08:01:30	"student009"	"student"	176	"magnifing a picture?"	"magnifing a picture?"	NA	NA	NA	NA	NA	NA	3
+2020-07-07 08:02:04	"teacher008"	"teacher"	177	"good idea, but the article 'a' suggests that you need a noun, right?"	"good idea, but the article 'a' suggests that you need a noun, right?"	NA	NA	"scaffolding"	"grammatical resource,lexical resource"	NA	NA	13
+2020-07-07 08:02:16	"teacher008"	"teacher"	178	"magnifying ___"	"magnifying ___"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 08:02:28	"student009"	"student"	179	"picture"	"picture"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 08:02:32	"teacher008"	"teacher"	180	"glass!"	"glass!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 08:02:38	"student009"	"student"	181	"oh"	"oh"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 08:02:39	"teacher008"	"teacher"	182	"magnifying glass"	"magnifying glass"	NA	NA	NA	NA	NA	NA	2
+2020-07-07 08:03:28	"student009"	"student"	183	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 08:03:35	"teacher008"	"teacher"	184	"a dictionary definition: a piece of curved glass that makes objects look bigger than they are"	"a dictionary definition: a piece of curved glass that makes objects look bigger than they are"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+2020-07-07 08:04:44	"teacher008"	"teacher"	185	"Ok, <STUDENT>, a little bit of homework for you. If you have a scroll through Olia Hercules' Instagram account and find a recipe you particularly like, could you tell me about it next time? What ingredients are used and how it's made?"	"Ok, <STUDENT>, a little bit of homework for you. If you have a scroll through Olia Hercules' Instagram account and find a recipe you particularly like, could you tell me about it next time? What ingredients are used and how it's made?"	NA	"10.0"	"homework"	NA	NA	NA	42
+2020-07-07 08:04:58	"student009"	"student"	186	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 08:05:08	"teacher008"	"teacher"	187	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 08:05:16	"teacher008"	"teacher"	188	"Thursday 10 am?"	"Thursday 10 am?"	NA	"11.0"	"closing"	NA	NA	NA	3
+2020-07-07 08:05:21	"student009"	"student"	189	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 08:05:37	"student009"	"student"	190	"goodbye!"	"goodbye!"	NA	NA	NA	NA	NA	NA	1
+2020-07-07 08:05:40	"teacher008"	"teacher"	191	"Lovely, have a good day!"	"Lovely, have a good day!"	NA	NA	NA	NA	NA	NA	5
+2020-07-07 08:05:47	"student009"	"student"	192	"have a nice day too!"	"have a nice day too!"	NA	NA	NA	NA	NA	NA	5
+2020-07-07 08:05:53	"teacher008"	"teacher"	193	"thanks :)"	"thanks :)"	NA	NA	NA	NA	NA	"B2"	2

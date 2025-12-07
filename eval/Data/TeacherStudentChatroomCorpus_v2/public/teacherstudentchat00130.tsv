@@ -1,0 +1,121 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+"2020-11-05T13:29:48+00:00+00:00+00:00"	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+"2020-11-05T13:30:24+00:00+00:00+00:00"	"student015"	"student"	2	"Hello"	"Hello"	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T13:30:34+00:00+00:00+00:00"	"student015"	"student"	3	"Nice to meet you again."	"Nice to talk to you again."	NA	NA	NA	NA	NA	NA	5
+"2020-11-05T13:30:55+00:00+00:00+00:00"	"teacher008"	"teacher"	4	"Nice to have you here :)"	"Nice to have you here :)"	NA	NA	NA	NA	NA	NA	6
+"2020-11-05T13:30:58+00:00+00:00+00:00"	"teacher008"	"teacher"	5	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+"2020-11-05T13:31:20+00:00+00:00+00:00"	"teacher008"	"teacher"	6	"I would say, because we're in a chat, 'nice to talk to you again' would sound better"	"I would say, because we're in a chat, 'nice to talk to you again' would sound better"	3	"2a"	"repair,scaffolding"	"lexical resource"	NA	NA	17
+"2020-11-05T13:31:35+00:00+00:00+00:00"	"student015"	"student"	7	"I'm OK."	"I'm OK."	5	NA	NA	NA	NA	NA	2
+"2020-11-05T13:31:43+00:00+00:00+00:00"	"student015"	"student"	8	"Haha, yes"	"Haha, yes"	6	NA	NA	NA	NA	NA	2
+"2020-11-05T13:31:57+00:00+00:00+00:00"	"teacher008"	"teacher"	9	"Any news on your application?"	"Any news on your application?"	NA	"2b"	"topic development"	NA	NA	NA	5
+"2020-11-05T13:32:40+00:00+00:00+00:00"	"student015"	"student"	10	"A little bit difficult. A lot of stuffs need to do"	"A little bit difficult. A lot of stuff needs to be done"	NA	NA	NA	NA	NA	NA	11
+"2020-11-05T13:33:20+00:00+00:00+00:00"	"teacher008"	"teacher"	11	"When do you hope to move to Shanghai?"	"When do you hope to move to Shanghai?"	NA	NA	NA	NA	NA	NA	8
+"2020-11-05T13:33:57+00:00+00:00+00:00"	"student015"	"student"	12	"Actually recently I'm preparing a presentation for the resreach assistant position."	"Actually recently I've been preparing a presentation for a research assistant position."	NA	NA	NA	NA	NA	NA	11
+"2020-11-05T13:34:20+00:00+00:00+00:00"	"teacher008"	"teacher"	13	"Oh, good luck!"	"Oh, good luck!"	NA	NA	NA	NA	NA	NA	3
+"2020-11-05T13:34:26+00:00+00:00+00:00"	"student015"	"student"	14	"So maybe latter."	"So maybe later."	NA	NA	NA	NA	NA	NA	3
+"2020-11-05T13:35:04+00:00+00:00+00:00"	"teacher008"	"teacher"	15	"Have you had a chance to start reading a book in English?"	"Have you had a chance to start reading a book in English?"	NA	"3.0"	"topic opening"	"reading"	NA	NA	12
+"2020-11-05T13:35:38+00:00+00:00+00:00"	"student015"	"student"	16	"Yes. I'm reading Harry Pottre"	"Yes. I'm reading Harry Potter"	NA	NA	NA	NA	NA	NA	5
+"2020-11-05T13:35:45+00:00+00:00+00:00"	"student015"	"student"	17	"Potter"	"Potter"	NA	NA	"repair"	"writing"	NA	NA	1
+"2020-11-05T13:35:53+00:00+00:00+00:00"	"teacher008"	"teacher"	18	"Oh really? Cool! The first book? How is it going?"	"Oh really? Cool! The first book? How is it going?"	NA	NA	NA	NA	NA	NA	10
+"2020-11-05T13:36:42+00:00+00:00+00:00"	"student015"	"student"	19	"I think it's really good for me, because it's not hard for me."	"I think it's really good for me, because it's not hard for me."	NA	NA	NA	NA	NA	NA	13
+"2020-11-05T13:37:13+00:00+00:00+00:00"	"teacher008"	"teacher"	20	"Exactly! That's one of the reasons I thought it would be a good book for you"	"Exactly! That's one of the reasons I thought it would be a good book for you"	NA	NA	NA	NA	NA	NA	16
+"2020-11-05T13:37:29+00:00+00:00+00:00"	"teacher008"	"teacher"	21	"Have you learned any new words or expressions?"	"Have you learned any new words or expressions?"	NA	NA	NA	NA	NA	NA	8
+"2020-11-05T13:38:02+00:00+00:00+00:00"	"student015"	"student"	22	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T13:38:37+00:00+00:00+00:00"	"teacher008"	"teacher"	23	"Great, I hope you're enjoying reading it"	"Great, I hope you're enjoying reading it"	NA	NA	NA	NA	NA	NA	7
+"2020-11-05T13:39:00+00:00+00:00+00:00"	"student015"	"student"	24	"I think I am more and more familliar with the words."	"I think I am more and more familliar with the words."	NA	NA	NA	NA	NA	NA	11
+"2020-11-05T13:39:19+00:00+00:00+00:00"	"teacher008"	"teacher"	25	"That's good to hear, lovely!"	"That's good to hear, lovely!"	NA	NA	NA	NA	NA	NA	5
+"2020-11-05T13:39:53+00:00+00:00+00:00"	"teacher008"	"teacher"	26	"I'm not sure whether it works in China, but I'd like to recommend a good online dictionary"	"I'm not sure whether it works in China, but I'd like to recommend a good online dictionary"	NA	"4.0"	"reference"	"lexical resource,meta knowledge"	"dictionary"	NA	17
+"2020-11-05T13:39:54+00:00+00:00+00:00"	"student015"	"student"	27	"Yes. I really like it, but I don’t have so much time now."	"Yes. I really like it, but I don’t have so much time now."	25	NA	NA	NA	NA	NA	13
+"2020-11-05T13:40:03+00:00+00:00+00:00"	"teacher008"	"teacher"	28	"the Cambridge English Dictionary"	"the Cambridge English Dictionary"	26	NA	NA	NA	NA	NA	4
+"2020-11-05T13:40:16+00:00+00:00+00:00"	"student015"	"student"	29	"OK. I will check it."	"OK. I will check it."	NA	NA	NA	NA	NA	NA	5
+"2020-11-05T13:40:52+00:00+00:00+00:00"	"teacher008"	"teacher"	30	"It's a good idea for higher-level students to use an English-English dictionary because it really helps to start to think in English and explain things in English"	"It's a good idea for higher-level students to use an English-English dictionary because it really helps to start to think in English and explain things in English"	NA	NA	NA	NA	NA	NA	27
+"2020-11-05T13:41:44+00:00+00:00+00:00"	"teacher008"	"teacher"	32	"this is the link"	"this is the link"	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T13:41:57+00:00+00:00+00:00"	"student015"	"student"	33	"OK. Thanks."	"OK. Thanks."	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T13:42:48+00:00+00:00+00:00"	"teacher008"	"teacher"	34	"Sure. As promised, I've prepared some B2 First materials for you (for the Cambridge English exam). I've just sent you a pdf-file, could you check your email and download it, please?"	"Sure. As promised, I've prepared some B2 First materials for you (for the Cambridge English exam). I've just sent you a pdf-file, could you check your email and download it, please?"	NA	"5.0"	"topic opening"	"exam prep"	"sample paper"	NA	31
+"2020-11-05T13:43:38+00:00+00:00+00:00"	"student015"	"student"	35	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T13:45:08+00:00+00:00+00:00"	"student015"	"student"	36	"I have opened it."	"I have opened it."	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T13:45:15+00:00+00:00+00:00"	"teacher008"	"teacher"	37	"ok, great!"	"ok, great!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T13:46:22+00:00+00:00+00:00"	"teacher008"	"teacher"	38	"This part is Reading and Use of English. This part of the exam checks how well a candidate understands some English texts and also how well they know grammar and vocabulary"	"This part is Reading and Use of English. This part of the exam checks how well a candidate understands some English texts and also how well they know grammar and vocabulary"	NA	NA	"scaffolding"	"exam prep"	NA	NA	31
+"2020-11-05T13:46:45+00:00+00:00+00:00"	"teacher008"	"teacher"	39	"The other three parts are Listening, Writing and Speaking"	"The other three parts are Listening, Writing and Speaking"	NA	NA	"scaffolding"	"exam prep"	NA	NA	9
+"2020-11-05T13:47:12+00:00+00:00+00:00"	"student015"	"student"	40	"It will spend 1 hour, right?"	"It takes 1 hour, right?"	NA	NA	"enquiry"	"exam prep"	NA	NA	6
+"2020-11-05T13:47:12+00:00+00:00+00:00"	"teacher008"	"teacher"	41	"Could you go to page 2, please? It says 'Part 1. What is genealogy?'"	"Could you go to page 2, please? It says 'Part 1. What is genealogy?'"	NA	"5a"	"exercise"	"exam prep"	"sample paper"	NA	14
+"2020-11-05T13:47:19+00:00+00:00+00:00"	"student015"	"student"	42	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T13:47:59+00:00+00:00+00:00"	"teacher008"	"teacher"	43	"During the exam a candidate would have about 75 minutes to complete this part. But we'll just do some bits of it :)"	"During the exam a candidate would have about 75 minutes to complete this part. But we'll just do some bits of it :)"	40	NA	"scaffolding"	"exam prep"	NA	NA	23
+"2020-11-05T13:48:26+00:00+00:00+00:00"	"teacher008"	"teacher"	44	"Could you quickly read the text and ignore the gaps, please? And tell me what the text is about"	"Could you quickly read the text and ignore the gaps, please? And tell me what the text is about"	42	NA	NA	NA	NA	NA	19
+"2020-11-05T13:48:48+00:00+00:00+00:00"	"student015"	"student"	45	"OK"	"OK"	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T13:52:28+00:00+00:00+00:00"	"student015"	"student"	46	"It talks about genealogy. And I think genelogy is like a inverse tree to mark our families in history."	"It talks about genealogy. And I think genealogy is like a tree to mark our family in history."	NA	NA	NA	NA	NA	NA	19
+"2020-11-05T13:53:11+00:00+00:00+00:00"	"student015"	"student"	47	"And also makes some research on genelogy."	"And also do some research on genealogy."	NA	NA	NA	NA	NA	NA	7
+"2020-11-05T13:53:26+00:00+00:00+00:00"	"teacher008"	"teacher"	48	"Yes, genealogy is the study of family history. A way to represent family history is a family tree."	"Yes, genealogy is the study of family history. A way to represent family history is a family tree."	46	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	18
+"2020-11-05T13:53:39+00:00+00:00+00:00"	"teacher008"	"teacher"	49	"Correct!"	"Correct!"	47	NA	NA	NA	NA	NA	1
+"2020-11-05T13:54:22+00:00+00:00+00:00"	"teacher008"	"teacher"	50	"Ok, now for gap (0) you have an example above the text. You have 4 words but only one of them can go in the gap"	"Ok, now for gap (0) you have an example above the text. You have 4 words but only one of them can go in the gap"	NA	"5b"	"scaffolding"	"exam prep,lexical resource"	NA	NA	26
+"2020-11-05T13:54:42+00:00+00:00+00:00"	"teacher008"	"teacher"	51	"A band B set C branch D series"	"A band B set C branch D series"	NA	NA	NA	NA	NA	NA	8
+"2020-11-05T13:54:46+00:00+00:00+00:00"	"teacher008"	"teacher"	52	"Can you see it?"	"Can you see it?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T13:55:29+00:00+00:00+00:00"	"student015"	"student"	53	"yes. I know C is correct."	"yes. I know C is correct."	NA	NA	NA	NA	NA	NA	6
+"2020-11-05T13:55:40+00:00+00:00+00:00"	"teacher008"	"teacher"	54	"Yes, sure!"	"Yes, sure!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T13:56:08+00:00+00:00+00:00"	"student015"	"student"	55	"gap(0) has the answer on the top."	"gap(0) has the answer on the top."	NA	NA	NA	NA	NA	NA	7
+"2020-11-05T13:56:18+00:00+00:00+00:00"	"teacher008"	"teacher"	56	"Now, for the rest of the gaps, the words are on the next page. Could you have a look at (1)? What do you think the answer is?"	"Now, for the rest of the gaps, the words are on the next page. Could you have a look at (1)? What do you think the answer is?"	NA	"5c"	"exercise"	"exam prep,lexical resource"	NA	NA	28
+"2020-11-05T13:56:23+00:00+00:00+00:00"	"teacher008"	"teacher"	57	"Yes, that's right, branch!"	"Yes, that's right, branch!"	53	NA	NA	NA	NA	NA	4
+"2020-11-05T13:56:53+00:00+00:00+00:00"	"student015"	"student"	58	"(1) B"	"(1) B"	56	NA	NA	NA	NA	NA	2
+"2020-11-05T13:57:07+00:00+00:00+00:00"	"student015"	"student"	59	"rather than"	"rather than"	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T13:57:10+00:00+00:00+00:00"	"teacher008"	"teacher"	60	"Absolutely!"	"Absolutely!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T13:57:16+00:00+00:00+00:00"	"teacher008"	"teacher"	61	"What about (2)?"	"What about (2)?"	NA	"5d"	NA	NA	NA	NA	3
+"2020-11-05T13:58:38+00:00+00:00+00:00"	"student015"	"student"	62	"(2) B?"	"(2) B?"	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T13:59:03+00:00+00:00+00:00"	"teacher008"	"teacher"	63	"actually no. Which verb goes with 'in'?"	"actually no. Which verb goes with 'in'?"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	7
+"2020-11-05T13:59:33+00:00+00:00+00:00"	"student015"	"student"	64	"A?"	"A?"	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T13:59:49+00:00+00:00+00:00"	"teacher008"	"teacher"	65	"C. result in"	"C. result in"	NA	NA	NA	NA	NA	NA	3
+"2020-11-05T14:00:09+00:00+00:00+00:00"	"teacher008"	"teacher"	66	"to cause something (no preposition needed)"	"to cause something (no preposition needed)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2020-11-05T14:00:39+00:00+00:00+00:00"	"teacher008"	"teacher"	67	"mean that... (e.g. learning my family history meant that I found out some amazing facts)"	"mean that... (e.g. learning my family history meant that I found out some amazing facts)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+"2020-11-05T14:01:12+00:00+00:00+00:00"	"teacher008"	"teacher"	68	"lead to. Moving to this country lead to me getting a new job"	"lead to. Moving to this country lead to me getting a new job"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	13
+"2020-11-05T14:01:19+00:00+00:00+00:00"	"teacher008"	"teacher"	69	"But only 'result' works with 'in'"	"But only 'result' works with 'in'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+"2020-11-05T14:01:26+00:00+00:00+00:00"	"teacher008"	"teacher"	70	"Does it make sense?"	"Does it make sense?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T14:02:20+00:00+00:00+00:00"	"student015"	"student"	71	"Yes. But I think it means because tracing ... so we get a result?"	"Yes. But I think it means because of tracing ... we get a result?"	NA	"5e"	"enquiry"	"lexical resource,meaning"	NA	NA	14
+"2020-11-05T14:02:55+00:00+00:00+00:00"	"student015"	"student"	72	"Dose it make sense?"	"Dose it make sense?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T14:03:18+00:00+00:00+00:00"	"teacher008"	"teacher"	73	"Result is a verb here. It can be a noun (get results) and a verb (it can result in learning...)"	"Result is a verb here. It can be a noun (get results) and a verb (it can result in learning...)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	20
+"2020-11-05T14:04:09+00:00+00:00+00:00"	"student015"	"student"	74	"OK. I will check 'result in's mean latter. Thanks."	"OK. I will check the meaning of 'result in' later. Thanks."	NA	NA	NA	NA	NA	NA	9
+"2020-11-05T14:04:19+00:00+00:00+00:00"	"teacher008"	"teacher"	75	"Yes, sure!"	"Yes, sure!"	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T14:04:39+00:00+00:00+00:00"	"teacher008"	"teacher"	76	"It's all about this 'in' here. You need a word that works with it"	"It's all about this 'in' here. You need a word that works with it"	NA	NA	"scaffolding"	"exam prep,lexical resource"	NA	NA	14
+"2020-11-05T14:04:45+00:00+00:00+00:00"	"teacher008"	"teacher"	77	"Ok! (3)?"	"Ok! (3)?"	NA	"5f"	"exercise"	"exam prep,lexical resource"	NA	NA	2
+"2020-11-05T14:07:22+00:00+00:00+00:00"	"student015"	"student"	78	"(3) C?"	"(3) C?"	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T14:07:54+00:00+00:00+00:00"	"teacher008"	"teacher"	79	"Hmm, no, B. access information"	"Hmm, no, B. access information"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+"2020-11-05T14:08:08+00:00+00:00+00:00"	"student015"	"student"	80	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T14:08:20+00:00+00:00+00:00"	"teacher008"	"teacher"	81	"What about (4)?"	"What about (4)?"	NA	"5g"	"exercise"	"exam prep,lexical resource"	NA	NA	3
+"2020-11-05T14:09:58+00:00+00:00+00:00"	"student015"	"student"	82	"(4) D?"	"(4) D?"	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T14:10:49+00:00+00:00+00:00"	"teacher008"	"teacher"	83	"Sorry, back to (3). Approach is more about a) physically coming close to something / someone b) talking to someone (She approached her boss about her holiday). c) dealing with a problem (I don't know how to approach this problem)"	"Sorry, back to (3). Approach is more about a) physically coming close to something / someone b) talking to someone (She approached her boss about her holiday). c) dealing with a problem (I don't know how to approach this problem)"	80	NA	"scaffolding"	"lexical resource"	NA	NA	40
+"2020-11-05T14:11:10+00:00+00:00+00:00"	"teacher008"	"teacher"	84	"4 is D, well done!"	"4 is D, well done!"	82	NA	NA	NA	NA	NA	5
+"2020-11-05T14:11:40+00:00+00:00+00:00"	"teacher008"	"teacher"	85	"What about 5? It needs to go with ... that"	"What about 5? It needs to go with ... that"	NA	"5h"	"exercise"	"exam prep,lexical resource"	NA	NA	10
+"2020-11-05T14:16:17+00:00+00:00+00:00"	"student015"	"student"	86	"(5)C;(6)A?"	"(5)C;(6)A?"	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T14:16:40+00:00+00:00+00:00"	"teacher008"	"teacher"	87	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T14:16:45+00:00+00:00+00:00"	"teacher008"	"teacher"	88	"What about 7 and 8?"	"What about 7 and 8?"	NA	NA	NA	NA	NA	NA	5
+"2020-11-05T14:17:13+00:00+00:00+00:00"	"student015"	"student"	89	"But I’m not sure 5, A or C"	"But I’m not sure 5, A or C"	NA	"5i"	"enquiry"	"lexical resource"	NA	NA	8
+"2020-11-05T14:18:07+00:00+00:00+00:00"	"teacher008"	"teacher"	90	"5 is C, remark"	"5 is C, remark"	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T14:18:23+00:00+00:00+00:00"	"teacher008"	"teacher"	91	"We can say 'people remark that it's a good hobby...'"	"We can say 'people remark that it's a good hobby...'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+"2020-11-05T14:18:43+00:00+00:00+00:00"	"teacher008"	"teacher"	92	"But we can't use 'describe' there. We can say 'people describe it as a good hobby'"	"But we can't use 'describe' there. We can say 'people describe it as a good hobby'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	16
+"2020-11-05T14:19:27+00:00+00:00+00:00"	"student015"	"student"	93	"OK. Thanks"	"OK. Thanks"	NA	NA	NA	NA	NA	NA	2
+"2020-11-05T14:19:49+00:00+00:00+00:00"	"teacher008"	"teacher"	94	"No worries. 7 and 8?"	"No worries. 7 and 8?"	NA	"5j"	"exercise"	"exam prep,lexical resource"	NA	NA	5
+"2020-11-05T14:21:32+00:00+00:00+00:00"	"student015"	"student"	95	"(7)D;(8)B?"	"(7)D;(8)B?"	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T14:21:50+00:00+00:00+00:00"	"teacher008"	"teacher"	96	"Absolutely right! Well done!"	"Absolutely right! Well done!"	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T14:22:47+00:00+00:00+00:00"	"student015"	"student"	97	"Thanks. But several time i actually not sure about my answers"	"Thanks. But several times I actually wasn't sure about my answers"	NA	NA	NA	NA	NA	NA	11
+"2020-11-05T14:22:52+00:00+00:00+00:00"	"teacher008"	"teacher"	98	"So this is an example of an exam task. If you decide later on to prepare for this exam, we can do more exam tasks. Just let me know!"	"So this is an example of an exam task. If you decide later on to prepare for this exam, we can do more exam tasks. Just let me know!"	NA	NA	NA	NA	NA	NA	29
+"2020-11-05T14:23:23+00:00+00:00+00:00"	"student015"	"student"	99	"I think it's great exam. Thanks."	"I think it's a great exam. Thanks."	NA	NA	NA	NA	NA	NA	6
+"2020-11-05T14:23:48+00:00+00:00+00:00"	"teacher008"	"teacher"	100	"This is fine, this is how you learn through exam preparation. By looking up new words / grammar points and seeing why it's this option and not another one"	"This is fine, this is how you learn through exam preparation. By looking up new words / grammar points and seeing why it's this option and not another one"	97	NA	"scaffolding"	"meta knowledge,exam prep"	NA	NA	29
+"2020-11-05T14:24:17+00:00+00:00+00:00"	"teacher008"	"teacher"	101	"Would you like to try more exam tasks in the future then?"	"Would you like to try more exam tasks in the future then?"	99	NA	NA	NA	NA	NA	12
+"2020-11-05T14:24:43+00:00+00:00+00:00"	"student015"	"student"	102	"Yes. It's great"	"Yes. It's great"	NA	NA	NA	NA	NA	NA	3
+"2020-11-05T14:24:55+00:00+00:00+00:00"	"teacher008"	"teacher"	103	"Sure, we'll focus on that in this case"	"Sure, we'll focus on that in this case"	NA	NA	NA	NA	NA	NA	8
+"2020-11-05T14:25:28+00:00+00:00+00:00"	"student015"	"student"	104	"Thanks, you really help me a lot!"	"Thanks, you really help me a lot!"	NA	NA	NA	NA	NA	NA	7
+"2020-11-05T14:25:44+00:00+00:00+00:00"	"teacher008"	"teacher"	105	"Also, I can offer you another class, at the same time on Wednesday if you'd like and have the time. So that you have two classes a week"	"Also, I can offer you another class, at the same time on Wednesday if you'd like and have the time. So that you have two classes a week"	NA	"6.0"	"topic opening"	NA	NA	NA	28
+"2020-11-05T14:25:59+00:00+00:00+00:00"	"teacher008"	"teacher"	106	"But no pressure as obviously you're pretty busy"	"But no pressure as obviously you're pretty busy"	NA	NA	NA	NA	NA	NA	8
+"2020-11-05T14:27:34+00:00+00:00+00:00"	"student015"	"student"	107	"I really want to have more classes if you don’t mind. But every Wednesday I need to talk to my professor."	"I really want to have more classes if you don’t mind. But every Wednesday I need to talk to my professor."	NA	NA	NA	NA	NA	NA	21
+"2020-11-05T14:28:12+00:00+00:00+00:00"	"teacher008"	"teacher"	108	"Ok, sure, let me know if there is any time that is good for you!"	"Ok, sure, let me know if there is any time that is good for you!"	NA	NA	NA	NA	NA	NA	15
+"2020-11-05T14:28:55+00:00+00:00+00:00"	"student015"	"student"	109	"It's about 12:00 UTC or 13:00 UTC on every Wednesday."	"It's about 12:00 UTC or 13:00 UTC every Wednesday."	NA	NA	NA	NA	NA	NA	10
+"2020-11-05T14:29:28+00:00+00:00+00:00"	"student015"	"student"	110	"So can I pick another time if you don’t mind?"	"So can I pick another time if you don’t mind?"	NA	NA	NA	NA	NA	NA	10
+"2020-11-05T14:29:56+00:00+00:00+00:00"	"teacher008"	"teacher"	111	"Yes, sure. Is 13.30 UTC on Wednesday no good for you?"	"Yes, sure. Is 13.30 UTC on Wednesday no good for you?"	NA	NA	NA	NA	NA	NA	11
+"2020-11-05T14:30:30+00:00+00:00+00:00"	"teacher008"	"teacher"	112	"I can also offer you Mondays I think, let me check"	"I can also offer you Mondays I think, let me check"	NA	NA	NA	NA	NA	NA	11
+"2020-11-05T14:30:45+00:00+00:00+00:00"	"student015"	"student"	113	"Sorry."	"Sorry."	NA	NA	NA	NA	NA	NA	1
+"2020-11-05T14:30:57+00:00+00:00+00:00"	"teacher008"	"teacher"	114	"13.30 UTC on Monday?"	"13.30 UTC on Monday?"	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T14:31:06+00:00+00:00+00:00"	"student015"	"student"	115	"Yes. Monday is OK for me!!"	"Yes. Monday is OK for me!!"	NA	NA	NA	NA	NA	NA	6
+"2020-11-05T14:31:32+00:00+00:00+00:00"	"teacher008"	"teacher"	116	"Lovely! 13.30 UTC on Mondays and Thursdays in this case :)"	"Lovely! 13.30 UTC on Mondays and Thursdays in this case :)"	NA	NA	NA	NA	NA	NA	11
+"2020-11-05T14:32:17+00:00+00:00+00:00"	"teacher008"	"teacher"	117	"Ok, I'll let you go, have a good weekend!"	"Ok, I'll let you go, have a good weekend!"	NA	"7.0"	"closing"	NA	NA	NA	9
+"2020-11-05T14:32:41+00:00+00:00+00:00"	"student015"	"student"	118	"I don't know what to say, It's really great, thank you so much."	"I don't know what to say, It's really great, thank you so much."	NA	NA	NA	NA	NA	NA	13
+"2020-11-05T14:33:04+00:00+00:00+00:00"	"teacher008"	"teacher"	119	"You're very welcome! :)"	"You're very welcome! :)"	NA	NA	NA	NA	NA	NA	4
+"2020-11-05T14:33:10+00:00+00:00+00:00"	"teacher008"	"teacher"	120	"Speak to you on Monday :)"	"Speak to you on Monday :)"	NA	NA	NA	NA	NA	NA	6
+"2020-11-05T14:33:24+00:00+00:00+00:00"	"student015"	"student"	121	"OK!!"	"OK!!"	NA	NA	NA	NA	NA	"B2"	1

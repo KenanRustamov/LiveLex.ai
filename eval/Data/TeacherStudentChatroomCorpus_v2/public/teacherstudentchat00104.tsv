@@ -1,0 +1,179 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-20 07:04:34	"student009"	"student"	1	"hi"	"hi"	NA	"1.0"	"opening"	NA	NA	NA	1
+2020-08-20 07:05:04	"teacher008"	"teacher"	2	"Hi <STUDENT> !"	"Hi <STUDENT> !"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:05:08	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-08-20 07:05:15	"student009"	"student"	4	"I am fine"	"I am fine"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:05:21	"student009"	"student"	5	"and you?"	"and you?"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:05:40	"teacher008"	"teacher"	6	"I'm good, thank you"	"I'm good, thank you"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 07:06:03	"teacher008"	"teacher"	7	"How's your week going? Anything fun happening?"	"How's your week going? Anything fun happening?"	NA	"2a"	"topic development"	NA	NA	NA	7
+2020-08-20 07:06:16	"student009"	"student"	8	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:06:27	"student009"	"student"	9	"we are going to the beach today"	"we are going to the beach today"	NA	NA	NA	NA	NA	NA	7
+2020-08-20 07:06:34	"student009"	"student"	10	"after our lesson"	"after our lesson"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:06:43	"teacher008"	"teacher"	11	"Oh wonderful, I'm jealous!"	"Oh wonderful, I'm jealous!"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 07:07:05	"teacher008"	"teacher"	12	"On the Dnipro?"	"On the Dnipro?"	NA	"2b"	"topic development"	NA	NA	NA	3
+2020-08-20 07:07:07	"student009"	"student"	13	"this time , I told my mom about it:)"	"this time , I told my mom about it:)"	11	NA	NA	NA	NA	NA	9
+2020-08-20 07:07:11	"student009"	"student"	14	"No"	"No"	12	NA	NA	NA	NA	NA	1
+2020-08-20 07:07:47	"teacher008"	"teacher"	15	"It's actually 'the Dnieper'"	"It's actually 'the Dnieper'"	12	NA	"repair"	"lexical resource"	NA	NA	4
+2020-08-20 07:07:48	"student009"	"student"	16	"blue ... ozero?"	"blue ... ozero?"	14	"2c"	"enquiry,non-English"	"code switching,lexical resource"	NA	NA	3
+2020-08-20 07:07:52	"teacher008"	"teacher"	17	"lake"	"lake"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-08-20 07:08:00	"teacher008"	"teacher"	18	"The Blue Lake"	"The Blue Lake"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-08-20 07:08:05	"student009"	"student"	19	"it is not lake"	"it is not a lake"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 07:08:11	"student009"	"student"	20	"lake is bigger"	"a lake is bigger"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:08:18	"teacher008"	"teacher"	21	"We always use 'the' with the names of lakes and rivers"	"We always use 'the' with the names of lakes and rivers"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-08-20 07:08:33	"teacher008"	"teacher"	22	"a pond?"	"a pond?"	20	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2020-08-20 07:09:06	"student009"	"student"	23	"okay, lake is better"	"okay, lake is better"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 07:09:29	"teacher008"	"teacher"	24	"it is not lake' What word is missing?"	"it is not lake' What word is missing?"	NA	"2d"	"eliciting,repair"	"grammatical resource"	NA	NA	8
+2020-08-20 07:09:47	"student009"	"student"	25	"the?"	"the?"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:10:06	"teacher008"	"teacher"	26	"it's not a lake'"	"it's not a lake'"	NA	NA	"repair"	"grammatical resource"	NA	NA	4
+2020-08-20 07:10:21	"student009"	"student"	27	"okay , it is a lake"	"okay, it is a lake"	NA	NA	NA	NA	NA	NA	6
+2020-08-20 07:10:35	"teacher008"	"teacher"	28	"We use THE with the names of lakes and rivers, but if there's no name, it can be any article"	"We use THE with the names of lakes and rivers, but if there's no name, it can be any article"	NA	"2e"	"scaffolding"	"grammatical resource"	NA	NA	20
+2020-08-20 07:10:48	"student009"	"student"	29	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:11:21	"teacher008"	"teacher"	30	"Wait, I started to doubt that, give me a moment"	"Wait, I started to doubt that, give me a moment"	NA	NA	NA	NA	NA	NA	10
+2020-08-20 07:12:33	"teacher008"	"teacher"	31	"Sorry, the + rivers / oceans / seas / groups of lakes but no article + lake"	"Sorry, the + rivers / oceans / seas / groups of lakes but no article + lake"	28	NA	"repair"	"content"	NA	NA	17
+2020-08-20 07:13:20	"teacher008"	"teacher"	32	"So the Black Sea, the Dnieper, the Pacific Ocean, but Lake Chad"	"So the Black Sea, the Dnieper, the Pacific Ocean, but Lake Chad"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-08-20 07:14:07	"student009"	"student"	33	"hehe"	"hehe"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:14:31	"teacher008"	"teacher"	34	"Yes, sorry about the confusion!"	"Yes, sorry about the confusion!"	NA	NA	NA	NA	NA	NA	5
+2020-08-20 07:14:48	"student009"	"student"	35	"it is okay"	"it is okay"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:14:56	"teacher008"	"teacher"	36	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:15:28	"teacher008"	"teacher"	37	"A storm is coming here tomorrow! I hate it!"	"A storm is coming here tomorrow! I hate it!"	NA	"3.0"	"topic opening"	NA	NA	NA	9
+2020-08-20 07:15:56	"student009"	"student"	38	"raining and thunders?"	"rain and thunder?"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:16:19	"teacher008"	"teacher"	39	"That would be ok. Gusts of wind are the worst!!"	"That would be ok. Gusts of wind are the worst!!"	NA	NA	NA	NA	NA	NA	10
+2020-08-20 07:16:44	"teacher008"	"teacher"	40	"I have this beatiful sunflower in my garden, it's 3 m tall!"	"I have this beatiful sunflower in my garden, it's 3 m tall!"	NA	"3a"	"topic development"	NA	NA	NA	12
+2020-08-20 07:16:50	"student009"	"student"	41	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:16:51	"teacher008"	"teacher"	42	"I'm sure it'll be destroyed tomorrow"	"I'm sure it'll be destroyed tomorrow"	NA	NA	NA	NA	NA	NA	6
+2020-08-20 07:17:00	"student009"	"student"	43	"I like rain:)"	"I like rain:)"	39	"3b"	"topic development"	NA	NA	NA	3
+2020-08-20 07:17:10	"student009"	"student"	44	"that's sad("	"that's sad("	42	NA	NA	NA	NA	NA	2
+2020-08-20 07:17:19	"teacher008"	"teacher"	45	"Rain is good, but not too much!"	"Rain is good, but not too much!"	43	NA	NA	NA	NA	NA	7
+2020-08-20 07:17:29	"student009"	"student"	46	"you can't do anything with it?"	"you can't do anything with it?"	44	NA	NA	NA	NA	NA	6
+2020-08-20 07:17:51	"teacher008"	"teacher"	47	"No, I tied it up to the fence but the fence is only 1.2 m!"	"No, I tied it up to the fence but the fence is only 1.2 m!"	NA	NA	NA	NA	NA	NA	15
+2020-08-20 07:18:12	"student009"	"student"	48	"sorry for it"	"sorry for it"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:18:27	"teacher008"	"teacher"	49	"Mind you, we're better off than the west of the country, they are getting crazy storms coming from the Atlantic"	"Mind you, we're better off than the west of the country, they are getting crazy storms coming from the Atlantic"	45	NA	NA	NA	NA	NA	20
+2020-08-20 07:18:45	"teacher008"	"teacher"	50	"By the time the storms get here to the east, they haven't got as much force"	"By the time the storms get here to the east, they haven't got as much force"	NA	NA	NA	NA	NA	NA	16
+2020-08-20 07:18:47	"teacher008"	"teacher"	51	"Thank you"	"Thank you"	48	NA	NA	NA	NA	NA	2
+2020-08-20 07:19:21	"student009"	"student"	52	"I was on the sunflower field a few days ago"	"I was in a sunflower field a few days ago"	NA	"3c"	"topic development"	NA	NA	NA	10
+2020-08-20 07:19:40	"teacher008"	"teacher"	53	"Oh, that must have been beautiful!"	"Oh, that must have been beautiful!"	NA	NA	NA	NA	NA	NA	6
+2020-08-20 07:20:00	"student009"	"student"	54	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:20:13	"student009"	"student"	55	"I have some photos"	"I have some photos"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 07:20:26	"student009"	"student"	56	"I was there with my friend"	"I was there with my friend"	NA	NA	NA	NA	NA	NA	6
+2020-08-20 07:20:42	"teacher008"	"teacher"	57	"Sounds like a lot of fun!"	"Sounds like a lot of fun!"	NA	NA	NA	NA	NA	NA	6
+2020-08-20 07:21:08	"student009"	"student"	58	"it wasn't easy for me"	"it wasn't easy for me"	NA	NA	NA	NA	NA	NA	5
+2020-08-20 07:21:21	"teacher008"	"teacher"	59	"Why not?"	"Why not?"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:21:24	"student009"	"student"	60	"sunflowers were taller than me"	"The sunflowers were taller than me"	NA	NA	NA	NA	NA	NA	5
+2020-08-20 07:22:07	"student009"	"student"	61	"it wasn't easy to walk through them"	"it wasn't easy to walk through them"	NA	NA	NA	NA	NA	NA	7
+2020-08-20 07:22:15	"teacher008"	"teacher"	62	"I can imagine!"	"I can imagine!"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:22:48	"teacher008"	"teacher"	63	"I've counted all my edible plants the other day, I'm growing 77 of them"	"I've counted all my edible plants the other day, I'm growing 77 of them"	NA	"3d"	"topic development"	NA	NA	NA	14
+2020-08-20 07:22:53	"student009"	"student"	64	"and I needed to stand on my toes"	"and I had to to stand on my tiptoes"	62	NA	NA	NA	NA	NA	8
+2020-08-20 07:22:59	"teacher008"	"teacher"	65	"I'm a bit of a crazy gardening lady :)"	"I'm a bit of a crazy gardening lady :)"	63	NA	NA	NA	NA	NA	9
+2020-08-20 07:23:00	"student009"	"student"	66	"wow"	"wow"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:23:07	"student009"	"student"	67	"that's cool"	"that's cool"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:23:18	"teacher008"	"teacher"	68	"thank you)"	"thank you)"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:23:26	"student009"	"student"	69	"( to take a photo)"	"(to take a photo)"	64	NA	NA	NA	NA	NA	5
+2020-08-20 07:24:27	"teacher008"	"teacher"	70	"Ah, yes, makes sense, you had to stand on your tiptoes"	"Ah, yes, makes sense, you had to stand on your tiptoes"	64	NA	"repair"	"lexical resource"	NA	NA	11
+2020-08-20 07:24:32	"student009"	"student"	71	"do you eat something from your garden?"	"do you eat anything from your garden?"	NA	"3e"	"topic development"	NA	NA	NA	7
+2020-08-20 07:25:08	"teacher008"	"teacher"	72	"Yes, all the time. Lots of French beans, courgettes, aubergines, tomatoes. I'm looking forward to my sweetcorn harvest now"	"Yes, all the time. Lots of French beans, courgettes, aubergines, tomatoes. I'm looking forward to my sweetcorn harvest now"	NA	NA	NA	NA	NA	NA	19
+2020-08-20 07:26:14	"teacher008"	"teacher"	73	"Do you know the names of all these veggies?"	"Do you know the names of all these veggies?"	NA	NA	"eliciting"	"lexical resource,meaning"	NA	NA	9
+2020-08-20 07:26:18	"student009"	"student"	74	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:26:41	"teacher008"	"teacher"	75	"and also raspberries, strawberries, blackberries, rhubarb etc."	"and also raspberries, strawberries, blackberries, rhubarb etc."	NA	NA	NA	NA	NA	NA	7
+2020-08-20 07:28:27	"student009"	"student"	76	"I think it is comfortable and interesting to have such a garden"	"I think it is convenient and interesting to have such a garden"	NA	NA	NA	NA	NA	NA	12
+2020-08-20 07:28:54	"teacher008"	"teacher"	77	"It's lovely, it's been keeping us sane during the whole pandemic thing"	"It's lovely, it's been keeping us sane during the whole pandemic thing"	NA	NA	NA	NA	NA	NA	12
+2020-08-20 07:29:09	"student009"	"student"	78	"you don't really need to buy veggies :)"	"you don't really need to buy veggies :)"	NA	NA	NA	NA	NA	NA	8
+2020-08-20 07:29:11	"teacher008"	"teacher"	79	"Do you mean it's comfortable or convenient?"	"Do you mean it's comfortable or convenient?"	76	"3f"	"eliciting,repair"	"lexical resource"	NA	NA	7
+2020-08-20 07:29:37	"teacher008"	"teacher"	80	"We don't buy many veggies in the summer, you're right!"	"We don't buy many veggies in the summer, you're right!"	78	NA	NA	NA	NA	NA	10
+2020-08-20 07:29:49	"student009"	"student"	81	"convenient"	"convenient"	79	NA	NA	NA	NA	NA	1
+2020-08-20 07:29:58	"teacher008"	"teacher"	82	"correct :)"	"correct :)"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:30:53	"teacher008"	"teacher"	83	"Yes, I believe in growing fruit and vegetables, not a ___ (an area of cut grass)"	"Yes, I believe in growing fruit and vegetables, not a ___ (an area of cut grass)"	80	"3g"	"eliciting,revision"	"lexical resource"	NA	NA	16
+2020-08-20 07:31:55	"student009"	"student"	84	"I can't look to the words I wrote , I forgot , sorry("	"I can't look at the words I wrote down, I forgot , sorry("	NA	NA	NA	NA	NA	NA	13
+2020-08-20 07:32:18	"teacher008"	"teacher"	85	"No worries, it's a lawn"	"No worries, it's a lawn"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-08-20 07:33:17	"teacher008"	"teacher"	86	"You know tennis is sometimes called 'lawn tennis' in Britain"	"You know tennis is sometimes called 'lawn tennis' in Britain"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2020-08-20 07:33:35	"teacher008"	"teacher"	87	"I guess because people used to play it on lawns"	"I guess because people used to play it on lawns"	NA	NA	NA	NA	NA	NA	10
+2020-08-20 07:33:54	"student009"	"student"	88	"maybe"	"maybe"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:34:20	"teacher008"	"teacher"	89	"Shall we revise the words next time then? When you've had a chance to memorize them?"	"Shall we revise the words next time then? When you've had a chance to memorize them?"	NA	"3h"	"enquiry"	NA	NA	NA	16
+2020-08-20 07:34:42	"student009"	"student"	90	"I am not from computer now"	"I am not on my computer now"	NA	NA	NA	NA	NA	NA	6
+2020-08-20 07:34:53	"student009"	"student"	91	"maybe next time I will be"	"maybe next time I will be"	NA	NA	NA	NA	NA	NA	6
+2020-08-20 07:35:04	"teacher008"	"teacher"	92	"Ok, sure"	"Ok, sure"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:35:26	"teacher008"	"teacher"	93	"Do you know if you are going to school in September yet? Or studying from home?"	"Do you know if you are going to school in September yet? Or studying from home?"	NA	"4.0"	"topic opening"	NA	NA	NA	16
+2020-08-20 07:35:40	"student009"	"student"	94	"nope"	"nope"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:36:14	"teacher008"	"teacher"	95	"No to going? Or no to studying from home?"	"No to going? Or no to studying from home?"	NA	NA	NA	NA	NA	NA	9
+2020-08-20 07:36:31	"student009"	"student"	96	"don't know"	"don't know"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:37:03	"teacher008"	"teacher"	97	"Oh, I see. <ANOTHER STUDENT> seems to think he'll be studying from home. I didn't realize you guys were in the same class at school!"	"Oh, I see. <ANOTHER STUDENT> seems to think he'll be studying from home. I didn't realize you guys were in the same class at school!"	NA	"4a"	"topic development"	NA	NA	NA	25
+2020-08-20 07:37:22	"student009"	"student"	98	"we are"	"we are"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:37:42	"student009"	"student"	99	"do you want me to tell you a funny storie?"	"do you want me to tell you a funny story?"	NA	"4b"	"topic development"	NA	NA	NA	10
+2020-08-20 07:37:48	"teacher008"	"teacher"	100	"Yes, please!"	"Yes, please!"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:38:26	"student009"	"student"	101	"this year I first time visited <LANGUAGE SCHOOL>"	"this year I went to <LANGUAGE SCHOOL> for the first time"	NA	NA	NA	NA	NA	NA	8
+2020-08-20 07:39:12	"student009"	"student"	102	"first twi weeks I viseted level B1.1"	"for the first two weeks I attended level B1.1"	NA	NA	NA	NA	NA	NA	7
+2020-08-20 07:39:47	"student009"	"student"	103	"but then I wanted to try level B1.2"	"but then I wanted to try level B1.2"	NA	NA	NA	NA	NA	NA	8
+2020-08-20 07:40:26	"teacher008"	"teacher"	104	"I love your ambition <STUDENT>, this is great!"	"I love your ambition <STUDENT>, this is great!"	NA	NA	NA	NA	NA	NA	8
+2020-08-20 07:40:50	"student009"	"student"	105	"and I accidentally went not to the right cabinet"	"and I accidentally went to the wrong classroom"	NA	NA	NA	NA	NA	NA	9
+2020-08-20 07:41:43	"student009"	"student"	106	"and on the first half of the lesson I studied with level A1.2!"	"and for the first half of the lesson I studied with level A1.2!"	NA	NA	NA	NA	NA	NA	13
+2020-08-20 07:42:04	"teacher008"	"teacher"	107	"oh goodness, that must have been easy for you!"	"oh goodness, that must have been easy for you!"	NA	NA	NA	NA	NA	NA	9
+2020-08-20 07:42:20	"teacher008"	"teacher"	108	"And was <ANOTHER STUDENT> in B1.2 class?"	"And was <ANOTHER STUDENT> in B1.2 class?"	103	NA	NA	NA	NA	NA	7
+2020-08-20 07:42:22	"student009"	"student"	109	"when I asked teacher , why everything is so easy?"	"I asked the teacher why everything was so easy"	107	NA	NA	NA	NA	NA	10
+2020-08-20 07:42:41	"student009"	"student"	110	"and then she said I am in the wrong cabinet!"	"and then she said I was in the wrong classroom!"	NA	NA	NA	NA	NA	NA	10
+2020-08-20 07:42:58	"student009"	"student"	111	"she helped me to find the right one"	"she helped me to find the right one"	NA	NA	NA	NA	NA	NA	8
+2020-08-20 07:43:07	"student009"	"student"	112	"and when I came there"	"and when I came there"	NA	NA	NA	NA	NA	NA	5
+2020-08-20 07:43:11	"student009"	"student"	113	"I saw <ANOTHER STUDENT>"	"I saw <ANOTHER STUDENT>"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 07:43:32	"student009"	"student"	114	"and it was like - <ANOTHER STUDENT>?! -<STUDENT>?!"	"and it was like - <ANOTHER STUDENT>?! -<STUDENT>?!"	NA	NA	NA	NA	NA	NA	8
+2020-08-20 07:43:51	"student009"	"student"	115	"we were really surprised"	"we were really surprised"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 07:44:12	"teacher008"	"teacher"	116	"oh cool! you're good friends then?"	"oh cool! you're good friends then?"	NA	"4c"	"topic development"	NA	NA	NA	6
+2020-08-20 07:44:25	"student009"	"student"	117	"now we are just friends"	"now we are just friends"	NA	NA	NA	NA	NA	NA	5
+2020-08-20 07:44:50	"student009"	"student"	118	"but the previous year we didn't really talk a lot"	"but the previous year we didn't really talk very much"	NA	NA	NA	NA	NA	NA	10
+2020-08-20 07:45:52	"student009"	"student"	119	"and I am happy with it because I have a new friend from those time"	"and I am happy about it because I have a new friend from those times"	NA	NA	NA	NA	NA	NA	15
+2020-08-20 07:46:03	"teacher008"	"teacher"	120	"Ah, I see.  It happens a lot at school, doesn't it? You suddenly discover you become friends with someone you had been studying with for a while but hardly ever talked to"	"Ah, I see.  It happens a lot at school, doesn't it? You suddenly discover you become friends with someone you had been studying with for a while but hardly ever talked to"	NA	NA	NA	NA	NA	NA	33
+2020-08-20 07:46:21	"teacher008"	"teacher"	121	"Oh, from your previous class that you liked better?"	"Oh, from your previous class that you liked better?"	119	NA	NA	NA	NA	NA	9
+2020-08-20 07:47:02	"student009"	"student"	122	"and because of <STUDENT> I have started communicating with my other classmates"	"and because of <STUDENT> I have started communicating with my other classmates"	119	NA	NA	NA	NA	NA	12
+2020-08-20 07:47:18	"teacher008"	"teacher"	123	"That's wonderful!"	"That's wonderful!"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:47:49	"student009"	"student"	124	"but they are not really friends"	"but they are not really friends"	NA	NA	NA	NA	NA	NA	6
+2020-08-20 07:48:04	"student009"	"student"	125	"just sometimes nice to talk to them"	"just sometimes nice to talk to them"	NA	NA	NA	NA	NA	NA	7
+2020-08-20 07:48:19	"student009"	"student"	126	"they are a bit bullies:("	"they are a bit of bullies:("	NA	NA	NA	NA	NA	NA	5
+2020-08-20 07:48:28	"teacher008"	"teacher"	127	"That's not good!"	"That's not good!"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:49:15	"student009"	"student"	128	"they are laughing at some our classmates sometimes"	"they laugh at some of our classmates sometimes"	NA	NA	NA	NA	NA	NA	8
+2020-08-20 07:49:24	"student009"	"student"	129	"that's sad("	"that's sad("	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:49:26	"teacher008"	"teacher"	130	"Oh, this is horrible!"	"Oh, this is horrible!"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 07:50:55	"teacher008"	"teacher"	131	"A couple of new words <STUDENT>"	"A couple of new words <STUDENT>"	NA	"5.0"	NA	NA	NA	NA	6
+2020-08-20 07:51:05	"student009"	"student"	132	"when <ANOTHER STUDENT> invited me to his b-day, they all were there, and I was a bit bored sometimes"	"when <ANOTHER STUDENT> invited me to his b-day, they all were there, and I was a bit bored sometimes"	130	NA	NA	NA	NA	NA	19
+2020-08-20 07:51:18	"teacher008"	"teacher"	133	"But <ANOTHER STUDENT> is not a bully, is he?"	"But <ANOTHER STUDENT> is not a bully, is he?"	NA	NA	NA	NA	NA	NA	9
+2020-08-20 07:52:33	"student009"	"student"	134	"sometimes he is"	"sometimes he is"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 07:52:41	"student009"	"student"	135	"maybe I am not right"	"maybe I am not right"	NA	NA	NA	NA	NA	NA	5
+2020-08-20 07:53:11	"student009"	"student"	136	"I don't want to say anything bad ro him"	"I don't want to say anything bad about him"	NA	NA	NA	NA	NA	NA	9
+2020-08-20 07:53:18	"student009"	"student"	137	"*about"	"*about"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-08-20 07:53:21	"teacher008"	"teacher"	138	"It can be hard to make the right choices all the time"	"It can be hard to make the right choices all the time"	134	NA	NA	NA	NA	NA	12
+2020-08-20 07:53:27	"teacher008"	"teacher"	139	"And you don't need to!"	"And you don't need to!"	136	NA	NA	NA	NA	NA	5
+2020-08-20 07:53:39	"teacher008"	"teacher"	140	"Anyway, a couple of new words, <STUDENT>"	"Anyway, a couple of new words, <STUDENT>"	131	NA	NA	NA	NA	NA	7
+2020-08-20 07:53:53	"teacher008"	"teacher"	141	"A cabinet' in English means 'a cupboard'"	"A cabinet' in English means 'a cupboard'"	NA	"5a"	"scaffolding,repair"	"lexical resource,meaning"	NA	NA	7
+2020-08-20 07:54:06	"teacher008"	"teacher"	142	"We have kitchen cabinets with all the pots and pans"	"We have kitchen cabinets with all the pots and pans"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	10
+2020-08-20 07:54:17	"teacher008"	"teacher"	143	"And bathroom cabinets with shampoos and soaps and towels"	"And bathroom cabinets with shampoos and soaps and towels"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2020-08-20 07:55:03	"teacher008"	"teacher"	144	"The rooms at a school are called 'classes'"	"The rooms at a school are called 'classes'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-08-20 07:55:10	"teacher008"	"teacher"	145	"Or 'offices' at a company"	"Or 'offices' at a company"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-08-20 07:55:19	"student009"	"student"	146	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 07:55:20	"teacher008"	"teacher"	147	"Or for example, the headmaster's office at school"	"Or for example, the headmaster's office at school"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-08-20 07:55:32	"teacher008"	"teacher"	148	"We don't want to put the headmaster in a cabinet! :)"	"We don't want to put the headmaster in a cabinet! :)"	NA	NA	NA	NA	NA	NA	11
+2020-08-20 07:55:33	"student009"	"student"	149	"headteacher?"	"headteacher?"	NA	"5b"	"enquiry"	"lexical resource"	NA	NA	1
+2020-08-20 07:55:52	"teacher008"	"teacher"	150	"The headmaster of a school is the top manager of a school"	"The headmaster of a school is the top manager of a school"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	12
+2020-08-20 07:55:55	"teacher008"	"teacher"	151	"like Dumbledore"	"like Dumbledore"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:56:22	"student009"	"student"	152	"isn't it principal?"	"isn't it principal?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	3
+2020-08-20 07:56:34	"teacher008"	"teacher"	153	"That's probably in the US!"	"That's probably in the US!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-08-20 07:56:53	"student009"	"student"	154	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:57:26	"teacher008"	"teacher"	155	"Headmaster' if they are male and 'headmistress' if they are female"	"Headmaster' if they are male and 'headmistress' if they are female"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-08-20 07:57:35	"teacher008"	"teacher"	156	"and 'headteacher' means the same, yes"	"and 'headteacher' means the same, yes"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-08-20 07:57:54	"teacher008"	"teacher"	157	"a principal = American synonym"	"a principal = American synonym"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-08-20 07:58:25	"student009"	"student"	158	"I understand"	"I understand"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 07:58:29	"teacher008"	"teacher"	159	"So, back to the cabinet. This what we call 'a false friend'. A word that sounds the same as in your language but means something different!"	"So, back to the cabinet. This what we call 'a false friend'. A word that sounds the same as in your language but means something different!"	NA	"5c"	"scaffolding"	"lexical resource,meta knowledge"	NA	NA	26
+2020-08-20 07:59:39	"teacher008"	"teacher"	160	"One last thing. When I go to Ukraine, I sometimes visit <LANGUAGE SCHOOL> to see my old friends and colleagues like <ANOTHER TEACHER>. But I don't study there"	"One last thing. When I go to Ukraine, I sometimes visit <LANGUAGE SCHOOL> to see my old friends and colleagues like <ANOTHER TEACHER>. But I don't study there"	NA	"5d"	"scaffolding,repair"	"lexical resource"	NA	NA	28
+2020-08-20 08:00:05	"student009"	"student"	161	"so if I have a toxic and a bad friend it is a cabinet?"	"so if I have a toxic and bad friend, it is a cabinet?"	159	NA	NA	NA	NA	NA	14
+2020-08-20 08:00:23	"teacher008"	"teacher"	162	"No no, I gave you a wrong idea!"	"No no, I gave you a wrong idea!"	NA	NA	NA	NA	NA	NA	8
+2020-08-20 08:00:28	"student009"	"student"	163	"you worked in <LANGUAGE SCHOOL> right?"	"you worked at <LANGUAGE SCHOOL> right?"	160	NA	NA	NA	NA	NA	6
+2020-08-20 08:01:09	"teacher008"	"teacher"	164	"False friends are words in different languages that look and sound the same but have different meaning"	"False friends are words in different languages that look and sound the same but have different meaning"	162	NA	"scaffolding"	"meta knowledge,lexical resource"	NA	NA	17
+2020-08-20 08:01:27	"teacher008"	"teacher"	165	"e.g. kabinet in Russian / Ukrainian = office"	"e.g. kabinet in Russian / Ukrainian = office"	NA	NA	"scaffolding,non-English"	"meta knowledge,lexical resource,code switching"	NA	NA	8
+2020-08-20 08:01:35	"teacher008"	"teacher"	166	"a cabinet in English = a cupboard"	"a cabinet in English = a cupboard"	NA	NA	"scaffolding"	"meta knowledge,lexical resource"	NA	NA	7
+2020-08-20 08:01:43	"student009"	"student"	167	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 08:02:04	"student009"	"student"	168	"okay"	"okay"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 08:02:09	"teacher008"	"teacher"	169	"Yes, I used to work at <LANGUAGE SCHOOL>. So if you visit <LANGUAGE SCHOOL>, you just go have a look around and have a cup of tea"	"Yes, I used to work at <LANGUAGE SCHOOL>. So if you visit <LANGUAGE SCHOOL>, you just go have a look around and have a cup of tea"	163	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	27
+2020-08-20 08:02:41	"teacher008"	"teacher"	170	"But if you study there, you can say you 'attend classes' at <LANGUAGE SCHOOL>. or 'go to' <LANGUAGE SCHOOL>"	"But if you study there, you can say you 'attend classes' at <LANGUAGE SCHOOL>. or 'go to' <LANGUAGE SCHOOL>"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2020-08-20 08:02:59	"teacher008"	"teacher"	171	"or study at <LANGUAGE SCHOOL>!"	"or study at <LANGUAGE SCHOOL>!"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-08-20 08:03:43	"teacher008"	"teacher"	172	"Ok, we're out of time for today. We can talk about false friends in different languages some more next time! Nothing to do with people who are bad friends"	"Ok, we're out of time for today. We can talk about false friends in different languages some more next time! Nothing to do with people who are bad friends"	NA	"6.0"	"closing"	NA	NA	NA	29
+2020-08-20 08:03:51	"teacher008"	"teacher"	173	"Tuesday 10 am?"	"Tuesday 10 am?"	NA	NA	NA	NA	NA	NA	3
+2020-08-20 08:03:56	"student009"	"student"	174	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 08:04:04	"student009"	"student"	175	"goodbye!"	"goodbye!"	NA	NA	NA	NA	NA	NA	1
+2020-08-20 08:04:06	"teacher008"	"teacher"	176	"Ok, enjoy the lake!"	"Ok, enjoy the lake!"	NA	NA	NA	NA	NA	NA	4
+2020-08-20 08:04:12	"student009"	"student"	177	"thank you"	"thank you"	NA	NA	NA	NA	NA	NA	2
+2020-08-20 08:04:22	"student009"	"student"	178	"and thanj you for the lesson"	"and thank you for the lesson"	NA	NA	NA	NA	NA	"B2"	6

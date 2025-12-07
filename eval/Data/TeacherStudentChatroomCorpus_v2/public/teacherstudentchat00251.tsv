@@ -1,0 +1,215 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-05-24 09:30:39	"student011"	"student"	1	"Hi <TEACHER>!"	"Hi <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-05-24 09:32:06	"teacher008"	"teacher"	2	"Morning!"	"Morning!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:32:38	"teacher008"	"teacher"	3	"My laptop is being rubbish this morning - sorry! I'm on my phone again until it recovers"	"My laptop is being rubbish this morning - sorry! I'm on my phone again until it recovers"	NA	"1a"	NA	NA	NA	NA	17
+2021-05-24 09:32:48	"student011"	"student"	4	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-05-24 09:32:52	"teacher008"	"teacher"	5	"How are you? Did you have a good weekend?"	"How are you? Did you have a good weekend?"	NA	NA	NA	NA	NA	NA	9
+2021-05-24 09:32:58	"student011"	"student"	6	"no probs!"	"no probs!"	3	NA	NA	NA	NA	NA	2
+2021-05-24 09:33:42	"student011"	"student"	7	"on Saturday, but not on Sunday"	"on Saturday, but not on Sunday"	5	NA	NA	NA	NA	NA	6
+2021-05-24 09:33:47	"student011"	"student"	8	"Let me explain ."	"Let me explain )"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 09:33:53	"teacher008"	"teacher"	9	"Please!"	"Please!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:34:11	"student011"	"student"	10	"On Saturday we met <STUDENT'S FRIEND>, <STUDENT'S FRIEND'S HUSBAND>, and <STUDENT'S FRIEND'S CHILD>"	"On Saturday we met <STUDENT'S FRIEND>, <STUDENT'S FRIEND'S HUSBAND>, and <STUDENT'S FRIEND'S CHILD>"	NA	NA	NA	NA	NA	NA	13
+2021-05-24 09:34:37	"student011"	"student"	11	"After our breakfast in Vero Vero"	"After our breakfast at Vero Vero"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 09:35:05	"student011"	"student"	12	"then we go to Kontraktova ploscha andкаталис на колесе обозрения ."	"then we went to Kontraktova ploscha and катались на колесе обозрения )"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	11
+2021-05-24 09:35:20	"teacher008"	"teacher"	13	"Oh yes, I remember that. Did you have a lie in? What did you have for breakfast?"	"Oh yes, I remember that. Did you have a lie in? What did you have for breakfast?"	11	NA	NA	NA	NA	NA	17
+2021-05-24 09:35:37	"teacher008"	"teacher"	14	"A ferris wheel!"	"A ferris wheel!"	12	"2b"	"scaffolding"	"lexical resource"	NA	NA	3
+2021-05-24 09:36:08	"teacher008"	"teacher"	15	"I didn't know there was a ferris wheel there, it must be new!"	"I didn't know there was a ferris wheel there, it must be new!"	NA	NA	NA	NA	NA	NA	13
+2021-05-24 09:36:25	"student011"	"student"	16	"lay in a bit 0."	"I lay in a bit :)"	13	NA	NA	NA	NA	NA	5
+2021-05-24 09:36:40	"student011"	"student"	17	"Yes! It's a new!"	"Yes! It's new!"	15	NA	NA	NA	NA	NA	4
+2021-05-24 09:36:56	"student011"	"student"	18	"I mean there is there about several years"	"I mean it has been there for several years"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 09:37:08	"student011"	"student"	19	"you can see the pictures on the Internet ."	"you can see the pictures on the Internet )"	NA	NA	NA	NA	NA	NA	9
+2021-05-24 09:37:27	"teacher008"	"teacher"	20	"It __ __ there for several years"	"It __ __ there for several years"	NA	"2c"	"eliciting,repair"	"grammatical resource"	NA	NA	7
+2021-05-24 09:37:30	"student011"	"student"	21	"there is there is not right . I think"	"there is there' is not right ) I think"	NA	NA	NA	NA	NA	NA	9
+2021-05-24 09:37:46	"student011"	"student"	22	"It has been there?"	"It has been there?"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 09:37:47	"teacher008"	"teacher"	23	"Yes, that's my idea of new too :."	"Yes, that's my idea of new too :)"	18	NA	NA	NA	NA	NA	8
+2021-05-24 09:37:59	"teacher008"	"teacher"	24	"Yes! Correct :."	"Yes! Correct :)"	22	NA	NA	NA	NA	NA	3
+2021-05-24 09:38:08	"student011"	"student"	25	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:38:16	"student011"	"student"	26	"the breakfast was lovely"	"breakfast was lovely"	NA	"2d"	"topic development"	NA	NA	NA	4
+2021-05-24 09:38:35	"student011"	"student"	27	"but they didn't have any croissants unfortunately"	"but they didn't have any croissants unfortunately"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 09:38:52	"teacher008"	"teacher"	28	"That's a shame!"	"That's a shame!"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 09:38:57	"student011"	"student"	29	"despite of they have they on the menu ."	"despite the fact that they have them on the menu )"	NA	NA	NA	NA	NA	NA	9
+2021-05-24 09:39:09	"teacher008"	"teacher"	30	"Ah, typical!"	"Ah, typical!"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 09:39:15	"student011"	"student"	31	"<STUDENT'S CHILD> wanted to eat one"	"<STUDENT'S CHILD> wanted to eat one"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 09:39:25	"teacher008"	"teacher"	32	"Despite the fact they have them on the menu"	"Despite the fact they have them on the menu"	29	NA	"repair"	"grammatical resource"	NA	NA	9
+2021-05-24 09:39:31	"student011"	"student"	33	"usually they don't have that problem"	"usually they don't have this problem"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 09:39:59	"student011"	"student"	34	"it is quite expencive place and usually they do the great service"	"it is quite an expensive place and usually the service is great"	NA	NA	NA	NA	NA	NA	12
+2021-05-24 09:40:00	"teacher008"	"teacher"	35	"They must have run out of croissants!"	"They must have run out of croissants!"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 09:40:09	"student011"	"student"	36	"So I was surprised"	"So I was surprised"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 09:40:28	"student011"	"student"	37	"e[pensive"	"expensive"	34	NA	"repair"	"writing"	NA	NA	1
+2021-05-24 09:41:26	"teacher008"	"teacher"	38	"I see! Yes, disappointing!"	"I see! Yes, disappointing!"	36	NA	NA	NA	NA	NA	4
+2021-05-24 09:41:30	"student011"	"student"	39	"also now there is a market in the weekends o Kontractova ploscha"	"also now there is a market at weekends on Kontractova ploscha"	NA	"2e"	"topic development"	NA	NA	NA	12
+2021-05-24 09:41:41	"student011"	"student"	40	"with lots of hand made thibks"	"with lots of hand made things"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 09:41:56	"student011"	"student"	41	"and lovely food from small businesses"	"and lovely food from small businesses"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 09:42:01	"teacher008"	"teacher"	42	"Oh, like on Andriivskiy?"	"Oh, like on Andriivskiy?"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 09:42:08	"teacher008"	"teacher"	43	"Sounds lovely"	"Sounds lovely"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 09:42:25	"student011"	"student"	44	"it is something different I think"	"it is something different I think"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 09:42:29	"teacher008"	"teacher"	45	"I'm going to try to switch to my laptop, bear with me, please"	"I'm going to try to switch to my laptop, bear with me, please"	NA	"3.0"	"disruption"	NA	NA	NA	13
+2021-05-24 09:42:45	"student011"	"student"	46	"it is not just Ukrainian traditional things or souvenirs"	"it is not just Ukrainian traditional things or souvenirs"	44	NA	NA	NA	NA	NA	9
+2021-05-24 09:43:08	"student011"	"student"	47	"but usual things like bags, clothes, foo, sweets"	"but usual things like bags, clothes, food, sweets"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 09:43:15	"student011"	"student"	48	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:43:48	"student011"	"student"	49	"bear with me! Nice expression ."	"bear with me! Nice expression )"	NA	"4.0"	"topic opening"	"lexical resource"	NA	NA	6
+2021-05-24 09:43:53	"teacher008"	"teacher"	50	"Hiya"	"Hiya"	45	NA	NA	NA	NA	NA	1
+2021-05-24 09:44:39	"teacher008"	"teacher"	51	"Yes, people use it a lot, especially if they're providing some sort of a service, to say, please wait"	"Yes, people use it a lot, especially if they're providing some sort of a service, to say, please wait"	49	NA	"scaffolding"	"lexical resource"	NA	NA	19
+2021-05-24 09:45:06	"teacher008"	"teacher"	52	"For example, a receptionist is trying to find your booking and her computer isn't working, so she says, please bear with me"	"For example, a receptionist is trying to find your booking and her computer isn't working, so she says, please bear with me"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	22
+2021-05-24 09:45:11	"student011"	"student"	53	"I like it"	"I like it"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 09:45:14	"student011"	"student"	54	"Ok"	"Ok"	NA	"2f"	"topic development"	NA	NA	NA	1
+2021-05-24 09:45:16	"student011"	"student"	55	"so!"	"so!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:45:20	"teacher008"	"teacher"	56	"It seems to be working! The other <TEACHER> is going to leave now"	"It seems to be working! The other <TEACHER> is going to leave now"	50	NA	NA	NA	NA	NA	13
+2021-05-24 09:45:46	"student011"	"student"	57	"then we occasionally decided to invite <STUDENT'S FRIEND> and her family to our place"	"then we spontaneously decided to invite <STUDENT'S FRIEND> and her family to our place"	55	NA	NA	NA	NA	NA	14
+2021-05-24 09:46:14	"student011"	"student"	58	"Ind it was so surprising to us than <STUDENT'S CHILD> and <STUDENT'S FRIEND'S CHILD> play together without us"	"And it was so surprising to us that <STUDENT'S CHILD> and <STUDENT'S FRIEND'S CHILD> played together without us"	NA	NA	NA	NA	NA	NA	18
+2021-05-24 09:46:31	"teacher008"	"teacher"	59	"Haha, that's always so nice!"	"Haha, that's always so nice!"	NA	NA	NA	NA	NA	NA	5
+2021-05-24 09:46:37	"teacher008"	"teacher"	60	"How old is <STUDENT'S FRIEND'S CHILD>? I forgot"	"How old is <STUDENT'S FRIEND'S CHILD>? I forgot"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 09:46:43	"student011"	"student"	61	"and we just looked at them and ate pizza with combocha .."	"and we just looked at them and ate pizza and drank kombucha .."	59	NA	NA	NA	NA	NA	12
+2021-05-24 09:47:05	"student011"	"student"	62	"<STUDENT'S FRIEND'S CHILD> is 9 moths older than <STUDENT'S CHILD> ."	"<STUDENT'S FRIEND'S CHILD> is 9 months older than <STUDENT'S CHILD> ."	60	NA	NA	NA	NA	NA	11
+2021-05-24 09:47:14	"student011"	"student"	63	"months"	"months"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-24 09:47:52	"student011"	"student"	64	"But in the evening kids were so tired"	"But in the evening kids were so tired"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 09:47:56	"student011"	"student"	65	"and then"	"and then"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 09:48:03	"teacher008"	"teacher"	66	"That's lovely!"	"That's lovely!"	61	NA	NA	NA	NA	NA	2
+2021-05-24 09:48:39	"student011"	"student"	67	"On Sunday morning"	"On Sunday morning"	65	NA	NA	NA	NA	NA	3
+2021-05-24 09:48:52	"student011"	"student"	68	"<STUDENT'S CHILD> was sick"	"<STUDENT'S CHILD> was sick"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 09:48:55	"student011"	"student"	69	"<STUDENT'S CHILD>"	"<STUDENT'S CHILD>"	NA	NA	"repair"	"writing"	NA	NA	2
+2021-05-24 09:49:18	"teacher008"	"teacher"	70	"Oh no!!"	"Oh no!!"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 09:49:26	"student011"	"student"	71	"She has running nose and high temperature"	"She has a runny nose and high temperature"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 09:49:48	"student011"	"student"	72	"It looks like the result of first week in the kindergarten"	"It looks like the result of the first week in the kindergarten"	NA	NA	NA	NA	NA	NA	11
+2021-05-24 09:50:00	"teacher008"	"teacher"	73	"Oh poor her! Yep, it totally looks like that!"	"Oh poor her! Yep, it totally looks like that!"	NA	NA	NA	NA	NA	NA	9
+2021-05-24 09:50:13	"student011"	"student"	74	"So no cinema yesterday of course"	"So no cinema yesterday of course"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 09:50:22	"teacher008"	"teacher"	75	"Oh that's a shame!"	"Oh that's a shame!"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 09:51:01	"student011"	"student"	76	"<STUDENT'S HUSBAND>'s mom checked out her"	"<STUDENT'S HUSBAND>'s mom gave her a check-up"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 09:51:19	"student011"	"student"	77	"it looks like usual ОРВИ"	"it looks like a usual ОРВИ"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	5
+2021-05-24 09:51:34	"teacher008"	"teacher"	78	"Yes, I see"	"Yes, I see"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 09:51:39	"student011"	"student"	79	"I don't know the term in English"	"I don't know the term in English"	77	"2g"	"enquiry"	"lexical resource"	NA	NA	7
+2021-05-24 09:51:54	"teacher008"	"teacher"	80	"Well, it's just a cold in English :."	"Well, it's just a cold in English :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-05-24 09:52:23	"student011"	"student"	81	"Today she still has running nose but in the morning it was usual temperature"	"Today she still has a runny nose but in the morning she had a usual temperature"	78	NA	NA	NA	NA	NA	14
+2021-05-24 09:52:34	"student011"	"student"	82	"Ah, I see ! A cold ."	"Ah, I see ! A cold )"	80	NA	NA	NA	NA	NA	7
+2021-05-24 09:53:00	"student011"	"student"	83	"So we decided it is nit dangerous for nanny and nanny went to us today"	"So we decided it is not dangerous for her nanny and the nanny came today"	81	NA	NA	NA	NA	NA	15
+2021-05-24 09:53:22	"teacher008"	"teacher"	84	"Yes, kids recover so fast, don't they?"	"Yes, kids recover so fast, don't they?"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 09:53:36	"teacher008"	"teacher"	85	"Well, the nanny should be used to kids' colds"	"Well, the nanny should be used to kids' colds"	83	NA	NA	NA	NA	NA	9
+2021-05-24 09:53:55	"student011"	"student"	86	"But we decided if <STUDENT'S CHILD> feel worse I'll return earlier from work"	"But we decided if <STUDENT'S CHILD> feels worse I'll return earlier from work"	NA	NA	NA	NA	NA	NA	13
+2021-05-24 09:54:22	"student011"	"student"	87	"<TEACHER> : Well, the nanny should be used to kids' colds - Yes, she should!"	"<TEACHER> : Well, the nanny should be used to kids' colds - Yes, she should!"	85	NA	NA	NA	NA	NA	15
+2021-05-24 09:54:43	"teacher008"	"teacher"	88	"Sure. I hope she'll get better very soon!"	"Sure. I hope she'll get better very soon!"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 09:55:23	"student011"	"student"	89	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 09:55:46	"teacher008"	"teacher"	90	"Ok, lovely! Shall we revise our do / make?"	"Ok, lovely! Shall we revise our do / make?"	NA	"5.0"	"revision,exercise"	"lexical resource"	NA	NA	9
+2021-05-24 09:56:02	"teacher008"	"teacher"	91	"I'll give you part of an expression, and you insert do or make, ok?"	"I'll give you part of an expression, and you insert do or make, ok?"	NA	NA	NA	NA	NA	NA	14
+2021-05-24 09:56:15	"student011"	"student"	92	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:57:04	"teacher008"	"teacher"	93	"___ the laundry"	"___ the laundry"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 09:57:22	"student011"	"student"	94	"do the laundry!"	"do the laundry!"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 09:57:33	"teacher008"	"teacher"	95	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:57:38	"teacher008"	"teacher"	96	"___ the shopping"	"___ the shopping"	NA	"5a"	"eliciting,revision"	"lexical resource"	NA	NA	3
+2021-05-24 09:57:55	"student011"	"student"	97	"do the shopping!"	"do the shopping!"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 09:58:00	"teacher008"	"teacher"	98	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:58:05	"teacher008"	"teacher"	99	"___ dinner"	"___ dinner"	NA	"5b"	"eliciting,revision"	"lexical resource"	NA	NA	2
+2021-05-24 09:58:16	"student011"	"student"	100	"make a dinner ."	"make a dinner ."	NA	NA	NA	NA	NA	NA	4
+2021-05-24 09:58:27	"teacher008"	"teacher"	101	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 09:58:33	"teacher008"	"teacher"	102	"____ a loss / profit"	"____ a loss / profit"	NA	"5c"	"eliciting,revision"	"lexical resource"	NA	NA	5
+2021-05-24 09:59:56	"student011"	"student"	103	"make"	"make"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:00:07	"teacher008"	"teacher"	104	"Yes! ____ money"	"Yes! ____ money"	NA	"5d"	"eliciting,revision"	"lexical resource"	NA	NA	3
+2021-05-24 10:00:35	"student011"	"student"	105	"make!"	"make!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:01:03	"teacher008"	"teacher"	106	"That's right! Oh, I think I forgot this one last time, can you guess it? ___ love"	"That's right! Oh, I think I forgot this one last time, can you guess it? ___ love"	NA	"5e"	"eliciting,revision"	"lexical resource"	NA	NA	17
+2021-05-24 10:01:40	"student011"	"student"	107	"make love"	"make love"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:01:45	"student011"	"student"	108	"you wrote me it"	"you wrote it"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 10:02:01	"teacher008"	"teacher"	109	"Yes! Oh did I? Sorry! Like 'make love not war'"	"Yes! Oh did I? Sorry! Like 'make love not war'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-05-24 10:02:21	"teacher008"	"teacher"	110	"You know, the effects of the vaccine :.."	"You know, the effects of the vaccine :)"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 10:02:38	"student011"	"student"	111	"isn't it like have sex?"	"isn't it like have sex?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	5
+2021-05-24 10:02:45	"teacher008"	"teacher"	112	"I won't be able to make this joke for much longer!"	"I won't be able to make this joke for much longer!"	110	NA	NA	NA	NA	NA	11
+2021-05-24 10:02:48	"teacher008"	"teacher"	113	"Yes, of course!"	"Yes, of course!"	111	NA	NA	NA	NA	NA	3
+2021-05-24 10:03:06	"teacher008"	"teacher"	114	"It does mean to have sex"	"It does mean to have sex"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-05-24 10:03:13	"student011"	"student"	115	"Ah! ....."	"Ah! ))))"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:03:15	"student011"	"student"	116	"I see now"	"I see now"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 10:03:30	"teacher008"	"teacher"	117	"By the way, 'make a joke'!"	"By the way, 'make a joke'!"	NA	"5f"	"scaffolding"	"lexical resource"	NA	NA	6
+2021-05-24 10:03:33	"student011"	"student"	118	"actually"	"actually"	NA	"6.0"	"topic opening"	NA	NA	NA	1
+2021-05-24 10:03:48	"student011"	"student"	119	"what about the side effect?"	"what about the side effects?"	NA	NA	NA	NA	NA	NA	5
+2021-05-24 10:03:56	"student011"	"student"	120	"effects"	"effects"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-24 10:04:05	"student011"	"student"	121	"any from Friday?"	"any from Friday?"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 10:04:41	"teacher008"	"teacher"	122	"Oh, I feel very lucky, my arm was sore and I had a little bit of a headache, but I took some paracetamol and felt ok! Thanks for asking"	"Oh, I feel very lucky, my arm was sore and I had a little bit of a headache, but I took some paracetamol and felt ok! Thanks for asking"	NA	NA	NA	NA	NA	NA	29
+2021-05-24 10:04:53	"teacher008"	"teacher"	123	"Lots of people have worse side effects it seems"	"Lots of people have worse side effects it seems"	NA	NA	NA	NA	NA	NA	9
+2021-05-24 10:05:18	"student011"	"student"	124	"I'm happy that you feel good ."	"I'm happy that you feel well )"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 10:05:40	"student011"	"student"	125	"is it right expression? ."	"is it the right expression? )"	NA	"6a"	"enquiry"	"lexical resource"	NA	NA	5
+2021-05-24 10:05:56	"student011"	"student"	126	"I remember we talked about feel good and feel well ."	"I remember we talked about feel good and feel well )"	NA	NA	NA	NA	NA	NA	11
+2021-05-24 10:06:00	"teacher008"	"teacher"	127	"Yes, it is, thank you!"	"Yes, it is, thank you!"	NA	NA	NA	NA	NA	NA	5
+2021-05-24 10:06:17	"teacher008"	"teacher"	128	"Oh sorry, feel well = about physical health"	"Oh sorry, feel well = about physical health"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2021-05-24 10:06:32	"teacher008"	"teacher"	129	"But I feel good too today! It finally feels like summer here"	"But I feel good too today! It finally feels like summer here"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-05-24 10:06:51	"student011"	"student"	130	"Ok, so I'm happy that you feel well!"	"Ok, so I'm happy that you feel well!"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 10:07:14	"teacher008"	"teacher"	131	"Thank you :."	"Thank you :)"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 10:07:55	"teacher008"	"teacher"	132	"Ok, the next one! ____ a test / exam"	"Ok, the next one! ____ a test / exam"	NA	"5g"	"eliciting,revision"	"lexical resource"	NA	NA	9
+2021-05-24 10:08:08	"student011"	"student"	133	"do!"	"do!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:08:17	"teacher008"	"teacher"	134	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:08:26	"teacher008"	"teacher"	135	"____ your best"	"____ your best"	NA	"5h"	"eliciting,revision"	"lexical resource"	NA	NA	3
+2021-05-24 10:08:44	"student011"	"student"	136	"do your best!"	"do your best!"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 10:09:03	"teacher008"	"teacher"	137	"Correct:."	"Correct:)"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:09:19	"teacher008"	"teacher"	138	"make ___ a list"	"make ___ a list"	NA	"5i"	"eliciting,revision"	"lexical resource"	NA	NA	4
+2021-05-24 10:09:41	"student011"	"student"	139	"hm"	"hm"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:09:45	"student011"	"student"	140	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:09:51	"student011"	"student"	141	"make a list? ."	"make a list? )"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 10:09:54	"teacher008"	"teacher"	142	"that's right!"	"that's right!"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:09:55	"teacher008"	"teacher"	143	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:10:14	"teacher008"	"teacher"	144	"like 'make a to-do list'"	"like 'make a to-do list'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-05-24 10:10:20	"student011"	"student"	145	"Ah!"	"Ah!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:10:27	"teacher008"	"teacher"	146	"or make a shopping list"	"or make a shopping list"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-05-24 10:10:35	"teacher008"	"teacher"	147	"Does it make sense now?"	"Does it make sense now?"	NA	NA	NA	NA	NA	NA	5
+2021-05-24 10:11:15	"student011"	"student"	148	"Yes! I see now!"	"Yes! I see now!"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 10:11:31	"teacher008"	"teacher"	149	"___ some exercise"	"___ some exercise"	NA	"5j"	"eliciting,revision"	"lexical resource"	NA	NA	3
+2021-05-24 10:11:42	"student011"	"student"	150	"Make a to-do list is my second name .."	"Make a to-do list is my second name ))"	144	NA	NA	NA	NA	NA	9
+2021-05-24 10:12:02	"teacher008"	"teacher"	151	"Oh really? Interesting! We can talk about it in a second"	"Oh really? Interesting! We can talk about it in a second"	NA	NA	NA	NA	NA	NA	11
+2021-05-24 10:12:17	"student011"	"student"	152	"as well as to do a shopping list ."	"as well as to make a shopping list )"	NA	NA	NA	NA	NA	NA	9
+2021-05-24 10:12:31	"student011"	"student"	153	"do some exercise"	"do some exercise"	149	NA	NA	NA	NA	NA	3
+2021-05-24 10:12:36	"teacher008"	"teacher"	154	"to make a shopping list!"	"to make a shopping list!"	152	NA	"repair"	"lexical resource"	NA	NA	5
+2021-05-24 10:12:40	"teacher008"	"teacher"	155	"yes, correct"	"yes, correct"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:12:43	"student011"	"student"	156	"Oh sorry"	"Oh sorry"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:12:44	"student011"	"student"	157	"make"	"make"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:12:53	"student011"	"student"	158	"I don't know why I Typed to do .."	"I don't know why I typed to do ))"	NA	NA	NA	NA	NA	NA	9
+2021-05-24 10:13:08	"teacher008"	"teacher"	159	"___ a speech / comment"	"___ a speech / comment"	NA	"5k"	"eliciting,revision"	"lexical resource"	NA	NA	5
+2021-05-24 10:13:12	"teacher008"	"teacher"	160	"no worries"	"no worries"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:13:25	"student011"	"student"	161	"make a speech / comment"	"make a speech / comment"	NA	NA	NA	NA	NA	NA	5
+2021-05-24 10:13:42	"teacher008"	"teacher"	162	"Lovely!"	"Lovely!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:14:22	"teacher008"	"teacher"	163	"Ok, let's practise them by taking turns to ask each other questions using one of the expressions. I'll start! Do you like making to-do lists?"	"Ok, let's practise them by taking turns to ask each other questions using one of the expressions. I'll start! Do you like making to-do lists?"	NA	"7.0"	"exercise"	"lexical resource,writing"	NA	NA	25
+2021-05-24 10:15:14	"student011"	"student"	164	"I love to make to-do list!"	"I love to make to-do lists!"	NA	NA	NA	NA	NA	NA	6
+2021-05-24 10:15:18	"student011"	"student"	165	"And you? ."	"And you? )"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 10:16:26	"teacher008"	"teacher"	166	"No, I don't make them, actually! I only make lists when we're going to travel, the lists of what to pack. If I don't make a packing list, I have to be thinking about what to pack all the time!"	"No, I don't make them, actually! I only make lists when we're going to travel, the lists of what to pack. If I don't make a packing list, I have to be thinking about what to pack all the time!"	NA	NA	NA	NA	NA	NA	40
+2021-05-24 10:17:00	"teacher008"	"teacher"	167	"Do you make your to-do lists every day? or every week?"	"Do you make your to-do lists every day? or every week?"	NA	NA	NA	NA	NA	NA	11
+2021-05-24 10:17:20	"teacher008"	"teacher"	168	"And I make shopping lists, of course"	"And I make shopping lists, of course"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 10:18:23	"student011"	"student"	169	"I make to-do lists all the time ."	"I make to-do lists all the time )"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 10:18:56	"student011"	"student"	170	"what to do in the morning, at work, in the evening ."	"what to do in the morning, at work, in the evening )"	NA	NA	NA	NA	NA	NA	12
+2021-05-24 10:19:04	"teacher008"	"teacher"	171	"I see! You're very organized!"	"I see! You're very organized!"	NA	NA	NA	NA	NA	NA	5
+2021-05-24 10:20:21	"teacher008"	"teacher"	172	"Ok, can you ask me a question using one of the expressions, please?"	"Ok, can you ask me a question using one of the expressions, please?"	NA	"7a"	"exercise"	"writing,lexical resource"	NA	NA	13
+2021-05-24 10:20:32	"student011"	"student"	173	"I think it is just quality of my brain and memory"	"I think it is just the quality of my brain and memory"	171	NA	NA	NA	NA	NA	11
+2021-05-24 10:21:29	"student011"	"student"	174	"If I don't make a to-do list I will forgot half of my errands"	"If I don't make a to-do list I will forget half of my errands"	NA	NA	NA	NA	NA	NA	14
+2021-05-24 10:21:49	"teacher008"	"teacher"	175	"I see! An errand is a very good word here"	"I see! An errand is a very good word here"	NA	NA	NA	NA	NA	NA	10
+2021-05-24 10:22:10	"student011"	"student"	176	"Thank you"	"Thank you"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:22:28	"student011"	"student"	177	"I asked help from my colleagues ....."	"I asked for help from my colleagues ))))"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 10:22:43	"teacher008"	"teacher"	178	"Haha, please say hi to them :."	"Haha, please say hi to them :)"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 10:22:54	"teacher008"	"teacher"	179	"Ok, your question, please!"	"Ok, your question, please!"	172	"7b"	"redirection,exercise"	"lexical resource"	NA	NA	4
+2021-05-24 10:23:48	"student011"	"student"	180	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:24:15	"student011"	"student"	181	"Do you make you coffee with coffee machine? ."	"Do you make your coffee in a coffee machine? ."	NA	NA	NA	NA	NA	NA	9
+2021-05-24 10:24:18	"student011"	"student"	182	"your"	"your"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-05-24 10:25:23	"teacher008"	"teacher"	183	"Good question! Yes, we make coffee in a coffee machine, a fiter coffee maker. We bought it at the beginning of the first lockdown and we've been using it every day since!"	"Good question! Yes, we make coffee in a coffee machine, a fiter coffee maker. We bought it at the beginning of the first lockdown and we've been using it every day since!"	NA	NA	NA	NA	NA	NA	32
+2021-05-24 10:25:45	"teacher008"	"teacher"	184	"My turn! Who does the cooking in your family?"	"My turn! Who does the cooking in your family?"	NA	"7c"	"exercise"	"writing,lexical resource"	NA	NA	9
+2021-05-24 10:26:04	"student011"	"student"	185	"Me! ....."	"Me! ))))"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:26:39	"teacher008"	"teacher"	186	"Sure!"	"Sure!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:26:50	"student011"	"student"	187	"Ok, I do the cooking, but sometimes <STUDENT'S HUSBAND> make some meals when I would like to  lie in ."	"Ok, I do the cooking, but sometimes <STUDENT'S HUSBAND> makes some meals when I would like to  lie in )"	NA	NA	NA	NA	NA	NA	21
+2021-05-24 10:27:12	"teacher008"	"teacher"	188	"Perfect! do the cooking but make some meals, absolutely correct"	"Perfect! do the cooking but make some meals, absolutely correct"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-05-24 10:27:46	"teacher008"	"teacher"	189	"Your turn, please"	"Your turn, please"	NA	"7d"	"exercise"	"lexical resource"	NA	NA	3
+2021-05-24 10:27:47	"student011"	"student"	190	"and when <STUDENT'S CHILD> has cold for example and doesn't let me go ."	"and when <STUDENT'S CHILD> has a cold for example and doesn't let me go ."	187	NA	NA	NA	NA	NA	14
+2021-05-24 10:27:57	"student011"	"student"	191	"Ok"	"Ok"	189	NA	NA	NA	NA	NA	1
+2021-05-24 10:27:58	"teacher008"	"teacher"	192	"Sure, that sounds familiar"	"Sure, that sounds familiar"	190	NA	NA	NA	NA	NA	4
+2021-05-24 10:28:50	"student011"	"student"	193	"and in your family you just make bakery or make meals too ."	"and in your family do you just do the baking or do you make meals too?"	191	NA	NA	NA	NA	NA	13
+2021-05-24 10:28:58	"student011"	"student"	194	"do you make"	"do you make"	NA	NA	"repair"	"grammatical resource"	NA	NA	3
+2021-05-24 10:29:00	"student011"	"student"	195	"is better"	"is better"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:29:33	"teacher008"	"teacher"	196	"I make breakfast and some of the meals and I bake, yes, but <TEACHER'S HUSBAND>'s been doing most of the cooking since he started working from home. Again, since the beginning of the pandemic"	"I make breakfast and some of the meals and I bake, yes, but <TEACHER'S HUSBAND>'s been doing most of the cooking since he started working from home. Again, since the beginning of the pandemic"	193	NA	NA	NA	NA	NA	34
+2021-05-24 10:30:09	"teacher008"	"teacher"	197	"I make some Ukrainian meals. For example, I'm making a nettle and sorrel soup tomorrow"	"I make some Ukrainian meals. For example, I'm making a nettle and sorrel soup tomorrow"	NA	NA	NA	NA	NA	NA	15
+2021-05-24 10:30:13	"student011"	"student"	198	"Oh, lucky you ."	"Oh, lucky you ."	NA	NA	NA	NA	NA	NA	4
+2021-05-24 10:30:20	"teacher008"	"teacher"	199	"I know! :."	"I know! :)"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 10:30:34	"teacher008"	"teacher"	200	"I do appreciate it"	"I do appreciate it"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 10:30:44	"student011"	"student"	201	"but sometimes our nanny does cooking too .."	"but sometimes our nanny does the cooking too ))"	NA	NA	NA	NA	NA	NA	8
+2021-05-24 10:30:55	"student011"	"student"	202	"So I feel ok with it ."	"So I feel ok with it )"	NA	NA	NA	NA	NA	NA	7
+2021-05-24 10:30:58	"teacher008"	"teacher"	203	"That's a good arrangement!"	"That's a good arrangement!"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 10:31:12	"teacher008"	"teacher"	204	"Ah, time! I've got to let you go. Are we ok for Friday, the usual time?"	"Ah, time! I've got to let you go. Are we ok for Friday, the usual time?"	NA	"8.0"	"closing"	NA	NA	NA	16
+2021-05-24 10:31:22	"student011"	"student"	205	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2021-05-24 10:31:27	"student011"	"student"	206	"I have to think"	"I have to think"	NA	NA	NA	NA	NA	NA	4
+2021-05-24 10:31:32	"student011"	"student"	207	"maybe another day"	"maybe another day"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 10:31:43	"student011"	"student"	208	"can I write you later?"	"can I write you later?"	NA	NA	NA	NA	NA	NA	5
+2021-05-24 10:31:59	"teacher008"	"teacher"	209	"Yes, of course! I hope <STUDENT'S CHILD> will feel better soon! Have a nice week!"	"Yes, of course! I hope <STUDENT'S CHILD> will feel better soon! Have a nice week!"	NA	NA	NA	NA	NA	NA	15
+2021-05-24 10:32:05	"student011"	"student"	210	"Thank you!"	"Thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:32:12	"student011"	"student"	211	"You too"	"You too"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:32:19	"teacher008"	"teacher"	212	"Thanks, take care!"	"Thanks, take care!"	NA	NA	NA	NA	NA	NA	3
+2021-05-24 10:32:19	"student011"	"student"	213	"bye XXXX"	"bye XXXX"	NA	NA	NA	NA	NA	NA	2
+2021-05-24 10:32:28	"student011"	"student"	214	"thanks!"	"thanks!"	NA	NA	NA	NA	NA	"B2"	1

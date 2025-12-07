@@ -1,0 +1,158 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-07-29 06:28:29	"teacher008"	"teacher"	1	"Morning <STUDENT>!"	"Morning <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-07-29 06:28:51	"student010"	"student"	2	"Good morning <TEACHER>!"	"Good morning <TEACHER>!"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 06:29:11	"teacher008"	"teacher"	3	"How are you today?"	"How are you today?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2020-07-29 06:29:24	"student010"	"student"	4	"I'm fine"	"I'm fine"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 06:29:48	"teacher008"	"teacher"	5	"Good to hear. What's the weather like?"	"Good to hear. What's the weather like?"	NA	"2a"	"topic development"	NA	NA	NA	7
+2020-07-29 06:30:04	"teacher008"	"teacher"	8	"Sorry, something went wrong witht the program for a second"	"Sorry, something went wrong witht the program for a second"	NA	"2b"	"disruption"	NA	NA	NA	10
+2020-07-29 06:30:17	"student010"	"student"	9	"It's sunny and very hot"	"It's sunny and very hot"	NA	NA	NA	NA	NA	NA	5
+2020-07-29 06:30:55	"student010"	"student"	10	"Guess what!"	"Guess what!"	NA	"3.0"	"topic opening"	NA	NA	NA	2
+2020-07-29 06:30:59	"teacher008"	"teacher"	11	"Ooh, good! It's going to be hot here on Friday. In the UK, spells of hot weather are called heatwaves. They don't usually last!"	"Ooh, good! It's going to be hot here on Friday. In the UK, spells of hot weather are called heatwaves. They don't usually last!"	9	NA	"presentation"	"lexical resource"	NA	NA	24
+2020-07-29 06:31:01	"teacher008"	"teacher"	12	"What?"	"What?"	10	NA	NA	NA	NA	NA	1
+2020-07-29 06:31:32	"student010"	"student"	13	"I'll have new friend"	"I'll have a new friend"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:31:48	"teacher008"	"teacher"	14	"Oh yes? Did you meet someone?"	"Oh yes? Did you meet someone?"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 06:32:18	"student010"	"student"	15	"No, it's lizard!"	"No, it's a lizard!"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 06:32:32	"teacher008"	"teacher"	16	"What? Really?? What kind of lizard?"	"What? Really?? What kind of lizard?"	NA	"3a"	"topic development"	NA	NA	NA	6
+2020-07-29 06:32:38	"teacher008"	"teacher"	17	"It's __ lizard"	"It's __ lizard"	15	"3b"	"eliciting,repair"	"grammatical resource"	NA	NA	3
+2020-07-29 06:32:44	"student010"	"student"	18	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:32:49	"teacher008"	"teacher"	19	"aha"	"aha"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:33:03	"student010"	"student"	20	"It's Agava"	"It's an Agava"	16	NA	NA	NA	NA	NA	2
+2020-07-29 06:33:04	"teacher008"	"teacher"	21	"an iguana?"	"an iguana?"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 06:33:33	"student010"	"student"	22	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:33:57	"teacher008"	"teacher"	23	"Maybe 'agama'? I just googled and I kind find any 'agavas' but google suggested 'agama'"	"Maybe 'agama'? I just googled and I kind find any 'agavas' but google suggested 'agama'"	NA	NA	"repair"	"lexical resource"	NA	NA	15
+2020-07-29 06:34:18	"student010"	"student"	24	"Oh ok"	"Oh ok"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 06:34:37	"student010"	"student"	25	"Probably it's beard agama"	"It's probably a bearded agama"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:34:52	"teacher008"	"teacher"	26	"Oh, a bearded lizard! Cool!"	"Oh, a bearded lizard! Cool!"	NA	NA	"repair"	"lexical resource"	NA	NA	5
+2020-07-29 06:35:04	"student010"	"student"	27	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:35:10	"teacher008"	"teacher"	28	"Have you always wanted a reptile as a pet?"	"Have you always wanted a reptile as a pet?"	NA	"3c"	"topic development"	NA	NA	NA	9
+2020-07-29 06:35:49	"student010"	"student"	29	"It's my cousin's pet not mine:("	"It's my cousin's pet not mine:("	NA	NA	NA	NA	NA	NA	6
+2020-07-29 06:36:06	"teacher008"	"teacher"	30	"Oh I see :("	"Oh I see :("	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:36:24	"teacher008"	"teacher"	31	"But you made friends with it?"	"But you made friends with it?"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 06:36:37	"student010"	"student"	32	"But I'll have it for 1  week"	"But I'll have it for 1  week"	NA	NA	NA	NA	NA	NA	8
+2020-07-29 06:36:56	"teacher008"	"teacher"	33	"Ah, you'll be looking after it?"	"Ah, you'll be looking after it?"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 06:37:03	"student010"	"student"	34	"I've saw it already"	"I've seen it already"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:37:12	"teacher008"	"teacher"	35	"I've ___ it already"	"I've ___ it already"	NA	"3d"	"eliciting,repair"	"grammatical resource"	NA	NA	4
+2020-07-29 06:37:12	"student010"	"student"	36	"Yes sure"	"Yes sure"	33	NA	NA	NA	NA	NA	2
+2020-07-29 06:37:23	"student010"	"student"	37	"Seen"	"Seen"	35	NA	NA	NA	NA	NA	1
+2020-07-29 06:37:30	"teacher008"	"teacher"	38	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:37:35	"teacher008"	"teacher"	39	"I see now, yes"	"I see now, yes"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:38:01	"teacher008"	"teacher"	40	"What do lizards need in terms of looking after? I've never taken care of a reptile"	"What do lizards need in terms of looking after? I've never taken care of a reptile"	NA	"3e"	"topic opening"	NA	NA	NA	16
+2020-07-29 06:38:24	"student010"	"student"	41	"So I have cat <CAT'S NAME>, dog <DOG'S NAME> and lizard <LIZARD'S NAME>"	"So I have cat <CAT'S NAME>, dog <DOG'S NAME> and lizard <LIZARD'S NAME>"	NA	"3f"	"topic development"	NA	NA	NA	13
+2020-07-29 06:39:05	"teacher008"	"teacher"	42	"Lucky you! Is it male or female?"	"Lucky you! Is it male or female?"	NA	"3g"	"topic development"	NA	NA	NA	7
+2020-07-29 06:39:14	"student010"	"student"	43	"It's similar to look after cat"	"It's similar to looking after a cat"	40	NA	NA	NA	NA	NA	6
+2020-07-29 06:39:29	"teacher008"	"teacher"	44	"Oh really?"	"Oh really?"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 06:40:24	"student010"	"student"	45	"If you want to know is it male or female you'll need to take DNA"	"If you want to know whether it is male or female, you need to do a DNA test"	42	NA	NA	NA	NA	NA	15
+2020-07-29 06:40:44	"student010"	"student"	46	"It's very expansive"	"It's very expensive"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 06:41:19	"teacher008"	"teacher"	47	"Oh wow! Is that why it's called <LIZARD'S NAME>, because it could be both a boy's and a girl's name?"	"Oh wow! Is that why it's called <LIZARD'S NAME>, because it could be both a boy's and a girl's name?"	NA	NA	NA	NA	NA	NA	20
+2020-07-29 06:41:32	"student010"	"student"	48	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:41:40	"teacher008"	"teacher"	49	"Makes sense"	"Makes sense"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 06:41:56	"teacher008"	"teacher"	50	"So you'll just have to give it some food?"	"So you'll just have to give it some food?"	44	NA	NA	NA	NA	NA	9
+2020-07-29 06:42:15	"student010"	"student"	51	"Some bugs"	"Some bugs"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 06:42:21	"teacher008"	"teacher"	52	"Yuck!"	"Yuck!"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:42:56	"student010"	"student"	53	"Give some water"	"Give it some water"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 06:43:16	"teacher008"	"teacher"	54	"I'm not really disgusted by bugs, I live in the country and garden a lot :)"	"I'm not really disgusted by bugs, I live in the country and garden a lot :)"	52	"3h"	"topic development"	NA	NA	NA	16
+2020-07-29 06:43:26	"teacher008"	"teacher"	55	"And probably keep it warm?"	"And probably keep it warm?"	53	NA	NA	NA	NA	NA	5
+2020-07-29 06:43:51	"student010"	"student"	56	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:44:14	"student010"	"student"	57	"I don't like snails you must hnow why"	"I don't like snails you must know why"	54	NA	NA	NA	NA	NA	8
+2020-07-29 06:44:30	"teacher008"	"teacher"	58	"Why?"	"Why?"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 06:45:13	"student010"	"student"	59	"Oh you don't now?"	"Oh you don't know?"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:45:36	"student010"	"student"	60	"Because they have slime"	"Because they have slime"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:46:01	"student010"	"student"	61	"And bugs are dry"	"And bugs are dry"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:46:17	"teacher008"	"teacher"	62	"Slugs and snails are my chief enemies because they eat my plants!"	"Slugs and snails are my chief enemies because they eat my plants!"	NA	NA	NA	NA	NA	NA	12
+2020-07-29 06:46:40	"teacher008"	"teacher"	63	"And yes, they are yucky and slimey, that's because they are mollusks, not insects!"	"And yes, they are yucky and slimey, that's because they are mollusks, not insects!"	NA	NA	NA	NA	NA	NA	14
+2020-07-29 06:47:11	"teacher008"	"teacher"	64	"But snails can be quite cute I think"	"But snails can be quite cute I think"	NA	NA	NA	NA	NA	NA	8
+2020-07-29 06:47:45	"student010"	"student"	65	"I agree"	"I agree"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 06:48:22	"teacher008"	"teacher"	66	"Is your lizard cuddly?"	"Is your lizard cuddly?"	NA	"3i"	"topic development"	NA	NA	NA	4
+2020-07-29 06:48:55	"student010"	"student"	67	"What does it mean?"	"What does it mean?"	NA	NA	"enquiry"	"lexical resource,meaning"	NA	NA	4
+2020-07-29 06:49:42	"teacher008"	"teacher"	68	"To cuddle someone means to hug them and keep them close. If a pet or child or even grown-up is cuddly, it means they like to cuddle"	"To cuddle someone means to hug them and keep them close. If a pet or child or even grown-up is cuddly, it means they like to cuddle"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	27
+2020-07-29 06:50:12	"teacher008"	"teacher"	69	"Dogs are usually super cuddly"	"Dogs are usually super cuddly"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	5
+2020-07-29 06:51:12	"student010"	"student"	70	"Yes <LIZARD'S NAME> is fine when someone takes her"	"Yes <LIZARD'S NAME> is fine when someone takes her"	NA	NA	NA	NA	NA	NA	9
+2020-07-29 06:51:55	"teacher008"	"teacher"	71	"Cool! I've never touched a lizard or a snake. Does it feel cold?"	"Cool! I've never touched a lizard or a snake. Does it feel cold?"	NA	"3j"	"topic development"	NA	NA	NA	13
+2020-07-29 06:52:10	"student010"	"student"	72	"And don't tell <ANOTHER STUDENT> about lizard <LIZARD'S NAME>:)"	"And don't tell <ANOTHER STUDENT> about lizard <LIZARD'S NAME>:)"	NA	"3k"	NA	NA	NA	NA	9
+2020-07-29 06:52:27	"teacher008"	"teacher"	73	"Haha, I won't! :))"	"Haha, I won't! :))"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:53:14	"student010"	"student"	74	"No snakes I think is cold but lizards are pretty warm"	"No snakes I think are cold but lizards are pretty warm"	71	NA	NA	NA	NA	NA	11
+2020-07-29 06:53:31	"teacher008"	"teacher"	75	"Ah interesting"	"Ah interesting"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 06:53:51	"teacher008"	"teacher"	76	"<LIZARD'S NAME> won't lose it's tail? Like other lizards?"	"<LIZARD'S NAME> won't lose it's tail? Like other lizards?"	NA	"3l"	"topic development"	NA	NA	NA	9
+2020-07-29 06:54:00	"teacher008"	"teacher"	77	"sorry, its tail"	"sorry, its tail"	NA	NA	"repair"	"writing"	NA	NA	3
+2020-07-29 06:55:10	"student010"	"student"	78	"I'll lose her tail if you will pull her tail very strong"	"She'll lose her tail if you pull her tail very strongly"	NA	NA	NA	NA	NA	NA	12
+2020-07-29 06:56:20	"student010"	"student"	79	"If you just touch it, it won't fall away"	"If you just touch it, it won't fall off"	NA	NA	NA	NA	NA	NA	9
+2020-07-29 06:56:34	"teacher008"	"teacher"	80	"That's good to know!"	"That's good to know!"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 06:57:07	"teacher008"	"teacher"	81	"Ok, grammar time, ta-dam!"	"Ok, grammar time, ta-dam!"	NA	"4.0"	"topic opening"	"grammatical resource"	NA	NA	4
+2020-07-29 06:57:48	"teacher008"	"teacher"	82	"Is the lizard male or female? --- We don't know __ __ ___ ___ male or female"	"Is the lizard male or female? --- We don't know __ __ ___ ___ male or female"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	17
+2020-07-29 06:58:42	"student010"	"student"	83	"So there is 4 words"	"So there are 4 words"	NA	NA	NA	NA	NA	NA	5
+2020-07-29 06:58:56	"teacher008"	"teacher"	84	"Yes, two of them are 'the lizard'"	"Yes, two of them are 'the lizard'"	NA	NA	NA	NA	NA	NA	7
+2020-07-29 06:59:38	"student010"	"student"	85	"If the lizard is male or female"	"If the lizard is male or female"	NA	NA	NA	NA	NA	NA	7
+2020-07-29 06:59:50	"teacher008"	"teacher"	86	"Well done!!"	"Well done!!"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 07:00:18	"teacher008"	"teacher"	87	"How old is the lizard? --- We don't know __ ____ ____ ____ ___."	"How old is the lizard? --- We don't know __ ____ ____ ____ ___."	NA	"4a"	"eliciting"	"grammatical resource"	NA	NA	14
+2020-07-29 07:01:14	"student010"	"student"	88	"how old is the lizard"	"how old is the lizard"	NA	NA	NA	NA	NA	NA	5
+2020-07-29 07:01:46	"teacher008"	"teacher"	89	"Not quite"	"Not quite"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 07:02:21	"teacher008"	"teacher"	90	"We don't know how old ___ ____ ___"	"We don't know how old ___ ____ ___"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+2020-07-29 07:03:40	"teacher008"	"teacher"	91	"You need the structure of an affirmative sentence, not a question"	"You need the structure of an affirmative sentence, not a question"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	11
+2020-07-29 07:04:02	"teacher008"	"teacher"	92	"subject + verb"	"subject + verb"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	3
+2020-07-29 07:04:05	"student010"	"student"	93	"The lizard is"	"The lizard is"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 07:04:11	"teacher008"	"teacher"	94	"yes, that's right!"	"yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 07:04:32	"teacher008"	"teacher"	95	"It's the same grammar as in reported speech"	"It's the same grammar as in reported speech"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-07-29 07:04:55	"teacher008"	"teacher"	96	"one more"	"one more"	NA	"4b"	"eliciting"	"grammatical resource"	NA	NA	2
+2020-07-29 07:05:15	"teacher008"	"teacher"	97	"What does the lizard like to eat? We don't know ___ ___ ___ ___ ___ ___"	"What does the lizard like to eat? We don't know ___ ___ ___ ___ ___ ___"	NA	NA	NA	NA	NA	NA	16
+2020-07-29 07:06:23	"student010"	"student"	98	"What the lizard likes to eat"	"What the lizard likes to eat"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 07:06:31	"teacher008"	"teacher"	99	"Yes, perfect!"	"Yes, perfect!"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 07:07:07	"teacher008"	"teacher"	100	"Let's do it the other way round. I'll give you reported speech, and you reconstruct the question"	"Let's do it the other way round. I'll give you reported speech, and you reconstruct the question"	NA	"5.0"	"exercise"	"grammatical resource"	NA	NA	17
+2020-07-29 07:07:26	"student010"	"student"	101	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:07:26	"teacher008"	"teacher"	102	"I don't know whether it's going to rain today. __ ___ ___ to rain today?"	"I don't know whether it's going to rain today. __ ___ ___ to rain today?"	NA	NA	NA	NA	NA	NA	15
+2020-07-29 07:08:01	"student010"	"student"	103	"Is it going"	"Is it going"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 07:08:04	"teacher008"	"teacher"	104	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:08:15	"teacher008"	"teacher"	105	"I don't know what I should do."	"I don't know what I should do."	NA	NA	NA	NA	NA	NA	7
+2020-07-29 07:09:02	"student010"	"student"	106	"What sould I do?"	"What should I do?"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 07:09:12	"student010"	"student"	107	"Sorry should"	"Sorry should"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-07-29 07:09:23	"teacher008"	"teacher"	108	"That's right"	"That's right"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 07:09:53	"teacher008"	"teacher"	109	"I don't know whether lizards like plants or bugs."	"I don't know whether lizards like plants or bugs."	NA	NA	NA	NA	NA	NA	9
+2020-07-29 07:11:31	"student010"	"student"	110	"Lizards whether like plants or bugs"	"Do lizards like plants or bugs"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 07:11:34	"student010"	"student"	111	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:12:17	"teacher008"	"teacher"	112	"Not quite. Are you confused about 'whether'? It's the same as 'if'. I don't know if lizards like plants or bugs."	"Not quite. Are you confused about 'whether'? It's the same as 'if'. I don't know if lizards like plants or bugs."	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	21
+2020-07-29 07:12:27	"teacher008"	"teacher"	113	"What's my question here?"	"What's my question here?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	4
+2020-07-29 07:13:07	"student010"	"student"	114	"Are lizards like plants or bugs?"	"Do lizards like plants or bugs?"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 07:13:53	"teacher008"	"teacher"	115	"___ lizards like plants or bugs? like is a verb, so you need ...?"	"___ lizards like plants or bugs? like is a verb, so you need ...?"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	14
+2020-07-29 07:14:17	"student010"	"student"	116	"Do?"	"Do?"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:14:38	"teacher008"	"teacher"	117	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 07:14:55	"student010"	"student"	118	"That was difficult one!"	"That was a difficult one!"	NA	"5a"	NA	NA	NA	NA	4
+2020-07-29 07:16:52	"teacher008"	"teacher"	119	"I see! Questions that start with a verb (do, does, is, am, are, have, has, had) are yes / no questions (or general questions)"	"I see! Questions that start with a verb (do, does, is, am, are, have, has, had) are yes / no questions (or general questions)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	24
+2020-07-29 07:17:06	"teacher008"	"teacher"	120	"Because we can answer them with a yes or no!"	"Because we can answer them with a yes or no!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-07-29 07:17:29	"student010"	"student"	121	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:17:31	"teacher008"	"teacher"	122	"Not so much in case of 'plants or bugs' because there is an 'or'"	"Not so much in case of 'plants or bugs' because there is an 'or'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-07-29 07:17:48	"teacher008"	"teacher"	123	"But generally. Do you go to school? yes. Are you a student? Yes"	"But generally. Do you go to school? yes. Are you a student? Yes"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-07-29 07:17:52	"teacher008"	"teacher"	124	"You get the idea"	"You get the idea"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 07:18:21	"teacher008"	"teacher"	125	"When we change these questions into reported speech, we need to use 'if' or 'whether'"	"When we change these questions into reported speech, we need to use 'if' or 'whether'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-07-29 07:18:33	"student010"	"student"	126	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:18:40	"teacher008"	"teacher"	127	"Because we don't have a question word, like 'how old' or 'where' or 'when'"	"Because we don't have a question word, like 'how old' or 'where' or 'when'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-07-29 07:18:46	"teacher008"	"teacher"	128	"Makes sense?"	"Makes sense?"	NA	NA	NA	NA	NA	NA	2
+2020-07-29 07:19:04	"student010"	"student"	129	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:19:16	"teacher008"	"teacher"	130	"Do you go to school? --- I don't know if you go to school. / I don't know whether you go to school."	"Do you go to school? --- I don't know if you go to school. / I don't know whether you go to school."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	23
+2020-07-29 07:19:37	"teacher008"	"teacher"	131	"Let's try again, you reconstruct the question"	"Let's try again, you reconstruct the question"	NA	"5b"	"exercise"	"grammatical resource"	NA	NA	7
+2020-07-29 07:19:45	"student010"	"student"	132	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:19:55	"teacher008"	"teacher"	133	"I don't know whether you have ever watched Star Wars."	"I don't know whether you have ever watched Star Wars."	NA	NA	NA	NA	NA	NA	10
+2020-07-29 07:20:44	"student010"	"student"	134	"Have you ever watched Star Wars?"	"Have you ever watched Star Wars?"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 07:21:10	"teacher008"	"teacher"	135	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 07:21:38	"teacher008"	"teacher"	136	"I wonder if your lizard sleeps a lot."	"I wonder if your lizard sleeps a lot."	NA	NA	NA	NA	NA	NA	8
+2020-07-29 07:22:10	"student010"	"student"	137	"Does your lizard sleeps a lot"	"Does your lizard sleep a lot"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 07:22:24	"teacher008"	"teacher"	138	"Almost! Can you spot a mistake?"	"Almost! Can you spot a mistake?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-07-29 07:22:40	"student010"	"student"	139	"Sleep"	"Sleep"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:22:46	"teacher008"	"teacher"	140	"Correct!"	"Correct!"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:23:18	"teacher008"	"teacher"	141	"Ok, now could you change the question into reported speech, please"	"Ok, now could you change the question into reported speech, please"	NA	"5c"	"exercise"	"grammatical resource"	NA	NA	11
+2020-07-29 07:23:31	"student010"	"student"	142	"Õķ"	"Õķ"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:23:44	"teacher008"	"teacher"	143	"Does it snow a lot in Ukraine? I don't know ..."	"Does it snow a lot in Ukraine? I don't know ..."	NA	NA	NA	NA	NA	NA	11
+2020-07-29 07:24:21	"student010"	"student"	144	"If it snows a lot in Ukraine"	"If it snows a lot in Ukraine"	NA	NA	NA	NA	NA	NA	7
+2020-07-29 07:24:31	"teacher008"	"teacher"	145	"yes, well done!"	"yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 07:24:46	"student010"	"student"	146	"Ýåý"	"Ýåý"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:24:50	"teacher008"	"teacher"	147	"Has he been to the USA?"	"Has he been to the USA?"	NA	NA	NA	NA	NA	NA	6
+2020-07-29 07:24:53	"teacher008"	"teacher"	148	"I don't know ..."	"I don't know ..."	NA	NA	NA	NA	NA	NA	4
+2020-07-29 07:25:57	"student010"	"student"	149	"If  he has ever been to the USA"	"If  he has ever been to the USA"	NA	NA	NA	NA	NA	NA	9
+2020-07-29 07:26:14	"teacher008"	"teacher"	150	"Perfect!"	"Perfect!"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:26:17	"teacher008"	"teacher"	151	"if or whether"	"if or whether"	NA	NA	NA	NA	NA	NA	3
+2020-07-29 07:26:30	"teacher008"	"teacher"	152	"It's starting to make sense, right?"	"It's starting to make sense, right?"	NA	"5d"	"topic closure"	NA	NA	NA	6
+2020-07-29 07:26:43	"student010"	"student"	153	"AHA"	"AHA"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:27:16	"teacher008"	"teacher"	154	"It's called 'reported speech' but we use it way more often, with all kinds of 'I don't know' and 'I wonder'"	"It's called 'reported speech' but we use it way more often, with all kinds of 'I don't know' and 'I wonder'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	21
+2020-07-29 07:27:27	"teacher008"	"teacher"	155	"not just 'he said'"	"not just 'he said'"	NA	NA	NA	NA	NA	NA	4
+2020-07-29 07:27:42	"student010"	"student"	156	"őķ"	"őķ"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:28:01	"teacher008"	"teacher"	157	"Ok <STUDENT>, excellent work today, I'll talk to you on Friday!"	"Ok <STUDENT>, excellent work today, I'll talk to you on Friday!"	NA	"6.0"	"closing"	NA	NA	NA	11
+2020-07-29 07:28:18	"student010"	"student"	158	"Bye"	"Bye"	NA	NA	NA	NA	NA	NA	1
+2020-07-29 07:28:23	"teacher008"	"teacher"	159	"Take care :)"	"Take care :)"	NA	NA	NA	NA	NA	"B2"	3

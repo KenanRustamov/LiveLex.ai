@@ -1,0 +1,171 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-01-22 08:01:10	"teacher008"	"teacher"	1	"Hi <STUDENT>! Is it you?"	"Hi <STUDENT>! Is it you?"	NA	"1.0"	"opening"	NA	NA	NA	5
+2021-01-22 08:01:51	"student011"	"student"	2	"Hi! Is it me )"	"Hi! It is me )"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:02:01	"student011"	"student"	3	"How are you <TEACHER>?"	"How are you <TEACHER>?"	NA	"2.0"	"topic opening"	NA	NA	NA	4
+2021-01-22 08:02:05	"teacher008"	"teacher"	4	"Good!"	"Good!"	2	NA	NA	NA	NA	NA	1
+2021-01-22 08:02:10	"teacher008"	"teacher"	5	"I'm ok, thank you"	"I'm ok, thank you"	3	NA	NA	NA	NA	NA	4
+2021-01-22 08:02:13	"teacher008"	"teacher"	6	"And you?"	"And you?"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:02:18	"student011"	"student"	7	"How is lockdown?"	"How is the lockdown?"	NA	"2a"	"topic development"	NA	NA	NA	3
+2021-01-22 08:02:35	"student011"	"student"	8	"How long is it seem to be?"	"How long is it going to be?"	NA	NA	NA	NA	NA	NA	7
+2021-01-22 08:02:44	"student011"	"student"	9	"I'm ok, thank you!"	"I'm ok, thank you!"	5	NA	NA	NA	NA	NA	4
+2021-01-22 08:03:07	"student011"	"student"	10	"Will try my yoga today after the lesson"	"Will try my yoga today after the lesson"	NA	NA	NA	NA	NA	NA	8
+2021-01-22 08:03:36	"teacher008"	"teacher"	11	"Well, the government just said that schools will probably go back by April, maybe a little earlier in the areas where infectin rates are lower"	"Well, the government just said that schools will probably go back by April, maybe a little earlier in the areas where infectin rates are lower"	8	NA	NA	NA	NA	NA	25
+2021-01-22 08:03:50	"teacher008"	"teacher"	12	"It's not a sprint, it's a marathon!"	"It's not a sprint, it's a marathon!"	NA	NA	NA	NA	NA	NA	7
+2021-01-22 08:04:06	"teacher008"	"teacher"	13	"Lovely, are you at work? How's your lockdown going?"	"Lovely, are you at work? How's your lockdown going?"	10	NA	NA	NA	NA	NA	9
+2021-01-22 08:04:16	"student011"	"student"	14	"Sure! It's true!"	"Sure! It's true!"	12	NA	NA	NA	NA	NA	3
+2021-01-22 08:04:27	"student011"	"student"	15	"I'm at home now"	"I'm at home now"	NA	NA	NA	NA	NA	NA	4
+2021-01-22 08:05:12	"student011"	"student"	16	"I've decided to have the chat and the yoga (the?) at home and then I'm going to work"	"I've decided to have the chat and the yoga (the?) at home and then I'm going to work"	NA	"2b"	"enquiry"	"grammatical resource"	NA	NA	18
+2021-01-22 08:05:49	"teacher008"	"teacher"	17	"Yes, the chat and the yoga, because you're talking about your classes that both know about"	"Yes, the chat and the yoga, because you're talking about your classes that both know about"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	16
+2021-01-22 08:05:54	"student011"	"student"	18	"I have to work with our rent agreement today and then I have a lesson with my French student"	"I have to work on our rent agreement today and then I have a lesson with my French student"	NA	NA	NA	NA	NA	NA	19
+2021-01-22 08:06:19	"student011"	"student"	19	"Yes, the chat and the yoga! - Wow! I did it )"	"Yes, the chat and the yoga! - Wow! I did it )"	17	NA	NA	NA	NA	NA	12
+2021-01-22 08:06:26	"teacher008"	"teacher"	20	"I like yoga (in general). The yoga was difficult yesterday (the class I did yesterday)"	"I like yoga (in general). The yoga was difficult yesterday (the class I did yesterday)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2021-01-22 08:06:42	"student011"	"student"	21	"I see. Thank you!"	"I see. Thank you!"	NA	NA	NA	NA	NA	NA	4
+2021-01-22 08:07:08	"teacher008"	"teacher"	22	"I see! I guess you look after all legal matters at school?"	"I see! I guess you look after all legal matters at school?"	18	"2c"	NA	NA	NA	NA	12
+2021-01-22 08:08:35	"student011"	"student"	23	"Yes! It seems like we don't need another lawyer )"	"Yes! It seems like we don't need another lawyer )"	NA	NA	NA	NA	NA	NA	10
+2021-01-22 08:09:24	"teacher008"	"teacher"	24	"I bet :)) are you going to renew your rent agreement? or are you switching to online work?"	"I bet :)) are you going to renew your rent agreement? or are you switching to online work?"	NA	NA	NA	NA	NA	NA	18
+2021-01-22 08:10:26	"student011"	"student"	25	"Just too renew. Actually it's not a new agreement it's a special document where we agree to prolongate the contract"	"Just to renew. Actually it's not a new agreement, it's a special document where we agree to extend the contract"	NA	NA	NA	NA	NA	NA	20
+2021-01-22 08:10:46	"student011"	"student"	26	"In Ukrainian it's 'dodatkova ugoda')"	"In Ukrainian it's 'dodatkova ugoda')"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	5
+2021-01-22 08:11:01	"student011"	"student"	27	"Like additional agreement"	"Like an additional agreement"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:11:15	"teacher008"	"teacher"	28	"Ok, to prolong the contract"	"Ok, to prolong the contract"	25	"2d"	"repair"	"lexical resource"	NA	NA	5
+2021-01-22 08:11:35	"student011"	"student"	29	"Ah, sorry. So we need to prolong the contract"	"Ah, sorry. So we need to prolong the contract"	NA	NA	NA	NA	NA	NA	9
+2021-01-22 08:11:55	"teacher008"	"teacher"	30	"Yes, it makes sense. Sorry, actually 'to extend the contract'"	"Yes, it makes sense. Sorry, actually 'to extend the contract'"	NA	NA	"repair"	"lexical resource"	NA	NA	10
+2021-01-22 08:12:11	"teacher008"	"teacher"	31	"to extend the contract until July, for example"	"to extend the contract until July, for example"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-01-22 08:12:22	"student011"	"student"	32	"Aha! So extend the contract"	"Aha! So extend the contract"	30	NA	NA	NA	NA	NA	5
+2021-01-22 08:12:56	"student011"	"student"	33	"Ok! So we need to extend the contract until August 2021"	"Ok! So we need to extend the contract until August 2021"	31	NA	NA	NA	NA	NA	11
+2021-01-22 08:13:04	"teacher008"	"teacher"	34	"Yes, that's right! The noun is 'extension'"	"Yes, that's right! The noun is 'extension'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2021-01-22 08:13:34	"student011"	"student"	35	"extension of the contract?"	"an extension of the contract?"	NA	NA	"enquiry"	"lexical resource"	NA	NA	4
+2021-01-22 08:13:39	"student011"	"student"	36	"Actually"	"Actually"	NA	"2e"	"enquiry"	"lexical resource,meaning"	NA	NA	1
+2021-01-22 08:13:51	"teacher008"	"teacher"	37	"yes, an extension of the contract"	"yes, an extension of the contract"	35	NA	NA	NA	NA	NA	6
+2021-01-22 08:14:17	"student011"	"student"	38	"If there is a difference between an agreement and a contract? What do you think?"	"Is there a difference between an agreement and a contract? What do you think?"	36	NA	"enquiry"	"lexical resource,meaning"	NA	NA	15
+2021-01-22 08:15:38	"teacher008"	"teacher"	39	"Hmm, there's a difference in how they're used. For example, an employee has a contract with an employer, with all the information about salary, rights and duties etc."	"Hmm, there's a difference in how they're used. For example, an employee has a contract with an employer, with all the information about salary, rights and duties etc."	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	28
+2021-01-22 08:15:52	"student011"	"student"	40	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:16:40	"teacher008"	"teacher"	41	"But it's an agreement when you're renting, you're right. A rental agreement"	"But it's an agreement when you're renting, you're right. A rental agreement"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-01-22 08:17:01	"student011"	"student"	42	"it's interesting"	"it's interesting"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:17:13	"teacher008"	"teacher"	43	"And the same when you have a mortgage, a mortgage agreement"	"And the same when you have a mortgage, a mortgage agreement"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2021-01-22 08:17:41	"teacher008"	"teacher"	44	"If two countries agree to cooperate in some way, it's a deal"	"If two countries agree to cooperate in some way, it's a deal"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-01-22 08:17:48	"teacher008"	"teacher"	45	"like the Brexit deal"	"like the Brexit deal"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	4
+2021-01-22 08:17:57	"student011"	"student"	46	"Because we have 'dogovor' and 'contract'and actually it's the same"	"Because we have 'dogovor' and 'contract' and actually it's the same"	42	NA	"non-English"	"code switching,lexical resource"	NA	NA	10
+2021-01-22 08:17:58	"teacher008"	"teacher"	47	"a trade deal, for example"	"a trade deal, for example"	45	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-01-22 08:18:26	"teacher008"	"teacher"	48	"Yes, dogovor is Russian / Ukrainian and contract is borrowed, but they mean the same, don't they?"	"Yes, dogovor is Russian / Ukrainian and contract is borrowed, but they mean the same, don't they?"	46	NA	"non-English"	"code switching,lexical resource"	NA	NA	17
+2021-01-22 08:20:03	"student011"	"student"	49	"yes. I mean that it doesn't matter how to call the document. It doesn't change the the essence"	"yes. I mean that it doesn't matter what to call the document. It doesn't change the essence"	NA	NA	NA	NA	NA	NA	18
+2021-01-22 08:20:29	"teacher008"	"teacher"	50	"Yes, exactly"	"Yes, exactly"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:21:07	"teacher008"	"teacher"	51	"Have you had a chance to practise third and mixed conditionals?"	"Have you had a chance to practise third and mixed conditionals?"	NA	"3.0"	"topic opening,revision"	"grammatical resource"	NA	NA	11
+2021-01-22 08:21:23	"teacher008"	"teacher"	52	"Have you got any questions?"	"Have you got any questions?"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:21:39	"student011"	"student"	53	"Oh, sorry but I didn't"	"Oh, sorry but I didn't"	51	NA	NA	NA	NA	NA	5
+2021-01-22 08:21:58	"teacher008"	"teacher"	54	"No worries! Let's have a look together, one moment"	"No worries! Let's have a look together, one moment"	NA	"3a"	"exercise,exercise,revision"	"grammatical resource"	NA	NA	9
+2021-01-22 08:22:36	"student011"	"student"	55	"Ok!"	"Ok!"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:23:19	"teacher008"	"teacher"	56	"Here's a football example!"	"Here's a football example!"	NA	NA	NA	NA	NA	NA	4
+2021-01-22 08:23:30	"teacher008"	"teacher"	57	"If he _____ the penalty, we would have won Saturday's game. (the verb is 'score')"	"If he _____ the penalty, we would have won Saturday's game. (the verb is 'score')"	NA	NA	NA	NA	NA	NA	15
+2021-01-22 08:24:19	"student011"	"student"	58	"щл"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:24:21	"student011"	"student"	59	"ok"	"ok"	NA	NA	"repair"	"writing"	NA	NA	1
+2021-01-22 08:25:01	"student011"	"student"	60	"If he had scored the penalty, we would have won Saturday's game."	"If he had scored the penalty, we would have won Saturday's game."	NA	NA	NA	NA	NA	NA	12
+2021-01-22 08:25:07	"teacher008"	"teacher"	61	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:25:14	"teacher008"	"teacher"	62	"I _____ a cake this morning if I'd known you were coming. (buy)"	"I _____ a cake this morning if I'd known you were coming. (buy)"	NA	"3b"	NA	NA	NA	NA	13
+2021-01-22 08:26:18	"student011"	"student"	63	"I would have bought a cake this morning if I'd known you were coming."	"I would have bought a cake this morning if I'd known you were coming."	NA	NA	NA	NA	NA	NA	14
+2021-01-22 08:26:32	"teacher008"	"teacher"	64	"Correct! :)"	"Correct! :)"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:26:48	"teacher008"	"teacher"	65	"If I _____ so much cheese last night, I wouldn't feel terrible now. (eat)"	"If I _____ so much cheese last night, I wouldn't feel terrible now. (eat)"	NA	"3c"	NA	NA	NA	NA	14
+2021-01-22 08:28:03	"student011"	"student"	66	"It is mixed, isn't it?"	"It is mixed, isn't it?"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:28:13	"teacher008"	"teacher"	67	"Yes, exactly!"	"Yes, exactly!"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:28:15	"student011"	"student"	68	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:28:31	"student011"	"student"	69	"If I wou"	"If I wou"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:28:39	"student011"	"student"	70	"sorry"	"sorry"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:29:01	"student011"	"student"	71	"If I hadn't eaten so much cheese last night, I wouldn't feel terrible now."	"If I hadn't eaten so much cheese last night, I wouldn't feel terrible now."	NA	NA	"repair"	NA	NA	NA	14
+2021-01-22 08:29:10	"teacher008"	"teacher"	72	"Yes, very well done :)"	"Yes, very well done :)"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:29:23	"teacher008"	"teacher"	73	"We _____ late if you hadn't taken such a long time getting ready."	"We _____ late if you hadn't taken such a long time getting ready."	NA	"3d"	NA	NA	NA	NA	13
+2021-01-22 08:29:27	"teacher008"	"teacher"	74	"another mixed one"	"another mixed one"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:29:34	"student011"	"student"	75	"When I know what I have to do it's ok"	"When I know what I have to do, it's ok"	72	NA	NA	NA	NA	NA	10
+2021-01-22 08:29:37	"teacher008"	"teacher"	76	"sorry, the verb is 'be'"	"sorry, the verb is 'be'"	74	NA	NA	NA	NA	NA	5
+2021-01-22 08:29:47	"student011"	"student"	77	"But when I start to speak... )"	"But when I start to speak... )"	75	NA	NA	NA	NA	NA	7
+2021-01-22 08:30:07	"student011"	"student"	78	"ok, next one )"	"ok, next one )"	73	NA	NA	NA	NA	NA	4
+2021-01-22 08:30:12	"teacher008"	"teacher"	79	"We'll practise it some more in a minute, in a freer manner"	"We'll practise it some more in a minute, in a freer manner"	77	NA	NA	NA	NA	NA	12
+2021-01-22 08:31:02	"student011"	"student"	80	"We wouldn't be late if you hadn't taken such a long time getting ready."	"We wouldn't be late if you hadn't taken such a long time getting ready."	78	NA	NA	NA	NA	NA	14
+2021-01-22 08:31:20	"teacher008"	"teacher"	81	"Yes, absolutely!"	"Yes, absolutely!"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:31:46	"teacher008"	"teacher"	82	"And one last piece of the puzzle with modals + V3"	"And one last piece of the puzzle with modals + V3"	NA	"4.0"	"presentation"	"grammatical resource"	NA	NA	11
+2021-01-22 08:32:02	"teacher008"	"teacher"	84	"We wouldn't be late if you hadn't takes such a long time getting ready."	"We wouldn't be late if you hadn't takes such a long time getting ready."	NA	NA	"presentation"	"grammatical resource"	NA	NA	14
+2021-01-22 08:32:17	"teacher008"	"teacher"	85	"You should have got ready quicker!"	"You should have got ready quicker!"	NA	NA	"presentation"	"grammatical resource"	NA	NA	6
+2021-01-22 08:32:30	"teacher008"	"teacher"	86	"I shouldn't have eaten all this cheese last night!"	"I shouldn't have eaten all this cheese last night!"	NA	NA	"presentation"	"grammatical resource"	NA	NA	9
+2021-01-22 08:32:53	"teacher008"	"teacher"	87	"I should have bought a cake"	"I should have bought a cake"	NA	NA	"presentation"	"grammatical resource"	NA	NA	6
+2021-01-22 08:33:16	"teacher008"	"teacher"	88	"He should have studied harder, then he wouldn't have failed his exam"	"He should have studied harder, then he wouldn't have failed his exam"	NA	NA	"presentation"	"grammatical resource"	NA	NA	12
+2021-01-22 08:33:41	"teacher008"	"teacher"	89	"should + V3 = to talk about what we think was a good idea for people to do in the past (but they didn't do it!)"	"should + V3 = to talk about what we think was a good idea for people to do in the past (but they didn't do it!)"	NA	NA	"presentation"	"grammatical resource"	NA	NA	26
+2021-01-22 08:34:06	"student011"	"student"	90	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:34:08	"student011"	"student"	91	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:34:20	"teacher008"	"teacher"	92	"You know, people love it when you tell them, you should have done this or that :)))"	"You know, people love it when you tell them, you should have done this or that :)))"	NA	NA	NA	NA	NA	NA	17
+2021-01-22 08:34:28	"student011"	"student"	93	"haha"	"haha"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:34:45	"student011"	"student"	94	"I know"	"I know"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:34:52	"student011"	"student"	95	"I love it )))"	"I love it )))"	NA	NA	NA	NA	NA	NA	4
+2021-01-22 08:34:52	"teacher008"	"teacher"	96	"but it's fun!))))"	"but it's fun!))))"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:34:59	"teacher008"	"teacher"	97	"exactly"	"exactly"	95	NA	NA	NA	NA	NA	1
+2021-01-22 08:36:07	"teacher008"	"teacher"	98	"Ok, I've got a story for you today, to practise talking about unreal situations in the past"	"Ok, I've got a story for you today, to practise talking about unreal situations in the past"	NA	"5.0"	"exercise,free practice,revision"	"grammatical resource"	NA	NA	17
+2021-01-22 08:36:17	"teacher008"	"teacher"	99	"A lot went wrong in this story :)"	"A lot went wrong in this story :)"	NA	NA	NA	NA	NA	NA	8
+2021-01-22 08:36:24	"student011"	"student"	100	"Oh! Let's try )"	"Oh! Let's try )"	NA	NA	NA	NA	NA	NA	4
+2021-01-22 08:37:46	"teacher008"	"teacher"	101	"It's a story about a musician called Antonio. Antonio is in love with Barbara and wants to marry her. He goes to Barbara's father."	"It's a story about a musician called Antonio. Antonio is in love with Barbara and wants to marry her. He goes to Barbara's father."	NA	NA	NA	NA	NA	NA	24
+2021-01-22 08:38:44	"teacher008"	"teacher"	102	"They all live in a small fisherman's town. Barbara's dad asks Antonio, 'Have you got a boat? If you haven't got a boat, you can't marry my daughter. You can't provide for her'"	"They all live in a small fisherman's town. Barbara's dad asks Antonio, 'Have you got a boat? If you haven't got a boat, you can't marry my daughter. You can't provide for her'"	NA	NA	NA	NA	NA	NA	33
+2021-01-22 08:39:27	"teacher008"	"teacher"	103	"Antonio hasn't got a boat. So he goes to his friend Chris and asks him to lend him his boat. But Chris refuses. He needs this boat for work, he is a fisherman"	"Antonio hasn't got a boat. So he goes to his friend Chris and asks him to lend him his boat. But Chris refuses. He needs this boat for work, he is a fisherman"	NA	NA	NA	NA	NA	NA	33
+2021-01-22 08:40:22	"teacher008"	"teacher"	104	"Antonio and Barbara split up. Antonio is upset and asks another girl in the town, Elizabeth, to marry him instead."	"Antonio and Barbara split up. Antonio is upset and asks another girl in the town, Elizabeth, to marry him instead."	NA	NA	NA	NA	NA	NA	20
+2021-01-22 08:40:38	"teacher008"	"teacher"	105	"But Elizabeth says he's still in love with Barbara and refuses him"	"But Elizabeth says he's still in love with Barbara and refuses him"	NA	NA	NA	NA	NA	NA	12
+2021-01-22 08:40:39	"student011"	"student"	106	"haha ok )"	"haha ok )"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:40:57	"teacher008"	"teacher"	107	"As a result, Antonio is unmarried and unhappy. Who do you think is to blame??"	"As a result, Antonio is unmarried and unhappy. Who do you think is to blame??"	NA	NA	NA	NA	NA	NA	15
+2021-01-22 08:41:22	"student011"	"student"	108	"to blame like was wrong?"	"to blame like who was wrong?"	NA	"5a"	"enquiry"	"lexical resource"	NA	NA	5
+2021-01-22 08:41:34	"teacher008"	"teacher"	109	"Yes, whose fault is it?"	"Yes, whose fault is it?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-01-22 08:42:19	"student011"	"student"	110	"not a simple story )"	"not a simple story )"	107	NA	NA	NA	NA	NA	5
+2021-01-22 08:42:34	"teacher008"	"teacher"	111	"No, it's a soap opera :)"	"No, it's a soap opera :)"	NA	NA	NA	NA	NA	NA	6
+2021-01-22 08:43:17	"student011"	"student"	112	"ok the father is to blame"	"ok the father is to blame"	NA	NA	NA	NA	NA	NA	6
+2021-01-22 08:43:19	"student011"	"student"	113	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:43:51	"teacher008"	"teacher"	114	"Oh really? Why? )) If he had allowed Antonio and Barbara to get married, ......?"	"Oh really? Why? )) If he had allowed Antonio and Barbara to get married, ......?"	NA	NA	"eliciting,scaffolding"	"grammatical resource"	NA	NA	15
+2021-01-22 08:44:41	"student011"	"student"	115	"If he had allowed Antonio and Barbara to get married, they would have been happy )"	"If he had allowed Antonio and Barbara to get married, they would have been happy )"	NA	NA	NA	NA	NA	NA	16
+2021-01-22 08:45:04	"teacher008"	"teacher"	116	"Yes, happy but poor! :))"	"Yes, happy but poor! :))"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:45:09	"student011"	"student"	117	"mixed?"	"mixed?"	NA	"5b"	"enquiry"	"grammatical resource"	NA	NA	1
+2021-01-22 08:45:28	"teacher008"	"teacher"	118	"Not necessarily, third conditional is absolutely fine!"	"Not necessarily, third conditional is absolutely fine!"	NA	NA	NA	NA	NA	NA	7
+2021-01-22 08:46:04	"teacher008"	"teacher"	119	"What about Chris?"	"What about Chris?"	NA	"5c"	NA	NA	NA	NA	3
+2021-01-22 08:46:08	"student011"	"student"	120	"ok!"	"ok!"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:46:50	"student011"	"student"	121	"If Chris had borrowed the boat, he would have been a poor man and unhappy too )"	"If Chris had borrowed the boat, he would have been a poor man and unhappy too )"	NA	NA	NA	NA	NA	NA	17
+2021-01-22 08:47:14	"teacher008"	"teacher"	122	"Yes, he would have lost his work!"	"Yes, he would have lost his work!"	NA	NA	NA	NA	NA	NA	7
+2021-01-22 08:47:27	"teacher008"	"teacher"	123	"What about Barbara?"	"What about Barbara?"	NA	"5d"	NA	NA	NA	NA	3
+2021-01-22 08:47:39	"student011"	"student"	124	"can I use second conditional?"	"can I use the second conditional?"	NA	"5e"	"enquiry"	"grammatical resource"	NA	NA	5
+2021-01-22 08:47:44	"student011"	"student"	125	"With Chris"	"With Chris"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:48:15	"teacher008"	"teacher"	126	"How do you mean?"	"How do you mean?"	NA	NA	NA	NA	NA	NA	4
+2021-01-22 08:49:01	"student011"	"student"	127	"If Chris borrowed the boat, he would be a poor man and unhappy too"	"If Chris lent his friend the boat, he would be a poor man and unhappy too"	NA	NA	NA	NA	NA	NA	14
+2021-01-22 08:49:44	"teacher008"	"teacher"	128	"Hmmm, let's imagine the whole story is in the past. If it was in present, then yes!"	"Hmmm, let's imagine the whole story is in the past. If it was in present, then yes!"	NA	NA	NA	NA	NA	NA	17
+2021-01-22 08:50:01	"student011"	"student"	129	"Ah! Ok! I see now"	"Ah! Ok! I see now"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:50:05	"student011"	"student"	130	"Ok"	"Ok"	123	NA	NA	NA	NA	NA	1
+2021-01-22 08:50:08	"student011"	"student"	131	"Barbara"	"Barbara"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:51:14	"student011"	"student"	132	"If she had been a smart girl, she would have found a job and wouldn't have asked her father about her marriage )"	"If she had been a smart girl, she would have found a job and wouldn't have asked her father about her marriage )"	NA	NA	NA	NA	NA	NA	23
+2021-01-22 08:51:38	"teacher008"	"teacher"	133	"Ah, I completely agree with you :))"	"Ah, I completely agree with you :))"	NA	NA	NA	NA	NA	NA	7
+2021-01-22 08:52:08	"teacher008"	"teacher"	134	"Barbara should have said no to patriarchy and married a poor musician! :))"	"Barbara should have said no to patriarchy and married a poor musician! :))"	NA	NA	NA	NA	NA	NA	13
+2021-01-22 08:52:40	"student011"	"student"	135	"Agree!"	"Agree!"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:52:46	"teacher008"	"teacher"	136	"What about Elizabeth? Do you think she did the right thing?"	"What about Elizabeth? Do you think she did the right thing?"	NA	"5f"	NA	NA	NA	NA	11
+2021-01-22 08:53:12	"student011"	"student"	137	"She did what she should do )"	"She did what she should have done )"	NA	NA	NA	NA	NA	NA	7
+2021-01-22 08:53:42	"student011"	"student"	138	"I like her )"	"I like her )"	NA	NA	NA	NA	NA	NA	4
+2021-01-22 08:53:44	"teacher008"	"teacher"	139	"She did what she should"	"She did what she should"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:53:57	"student011"	"student"	140	"Ok! So without do!"	"Ok! So without do!"	NA	NA	NA	NA	NA	NA	4
+2021-01-22 08:53:59	"teacher008"	"teacher"	141	"sorry, she did what she should ___ ____ (in the past)"	"sorry, she did what she should ___ ____ (in the past)"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	11
+2021-01-22 08:54:05	"student011"	"student"	142	"Ah!"	"Ah!"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:54:20	"student011"	"student"	143	"she did what she should have done"	"she did what she should have done"	NA	NA	NA	NA	NA	NA	7
+2021-01-22 08:54:29	"teacher008"	"teacher"	144	"Yes, absolutely :)"	"Yes, absolutely :)"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:54:39	"teacher008"	"teacher"	145	"And what about Antonio? :)"	"And what about Antonio? :)"	NA	"5g"	NA	NA	NA	NA	5
+2021-01-22 08:54:43	"student011"	"student"	146	"ok"	"ok"	NA	"5h"	"enquiry"	"grammatical resource"	NA	NA	1
+2021-01-22 08:54:48	"student011"	"student"	147	"one more question"	"one more question"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:54:52	"teacher008"	"teacher"	148	"yes, sure"	"yes, sure"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:55:20	"student011"	"student"	149	"Is it right to use should have done if it's real"	"Is it right to use should have done if it's real"	NA	NA	NA	NA	NA	NA	11
+2021-01-22 08:55:24	"student011"	"student"	150	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:55:35	"student011"	"student"	151	"She did it"	"She did it"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:55:51	"teacher008"	"teacher"	152	"Yes, that's right!"	"Yes, that's right!"	NA	NA	NA	NA	NA	NA	3
+2021-01-22 08:56:07	"student011"	"student"	153	"ok"	"ok"	145	NA	NA	NA	NA	NA	1
+2021-01-22 08:56:12	"student011"	"student"	154	"Antonio"	"Antonio"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:57:14	"student011"	"student"	155	"Antonio shouldn't have asked his friend about the boat and should just have married Barbara"	"Antonio shouldn't have asked his friend about the boat and should just have married Barbara"	NA	NA	NA	NA	NA	NA	15
+2021-01-22 08:57:28	"teacher008"	"teacher"	156	"secretly?"	"secretly?"	NA	NA	NA	NA	NA	NA	1
+2021-01-22 08:57:35	"student011"	"student"	157	"no )"	"no )"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 08:57:59	"student011"	"student"	158	"Just without her father approval )"	"Just without her father's approval )"	NA	NA	NA	NA	NA	NA	6
+2021-01-22 08:58:11	"teacher008"	"teacher"	159	"Fair enough, I see :))"	"Fair enough, I see :))"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:58:30	"student011"	"student"	160	"They are quite old-fashioned )"	"They are quite old-fashioned )"	NA	NA	NA	NA	NA	NA	5
+2021-01-22 08:58:37	"teacher008"	"teacher"	161	"See, Antonio is the romantic protagonist here, so he had to have an Italian name :)"	"See, Antonio is the romantic protagonist here, so he had to have an Italian name :)"	NA	NA	NA	NA	NA	NA	16
+2021-01-22 08:58:55	"teacher008"	"teacher"	162	"Yes, definitely old-fashioned!"	"Yes, definitely old-fashioned!"	160	NA	NA	NA	NA	NA	3
+2021-01-22 08:59:26	"student011"	"student"	163	"Actually, I heard the stereotype that Italian man are very childish"	"Actually, I heard the stereotype that Italian men are very childish"	161	NA	NA	NA	NA	NA	11
+2021-01-22 08:59:46	"student011"	"student"	164	"infantile?"	"infantile?"	NA	"5i"	"enquiry"	"lexical resource"	NA	NA	1
+2021-01-22 08:59:48	"teacher008"	"teacher"	165	"Lovely, thank you, great work today! You can finish the exercises I sent you last time at home if you have a chance"	"Lovely, thank you, great work today! You can finish the exercises I sent you last time at home if you have a chance"	NA	"6.0"	"closing,homework"	NA	NA	NA	23
+2021-01-22 08:59:57	"student011"	"student"	166	"it is better maybe"	"it is better maybe"	164	NA	NA	NA	NA	NA	4
+2021-01-22 09:00:07	"teacher008"	"teacher"	167	"Yes, both childish and infantile are very good words here!"	"Yes, both childish and infantile are very good words here!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-01-22 09:00:18	"student011"	"student"	168	"I will do! Thank you! Have a good day!"	"I will do! Thank you! Have a good day!"	165	NA	NA	NA	NA	NA	9
+2021-01-22 09:00:32	"student011"	"student"	169	"Bye! )"	"Bye! )"	NA	NA	NA	NA	NA	NA	2
+2021-01-22 09:00:33	"teacher008"	"teacher"	170	"Thank you! :) Have a good weekend! x"	"Thank you! :) Have a good weekend! x"	NA	NA	NA	NA	NA	NA	8
+2021-01-22 09:00:48	"student011"	"student"	171	"you too xx"	"you too xx"	NA	NA	NA	NA	NA	"B2"	3

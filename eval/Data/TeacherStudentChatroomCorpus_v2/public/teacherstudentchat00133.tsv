@@ -1,0 +1,159 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-11-09 13:30:40	"teacher008"	"teacher"	1	"Hello <STUDENT>!"	"Hello STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-11-09 13:31:48	"student015"	"student"	2	"Hello <TEACHER>"	"Hello <TEACHER>"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 13:31:59	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-11-09 13:32:24	"student015"	"student"	4	"I'm fine. Thanks"	"I'm fine. Thanks"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 13:33:06	"teacher008"	"teacher"	5	"How was your weekend?"	"How was your weekend?"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 13:33:33	"student015"	"student"	6	"My weekend is busy, haha"	"My weekend was busy, haha"	NA	NA	NA	NA	NA	NA	5
+2020-11-09 13:33:59	"teacher008"	"teacher"	7	"Ok! My weekend __ busy. It's in the past, so you need...?"	"Ok! My weekend __ busy. It's in the past, so you need...?"	NA	"2a"	"eliciting,repair"	"grammatical resource"	NA	NA	12
+2020-11-09 13:34:19	"student015"	"student"	8	"was"	"was"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 13:34:25	"teacher008"	"teacher"	9	"Yes, good!"	"Yes, good!"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 13:34:46	"teacher008"	"teacher"	10	"Did you do anything exciting at the weekend then?"	"Did you do anything exciting at the weekend then?"	NA	"2b"	"topic development"	NA	NA	NA	9
+2020-11-09 13:35:51	"student015"	"student"	11	"One day worked at company, and another day dated some friends."	"On the first day I worked at the company, and on the second day I saw some friends."	NA	NA	NA	NA	NA	NA	11
+2020-11-09 13:37:03	"student015"	"student"	12	"So what't the plan, today are we going to do some exam?"	"So what's the plan, are we going to do some exam today?"	NA	"3.0"	"topic opening"	NA	NA	NA	12
+2020-11-09 13:37:45	"teacher008"	"teacher"	13	"Yes, we can do some exam practice if you'd like, but I want to just talk to you too, to give you a chance to use English and maybe troubleshoot a bit"	"Yes, we can do some exam practice if you'd like, but I want to just talk to you too, to give you a chance to use English and maybe troubleshoot a bit"	NA	NA	NA	NA	NA	NA	32
+2020-11-09 13:38:07	"teacher008"	"teacher"	14	"Do you mean you met / saw some friends or you dated them?"	"Do you mean you met / saw some friends or you dated them?"	11	"2c"	"eliciting,repair"	"lexical resource"	NA	NA	13
+2020-11-09 13:38:25	"teacher008"	"teacher"	15	"If we date someone, it usually means we see someone as part of a romantic relationship"	"If we date someone, it usually means we see someone as part of a romantic relationship"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2020-11-09 13:38:37	"student015"	"student"	16	"I mean met them"	"I mean met them"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 13:38:44	"teacher008"	"teacher"	17	"sure"	"sure"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 13:38:45	"student015"	"student"	18	"Haha, ok."	"Haha, ok."	NA	NA	NA	NA	NA	NA	2
+2020-11-09 13:39:00	"teacher008"	"teacher"	19	"My weekend was really quiet because we are under a new lockdown here in the UK"	"My weekend was really quiet because we are under a new lockdown here in the UK"	NA	"2d"	"topic development"	NA	NA	NA	16
+2020-11-09 13:39:35	"student015"	"student"	20	"Oh, sorry for the lockdown."	"Oh, sorry about the lockdown."	NA	NA	NA	NA	NA	NA	5
+2020-11-09 13:39:50	"teacher008"	"teacher"	21	"Thanks, but it's ok! It's necessary!"	"Thanks, but it's ok! It's necessary!"	NA	NA	NA	NA	NA	NA	6
+2020-11-09 13:40:08	"teacher008"	"teacher"	22	"And it's ok for my husband and me because we both work from home, so it's not a problem"	"And it's ok for my husband and me because we both work from home, so it's not a problem"	NA	NA	NA	NA	NA	NA	19
+2020-11-09 13:40:32	"student015"	"student"	23	"So is the pandemic serious in the UK now?"	"So is the pandemic serious in the UK now?"	NA	"2e"	"topic development"	NA	NA	NA	9
+2020-11-09 13:41:04	"teacher008"	"teacher"	24	"Yes, it's getting pretty bad again! Like it was in the spring. They relaxed the rules over the summer, and the infection rate has grown"	"Yes, it's getting pretty bad again! Like it was in the spring. They relaxed the rules over the summer, and the infection rate has grown"	NA	NA	NA	NA	NA	NA	25
+2020-11-09 13:41:10	"teacher008"	"teacher"	25	"What's it like in China at the moment?"	"What's it like in China at the moment?"	NA	"2f"	"topic development"	NA	NA	NA	8
+2020-11-09 13:42:15	"student015"	"student"	26	"China is already a mormal life."	"China is already back to a normal life."	NA	NA	NA	NA	NA	NA	6
+2020-11-09 13:42:24	"student015"	"student"	27	"normal"	"normal"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-11-09 13:42:29	"teacher008"	"teacher"	28	"Ok! Well done, China!"	"Ok! Well done, China!"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 13:42:43	"teacher008"	"teacher"	29	"Is there a vaccine in China then?"	"Is there a vaccine in China then?"	NA	NA	NA	NA	NA	NA	7
+2020-11-09 13:43:15	"student015"	"student"	30	"No"	"No"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 13:43:35	"teacher008"	"teacher"	31	"Ok, not yet then"	"Ok, not yet then"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 13:43:39	"student015"	"student"	32	"I mean not so clear about the vaccine thing"	"I mean it's not so clear about the vaccine thing"	NA	NA	NA	NA	NA	NA	9
+2020-11-09 13:44:30	"student015"	"student"	33	"China did well because it had very strict controls."	"China did well because it had very strict regulations."	NA	NA	NA	NA	NA	NA	9
+2020-11-09 13:44:48	"teacher008"	"teacher"	34	"Yes, sure, China's good at it! And everyone wears masks"	"Yes, sure, China's good at it! And everyone wears masks"	NA	NA	NA	NA	NA	NA	10
+2020-11-09 13:45:03	"teacher008"	"teacher"	35	"There's lots of testing too, right?"	"There's lots of testing too, right?"	NA	NA	NA	NA	NA	NA	6
+2020-11-09 13:45:20	"student015"	"student"	36	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-09 13:45:35	"teacher008"	"teacher"	37	"Yes, we can learn a lot from China"	"Yes, we can learn a lot from China"	NA	NA	NA	NA	NA	NA	8
+2020-11-09 13:46:02	"student015"	"student"	38	"Everything has two sides."	"Everything has two sides."	NA	NA	NA	NA	NA	NA	4
+2020-11-09 13:46:26	"teacher008"	"teacher"	39	"Definitely"	"Definitely"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 13:46:40	"student015"	"student"	40	"In China maybe safe, but also not have too much freedom"	"In China it may be safe, but also people do not have much freedom"	NA	NA	NA	NA	NA	NA	11
+2020-11-09 13:47:16	"teacher008"	"teacher"	41	"Yep, definitely two sides of the same coin!"	"Yep, definitely two sides of the same coin!"	NA	NA	NA	NA	NA	NA	8
+2020-11-09 13:47:19	"student015"	"student"	42	"It's good for the control of pandemic, but not good for the government."	"It's good for the control of the pandemic, but not good for the government."	NA	NA	NA	NA	NA	NA	13
+2020-11-09 13:47:45	"teacher008"	"teacher"	43	"Yes, sure"	"Yes, sure"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 13:48:24	"teacher008"	"teacher"	44	"I noticed that you're leaving out the subject in a lot of sentences (I think it must be because that's what you do in Chinese)"	"I noticed that you're leaving out the subject in a lot of sentences (I think it must be because that's what you do in Chinese)"	NA	"4.0"	"topic opening"	"grammatical resource"	NA	NA	25
+2020-11-09 13:48:33	"teacher008"	"teacher"	45	"In China __ may be safe"	"In China __ may be safe"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	6
+2020-11-09 13:48:50	"teacher008"	"teacher"	46	"but also ___ don't have much freedom"	"but also ___ don't have much freedom"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	7
+2020-11-09 13:49:22	"student015"	"student"	47	"Living in China may be safe"	"Living in China may be safe"	45	NA	NA	NA	NA	NA	6
+2020-11-09 13:49:47	"teacher008"	"teacher"	48	"Ok, good! Or just 'it may be safe'"	"Ok, good! Or just 'it may be safe'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-11-09 13:50:09	"student015"	"student"	49	"but it doesn't have much freedom."	"but it doesn't have much freedom."	46	NA	NA	NA	NA	NA	6
+2020-11-09 13:50:20	"student015"	"student"	50	"OK."	"OK."	48	NA	NA	NA	NA	NA	1
+2020-11-09 13:50:25	"teacher008"	"teacher"	51	"yes, good, that works!"	"yes, good, that works!"	49	NA	NA	NA	NA	NA	4
+2020-11-09 13:50:33	"teacher008"	"teacher"	52	"One day worked at company, and another day dated (saw) some friends."	"One day worked at company, and another day dated (saw) some friends."	NA	"4a"	"eliciting,repair"	"grammatical resource"	NA	NA	12
+2020-11-09 13:50:38	"teacher008"	"teacher"	53	"Same problem here"	"Same problem here"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 13:51:56	"student015"	"student"	54	"I spent one day working in company, and spent another day saw some friends."	"I spent one day working at the company, and spent the other day with some friends."	NA	NA	NA	NA	NA	NA	14
+2020-11-09 13:52:14	"teacher008"	"teacher"	55	"Yes, sure, better, thanks!"	"Yes, sure, better, thanks!"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 13:52:33	"student015"	"student"	56	"Thank you very much. Haha"	"Thank you very much. Haha"	NA	NA	NA	NA	NA	NA	5
+2020-11-09 13:52:42	"teacher008"	"teacher"	57	"Ok, shall we go to our exam practice? Could you open the pdf and go to the second task, 'Motorbike stunt rider'"	"Ok, shall we go to our exam practice? Could you open the pdf and go to the second task, 'Motorbike stunt rider'"	NA	"5.0"	"exercise"	"exam prep,lexical resource,grammatical resource"	"textbook"	NA	22
+2020-11-09 13:52:59	"student015"	"student"	58	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-09 13:53:18	"teacher008"	"teacher"	59	"I spent one day working = perfect. I spent another day seeing some friends"	"I spent one day working = perfect. I spent another day seeing some friends"	54	NA	"scaffolding"	"grammatical resource"	NA	NA	14
+2020-11-09 13:53:59	"teacher008"	"teacher"	60	"Do you know 'a stunt'?"	"Do you know 'a stunt'?"	58	"5a"	"eliciting"	"lexical resource,meaning"	NA	NA	5
+2020-11-09 13:54:26	"student015"	"student"	61	"No."	"No."	NA	NA	NA	NA	NA	NA	1
+2020-11-09 13:54:40	"student015"	"student"	62	"I do not know the words meaning."	"I do not know the meaning of this word."	NA	NA	NA	NA	NA	NA	7
+2020-11-09 13:54:59	"teacher008"	"teacher"	63	"A stunt is an action, usually in a film or show, that looks dangerous and that needs to be done by a special skilled person"	"A stunt is an action, usually in a film or show, that looks dangerous and that needs to be done by a special skilled person"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	25
+2020-11-09 13:55:08	"teacher008"	"teacher"	64	"Like running on top of a moving train"	"Like running on top of a moving train"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2020-11-09 13:55:41	"teacher008"	"teacher"	65	"Or jumping out of a moving car, or jumping through fire"	"Or jumping out of a moving car, or jumping through fire"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	11
+2020-11-09 13:55:44	"teacher008"	"teacher"	66	"things like that"	"things like that"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 13:56:11	"student015"	"student"	67	"OK. I know now. I saw shomething like these on TV."	"OK. I know now. I saw something like this on TV."	NA	NA	NA	NA	NA	NA	11
+2020-11-09 13:56:18	"teacher008"	"teacher"	68	"The person who does stunts professionally is called a stuntman / a stuntwoman"	"The person who does stunts professionally is called a stuntman / a stuntwoman"	66	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2020-11-09 13:56:24	"teacher008"	"teacher"	69	"Yes, I'm sure you've seen them"	"Yes, I'm sure you've seen them"	67	NA	NA	NA	NA	NA	6
+2020-11-09 13:56:43	"teacher008"	"teacher"	70	"Many actors have stunt doubles, who look like them, but some actors do their own stunts"	"Many actors have stunt doubles, who look like them, but some actors do their own stunts"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	16
+2020-11-09 13:57:21	"teacher008"	"teacher"	71	"So a 'motorbike stunt rider' does dangerous things with the motorbike, for show"	"So a 'motorbike stunt rider' does dangerous things with the motorbike, for show"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2020-11-09 13:58:16	"student015"	"student"	72	"OK. I saw someone fly through the fire circle on TV."	"OK. I saw someone fly through the fire circle on TV."	NA	NA	NA	NA	NA	NA	11
+2020-11-09 13:58:29	"student015"	"student"	73	"I have opened the pdf."	"I have opened the pdf."	NA	"5b"	"exercise"	"exam prep,lexical resource,grammatical resource"	"textbook"	NA	5
+2020-11-09 13:58:54	"teacher008"	"teacher"	74	"Ok, in this part of a test we have a text some gaps but no suggestions of words that could go in the gaps. You've got to figure out what goes in them!"	"Ok, in this part of a test we have a text some gaps but no suggestions of words that could go in the gaps. You've got to figure out what goes in them!"	NA	NA	"scaffolding"	"exam prep"	NA	NA	33
+2020-11-09 13:59:16	"teacher008"	"teacher"	75	"Again, (0) is an example, the answer is above the text"	"Again, (0) is an example, the answer is above the text"	NA	NA	"scaffolding"	"exam prep"	NA	NA	11
+2020-11-09 13:59:29	"teacher008"	"teacher"	76	"I work AS a motorbike stunt rider"	"I work AS a motorbike stunt rider"	NA	NA	"scaffolding"	"exam prep"	NA	NA	7
+2020-11-09 13:59:47	"teacher008"	"teacher"	77	"What do you think goes in (1)?"	"What do you think goes in (1)?"	NA	"5c"	"exercise"	"exam prep,lexical resource,grammatical resource"	NA	NA	7
+2020-11-09 14:00:16	"student015"	"student"	78	"So the answers are alway preposition words?"	"So the answers are always prepositions?"	NA	"5d"	"enquiry"	"exam prep"	NA	NA	7
+2020-11-09 14:01:07	"teacher008"	"teacher"	79	"No, not always!"	"No, not always!"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 14:01:32	"teacher008"	"teacher"	80	"They can be 'grammar words' like 'have, has, does etc.'"	"They can be 'grammar words' like 'have, has, does etc.'"	NA	NA	"scaffolding"	"exam prep"	NA	NA	10
+2020-11-09 14:01:48	"teacher008"	"teacher"	81	"Or they can be prepositions that go with the word"	"Or they can be prepositions that go with the word"	NA	NA	"scaffolding"	"exam prep"	NA	NA	10
+2020-11-09 14:01:49	"student015"	"student"	82	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:02:14	"teacher008"	"teacher"	83	"or question words and linkers such as 'how, when, where, that, who etc.'"	"or question words and linkers such as 'how, when, where, that, who etc.'"	NA	NA	"scaffolding"	"exam prep"	NA	NA	13
+2020-11-09 14:02:31	"student015"	"student"	84	"(9) which"	"(9) which"	77	NA	NA	NA	NA	NA	2
+2020-11-09 14:02:55	"teacher008"	"teacher"	85	"Ah sorry, it's 9, not 1))"	"Ah sorry, it's 9, not 1))"	NA	NA	NA	NA	NA	NA	6
+2020-11-09 14:03:06	"teacher008"	"teacher"	86	"nearly! it's a place..."	"nearly! it's a place..."	NA	NA	"eliciting"	"lexical resource"	NA	NA	4
+2020-11-09 14:03:20	"student015"	"student"	87	"where"	"where"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:03:25	"teacher008"	"teacher"	88	"Yes, correct!"	"Yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 14:03:32	"teacher008"	"teacher"	89	"What about the next one?"	"What about the next one?"	NA	NA	NA	NA	NA	NA	5
+2020-11-09 14:04:46	"student015"	"student"	90	"(10) so ?"	"(10) so ?"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 14:04:55	"teacher008"	"teacher"	91	"Yes, well done!"	"Yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 14:04:58	"teacher008"	"teacher"	92	"11?"	"11?"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:05:05	"student015"	"student"	93	"(11) myself ?"	"(11) myself ?"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 14:05:12	"teacher008"	"teacher"	94	"absolutely!"	"absolutely!"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:05:14	"teacher008"	"teacher"	95	"12?"	"12?"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:06:18	"student015"	"student"	96	"(12) of"	"(12) of"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 14:06:28	"teacher008"	"teacher"	97	"in"	"in"	NA	NA	"repair"	"lexical resource"	NA	NA	1
+2020-11-09 14:06:40	"teacher008"	"teacher"	98	"a degree in (a subject)"	"a degree in (a subject)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-11-09 14:06:51	"student015"	"student"	99	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:07:00	"teacher008"	"teacher"	100	"For example, I have a degree in teaching English an translation. What about you?"	"For example, I have a degree in teaching English an translation. What about you?"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	14
+2020-11-09 14:07:47	"student015"	"student"	101	"I have a degree in communication engineering."	"I have a degree in communication engineering."	NA	NA	NA	NA	NA	NA	7
+2020-11-09 14:07:56	"teacher008"	"teacher"	102	"Yes, good"	"Yes, good"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 14:08:10	"teacher008"	"teacher"	103	"have a degree in - a useful expression for you :)"	"have a degree in - a useful expression for you :)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-11-09 14:08:19	"teacher008"	"teacher"	104	"Ok, what about 13?"	"Ok, what about 13?"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 14:09:03	"student015"	"student"	105	"(13) which"	"(13) which"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 14:09:29	"teacher008"	"teacher"	106	"Yes, which / that, correct!"	"Yes, which / that, correct!"	NA	NA	NA	NA	NA	NA	5
+2020-11-09 14:09:35	"teacher008"	"teacher"	107	"what about the next one?"	"what about the next one?"	NA	NA	NA	NA	NA	NA	5
+2020-11-09 14:10:33	"student015"	"student"	108	"(14) on"	"(14) on"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 14:10:45	"teacher008"	"teacher"	109	"Yes, sure! work on something"	"Yes, sure! work on something"	NA	NA	NA	NA	NA	NA	5
+2020-11-09 14:10:56	"teacher008"	"teacher"	110	"15?"	"15?"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:12:06	"student015"	"student"	111	"(15) from?"	"(15) from?"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 14:12:15	"teacher008"	"teacher"	112	"Yes, correct! apart from"	"Yes, correct! apart from"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 14:12:18	"teacher008"	"teacher"	113	"And the last one/"	"And the last one/"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 14:12:19	"teacher008"	"teacher"	114	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:14:04	"student015"	"student"	115	"(16) this?"	"(16) this?"	NA	NA	NA	NA	NA	NA	2
+2020-11-09 14:14:49	"teacher008"	"teacher"	116	"You need something that works in a negative sentence. I never feel in __ kind of danger"	"You need something that works in a negative sentence. I never feel in __ kind of danger"	NA	NA	"scaffolding,eliciting"	"grammatical resource"	NA	NA	17
+2020-11-09 14:14:54	"teacher008"	"teacher"	117	"any"	"any"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:15:14	"student015"	"student"	118	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:15:32	"teacher008"	"teacher"	119	"Ok, but well done overall!"	"Ok, but well done overall!"	NA	NA	NA	NA	NA	NA	5
+2020-11-09 14:15:40	"teacher008"	"teacher"	120	"This type of exercise is fun, isn't it?"	"This type of exercise is fun, isn't it?"	NA	"6.0"	"topic opening"	"exam prep"	NA	NA	8
+2020-11-09 14:16:10	"student015"	"student"	121	"Yea. and I think I need to do some exersies after class."	"Yea. and I think I need to do some exercises after class."	NA	NA	NA	NA	NA	NA	12
+2020-11-09 14:16:54	"teacher008"	"teacher"	122	"Feel free to finish the whole paper if you have the time! I can send you the answers so that you can check them, but if you have any questions, we can discuss them in class"	"Feel free to finish the whole paper if you have the time! I can send you the answers so that you can check them, but if you have any questions, we can discuss them in class"	NA	NA	"homework"	"exam prep"	NA	NA	36
+2020-11-09 14:16:59	"teacher008"	"teacher"	123	"How does that sound?"	"How does that sound?"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 14:17:12	"student015"	"student"	124	"Great!"	"Great!"	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:17:24	"teacher008"	"teacher"	125	"Lovely, I'll email you the answers"	"Lovely, I'll email you the answers"	NA	NA	NA	NA	NA	NA	6
+2020-11-09 14:17:52	"student015"	"student"	126	"Thanks a lot. And I have a question."	"Thanks a lot. And I have a question."	NA	NA	"enquiry"	NA	NA	NA	8
+2020-11-09 14:17:55	"teacher008"	"teacher"	127	"Ok, let's have a go at the speaking task. I know we can't really speak in this format, but writing your answers is also great practice"	"Ok, let's have a go at the speaking task. I know we can't really speak in this format, but writing your answers is also great practice"	NA	"7.0"	"exercise"	"exam prep,speaking"	NA	NA	26
+2020-11-09 14:18:01	"teacher008"	"teacher"	128	"Yes, go ahead!"	"Yes, go ahead!"	126	NA	NA	NA	NA	NA	3
+2020-11-09 14:18:30	"student015"	"student"	129	"I want by some book about the B2 exam. But I don’t know the the book about FCE is correct for me?"	"I want to buy some books about the B2 exam. But I don’t know whether the book about FCE is correct for me?"	NA	NA	"enquiry"	NA	NA	NA	22
+2020-11-09 14:19:12	"teacher008"	"teacher"	130	"Good question! FCE is the old name for this exam."	"Good question! FCE is the old name for this exam."	NA	NA	"scaffolding"	"exam prep"	NA	NA	10
+2020-11-09 14:19:53	"teacher008"	"teacher"	131	"So a new or 'revised' FCE preparation book should be good. I'll have a look if they've published any books since they changed the name"	"So a new or 'revised' FCE preparation book should be good. I'll have a look if they've published any books since they changed the name"	NA	NA	"scaffolding"	NA	NA	NA	25
+2020-11-09 14:20:20	"teacher008"	"teacher"	132	"So I'll look find out for you, ok?"	"So I'll look find out for you, ok?"	NA	NA	NA	NA	NA	NA	8
+2020-11-09 14:20:33	"teacher008"	"teacher"	133	"Ok, quick 'speaking' practice!"	"Ok, quick 'speaking' practice!"	NA	"7a"	"redirection"	NA	NA	NA	4
+2020-11-09 14:20:48	"student015"	"student"	134	"OK. Thanks."	"OK. Thanks."	132	NA	NA	NA	NA	NA	2
+2020-11-09 14:21:10	"teacher008"	"teacher"	135	"You usually do a speaking exam with another person, or sometimes with two more people"	"You usually do a speaking exam with another person, or sometimes with two more people"	133	NA	"scaffolding"	"exam prep,speaking"	NA	NA	15
+2020-11-09 14:21:35	"student015"	"student"	136	"No."	"No."	NA	NA	NA	NA	NA	NA	1
+2020-11-09 14:21:38	"teacher008"	"teacher"	137	"You don't have to know this person, the exam centre usually puts people in pairs for the exam"	"You don't have to know this person, the exam centre usually puts people in pairs for the exam"	NA	NA	"scaffolding"	"exam prep,speaking"	NA	NA	18
+2020-11-09 14:22:05	"teacher008"	"teacher"	138	"At the beginning of the exam, an examiner asks each candidate separate questions"	"At the beginning of the exam, an examiner asks each candidate separate questions"	NA	NA	"scaffolding"	"exam prep,speaking"	NA	NA	13
+2020-11-09 14:22:21	"teacher008"	"teacher"	139	"These are some of the questions. Could you answer this one?"	"These are some of the questions. Could you answer this one?"	NA	"7b"	"exercise"	"exam prep,speaking"	NA	NA	11
+2020-11-09 14:22:37	"teacher008"	"teacher"	140	"How do you like to spend your evenings?"	"How do you like to spend your evenings?"	NA	NA	NA	NA	NA	NA	8
+2020-11-09 14:26:50	"student015"	"student"	141	"Well, first I like to have some dinner, then I should walk to the park. Several times there are some people dancing in the square. And I would dance with them."	"Well, first I like to have some dinner, then I go for a walk in the park. Sometimes there are some people dancing in the square. And I would dance with them."	NA	NA	NA	NA	NA	NA	31
+2020-11-09 14:27:27	"teacher008"	"teacher"	142	"Oh, that's such a lovely tradition in China, I loved those dances!"	"Oh, that's such a lovely tradition in China, I loved those dances!"	NA	NA	NA	NA	NA	NA	12
+2020-11-09 14:27:33	"teacher008"	"teacher"	143	"Good, thank you!"	"Good, thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 14:27:51	"teacher008"	"teacher"	144	"I would say 'sometimes there are some people dancing', not several times"	"I would say 'sometimes there are some people dancing', not several times"	141	"7c"	"repair"	"lexical resource"	NA	NA	12
+2020-11-09 14:28:18	"teacher008"	"teacher"	145	"sometimes = to show that it happens every now and then"	"sometimes = to show that it happens every now and then"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-11-09 14:28:21	"student015"	"student"	146	"How much words do I need to say."	"How many words do I need to say?"	NA	"7d"	"enquiry"	"exam prep,speaking"	NA	NA	8
+2020-11-09 14:28:31	"teacher008"	"teacher"	147	"3-4 sentences is fine!"	"3-4 sentences is fine!"	NA	NA	NA	NA	NA	NA	4
+2020-11-09 14:29:21	"teacher008"	"teacher"	148	"and just 'then I go for a walk in the park', you don't need 'should'"	"and just 'then I go for a walk in the park', you don't need 'should'"	145	NA	"repair"	"lexical resource,grammatical resource"	NA	NA	15
+2020-11-09 14:29:23	"student015"	"student"	149	"So several times != sometimes?"	"So several times != sometimes?"	145	NA	"enquiry"	"lexical resource"	NA	NA	5
+2020-11-09 14:30:11	"teacher008"	"teacher"	150	"Well, you can say, 'I saw some people dancing several times' - in the past"	"Well, you can say, 'I saw some people dancing several times' - in the past"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	15
+2020-11-09 14:30:32	"student015"	"student"	151	"OK. I understand."	"OK. I understand."	NA	NA	NA	NA	NA	NA	3
+2020-11-09 14:30:38	"teacher008"	"teacher"	152	"But if you see them sometimes in the present, and expect to see them again, I would say sometimes is better"	"But if you see them sometimes in the present, and expect to see them again, I would say sometimes is better"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	21
+2020-11-09 14:31:06	"teacher008"	"teacher"	153	"Ok, we're out of time for today! I've emailed you the answer key, so feel free to practice on your own!"	"Ok, we're out of time for today! I've emailed you the answer key, so feel free to practice on your own!"	NA	"8.0"	"closing,homework"	NA	NA	NA	21
+2020-11-09 14:31:21	"student015"	"student"	154	"Thanks a lot!"	"Thanks a lot!"	NA	NA	NA	NA	NA	NA	3
+2020-11-09 14:31:36	"teacher008"	"teacher"	155	"And I'll speak to you at the same time on Thursday :)"	"And I'll speak to you at the same time on Thursday :)"	153	NA	NA	NA	NA	NA	12
+2020-11-09 14:31:50	"teacher008"	"teacher"	156	"It's my pleasure, bye!"	"It's my pleasure, bye!"	154	NA	NA	NA	NA	NA	4
+2020-11-09 14:31:53	"student015"	"student"	157	"Yes. Hope to meet you again!"	"Yes. Hope to talk to you again!"	NA	NA	NA	NA	NA	NA	6
+2020-11-09 14:31:59	"student015"	"student"	158	"Bye"	"Bye"	NA	NA	NA	NA	NA	"B2"	1

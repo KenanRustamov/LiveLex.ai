@@ -1,0 +1,140 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-12-10 13:31:17	"student015"	"student"	1	"Hello, <TEACHER>."	"Hello, <TEACHER>."	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-12-10 13:31:20	"teacher008"	"teacher"	2	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	NA	NA	NA	NA	NA	2
+2020-12-10 13:31:24	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-12-10 13:31:42	"student015"	"student"	4	"I'm sorry I didn't have time to chat with you on Monday this week."	"I'm sorry I didn't have time to chat with you on Monday this week."	NA	"1a"	NA	NA	NA	NA	14
+2020-12-10 13:31:48	"student015"	"student"	5	"I'm OK."	"I'm OK."	3	NA	NA	NA	NA	NA	2
+2020-12-10 13:31:54	"student015"	"student"	6	"Thanks"	"Thanks"	NA	NA	NA	NA	NA	NA	1
+2020-12-10 13:32:47	"teacher008"	"teacher"	7	"No problem! Life gets in the way"	"No problem! Life gets in the way"	4	NA	NA	NA	NA	NA	7
+2020-12-10 13:33:08	"teacher008"	"teacher"	8	"How's your week? Sounds like it has been very busy?"	"How's your week? Sounds like it has been very busy?"	NA	"2a"	"topic development"	NA	NA	NA	10
+2020-12-10 13:33:56	"student015"	"student"	9	"Yes. Actually I was really busy the other day."	"Yes. Actually I was really busy the other day."	NA	NA	NA	NA	NA	NA	9
+2020-12-10 13:34:08	"student015"	"student"	10	"But now I'm OK."	"But now I'm OK."	NA	NA	NA	NA	NA	NA	4
+2020-12-10 13:34:38	"teacher008"	"teacher"	11	"I see! What type of AI are you actually working with?"	"I see! What type of AI are you actually working with?"	NA	"2b"	"topic development"	NA	NA	NA	11
+2020-12-10 13:35:47	"student015"	"student"	12	"In my work, we use machine learning algorithms to score the risk of customers."	"In my work, we use machine learning algorithms to calculate the risk to customers."	NA	NA	NA	NA	NA	NA	14
+2020-12-10 13:36:30	"student015"	"student"	13	"Financial risk"	"Financial risk"	NA	NA	NA	NA	NA	NA	2
+2020-12-10 13:36:51	"teacher008"	"teacher"	14	"Ok, interesting! Which customers?"	"Ok, interesting! Which customers?"	NA	NA	NA	NA	NA	NA	4
+2020-12-10 13:38:19	"student015"	"student"	15	"We concentrate on customers who buy things online or who want to buy things use installment."	"We concentrate on customers who buy things online or who want to buy things in installments."	NA	NA	NA	NA	NA	NA	16
+2020-12-10 13:39:51	"teacher008"	"teacher"	16	"oh, do you mean they pay in instalments? in parts rather than the whole sum?"	"oh, do you mean they pay in instalments? in parts rather than the whole sum?"	NA	NA	"repair"	"lexical resource"	NA	NA	15
+2020-12-10 13:40:06	"student015"	"student"	17	"JD company in China is like the Amazon website in the UK."	"JD company in China is like the Amazon website in the UK."	15	NA	NA	NA	NA	NA	12
+2020-12-10 13:40:32	"student015"	"student"	18	"Yes. Pay in installment"	"Yes. Pay in installments"	16	NA	NA	NA	NA	NA	4
+2020-12-10 13:40:37	"teacher008"	"teacher"	19	"Ah, ok!"	"Ah, ok!"	NA	NA	NA	NA	NA	NA	2
+2020-12-10 13:40:59	"teacher008"	"teacher"	20	"So you're calculating the risk to customers who choose to pay for good in instalments?"	"So you're calculating the risk to customers who choose to pay for good in instalments?"	NA	NA	"repair"	"lexical resource"	NA	NA	15
+2020-12-10 13:41:06	"teacher008"	"teacher"	21	"or your AI does"	"or your AI does"	NA	NA	NA	NA	NA	NA	4
+2020-12-10 13:41:15	"teacher008"	"teacher"	22	"*for goods"	"*for goods"	20	NA	"repair"	"writing"	NA	NA	2
+2020-12-10 13:42:29	"student015"	"student"	23	"We use algorithms which come from AI do this job."	"We use algorithms which come from AI to do this job."	21	NA	NA	NA	NA	NA	10
+2020-12-10 13:42:43	"teacher008"	"teacher"	24	"I see, interesting!"	"I see, interesting!"	NA	NA	NA	NA	NA	NA	3
+2020-12-10 13:43:07	"teacher008"	"teacher"	25	"JD is a sports shop in the UK :)"	"JD is a sports shop in the UK :)"	NA	NA	NA	NA	NA	NA	9
+2020-12-10 13:44:04	"student015"	"student"	26	"Haha. OK."	"Haha. OK."	NA	NA	NA	NA	NA	NA	2
+2020-12-10 13:44:07	"teacher008"	"teacher"	27	"Pay in installments' is spelled with double ll in US English and only one l in UK English ('pay in instalments')"	"Pay in installments' is spelled with double ll in US English and only one l in UK English ('pay in instalments')"	NA	NA	"scaffolding"	"lexical resource,writing"	NA	NA	21
+2020-12-10 13:44:23	"teacher008"	"teacher"	28	"Yes, a place where people go to buy trainers :)"	"Yes, a place where people go to buy trainers :)"	26	NA	NA	NA	NA	NA	10
+2020-12-10 13:44:35	"student015"	"student"	29	"OK."	"OK."	27	NA	NA	NA	NA	NA	1
+2020-12-10 13:45:16	"teacher008"	"teacher"	30	"Are you looking forward to the weekend?"	"Are you looking forward to the weekend?"	NA	"3.0"	"topic opening"	NA	NA	NA	7
+2020-12-10 13:46:10	"student015"	"student"	31	"Yes. This weekends I will go to my parents' place."	"Yes. This weekend I'm going to my parents' place."	NA	NA	NA	NA	NA	NA	10
+2020-12-10 13:46:38	"student015"	"student"	32	"I haven’t go to see my parents two months."	"I haven’t been to see my parents for two months."	NA	NA	NA	NA	NA	NA	9
+2020-12-10 13:46:44	"teacher008"	"teacher"	33	"Ok, is this your plan or something you have just decided to do? :)"	"Ok, is this your plan or something you have just decided to do? :)"	NA	"3a"	"eliciting,repair"	"grammatical resource"	NA	NA	14
+2020-12-10 13:47:04	"teacher008"	"teacher"	34	"Oh, I see! Sounds lovely, hope you have a great time!"	"Oh, I see! Sounds lovely, hope you have a great time!"	32	NA	NA	NA	NA	NA	11
+2020-12-10 13:47:15	"student015"	"student"	35	"I have already buy the train tickets."	"I have already bought the train tickets."	33	NA	NA	NA	NA	NA	7
+2020-12-10 13:48:00	"teacher008"	"teacher"	36	"Ok, so it's a plan. Do you remember the ways to talk about plans?"	"Ok, so it's a plan. Do you remember the ways to talk about plans?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	14
+2020-12-10 13:48:04	"teacher008"	"teacher"	37	"grammatically"	"grammatically"	NA	NA	NA	NA	NA	NA	1
+2020-12-10 13:48:58	"student015"	"student"	38	"I go to my parents' place at 19:00 on Friday this week."	"I'm going to my parents' place at 19:00 on Friday this week."	NA	NA	NA	NA	NA	NA	12
+2020-12-10 13:49:31	"teacher008"	"teacher"	39	"Remember we were talking about present continous / going to for plans?"	"Remember we were talking about present continous / going to for plans?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	12
+2020-12-10 13:49:41	"teacher008"	"teacher"	40	"For example, this weekend I'm going to bake a cake"	"For example, this weekend I'm going to bake a cake"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-12-10 13:49:53	"teacher008"	"teacher"	41	"I'm going to take my son for a swim at the swimming pool"	"I'm going to take my son for a swim at the swimming pool"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-12-10 13:51:02	"student015"	"student"	42	"Yes. We use 'present continous' with schedule time."	"Yes. We use 'present continuous' with scheduled time."	39	NA	NA	NA	NA	NA	8
+2020-12-10 13:51:06	"student015"	"student"	43	"Right?"	"Right?"	NA	NA	NA	NA	NA	NA	1
+2020-12-10 13:51:31	"teacher008"	"teacher"	44	"Not quite! We use present simple for schedules. For example, I start work at 10 am tomorrow"	"Not quite! We use present simple for schedules. For example, I start work at 10 am tomorrow"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	17
+2020-12-10 13:51:39	"teacher008"	"teacher"	45	"we use present continous for plans"	"we use present continous for plans"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-12-10 13:52:26	"teacher008"	"teacher"	46	"I'm going to buy a Christmas present for my husband this weekend"	"I'm going to buy a Christmas present for my husband this weekend"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	12
+2020-12-10 13:52:31	"student015"	"student"	47	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 13:52:52	"teacher008"	"teacher"	48	"this is actually an example with 'going to'"	"this is actually an example with 'going to'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-12-10 13:53:08	"teacher008"	"teacher"	49	"I'm calling my friend on Skype tonight"	"I'm calling my friend on Skype tonight"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	7
+2020-12-10 13:53:21	"teacher008"	"teacher"	50	"My friend and I have arranged to call on Skype, it's our plan"	"My friend and I have arranged to call on Skype, it's our plan"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-12-10 13:53:44	"teacher008"	"teacher"	51	"How would you change your sentence about going to your parents'?"	"How would you change your sentence about going to your parents'?"	NA	"3b"	"eliciting,repair"	"grammatical resource"	NA	NA	11
+2020-12-10 13:54:23	"student015"	"student"	52	"I'm going to my parent’s place on Friday."	"I'm going to my parents' place on Friday."	NA	NA	NA	NA	NA	NA	8
+2020-12-10 13:54:49	"teacher008"	"teacher"	53	"Yes! I like it))"	"Yes! I like it))"	NA	NA	NA	NA	NA	NA	4
+2020-12-10 13:55:09	"student015"	"student"	54	"OR I will go to my parents' place on Friday. Right?"	"OR I will go to my parents' place on Friday. Right?"	NA	"3c"	"enquiry"	"grammatical resource"	NA	NA	11
+2020-12-10 13:55:25	"teacher008"	"teacher"	55	"We use will for something we've just decided to do"	"We use will for something we've just decided to do"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-12-10 13:55:43	"teacher008"	"teacher"	56	"Oh, you know what, I think I'll call my parents!"	"Oh, you know what, I think I'll call my parents!"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2020-12-10 13:56:05	"teacher008"	"teacher"	57	"will' shows that I've just decided to call my parents, it's not something I've been planning to do"	"will' shows that I've just decided to call my parents, it's not something I've been planning to do"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2020-12-10 13:56:19	"student015"	"student"	58	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 13:56:27	"teacher008"	"teacher"	59	"and you can use 'will' with phrases like 'I think / I hope'"	"and you can use 'will' with phrases like 'I think / I hope'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-12-10 13:56:52	"teacher008"	"teacher"	60	"I hope we will fix climate change problems soon"	"I hope we will fix climate change problems soon"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-12-10 13:57:03	"teacher008"	"teacher"	61	"I think Christmas will be different this year"	"I think Christmas will be different this year"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-12-10 13:57:05	"teacher008"	"teacher"	62	"things like this"	"things like this"	NA	NA	NA	NA	NA	NA	3
+2020-12-10 13:57:23	"student015"	"student"	63	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 13:57:58	"teacher008"	"teacher"	64	"Ok! Shall we look at another B2 writing task?"	"Ok! Shall we look at another B2 writing task?"	NA	"4.0"	"exercise"	"writing"	"textbook"	NA	9
+2020-12-10 13:58:09	"student015"	"student"	65	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 13:58:39	"teacher008"	"teacher"	66	"This is one of the options for Part 2 writing. An informal email"	"This is one of the options for Part 2 writing. An informal email"	NA	NA	NA	NA	NA	NA	13
+2020-12-10 13:58:56	"teacher008"	"teacher"	67	"Have you got the PDF handy?"	"Have you got the PDF handy?"	NA	NA	NA	NA	NA	NA	6
+2020-12-10 13:59:16	"student015"	"student"	68	"Yes. I have opened it."	"Yes. I have opened it."	NA	NA	NA	NA	NA	NA	5
+2020-12-10 13:59:33	"teacher008"	"teacher"	69	"Lovely, could you go to page 3? It's task 4"	"Lovely, could you go to page 3? It's task 4"	NA	NA	NA	NA	NA	NA	10
+2020-12-10 14:00:09	"student015"	"student"	70	"Write an email."	"Write an email."	NA	NA	NA	NA	NA	NA	3
+2020-12-10 14:01:32	"teacher008"	"teacher"	71	"Yes, you received an email from David and need to write back to him"	"Yes, you received an email from David and need to write back to him"	NA	NA	NA	NA	NA	NA	14
+2020-12-10 14:01:39	"teacher008"	"teacher"	72	"How would you start your email?"	"How would you start your email?"	NA	"4a"	"eliciting"	"writing"	NA	NA	6
+2020-12-10 14:01:56	"student015"	"student"	73	"Dear David,"	"Dear David,"	NA	NA	NA	NA	NA	NA	2
+2020-12-10 14:02:41	"teacher008"	"teacher"	74	"Ok, but also, he is your friend, so maybe something less formal like, Hi David"	"Ok, but also, he is your friend, so maybe something less formal like, Hi David"	NA	NA	"scaffolding"	"lexical resource,register,writing"	NA	NA	15
+2020-12-10 14:02:55	"student015"	"student"	75	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 14:03:48	"teacher008"	"teacher"	76	"I will give you an example. When I talk to the HR department at work (human resources), I don't know the people there and I write very formally to them"	"I will give you an example. When I talk to the HR department at work (human resources), I don't know the people there and I write very formally to them"	NA	NA	"scaffolding"	"lexical resource,writing,register"	NA	NA	30
+2020-12-10 14:03:54	"teacher008"	"teacher"	77	"I start with Dear (name)"	"I start with Dear (name)"	NA	NA	"scaffolding"	"lexical resource,writing,register"	NA	NA	5
+2020-12-10 14:04:04	"teacher008"	"teacher"	78	"and they answer with Dear <TEACHER>"	"and they answer with Dear <TEACHER>"	NA	NA	"scaffolding"	"lexical resource,writing,register"	NA	NA	6
+2020-12-10 14:04:12	"student015"	"student"	79	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 14:04:18	"teacher008"	"teacher"	81	"But when I talk to my boss, I just write 'Hi (name)'"	"But when I talk to my boss, I just write 'Hi (name)'"	NA	NA	"scaffolding"	"lexical resource,writing,register"	NA	NA	12
+2020-12-10 14:04:26	"teacher008"	"teacher"	82	"Even though he is my boss, not my friend"	"Even though he is my boss, not my friend"	NA	NA	"scaffolding"	"lexical resource,writing,register"	NA	NA	9
+2020-12-10 14:04:50	"teacher008"	"teacher"	83	"Just an example about the UK, but it might be very different in China, I don't know!"	"Just an example about the UK, but it might be very different in China, I don't know!"	NA	NA	NA	NA	NA	NA	17
+2020-12-10 14:05:06	"teacher008"	"teacher"	84	"But you would definitely not write 'Dear' to you friend :)"	"But you would definitely not write 'Dear' to you friend :)"	NA	NA	"scaffolding"	"lexical resource,writing,register"	NA	NA	11
+2020-12-10 14:05:20	"student015"	"student"	85	"Yes."	"Yes."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 14:05:46	"teacher008"	"teacher"	86	"Ok! What would you write next?"	"Ok! What would you write next?"	NA	"4b"	"eliciting"	"writing"	NA	NA	6
+2020-12-10 14:06:49	"student015"	"student"	87	"It sounds great that your are going to have a holiday in my city."	"It sounds great that you are going to have a holiday in my city."	NA	NA	NA	NA	NA	NA	14
+2020-12-10 14:06:54	"student015"	"student"	88	"you"	"you"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-12-10 14:08:01	"student015"	"student"	89	"I don’t know if I should write the real 'places', like Beijing, or just use 'my place'."	"I don’t know if I should write the real 'places', like Beijing, or just use 'my place'."	NA	"4c"	"enquiry"	"writing,task achievement"	NA	NA	17
+2020-12-10 14:08:03	"teacher008"	"teacher"	90	"Ok, great reaction to his email, I like it. The only problem is, is David going to to visit? Could you re-read the task?"	"Ok, great reaction to his email, I like it. The only problem is, is David going to to visit? Could you re-read the task?"	87	NA	"eliciting,repair"	"task achievement"	NA	NA	24
+2020-12-10 14:08:26	"teacher008"	"teacher"	91	"Feel free to write Beijing! It will be easier for you to talk about the real place"	"Feel free to write Beijing! It will be easier for you to talk about the real place"	89	NA	"scaffolding"	"writing,task achievement"	NA	NA	17
+2020-12-10 14:09:07	"student015"	"student"	92	"It's David's colledge friends."	"It's David's college friends."	90	NA	NA	NA	NA	NA	4
+2020-12-10 14:09:31	"student015"	"student"	93	"It sounds great that your friends are going to have a holiday in my city."	"It sounds great that your friends are going to have a holiday in my city."	NA	NA	NA	NA	NA	NA	15
+2020-12-10 14:09:45	"teacher008"	"teacher"	94	"Yes, perfect!"	"Yes, perfect!"	NA	NA	NA	NA	NA	NA	2
+2020-12-10 14:11:04	"teacher008"	"teacher"	95	"Ok, and then you have to answer two questions. Places to visit in Beijing and best way to travel (car / bike / coach)"	"Ok, and then you have to answer two questions. Places to visit in Beijing and best way to travel (car / bike / coach)"	NA	"4d"	"scaffolding"	"writing,task achievement"	NA	NA	24
+2020-12-10 14:11:20	"teacher008"	"teacher"	96	"A paragraph for each question would be logical"	"A paragraph for each question would be logical"	NA	NA	"scaffolding"	"writing,discourse management"	NA	NA	8
+2020-12-10 14:11:28	"teacher008"	"teacher"	97	"Would you like to have a go at the first question?"	"Would you like to have a go at the first question?"	NA	"4e"	"eliciting"	"writing"	NA	NA	11
+2020-12-10 14:16:31	"student015"	"student"	98	"As you know, Beijing is the capital of China, so it's really a good choice for holiday. There are a lot of places they can go. Let me introduce some kind of places. If they want to feel the culture of Beijing, they can go to somewhere like Wangfujing or Nanluoguxiang. In these place they can eat the classical chinese snacks, see the chinese silk."	"As you know, Beijing is the capital of China, so it's a really good choice for a holiday. There are a lot of places they can go. Let me introduce some of the places. If they want to feel the culture of Beijing, they can go somewhere like Wangfujing or Nanluoguxiang. In these places they can eat classical chinese snacks and see Chinese silk."	NA	NA	NA	NA	NA	NA	65
+2020-12-10 14:17:39	"teacher008"	"teacher"	99	"Ok, thank you!"	"Ok, thank you!"	NA	NA	NA	NA	NA	NA	3
+2020-12-10 14:18:11	"teacher008"	"teacher"	100	"Very good grammar, by the way!"	"Very good grammar, by the way!"	NA	NA	NA	NA	NA	NA	6
+2020-12-10 14:18:45	"teacher008"	"teacher"	101	"it's really a good choice for holiday --- it's a really good choice for A holiday"	"it's really a good choice for holiday --- it's a really good choice for A holiday"	NA	"4f"	"repair"	"grammatical resource"	NA	NA	16
+2020-12-10 14:19:10	"student015"	"student"	102	"Thanks. Actually I still have something to write about the history place, but the time is limit."	"Thanks. Actually I still have something to write about historic places, but the time is limited."	100	NA	NA	NA	NA	NA	17
+2020-12-10 14:19:14	"teacher008"	"teacher"	103	"What words do you think you could use instead of 'really good'? To show that you know interesting words in English"	"What words do you think you could use instead of 'really good'? To show that you know interesting words in English"	NA	"4g"	"eliciting"	"lexical resource"	NA	NA	21
+2020-12-10 14:19:35	"student015"	"student"	104	"It's a great choice for a holiday."	"It's a great choice for a holiday."	NA	NA	NA	NA	NA	NA	7
+2020-12-10 14:19:37	"teacher008"	"teacher"	105	"Yes, definitely, you'll be able to add things later on"	"Yes, definitely, you'll be able to add things later on"	102	NA	NA	NA	NA	NA	10
+2020-12-10 14:19:47	"teacher008"	"teacher"	106	"Great, yes! Anything else?"	"Great, yes! Anything else?"	104	NA	NA	NA	NA	NA	4
+2020-12-10 14:20:06	"student015"	"student"	107	"awesome?"	"awesome?"	NA	NA	NA	NA	NA	NA	1
+2020-12-10 14:20:34	"teacher008"	"teacher"	108	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-12-10 14:20:42	"teacher008"	"teacher"	109	"Absolutely, in an email to a friend"	"Absolutely, in an email to a friend"	NA	NA	"scaffolding"	"lexical resource,register"	NA	NA	7
+2020-12-10 14:20:56	"teacher008"	"teacher"	110	"also, excellent / brilliant"	"also, excellent / brilliant"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-12-10 14:21:02	"student015"	"student"	111	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 14:21:26	"teacher008"	"teacher"	112	"some kind of places --- some of the places / some places"	"some kind of places --- some of the places / some places"	NA	"4h"	"repair"	"lexical resource"	NA	NA	12
+2020-12-10 14:21:58	"teacher008"	"teacher"	113	"feel the culture' is not a great expression, I would go for 'experience the culture / explore the culture'"	"feel the culture' is not a great expression, I would go for 'experience the culture / explore the culture'"	NA	NA	"repair,scaffolding"	"lexical resource"	NA	NA	19
+2020-12-10 14:22:22	"student015"	"student"	114	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 14:22:24	"teacher008"	"teacher"	115	"experience' has the same meaning as 'feel' but is a better choice of a word"	"experience' has the same meaning as 'feel' but is a better choice of a word"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-12-10 14:23:07	"teacher008"	"teacher"	116	"In these place they can eat the classical chinese snacks, see the chinese silk."	"In these place they can eat the classical chinese snacks, see the chinese silk."	NA	"4i"	NA	NA	NA	NA	14
+2020-12-10 14:23:24	"teacher008"	"teacher"	117	"I would put 'and' instead of a comma and get rid of articles"	"I would put 'and' instead of a comma and get rid of articles"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-12-10 14:23:42	"teacher008"	"teacher"	118	"you don't mean some concrete snacks, just general snacks"	"you don't mean some concrete snacks, just general snacks"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	9
+2020-12-10 14:24:33	"student015"	"student"	119	"OK."	"OK."	NA	NA	NA	NA	NA	NA	1
+2020-12-10 14:24:33	"teacher008"	"teacher"	120	"they can eat classic Chinese snacks and see Chinese silk"	"they can eat classic Chinese snacks and see Chinese silk"	NA	NA	"repair"	"lexical resource,grammatical resource"	NA	NA	10
+2020-12-10 14:24:49	"teacher008"	"teacher"	121	"Also, would 'food' be better than 'snacks'?"	"Also, would 'food' be better than 'snacks'?"	NA	"4j"	"eliciting"	"lexical resource"	NA	NA	7
+2020-12-10 14:25:21	"student015"	"student"	122	"Yes. 'food' is better in English."	"Yes. 'food' is better in English."	NA	NA	NA	NA	NA	NA	6
+2020-12-10 14:25:51	"teacher008"	"teacher"	123	"Yes, 'a snack' is something you eat between meals, like a biscuit or an apple or a packet of crisps"	"Yes, 'a snack' is something you eat between meals, like a biscuit or an apple or a packet of crisps"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	20
+2020-12-10 14:25:58	"student015"	"student"	124	"In China we always say classic food as snacks, and food just normal food."	"In China we always say classic food as snacks, and food just means normal food."	NA	NA	NA	NA	NA	NA	14
+2020-12-10 14:26:02	"teacher008"	"teacher"	125	"What are some common snacks in China?"	"What are some common snacks in China?"	NA	NA	NA	NA	NA	NA	7
+2020-12-10 14:26:43	"teacher008"	"teacher"	126	"Ah, I didn't know that. So you use classic Chinese food as snacks, not for meals?"	"Ah, I didn't know that. So you use classic Chinese food as snacks, not for meals?"	124	NA	NA	NA	NA	NA	16
+2020-12-10 14:27:00	"student015"	"student"	127	"Not for meals."	"Not for meals."	NA	NA	NA	NA	NA	NA	3
+2020-12-10 14:27:26	"student015"	"student"	128	"Normally We don't eat anything before meals."	"Normally we don't eat anything before meals."	NA	NA	NA	NA	NA	NA	7
+2020-12-10 14:28:11	"teacher008"	"teacher"	129	"You don't eat between meals? Do you only eat breakfast, lunch and dinner?"	"You don't eat between meals? Do you only eat breakfast, lunch and dinner?"	NA	NA	NA	NA	NA	NA	13
+2020-12-10 14:28:43	"student015"	"student"	130	"for common snacks, I don't know how to speak in English."	"for common snacks, I don't know how to say it in English."	125	NA	NA	NA	NA	NA	11
+2020-12-10 14:28:52	"teacher008"	"teacher"	131	"For example, I eat breakfast, lunch and dinner, but between meals I eat some chocolate, an apple or a banana"	"For example, I eat breakfast, lunch and dinner, but between meals I eat some chocolate, an apple or a banana"	129	NA	NA	NA	NA	NA	20
+2020-12-10 14:29:05	"teacher008"	"teacher"	132	"Haha, we got stuck on cultural differences!"	"Haha, we got stuck on cultural differences!"	130	NA	NA	NA	NA	NA	7
+2020-12-10 14:29:42	"teacher008"	"teacher"	133	"Some chocolate, an apple and a banana are snacks for me, but pasta and porridge are meals"	"Some chocolate, an apple and a banana are snacks for me, but pasta and porridge are meals"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-12-10 14:29:47	"student015"	"student"	134	"I will check them after class."	"I will check them after class."	130	NA	NA	NA	NA	NA	6
+2020-12-10 14:30:10	"teacher008"	"teacher"	135	"No worries! It's interesting to talk about these things. In some countries people snack more than in others!"	"No worries! It's interesting to talk about these things. In some countries people snack more than in others!"	NA	NA	NA	NA	NA	NA	18
+2020-12-10 14:30:52	"student015"	"student"	136	"Yes. I think I haven’t express the right mean of snack in China."	"Yes. I think I haven’t expressed the right meaning of 'snack' in China."	NA	NA	NA	NA	NA	NA	13
+2020-12-10 14:31:14	"teacher008"	"teacher"	137	"Ok, if you have the time, will you write this email as homework? No rush, you can do it for Thursday instead of Monday. But most importantly, have a great time with your parents!"	"Ok, if you have the time, will you write this email as homework? No rush, you can do it for Thursday instead of Monday. But most importantly, have a great time with your parents!"	NA	"5.0"	"homework,closing"	NA	NA	NA	34
+2020-12-10 14:31:42	"student015"	"student"	138	"OK. I will write this email, and send to you. Thanks"	"OK. I will write this email, and send to you. Thanks"	NA	NA	NA	NA	NA	NA	11
+2020-12-10 14:31:54	"teacher008"	"teacher"	139	"Lovely, have a great weekend! Bye!"	"Lovely, have a great weekend! Bye!"	NA	NA	NA	NA	NA	NA	6
+2020-12-10 14:32:01	"student015"	"student"	140	"Bye"	"Bye"	NA	NA	NA	NA	NA	"B2"	1

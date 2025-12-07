@@ -1,0 +1,90 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-03-31 10:21:55	"teacher001"	"teacher"	1	"Hey sorry <STUDENT> had to go out for a minute!"	"Hey sorry <STUDENT> had to go out for a minute!"	NA	"1.0"	"opening"	NA	NA	NA	10
+2020-03-31 10:22:01	"student007"	"student"	2	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-31 10:22:17	"student007"	"student"	3	"no problem"	"no problem"	NA	NA	NA	NA	NA	NA	2
+2020-03-31 10:22:34	"teacher001"	"teacher"	4	"So you got my email with the answers right? You don't need to look at them now - just checking"	"So you got my email with the answers right? You don't need to look at them now - just checking"	NA	"2.0"	"topic opening"	NA	NA	NA	20
+2020-03-31 10:22:53	"student007"	"student"	5	"yes, I am checking them"	"yes, I am checking them"	NA	NA	NA	NA	NA	NA	5
+2020-03-31 10:25:12	"teacher001"	"teacher"	6	"OK so can I move to some speaking questions? The topic I have here is 'Work' - before we start perhaps I can ask you a couple of more simple/direct questions <STUDENT>....what do you want to do in the future (i mean as a job)?"	"OK so can I move to some speaking questions? The topic I have here is 'Work' - before we start perhaps I can ask you a couple of more simple/direct questions <STUDENT>....what do you want to do in the future (i mean as a job)?"	NA	"3.0"	"exercise"	"speaking"	NA	NA	45
+2020-03-31 10:26:26	"student007"	"student"	7	"I want to becoming an investment banker"	"I want to become an investment banker"	NA	NA	NA	NA	NA	NA	7
+2020-03-31 10:30:18	"teacher001"	"teacher"	8	"Sorry internet down there for a second....ok yes I think I remember your banking ambitions now"	"Sorry internet down there for a second....ok yes I think I remember your banking ambitions now"	NA	NA	NA	NA	NA	NA	16
+2020-03-31 10:30:48	"teacher001"	"teacher"	9	"So can I ask you why you want to do this job? Your main reasons....?"	"So can I ask you why you want to do this job? Your main reasons....?"	NA	"3a"	NA	NA	NA	NA	15
+2020-03-31 10:34:58	"student007"	"student"	10	"As matter of fact, I really want to found my own hedge fund company in the future. so I asked to my bother who woks in a really well-know investment banking. And he told to me, If I want do something I want, I need to have some experience in investment banking firstly."	"As a matter of fact, I really want to found my own hedge fund company in the future. so I asked to my bother who woks in a really well-know investment banking. And he told to me, If I want do something I want, I need to have some experience in investment banking firstly."	NA	NA	NA	NA	NA	NA	53
+2020-03-31 10:37:12	"teacher001"	"teacher"	11	"OK I understand - so your brother already has  career in this area? That's great! So yes I guess if you wan t to set up your own company you need some experience first - that makes sense. Do you have any experience at all? What about your academic background? Remind me!"	"OK I understand - so your brother already has  career in this area? That's great! So yes I guess if you wan t to set up your own company you need some experience first - that makes sense. Do you have any experience at all? What about your academic background? Remind me!"	NA	"3b"	NA	NA	NA	NA	53
+2020-03-31 10:37:26	"teacher001"	"teacher"	12	"sorry 'a career' = correct"	"sorry 'a career' = correct"	NA	NA	"repair"	"writing"	NA	NA	5
+2020-03-31 10:40:35	"student007"	"student"	13	"yes I did some internships and part time assistant."	"yes I did some internships and worked as a part-time assistant."	"11.0"	NA	NA	NA	NA	NA	9
+2020-03-31 10:41:09	"teacher001"	"teacher"	14	"Oh right OK so you have a rough idea - and what was your degree in?"	"Oh right OK so you have a rough idea - and what was your degree in?"	NA	"3c"	NA	NA	NA	NA	16
+2020-03-31 10:41:15	"teacher001"	"teacher"	15	"Economics?"	"Economics?"	NA	NA	NA	NA	NA	NA	1
+2020-03-31 10:41:31	"student007"	"student"	16	"I study economic in Japan and I will study it in the UK"	"I studied economics in Japan and I will study it in the UK"	NA	NA	NA	NA	NA	NA	13
+2020-03-31 10:41:38	"student007"	"student"	17	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-31 10:42:00	"teacher001"	"teacher"	18	"yes I remember now sorry - the master's!"	"yes I remember now sorry - the master's!"	NA	NA	NA	NA	NA	NA	8
+2020-03-31 10:42:24	"student007"	"student"	19	"no,,,I will study my first degree in the UK"	"no, I will study my first degree in the UK"	NA	NA	NA	NA	NA	NA	9
+2020-03-31 10:43:13	"student007"	"student"	20	"I just left from Japan's university and becoming a freshman in the UK"	"I have just left the university in Japan to become a freshman in the UK"	NA	NA	NA	NA	NA	NA	13
+2020-03-31 10:44:15	"student007"	"student"	21	"because I really want to study in LSE for my master, it is really difficult for me if I graduated from Japan."	"because I really want to study for my master's at LSE, it would be really difficult for me if I graduated in Japan."	NA	NA	NA	NA	NA	NA	22
+2020-03-31 10:44:39	"teacher001"	"teacher"	22	"When you say 'freshman' you mean in your first year right ?Sorry, it's an American phrase...what's the word for a second-year student?"	"When you say 'freshman' you mean in your first year right ?Sorry, it's an American phrase...what's the word for a second-year student?"	NA	"3d"	"scaffolding,eliciting"	"lexical resource"	NA	NA	22
+2020-03-31 10:45:16	"teacher001"	"teacher"	23	"Difficult because they don't want to accept the degree from Japan you mean?"	"Difficult because they don't want to accept the degree from Japan you mean?"	"21.0"	NA	NA	NA	NA	NA	13
+2020-03-31 10:45:49	"student007"	"student"	24	"I do not know the second year student"	"I do not know the word for a second year student"	"22.0"	NA	NA	NA	NA	NA	8
+2020-03-31 10:46:19	"student007"	"student"	25	"yes,,because the education system is different, so it not easy"	"yes ,because the education system is different, it's not easy"	"23.0"	NA	NA	NA	NA	NA	10
+2020-03-31 10:47:02	"student007"	"student"	26	"but if I graduated in the UK, it become more easy to apply LSE"	"but if I graduate in the UK, it will be easier to apply to LSE"	NA	NA	NA	NA	NA	NA	14
+2020-03-31 10:47:33	"teacher001"	"teacher"	27	"Yes I understand ...I'd forgotten the word too but I've just checked and I remember now! 'sophmore'"	"Yes I understand ...I'd forgotten the word too but I've just checked and I remember now! 'sophmore'"	"26, 22"	NA	"scaffolding"	"lexical resource"	NA	NA	17
+2020-03-31 10:47:45	"teacher001"	"teacher"	28	"sorry: 'sophomore'"	"sorry: 'sophomore'"	NA	NA	"repair"	"writing"	NA	NA	2
+2020-03-31 10:48:28	"student007"	"student"	29	"okey"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-31 10:48:49	"teacher001"	"teacher"	30	"OK thanks <STUDENT> hold on...."	"OK thanks <STUDENT> hold on...."	NA	NA	NA	NA	NA	NA	5
+2020-03-31 10:49:10	"teacher001"	"teacher"	31	"So I think we need to think about verb tenses a little bit...I"	"So I think we need to think about verb tenses a little bit...I"	NA	"4.0"	"scaffolding"	"grammatical resource"	"chat"	NA	13
+2020-03-31 10:49:57	"student007"	"student"	32	"yes..because my sentences are not logic I suppose."	"yes..because my sentences are not logical I suppose."	NA	NA	NA	NA	NA	NA	8
+2020-03-31 10:50:43	"teacher001"	"teacher"	33	"So you were talking about the past and then about the future in your answers just now....and I could understand I suppose but I had to work it out for myself because your tenses were not reliable!"	"So you were talking about the past and then about the future in your answers just now....and I could understand I suppose but I had to work it out for myself because your tenses were not reliable!"	NA	NA	NA	NA	NA	NA	37
+2020-03-31 10:50:55	"teacher001"	"teacher"	34	"So hold on...."	"So hold on...."	NA	NA	NA	NA	NA	NA	3
+2020-03-31 10:51:25	"teacher001"	"teacher"	35	"So when you talk about university in the uK it's your PLAN right?"	"So when you talk about university in the uK it's your PLAN right?"	NA	"4a"	"scaffolding"	"grammatical resource"	NA	NA	13
+2020-03-31 10:51:34	"student007"	"student"	36	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-03-31 10:51:46	"teacher001"	"teacher"	37	"So do we use 'will'' for plans?!"	"So do we use 'will'' for plans?!"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	7
+2020-03-31 10:52:07	"teacher001"	"teacher"	38	"E.g. I will go to to London at the weekend' = correct?"	"E.g. I will go to to London at the weekend' = correct?"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	12
+2020-03-31 10:52:35	"student007"	"student"	39	"yes...I think it is corretc"	"yes...I think it is correct"	NA	NA	NA	NA	NA	NA	5
+2020-03-31 10:53:20	"teacher001"	"teacher"	40	"OK so <STUDENT> - we use 'will' for: PRomises/offers/decision we make right now this second and ...predictions BUT NOT plans OK?"	"OK so <STUDENT> - we use 'will' for: PRomises/offers/decision we make right now this second and ...predictions BUT NOT plans OK?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	21
+2020-03-31 10:54:07	"student007"	"student"	41	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-31 10:54:43	"student007"	"student"	42	"because the plans are not truth,  right?"	"because the plans are not the truth,  right?"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	8
+2020-03-31 10:54:59	"teacher001"	"teacher"	43	"So if you ask me aobut my plans for the weekend you say: 'HI <TEACHER>, what __________ at the weekend?' Can you complete this question in a natural way?  You need 3 words and one of them is 'doing'"	"So if you ask me aobut my plans for the weekend you say: 'HI <TEACHER>, what __________ at the weekend?' Can you complete this question in a natural way?  You need 3 words and one of them is 'doing'"	NA	"4b"	"scaffolding,eliciting"	"grammatical resource"	NA	NA	40
+2020-03-31 10:55:35	"student007"	"student"	44	"what are you going to do at the weekend?"	"what are you going to do at the weekend?"	NA	NA	NA	NA	NA	NA	9
+2020-03-31 10:55:56	"teacher001"	"teacher"	45	"OK thanks ...or 5 words and that's good!"	"OK thanks ...or 5 words and that's good!"	NA	NA	NA	NA	NA	NA	8
+2020-03-31 10:56:14	"teacher001"	"teacher"	46	"The other way is: 'What are you doing at the weekend'"	"The other way is: 'What are you doing at the weekend'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	11
+2020-03-31 10:56:46	"student007"	"student"	47	"okey~"	"ok"	NA	NA	NA	NA	NA	NA	1
+2020-03-31 10:57:00	"teacher001"	"teacher"	48	"So when we talk about plans we can use the present continuous or 'going to' but NOT will - this is the same in the question and answer (about plans)"	"So when we talk about plans we can use the present continuous or 'going to' but NOT will - this is the same in the question and answer (about plans)"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	30
+2020-03-31 10:57:39	"teacher001"	"teacher"	49	"When it is a general plan (maybe without exact dates times etc then we often use 'going to' just like you did in your question"	"When it is a general plan (maybe without exact dates times etc then we often use 'going to' just like you did in your question"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	25
+2020-03-31 10:58:11	"teacher001"	"teacher"	50	"So <STUDENT> can you quickly tell me your plans again but this time with the correct structure?"	"So <STUDENT> can you quickly tell me your plans again but this time with the correct structure?"	NA	"4c"	"eliciting"	"grammatical resource"	NA	NA	17
+2020-03-31 10:58:24	"teacher001"	"teacher"	51	"E.g. 'going to'!"	"E.g. 'going to'!"	NA	NA	NA	NA	NA	NA	3
+2020-03-31 10:59:33	"student007"	"student"	52	"I am going to establish my own hedge fund"	"I am going to establish my own hedge fund"	NA	NA	NA	NA	NA	NA	9
+2020-03-31 10:59:53	"teacher001"	"teacher"	53	"OK nice example!"	"OK nice example!"	NA	NA	NA	NA	NA	NA	3
+2020-03-31 11:00:09	"student007"	"student"	54	"OR I am going to finding a job in an investment banking."	"OR I am going to find a job in investment banking."	NA	NA	NA	NA	NA	NA	12
+2020-03-31 11:00:27	"student007"	"student"	55	"be going to so something, right?"	"be going to do something, right?"	NA	NA	NA	NA	NA	NA	6
+2020-03-31 11:00:31	"student007"	"student"	56	"do"	"do"	NA	NA	"repair"	"writing"	NA	NA	1
+2020-03-31 11:00:35	"teacher001"	"teacher"	57	"Yes thanks <STUDENT> - what comes after 'going to'? the infinitive or the gerund?"	"Yes thanks <STUDENT> - what comes after 'going to'? the infinitive or the gerund?"	NA	NA	"eliciting,repair"	"grammatical resource"	NA	NA	14
+2020-03-31 11:00:47	"teacher001"	"teacher"	58	"Yes that's it you've got it!"	"Yes that's it you've got it!"	"55.0"	NA	NA	NA	NA	NA	6
+2020-03-31 11:00:50	"student007"	"student"	59	"infinitive"	"infinitive"	"57.0"	NA	NA	NA	NA	NA	1
+2020-03-31 11:01:08	"student007"	"student"	60	"thanks.."	"thanks.."	"58.0"	NA	NA	NA	NA	NA	1
+2020-03-31 11:01:11	"teacher001"	"teacher"	61	"so I;m going to find' right?"	"so I;m going to find' right?"	NA	NA	NA	NA	NA	NA	6
+2020-03-31 11:01:36	"teacher001"	"teacher"	62	"and the place/company <STUDENT> is 'an investment BANK'"	"and the place/company <STUDENT> is 'an investment BANK'"	NA	"4d"	"repair"	"lexical resource"	NA	NA	8
+2020-03-31 11:02:00	"teacher001"	"teacher"	63	"the area/career/activity is 'investment banking'"	"the area/career/activity is 'investment banking'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2020-03-31 11:02:28	"teacher001"	"teacher"	64	"so you can say: a job in investment banking OR a job in AN investment BANK' do you see?"	"so you can say: a job in investment banking OR a job in AN investment BANK' do you see?"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	19
+2020-03-31 11:02:55	"student007"	"student"	65	"so...I am going to find a job in an investment bank"	"so...I am going to find a job in an investment bank"	NA	NA	NA	NA	NA	NA	11
+2020-03-31 11:03:03	"teacher001"	"teacher"	66	"because 'bank' is countable e.g. 'a bank' BUT banking is uncountable"	"because 'bank' is countable e.g. 'a bank' BUT banking is uncountable"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-03-31 11:03:03	"student007"	"student"	67	"yes,thanks"	"yes,thanks"	NA	NA	NA	NA	NA	NA	1
+2020-03-31 11:03:11	"teacher001"	"teacher"	68	"ok good"	"ok good"	NA	NA	NA	NA	NA	NA	2
+2020-03-31 11:03:30	"teacher001"	"teacher"	69	"And one last test: what are your plans after this lesson?"	"And one last test: what are your plans after this lesson?"	NA	"4e"	"eliciting"	"grammatical resource"	NA	NA	11
+2020-03-31 11:04:58	"student007"	"student"	70	"I am going to revision all knowledge which I studied in the class"	"I am going to revise everything I learned in class"	NA	NA	NA	NA	NA	NA	13
+2020-03-31 11:05:27	"teacher001"	"teacher"	71	"OK good answer - what a good student1"	"OK good answer - what a good student1"	NA	NA	NA	NA	NA	NA	8
+2020-03-31 11:06:10	"teacher001"	"teacher"	72	"OK so remember: 'going to' + infinitive (VERB right?) - so where's your verb?"	"OK so remember: 'going to' + infinitive (VERB right?) - so where's your verb?"	"70.0"	NA	"eliciting,repair"	"grammatical resource,lexical resource"	NA	NA	14
+2020-03-31 11:07:00	"student007"	"student"	73	"the verb is after  the 'going to'"	"the verb is after  the 'going to'"	NA	NA	NA	NA	NA	NA	8
+2020-03-31 11:07:45	"student007"	"student"	74	"I am going to review the knowledge which I study in this class."	"I am going to review what I learned in this class."	NA	NA	NA	NA	NA	NA	13
+2020-03-31 11:07:56	"teacher001"	"teacher"	75	"so is 'revision' a verb? Remember the ending -ion is common for nouns"	"so is 'revision' a verb? Remember the ending -ion is common for nouns"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	13
+2020-03-31 11:08:03	"teacher001"	"teacher"	76	"Ah yes better!"	"Ah yes better!"	NA	NA	NA	NA	NA	NA	3
+2020-03-31 11:11:42	"teacher001"	"teacher"	77	"so 'review' is possible or 'revise'"	"so 'review' is possible or 'revise'"	NA	NA	"scaffolding"	"lexical resource,grammatical resource"	NA	NA	6
+2020-03-31 11:11:42	"student007"	"student"	80	"thanks ,I got it"	"thanks, I got it"	NA	NA	NA	NA	NA	NA	4
+2020-03-31 11:12:11	"teacher001"	"teacher"	86	"OK the site froze for me for a minute there but OK I'm back..."	"OK the site froze for me for a minute there but OK I'm back..."	NA	"5.0"	"disruption"	NA	NA	NA	14
+2020-03-31 11:12:24	"teacher001"	"teacher"	87	"I think for you too right?"	"I think for you too right?"	NA	NA	NA	NA	NA	NA	6
+2020-03-31 11:13:10	"student007"	"student"	88	"thanks I got it"	"thanks I got it"	NA	NA	NA	NA	NA	NA	4
+2020-03-31 11:13:24	"student007"	"student"	89	"sorry I lost my internet just now"	"sorry I lost my internet just now"	NA	NA	NA	NA	NA	NA	7
+2020-03-31 11:13:31	"teacher001"	"teacher"	90	"Anyway - I guess we'll stop there for today BUT good work with 'going to' - if you get this right in your IELTS speaking/writing you'll get a better score OK?"	"Anyway - I guess we'll stop there for today BUT good work with 'going to' - if you get this right in your IELTS speaking/writing you'll get a better score OK?"	NA	"6.0"	"closing"	NA	NA	NA	31
+2020-03-31 11:13:47	"student007"	"student"	91	"yes,,thank a lot"	"yes, thank a lot"	NA	NA	NA	NA	NA	NA	3
+2020-03-31 11:13:50	"teacher001"	"teacher"	92	"Yes that's ok - I think it was the site actually and not ouy"	"Yes that's ok - I think it was the site actually and not ouy"	"89.0"	NA	NA	NA	NA	NA	14
+2020-03-31 11:13:55	"teacher001"	"teacher"	93	"not you"	"not you"	NA	NA	NA	NA	NA	NA	2
+2020-03-31 11:14:26	"student007"	"student"	94	"see you tomorrow"	"see you tomorrow"	NA	NA	NA	NA	NA	NA	3
+2020-03-31 11:14:34	"teacher001"	"teacher"	95	"OK thanks then - I'll speak to you tomorrow bye"	"OK thanks then - I'll speak to you tomorrow bye"	NA	NA	NA	NA	NA	NA	10
+2020-03-31 11:14:39	"student007"	"student"	96	"bey"	"bye"	NA	NA	NA	NA	NA	"B1"	1

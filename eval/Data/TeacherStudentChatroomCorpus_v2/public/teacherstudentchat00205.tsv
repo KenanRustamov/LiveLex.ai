@@ -1,0 +1,181 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2021-02-19 08:02:38	"student011"	"student"	1	"Hi, <TEACHER>!"	"Hi, <TEACHER>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2021-02-19 08:02:57	"teacher008"	"teacher"	2	"Morning!"	"Morning!"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:03:06	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2021-02-19 08:03:15	"student011"	"student"	4	"Fine, thank you"	"Fine, thank you"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:03:30	"teacher008"	"teacher"	5	"One second, I'll go upstairs"	"One second, I'll go upstairs"	NA	NA	NA	NA	NA	NA	5
+2021-02-19 08:03:31	"student011"	"student"	6	"Quite a busy day for Friday"	"Quite a busy day for Friday"	"4.0"	NA	NA	NA	NA	NA	6
+2021-02-19 08:03:31	"student011"	"student"	7	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:03:37	"student011"	"student"	8	"How are you?"	"How are you?"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:03:42	"teacher008"	"teacher"	9	"What have you got on today?"	"What have you got on today?"	"6.0"	NA	NA	NA	NA	NA	6
+2021-02-19 08:04:47	"student011"	"student"	10	"Our chat, than yoga, than I have to work with some school staff, then I'll go to the face massage and then a lesson"	"Our chat, then yoga, then I have to work with some school stuff, then I'll go to a face massage and then a lesson"	NA	NA	NA	NA	NA	NA	24
+2021-02-19 08:05:32	"teacher008"	"teacher"	11	"Yes, nice and busy!"	"Yes, nice and busy!"	NA	NA	NA	NA	NA	NA	4
+2021-02-19 08:05:44	"student011"	"student"	12	"than I have to finish watching a vebinar about some marketing staff"	"then I have to finish watching a webinar about some marketing stuff"	NA	NA	NA	NA	NA	NA	12
+2021-02-19 08:06:00	"teacher008"	"teacher"	13	"Do you mean the people who work for the school or some work you need to do for the school? the school staff"	"Do you mean the people who work for the school or some work you need to do for the school? the school staff"	NA	"2a"	"eliciting,repair"	"lexical resource"	NA	NA	23
+2021-02-19 08:06:23	"teacher008"	"teacher"	14	"Ah, now I see! it's stuff. some marketing stuff"	"Ah, now I see! it's stuff. some marketing stuff"	"12, 13"	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-02-19 08:06:33	"teacher008"	"teacher"	15	"And staff = people who work in the company"	"And staff = people who work in the company"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	9
+2021-02-19 08:06:40	"teacher008"	"teacher"	16	"a staff meeting; staff room"	"a staff meeting; staff room"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	5
+2021-02-19 08:06:56	"student011"	"student"	17	"because they have limited access till 22/02 and I'm not sure that I'll have enough time on the weekend"	"because they have limited access till 22/02 and I'm not sure that I'll have enough time on the weekend"	"12.0"	NA	NA	NA	NA	NA	19
+2021-02-19 08:07:33	"student011"	"student"	18	"Ah! Sure! So in both sentences I meant stuff"	"Ah! Sure! So in both sentences I meant stuff"	"16.0"	NA	NA	NA	NA	NA	9
+2021-02-19 08:08:08	"teacher008"	"teacher"	19	"They are pronounced quite differently too, I would recommend listening to the pronunciation in the dictionary. stuff vs. staff"	"They are pronounced quite differently too, I would recommend listening to the pronunciation in the dictionary. stuff vs. staff"	NA	NA	"scaffolding,reference"	"lexical resource,speaking"	"dictionary"	NA	19
+2021-02-19 08:08:16	"teacher008"	"teacher"	20	"Yes, I got you)"	"Yes, I got you)"	"18.0"	NA	NA	NA	NA	NA	4
+2021-02-19 08:08:30	"teacher008"	"teacher"	21	"Sounds interesting, the webinar on marketing!"	"Sounds interesting, the webinar on marketing!"	"17.0"	"2b"	"topic development"	NA	NA	NA	6
+2021-02-19 08:08:35	"student011"	"student"	22	"I would recommend listening to the pronunciation in the dictionary. stuff vs. staff  - I'll do it!"	"I would recommend listening to the pronunciation in the dictionary. stuff vs. staff  - I'll do it!"	"19.0"	NA	NA	NA	NA	NA	18
+2021-02-19 08:09:06	"student011"	"student"	23	"ok It's about lovemarks )"	"ok It's about lovemarks )"	"21.0"	NA	NA	NA	NA	NA	5
+2021-02-19 08:09:16	"teacher008"	"teacher"	24	"Lovemarks??"	"Lovemarks??"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:09:22	"student011"	"student"	25	"The brands which love their clients"	"The brands which love their clients"	NA	NA	NA	NA	NA	NA	6
+2021-02-19 08:10:12	"teacher008"	"teacher"	26	"Interesting!"	"Interesting!"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:11:03	"student011"	"student"	27	"Maybe do you know the girl who founded here in Ukraine a big chain of places where you can rent the wardrobe"	"Do you maybe know the girl who founded a big chain of places where you can rent a wardrobe here in Ukraine"	NA	NA	NA	NA	NA	NA	22
+2021-02-19 08:11:38	"teacher008"	"teacher"	28	"Oh, where you can hire some clothes? I remember vaguely, something starting with O..."	"Oh, where you can hire some clothes? I remember vaguely, something starting with O..."	NA	NA	NA	NA	NA	NA	14
+2021-02-19 08:12:18	"student011"	"student"	29	"Then she founded other services too: beauty, photo services, the shops with some nice stuff )"	"Then she founded other services too: beauty, photo services, the shops with some nice stuff )"	NA	NA	NA	NA	NA	NA	16
+2021-02-19 08:12:48	"student011"	"student"	30	"Yes! To hire some clothes )"	"Yes! To hire some clothes )"	NA	NA	NA	NA	NA	NA	6
+2021-02-19 08:13:09	"student011"	"student"	31	"The name is Oh my look )"	"The name is Oh my look )"	NA	NA	NA	NA	NA	NA	7
+2021-02-19 08:13:21	"teacher008"	"teacher"	32	"Yes! I remember now!"	"Yes! I remember now!"	NA	NA	NA	NA	NA	NA	4
+2021-02-19 08:13:43	"student011"	"student"	33	"so now she has a big international chain of beauty bars"	"so now she has a big international chain of beauty bars"	NA	NA	NA	NA	NA	NA	11
+2021-02-19 08:14:00	"teacher008"	"teacher"	34	"Well done her!"	"Well done her!"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:14:49	"student011"	"student"	35	"Actually I know her from our teenage ) But we have not communicated till that times )"	"Actually I knew her when we were teenagers ) But we have not communicated since those times )"	NA	NA	NA	NA	NA	NA	17
+2021-02-19 08:15:17	"teacher008"	"teacher"	36	"You haven't communicated ___ those times"	"You haven't communicated ___ those times"	NA	"2c"	"eliciting,repair"	"grammatical resource,lexical resource"	NA	NA	6
+2021-02-19 08:16:34	"student011"	"student"	37	"Now she decided to do an online intensive course about lovemark and then she will do a big 2,5 month course about brand"	"Now she decided to do an online intensive course about lovemarks and then she will do a big 2,5 month course about the brand"	"35.0"	NA	NA	NA	NA	NA	23
+2021-02-19 08:16:49	"student011"	"student"	38	"You haven't communicated from those times"	"You haven't communicated since those times"	"36.0"	NA	NA	NA	NA	NA	6
+2021-02-19 08:17:04	"teacher008"	"teacher"	39	"since!)) or 'since that time'"	"since!)) or 'since that time'"	NA	NA	"repair"	"grammatical resource,lexical resource"	NA	NA	5
+2021-02-19 08:17:13	"student011"	"student"	40	"Oh! since!"	"Oh! since!"	NA	NA	NA	NA	NA	NA	2
+2021-02-19 08:17:29	"student011"	"student"	41	"Since that time! of course!"	"Since that time! of course!"	NA	NA	NA	NA	NA	NA	5
+2021-02-19 08:17:31	"teacher008"	"teacher"	42	"Wow, she's really branched out"	"Wow, she's really branched out"	"37.0"	NA	NA	NA	NA	NA	5
+2021-02-19 08:18:50	"teacher008"	"teacher"	43	"I've looked it up, apparently, lovemarks are supposed to replace the idea of brands. I've never heard about this stuff!"	"I've looked it up, apparently, lovemarks are supposed to replace the idea of brands. I've never heard about this stuff!"	NA	NA	NA	NA	NA	NA	20
+2021-02-19 08:19:31	"student011"	"student"	44	"branched out? )"	"branched out? )"	NA	"2d"	"enquiry"	"lexical resource,meaning"	NA	NA	3
+2021-02-19 08:19:54	"student011"	"student"	45	"It means that she has lots of branches of her business?"	"It means that she has lots of branches of her business?"	NA	NA	NA	NA	NA	NA	11
+2021-02-19 08:20:09	"teacher008"	"teacher"	46	"branch out = good business word; to start to do something different from what you usually do"	"branch out = good business word; to start to do something different from what you usually do"	"44.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	17
+2021-02-19 08:20:38	"teacher008"	"teacher"	47	"For example, if you now opened an ALMA bakery for students to go to after classes, that would be branching out"	"For example, if you now opened an ALMA bakery for students to go to after classes, that would be branching out"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	21
+2021-02-19 08:20:55	"teacher008"	"teacher"	48	"Yes, it comes from the idea of branches of a business"	"Yes, it comes from the idea of branches of a business"	"45.0"	NA	NA	NA	NA	NA	11
+2021-02-19 08:21:16	"student011"	"student"	49	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2021-02-19 08:22:28	"student011"	"student"	50	"the webinar was about two weeks ago and I didn't watch the third part when I had access"	"the webinar was about two weeks ago and I didn't watch the third part when I had access"	"43.0"	NA	NA	NA	NA	NA	18
+2021-02-19 08:22:57	"teacher008"	"teacher"	51	"Oh, I see, you need to do it while <STUDENT'S CHILD>'s with her nanny, makes sense!"	"Oh, I see, you need to do it while <STUDENT'S CHILD>'s with her nanny, makes sense!"	NA	NA	NA	NA	NA	NA	16
+2021-02-19 08:23:19	"student011"	"student"	52	"and now they prolongated access so I have to watch it"	"and now they've extended access so I have to watch it"	NA	NA	NA	NA	NA	NA	11
+2021-02-19 08:23:34	"teacher008"	"teacher"	53	"Nice!"	"Nice!"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:23:54	"student011"	"student"	54	"How can I say успеть посмотреть?"	"How can I say успеть посмотреть?"	NA	"2e"	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	6
+2021-02-19 08:23:54	"teacher008"	"teacher"	55	"Ok, have you had a chance to watch the video about a nursery?"	"Ok, have you had a chance to watch the video about a nursery?"	NA	"3.0"	"exercise"	"listening,writing"	NA	NA	13
+2021-02-19 08:24:03	"student011"	"student"	56	"exactly успеть?"	"exactly успеть?"	"54.0"	NA	"enquiry,non-English"	"lexical resource,code switching"	NA	NA	2
+2021-02-19 08:24:26	"teacher008"	"teacher"	57	"Oh sorry, hold on a second"	"Oh sorry, hold on a second"	NA	NA	NA	NA	NA	NA	6
+2021-02-19 08:24:36	"student011"	"student"	58	"Yes! I've watched it"	"Yes! I've watched it"	"55.0"	NA	NA	NA	NA	NA	4
+2021-02-19 08:24:44	"teacher008"	"teacher"	59	"I would say 'manage to watch'"	"I would say 'manage to watch'"	"57.0"	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-02-19 08:25:05	"teacher008"	"teacher"	60	"manage to do something (not necessarily the idea of time)"	"manage to do something (not necessarily the idea of time)"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-02-19 08:25:27	"teacher008"	"teacher"	61	"or 'I need to watch it while I still have access'"	"or 'I need to watch it while I still have access'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2021-02-19 08:26:11	"student011"	"student"	62	"Aha! Thank you!"	"Aha! Thank you!"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:26:45	"teacher008"	"teacher"	63	"generally, uspet' is 'be on time', e.g. I was on time for a Zoom call with my colleague"	"generally, uspet' is 'be on time', e.g. I was on time for a Zoom call with my colleague"	NA	NA	"non-English,scaffolding"	"lexical resource,meaning,code switching"	NA	NA	18
+2021-02-19 08:26:52	"teacher008"	"teacher"	64	"but it's different here, isn't it?"	"but it's different here, isn't it?"	NA	NA	NA	NA	NA	NA	6
+2021-02-19 08:27:20	"student011"	"student"	65	"Yes! It's different!"	"Yes! It's different!"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:27:27	"teacher008"	"teacher"	66	"Ok, the nursery! Could you tell me in a few words what happened there?"	"Ok, the nursery! Could you tell me in a few words what happened there?"	"58.0"	NA	"eliciting"	"writing,listening"	NA	NA	14
+2021-02-19 08:27:45	"student011"	"student"	67	"So it was a trial )"	"So it was a trial )"	NA	NA	NA	NA	NA	NA	6
+2021-02-19 08:29:03	"student011"	"student"	68	"They changed toys in the nursery to some usual staff: magnets, metal objects etc. Just usual things )"	"They replaced toys in the nursery with some everyday stuff: magnets, metal objects etc. Just everyday things )"	NA	NA	NA	NA	NA	NA	18
+2021-02-19 08:29:20	"teacher008"	"teacher"	69	"stuff! :)"	"stuff! :)"	NA	"3a"	"repair"	"lexical resource"	NA	NA	2
+2021-02-19 08:30:08	"student011"	"student"	70	"stuff"	"stuff"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:30:28	"teacher008"	"teacher"	71	":) yes, sure, go on!"	":) yes, sure, go on!"	"68.0"	NA	NA	NA	NA	NA	5
+2021-02-19 08:31:00	"student011"	"student"	72	"ok! So the trial showed that it's even better for imagination and children's dexterity to play with this stuff )"	"ok! So the trial showed that it's even better for imagination and children's dexterity to play with this stuff )"	NA	NA	NA	NA	NA	NA	20
+2021-02-19 08:31:59	"teacher008"	"teacher"	73	"Yes! Did the children like it?"	"Yes! Did the children like it?"	NA	NA	"eliciting"	"writing,listening"	NA	NA	6
+2021-02-19 08:32:14	"student011"	"student"	74	"It's better than toys also because the stuff like than prevent children from gender"	"It's better than toys also because stuff like that prevents children from forming gender stereotypes"	"72.0"	NA	NA	NA	NA	NA	14
+2021-02-19 08:32:53	"teacher008"	"teacher"	75	"yes, from forming gender stereotypes, like female princesses vs. male superheroes, right?"	"yes, from forming gender stereotypes, like female princesses vs. male superheroes, right?"	NA	"3b"	"repair,scaffolding"	"lexical resource"	NA	NA	12
+2021-02-19 08:33:35	"student011"	"student"	76	"so in the group of 2 years old the children were completely happy to play with the new 'toys'"	"so in the group of 2-year-olds the children were completely happy to play with the new 'toys'"	"73.0"	NA	NA	NA	NA	NA	19
+2021-02-19 08:33:42	"student011"	"student"	77	"without the?"	"without the?"	NA	"3c"	"enquiry"	"grammatical resource"	NA	NA	2
+2021-02-19 08:34:25	"teacher008"	"teacher"	78	"the new toys? the new toys is absolutely fine because they are the toys we've been talking about"	"the new toys? the new toys is absolutely fine because they are the toys we've been talking about"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	18
+2021-02-19 08:34:32	"student011"	"student"	79	"forming gender stereotypes, yes! Can I use just gender?"	"forming gender stereotypes, yes! Can I use just gender?"	"75.0"	NA	"enquiry"	"lexical resource"	NA	NA	9
+2021-02-19 08:35:05	"teacher008"	"teacher"	80	"Hmm, no, it doesn't really work. Let me see what the context was"	"Hmm, no, it doesn't really work. Let me see what the context was"	NA	NA	NA	NA	NA	NA	13
+2021-02-19 08:35:31	"student011"	"student"	81	"Ok! But three years old people ) at first were surprised why the adults decided to change their toys )"	"Ok! But three-year-old people ) at first were surprised that the adults decided to change their toys )"	"76.0"	NA	NA	NA	NA	NA	20
+2021-02-19 08:35:37	"teacher008"	"teacher"	82	"Gender is something that can be reinforced through toys."	"Gender is something that can be reinforced through toys."	"80.0"	NA	NA	NA	NA	NA	9
+2021-02-19 08:36:26	"teacher008"	"teacher"	83	"as in, Behaviour associated with men / women can be reinforced through toys"	"as in, Behaviour associated with men / women can be reinforced through toys"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2021-02-19 08:36:45	"teacher008"	"teacher"	84	"but I don't think it can work with 'prevent from'"	"but I don't think it can work with 'prevent from'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	10
+2021-02-19 08:36:57	"student011"	"student"	85	"gender – behaviour, characteristics and roles societies associate with men or women"	"gender – behaviour, characteristics and roles societies associate with men or women"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	12
+2021-02-19 08:37:12	"student011"	"student"	86	"they have it after the video"	"they have it after the video"	NA	NA	NA	NA	NA	NA	6
+2021-02-19 08:37:33	"teacher008"	"teacher"	87	"Yes, true"	"Yes, true"	NA	NA	NA	NA	NA	NA	2
+2021-02-19 08:37:37	"student011"	"student"	88	"Ah, I see"	"Ah, I see"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:38:03	"teacher008"	"teacher"	89	"Hmm, I'm having a think now. What do you think about toys and gender?"	"Hmm, I'm having a think now. What do you think about toys and gender?"	NA	"4.0"	"topic opening"	"lexical resource,writing"	NA	NA	14
+2021-02-19 08:38:58	"student011"	"student"	90	"I don't like the stuff like Barbie for it"	"I don't like stuff like Barbie for that reason"	NA	NA	NA	NA	NA	NA	9
+2021-02-19 08:39:44	"teacher008"	"teacher"	91	"Ok! Why not?)"	"Ok! Why not?)"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:39:49	"student011"	"student"	92	"lot's of princesses and other female characters are too 'female'"	"lots of princesses and other female characters are too 'feminine'"	NA	NA	NA	NA	NA	NA	10
+2021-02-19 08:40:17	"teacher008"	"teacher"	93	"Yes, the word here is 'feminine'"	"Yes, the word here is 'feminine'"	NA	"4a"	"repair"	"lexical resource"	NA	NA	6
+2021-02-19 08:40:34	"teacher008"	"teacher"	94	"ˈfem.ɪ.nɪn"	"ˈfem.ɪ.nɪn"	NA	NA	"scaffolding"	"lexical resource,speaking"	NA	NA	1
+2021-02-19 08:40:56	"student011"	"student"	95	"This too big eyes, too big breast - I hate it"	"Their eyes are too big, their breasts are too big - I hate it"	"92.0"	NA	NA	NA	NA	NA	11
+2021-02-19 08:41:09	"teacher008"	"teacher"	96	"#ERROR!"	"#ERROR!"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:41:13	"student011"	"student"	97	"Ah, ok!"	"Ah, ok!"	"94.0"	NA	NA	NA	NA	NA	2
+2021-02-19 08:41:44	"teacher008"	"teacher"	98	"Yes, 'female' is about the sex, male vs. female"	"Yes, 'female' is about the sex, male vs. female"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2021-02-19 08:41:53	"teacher008"	"teacher"	99	"feminine is about looks / behaviour"	"feminine is about looks / behaviour"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	6
+2021-02-19 08:41:59	"teacher008"	"teacher"	100	"feminine vs. masculine"	"feminine vs. masculine"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-02-19 08:42:33	"student011"	"student"	101	"But I'm not sure about the idea that we have to deprive our children all usual toys as dolls or figures and give them just kitchen stuff or something like that"	"But I'm not sure about the idea that we have to deprive our children of all their usual toys such as dolls or figurines and give them just kitchen stuff or something like that"	"95.0"	NA	NA	NA	NA	NA	31
+2021-02-19 08:42:46	"teacher008"	"teacher"	102	"I think today's cartoons are trying hard to change the stereotypes, but there is still a long way to go!"	"I think today's cartoons are trying hard to change the stereotypes, but there is still a long way to go!"	NA	NA	NA	NA	NA	NA	20
+2021-02-19 08:43:12	"student011"	"student"	103	"deprive of"	"deprive of"	"101.0"	NA	"repair"	"lexical resource"	NA	NA	2
+2021-02-19 08:43:15	"teacher008"	"teacher"	104	"Yes, I'm with you here! Good use of the verb 'deprive', it goes with 'of'"	"Yes, I'm with you here! Good use of the verb 'deprive', it goes with 'of'"	"101.0"	NA	"repair"	"lexical resource"	NA	NA	15
+2021-02-19 08:43:22	"teacher008"	"teacher"	105	"Yes, good correction :))"	"Yes, good correction :))"	"103.0"	NA	NA	NA	NA	NA	4
+2021-02-19 08:43:25	"student011"	"student"	106	"))"	"))"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:43:35	"student011"	"student"	107	"I love toys actually! )"	"I love toys actually! )"	NA	"4b"	"topic development"	NA	NA	NA	5
+2021-02-19 08:43:48	"teacher008"	"teacher"	108	"Me too!"	"Me too!"	NA	NA	NA	NA	NA	NA	2
+2021-02-19 08:44:20	"teacher008"	"teacher"	109	"And I noticed, when <TEACHER'S CHILD> plays with his Lego figurines, for example, he will give them so many roles, it almost doesn't matter what they look like"	"And I noticed, when <TEACHER'S CHILD> plays with his Lego figurines, for example, he will give them so many roles, it almost doesn't matter what they look like"	NA	NA	NA	NA	NA	NA	28
+2021-02-19 08:44:37	"student011"	"student"	110	"But dolls and figures are not my favorites, I like lego and puzzles and books with stickers and activities )"	"But dolls and figures are not my favorites, I like lego and puzzles and books with stickers and activities )"	"108.0"	NA	NA	NA	NA	NA	20
+2021-02-19 08:45:25	"teacher008"	"teacher"	111	"Yes, there's more to do with them!"	"Yes, there's more to do with them!"	NA	NA	NA	NA	NA	NA	7
+2021-02-19 08:45:35	"student011"	"student"	112	"Do you have problems with their hairs?"	"Do you have problems with their hair?"	"109.0"	"4c"	"topic development"	NA	NA	NA	7
+2021-02-19 08:45:48	"teacher008"	"teacher"	113	"the Lego people's?"	"the Lego people's?"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:46:01	"student011"	"student"	114	"Our Elsa looses her hairs everytime )))))"	"Our Elsa loses her hair all the time )))))"	NA	NA	NA	NA	NA	NA	7
+2021-02-19 08:46:32	"teacher008"	"teacher"	115	"Oh no, poor Elsa! We swap their hair and hats all the time, it's so funny!"	"Oh no, poor Elsa! We swap their hair and hats all the time, it's so funny!"	NA	NA	NA	NA	NA	NA	16
+2021-02-19 08:47:16	"student011"	"student"	116	"yes! Yesterday our Anna and Elsa have changed their hair )"	"yes! Yesterday our Anna and Elsa swapped their hair )"	NA	NA	NA	NA	NA	NA	11
+2021-02-19 08:47:54	"teacher008"	"teacher"	117	"I actually think, in terms of gender stereotypes, it would do more for children if they saw grown-ups in different 'non-traditional' roles. For example, if they had a male teacher at the nursery (but I bet they don't)"	"I actually think, in terms of gender stereotypes, it would do more for children if they saw grown-ups in different 'non-traditional' roles. For example, if they had a male teacher at the nursery (but I bet they don't)"	NA	"4d"	"topic development"	NA	NA	NA	38
+2021-02-19 08:48:05	"student011"	"student"	118	"I even 'didn't recognize' them )\"	"I even 'didn't recognize' them )\"	"116.0"	NA	NA	NA	NA	NA	6
+2021-02-19 08:49:08	"student011"	"student"	119	"Yes! I bet you know the theory that they learn not from our words but from our behavior"	"Yes! I bet you know the theory that they learn not from our words but from our behavior"	"117.0"	NA	NA	NA	NA	NA	18
+2021-02-19 08:49:17	"teacher008"	"teacher"	120	"Haha, yes, that's our favourite game. Quick grammar quiz! Anna's hair ___ red and Elsa's hair ___ blond"	"Haha, yes, that's our favourite game. Quick grammar quiz! Anna's hair ___ red and Elsa's hair ___ blond"	"118.0"	"4e"	"eliciting,repair"	"grammatical resource"	NA	NA	18
+2021-02-19 08:49:51	"teacher008"	"teacher"	121	"Yes! I'm sure toys have less effect than actual grown-up role models"	"Yes! I'm sure toys have less effect than actual grown-up role models"	"119.0"	NA	NA	NA	NA	NA	12
+2021-02-19 08:50:25	"student011"	"student"	122	"So it would work better if the daddy washes посуду, for example"	"So it will work better if the daddy washes посуду, for example"	NA	NA	"non-English"	"code switching,lexical resource"	NA	NA	12
+2021-02-19 08:50:42	"student011"	"student"	123	"And the mommy hang the picture"	"And the mommy hangs a picture"	NA	NA	NA	NA	NA	NA	6
+2021-02-19 08:50:44	"teacher008"	"teacher"	124	"Yes, if daddy does the dishes!"	"Yes, if daddy does the dishes!"	"122.0"	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2021-02-19 08:50:57	"teacher008"	"teacher"	125	"Exactly))"	"Exactly))"	"123.0"	NA	NA	NA	NA	NA	1
+2021-02-19 08:51:10	"student011"	"student"	126	"do the dishes - мыть посуду so?"	"do the dishes - мыть посуду so?"	NA	"4f"	"enquiry,non-English"	"lexical resource,meaning,code switching"	NA	NA	7
+2021-02-19 08:51:20	"teacher008"	"teacher"	127	"That's right!"	"That's right!"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	2
+2021-02-19 08:51:27	"teacher008"	"teacher"	128	"or 'wash up'"	"or 'wash up'"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2021-02-19 08:51:48	"student011"	"student"	129	"the daddy and the mommy is right? )"	"the daddy and the mommy is right? )"	NA	"4g"	"enquiry"	"grammatical resource"	NA	NA	8
+2021-02-19 08:51:53	"teacher008"	"teacher"	130	"For example, he always washes up after dinner"	"For example, he always washes up after dinner"	"128.0"	NA	"scaffolding"	"lexical resource"	NA	NA	8
+2021-02-19 08:52:00	"teacher008"	"teacher"	131	"Yes, correct!"	"Yes, correct!"	"129.0"	NA	NA	NA	NA	NA	2
+2021-02-19 08:52:14	"teacher008"	"teacher"	132	"That's why the machine is called a dishwasher"	"That's why the machine is called a dishwasher"	"130.0"	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2021-02-19 08:52:22	"student011"	"student"	133	"Ah! I see"	"Ah! I see"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:52:36	"teacher008"	"teacher"	134	"a dishwasher (dishes) and a washing machine (clothes)"	"a dishwasher (dishes) and a washing machine (clothes)"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	8
+2021-02-19 08:54:12	"student011"	"student"	135	"ok! Thank you!"	"ok! Thank you!"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:54:43	"teacher008"	"teacher"	136	"Look, the grammar quiz is following you. Anna's hair ___ red and Elsa's hair ___ blond"	"Look, the grammar quiz is following you. Anna's hair ___ red and Elsa's hair ___ blond"	NA	"4h"	"redirection,eliciting"	"grammatical resource"	NA	NA	16
+2021-02-19 08:54:57	"student011"	"student"	137	"ok"	"ok"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:55:00	"student011"	"student"	138	")"	")"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:55:18	"student011"	"student"	139	"Anna's hair are red and Elsa's hair are blond"	"Anna's hair is red and Elsa's hair is blond"	NA	NA	NA	NA	NA	NA	9
+2021-02-19 08:55:23	"student011"	"student"	140	"I'm not sure"	"I'm not sure"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:55:50	"teacher008"	"teacher"	141	"Yes, that's a very typical Russian thing. Hair is singular in English! like in Ukrainian"	"Yes, that's a very typical Russian thing. Hair is singular in English! like in Ukrainian"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2021-02-19 08:55:52	"student011"	"student"	142	"Hair is un uncountable noun"	"Hair is an uncountable noun"	NA	NA	NA	NA	NA	NA	5
+2021-02-19 08:56:16	"teacher008"	"teacher"	143	"Anna's hair is red etc."	"Anna's hair is red etc."	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	5
+2021-02-19 08:56:21	"student011"	"student"	144	"Ok! So Anna's hair is red and Elsa's hair is blond"	"Ok! So Anna's hair is red and Elsa's hair is blond"	NA	NA	NA	NA	NA	NA	11
+2021-02-19 08:56:40	"teacher008"	"teacher"	145	"I've just washed my hair. --- I've just washed it"	"I've just washed my hair. --- I've just washed it"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	10
+2021-02-19 08:56:49	"student011"	"student"	146	"Actually professional staff usually use волос in Russian"	"Actually professional staff usually use волос in Russian"	NA	NA	"non-English"	"code switching,lexical resource,grammatical resource"	NA	NA	8
+2021-02-19 08:56:57	"student011"	"student"	147	"it's singular too"	"it's singular too"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:57:10	"student011"	"student"	148	"But it is more like professional slang"	"But it is more like professional slang"	NA	NA	NA	NA	NA	NA	7
+2021-02-19 08:57:18	"teacher008"	"teacher"	149	"Yes, like that! Am I right that it's singular in Ukrainian?"	"Yes, like that! Am I right that it's singular in Ukrainian?"	NA	NA	"eliciting"	"code switching,lexical resource,grammatical resource"	NA	NA	11
+2021-02-19 08:57:38	"student011"	"student"	150	"You are completely right! Волосся - воно"	"You are completely right! Волосся - воно"	NA	NA	"non-English"	"code switching,lexical resource,grammatical resource"	NA	NA	7
+2021-02-19 08:57:55	"teacher008"	"teacher"	151	"Yay, I remembered! So it's like in Ukrainian"	"Yay, I remembered! So it's like in Ukrainian"	NA	NA	NA	NA	NA	NA	8
+2021-02-19 08:58:12	"teacher008"	"teacher"	152	"Oh, did I tell you that schools will probably re-open on the 8th of March?"	"Oh, did I tell you that schools will probably re-open on the 8th of March?"	NA	"5.0"	"topic opening"	NA	NA	NA	15
+2021-02-19 08:58:14	"student011"	"student"	153	"it's a good example! )"	"it's a good example! )"	"151.0"	NA	NA	NA	NA	NA	5
+2021-02-19 08:58:26	"student011"	"student"	154	"I'm so happy for you!"	"I'm so happy for you!"	"152.0"	NA	NA	NA	NA	NA	5
+2021-02-19 08:58:28	"teacher008"	"teacher"	155	"Boris is going to talk to the people on Monday"	"Boris is going to talk to the people on Monday"	"152.0"	NA	NA	NA	NA	NA	10
+2021-02-19 08:58:34	"teacher008"	"teacher"	156	"Haha, thank you!"	"Haha, thank you!"	"154.0"	NA	NA	NA	NA	NA	3
+2021-02-19 08:58:37	"teacher008"	"teacher"	157	"But!"	"But!"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:59:06	"teacher008"	"teacher"	158	"Hairdressers will only re-open later. So children will go to school with diy haircuts)))"	"Hairdressers will only re-open later. So children will go to school with diy haircuts)))"	NA	"5a"	"topic development"	NA	NA	NA	14
+2021-02-19 08:59:11	"teacher008"	"teacher"	159	"including <TEACHER'S CHILD>"	"including <TEACHER'S CHILD>"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 08:59:18	"student011"	"student"	160	")))"	")))"	NA	NA	NA	NA	NA	NA	1
+2021-02-19 08:59:39	"teacher008"	"teacher"	161	"I would say 'mummy haircuts' but that's gender stereotyping :)))"	"I would say 'mummy haircuts' but that's gender stereotyping :)))"	NA	NA	NA	NA	NA	NA	10
+2021-02-19 09:00:28	"teacher008"	"teacher"	162	"I've now got professional scissors and I was quite pleased with how I did his hair last time, but now it's growing out and I can see all the mistakes"	"I've now got professional scissors and I was quite pleased with how I did his hair last time, but now it's growing out and I can see all the mistakes"	NA	NA	NA	NA	NA	NA	30
+2021-02-19 09:00:29	"student011"	"student"	163	"I know than in Austria hairdressers were closed so my friend <STUDENT'S FRIEND> become a 'hairdresser'or her husband for several months )"	"I know that in Austria hairdressers were closed so my friend <STUDENT'S FRIEND> become a 'hairdresser' for her husband for several months )"	NA	NA	NA	NA	NA	NA	22
+2021-02-19 09:00:56	"teacher008"	"teacher"	164	"I haven't had a trim since October! It's getting way too long"	"I haven't had a trim since October! It's getting way too long"	NA	NA	NA	NA	NA	NA	12
+2021-02-19 09:01:31	"student011"	"student"	165	"Ok"	"Ok"	"161.0"	NA	NA	NA	NA	NA	1
+2021-02-19 09:01:46	"student011"	"student"	166	"one more thing about gender stereotipes"	"one more thing about gender stereotypes"	NA	NA	NA	NA	NA	NA	6
+2021-02-19 09:02:05	"student011"	"student"	167	"But I'm happy that I don't have to do it for <STUDENT'S CHILD> )"	"But I'm happy that I don't have to do it for <STUDENT'S CHILD> )"	"163.0"	NA	NA	NA	NA	NA	14
+2021-02-19 09:02:47	"teacher008"	"teacher"	168	"Yes, I bet!"	"Yes, I bet!"	NA	NA	NA	NA	NA	NA	3
+2021-02-19 09:03:02	"student011"	"student"	169	"But you know, I have <STUDENT'S SISTER-IN-LAW> )"	"But you know, I have <STUDENT'S SISTER-IN-LAW> )"	NA	NA	NA	NA	NA	NA	8
+2021-02-19 09:03:15	"teacher008"	"teacher"	170	"Ok, lovely. I'll let you go, great work today! Hope you'll have a productive"	"Ok, lovely. I'll let you go, great work today! Hope you'll have a productive"	NA	"6.0"	"closing"	NA	NA	NA	14
+2021-02-19 09:03:20	"student011"	"student"	171	"So in any case I'm a happy person )"	"So in any case I'm a happy person )"	"169.0"	NA	NA	NA	NA	NA	9
+2021-02-19 09:03:30	"teacher008"	"teacher"	172	"a productive Friday and a relaxing weekend!"	"a productive Friday and a relaxing weekend!"	"170.0"	NA	NA	NA	NA	NA	7
+2021-02-19 09:03:43	"student011"	"student"	173	"Thank you! I love our chats! Have a great weekend )"	"Thank you! I love our chats! Have a great weekend )"	NA	NA	NA	NA	NA	NA	11
+2021-02-19 09:03:44	"teacher008"	"teacher"	174	"Oh, yes, your <STUDENT'S SISTER-IN-LAW> is a pro! How is she, and your brother, by the way?"	"Oh, yes, your <STUDENT'S SISTER-IN-LAW> is a pro! How is she, and your brother, by the way?"	"169.0"	"5b"	"topic development"	NA	NA	NA	17
+2021-02-19 09:04:04	"student011"	"student"	175	"They are ok, thank you!"	"They are ok, thank you!"	NA	NA	NA	NA	NA	NA	5
+2021-02-19 09:04:17	"teacher008"	"teacher"	176	"Are they feeling better?"	"Are they feeling better?"	NA	NA	NA	NA	NA	NA	4
+2021-02-19 09:05:05	"student011"	"student"	177	"she is completely ok, he is not worse and even quite better"	"she is completely ok, he is not worse and even quite better"	NA	NA	NA	NA	NA	NA	12
+2021-02-19 09:05:13	"student011"	"student"	178	"thank you!"	"thank you!"	NA	NA	NA	NA	NA	NA	2
+2021-02-19 09:05:16	"teacher008"	"teacher"	179	"Oh good! Good to hear!"	"Oh good! Good to hear!"	NA	NA	NA	NA	NA	NA	5
+2021-02-19 09:05:24	"teacher008"	"teacher"	180	"Ok, take care! Bye! :)"	"Ok, take care! Bye! :)"	"173.0"	NA	NA	NA	NA	"B2"	5

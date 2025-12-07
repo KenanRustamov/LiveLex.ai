@@ -1,0 +1,149 @@
+"timestamp"	"user.id"	"role"	"turn.number"	"anonymised"	"edited"	"responding.to"	"sequence"	"seq.type"	"focus"	"resource"	"assessment"	"nWords"
+2020-08-05 06:30:22	"teacher008"	"teacher"	1	"Hi <STUDENT>!"	"Hi <STUDENT>!"	NA	"1.0"	"opening"	NA	NA	NA	2
+2020-08-05 06:30:31	"student010"	"student"	2	"Hello"	"Hello"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:30:41	"teacher008"	"teacher"	3	"How are you?"	"How are you?"	NA	"2.0"	"topic opening"	NA	NA	NA	3
+2020-08-05 06:30:57	"student010"	"student"	4	"I'm fine"	"I'm fine"	NA	NA	NA	NA	NA	NA	2
+2020-08-05 06:31:09	"teacher008"	"teacher"	5	"How's <LIZARD'S NAME> the lizard?"	"How's <LIZARD'S NAME> the lizard?"	NA	"2a"	"topic development"	NA	NA	NA	5
+2020-08-05 06:31:50	"student010"	"student"	6	"It's on my hand"	"It's on my hand"	NA	NA	NA	NA	NA	NA	4
+2020-08-05 06:32:17	"teacher008"	"teacher"	7	":) is it quite tame then?"	":) is it quite tame then?"	NA	"2b"	"topic development"	NA	NA	NA	6
+2020-08-05 06:32:41	"student010"	"student"	8	"What does tame mean"	"What does tame mean?"	NA	"2c"	"enquiry"	"lexical resource,meaning"	NA	NA	4
+2020-08-05 06:33:37	"teacher008"	"teacher"	9	"Oh, if an animal is tame, it's used to people and can be touched etc. It's one of the opposites of 'wild'"	"Oh, if an animal is tame, it's used to people and can be touched etc. It's one of the opposites of 'wild'"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	22
+2020-08-05 06:34:11	"teacher008"	"teacher"	10	"Tame can also be a verb. For example, people sometimes tame wild animals = make them used to them"	"Tame can also be a verb. For example, people sometimes tame wild animals = make them used to them"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	19
+2020-08-05 06:35:31	"student010"	"student"	11	"Yes it very tame it's always tries to lick me"	"Yes it's very tame, it always tries to lick me"	"7.0"	NA	NA	NA	NA	NA	10
+2020-08-05 06:35:53	"teacher008"	"teacher"	12	"Oh wow, I didn't expect this with a lizard!"	"Oh wow, I didn't expect this with a lizard!"	NA	NA	NA	NA	NA	NA	9
+2020-08-05 06:36:44	"teacher008"	"teacher"	13	"We adopted our guinea pigs 6 months ago. They weren't used to people but now one of them has become very tame. The other is still a bit afraid, but we're working on it with plenty of treats"	"We adopted our guinea pigs 6 months ago. They weren't used to people but now one of them has become very tame. The other is still a bit afraid, but we're working on it with plenty of treats"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	38
+2020-08-05 06:36:57	"teacher008"	"teacher"	14	"Do you know 'a treat'?"	"Do you know 'a treat'?"	NA	"2d"	"eliciting"	"lexical resource,meaning"	NA	NA	5
+2020-08-05 06:37:31	"student010"	"student"	15	"I think yes"	"I think yes"	NA	NA	NA	NA	NA	NA	3
+2020-08-05 06:38:52	"teacher008"	"teacher"	16	"For a guinea pig, it's a piece of carrot"	"For a guinea pig, it's a piece of carrot"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	9
+2020-08-05 06:39:22	"student010"	"student"	17	"For lizard some bugs :)"	"For a lizard some bugs :)"	NA	NA	NA	NA	NA	NA	5
+2020-08-05 06:39:30	"teacher008"	"teacher"	18	"Exactly!"	"Exactly!"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:39:44	"teacher008"	"teacher"	19	"Do you have to catch <LIZARD'S NAME'S> treats? Or do you buy them?"	"Do you have to catch <LIZARD'S NAME'S> treats? Or do you buy them?"	NA	NA	NA	NA	NA	NA	13
+2020-08-05 06:40:39	"student010"	"student"	20	"My cousin buys special bugs"	"My cousin buys special bugs"	NA	NA	NA	NA	NA	NA	5
+2020-08-05 06:41:25	"teacher008"	"teacher"	21	"I see, that makes it easy"	"I see, that makes it easy"	NA	NA	NA	NA	NA	NA	6
+2020-08-05 06:42:20	"teacher008"	"teacher"	22	"<STUDENT>, couple of words from the previous classes. To hold an animal or a person in your arms lovingly = ?"	"<STUDENT>, couple of words from the previous classes. To hold an animal or a person in your arms lovingly = ?"	NA	"3.0"	"exercise,revision"	"lexical resource"	NA	NA	21
+2020-08-05 06:42:39	"teacher008"	"teacher"	23	"remember?"	"remember?"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:43:00	"student010"	"student"	24	"Cuddy"	"Cuddle"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:43:36	"teacher008"	"teacher"	25	"Nearly! to cuddle is a verb"	"Nearly! to cuddle is a verb"	NA	NA	"repair"	"writing"	NA	NA	6
+2020-08-05 06:43:42	"teacher008"	"teacher"	26	"Cuddly = adjective"	"Cuddly = adjective"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	3
+2020-08-05 06:43:57	"teacher008"	"teacher"	27	"a cuddly toy is a soft toy like a teddy bear"	"a cuddly toy is a soft toy like a teddy bear"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	11
+2020-08-05 06:44:03	"student010"	"student"	28	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:44:42	"teacher008"	"teacher"	29	"When he cuddles his cat, his dog becomes ___ (wants the attention instead of the cat)"	"When he cuddles his cat, his dog becomes ___ (wants the attention instead of the cat)"	NA	"3a"	"exercise,revision"	"lexical resource"	NA	NA	16
+2020-08-05 06:44:43	"teacher008"	"teacher"	30	"?"	"?"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:45:19	"student010"	"student"	31	"I forgot"	"I forgot"	NA	NA	NA	NA	NA	NA	2
+2020-08-05 06:45:44	"teacher008"	"teacher"	32	"jealous"	"jealous"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	1
+2020-08-05 06:46:21	"student010"	"student"	33	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:46:22	"teacher008"	"teacher"	34	"It could also be 'He is jealous of his sister's success' or something like that"	"It could also be 'He is jealous of his sister's success' or something like that"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	15
+2020-08-05 06:46:43	"student010"	"student"	35	"Ok"	"Ok"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:46:52	"teacher008"	"teacher"	36	"Ok :)"	"Ok :)"	NA	NA	NA	NA	NA	NA	2
+2020-08-05 06:47:14	"teacher008"	"teacher"	37	"Could you give me a preposition, please? __ January"	"Could you give me a preposition, please? __ January"	NA	"3b"	"eliciting,revision"	"lexical resource"	NA	NA	9
+2020-08-05 06:47:17	"student010"	"student"	38	"Now the lizard on the cat's fur"	"Now the lizard is on the cat's fur"	NA	"4.0"	"topic opening"	NA	NA	NA	7
+2020-08-05 06:47:27	"student010"	"student"	39	"In"	"In"	"37.0"	NA	NA	NA	NA	NA	1
+2020-08-05 06:47:49	"teacher008"	"teacher"	40	"The lizard's on the cat?? Is the cat ok with it?"	"The lizard's on the cat?? Is the cat ok with it?"	"38.0"	NA	NA	NA	NA	NA	11
+2020-08-05 06:47:57	"teacher008"	"teacher"	41	"In - correct!"	"In - correct!"	"39.0"	NA	NA	NA	NA	NA	3
+2020-08-05 06:48:25	"student010"	"student"	42	"The cat is slepping now"	"The cat is sleeping now"	"40.0"	NA	NA	NA	NA	NA	5
+2020-08-05 06:48:49	"teacher008"	"teacher"	43	"Ha, interesting!"	"Ha, interesting!"	NA	NA	NA	NA	NA	NA	2
+2020-08-05 06:48:56	"teacher008"	"teacher"	44	"__ the morning"	"__ the morning"	NA	"3c"	"eliciting,revision"	"lexical resource"	NA	NA	3
+2020-08-05 06:49:01	"student010"	"student"	45	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:49:04	"teacher008"	"teacher"	46	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:49:13	"teacher008"	"teacher"	47	"___ Wednesday morning"	"___ Wednesday morning"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	3
+2020-08-05 06:49:26	"student010"	"student"	48	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:49:45	"teacher008"	"teacher"	49	"correct!"	"correct!"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:49:50	"teacher008"	"teacher"	50	"__ school"	"__ school"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	2
+2020-08-05 06:50:07	"student010"	"student"	51	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:50:12	"teacher008"	"teacher"	52	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:50:19	"teacher008"	"teacher"	53	"__ August 5th"	"__ August 5th"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	3
+2020-08-05 06:50:40	"student010"	"student"	54	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:50:57	"teacher008"	"teacher"	55	"It's a particular day though"	"It's a particular day though"	NA	NA	"scaffolding,eliciting"	"lexical resource"	NA	NA	5
+2020-08-05 06:51:08	"student010"	"student"	56	"The lizard licked the cats fur"	"The lizard licked the cat's fur"	NA	"4a"	"topic development"	NA	NA	NA	6
+2020-08-05 06:51:19	"student010"	"student"	57	"On"	"On"	"55.0"	NA	NA	NA	NA	NA	1
+2020-08-05 06:51:28	"teacher008"	"teacher"	58	"yes, correct!"	"yes, correct!"	NA	NA	NA	NA	NA	NA	2
+2020-08-05 06:51:34	"teacher008"	"teacher"	59	"you have a very patient cat!"	"you have a very patient cat!"	"56.0"	NA	NA	NA	NA	NA	6
+2020-08-05 06:52:14	"teacher008"	"teacher"	60	"__ 10.30 am"	"__ 10.30 am"	"58.0"	NA	"eliciting,revision"	"lexical resource"	NA	NA	3
+2020-08-05 06:52:22	"student010"	"student"	61	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:52:29	"teacher008"	"teacher"	62	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:52:42	"teacher008"	"teacher"	63	"___ Thursday"	"___ Thursday"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	2
+2020-08-05 06:52:52	"student010"	"student"	64	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:52:56	"teacher008"	"teacher"	65	"yes"	"yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:52:58	"teacher008"	"teacher"	66	"__ night"	"__ night"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	2
+2020-08-05 06:53:12	"student010"	"student"	67	"Now it's on the cats head"	"Now it's on the cat's head"	"59.0"	NA	NA	NA	NA	NA	6
+2020-08-05 06:53:15	"student010"	"student"	68	"At"	"At"	"66.0"	NA	NA	NA	NA	NA	1
+2020-08-05 06:53:43	"teacher008"	"teacher"	69	"correct!"	"correct!"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:53:48	"teacher008"	"teacher"	70	"__ the photo"	"__ the photo"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	3
+2020-08-05 06:53:57	"student010"	"student"	71	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:54:03	"teacher008"	"teacher"	72	"yes, good"	"yes, good"	NA	NA	NA	NA	NA	NA	2
+2020-08-05 06:54:08	"teacher008"	"teacher"	73	"__ the 21st century"	"__ the 21st century"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	4
+2020-08-05 06:54:22	"student010"	"student"	74	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:54:27	"teacher008"	"teacher"	75	"__ the park"	"__ the park"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	3
+2020-08-05 06:54:31	"student010"	"student"	76	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:54:37	"teacher008"	"teacher"	77	"at! at the park"	"at! at the park"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	4
+2020-08-05 06:54:47	"teacher008"	"teacher"	78	"at the theatre / at the cinema"	"at the theatre / at the cinema"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	7
+2020-08-05 06:54:54	"teacher008"	"teacher"	79	"__ my birthday"	"__ my birthday"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	3
+2020-08-05 06:55:10	"student010"	"student"	80	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:55:22	"teacher008"	"teacher"	81	"__ my birthDAY"	"__ my birthDAY"	NA	NA	"eliciting,scaffolding"	"lexical resource"	NA	NA	3
+2020-08-05 06:55:27	"student010"	"student"	82	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:55:33	"teacher008"	"teacher"	83	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:55:36	"teacher008"	"teacher"	84	"__ Christmas"	"__ Christmas"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	2
+2020-08-05 06:55:42	"student010"	"student"	85	"On"	"On"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:55:56	"teacher008"	"teacher"	86	"at Christmas, but on Christmas Day"	"at Christmas, but on Christmas Day"	NA	NA	"scaffolding"	"lexical resource"	NA	NA	6
+2020-08-05 06:56:07	"teacher008"	"teacher"	87	"__ summer"	"__ summer"	NA	NA	"eliciting,revision"	"lexical resource"	NA	NA	2
+2020-08-05 06:56:13	"student010"	"student"	88	"In"	"In"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:56:19	"teacher008"	"teacher"	89	"yes, well done!"	"yes, well done!"	NA	NA	NA	NA	NA	NA	3
+2020-08-05 06:57:33	"teacher008"	"teacher"	90	"Ok, now, just to practice this, we're going to take turns asking and answering questions using these phrases. I'll start. Do you like going to the cinema? What was the last movie you watched __ the cinema?"	"Ok, now, just to practice this, we're going to take turns asking and answering questions using these phrases. I'll start. Do you like going to the cinema? What was the last movie you watched __ the cinema?"	NA	"5.0"	"topic opening,exercise"	"lexical resource"	NA	NA	37
+2020-08-05 06:58:04	"student010"	"student"	91	"At"	"At"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 06:58:51	"teacher008"	"teacher"	92	"Yes, sure. So, do you like going to the cinema?"	"Yes, sure. So, do you like going to the cinema?"	NA	NA	NA	NA	NA	NA	10
+2020-08-05 06:59:08	"student010"	"student"	93	"Yes I do"	"Yes I do"	NA	NA	NA	NA	NA	NA	3
+2020-08-05 06:59:59	"teacher008"	"teacher"	94	"And what was the last movie you watched? :)"	"And what was the last movie you watched? :)"	NA	NA	NA	NA	NA	NA	9
+2020-08-05 07:00:41	"student010"	"student"	95	"Star Wars Rise of Skywaker"	"Star Wars Rise of Skywaker"	NA	NA	NA	NA	NA	NA	5
+2020-08-05 07:00:51	"teacher008"	"teacher"	96	"Ooh, good one!"	"Ooh, good one!"	NA	NA	NA	NA	NA	NA	3
+2020-08-05 07:01:16	"teacher008"	"teacher"	97	"Ok, your turn to ask a question using some of the phrases with prepositions!"	"Ok, your turn to ask a question using some of the phrases with prepositions!"	NA	"5a"	"exercise"	"lexical resource"	NA	NA	14
+2020-08-05 07:03:29	"student010"	"student"	98	"What are you going to do in winter?"	"What are you going to do in winter?"	NA	NA	NA	NA	NA	NA	8
+2020-08-05 07:05:05	"teacher008"	"teacher"	99	"Good question! I'm going to have more free time I think because my son is starting school. I'm also going to miss him! I'll probably work and study more. Of course, there might be another lockdown if there's a second wave of coronavirus, and then we'll just stay at home and watch lots of movies"	"Good question! I'm going to have more free time I think because my son is starting school. I'm also going to miss him! I'll probably work and study more. Of course, there might be another lockdown if there's a second wave of coronavirus, and then we'll just stay at home and watch lots of movies"	NA	NA	NA	NA	NA	NA	55
+2020-08-05 07:06:10	"teacher008"	"teacher"	100	"Ok, my turn. What big changes do you expect will happen __ the future?"	"Ok, my turn. What big changes do you expect will happen __ the future?"	NA	"5b"	"exercise"	"lexical resource"	NA	NA	14
+2020-08-05 07:06:30	"student010"	"student"	101	"Do you buy movies?"	"Do you buy movies?"	NA	"5c"	"topic development"	NA	NA	NA	4
+2020-08-05 07:06:38	"student010"	"student"	102	"In"	"In"	"100.0"	NA	NA	NA	NA	NA	1
+2020-08-05 07:07:12	"teacher008"	"teacher"	103	"Yes, but we also pay for three streaming services (Netflix, Disney and Amazon), there's tons of movies there."	"Yes, but we also pay for three streaming services (Netflix, Disney and Amazon), there's tons of movies there."	"101.0"	NA	NA	NA	NA	NA	18
+2020-08-05 07:07:48	"teacher008"	"teacher"	104	"in the future - correct"	"in the future - correct"	"102.0"	NA	NA	NA	NA	NA	5
+2020-08-05 07:08:10	"student010"	"student"	105	"Oh yes I forgot that you have this programmes"	"Oh yes I forgot that you have these programmes"	"103.0"	NA	NA	NA	NA	NA	9
+2020-08-05 07:08:43	"teacher008"	"teacher"	106	"There's Netflix in Ukraine, right?"	"There's Netflix in Ukraine, right?"	NA	NA	NA	NA	NA	NA	5
+2020-08-05 07:09:56	"student010"	"student"	107	"Yes we have Netflix but it isn't very popular"	"Yes we have Netflix but it isn't very popular"	NA	NA	NA	NA	NA	NA	9
+2020-08-05 07:10:39	"teacher008"	"teacher"	108	"Makes sense. Ok <STUDENT>, what about the future? Driveless electric cars? Solar power?"	"Makes sense. Ok <STUDENT>, what about the future? Driveless electric cars? Solar power?"	"107, 104"	"5b (continued)"	"redirection,scaffolding"	NA	NA	NA	13
+2020-08-05 07:12:13	"student010"	"student"	109	"I'm sure that there will be vaccine for corona"	"I'm sure that there will be a vaccine for corona"	NA	NA	NA	NA	NA	NA	9
+2020-08-05 07:12:31	"teacher008"	"teacher"	110	"Oh yes please! I hope so too!"	"Oh yes please! I hope so too!"	NA	NA	NA	NA	NA	NA	7
+2020-08-05 07:12:47	"teacher008"	"teacher"	111	"Ok, your turn!"	"Ok, your turn!"	NA	"5d"	"exercise"	"lexical resource"	NA	NA	3
+2020-08-05 07:12:56	"teacher008"	"teacher"	112	"Oh wait."	"Oh wait."	NA	"5e"	"eliciting,repair"	"lexical resource"	NA	NA	2
+2020-08-05 07:13:03	"teacher008"	"teacher"	113	"There will be __ vaccine for corona"	"There will be __ vaccine for corona"	NA	NA	NA	NA	NA	NA	7
+2020-08-05 07:13:19	"student010"	"student"	114	"A"	"A"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:13:24	"teacher008"	"teacher"	115	"yes!"	"yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:13:32	"teacher008"	"teacher"	116	"Ok, go ahead"	"Ok, go ahead"	"111.0"	NA	NA	NA	NA	NA	3
+2020-08-05 07:14:47	"student010"	"student"	117	"Do you post your family on facebook?"	"Do you post pictures of your family on facebook?"	NA	NA	NA	NA	NA	NA	7
+2020-08-05 07:16:30	"teacher008"	"teacher"	118	"No, I don't, only in closed posts for friends and family. Oh well, I sometimes post pictures with my husband but not with my son because he's young and can't give me an informed consent"	"No, I don't, only in closed posts for friends and family. Oh well, I sometimes post pictures with my husband but not with my son because he's young and can't give me an informed consent"	NA	NA	NA	NA	NA	NA	35
+2020-08-05 07:16:45	"teacher008"	"teacher"	119	"You know 'consent'? When you say it's ok to do something, a noun"	"You know 'consent'? When you say it's ok to do something, a noun"	NA	NA	"scaffolding"	"lexical resource,meaning"	NA	NA	13
+2020-08-05 07:17:29	"teacher008"	"teacher"	120	"He can't say 'Ok Mum, you can post my pictures'. Well, he can, but he doesn't realize the full meaning of it"	"He can't say 'Ok Mum, you can post my pictures'. Well, he can, but he doesn't realize the full meaning of it"	NA	NA	NA	NA	NA	NA	22
+2020-08-05 07:18:14	"student010"	"student"	121	"Yes I think everybody post himself only for friends"	"Yes I think everybody posts pictures of themselves only for friends"	NA	NA	NA	NA	NA	NA	9
+2020-08-05 07:18:44	"teacher008"	"teacher"	122	"It's a reasonable thing to do I think"	"It's a reasonable thing to do I think"	NA	NA	NA	NA	NA	NA	8
+2020-08-05 07:19:16	"student010"	"student"	123	"So you need to ask a person to post photo with him?"	"So you need to ask a person to post a photo with him?"	NA	"5f"	"topic development"	"lexical resource"	NA	NA	12
+2020-08-05 07:19:49	"teacher008"	"teacher"	124	"You don't have to, but I think it's a good thing to do"	"You don't have to, but I think it's a good thing to do"	NA	NA	NA	NA	NA	NA	13
+2020-08-05 07:20:48	"student010"	"student"	125	"I see"	"I see"	NA	NA	NA	NA	NA	NA	2
+2020-08-05 07:21:20	"teacher008"	"teacher"	126	"A quick grammar thing. 'Somebody left ___ coat here.' Could you insert a his / her / their, please?"	"A quick grammar thing. 'Somebody left ___ coat here.' Could you insert a his / her / their, please?"	NA	"6.0"	"presentation,eliciting"	"grammatical resource"	NA	NA	19
+2020-08-05 07:21:42	"student010"	"student"	127	"His"	"His"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:21:58	"teacher008"	"teacher"	128	"What if it's 'her'?"	"What if it's 'her'?"	NA	NA	NA	NA	NA	NA	4
+2020-08-05 07:22:27	"teacher008"	"teacher"	129	"We don't know whether it's a he or a she, so we often use 'their'"	"We don't know whether it's a he or a she, so we often use 'their'"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	15
+2020-08-05 07:22:45	"student010"	"student"	130	"Oh ok"	"Oh ok"	NA	NA	NA	NA	NA	NA	2
+2020-08-05 07:23:00	"teacher008"	"teacher"	131	"Somebody can be replaced with they"	"Somebody can be replaced with they"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	6
+2020-08-05 07:23:07	"teacher008"	"teacher"	132	"and other words like this"	"and other words like this"	NA	NA	NA	NA	NA	NA	5
+2020-08-05 07:23:21	"teacher008"	"teacher"	133	"So you need to ask a person to post a photo with ___?'"	"So you need to ask a person to post a photo with ___?'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	13
+2020-08-05 07:23:53	"student010"	"student"	134	"Them?"	"Them?"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:24:01	"teacher008"	"teacher"	135	"Yes! Does it sound crazy?"	"Yes! Does it sound crazy?"	NA	NA	NA	NA	NA	NA	5
+2020-08-05 07:24:11	"student010"	"student"	136	"Yes!"	"Yes!"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:24:30	"teacher008"	"teacher"	137	"I think everybody posts ___ only for friends'"	"I think everybody posts ___ only for friends'"	NA	NA	"eliciting"	"grammatical resource"	NA	NA	8
+2020-08-05 07:24:38	"teacher008"	"teacher"	138	"I know! Something to get used to"	"I know! Something to get used to"	"136.0"	NA	NA	NA	NA	NA	7
+2020-08-05 07:26:42	"teacher008"	"teacher"	139	"It's called singular 'they' and it's a respectful way to talk about someone when we don't know whether they are a he or a she"	"It's called singular 'they' and it's a respectful way to talk about someone when we don't know whether they are a he or a she"	NA	NA	"scaffolding"	"grammatical resource"	NA	NA	25
+2020-08-05 07:27:07	"student010"	"student"	140	"Understand"	"Understand"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:27:13	"teacher008"	"teacher"	141	":)"	":)"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:27:31	"teacher008"	"teacher"	142	"Oh, quick question. Would you be able to have a class tomorrow morning instead of Friday?"	"Oh, quick question. Would you be able to have a class tomorrow morning instead of Friday?"	NA	"7.0"	"topic opening"	NA	NA	NA	16
+2020-08-05 07:27:57	"student010"	"student"	143	"Yes"	"Yes"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:28:21	"teacher008"	"teacher"	144	"Great, thank you. 9.30 am tomorrow?"	"Great, thank you. 9.30 am tomorrow?"	NA	NA	NA	NA	NA	NA	6
+2020-08-05 07:28:30	"student010"	"student"	145	"Aha"	"Aha"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:28:57	"teacher008"	"teacher"	146	"Thanks, I appreciate that. Have a lovely day! Well done today!"	"Thanks, I appreciate that. Have a lovely day! Well done today!"	NA	"8.0"	"closing"	NA	NA	NA	11
+2020-08-05 07:29:14	"student010"	"student"	147	"Bye!"	"Bye!"	NA	NA	NA	NA	NA	NA	1
+2020-08-05 07:29:22	"teacher008"	"teacher"	148	"Bye <STUDENT>!"	"Bye <STUDENT>!"	NA	NA	NA	NA	NA	"B2"	2
