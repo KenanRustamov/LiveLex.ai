@@ -130,6 +130,8 @@ export default function TeacherDashboard() {
                         <ScenesManager
                             scenes={scenes}
                             onSceneCreated={(newScene) => setScenes([...scenes, newScene])}
+                            onSceneDeleted={(id) => setScenes(scenes.filter(s => s.id !== id))}
+                            onSceneUpdated={(updated) => setScenes(scenes.map(s => s.id === updated.id ? updated : s))}
                         />
                     </TabsContent>
 

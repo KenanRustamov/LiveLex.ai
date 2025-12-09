@@ -3,6 +3,7 @@ import { Inter as FontSans } from "next/font/google";
 import "../styles/globals.css";
 import { cn } from "@/lib/utils";
 import { Providers } from "./providers";
+import { Toaster } from "@/components/ui/toaster";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -10,9 +11,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "AI Glasses",
-  description: "AI Glasses - LiveLex",
-  manifest: "/manifest.json",
+  title: "LiveLex",
+  description: "Learn languages with AI in the real world",
 };
 
 export const viewport: Viewport = {
@@ -21,7 +21,11 @@ export const viewport: Viewport = {
   viewportFit: "cover",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <body
@@ -32,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       >
         <Providers>
           {children}
+          <Toaster />
         </Providers>
       </body>
     </html>

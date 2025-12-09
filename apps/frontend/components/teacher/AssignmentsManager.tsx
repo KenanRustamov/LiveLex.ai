@@ -4,21 +4,13 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Loader2, Plus, Pencil, Trash2, X, Save } from 'lucide-react';
+import { Loader2, Plus, Pencil, X, Save } from 'lucide-react';
 import { Assignment, Scene } from '@/types/teacher';
 import { useSession } from 'next-auth/react';
 import { Switch } from "@/components/ui/switch";
-import {
-    AlertDialog,
-    AlertDialogAction,
-    AlertDialogCancel,
-    AlertDialogContent,
-    AlertDialogDescription,
-    AlertDialogFooter,
-    AlertDialogHeader,
-    AlertDialogTitle,
-    AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
+import { teacherService } from "@/services/teacherService";
+import { useToast } from "@/components/ui/use-toast";
+import { DeleteConfirm } from "@/components/ui/delete-confirm";
 
 interface AssignmentsManagerProps {
     assignments: Assignment[];
@@ -30,16 +22,19 @@ interface AssignmentsManagerProps {
 
 export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, onAssignmentDeleted, onAssignmentUpdated }: AssignmentsManagerProps) {
     const { data: session } = useSession();
-    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
+    const { toast } = useToast();
 
     // Form State
     const [newAssignmentTitle, setNewAssignmentTitle] = useState("");
     const [newAssignmentWords, setNewAssignmentWords] = useState("");
     const [newAssignmentSceneId, setNewAssignmentSceneId] = useState<string>("none");
-    const [newAssignmentDiscoveredCount, setNewAssignmentDiscoveredCount] = useState<number>(0);
+    const [newAssignmentDiscoveredCount, setNewAssignmentDiscoveredCount] = useState<number | "">(0);
     const [includeGrammar, setIncludeGrammar] = useState(false);
     const [grammarTense, setGrammarTense] = useState<"present" | "past">("present");
     const [creating, setCreating] = useState(false);
+
+    // Validation State
+    const [errors, setErrors] = useState<{ title?: string; words?: string }>({});
 
     // Edit State
     const [editingAssignment, setEditingAssignment] = useState<Assignment | null>(null);
@@ -52,6 +47,7 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
         setIncludeGrammar(false);
         setGrammarTense("present");
         setEditingAssignment(null);
+        setErrors({});
     };
 
     const startEditing = (assignment: Assignment) => {
@@ -62,95 +58,98 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
         setNewAssignmentDiscoveredCount(assignment.include_discovered_count || 0);
         setIncludeGrammar(assignment.include_grammar || false);
         setGrammarTense((assignment.grammar_tense as "present" | "past") || "present");
+        setErrors({});
 
         // Scroll to top
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
+    const validateForm = () => {
+        const newErrors: { title?: string; words?: string } = {};
+        let isValid = true;
+
+        if (!newAssignmentTitle.trim()) {
+            newErrors.title = "Title is required.";
+            isValid = false;
+        }
+
+        if (!newAssignmentWords.trim()) {
+            newErrors.words = "At least one word is required.";
+            isValid = false;
+        }
+
+        setErrors(newErrors);
+        return isValid;
+    };
+
     const handleCreateOrUpdate = async () => {
-        if (!newAssignmentTitle || !newAssignmentWords) return;
+        if (!validateForm()) {
+            return;
+        }
+
+        if (!session?.user?.email) return;
+
         setCreating(true);
         try {
             const wordsList = newAssignmentWords.split('\n').map(w => w.trim()).filter(w => w !== '');
-
-            const payload: any = {
-                email: session?.user?.email,
+            const payload = {
+                email: session.user.email,
                 title: newAssignmentTitle,
                 words: wordsList,
-                include_discovered_count: newAssignmentDiscoveredCount,
+                include_discovered_count: newAssignmentDiscoveredCount === "" ? 0 : newAssignmentDiscoveredCount,
                 include_grammar: includeGrammar,
-                grammar_tense: includeGrammar ? grammarTense : null
+                grammar_tense: includeGrammar ? grammarTense : null,
+                scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined
             };
 
-            if (newAssignmentSceneId && newAssignmentSceneId !== "none") {
-                payload.scene_id = newAssignmentSceneId;
-            }
-
             if (editingAssignment) {
-                // Update
-                const res = await fetch(`${backendUrl}/v1/assignments/${editingAssignment.id}`, {
-                    method: 'PUT',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-
-                if (res.ok) {
-                    const updatedAssignment: Assignment = {
-                        ...editingAssignment,
-                        title: newAssignmentTitle,
-                        words: wordsList,
-                        scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
-                        include_discovered_count: newAssignmentDiscoveredCount,
-                        include_grammar: includeGrammar,
-                        grammar_tense: includeGrammar ? grammarTense : undefined,
-                    };
-                    onAssignmentUpdated(updatedAssignment);
-                    resetForm();
-                }
+                await teacherService.updateAssignment(editingAssignment.id, payload);
+                const updatedAssignment: Assignment = {
+                    ...editingAssignment,
+                    title: newAssignmentTitle,
+                    words: wordsList,
+                    scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
+                    include_discovered_count: newAssignmentDiscoveredCount === "" ? 0 : newAssignmentDiscoveredCount,
+                    include_grammar: includeGrammar,
+                    grammar_tense: includeGrammar ? grammarTense : undefined,
+                };
+                onAssignmentUpdated(updatedAssignment);
+                toast({ title: "Success", description: "Assignment updated.", variant: "success" });
+                resetForm();
             } else {
-                // Create
-                const res = await fetch(`${backendUrl}/v1/assignments`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-
-                if (res.ok) {
-                    const data = await res.json();
-                    const newAssignment: Assignment = {
-                        id: data.id,
-                        title: newAssignmentTitle,
-                        words: wordsList,
-                        scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
-                        include_discovered_count: newAssignmentDiscoveredCount,
-                        include_grammar: includeGrammar,
-                        grammar_tense: includeGrammar ? grammarTense : undefined,
-                        created_at: new Date().toISOString()
-                    };
-                    onAssignmentCreated(newAssignment);
-                    resetForm();
-                }
+                const newAssignment = await teacherService.createAssignment(payload);
+                onAssignmentCreated(newAssignment);
+                toast({ title: "Success", description: "Assignment created.", variant: "success" });
+                resetForm();
             }
-        } catch (error) {
+        } catch (error: any) {
             console.error("Failed to save assignment", error);
+            toast({
+                title: "Error",
+                description: error.message || "Failed to save assignment. Please try again.",
+                variant: "destructive",
+            });
         } finally {
             setCreating(false);
         }
     };
 
     const handleDelete = async (id: string) => {
+        if (!session?.user?.email) return;
         try {
-            const res = await fetch(`${backendUrl}/v1/assignments/${id}?email=${session?.user?.email}`, {
-                method: 'DELETE',
-            });
-            if (res.ok) {
-                onAssignmentDeleted(id);
-                if (editingAssignment?.id === id) {
-                    resetForm();
-                }
+            await teacherService.deleteAssignment(id, session.user.email);
+            onAssignmentDeleted(id);
+            if (editingAssignment?.id === id) {
+                resetForm();
             }
+            toast({ title: "Success", description: "Assignment deleted.", variant: "success" });
         } catch (error) {
             console.error("Failed to delete assignment", error);
+            toast({
+                title: "Error",
+                description: "Failed to delete assignment.",
+                variant: "destructive",
+            });
         }
     };
 
@@ -169,9 +168,13 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                                 id="title"
                                 placeholder="e.g., Week 1 Vocabulary"
                                 value={newAssignmentTitle}
-                                onChange={(e) => setNewAssignmentTitle(e.target.value)}
-                                className="rounded-xl"
+                                onChange={(e) => {
+                                    setNewAssignmentTitle(e.target.value);
+                                    if (errors.title) setErrors({ ...errors, title: undefined });
+                                }}
+                                className={errors.title ? "border-red-500 rounded-xl" : "rounded-xl"}
                             />
+                            {errors.title && <p className="text-sm text-red-500 font-medium">{errors.title}</p>}
                         </div>
 
                         {/* Scene Context Selector */}
@@ -216,9 +219,13 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                                     id="words"
                                     placeholder="Hola&#10;Gracias"
                                     value={newAssignmentWords}
-                                    onChange={(e) => setNewAssignmentWords(e.target.value)}
-                                    className="min-h-[100px] rounded-xl"
+                                    onChange={(e) => {
+                                        setNewAssignmentWords(e.target.value);
+                                        if (errors.words) setErrors({ ...errors, words: undefined });
+                                    }}
+                                    className={errors.words ? "min-h-[100px] rounded-xl border-red-500" : "min-h-[100px] rounded-xl"}
                                 />
+                                {errors.words && <p className="text-sm text-red-500 font-medium">{errors.words}</p>}
                             </div>
 
                             {newAssignmentSceneId !== "none" && (
@@ -231,7 +238,15 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                                             min="0"
                                             max="10"
                                             value={newAssignmentDiscoveredCount}
-                                            onChange={(e) => setNewAssignmentDiscoveredCount(parseInt(e.target.value) || 0)}
+                                            onChange={(e) => {
+                                                const val = e.target.value;
+                                                if (val === "") {
+                                                    setNewAssignmentDiscoveredCount("");
+                                                } else {
+                                                    const num = parseInt(val);
+                                                    if (!isNaN(num)) setNewAssignmentDiscoveredCount(num);
+                                                }
+                                            }}
                                             className="rounded-xl w-20 bg-white"
                                         />
                                         <span className="text-xs text-blue-700">
@@ -328,34 +343,11 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                                             <Pencil size={14} />
                                         </Button>
 
-                                        <AlertDialog>
-                                            <AlertDialogTrigger asChild>
-                                                <Button
-                                                    variant="ghost"
-                                                    size="icon"
-                                                    className="h-8 w-8 text-muted-foreground hover:text-destructive"
-                                                >
-                                                    <Trash2 size={14} />
-                                                </Button>
-                                            </AlertDialogTrigger>
-                                            <AlertDialogContent>
-                                                <AlertDialogHeader>
-                                                    <AlertDialogTitle>Delete Assignment?</AlertDialogTitle>
-                                                    <AlertDialogDescription>
-                                                        This will permanently delete "{assignment.title}" for all students. This action cannot be undone.
-                                                    </AlertDialogDescription>
-                                                </AlertDialogHeader>
-                                                <AlertDialogFooter>
-                                                    <AlertDialogCancel>Cancel</AlertDialogCancel>
-                                                    <AlertDialogAction
-                                                        onClick={() => handleDelete(assignment.id)}
-                                                        className="bg-destructive hover:bg-destructive/90"
-                                                    >
-                                                        Delete
-                                                    </AlertDialogAction>
-                                                </AlertDialogFooter>
-                                            </AlertDialogContent>
-                                        </AlertDialog>
+                                        <DeleteConfirm
+                                            title="Delete Assignment?"
+                                            description={`This will permanently delete "${assignment.title}" for all students. This action cannot be undone.`}
+                                            onConfirm={() => handleDelete(assignment.id)}
+                                        />
                                     </div>
                                 </div>
                             ))}
