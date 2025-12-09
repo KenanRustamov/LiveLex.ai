@@ -13,6 +13,8 @@ export interface Assignment {
     created_at: string;
     scene_id?: string | null;
     include_discovered_count?: number;
+    include_grammar?: boolean;
+    grammar_tense?: string | null;
 }
 
 export interface Scene {

@@ -130,6 +130,8 @@ export default function TeacherDashboard() {
                         <ScenesManager
                             scenes={scenes}
                             onSceneCreated={(newScene) => setScenes([...scenes, newScene])}
+                            onSceneDeleted={(id) => setScenes(scenes.filter(s => s.id !== id))}
+                            onSceneUpdated={(updated) => setScenes(scenes.map(s => s.id === updated.id ? updated : s))}
                         />
                     </TabsContent>
 
@@ -138,6 +140,8 @@ export default function TeacherDashboard() {
                             assignments={assignments}
                             scenes={scenes}
                             onAssignmentCreated={(newAssignment) => setAssignments([newAssignment, ...assignments])}
+                            onAssignmentDeleted={(id) => setAssignments(assignments.filter(a => a.id !== id))}
+                            onAssignmentUpdated={(updated) => setAssignments(assignments.map(a => a.id === updated.id ? updated : a))}
                         />
                     </TabsContent>
                 </Tabs>

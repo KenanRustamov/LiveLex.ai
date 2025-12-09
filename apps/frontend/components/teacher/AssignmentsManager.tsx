@@ -4,84 +4,152 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Loader2, Plus } from 'lucide-react';
+import { Loader2, Plus, Pencil, X, Save } from 'lucide-react';
 import { Assignment, Scene } from '@/types/teacher';
 import { useSession } from 'next-auth/react';
 import { Switch } from "@/components/ui/switch";
+import { teacherService } from "@/services/teacherService";
+import { useToast } from "@/components/ui/use-toast";
+import { DeleteConfirm } from "@/components/ui/delete-confirm";
 
 interface AssignmentsManagerProps {
     assignments: Assignment[];
     scenes: Scene[];
     onAssignmentCreated: (assignment: Assignment) => void;
+    onAssignmentDeleted: (id: string) => void;
+    onAssignmentUpdated: (assignment: Assignment) => void;
 }
 
-export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }: AssignmentsManagerProps) {
+export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, onAssignmentDeleted, onAssignmentUpdated }: AssignmentsManagerProps) {
     const { data: session } = useSession();
+    const { toast } = useToast();
 
     // Form State
     const [newAssignmentTitle, setNewAssignmentTitle] = useState("");
     const [newAssignmentWords, setNewAssignmentWords] = useState("");
     const [newAssignmentSceneId, setNewAssignmentSceneId] = useState<string>("none");
-    const [newAssignmentDiscoveredCount, setNewAssignmentDiscoveredCount] = useState<number>(0);
+    const [newAssignmentDiscoveredCount, setNewAssignmentDiscoveredCount] = useState<number | "">(0);
     const [includeGrammar, setIncludeGrammar] = useState(false);
     const [grammarTense, setGrammarTense] = useState<"present" | "past">("present");
     const [creating, setCreating] = useState(false);
 
-    const handleCreateAssignment = async () => {
-        if (!newAssignmentTitle || !newAssignmentWords) return;
+    // Validation State
+    const [errors, setErrors] = useState<{ title?: string; words?: string }>({});
+
+    // Edit State
+    const [editingAssignment, setEditingAssignment] = useState<Assignment | null>(null);
+
+    const resetForm = () => {
+        setNewAssignmentTitle("");
+        setNewAssignmentWords("");
+        setNewAssignmentSceneId("none");
+        setNewAssignmentDiscoveredCount(0);
+        setIncludeGrammar(false);
+        setGrammarTense("present");
+        setEditingAssignment(null);
+        setErrors({});
+    };
+
+    const startEditing = (assignment: Assignment) => {
+        setEditingAssignment(assignment);
+        setNewAssignmentTitle(assignment.title);
+        setNewAssignmentWords(assignment.words.join('\n'));
+        setNewAssignmentSceneId(assignment.scene_id || "none");
+        setNewAssignmentDiscoveredCount(assignment.include_discovered_count || 0);
+        setIncludeGrammar(assignment.include_grammar || false);
+        setGrammarTense((assignment.grammar_tense as "present" | "past") || "present");
+        setErrors({});
+
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    const validateForm = () => {
+        const newErrors: { title?: string; words?: string } = {};
+        let isValid = true;
+
+        if (!newAssignmentTitle.trim()) {
+            newErrors.title = "Title is required.";
+            isValid = false;
+        }
+
+        if (!newAssignmentWords.trim()) {
+            newErrors.words = "At least one word is required.";
+            isValid = false;
+        }
+
+        setErrors(newErrors);
+        return isValid;
+    };
+
+    const handleCreateOrUpdate = async () => {
+        if (!validateForm()) {
+            return;
+        }
+
+        if (!session?.user?.email) return;
+
         setCreating(true);
         try {
-            const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
-            const wordsList = newAssignmentWords.split('\n').filter(w => w.trim() !== '');
-
-            const payload: any = {
-                email: session?.user?.email,
+            const wordsList = newAssignmentWords.split('\n').map(w => w.trim()).filter(w => w !== '');
+            const payload = {
+                email: session.user.email,
                 title: newAssignmentTitle,
                 words: wordsList,
-                include_discovered_count: newAssignmentDiscoveredCount,
+                include_discovered_count: newAssignmentDiscoveredCount === "" ? 0 : newAssignmentDiscoveredCount,
                 include_grammar: includeGrammar,
-                grammar_tense: includeGrammar ? grammarTense : null
+                grammar_tense: includeGrammar ? grammarTense : null,
+                scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined
             };
 
-            if (newAssignmentSceneId && newAssignmentSceneId !== "none") {
-                payload.scene_id = newAssignmentSceneId;
-            }
-
-            const res = await fetch(`${backendUrl}/v1/assignments`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload)
-            });
-
-            if (res.ok) {
-                const data = await res.json();
-
-                // Construct new assignment object (matching backend response roughly)
-                const newAssignment: Assignment = {
-                    id: data.id,
+            if (editingAssignment) {
+                await teacherService.updateAssignment(editingAssignment.id, payload);
+                const updatedAssignment: Assignment = {
+                    ...editingAssignment,
                     title: newAssignmentTitle,
                     words: wordsList,
                     scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
-                    include_discovered_count: newAssignmentDiscoveredCount,
+                    include_discovered_count: newAssignmentDiscoveredCount === "" ? 0 : newAssignmentDiscoveredCount,
                     include_grammar: includeGrammar,
                     grammar_tense: includeGrammar ? grammarTense : undefined,
-                    created_at: new Date().toISOString()
                 };
-
+                onAssignmentUpdated(updatedAssignment);
+                toast({ title: "Success", description: "Assignment updated.", variant: "success" });
+                resetForm();
+            } else {
+                const newAssignment = await teacherService.createAssignment(payload);
                 onAssignmentCreated(newAssignment);
-
-                // Reset form
-                setNewAssignmentTitle("");
-                setNewAssignmentWords("");
-                setNewAssignmentSceneId("none");
-                setNewAssignmentDiscoveredCount(0);
-                setIncludeGrammar(false);
-                setGrammarTense("present");
+                toast({ title: "Success", description: "Assignment created.", variant: "success" });
+                resetForm();
             }
-        } catch (error) {
-            console.error("Failed to create assignment", error);
+        } catch (error: any) {
+            console.error("Failed to save assignment", error);
+            toast({
+                title: "Error",
+                description: error.message || "Failed to save assignment. Please try again.",
+                variant: "destructive",
+            });
         } finally {
             setCreating(false);
+        }
+    };
+
+    const handleDelete = async (id: string) => {
+        if (!session?.user?.email) return;
+        try {
+            await teacherService.deleteAssignment(id, session.user.email);
+            onAssignmentDeleted(id);
+            if (editingAssignment?.id === id) {
+                resetForm();
+            }
+            toast({ title: "Success", description: "Assignment deleted.", variant: "success" });
+        } catch (error) {
+            console.error("Failed to delete assignment", error);
+            toast({
+                title: "Error",
+                description: "Failed to delete assignment.",
+                variant: "destructive",
+            });
         }
     };
 
@@ -89,8 +157,8 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-in fade-in-50 duration-500">
             <Card className="rounded-[2rem] border-none shadow-sm h-fit">
                 <CardHeader>
-                    <CardTitle>Create Assignment</CardTitle>
-                    <CardDescription>Create a new vocabulary list.</CardDescription>
+                    <CardTitle>{editingAssignment ? "Edit Assignment" : "Create Assignment"}</CardTitle>
+                    <CardDescription>{editingAssignment ? "Update details below." : "Create a new vocabulary list."}</CardDescription>
                 </CardHeader>
                 <CardContent>
                     <div className="space-y-4">
@@ -100,9 +168,13 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                                 id="title"
                                 placeholder="e.g., Week 1 Vocabulary"
                                 value={newAssignmentTitle}
-                                onChange={(e) => setNewAssignmentTitle(e.target.value)}
-                                className="rounded-xl"
+                                onChange={(e) => {
+                                    setNewAssignmentTitle(e.target.value);
+                                    if (errors.title) setErrors({ ...errors, title: undefined });
+                                }}
+                                className={errors.title ? "border-red-500 rounded-xl" : "rounded-xl"}
                             />
+                            {errors.title && <p className="text-sm text-red-500 font-medium">{errors.title}</p>}
                         </div>
 
                         {/* Scene Context Selector */}
@@ -147,9 +219,13 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                                     id="words"
                                     placeholder="Hola&#10;Gracias"
                                     value={newAssignmentWords}
-                                    onChange={(e) => setNewAssignmentWords(e.target.value)}
-                                    className="min-h-[100px] rounded-xl"
+                                    onChange={(e) => {
+                                        setNewAssignmentWords(e.target.value);
+                                        if (errors.words) setErrors({ ...errors, words: undefined });
+                                    }}
+                                    className={errors.words ? "min-h-[100px] rounded-xl border-red-500" : "min-h-[100px] rounded-xl"}
                                 />
+                                {errors.words && <p className="text-sm text-red-500 font-medium">{errors.words}</p>}
                             </div>
 
                             {newAssignmentSceneId !== "none" && (
@@ -162,7 +238,15 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                                             min="0"
                                             max="10"
                                             value={newAssignmentDiscoveredCount}
-                                            onChange={(e) => setNewAssignmentDiscoveredCount(parseInt(e.target.value) || 0)}
+                                            onChange={(e) => {
+                                                const val = e.target.value;
+                                                if (val === "") {
+                                                    setNewAssignmentDiscoveredCount("");
+                                                } else {
+                                                    const num = parseInt(val);
+                                                    if (!isNaN(num)) setNewAssignmentDiscoveredCount(num);
+                                                }
+                                            }}
                                             className="rounded-xl w-20 bg-white"
                                         />
                                         <span className="text-xs text-blue-700">
@@ -173,14 +257,31 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                             )}
                         </div>
 
-                        <Button
-                            onClick={handleCreateAssignment}
-                            disabled={creating}
-                            className="w-full rounded-xl h-12 text-md"
-                        >
-                            {creating ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : <Plus className="mr-2 h-4 w-4" />}
-                            Create Assignment
-                        </Button>
+                        <div className="flex gap-2">
+                            {editingAssignment && (
+                                <Button
+                                    variant="outline"
+                                    onClick={resetForm}
+                                    className="rounded-xl h-12 w-12 p-0 shrink-0"
+                                >
+                                    <X size={20} />
+                                </Button>
+                            )}
+                            <Button
+                                onClick={handleCreateOrUpdate}
+                                disabled={creating}
+                                className="w-full rounded-xl h-12 text-md"
+                            >
+                                {creating ? (
+                                    <Loader2 className="h-4 w-4 animate-spin mr-2" />
+                                ) : editingAssignment ? (
+                                    <Save className="mr-2 h-4 w-4" />
+                                ) : (
+                                    <Plus className="mr-2 h-4 w-4" />
+                                )}
+                                {editingAssignment ? "Update Assignment" : "Create Assignment"}
+                            </Button>
+                        </div>
                     </div>
                 </CardContent>
             </Card>
@@ -200,9 +301,9 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                             {assignments.map((assignment) => (
                                 <div
                                     key={assignment.id}
-                                    className="p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow"
+                                    className={`p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow relative ${editingAssignment?.id === assignment.id ? 'border-primary ring-1 ring-primary' : ''}`}
                                 >
-                                    <div className="flex flex-col gap-1">
+                                    <div className="flex flex-col gap-1 pr-16">
                                         {/* Title */}
                                         <h3 className="font-bold text-gray-900">{assignment.title}</h3>
 
@@ -229,6 +330,24 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                                                 </span>
                                             )}
                                         </div>
+                                    </div>
+
+                                    {/* Action Buttons */}
+                                    <div className="absolute top-4 right-4 flex gap-1">
+                                        <Button
+                                            variant="ghost"
+                                            size="icon"
+                                            className="h-8 w-8 text-muted-foreground hover:text-primary"
+                                            onClick={() => startEditing(assignment)}
+                                        >
+                                            <Pencil size={14} />
+                                        </Button>
+
+                                        <DeleteConfirm
+                                            title="Delete Assignment?"
+                                            description={`This will permanently delete "${assignment.title}" for all students. This action cannot be undone.`}
+                                            onConfirm={() => handleDelete(assignment.id)}
+                                        />
                                     </div>
                                 </div>
                             ))}
