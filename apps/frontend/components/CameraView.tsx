@@ -2,6 +2,8 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
+import { Switch } from '@/components/ui/switch';
+import { Label } from '@/components/ui/label';
 import useAudioRecorder from '../hooks/useAudioRecorder';
 import useVadPredefined from '../hooks/useVadPredefined';
 import PlanChecklist from './PlanChecklist';
@@ -36,13 +38,13 @@ function float32ToWavBlob(audio: Float32Array, sampleRate = 16000): Blob {
 
   // fmt chunk
   writeString('fmt ');
-  view.setUint32(offset, 16, true); offset += 4;              // Subchunk1Size (16 for PCM)
-  view.setUint16(offset, 1, true); offset += 2;               // AudioFormat (1 = PCM)
-  view.setUint16(offset, 1, true); offset += 2;               // NumChannels (mono)
-  view.setUint32(offset, sampleRate, true); offset += 4;      // SampleRate
-  view.setUint32(offset, byteRate, true); offset += 4;        // ByteRate
-  view.setUint16(offset, blockAlign, true); offset += 2;      // BlockAlign
-  view.setUint16(offset, 8 * bytesPerSample, true); offset += 2; // BitsPerSample
+  view.setUint32(offset, 16, true); offset += 4;
+  view.setUint16(offset, 1, true); offset += 2;
+  view.setUint16(offset, 1, true); offset += 2;
+  view.setUint32(offset, sampleRate, true); offset += 4;
+  view.setUint32(offset, byteRate, true); offset += 4;
+  view.setUint16(offset, blockAlign, true); offset += 2;
+  view.setUint16(offset, 8 * bytesPerSample, true); offset += 2;
 
   // data chunk
   writeString('data');
@@ -90,6 +92,9 @@ export default function CameraView({ settings, username, onClose }: { settings: 
   const [evaluationResults, setEvaluationResults] = useState<Map<number, { correct: boolean; feedback: string; correct_word: string }>>(new Map());
   const [lessonSummary, setLessonSummary] = useState<any>(null);
 
+  // Grammar mode state
+  const [grammarMode, setGrammarMode] = useState<boolean>(false);
+  const [grammarTense, setGrammarTense] = useState<'present' | 'past'>('present');
 
   const backendUrl = useMemo(
     () => process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000',
@@ -97,13 +102,9 @@ export default function CameraView({ settings, username, onClose }: { settings: 
   );
   const wsUrl = useMemo(() => backendUrl.replace(/^http/, 'ws'), [backendUrl]);
 
-  // iOS requires at least one user-gesture initiated audio action before
-  // programmatic playback is allowed. We "unlock" audio once when the user
-  // taps Start by playing a single silent sample via Web Audio.
   const unlockAudio = useCallback(() => {
     try {
       if (audioCtxRef.current && audioCtxRef.current.state !== 'closed') {
-        // Ensure resumed if previously suspended
         audioCtxRef.current.resume().catch(() => { });
         return;
       }
@@ -121,10 +122,8 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     }
   }, []);
 
-  // Function to play audio from base64 data
   const playAudioFromBase64 = useCallback((base64Audio: string) => {
     try {
-      // Stop any currently playing audio
       if (currentAudioRef.current) {
         currentAudioRef.current.pause();
         currentAudioRef.current = null;
@@ -171,7 +170,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
           if (!msg || !msg.type) return;
           switch (msg.type) {
             case 'status':
-              // no-op for now
               break;
             case 'asr_final': {
               const text: string = msg.payload?.text ?? '';
@@ -185,7 +183,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               if (text) {
                 setTranscripts(prev => [...prev, { speaker: 'LLM', text }]);
               }
-              // Play TTS audio if available
               const audio: string | undefined = msg.payload?.audio;
               if (audio) {
                 playAudioFromBase64(audio);
@@ -230,7 +227,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
                   setTranscripts(prev => [...prev, { speaker: 'LLM', text: feedback }]);
                 }
               }
-              // Play TTS audio if available
               const audio: string | undefined = msg.payload?.audio;
               if (audio) {
                 playAudioFromBase64(audio);
@@ -240,7 +236,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
             case 'lesson_complete': {
               const summary = msg.payload;
               if (summary) {
-                // Store summary and disable further VAD-driven attempts on the frontend
                 setLessonSummary(summary);
                 setPlanReceived(false);
               }
@@ -280,17 +275,14 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     } catch { }
   }, []);
 
-  // Start the camera with constraints
   const startCamera = useCallback(async () => {
     setError(null);
     try {
-      // Stop any existing
       if (streamRef.current) {
         streamRef.current.getTracks().forEach(t => t.stop());
         streamRef.current = null;
       }
 
-      // Check if video element is available
       const video = videoRef.current;
       if (!video) {
         throw new Error('Video element not available');
@@ -306,7 +298,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
         audio: false
       };
 
-      // Check if mediaDevices is available
       if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
         throw new Error('Camera access is not supported in this browser. Please use a modern browser.');
       }
@@ -316,11 +307,9 @@ export default function CameraView({ settings, username, onClose }: { settings: 
       console.log('Camera stream obtained:', stream);
       streamRef.current = stream;
 
-      // Bind the stream and wait for video to be ready
       video.srcObject = stream;
       console.log('Video srcObject set, waiting for metadata...');
 
-      // Wait for the video to load metadata before playing
       await new Promise<void>((resolve, reject) => {
         const timeout = setTimeout(() => {
           video.removeEventListener('loadedmetadata', onLoadedMetadata);
@@ -345,7 +334,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
         video.addEventListener('loadedmetadata', onLoadedMetadata);
         video.addEventListener('error', onError);
 
-        // If metadata is already loaded, resolve immediately
         if (video.readyState >= HTMLMediaElement.HAVE_METADATA) {
           clearTimeout(timeout);
           video.removeEventListener('loadedmetadata', onLoadedMetadata);
@@ -355,17 +343,13 @@ export default function CameraView({ settings, username, onClose }: { settings: 
         }
       });
 
-      // Play the video
       try {
         await video.play();
         console.log('Video playback started successfully');
       } catch (playError: any) {
-        // If autoplay fails, try to play with user interaction
         console.warn('Autoplay failed, video should play on user interaction:', playError);
-        // The video should still work, just needs user interaction
       }
 
-      // Verify the stream is active
       const videoTracks = stream.getVideoTracks();
       if (videoTracks.length === 0) {
         throw new Error('No video tracks found in stream');
@@ -379,7 +363,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
         settings: videoTracks[0].getSettings()
       });
 
-      // Check video dimensions
       if (video.videoWidth === 0 || video.videoHeight === 0) {
         console.warn('Video dimensions are 0x0, but continuing...');
       } else {
@@ -399,13 +382,11 @@ export default function CameraView({ settings, username, onClose }: { settings: 
         errorMessage = 'Camera is already in use by another application.';
       } else if (e?.name === 'OverconstrainedError' || e?.name === 'ConstraintNotSatisfiedError') {
         errorMessage = 'Camera does not support the requested settings. Trying with default settings...';
-        // Could retry with simpler constraints here
       } else if (e?.message) {
         errorMessage = e.message;
       }
       setError(errorMessage);
       setRunning(false);
-      // Clean up stream on error
       if (streamRef.current) {
         streamRef.current.getTracks().forEach(t => t.stop());
         streamRef.current = null;
@@ -437,9 +418,8 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     }
     setRunning(false);
     closeWs();
-  }, []);
+  }, [closeWs]);
 
-  // Capture still frame (returns a Blob and also opens a preview tab)
   const captureFrame = useCallback(async () => {
     const video = videoRef.current;
     const canvas = canvasRef.current;
@@ -450,7 +430,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     canvas.height = h;
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
-    // Mirror front camera for a selfie-like preview
     if (facing === 'user') {
       ctx.save();
       ctx.translate(w, 0);
@@ -484,7 +463,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
       capturePreviewTimerRef.current = null;
     }, CAPTURE_PREVIEW_DURATION_MS);
 
-    // Send via WebSocket if connected
     try {
       const canvas = canvasRef.current;
       if (wsRef.current && canvas) {
@@ -503,16 +481,17 @@ export default function CameraView({ settings, username, onClose }: { settings: 
             location: settings.location,
             actions: settings.actions,
             proficiency_level: settings.proficiencyLevel,
+            grammar_mode: grammarMode,
+            grammar_tense: grammarTense,
           }
         }));
       }
     } catch { }
-  }, [backendUrl, facing]);
+  }, [facing, grammarMode, grammarTense, settings]);
 
   useEffect(() => {
     return () => {
       stopCamera();
-      // Clean up audio on unmount
       if (currentAudioRef.current) {
         currentAudioRef.current.pause();
         currentAudioRef.current = null;
@@ -533,7 +512,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     };
   }, []);
 
-  // Ensure video plays when stream is set
   useEffect(() => {
     const video = videoRef.current;
     if (!video || !streamRef.current) return;
@@ -544,7 +522,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
       });
     };
 
-    // If video already has metadata, try playing immediately
     if (video.readyState >= HTMLMediaElement.HAVE_METADATA) {
       video.play().catch((err) => {
         console.warn('Video play failed:', err);
@@ -558,7 +535,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     };
   }, [running]);
 
-  // Checklist state
   const [completed, setCompleted] = useState<boolean[]>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
@@ -572,7 +548,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     }
   }, [planObjects]);
 
-  // update completed state based on evaluation results
   useEffect(() => {
     if (planObjects && evaluationResults.size > 0) {
       setCompleted(prev => {
@@ -591,7 +566,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     setCompleted(prev => {
       const next = [...prev];
       next[i] = !next[i];
-      // advance current index to next incomplete
       if (next[i] && i === currentIndex) {
         const nextIdx = next.findIndex((v, idx) => !v && idx > i);
         setCurrentIndex(nextIdx === -1 ? i : nextIdx);
@@ -633,8 +607,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     } catch (_) { }
   }, [audioBlob, backendUrl]);
 
-  // VAD integration: enable only while lesson is in progress (plan present and no summary yet),
-  // and NOT while TTS is playing to avoid the model hearing its own voice.
   const vadEnabled = running && planReceived && !lessonSummary && !isTtsPlaying;
 
   const captureSceneDataUrl = useCallback((): string | null => {
@@ -684,12 +656,13 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               location: settings.location,
               actions: settings.actions,
               utterance_id: id,
+              grammar_mode: grammarMode,
+              grammar_tense: grammarTense,
             }
           }));
         }
       } catch { }
     } else {
-      // HTTP fallback for audio only
       try {
         const form = new FormData();
         form.append('file', blob, 'audio.webm');
@@ -700,14 +673,12 @@ export default function CameraView({ settings, username, onClose }: { settings: 
         }
       } catch { }
     }
-  }, [backendUrl, captureSceneDataUrl, settings.actions, settings.location, settings.sourceLanguage, settings.targetLanguage]);
+  }, [backendUrl, captureSceneDataUrl, settings, grammarMode, grammarTense]);
 
   const vad = useVadPredefined(vadEnabled, {
     onSpeechStart: () => {
-      if (isTtsPlaying) return; // extra guard
+      if (isTtsPlaying) return;
       try { console.log('[VAD] onSpeechStart'); } catch { }
-      // We rely on MicVAD's internal preSpeechPadMs to include leading audio,
-      // so we don't need to manually start a separate MediaRecorder here.
       setSpeechReal(false);
     },
     onSpeechRealStart: () => {
@@ -726,7 +697,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     },
   });
 
-  // Debounce display of Listening chip to reduce flashing
   const [showListening, setShowListening] = useState<boolean>(false);
   useEffect(() => {
     let t: number | null = null;
@@ -774,7 +744,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
           summary={lessonSummary}
           onNewLesson={() => {
             setLessonSummary(null);
-            // Reset local lesson state
             setPlanObjects(null);
             setPlanMessage(null);
             setShowCapturePrompt(true);
@@ -789,11 +758,8 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               }));
             }
 
-            // Ensure camera + WebSocket are ready for a fresh lesson
             if (!running) {
-              startCamera().catch(() => {
-                // ignore errors here; they will surface via existing error handling
-              });
+              startCamera().catch(() => {});
             }
           }}
         />
@@ -811,6 +777,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               </Button>
             </div>
           )}
+          
           <video
             ref={videoRef}
             className={`h-full w-full object-cover ${facing === 'user' ? 'scale-x-[-1]' : ''}`}
@@ -818,6 +785,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
             muted
             autoPlay
           />
+          
           {!running && (
             <div
               className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-20"
@@ -832,6 +800,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               </div>
             </div>
           )}
+          
           {showCapturePrompt && !isPlanLoading && (
             <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
               <div className="text-white text-sm text-center drop-shadow">
@@ -839,25 +808,68 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               </div>
             </div>
           )}
+          
           {isRecording && !speechReal && (
             <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
               <StatusBadge status="detecting" />
             </div>
           )}
+          
           {isRecording && speechReal && (
             <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
               <StatusBadge status="recording" />
             </div>
           )}
+          
           {showListening && (
             <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
               <StatusBadge status="listening" />
             </div>
           )}
 
-          {/* Plan overlay left */}
+          {/* Grammar Mode Toggle - positioned in upper left */}
+          {running && !lessonSummary && (
+            <div className="absolute top-3 left-3 z-10 pointer-events-auto">
+              <OverlayCard className="p-2 space-y-2">
+                <div className="flex items-center gap-2">
+                  <Switch
+                    id="grammar-mode"
+                    checked={grammarMode}
+                    onCheckedChange={setGrammarMode}
+                    disabled={isPlanLoading}
+                  />
+                  <Label htmlFor="grammar-mode" className="text-xs cursor-pointer whitespace-nowrap">
+                    Grammar Mode
+                  </Label>
+                </div>
+                
+                {grammarMode && (
+                  <div className="flex gap-1">
+                    <Button
+                      variant={grammarTense === 'present' ? 'default' : 'outline'}
+                      size="sm"
+                      onClick={() => setGrammarTense('present')}
+                      className="text-xs py-0 h-6"
+                    >
+                      Present
+                    </Button>
+                    <Button
+                      variant={grammarTense === 'past' ? 'default' : 'outline'}
+                      size="sm"
+                      onClick={() => setGrammarTense('past')}
+                      className="text-xs py-0 h-6"
+                    >
+                      Past
+                    </Button>
+                  </div>
+                )}
+              </OverlayCard>
+            </div>
+          )}
+
+          {/* Plan overlay - moved to below grammar toggle */}
           {planObjects && planObjects.length > 0 && (
-            <div className="absolute left-3 top-3 z-10 w-[70%] max-w-xs pointer-events-auto">
+            <div className="absolute left-3 top-24 z-10 w-[70%] max-w-xs pointer-events-auto">
               <PlanChecklist
                 items={planObjects}
                 currentIndex={currentIndex}
@@ -890,6 +902,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               End Session
             </Button>
           </div>
+          
           {isPlanLoading && (
             <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
               <OverlayCard className="flex items-center gap-2 px-3 py-1.5 text-xs">
@@ -898,6 +911,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               </OverlayCard>
             </div>
           )}
+          
           {capturePreviewUrl && (
             <button
               type="button"
@@ -915,12 +929,12 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               />
             </button>
           )}
+          
           {(transcripts.length > 0 || !!llmStreaming) && (
             <TranscriptOverlay transcripts={transcripts} streamingText={llmStreaming} className="absolute right-4 top-4" />
           )}
+          
           <canvas ref={canvasRef} className="hidden" />
-          <p className="text-xs text-gray-500">
-          </p>
         </div>
       )}
     </div>

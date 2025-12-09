@@ -23,10 +23,12 @@ class LessonState(TypedDict, total=False):
     location: str
     actions: list[str]
     proficiency_level: int  # user's proficiency level
+    grammar_mode: str  # "vocab" or "grammar"
+    grammar_tense: str  # "present" or "past"
     # Additional fields for graph operations
     session_id: str | None
     username: str | None
-    image_metadata: dict | None  # target_language, source_language, location, actions, proficiency_level
+    image_metadata: dict | None  # target_language, source_language, location, actions, proficiency_level, grammar_mode, grammar_tense
     pending_transcription: tuple[str, str] | None  # (utterance_id, text)
     pending_image: tuple[str, str, dict] | None  # (utterance_id, data_url, metadata)
     evaluation_result: EvaluationResult | None
@@ -71,8 +73,12 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
         else:
             proficiency_level = 1  # Default to 1 if not found
     
+    # Get grammar mode and tense from state
+    grammar_mode = state.get("grammar_mode", "vocab")
+    grammar_tense = state.get("grammar_tense", "present")
+    
     # Get attempt count for this object
-    attempt_counts = state.get("attempt_counts", {}) or {}
+    attempt_counts = state.get("item_attempts", {}) or {}
     current_attempt = attempt_counts.get(next_idx, 0) + 1  # This will be attempt number
     max_attempts = 3
     
@@ -84,6 +90,8 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
             proficiency_level, 
             attempt_number=current_attempt,
             max_attempts=max_attempts,
+            grammar_mode=grammar_mode,
+            grammar_tense=grammar_tense,
             state=None
         )
         if not prompt_msg:
@@ -204,6 +212,10 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     proficiency_level = image_metadata.get("proficiency_level")
     if proficiency_level is None:
         proficiency_level = state.get("proficiency_level", 1)  # Default to 1 if not found
+    
+    # Extract grammar mode and tense
+    grammar_mode = image_metadata.get("grammar_mode", state.get("grammar_mode", "vocab"))
+    grammar_tense = image_metadata.get("grammar_tense", state.get("grammar_tense", "present"))
 
     # Get current attempt number (default to 1 if not tracked yet)
     current_attempt = item_attempts.get(current_object_index, 0) + 1
@@ -285,6 +297,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
                     source_language,
                     proficiency_level,
                     hint_number,
+                    grammar_mode=grammar_mode,
+                    grammar_tense=grammar_tense,
                     state=None
                 )
                 item_hints_used[current_object_index] = hint_number
@@ -359,6 +373,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
                     target_language,
                     source_language,
                     proficiency_level,
+                    grammar_mode=grammar_mode,
+                    grammar_tense=grammar_tense,
                     state=None
                 )
                 item_gave_up[current_object_index] = gave_up_count + 1
@@ -415,6 +431,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
                     source_language,
                     proficiency_level,
                     1,
+                    grammar_mode=grammar_mode,
+                    grammar_tense=grammar_tense,
                     state=None
                 )
                 hint_msg += " If you still don't know, you can ask again and I'll tell you the answer."
@@ -480,6 +498,8 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             proficiency_level=proficiency_level,
             attempt_number=current_attempt,
             max_attempts=max_attempts,
+            grammar_mode=grammar_mode,
+            grammar_tense=grammar_tense,
             state=None,
         )
     except Exception as e:
@@ -770,4 +790,3 @@ def create_lesson_graph(ws: WebSocket | None = None) -> StateGraph:
     graph.set_entry_point("prompt_user")
     
     return graph.compile()
-

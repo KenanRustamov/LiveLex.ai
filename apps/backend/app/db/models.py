@@ -12,6 +12,10 @@ class SessionDoc(Document):
     entries: list[dict[str, Any]] = Field(default_factory=list)
     started_at: datetime = Field(default_factory=datetime.utcnow)
     completed_at: Optional[datetime] = None
+    
+    # Practice mode fields
+    grammar_mode: str = "vocab"  # "vocab" or "grammar"
+    grammar_tense: Optional[str] = None  # "present" or "past" (only used when grammar_mode="grammar")
 
     class Settings:
         name = "sessions"
@@ -23,7 +27,9 @@ class UserDataDoc(Document):
     email: Optional[str] = None
     name: Optional[str] = None
     profile_image: Optional[str] = None
-    role: Optional[str] = None    # Teacher/Class fields
+    role: Optional[str] = None
+    
+    # Teacher/Class fields
     teacher_id: Optional[str] = None  # Reference to the teacher's UserDataDoc.id
     class_code: Optional[str] = None  # For students: the code they joined
     teacher_code: Optional[str] = None # For teachers: the code they own
@@ -31,6 +37,9 @@ class UserDataDoc(Document):
     # Scene Progress: { "scene_id": ["apple", "spoon"] }
     # Words discovered by the student in a specific scene (unique to them)
     discovered_scene_words: Dict[str, List[str]] = {}
+
+    sessions: list[dict[str, Any]] = []  # List of session summaries
+    objects: dict[str, Any] = {}
 
     class Settings:
         name = "user_data"
@@ -57,9 +66,9 @@ class AssignmentDoc(Document):
     words: List[str]
     created_at: datetime = Field(default_factory=datetime.utcnow)
 
+    # Grammar practice fields
     include_grammar: bool = False
-    grammar_tense: Optional[str] = None  # "present", "past"
-    
+    grammar_tense: Optional[str] = None  # "present", "past"    
     # Optional link to a scene
     scene_id: Optional[str] = None
     
@@ -85,8 +94,3 @@ class PerformanceMetricDoc(Document):
     class Settings:
         name = "performance_metrics"
         indexes = ["session_id", "username", "operation_type", "timestamp"]
-
-
-
-
-

@@ -101,12 +101,16 @@ def session_state_to_lesson_state(
         location = image_metadata.get("location", session_state.location or "US")
         actions = image_metadata.get("actions", session_state.actions or ["name", "describe", "compare"])
         proficiency_level = image_metadata.get("proficiency_level", session_state.proficiency_level or 1)
+        grammar_mode = image_metadata.get("grammar_mode", session_state.grammar_mode or "vocab")
+        grammar_tense = image_metadata.get("grammar_tense", session_state.grammar_tense or "present")
     else:
         target_language = session_state.target_language or "Spanish"
         source_language = session_state.source_language or "English"
         location = session_state.location or "US"
         actions = session_state.actions or ["name", "describe", "compare"]
         proficiency_level = session_state.proficiency_level or 1
+        grammar_mode = session_state.grammar_mode or "vocab"
+        grammar_tense = session_state.grammar_tense or "present"
     
     lesson_state: dict = {
         "plan": session_state.plan,
@@ -122,6 +126,8 @@ def session_state_to_lesson_state(
         "location": location,
         "actions": actions,
         "proficiency_level": proficiency_level,
+        "grammar_mode": grammar_mode,  
+        "grammar_tense": grammar_tense, 
         "lesson_completed": session_state.lesson_saved,
         "session_id": session_state.session_id,
         "username": session_state.username,
@@ -148,6 +154,11 @@ def lesson_state_to_session_state(
     session_state.item_hints_used = lesson_state.get("item_hints_used", {}).copy()
     session_state.item_gave_up = lesson_state.get("item_gave_up", {}).copy()
     session_state.waiting_for_repeat = lesson_state.get("waiting_for_repeat", False)
+    
+    # Update grammar/practice settings (they might change per request, though typically stable per lesson)
+    session_state.grammar_mode = lesson_state.get("grammar_mode", session_state.grammar_mode)
+    session_state.grammar_tense = lesson_state.get("grammar_tense", session_state.grammar_tense)
+    
     # Track whether the lesson has been completed by the graph
     session_state.lesson_saved = bool(lesson_state.get("lesson_completed", session_state.lesson_saved))
     session_state.pending_transcription = lesson_state.get("pending_transcription")
@@ -216,6 +227,8 @@ async def generate_prompt_message(
     proficiency_level: int, 
     attempt_number: int = 1,
     max_attempts: int = 3,
+    grammar_mode: str = "vocab",
+    grammar_tense: str = "present",
     state: Optional[SessionState] = None
 ) -> str:
     """Generate a prompt message asking user to interact with an object.
@@ -226,6 +239,8 @@ async def generate_prompt_message(
         proficiency_level: User's proficiency level (1-5)
         attempt_number: Current attempt number (1-based)
         max_attempts: Maximum attempts allowed (default 3)
+        grammar_mode: Practice mode ("vocab" or "grammar")
+        grammar_tense: Grammar tense ("present" or "past")
         state: Optional session state for tracking
     """
     session_id = state.session_id if state else None
@@ -242,23 +257,27 @@ async def generate_prompt_message(
             "target_language": target_language, 
             "proficiency_level": proficiency_level,
             "attempt_number": attempt_number,
-            "max_attempts": max_attempts
+            "max_attempts": max_attempts,
+            "grammar_mode": grammar_mode,
+            "grammar_tense": grammar_tense,
         }
     ):
         prompt_value = prompt_next_object.invoke({
             "source_name": object.source_name,
-            "target_name": object.target_name,
+            "target_word": object.target_name,
             "target_language": target_language,
+            "action": object.action,
             "proficiency_level": proficiency_level,
             "attempt_number": attempt_number,
             "max_attempts": max_attempts,
             "is_retry": is_retry,
+            "grammar_mode": grammar_mode,
+            "grammar_tense": grammar_tense,
         })
         llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
         messages = prompt_value.to_messages()
         response = llm.invoke(messages)
         return response.content if hasattr(response, 'content') else str(response)
-
 
 async def process_audio_image_pair(
     ws: WebSocket,
@@ -582,6 +601,8 @@ class SessionState:
         self.location: str = "US"
         self.actions: list[str] = ["name", "describe", "compare"]
         self.proficiency_level: int = 1
+        self.grammar_mode: str = "vocab"  # "vocab" or "grammar"
+        self.grammar_tense: str = "present"  # "present" or "past"
 
 
 async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
@@ -837,6 +858,8 @@ async def generate_hint(
     source_language: str,
     proficiency_level: int,
     hint_number: int,
+    grammar_mode: str = "vocab",
+    grammar_tense: str = "present",
     state: Optional[SessionState] = None
 ) -> str:
     """Generate a hint for a word using LLM."""
@@ -862,6 +885,8 @@ async def generate_hint(
                 "source_language": source_language,
                 "proficiency_level": proficiency_level,
                 "hint_number": hint_number,
+                "grammar_mode": grammar_mode,
+                "grammar_tense": grammar_tense,
             })
             
             llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
@@ -882,6 +907,8 @@ async def give_answer_with_memory_aid(
     target_language: str,
     source_language: str,
     proficiency_level: int,
+    grammar_mode: str = "vocab",
+    grammar_tense: str = "present",
     state: Optional[SessionState] = None
 ) -> str:
     """Give the answer with a memory aid to help student remember.
@@ -891,6 +918,8 @@ async def give_answer_with_memory_aid(
         target_language: Target language
         source_language: Source language
         proficiency_level: User's proficiency level (1-5)
+        grammar_mode: Practice mode ("vocab" or "grammar")
+        grammar_tense: Grammar tense ("present" or "past")
         state: Optional session state for tracking
         
     Returns:
@@ -916,6 +945,8 @@ async def give_answer_with_memory_aid(
                 "target_language": target_language,
                 "source_language": source_language,
                 "proficiency_level": proficiency_level,
+                "grammar_mode": grammar_mode,
+                "grammar_tense": grammar_tense,
             })
             
             llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
@@ -938,6 +969,8 @@ async def evaluate_response(
     proficiency_level: int,
     attempt_number: int = 1,
     max_attempts: int = 3,
+    grammar_mode: str = "vocab",
+    grammar_tense: str = "present",
     state: Optional[SessionState] = None,
 ) -> EvaluationResult:
     """Evaluate if the user's transcription matches the expected object and word.
@@ -952,6 +985,8 @@ async def evaluate_response(
         proficiency_level: User's proficiency level (1-5)
         attempt_number: Current attempt number (1-based)
         max_attempts: Maximum attempts allowed (default 3)
+        grammar_mode: Practice mode ("vocab" or "grammar")
+        grammar_tense: Grammar tense ("present" or "past")
         state: Optional session state for tracking
     """
     if not settings.openai_api_key:
@@ -969,6 +1004,8 @@ async def evaluate_response(
         "proficiency_level": proficiency_level,
         "attempt_number": attempt_number,
         "max_attempts": max_attempts,
+        "grammar_mode": grammar_mode,
+        "grammar_tense": grammar_tense,
     })
     system_msg = prompt_value.to_messages()[0]
     user_msg = prompt_value.to_messages()[1]
@@ -1006,6 +1043,7 @@ async def evaluate_response(
             word_correct: bool
             error_category: str | None = None
             feedback_message: str
+            grammar_correct: bool = True
         
         structured = llm.with_structured_output(EvaluationCheck)
         result = structured.invoke([system_msg, user_msg_final])
@@ -1185,6 +1223,7 @@ async def ws_stream(ws: WebSocket):
                     state.completed_objects = []
                     state.pending_transcription = None
                     state.pending_image = None
+                    # Keep grammar state if client wants to reuse same settings for next session
                     await send_status("Session ended")
                 elif action == "reset_lesson":
                     # Reset lesson state but keep connection alive
@@ -1242,6 +1281,10 @@ async def ws_stream(ws: WebSocket):
                     # process together using graph
                     image_data_url, image_metadata = state.pending_image[1], state.pending_image[2]
                     
+                    # Add grammar params to metadata if they weren't in the original image message
+                    image_metadata["grammar_mode"] = state.grammar_mode
+                    image_metadata["grammar_tense"] = state.grammar_tense
+
                     # Convert SessionState to LessonState and invoke graph at evaluate node
                     lesson_state = session_state_to_lesson_state(state, ws, image_metadata)
                     lesson_state["pending_transcription"] = (utterance_id, text)
@@ -1295,6 +1338,14 @@ async def ws_stream(ws: WebSocket):
                 location = payload.get("location", "US")
                 actions = payload.get("actions") or ["name", "describe", "compare"]
                 proficiency_level = payload.get("proficiency_level", 1)
+                
+                # --- Grammar/Practice Mode Integration ---
+                grammar_mode = payload.get("grammar_mode", False)
+                grammar_tense_from_payload = payload.get("grammar_tense", "present")
+                
+                # Update session state with practice mode
+                state.grammar_mode = "grammar" if grammar_mode else "vocab"
+                state.grammar_tense = grammar_tense_from_payload if grammar_mode else "present"
 
                 # Persist latest lesson preferences on the session
                 state.target_language = target_language
@@ -1309,6 +1360,8 @@ async def ws_stream(ws: WebSocket):
                     "location": location,
                     "actions": actions,
                     "proficiency_level": proficiency_level,
+                    "grammar_mode": state.grammar_mode, # Include grammar in metadata
+                    "grammar_tense": state.grammar_tense, # Include grammar in metadata
                 }
                 
                 # if this is initial plan (no utterance_id or no plan exists)
