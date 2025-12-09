@@ -24,7 +24,7 @@ class LessonState(TypedDict, total=False):
     actions: list[str]
     proficiency_level: int  # user's proficiency level
     grammar_mode: str  # "vocab" or "grammar"
-    grammar_tense: str  # "present" or "past"
+    grammar_tense: str  # "present perfect" or "preterite"
     # Additional fields for graph operations
     session_id: str | None
     username: str | None
@@ -75,7 +75,7 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
     
     # Get grammar mode and tense from state
     grammar_mode = state.get("grammar_mode", "vocab")
-    grammar_tense = state.get("grammar_tense", "present")
+    grammar_tense = state.get("grammar_tense", "present perfect")
     
     # Get attempt count for this object
     attempt_counts = state.get("item_attempts", {}) or {}
@@ -215,7 +215,7 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     
     # Extract grammar mode and tense
     grammar_mode = image_metadata.get("grammar_mode", state.get("grammar_mode", "vocab"))
-    grammar_tense = image_metadata.get("grammar_tense", state.get("grammar_tense", "present"))
+    grammar_tense = image_metadata.get("grammar_tense", state.get("grammar_tense", "present perfect"))
 
     # Get current attempt number (default to 1 if not tracked yet)
     current_attempt = item_attempts.get(current_object_index, 0) + 1

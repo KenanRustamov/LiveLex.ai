@@ -102,7 +102,7 @@ def session_state_to_lesson_state(
         actions = image_metadata.get("actions", session_state.actions or ["name", "describe", "compare"])
         proficiency_level = image_metadata.get("proficiency_level", session_state.proficiency_level or 1)
         grammar_mode = image_metadata.get("grammar_mode", session_state.grammar_mode or "vocab")
-        grammar_tense = image_metadata.get("grammar_tense", session_state.grammar_tense or "present")
+        grammar_tense = image_metadata.get("grammar_tense", session_state.grammar_tense or "present perfect")
     else:
         target_language = session_state.target_language or "Spanish"
         source_language = session_state.source_language or "English"
@@ -156,6 +156,7 @@ def lesson_state_to_session_state(
     session_state.waiting_for_repeat = lesson_state.get("waiting_for_repeat", False)
     
     # Update grammar/practice settings (they might change per request, though typically stable per lesson)
+    # Right now exists as a toggle in free practice so a user can change mid-lesson
     session_state.grammar_mode = lesson_state.get("grammar_mode", session_state.grammar_mode)
     session_state.grammar_tense = lesson_state.get("grammar_tense", session_state.grammar_tense)
     
@@ -228,7 +229,7 @@ async def generate_prompt_message(
     attempt_number: int = 1,
     max_attempts: int = 3,
     grammar_mode: str = "vocab",
-    grammar_tense: str = "present",
+    grammar_tense: str = "present perfect",
     state: Optional[SessionState] = None
 ) -> str:
     """Generate a prompt message asking user to interact with an object.
@@ -240,7 +241,7 @@ async def generate_prompt_message(
         attempt_number: Current attempt number (1-based)
         max_attempts: Maximum attempts allowed (default 3)
         grammar_mode: Practice mode ("vocab" or "grammar")
-        grammar_tense: Grammar tense ("present" or "past")
+        grammar_tense: Grammar tense ("present perfect" or "preterite")
         state: Optional session state for tracking
     """
     session_id = state.session_id if state else None
@@ -602,7 +603,7 @@ class SessionState:
         self.actions: list[str] = ["name", "describe", "compare"]
         self.proficiency_level: int = 1
         self.grammar_mode: str = "vocab"  # "vocab" or "grammar"
-        self.grammar_tense: str = "present"  # "present" or "past"
+        self.grammar_tense: str = "present perfect"  # "present perfect" or "preterite"
 
 
 async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
@@ -859,7 +860,7 @@ async def generate_hint(
     proficiency_level: int,
     hint_number: int,
     grammar_mode: str = "vocab",
-    grammar_tense: str = "present",
+    grammar_tense: str = "present perfect",
     state: Optional[SessionState] = None
 ) -> str:
     """Generate a hint for a word using LLM."""
@@ -908,7 +909,7 @@ async def give_answer_with_memory_aid(
     source_language: str,
     proficiency_level: int,
     grammar_mode: str = "vocab",
-    grammar_tense: str = "present",
+    grammar_tense: str = "present perfect",
     state: Optional[SessionState] = None
 ) -> str:
     """Give the answer with a memory aid to help student remember.
@@ -919,7 +920,7 @@ async def give_answer_with_memory_aid(
         source_language: Source language
         proficiency_level: User's proficiency level (1-5)
         grammar_mode: Practice mode ("vocab" or "grammar")
-        grammar_tense: Grammar tense ("present" or "past")
+        grammar_tense: Grammar tense ("present perfect" or "preterite")
         state: Optional session state for tracking
         
     Returns:
@@ -970,7 +971,7 @@ async def evaluate_response(
     attempt_number: int = 1,
     max_attempts: int = 3,
     grammar_mode: str = "vocab",
-    grammar_tense: str = "present",
+    grammar_tense: str = "present perfect",
     state: Optional[SessionState] = None,
 ) -> EvaluationResult:
     """Evaluate if the user's transcription matches the expected object and word.
@@ -986,7 +987,7 @@ async def evaluate_response(
         attempt_number: Current attempt number (1-based)
         max_attempts: Maximum attempts allowed (default 3)
         grammar_mode: Practice mode ("vocab" or "grammar")
-        grammar_tense: Grammar tense ("present" or "past")
+        grammar_tense: Grammar tense ("present perfect" or "preterite")
         state: Optional session state for tracking
     """
     if not settings.openai_api_key:
@@ -1341,11 +1342,11 @@ async def ws_stream(ws: WebSocket):
                 
                 # --- Grammar/Practice Mode Integration ---
                 grammar_mode = payload.get("grammar_mode", False)
-                grammar_tense_from_payload = payload.get("grammar_tense", "present")
+                grammar_tense_from_payload = payload.get("grammar_tense", "present perfect")
                 
                 # Update session state with practice mode
                 state.grammar_mode = "grammar" if grammar_mode else "vocab"
-                state.grammar_tense = grammar_tense_from_payload if grammar_mode else "present"
+                state.grammar_tense = grammar_tense_from_payload if grammar_mode else "present perfect"
 
                 # Persist latest lesson preferences on the session
                 state.target_language = target_language

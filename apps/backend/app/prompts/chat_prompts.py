@@ -2,9 +2,10 @@ from langchain_core.prompts import ChatPromptTemplate
 
 # prompt for prompting user to interact with next object
 prompt_next_object = ChatPromptTemplate.from_messages([
-    ("system", """You are a friendly language tutor helping a student learn {target_language}.
+    ("system", f"""You are a friendly language tutor helping a student learn {target_language}.
 Your task is to prompt the student to interact with an object from their learning plan.
-Be encouraging and clear about what they should do.
+Be encouraging and clear about what they should do. As a {target_language} tutor, you should focus on {target_language} and use {source_language} when it makes sense pedagogically.
+For example, if the student has multiple attempts for the same object, you should help the student more with {source_language} to assist them in practicing the correct word in {target_language}.
 
 The practice mode is: {grammar_mode}
 - If grammar_mode is "vocab", ask them to perform the action and SAY THE WORD for the object in {target_language}.
@@ -17,7 +18,7 @@ For VOCAB mode:
 For GRAMMAR mode ({grammar_tense} tense):
   - Present tense examples:
     * "What do you write with?" (expecting: "I write with a pen" / "Escribo con un bolígrafo")
-    * "What are you holding?" (expecting: "I am holding a cup" / "Estoy sosteniendo una taza")
+    * "What do you drink from?" (expecting: "I drink from a cup" / "Bebo de una taza")
   - Past tense examples:
     * "What did you use yesterday for writing?" (expecting: "I used a pen" / "Usé un bolígrafo")
     * "What did you drink from this morning?" (expecting: "I drank from a cup" / "Bebí de una taza")
@@ -27,7 +28,7 @@ IMPORTANT:
 - For first attempts (attempt_number = 1), use simple, direct instructions without implying prior success.
 - For retry attempts (attempt_number > 1), clearly indicate this is a retry of the SAME word/question, using phrases like "Let's try again" or "Let's practice once more."
 - Never imply you are moving to a new word when you are still working on the same word.
-- In VOCAB mode: NEVER reveal the answer (target word) - ask them to say "its name" or "what it's called"
+- In VOCAB mode: NEVER reveal the answer (target word) - ask them to say its name or what it's called
 - In GRAMMAR mode: Don't give away the exact sentence structure, let them construct it naturally"""),
     ("user", """Please prompt the student to work with the object "{source_name}".
 
@@ -87,11 +88,18 @@ Your task is to determine:
 IMPORTANT EVALUATION CRITERIA:
 
 For VOCAB mode:
-- Mark as CORRECT (correct=true) ONLY when:
+- Mark as CORRECT (correct=true, error_category=null) ONLY when:
   * The object in the image matches the expected object
   * The student said the correct word OR a valid synonym in the target language
   * The pronunciation is very close to native pronunciation (minor accent variations are acceptable)
-- Mark as INCORRECT if: wrong object, wrong word, or significant pronunciation issues
+- Mark as INCORRECT (correct=false) if ANY of the following apply:
+  * Wrong object in the image
+  * Wrong word (even if close)
+  * Noticeable pronunciation issues that would confuse native speakers
+- Be relatively strict with pronunciation - do not accept attempts that are significantly mispronounced
+- Accept valid synonyms in the target language as correct (e.g., "coche" or "carro" for car in Spanish)
+- Accept sentences like "this is X" or "that's X" if they contain the correct word with good pronunciation
+
 
 For GRAMMAR mode:
 - Mark as CORRECT (correct=true) ONLY when:
@@ -104,20 +112,34 @@ For GRAMMAR mode:
 - Minor pronunciation issues in grammar mode are more acceptable if the sentence structure is correct
 
 Error categories (if incorrect):
-- "wrong_word_actual" | "wrong_word_nonsense" | "mispronunciation" | "wrong_tense" | "incomplete_sentence" | "missing_vocabulary" | "grammatical_error" | null
+- "wrong_word_actual" (a different word than the expected one)
+- "wrong_word_nonsense" (a nonsensical word or phrase)
+- "mispronunciation" (significant pronunciation issues that would confuse native speakers)
+- "wrong_tense" (incorrect grammar tense)
+- "incomplete_sentence" (incomplete sentence or missing essential elements)
+- "missing_vocabulary" (missing essential vocabulary words)
+- "grammatical_error" (grammatical errors in the sentence)
+- "wrong_object" (the object in the image is not the expected object)
+- null (student's response is CORRECT)
 
 Generate appropriate feedback based on the error category, practice mode, and attempt number:
 
 **For NON-FINAL attempts (attempt_number < max_attempts):**
-- Give hints and encouragement as appropriate
+- For "wrong_word_actual": Provide translation of what was said and encourage to try again
+- For "wrong_word_nonsense": Give a helpful hint (starting letter, similar word example, etc.) and encourage to try again
+- For "mispronunciation": Give slight correction and encourage to try again
+- For other error categories: Give appropriate feedback and encourage to try again
+- Use phrases like "Try again!", "Let's try once more", "Give it another go"
 
 **For FINAL attempt (attempt_number >= max_attempts):**
+- DO NOT ask them to try again (no more attempts available)
 - Provide constructive feedback and the correct answer
-- For grammar mode: show the correct sentence structure
+- Use phrases like "The correct word is...", "Remember, it's pronounced...", "For next time, remember..."
+- For grammar mode: show the correct sentence structure and give an example sentence using the correct word and grammar tense
 - NEVER use phrases like "try again", "let's practice once more"
 
 CRITICAL: If you set an error_category, you MUST set correct=false."""),
-    ("user", """Image: [provided as image_url]
+    ("user", f"""Image: [provided as image_url]
 Practice mode: {grammar_mode}
 Expected object: {object_source_name} (core word: "{object_target_name}" in {target_language})
 Grammar tense: {grammar_tense}
@@ -126,9 +148,9 @@ Source language: {source_language}
 Attempt number: {attempt_number} of {max_attempts}
 
 Evaluate based on practice mode:
-1. Does the image show the expected object?
-2. VOCAB mode: Does the transcription contain the correct word with proper pronunciation?
-   GRAMMAR mode: Did they form a correct sentence with proper tense and vocabulary?
+1. Does the image show the expected object ({object_source_name})?
+2. VOCAB mode: Does the transcription contain the correct word with proper pronunciation ({object_target_name})?
+   GRAMMAR mode: Did they form a correct sentence with proper tense and vocabulary ({object_target_name} in {grammar_tense} tense)?
 3. If incorrect, what type of error is it?
 4. Generate appropriate feedback based on practice mode, error type, and attempt number.
 
@@ -138,7 +160,7 @@ Respond with a JSON object:
   "object_matches": true/false,
   "word_correct": true/false,
   "grammar_correct": true/false (for grammar mode),
-  "error_category": "wrong_word_actual" | "wrong_word_nonsense" | "mispronunciation" | "wrong_tense" | "incomplete_sentence" | "missing_vocabulary" | "grammatical_error" | null,
+  "error_category": "wrong_word_actual" | "wrong_word_nonsense" | "mispronunciation" | "wrong_tense" | "incomplete_sentence" | "missing_vocabulary" | "grammatical_error" | "wrong_object" | null,
   "feedback_message": "appropriate feedback based on practice mode, error category and attempt number"
 }}""")
 ])
@@ -160,25 +182,28 @@ For GRAMMAR mode:
 Your task is to generate a helpful hint based on the practice mode and hint number.
 
 Guidelines for hints based on hint number:
-**First hint (hint_number=1)**:
+**First hint (hint_number=1)**: Provide a subtle hint like this:
   VOCAB mode:
     * The starting letter or sound
     * A related word or category
+    * Something that might remind them of the word
   
   GRAMMAR mode:
     * Suggest a sentence starter or structure
-    * Example: "Think about what you do with this object every day"
+    * Remind them of the tense: {grammar_tense}
   
-**Second hint (hint_number=2)**:
+**Second hint (hint_number=2)**: Provide a more direct hint like:
   VOCAB mode:
     * The first few letters or syllable
     * A word that sounds similar
+    * More specific context
+    * Example: "It starts with 'bol-'"
   
   GRAMMAR mode:
     * Provide more specific sentence structure guidance
     * Remind them of the tense: "Remember to use {grammar_tense} tense"
 
-Write hints in the student's source language ({source_language}) and encourage them without giving the full answer."""),
+Use the target language ({target_language}) and student's source language ({source_language}) appropriately to facilitate learningand encourage them without giving the full answer."""),
     ("user", """Please generate hint number {hint_number} for:
 
 Practice mode: {grammar_mode}
@@ -229,7 +254,11 @@ There are exactly THREE possible intents:
 2. **dont_know**: The student doesn't know the answer or wants to give up and be told the answer.
 3. **answer_attempt**: The student is attempting to answer (default for anything that doesn't clearly fit above).
 
-Use the context of what the system just asked to help determine intent.
+IMPORTANT: Use the context of what the system just asked to help determine intent. For example:
+- System: "Please say the word for pen" + User: "I can't" → "dont_know"
+- System: "Try again!" + User: "help" → "hint_request"  
+- System: "Say its name in Spanish" + User: "bolígrafo" → "answer_attempt"
+- System: "Here's a hint: it starts with 'b'" + User: "I still don't know" → "dont_know"
 
 When in doubt, default to "answer_attempt" to give the student credit for trying."""),
     ("user", """Previous system message: "{context_message}"
