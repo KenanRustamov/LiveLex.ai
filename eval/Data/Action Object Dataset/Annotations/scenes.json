@@ -232,6 +232,11 @@
         "actionable": true
       },
       {
+        "object_id": "scene_004_sponge",
+        "labels_en": ["sponge"],
+        "actionable": true
+      },
+      {
         "object_id": "scene_004_knife",
         "labels_en": ["knife", "kitchen knife"],
         "actionable": false
@@ -249,17 +254,17 @@
     "objects": [
       {
         "object_id": "scene_005_soap",
-        "labels_en": ["soap", "hand soap"],
+        "labels_en": ["soap", "hand soap", "hand sanitizer"],
         "actionable": true
       },
       {
         "object_id": "scene_005_red_drink",
-        "labels_en": ["red drink", "drink", "beverage", "gatorade","sports drink", "red gatorade"],
+        "labels_en": ["red drink", "drink", "beverage", "gatorade","sports drink", "red gatorade", "energy drink"],
         "actionable": true
       },
       {
         "object_id": "scene_005_blue_drink",
-        "labels_en": ["blue drink", "drink", "beverage", "gatorade","sports drink", "blue gatorade"],
+        "labels_en": ["blue drink", "drink", "beverage", "gatorade","sports drink", "blue gatorade", "energy drink"],
         "actionable": true
       },
       {

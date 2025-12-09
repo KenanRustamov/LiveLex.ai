@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 import time
 import httpx
+import random
 
 from Data import dataset_loader
 
@@ -16,6 +17,10 @@ DEFAULT_BACKEND = os.getenv("EVAL_BACKEND_URL", "http://localhost:8000")
 EVAL_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = EVAL_ROOT.parent
 DATA_ROOT = EVAL_ROOT / "Data"
+
+# Limit concurrency to avoid overloading the backend
+REQUEST_LIMIT = 2
+semaphore = asyncio.Semaphore(REQUEST_LIMIT)
 
 def save_results(results: dict, prefix: str = "eval_results"):
     ts = time.strftime("%Y%m%d_%H%M%S")
@@ -224,6 +229,28 @@ async def evaluate_action_judgment(
     """
     scene_by_id = {safe_get_attr(s, "scene_id"): s for s in scenes}
     examples = dataset_loader.load_action_examples()
+    # ---- Create negative (scrambled) examples ----
+    negative_examples = []
+
+    for ex in examples:
+        # pick a different example to mismatch with
+        wrong_ex = random.choice(examples)
+        while wrong_ex.scene_id == ex.scene_id and wrong_ex.action_image_path == ex.action_image_path:
+            wrong_ex = random.choice(examples)
+
+        neg = {
+            "example_id": ex.example_id + "_neg",
+            "scene_id": ex.scene_id,
+            "scene_image":ex.scene_image_path,       # original scene
+            "action_image": wrong_ex.action_image_path,  # mismatched
+            "target_object_id": ex.target_object_id,
+            "prompt_en": ex.prompt_en,
+            "correct": False,  # negative label
+        }
+        negative_examples.append(neg)
+
+    # Merge positives + negatives
+    examples = examples + negative_examples
 
     if max_examples is not None:
         examples = examples[:max_examples]
