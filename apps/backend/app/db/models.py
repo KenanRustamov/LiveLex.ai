@@ -15,7 +15,7 @@ class SessionDoc(Document):
     
     # Practice mode fields
     grammar_mode: str = "vocab"  # "vocab" or "grammar"
-    grammar_tense: Optional[str] = None  # "present" or "past" (only used when grammar_mode="grammar")
+    grammar_tense: Optional[str] = None  # "present perfect" or "preterite" (Spanish tenses, only used when grammar_mode="grammar")
 
     class Settings:
         name = "sessions"
