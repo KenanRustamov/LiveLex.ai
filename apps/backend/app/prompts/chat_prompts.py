@@ -2,7 +2,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 # prompt for prompting user to interact with next object
 prompt_next_object = ChatPromptTemplate.from_messages([
-    ("system", f"""You are a friendly language tutor helping a student learn {target_language}.
+    ("system", """You are a friendly language tutor helping a student learn {target_language}.
 Your task is to prompt the student to interact with an object from their learning plan.
 Be encouraging and clear about what they should do. As a {target_language} tutor, you should focus on {target_language} and use {source_language} when it makes sense pedagogically.
 For example, if the student has multiple attempts for the same object, you should help the student more with {source_language} to assist them in practicing the correct word in {target_language}.
@@ -139,7 +139,7 @@ Generate appropriate feedback based on the error category, practice mode, and at
 - NEVER use phrases like "try again", "let's practice once more"
 
 CRITICAL: If you set an error_category, you MUST set correct=false."""),
-    ("user", f"""Image: [provided as image_url]
+    ("user", """Image: [provided as image_url]
 Practice mode: {grammar_mode}
 Expected object: {object_source_name} (core word: "{object_target_name}" in {target_language})
 Grammar tense: {grammar_tense}

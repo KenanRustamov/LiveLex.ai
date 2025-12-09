@@ -15,7 +15,7 @@ class CreateAssignmentRequest(BaseModel):
     include_grammar: bool = False
     grammar_tense: Optional[str] = None
 
-@router.post("/assignments", response_model=AssignmentDoc)
+@router.post("/assignments", response_model=dict)
 async def create_assignment(req: CreateAssignmentRequest):
     """Create a new assignment for a teacher."""
     teacher = await get_current_teacher(req.email)
@@ -32,7 +32,16 @@ async def create_assignment(req: CreateAssignmentRequest):
     )
     await new_assignment.insert()
     
-    return new_assignment
+    return {
+        "id": str(new_assignment.id),
+        "title": new_assignment.title,
+        "words": new_assignment.words,
+        "created_at": new_assignment.created_at,
+        "scene_id": new_assignment.scene_id,
+        "include_discovered_count": new_assignment.include_discovered_count,
+        "include_grammar": new_assignment.include_grammar,
+        "grammar_tense": new_assignment.grammar_tense
+    }
 
 @router.get("/assignments", response_model=List[dict])
 async def get_assignments(email: str):
@@ -49,8 +58,8 @@ async def get_assignments(email: str):
         target_teacher_id = str(user.id)
     elif user.role == "student":
         # UPDATED: Use enrolled_class_code to find the teacher
-        if user.enrolled_class_code:
-             teacher = await UserDataDoc.find_one(UserDataDoc.class_code == user.enrolled_class_code)
+        if user.class_code:
+             teacher = await UserDataDoc.find_one(UserDataDoc.teacher_code == user.class_code)
              if teacher:
                  target_teacher_id = str(teacher.id)
         # Fallback to teacher_id if enrolled_class_code didn't work (legacy)

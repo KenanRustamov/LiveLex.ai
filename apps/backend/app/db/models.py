@@ -43,6 +43,7 @@ class UserDataDoc(Document):
 
     class Settings:
         name = "user_data"
+        indexes = ["username", "email", "teacher_code", "teacher_id"]
 
 
 class SceneDoc(Document):

@@ -149,7 +149,10 @@ async def get_teacher_students(email: str):
         raise HTTPException(status_code=404, detail="Teacher not found")
         
     # Find students linked to this teacher
+    import time
+    start_time = time.time()
     students = await UserDataDoc.find(UserDataDoc.teacher_id == str(teacher.id)).to_list()
+    logging.info(f"Finding students took {time.time() - start_time:.4f}s. Found {len(students)} students.")
     
     response = []
     for s in students:
@@ -179,6 +182,7 @@ async def get_teacher_students(email: str):
             "total_attempts": total_attempts
         })
     
+    logging.info(f"Processing students took {time.time() - start_time:.4f}s total.")
     return response
 
 @router.get("/auth/teacher/analytics")
