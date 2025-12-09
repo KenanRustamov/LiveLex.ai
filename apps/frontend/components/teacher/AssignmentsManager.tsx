@@ -4,19 +4,33 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
-import { Loader2, Plus } from 'lucide-react';
+import { Loader2, Plus, Pencil, Trash2, X, Save } from 'lucide-react';
 import { Assignment, Scene } from '@/types/teacher';
 import { useSession } from 'next-auth/react';
 import { Switch } from "@/components/ui/switch";
+import {
+    AlertDialog,
+    AlertDialogAction,
+    AlertDialogCancel,
+    AlertDialogContent,
+    AlertDialogDescription,
+    AlertDialogFooter,
+    AlertDialogHeader,
+    AlertDialogTitle,
+    AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 
 interface AssignmentsManagerProps {
     assignments: Assignment[];
     scenes: Scene[];
     onAssignmentCreated: (assignment: Assignment) => void;
+    onAssignmentDeleted: (id: string) => void;
+    onAssignmentUpdated: (assignment: Assignment) => void;
 }
 
-export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }: AssignmentsManagerProps) {
+export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, onAssignmentDeleted, onAssignmentUpdated }: AssignmentsManagerProps) {
     const { data: session } = useSession();
+    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
 
     // Form State
     const [newAssignmentTitle, setNewAssignmentTitle] = useState("");
@@ -27,12 +41,37 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
     const [grammarTense, setGrammarTense] = useState<"present" | "past">("present");
     const [creating, setCreating] = useState(false);
 
-    const handleCreateAssignment = async () => {
+    // Edit State
+    const [editingAssignment, setEditingAssignment] = useState<Assignment | null>(null);
+
+    const resetForm = () => {
+        setNewAssignmentTitle("");
+        setNewAssignmentWords("");
+        setNewAssignmentSceneId("none");
+        setNewAssignmentDiscoveredCount(0);
+        setIncludeGrammar(false);
+        setGrammarTense("present");
+        setEditingAssignment(null);
+    };
+
+    const startEditing = (assignment: Assignment) => {
+        setEditingAssignment(assignment);
+        setNewAssignmentTitle(assignment.title);
+        setNewAssignmentWords(assignment.words.join('\n'));
+        setNewAssignmentSceneId(assignment.scene_id || "none");
+        setNewAssignmentDiscoveredCount(assignment.include_discovered_count || 0);
+        setIncludeGrammar(assignment.include_grammar || false);
+        setGrammarTense((assignment.grammar_tense as "present" | "past") || "present");
+
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    const handleCreateOrUpdate = async () => {
         if (!newAssignmentTitle || !newAssignmentWords) return;
         setCreating(true);
         try {
-            const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
-            const wordsList = newAssignmentWords.split('\n').filter(w => w.trim() !== '');
+            const wordsList = newAssignmentWords.split('\n').map(w => w.trim()).filter(w => w !== '');
 
             const payload: any = {
                 email: session?.user?.email,
@@ -47,41 +86,71 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                 payload.scene_id = newAssignmentSceneId;
             }
 
-            const res = await fetch(`${backendUrl}/v1/assignments`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload)
-            });
+            if (editingAssignment) {
+                // Update
+                const res = await fetch(`${backendUrl}/v1/assignments/${editingAssignment.id}`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
 
-            if (res.ok) {
-                const data = await res.json();
+                if (res.ok) {
+                    const updatedAssignment: Assignment = {
+                        ...editingAssignment,
+                        title: newAssignmentTitle,
+                        words: wordsList,
+                        scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
+                        include_discovered_count: newAssignmentDiscoveredCount,
+                        include_grammar: includeGrammar,
+                        grammar_tense: includeGrammar ? grammarTense : undefined,
+                    };
+                    onAssignmentUpdated(updatedAssignment);
+                    resetForm();
+                }
+            } else {
+                // Create
+                const res = await fetch(`${backendUrl}/v1/assignments`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
 
-                // Construct new assignment object (matching backend response roughly)
-                const newAssignment: Assignment = {
-                    id: data.id,
-                    title: newAssignmentTitle,
-                    words: wordsList,
-                    scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
-                    include_discovered_count: newAssignmentDiscoveredCount,
-                    include_grammar: includeGrammar,
-                    grammar_tense: includeGrammar ? grammarTense : undefined,
-                    created_at: new Date().toISOString()
-                };
-
-                onAssignmentCreated(newAssignment);
-
-                // Reset form
-                setNewAssignmentTitle("");
-                setNewAssignmentWords("");
-                setNewAssignmentSceneId("none");
-                setNewAssignmentDiscoveredCount(0);
-                setIncludeGrammar(false);
-                setGrammarTense("present");
+                if (res.ok) {
+                    const data = await res.json();
+                    const newAssignment: Assignment = {
+                        id: data.id,
+                        title: newAssignmentTitle,
+                        words: wordsList,
+                        scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
+                        include_discovered_count: newAssignmentDiscoveredCount,
+                        include_grammar: includeGrammar,
+                        grammar_tense: includeGrammar ? grammarTense : undefined,
+                        created_at: new Date().toISOString()
+                    };
+                    onAssignmentCreated(newAssignment);
+                    resetForm();
+                }
             }
         } catch (error) {
-            console.error("Failed to create assignment", error);
+            console.error("Failed to save assignment", error);
         } finally {
             setCreating(false);
+        }
+    };
+
+    const handleDelete = async (id: string) => {
+        try {
+            const res = await fetch(`${backendUrl}/v1/assignments/${id}?email=${session?.user?.email}`, {
+                method: 'DELETE',
+            });
+            if (res.ok) {
+                onAssignmentDeleted(id);
+                if (editingAssignment?.id === id) {
+                    resetForm();
+                }
+            }
+        } catch (error) {
+            console.error("Failed to delete assignment", error);
         }
     };
 
@@ -89,8 +158,8 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-in fade-in-50 duration-500">
             <Card className="rounded-[2rem] border-none shadow-sm h-fit">
                 <CardHeader>
-                    <CardTitle>Create Assignment</CardTitle>
-                    <CardDescription>Create a new vocabulary list.</CardDescription>
+                    <CardTitle>{editingAssignment ? "Edit Assignment" : "Create Assignment"}</CardTitle>
+                    <CardDescription>{editingAssignment ? "Update details below." : "Create a new vocabulary list."}</CardDescription>
                 </CardHeader>
                 <CardContent>
                     <div className="space-y-4">
@@ -173,14 +242,31 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                             )}
                         </div>
 
-                        <Button
-                            onClick={handleCreateAssignment}
-                            disabled={creating}
-                            className="w-full rounded-xl h-12 text-md"
-                        >
-                            {creating ? <Loader2 className="h-4 w-4 animate-spin mr-2" /> : <Plus className="mr-2 h-4 w-4" />}
-                            Create Assignment
-                        </Button>
+                        <div className="flex gap-2">
+                            {editingAssignment && (
+                                <Button
+                                    variant="outline"
+                                    onClick={resetForm}
+                                    className="rounded-xl h-12 w-12 p-0 shrink-0"
+                                >
+                                    <X size={20} />
+                                </Button>
+                            )}
+                            <Button
+                                onClick={handleCreateOrUpdate}
+                                disabled={creating}
+                                className="w-full rounded-xl h-12 text-md"
+                            >
+                                {creating ? (
+                                    <Loader2 className="h-4 w-4 animate-spin mr-2" />
+                                ) : editingAssignment ? (
+                                    <Save className="mr-2 h-4 w-4" />
+                                ) : (
+                                    <Plus className="mr-2 h-4 w-4" />
+                                )}
+                                {editingAssignment ? "Update Assignment" : "Create Assignment"}
+                            </Button>
+                        </div>
                     </div>
                 </CardContent>
             </Card>
@@ -200,9 +286,9 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                             {assignments.map((assignment) => (
                                 <div
                                     key={assignment.id}
-                                    className="p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow"
+                                    className={`p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow relative ${editingAssignment?.id === assignment.id ? 'border-primary ring-1 ring-primary' : ''}`}
                                 >
-                                    <div className="flex flex-col gap-1">
+                                    <div className="flex flex-col gap-1 pr-16">
                                         {/* Title */}
                                         <h3 className="font-bold text-gray-900">{assignment.title}</h3>
 
@@ -229,6 +315,47 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated }:
                                                 </span>
                                             )}
                                         </div>
+                                    </div>
+
+                                    {/* Action Buttons */}
+                                    <div className="absolute top-4 right-4 flex gap-1">
+                                        <Button
+                                            variant="ghost"
+                                            size="icon"
+                                            className="h-8 w-8 text-muted-foreground hover:text-primary"
+                                            onClick={() => startEditing(assignment)}
+                                        >
+                                            <Pencil size={14} />
+                                        </Button>
+
+                                        <AlertDialog>
+                                            <AlertDialogTrigger asChild>
+                                                <Button
+                                                    variant="ghost"
+                                                    size="icon"
+                                                    className="h-8 w-8 text-muted-foreground hover:text-destructive"
+                                                >
+                                                    <Trash2 size={14} />
+                                                </Button>
+                                            </AlertDialogTrigger>
+                                            <AlertDialogContent>
+                                                <AlertDialogHeader>
+                                                    <AlertDialogTitle>Delete Assignment?</AlertDialogTitle>
+                                                    <AlertDialogDescription>
+                                                        This will permanently delete "{assignment.title}" for all students. This action cannot be undone.
+                                                    </AlertDialogDescription>
+                                                </AlertDialogHeader>
+                                                <AlertDialogFooter>
+                                                    <AlertDialogCancel>Cancel</AlertDialogCancel>
+                                                    <AlertDialogAction
+                                                        onClick={() => handleDelete(assignment.id)}
+                                                        className="bg-destructive hover:bg-destructive/90"
+                                                    >
+                                                        Delete
+                                                    </AlertDialogAction>
+                                                </AlertDialogFooter>
+                                            </AlertDialogContent>
+                                        </AlertDialog>
                                     </div>
                                 </div>
                             ))}
