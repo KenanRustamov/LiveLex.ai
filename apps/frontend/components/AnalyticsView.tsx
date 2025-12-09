@@ -95,7 +95,7 @@ export default function AnalyticsView({ username, backendUrl, onNavigate }: { us
             const incorrect = Number(v?.incorrect || 0);
             const total = correct + incorrect;
             const accuracy = total > 0 ? Math.round((correct / total) * 100 * 10) / 10 : 0;
-            
+
             return {
               objectName: name,
               correct,
@@ -129,7 +129,7 @@ export default function AnalyticsView({ username, backendUrl, onNavigate }: { us
             sessions: data.sessions || [],
           });
         }
-      } catch {}
+      } catch { }
       if (!cancelled) setLoadingStats(false);
     };
     loadProgress();
@@ -243,7 +243,7 @@ export default function AnalyticsView({ username, backendUrl, onNavigate }: { us
   };
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 animate-in fade-in-50 duration-500 pb-24">
       {/* Achievements Section */}
       <Card>
         <CardHeader>
@@ -256,74 +256,72 @@ export default function AnalyticsView({ username, backendUrl, onNavigate }: { us
             <>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {displayedAchievements.map((achievement) => {
-                const progressPercent = achievement.progress
-                  ? Math.min((achievement.progress.current / achievement.progress.target) * 100, 100)
-                  : 0;
+                  const progressPercent = achievement.progress
+                    ? Math.min((achievement.progress.current / achievement.progress.target) * 100, 100)
+                    : 0;
 
-                return (
-                  <div
-                    key={achievement.id}
-                    className={`relative p-3 rounded-lg border h-full flex flex-col ${
-                      achievement.unlocked
-                        ? 'bg-green-50 border-green-200'
-                        : 'bg-gray-50 border-gray-200 opacity-75'
-                    }`}
-                  >
-                    <div className="flex flex-col items-center text-center h-full">
-                      <div className="relative">
-                        <img
-                          src={achievement.imagePath}
-                          alt={achievement.name}
-                          className={`w-16 h-16 object-contain ${
-                            achievement.unlocked ? '' : 'grayscale opacity-60'
-                          }`}
-                          onError={(e) => {
-                            // Fallback if image fails to load
-                            (e.target as HTMLImageElement).style.display = 'none';
-                          }}
-                        />
-                        {achievement.unlocked && (
-                          <CheckCircle2
-                            size={20}
-                            className="absolute -top-1 -right-1 text-green-600 bg-white rounded-full"
+                  return (
+                    <div
+                      key={achievement.id}
+                      className={`relative p-3 rounded-lg border h-full flex flex-col ${achievement.unlocked
+                          ? 'bg-green-50 border-green-200'
+                          : 'bg-gray-50 border-gray-200 opacity-75'
+                        }`}
+                    >
+                      <div className="flex flex-col items-center text-center h-full">
+                        <div className="relative">
+                          <img
+                            src={achievement.imagePath}
+                            alt={achievement.name}
+                            className={`w-16 h-16 object-contain ${achievement.unlocked ? '' : 'grayscale opacity-60'
+                              }`}
+                            onError={(e) => {
+                              // Fallback if image fails to load
+                              (e.target as HTMLImageElement).style.display = 'none';
+                            }}
                           />
-                        )}
-                      </div>
-                      <div className="w-full flex-1 flex flex-col justify-between mt-2">
-                        <div>
-                          <div className={`font-semibold text-sm ${achievement.unlocked ? 'text-gray-900' : 'text-gray-600'}`}>
-                            {achievement.name}
-                          </div>
-                          <div className="text-xs text-muted-foreground mt-1">
-                            {achievement.description}
-                          </div>
+                          {achievement.unlocked && (
+                            <CheckCircle2
+                              size={20}
+                              className="absolute -top-1 -right-1 text-green-600 bg-white rounded-full"
+                            />
+                          )}
                         </div>
-                        <div className="mt-2 min-h-[2.5rem]">
-                          {!achievement.unlocked && achievement.progress ? (
-                            <div className="space-y-1">
-                              <div className="w-full bg-gray-200 rounded-full h-1.5">
-                                <div
-                                  className="bg-blue-500 h-1.5 rounded-full transition-all"
-                                  style={{ width: `${progressPercent}%` }}
-                                />
-                              </div>
-                              <div className="text-xs text-muted-foreground">
-                                {achievement.id === 'word-wanderer' || achievement.id === 'everyday-explorer' || achievement.id === 'label-legend'
-                                  ? `${achievement.progress.current} / ${achievement.progress.target} words`
-                                  : achievement.id === 'multispace-master'
-                                  ? `${achievement.progress.current} / ${achievement.progress.target} sessions`
-                                  : achievement.id === 'consistency-champion'
-                                  ? `${achievement.progress.current} / ${achievement.progress.target} days`
-                                  : `${achievement.progress.current} / ${achievement.progress.target}`}
-                              </div>
+                        <div className="w-full flex-1 flex flex-col justify-between mt-2">
+                          <div>
+                            <div className={`font-semibold text-sm ${achievement.unlocked ? 'text-gray-900' : 'text-gray-600'}`}>
+                              {achievement.name}
                             </div>
-                          ) : null}
+                            <div className="text-xs text-muted-foreground mt-1">
+                              {achievement.description}
+                            </div>
+                          </div>
+                          <div className="mt-2 min-h-[2.5rem]">
+                            {!achievement.unlocked && achievement.progress ? (
+                              <div className="space-y-1">
+                                <div className="w-full bg-gray-200 rounded-full h-1.5">
+                                  <div
+                                    className="bg-blue-500 h-1.5 rounded-full transition-all"
+                                    style={{ width: `${progressPercent}%` }}
+                                  />
+                                </div>
+                                <div className="text-xs text-muted-foreground">
+                                  {achievement.id === 'word-wanderer' || achievement.id === 'everyday-explorer' || achievement.id === 'label-legend'
+                                    ? `${achievement.progress.current} / ${achievement.progress.target} words`
+                                    : achievement.id === 'multispace-master'
+                                      ? `${achievement.progress.current} / ${achievement.progress.target} sessions`
+                                      : achievement.id === 'consistency-champion'
+                                        ? `${achievement.progress.current} / ${achievement.progress.target} days`
+                                        : `${achievement.progress.current} / ${achievement.progress.target}`}
+                                </div>
+                              </div>
+                            ) : null}
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
               </div>
               {achievementStatus.length > 4 && (
                 <div className="mt-4 flex justify-center">

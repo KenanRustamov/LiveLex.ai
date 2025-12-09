@@ -108,17 +108,19 @@ export default function MobileShell() {
   };
 
   return (
-    <main className="min-h-dvh flex flex-col bg-gray-50/50">
-      <section className="flex-1 w-full max-w-md mx-auto px-6 py-8">
-        {renderContent()}
+    <main className="h-dvh w-full flex flex-col bg-gray-50/50 overflow-hidden">
+      {/* Scrollable Content Area */}
+      <section className="flex-1 overflow-y-auto scrollbar-hide">
+        <div className="w-full max-w-md mx-auto px-6 py-8 pb-4">
+          {renderContent()}
+        </div>
       </section>
 
-      {/* Navigation Bar */}
-      <nav className="fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-xl border-t border-gray-200 pb-safe">
-        <div className="mx-auto max-w-md w-full px-6 py-2 flex items-center justify-between relative">
+      {/* Navigation Bar - Static at bottom of flex column */}
+      <nav className="shrink-0 bg-white/80 backdrop-blur-xl border-t border-gray-200 pb-safe z-10 w-full">
+        <div className="mx-auto max-w-md w-full px-6 py-2 flex items-center justify-between">
           <NavBtn active={tab === 'home'} onClick={() => setTab('home')} icon={Home} label="Home" />
           <NavBtn active={tab === 'tasks'} onClick={() => setTab('tasks')} icon={ListTodo} label="Tasks" />
-
           <NavBtn active={tab === 'analytics'} onClick={() => setTab('analytics')} icon={BarChart} label="Stats" />
           <NavBtn active={tab === 'profile'} onClick={() => setTab('profile')} icon={User} label="Profile" />
         </div>

@@ -404,7 +404,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
         errorMessage = 'Camera is already in use by another application.';
       } else if (e?.name === 'OverconstrainedError' || e?.name === 'ConstraintNotSatisfiedError') {
         errorMessage = 'Camera does not support the requested settings. Trying with default settings...';
-      // Could retry with simpler constraints here
+        // Could retry with simpler constraints here
       } else if (e?.message) {
         errorMessage = e.message;
       }
@@ -820,7 +820,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               </Button>
             </div>
           )}
-          
+
           <video
             ref={videoRef}
             className={`h-full w-full object-cover ${facing === 'user' ? 'scale-x-[-1]' : ''}`}
@@ -828,7 +828,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
             muted
             autoPlay
           />
-          
+
           {!running && (
             <div
               className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-20"
@@ -843,7 +843,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               </div>
             </div>
           )}
-          
+
           {showCapturePrompt && !isPlanLoading && (
             <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
               <div className="text-white text-sm text-center drop-shadow">
@@ -851,19 +851,19 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               </div>
             </div>
           )}
-          
+
           {isRecording && !speechReal && (
             <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
               <StatusBadge status="detecting" />
             </div>
           )}
-          
+
           {isRecording && speechReal && (
             <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
               <StatusBadge status="recording" />
             </div>
           )}
-          
+
           {showListening && (
             <div className="pointer-events-none absolute inset-x-0 top-0 p-3 flex items-center justify-center">
               <StatusBadge status="listening" />
@@ -885,7 +885,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
                     Grammar Mode
                   </Label>
                 </div>
-                
+
                 {grammarMode && (
                   <div className="flex gap-1">
                     <Button
@@ -945,7 +945,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               End Session
             </Button>
           </div>
-          
+
           {isPlanLoading && (
             <div className="pointer-events-none absolute inset-x-0 top-3 p-3 flex items-center justify-center">
               <OverlayCard className="flex items-center gap-2 px-3 py-1.5 text-xs">
@@ -954,7 +954,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               </OverlayCard>
             </div>
           )}
-          
+
           {capturePreviewUrl && (
             <button
               type="button"
@@ -972,11 +972,11 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               />
             </button>
           )}
-          
+
           {(transcripts.length > 0 || !!llmStreaming) && (
             <TranscriptOverlay transcripts={transcripts} streamingText={llmStreaming} className="absolute right-4 top-4" />
           )}
-          
+
           <canvas ref={canvasRef} className="hidden" />
         </div>
       )}
