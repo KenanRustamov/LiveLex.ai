@@ -28,6 +28,7 @@ from app.db.repository import (
     save_user_lesson_db,
     get_user_progress_db,
     get_user_object_stats_db,
+    add_discovered_words,
 )
 import uuid
 from datetime import datetime, timezone
@@ -1501,6 +1502,7 @@ async def ws_scene_capture(ws: WebSocket):
     target_language: str = "Spanish"
     source_language: str = "English"
     location: str = "US"
+    username: str | None = None # Track username for persistence
     
     async def send_status(message: str, code: str = "ok") -> None:
         await ws.send_json({"type": "status", "payload": {"code": code, "message": message}})
@@ -1525,6 +1527,7 @@ async def ws_scene_capture(ws: WebSocket):
                 target_language = payload.get("target_language", target_language)
                 source_language = payload.get("source_language", source_language)
                 location = payload.get("location", location)
+                username = payload.get("username") or payload.get("email") # Support email as username
                 await send_status(f"Scene configured: {scene_name}")
             
             elif msg_type == "image":
@@ -1599,6 +1602,14 @@ async def ws_scene_capture(ws: WebSocket):
                             }
                         })
                     
+                    # Persist discovered words to user profile if username is available
+                    if username and captured_objects:
+                        try:
+                            await add_discovered_words(username, scene_name, captured_objects)
+                            await send_status("Progress saved to profile")
+                        except Exception as e:
+                            logging.error(f"Failed to auto-save discovery progress: {e}")
+                    
                     # Reset for potential new session
                     captured_objects = []
                     await send_status("Session ended and saved")
@@ -1618,6 +1629,12 @@ async def ws_scene_capture(ws: WebSocket):
         # Client disconnected - optionally auto-save if objects were captured
         if captured_objects:
             save_scene_vocab(scene_name, captured_objects)
+            # Try to auto-save to user profile on disconnect too
+            if username:
+                try:
+                    await add_discovered_words(username, scene_name, captured_objects)
+                except Exception:
+                    pass
     finally:
         try:
             if getattr(ws, "client_state", None) not in (WebSocketState.DISCONNECTED, None):

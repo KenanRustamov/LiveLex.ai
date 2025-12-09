@@ -80,7 +80,7 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
                 email: session.user.email,
                 name: newSceneName,
                 description: newSceneDesc,
-                teacher_words: [] // Optional
+                teacher_words: editingScene ? editingScene.teacher_words : []
             };
 
             if (editingScene) {

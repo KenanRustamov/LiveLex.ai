@@ -86,6 +86,78 @@ async def save_user_lesson_db(username: str, session_id: str, summary: dict):
         raise
 
 
+async def add_discovered_words(username: str, scene_id: str, vocab_objects: list[dict]):
+    """
+    Add discovered words to user profile.
+    vocab_objects: list of dicts with keys 'source_name', 'target_name'
+    - Adds to discovered_scene_words (target names) for valid scene tracking.
+    - Adds to objects list (keyed by source_name) with origin="scanned".
+    """
+    try:
+        user = await UserDataDoc.find_one(UserDataDoc.username == username)
+        if not user:
+            user = UserDataDoc(
+                username=username,
+                objects={},
+                discovered_scene_words={}
+            )
+            await user.insert()
+        
+        # Ensure dict exists
+        if not user.discovered_scene_words:
+            user.discovered_scene_words = {}
+            
+        # 1. Update discovered_scene_words (using target names)
+        if scene_id not in user.discovered_scene_words:
+            user.discovered_scene_words[scene_id] = []
+        
+        existing_scene_words = set(user.discovered_scene_words[scene_id])
+        for obj in vocab_objects:
+            target_word = obj.get("target_name")
+            if target_word and target_word not in existing_scene_words:
+                user.discovered_scene_words[scene_id].append(target_word)
+                existing_scene_words.add(target_word)
+                
+        # 2. Update objects with origin (using source names as key)
+        for obj in vocab_objects:
+            source = obj.get("source_name")
+            target = obj.get("target_name")
+            
+            if not source or not target:
+                continue
+                
+            if source not in user.objects:
+                user.objects[source] = {
+                    "correct": 0,
+                    "incorrect": 0,
+                    "total_attempts": 0,
+                    "correct_word": target,
+                    "origins": ["scanned"], # New field
+                    "discovered_at": datetime.now(timezone.utc).isoformat() # New field
+                }
+            else:
+                obj_data = user.objects[source]
+                # Add origin if not present
+                origins = obj_data.get("origins", [])
+                if "scanned" not in origins:
+                    origins.append("scanned")
+                    obj_data["origins"] = origins
+                    
+                # Set discovered_at if not present
+                if "discovered_at" not in obj_data:
+                    obj_data["discovered_at"] = datetime.now(timezone.utc).isoformat()
+                
+                # Ensure correct_word is set/updated
+                obj_data["correct_word"] = target
+
+        await user.save()
+        print(f"Saved discovered words for user '{username}' in scene '{scene_id}'")
+        
+    except Exception as e:
+        logging.error(f"Error adding discovered words: {e}", exc_info=True)
+        # Don't raise, just log to prevent connection closure issues
+
+
 async def get_user_progress_db(username: str) -> dict:
     user = await UserDataDoc.find_one(UserDataDoc.username == username)
     if not user:
@@ -98,5 +170,3 @@ async def get_user_object_stats_db(username: str, object_name: str) -> Optional[
     if not user:
         return None
     return user.objects.get(object_name)
-
-
