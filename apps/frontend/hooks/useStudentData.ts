@@ -58,6 +58,11 @@ export function useStudentData() {
                     if (resAssignments.ok) {
                         setAssignments(await resAssignments.json());
                     }
+                } else {
+                    // Student is not enrolled in any class - clear enrollment state
+                    setClassCode('');
+                    setEnrolledTeacher(null);
+                    setAssignments([]);
                 }
             }
         } catch (error) {

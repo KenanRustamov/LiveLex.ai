@@ -11,16 +11,20 @@ interface StudentProfileProps {
     classCode: string;
     enrolledTeacher: string | null;
     onJoinClass: (code: string) => Promise<void>;
+    onLeaveClass: () => Promise<void>;
     settings: any; // We can improve type safety later
     onSettingsChange: (settings: any) => void;
 }
 
-export function StudentProfile({ classCode, enrolledTeacher, onJoinClass, settings, onSettingsChange }: StudentProfileProps) {
+export function StudentProfile({ classCode, enrolledTeacher, onJoinClass, onLeaveClass, settings, onSettingsChange }: StudentProfileProps) {
     const { data: session } = useSession();
     const [inputCode, setInputCode] = useState(classCode || '');
     const [joining, setJoining] = useState(false);
+    const [leaving, setLeaving] = useState(false);
     const [error, setError] = useState<string | null>(null);
     const [showSettings, setShowSettings] = useState(false);
+    const [showLeaveConfirm, setShowLeaveConfirm] = useState(false);
+    const [showSwitchClass, setShowSwitchClass] = useState(false);
 
     const handleJoin = async () => {
         if (!inputCode) return;
@@ -28,10 +32,25 @@ export function StudentProfile({ classCode, enrolledTeacher, onJoinClass, settin
         setError(null);
         try {
             await onJoinClass(inputCode);
+            setShowSwitchClass(false);
+            setInputCode('');
         } catch (err) {
             setError("Failed to join class. Check code.");
         } finally {
             setJoining(false);
+        }
+    };
+
+    const handleLeave = async () => {
+        setLeaving(true);
+        setError(null);
+        try {
+            await onLeaveClass();
+            setShowLeaveConfirm(false);
+        } catch (err) {
+            setError("Failed to leave class.");
+        } finally {
+            setLeaving(false);
         }
     };
 
@@ -110,13 +129,98 @@ export function StudentProfile({ classCode, enrolledTeacher, onJoinClass, settin
                 </CardHeader>
                 <CardContent className="space-y-4">
                     {enrolledTeacher ? (
-                        <div className="bg-green-50 p-4 rounded-xl border border-green-100 flex items-center justify-between">
-                            <div>
-                                <h3 className="font-semibold text-green-900">Enrolled</h3>
-                                <p className="text-sm text-green-700">You are in {enrolledTeacher}'s class.</p>
+                        <>
+                            <div className="bg-green-50 p-4 rounded-xl border border-green-100 flex items-center justify-between">
+                                <div>
+                                    <h3 className="font-semibold text-green-900">Enrolled</h3>
+                                    <p className="text-sm text-green-700">You are in {enrolledTeacher}'s class.</p>
+                                    {classCode && (
+                                        <p className="text-xs text-green-600 font-mono mt-1">Code: {classCode}</p>
+                                    )}
+                                </div>
+                                <CheckCircleIcon className="text-green-600 h-6 w-6" />
                             </div>
-                            <CheckCircleIcon className="text-green-600 h-6 w-6" />
-                        </div>
+                            
+                            {/* Leave/Switch Class Confirmation */}
+                            {showLeaveConfirm ? (
+                                <div className="bg-amber-50 p-4 rounded-xl border border-amber-200 space-y-3">
+                                    <p className="text-sm text-amber-900">
+                                        Are you sure you want to leave this class? Your learning progress will be saved, but you won't see this teacher's assignments until you rejoin.
+                                    </p>
+                                    <div className="flex gap-2">
+                                        <Button
+                                            variant="outline"
+                                            size="sm"
+                                            onClick={() => setShowLeaveConfirm(false)}
+                                            className="rounded-xl"
+                                        >
+                                            Cancel
+                                        </Button>
+                                        <Button
+                                            variant="destructive"
+                                            size="sm"
+                                            onClick={handleLeave}
+                                            disabled={leaving}
+                                            className="rounded-xl"
+                                        >
+                                            {leaving ? 'Leaving...' : 'Leave Class'}
+                                        </Button>
+                                    </div>
+                                </div>
+                            ) : showSwitchClass ? (
+                                <div className="space-y-3">
+                                    <div className="space-y-2">
+                                        <Label htmlFor="switch-code">New Teacher Code</Label>
+                                        <div className="flex gap-2">
+                                            <Input
+                                                id="switch-code"
+                                                placeholder="e.g. A1B2C3D4"
+                                                value={inputCode}
+                                                onChange={(e) => setInputCode(e.target.value.toUpperCase())}
+                                                className="rounded-xl uppercase font-mono tracking-widest"
+                                                maxLength={8}
+                                            />
+                                            <Button onClick={handleJoin} disabled={joining} className="rounded-xl">
+                                                {joining ? 'Switching...' : 'Switch'}
+                                            </Button>
+                                        </div>
+                                        {error && <p className="text-xs text-red-500 font-medium ml-1">{error}</p>}
+                                    </div>
+                                    <Button
+                                        variant="ghost"
+                                        size="sm"
+                                        onClick={() => {
+                                            setShowSwitchClass(false);
+                                            setInputCode('');
+                                            setError(null);
+                                        }}
+                                        className="text-muted-foreground"
+                                    >
+                                        Cancel
+                                    </Button>
+                                </div>
+                            ) : (
+                                <div className="flex gap-2">
+                                    <Button
+                                        variant="outline"
+                                        size="sm"
+                                        onClick={() => setShowSwitchClass(true)}
+                                        className="rounded-xl"
+                                    >
+                                        Switch Class
+                                    </Button>
+                                    <Button
+                                        variant="ghost"
+                                        size="sm"
+                                        onClick={() => setShowLeaveConfirm(true)}
+                                        className="rounded-xl text-red-600 hover:text-red-700 hover:bg-red-50"
+                                    >
+                                        Leave Class
+                                    </Button>
+                                </div>
+                            )}
+                            {error && !showSwitchClass && <p className="text-xs text-red-500 font-medium ml-1">{error}</p>}
+                        </>
                     ) : (
                         <div className="space-y-2">
                             <Label htmlFor="code">Teacher Code</Label>

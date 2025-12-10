@@ -59,6 +59,22 @@ export default function MobileShell() {
     }
   };
 
+  const handleLeaveClass = async () => {
+    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
+    const res = await fetch(`${backendUrl}/v1/auth/leave-class`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: session?.user?.email })
+    });
+    if (res.ok) {
+      alert("Left class successfully!");
+      refresh();
+    } else {
+      const error = await res.json();
+      throw new Error(error.detail || "Failed to leave class");
+    }
+  };
+
   // Camera Overlay Mode
   if (tab === 'camera') {
     return (
@@ -112,6 +128,7 @@ export default function MobileShell() {
           classCode={classCode}
           enrolledTeacher={enrolledTeacher}
           onJoinClass={handleJoinClass}
+          onLeaveClass={handleLeaveClass}
           settings={settings}
           onSettingsChange={setSettings}
         />;
