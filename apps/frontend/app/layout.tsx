@@ -29,6 +29,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Auto-unregister service workers in development to prevent stale caching issues
+  if (typeof window !== "undefined" && process.env.NODE_ENV === "development") {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+          console.log("Service Worker unregistered in dev mode");
+        }
+      });
+    }
+  }
+
   return (
     <html lang="en">
       <body
