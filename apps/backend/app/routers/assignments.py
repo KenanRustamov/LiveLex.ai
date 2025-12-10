@@ -6,10 +6,16 @@ from app.dependencies import get_current_teacher
 
 router = APIRouter()
 
+
+class VocabItem(BaseModel):
+    source_name: str
+    target_name: str
+
+
 class CreateAssignmentRequest(BaseModel):
     email: str
     title: str
-    words: List[str]
+    vocab: List[VocabItem] = []
     scene_id: Optional[str] = None
     include_discovered_count: int = 0
     include_grammar: bool = False
@@ -20,10 +26,12 @@ async def create_assignment(req: CreateAssignmentRequest):
     """Create a new assignment for a teacher."""
     teacher = await get_current_teacher(req.email)
 
+    # Convert VocabItem objects to dicts for storage
+    vocab_dicts = [{"source_name": v.source_name, "target_name": v.target_name} for v in (req.vocab or [])]
+
     new_assignment = AssignmentDoc(
         title=req.title,
-        words=req.words,
-        creator_id=str(teacher.id),  # Legacy field if needed, but we use teacher_id mostly
+        vocab=vocab_dicts,
         teacher_id=str(teacher.id),
         scene_id=req.scene_id,
         include_discovered_count=req.include_discovered_count,
@@ -35,7 +43,7 @@ async def create_assignment(req: CreateAssignmentRequest):
     return {
         "id": str(new_assignment.id),
         "title": new_assignment.title,
-        "words": new_assignment.words,
+        "vocab": new_assignment.vocab,
         "created_at": new_assignment.created_at,
         "scene_id": new_assignment.scene_id,
         "include_discovered_count": new_assignment.include_discovered_count,
@@ -76,7 +84,7 @@ async def get_assignments(email: str):
         {
             "id": str(a.id),
             "title": a.title,
-            "words": a.words,
+            "vocab": getattr(a, 'vocab', []),
             "created_at": a.created_at,
             "scene_id": a.scene_id,
             "include_discovered_count": a.include_discovered_count,
@@ -113,12 +121,24 @@ async def update_assignment(assignment_id: str, req: CreateAssignmentRequest):
     if assignment.teacher_id != str(teacher.id):
         raise HTTPException(status_code=403, detail="Not your assignment")
     
+    # Convert VocabItem objects to dicts for storage
+    vocab_dicts = [{"source_name": v.source_name, "target_name": v.target_name} for v in (req.vocab or [])]
+    
     assignment.title = req.title
-    assignment.words = req.words
+    assignment.vocab = vocab_dicts
     assignment.scene_id = req.scene_id
     assignment.include_discovered_count = req.include_discovered_count
     assignment.include_grammar = req.include_grammar
     assignment.grammar_tense = req.grammar_tense
     
     await assignment.save()
-    return {"status": "success"}
+    return {
+        "id": str(assignment.id),
+        "title": assignment.title,
+        "vocab": assignment.vocab,
+        "created_at": assignment.created_at,
+        "scene_id": assignment.scene_id,
+        "include_discovered_count": assignment.include_discovered_count,
+        "include_grammar": assignment.include_grammar,
+        "grammar_tense": assignment.grammar_tense
+    }

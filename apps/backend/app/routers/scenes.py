@@ -6,21 +6,34 @@ from app.dependencies import get_current_teacher
 
 router = APIRouter()
 
+class VocabItem(BaseModel):
+    """Vocabulary item with source and target language translations."""
+    source_name: str
+    target_name: str
+
+
 class CreateSceneRequest(BaseModel):
     email: str
     name: str
     description: str
-    teacher_words: Optional[List[str]] = []
+    vocab: Optional[List[VocabItem]] = []
+    source_language: str = "English"
+    target_language: str = "Spanish"
 
 @router.post("/teacher/scenes", response_model=dict)
 async def create_scene(req: CreateSceneRequest):
     teacher = await get_current_teacher(req.email)
 
+    # Convert VocabItem objects to dicts for storage
+    vocab_dicts = [{"source_name": v.source_name, "target_name": v.target_name} for v in (req.vocab or [])]
+    
     new_scene = SceneDoc(
         name=req.name,
         description=req.description,
         teacher_id=str(teacher.id),
-        teacher_words=req.teacher_words or []
+        vocab=vocab_dicts,
+        source_language=req.source_language,
+        target_language=req.target_language
     )
     await new_scene.insert()
     
@@ -29,7 +42,9 @@ async def create_scene(req: CreateSceneRequest):
         "name": new_scene.name,
         "description": new_scene.description,
         "teacher_id": new_scene.teacher_id,
-        "teacher_words": new_scene.teacher_words,
+        "vocab": new_scene.vocab,
+        "source_language": new_scene.source_language,
+        "target_language": new_scene.target_language,
         "image_url": new_scene.image_url
     }
 
@@ -44,7 +59,9 @@ async def get_scenes(email: str):
             "name": s.name,
             "description": s.description,
             "teacher_id": s.teacher_id,
-            "teacher_words": s.teacher_words,
+            "vocab": getattr(s, 'vocab', []),
+            "source_language": getattr(s, 'source_language', 'English'),
+            "target_language": getattr(s, 'target_language', 'Spanish'),
             "image_url": s.image_url
         }
         for s in scenes
@@ -77,12 +94,26 @@ async def update_scene(scene_id: str, req: CreateSceneRequest):
     if scene.teacher_id != str(teacher.id):
         raise HTTPException(status_code=403, detail="Not your scene")
 
+    # Convert VocabItem objects to dicts for storage
+    vocab_dicts = [{"source_name": v.source_name, "target_name": v.target_name} for v in (req.vocab or [])]
+
     scene.name = req.name
     scene.description = req.description
-    scene.teacher_words = req.teacher_words or []
+    scene.vocab = vocab_dicts
+    scene.source_language = req.source_language
+    scene.target_language = req.target_language
     
     await scene.save()
-    return {"status": "success"}
+    return {
+        "id": str(scene.id),
+        "name": scene.name,
+        "description": scene.description,
+        "teacher_id": scene.teacher_id,
+        "vocab": scene.vocab,
+        "source_language": scene.source_language,
+        "target_language": scene.target_language,
+        "image_url": scene.image_url
+    }
 
 
 @router.get("/student/scenes", response_model=List[dict])
@@ -110,7 +141,9 @@ async def get_student_scenes(email: str):
             "id": str(s.id),
             "name": s.name,
             "description": s.description,
-            "teacher_words": s.teacher_words,
+            "vocab": getattr(s, 'vocab', []),
+            "source_language": getattr(s, 'source_language', 'English'),
+            "target_language": getattr(s, 'target_language', 'Spanish'),
         }
         for s in scenes
     ]

@@ -5,11 +5,16 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Loader2, Plus, Pencil, X, Save } from 'lucide-react';
-import { Scene } from '@/types/teacher';
+import { Scene, VocabItem } from '@/types/teacher';
 import { useSession } from 'next-auth/react';
 import { teacherService } from "@/services/teacherService";
 import { useToast } from "@/components/ui/use-toast";
 import { DeleteConfirm } from "@/components/ui/delete-confirm";
+import { VocabularyInput } from "./VocabularyInput";
+
+// Default language settings
+const DEFAULT_SOURCE_LANGUAGE = "English";
+const DEFAULT_TARGET_LANGUAGE = "Spanish";
 
 interface ScenesManagerProps {
     scenes: Scene[];
@@ -25,6 +30,9 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
     // Form State
     const [newSceneName, setNewSceneName] = useState("");
     const [newSceneDesc, setNewSceneDesc] = useState("");
+    const [vocab, setVocab] = useState<VocabItem[]>([]);
+    const [sourceLanguage, setSourceLanguage] = useState(DEFAULT_SOURCE_LANGUAGE);
+    const [targetLanguage, setTargetLanguage] = useState(DEFAULT_TARGET_LANGUAGE);
     const [creatingScene, setCreatingScene] = useState(false);
 
     // Validation State
@@ -36,6 +44,9 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
     const resetForm = () => {
         setNewSceneName("");
         setNewSceneDesc("");
+        setVocab([]);
+        setSourceLanguage(DEFAULT_SOURCE_LANGUAGE);
+        setTargetLanguage(DEFAULT_TARGET_LANGUAGE);
         setEditingScene(null);
         setErrors({});
     };
@@ -44,6 +55,9 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
         setEditingScene(scene);
         setNewSceneName(scene.name);
         setNewSceneDesc(scene.description);
+        setVocab(scene.vocab || []);
+        setSourceLanguage(scene.source_language || DEFAULT_SOURCE_LANGUAGE);
+        setTargetLanguage(scene.target_language || DEFAULT_TARGET_LANGUAGE);
         setErrors({});
         // Scroll to top
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -76,11 +90,16 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
 
         setCreatingScene(true);
         try {
+            // Filter out empty vocab entries
+            const validVocab = vocab.filter(v => v.source_name.trim() && v.target_name.trim());
+            
             const payload = {
                 email: session.user.email,
                 name: newSceneName,
                 description: newSceneDesc,
-                teacher_words: editingScene ? editingScene.teacher_words : []
+                vocab: validVocab,
+                source_language: sourceLanguage,
+                target_language: targetLanguage
             };
 
             if (editingScene) {
@@ -89,6 +108,9 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
                     ...editingScene,
                     name: newSceneName,
                     description: newSceneDesc,
+                    vocab: validVocab,
+                    source_language: sourceLanguage,
+                    target_language: targetLanguage,
                 };
                 onSceneUpdated(updatedScene);
                 toast({ title: "Success", description: "Scene updated.", variant: "success" });
@@ -168,6 +190,40 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
                             {errors.description && <p className="text-sm text-red-500 font-medium">{errors.description}</p>}
                         </div>
 
+                        {/* Language Settings */}
+                        <div className="grid grid-cols-2 gap-3">
+                            <div className="space-y-2">
+                                <Label htmlFor="sourceLanguage">Source Language</Label>
+                                <Input
+                                    id="sourceLanguage"
+                                    placeholder="English"
+                                    value={sourceLanguage}
+                                    onChange={(e) => setSourceLanguage(e.target.value)}
+                                    className="rounded-xl"
+                                />
+                            </div>
+                            <div className="space-y-2">
+                                <Label htmlFor="targetLanguage">Target Language</Label>
+                                <Input
+                                    id="targetLanguage"
+                                    placeholder="Spanish"
+                                    value={targetLanguage}
+                                    onChange={(e) => setTargetLanguage(e.target.value)}
+                                    className="rounded-xl"
+                                />
+                            </div>
+                        </div>
+
+                        {/* Vocabulary Input */}
+                        <div className="pt-2 border-t">
+                            <VocabularyInput
+                                vocab={vocab}
+                                onChange={setVocab}
+                                sourceLanguage={sourceLanguage}
+                                targetLanguage={targetLanguage}
+                            />
+                        </div>
+
                         <div className="flex gap-2">
                             {editingScene && (
                                 <Button
@@ -215,17 +271,19 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
                                         <div className="flex justify-between items-center mb-2">
                                             <h3 className="font-bold text-gray-800">{scene.name}</h3>
                                             <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
-                                                {scene.teacher_words?.length || 0} Target Words
+                                                {scene.vocab?.length || 0} Vocab Words
                                             </span>
                                         </div>
                                         <p className="text-sm text-muted-foreground line-clamp-2 mb-2">
                                             {scene.description}
                                         </p>
                                         <div className="flex gap-1 flex-wrap">
-                                            {scene.teacher_words?.slice(0, 3).map((w, i) => (
-                                                <span key={i} className="text-xs bg-secondary px-2 py-1 rounded-full text-secondary-foreground">{w}</span>
+                                            {scene.vocab?.slice(0, 3).map((v, i) => (
+                                                <span key={i} className="text-xs bg-secondary px-2 py-1 rounded-full text-secondary-foreground">
+                                                    {v.source_name} → {v.target_name}
+                                                </span>
                                             ))}
-                                            {(scene.teacher_words?.length || 0) > 3 && <span className="text-xs text-muted-foreground pl-1">...</span>}
+                                            {(scene.vocab?.length || 0) > 3 && <span className="text-xs text-muted-foreground pl-1">...</span>}
                                         </div>
                                     </div>
 

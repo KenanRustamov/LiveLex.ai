@@ -1,16 +1,20 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Loader2, Plus, Pencil, X, Save } from 'lucide-react';
-import { Assignment, Scene } from '@/types/teacher';
+import { Assignment, Scene, VocabItem } from '@/types/teacher';
 import { useSession } from 'next-auth/react';
 import { Switch } from "@/components/ui/switch";
 import { teacherService } from "@/services/teacherService";
 import { useToast } from "@/components/ui/use-toast";
 import { DeleteConfirm } from "@/components/ui/delete-confirm";
+import { VocabularyInput } from "./VocabularyInput";
+
+// Default language settings
+const DEFAULT_SOURCE_LANGUAGE = "English";
+const DEFAULT_TARGET_LANGUAGE = "Spanish";
 
 interface AssignmentsManagerProps {
     assignments: Assignment[];
@@ -26,26 +30,58 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
 
     // Form State
     const [newAssignmentTitle, setNewAssignmentTitle] = useState("");
-    const [newAssignmentWords, setNewAssignmentWords] = useState("");
+    const [vocab, setVocab] = useState<VocabItem[]>([]);
     const [newAssignmentSceneId, setNewAssignmentSceneId] = useState<string>("none");
     const [newAssignmentDiscoveredCount, setNewAssignmentDiscoveredCount] = useState<number | "">(0);
     const [includeGrammar, setIncludeGrammar] = useState(false);
     const [grammarTense, setGrammarTense] = useState<"present" | "past">("present");
     const [creating, setCreating] = useState(false);
+    
+    // Language settings (derived from selected scene or defaults)
+    const [sourceLanguage, setSourceLanguage] = useState(DEFAULT_SOURCE_LANGUAGE);
+    const [targetLanguage, setTargetLanguage] = useState(DEFAULT_TARGET_LANGUAGE);
 
     // Validation State
-    const [errors, setErrors] = useState<{ title?: string; words?: string }>({});
+    const [errors, setErrors] = useState<{ title?: string; vocab?: string }>({});
 
     // Edit State
     const [editingAssignment, setEditingAssignment] = useState<Assignment | null>(null);
 
+    // Handle scene selection - pre-populate vocab from scene
+    const handleSceneChange = (sceneId: string) => {
+        setNewAssignmentSceneId(sceneId);
+        
+        if (sceneId !== "none") {
+            const selectedScene = scenes.find(s => s.id === sceneId);
+            if (selectedScene) {
+                // Deep copy the scene's vocab to avoid modifying the original
+                const sceneVocab = (selectedScene.vocab || []).map(v => ({
+                    source_name: v.source_name,
+                    target_name: v.target_name
+                }));
+                setVocab(sceneVocab);
+                setSourceLanguage(selectedScene.source_language || DEFAULT_SOURCE_LANGUAGE);
+                setTargetLanguage(selectedScene.target_language || DEFAULT_TARGET_LANGUAGE);
+            }
+        } else {
+            // Clear vocab when no scene is selected (unless editing)
+            if (!editingAssignment) {
+                setVocab([]);
+            }
+            setSourceLanguage(DEFAULT_SOURCE_LANGUAGE);
+            setTargetLanguage(DEFAULT_TARGET_LANGUAGE);
+        }
+    };
+
     const resetForm = () => {
         setNewAssignmentTitle("");
-        setNewAssignmentWords("");
+        setVocab([]);
         setNewAssignmentSceneId("none");
         setNewAssignmentDiscoveredCount(0);
         setIncludeGrammar(false);
         setGrammarTense("present");
+        setSourceLanguage(DEFAULT_SOURCE_LANGUAGE);
+        setTargetLanguage(DEFAULT_TARGET_LANGUAGE);
         setEditingAssignment(null);
         setErrors({});
     };
@@ -53,11 +89,21 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
     const startEditing = (assignment: Assignment) => {
         setEditingAssignment(assignment);
         setNewAssignmentTitle(assignment.title);
-        setNewAssignmentWords(assignment.words.join('\n'));
+        setVocab(assignment.vocab || []);
         setNewAssignmentSceneId(assignment.scene_id || "none");
         setNewAssignmentDiscoveredCount(assignment.include_discovered_count || 0);
         setIncludeGrammar(assignment.include_grammar || false);
         setGrammarTense((assignment.grammar_tense as "present" | "past") || "present");
+        
+        // Set language from scene if available
+        if (assignment.scene_id) {
+            const scene = scenes.find(s => s.id === assignment.scene_id);
+            if (scene) {
+                setSourceLanguage(scene.source_language || DEFAULT_SOURCE_LANGUAGE);
+                setTargetLanguage(scene.target_language || DEFAULT_TARGET_LANGUAGE);
+            }
+        }
+        
         setErrors({});
 
         // Scroll to top
@@ -65,7 +111,7 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
     };
 
     const validateForm = () => {
-        const newErrors: { title?: string; words?: string } = {};
+        const newErrors: { title?: string; vocab?: string } = {};
         let isValid = true;
 
         if (!newAssignmentTitle.trim()) {
@@ -73,8 +119,10 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
             isValid = false;
         }
 
-        if (!newAssignmentWords.trim()) {
-            newErrors.words = "At least one word is required.";
+        // Filter out empty vocab entries for validation
+        const validVocab = vocab.filter(v => v.source_name.trim() && v.target_name.trim());
+        if (validVocab.length === 0) {
+            newErrors.vocab = "At least one vocabulary word is required.";
             isValid = false;
         }
 
@@ -91,11 +139,13 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
 
         setCreating(true);
         try {
-            const wordsList = newAssignmentWords.split('\n').map(w => w.trim()).filter(w => w !== '');
+            // Filter out empty vocab entries
+            const validVocab = vocab.filter(v => v.source_name.trim() && v.target_name.trim());
+            
             const payload = {
                 email: session.user.email,
                 title: newAssignmentTitle,
-                words: wordsList,
+                vocab: validVocab,
                 include_discovered_count: newAssignmentDiscoveredCount === "" ? 0 : newAssignmentDiscoveredCount,
                 include_grammar: includeGrammar,
                 grammar_tense: includeGrammar ? grammarTense : null,
@@ -107,7 +157,7 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                 const updatedAssignment: Assignment = {
                     ...editingAssignment,
                     title: newAssignmentTitle,
-                    words: wordsList,
+                    vocab: validVocab,
                     scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
                     include_discovered_count: newAssignmentDiscoveredCount === "" ? 0 : newAssignmentDiscoveredCount,
                     include_grammar: includeGrammar,
@@ -177,18 +227,18 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                             {errors.title && <p className="text-sm text-red-500 font-medium">{errors.title}</p>}
                         </div>
 
-                        {/* Scene Context Selector */}
+                        {/* Scene Selector */}
                         <div className="space-y-2">
-                            <Label htmlFor="sceneSelect">Context (Optional)</Label>
+                            <Label htmlFor="sceneSelect">Scene (Optional)</Label>
                             <select
                                 id="sceneSelect"
                                 className="flex h-10 w-full rounded-xl border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                                 value={newAssignmentSceneId}
-                                onChange={(e) => setNewAssignmentSceneId(e.target.value)}
+                                onChange={(e) => handleSceneChange(e.target.value)}
                             >
-                                <option value="none">No Scene Context</option>
+                                <option value="none">No Scene</option>
                                 {scenes.map((s) => (
-                                    <option key={s.id} value={s.id}>{s.name}</option>
+                                    <option key={s.id} value={s.id}>{s.name} ({s.vocab?.length || 0} words)</option>
                                 ))}
                             </select>
                         </div>
@@ -212,50 +262,47 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                             </div>
                         )}
 
-                        <div className="grid grid-cols-2 gap-4">
-                            <div className="space-y-2 col-span-2">
-                                <Label htmlFor="words">Words (one per line)</Label>
-                                <Textarea
-                                    id="words"
-                                    placeholder="Hola&#10;Gracias"
-                                    value={newAssignmentWords}
-                                    onChange={(e) => {
-                                        setNewAssignmentWords(e.target.value);
-                                        if (errors.words) setErrors({ ...errors, words: undefined });
-                                    }}
-                                    className={errors.words ? "min-h-[100px] rounded-xl border-red-500" : "min-h-[100px] rounded-xl"}
-                                />
-                                {errors.words && <p className="text-sm text-red-500 font-medium">{errors.words}</p>}
-                            </div>
-
-                            {newAssignmentSceneId !== "none" && (
-                                <div className="space-y-2 col-span-2 bg-blue-50 p-3 rounded-xl">
-                                    <Label htmlFor="discoveredCount" className="text-blue-900">Include Student Discovered Words</Label>
-                                    <div className="flex items-center gap-3">
-                                        <Input
-                                            id="discoveredCount"
-                                            type="number"
-                                            min="0"
-                                            max="10"
-                                            value={newAssignmentDiscoveredCount}
-                                            onChange={(e) => {
-                                                const val = e.target.value;
-                                                if (val === "") {
-                                                    setNewAssignmentDiscoveredCount("");
-                                                } else {
-                                                    const num = parseInt(val);
-                                                    if (!isNaN(num)) setNewAssignmentDiscoveredCount(num);
-                                                }
-                                            }}
-                                            className="rounded-xl w-20 bg-white"
-                                        />
-                                        <span className="text-xs text-blue-700">
-                                            Randomly adds words the student found in this scene to their list.
-                                        </span>
-                                    </div>
-                                </div>
-                            )}
+                        {/* Vocabulary Input */}
+                        <div className="pt-2 border-t">
+                            <VocabularyInput
+                                vocab={vocab}
+                                onChange={(newVocab) => {
+                                    setVocab(newVocab);
+                                    if (errors.vocab) setErrors({ ...errors, vocab: undefined });
+                                }}
+                                sourceLanguage={sourceLanguage}
+                                targetLanguage={targetLanguage}
+                            />
+                            {errors.vocab && <p className="text-sm text-red-500 font-medium mt-2">{errors.vocab}</p>}
                         </div>
+
+                        {newAssignmentSceneId !== "none" && (
+                            <div className="space-y-2 bg-blue-50 p-3 rounded-xl">
+                                <Label htmlFor="discoveredCount" className="text-blue-900">Include Student Discovered Words</Label>
+                                <div className="flex items-center gap-3">
+                                    <Input
+                                        id="discoveredCount"
+                                        type="number"
+                                        min="0"
+                                        max="10"
+                                        value={newAssignmentDiscoveredCount}
+                                        onChange={(e) => {
+                                            const val = e.target.value;
+                                            if (val === "") {
+                                                setNewAssignmentDiscoveredCount("");
+                                            } else {
+                                                const num = parseInt(val);
+                                                if (!isNaN(num)) setNewAssignmentDiscoveredCount(num);
+                                            }
+                                        }}
+                                        className="rounded-xl w-20 bg-white"
+                                    />
+                                    <span className="text-xs text-blue-700">
+                                        Randomly adds words the student found in this scene to their list.
+                                    </span>
+                                </div>
+                            </div>
+                        )}
 
                         <div className="flex gap-2">
                             {editingAssignment && (
@@ -311,22 +358,22 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                                         <p className="text-sm text-muted-foreground">
                                             {new Date(assignment.created_at).toLocaleDateString()} •{" "}
                                             {assignment.include_grammar ? "Vocab + Grammar" : "Vocab Only"} •{" "}
-                                            {assignment.words.length} words
+                                            {assignment.vocab?.length || 0} words
                                         </p>
 
-                                        {/* Word Chips */}
+                                        {/* Vocab Chips */}
                                         <div className="flex gap-1 mt-2 flex-wrap">
-                                            {assignment.words.slice(0, 5).map((w, i) => (
+                                            {assignment.vocab?.slice(0, 3).map((v, i) => (
                                                 <span
                                                     key={i}
                                                     className="text-xs bg-secondary px-2 py-1 rounded-full text-secondary-foreground"
                                                 >
-                                                    {w}
+                                                    {v.source_name} → {v.target_name}
                                                 </span>
                                             ))}
-                                            {assignment.words.length > 5 && (
+                                            {(assignment.vocab?.length || 0) > 3 && (
                                                 <span className="text-xs text-muted-foreground pl-1">
-                                                    +{assignment.words.length - 5} more
+                                                    +{(assignment.vocab?.length || 0) - 3} more
                                                 </span>
                                             )}
                                         </div>

@@ -1,10 +1,15 @@
 import { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 
+export interface VocabItem {
+    source_name: string;
+    target_name: string;
+}
+
 export interface StudentAssignment {
     id: string;
     title: string;
-    words: string[];
+    vocab: VocabItem[];
     created_at: string;
     scene_id?: string;
     teacher_id: string;

@@ -1505,7 +1505,7 @@ async def ws_scene_capture(ws: WebSocket):
     email: str | None = None  # User's email for persistence
     
     # Sets for uniqueness checking (loaded on config)
-    teacher_words_set: set[str] = set()  # Teacher's target vocab (lowercase target names)
+    teacher_vocab_set: set[str] = set()  # Teacher's target vocab (lowercase target names)
     user_discovered_set: set[str] = set()  # User's previously discovered words (lowercase target names)
     
     async def send_status(message: str, code: str = "ok") -> None:
@@ -1534,17 +1534,19 @@ async def ws_scene_capture(ws: WebSocket):
                 location = payload.get("location", location)
                 email = payload.get("email")
                 
-                # Load teacher words and user's existing discoveries for uniqueness checking
-                teacher_words_set = set()
+                # Load teacher vocab and user's existing discoveries for uniqueness checking
+                teacher_vocab_set = set()
                 user_discovered_set = set()
                 
                 if scene_id:
-                    # Load teacher's words from SceneDoc
+                    # Load teacher's vocab from SceneDoc
                     try:
                         scene_doc = await SceneDoc.get(scene_id)
                         if scene_doc:
                             scene_name = scene_doc.name  # Use scene name from DB
-                            teacher_words_set = {w.lower() for w in (scene_doc.teacher_words or [])}
+                            # Extract target names from vocab items
+                            vocab_items = getattr(scene_doc, 'vocab', []) or []
+                            teacher_vocab_set = {v.get('target_name', '').lower() for v in vocab_items if v.get('target_name')}
                     except Exception as e:
                         logging.warning(f"Failed to load scene {scene_id}: {e}")
                     
@@ -1586,8 +1588,8 @@ async def ws_scene_capture(ws: WebSocket):
                     for obj in vocab_result.objects:
                         target_lower = obj.target_name.lower()
                         
-                        # Skip if already in teacher's words
-                        if target_lower in teacher_words_set:
+                        # Skip if already in teacher's vocab
+                        if target_lower in teacher_vocab_set:
                             continue
                         # Skip if user already discovered this word
                         if target_lower in user_discovered_set:

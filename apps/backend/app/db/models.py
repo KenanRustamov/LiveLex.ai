@@ -1,5 +1,5 @@
 from datetime import datetime
-from pydantic import Field
+from pydantic import Field, BaseModel
 from beanie import Document
 from app.schemas.plan import Plan
 from typing import Optional, Any, List, Dict
@@ -46,15 +46,23 @@ class UserDataDoc(Document):
         indexes = ["username", "email", "teacher_code", "teacher_id"]
 
 
+class VocabItem(BaseModel):
+    source_name: str
+    target_name: str
+
+
 class SceneDoc(Document):
     name: str
     description: str
     teacher_id: str
     image_url: Optional[str] = None
     
-    # Words added by the teacher (Target Vocabulary)
-    # These might or might not exist in the student's vicinity.
-    teacher_words: List[str] = []
+    # Vocabulary items with source/target language pairs
+    vocab: List[Dict[str, str]] = []  # [{"source_name": "apple", "target_name": "manzana"}, ...]
+    
+    # Language settings (defaults for this scene)
+    source_language: str = "English"
+    target_language: str = "Spanish"
     
     class Settings:
         name = "scenes"
@@ -64,7 +72,7 @@ class AssignmentDoc(Document):
     teacher_id: str
     email: Optional[str] = None # Keeping for backward compatibility
     title: str
-    words: List[str]
+    vocab: List[Dict[str, str]] = []  # [{"source_name": "apple", "target_name": "manzana"}, ...]
     created_at: datetime = Field(default_factory=datetime.utcnow)
 
     # Grammar practice fields

@@ -12,11 +12,16 @@ interface SceneObject {
   target_name: string;
 }
 
+interface VocabItem {
+  source_name: string;
+  target_name: string;
+}
+
 interface TeacherScene {
   id: string;
   name: string;
   description: string;
-  teacher_words: string[];
+  vocab: VocabItem[];
 }
 
 interface SceneCaptureViewProps {
@@ -459,9 +464,9 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
           {selectedScene && (
             <div className="text-xs text-muted-foreground">
               {selectedScene.description}
-              {selectedScene.teacher_words.length > 0 && (
+              {(selectedScene.vocab?.length || 0) > 0 && (
                 <span className="block mt-1">
-                  Teacher vocab: {selectedScene.teacher_words.length} word{selectedScene.teacher_words.length !== 1 ? 's' : ''}
+                  Teacher vocab: {selectedScene.vocab?.length} word{selectedScene.vocab?.length !== 1 ? 's' : ''}
                 </span>
               )}
             </div>

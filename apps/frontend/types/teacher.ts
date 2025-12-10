@@ -6,10 +6,15 @@ export interface Student {
     average_score: number;
 }
 
+export interface VocabItem {
+    source_name: string;
+    target_name: string;
+}
+
 export interface Assignment {
     id: string;
     title: string;
-    words: string[];
+    vocab: VocabItem[];
     created_at: string;
     scene_id?: string | null;
     include_discovered_count?: number;
@@ -21,7 +26,9 @@ export interface Scene {
     id: string;
     name: string;
     description: string;
-    teacher_words: string[];
+    vocab: VocabItem[];
+    source_language: string;
+    target_language: string;
     teacher_id: string;
 }
 

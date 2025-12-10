@@ -43,9 +43,9 @@ export function StudentAssignments({ assignments }: StudentAssignmentsProps) {
                                 </div>
 
                                 <div className="flex flex-wrap gap-1.5 mb-6">
-                                    {assignment.words.map((w, i) => (
+                                    {assignment.vocab?.map((v, i) => (
                                         <span key={i} className="text-xs bg-secondary px-2.5 py-1 rounded-full text-secondary-foreground font-medium">
-                                            {w}
+                                            {v.source_name} → {v.target_name}
                                         </span>
                                     ))}
                                 </div>

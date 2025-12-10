@@ -1,11 +1,11 @@
-import { Assignment, Scene } from '@/types/teacher';
+import { Assignment, Scene, VocabItem } from '@/types/teacher';
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
 
 type CreateAssignmentPayload = {
     email: string;
     title: string;
-    words: string[];
+    vocab: VocabItem[];
     scene_id?: string;
     include_discovered_count?: number;
     include_grammar?: boolean;
@@ -16,7 +16,9 @@ type CreateScenePayload = {
     email: string;
     name: string;
     description: string;
-    teacher_words?: string[];
+    vocab?: VocabItem[];
+    source_language?: string;
+    target_language?: string;
 }
 
 export const teacherService = {
