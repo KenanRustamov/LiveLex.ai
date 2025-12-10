@@ -23,7 +23,6 @@ export default function MobileShell() {
     targetLanguage: 'Spanish',
     location: 'Baltimore, Maryland',
     actions: ['Pick up'],
-    proficiencyLevel: 1,
   });
 
   // Load Settings from LocalStorage

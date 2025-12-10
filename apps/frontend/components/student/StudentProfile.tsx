@@ -3,7 +3,6 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Select } from '@/components/ui/select';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { LogOut, User as UserIcon, Settings, ChevronLeft } from 'lucide-react';
 import { signOut, useSession } from 'next-auth/react';
@@ -71,20 +70,6 @@ export function StudentProfile({ classCode, enrolledTeacher, onJoinClass, settin
                                 onChange={(e) => onSettingsChange({ ...settings, location: e.target.value })}
                                 className="rounded-xl"
                             />
-                        </div>
-                        <div className="space-y-2">
-                            <Label>Proficiency Level</Label>
-                            <Select
-                                value={settings.proficiencyLevel?.toString()}
-                                onChange={(e) => onSettingsChange({ ...settings, proficiencyLevel: parseInt(e.target.value) })}
-                                className="w-full rounded-xl border border-input p-2"
-                            >
-                                <option value="1">1 - Beginner</option>
-                                <option value="2">2 - Basic</option>
-                                <option value="3">3 - Intermediate</option>
-                                <option value="4">4 - Advanced</option>
-                                <option value="5">5 - Fluent</option>
-                            </Select>
                         </div>
                     </CardContent>
                 </Card>

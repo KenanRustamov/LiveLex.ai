@@ -61,7 +61,7 @@ function float32ToWavBlob(audio: Float32Array, sampleRate = 16000): Blob {
   return new Blob([buffer], { type: 'audio/wav' });
 }
 
-export default function CameraView({ settings, username, onClose }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[], proficiencyLevel: number; }, username: string, onClose?: () => void }) {
+export default function CameraView({ settings, username, onClose }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[] }, username: string, onClose?: () => void }) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -508,7 +508,6 @@ export default function CameraView({ settings, username, onClose }: { settings: 
             source_language: settings.sourceLanguage,
             location: settings.location,
             actions: settings.actions,
-            proficiency_level: settings.proficiencyLevel,
             grammar_mode: grammarMode,
             grammar_tense: grammarTense,
           }

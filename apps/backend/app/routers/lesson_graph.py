@@ -22,13 +22,12 @@ class LessonState(TypedDict, total=False):
     source_language: str
     location: str
     actions: list[str]
-    proficiency_level: int  # user's proficiency level
     grammar_mode: str  # "vocab" or "grammar"
     grammar_tense: str  # "present indicative" or "preterite"
     # Additional fields for graph operations
     session_id: str | None
     username: str | None
-    image_metadata: dict | None  # target_language, source_language, location, actions, proficiency_level, grammar_mode, grammar_tense
+    image_metadata: dict | None  # target_language, source_language, location, actions, grammar_mode, grammar_tense
     pending_transcription: tuple[str, str] | None  # (utterance_id, text)
     pending_image: tuple[str, str, dict] | None  # (utterance_id, data_url, metadata)
     evaluation_result: EvaluationResult | None
@@ -65,15 +64,6 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
     target_language = state.get("target_language", "Spanish")
     source_language = state.get("source_language", "English")
     
-    # Extract proficiency_level from state or image_metadata
-    proficiency_level = state.get("proficiency_level")
-    if proficiency_level is None:
-        image_metadata = state.get("image_metadata")
-        if image_metadata:
-            proficiency_level = image_metadata.get("proficiency_level", 1)
-        else:
-            proficiency_level = 1  # Default to 1 if not found
-    
     # Get grammar mode and tense from state
     grammar_mode = state.get("grammar_mode", "vocab")
     grammar_tense = state.get("grammar_tense", "none")
@@ -89,7 +79,6 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
             current_object, 
             target_language,
             source_language,
-            proficiency_level, 
             attempt_number=current_attempt,
             max_attempts=max_attempts,
             grammar_mode=grammar_mode,
@@ -210,11 +199,6 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     target_language = image_metadata.get("target_language", state.get("target_language", "Spanish"))
     source_language = image_metadata.get("source_language", state.get("source_language", "English"))
     
-    # Extract proficiency_level from image_metadata or state
-    proficiency_level = image_metadata.get("proficiency_level")
-    if proficiency_level is None:
-        proficiency_level = state.get("proficiency_level", 1)  # Default to 1 if not found
-    
     # Extract grammar mode and tense
     grammar_mode = image_metadata.get("grammar_mode", state.get("grammar_mode", "vocab"))
     grammar_tense = image_metadata.get("grammar_tense", state.get("grammar_tense", "none"))
@@ -297,7 +281,6 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
                     current_object,
                     target_language,
                     source_language,
-                    proficiency_level,
                     hint_number,
                     grammar_mode=grammar_mode,
                     grammar_tense=grammar_tense,
@@ -374,7 +357,6 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
                     current_object,
                     target_language,
                     source_language,
-                    proficiency_level,
                     grammar_mode=grammar_mode,
                     grammar_tense=grammar_tense,
                     state=None
@@ -431,7 +413,6 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
                     current_object,
                     target_language,
                     source_language,
-                    proficiency_level,
                     1,
                     grammar_mode=grammar_mode,
                     grammar_tense=grammar_tense,
@@ -505,7 +486,6 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             current_object=current_object,
             target_language=target_language,
             source_language=source_language,
-            proficiency_level=proficiency_level,
             attempt_number=current_attempt,
             max_attempts=max_attempts,
             grammar_mode=grammar_mode,

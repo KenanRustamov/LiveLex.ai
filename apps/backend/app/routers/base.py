@@ -101,7 +101,6 @@ def session_state_to_lesson_state(
         source_language = image_metadata.get("source_language", session_state.source_language or "English")
         location = image_metadata.get("location", session_state.location or "US")
         actions = image_metadata.get("actions", session_state.actions or ["name", "describe", "compare"])
-        proficiency_level = image_metadata.get("proficiency_level", session_state.proficiency_level or 1)
         grammar_mode = image_metadata.get("grammar_mode", session_state.grammar_mode or "vocab")
         grammar_tense = image_metadata.get("grammar_tense", session_state.grammar_tense or "none")
     else:
@@ -109,7 +108,6 @@ def session_state_to_lesson_state(
         source_language = session_state.source_language or "English"
         location = session_state.location or "US"
         actions = session_state.actions or ["name", "describe", "compare"]
-        proficiency_level = session_state.proficiency_level or 1
         grammar_mode = session_state.grammar_mode or "vocab"
         grammar_tense = session_state.grammar_tense or "none"
     
@@ -126,7 +124,6 @@ def session_state_to_lesson_state(
         "source_language": source_language,
         "location": location,
         "actions": actions,
-        "proficiency_level": proficiency_level,
         "grammar_mode": grammar_mode,  
         "grammar_tense": grammar_tense, 
         "lesson_completed": session_state.lesson_saved,
@@ -227,7 +224,6 @@ async def generate_prompt_message(
     object: Object, 
     target_language: str, 
     source_language: str,
-    proficiency_level: int = 1, # not using, put in default value
     attempt_number: int = 1,
     max_attempts: int = 3,
     grammar_mode: str = "vocab",
@@ -240,7 +236,6 @@ async def generate_prompt_message(
         object: The object to prompt for
         target_language: Target language for learning
         source_language: Source language (native language)
-        proficiency_level: deprecated, not used in prompt
         attempt_number: Current attempt number (1-based)
         max_attempts: Maximum attempts allowed (default 3)
         grammar_mode: Practice mode ("vocab" or "grammar")
@@ -259,7 +254,6 @@ async def generate_prompt_message(
         metadata={
             "model": settings.llm_model, 
             "target_language": target_language, 
-            "proficiency_level": proficiency_level,
             "attempt_number": attempt_number,
             "max_attempts": max_attempts,
             "grammar_mode": grammar_mode,
@@ -315,7 +309,6 @@ async def process_audio_image_pair(
             current_object=current_object,
             target_language=image_metadata["target_language"],
             source_language=image_metadata["source_language"],
-            proficiency_level=image_metadata["proficiency_level"],
             is_last_object=is_last_object,
             state=state,
         )
@@ -379,7 +372,6 @@ async def process_audio_image_pair(
             state.plan.objects[next_idx], 
             image_metadata["target_language"],
             image_metadata["source_language"],
-            image_metadata["proficiency_level"], 
             attempt_number=1,
             max_attempts=3,
             state=state
@@ -611,7 +603,6 @@ class SessionState:
         self.source_language: str = "English"
         self.location: str = "US"
         self.actions: list[str] = ["name", "describe", "compare"]
-        self.proficiency_level: int = 1
         self.grammar_mode: str = "vocab"  # "vocab" or "grammar"
         self.grammar_tense: str = "none"  # "present indicative" or "preterite"
 
@@ -867,7 +858,6 @@ async def generate_hint(
     object: Object,
     target_language: str,
     source_language: str,
-    proficiency_level: int,
     hint_number: int,
     grammar_mode: str = "vocab",
     grammar_tense: str = "none",
@@ -894,7 +884,6 @@ async def generate_hint(
                 "source_name": object.source_name,
                 "target_language": target_language,
                 "source_language": source_language,
-                "proficiency_level": proficiency_level,
                 "hint_number": hint_number,
                 "grammar_mode": grammar_mode,
                 "grammar_tense": grammar_tense,
@@ -917,7 +906,6 @@ async def give_answer_with_memory_aid(
     object: Object,
     target_language: str,
     source_language: str,
-    proficiency_level: int,
     grammar_mode: str = "vocab",
     grammar_tense: str = "none",
     state: Optional[SessionState] = None
@@ -928,7 +916,6 @@ async def give_answer_with_memory_aid(
         object: The object being tested
         target_language: Target language
         source_language: Source language
-        proficiency_level: User's proficiency level (1-5)
         grammar_mode: Practice mode ("vocab" or "grammar")
         grammar_tense: Grammar tense ("present indactive" or "preterite" if grammar_mode="grammar")
         state: Optional session state for tracking
@@ -955,7 +942,6 @@ async def give_answer_with_memory_aid(
                 "source_name": object.source_name,
                 "target_language": target_language,
                 "source_language": source_language,
-                "proficiency_level": proficiency_level,
                 "grammar_mode": grammar_mode,
                 "grammar_tense": grammar_tense,
             })
@@ -977,7 +963,6 @@ async def evaluate_response(
     current_object: Object,
     target_language: str,
     source_language: str,
-    proficiency_level: int,
     attempt_number: int = 1,
     max_attempts: int = 3,
     grammar_mode: str = "vocab",
@@ -994,7 +979,6 @@ async def evaluate_response(
         current_object: Object being tested
         target_language: Target language
         source_language: Source language
-        proficiency_level: User's proficiency level (1-5)
         attempt_number: Current attempt number (1-based)
         max_attempts: Maximum attempts allowed (default 3)
         grammar_mode: Practice mode ("vocab" or "grammar")
@@ -1014,7 +998,6 @@ async def evaluate_response(
         "transcription": transcription,
         "target_language": target_language,
         "source_language": source_language,
-        "proficiency_level": proficiency_level,
         "attempt_number": attempt_number,
         "max_attempts": max_attempts,
         "grammar_mode": grammar_mode,
@@ -1351,7 +1334,6 @@ async def ws_stream(ws: WebSocket):
                 source_language = payload.get("source_language", "English")
                 location = payload.get("location", "US")
                 actions = payload.get("actions") or ["name", "describe", "compare"]
-                proficiency_level = payload.get("proficiency_level", 1)
                 
                 # --- Grammar/Practice Mode Integration ---
                 grammar_mode = payload.get("grammar_mode", False)
@@ -1366,14 +1348,12 @@ async def ws_stream(ws: WebSocket):
                 state.source_language = source_language
                 state.location = location
                 state.actions = actions
-                state.proficiency_level = proficiency_level
                 
                 image_metadata = {
                     "target_language": target_language,
                     "source_language": source_language,
                     "location": location,
                     "actions": actions,
-                    "proficiency_level": proficiency_level,
                     "grammar_mode": state.grammar_mode, # Include grammar in metadata
                     "grammar_tense": state.grammar_tense, # Include grammar in metadata
                 }
@@ -1414,7 +1394,6 @@ async def ws_stream(ws: WebSocket):
                             "source_language": source_language,
                             "location": location,
                             "actions": actions,
-                            "proficiency_level": proficiency_level,
                         }
                         lesson_state = session_state_to_lesson_state(state, ws, image_metadata)
                         lesson_state["plan"] = plan
@@ -1436,7 +1415,6 @@ async def ws_stream(ws: WebSocket):
                                     plan.objects[next_idx], 
                                     target_language,
                                     source_language,
-                                    proficiency_level, 
                                     attempt_number=1,
                                     max_attempts=3,
                                     state=state
