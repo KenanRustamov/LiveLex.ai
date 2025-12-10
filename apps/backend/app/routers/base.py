@@ -1400,10 +1400,11 @@ async def ws_stream(ws: WebSocket):
                                 "plan": plan.model_dump(),
                                 "entries": [],
                             })
-                            append_dialogue_entry(state.session_id, {
-                                "speaker": "system",
-                                "text": plan.scene_message,
-                            })
+                            # Commented out to prevent scene_message from appearing in transcript
+                            # append_dialogue_entry(state.session_id, {
+                            #     "speaker": "system",
+                            #     "text": plan.scene_message,
+                            # })
                         
                         await ws.send_json({"type": "plan", "payload": plan.model_dump()})
                         

@@ -254,10 +254,11 @@ export default function CameraView({ settings, username, onClose }: { settings: 
             case 'plan': {
               const objects = msg.payload?.objects ?? null;
               if (Array.isArray(objects)) setPlanObjects(objects);
-              const sceneMsg: string | null = msg.payload?.scene_message ?? null;
-              if (typeof sceneMsg === 'string') {
-                setTranscripts(prev => [...prev, { speaker: 'LLM', text: sceneMsg }]);
-              }
+              // Commented out to prevent scene_message from appearing in transcript
+              // const sceneMsg: string | null = msg.payload?.scene_message ?? null;
+              // if (typeof sceneMsg === 'string') {
+              //   setTranscripts(prev => [...prev, { speaker: 'LLM', text: sceneMsg }]);
+              // }
               setIsPlanLoading(false);
               setShowCapturePrompt(false);
               setPlanReceived(true);
