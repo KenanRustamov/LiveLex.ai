@@ -1227,6 +1227,11 @@ async def ws_stream(ws: WebSocket):
                     state.plan = None
                     state.current_object_index = -1
                     state.completed_objects = []
+                    state.item_attempts = {}
+                    state.item_hints_used = {}
+                    state.item_gave_up = {}
+                    state.waiting_for_repeat = False
+                    state.dialogue_history = []
                     state.pending_transcription = None
                     state.pending_image = None
                     state.lesson_saved = False

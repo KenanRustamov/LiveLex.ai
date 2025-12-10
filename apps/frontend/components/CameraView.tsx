@@ -91,6 +91,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
   const [planReceived, setPlanReceived] = useState<boolean>(false);
   const [evaluationResults, setEvaluationResults] = useState<Map<number, { correct: boolean; feedback: string; correct_word: string }>>(new Map());
   const [lessonSummary, setLessonSummary] = useState<any>(null);
+  const [pendingCameraRestart, setPendingCameraRestart] = useState<boolean>(false);
 
   // Grammar mode state
   const [grammarMode, setGrammarMode] = useState<boolean>(false);
@@ -748,6 +749,16 @@ export default function CameraView({ settings, username, onClose }: { settings: 
     return () => { if (t) window.clearTimeout(t); };
   }, [isRecording, vadEnabled, isPlanLoading]);
 
+  // Restart camera after lesson summary is dismissed (video element needs to be mounted first)
+  useEffect(() => {
+    if (pendingCameraRestart && !lessonSummary) {
+      setPendingCameraRestart(false);
+      startCamera().catch(() => {
+        // Errors will surface via existing error handling
+      });
+    }
+  }, [pendingCameraRestart, lessonSummary, startCamera]);
+
   return (
     <div className="rounded-2xl border p-4">
       <div className="flex items-center justify-between">
@@ -798,12 +809,8 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               }));
             }
 
-            // Ensure camera + WebSocket are ready for a fresh lesson
-            if (!running) {
-              startCamera().catch(() => {
-                // ignore errors here; they will surface via existing error handling
-              });
-            }
+            // Defer camera restart until after React re-renders and video element is mounted
+            setPendingCameraRestart(true);
           }}
         />
       ) : (
