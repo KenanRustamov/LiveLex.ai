@@ -35,11 +35,18 @@ export function StudentAssignments({ assignments }: StudentAssignmentsProps) {
                                             {new Date(assignment.created_at).toLocaleDateString()}
                                         </p>
                                     </div>
-                                    {assignment.scene_id && (
-                                        <span className="text-[10px] bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
-                                            Context Aware
-                                        </span>
-                                    )}
+                                    <div className="flex flex-col gap-1.5 items-end">
+                                        {assignment.scene_id && (
+                                            <span className="text-[10px] bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
+                                                Context Aware
+                                            </span>
+                                        )}
+                                        {assignment.include_grammar && assignment.grammar_tense && (
+                                            <span className="text-[10px] bg-purple-100 text-purple-800 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
+                                                Grammar: {assignment.grammar_tense}
+                                            </span>
+                                        )}
+                                    </div>
                                 </div>
 
                                 <div className="flex flex-wrap gap-1.5 mb-6">

@@ -13,6 +13,8 @@ export interface StudentAssignment {
     created_at: string;
     scene_id?: string;
     teacher_id: string;
+    include_grammar?: boolean;
+    grammar_tense?: string;
 }
 
 export interface TeacherInfo {

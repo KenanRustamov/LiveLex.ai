@@ -256,8 +256,8 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                                     value={grammarTense}
                                     onChange={(e) => setGrammarTense(e.target.value as "present" | "past")}
                                 >
-                                    <option value="present">Present Tense</option>
-                                    <option value="past">Past Tense</option>
+                                    <option value="present indicative">Present Indicative</option>
+                                    <option value="preterite">Preterite</option>
                                 </select>
                             </div>
                         )}
