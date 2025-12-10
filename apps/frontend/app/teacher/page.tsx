@@ -11,12 +11,6 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { useSession, signOut } from 'next-auth/react';
 import { useState } from 'react';
-import {
-    Dialog,
-    DialogContent,
-    DialogHeader,
-    DialogTitle,
-} from "@/components/ui/dialog";
 import { Loader2 } from 'lucide-react';
 import AnalyticsView from '@/components/AnalyticsView';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -25,6 +19,7 @@ import { DashboardOverview } from "@/components/teacher/DashboardOverview";
 import { ScenesManager } from "@/components/teacher/ScenesManager";
 import { AssignmentsManager } from "@/components/teacher/AssignmentsManager";
 import { Student } from "@/types/teacher";
+import { useRouter } from "next/navigation";
 
 export default function TeacherDashboard() {
     const { data: session } = useSession();
@@ -41,8 +36,7 @@ export default function TeacherDashboard() {
         setScenes
     } = useTeacherData();
 
-    // Analytics Modal State
-    const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
+    const router = useRouter();
 
     if (loading) {
         return <div className="min-h-screen flex items-center justify-center"><Loader2 className="animate-spin text-primary" /></div>;
@@ -122,7 +116,7 @@ export default function TeacherDashboard() {
                             students={students}
                             classAnalytics={classAnalytics}
                             assignmentCount={assignments.length}
-                            onSelectStudent={setSelectedStudent}
+                            onSelectStudent={(student) => router.push(`/teacher/student/${encodeURIComponent(student.username)}`)}
                         />
                     </TabsContent>
 
@@ -146,23 +140,6 @@ export default function TeacherDashboard() {
                     </TabsContent>
                 </Tabs>
             </div>
-
-            {/* Student Analytics Modal */}
-            <Dialog open={!!selectedStudent} onOpenChange={(open) => !open && setSelectedStudent(null)}>
-                <DialogContent className="max-w-3xl max-h-[90vh] overflow-y-auto">
-                    <DialogHeader>
-                        <DialogTitle>{selectedStudent?.name}'s Progress</DialogTitle>
-                    </DialogHeader>
-                    {selectedStudent && (
-                        <div className="py-2">
-                            <AnalyticsView
-                                username={selectedStudent.username}
-                                backendUrl={process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000'}
-                            />
-                        </div>
-                    )}
-                </DialogContent>
-            </Dialog>
         </div>
     );
 }
