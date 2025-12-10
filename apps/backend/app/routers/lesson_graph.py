@@ -24,7 +24,7 @@ class LessonState(TypedDict, total=False):
     actions: list[str]
     proficiency_level: int  # user's proficiency level
     grammar_mode: str  # "vocab" or "grammar"
-    grammar_tense: str  # "present perfect" or "preterite"
+    grammar_tense: str  # "present indicative" or "preterite"
     # Additional fields for graph operations
     session_id: str | None
     username: str | None
@@ -63,6 +63,7 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
     
     current_object = plan.objects[next_idx]
     target_language = state.get("target_language", "Spanish")
+    source_language = state.get("source_language", "English")
     
     # Extract proficiency_level from state or image_metadata
     proficiency_level = state.get("proficiency_level")
@@ -75,7 +76,7 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
     
     # Get grammar mode and tense from state
     grammar_mode = state.get("grammar_mode", "vocab")
-    grammar_tense = state.get("grammar_tense", "present perfect")
+    grammar_tense = state.get("grammar_tense", "none")
     
     # Get attempt count for this object
     attempt_counts = state.get("item_attempts", {}) or {}
@@ -86,7 +87,8 @@ async def prompt_user_node(state: LessonState, ws: WebSocket) -> LessonState:
     try:
         prompt_msg = await generate_prompt_message(
             current_object, 
-            target_language, 
+            target_language,
+            source_language,
             proficiency_level, 
             attempt_number=current_attempt,
             max_attempts=max_attempts,
@@ -215,7 +217,7 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     
     # Extract grammar mode and tense
     grammar_mode = image_metadata.get("grammar_mode", state.get("grammar_mode", "vocab"))
-    grammar_tense = image_metadata.get("grammar_tense", state.get("grammar_tense", "present perfect"))
+    grammar_tense = image_metadata.get("grammar_tense", state.get("grammar_tense", "none"))
 
     # Get current attempt number (default to 1 if not tracked yet)
     current_attempt = item_attempts.get(current_object_index, 0) + 1
@@ -486,6 +488,14 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
     
     # Normal evaluation flow (answer_attempt intent)
 
+    # Determine if this is the last object in the lesson
+    completed_objects = state.get("completed_objects", [])
+    # Count unique completed object indices (excluding current one if in progress)
+    completed_indices = {idx for idx, _ in completed_objects}
+    remaining_objects = len(plan.objects) - len(completed_indices)
+    # If we're on the last remaining object, mark as last
+    is_last_object = remaining_objects <= 1
+
     # Evaluate response with attempt context
     try:
         eval_result = await evaluate_response(
@@ -500,6 +510,7 @@ async def evaluate_node(state: LessonState, ws: WebSocket) -> LessonState:
             max_attempts=max_attempts,
             grammar_mode=grammar_mode,
             grammar_tense=grammar_tense,
+            is_last_object=is_last_object,
             state=None,
         )
     except Exception as e:

@@ -103,7 +103,7 @@ def session_state_to_lesson_state(
         actions = image_metadata.get("actions", session_state.actions or ["name", "describe", "compare"])
         proficiency_level = image_metadata.get("proficiency_level", session_state.proficiency_level or 1)
         grammar_mode = image_metadata.get("grammar_mode", session_state.grammar_mode or "vocab")
-        grammar_tense = image_metadata.get("grammar_tense", session_state.grammar_tense or "present perfect")
+        grammar_tense = image_metadata.get("grammar_tense", session_state.grammar_tense or "none")
     else:
         target_language = session_state.target_language or "Spanish"
         source_language = session_state.source_language or "English"
@@ -111,7 +111,7 @@ def session_state_to_lesson_state(
         actions = session_state.actions or ["name", "describe", "compare"]
         proficiency_level = session_state.proficiency_level or 1
         grammar_mode = session_state.grammar_mode or "vocab"
-        grammar_tense = session_state.grammar_tense or "present"
+        grammar_tense = session_state.grammar_tense or "none"
     
     lesson_state: dict = {
         "plan": session_state.plan,
@@ -226,11 +226,12 @@ def get_next_object_index(plan: Plan, completed_objects: list[tuple[int, bool]])
 async def generate_prompt_message(
     object: Object, 
     target_language: str, 
-    proficiency_level: int, 
+    source_language: str,
+    proficiency_level: int = 1, # not using, put in default value
     attempt_number: int = 1,
     max_attempts: int = 3,
     grammar_mode: str = "vocab",
-    grammar_tense: str = "present perfect",
+    grammar_tense: str = "none",
     state: Optional[SessionState] = None
 ) -> str:
     """Generate a prompt message asking user to interact with an object.
@@ -238,11 +239,12 @@ async def generate_prompt_message(
     Args:
         object: The object to prompt for
         target_language: Target language for learning
-        proficiency_level: User's proficiency level (1-5)
+        source_language: Source language (native language)
+        proficiency_level: deprecated, not used in prompt
         attempt_number: Current attempt number (1-based)
         max_attempts: Maximum attempts allowed (default 3)
         grammar_mode: Practice mode ("vocab" or "grammar")
-        grammar_tense: Grammar tense ("present perfect" or "preterite")
+        grammar_tense: Grammar tense ("present indicative" or "preterite")
         state: Optional session state for tracking
     """
     session_id = state.session_id if state else None
@@ -269,7 +271,7 @@ async def generate_prompt_message(
             "target_word": object.target_name,
             "target_language": target_language,
             "action": object.action,
-            "proficiency_level": proficiency_level,
+            "source_language": source_language,
             "attempt_number": attempt_number,
             "max_attempts": max_attempts,
             "is_retry": is_retry,
@@ -299,6 +301,11 @@ async def process_audio_image_pair(
     
     current_object = state.plan.objects[state.current_object_index]
 
+    # Determine if this is the last object in the lesson
+    completed_indices = {idx for idx, _ in state.completed_objects}
+    remaining_objects = len(state.plan.objects) - len(completed_indices)
+    is_last_object = remaining_objects <= 1
+
     # evaluate response
     try:
         eval_result = await evaluate_response(
@@ -309,6 +316,7 @@ async def process_audio_image_pair(
             target_language=image_metadata["target_language"],
             source_language=image_metadata["source_language"],
             proficiency_level=image_metadata["proficiency_level"],
+            is_last_object=is_last_object,
             state=state,
         )
     except Exception as e:
@@ -369,7 +377,8 @@ async def process_audio_image_pair(
         state.current_object_index = next_idx
         prompt_msg = await generate_prompt_message(
             state.plan.objects[next_idx], 
-            image_metadata["target_language"], 
+            image_metadata["target_language"],
+            image_metadata["source_language"],
             image_metadata["proficiency_level"], 
             attempt_number=1,
             max_attempts=3,
@@ -604,7 +613,7 @@ class SessionState:
         self.actions: list[str] = ["name", "describe", "compare"]
         self.proficiency_level: int = 1
         self.grammar_mode: str = "vocab"  # "vocab" or "grammar"
-        self.grammar_tense: str = "present perfect"  # "present perfect" or "preterite"
+        self.grammar_tense: str = "none"  # "present indicative" or "preterite"
 
 
 async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
@@ -861,7 +870,7 @@ async def generate_hint(
     proficiency_level: int,
     hint_number: int,
     grammar_mode: str = "vocab",
-    grammar_tense: str = "present perfect",
+    grammar_tense: str = "none",
     state: Optional[SessionState] = None
 ) -> str:
     """Generate a hint for a word using LLM."""
@@ -910,7 +919,7 @@ async def give_answer_with_memory_aid(
     source_language: str,
     proficiency_level: int,
     grammar_mode: str = "vocab",
-    grammar_tense: str = "present perfect",
+    grammar_tense: str = "none",
     state: Optional[SessionState] = None
 ) -> str:
     """Give the answer with a memory aid to help student remember.
@@ -921,7 +930,7 @@ async def give_answer_with_memory_aid(
         source_language: Source language
         proficiency_level: User's proficiency level (1-5)
         grammar_mode: Practice mode ("vocab" or "grammar")
-        grammar_tense: Grammar tense ("present perfect" or "preterite")
+        grammar_tense: Grammar tense ("present indactive" or "preterite" if grammar_mode="grammar")
         state: Optional session state for tracking
         
     Returns:
@@ -972,7 +981,8 @@ async def evaluate_response(
     attempt_number: int = 1,
     max_attempts: int = 3,
     grammar_mode: str = "vocab",
-    grammar_tense: str = "present perfect",
+    grammar_tense: str = "none",
+    is_last_object: bool = False,
     state: Optional[SessionState] = None,
 ) -> EvaluationResult:
     """Evaluate if the user's transcription matches the expected object and word.
@@ -988,7 +998,8 @@ async def evaluate_response(
         attempt_number: Current attempt number (1-based)
         max_attempts: Maximum attempts allowed (default 3)
         grammar_mode: Practice mode ("vocab" or "grammar")
-        grammar_tense: Grammar tense ("present perfect" or "preterite")
+        grammar_tense: Grammar tense ("present indicative" or "preterite")
+        is_last_object: Whether this is the last object in the lesson (default False)
         state: Optional session state for tracking
     """
     if not settings.openai_api_key:
@@ -1008,6 +1019,7 @@ async def evaluate_response(
         "max_attempts": max_attempts,
         "grammar_mode": grammar_mode,
         "grammar_tense": grammar_tense,
+        "is_last_object": is_last_object,
     })
     system_msg = prompt_value.to_messages()[0]
     user_msg = prompt_value.to_messages()[1]
@@ -1343,11 +1355,11 @@ async def ws_stream(ws: WebSocket):
                 
                 # --- Grammar/Practice Mode Integration ---
                 grammar_mode = payload.get("grammar_mode", False)
-                grammar_tense_from_payload = payload.get("grammar_tense", "present perfect")
+                grammar_tense_from_payload = payload.get("grammar_tense", "none")
                 
                 # Update session state with practice mode
                 state.grammar_mode = "grammar" if grammar_mode else "vocab"
-                state.grammar_tense = grammar_tense_from_payload if grammar_mode else "present perfect"
+                state.grammar_tense = grammar_tense_from_payload if grammar_mode else "none"
 
                 # Persist latest lesson preferences on the session
                 state.target_language = target_language
@@ -1421,7 +1433,8 @@ async def ws_stream(ws: WebSocket):
                                 state.current_object_index = next_idx
                                 prompt_msg = await generate_prompt_message(
                                     plan.objects[next_idx], 
-                                    target_language, 
+                                    target_language,
+                                    source_language,
                                     proficiency_level, 
                                     attempt_number=1,
                                     max_attempts=3,

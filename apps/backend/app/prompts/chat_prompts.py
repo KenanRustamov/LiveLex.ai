@@ -11,8 +11,11 @@ The practice mode is: {grammar_mode}
 - If grammar_mode is "vocab", ask them to perform the action and SAY THE WORD for the object in {target_language}.
 - If grammar_mode is "grammar", ask them a QUESTION that encourages them to form a sentence using the object and the grammar tense ({grammar_tense}).
 
+
+Structure your questions similar to these examples. HOWEVER, ensure that you are using a mix of {target_language} and {source_language} to help the student learn the word in {target_language}.
+DO NOT use only {source_language} in your questions.
 For VOCAB mode:
-  Example: "Pick up the pen and say 'bolígrafo'."
+  Example: "Pick up the pen. What is it called in Spanish?"
   Example: "Hold the cup and say its name in Spanish."
 
 For GRAMMAR mode ({grammar_tense} tense):
@@ -21,16 +24,18 @@ For GRAMMAR mode ({grammar_tense} tense):
     * "What do you drink from?" (expecting: "I drink from a cup" / "Bebo de una taza")
   - Past tense examples:
     * "What did you use yesterday for writing?" (expecting: "I used a pen" / "Usé un bolígrafo")
-    * "What did you drink from this morning?" (expecting: "I drank from a cup" / "Bebí de una taza")
+    * "What did you drink earlier?" (expecting: "I drank from a cup" / "Bebí de una taza")
 
 IMPORTANT: 
 - Do NOT use phrases like "Great job!" or "Well done!" before the student has attempted the task.
 - For first attempts (attempt_number = 1), use simple, direct instructions without implying prior success.
-- For retry attempts (attempt_number > 1), clearly indicate this is a retry of the SAME word/question, using phrases like "Let's try again" or "Let's practice once more."
+- For retry attempts (attempt_number > 1 AND attempt_number < max_attempts), clearly indicate this is a retry of the SAME word/question, using phrases like "Let's try again" or "Let's practice once more."
+- For FINAL attempts (attempt_number = max_attempts), acknowledge this is their final chance. Use phrases like "This is your final try" or "One more time" instead of "try again" or "once more."
 - Never imply you are moving to a new word when you are still working on the same word.
 - In VOCAB mode: NEVER reveal the answer (target word) - ask them to say its name or what it's called
 - In GRAMMAR mode: Don't give away the exact sentence structure, let them construct it naturally"""),
     ("user", """Please prompt the student to work with the object "{source_name}".
+- Ensure that you are using a mix of {target_language} and {source_language} to help the student learn the word in {target_language}.
 
 Practice mode: {grammar_mode}
 Target word in {target_language}: {target_word}
@@ -53,7 +58,8 @@ If grammar_mode is "grammar":
   - Example questions for past tense: "When did you last use this?" "What did you do with this yesterday?"
 
 If this is the first attempt (attempt_number = 1), give a simple, direct instruction without praise.
-If this is a retry (attempt_number > 1), clearly indicate you are asking them to try the SAME task again.
+If this is a retry (1 < attempt_number < max_attempts), clearly indicate you are asking them to try the SAME task again.
+If this is the FINAL attempt (attempt_number = max_attempts), acknowledge this is their last chance without using phrases like "try once more" (since there's no "once more" after this).
 Make your prompt short, friendly, and encouraging, but appropriate for the attempt number.""")
 ])
 
@@ -79,6 +85,11 @@ You will be given:
 3. The object from the learning plan
 4. The correct word/expected response in the target language
 5. The current attempt number and maximum attempts allowed
+6. Whether this is the last object in the lesson (is_last_object)
+
+IMPORTANT: Pay close attention to the attempt number (attempt_number) vs maximum attempts (max_attempts).
+If attempt_number >= max_attempts, this is the FINAL attempt - DO NOT suggest trying again.
+Also check if this is the last object (is_last_object) to provide appropriate closure messaging.
 
 Your task is to determine:
 1. Does the object in the image match the expected object from the plan?
@@ -99,6 +110,12 @@ For VOCAB mode:
 - Be relatively strict with pronunciation - do not accept attempts that are significantly mispronounced
 - Accept valid synonyms in the target language as correct (e.g., "coche" or "carro" for car in Spanish)
 - Accept sentences like "this is X" or "that's X" if they contain the correct word with good pronunciation
+- **IMPORTANT: Be VERY lenient with accent marks on vowels (á, é, í, ó, ú):**
+  * Words missing accent marks on vowels should be accepted (e.g., "boligrafo" for "bolígrafo", "cafe" for "café")
+  * Focus on the core pronunciation, not accent mark placement
+  * HOWEVER, different letters like ñ vs n ARE errors - "nino" ≠ "niño" because ñ is a distinct letter
+  * Only be lenient with accent marks (´), NOT with different characters (ñ, ü, etc.)
+  * Examples: "cafe" = "café" ✓, "boligrafo" = "bolígrafo" ✓, BUT "nino" ≠ "niño" ✗
 
 
 For GRAMMAR mode:
@@ -110,11 +127,16 @@ For GRAMMAR mode:
   * Overall meaning and structure are accurate
 - Mark as INCORRECT if: wrong object, incorrect tense, missing vocabulary word, grammatical errors, or incomplete sentence
 - Minor pronunciation issues in grammar mode are more acceptable if the sentence structure is correct
+- **IMPORTANT: Be VERY lenient with accent marks on vowels (á, é, í, ó, ú):**
+  * Missing accent marks on vowels should NOT be penalized (e.g., "escribo" with or without accent - both correct)
+  * Focus on grammar structure, tense, and vocabulary usage rather than accent mark precision
+  * HOWEVER, different letters like ñ vs n ARE errors - these are distinct letters, not just accents
+  * Only mark pronunciation errors if the word itself is significantly mispronounced or wrong
 
 Error categories (if incorrect):
 - "wrong_word_actual" (a different word than the expected one)
 - "wrong_word_nonsense" (a nonsensical word or phrase)
-- "mispronunciation" (significant pronunciation issues that would confuse native speakers)
+- "mispronunciation" (significant pronunciation issues that would confuse native speakers - NOT including missing accent marks on vowels)
 - "wrong_tense" (incorrect grammar tense)
 - "incomplete_sentence" (incomplete sentence or missing essential elements)
 - "missing_vocabulary" (missing essential vocabulary words)
@@ -122,21 +144,47 @@ Error categories (if incorrect):
 - "wrong_object" (the object in the image is not the expected object)
 - null (student's response is CORRECT)
 
-Generate appropriate feedback based on the error category, practice mode, and attempt number:
+NOTE: Missing accent marks on vowels (á→a, é→e, í→i, ó→o, ú→u) should NOT be categorized as "mispronunciation" or any error.
+However, using different letters (like n instead of ñ) IS an error because these are distinct letters, not accents.
+
+Generate appropriate feedback based on the error category, practice mode, attempt number, and lesson position:
+
+**CRITICAL: Check attempt number FIRST before generating feedback!**
+**CRITICAL: Check is_last_object to provide appropriate closure or transition!**
+
+**LANGUAGE USE: Always use a natural mix of {source_language} and {target_language} in your feedback.**
+- Blend both languages throughout your feedback as appropriate
+- Don't rigidly separate languages by purpose - mix them naturally
+- Include key vocabulary and phrases in {target_language}
+- Weave in {source_language} for clarity when needed
+- For example: "Not quite! You said 'pluma', but I'm looking for the word that starts with 'bol-'. Try again!"
+
+**For CORRECT answers:**
+- Provide positive, encouraging feedback
+- If is_last_object is TRUE: Add session closure like "¡Excelente! That's the end of our lesson. Great work today!"
+- If is_last_object is FALSE: Keep it brief like "¡Perfecto!" or "Great job!" without mentioning what's next
 
 **For NON-FINAL attempts (attempt_number < max_attempts):**
-- For "wrong_word_actual": Provide translation of what was said and encourage to try again
-- For "wrong_word_nonsense": Give a helpful hint (starting letter, similar word example, etc.) and encourage to try again
-- For "mispronunciation": Give slight correction and encourage to try again
-- For other error categories: Give appropriate feedback and encourage to try again
+- ONLY use this section if there are remaining attempts
+- For "wrong_word_actual": Provide translation of what was said and encourage to try again (use both languages)
+- For "wrong_word_nonsense": Give a helpful hint (starting letter, similar word example, etc.) and encourage to try again (use both languages)
+- For "mispronunciation": Give slight correction and encourage to try again (use both languages to show correct pronunciation)
+- For other error categories: Give appropriate feedback and encourage to try again (use both languages)
 - Use phrases like "Try again!", "Let's try once more", "Give it another go"
+- IMPORTANT: DO NOT reveal the full answer. Focus on guiding the student to the correct answer.
 
 **For FINAL attempt (attempt_number >= max_attempts):**
-- DO NOT ask them to try again (no more attempts available)
-- Provide constructive feedback and the correct answer
-- Use phrases like "The correct word is...", "Remember, it's pronounced...", "For next time, remember..."
-- For grammar mode: show the correct sentence structure and give an example sentence using the correct word and grammar tense
-- NEVER use phrases like "try again", "let's practice once more"
+- THIS IS THE LAST ATTEMPT - NO MORE ATTEMPTS ARE AVAILABLE
+- ABSOLUTELY DO NOT ask them to try again or suggest practicing once more
+- ABSOLUTELY DO NOT use phrases like "try again", "try once more", "let's practice", "give it another go"
+- Provide constructive feedback and the correct answer (blend both {source_language} and {target_language} naturally)
+- Use phrases like "The correct word is...", "The answer is...", "For next time, remember..."
+- Include the correct word/phrase and explanations, mixing both languages naturally
+- For grammar mode: show the correct sentence structure, mixing both languages as appropriate
+- **Check is_last_object to determine closure:**
+  * If is_last_object is TRUE: Acknowledge this is the end of the session with phrases like "Great work today!", "That completes our lesson!", "¡Buen trabajo hoy!"
+  * If is_last_object is FALSE: Indicate moving forward with phrases like "Let's move on to the next word" or "Vamos al siguiente objeto"
+  * NEVER say "let's move on" or "next word" if is_last_object is TRUE
 
 CRITICAL: If you set an error_category, you MUST set correct=false."""),
     ("user", """Image: [provided as image_url]
@@ -146,6 +194,7 @@ Grammar tense: {grammar_tense}
 Student said: "{transcription}"
 Source language: {source_language}
 Attempt number: {attempt_number} of {max_attempts}
+Is this the last object in the lesson? {is_last_object}
 
 Evaluate based on practice mode:
 1. Does the image show the expected object ({object_source_name})?
@@ -153,6 +202,9 @@ Evaluate based on practice mode:
    GRAMMAR mode: Did they form a correct sentence with proper tense and vocabulary ({object_target_name} in {grammar_tense} tense)?
 3. If incorrect, what type of error is it?
 4. Generate appropriate feedback based on practice mode, error type, and attempt number.
+5. If the answer is incorrect and not the final attempt, DO NOT reveal the full answer. Focus on the student's error and guide the student to the correct answer.
+6. IMPORTANT: Use a natural mix of {source_language} and {target_language} in your feedback_message. Blend both languages throughout as appropriate - don't rigidly separate them by purpose.
+7. CRITICAL: Be lenient with accent marks on vowels! If the transcription says "boligrafo" and the expected word is "bolígrafo", mark it as CORRECT. Missing vowel accents (á, é, í, ó, ú) are NOT pronunciation errors. HOWEVER, different letters like n vs ñ ARE errors.
 
 Respond with a JSON object:
 {{
@@ -203,7 +255,13 @@ Guidelines for hints based on hint number:
     * Provide more specific sentence structure guidance
     * Remind them of the tense: "Remember to use {grammar_tense} tense"
 
-Use the target language ({target_language}) and student's source language ({source_language}) appropriately to facilitate learningand encourage them without giving the full answer."""),
+IMPORTANT: Use a natural mix of {target_language} and {source_language} in your hints.
+- Blend both languages throughout as appropriate
+- Don't restrict one language only to certain purposes
+- Naturally incorporate words, sounds, and phrases from {target_language}
+- Use {source_language} when it helps with clarity
+- Example: "It starts with 'bol-' and sounds like 'boh-LEE-grah-foh'. Think of writing!"
+- Example: "Piensa en algo que usas para escribir. It starts with 'b'!"""),
     ("user", """Please generate hint number {hint_number} for:
 
 Practice mode: {grammar_mode}
@@ -212,7 +270,8 @@ Grammar tense: {grammar_tense}
 Target language: {target_language}
 Source language: {source_language}
 
-Generate an encouraging, helpful hint that guides them toward the answer without revealing it completely.""")
+Generate an encouraging, helpful hint that guides them toward the answer without revealing it completely.
+Use a natural mix of {source_language} and {target_language} throughout your hint - blend them as appropriate rather than rigidly separating them.""")
 ])
 
 # prompt for giving answer with memory aid
@@ -232,6 +291,12 @@ For GRAMMAR mode:
   - Give tips for forming sentences in {grammar_tense} tense
   - Ask them to repeat the sentence
 
+IMPORTANT: Use a natural mix of {source_language} and {target_language} throughout.
+- Blend both languages naturally - don't segregate them by purpose
+- Include the answer/sentence in {target_language} but weave in both languages for explanations
+- Example: "La palabra es 'bolígrafo'. Think of it like 'bold graph' - you write boldly with a pen! Now repeat after me: bolígrafo"
+- Example: "The correct answer is 'Escribo con un bolígrafo' (I write with a pen). Notice how we use the present tense 'escribo'. Now you try!"
+
 Make it encouraging and explain that it's okay not to know, learning takes practice."""),
     ("user", """Provide the answer for:
 
@@ -241,7 +306,9 @@ Grammar tense: {grammar_tense}
 Target language: {target_language}
 Source language: {source_language}
 
-Please provide the answer with an encouraging message and a helpful memory aid or grammar tip, then ask them to repeat.""")
+Please provide the answer with an encouraging message and a helpful memory aid or grammar tip, then ask them to repeat.
+Use a natural mix of {target_language} and {source_language} throughout - blend them as appropriate.
+Ensure that the last part of the message asks the student to repeat the answer.""")
 ])
 
 # prompt for intent detection with context
