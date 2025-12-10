@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { DotsScaleIcon } from '@/components/ui/icons/svg-spinners-3-dots-scale';
 import OverlayCard from '@/components/OverlayCard';
 
@@ -13,15 +12,23 @@ interface SceneObject {
   target_name: string;
 }
 
+interface TeacherScene {
+  id: string;
+  name: string;
+  description: string;
+  teacher_words: string[];
+}
+
 interface SceneCaptureViewProps {
   settings: {
     sourceLanguage: string;
     targetLanguage: string;
     location: string;
   };
+  email?: string;
 }
 
-export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
+export default function SceneCaptureView({ settings, email }: SceneCaptureViewProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -36,9 +43,12 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
   const [isExtracting, setIsExtracting] = useState(false);
   const [fullscreen, setFullscreen] = useState(false);
 
+  // Scene selection state
+  const [teacherScenes, setTeacherScenes] = useState<TeacherScene[]>([]);
+  const [selectedSceneId, setSelectedSceneId] = useState<string>('');
+  const [loadingScenes, setLoadingScenes] = useState(true);
+
   // Scene capture state
-  const [sceneName, setSceneName] = useState('');
-  const [existingScenes, setExistingScenes] = useState<string[]>([]);
   const [capturedObjects, setCapturedObjects] = useState<SceneObject[]>([]);
   const [sessionComplete, setSessionComplete] = useState(false);
   const [savedCount, setSavedCount] = useState(0);
@@ -49,35 +59,50 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
   );
   const wsUrl = useMemo(() => backendUrl.replace(/^http/, 'ws'), [backendUrl]);
 
-  // Fetch existing scenes on mount
+  // Get selected scene details
+  const selectedScene = useMemo(
+    () => teacherScenes.find(s => s.id === selectedSceneId),
+    [teacherScenes, selectedSceneId]
+  );
+
+  // Fetch teacher scenes on mount
   useEffect(() => {
     const fetchScenes = async () => {
+      if (!email) {
+        setLoadingScenes(false);
+        return;
+      }
       try {
-        const res = await fetch(`${backendUrl}/v1/scenes`);
+        setLoadingScenes(true);
+        const res = await fetch(`${backendUrl}/v1/student/scenes?email=${encodeURIComponent(email)}`);
         if (res.ok) {
           const data = await res.json();
-          setExistingScenes(data.scenes || []);
+          setTeacherScenes(data || []);
         }
       } catch (e) {
         console.error('Failed to fetch scenes:', e);
+      } finally {
+        setLoadingScenes(false);
       }
     };
     fetchScenes();
-  }, [backendUrl]);
+  }, [backendUrl, email]);
 
   const openWs = useCallback(() => {
     try {
       if (wsRef.current && (wsRef.current.readyState === WebSocket.OPEN || wsRef.current.readyState === WebSocket.CONNECTING)) return;
       const ws = new WebSocket(`${wsUrl}/v1/ws/scene-capture`);
       ws.onopen = () => {
-        // Send initial config
+        // Send initial config with scene_id and email
         ws.send(JSON.stringify({
           type: 'config',
           payload: {
-            scene_name: sceneName || 'default',
+            scene_id: selectedSceneId,
+            scene_name: selectedScene?.name || 'default',
             target_language: settings.targetLanguage,
             source_language: settings.sourceLanguage,
             location: settings.location,
+            email: email,
           }
         }));
       };
@@ -112,7 +137,7 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
       };
       wsRef.current = ws;
     } catch {}
-  }, [wsUrl, sceneName, settings]);
+  }, [wsUrl, selectedSceneId, selectedScene, settings, email]);
 
   const closeWs = useCallback(() => {
     try {
@@ -125,6 +150,11 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
 
   // Start the camera with constraints
   const startCamera = useCallback(async () => {
+    if (!selectedSceneId) {
+      setError('Please select a scene first');
+      return;
+    }
+
     setError(null);
     setSessionComplete(false);
     setSavedCount(0);
@@ -214,7 +244,7 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
         streamRef.current = null;
       }
     }
-  }, [facing, openWs]);
+  }, [facing, openWs, selectedSceneId]);
 
   const stopCamera = useCallback(() => {
     if (capturePreviewTimerRef.current) {
@@ -311,24 +341,18 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
           type: 'control',
           payload: {
             action: 'end_session',
-            scene_name: sceneName || 'default',
           }
         }));
       }
     } catch {}
-  }, [sceneName]);
+  }, []);
 
   const startNewSession = useCallback(() => {
     setSessionComplete(false);
     setSavedCount(0);
     setCapturedObjects([]);
-    if (!running) {
-      startCamera();
-    } else {
-      // Just reset state and reopen WS
-      openWs();
-    }
-  }, [running, startCamera, openWs]);
+    setSelectedSceneId('');
+  }, []);
 
   useEffect(() => {
     return () => {
@@ -377,7 +401,7 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
           <div className="text-4xl">✓</div>
           <h2 className="text-xl font-semibold">Session Complete!</h2>
           <p className="text-muted-foreground text-center">
-            Saved {savedCount} vocabulary word{savedCount !== 1 ? 's' : ''} to scene "{sceneName || 'default'}"
+            Saved {savedCount} vocabulary word{savedCount !== 1 ? 's' : ''} to scene "{selectedScene?.name || 'Unknown'}"
           </p>
           <Button onClick={startNewSession} variant="default">
             Start New Session
@@ -389,44 +413,67 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
 
   return (
     <div className="rounded-2xl border p-4">
-      <div className="flex items-center justify-between mb-3">
+      <div className="flex items-center justify-between">
         <h2 className="font-medium">Scene Capture</h2>
         {!running ? (
-          <Button onClick={startCamera} variant="outline" className="text-sm">
+          <Button 
+            onClick={startCamera} 
+            variant="outline" 
+            className="text-sm"
+            disabled={!selectedSceneId}
+          >
             Start
           </Button>
         ) : (
           <div className="flex items-center gap-2">
-            <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">
-              Fullscreen
-            </Button>
-            <Button onClick={stopCamera} variant="outline" className="text-sm">
-              Stop
-            </Button>
+            <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
+            <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
           </div>
         )}
       </div>
 
-      {/* Scene name input */}
-      <div className="mb-3 flex gap-2 items-center">
-        <Input
-          type="text"
-          placeholder="Scene name (e.g., Kitchen, Living Room)"
-          value={sceneName}
-          onChange={(e) => setSceneName(e.target.value)}
-          className="flex-1"
-          list="existing-scenes"
-        />
-        <datalist id="existing-scenes">
-          {existingScenes.map((scene) => (
-            <option key={scene} value={scene} />
-          ))}
-        </datalist>
-      </div>
+      {/* Scene selection - shown before camera starts */}
+      {!running && (
+        <div className="mt-4 space-y-3">
+          <label className="text-sm font-medium">Select a Scene</label>
+          {loadingScenes ? (
+            <div className="text-sm text-muted-foreground">Loading scenes...</div>
+          ) : teacherScenes.length === 0 ? (
+            <div className="text-sm text-muted-foreground">
+              No scenes available. Ask your teacher to create scenes for your class.
+            </div>
+          ) : (
+            <select
+              value={selectedSceneId}
+              onChange={(e) => setSelectedSceneId(e.target.value)}
+              className="w-full p-2 rounded-lg border bg-background text-sm"
+            >
+              <option value="">-- Select a scene --</option>
+              {teacherScenes.map((scene) => (
+                <option key={scene.id} value={scene.id}>
+                  {scene.name}
+                </option>
+              ))}
+            </select>
+          )}
+          {selectedScene && (
+            <div className="text-xs text-muted-foreground">
+              {selectedScene.description}
+              {selectedScene.teacher_words.length > 0 && (
+                <span className="block mt-1">
+                  Teacher vocab: {selectedScene.teacher_words.length} word{selectedScene.teacher_words.length !== 1 ? 's' : ''}
+                </span>
+              )}
+            </div>
+          )}
+        </div>
+      )}
 
-      {error && <div className="text-sm text-red-600 mb-2">{error}</div>}
+      {error && (
+        <div className="text-sm text-red-600 mt-2">{error}</div>
+      )}
 
-      <div className={`${fullscreen ? 'fixed inset-0 z-50 bg-black overflow-hidden m-0' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-20rem)]'}`}>
+      <div className={`${fullscreen ? 'fixed inset-0 z-50 bg-black overflow-hidden m-0' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)] mt-4'}`}>
         {fullscreen && (
           <div className="absolute top-3 right-3 z-50">
             <Button
@@ -451,25 +498,42 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
         {!running && (
           <div
             className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-20"
-            onClick={startCamera}
+            onClick={() => selectedSceneId && startCamera()}
           >
             <div className="text-white text-lg font-medium mb-2">Camera Not Active</div>
-            <Button onClick={(e) => { e.stopPropagation(); startCamera(); }} variant="default" className="text-sm">
-              Start Camera
-            </Button>
+            {selectedSceneId ? (
+              <>
+                <Button onClick={(e) => { e.stopPropagation(); startCamera(); }} variant="default" className="text-sm">
+                  Start Camera
+                </Button>
+                <div className="text-white/70 text-xs mt-3 text-center px-4">
+                  Click anywhere to start capturing for "{selectedScene?.name}"
+                </div>
+              </>
+            ) : (
+              <div className="text-white/70 text-xs mt-3 text-center px-4">
+                Select a scene above to start capturing
+              </div>
+            )}
           </div>
         )}
 
-        {/* Scene title and captured vocab overlay - upper left */}
-        <div className="absolute left-3 top-3 z-10 w-[70%] max-w-xs pointer-events-auto">
-          <OverlayCard className="p-3 max-h-[50vh] overflow-y-auto">
-            <div className="text-sm font-semibold text-white mb-2">
-              {sceneName || 'Untitled Scene'}
-            </div>
-            <div className="text-xs text-white/70 mb-2">
-              {capturedObjects.length} word{capturedObjects.length !== 1 ? 's' : ''} captured
-            </div>
-            {capturedObjects.length > 0 && (
+        {/* Scene info overlay - top left */}
+        {running && selectedScene && (
+          <div className="absolute top-3 left-3 z-10 pointer-events-auto">
+            <OverlayCard className="p-2">
+              <div className="text-xs font-medium text-white">{selectedScene.name}</div>
+            </OverlayCard>
+          </div>
+        )}
+
+        {/* Captured vocab overlay - below scene info */}
+        {running && capturedObjects.length > 0 && (
+          <div className="absolute left-3 top-14 z-10 w-[70%] max-w-xs pointer-events-auto">
+            <OverlayCard className="p-3 max-h-[40vh] overflow-y-auto">
+              <div className="text-xs text-white/70 mb-2">
+                {capturedObjects.length} word{capturedObjects.length !== 1 ? 's' : ''} captured
+              </div>
               <ul className="space-y-1">
                 {capturedObjects.map((obj, idx) => (
                   <li key={idx} className="text-xs text-white flex justify-between gap-2">
@@ -478,9 +542,9 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
                   </li>
                 ))}
               </ul>
-            )}
-          </OverlayCard>
-        </div>
+            </OverlayCard>
+          </div>
+        )}
 
         {/* Controls overlay */}
         <div className="absolute inset-x-0 bottom-0 p-3 flex flex-wrap items-center justify-center gap-2">
@@ -522,7 +586,7 @@ export default function SceneCaptureView({ settings }: SceneCaptureViewProps) {
               if (!capturePreviewUrl) return;
               window.open(capturePreviewUrl, '_blank');
             }}
-            className="absolute bottom-16 left-4 flex h-16 w-16 items-center justify-center overflow-hidden rounded-lg border-2 border-white/80 bg-black/60 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/60"
+            className="absolute bottom-4 left-4 flex h-20 w-20 items-center justify-center overflow-hidden rounded-lg border-2 border-white/80 bg-black/60 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/60"
             title="View last capture"
           >
             <img

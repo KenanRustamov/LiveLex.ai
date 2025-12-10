@@ -79,6 +79,22 @@ export default function MobileShell() {
     );
   }
 
+  // Scene Capture Overlay Mode
+  if (tab === 'scene-capture') {
+    return (
+      <div className="relative h-dvh w-full bg-black">
+        <SceneCaptureView settings={settings} email={session?.user?.email || undefined} />
+        <Button
+          variant="outline"
+          className="absolute top-4 left-4 z-50 rounded-full bg-white/20 hover:bg-white/40 border-none text-white backdrop-blur-md"
+          onClick={() => setTab('home')}
+        >
+          Exit Camera
+        </Button>
+      </div>
+    );
+  }
+
   const renderContent = () => {
     switch (tab) {
       case 'home':
@@ -91,8 +107,6 @@ export default function MobileShell() {
           backendUrl={process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000'}
           onNavigate={(view) => setTab(view as any)}
         />;
-      case 'scene-capture':
-        return <SceneCaptureView key={JSON.stringify(settings)} settings={settings} />;
       case 'profile':
         return <StudentProfile
           classCode={classCode}

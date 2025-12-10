@@ -30,6 +30,7 @@ from app.db.repository import (
     get_user_object_stats_db,
     add_discovered_words,
 )
+from app.db.models import SceneDoc, UserDataDoc
 import uuid
 from datetime import datetime, timezone
 
@@ -1496,11 +1497,16 @@ async def ws_scene_capture(ws: WebSocket):
     
     # State for scene capture session
     captured_objects: list[dict] = []  # List of {source_name, target_name}
-    scene_name: str = "default"
+    scene_id: str | None = None  # Database ID of the selected SceneDoc
+    scene_name: str = "default"  # For display
     target_language: str = "Spanish"
     source_language: str = "English"
     location: str = "US"
-    username: str | None = None # Track username for persistence
+    email: str | None = None  # User's email for persistence
+    
+    # Sets for uniqueness checking (loaded on config)
+    teacher_words_set: set[str] = set()  # Teacher's target vocab (lowercase target names)
+    user_discovered_set: set[str] = set()  # User's previously discovered words (lowercase target names)
     
     async def send_status(message: str, code: str = "ok") -> None:
         await ws.send_json({"type": "status", "payload": {"code": code, "message": message}})
@@ -1521,11 +1527,37 @@ async def ws_scene_capture(ws: WebSocket):
             
             if msg_type == "config":
                 # Configure scene capture settings
+                scene_id = payload.get("scene_id")
                 scene_name = payload.get("scene_name", scene_name)
                 target_language = payload.get("target_language", target_language)
                 source_language = payload.get("source_language", source_language)
                 location = payload.get("location", location)
-                username = payload.get("username") or payload.get("email") # Support email as username
+                email = payload.get("email")
+                
+                # Load teacher words and user's existing discoveries for uniqueness checking
+                teacher_words_set = set()
+                user_discovered_set = set()
+                
+                if scene_id:
+                    # Load teacher's words from SceneDoc
+                    try:
+                        scene_doc = await SceneDoc.get(scene_id)
+                        if scene_doc:
+                            scene_name = scene_doc.name  # Use scene name from DB
+                            teacher_words_set = {w.lower() for w in (scene_doc.teacher_words or [])}
+                    except Exception as e:
+                        logging.warning(f"Failed to load scene {scene_id}: {e}")
+                    
+                    # Load user's existing discoveries for this scene
+                    if email:
+                        try:
+                            user_doc = await UserDataDoc.find_one(UserDataDoc.email == email)
+                            if user_doc and user_doc.discovered_scene_words:
+                                existing_words = user_doc.discovered_scene_words.get(scene_id, [])
+                                user_discovered_set = {w.lower() for w in existing_words}
+                        except Exception as e:
+                            logging.warning(f"Failed to load user discoveries: {e}")
+                
                 await send_status(f"Scene configured: {scene_name}")
             
             elif msg_type == "image":
@@ -1545,18 +1577,29 @@ async def ws_scene_capture(ws: WebSocket):
                     
                     # Track which objects are new vs duplicates
                     new_objects = []
-                    existing_set = {
-                        (obj.get("source_name", "").lower(), obj.get("target_name", "").lower())
+                    # Build set of already captured objects in this session
+                    session_captured_set = {
+                        obj.get("target_name", "").lower()
                         for obj in captured_objects
                     }
                     
                     for obj in vocab_result.objects:
+                        target_lower = obj.target_name.lower()
+                        
+                        # Skip if already in teacher's words
+                        if target_lower in teacher_words_set:
+                            continue
+                        # Skip if user already discovered this word
+                        if target_lower in user_discovered_set:
+                            continue
+                        # Skip if already captured in this session
+                        if target_lower in session_captured_set:
+                            continue
+                        
                         obj_dict = {"source_name": obj.source_name, "target_name": obj.target_name}
-                        key = (obj.source_name.lower(), obj.target_name.lower())
-                        if key not in existing_set:
-                            captured_objects.append(obj_dict)
-                            new_objects.append(obj_dict)
-                            existing_set.add(key)
+                        captured_objects.append(obj_dict)
+                        new_objects.append(obj_dict)
+                        session_captured_set.add(target_lower)
                     
                     # Send extracted vocab to client
                     await ws.send_json({
@@ -1577,36 +1620,44 @@ async def ws_scene_capture(ws: WebSocket):
                 action = payload.get("action")
                 
                 if action == "end_session":
-                    # Save captured vocab to scene
-                    scene_name = payload.get("scene_name", scene_name)
-                    
                     if captured_objects:
-                        scene_data = save_scene_vocab(scene_name, captured_objects)
-                        await ws.send_json({
-                            "type": "session_complete",
-                            "payload": {
-                                "scene": scene_name,
-                                "objects_saved": len(captured_objects),
-                                "total_in_scene": len(scene_data.get("objects", [])),
-                            }
-                        })
+                        # Save to database using scene_id
+                        if email and scene_id:
+                            try:
+                                await add_discovered_words(email, scene_id, captured_objects)
+                                await ws.send_json({
+                                    "type": "session_complete",
+                                    "payload": {
+                                        "scene_id": scene_id,
+                                        "scene_name": scene_name,
+                                        "objects_saved": len(captured_objects),
+                                    }
+                                })
+                                await send_status("Progress saved to profile")
+                            except Exception as e:
+                                logging.error(f"Failed to save discovery progress: {e}")
+                                await send_status(f"Failed to save: {str(e)}", code="error")
+                        else:
+                            # Fallback local json storage (shouldn't happen but if something like no database connection)
+                            scene_data = save_scene_vocab(scene_name, captured_objects)
+                            await ws.send_json({
+                                "type": "session_complete",
+                                "payload": {
+                                    "scene_name": scene_name,
+                                    "objects_saved": len(captured_objects),
+                                    "total_in_scene": len(scene_data.get("objects", [])),
+                                }
+                            })
                     else:
                         await ws.send_json({
                             "type": "session_complete",
                             "payload": {
-                                "scene": scene_name,
+                                "scene_id": scene_id,
+                                "scene_name": scene_name,
                                 "objects_saved": 0,
                                 "message": "No objects captured in this session",
                             }
                         })
-                    
-                    # Persist discovered words to user profile if username is available
-                    if username and captured_objects:
-                        try:
-                            await add_discovered_words(username, scene_name, captured_objects)
-                            await send_status("Progress saved to profile")
-                        except Exception as e:
-                            logging.error(f"Failed to auto-save discovery progress: {e}")
                     
                     # Reset for potential new session
                     captured_objects = []
@@ -1624,15 +1675,12 @@ async def ws_scene_capture(ws: WebSocket):
                 await send_status(f"Unknown message type: {msg_type}", code="error")
     
     except WebSocketDisconnect:
-        # Client disconnected - optionally auto-save if objects were captured
-        if captured_objects:
-            save_scene_vocab(scene_name, captured_objects)
-            # Try to auto-save to user profile on disconnect too
-            if username:
-                try:
-                    await add_discovered_words(username, scene_name, captured_objects)
-                except Exception:
-                    pass
+        # Client disconnected - auto-save if objects were captured
+        if captured_objects and email and scene_id:
+            try:
+                await add_discovered_words(email, scene_id, captured_objects)
+            except Exception:
+                pass
     finally:
         try:
             if getattr(ws, "client_state", None) not in (WebSocketState.DISCONNECTED, None):

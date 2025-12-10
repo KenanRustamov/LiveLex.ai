@@ -30,7 +30,7 @@ export function useTeacherData() {
                 fetch(`${backendUrl}/v1/auth/me?email=${session.user.email}`),
                 fetch(`${backendUrl}/v1/auth/teacher/students?email=${session.user.email}`),
                 fetch(`${backendUrl}/v1/assignments?email=${session.user.email}`),
-                fetch(`${backendUrl}/v1/scenes?email=${session.user.email}`),
+                fetch(`${backendUrl}/v1/teacher/scenes?email=${session.user.email}`),
                 fetch(`${backendUrl}/v1/auth/teacher/analytics?email=${session.user.email}`)
             ]);
 

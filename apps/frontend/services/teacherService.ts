@@ -64,7 +64,7 @@ export const teacherService = {
 
     // Scenes
     async createScene(payload: CreateScenePayload): Promise<Scene> {
-        const res = await fetch(`${BACKEND_URL}/v1/scenes`, {
+        const res = await fetch(`${BACKEND_URL}/v1/teacher/scenes`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
@@ -73,7 +73,7 @@ export const teacherService = {
     },
 
     async updateScene(id: string, payload: CreateScenePayload): Promise<void> {
-        const res = await fetch(`${BACKEND_URL}/v1/scenes/${id}`, {
+        const res = await fetch(`${BACKEND_URL}/v1/teacher/scenes/${id}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
@@ -82,7 +82,7 @@ export const teacherService = {
     },
 
     async deleteScene(id: string, email: string): Promise<void> {
-        const res = await fetch(`${BACKEND_URL}/v1/scenes/${id}?email=${email}`, {
+        const res = await fetch(`${BACKEND_URL}/v1/teacher/scenes/${id}?email=${email}`, {
             method: 'DELETE',
         });
         return this.handleResponse(res, 'Failed to delete scene');

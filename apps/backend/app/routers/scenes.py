@@ -12,7 +12,7 @@ class CreateSceneRequest(BaseModel):
     description: str
     teacher_words: Optional[List[str]] = []
 
-@router.post("/scenes", response_model=dict)
+@router.post("/teacher/scenes", response_model=dict)
 async def create_scene(req: CreateSceneRequest):
     teacher = await get_current_teacher(req.email)
 
@@ -33,7 +33,7 @@ async def create_scene(req: CreateSceneRequest):
         "image_url": new_scene.image_url
     }
 
-@router.get("/scenes", response_model=List[dict])
+@router.get("/teacher/scenes", response_model=List[dict])
 async def get_scenes(email: str):
     teacher = await get_current_teacher(email)
     scenes = await SceneDoc.find(SceneDoc.teacher_id == str(teacher.id)).to_list()
@@ -50,7 +50,7 @@ async def get_scenes(email: str):
         for s in scenes
     ]
 
-@router.delete("/scenes/{scene_id}")
+@router.delete("/teacher/scenes/{scene_id}")
 async def delete_scene(scene_id: str, email: str):
     """Delete a scene."""
     teacher = await get_current_teacher(email)
@@ -65,7 +65,7 @@ async def delete_scene(scene_id: str, email: str):
     await scene.delete()
     return {"status": "success"}
 
-@router.put("/scenes/{scene_id}")
+@router.put("/teacher/scenes/{scene_id}")
 async def update_scene(scene_id: str, req: CreateSceneRequest):
     """Update a scene."""
     teacher = await get_current_teacher(req.email)
@@ -83,3 +83,34 @@ async def update_scene(scene_id: str, req: CreateSceneRequest):
     
     await scene.save()
     return {"status": "success"}
+
+
+@router.get("/student/scenes", response_model=List[dict])
+async def get_student_scenes(email: str):
+    """Get scenes for a student's enrolled class (teacher-created scenes)."""
+    user = await UserDataDoc.find_one(UserDataDoc.email == email)
+    if not user:
+        return []
+    
+    # Find the teacher ID - either directly or via class code
+    teacher_id = user.teacher_id
+    if not teacher_id and user.class_code:
+        teacher = await UserDataDoc.find_one(UserDataDoc.teacher_code == user.class_code)
+        if teacher:
+            teacher_id = str(teacher.id)
+    
+    if not teacher_id:
+        return []
+    
+    # Get scenes created by the teacher
+    scenes = await SceneDoc.find(SceneDoc.teacher_id == teacher_id).to_list()
+    
+    return [
+        {
+            "id": str(s.id),
+            "name": s.name,
+            "description": s.description,
+            "teacher_words": s.teacher_words,
+        }
+        for s in scenes
+    ]
