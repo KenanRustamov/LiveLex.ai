@@ -1,11 +1,50 @@
 from fastapi import APIRouter, HTTPException, BackgroundTasks
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List
+from datetime import datetime, date, timedelta
 from app.db.models import UserDataDoc
 from app.db.repository import save_user_lesson_db
 import logging
 
 router = APIRouter(tags=["auth"])
+
+
+def calculate_streak(sessions: List[dict]) -> int:
+    """Calculate consecutive days of activity counting back from today."""
+    if not sessions:
+        return 0
+    
+    # Extract unique dates from session timestamps
+    activity_dates = set()
+    for session in sessions:
+        ts = session.get("timestamp")
+        if ts:
+            try:
+                dt = datetime.fromisoformat(ts.replace("Z", "+00:00"))
+                activity_dates.add(dt.date())
+            except (ValueError, AttributeError):
+                continue
+    
+    if not activity_dates:
+        return 0
+    
+    # Count consecutive days from today (or yesterday if no activity today)
+    today = date.today()
+    streak = 0
+    check_date = today
+    
+    # If no activity today, start from yesterday
+    if today not in activity_dates:
+        check_date = today - timedelta(days=1)
+        if check_date not in activity_dates:
+            return 0
+    
+    # Count consecutive days
+    while check_date in activity_dates:
+        streak += 1
+        check_date -= timedelta(days=1)
+    
+    return streak
 
 class UserSyncRequest(BaseModel):
     email: Optional[str] = None
@@ -100,6 +139,10 @@ async def get_current_user(email: str):
     user = await UserDataDoc.find_one(UserDataDoc.email == email)
     if not user:
         raise HTTPException(status_code=404, detail="User not found")
+    
+    # Calculate student stats
+    words_learned = len(user.objects) if user.objects else 0
+    streak_days = calculate_streak(user.sessions) if user.sessions else 0
         
     return {
         "username": user.username,
@@ -108,7 +151,9 @@ async def get_current_user(email: str):
         "role": user.role,
         "teacher_code": user.teacher_code,
         "enrolled_class_code": user.class_code,
-        "teacher_id": user.teacher_id
+        "teacher_id": user.teacher_id,
+        "words_learned": words_learned,
+        "streak_days": streak_days
     }
 
 @router.post("/auth/join-class")

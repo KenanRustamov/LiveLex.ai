@@ -4,9 +4,11 @@ import { Button } from '@/components/ui/button';
 
 interface StudentDashboardProps {
     onNavigate: (view: 'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture') => void;
+    wordsLearned: number;
+    streakDays: number;
 }
 
-export function StudentDashboard({ onNavigate }: StudentDashboardProps) {
+export function StudentDashboard({ onNavigate, wordsLearned, streakDays }: StudentDashboardProps) {
     return (
         <div className="space-y-6 animate-in fade-in-50 duration-500 pb-20">
             {/* Recent Achievements */}
@@ -18,7 +20,7 @@ export function StudentDashboard({ onNavigate }: StudentDashboardProps) {
                             <div className="h-12 w-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 mb-3">
                                 <Activity size={24} />
                             </div>
-                            <span className="text-2xl font-bold">0</span>
+                            <span className="text-2xl font-bold">{wordsLearned}</span>
                             <span className="text-xs text-muted-foreground">Words Learned</span>
                         </CardContent>
                     </Card>
@@ -27,7 +29,7 @@ export function StudentDashboard({ onNavigate }: StudentDashboardProps) {
                             <div className="h-12 w-12 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-600 mb-3">
                                 <Trophy size={24} />
                             </div>
-                            <span className="text-2xl font-bold">0</span>
+                            <span className="text-2xl font-bold">{streakDays}</span>
                             <span className="text-xs text-muted-foreground">Streak Days</span>
                         </CardContent>
                     </Card>

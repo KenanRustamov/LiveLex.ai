@@ -20,6 +20,8 @@ export function useStudentData() {
     const [enrolledTeacher, setEnrolledTeacher] = useState<string | null>(null);
     const [classCode, setClassCode] = useState<string>('');
     const [assignments, setAssignments] = useState<StudentAssignment[]>([]);
+    const [wordsLearned, setWordsLearned] = useState<number>(0);
+    const [streakDays, setStreakDays] = useState<number>(0);
     const [loading, setLoading] = useState(true);
 
     const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
@@ -33,6 +35,11 @@ export function useStudentData() {
 
             if (resProfile.ok) {
                 const data = await resProfile.json();
+                
+                // Set stats from profile response
+                setWordsLearned(data.words_learned ?? 0);
+                setStreakDays(data.streak_days ?? 0);
+                
                 if (data.enrolled_class_code || data.teacher_id) {
                     if (data.enrolled_class_code) setClassCode(data.enrolled_class_code);
                     // Fetch teacher name if needed, or just assume enrolled
@@ -64,6 +71,8 @@ export function useStudentData() {
         enrolledTeacher,
         classCode,
         assignments,
+        wordsLearned,
+        streakDays,
         loading,
         refresh: fetchData
     };

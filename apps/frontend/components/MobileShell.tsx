@@ -14,7 +14,7 @@ import { StudentProfile } from './student/StudentProfile';
 
 export default function MobileShell() {
   const { data: session } = useSession();
-  const { enrolledTeacher, classCode, assignments, refresh } = useStudentData();
+  const { enrolledTeacher, classCode, assignments, wordsLearned, streakDays, refresh } = useStudentData();
   const [tab, setTab] = useState<'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture'>('home');
 
   // User Settings
@@ -65,7 +65,7 @@ export default function MobileShell() {
       <div className="relative h-dvh w-full bg-black">
         <CameraView
           settings={settings}
-          username={session?.user?.name || 'Student'}
+          username={session?.user?.email || 'Student'}
           onClose={() => setTab('home')}
         />
         <Button
@@ -98,12 +98,12 @@ export default function MobileShell() {
   const renderContent = () => {
     switch (tab) {
       case 'home':
-        return <StudentDashboard onNavigate={(v) => setTab(v)} />;
+        return <StudentDashboard onNavigate={(v) => setTab(v)} wordsLearned={wordsLearned} streakDays={streakDays} />;
       case 'tasks':
         return <StudentAssignments assignments={assignments} />;
       case 'analytics':
         return <AnalyticsView
-          username={session?.user?.name || session?.user?.email || 'User'}
+          username={session?.user?.email || 'User'}
           backendUrl={process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000'}
           onNavigate={(view) => setTab(view as any)}
         />;
@@ -116,7 +116,7 @@ export default function MobileShell() {
           onSettingsChange={setSettings}
         />;
       default:
-        return <StudentDashboard onNavigate={(v) => setTab(v)} />;
+        return <StudentDashboard onNavigate={(v) => setTab(v)} wordsLearned={wordsLearned} streakDays={streakDays} />;
     }
   };
 
