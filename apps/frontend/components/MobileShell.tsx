@@ -15,7 +15,7 @@ import AssignmentLessonView from './AssignmentLessonView';
 
 export default function MobileShell() {
   const { data: session } = useSession();
-  const { enrolledTeacher, classCode, assignments, wordsLearned, streakDays, refresh } = useStudentData();
+  const { enrolledTeacher, classCode, assignments, wordsLearned, streakDays, capturedScenes, refresh } = useStudentData();
   const [tab, setTab] = useState<'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture' | 'assignment'>('home');
   const [activeAssignment, setActiveAssignment] = useState<StudentAssignment | null>(null);
 
@@ -149,7 +149,7 @@ export default function MobileShell() {
   const renderContent = () => {
     switch (tab) {
       case 'home':
-        return <StudentDashboard onNavigate={(v) => setTab(v)} wordsLearned={wordsLearned} streakDays={streakDays} />;
+        return <StudentDashboard onNavigate={(v) => setTab(v)} wordsLearned={wordsLearned} streakDays={streakDays} capturedScenes={capturedScenes} />;
       case 'tasks':
         return <StudentAssignments assignments={assignments} onStartAssignment={handleStartAssignment} />;
       case 'analytics':

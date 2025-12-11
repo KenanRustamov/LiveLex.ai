@@ -34,9 +34,10 @@ class UserDataDoc(Document):
     class_code: Optional[str] = None  # For students: the code they joined
     teacher_code: Optional[str] = None # For teachers: the code they own
     
-    # Scene Progress: { "scene_id": ["apple", "spoon"] }
-    # Words discovered by the student in a specific scene (unique to them)
-    discovered_scene_words: Dict[str, List[str]] = {}
+    # Scene Progress: { "scene_id": [{"source_name": "apple", "target_name": "manzana"}, ...] }
+    # Vocab items discovered by the student in a specific scene
+    # Using List[Any] to handle legacy string format and new dict format
+    discovered_scene_words: Dict[str, List[Any]] = {}
 
     sessions: list[dict[str, Any]] = []  # List of session summaries
     objects: dict[str, Any] = {}

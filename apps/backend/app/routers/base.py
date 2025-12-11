@@ -1362,10 +1362,7 @@ async def ws_stream(ws: WebSocket):
 
             elif msg_type == "start_assignment":
                 # Start an assignment-based lesson (plan from vocab, not from image)
-                vocab = payload.get("vocab")
-                if not vocab or not isinstance(vocab, list):
-                    await send_status("Missing or invalid vocab in start_assignment", code="error")
-                    continue
+                vocab = payload.get("vocab") or []
                 
                 # If a lesson is already in progress, require reset first
                 if state.lesson_saved:
@@ -1376,6 +1373,8 @@ async def ws_stream(ws: WebSocket):
                 source_language = payload.get("source_language", "English")
                 location = payload.get("location", "US")
                 assignment_id = payload.get("assignment_id")
+                scene_id = payload.get("scene_id")
+                include_discovered_count = payload.get("include_discovered_count", 0) or 0
                 
                 # Grammar settings from assignment
                 include_grammar = payload.get("include_grammar", False)
@@ -1391,9 +1390,55 @@ async def ws_stream(ws: WebSocket):
                 state.location = location
                 state.actions = ["Pick up"]  # Default action for assignments
                 
+                # Handle student-discovered words if required
+                final_vocab = list(vocab)  # Start with assignment vocab
+                
+                if include_discovered_count > 0 and scene_id and state.username:
+                    try:
+                        # Get student's discovered words for this scene
+                        from app.db.models import UserDataDoc
+                        import random
+                        
+                        user_doc = await UserDataDoc.find_one(UserDataDoc.email == state.username)
+                        if not user_doc:
+                            await send_status("User not found. Cannot fetch discovered words.", code="error")
+                            continue
+                        
+                        discovered_words = user_doc.discovered_scene_words.get(scene_id, []) if user_doc.discovered_scene_words else []
+                        
+                        if len(discovered_words) < include_discovered_count:
+                            await send_status(
+                                f"Not enough discovered words. Need {include_discovered_count}, but you have {len(discovered_words)} for this scene.",
+                                code="error"
+                            )
+                            continue
+                        
+                        # Randomly select discovered vocab items
+                        selected_vocab_items = random.sample(discovered_words, include_discovered_count)
+                        
+                        # Add selected discovered vocab to final vocab
+                        for item in selected_vocab_items:
+                            if isinstance(item, dict) and item.get("source_name") and item.get("target_name"):
+                                final_vocab.append(item)
+                            elif isinstance(item, str):
+                                # Handling old format (just target), not actually necessary
+                                final_vocab.append({
+                                    "source_name": item,
+                                    "target_name": item
+                                })
+                        
+                    except Exception as e:
+                        logging.error(f"Error fetching discovered words: {e}")
+                        await send_status(f"Error loading discovered words: {str(e)}", code="error")
+                        continue
+                
+                if not final_vocab:
+                    await send_status("No vocabulary items for this assignment", code="error")
+                    continue
+                
                 try:
                     plan = generate_plan_from_vocab(
-                        vocab_items=vocab,
+                        vocab_items=final_vocab,
                         target_language=target_language,
                         source_language=source_language,
                         default_action="Pick up"

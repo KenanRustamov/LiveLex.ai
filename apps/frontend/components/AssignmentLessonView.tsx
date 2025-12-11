@@ -183,6 +183,8 @@ export default function AssignmentLessonView({ assignment, settings, username, o
         location: settings.location,
         include_grammar: grammarMode,
         grammar_tense: grammarTense,
+        scene_id: assignment.scene_id,
+        include_discovered_count: assignment.include_discovered_count ?? 0,
       }
     }));
   }, [assignment, settings, grammarMode, grammarTense]);

@@ -79,25 +79,44 @@ async def get_assignments(email: str):
 
     assignments = await AssignmentDoc.find(AssignmentDoc.teacher_id == target_teacher_id).sort("-created_at").to_list()
     
+    # Get student's discovered words for the scene
+    student_discovered_words = {}
+    if user.role == "student" and user.discovered_scene_words:
+        student_discovered_words = user.discovered_scene_words
+    
     # Return with additional info if needed
     result = []
     for a in assignments:
+        include_discovered_count = getattr(a, 'include_discovered_count', 0) or 0
+        scene_id = a.scene_id
+        
+        student_discovered_count = 0
+        if scene_id and user.role == "student":
+            student_discovered_count = len(student_discovered_words.get(scene_id, []))
+        
+        # Check for conditions to start the assignment
+        can_start = True
+        if include_discovered_count > 0:
+            can_start = student_discovered_count >= include_discovered_count
+        
         assignment_data = {
             "id": str(a.id),
             "title": a.title,
             "vocab": getattr(a, 'vocab', []),
             "created_at": a.created_at,
-            "scene_id": a.scene_id,
+            "scene_id": scene_id,
             "scene_name": None,
-            "include_discovered_count": a.include_discovered_count,
+            "include_discovered_count": include_discovered_count,
+            "student_discovered_count": student_discovered_count,
+            "can_start": can_start,
             "include_grammar": a.include_grammar or False,
             "grammar_tense": a.grammar_tense
         }
         
         # Fetch scene name if scene_id exists
-        if a.scene_id:
+        if scene_id:
             from app.db.models import SceneDoc
-            scene = await SceneDoc.get(a.scene_id)
+            scene = await SceneDoc.get(scene_id)
             if scene:
                 assignment_data["scene_name"] = scene.name
         

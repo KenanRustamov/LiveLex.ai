@@ -16,11 +16,21 @@ export interface StudentAssignment {
     teacher_id: string;
     include_grammar?: boolean;
     grammar_tense?: string;
+    include_discovered_count?: number;
+    student_discovered_count?: number;
+    can_start?: boolean;
 }
 
 export interface TeacherInfo {
     name: string;
     code: string;
+}
+
+export interface CapturedScene {
+    scene_id: string;
+    scene_name: string;
+    words: VocabItem[];
+    count: number;
 }
 
 export function useStudentData() {
@@ -30,6 +40,7 @@ export function useStudentData() {
     const [assignments, setAssignments] = useState<StudentAssignment[]>([]);
     const [wordsLearned, setWordsLearned] = useState<number>(0);
     const [streakDays, setStreakDays] = useState<number>(0);
+    const [capturedScenes, setCapturedScenes] = useState<CapturedScene[]>([]);
     const [loading, setLoading] = useState(true);
 
     const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
@@ -47,6 +58,9 @@ export function useStudentData() {
                 // Set stats from profile response
                 setWordsLearned(data.words_learned ?? 0);
                 setStreakDays(data.streak_days ?? 0);
+                
+                // Set captured scenes
+                setCapturedScenes(data.discovered_scene_words_details ?? []);
                 
                 if (data.enrolled_class_code || data.teacher_id) {
                     if (data.enrolled_class_code) setClassCode(data.enrolled_class_code);
@@ -86,6 +100,7 @@ export function useStudentData() {
         assignments,
         wordsLearned,
         streakDays,
+        capturedScenes,
         loading,
         refresh: fetchData
     };

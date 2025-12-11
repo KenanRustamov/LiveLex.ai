@@ -90,7 +90,7 @@ async def add_discovered_words(username: str, scene_id: str, vocab_objects: list
     """
     Add discovered words to user profile.
     vocab_objects: list of dicts with keys 'source_name', 'target_name'
-    - Adds to discovered_scene_words (target names) for valid scene tracking.
+    - Adds to discovered_scene_words (with both source_name and target_name) for scene tracking.
     - Adds to objects list (keyed by source_name) with origin="scanned".
     """
     try:
@@ -107,18 +107,27 @@ async def add_discovered_words(username: str, scene_id: str, vocab_objects: list
         if not user.discovered_scene_words:
             user.discovered_scene_words = {}
             
-        # 1. Update discovered_scene_words (using target names)
+        # Update discovered_scene_words
         if scene_id not in user.discovered_scene_words:
             user.discovered_scene_words[scene_id] = []
         
-        existing_scene_words = set(user.discovered_scene_words[scene_id])
+        # Build a set of existing target words for deduplication
+        existing_target_words = set()
+        for item in user.discovered_scene_words[scene_id]:
+            if isinstance(item, dict):
+                existing_target_words.add(item.get("target_name", "").lower())
+        
         for obj in vocab_objects:
+            source_word = obj.get("source_name")
             target_word = obj.get("target_name")
-            if target_word and target_word not in existing_scene_words:
-                user.discovered_scene_words[scene_id].append(target_word)
-                existing_scene_words.add(target_word)
+            if source_word and target_word and target_word.lower() not in existing_target_words:
+                user.discovered_scene_words[scene_id].append({
+                    "source_name": source_word,
+                    "target_name": target_word
+                })
+                existing_target_words.add(target_word.lower())
                 
-        # 2. Update objects with origin (using source names as key)
+        # Update objects with origin using source names as key
         for obj in vocab_objects:
             source = obj.get("source_name")
             target = obj.get("target_name")

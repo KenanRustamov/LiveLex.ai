@@ -143,6 +143,38 @@ async def get_current_user(email: str):
     # Calculate student stats
     words_learned = len(user.objects) if user.objects else 0
     streak_days = calculate_streak(user.sessions) if user.sessions else 0
+    
+    # Build discovered scene words details with scene names
+    discovered_scene_words_details = []
+    if user.discovered_scene_words:
+        from app.db.models import SceneDoc
+        for scene_id, words in user.discovered_scene_words.items():
+            scene_name = "Unknown Scene"
+            try:
+                scene = await SceneDoc.get(scene_id)
+                if scene:
+                    scene_name = scene.name
+            except Exception:
+                pass  # Use default name if scene lookup fails
+            
+            # Normalize words to new format (handle legacy string format)
+            normalized_words = []
+            for word in words:
+                if isinstance(word, dict):
+                    normalized_words.append(word)
+                elif isinstance(word, str):
+                    # So old format doesn't break things
+                    normalized_words.append({
+                        "source_name": word,
+                        "target_name": word
+                    })
+            
+            discovered_scene_words_details.append({
+                "scene_id": scene_id,
+                "scene_name": scene_name,
+                "words": normalized_words,
+                "count": len(normalized_words)
+            })
         
     return {
         "username": user.username,
@@ -153,7 +185,8 @@ async def get_current_user(email: str):
         "enrolled_class_code": user.class_code,
         "teacher_id": user.teacher_id,
         "words_learned": words_learned,
-        "streak_days": streak_days
+        "streak_days": streak_days,
+        "discovered_scene_words_details": discovered_scene_words_details
     }
 
 @router.post("/auth/join-class")
