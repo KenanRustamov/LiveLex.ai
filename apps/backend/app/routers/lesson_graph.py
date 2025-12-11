@@ -28,6 +28,7 @@ class LessonState(TypedDict, total=False):
     session_id: str | None
     username: str | None
     assignment_id: str | None  # Track assignment completion
+    is_self_guided: bool  # True for student-created self-guided lessons
     image_metadata: dict | None  # target_language, source_language, location, actions, grammar_mode, grammar_tense
     pending_transcription: tuple[str, str] | None  # (utterance_id, text)
     pending_image: tuple[str, str, dict] | None  # (utterance_id, data_url, metadata)
@@ -680,13 +681,15 @@ async def feedback_node(state: LessonState, ws: WebSocket) -> LessonState:
         # Save to database
         username = state.get("username")
         assignment_id = state.get("assignment_id")
+        is_self_guided = state.get("is_self_guided", False)
         if username and session_id:
             try:
                 await save_user_lesson_db(
                     username=username,
                     session_id=session_id,
                     summary=summary,
-                    assignment_id=assignment_id
+                    assignment_id=assignment_id,
+                    is_self_guided=is_self_guided
                 )
             except Exception:
                 # DB save failed, but continue

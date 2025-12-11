@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { CapturedScene } from '@/hooks/useStudentData';
 
 interface StudentDashboardProps {
-    onNavigate: (view: 'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture') => void;
+    onNavigate: (view: 'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture' | 'self-guided') => void;
     wordsLearned: number;
     streakDays: number;
     capturedScenes?: CapturedScene[];
@@ -92,15 +92,15 @@ export function StudentDashboard({ onNavigate, wordsLearned, streakDays, capture
                     </CardContent>
                 </Card>
 
-                {/* New Self-Guided Lessons Button */}
+                {/* Self-Guided Lessons Button */}
                 <Card
                     className="rounded-[2rem] border-none shadow-sm bg-orange-50/50 overflow-hidden relative group cursor-pointer hover:bg-orange-50 transition-colors"
-                    onClick={() => { /* TODO: Implement navigation */ }}
+                    onClick={() => onNavigate('self-guided')}
                 >
                     <CardContent className="p-6 flex items-center justify-between">
                         <div>
                             <h3 className="font-bold text-lg text-orange-900 mb-1">Self-Guided Lessons</h3>
-                            <p className="text-sm text-orange-700/80">Learning the words that are associated with a scene.</p>
+                            <p className="text-sm text-orange-700/80">Practice with your discovered words or custom vocab.</p>
                         </div>
                         <div className="h-12 w-12 bg-orange-100 rounded-full flex items-center justify-center text-orange-600 group-hover:scale-110 transition-transform">
                             <Activity size={24} />

@@ -11,12 +11,13 @@ import { useStudentData, StudentAssignment } from '@/hooks/useStudentData';
 import { StudentDashboard } from './student/StudentDashboard';
 import { StudentAssignments } from './student/StudentAssignments';
 import { StudentProfile } from './student/StudentProfile';
+import { SelfGuidedLessonSetup } from './student/SelfGuidedLessonSetup';
 import AssignmentLessonView from './AssignmentLessonView';
 
 export default function MobileShell() {
   const { data: session } = useSession();
   const { enrolledTeacher, classCode, assignments, wordsLearned, streakDays, capturedScenes, refresh } = useStudentData();
-  const [tab, setTab] = useState<'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture' | 'assignment'>('home');
+  const [tab, setTab] = useState<'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture' | 'assignment' | 'self-guided'>('home');
   const [activeAssignment, setActiveAssignment] = useState<StudentAssignment | null>(null);
 
   // User Settings
@@ -146,6 +147,31 @@ export default function MobileShell() {
     setTab('assignment');
   };
 
+  // Handler to start a self-guided lesson
+  const handleStartSelfGuidedLesson = (config: {
+    title: string;
+    vocab: { source_name: string; target_name: string }[];
+    scene_id?: string;
+    scene_name?: string;
+    include_grammar: boolean;
+    grammar_tense?: string;
+  }) => {
+    // Create an ephemeral assignment object (no id needed for self-guided)
+    const ephemeralAssignment: StudentAssignment = {
+      id: '', // Empty ID indicates self-guided
+      title: config.title,
+      vocab: config.vocab,
+      created_at: new Date().toISOString(),
+      scene_id: config.scene_id,
+      scene_name: config.scene_name,
+      teacher_id: '', // Not applicable for self-guided
+      include_grammar: config.include_grammar,
+      grammar_tense: config.grammar_tense,
+    };
+    setActiveAssignment(ephemeralAssignment);
+    setTab('assignment');
+  };
+
   const renderContent = () => {
     switch (tab) {
       case 'home':
@@ -166,6 +192,12 @@ export default function MobileShell() {
           onLeaveClass={handleLeaveClass}
           settings={settings}
           onSettingsChange={setSettings}
+        />;
+      case 'self-guided':
+        return <SelfGuidedLessonSetup
+          capturedScenes={capturedScenes}
+          onStartLesson={handleStartSelfGuidedLesson}
+          onCancel={() => setTab('home')}
         />;
       default:
         return <StudentDashboard onNavigate={(v) => setTab(v)} wordsLearned={wordsLearned} streakDays={streakDays} />;

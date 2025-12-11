@@ -19,6 +19,7 @@ class SessionDoc(Document):
     
     # Assignment tracking
     assignment_id: Optional[str] = None  # Link to AssignmentDoc if this session is for an assignment
+    is_self_guided: bool = False  # True for student-created self-guided lessons
 
     class Settings:
         name = "sessions"

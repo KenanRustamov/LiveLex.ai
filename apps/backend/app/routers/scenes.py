@@ -147,3 +147,79 @@ async def get_student_scenes(email: str):
         }
         for s in scenes
     ]
+
+
+@router.get("/student/discovered-words", response_model=dict)
+async def get_student_discovered_words(email: str):
+    """
+    Get all discovered words for a student across all scenes.
+    Returns deduplicated words and a breakdown by scene.
+    """
+    user = await UserDataDoc.find_one(UserDataDoc.email == email)
+    if not user:
+        return {
+            "words": [],
+            "total": 0,
+            "by_scene": {}
+        }
+    
+    # Aggregate all words from discovered_scene_words
+    all_words: List[dict] = []
+    by_scene: dict = {}
+    seen_words = set()  # For deduplication by target_name (case-insensitive)
+    
+    if user.discovered_scene_words:
+        for scene_id, words in user.discovered_scene_words.items():
+            scene_words = []
+            
+            # Get scene name
+            scene_name = "Unknown Scene"
+            try:
+                scene = await SceneDoc.get(scene_id)
+                if scene:
+                    scene_name = scene.name
+            except Exception:
+                pass
+            
+            for word in words:
+                # Normalize word format (handle legacy string format)
+                if isinstance(word, dict):
+                    source_name = word.get("source_name", "")
+                    target_name = word.get("target_name", "")
+                elif isinstance(word, str):
+                    # Legacy format
+                    source_name = word
+                    target_name = word
+                else:
+                    continue
+                
+                if not source_name or not target_name:
+                    continue
+                
+                # Track by scene
+                scene_words.append({
+                    "source_name": source_name,
+                    "target_name": target_name
+                })
+                
+                # Deduplicate for all_words list
+                key = target_name.lower()
+                if key not in seen_words:
+                    seen_words.add(key)
+                    all_words.append({
+                        "source_name": source_name,
+                        "target_name": target_name
+                    })
+            
+            if scene_words:
+                by_scene[scene_id] = {
+                    "scene_name": scene_name,
+                    "words": scene_words,
+                    "count": len(scene_words)
+                }
+    
+    return {
+        "words": all_words,
+        "total": len(all_words),
+        "by_scene": by_scene
+    }

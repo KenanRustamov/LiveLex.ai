@@ -131,6 +131,7 @@ def session_state_to_lesson_state(
         "session_id": session_state.session_id,
         "username": session_state.username,
         "assignment_id": session_state.assignment_id,
+        "is_self_guided": session_state.is_self_guided,
         "image_metadata": image_metadata,
         "pending_transcription": session_state.pending_transcription,
         "pending_image": session_state.pending_image,
@@ -416,7 +417,8 @@ async def process_audio_image_pair(
                     username=state.username,
                     session_id=state.session_id,
                     summary=summary,
-                    assignment_id=state.assignment_id
+                    assignment_id=state.assignment_id,
+                    is_self_guided=state.is_self_guided
                 )
             
             state.lesson_saved = True
@@ -610,6 +612,7 @@ class SessionState:
         self.grammar_tense: str = "none"  # "present indicative" or "preterite"
         # assignment tracking
         self.assignment_id: Optional[str] = None
+        self.is_self_guided: bool = False  # True for student-created self-guided lessons
 
 
 async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
@@ -1246,7 +1249,8 @@ async def ws_stream(ws: WebSocket):
                                 username=state.username,
                                 session_id=state.session_id or "",
                                 summary=summary,
-                                assignment_id=state.assignment_id
+                                assignment_id=state.assignment_id,
+                                is_self_guided=state.is_self_guided
                             )
 
                         state.lesson_saved = True
@@ -1395,6 +1399,7 @@ async def ws_stream(ws: WebSocket):
                 state.location = location
                 state.actions = ["Pick up"]  # Default action for assignments
                 state.assignment_id = assignment_id  # Track assignment for completion
+                state.is_self_guided = not assignment_id  # Self-guided if no assignment_id
                 
                 # Handle student-discovered words if required
                 final_vocab = list(vocab)  # Start with assignment vocab
@@ -1470,6 +1475,7 @@ async def ws_stream(ws: WebSocket):
                             "plan": plan.model_dump(),
                             "entries": [],
                             "assignment_id": assignment_id,
+                            "is_self_guided": state.is_self_guided,
                         })
                     
                     await ws.send_json({"type": "plan", "payload": plan.model_dump()})

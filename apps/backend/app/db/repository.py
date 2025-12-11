@@ -5,8 +5,8 @@ from app.db.models import UserDataDoc
 import logging
 
 
-async def save_user_lesson_db(username: str, session_id: str, summary: dict, assignment_id: Optional[str] = None):
-    """Save user lesson data to database."""
+async def save_user_lesson_db(username: str, session_id: str, summary: dict, assignment_id: Optional[str] = None, is_self_guided: bool = False):
+    """Save user lesson data to database. Self-guided lessons skip assignment completion tracking."""
     try:
         # Find or create user
         user = await UserDataDoc.find_one(UserDataDoc.username == username)
@@ -80,7 +80,8 @@ async def save_user_lesson_db(username: str, session_id: str, summary: dict, ass
             "session_id": session_id,
             "timestamp": datetime.now(timezone.utc).isoformat(),
             "summary": summary,
-            "assignment_id": assignment_id
+            "assignment_id": assignment_id,
+            "is_self_guided": is_self_guided
         })
 
         # Save user document
