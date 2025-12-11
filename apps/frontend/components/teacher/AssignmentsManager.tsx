@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Loader2, Plus, Pencil, X, Save } from 'lucide-react';
+import { Loader2, Plus, Pencil, X, Save, TrendingUp, Users, CheckCircle2 } from 'lucide-react';
 import { Assignment, Scene, VocabItem } from '@/types/teacher';
 import { useSession } from 'next-auth/react';
 import { Switch } from "@/components/ui/switch";
@@ -46,6 +46,11 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
 
     // Edit State
     const [editingAssignment, setEditingAssignment] = useState<Assignment | null>(null);
+
+    // Progress State
+    const [expandedProgress, setExpandedProgress] = useState<Set<string>>(new Set());
+    const [progressData, setProgressData] = useState<Record<string, any>>({});
+    const [loadingProgress, setLoadingProgress] = useState<Set<string>>(new Set());
 
     // Handle scene selection - pre-populate vocab from scene
     const handleSceneChange = (sceneId: string) => {
@@ -199,6 +204,60 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                 title: "Error",
                 description: "Failed to delete assignment.",
                 variant: "destructive",
+            });
+        }
+    };
+
+    const toggleProgress = async (assignmentId: string) => {
+        const isExpanded = expandedProgress.has(assignmentId);
+        
+        if (isExpanded) {
+            // Collapse
+            setExpandedProgress(prev => {
+                const next = new Set(prev);
+                next.delete(assignmentId);
+                return next;
+            });
+        } else {
+            // Expand and fetch progress if not already loaded
+            setExpandedProgress(prev => new Set(prev).add(assignmentId));
+            
+            if (!progressData[assignmentId]) {
+                await fetchProgress(assignmentId);
+            }
+        }
+    };
+
+    const fetchProgress = async (assignmentId: string) => {
+        if (!session?.user?.email) return;
+        
+        setLoadingProgress(prev => new Set(prev).add(assignmentId));
+        
+        try {
+            const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
+            const response = await fetch(
+                `${backendUrl}/v1/assignments/${assignmentId}/progress?teacher_email=${session.user.email}`
+            );
+            
+            if (response.ok) {
+                const data = await response.json();
+                setProgressData(prev => ({
+                    ...prev,
+                    [assignmentId]: data
+                }));
+            }
+        } catch (error) {
+            console.error("Failed to fetch progress", error);
+            toast({
+                title: "Error",
+                description: "Failed to load progress data.",
+                variant: "destructive",
+            });
+        } finally {
+            setLoadingProgress(prev => {
+                const next = new Set(prev);
+                next.delete(assignmentId);
+                return next;
             });
         }
     };
@@ -395,6 +454,92 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
                                             description={`This will permanently delete "${assignment.title}" for all students. This action cannot be undone.`}
                                             onConfirm={() => handleDelete(assignment.id)}
                                         />
+                                    </div>
+
+                                    {/* Progress Tracking Section */}
+                                    <div className="mt-4 pt-4 border-t border-gray-100">
+                                        <Button
+                                            variant="ghost"
+                                            size="sm"
+                                            className="w-full justify-between text-sm h-8"
+                                            onClick={() => toggleProgress(assignment.id)}
+                                        >
+                                            <span className="flex items-center gap-2">
+                                                <TrendingUp size={14} />
+                                                Student Progress
+                                            </span>
+                                            <span className="text-xs text-muted-foreground">
+                                                {expandedProgress.has(assignment.id) ? '▲' : '▼'}
+                                            </span>
+                                        </Button>
+
+                                        {expandedProgress.has(assignment.id) && (
+                                            <div className="mt-3 space-y-2">
+                                                {loadingProgress.has(assignment.id) ? (
+                                                    <div className="text-center py-4">
+                                                        <Loader2 className="h-4 w-4 animate-spin mx-auto text-muted-foreground" />
+                                                    </div>
+                                                ) : progressData[assignment.id] ? (
+                                                    <>
+                                                        <div className="flex items-center justify-between text-xs bg-gray-50 p-2 rounded-lg">
+                                                            <span className="flex items-center gap-1">
+                                                                <Users size={12} />
+                                                                Total Students
+                                                            </span>
+                                                            <span className="font-bold">{progressData[assignment.id].total_students}</span>
+                                                        </div>
+                                                        <div className="flex items-center justify-between text-xs bg-green-50 p-2 rounded-lg">
+                                                            <span className="flex items-center gap-1 text-green-700">
+                                                                <CheckCircle2 size={12} />
+                                                                Completed
+                                                            </span>
+                                                            <span className="font-bold text-green-700">
+                                                                {progressData[assignment.id].completed_count}
+                                                            </span>
+                                                        </div>
+
+                                                        {progressData[assignment.id].students && progressData[assignment.id].students.length > 0 && (
+                                                            <div className="mt-3 space-y-1.5">
+                                                                <p className="text-xs font-semibold text-gray-700 mb-2">Student Details:</p>
+                                                                {progressData[assignment.id].students.map((student: any) => (
+                                                                    <div 
+                                                                        key={student.student_username}
+                                                                        className={`text-xs p-2 rounded-lg flex justify-between items-center ${
+                                                                            student.completed 
+                                                                                ? 'bg-green-50 text-green-900' 
+                                                                                : 'bg-gray-50 text-gray-700'
+                                                                        }`}
+                                                                    >
+                                                                        <span className="flex items-center gap-1.5">
+                                                                            {student.completed && <CheckCircle2 size={12} className="text-green-600" />}
+                                                                            {student.student_name}
+                                                                        </span>
+                                                                        {student.completed && student.score !== null && (
+                                                                            <span className="font-bold">
+                                                                                {Math.round(student.score * 100)}%
+                                                                            </span>
+                                                                        )}
+                                                                        {!student.completed && (
+                                                                            <span className="text-[10px] text-muted-foreground">Not started</span>
+                                                                        )}
+                                                                    </div>
+                                                                ))}
+                                                            </div>
+                                                        )}
+
+                                                        {progressData[assignment.id].total_students === 0 && (
+                                                            <p className="text-xs text-center text-muted-foreground py-3">
+                                                                No students enrolled yet
+                                                            </p>
+                                                        )}
+                                                    </>
+                                                ) : (
+                                                    <p className="text-xs text-center text-muted-foreground py-3">
+                                                        Failed to load progress
+                                                    </p>
+                                                )}
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
                             ))}

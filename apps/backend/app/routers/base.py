@@ -130,6 +130,7 @@ def session_state_to_lesson_state(
         "lesson_completed": session_state.lesson_saved,
         "session_id": session_state.session_id,
         "username": session_state.username,
+        "assignment_id": session_state.assignment_id,
         "image_metadata": image_metadata,
         "pending_transcription": session_state.pending_transcription,
         "pending_image": session_state.pending_image,
@@ -415,6 +416,7 @@ async def process_audio_image_pair(
                     username=state.username,
                     session_id=state.session_id,
                     summary=summary,
+                    assignment_id=state.assignment_id
                 )
             
             state.lesson_saved = True
@@ -606,6 +608,8 @@ class SessionState:
         self.actions: list[str] = ["name", "describe", "compare"]
         self.grammar_mode: str = "vocab"  # "vocab" or "grammar"
         self.grammar_tense: str = "none"  # "present indicative" or "preterite"
+        # assignment tracking
+        self.assignment_id: Optional[str] = None
 
 
 async def stream_llm_tokens(prompt_text: str) -> AsyncGenerator[str, None]:
@@ -1242,6 +1246,7 @@ async def ws_stream(ws: WebSocket):
                                 username=state.username,
                                 session_id=state.session_id or "",
                                 summary=summary,
+                                assignment_id=state.assignment_id
                             )
 
                         state.lesson_saved = True
@@ -1389,6 +1394,7 @@ async def ws_stream(ws: WebSocket):
                 state.source_language = source_language
                 state.location = location
                 state.actions = ["Pick up"]  # Default action for assignments
+                state.assignment_id = assignment_id  # Track assignment for completion
                 
                 # Handle student-discovered words if required
                 final_vocab = list(vocab)  # Start with assignment vocab

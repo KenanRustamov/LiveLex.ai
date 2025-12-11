@@ -31,16 +31,34 @@ export function StudentAssignments({ assignments, onStartAssignment }: StudentAs
                         const canStart = assignment.can_start !== false;
                         const studentDiscovered = assignment.student_discovered_count ?? 0;
                         const requiredDiscovered = assignment.include_discovered_count ?? 0;
+                        const isCompleted = assignment.completed === true;
                         
                         return (
-                            <Card key={assignment.id} className="rounded-[2rem] border-none shadow-sm overflow-hidden">
+                            <Card key={assignment.id} className={`rounded-[2rem] border-none shadow-sm overflow-hidden ${isCompleted ? 'bg-green-50/50' : ''}`}>
                                 <CardContent className="p-6">
                                     <div className="flex justify-between items-start mb-4">
-                                        <div>
-                                            <h3 className="font-bold text-lg">{assignment.title}</h3>
-                                            <p className="text-xs text-muted-foreground mt-1">
-                                                {new Date(assignment.created_at).toLocaleDateString()}
-                                            </p>
+                                        <div className="flex items-start gap-2">
+                                            {isCompleted && (
+                                                <div className="h-6 w-6 bg-green-100 rounded-full flex items-center justify-center text-green-600 mt-0.5">
+                                                    <CheckCircle size={16} />
+                                                </div>
+                                            )}
+                                            <div>
+                                                <h3 className="font-bold text-lg flex items-center gap-2">
+                                                    {assignment.title}
+                                                    {isCompleted && (
+                                                        <span className="text-[10px] bg-green-100 text-green-800 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
+                                                            Completed
+                                                        </span>
+                                                    )}
+                                                </h3>
+                                                <p className="text-xs text-muted-foreground mt-1">
+                                                    {new Date(assignment.created_at).toLocaleDateString()}
+                                                    {isCompleted && assignment.completed_at && (
+                                                        <span> • Completed {new Date(assignment.completed_at).toLocaleDateString()}</span>
+                                                    )}
+                                                </p>
+                                            </div>
                                         </div>
                                         <div className="flex flex-col gap-1.5 items-end">
                                             {assignment.scene_name && (
@@ -84,13 +102,24 @@ export function StudentAssignments({ assignments, onStartAssignment }: StudentAs
                                         </div>
                                     )}
 
+                                    {isCompleted && assignment.score !== undefined && (
+                                        <div className="mb-4 p-3 bg-green-50 border border-green-200 rounded-xl">
+                                            <div className="flex justify-between items-center">
+                                                <span className="text-sm font-medium text-green-900">Your Score</span>
+                                                <span className="text-lg font-bold text-green-700">
+                                                    {Math.round(assignment.score * 100)}%
+                                                </span>
+                                            </div>
+                                        </div>
+                                    )}
+
                                     <Button 
                                         className="w-full rounded-xl h-11"
                                         onClick={() => onStartAssignment?.(assignment)}
                                         disabled={!canStart}
                                     >
                                         <Play size={16} className="mr-2" /> 
-                                        {canStart ? 'Start Assignment' : 'Not Ready'}
+                                        {isCompleted ? 'Practice Again' : canStart ? 'Start Assignment' : 'Not Ready'}
                                     </Button>
                                 </CardContent>
                             </Card>

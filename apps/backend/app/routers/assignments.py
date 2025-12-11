@@ -3,6 +3,11 @@ from pydantic import BaseModel
 from typing import List, Optional
 from app.db.models import AssignmentDoc, UserDataDoc
 from app.dependencies import get_current_teacher
+from app.db.repository import (
+    mark_assignment_complete, 
+    get_assignment_completion_status, 
+    get_assignment_progress
+)
 
 router = APIRouter()
 
@@ -120,6 +125,14 @@ async def get_assignments(email: str):
             if scene:
                 assignment_data["scene_name"] = scene.name
         
+        # Add completion status for students
+        if user.role == "student":
+            completion_status = await get_assignment_completion_status(str(a.id), user.username)
+            assignment_data["completed"] = completion_status is not None
+            if completion_status:
+                assignment_data["completed_at"] = completion_status.get("completed_at")
+                assignment_data["score"] = completion_status.get("score")
+        
         result.append(assignment_data)
     
     return result
@@ -172,3 +185,46 @@ async def update_assignment(assignment_id: str, req: CreateAssignmentRequest):
         "include_grammar": assignment.include_grammar,
         "grammar_tense": assignment.grammar_tense
     }
+
+
+class MarkCompletionRequest(BaseModel):
+    assignment_id: str
+    student_username: str
+    session_id: Optional[str] = None
+    score: Optional[float] = None
+    total_items: int = 0
+    correct_items: int = 0
+
+
+@router.post("/assignments/complete", response_model=dict)
+async def complete_assignment(req: MarkCompletionRequest):
+    """Mark an assignment as completed by a student."""
+    try:
+        result = await mark_assignment_complete(
+            assignment_id=req.assignment_id,
+            student_username=req.student_username,
+            session_id=req.session_id,
+            score=req.score,
+            total_items=req.total_items,
+            correct_items=req.correct_items
+        )
+        return result
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to mark completion: {str(e)}")
+
+
+@router.get("/assignments/{assignment_id}/status")
+async def get_completion_status(assignment_id: str, student_username: str):
+    """Get completion status for a specific assignment and student."""
+    status = await get_assignment_completion_status(assignment_id, student_username)
+    return status or {"completed": False}
+
+
+@router.get("/assignments/{assignment_id}/progress")
+async def get_progress(assignment_id: str, teacher_email: str):
+    """Get progress for all students on a specific assignment."""
+    teacher = await get_current_teacher(teacher_email)
+    progress = await get_assignment_progress(assignment_id, str(teacher.id))
+    return progress

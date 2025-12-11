@@ -16,10 +16,13 @@ class SessionDoc(Document):
     # Practice mode fields
     grammar_mode: str = "vocab"  # "vocab" or "grammar"
     grammar_tense: Optional[str] = None  # "present indicative" or "preterite" (Spanish tenses, only used when grammar_mode="grammar")
+    
+    # Assignment tracking
+    assignment_id: Optional[str] = None  # Link to AssignmentDoc if this session is for an assignment
 
     class Settings:
         name = "sessions"
-        indexes = ["session_id"]
+        indexes = ["session_id", "assignment_id"]
 
 
 class UserDataDoc(Document):
@@ -89,6 +92,22 @@ class AssignmentDoc(Document):
     class Settings:
         name = "assignments"
         indexes = ["username"]
+
+
+class AssignmentCompletionDoc(Document):
+    """Track student completion of assignments."""
+    assignment_id: str
+    student_id: str  # UserDataDoc.id
+    student_username: str
+    completed_at: datetime = Field(default_factory=datetime.utcnow)
+    session_id: Optional[str] = None  # Link to the session that completed it
+    score: Optional[float] = None  # Overall score (0.0 - 1.0)
+    total_items: int = 0
+    correct_items: int = 0
+    
+    class Settings:
+        name = "assignment_completions"
+        indexes = ["assignment_id", "student_id", "student_username"]
 
 
 class PerformanceMetricDoc(Document):

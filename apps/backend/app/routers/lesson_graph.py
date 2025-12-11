@@ -27,6 +27,7 @@ class LessonState(TypedDict, total=False):
     # Additional fields for graph operations
     session_id: str | None
     username: str | None
+    assignment_id: str | None  # Track assignment completion
     image_metadata: dict | None  # target_language, source_language, location, actions, grammar_mode, grammar_tense
     pending_transcription: tuple[str, str] | None  # (utterance_id, text)
     pending_image: tuple[str, str, dict] | None  # (utterance_id, data_url, metadata)
@@ -678,12 +679,14 @@ async def feedback_node(state: LessonState, ws: WebSocket) -> LessonState:
         
         # Save to database
         username = state.get("username")
+        assignment_id = state.get("assignment_id")
         if username and session_id:
             try:
                 await save_user_lesson_db(
                     username=username,
                     session_id=session_id,
                     summary=summary,
+                    assignment_id=assignment_id
                 )
             except Exception:
                 # DB save failed, but continue

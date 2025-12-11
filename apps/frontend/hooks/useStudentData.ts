@@ -19,6 +19,9 @@ export interface StudentAssignment {
     include_discovered_count?: number;
     student_discovered_count?: number;
     can_start?: boolean;
+    completed?: boolean;
+    completed_at?: string;
+    score?: number;
 }
 
 export interface TeacherInfo {

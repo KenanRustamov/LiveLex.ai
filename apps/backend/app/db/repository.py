@@ -5,7 +5,7 @@ from app.db.models import UserDataDoc
 import logging
 
 
-async def save_user_lesson_db(username: str, session_id: str, summary: dict):
+async def save_user_lesson_db(username: str, session_id: str, summary: dict, assignment_id: Optional[str] = None):
     """Save user lesson data to database."""
     try:
         # Find or create user
@@ -24,6 +24,8 @@ async def save_user_lesson_db(username: str, session_id: str, summary: dict):
             user.sessions = []
         
         # Process each item in the summary
+        total_items = 0
+        correct_items = 0
         for item in summary.get("items", []):
             obj_name = item["object"]["source_name"]
             correct_word = item["object"]["target_name"]
@@ -32,6 +34,10 @@ async def save_user_lesson_db(username: str, session_id: str, summary: dict):
             attempts = item.get("attempts", 1)
             hints_used = item.get("hints_used", 0)
             gave_up = item.get("gave_up", False)
+
+            total_items += 1
+            if correct:
+                correct_items += 1
 
             # Initialize object if not exists
             if obj_name not in user.objects:
@@ -73,13 +79,27 @@ async def save_user_lesson_db(username: str, session_id: str, summary: dict):
         user.sessions.append({
             "session_id": session_id,
             "timestamp": datetime.now(timezone.utc).isoformat(),
-            "summary": summary
+            "summary": summary,
+            "assignment_id": assignment_id
         })
 
         # Save user document
         await user.save()
         
         print(f"Saved lesson data for user '{username}' to database")
+        
+        # If this session was for an assignment, mark it as complete
+        if assignment_id:
+            score = correct_items / total_items if total_items > 0 else 0.0
+            await mark_assignment_complete(
+                assignment_id=assignment_id,
+                student_username=username,
+                session_id=session_id,
+                score=score,
+                total_items=total_items,
+                correct_items=correct_items
+            )
+            print(f"Marked assignment {assignment_id} as complete for user '{username}'")
         
     except Exception as e:
         logging.error(f"Error saving user lesson to database: {e}", exc_info=True)
@@ -179,3 +199,141 @@ async def get_user_object_stats_db(username: str, object_name: str) -> Optional[
     if not user:
         return None
     return user.objects.get(object_name)
+
+
+async def mark_assignment_complete(
+    assignment_id: str,
+    student_username: str,
+    session_id: Optional[str] = None,
+    score: Optional[float] = None,
+    total_items: int = 0,
+    correct_items: int = 0
+) -> dict:
+    """Mark an assignment as completed by a student."""
+    from app.db.models import AssignmentCompletionDoc
+    
+    try:
+        # Get student data
+        user = await UserDataDoc.find_one(UserDataDoc.username == student_username)
+        if not user:
+            raise ValueError(f"Student not found: {student_username}")
+        
+        # Check if already completed
+        existing = await AssignmentCompletionDoc.find_one(
+            AssignmentCompletionDoc.assignment_id == assignment_id,
+            AssignmentCompletionDoc.student_id == str(user.id)
+        )
+        
+        if existing:
+            # Update existing completion
+            existing.completed_at = datetime.now(timezone.utc)
+            existing.session_id = session_id
+            existing.score = score
+            existing.total_items = total_items
+            existing.correct_items = correct_items
+            await existing.save()
+            completion = existing
+        else:
+            # Create new completion record
+            completion = AssignmentCompletionDoc(
+                assignment_id=assignment_id,
+                student_id=str(user.id),
+                student_username=student_username,
+                session_id=session_id,
+                score=score,
+                total_items=total_items,
+                correct_items=correct_items
+            )
+            await completion.insert()
+        
+        return {
+            "id": str(completion.id),
+            "assignment_id": completion.assignment_id,
+            "student_username": completion.student_username,
+            "completed_at": completion.completed_at,
+            "score": completion.score,
+            "total_items": completion.total_items,
+            "correct_items": completion.correct_items
+        }
+        
+    except Exception as e:
+        logging.error(f"Error marking assignment complete: {e}", exc_info=True)
+        raise
+
+
+async def get_assignment_completion_status(assignment_id: str, student_username: str) -> Optional[dict]:
+    """Get completion status for a specific assignment and student."""
+    from app.db.models import AssignmentCompletionDoc
+    
+    try:
+        user = await UserDataDoc.find_one(UserDataDoc.username == student_username)
+        if not user:
+            return None
+        
+        completion = await AssignmentCompletionDoc.find_one(
+            AssignmentCompletionDoc.assignment_id == assignment_id,
+            AssignmentCompletionDoc.student_id == str(user.id)
+        )
+        
+        if not completion:
+            return None
+        
+        return {
+            "completed": True,
+            "completed_at": completion.completed_at,
+            "score": completion.score,
+            "total_items": completion.total_items,
+            "correct_items": completion.correct_items
+        }
+    except Exception as e:
+        logging.error(f"Error getting assignment completion status: {e}", exc_info=True)
+        return None
+
+
+async def get_assignment_progress(assignment_id: str, teacher_id: str) -> dict:
+    """Get progress for all students on a specific assignment."""
+    from app.db.models import AssignmentCompletionDoc
+    
+    try:
+        # Get all students enrolled with this teacher
+        students = await UserDataDoc.find(
+            UserDataDoc.teacher_id == teacher_id,
+            UserDataDoc.role == "student"
+        ).to_list()
+        
+        # Get all completions for this assignment
+        completions = await AssignmentCompletionDoc.find(
+            AssignmentCompletionDoc.assignment_id == assignment_id
+        ).to_list()
+        
+        # Build completion map
+        completion_map = {c.student_username: c for c in completions}
+        
+        # Build progress data
+        progress = []
+        for student in students:
+            completion = completion_map.get(student.username)
+            progress.append({
+                "student_username": student.username,
+                "student_name": student.name or student.username,
+                "completed": completion is not None,
+                "completed_at": completion.completed_at if completion else None,
+                "score": completion.score if completion else None,
+                "total_items": completion.total_items if completion else 0,
+                "correct_items": completion.correct_items if completion else 0
+            })
+        
+        return {
+            "assignment_id": assignment_id,
+            "total_students": len(students),
+            "completed_count": len([p for p in progress if p["completed"]]),
+            "students": progress
+        }
+    except Exception as e:
+        logging.error(f"Error getting assignment progress: {e}", exc_info=True)
+        return {
+            "assignment_id": assignment_id,
+            "total_students": 0,
+            "completed_count": 0,
+            "students": []
+        }
