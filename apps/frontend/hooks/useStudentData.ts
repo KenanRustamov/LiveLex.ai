@@ -12,6 +12,7 @@ export interface StudentAssignment {
     vocab: VocabItem[];
     created_at: string;
     scene_id?: string;
+    scene_name?: string;
     teacher_id: string;
     include_grammar?: boolean;
     grammar_tense?: string;

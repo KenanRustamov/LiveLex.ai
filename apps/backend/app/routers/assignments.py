@@ -80,19 +80,30 @@ async def get_assignments(email: str):
     assignments = await AssignmentDoc.find(AssignmentDoc.teacher_id == target_teacher_id).sort("-created_at").to_list()
     
     # Return with additional info if needed
-    return [
-        {
+    result = []
+    for a in assignments:
+        assignment_data = {
             "id": str(a.id),
             "title": a.title,
             "vocab": getattr(a, 'vocab', []),
             "created_at": a.created_at,
             "scene_id": a.scene_id,
+            "scene_name": None,
             "include_discovered_count": a.include_discovered_count,
             "include_grammar": a.include_grammar or False,
             "grammar_tense": a.grammar_tense
         }
-        for a in assignments
-    ]
+        
+        # Fetch scene name if scene_id exists
+        if a.scene_id:
+            from app.db.models import SceneDoc
+            scene = await SceneDoc.get(a.scene_id)
+            if scene:
+                assignment_data["scene_name"] = scene.name
+        
+        result.append(assignment_data)
+    
+    return result
 
 @router.delete("/assignments/{assignment_id}")
 async def delete_assignment(assignment_id: str, email: str):

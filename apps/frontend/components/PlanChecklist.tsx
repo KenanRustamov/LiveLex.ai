@@ -12,17 +12,21 @@ export default function PlanChecklist({
   completed,
   onToggle,
   variant = 'default',
+  sceneName,
 }: {
   items: PlanItem[];
   currentIndex: number;
   completed: boolean[];
   onToggle: (index: number) => void;
   variant?: 'default' | 'overlay';
+  sceneName?: string;
 }) {
   if (variant === 'overlay') {
     return (
       <OverlayCard className="p-3 text-white">
-        <div className="text-xs uppercase tracking-wide text-white/70 mb-2">Plan</div>
+        <div className="text-xs uppercase tracking-wide text-white/70 mb-2">
+          {sceneName ? `Scene: ${sceneName}` : 'Plan'}
+        </div>
         {items.length === 0 ? (
           <div className="text-xs text-white/80">No objects identified yet.</div>
         ) : (

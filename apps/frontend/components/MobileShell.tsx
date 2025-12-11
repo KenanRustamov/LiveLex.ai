@@ -7,15 +7,17 @@ import AnalyticsView from './AnalyticsView';
 import SceneCaptureView from './SceneCaptureView';
 import { Button } from '@/components/ui/button';
 import { Home, ListTodo, User, BarChart } from 'lucide-react';
-import { useStudentData } from '@/hooks/useStudentData';
+import { useStudentData, StudentAssignment } from '@/hooks/useStudentData';
 import { StudentDashboard } from './student/StudentDashboard';
 import { StudentAssignments } from './student/StudentAssignments';
 import { StudentProfile } from './student/StudentProfile';
+import AssignmentLessonView from './AssignmentLessonView';
 
 export default function MobileShell() {
   const { data: session } = useSession();
   const { enrolledTeacher, classCode, assignments, wordsLearned, streakDays, refresh } = useStudentData();
-  const [tab, setTab] = useState<'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture'>('home');
+  const [tab, setTab] = useState<'home' | 'tasks' | 'analytics' | 'profile' | 'camera' | 'scene-capture' | 'assignment'>('home');
+  const [activeAssignment, setActiveAssignment] = useState<StudentAssignment | null>(null);
 
   // User Settings
   const [settings, setSettings] = useState({
@@ -111,12 +113,45 @@ export default function MobileShell() {
     );
   }
 
+  // Assignment Lesson Mode
+  if (tab === 'assignment' && activeAssignment) {
+    return (
+      <div className="relative h-dvh w-full bg-black">
+        <AssignmentLessonView
+          assignment={activeAssignment}
+          settings={settings}
+          username={session?.user?.email || 'Student'}
+          onClose={() => {
+            setActiveAssignment(null);
+            setTab('tasks');
+          }}
+        />
+        <Button
+          variant="outline"
+          className="absolute top-4 left-4 z-50 rounded-full bg-white/20 hover:bg-white/40 border-none text-white backdrop-blur-md"
+          onClick={() => {
+            setActiveAssignment(null);
+            setTab('tasks');
+          }}
+        >
+          Exit Assignment
+        </Button>
+      </div>
+    );
+  }
+
+  // Handler to start an assignment
+  const handleStartAssignment = (assignment: StudentAssignment) => {
+    setActiveAssignment(assignment);
+    setTab('assignment');
+  };
+
   const renderContent = () => {
     switch (tab) {
       case 'home':
         return <StudentDashboard onNavigate={(v) => setTab(v)} wordsLearned={wordsLearned} streakDays={streakDays} />;
       case 'tasks':
-        return <StudentAssignments assignments={assignments} />;
+        return <StudentAssignments assignments={assignments} onStartAssignment={handleStartAssignment} />;
       case 'analytics':
         return <AnalyticsView
           username={session?.user?.email || 'User'}

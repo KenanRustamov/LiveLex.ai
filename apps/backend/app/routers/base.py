@@ -1101,6 +1101,42 @@ async def generate_plan_from_data_url(image_data_url: str, target_language: str,
         return structured.invoke([system_msg, user_msg])
 
 
+def generate_plan_from_vocab(
+    vocab_items: list[dict[str, str]],
+    target_language: str,
+    source_language: str,
+    default_action: str = "Pick up"
+) -> Plan:
+    """
+    Generate a lesson Plan directly from vocabulary items (for assignments).
+    
+    Args:
+        vocab_items: List of vocab dicts with 'source_name' and 'target_name' keys
+        target_language: Target language for the lesson
+        source_language: Source language for the lesson
+        default_action: Default action to assign to each object (default: "Pick up")
+    
+    Returns:
+        Plan object with objects derived from vocab items
+    """
+    objects = [
+        Object(
+            source_name=item.get("source_name", ""),
+            target_name=item.get("target_name", ""),
+            action=default_action
+        )
+        for item in vocab_items
+        if item.get("source_name") and item.get("target_name")
+    ]
+    
+    scene_message = f"Practice these {len(objects)} vocabulary words in {target_language}!"
+    
+    return Plan(
+        scene_message=scene_message,
+        objects=objects
+    )
+
+
 async def generate_scene_vocab_from_data_url(
     image_data_url: str,
     target_language: str,
@@ -1323,6 +1359,120 @@ async def ws_stream(ws: WebSocket):
                     await send_status(f"LLM stream error: {e}", code="error")
                     continue
                 await ws.send_json({"type": "llm_final", "payload": {"text": "".join(final_text_parts)}})
+
+            elif msg_type == "start_assignment":
+                # Start an assignment-based lesson (plan from vocab, not from image)
+                vocab = payload.get("vocab")
+                if not vocab or not isinstance(vocab, list):
+                    await send_status("Missing or invalid vocab in start_assignment", code="error")
+                    continue
+                
+                # If a lesson is already in progress, require reset first
+                if state.lesson_saved:
+                    await send_status("Lesson already complete. Please reset before starting a new assignment.", code="warn")
+                    continue
+                
+                target_language = payload.get("target_language", "Spanish")
+                source_language = payload.get("source_language", "English")
+                location = payload.get("location", "US")
+                assignment_id = payload.get("assignment_id")
+                
+                # Grammar settings from assignment
+                include_grammar = payload.get("include_grammar", False)
+                grammar_tense_from_payload = payload.get("grammar_tense", "none")
+                
+                # Update session state with practice mode
+                state.grammar_mode = "grammar" if include_grammar else "vocab"
+                state.grammar_tense = grammar_tense_from_payload if include_grammar else "none"
+                
+                # Persist lesson preferences on the session
+                state.target_language = target_language
+                state.source_language = source_language
+                state.location = location
+                state.actions = ["Pick up"]  # Default action for assignments
+                
+                try:
+                    plan = generate_plan_from_vocab(
+                        vocab_items=vocab,
+                        target_language=target_language,
+                        source_language=source_language,
+                        default_action="Pick up"
+                    )
+                    
+                    if not plan.objects:
+                        await send_status("No valid vocabulary items in assignment", code="error")
+                        continue
+                    
+                    state.plan = plan
+                    state.current_object_index = -1
+                    state.completed_objects = []
+                    state.item_attempts = {}
+                    state.item_hints_used = {}
+                    state.item_gave_up = {}
+                    state.waiting_for_repeat = False
+                    state.lesson_saved = False
+                    state.session_id = state.session_id or str(uuid.uuid4())
+                    
+                    # Save initial plan to storage
+                    if state.session_id:
+                        save_session_data(state.session_id, {
+                            "plan": plan.model_dump(),
+                            "entries": [],
+                            "assignment_id": assignment_id,
+                        })
+                    
+                    await ws.send_json({"type": "plan", "payload": plan.model_dump()})
+                    
+                    # Convert SessionState to LessonState and invoke graph
+                    image_metadata = {
+                        "target_language": target_language,
+                        "source_language": source_language,
+                        "location": location,
+                        "actions": ["Pick up"],
+                        "grammar_mode": state.grammar_mode,
+                        "grammar_tense": state.grammar_tense,
+                    }
+                    lesson_state = session_state_to_lesson_state(state, ws, image_metadata)
+                    lesson_state["plan"] = plan
+                    lesson_state["lesson_state"] = "PROMPT_USER"
+                    
+                    # Invoke graph starting at prompt_user node
+                    try:
+                        updated_lesson_state = await invoke_lesson_graph(lesson_state, ws, entry_node="prompt_user")
+                        # Update SessionState from graph result
+                        lesson_state_to_session_state(updated_lesson_state, state)
+                    except Exception as e:
+                        # Graph invocation failed, fallback to manual flow
+                        await send_status(f"Graph error: {str(e)}", code="error")
+                        # Fallback: manually prompt first object
+                        next_idx = get_next_object_index(plan, state.completed_objects)
+                        if next_idx >= 0:
+                            state.current_object_index = next_idx
+                            prompt_msg = await generate_prompt_message(
+                                plan.objects[next_idx],
+                                target_language,
+                                source_language,
+                                attempt_number=1,
+                                max_attempts=3,
+                                grammar_mode=state.grammar_mode,
+                                grammar_tense=state.grammar_tense,
+                                state=state
+                            )
+                            
+                            # Generate TTS audio for prompt
+                            prompt_audio = None
+                            if prompt_msg:
+                                prompt_audio = await generate_tts_audio(prompt_msg, state=state)
+                            
+                            payload_response = {"text": prompt_msg, "object_index": next_idx}
+                            if prompt_audio:
+                                payload_response["audio"] = prompt_audio
+                            
+                            await ws.send_json({"type": "prompt_next", "payload": payload_response})
+                
+                except Exception as e:
+                    logging.error(f"Error generating plan from assignment: {e}")
+                    await send_status(f"Error starting assignment: {str(e)}", code="error")
 
             elif msg_type == "image":
                 data_url = payload.get("data_url")

@@ -5,9 +5,10 @@ import { StudentAssignment } from '@/hooks/useStudentData';
 
 interface StudentAssignmentsProps {
     assignments: StudentAssignment[];
+    onStartAssignment?: (assignment: StudentAssignment) => void;
 }
 
-export function StudentAssignments({ assignments }: StudentAssignmentsProps) {
+export function StudentAssignments({ assignments, onStartAssignment }: StudentAssignmentsProps) {
     return (
         <div className="space-y-6 animate-in fade-in-50 duration-500 pb-20">
             <div>
@@ -36,9 +37,9 @@ export function StudentAssignments({ assignments }: StudentAssignmentsProps) {
                                         </p>
                                     </div>
                                     <div className="flex flex-col gap-1.5 items-end">
-                                        {assignment.scene_id && (
+                                        {assignment.scene_name && (
                                             <span className="text-[10px] bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
-                                                Context Aware
+                                                Scene: {assignment.scene_name}
                                             </span>
                                         )}
                                         {assignment.include_grammar && assignment.grammar_tense && (
@@ -57,7 +58,10 @@ export function StudentAssignments({ assignments }: StudentAssignmentsProps) {
                                     ))}
                                 </div>
 
-                                <Button className="w-full rounded-xl h-11">
+                                <Button 
+                                    className="w-full rounded-xl h-11"
+                                    onClick={() => onStartAssignment?.(assignment)}
+                                >
                                     <Play size={16} className="mr-2" /> Start Assignment
                                 </Button>
                             </CardContent>
