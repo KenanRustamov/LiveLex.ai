@@ -64,6 +64,13 @@ export const teacherService = {
         return this.handleResponse(res, 'Failed to delete assignment');
     },
 
+    async getAssignment(id: string, email: string): Promise<Assignment> {
+        const res = await fetch(`${BACKEND_URL}/v1/assignments/${id}?email=${email}`, {
+            method: 'GET',
+        });
+        return this.handleResponse(res, 'Failed to fetch assignment');
+    },
+
     // Scenes
     async createScene(payload: CreateScenePayload): Promise<Scene> {
         const res = await fetch(`${BACKEND_URL}/v1/teacher/scenes`, {
@@ -88,5 +95,12 @@ export const teacherService = {
             method: 'DELETE',
         });
         return this.handleResponse(res, 'Failed to delete scene');
+    },
+
+    async getScene(id: string, email: string): Promise<Scene> {
+        const res = await fetch(`${BACKEND_URL}/v1/teacher/scenes/${id}?email=${email}`, {
+            method: 'GET',
+        });
+        return this.handleResponse(res, 'Failed to fetch scene');
     }
 };
