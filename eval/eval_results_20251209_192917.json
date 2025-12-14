@@ -1,0 +1,872 @@
+{
+  "backend": "http://localhost:8000",
+  "scene_objects": {
+    "precision": 0.9387755102040817,
+    "recall": 0.7419354838709677,
+    "f1": 0.828828828828829,
+    "tp": 46,
+    "fp": 3,
+    "fn": 16,
+    "scene_exact_match": 0.14285714285714285,
+    "num_scenes": 7,
+    "example_errors": [
+      {
+        "scene_id": "scene_001",
+        "gt_actionable": [
+          "bracelet",
+          "chips",
+          "fruit cup",
+          "headphones",
+          "keyboard",
+          "laptop",
+          "lock",
+          "mouse",
+          "tape",
+          "thermometer",
+          "wallet",
+          "watch"
+        ],
+        "predicted": [
+          "chips",
+          "keyboard",
+          "mouse",
+          "wallet",
+          "headphones",
+          "bracelet",
+          "tape",
+          "thermometer",
+          "lock"
+        ],
+        "matched": [
+          "bracelet",
+          "chips",
+          "headphones",
+          "keyboard",
+          "lock",
+          "mouse",
+          "tape",
+          "thermometer",
+          "wallet"
+        ],
+        "extra": [],
+        "missing": [
+          "fruit cup",
+          "laptop",
+          "watch"
+        ]
+      },
+      {
+        "scene_id": "scene_002",
+        "gt_actionable": [
+          "alfredo sauce",
+          "honey",
+          "lemon juice",
+          "pasta box",
+          "peanut butter",
+          "tomato sauce"
+        ],
+        "predicted": [
+          "pasta",
+          "lemon juice",
+          "garlic sauce",
+          "peanut butter",
+          "honey"
+        ],
+        "matched": [
+          "honey",
+          "lemon juice",
+          "pasta box",
+          "peanut butter"
+        ],
+        "extra": [
+          "garlic sauce"
+        ],
+        "missing": [
+          "alfredo sauce",
+          "tomato sauce"
+        ]
+      },
+      {
+        "scene_id": "scene_004",
+        "gt_actionable": [
+          "aluminum foil",
+          "bowl",
+          "cutting board",
+          "metal spatula",
+          "plastic fork",
+          "plate",
+          "rubber spatula",
+          "scissors",
+          "soap",
+          "sponge",
+          "spoon"
+        ],
+        "predicted": [
+          "sponge",
+          "dish soap",
+          "bowl",
+          "plate",
+          "spatula",
+          "measuring spoon",
+          "aluminum foil"
+        ],
+        "matched": [
+          "aluminum foil",
+          "bowl",
+          "plate",
+          "rubber spatula",
+          "soap",
+          "sponge"
+        ],
+        "extra": [
+          "measuring spoon"
+        ],
+        "missing": [
+          "cutting board",
+          "metal spatula",
+          "plastic fork",
+          "scissors",
+          "spoon"
+        ]
+      },
+      {
+        "scene_id": "scene_005",
+        "gt_actionable": [
+          "blue drink",
+          "keys",
+          "metal bottle",
+          "metal fork",
+          "metal spoon",
+          "napkin",
+          "red drink",
+          "soap",
+          "tissues",
+          "umbrella",
+          "water bottle"
+        ],
+        "predicted": [
+          "water bottle",
+          "tissue box",
+          "water bottle",
+          "sports drink",
+          "hand sanitizer",
+          "spoon",
+          "fork",
+          "napkin",
+          "keys",
+          "umbrella"
+        ],
+        "matched": [
+          "blue drink",
+          "keys",
+          "metal bottle",
+          "metal fork",
+          "metal spoon",
+          "napkin",
+          "soap",
+          "tissues",
+          "umbrella"
+        ],
+        "extra": [
+          "water bottle (duplicate)"
+        ],
+        "missing": [
+          "red drink",
+          "water bottle"
+        ]
+      },
+      {
+        "scene_id": "scene_006",
+        "gt_actionable": [
+          "book",
+          "brush",
+          "cube",
+          "cup",
+          "marker",
+          "pen",
+          "pencil",
+          "toothbrush"
+        ],
+        "predicted": [
+          "book",
+          "pen",
+          "toothbrush",
+          "hairbrush",
+          "pencil",
+          "cube"
+        ],
+        "matched": [
+          "book",
+          "brush",
+          "cube",
+          "pen",
+          "pencil",
+          "toothbrush"
+        ],
+        "extra": [],
+        "missing": [
+          "cup",
+          "marker"
+        ]
+      },
+      {
+        "scene_id": "scene_007",
+        "gt_actionable": [
+          "controller",
+          "eraser",
+          "glasses",
+          "glue stick",
+          "laptop",
+          "phone",
+          "scissors",
+          "stapler",
+          "sunglasses"
+        ],
+        "predicted": [
+          "phone",
+          "stapler",
+          "eraser",
+          "glasses",
+          "glue",
+          "scissors",
+          "controller"
+        ],
+        "matched": [
+          "controller",
+          "eraser",
+          "glasses",
+          "glue stick",
+          "phone",
+          "scissors",
+          "stapler"
+        ],
+        "extra": [],
+        "missing": [
+          "laptop",
+          "sunglasses"
+        ]
+      }
+    ],
+    "all_errors": [
+      {
+        "scene_id": "scene_001",
+        "gt_actionable": [
+          "bracelet",
+          "chips",
+          "fruit cup",
+          "headphones",
+          "keyboard",
+          "laptop",
+          "lock",
+          "mouse",
+          "tape",
+          "thermometer",
+          "wallet",
+          "watch"
+        ],
+        "predicted": [
+          "chips",
+          "keyboard",
+          "mouse",
+          "wallet",
+          "headphones",
+          "bracelet",
+          "tape",
+          "thermometer",
+          "lock"
+        ],
+        "matched": [
+          "bracelet",
+          "chips",
+          "headphones",
+          "keyboard",
+          "lock",
+          "mouse",
+          "tape",
+          "thermometer",
+          "wallet"
+        ],
+        "extra": [],
+        "missing": [
+          "fruit cup",
+          "laptop",
+          "watch"
+        ]
+      },
+      {
+        "scene_id": "scene_002",
+        "gt_actionable": [
+          "alfredo sauce",
+          "honey",
+          "lemon juice",
+          "pasta box",
+          "peanut butter",
+          "tomato sauce"
+        ],
+        "predicted": [
+          "pasta",
+          "lemon juice",
+          "garlic sauce",
+          "peanut butter",
+          "honey"
+        ],
+        "matched": [
+          "honey",
+          "lemon juice",
+          "pasta box",
+          "peanut butter"
+        ],
+        "extra": [
+          "garlic sauce"
+        ],
+        "missing": [
+          "alfredo sauce",
+          "tomato sauce"
+        ]
+      },
+      {
+        "scene_id": "scene_004",
+        "gt_actionable": [
+          "aluminum foil",
+          "bowl",
+          "cutting board",
+          "metal spatula",
+          "plastic fork",
+          "plate",
+          "rubber spatula",
+          "scissors",
+          "soap",
+          "sponge",
+          "spoon"
+        ],
+        "predicted": [
+          "sponge",
+          "dish soap",
+          "bowl",
+          "plate",
+          "spatula",
+          "measuring spoon",
+          "aluminum foil"
+        ],
+        "matched": [
+          "aluminum foil",
+          "bowl",
+          "plate",
+          "rubber spatula",
+          "soap",
+          "sponge"
+        ],
+        "extra": [
+          "measuring spoon"
+        ],
+        "missing": [
+          "cutting board",
+          "metal spatula",
+          "plastic fork",
+          "scissors",
+          "spoon"
+        ]
+      },
+      {
+        "scene_id": "scene_005",
+        "gt_actionable": [
+          "blue drink",
+          "keys",
+          "metal bottle",
+          "metal fork",
+          "metal spoon",
+          "napkin",
+          "red drink",
+          "soap",
+          "tissues",
+          "umbrella",
+          "water bottle"
+        ],
+        "predicted": [
+          "water bottle",
+          "tissue box",
+          "water bottle",
+          "sports drink",
+          "hand sanitizer",
+          "spoon",
+          "fork",
+          "napkin",
+          "keys",
+          "umbrella"
+        ],
+        "matched": [
+          "blue drink",
+          "keys",
+          "metal bottle",
+          "metal fork",
+          "metal spoon",
+          "napkin",
+          "soap",
+          "tissues",
+          "umbrella"
+        ],
+        "extra": [
+          "water bottle (duplicate)"
+        ],
+        "missing": [
+          "red drink",
+          "water bottle"
+        ]
+      },
+      {
+        "scene_id": "scene_006",
+        "gt_actionable": [
+          "book",
+          "brush",
+          "cube",
+          "cup",
+          "marker",
+          "pen",
+          "pencil",
+          "toothbrush"
+        ],
+        "predicted": [
+          "book",
+          "pen",
+          "toothbrush",
+          "hairbrush",
+          "pencil",
+          "cube"
+        ],
+        "matched": [
+          "book",
+          "brush",
+          "cube",
+          "pen",
+          "pencil",
+          "toothbrush"
+        ],
+        "extra": [],
+        "missing": [
+          "cup",
+          "marker"
+        ]
+      },
+      {
+        "scene_id": "scene_007",
+        "gt_actionable": [
+          "controller",
+          "eraser",
+          "glasses",
+          "glue stick",
+          "laptop",
+          "phone",
+          "scissors",
+          "stapler",
+          "sunglasses"
+        ],
+        "predicted": [
+          "phone",
+          "stapler",
+          "eraser",
+          "glasses",
+          "glue",
+          "scissors",
+          "controller"
+        ],
+        "matched": [
+          "controller",
+          "eraser",
+          "glasses",
+          "glue stick",
+          "phone",
+          "scissors",
+          "stapler"
+        ],
+        "extra": [],
+        "missing": [
+          "laptop",
+          "sunglasses"
+        ]
+      }
+    ]
+  },
+  "action_judgment": {
+    "num_examples": 124,
+    "skipped_examples": 0,
+    "accuracy": 0.9596774193548387,
+    "precision": 1.0,
+    "recall": 0.9193548387096774,
+    "f1": 0.9579831932773109,
+    "tp": 57,
+    "fp": 0,
+    "fn": 5,
+    "tn": 62,
+    "error_examples": {
+      "false_positives": [],
+      "false_negatives": [
+        {
+          "example_id": "scene_004_soap_pickup",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
+          "prompt_en": "Pick up the soap.",
+          "ground_truth_correct": true,
+          "predicted_correct": false
+        },
+        {
+          "example_id": "scene_005_soap_pickup",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
+          "prompt_en": "Pick up the soap.",
+          "ground_truth_correct": true,
+          "predicted_correct": false
+        },
+        {
+          "example_id": "scene_005_metalbottle_pickup",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
+          "prompt_en": "Pick up the metal bottle.",
+          "ground_truth_correct": true,
+          "predicted_correct": false
+        },
+        {
+          "example_id": "scene_006_pencil_pickup",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
+          "prompt_en": "Pick up the pencil.",
+          "ground_truth_correct": true,
+          "predicted_correct": false
+        },
+        {
+          "example_id": "scene_007_eraser_pickup",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_7_tabletop4.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\eraser_7.png",
+          "prompt_en": "Pick up the eraser.",
+          "ground_truth_correct": true,
+          "predicted_correct": false
+        }
+      ]
+    },
+    "all_false_positives": [],
+    "all_false_negatives": [
+      {
+        "example_id": "scene_004_soap_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
+        "prompt_en": "Pick up the soap.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      },
+      {
+        "example_id": "scene_005_soap_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
+        "prompt_en": "Pick up the soap.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      },
+      {
+        "example_id": "scene_005_metalbottle_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
+        "prompt_en": "Pick up the metal bottle.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      },
+      {
+        "example_id": "scene_006_pencil_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
+        "prompt_en": "Pick up the pencil.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      },
+      {
+        "example_id": "scene_007_eraser_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_7_tabletop4.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\eraser_7.png",
+        "prompt_en": "Pick up the eraser.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      }
+    ]
+  },
+  "scene_errors": [
+    {
+      "scene_id": "scene_001",
+      "gt_actionable": [
+        "bracelet",
+        "chips",
+        "fruit cup",
+        "headphones",
+        "keyboard",
+        "laptop",
+        "lock",
+        "mouse",
+        "tape",
+        "thermometer",
+        "wallet",
+        "watch"
+      ],
+      "predicted": [
+        "chips",
+        "keyboard",
+        "mouse",
+        "wallet",
+        "headphones",
+        "bracelet",
+        "tape",
+        "thermometer",
+        "lock"
+      ],
+      "matched": [
+        "bracelet",
+        "chips",
+        "headphones",
+        "keyboard",
+        "lock",
+        "mouse",
+        "tape",
+        "thermometer",
+        "wallet"
+      ],
+      "extra": [],
+      "missing": [
+        "fruit cup",
+        "laptop",
+        "watch"
+      ]
+    },
+    {
+      "scene_id": "scene_002",
+      "gt_actionable": [
+        "alfredo sauce",
+        "honey",
+        "lemon juice",
+        "pasta box",
+        "peanut butter",
+        "tomato sauce"
+      ],
+      "predicted": [
+        "pasta",
+        "lemon juice",
+        "garlic sauce",
+        "peanut butter",
+        "honey"
+      ],
+      "matched": [
+        "honey",
+        "lemon juice",
+        "pasta box",
+        "peanut butter"
+      ],
+      "extra": [
+        "garlic sauce"
+      ],
+      "missing": [
+        "alfredo sauce",
+        "tomato sauce"
+      ]
+    },
+    {
+      "scene_id": "scene_004",
+      "gt_actionable": [
+        "aluminum foil",
+        "bowl",
+        "cutting board",
+        "metal spatula",
+        "plastic fork",
+        "plate",
+        "rubber spatula",
+        "scissors",
+        "soap",
+        "sponge",
+        "spoon"
+      ],
+      "predicted": [
+        "sponge",
+        "dish soap",
+        "bowl",
+        "plate",
+        "spatula",
+        "measuring spoon",
+        "aluminum foil"
+      ],
+      "matched": [
+        "aluminum foil",
+        "bowl",
+        "plate",
+        "rubber spatula",
+        "soap",
+        "sponge"
+      ],
+      "extra": [
+        "measuring spoon"
+      ],
+      "missing": [
+        "cutting board",
+        "metal spatula",
+        "plastic fork",
+        "scissors",
+        "spoon"
+      ]
+    },
+    {
+      "scene_id": "scene_005",
+      "gt_actionable": [
+        "blue drink",
+        "keys",
+        "metal bottle",
+        "metal fork",
+        "metal spoon",
+        "napkin",
+        "red drink",
+        "soap",
+        "tissues",
+        "umbrella",
+        "water bottle"
+      ],
+      "predicted": [
+        "water bottle",
+        "tissue box",
+        "water bottle",
+        "sports drink",
+        "hand sanitizer",
+        "spoon",
+        "fork",
+        "napkin",
+        "keys",
+        "umbrella"
+      ],
+      "matched": [
+        "blue drink",
+        "keys",
+        "metal bottle",
+        "metal fork",
+        "metal spoon",
+        "napkin",
+        "soap",
+        "tissues",
+        "umbrella"
+      ],
+      "extra": [
+        "water bottle (duplicate)"
+      ],
+      "missing": [
+        "red drink",
+        "water bottle"
+      ]
+    },
+    {
+      "scene_id": "scene_006",
+      "gt_actionable": [
+        "book",
+        "brush",
+        "cube",
+        "cup",
+        "marker",
+        "pen",
+        "pencil",
+        "toothbrush"
+      ],
+      "predicted": [
+        "book",
+        "pen",
+        "toothbrush",
+        "hairbrush",
+        "pencil",
+        "cube"
+      ],
+      "matched": [
+        "book",
+        "brush",
+        "cube",
+        "pen",
+        "pencil",
+        "toothbrush"
+      ],
+      "extra": [],
+      "missing": [
+        "cup",
+        "marker"
+      ]
+    },
+    {
+      "scene_id": "scene_007",
+      "gt_actionable": [
+        "controller",
+        "eraser",
+        "glasses",
+        "glue stick",
+        "laptop",
+        "phone",
+        "scissors",
+        "stapler",
+        "sunglasses"
+      ],
+      "predicted": [
+        "phone",
+        "stapler",
+        "eraser",
+        "glasses",
+        "glue",
+        "scissors",
+        "controller"
+      ],
+      "matched": [
+        "controller",
+        "eraser",
+        "glasses",
+        "glue stick",
+        "phone",
+        "scissors",
+        "stapler"
+      ],
+      "extra": [],
+      "missing": [
+        "laptop",
+        "sunglasses"
+      ]
+    }
+  ],
+  "action_errors": {
+    "false_positives": [],
+    "false_negatives": [
+      {
+        "example_id": "scene_004_soap_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
+        "prompt_en": "Pick up the soap.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      },
+      {
+        "example_id": "scene_005_soap_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
+        "prompt_en": "Pick up the soap.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      },
+      {
+        "example_id": "scene_005_metalbottle_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
+        "prompt_en": "Pick up the metal bottle.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      },
+      {
+        "example_id": "scene_006_pencil_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
+        "prompt_en": "Pick up the pencil.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      },
+      {
+        "example_id": "scene_007_eraser_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_7_tabletop4.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\eraser_7.png",
+        "prompt_en": "Pick up the eraser.",
+        "ground_truth_correct": true,
+        "predicted_correct": false
+      }
+    ]
+  }
+}

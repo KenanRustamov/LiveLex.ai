@@ -1,13 +1,12 @@
-# eval/run_eval.py
-
 import argparse
 import asyncio
 import json
 import os
 from pathlib import Path
 from typing import Any, Dict, List, Tuple
-
+import time
 import httpx
+import random
 
 from Data import dataset_loader
 
@@ -19,6 +18,16 @@ EVAL_ROOT = Path(__file__).resolve().parent
 REPO_ROOT = EVAL_ROOT.parent
 DATA_ROOT = EVAL_ROOT / "Data"
 
+# Limit concurrency to avoid overloading the backend
+REQUEST_LIMIT = 2
+semaphore = asyncio.Semaphore(REQUEST_LIMIT)
+
+def save_results(results: dict, prefix: str = "eval_results"):
+    ts = time.strftime("%Y%m%d_%H%M%S")
+    out_path = f"{prefix}_{ts}.json"
+    with open(out_path, "w") as f:
+        json.dump(results, f, indent=2)
+    print(f"[saved] Results written to {out_path}")
 
 def safe_get_attr(obj: Any, *names: str) -> Any:
     """
@@ -204,6 +213,7 @@ async def evaluate_scene_objects(
         "scene_exact_match": scene_exact,
         "num_scenes": num_scenes,
         "example_errors": example_errors,
+        "all_errors": per_scene_errors
     }
 
 
@@ -219,6 +229,28 @@ async def evaluate_action_judgment(
     """
     scene_by_id = {safe_get_attr(s, "scene_id"): s for s in scenes}
     examples = dataset_loader.load_action_examples()
+    # ---- Create negative (scrambled) examples ----
+    negative_examples = []
+
+    for ex in examples:
+        # pick a different example to mismatch with
+        wrong_ex = random.choice(examples)
+        while wrong_ex.scene_id == ex.scene_id and wrong_ex.action_image_path == ex.action_image_path:
+            wrong_ex = random.choice(examples)
+
+        neg = {
+            "example_id": ex.example_id + "_neg",
+            "scene_id": ex.scene_id,
+            "scene_image":ex.scene_image_path,       # original scene
+            "action_image": wrong_ex.action_image_path,  # mismatched
+            "target_object_id": ex.target_object_id,
+            "prompt_en": ex.prompt_en,
+            "correct": False,  # negative label
+        }
+        negative_examples.append(neg)
+
+    # Merge positives + negatives
+    examples = examples + negative_examples
 
     if max_examples is not None:
         examples = examples[:max_examples]
@@ -343,6 +375,8 @@ async def evaluate_action_judgment(
             "false_positives": fp_examples,
             "false_negatives": fn_examples,
         },
+        "all_false_positives": fp_examples,
+        "all_false_negatives": fn_examples,
     }
 
 
@@ -362,12 +396,27 @@ async def main(args: argparse.Namespace):
             max_examples=args.max_actions,
         )
 
-    result = {
+    # Combine final results
+    final_results = {
         "backend": DEFAULT_BACKEND,
         "scene_objects": scene_metrics,
         "action_judgment": action_metrics,
+
+        "scene_errors": scene_metrics.get("all_errors", []),
+        "action_errors": {
+            "false_positives": action_metrics.get("all_false_positives", []),
+            "false_negatives": action_metrics.get("all_false_negatives", []),
+        },
     }
-    print(json.dumps(result, indent=2))
+
+
+    # Print to console
+    print(json.dumps(final_results, indent=2))
+
+    # Save to timestamped JSON file
+    save_results(final_results)
+
+
 
 
 if __name__ == "__main__":
