@@ -119,7 +119,10 @@ def session_state_to_lesson_state(
         "item_attempts": session_state.item_attempts.copy() if session_state.item_attempts else {},
         "item_hints_used": session_state.item_hints_used.copy() if session_state.item_hints_used else {},
         "item_gave_up": session_state.item_gave_up.copy() if session_state.item_gave_up else {},
+        "item_skipped": session_state.item_skipped.copy() if session_state.item_skipped else {},
+        "item_grammar_person": session_state.item_grammar_person.copy() if session_state.item_grammar_person else {},
         "waiting_for_repeat": session_state.waiting_for_repeat,
+        "welcome_instructions_sent": session_state.welcome_instructions_sent,
         "lesson_state": "PROMPT_USER",  # Default starting state
         "target_language": target_language,
         "source_language": source_language,
@@ -154,7 +157,10 @@ def lesson_state_to_session_state(
     session_state.item_attempts = lesson_state.get("item_attempts", {}).copy()
     session_state.item_hints_used = lesson_state.get("item_hints_used", {}).copy()
     session_state.item_gave_up = lesson_state.get("item_gave_up", {}).copy()
+    session_state.item_skipped = lesson_state.get("item_skipped", {}).copy()
+    session_state.item_grammar_person = lesson_state.get("item_grammar_person", {}).copy()
     session_state.waiting_for_repeat = lesson_state.get("waiting_for_repeat", False)
+    session_state.welcome_instructions_sent = lesson_state.get("welcome_instructions_sent", False)
     
     # Update grammar/practice settings (they might change per request, though typically stable per lesson)
     # Right now exists as a toggle in free practice so a user can change mid-lesson
@@ -186,7 +192,7 @@ async def invoke_lesson_graph(
     Returns:
         Updated LessonState dictionary
     """
-    from app.routers.lesson_graph import create_lesson_graph, evaluate_node, feedback_node, prompt_user_node
+    from app.routers.lesson_graph import create_lesson_graph, evaluate_node, feedback_node, prompt_user_node, send_welcome_instructions
     
     try:
         if entry_node == "evaluate":
@@ -204,6 +210,10 @@ async def invoke_lesson_graph(
             
             return state
         else:
+            # Send welcome instructions before first prompt (if not already sent)
+            if not state.get("welcome_instructions_sent", False):
+                state = await send_welcome_instructions(state, ws)
+            
             # Default: use graph starting from entry point (prompt_user)
             graph = create_lesson_graph(ws=ws)
             result = await graph.ainvoke(state)
@@ -231,6 +241,7 @@ async def generate_prompt_message(
     max_attempts: int = 3,
     grammar_mode: str = "vocab",
     grammar_tense: str = "none",
+    grammar_person: Optional[str] = None,
     state: Optional[SessionState] = None
 ) -> str:
     """Generate a prompt message asking user to interact with an object.
@@ -243,11 +254,17 @@ async def generate_prompt_message(
         max_attempts: Maximum attempts allowed (default 3)
         grammar_mode: Practice mode ("vocab" or "grammar")
         grammar_tense: Grammar tense ("present indicative" or "preterite")
+        grammar_person: Grammatical person for grammar mode (e.g., "first_singular")
         state: Optional session state for tracking
     """
+    from app.routers.lesson_graph import GRAMMAR_PERSON_LABELS
+    
     session_id = state.session_id if state else None
     username = state.username if state else None
     is_retry = attempt_number > 1
+    
+    # Get human-readable label for grammar person
+    grammar_person_label = GRAMMAR_PERSON_LABELS.get(grammar_person, grammar_person) if grammar_person else "none"
     
     async with track_performance(
         operation_type="prompt_generation",
@@ -261,6 +278,7 @@ async def generate_prompt_message(
             "max_attempts": max_attempts,
             "grammar_mode": grammar_mode,
             "grammar_tense": grammar_tense,
+            "grammar_person": grammar_person,
         }
     ):
         prompt_value = prompt_next_object.invoke({
@@ -274,6 +292,7 @@ async def generate_prompt_message(
             "is_retry": is_retry,
             "grammar_mode": grammar_mode,
             "grammar_tense": grammar_tense,
+            "grammar_person": grammar_person_label,
         })
         llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
         messages = prompt_value.to_messages()
@@ -431,24 +450,45 @@ async def process_audio_image_pair(
 
 def generate_summary(
     plan: Plan, 
-    completed_objects: list[tuple[int, bool]], 
+    completed_objects: list[tuple[int, bool | None]], 
     dialogue_entries: list[dict], 
     item_attempts: dict[int, int] = None,
     item_hints_used: dict[int, int] = None,
-    item_gave_up: dict[int, int] = None
+    item_gave_up: dict[int, int] = None,
+    item_skipped: dict[int, bool] = None
 ) -> dict:
-    """Generate lesson summary from completed objects and dialogue history."""
+    """Generate lesson summary from completed objects and dialogue history.
+    
+    Args:
+        plan: The lesson plan
+        completed_objects: List of (index, correct) tuples. correct can be True, False, or None (skipped)
+        dialogue_entries: List of dialogue entries
+        item_attempts: Dict mapping object index to attempt count
+        item_hints_used: Dict mapping object index to hints used
+        item_gave_up: Dict mapping object index to gave up count
+        item_skipped: Dict mapping object index to skipped status (True if user said "don't have")
+    """
     if item_attempts is None:
         item_attempts = {}
     if item_hints_used is None:
         item_hints_used = {}
     if item_gave_up is None:
         item_gave_up = {}
+    if item_skipped is None:
+        item_skipped = {}
     
     summary_items = []
+    correct_count = 0
+    incorrect_count = 0
+    skipped_count = 0
+    
     for idx, correct in completed_objects:
         if idx < len(plan.objects):
             obj = plan.objects[idx]
+            
+            # Check if this object was skipped (user said "don't have")
+            is_skipped = item_skipped.get(idx, False) or correct is None
+            
             # collect all attempts for this object
             attempts: list[dict] = []
             for entry in dialogue_entries:
@@ -463,8 +503,8 @@ def generate_summary(
             # choose a representative "user_said" string for backwards compatibility
             user_text = attempts[-1]["text"] if attempts else ""
             
-            # Get attempt count for this item (default to 1 if not tracked)
-            attempt_count = item_attempts.get(idx, 1)
+            # Get attempt count for this item (default to 1 if not tracked, 0 if skipped)
+            attempt_count = item_attempts.get(idx, 0 if is_skipped else 1)
             hints_used = item_hints_used.get(idx, 0)
             gave_up = item_gave_up.get(idx, 0) > 0  # Convert to boolean
             
@@ -474,19 +514,29 @@ def generate_summary(
                     "target_name": obj.target_name,
                     "action": obj.action,
                 },
-                "correct": correct,
+                "correct": correct if not is_skipped else None,
+                "skipped": is_skipped,
                 "user_said": user_text,
                 "correct_word": obj.target_name,
                 "attempts": attempt_count,
                 "hints_used": hints_used,
                 "gave_up": gave_up,
             })
+            
+            # Update counts
+            if is_skipped:
+                skipped_count += 1
+            elif correct:
+                correct_count += 1
+            else:
+                incorrect_count += 1
     
     return {
         "items": summary_items,
         "total": len(summary_items),
-        "correct_count": sum(1 for _, correct in completed_objects if correct),
-        "incorrect_count": sum(1 for _, correct in completed_objects if not correct),
+        "correct_count": correct_count,
+        "incorrect_count": incorrect_count,
+        "skipped_count": skipped_count,
     }
 
 def save_user_lesson(username: str, session_id: str, summary: dict, output_path: str = "data/user_data/user_lessons.json"):
@@ -597,7 +647,10 @@ class SessionState:
         self.item_attempts: dict[int, int] = {}  # tracks attempts per item index
         self.item_hints_used: dict[int, int] = {}  # tracks hints used per item (max 2)
         self.item_gave_up: dict[int, int] = {}  # tracks "don't know" count per item (max 2)
+        self.item_skipped: dict[int, bool] = {}  # tracks objects skipped due to "don't have" (no penalty)
+        self.item_grammar_person: dict[int, str] = {}  # tracks grammar person per object for grammar mode
         self.waiting_for_repeat: bool = False  # flag when waiting for user to repeat after being given answer
+        self.welcome_instructions_sent: bool = False  # flag when initial session instructions have been sent
         self.dialogue_history: list[dict[str, Any]] = []
         self.lesson_saved: bool = False
         # pending audio/image pairing
@@ -780,6 +833,7 @@ async def detect_user_intent(
     Returns:
         "hint_request": User is asking for a hint
         "dont_know": User doesn't know the answer or wants the answer
+        "no_object": User doesn't have the object being asked about
         "answer_attempt": User is attempting to say the word
     """
     if not transcription:
@@ -795,6 +849,19 @@ async def detect_user_intent(
 
     if any(keyword in text_lower for keyword in hint_keywords):
         return "hint_request"
+    
+    # Check for "don't have object" - must check before "don't know" to avoid false positives
+    no_object_keywords = [
+        "don't have", "dont have", "do not have", "i don't have",
+        "no tengo", "can't find", "cannot find", "not here",
+        "don't have that", "don't have it", "don't have one",
+        "i don't have that", "i don't have it", "i don't have one",
+        "don't see it", "can't see it", "don't see that",
+        "no lo tengo", "no está aquí", "no lo veo"
+    ]
+
+    if any(keyword in text_lower for keyword in no_object_keywords):
+        return "no_object"
     
     # Check for "don't know" / give up
     dont_know_keywords = [
@@ -822,7 +889,7 @@ async def detect_user_intent_with_llm(
     """Detect user intent using LLM with conversation context.
 
     Returns:
-        "hint_request", "dont_know", or "answer_attempt"
+        "hint_request", "dont_know", "no_object", or "answer_attempt"
     """
     if not settings.openai_api_key:
         logging.warning("OpenAI API key not available for LLM intent detection, defaulting to answer_attempt")
@@ -850,7 +917,7 @@ async def detect_user_intent_with_llm(
         intent = response.content.strip().lower()
         
         # Ensure it's one of the valid intents
-        if intent in ["hint_request", "dont_know", "answer_attempt"]:
+        if intent in ["hint_request", "dont_know", "no_object", "answer_attempt"]:
             return intent
         else:
             logging.warning(f"LLM returned invalid intent '{intent}', defaulting to answer_attempt")
@@ -869,15 +936,20 @@ async def generate_hint(
     hint_number: int,
     grammar_mode: str = "vocab",
     grammar_tense: str = "none",
+    grammar_person: Optional[str] = None,
     state: Optional[SessionState] = None
 ) -> str:
     """Generate a hint for a word using LLM."""
+    from app.routers.lesson_graph import GRAMMAR_PERSON_LABELS
     
     if not settings.openai_api_key:
         return f"Hint: The word starts with '{object.target_name[0]}'."
     
     session_id = state.session_id if state else None
     username = state.username if state else None
+    
+    # Get human-readable label for grammar person
+    grammar_person_label = GRAMMAR_PERSON_LABELS.get(grammar_person, grammar_person) if grammar_person else "none"
     
     try:
         async with track_performance(
@@ -895,6 +967,7 @@ async def generate_hint(
                 "hint_number": hint_number,
                 "grammar_mode": grammar_mode,
                 "grammar_tense": grammar_tense,
+                "grammar_person": grammar_person_label,
             })
             
             llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
@@ -916,6 +989,7 @@ async def give_answer_with_memory_aid(
     source_language: str,
     grammar_mode: str = "vocab",
     grammar_tense: str = "none",
+    grammar_person: Optional[str] = None,
     state: Optional[SessionState] = None
 ) -> str:
     """Give the answer with a memory aid to help student remember.
@@ -925,17 +999,23 @@ async def give_answer_with_memory_aid(
         target_language: Target language
         source_language: Source language
         grammar_mode: Practice mode ("vocab" or "grammar")
-        grammar_tense: Grammar tense ("present indactive" or "preterite" if grammar_mode="grammar")
+        grammar_tense: Grammar tense ("present indicative" or "preterite" if grammar_mode="grammar")
+        grammar_person: Grammatical person for grammar mode (e.g., "first_singular")
         state: Optional session state for tracking
         
     Returns:
         Message with answer and memory aid
     """
+    from app.routers.lesson_graph import GRAMMAR_PERSON_LABELS
+    
     if not settings.openai_api_key:
         return f"The correct answer is '{object.target_name}'. Please repeat: {object.target_name}"
     
     session_id = state.session_id if state else None
     username = state.username if state else None
+    
+    # Get human-readable label for grammar person
+    grammar_person_label = GRAMMAR_PERSON_LABELS.get(grammar_person, grammar_person) if grammar_person else "none"
     
     try:
         async with track_performance(
@@ -952,6 +1032,7 @@ async def give_answer_with_memory_aid(
                 "source_language": source_language,
                 "grammar_mode": grammar_mode,
                 "grammar_tense": grammar_tense,
+                "grammar_person": grammar_person_label,
             })
             
             llm = ChatOpenAI(model=settings.llm_model, api_key=settings.openai_api_key)
@@ -975,6 +1056,7 @@ async def evaluate_response(
     max_attempts: int = 3,
     grammar_mode: str = "vocab",
     grammar_tense: str = "none",
+    grammar_person: Optional[str] = None,
     is_last_object: bool = False,
     state: Optional[SessionState] = None,
 ) -> EvaluationResult:
@@ -991,14 +1073,20 @@ async def evaluate_response(
         max_attempts: Maximum attempts allowed (default 3)
         grammar_mode: Practice mode ("vocab" or "grammar")
         grammar_tense: Grammar tense ("present indicative" or "preterite")
+        grammar_person: Grammatical person for grammar mode (e.g., "first_singular")
         is_last_object: Whether this is the last object in the lesson (default False)
         state: Optional session state for tracking
     """
+    from app.routers.lesson_graph import GRAMMAR_PERSON_LABELS
+    
     if not settings.openai_api_key:
         raise HTTPException(status_code=500, detail="Missing OPENAI_API_KEY")
 
     session_id = state.session_id if state else None
     username = state.username if state else None
+    
+    # Get human-readable label for grammar person
+    grammar_person_label = GRAMMAR_PERSON_LABELS.get(grammar_person, grammar_person) if grammar_person else "none"
 
     prompt_value = evaluate_response_prompt.invoke({
         "object_source_name": current_object.source_name,
@@ -1010,6 +1098,7 @@ async def evaluate_response(
         "max_attempts": max_attempts,
         "grammar_mode": grammar_mode,
         "grammar_tense": grammar_tense,
+        "grammar_person": grammar_person_label,
         "is_last_object": is_last_object,
     })
     system_msg = prompt_value.to_messages()[0]
@@ -1072,6 +1161,7 @@ async def evaluate_response(
         transcription=transcription,
         error_category=result.error_category,
         attempt_number=attempt_number,
+        grammar_person=grammar_person,
     )
 
 

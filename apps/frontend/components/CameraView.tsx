@@ -89,7 +89,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
   const [utteranceId, setUtteranceId] = useState<string | null>(null);
   const [speechReal, setSpeechReal] = useState<boolean>(false);
   const [planReceived, setPlanReceived] = useState<boolean>(false);
-  const [evaluationResults, setEvaluationResults] = useState<Map<number, { correct: boolean; feedback: string; correct_word: string }>>(new Map());
+  const [evaluationResults, setEvaluationResults] = useState<Map<number, { correct: boolean; feedback: string; correct_word: string; skipped?: boolean }>>(new Map());
   const [lessonSummary, setLessonSummary] = useState<any>(null);
   const [pendingCameraRestart, setPendingCameraRestart] = useState<boolean>(false);
 
@@ -263,6 +263,37 @@ export default function CameraView({ settings, username, onClose }: { settings: 
               setIsPlanLoading(false);
               setShowCapturePrompt(false);
               setPlanReceived(true);
+              break;
+            }
+            case 'welcome_instructions': {
+              const text: string = msg.payload?.text ?? '';
+              if (text) {
+                setTranscripts(prev => [...prev, { speaker: 'LLM', text }]);
+              }
+              const audio: string | undefined = msg.payload?.audio;
+              if (audio) {
+                playAudioFromBase64(audio);
+              }
+              break;
+            }
+            case 'object_skipped': {
+              const text: string = msg.payload?.text ?? '';
+              if (text) {
+                setTranscripts(prev => [...prev, { speaker: 'LLM', text }]);
+              }
+              const audio: string | undefined = msg.payload?.audio;
+              if (audio) {
+                playAudioFromBase64(audio);
+              }
+              // Mark the object as skipped in evaluation results
+              const objectIndex: number = msg.payload?.object_index ?? -1;
+              if (objectIndex >= 0) {
+                setEvaluationResults(prev => {
+                  const next = new Map(prev);
+                  next.set(objectIndex, { correct: false, feedback: text, correct_word: '', skipped: true });
+                  return next;
+                });
+              }
               break;
             }
             default:
