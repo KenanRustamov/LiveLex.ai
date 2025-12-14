@@ -1,12 +1,12 @@
 {
   "backend": "http://localhost:8000",
   "scene_objects": {
-    "precision": 0.92,
-    "recall": 0.7540983606557377,
-    "f1": 0.8288288288288288,
+    "precision": 0.9387755102040817,
+    "recall": 0.7419354838709677,
+    "f1": 0.828828828828829,
     "tp": 46,
-    "fp": 4,
-    "fn": 15,
+    "fp": 3,
+    "fn": 16,
     "scene_exact_match": 0.14285714285714285,
     "num_scenes": 7,
     "example_errors": [
@@ -31,14 +31,14 @@
           "keyboard",
           "mouse",
           "wallet",
-          "watch",
           "headphones",
+          "bracelet",
           "tape",
-          "lock",
           "thermometer",
-          "container"
+          "lock"
         ],
         "matched": [
+          "bracelet",
           "chips",
           "headphones",
           "keyboard",
@@ -46,16 +46,13 @@
           "mouse",
           "tape",
           "thermometer",
-          "wallet",
-          "watch"
+          "wallet"
         ],
-        "extra": [
-          "container"
-        ],
+        "extra": [],
         "missing": [
-          "bracelet",
           "fruit cup",
-          "laptop"
+          "laptop",
+          "watch"
         ]
       },
       {
@@ -71,19 +68,21 @@
         "predicted": [
           "pasta",
           "lemon juice",
-          "pasta sauce",
+          "garlic sauce",
           "peanut butter",
           "honey"
         ],
         "matched": [
-          "alfredo sauce",
           "honey",
           "lemon juice",
           "pasta box",
           "peanut butter"
         ],
-        "extra": [],
+        "extra": [
+          "garlic sauce"
+        ],
         "missing": [
+          "alfredo sauce",
           "tomato sauce"
         ]
       },
@@ -99,33 +98,35 @@
           "rubber spatula",
           "scissors",
           "soap",
+          "sponge",
           "spoon"
         ],
         "predicted": [
           "sponge",
+          "dish soap",
           "bowl",
           "plate",
           "spatula",
-          "aluminum foil",
-          "cutting board",
-          "spoon"
+          "measuring spoon",
+          "aluminum foil"
         ],
         "matched": [
           "aluminum foil",
           "bowl",
-          "cutting board",
           "plate",
           "rubber spatula",
-          "spoon"
-        ],
-        "extra": [
+          "soap",
           "sponge"
         ],
+        "extra": [
+          "measuring spoon"
+        ],
         "missing": [
+          "cutting board",
           "metal spatula",
           "plastic fork",
           "scissors",
-          "soap"
+          "spoon"
         ]
       },
       {
@@ -145,34 +146,33 @@
         ],
         "predicted": [
           "water bottle",
-          "plastic bottle",
-          "energy drink",
-          "hand sanitizer",
           "tissue box",
-          "umbrella",
-          "keys",
+          "water bottle",
+          "sports drink",
+          "hand sanitizer",
           "spoon",
           "fork",
-          "napkin"
+          "napkin",
+          "keys",
+          "umbrella"
         ],
         "matched": [
+          "blue drink",
           "keys",
           "metal bottle",
           "metal fork",
           "metal spoon",
           "napkin",
+          "soap",
           "tissues",
-          "umbrella",
-          "water bottle"
+          "umbrella"
         ],
         "extra": [
-          "energy drink",
-          "hand sanitizer"
+          "water bottle (duplicate)"
         ],
         "missing": [
-          "blue drink",
           "red drink",
-          "soap"
+          "water bottle"
         ]
       },
       {
@@ -189,11 +189,11 @@
         ],
         "predicted": [
           "book",
-          "toothbrush",
           "pen",
+          "toothbrush",
           "hairbrush",
           "pencil",
-          "rubik's cube"
+          "cube"
         ],
         "matched": [
           "book",
@@ -223,13 +223,13 @@
           "sunglasses"
         ],
         "predicted": [
+          "phone",
           "stapler",
-          "glasses",
           "eraser",
+          "glasses",
           "glue",
           "scissors",
-          "game controller",
-          "phone"
+          "controller"
         ],
         "matched": [
           "controller",
@@ -269,14 +269,14 @@
           "keyboard",
           "mouse",
           "wallet",
-          "watch",
           "headphones",
+          "bracelet",
           "tape",
-          "lock",
           "thermometer",
-          "container"
+          "lock"
         ],
         "matched": [
+          "bracelet",
           "chips",
           "headphones",
           "keyboard",
@@ -284,16 +284,13 @@
           "mouse",
           "tape",
           "thermometer",
-          "wallet",
-          "watch"
+          "wallet"
         ],
-        "extra": [
-          "container"
-        ],
+        "extra": [],
         "missing": [
-          "bracelet",
           "fruit cup",
-          "laptop"
+          "laptop",
+          "watch"
         ]
       },
       {
@@ -309,19 +306,21 @@
         "predicted": [
           "pasta",
           "lemon juice",
-          "pasta sauce",
+          "garlic sauce",
           "peanut butter",
           "honey"
         ],
         "matched": [
-          "alfredo sauce",
           "honey",
           "lemon juice",
           "pasta box",
           "peanut butter"
         ],
-        "extra": [],
+        "extra": [
+          "garlic sauce"
+        ],
         "missing": [
+          "alfredo sauce",
           "tomato sauce"
         ]
       },
@@ -337,33 +336,35 @@
           "rubber spatula",
           "scissors",
           "soap",
+          "sponge",
           "spoon"
         ],
         "predicted": [
           "sponge",
+          "dish soap",
           "bowl",
           "plate",
           "spatula",
-          "aluminum foil",
-          "cutting board",
-          "spoon"
+          "measuring spoon",
+          "aluminum foil"
         ],
         "matched": [
           "aluminum foil",
           "bowl",
-          "cutting board",
           "plate",
           "rubber spatula",
-          "spoon"
-        ],
-        "extra": [
+          "soap",
           "sponge"
         ],
+        "extra": [
+          "measuring spoon"
+        ],
         "missing": [
+          "cutting board",
           "metal spatula",
           "plastic fork",
           "scissors",
-          "soap"
+          "spoon"
         ]
       },
       {
@@ -383,34 +384,33 @@
         ],
         "predicted": [
           "water bottle",
-          "plastic bottle",
-          "energy drink",
-          "hand sanitizer",
           "tissue box",
-          "umbrella",
-          "keys",
+          "water bottle",
+          "sports drink",
+          "hand sanitizer",
           "spoon",
           "fork",
-          "napkin"
+          "napkin",
+          "keys",
+          "umbrella"
         ],
         "matched": [
+          "blue drink",
           "keys",
           "metal bottle",
           "metal fork",
           "metal spoon",
           "napkin",
+          "soap",
           "tissues",
-          "umbrella",
-          "water bottle"
+          "umbrella"
         ],
         "extra": [
-          "energy drink",
-          "hand sanitizer"
+          "water bottle (duplicate)"
         ],
         "missing": [
-          "blue drink",
           "red drink",
-          "soap"
+          "water bottle"
         ]
       },
       {
@@ -427,11 +427,11 @@
         ],
         "predicted": [
           "book",
-          "toothbrush",
           "pen",
+          "toothbrush",
           "hairbrush",
           "pencil",
-          "rubik's cube"
+          "cube"
         ],
         "matched": [
           "book",
@@ -461,13 +461,13 @@
           "sunglasses"
         ],
         "predicted": [
+          "phone",
           "stapler",
-          "glasses",
           "eraser",
+          "glasses",
           "glue",
           "scissors",
-          "game controller",
-          "phone"
+          "controller"
         ],
         "matched": [
           "controller",
@@ -487,72 +487,56 @@
     ]
   },
   "action_judgment": {
-    "num_examples": 62,
+    "num_examples": 124,
     "skipped_examples": 0,
-    "accuracy": 0.8870967741935484,
+    "accuracy": 0.9596774193548387,
     "precision": 1.0,
-    "recall": 0.8870967741935484,
-    "f1": 0.9401709401709402,
-    "tp": 55,
+    "recall": 0.9193548387096774,
+    "f1": 0.9579831932773109,
+    "tp": 57,
     "fp": 0,
-    "fn": 7,
-    "tn": 0,
+    "fn": 5,
+    "tn": 62,
     "error_examples": {
       "false_positives": [],
       "false_negatives": [
         {
           "example_id": "scene_004_soap_pickup",
-          "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-          "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
           "prompt_en": "Pick up the soap.",
           "ground_truth_correct": true,
           "predicted_correct": false
         },
         {
-          "example_id": "scene_004_metalspatula_pickup",
-          "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-          "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalspatula_4.png",
-          "prompt_en": "Pick up the metal spatula.",
-          "ground_truth_correct": true,
-          "predicted_correct": false
-        },
-        {
-          "example_id": "scene_004_rubberspatula_pickup",
-          "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-          "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\rubberspatula_4.png",
-          "prompt_en": "Pick up the rubber spatula.",
-          "ground_truth_correct": true,
-          "predicted_correct": false
-        },
-        {
           "example_id": "scene_005_soap_pickup",
-          "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-          "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
           "prompt_en": "Pick up the soap.",
           "ground_truth_correct": true,
           "predicted_correct": false
         },
         {
           "example_id": "scene_005_metalbottle_pickup",
-          "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-          "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
           "prompt_en": "Pick up the metal bottle.",
           "ground_truth_correct": true,
           "predicted_correct": false
         },
         {
-          "example_id": "scene_005_umbrella_pickup",
-          "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-          "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\umbrella_5.png",
-          "prompt_en": "Pick up the umbrella.",
+          "example_id": "scene_006_pencil_pickup",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
+          "prompt_en": "Pick up the pencil.",
           "ground_truth_correct": true,
           "predicted_correct": false
         },
         {
-          "example_id": "scene_006_pencil_pickup",
-          "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
-          "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
-          "prompt_en": "Pick up the pencil.",
+          "example_id": "scene_007_eraser_pickup",
+          "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_7_tabletop4.png",
+          "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\eraser_7.png",
+          "prompt_en": "Pick up the eraser.",
           "ground_truth_correct": true,
           "predicted_correct": false
         }
@@ -562,57 +546,41 @@
     "all_false_negatives": [
       {
         "example_id": "scene_004_soap_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
         "prompt_en": "Pick up the soap.",
         "ground_truth_correct": true,
         "predicted_correct": false
       },
       {
-        "example_id": "scene_004_metalspatula_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalspatula_4.png",
-        "prompt_en": "Pick up the metal spatula.",
-        "ground_truth_correct": true,
-        "predicted_correct": false
-      },
-      {
-        "example_id": "scene_004_rubberspatula_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\rubberspatula_4.png",
-        "prompt_en": "Pick up the rubber spatula.",
-        "ground_truth_correct": true,
-        "predicted_correct": false
-      },
-      {
         "example_id": "scene_005_soap_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
         "prompt_en": "Pick up the soap.",
         "ground_truth_correct": true,
         "predicted_correct": false
       },
       {
         "example_id": "scene_005_metalbottle_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
         "prompt_en": "Pick up the metal bottle.",
         "ground_truth_correct": true,
         "predicted_correct": false
       },
       {
-        "example_id": "scene_005_umbrella_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\umbrella_5.png",
-        "prompt_en": "Pick up the umbrella.",
+        "example_id": "scene_006_pencil_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
+        "prompt_en": "Pick up the pencil.",
         "ground_truth_correct": true,
         "predicted_correct": false
       },
       {
-        "example_id": "scene_006_pencil_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
-        "prompt_en": "Pick up the pencil.",
+        "example_id": "scene_007_eraser_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_7_tabletop4.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\eraser_7.png",
+        "prompt_en": "Pick up the eraser.",
         "ground_truth_correct": true,
         "predicted_correct": false
       }
@@ -640,14 +608,14 @@
         "keyboard",
         "mouse",
         "wallet",
-        "watch",
         "headphones",
+        "bracelet",
         "tape",
-        "lock",
         "thermometer",
-        "container"
+        "lock"
       ],
       "matched": [
+        "bracelet",
         "chips",
         "headphones",
         "keyboard",
@@ -655,16 +623,13 @@
         "mouse",
         "tape",
         "thermometer",
-        "wallet",
-        "watch"
+        "wallet"
       ],
-      "extra": [
-        "container"
-      ],
+      "extra": [],
       "missing": [
-        "bracelet",
         "fruit cup",
-        "laptop"
+        "laptop",
+        "watch"
       ]
     },
     {
@@ -680,19 +645,21 @@
       "predicted": [
         "pasta",
         "lemon juice",
-        "pasta sauce",
+        "garlic sauce",
         "peanut butter",
         "honey"
       ],
       "matched": [
-        "alfredo sauce",
         "honey",
         "lemon juice",
         "pasta box",
         "peanut butter"
       ],
-      "extra": [],
+      "extra": [
+        "garlic sauce"
+      ],
       "missing": [
+        "alfredo sauce",
         "tomato sauce"
       ]
     },
@@ -708,33 +675,35 @@
         "rubber spatula",
         "scissors",
         "soap",
+        "sponge",
         "spoon"
       ],
       "predicted": [
         "sponge",
+        "dish soap",
         "bowl",
         "plate",
         "spatula",
-        "aluminum foil",
-        "cutting board",
-        "spoon"
+        "measuring spoon",
+        "aluminum foil"
       ],
       "matched": [
         "aluminum foil",
         "bowl",
-        "cutting board",
         "plate",
         "rubber spatula",
-        "spoon"
-      ],
-      "extra": [
+        "soap",
         "sponge"
       ],
+      "extra": [
+        "measuring spoon"
+      ],
       "missing": [
+        "cutting board",
         "metal spatula",
         "plastic fork",
         "scissors",
-        "soap"
+        "spoon"
       ]
     },
     {
@@ -754,34 +723,33 @@
       ],
       "predicted": [
         "water bottle",
-        "plastic bottle",
-        "energy drink",
-        "hand sanitizer",
         "tissue box",
-        "umbrella",
-        "keys",
+        "water bottle",
+        "sports drink",
+        "hand sanitizer",
         "spoon",
         "fork",
-        "napkin"
+        "napkin",
+        "keys",
+        "umbrella"
       ],
       "matched": [
+        "blue drink",
         "keys",
         "metal bottle",
         "metal fork",
         "metal spoon",
         "napkin",
+        "soap",
         "tissues",
-        "umbrella",
-        "water bottle"
+        "umbrella"
       ],
       "extra": [
-        "energy drink",
-        "hand sanitizer"
+        "water bottle (duplicate)"
       ],
       "missing": [
-        "blue drink",
         "red drink",
-        "soap"
+        "water bottle"
       ]
     },
     {
@@ -798,11 +766,11 @@
       ],
       "predicted": [
         "book",
-        "toothbrush",
         "pen",
+        "toothbrush",
         "hairbrush",
         "pencil",
-        "rubik's cube"
+        "cube"
       ],
       "matched": [
         "book",
@@ -832,13 +800,13 @@
         "sunglasses"
       ],
       "predicted": [
+        "phone",
         "stapler",
-        "glasses",
         "eraser",
+        "glasses",
         "glue",
         "scissors",
-        "game controller",
-        "phone"
+        "controller"
       ],
       "matched": [
         "controller",
@@ -861,57 +829,41 @@
     "false_negatives": [
       {
         "example_id": "scene_004_soap_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\dishsoap_4.png",
         "prompt_en": "Pick up the soap.",
         "ground_truth_correct": true,
         "predicted_correct": false
       },
       {
-        "example_id": "scene_004_metalspatula_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalspatula_4.png",
-        "prompt_en": "Pick up the metal spatula.",
-        "ground_truth_correct": true,
-        "predicted_correct": false
-      },
-      {
-        "example_id": "scene_004_rubberspatula_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_4_utensils.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\rubberspatula_4.png",
-        "prompt_en": "Pick up the rubber spatula.",
-        "ground_truth_correct": true,
-        "predicted_correct": false
-      },
-      {
         "example_id": "scene_005_soap_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\soap_5.png",
         "prompt_en": "Pick up the soap.",
         "ground_truth_correct": true,
         "predicted_correct": false
       },
       {
         "example_id": "scene_005_metalbottle_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\metalbottle_5.png",
         "prompt_en": "Pick up the metal bottle.",
         "ground_truth_correct": true,
         "predicted_correct": false
       },
       {
-        "example_id": "scene_005_umbrella_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_5_tabletop2.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\umbrella_5.png",
-        "prompt_en": "Pick up the umbrella.",
+        "example_id": "scene_006_pencil_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
+        "prompt_en": "Pick up the pencil.",
         "ground_truth_correct": true,
         "predicted_correct": false
       },
       {
-        "example_id": "scene_006_pencil_pickup",
-        "scene_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_6_tabletop3_1.png",
-        "action_image": "C:\\Users\\natha\\Documents\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\pencil_6.png",
-        "prompt_en": "Pick up the pencil.",
+        "example_id": "scene_007_eraser_pickup",
+        "scene_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Scenes\\scene_7_tabletop4.png",
+        "action_image": "C:\\Users\\natha\\Documents\\livelex\\LiveLex.ai\\eval\\Data\\Action Object Dataset\\Images\\Actions\\eraser_7.png",
+        "prompt_en": "Pick up the eraser.",
         "ground_truth_correct": true,
         "predicted_correct": false
       }
