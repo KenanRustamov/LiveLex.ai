@@ -253,16 +253,35 @@ async def get_teacher_students(email: str):
     import time
     start_time = time.time()
     students = await UserDataDoc.find(UserDataDoc.teacher_id == str(teacher.id)).to_list()
+    
+    # Pre-fetch all assignments to calculate "Assigned Words Practiced" correctly
+    from app.db.models import AssignmentDoc
+    assignments = await AssignmentDoc.find(AssignmentDoc.teacher_id == str(teacher.id)).to_list()
+    
+    # Pre-process assignments for lighter iteration
+    assignment_reqs = []
+    for a in assignments:
+        vocab_target_words = set()
+        if a.vocab:
+            for item in a.vocab:
+                if isinstance(item, dict) and "target_name" in item:
+                    vocab_target_words.add(item["target_name"].lower())
+        
+        assignment_reqs.append({
+            "target_words": vocab_target_words,
+            "discovered_count_req": getattr(a, 'include_discovered_count', 0) or 0
+        })
+
     logging.info(f"Finding students took {time.time() - start_time:.4f}s. Found {len(students)} students.")
     
     response = []
     for s in students:
         # Calculate stats
         objects = s.objects or {}
+        
+        # Calculate accuracy across ALL attempts (global)
         total_correct = 0
         total_incorrect = 0
-        words_practiced = len(objects)
-        
         for stats in objects.values():
             total_correct += int(stats.get("correct", 0))
             total_incorrect += int(stats.get("incorrect", 0))
@@ -272,13 +291,55 @@ async def get_teacher_students(email: str):
         if total_attempts > 0:
             accuracy = round((total_correct / total_attempts) * 100, 1)
             
+        # Calculate "Assigned Words Practiced" (Numerator)
+        # Sum of progress on each assignment
+        total_quota_practiced = 0
+        
+        # Helper: Get all words practiced by student (targets)
+        # We need check usage of attempts > 0 as per "Practiced" definition
+        student_practiced_words = set() 
+        # Also need map for discovered check (checking if word is NOT in assignment)
+        
+        for stats in objects.values():
+            correct = int(stats.get("correct", 0))
+            incorrect = int(stats.get("incorrect", 0))
+            # Use attempts > 0 logic
+            if (correct + incorrect) > 0:
+                cw = stats.get("correct_word")
+                if cw:
+                    student_practiced_words.add(cw.lower())
+        
+        for req in assignment_reqs:
+            targets = req["target_words"]
+            disc_req = req["discovered_count_req"]
+            
+            # Words in assignment that student practiced
+            assigned_hits = 0
+            for t in targets:
+                if t in student_practiced_words:
+                    assigned_hits += 1
+            
+            # Discovered words (practiced words NOT in this assignment's target list)
+            # We count ANY word practiced that is not in THIS assignment's list as a potential discovered word for THIS assignment
+            # Is that correct? The user said "required discovered words".
+            # Usually 'discovered' means 'not in the vocab'.
+            discovered_hits = 0
+            if disc_req > 0:
+                for w in student_practiced_words:
+                    if w not in targets:
+                        discovered_hits += 1
+                # Cap at requirement
+                discovered_hits = min(discovered_hits, disc_req)
+            
+            total_quota_practiced += assigned_hits + discovered_hits
+
         response.append({
             "name": s.name,
             "username": s.username,
             "email": s.email,
             "profile_image": s.profile_image,
             "average_score": accuracy,
-            "words_practiced": words_practiced,
+            "words_practiced": total_quota_practiced,
             "total_attempts": total_attempts
         })
     
@@ -346,23 +407,23 @@ async def get_class_analytics(email: str):
     words_list.sort(key=lambda x: x["accuracy"])
 
     # Calculate Total Assigned Words (Goal)
+    # Denominator: Sum of (vocab words + required discovered words) for all assignments
     from app.db.models import AssignmentDoc
     assignments = await AssignmentDoc.find(AssignmentDoc.teacher_id == str(teacher.id)).to_list()
     
-    unique_assigned_words = set()
+    total_denominator = 0
     for assignment in assignments:
-        for vocab_item in assignment.vocab:
-            # Handle both dict and object formats if necessary, though model says Dict[str, str]
-            if isinstance(vocab_item, dict):
-                s_name = vocab_item.get("source_name", "").strip().lower()
-                t_name = vocab_item.get("target_name", "").strip().lower()
-                if s_name and t_name:
-                    unique_assigned_words.add((s_name, t_name))
+        vocab_count = 0
+        if assignment.vocab:
+            vocab_count = len(assignment.vocab)
+        
+        discovered_count = getattr(assignment, 'include_discovered_count', 0) or 0
+        total_denominator += vocab_count + discovered_count
     
     return {
         "overall_accuracy": overall_accuracy,
         "total_words_practiced": len(word_stats),
-        "total_assigned_words": len(unique_assigned_words),
+        "total_assigned_words": total_denominator,
         "total_attempts": total_attempts,
         "struggling_words": words_list[:5]  # Top 5 hardest
     }

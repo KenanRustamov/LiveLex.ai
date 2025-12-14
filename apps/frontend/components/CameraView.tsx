@@ -133,7 +133,7 @@ export default function CameraView({ settings, username, onClose, mode = 'embedd
   const processAudioQueue = useCallback(() => {
     // If already playing audio, wait for it to finish
     if (currentAudioRef.current) return;
-    
+
     // If queue is empty, check for pending lesson summary
     if (audioQueueRef.current.length === 0) {
       setIsTtsPlaying(false);
@@ -144,11 +144,11 @@ export default function CameraView({ settings, username, onClose, mode = 'embedd
       }
       return;
     }
-    
+
     // Get next audio from queue
     const base64Audio = audioQueueRef.current.shift();
     if (!base64Audio) return;
-    
+
     try {
       const audio = new Audio(`data:audio/mpeg;base64,${base64Audio}`);
       currentAudioRef.current = audio;
@@ -275,7 +275,6 @@ export default function CameraView({ settings, username, onClose, mode = 'embedd
                 // Check if audio is playing or queued
                 const audioPlaying = currentAudioRef.current !== null;
                 const audioQueued = audioQueueRef.current.length > 0;
-                
                 if (audioPlaying || audioQueued) {
                   // Delay showing summary until audio finishes
                   pendingLessonSummaryRef.current = summary;

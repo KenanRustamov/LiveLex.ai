@@ -26,6 +26,8 @@ type StudentProgressItem = {
     words_completed: number;
     total_assignment_words: number;
     score?: number | null;
+    discovered_words_practiced: number;
+    target_discovered_count: number;
 };
 
 export default function AssignmentDetailPage() {
@@ -135,13 +137,33 @@ export default function AssignmentDetailPage() {
             }
         }),
         columnHelper.accessor("words_completed", {
-            header: "Progress",
+            header: "Assigned Words Practiced",
             cell: (info) => {
                 const completed = info.getValue() || 0;
                 const total = info.row.original.total_assignment_words || 0;
                 return (
                     <span className="text-sm text-gray-600">
                         <span className="font-medium text-gray-900">{completed}</span> / {total} words
+                    </span>
+                );
+            }
+        }),
+        columnHelper.accessor("discovered_words_practiced", {
+            header: "Discovered Words",
+            cell: (info) => {
+                const discovered = info.getValue() || 0;
+                const target = info.row.original.target_discovered_count || 0;
+                // If there is a target for discovered words, show "X / Y". Otherwise just "X".
+                if (target > 0) {
+                    return (
+                        <span className="text-sm text-gray-600">
+                            <span className="font-medium text-gray-900">{discovered}</span> / {target} words
+                        </span>
+                    );
+                }
+                return (
+                    <span className="text-sm text-gray-600">
+                        <span className="font-medium text-gray-900">{discovered}</span> words
                     </span>
                 );
             }

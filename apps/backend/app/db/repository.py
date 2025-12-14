@@ -348,7 +348,7 @@ async def get_assignment_progress(assignment_id: str, teacher_id: str) -> dict:
                     incorrect = int(stats.get("incorrect", 0))
                     attempts = correct + incorrect
                     
-                    if correct > 0:
+                    if attempts > 0:
                         words_completed += 1
                     
                     if attempts > 0:
@@ -359,10 +359,21 @@ async def get_assignment_progress(assignment_id: str, teacher_id: str) -> dict:
             average_score = 0.0
             if total_assignment_words > 0:
                 average_score = total_accuracy_sum / total_assignment_words
+
+            # Calculate discovered words practiced (words not in target_words but have attempts > 0)
+            discovered_words_practiced = 0
+            for word, stats in stats_by_target.items():
+                if word not in target_words:
+                    correct = int(stats.get("correct", 0))
+                    incorrect = int(stats.get("incorrect", 0))
+                    if (correct + incorrect) > 0:
+                        discovered_words_practiced += 1
             
             # Determine status
             status = "Not Started"
-            if completion:
+            
+            # Use strict progress for status
+            if words_completed >= total_assignment_words and total_assignment_words > 0:
                 status = "Completed"
             elif words_completed > 0:
                  status = "In Progress"
@@ -374,6 +385,8 @@ async def get_assignment_progress(assignment_id: str, teacher_id: str) -> dict:
                 "status": status,
                 "words_completed": words_completed,
                 "total_assignment_words": total_assignment_words,
+                "discovered_words_practiced": discovered_words_practiced,
+                "target_discovered_count": getattr(assignment, 'include_discovered_count', 0) or 0,
                 "completed": completion is not None,
                 "completed_at": completion.completed_at if completion else None,
                 "score": average_score, # Use calculated average score

@@ -67,23 +67,6 @@ export function DashboardOverview({
                 );
             }
         }),
-        columnHelper.accessor((row) => {
-            const score = row.average_score || 0;
-            return score >= 80 ? 'Mastered' : score >= 50 ? 'Working Towards' : 'Needing Attention';
-        }, {
-            id: "status",
-            header: "Status",
-            cell: (info) => {
-                const val = info.getValue();
-                const score = info.row.original.average_score || 0;
-                const statusColor = score >= 80 ? 'text-green-600 bg-green-50' : score >= 50 ? 'text-yellow-600 bg-yellow-50' : 'text-red-600 bg-red-50';
-                return (
-                    <span className={`px-3 py-1 rounded-full text-xs font-bold ${statusColor}`}>
-                        {val}
-                    </span>
-                );
-            }
-        }),
     ], [classAnalytics, columnHelper]);
 
     const table = useReactTable({
