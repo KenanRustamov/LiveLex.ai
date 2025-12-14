@@ -86,6 +86,7 @@ export default function MobileShell() {
           settings={settings}
           username={session?.user?.email || 'Student'}
           onClose={() => setTab('home')}
+          mode="fullscreen"
         />
         <Button
           variant="outline"
@@ -102,7 +103,7 @@ export default function MobileShell() {
   if (tab === 'scene-capture') {
     return (
       <div className="relative h-dvh w-full bg-black">
-        <SceneCaptureView settings={settings} email={session?.user?.email || undefined} />
+        <SceneCaptureView settings={settings} email={session?.user?.email || undefined} mode="fullscreen" />
         <Button
           variant="outline"
           className="absolute top-4 left-4 z-50 rounded-full bg-white/20 hover:bg-white/40 border-none text-white backdrop-blur-md"
@@ -126,6 +127,7 @@ export default function MobileShell() {
             setActiveAssignment(null);
             setTab('tasks');
           }}
+          mode="fullscreen"
         />
         <Button
           variant="outline"

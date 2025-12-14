@@ -68,9 +68,10 @@ interface AssignmentLessonViewProps {
   };
   username: string;
   onClose?: () => void;
+  mode?: 'embedded' | 'fullscreen';
 }
 
-export default function AssignmentLessonView({ assignment, settings, username, onClose }: AssignmentLessonViewProps) {
+export default function AssignmentLessonView({ assignment, settings, username, onClose, mode = 'embedded' }: AssignmentLessonViewProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -641,7 +642,7 @@ export default function AssignmentLessonView({ assignment, settings, username, o
   useEffect(() => {
     if (pendingCameraRestart && !lessonSummary) {
       setPendingCameraRestart(false);
-      startCamera().catch(() => {});
+      startCamera().catch(() => { });
     }
   }, [pendingCameraRestart, lessonSummary, startCamera]);
 
@@ -653,22 +654,24 @@ export default function AssignmentLessonView({ assignment, settings, username, o
   }, []);
 
   return (
-    <div className="rounded-2xl border p-4">
-      <div className="flex items-center justify-between">
-        <h2 className="font-medium">{assignment.title}</h2>
-        {running && (
-          <div className="flex items-center gap-2">
-            <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
-            <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
-          </div>
-        )}
-      </div>
+    <div className={mode === 'fullscreen' ? "relative h-full w-full bg-black flex flex-col" : "rounded-2xl border p-4"}>
+      {mode !== 'fullscreen' && (
+        <div className="flex items-center justify-between pointer-events-auto mb-4">
+          <h2 className="font-medium">{assignment.title}</h2>
+          {running && (
+            <div className="flex items-center gap-2">
+              <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
+              <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
+            </div>
+          )}
+        </div>
+      )}
 
       {error && (
-        <div className="text-sm text-red-600 mt-2">{error}</div>
+        <div className="text-sm text-red-600 mb-2 px-4">{error}</div>
       )}
       {audioError && (
-        <div className="text-sm text-red-600 mt-2">{audioError}</div>
+        <div className="text-sm text-red-600 mb-2 px-4">{audioError}</div>
       )}
 
       {lessonSummary ? (
@@ -693,8 +696,8 @@ export default function AssignmentLessonView({ assignment, settings, username, o
           }}
         />
       ) : (
-        <div className={`${fullscreen ? 'fixed inset-0 z-50 bg-black overflow-hidden m-0' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]'}`}>
-          {fullscreen && (
+        <div className={`${(mode === 'fullscreen' || fullscreen) ? 'relative flex-1 w-full bg-black overflow-hidden' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]'}`}>
+          {fullscreen && mode !== 'fullscreen' && (
             <div className="absolute top-3 right-3 z-50">
               <Button
                 onClick={() => setFullscreen(false)}
@@ -717,10 +720,10 @@ export default function AssignmentLessonView({ assignment, settings, username, o
 
           {!running && (
             <div
-              className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-20"
+              className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-0"
               onClick={startCamera}
             >
-              <div className="text-white text-lg font-medium mb-2">Camera Not Active</div>
+              <div className="text-white text-lg font-medium mb-2 opacity-50">Camera Not Active</div>
               <Button onClick={(e) => { e.stopPropagation(); startCamera(); }} variant="default" className="text-sm">
                 Start Camera
               </Button>

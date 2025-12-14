@@ -61,7 +61,7 @@ function float32ToWavBlob(audio: Float32Array, sampleRate = 16000): Blob {
   return new Blob([buffer], { type: 'audio/wav' });
 }
 
-export default function CameraView({ settings, username, onClose }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[] }, username: string, onClose?: () => void }) {
+export default function CameraView({ settings, username, onClose, mode = 'embedded' }: { settings: { sourceLanguage: string; targetLanguage: string; location: string; actions: string[] }, username: string, onClose?: () => void, mode?: 'embedded' | 'fullscreen' }) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -791,33 +791,35 @@ export default function CameraView({ settings, username, onClose }: { settings: 
   }, [pendingCameraRestart, lessonSummary, startCamera]);
 
   return (
-    <div className="rounded-2xl border p-4">
-      <div className="flex items-center justify-between">
-        <h2 className="font-medium">Camera</h2>
-        {!running ? (
-          <Button
-            onClick={() => {
-              unlockAudio();
-              startCamera();
-            }}
-            variant="outline"
-            className="text-sm"
-          >
-            Start
-          </Button>
-        ) : (
-          <div className="flex items-center gap-2">
-            <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
-            <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
-          </div>
-        )}
-      </div>
+    <div className={mode === 'fullscreen' ? "relative h-full w-full bg-black flex flex-col" : "rounded-2xl border p-4"}>
+      {mode !== 'fullscreen' && (
+        <div className="flex items-center justify-between pointer-events-auto mb-4">
+          <h2 className="font-medium">Camera</h2>
+          {!running ? (
+            <Button
+              onClick={() => {
+                unlockAudio();
+                startCamera();
+              }}
+              variant="outline"
+              className="text-sm"
+            >
+              Start
+            </Button>
+          ) : (
+            <div className="flex items-center gap-2">
+              <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
+              <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
+            </div>
+          )}
+        </div>
+      )}
 
       {error && (
-        <div className="text-sm text-red-600">{error}</div>
+        <div className="text-sm text-red-600 mb-2">{error}</div>
       )}
       {audioError && (
-        <div className="text-sm text-red-600">{audioError}</div>
+        <div className="text-sm text-red-600 mb-2">{audioError}</div>
       )}
 
       {lessonSummary ? (
@@ -845,8 +847,8 @@ export default function CameraView({ settings, username, onClose }: { settings: 
           }}
         />
       ) : (
-        <div className={`${fullscreen ? 'fixed inset-0 z-50 bg-black overflow-hidden m-0' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]'}`}>
-          {fullscreen && (
+        <div className={`${(mode === 'fullscreen' || fullscreen) ? (mode === 'fullscreen' ? 'relative flex-1 w-full bg-black overflow-hidden' : 'fixed inset-0 z-50 bg-black overflow-hidden m-0') : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)]'}`}>
+          {fullscreen && mode !== 'fullscreen' && (
             <div className="absolute top-3 right-3 z-50">
               <Button
                 onClick={() => setFullscreen(false)}
@@ -910,7 +912,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
 
           {/* Grammar Mode Toggle - positioned in upper left */}
           {running && !lessonSummary && (
-            <div className="absolute top-3 left-3 z-10 pointer-events-auto">
+            <div className={`absolute left-3 z-10 pointer-events-auto ${mode === 'fullscreen' ? 'top-16' : 'top-3'}`}>
               <OverlayCard className="p-2 space-y-2">
                 <div className="flex items-center gap-2">
                   <Switch
@@ -950,7 +952,7 @@ export default function CameraView({ settings, username, onClose }: { settings: 
 
           {/* Plan overlay - moved to below grammar toggle */}
           {planObjects && planObjects.length > 0 && (
-            <div className="absolute left-3 top-24 z-10 w-[70%] max-w-xs pointer-events-auto">
+            <div className={`absolute left-3 z-10 w-[70%] max-w-xs pointer-events-auto ${mode === 'fullscreen' ? 'top-36' : 'top-24'}`}>
               <PlanChecklist
                 items={planObjects}
                 currentIndex={currentIndex}

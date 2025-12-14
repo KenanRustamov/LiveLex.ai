@@ -24,16 +24,19 @@ interface TeacherScene {
   vocab: VocabItem[];
 }
 
+
 interface SceneCaptureViewProps {
   settings: {
     sourceLanguage: string;
     targetLanguage: string;
     location: string;
+    actions: string[];
   };
   email?: string;
+  mode?: 'embedded' | 'fullscreen';
 }
 
-export default function SceneCaptureView({ settings, email }: SceneCaptureViewProps) {
+export default function SceneCaptureView({ settings, email, mode = 'embedded' }: SceneCaptureViewProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
@@ -134,14 +137,14 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
             default:
               break;
           }
-        } catch {}
+        } catch { }
       };
-      ws.onerror = () => {};
+      ws.onerror = () => { };
       ws.onclose = () => {
         wsRef.current = null;
       };
       wsRef.current = ws;
-    } catch {}
+    } catch { }
   }, [wsUrl, selectedSceneId, selectedScene, settings, email]);
 
   const closeWs = useCallback(() => {
@@ -150,7 +153,7 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
         wsRef.current.close();
       }
       wsRef.current = null;
-    } catch {}
+    } catch { }
   }, []);
 
   // Start the camera with constraints
@@ -278,14 +281,14 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
     const video = videoRef.current;
     const canvas = canvasRef.current;
     if (!video || !canvas) return;
-    
+
     const w = video.videoWidth || 1280;
     const h = video.videoHeight || 720;
     canvas.width = w;
     canvas.height = h;
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
-    
+
     if (facing === 'user') {
       ctx.save();
       ctx.translate(w, 0);
@@ -295,7 +298,7 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
     } else {
       ctx.drawImage(video, 0, 0, w, h);
     }
-    
+
     const blob: Blob | null = await new Promise(resolve =>
       canvas.toBlob(b => resolve(b), 'image/jpeg', 0.8)
     );
@@ -336,7 +339,7 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
           }
         }));
       }
-    } catch {}
+    } catch { }
   }, [facing, settings]);
 
   const endSession = useCallback(() => {
@@ -349,7 +352,7 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
           }
         }));
       }
-    } catch {}
+    } catch { }
   }, []);
 
   const startNewSession = useCallback(() => {
@@ -384,11 +387,11 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
     if (!video || !streamRef.current) return;
 
     const handleLoadedMetadata = () => {
-      video.play().catch(() => {});
+      video.play().catch(() => { });
     };
 
     if (video.readyState >= HTMLMediaElement.HAVE_METADATA) {
-      video.play().catch(() => {});
+      video.play().catch(() => { });
     } else {
       video.addEventListener('loadedmetadata', handleLoadedMetadata);
     }
@@ -401,7 +404,7 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
   // Session complete view
   if (sessionComplete) {
     return (
-      <div className="rounded-2xl border p-4">
+      <div className={mode === 'fullscreen' ? "h-full w-full bg-black text-white flex flex-col items-center justify-center p-4" : "rounded-2xl border p-4"}>
         <div className="flex flex-col items-center justify-center py-8 space-y-4">
           <div className="text-4xl">✓</div>
           <h2 className="text-xl font-semibold">Session Complete!</h2>
@@ -417,30 +420,32 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
   }
 
   return (
-    <div className="rounded-2xl border p-4">
-      <div className="flex items-center justify-between">
-        <h2 className="font-medium">Scene Capture</h2>
-        {!running ? (
-          <Button 
-            onClick={startCamera} 
-            variant="outline" 
-            className="text-sm"
-            disabled={!selectedSceneId}
-          >
-            Start
-          </Button>
-        ) : (
-          <div className="flex items-center gap-2">
-            <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
-            <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
-          </div>
-        )}
-      </div>
+    <div className={mode === 'fullscreen' ? "relative h-full w-full bg-black flex flex-col" : "rounded-2xl border p-4"}>
+      {mode !== 'fullscreen' && (
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="font-medium">Scene Capture</h2>
+          {!running ? (
+            <Button
+              onClick={startCamera}
+              variant="outline"
+              className="text-sm"
+              disabled={!selectedSceneId}
+            >
+              Start
+            </Button>
+          ) : (
+            <div className="flex items-center gap-2">
+              <Button onClick={() => setFullscreen(true)} variant="outline" className="text-xs" title="Fullscreen">Fullscreen</Button>
+              <Button onClick={stopCamera} variant="outline" className="text-sm">Stop</Button>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Scene selection - shown before camera starts */}
       {!running && (
-        <div className="mt-4 space-y-3">
-          <label className="text-sm font-medium">Select a Scene</label>
+        <div className={`space-y-3 z-10 ${mode === 'fullscreen' ? 'p-4 bg-black/50 backdrop-blur-sm rounded-lg m-4' : 'mt-4'}`}>
+          <label className={`text-sm font-medium ${mode === 'fullscreen' ? 'text-white' : ''}`}>Select a Scene</label>
           {loadingScenes ? (
             <div className="text-sm text-muted-foreground">Loading scenes...</div>
           ) : teacherScenes.length === 0 ? (
@@ -475,11 +480,11 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
       )}
 
       {error && (
-        <div className="text-sm text-red-600 mt-2">{error}</div>
+        <div className="text-sm text-red-600 mb-2 px-4">{error}</div>
       )}
 
-      <div className={`${fullscreen ? 'fixed inset-0 z-50 bg-black overflow-hidden m-0' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)] mt-4'}`}>
-        {fullscreen && (
+      <div className={`${(mode === 'fullscreen' || fullscreen) ? 'relative flex-1 w-full bg-black overflow-hidden' : 'relative aspect-video w-full mx-auto overflow-hidden rounded-xl bg-black max-h-[calc(100vh-16rem)] mt-4'}`}>
+        {fullscreen && mode !== 'fullscreen' && (
           <div className="absolute top-3 right-3 z-50">
             <Button
               onClick={() => setFullscreen(false)}
@@ -491,7 +496,7 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
             </Button>
           </div>
         )}
-        
+
         <video
           ref={videoRef}
           className={`h-full w-full object-cover ${facing === 'user' ? 'scale-x-[-1]' : ''}`}
@@ -499,13 +504,13 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
           muted
           autoPlay
         />
-        
+
         {!running && (
           <div
-            className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-20"
+            className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 cursor-pointer z-0"
             onClick={() => selectedSceneId && startCamera()}
           >
-            <div className="text-white text-lg font-medium mb-2">Camera Not Active</div>
+            <div className="text-white text-lg font-medium mb-2 opacity-50">Camera Not Active</div>
             {selectedSceneId ? (
               <>
                 <Button onClick={(e) => { e.stopPropagation(); startCamera(); }} variant="default" className="text-sm">
@@ -553,10 +558,10 @@ export default function SceneCaptureView({ settings, email }: SceneCaptureViewPr
 
         {/* Controls overlay */}
         <div className="absolute inset-x-0 bottom-0 p-3 flex flex-wrap items-center justify-center gap-2">
-          <Button 
-            onClick={captureFrame} 
-            variant="default" 
-            className="text-xs" 
+          <Button
+            onClick={captureFrame}
+            variant="default"
+            className="text-xs"
             disabled={!running || isExtracting}
             title="Capture"
           >
