@@ -46,10 +46,10 @@ export function DashboardOverview({
             }
         }),
         columnHelper.accessor("words_practiced", {
-            header: "Work Completed",
+            header: "Assigned Words Practiced",
             cell: (info) => (
                 <span className="text-gray-600 font-medium">
-                    {info.getValue()} / {classAnalytics?.total_words_practiced || '?'} words
+                    {info.getValue()} / {classAnalytics?.total_assigned_words || '0'} words
                 </span>
             )
         }),
@@ -121,7 +121,7 @@ export function DashboardOverview({
                 <Card className="col-span-1 rounded-[2rem] border-none shadow-sm">
                     <CardContent className="p-8 flex items-center justify-between">
                         <div>
-                            <h3 className="text-muted-foreground font-medium mb-1">Work Assigned</h3>
+                            <h3 className="text-muted-foreground font-medium mb-1">Assignments</h3>
                             <div className="text-5xl font-bold text-foreground">
                                 {assignmentCount}
                             </div>

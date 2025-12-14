@@ -258,15 +258,14 @@ async def get_teacher_students(email: str):
     response = []
     for s in students:
         # Calculate stats
-        # Stats temporarily disabled as 'objects' field is deprecated
-        # objects = s.objects or {}
+        objects = s.objects or {}
         total_correct = 0
         total_incorrect = 0
-        words_practiced = 0 # len(objects)
+        words_practiced = len(objects)
         
-        # for stats in objects.values():
-        #     total_correct += int(stats.get("correct", 0))
-        #     total_incorrect += int(stats.get("incorrect", 0))
+        for stats in objects.values():
+            total_correct += int(stats.get("correct", 0))
+            total_incorrect += int(stats.get("incorrect", 0))
             
         total_attempts = total_correct + total_incorrect
         accuracy = 0
@@ -304,19 +303,23 @@ async def get_class_analytics(email: str):
     word_stats = {}  # {word: {correct: 0, incorrect: 0}}
     
     for student in students:
-        # Placeholder: 'objects' or specific word stats are not currently on UserDataDoc.
-        # We can implement real analytics aggregation from PerformanceMetricDoc later.
-        pass
-
-        # For now, we can count discovered words as "practiced"
-        # for scene_id, words in student.discovered_scene_words.items():
-        #     total_correct += len(words) 
-
-            # correct_word = stats.get("correct_word", obj_name)
-            # if correct_word not in word_stats:
-            #     word_stats[correct_word] = {"correct": 0, "incorrect": 0}
-            # word_stats[correct_word]["correct"] += correct
-            # word_stats[correct_word]["incorrect"] += incorrect
+        objects = student.objects or {}
+        
+        for obj_name, stats in objects.items():
+            correct = int(stats.get("correct", 0))
+            incorrect = int(stats.get("incorrect", 0))
+            
+            total_correct += correct
+            total_incorrect += incorrect
+            
+            # Use correct word (target language) for stats if available, otherwise object name
+            correct_word = stats.get("correct_word", obj_name)
+            
+            if correct_word not in word_stats:
+                word_stats[correct_word] = {"correct": 0, "incorrect": 0}
+            
+            word_stats[correct_word]["correct"] += correct
+            word_stats[correct_word]["incorrect"] += incorrect
             
     # Calculate overall accuracy
     total_attempts = total_correct + total_incorrect
@@ -341,10 +344,25 @@ async def get_class_analytics(email: str):
             
     # Sort by accuracy ascending (lowest first)
     words_list.sort(key=lambda x: x["accuracy"])
+
+    # Calculate Total Assigned Words (Goal)
+    from app.db.models import AssignmentDoc
+    assignments = await AssignmentDoc.find(AssignmentDoc.teacher_id == str(teacher.id)).to_list()
+    
+    unique_assigned_words = set()
+    for assignment in assignments:
+        for vocab_item in assignment.vocab:
+            # Handle both dict and object formats if necessary, though model says Dict[str, str]
+            if isinstance(vocab_item, dict):
+                s_name = vocab_item.get("source_name", "").strip().lower()
+                t_name = vocab_item.get("target_name", "").strip().lower()
+                if s_name and t_name:
+                    unique_assigned_words.add((s_name, t_name))
     
     return {
         "overall_accuracy": overall_accuracy,
         "total_words_practiced": len(word_stats),
+        "total_assigned_words": len(unique_assigned_words),
         "total_attempts": total_attempts,
         "struggling_words": words_list[:5]  # Top 5 hardest
     }
