@@ -70,6 +70,8 @@ export default function CameraView({ settings, username, onClose, mode = 'embedd
   const capturePreviewUrlRef = useRef<string | null>(null);
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const audioCtxRef = useRef<AudioContext | null>(null);
+  const audioQueueRef = useRef<string[]>([]);
+  const pendingLessonSummaryRef = useRef<any>(null);
   const [isTtsPlaying, setIsTtsPlaying] = useState(false);
 
   const [running, setRunning] = useState(false);
@@ -127,15 +129,27 @@ export default function CameraView({ settings, username, onClose, mode = 'embedd
     }
   }, []);
 
-  // Function to play audio from base64 data
-  const playAudioFromBase64 = useCallback((base64Audio: string) => {
-    try {
-      // Stop any currently playing audio
-      if (currentAudioRef.current) {
-        currentAudioRef.current.pause();
-        currentAudioRef.current = null;
+  // Process the audio queue - plays next audio when current finishes
+  const processAudioQueue = useCallback(() => {
+    // If already playing audio, wait for it to finish
+    if (currentAudioRef.current) return;
+    
+    // If queue is empty, check for pending lesson summary
+    if (audioQueueRef.current.length === 0) {
+      setIsTtsPlaying(false);
+      if (pendingLessonSummaryRef.current) {
+        setLessonSummary(pendingLessonSummaryRef.current);
+        setPlanReceived(false);
+        pendingLessonSummaryRef.current = null;
       }
-
+      return;
+    }
+    
+    // Get next audio from queue
+    const base64Audio = audioQueueRef.current.shift();
+    if (!base64Audio) return;
+    
+    try {
       const audio = new Audio(`data:audio/mpeg;base64,${base64Audio}`);
       currentAudioRef.current = audio;
       setIsTtsPlaying(true);
@@ -143,25 +157,37 @@ export default function CameraView({ settings, username, onClose, mode = 'embedd
       audio.play().catch((error) => {
         console.error('Error playing audio:', error);
         currentAudioRef.current = null;
-        setIsTtsPlaying(false);
+        // Continue processing queue even on error
+        processAudioQueue();
       });
 
       audio.onended = () => {
         currentAudioRef.current = null;
-        setIsTtsPlaying(false);
+        // Process next item in queue
+        processAudioQueue();
       };
 
       audio.onerror = () => {
         console.error('Audio playback error');
         currentAudioRef.current = null;
-        setIsTtsPlaying(false);
+        // Continue processing queue even on error
+        processAudioQueue();
       };
     } catch (error) {
       console.error('Error creating audio from base64:', error);
       currentAudioRef.current = null;
-      setIsTtsPlaying(false);
+      // Continue processing queue even on error
+      processAudioQueue();
     }
   }, []);
+
+  // Function to queue audio from base64 data (plays sequentially, no interruption)
+  const playAudioFromBase64 = useCallback((base64Audio: string) => {
+    // Add to queue
+    audioQueueRef.current.push(base64Audio);
+    // Start processing if not already playing
+    processAudioQueue();
+  }, [processAudioQueue]);
 
   const openWs = useCallback(() => {
     try {
@@ -246,9 +272,18 @@ export default function CameraView({ settings, username, onClose, mode = 'embedd
             case 'lesson_complete': {
               const summary = msg.payload;
               if (summary) {
-                // Store summary and disable further VAD-driven attempts on the frontend
-                setLessonSummary(summary);
-                setPlanReceived(false);
+                // Check if audio is playing or queued
+                const audioPlaying = currentAudioRef.current !== null;
+                const audioQueued = audioQueueRef.current.length > 0;
+                
+                if (audioPlaying || audioQueued) {
+                  // Delay showing summary until audio finishes
+                  pendingLessonSummaryRef.current = summary;
+                } else {
+                  // No audio playing, show summary immediately
+                  setLessonSummary(summary);
+                  setPlanReceived(false);
+                }
               }
               break;
             }
@@ -551,7 +586,9 @@ export default function CameraView({ settings, username, onClose, mode = 'embedd
   useEffect(() => {
     return () => {
       stopCamera();
-      // Clean up audio on unmount
+      // Clean up audio queue and stop any playing audio on unmount
+      audioQueueRef.current = [];
+      pendingLessonSummaryRef.current = null;
       if (currentAudioRef.current) {
         currentAudioRef.current.pause();
         currentAudioRef.current = null;

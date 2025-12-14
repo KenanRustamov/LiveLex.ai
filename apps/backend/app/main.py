@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 from app.db.init import init_db
-from app.routers import audio, base, auth, assignments, scenes
+from app.routers import audio, base, auth, assignments, scenes, eval_chat
 
 app = FastAPI(title="AI Glasses Backend", version="0.1.0")
 
@@ -27,3 +27,4 @@ app.include_router(base.router, prefix="/v1")
 app.include_router(auth.router, prefix="/v1")
 app.include_router(assignments.router, prefix="/v1")
 app.include_router(scenes.router, prefix="/v1")
+app.include_router(eval_chat.router, prefix="/v1")
