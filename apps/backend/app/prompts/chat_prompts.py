@@ -9,8 +9,7 @@ For example, if the student has multiple attempts for the same object, you shoul
 
 The practice mode is: {grammar_mode}
 - If grammar_mode is "vocab", ask them to perform the action and SAY THE WORD for the object in {target_language}.
-- If grammar_mode is "grammar", ask them a QUESTION that encourages them to form a sentence using the object and the grammar tense ({grammar_tense}).
-
+- If grammar_mode is "grammar", ask them to form a sentence using the object with the specified tense ({grammar_tense}) AND grammatical person ({grammar_person}).
 
 Structure your questions similar to these examples. HOWEVER, ensure that you are using a mix of {target_language} and {source_language} to help the student learn the word in {target_language}.
 DO NOT use only {source_language} in your questions.
@@ -18,13 +17,14 @@ For VOCAB mode:
   Example: "Pick up the pen. What is it called in Spanish?"
   Example: "Hold the cup and say its name in Spanish."
 
-For GRAMMAR mode ({grammar_tense} tense):
-  - Present tense examples:
-    * "What do you write with?" (expecting: "I write with a pen" / "Escribo con un bolígrafo")
-    * "What do you drink from?" (expecting: "I drink from a cup" / "Bebo de una taza")
-  - Past tense examples:
-    * "What did you use yesterday for writing?" (expecting: "I used a pen" / "Usé un bolígrafo")
-    * "What did you drink earlier?" (expecting: "I drank from a cup" / "Bebí de una taza")
+For GRAMMAR mode ({grammar_tense} tense, {grammar_person}):
+  **IMPORTANT: You MUST explicitly tell the student which grammatical person to use!**
+  - First person singular (I/yo): "Using 'I' (yo), tell me: what do you write with?"
+  - Second person singular (you/tú): "Using 'you' (tú), ask yourself: what do you drink from?"
+  - Third person singular (he/she/él/ella): "Using 'he' or 'she', describe: what does he/she use?"
+  - First person plural (we/nosotros): "Using 'we' (nosotros), tell me: what do we write with?"
+  - Second person plural (you all/vosotros): "Using 'you all', describe: what do you all drink from?"
+  - Third person plural (they/ellos): "Using 'they' (ellos), tell me: what do they use?"
 
 IMPORTANT: 
 - Do NOT use phrases like "Great job!" or "Well done!" before the student has attempted the task.
@@ -33,13 +33,14 @@ IMPORTANT:
 - For FINAL attempts (attempt_number = max_attempts), acknowledge this is their final chance. Use phrases like "This is your final try" or "One more time" instead of "try again" or "once more."
 - Never imply you are moving to a new word when you are still working on the same word.
 - In VOCAB mode: NEVER reveal the answer (target word) - ask them to say its name or what it's called
-- In GRAMMAR mode: Don't give away the exact sentence structure, let them construct it naturally"""),
+- In GRAMMAR mode: Don't give away the exact sentence structure, but DO specify the tense and person they should use."""),
     ("user", """Please prompt the student to work with the object "{source_name}".
 - Ensure that you are using a mix of {target_language} and {source_language} to help the student learn the word in {target_language}.
 
 Practice mode: {grammar_mode}
 Target word in {target_language}: {target_word}
 Grammar tense: {grammar_tense}
+Grammar person: {grammar_person}
 Action: {action}
 
 Context:
@@ -52,10 +53,10 @@ If grammar_mode is "vocab":
   - Don't reveal the target word
   
 If grammar_mode is "grammar":
-  - Ask them a question about the {source_name} that requires them to use {grammar_tense} tense
+  - **CRITICAL: You MUST tell the student to use {grammar_tense} tense AND {grammar_person}**
+  - Ask them a question about the {source_name} that requires them to form a sentence
+  - Explicitly state which person they should use (e.g., "Using 'I'..." or "Using 'we'..." or "Using 'they'...")
   - The question should naturally lead them to use the word "{target_word}" in a sentence
-  - Example questions for present tense: "What do you use this for?" "What are you holding?"
-  - Example questions for past tense: "When did you last use this?" "What did you do with this yesterday?"
 
 If this is the first attempt (attempt_number = 1), give a simple, direct instruction without praise.
 If this is a retry (1 < attempt_number < max_attempts), clearly indicate you are asking them to try the SAME task again.
@@ -73,9 +74,10 @@ For VOCAB mode:
   - Check if they said the correct word with acceptable pronunciation
   - The object in the image should match the expected object
   
-For GRAMMAR mode ({grammar_tense} tense):
+For GRAMMAR mode ({grammar_tense} tense, {grammar_person}):
   - Check if they formed a grammatically correct sentence in the target language
   - The sentence should use {grammar_tense} tense correctly
+  - **CRITICAL: The sentence should use the correct grammatical person ({grammar_person})**
   - The sentence should incorporate the target vocabulary word
   - The object in the image should match what they're describing
 
@@ -86,6 +88,7 @@ You will be given:
 4. The correct word/expected response in the target language
 5. The current attempt number and maximum attempts allowed
 6. Whether this is the last object in the lesson (is_last_object)
+7. The required grammatical person (for grammar mode)
 
 IMPORTANT: Pay close attention to the attempt number (attempt_number) vs maximum attempts (max_attempts).
 If attempt_number >= max_attempts, this is the FINAL attempt - DO NOT suggest trying again.
@@ -94,7 +97,7 @@ Also check if this is the last object (is_last_object) to provide appropriate cl
 Your task is to determine:
 1. Does the object in the image match the expected object from the plan?
 2. For VOCAB mode: Did they say the correct word with acceptable pronunciation?
-3. For GRAMMAR mode: Did they form a correct sentence using the word and proper grammar tense?
+3. For GRAMMAR mode: Did they form a correct sentence using the word, proper tense, AND correct grammatical person?
 
 IMPORTANT EVALUATION CRITERIA:
 
@@ -123,9 +126,10 @@ For GRAMMAR mode:
   * The object in the image matches the expected object
   * The student formed a complete, grammatically correct sentence
   * The sentence uses the correct grammar tense ({grammar_tense})
+  * **The sentence uses the correct grammatical person ({grammar_person})**
   * The sentence incorporates the target vocabulary word (or valid synonym)
   * Overall meaning and structure are accurate
-- Mark as INCORRECT if: wrong object, incorrect tense, missing vocabulary word, grammatical errors, or incomplete sentence
+- Mark as INCORRECT if: wrong object, incorrect tense, **wrong person**, missing vocabulary word, grammatical errors, or incomplete sentence
 - Minor pronunciation issues in grammar mode are more acceptable if the sentence structure is correct
 - **IMPORTANT: Be VERY lenient with accent marks on vowels (á, é, í, ó, ú):**
   * Missing accent marks on vowels should NOT be penalized (e.g., "escribo" with or without accent - both correct)
@@ -138,6 +142,7 @@ Error categories (if incorrect):
 - "wrong_word_nonsense" (a nonsensical word or phrase)
 - "mispronunciation" (significant pronunciation issues that would confuse native speakers - NOT including missing accent marks on vowels)
 - "wrong_tense" (incorrect grammar tense)
+- "wrong_person" (incorrect grammatical person - e.g., used "I" when asked for "they")
 - "incomplete_sentence" (incomplete sentence or missing essential elements)
 - "missing_vocabulary" (missing essential vocabulary words)
 - "grammatical_error" (grammatical errors in the sentence)
@@ -169,6 +174,7 @@ Generate appropriate feedback based on the error category, practice mode, attemp
 - For "wrong_word_actual": Provide translation of what was said and encourage to try again (use both languages)
 - For "wrong_word_nonsense": Give a helpful hint (starting letter, similar word example, etc.) and encourage to try again (use both languages)
 - For "mispronunciation": Give slight correction and encourage to try again (use both languages to show correct pronunciation)
+- For "wrong_person": Remind them which person was requested and encourage to try again
 - For other error categories: Give appropriate feedback and encourage to try again (use both languages)
 - Use phrases like "Try again!", "Let's try once more", "Give it another go"
 - IMPORTANT: DO NOT reveal the full answer. Focus on guiding the student to the correct answer.
@@ -180,7 +186,7 @@ Generate appropriate feedback based on the error category, practice mode, attemp
 - Provide constructive feedback and the correct answer (blend both {source_language} and {target_language} naturally)
 - Use phrases like "The correct word is...", "The answer is...", "For next time, remember..."
 - Include the correct word/phrase and explanations, mixing both languages naturally
-- For grammar mode: show the correct sentence structure, mixing both languages as appropriate
+- For grammar mode: show the correct sentence structure WITH the correct person, mixing both languages as appropriate
 - **Check is_last_object to determine closure:**
   * If is_last_object is TRUE: Acknowledge this is the end of the session with phrases like "Great work today!", "That completes our lesson!", "¡Buen trabajo hoy!"
   * If is_last_object is FALSE: Indicate moving forward with phrases like "Let's move on to the next word" or "Vamos al siguiente objeto"
@@ -191,6 +197,7 @@ CRITICAL: If you set an error_category, you MUST set correct=false."""),
 Practice mode: {grammar_mode}
 Expected object: {object_source_name} (core word: "{object_target_name}" in {target_language})
 Grammar tense: {grammar_tense}
+Grammar person: {grammar_person}
 Student said: "{transcription}"
 Source language: {source_language}
 Attempt number: {attempt_number} of {max_attempts}
@@ -199,8 +206,8 @@ Is this the last object in the lesson? {is_last_object}
 Evaluate based on practice mode:
 1. Does the image show the expected object ({object_source_name})?
 2. VOCAB mode: Does the transcription contain the correct word with proper pronunciation ({object_target_name})?
-   GRAMMAR mode: Did they form a correct sentence with proper tense and vocabulary ({object_target_name} in {grammar_tense} tense)?
-3. If incorrect, what type of error is it?
+   GRAMMAR mode: Did they form a correct sentence with proper tense ({grammar_tense}), correct person ({grammar_person}), and vocabulary ({object_target_name})?
+3. If incorrect, what type of error is it? (Remember: wrong_person is a valid error category for grammar mode)
 4. Generate appropriate feedback based on practice mode, error type, and attempt number.
 5. If the answer is incorrect and not the final attempt, DO NOT reveal the full answer. Focus on the student's error and guide the student to the correct answer.
 6. IMPORTANT: Use a natural mix of {source_language} and {target_language} in your feedback_message. Blend both languages throughout as appropriate - don't rigidly separate them by purpose.
@@ -212,7 +219,8 @@ Respond with a JSON object:
   "object_matches": true/false,
   "word_correct": true/false,
   "grammar_correct": true/false (for grammar mode),
-  "error_category": "wrong_word_actual" | "wrong_word_nonsense" | "mispronunciation" | "wrong_tense" | "incomplete_sentence" | "missing_vocabulary" | "grammatical_error" | "wrong_object" | null,
+  "person_correct": true/false (for grammar mode - did they use the correct grammatical person?),
+  "error_category": "wrong_word_actual" | "wrong_word_nonsense" | "mispronunciation" | "wrong_tense" | "wrong_person" | "incomplete_sentence" | "missing_vocabulary" | "grammatical_error" | "wrong_object" | null,
   "feedback_message": "appropriate feedback based on practice mode, error category and attempt number"
 }}""")
 ])
@@ -229,6 +237,7 @@ For VOCAB mode:
 
 For GRAMMAR mode:
   - Generate hints to help them construct a sentence using "{target_word}" in {grammar_tense} tense
+  - Remind them of the grammatical person they should use: {grammar_person}
   - Guide them toward the sentence structure without giving it away completely
 
 Your task is to generate a helpful hint based on the practice mode and hint number.
@@ -242,7 +251,7 @@ Guidelines for hints based on hint number:
   
   GRAMMAR mode:
     * Suggest a sentence starter or structure
-    * Remind them of the tense: {grammar_tense}
+    * Remind them of the tense and person: "Remember to use {grammar_tense} tense with {grammar_person}"
   
 **Second hint (hint_number=2)**: Provide a more direct hint like:
   VOCAB mode:
@@ -253,7 +262,8 @@ Guidelines for hints based on hint number:
   
   GRAMMAR mode:
     * Provide more specific sentence structure guidance
-    * Remind them of the tense: "Remember to use {grammar_tense} tense"
+    * Remind them: "You need {grammar_tense} tense, {grammar_person}"
+    * Give the verb conjugation hint if helpful
 
 IMPORTANT: Use a natural mix of {target_language} and {source_language} in your hints.
 - Blend both languages throughout as appropriate
@@ -267,11 +277,13 @@ IMPORTANT: Use a natural mix of {target_language} and {source_language} in your 
 Practice mode: {grammar_mode}
 Target word: "{target_word}" ({source_name} in {source_language})
 Grammar tense: {grammar_tense}
+Grammar person: {grammar_person}
 Target language: {target_language}
 Source language: {source_language}
 
 Generate an encouraging, helpful hint that guides them toward the answer without revealing it completely.
-Use a natural mix of {source_language} and {target_language} throughout your hint - blend them as appropriate rather than rigidly separating them.""")
+Use a natural mix of {source_language} and {target_language} throughout your hint - blend them as appropriate rather than rigidly separating them.
+For grammar mode, make sure to remind them of the required person ({grammar_person}).""")
 ])
 
 # prompt for giving answer with memory aid
@@ -286,16 +298,16 @@ For VOCAB mode:
   - Ask them to repeat the word
 
 For GRAMMAR mode:
-  - Provide a correct example sentence using "{target_word}" in {grammar_tense} tense
-  - Explain the sentence structure
-  - Give tips for forming sentences in {grammar_tense} tense
+  - Provide a correct example sentence using "{target_word}" in {grammar_tense} tense with {grammar_person}
+  - Explain the sentence structure and verb conjugation for {grammar_person}
+  - Give tips for forming sentences in {grammar_tense} tense with different persons
   - Ask them to repeat the sentence
 
 IMPORTANT: Use a natural mix of {source_language} and {target_language} throughout.
 - Blend both languages naturally - don't segregate them by purpose
 - Include the answer/sentence in {target_language} but weave in both languages for explanations
 - Example: "La palabra es 'bolígrafo'. Think of it like 'bold graph' - you write boldly with a pen! Now repeat after me: bolígrafo"
-- Example: "The correct answer is 'Escribo con un bolígrafo' (I write with a pen). Notice how we use the present tense 'escribo'. Now you try!"
+- Example: "The correct answer is 'Escribo con un bolígrafo' (I write with a pen). Notice how we use the first person singular 'escribo' in present tense. Now you try!"
 
 Make it encouraging and explain that it's okay not to know, learning takes practice."""),
     ("user", """Provide the answer for:
@@ -303,10 +315,12 @@ Make it encouraging and explain that it's okay not to know, learning takes pract
 Practice mode: {grammar_mode}
 Target word: "{target_word}" ({source_name} in {source_language})
 Grammar tense: {grammar_tense}
+Grammar person: {grammar_person}
 Target language: {target_language}
 Source language: {source_language}
 
 Please provide the answer with an encouraging message and a helpful memory aid or grammar tip, then ask them to repeat.
+For grammar mode, make sure the example sentence uses the correct person ({grammar_person}) and tense ({grammar_tense}).
 Use a natural mix of {target_language} and {source_language} throughout - blend them as appropriate.
 Ensure that the last part of the message asks the student to repeat the answer.""")
 ])
@@ -315,17 +329,21 @@ Ensure that the last part of the message asks the student to repeat the answer."
 detect_intent_prompt = ChatPromptTemplate.from_messages([
     ("system", """You are analyzing a student's response during a language learning lesson to determine their intent.
 
-There are exactly THREE possible intents:
+There are exactly FOUR possible intents:
 
 1. **hint_request**: The student is asking for help, a hint, or assistance.
 2. **dont_know**: The student doesn't know the answer or wants to give up and be told the answer.
-3. **answer_attempt**: The student is attempting to answer (default for anything that doesn't clearly fit above).
+3. **no_object**: The student is indicating they don't have the object being asked about (e.g., "I don't have that", "can't find it", "not here", "no tengo eso").
+4. **answer_attempt**: The student is attempting to answer (default for anything that doesn't clearly fit above).
 
 IMPORTANT: Use the context of what the system just asked to help determine intent. For example:
 - System: "Please say the word for pen" + User: "I can't" → "dont_know"
 - System: "Try again!" + User: "help" → "hint_request"  
 - System: "Say its name in Spanish" + User: "bolígrafo" → "answer_attempt"
 - System: "Here's a hint: it starts with 'b'" + User: "I still don't know" → "dont_know"
+- System: "Hold up the cup" + User: "I don't have a cup" → "no_object"
+- System: "Pick up the pen" + User: "I can't find it" → "no_object"
+- System: "Show me the book" + User: "no lo tengo" → "no_object"
 
 When in doubt, default to "answer_attempt" to give the student credit for trying."""),
     ("user", """Previous system message: "{context_message}"
@@ -334,9 +352,10 @@ Student's response: "{transcription}"
 
 Based on the context and the student's response, what is their intent?
 
-Respond with ONLY one of these three values:
+Respond with ONLY one of these four values:
 - hint_request
 - dont_know
+- no_object
 - answer_attempt""")
 ])
 
