@@ -444,7 +444,7 @@ export default function SceneCaptureView({ settings, email, mode = 'embedded' }:
 
       {/* Scene selection - shown before camera starts */}
       {!running && (
-        <div className={`space-y-3 z-10 ${mode === 'fullscreen' ? 'p-4 bg-black/50 backdrop-blur-sm rounded-lg m-4' : 'mt-4'}`}>
+        <div className={`space-y-3 z-10 ${mode === 'fullscreen' ? 'p-4 bg-black/50 backdrop-blur-sm rounded-lg mt-16 mx-4 mb-4' : 'mt-4'}`}>
           <label className={`text-sm font-medium ${mode === 'fullscreen' ? 'text-white' : ''}`}>Select a Scene</label>
           {loadingScenes ? (
             <div className="text-sm text-muted-foreground">Loading scenes...</div>
@@ -530,7 +530,7 @@ export default function SceneCaptureView({ settings, email, mode = 'embedded' }:
 
         {/* Scene info overlay - top left */}
         {running && selectedScene && (
-          <div className="absolute top-3 left-3 z-10 pointer-events-auto">
+          <div className={`absolute left-3 z-10 pointer-events-auto ${mode === 'fullscreen' ? 'top-16' : 'top-3'}`}>
             <OverlayCard className="p-2">
               <div className="text-xs font-medium text-white">{selectedScene.name}</div>
             </OverlayCard>
@@ -539,7 +539,7 @@ export default function SceneCaptureView({ settings, email, mode = 'embedded' }:
 
         {/* Captured vocab overlay - below scene info */}
         {running && capturedObjects.length > 0 && (
-          <div className="absolute left-3 top-14 z-10 w-[70%] max-w-xs pointer-events-auto">
+          <div className={`absolute left-3 z-10 w-[70%] max-w-xs pointer-events-auto ${mode === 'fullscreen' ? 'top-28' : 'top-14'}`}>
             <OverlayCard className="p-3 max-h-[40vh] overflow-y-auto">
               <div className="text-xs text-white/70 mb-2">
                 {capturedObjects.length} word{capturedObjects.length !== 1 ? 's' : ''} captured
