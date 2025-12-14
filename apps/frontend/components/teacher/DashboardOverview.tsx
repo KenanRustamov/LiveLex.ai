@@ -49,7 +49,7 @@ export function DashboardOverview({
             header: "Work Completed",
             cell: (info) => (
                 <span className="text-gray-600 font-medium">
-                    {info.getValue()} / {classAnalytics?.total_words_practiced || '?'} words
+                    {info.getValue()} / {classAnalytics?.total_words_practiced || '0'} words
                 </span>
             )
         }),
