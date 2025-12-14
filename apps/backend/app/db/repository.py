@@ -293,9 +293,23 @@ async def get_assignment_completion_status(assignment_id: str, student_username:
 
 async def get_assignment_progress(assignment_id: str, teacher_id: str) -> dict:
     """Get progress for all students on a specific assignment."""
-    from app.db.models import AssignmentCompletionDoc
+    from app.db.models import AssignmentCompletionDoc, AssignmentDoc
     
     try:
+        # Get assignment to check vocab
+        assignment = await AssignmentDoc.get(assignment_id)
+        if not assignment:
+            return {
+                "assignment_id": assignment_id,
+                "total_students": 0,
+                "completed_count": 0,
+                "students": []
+            }
+            
+        vocab_list = getattr(assignment, 'vocab', []) or []
+        target_words = {item["target_name"].lower() for item in vocab_list if "target_name" in item}
+        total_assignment_words = len(target_words)
+
         # Get all students enrolled with this teacher
         students = await UserDataDoc.find(
             UserDataDoc.teacher_id == teacher_id,
@@ -314,12 +328,56 @@ async def get_assignment_progress(assignment_id: str, teacher_id: str) -> dict:
         progress = []
         for student in students:
             completion = completion_map.get(student.username)
+            
+            # Calculate words completed and average score from student objects
+            words_completed = 0
+            total_accuracy_sum = 0.0
+            student_objects = student.objects or {}
+            
+            # Create lookup by target word for efficiency/correctness
+            stats_by_target = {}
+            for obj_name, stats in student_objects.items():
+                cw = stats.get("correct_word")
+                if cw:
+                    stats_by_target[cw.lower()] = stats
+
+            for target_word in target_words:
+                stats = stats_by_target.get(target_word)
+                if stats:
+                    correct = int(stats.get("correct", 0))
+                    incorrect = int(stats.get("incorrect", 0))
+                    attempts = correct + incorrect
+                    
+                    if correct > 0:
+                        words_completed += 1
+                    
+                    if attempts > 0:
+                        # Add word accuracy to sum (0.0 to 1.0)
+                        total_accuracy_sum += (correct / attempts)
+            
+            # Calculate average score over ALL assignment words (unattempted = 0%)
+            average_score = 0.0
+            if total_assignment_words > 0:
+                average_score = total_accuracy_sum / total_assignment_words
+            
+            # Determine status
+            status = "Not Started"
+            if completion:
+                status = "Completed"
+            elif words_completed > 0:
+                 status = "In Progress"
+
             progress.append({
                 "student_username": student.username,
                 "student_name": student.name or student.username,
+                "profile_image": student.profile_image,
+                "status": status,
+                "words_completed": words_completed,
+                "total_assignment_words": total_assignment_words,
                 "completed": completion is not None,
                 "completed_at": completion.completed_at if completion else None,
-                "score": completion.score if completion else None,
+                "score": average_score, # Use calculated average score
+                "session_score": completion.score if completion else None, # Keep session score if needed
                 "total_items": completion.total_items if completion else 0,
                 "correct_items": completion.correct_items if completion else 0
             })
@@ -327,7 +385,7 @@ async def get_assignment_progress(assignment_id: str, teacher_id: str) -> dict:
         return {
             "assignment_id": assignment_id,
             "total_students": len(students),
-            "completed_count": len([p for p in progress if p["completed"]]),
+            "completed_count": len([p for p in progress if p["status"] == "Completed"]),
             "students": progress
         }
     except Exception as e:

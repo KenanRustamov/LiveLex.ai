@@ -67,6 +67,29 @@ async def get_scenes(email: str):
         for s in scenes
     ]
 
+@router.get("/teacher/scenes/{scene_id}")
+async def get_scene(scene_id: str, email: str):
+    """Get a single scene by ID."""
+    teacher = await get_current_teacher(email)
+    
+    scene = await SceneDoc.get(scene_id)
+    if not scene:
+        raise HTTPException(status_code=404, detail="Scene not found")
+        
+    if scene.teacher_id != str(teacher.id):
+        raise HTTPException(status_code=403, detail="Not your scene")
+        
+    return {
+        "id": str(scene.id),
+        "name": scene.name,
+        "description": scene.description,
+        "teacher_id": scene.teacher_id,
+        "vocab": getattr(scene, 'vocab', []),
+        "source_language": getattr(scene, 'source_language', 'English'),
+        "target_language": getattr(scene, 'target_language', 'Spanish'),
+        "image_url": scene.image_url
+    }
+
 @router.delete("/teacher/scenes/{scene_id}")
 async def delete_scene(scene_id: str, email: str):
     """Delete a scene."""

@@ -137,6 +137,30 @@ async def get_assignments(email: str):
     
     return result
 
+@router.get("/assignments/{assignment_id}")
+async def get_assignment(assignment_id: str, email: str):
+    """Get a single assignment by ID."""
+    # Logic similar to basic retrieval, but simplified for detail view
+    teacher = await get_current_teacher(email)
+    
+    assignment = await AssignmentDoc.get(assignment_id)
+    if not assignment:
+        raise HTTPException(status_code=404, detail="Assignment not found")
+        
+    if assignment.teacher_id != str(teacher.id):
+        raise HTTPException(status_code=403, detail="Not your assignment")
+        
+    return {
+        "id": str(assignment.id),
+        "title": assignment.title,
+        "vocab": getattr(assignment, 'vocab', []),
+        "created_at": assignment.created_at,
+        "scene_id": assignment.scene_id,
+        "include_discovered_count": assignment.include_discovered_count,
+        "include_grammar": assignment.include_grammar,
+        "grammar_tense": assignment.grammar_tense
+    }
+
 @router.delete("/assignments/{assignment_id}")
 async def delete_assignment(assignment_id: str, email: str):
     """Delete an assignment."""

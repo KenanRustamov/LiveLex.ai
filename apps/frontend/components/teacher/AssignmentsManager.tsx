@@ -1,20 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { Loader2, Plus, Pencil, X, Save, TrendingUp, Users, CheckCircle2 } from 'lucide-react';
-import { Assignment, Scene, VocabItem } from '@/types/teacher';
+import { Plus, Pencil, Trash2 } from 'lucide-react';
+import { Assignment, Scene } from '@/types/teacher';
 import { useSession } from 'next-auth/react';
-import { Switch } from "@/components/ui/switch";
 import { teacherService } from "@/services/teacherService";
 import { useToast } from "@/components/ui/use-toast";
 import { DeleteConfirm } from "@/components/ui/delete-confirm";
-import { VocabularyInput } from "./VocabularyInput";
-
-// Default language settings
-const DEFAULT_SOURCE_LANGUAGE = "English";
-const DEFAULT_TARGET_LANGUAGE = "Spanish";
+import { AssignmentDialog } from "./AssignmentDialog";
+import Link from 'next/link';
 
 interface AssignmentsManagerProps {
     assignments: Assignment[];
@@ -28,164 +22,52 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
     const { data: session } = useSession();
     const { toast } = useToast();
 
-    // Form State
-    const [newAssignmentTitle, setNewAssignmentTitle] = useState("");
-    const [vocab, setVocab] = useState<VocabItem[]>([]);
-    const [newAssignmentSceneId, setNewAssignmentSceneId] = useState<string>("none");
-    const [newAssignmentDiscoveredCount, setNewAssignmentDiscoveredCount] = useState<number | "">(0);
-    const [includeGrammar, setIncludeGrammar] = useState(false);
-    const [grammarTense, setGrammarTense] = useState<"present" | "past">("present");
-    const [creating, setCreating] = useState(false);
-    
-    // Language settings (derived from selected scene or defaults)
-    const [sourceLanguage, setSourceLanguage] = useState(DEFAULT_SOURCE_LANGUAGE);
-    const [targetLanguage, setTargetLanguage] = useState(DEFAULT_TARGET_LANGUAGE);
-
-    // Validation State
-    const [errors, setErrors] = useState<{ title?: string; vocab?: string }>({});
-
-    // Edit State
+    // Modal State
+    const [isCreateOpen, setIsCreateOpen] = useState(false);
     const [editingAssignment, setEditingAssignment] = useState<Assignment | null>(null);
 
-    // Progress State
-    const [expandedProgress, setExpandedProgress] = useState<Set<string>>(new Set());
-    const [progressData, setProgressData] = useState<Record<string, any>>({});
-    const [loadingProgress, setLoadingProgress] = useState<Set<string>>(new Set());
-
-    // Handle scene selection - pre-populate vocab from scene
-    const handleSceneChange = (sceneId: string) => {
-        setNewAssignmentSceneId(sceneId);
-        
-        if (sceneId !== "none") {
-            const selectedScene = scenes.find(s => s.id === sceneId);
-            if (selectedScene) {
-                // Deep copy the scene's vocab to avoid modifying the original
-                const sceneVocab = (selectedScene.vocab || []).map(v => ({
-                    source_name: v.source_name,
-                    target_name: v.target_name
-                }));
-                setVocab(sceneVocab);
-                setSourceLanguage(selectedScene.source_language || DEFAULT_SOURCE_LANGUAGE);
-                setTargetLanguage(selectedScene.target_language || DEFAULT_TARGET_LANGUAGE);
-            }
-        } else {
-            // Clear vocab when no scene is selected (unless editing)
-            if (!editingAssignment) {
-                setVocab([]);
-            }
-            setSourceLanguage(DEFAULT_SOURCE_LANGUAGE);
-            setTargetLanguage(DEFAULT_TARGET_LANGUAGE);
-        }
-    };
-
-    const resetForm = () => {
-        setNewAssignmentTitle("");
-        setVocab([]);
-        setNewAssignmentSceneId("none");
-        setNewAssignmentDiscoveredCount(0);
-        setIncludeGrammar(false);
-        setGrammarTense("present");
-        setSourceLanguage(DEFAULT_SOURCE_LANGUAGE);
-        setTargetLanguage(DEFAULT_TARGET_LANGUAGE);
-        setEditingAssignment(null);
-        setErrors({});
-    };
-
-    const startEditing = (assignment: Assignment) => {
-        setEditingAssignment(assignment);
-        setNewAssignmentTitle(assignment.title);
-        setVocab(assignment.vocab || []);
-        setNewAssignmentSceneId(assignment.scene_id || "none");
-        setNewAssignmentDiscoveredCount(assignment.include_discovered_count || 0);
-        setIncludeGrammar(assignment.include_grammar || false);
-        setGrammarTense((assignment.grammar_tense as "present" | "past") || "present");
-        
-        // Set language from scene if available
-        if (assignment.scene_id) {
-            const scene = scenes.find(s => s.id === assignment.scene_id);
-            if (scene) {
-                setSourceLanguage(scene.source_language || DEFAULT_SOURCE_LANGUAGE);
-                setTargetLanguage(scene.target_language || DEFAULT_TARGET_LANGUAGE);
-            }
-        }
-        
-        setErrors({});
-
-        // Scroll to top
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
-    const validateForm = () => {
-        const newErrors: { title?: string; vocab?: string } = {};
-        let isValid = true;
-
-        if (!newAssignmentTitle.trim()) {
-            newErrors.title = "Title is required.";
-            isValid = false;
-        }
-
-        // Filter out empty vocab entries for validation
-        const validVocab = vocab.filter(v => v.source_name.trim() && v.target_name.trim());
-        if (validVocab.length === 0) {
-            newErrors.vocab = "At least one vocabulary word is required.";
-            isValid = false;
-        }
-
-        setErrors(newErrors);
-        return isValid;
-    };
-
-    const handleCreateOrUpdate = async () => {
-        if (!validateForm()) {
-            return;
-        }
-
+    const handleCreate = async (data: any) => {
         if (!session?.user?.email) return;
 
-        setCreating(true);
         try {
-            // Filter out empty vocab entries
-            const validVocab = vocab.filter(v => v.source_name.trim() && v.target_name.trim());
-            
             const payload = {
                 email: session.user.email,
-                title: newAssignmentTitle,
-                vocab: validVocab,
-                include_discovered_count: newAssignmentDiscoveredCount === "" ? 0 : newAssignmentDiscoveredCount,
-                include_grammar: includeGrammar,
-                grammar_tense: includeGrammar ? grammarTense : null,
-                scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined
+                ...data
             };
-
-            if (editingAssignment) {
-                await teacherService.updateAssignment(editingAssignment.id, payload);
-                const updatedAssignment: Assignment = {
-                    ...editingAssignment,
-                    title: newAssignmentTitle,
-                    vocab: validVocab,
-                    scene_id: newAssignmentSceneId !== "none" ? newAssignmentSceneId : undefined,
-                    include_discovered_count: newAssignmentDiscoveredCount === "" ? 0 : newAssignmentDiscoveredCount,
-                    include_grammar: includeGrammar,
-                    grammar_tense: includeGrammar ? grammarTense : undefined,
-                };
-                onAssignmentUpdated(updatedAssignment);
-                toast({ title: "Success", description: "Assignment updated.", variant: "success" });
-                resetForm();
-            } else {
-                const newAssignment = await teacherService.createAssignment(payload);
-                onAssignmentCreated(newAssignment);
-                toast({ title: "Success", description: "Assignment created.", variant: "success" });
-                resetForm();
-            }
+            const newAssignment = await teacherService.createAssignment(payload);
+            onAssignmentCreated(newAssignment);
+            toast({ title: "Success", description: "Assignment created.", variant: "success" });
+            setIsCreateOpen(false);
         } catch (error: any) {
-            console.error("Failed to save assignment", error);
+            console.error("Failed to create assignment", error);
             toast({
                 title: "Error",
-                description: error.message || "Failed to save assignment. Please try again.",
+                description: error.message || "Failed to create assignment.",
                 variant: "destructive",
             });
-        } finally {
-            setCreating(false);
+        }
+    };
+
+    const handleUpdate = async (data: any) => {
+        if (!editingAssignment || !session?.user?.email) return;
+
+        try {
+            const payload = {
+                email: session.user.email,
+                ...data
+            };
+            await teacherService.updateAssignment(editingAssignment.id, payload);
+            const updatedAssignment = { ...editingAssignment, ...data };
+            onAssignmentUpdated(updatedAssignment);
+            toast({ title: "Success", description: "Assignment updated.", variant: "success" });
+            setEditingAssignment(null);
+        } catch (error: any) {
+            console.error("Failed to update assignment", error);
+            toast({
+                title: "Error",
+                description: error.message || "Failed to update assignment.",
+                variant: "destructive",
+            });
         }
     };
 
@@ -194,9 +76,6 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
         try {
             await teacherService.deleteAssignment(id, session.user.email);
             onAssignmentDeleted(id);
-            if (editingAssignment?.id === id) {
-                resetForm();
-            }
             toast({ title: "Success", description: "Assignment deleted.", variant: "success" });
         } catch (error) {
             console.error("Failed to delete assignment", error);
@@ -208,338 +87,115 @@ export function AssignmentsManager({ assignments, scenes, onAssignmentCreated, o
         }
     };
 
-    const toggleProgress = async (assignmentId: string) => {
-        const isExpanded = expandedProgress.has(assignmentId);
-        
-        if (isExpanded) {
-            // Collapse
-            setExpandedProgress(prev => {
-                const next = new Set(prev);
-                next.delete(assignmentId);
-                return next;
-            });
-        } else {
-            // Expand and fetch progress if not already loaded
-            setExpandedProgress(prev => new Set(prev).add(assignmentId));
-            
-            if (!progressData[assignmentId]) {
-                await fetchProgress(assignmentId);
-            }
-        }
-    };
-
-    const fetchProgress = async (assignmentId: string) => {
-        if (!session?.user?.email) return;
-        
-        setLoadingProgress(prev => new Set(prev).add(assignmentId));
-        
-        try {
-            const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? 'http://localhost:8000';
-            const response = await fetch(
-                `${backendUrl}/v1/assignments/${assignmentId}/progress?teacher_email=${session.user.email}`
-            );
-            
-            if (response.ok) {
-                const data = await response.json();
-                setProgressData(prev => ({
-                    ...prev,
-                    [assignmentId]: data
-                }));
-            }
-        } catch (error) {
-            console.error("Failed to fetch progress", error);
-            toast({
-                title: "Error",
-                description: "Failed to load progress data.",
-                variant: "destructive",
-            });
-        } finally {
-            setLoadingProgress(prev => {
-                const next = new Set(prev);
-                next.delete(assignmentId);
-                return next;
-            });
-        }
-    };
-
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-in fade-in-50 duration-500">
-            <Card className="rounded-[2rem] border-none shadow-sm h-fit">
-                <CardHeader>
-                    <CardTitle>{editingAssignment ? "Edit Assignment" : "Create Assignment"}</CardTitle>
-                    <CardDescription>{editingAssignment ? "Update details below." : "Create a new vocabulary list."}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                    <div className="space-y-4">
-                        <div className="space-y-2">
-                            <Label htmlFor="title">Title</Label>
-                            <Input
-                                id="title"
-                                placeholder="e.g., Week 1 Vocabulary"
-                                value={newAssignmentTitle}
-                                onChange={(e) => {
-                                    setNewAssignmentTitle(e.target.value);
-                                    if (errors.title) setErrors({ ...errors, title: undefined });
-                                }}
-                                className={errors.title ? "border-red-500 rounded-xl" : "rounded-xl"}
-                            />
-                            {errors.title && <p className="text-sm text-red-500 font-medium">{errors.title}</p>}
-                        </div>
+        <div className="space-y-6 animate-in fade-in-50 duration-500">
+            <div className="flex justify-between items-center">
+                <div>
+                    <h2 className="text-2xl font-bold tracking-tight">Assignments</h2>
+                    <p className="text-muted-foreground">Manage your class vocabulary lists.</p>
+                </div>
+                <Button onClick={() => setIsCreateOpen(true)} className="rounded-xl h-10">
+                    <Plus className="mr-2 h-4 w-4" />
+                    New Assignment
+                </Button>
+            </div>
 
-                        {/* Scene Selector */}
-                        <div className="space-y-2">
-                            <Label htmlFor="sceneSelect">Scene (Optional)</Label>
-                            <select
-                                id="sceneSelect"
-                                className="flex h-10 w-full rounded-xl border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                value={newAssignmentSceneId}
-                                onChange={(e) => handleSceneChange(e.target.value)}
-                            >
-                                <option value="none">No Scene</option>
-                                {scenes.map((s) => (
-                                    <option key={s.id} value={s.id}>{s.name} ({s.vocab?.length || 0} words)</option>
-                                ))}
-                            </select>
-                        </div>
-                        {/* Grammar Toggle */}
-                        <div className="flex items-center justify-between bg-gray-50 p-3 rounded-xl">
-                            <Label className="text-sm font-medium">Include Grammar Practice</Label>
-                            <Switch checked={includeGrammar} onCheckedChange={setIncludeGrammar} />
-                        </div>
-                        {/* Tense Selector */}
-                        {includeGrammar && (
-                            <div className="space-y-2 bg-green-50 p-3 rounded-xl">
-                                <Label className="text-green-900">Choose Tense</Label>
-                                <select
-                                    className="flex h-10 w-full rounded-xl border border-input bg-background px-3 py-2 text-sm"
-                                    value={grammarTense}
-                                    onChange={(e) => setGrammarTense(e.target.value as "present" | "past")}
-                                >
-                                    <option value="present indicative">Present Indicative</option>
-                                    <option value="preterite">Preterite</option>
-                                </select>
-                            </div>
-                        )}
+            {/* Creation Modal */}
+            <AssignmentDialog
+                open={isCreateOpen}
+                onOpenChange={setIsCreateOpen}
+                scenes={scenes}
+                onSubmit={handleCreate}
+            />
 
-                        {/* Vocabulary Input */}
-                        <div className="pt-2 border-t">
-                            <VocabularyInput
-                                vocab={vocab}
-                                onChange={(newVocab) => {
-                                    setVocab(newVocab);
-                                    if (errors.vocab) setErrors({ ...errors, vocab: undefined });
-                                }}
-                                sourceLanguage={sourceLanguage}
-                                targetLanguage={targetLanguage}
-                            />
-                            {errors.vocab && <p className="text-sm text-red-500 font-medium mt-2">{errors.vocab}</p>}
-                        </div>
-
-                        {newAssignmentSceneId !== "none" && (
-                            <div className="space-y-2 bg-blue-50 p-3 rounded-xl">
-                                <Label htmlFor="discoveredCount" className="text-blue-900">Include Student Discovered Words</Label>
-                                <div className="flex items-center gap-3">
-                                    <Input
-                                        id="discoveredCount"
-                                        type="number"
-                                        min="0"
-                                        max="10"
-                                        value={newAssignmentDiscoveredCount}
-                                        onChange={(e) => {
-                                            const val = e.target.value;
-                                            if (val === "") {
-                                                setNewAssignmentDiscoveredCount("");
-                                            } else {
-                                                const num = parseInt(val);
-                                                if (!isNaN(num)) setNewAssignmentDiscoveredCount(num);
-                                            }
-                                        }}
-                                        className="rounded-xl w-20 bg-white"
-                                    />
-                                    <span className="text-xs text-blue-700">
-                                        Randomly adds words the student found in this scene to their list.
-                                    </span>
-                                </div>
-                            </div>
-                        )}
-
-                        <div className="flex gap-2">
-                            {editingAssignment && (
-                                <Button
-                                    variant="outline"
-                                    onClick={resetForm}
-                                    className="rounded-xl h-12 w-12 p-0 shrink-0"
-                                >
-                                    <X size={20} />
-                                </Button>
-                            )}
-                            <Button
-                                onClick={handleCreateOrUpdate}
-                                disabled={creating}
-                                className="w-full rounded-xl h-12 text-md"
-                            >
-                                {creating ? (
-                                    <Loader2 className="h-4 w-4 animate-spin mr-2" />
-                                ) : editingAssignment ? (
-                                    <Save className="mr-2 h-4 w-4" />
-                                ) : (
-                                    <Plus className="mr-2 h-4 w-4" />
-                                )}
-                                {editingAssignment ? "Update Assignment" : "Create Assignment"}
-                            </Button>
-                        </div>
-                    </div>
-                </CardContent>
-            </Card>
+            {/* Edit Modal */}
+            {editingAssignment && (
+                <AssignmentDialog
+                    open={!!editingAssignment}
+                    onOpenChange={(open) => !open && setEditingAssignment(null)}
+                    assignment={editingAssignment}
+                    scenes={scenes}
+                    onSubmit={handleUpdate}
+                />
+            )}
 
             <Card className="rounded-[2rem] border-none shadow-sm">
-                <CardHeader>
-                    <CardTitle>Active Assignments</CardTitle>
-                    <CardDescription>Manage your class lists.</CardDescription>
-                </CardHeader>
-                <CardContent>
+                <CardContent className="p-6">
                     {assignments.length === 0 ? (
-                        <div className="h-40 flex items-center justify-center text-muted-foreground text-sm border-2 border-dashed rounded-xl">
-                            No active assignments.
+                        <div className="h-40 flex flex-col items-center justify-center text-muted-foreground text-sm border-2 border-dashed rounded-xl">
+                            <p>No active assignments.</p>
+                            <Button variant="link" onClick={() => setIsCreateOpen(true)}>Create one now</Button>
                         </div>
                     ) : (
-                        <div className="space-y-3">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {assignments.map((assignment) => (
                                 <div
                                     key={assignment.id}
-                                    className={`p-4 border rounded-2xl bg-white hover:shadow-md transition-shadow relative ${editingAssignment?.id === assignment.id ? 'border-primary ring-1 ring-primary' : ''}`}
+                                    className="group relative flex flex-col justify-between p-5 border rounded-2xl bg-white hover:shadow-md transition-all hover:border-primary/50 cursor-pointer"
+                                    onClick={(e) => {
+                                        // Prevent navigation if clicking action buttons
+                                        if ((e.target as HTMLElement).closest('button')) return;
+                                        // Next.js Link doesn't wrap correctly here so we use router or just wrap contents?
+                                        // Actually wrapping the whole card in Link is better UX but requires block handling.
+                                        // We will programmatically push or use a Link wrapper.
+                                    }}
                                 >
-                                    <div className="flex flex-col gap-1 pr-16">
-                                        {/* Title */}
-                                        <h3 className="font-bold text-gray-900">{assignment.title}</h3>
+                                    <Link href={`/teacher/assignments/${assignment.id}`} className="absolute inset-0 z-0" />
 
-                                        {/* Metadata */}
-                                        <p className="text-sm text-muted-foreground">
-                                            {new Date(assignment.created_at).toLocaleDateString()} •{" "}
-                                            {assignment.include_grammar ? "Vocab + Grammar" : "Vocab Only"} •{" "}
-                                            {assignment.vocab?.length || 0} words
+                                    <div className="relative z-10 pointer-events-none">
+                                        <h3 className="font-bold text-lg text-gray-900 group-hover:text-primary transition-colors">
+                                            {assignment.title}
+                                        </h3>
+
+                                        <p className="text-xs text-muted-foreground mt-1">
+                                            {new Date(assignment.created_at).toLocaleDateString()}
                                         </p>
 
-                                        {/* Vocab Chips */}
-                                        <div className="flex gap-1 mt-2 flex-wrap">
+                                        <p className="text-sm text-gray-600 mt-2">
+                                            {assignment.vocab?.length || 0} words
+                                            {assignment.include_grammar && " • Grammar"}
+                                            {assignment.scene_id && " • Scene Linked"}
+                                        </p>
+
+                                        {/* Vocab Chips Preview */}
+                                        <div className="flex gap-1 mt-3 flex-wrap">
                                             {assignment.vocab?.slice(0, 3).map((v, i) => (
                                                 <span
                                                     key={i}
-                                                    className="text-xs bg-secondary px-2 py-1 rounded-full text-secondary-foreground"
+                                                    className="text-[10px] bg-secondary px-2 py-1 rounded-full text-secondary-foreground"
                                                 >
-                                                    {v.source_name} → {v.target_name}
+                                                    {v.source_name}
                                                 </span>
                                             ))}
                                             {(assignment.vocab?.length || 0) > 3 && (
-                                                <span className="text-xs text-muted-foreground pl-1">
-                                                    +{(assignment.vocab?.length || 0) - 3} more
+                                                <span className="text-[10px] text-muted-foreground pl-1">
+                                                    +{(assignment.vocab?.length || 0) - 3}
                                                 </span>
                                             )}
                                         </div>
                                     </div>
 
-                                    {/* Action Buttons */}
-                                    <div className="absolute top-4 right-4 flex gap-1">
+                                    {/* Actions */}
+                                    <div className="relative z-20 flex justify-end gap-1 mt-4 pt-4 border-t border-gray-100">
                                         <Button
                                             variant="ghost"
                                             size="icon"
                                             className="h-8 w-8 text-muted-foreground hover:text-primary"
-                                            onClick={() => startEditing(assignment)}
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                setEditingAssignment(assignment);
+                                            }}
                                         >
                                             <Pencil size={14} />
                                         </Button>
 
-                                        <DeleteConfirm
-                                            title="Delete Assignment?"
-                                            description={`This will permanently delete "${assignment.title}" for all students. This action cannot be undone.`}
-                                            onConfirm={() => handleDelete(assignment.id)}
-                                        />
-                                    </div>
-
-                                    {/* Progress Tracking Section */}
-                                    <div className="mt-4 pt-4 border-t border-gray-100">
-                                        <Button
-                                            variant="ghost"
-                                            size="sm"
-                                            className="w-full justify-between text-sm h-8"
-                                            onClick={() => toggleProgress(assignment.id)}
-                                        >
-                                            <span className="flex items-center gap-2">
-                                                <TrendingUp size={14} />
-                                                Student Progress
-                                            </span>
-                                            <span className="text-xs text-muted-foreground">
-                                                {expandedProgress.has(assignment.id) ? '▲' : '▼'}
-                                            </span>
-                                        </Button>
-
-                                        {expandedProgress.has(assignment.id) && (
-                                            <div className="mt-3 space-y-2">
-                                                {loadingProgress.has(assignment.id) ? (
-                                                    <div className="text-center py-4">
-                                                        <Loader2 className="h-4 w-4 animate-spin mx-auto text-muted-foreground" />
-                                                    </div>
-                                                ) : progressData[assignment.id] ? (
-                                                    <>
-                                                        <div className="flex items-center justify-between text-xs bg-gray-50 p-2 rounded-lg">
-                                                            <span className="flex items-center gap-1">
-                                                                <Users size={12} />
-                                                                Total Students
-                                                            </span>
-                                                            <span className="font-bold">{progressData[assignment.id].total_students}</span>
-                                                        </div>
-                                                        <div className="flex items-center justify-between text-xs bg-green-50 p-2 rounded-lg">
-                                                            <span className="flex items-center gap-1 text-green-700">
-                                                                <CheckCircle2 size={12} />
-                                                                Completed
-                                                            </span>
-                                                            <span className="font-bold text-green-700">
-                                                                {progressData[assignment.id].completed_count}
-                                                            </span>
-                                                        </div>
-
-                                                        {progressData[assignment.id].students && progressData[assignment.id].students.length > 0 && (
-                                                            <div className="mt-3 space-y-1.5">
-                                                                <p className="text-xs font-semibold text-gray-700 mb-2">Student Details:</p>
-                                                                {progressData[assignment.id].students.map((student: any) => (
-                                                                    <div 
-                                                                        key={student.student_username}
-                                                                        className={`text-xs p-2 rounded-lg flex justify-between items-center ${
-                                                                            student.completed 
-                                                                                ? 'bg-green-50 text-green-900' 
-                                                                                : 'bg-gray-50 text-gray-700'
-                                                                        }`}
-                                                                    >
-                                                                        <span className="flex items-center gap-1.5">
-                                                                            {student.completed && <CheckCircle2 size={12} className="text-green-600" />}
-                                                                            {student.student_name}
-                                                                        </span>
-                                                                        {student.completed && student.score !== null && (
-                                                                            <span className="font-bold">
-                                                                                {Math.round(student.score * 100)}%
-                                                                            </span>
-                                                                        )}
-                                                                        {!student.completed && (
-                                                                            <span className="text-[10px] text-muted-foreground">Not started</span>
-                                                                        )}
-                                                                    </div>
-                                                                ))}
-                                                            </div>
-                                                        )}
-
-                                                        {progressData[assignment.id].total_students === 0 && (
-                                                            <p className="text-xs text-center text-muted-foreground py-3">
-                                                                No students enrolled yet
-                                                            </p>
-                                                        )}
-                                                    </>
-                                                ) : (
-                                                    <p className="text-xs text-center text-muted-foreground py-3">
-                                                        Failed to load progress
-                                                    </p>
-                                                )}
-                                            </div>
-                                        )}
+                                        <div onClick={(e) => e.stopPropagation()}>
+                                            <DeleteConfirm
+                                                title="Delete Assignment?"
+                                                description={`This will permanently delete "${assignment.title}".`}
+                                                onConfirm={() => handleDelete(assignment.id)}
+                                            />
+                                        </div>
                                     </div>
                                 </div>
                             ))}
