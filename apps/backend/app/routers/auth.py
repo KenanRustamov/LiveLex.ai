@@ -344,10 +344,25 @@ async def get_class_analytics(email: str):
             
     # Sort by accuracy ascending (lowest first)
     words_list.sort(key=lambda x: x["accuracy"])
+
+    # Calculate Total Assigned Words (Goal)
+    from app.db.models import AssignmentDoc
+    assignments = await AssignmentDoc.find(AssignmentDoc.teacher_id == str(teacher.id)).to_list()
+    
+    unique_assigned_words = set()
+    for assignment in assignments:
+        for vocab_item in assignment.vocab:
+            # Handle both dict and object formats if necessary, though model says Dict[str, str]
+            if isinstance(vocab_item, dict):
+                s_name = vocab_item.get("source_name", "").strip().lower()
+                t_name = vocab_item.get("target_name", "").strip().lower()
+                if s_name and t_name:
+                    unique_assigned_words.add((s_name, t_name))
     
     return {
         "overall_accuracy": overall_accuracy,
         "total_words_practiced": len(word_stats),
+        "total_assigned_words": len(unique_assigned_words),
         "total_attempts": total_attempts,
         "struggling_words": words_list[:5]  # Top 5 hardest
     }

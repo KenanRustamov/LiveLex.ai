@@ -46,10 +46,10 @@ export function DashboardOverview({
             }
         }),
         columnHelper.accessor("words_practiced", {
-            header: "Words Practiced",
+            header: "Assigned Words Practiced",
             cell: (info) => (
                 <span className="text-gray-600 font-medium">
-                    {info.getValue()} / {classAnalytics?.total_words_practiced || '0'} words
+                    {info.getValue()} / {classAnalytics?.total_assigned_words || '0'} words
                 </span>
             )
         }),

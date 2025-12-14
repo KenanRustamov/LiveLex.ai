@@ -40,5 +40,6 @@ export interface StrugglingWord {
 export interface ClassAnalytics {
     overall_accuracy: number;
     total_words_practiced: number;
+    total_assigned_words: number;
     struggling_words: StrugglingWord[];
 }

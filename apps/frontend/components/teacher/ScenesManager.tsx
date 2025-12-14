@@ -92,7 +92,7 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
         try {
             // Filter out empty vocab entries
             const validVocab = vocab.filter(v => v.source_name.trim() && v.target_name.trim());
-            
+
             const payload = {
                 email: session.user.email,
                 name: newSceneName,
@@ -185,7 +185,7 @@ export function ScenesManager({ scenes, onSceneCreated, onSceneDeleted, onSceneU
                                     setNewSceneDesc(e.target.value);
                                     if (errors.description) setErrors({ ...errors, description: undefined });
                                 }}
-                                className={errors.description ? "min-h-[100px] border-red-500 rounded-xl" : "min-h-[100px] rounded-xl"}
+                                className={errors.description ? "min-h-[50px] border-red-500 rounded-xl" : "min-h-[50px] rounded-xl"}
                             />
                             {errors.description && <p className="text-sm text-red-500 font-medium">{errors.description}</p>}
                         </div>
