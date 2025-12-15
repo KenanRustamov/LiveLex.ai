@@ -44,16 +44,22 @@ class ActionJudgmentResponse(BaseModel):
     example_id: str
     predicted_correct: bool
 
-
 class ChatEvalRequest(BaseModel):
-    task: Literal["scene_objects", "action_judgment"]
+    task: Literal["scene_objects", "action_judgment", "grammar_judgment"]
+
+    # shared
+    example_id: Optional[str] = None
+
     # scene_objects
     scene_id: Optional[str] = None
     scene_image_path: Optional[str] = None
+
     # action_judgment
-    example_id: Optional[str] = None
     action_image_path: Optional[str] = None
     prompt_en: Optional[str] = None
+
+    # grammar_judgment
+    sentence: Optional[str] = None
 
 
 def _ensure_openai_client() -> OpenAI:
@@ -260,6 +266,71 @@ async def chat_eval(body: ChatEvalRequest):
             example_id=body.example_id,
             predicted_correct=predicted_correct,
         )
+    
+    elif body.task == "grammar_judgment":
+        if not body.example_id or not body.sentence:
+            raise HTTPException(
+                status_code=400,
+                detail="example_id and sentence are required for task=grammar_judgment",
+            )
+
+        user_text = (
+            "You are evaluating Spanish grammar in a language-learning task.\n\n"
+            "You are given ONE sentence.\n\n"
+            "Your job:\n"
+            "1) Decide whether the sentence is grammatically correct Spanish.\n"
+            "2) If it is incorrect, identify the SINGLE best error type.\n\n"
+            "Valid error_type values (use EXACTLY one of these, lowercase):\n"
+            "- article_gender\n"
+            "- tense_mismatch\n"
+            "- incorrect_conjugation\n"
+            "- wrong_person\n"
+            "- infinitive_instead_of_conjugated\n"
+            "- wrong_person_tense\n"
+            "- subjunctive_instead_of_indicative\n"
+            "- unmotivated_plural\n\n"
+            "If the sentence is correct, set error_type to null.\n\n"
+            "Return ONLY a JSON object of the form:\n"
+            "{\n"
+            '  "task": "grammar_judgment",\n'
+            '  "example_id": "<example_id>",\n'
+            '  "is_correct": true or false,\n'
+            '  "error_type": "<one_of_the_list_above>" or null\n'
+            "}\n"
+        )
+
+        resp = client.responses.create(
+            model=settings.llm_model,
+            input=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "input_text",
+                            "text": user_text + "\n\nSentence:\n" + body.sentence,
+                        }
+                    ],
+                }
+            ],
+        )
+
+        try:
+            text_out = resp.output[0].content[0].text
+        except Exception as e:
+            logging.error("Unexpected response structure for grammar_judgment: %s", e, exc_info=True)
+            raise HTTPException(
+                status_code=500,
+                detail="Unexpected model response structure; see backend logs.",
+            )
+
+        data = _parse_json_text(text_out)
+
+        return {
+            "task": "grammar_judgment",
+            "example_id": body.example_id,
+            "is_correct": bool(data.get("is_correct")),
+            "error_type": data.get("error_type"),
+        }
 
     else:
         raise HTTPException(status_code=400, detail=f"Unknown task: {body.task}")

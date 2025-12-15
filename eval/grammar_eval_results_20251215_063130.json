@@ -1,0 +1,382 @@
+{
+  "total_cases": 50,
+  "sentence_accuracy": 0.88,
+  "error_type_accuracy": 0.72,
+  "num_examples": 25,
+  "errors": [
+    {
+      "example_id": "grammar_004",
+      "case": "incorrect_sentence_missed",
+      "expected": "wrong_person",
+      "model_output": {
+        "task": "grammar_judgment",
+        "example_id": "grammar_004_incorrect",
+        "is_correct": true,
+        "error_type": null
+      }
+    },
+    {
+      "example_id": "grammar_015",
+      "case": "incorrect_sentence_missed",
+      "expected": "wrong_person_tense",
+      "model_output": {
+        "task": "grammar_judgment",
+        "example_id": "grammar_015_incorrect",
+        "is_correct": true,
+        "error_type": null
+      }
+    },
+    {
+      "example_id": "grammar_016",
+      "case": "incorrect_sentence_missed",
+      "expected": "wrong_person",
+      "model_output": {
+        "task": "grammar_judgment",
+        "example_id": "grammar_016_incorrect",
+        "is_correct": true,
+        "error_type": null
+      }
+    },
+    {
+      "example_id": "grammar_017",
+      "case": "incorrect_sentence_missed",
+      "expected": "wrong_person",
+      "model_output": {
+        "task": "grammar_judgment",
+        "example_id": "grammar_017_incorrect",
+        "is_correct": true,
+        "error_type": null
+      }
+    },
+    {
+      "example_id": "grammar_018",
+      "case": "incorrect_sentence_missed",
+      "expected": "wrong_person",
+      "model_output": {
+        "task": "grammar_judgment",
+        "example_id": "grammar_018_incorrect",
+        "is_correct": true,
+        "error_type": null
+      }
+    },
+    {
+      "example_id": "grammar_020",
+      "case": "incorrect_sentence_missed",
+      "expected": "subjunctive_instead_of_indicative",
+      "model_output": {
+        "task": "grammar_judgment",
+        "example_id": "grammar_020_incorrect",
+        "is_correct": true,
+        "error_type": null
+      }
+    },
+    {
+      "example_id": "grammar_022",
+      "case": "error_type_mismatch",
+      "expected": "unmotivated_plural",
+      "predicted": "article_gender"
+    }
+  ],
+  "results": [
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_001_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_001_incorrect",
+      "is_correct": false,
+      "error_type": "article_gender"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_002_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_002_incorrect",
+      "is_correct": false,
+      "error_type": "tense_mismatch"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_003_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_003_incorrect",
+      "is_correct": false,
+      "error_type": "incorrect_conjugation"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_004_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_004_incorrect",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_005_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_005_incorrect",
+      "is_correct": false,
+      "error_type": "infinitive_instead_of_conjugated"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_006_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_006_incorrect",
+      "is_correct": false,
+      "error_type": "article_gender"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_007_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_007_incorrect",
+      "is_correct": false,
+      "error_type": "tense_mismatch"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_008_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_008_incorrect",
+      "is_correct": false,
+      "error_type": "tense_mismatch"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_009_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_009_incorrect",
+      "is_correct": false,
+      "error_type": "incorrect_conjugation"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_010_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_010_incorrect",
+      "is_correct": false,
+      "error_type": "article_gender"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_011_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_011_incorrect",
+      "is_correct": false,
+      "error_type": "incorrect_conjugation"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_012_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_012_incorrect",
+      "is_correct": false,
+      "error_type": "article_gender"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_013_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_013_incorrect",
+      "is_correct": false,
+      "error_type": "tense_mismatch"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_014_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_014_incorrect",
+      "is_correct": false,
+      "error_type": "incorrect_conjugation"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_015_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_015_incorrect",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_016_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_016_incorrect",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_017_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_017_incorrect",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_018_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_018_incorrect",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_019_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_019_incorrect",
+      "is_correct": false,
+      "error_type": "infinitive_instead_of_conjugated"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_020_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_020_incorrect",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_021_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_021_incorrect",
+      "is_correct": false,
+      "error_type": "article_gender"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_022_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_022_incorrect",
+      "is_correct": false,
+      "error_type": "article_gender"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_023_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_023_incorrect",
+      "is_correct": false,
+      "error_type": "tense_mismatch"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_024_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_024_incorrect",
+      "is_correct": false,
+      "error_type": "infinitive_instead_of_conjugated"
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_025_correct",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "task": "grammar_judgment",
+      "example_id": "grammar_025_incorrect",
+      "is_correct": false,
+      "error_type": "tense_mismatch"
+    }
+  ]
+}
