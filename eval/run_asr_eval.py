@@ -9,7 +9,7 @@ DATA_ROOT = SCRIPT_DIR / "Data" / "Voice_Transcription_Dataset"
 
 BACKEND_URL = "http://localhost:8000/v1/transcribe"
 
-TMP_AUDIO_DIR = Path(".tmp_audio")
+TMP_AUDIO_DIR = Path("/eval/Data/.tmp_audio")
 TMP_AUDIO_DIR.mkdir(exist_ok=True)
 
 
