@@ -1,186 +1,189 @@
 [
   {
     "subject_id": "subject_01",
-    "audio_path": "Data/Voice_Transcription_Dataset/Audio/subject1/",
+    "audio_path": "Audio/subject1/",
     "samples": [
       {
-        "sample_id": "subject1_sample1",
-        "transcription": "weather",
+        "sample_id": "Weather",
+        "transcription": "Weather",
         "type": "vocab",
         "language": "english"
       },
       {
-        "sample_id": "subject1_sample2",
-        "transcription": "through",
+        "sample_id": "Through",
+        "transcription": "Through",
         "type": "vocab",
         "language": "english"
       },
       {
-        "sample_id": "subject1_sample3",
+        "sample_id": "Library",
         "transcription": "library",
         "type": "vocab",
         "language": "english"
       },
       {
-        "sample_id": "subject1_sample4",
+        "sample_id": "Breakfast",
         "transcription": "breakfast",
         "type": "vocab",
         "language": "english"
       },
       {
-        "sample_id": "subject1_sample5",
+        "sample_id": "Thought",
         "transcription": "thought",
         "type": "vocab",
         "language": "english"
       },
 
       {
-        "sample_id": "subject1_sample6",
+        "sample_id": "I am learning Spanish every day",
         "transcription": "I am learning Spanish every day.",
         "type": "sentence",
         "language": "english"
       },
       {
-        "sample_id": "subject1_sample7",
+        "sample_id": "He goes to school at eight in the morning",
         "transcription": "He goes to school at eight in the morning.",
         "type": "sentence",
         "language": "english"
       },
       {
-        "sample_id": "subject1_sample8",
+        "sample_id": "We want to visit our family tomorrow",
         "transcription": "We want to visit our family tomorrow.",
         "type": "sentence",
         "language": "english"
       },
       {
-        "sample_id": "subject1_sample9",
+        "sample_id": "She doesnt understand this word",
         "transcription": "She doesn’t understand this word.",
         "type": "sentence",
         "language": "english"
       },
       {
-        "sample_id": "subject1_sample10",
+        "sample_id": "They were cooking dinner when I arrived",
         "transcription": "They were cooking dinner when I arrived.",
         "type": "sentence",
         "language": "english"
       },
+
       {
-        "sample_id": "subject1_sample11",
+        "sample_id": "I think the word is casa",
         "transcription": "I think the word is casa.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject1_sample12",
+        "sample_id": "Can you tell me what rápido means",
         "transcription": "Can you tell me what rápido means?",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject1_sample13",
+        "sample_id": "The answer sounds like hablar",
         "transcription": "The answer sounds like hablar.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject1_sample14",
+        "sample_id": "Im not sure if the right word is perro or pero",
         "transcription": "I’m not sure if the right word is perro or pero.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject1_sample15",
+        "sample_id": "I heard something like biblioteca",
         "transcription": "I heard something like biblioteca.",
         "type": "sentence",
         "language": "mixed"
       },
 
       {
-        "sample_id": "subject1_sample16",
+        "sample_id": "Ventana",
         "transcription": "ventana",
         "type": "vocab",
         "language": "spanish"
       },
       {
-        "sample_id": "subject1_sample17",
+        "sample_id": "Desayuno",
         "transcription": "desayuno",
         "type": "vocab",
         "language": "spanish"
       },
       {
-        "sample_id": "subject1_sample18",
+        "sample_id": "Reloj",
         "transcription": "reloj",
         "type": "vocab",
         "language": "spanish"
       },
       {
-        "sample_id": "subject1_sample19",
+        "sample_id": "Calle",
         "transcription": "calle",
         "type": "vocab",
         "language": "spanish"
       },
       {
-        "sample_id": "subject1_sample20",
+        "sample_id": "Pensamiento",
         "transcription": "pensamiento",
         "type": "vocab",
         "language": "spanish"
       },
+
       {
-        "sample_id": "subject1_sample21",
+        "sample_id": "Yo estoy aprendiendo inglés ahora",
         "transcription": "Yo estoy aprendiendo inglés ahora.",
         "type": "sentence",
         "language": "spanish"
       },
       {
-        "sample_id": "subject1_sample22",
+        "sample_id": "Ella va a trabajar a las nueve",
         "transcription": "Ella va a trabajar a las nueve.",
         "type": "sentence",
         "language": "spanish"
       },
       {
-        "sample_id": "subject1_sample23",
+        "sample_id": "Nosotros queremos viajar este verano",
         "transcription": "Nosotros queremos viajar este verano.",
         "type": "sentence",
         "language": "spanish"
       },
       {
-        "sample_id": "subject1_sample24",
+        "sample_id": "Él no entiende esta frase",
         "transcription": "Él no entiende esta frase.",
         "type": "sentence",
         "language": "spanish"
       },
       {
-        "sample_id": "subject1_sample25",
+        "sample_id": "Ellos estaban cocinando cuando llegué",
         "transcription": "Ellos estaban cocinando cuando llegué.",
         "type": "sentence",
         "language": "spanish"
       },
+
       {
-        "sample_id": "subject1_sample26",
+        "sample_id": "Creo que la palabra es window",
         "transcription": "Creo que la palabra es window.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject1_sample27",
+        "sample_id": "Sabes qué significa hungry",
         "transcription": "¿Sabes qué significa hungry?",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject1_sample28",
+        "sample_id": "Me parece que dijo teacher",
         "transcription": "Me parece que dijo teacher.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject1_sample29",
+        "sample_id": "No sé si es cat o cut",
         "transcription": "No sé si es cat o cut.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject1_sample30",
+        "sample_id": "Escuché algo como breakfast",
         "transcription": "Escuché algo como breakfast.",
         "type": "sentence",
         "language": "mixed"
@@ -189,565 +192,526 @@
   },
   {
     "subject_id": "subject_02",
-    "audio_path": "Data/Voice_Transcription_Dataset/Audio/subject2/",
+    "audio_path": "Audio/subject2/",
     "samples": [
       {
-        "sample_id": "subject2_sample1",
+        "sample_id": "Neighbor",
         "transcription": "neighbor",
         "type": "vocab",
         "language": "english"
       },
       {
-        "sample_id": "subject2_sample2",
+        "sample_id": "Schedule",
         "transcription": "schedule",
         "type": "vocab",
         "language": "english"
       },
       {
-        "sample_id": "subject2_sample3",
+        "sample_id": "Clothes",
         "transcription": "clothes",
         "type": "vocab",
         "language": "english"
       },
       {
-        "sample_id": "subject2_sample4",
+        "sample_id": "Travel",
         "transcription": "travel",
         "type": "vocab",
         "language": "english"
       },
       {
-        "sample_id": "subject2_sample5",
+        "sample_id": "Friendship",
         "transcription": "friendship",
         "type": "vocab",
         "language": "english"
       },
 
       {
-        "sample_id": "subject2_sample6",
+        "sample_id": "I am calling my mom right now",
         "transcription": "I am calling my mom right now.",
         "type": "sentence",
         "language": "english"
       },
       {
-        "sample_id": "subject2_sample7",
+        "sample_id": "She writes in her journal every night",
         "transcription": "She writes in her journal every night.",
         "type": "sentence",
         "language": "english"
       },
       {
-        "sample_id": "subject2_sample8",
+        "sample_id": "We are planning a trip next month",
         "transcription": "We are planning a trip next month.",
         "type": "sentence",
         "language": "english"
       },
       {
-        "sample_id": "subject2_sample9",
+        "sample_id": "He walks to work when the weather is nice",
         "transcription": "He walks to work when the weather is nice.",
         "type": "sentence",
         "language": "english"
       },
       {
-        "sample_id": "subject2_sample10",
+        "sample_id": "They have finished their homework already",
         "transcription": "They have finished their homework already.",
         "type": "sentence",
         "language": "english"
       },
 
       {
-        "sample_id": "subject2_sample11",
+        "sample_id": "I think the word is caminar",
         "transcription": "I think the word is caminar.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject2_sample12",
+        "sample_id": "Does avión mean airplane",
         "transcription": "Does avión mean airplane?",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject2_sample13",
+        "sample_id": "The sound was something like feliz",
         "transcription": "The sound was something like feliz.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject2_sample14",
+        "sample_id": "Maybe the correct word is dinero",
         "transcription": "Maybe the correct word is dinero.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject2_sample15",
+        "sample_id": "I heard the phrase hasta luego",
         "transcription": "I heard the phrase hasta luego.",
         "type": "sentence",
         "language": "mixed"
       },
 
       {
-        "sample_id": "subject2_sample16",
+        "sample_id": "Espejo",
         "transcription": "espejo",
         "type": "vocab",
         "language": "spanish"
       },
       {
-        "sample_id": "subject2_sample17",
+        "sample_id": "Pantalla",
         "transcription": "pantalla",
         "type": "vocab",
         "language": "spanish"
       },
       {
-        "sample_id": "subject2_sample18",
+        "sample_id": "Bosque",
         "transcription": "bosque",
         "type": "vocab",
         "language": "spanish"
       },
       {
-        "sample_id": "subject2_sample19",
+        "sample_id": "Equipo",
         "transcription": "equipo",
         "type": "vocab",
         "language": "spanish"
       },
       {
-        "sample_id": "subject2_sample20",
+        "sample_id": "Sonrisa",
         "transcription": "sonrisa",
         "type": "vocab",
         "language": "spanish"
       },
 
       {
-        "sample_id": "subject2_sample21",
+        "sample_id": "Yo llamo a mi hermano todos los días",
         "transcription": "Yo llamo a mi hermano todos los días.",
         "type": "sentence",
         "language": "spanish"
       },
       {
-        "sample_id": "subject2_sample22",
+        "sample_id": "Ella escribe correos para su trabajo",
         "transcription": "Ella escribe correos para su trabajo.",
         "type": "sentence",
         "language": "spanish"
       },
       {
-        "sample_id": "subject2_sample23",
+        "sample_id": "Nosotros estamos preparando la cena",
         "transcription": "Nosotros estamos preparando la cena.",
         "type": "sentence",
         "language": "spanish"
       },
       {
-        "sample_id": "subject2_sample24",
+        "sample_id": "Él corre por el parque por la mañana",
         "transcription": "Él corre por el parque por la mañana.",
         "type": "sentence",
         "language": "spanish"
       },
       {
-        "sample_id": "subject2_sample25",
+        "sample_id": "Ellos han terminado la lectura",
         "transcription": "Ellos han terminado la lectura.",
         "type": "sentence",
         "language": "spanish"
       },
 
       {
-        "sample_id": "subject2_sample26",
+        "sample_id": "Creo que la palabra es chair",
         "transcription": "Creo que la palabra es chair.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject2_sample27",
+        "sample_id": "Esto suena como morning",
         "transcription": "¿Esto suena como morning?",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject2_sample28",
+        "sample_id": "Tal vez dijo homework",
         "transcription": "Tal vez dijo homework.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject2_sample29",
+        "sample_id": "No sé si quiso decir blue o blew",
         "transcription": "No sé si quiso decir blue o blew.",
         "type": "sentence",
         "language": "mixed"
       },
       {
-        "sample_id": "subject2_sample30",
+        "sample_id": "Creo que escuché la palabra computer",
         "transcription": "Creo que escuché la palabra computer.",
         "type": "sentence",
         "language": "mixed"
       }
     ]
-  }, 
+  },
   {
     "subject_id": "subject_03",
-    "audio_path": "Data/Voice_Transcription_Dataset/Audio/subject3/",
+    "audio_path": "Audio/subject3/",
     "samples": [
-        {
-        "sample_id": "subject3_sample1",
+      {
+        "sample_id": "Butterfly",
         "transcription": "butterfly",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample2",
+      },
+      {
+        "sample_id": "Mountain",
         "transcription": "mountain",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample3",
+      },
+      {
+        "sample_id": "Comfort",
         "transcription": "comfort",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample4",
+      },
+      {
+        "sample_id": "Message",
         "transcription": "message",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample5",
+      },
+      {
+        "sample_id": "Storage",
         "transcription": "storage",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample6",
+      },
+      {
+        "sample_id": "I am sending you a message now",
         "transcription": "I am sending you a message now.",
         "type": "sentence",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample7",
+      },
+      {
+        "sample_id": "She climbs the mountain every summer",
         "transcription": "She climbs the mountain every summer.",
         "type": "sentence",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample8",
+      },
+      {
+        "sample_id": "He is searching for a new apartment",
         "transcription": "He is searching for a new apartment.",
         "type": "sentence",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample9",
+      },
+      {
+        "sample_id": "We read the article this morning",
         "transcription": "We read the article this morning.",
         "type": "sentence",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample10",
+      },
+      {
+        "sample_id": "They are opening the store early today",
         "transcription": "They are opening the store early today.",
         "type": "sentence",
         "language": "english"
-        },
-        {
-        "sample_id": "subject3_sample11",
+      },
+      {
+        "sample_id": "Is the word montaña",
         "transcription": "Is the word montaña?",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample12",
+      },
+      {
+        "sample_id": "I think he said mariposa",
         "transcription": "I think he said mariposa.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample13",
+      },
+      {
+        "sample_id": "Does almacén mean store",
         "transcription": "Does almacén mean store?",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample14",
+      },
+      {
+        "sample_id": "It sounded like confortable",
         "transcription": "It sounded like confortable.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample15",
+      },
+      {
+        "sample_id": "Maybe the answer is mensaje",
         "transcription": "Maybe the answer is mensaje.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample16",
+      },
+      {
+        "sample_id": "Sombrero",
         "transcription": "sombrero",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample17",
+      },
+      {
+        "sample_id": "Carretera",
         "transcription": "carretera",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample18",
+      },
+      {
+        "sample_id": "Esquina",
         "transcription": "esquina",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample19",
+      },
+      {
+        "sample_id": "Recuerdo",
         "transcription": "recuerdo",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample20",
+      },
+      {
+        "sample_id": "Maleta",
         "transcription": "maleta",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample21",
+      },
+      {
+        "sample_id": "Yo estoy buscando mis llaves",
         "transcription": "Yo estoy buscando mis llaves.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample22",
+      },
+      {
+        "sample_id": "Ella compra un sombrero nuevo",
         "transcription": "Ella compra un sombrero nuevo.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample23",
+      },
+      {
+        "sample_id": "Nosotros viajamos por la carretera",
         "transcription": "Nosotros viajamos por la carretera.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample24",
+      },
+      {
+        "sample_id": "Él recuerda la historia",
         "transcription": "Él recuerda la historia.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample25",
+      },
+      {
+        "sample_id": "Ellos están llevando las maletas",
         "transcription": "Ellos están llevando las maletas.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject3_sample26",
+      },
+      {
+        "sample_id": "Creo que la palabra es corner",
         "transcription": "Creo que la palabra es corner.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample27",
+      },
+      {
+        "sample_id": "Dijo highway",
         "transcription": "¿Dijo highway?",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample28",
+      },
+      {
+        "sample_id": "Tal vez quiso decir memory",
         "transcription": "Tal vez quiso decir memory.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample29",
+      },
+      {
+        "sample_id": "Me suena a suitcase",
         "transcription": "Me suena a suitcase.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject3_sample30",
+      },
+      {
+        "sample_id": "Escuché algo como hat",
         "transcription": "Escuché algo como hat.",
         "type": "sentence",
         "language": "mixed"
-        }
+      }
     ]
-  },
-  {
+  }, 
+    {
     "subject_id": "subject_04",
-    "audio_path": "Data/Voice_Transcription_Dataset/Audio/subject4/",
+    "audio_path": "Audio/subject4/",
     "samples": [
-        {
-        "sample_id": "subject4_sample1",
-        "transcription": "knowledge",
+      {
+        "sample_id": "Bed",
+        "transcription": "Bed",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample2",
-        "transcription": "culture",
+      },
+      {
+        "sample_id": "Chair",
+        "transcription": "Chair",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample3",
-        "transcription": "receipt",
+      },
+      {
+        "sample_id": "Door",
+        "transcription": "Door",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample4",
-        "transcription": "journey",
+      },
+      {
+        "sample_id": "Table",
+        "transcription": "Table",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample5",
-        "transcription": "whisper",
+      },
+      {
+        "sample_id": "Window",
+        "transcription": "Window",
         "type": "vocab",
         "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample6",
-        "transcription": "I am keeping all of my receipts.",
+      },
+
+      {
+        "sample_id": "I clean the table every morning",
+        "transcription": "I clean the table every morning.",
         "type": "sentence",
         "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample7",
-        "transcription": "She whispers when she is nervous.",
+      },
+      {
+        "sample_id": "I closed the door last night",
+        "transcription": "I closed the door last night.",
         "type": "sentence",
         "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample8",
-        "transcription": "We are learning about a new culture.",
+      },
+      {
+        "sample_id": "I opened the window yesterday",
+        "transcription": "I opened the window yesterday.",
         "type": "sentence",
         "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample9",
-        "transcription": "He begins his journey tomorrow morning.",
-        "type": "sentence",
-        "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample10",
-        "transcription": "They were talking quietly in the library.",
-        "type": "sentence",
-        "language": "english"
-        },
-        {
-        "sample_id": "subject4_sample11",
-        "transcription": "I think the word is recibo.",
+      },
+      {
+        "sample_id": "I slept on the cama all day",
+        "transcription": "I slept on the cama all day.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample12",
-        "transcription": "Does susurro mean whisper?",
+      },
+      {
+        "sample_id": "I forgot to close the ventana",
+        "transcription": "I forgot to close the ventana.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample13",
-        "transcription": "Maybe the phrase was nuevo viaje.",
+      },
+      {
+        "sample_id": "I think the word is mesa but Im not sure",
+        "transcription": "I think the word is mesa, but I’m not sure.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample14",
-        "transcription": "I heard something like conocimiento.",
+      },
+      {
+        "sample_id": "The puerta makes a loud noise",
+        "transcription": "The puerta makes a loud noise.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample15",
-        "transcription": "Is the correct word cultura?",
+      },
+      {
+        "sample_id": "The silla is broken so I wont sit there",
+        "transcription": "The silla is broken, so I won’t sit there.",
         "type": "sentence",
         "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample16",
-        "transcription": "oído",
+      },
+
+      {
+        "sample_id": "Cama",
+        "transcription": "Cama",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample17",
-        "transcription": "cubierto",
+      },
+      {
+        "sample_id": "Mesa",
+        "transcription": "Mesa",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample18",
-        "transcription": "orilla",
+      },
+      {
+        "sample_id": "Puerta",
+        "transcription": "Puerta",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample19",
-        "transcription": "sombra",
+      },
+      {
+        "sample_id": "Silla",
+        "transcription": "Silla",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample20",
-        "transcription": "mudanza",
+      },
+      {
+        "sample_id": "Ventana",
+        "transcription": "Ventana",
         "type": "vocab",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample21",
-        "transcription": "Yo escucho con mucho cuidado.",
+      },
+
+      {
+        "sample_id": "La cama es cómoda",
+        "transcription": "La cama es cómoda.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample22",
-        "transcription": "Ella pone los cubiertos en la mesa.",
+      },
+      {
+        "sample_id": "La silla está en la cocina",
+        "transcription": "La silla está en la cocina.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample23",
-        "transcription": "Nosotros caminamos por la orilla.",
+      },
+      {
+        "sample_id": "Limpio la mesa todos los días",
+        "transcription": "Limpio la mesa todos los días.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample24",
-        "transcription": "Él ve su sombra en el piso.",
+      },
+      {
+        "sample_id": "Abrí la ventana ayer",
+        "transcription": "Abrí la ventana ayer.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample25",
-        "transcription": "Ellos hacen una mudanza esta semana.",
+      },
+      {
+        "sample_id": "Cerré la puerta anoche",
+        "transcription": "Cerré la puerta anoche.",
         "type": "sentence",
         "language": "spanish"
-        },
-        {
-        "sample_id": "subject4_sample26",
-        "transcription": "Creo que dijo shadow.",
-        "type": "sentence",
-        "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample27",
-        "transcription": "¿Es shore la palabra correcta?",
-        "type": "sentence",
-        "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample28",
-        "transcription": "Tal vez escuché move.",
-        "type": "sentence",
-        "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample29",
-        "transcription": "¿Significa silverware?",
-        "type": "sentence",
-        "language": "mixed"
-        },
-        {
-        "sample_id": "subject4_sample30",
-        "transcription": "Me suena como hearing.",
-        "type": "sentence",
-        "language": "mixed"
-        }
+      }
     ]
   }
 ]
