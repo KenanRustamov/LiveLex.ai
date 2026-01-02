@@ -6,10 +6,13 @@ LiveLex is a dual-interface language learning platform:
   <img width="292" height="553" alt="image" src="https://github.com/user-attachments/assets/6b47862f-cd2f-43e3-87b7-992d614ebcee" />
 </p>
 
-3.  **Teacher Dashboard:** A web portal for teachers to create assignments, manage students, and view real-time analytics.
+2.  **Teacher Dashboard:** A web portal for teachers to create assignments, manage students, and view real-time analytics.
 <p align="center">
   <img width="660" height="406" alt="image" src="https://github.com/user-attachments/assets/938de60c-846c-468d-bb2d-982fff4c4f2f" />
 </p>
+
+3. **DEMO**
+
 
 ## Features
 
