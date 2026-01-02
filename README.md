@@ -3,6 +3,8 @@
 LiveLex is a dual-interface language learning platform:
 1.  **Student View (PWA):** An AI AR-glasses emulator that runs on mobile devices. It captures real-time video, identifies objects, and provides vocabulary lessons via audio.
 2.  **Teacher Dashboard:** A web portal for teachers to create assignments, manage students, and view real-time analytics.
+<img width="660" height="406" alt="image" src="https://github.com/user-attachments/assets/938de60c-846c-468d-bb2d-982fff4c4f2f" />
+
 
 ## Features
 
